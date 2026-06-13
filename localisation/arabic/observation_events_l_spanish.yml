@@ -1,0 +1,401 @@
+﻿l_spanish:
+
+# Observation Events from base game
+# Refactored as part of the 3.7 "Canis Minor" update.
+
+# Asteroid Sighted!
+ observation.2.name:1 "[pre_ftl_planet.GetName] ﻦﻣ ﺏﺮﺘﻘﻳ ﺐﻜﻳﻮﻜﻟﺍ"
+ observation.2.desc:2 ".ﺪﻛﺆﻤﻟﺍ ﺕﻮﻤﻟﺎﺑ [pre_ftl_planet.GetName] ﻰﻠﻋ [pre_ftl_country.GetName] ﻰﻠﻋ ﻢﻜﺤﻟﺍ ﻲﻨﻌﻳ ﺀﻲﺷ ﻱﺄﺑ ﻡﺎﻴﻘﻟﺍ ﻡﺪﻋ ﻥﺇ .ﺔﻟﺎﺤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺀﺎﻨﺜﺘﺳﺍ ﺢﻟﺎﺼﻟ ﺍﻮﻟﺩﺎﺟ ﺎﻨﺋﺎﻤﻠﻋ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻜﻟ ،ﻞﺧﺪﺘﻟﺍ ﻦﻣ ﺔﻴﺒﻠﺴﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﻲﻓ ﺎﻨﺘﻤﻬﻣ ﺎﻨﻌﻨﻤﺗ ﺎﻣ ﺓﺩﺎﻋ \n\n .ﺽﺍﺮﻘﻧﻻﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺙﺪﺣ ﺙﺍﺪﺣﻹ ﺔﻴﻓﺎﻛ ﺓﻮﻘﺑ [pre_ftl_planet.GetPlanetHabitat] ـﺑ ﺹﺎﺨﻟﺍ [GetRandomCompassDirection] ﺓﺮﻜﻟﺍ ﻒﺼﻧ ﻰﻠﻋ ﻚﻟﺫ ﺮﺛﺆﻳ ﻑﻮﺴﻓ ،ﺀﺍﺮﺟﺇ ﺫﺎﺨﺗﺍ ﻢﺘﻳ ﻢﻟ ﺎﻣ .ﻡﺩﺎﻗ ﺭﺎﺴﻣ ﻲﻓ 4 ﺔﺌﻔﻟﺍ ﻦﻣ ﺎﺒﻜﻳﻮﻛ [pre_ftl_planet.GetName] ﻝﻮﺣ ﺭﻭﺪﻳ ﻱﺬﻟﺍﻭ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻲﻓ ﺩﻮﺟﻮﻤﻟﺍ ﺮﻴﻐﺼﻟﺍ ﺔﻴﻜﻠﻔﻟﺍ ﺕﺎﺳﺎﻴﻘﻟﺍ ﺮﺒﺘﺨﻣ ﻒﺸﺘﻛﺍ"
+ observation.2.a:1 ".ﺐﻌﺻ ﻊﺿﻭ"
+# Asteroid Impacts Pre-FTL planet.
+ observation.4.name:1 "[pre_ftl_planet.GetName] ﺐﻜﻳﻮﻜﻟﺍ ﻡﺍﺪﻄﺻﺍ"
+ observation.4.desc:1 ".ﺮﻴﺜﻜﺑ ﻞﻔﺳﻷﺍ ﻲﻓ ﺩﻮﺟﻮﻟﺍ ﻦﻣ ﺎﻬﻧﻮﺳﺭﺪﻳ ﺍﻮﻧﺎﻛ ﻲﺘﻟﺍ [GetPreFTLLower] ﺓﺭﺎﻀﺣ ﺔﻴﺒﻟﺎﻏ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﻢﺗ ﺎﻤﻨﻴﺑ ﺖﻤﺻ ﻲﻓ ﺍﻭﺪﻫﺎﺸﻳ ﻥﺃ ﻻﺇ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻲﻓ ﺀﺎﻤﻠﻌﻟﺍ ﻥﺎﻜﻣﺈﺑ ﻦﻜﻳ ﻢﻟ .ﻲﺌﻴﺒﻟﺍ ﻪﻣﺎﻈﻨﻟ ﻪﺣﻼﺻﺇ ﻦﻜﻤﻳ ﻻ ﺭﺮﺿ ﻲﻓ ﺐﺒﺴﺗ ﺎﻤﻣ ،[pre_ftl_planet.GetPlanetHabitat] ﺢﻄﺴﺑ [pre_ftl_planet.GetName] ﻮﺤﻧ ﻪﺠﺘﻤﻟﺍ ﺐﻜﻳﻮﻜﻟﺍ ﻡﺪﻄﺻﺍ ،ﺎﻌﻗﻮﺘﻣ ﻥﺎﻛ ﺎﻤﻛ"
+ observation.4.a:1 ".ﻞﺧﺪﺘﻧ ﻥﺃ ﺎﻨﻘﺣ ﻦﻣ ﻦﻜﻳ ﻢﻟ ﻦﻜﻟ ،ﻱﻭﺎﺳﺄﻣ ﺮﻴﺼﻣ"
+ observation.4.a.tt:0 ".§Yﻱﺮﺠﺤﻟﺍ ﺮﺼﻌﻟﺍ§! ﻰﻟﺇ ﻊﺟﺍﺮﺗ :§Y[pre_ftl_country.GetName]§!"
+# Asteroid Collides with Observation Post.
+ observation.5.name:1 "ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﺮﻴﻣﺪﺗ ﻢﺗ"
+ observation.5.desc:1 ".ﺎﻬﺘﺳﺍﺭﺩ ﻲﻓ ﺔﻴﻨﻬﻤﻟﺍ ﻢﻬﺗﺎﻴﺣ ﺍﻮﻀﻣﺃ ﻲﺘﻟﺍ ﺓﺭﺎﻀﺤﻟﺍ ﺽﺍﺮﻘﻧﺍ ﺓﺪﻫﺎﺸﻣ ﻞﻤﺤﺗ ﺍﻮﻌﻴﻄﺘﺴﻳ ﻢﻟ ﻢﻬﻧﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ\n\n.ﻊﻗﻮﻤﻟﺍ ﻲﻓ ﻥﻮﺟﺎﻧ ﻙﺎﻨﻫ ﻦﻜﻳ ﻢﻟ ﻦﻜﻟﻭ ،[pre_ftl_planet.GetPlanetHabitat] ﻦﻋ ﺍﺪﻴﻌﺑ ﻥﺎﻣﺄﺑ ﺐﻜﻳﻮﻜﻟﺍ ﻑﺮﺣ ﻰﻟﺇ ﻢﻬﺗﺎﻴﺤﻀﺗ ﺕﺩﺃ .ﻡﺩﺎﻘﻟﺍ ﺐﻜﻳﻮﻜﻟﺍ ﻊﻣ ﺮﺷﺎﺒﻣ ﻡﺩﺎﺼﺗ ﺭﺎﺴﻣ ﻲﻓ ﺎﻬﻜﻳﺮﺤﺘﻟ ﺔﻄﺤﻤﻠﻟ ﺔﻳﺭﺍﺪﻤﻟﺍ ﺕﺎﻌﻓﺍﺪﻟﺍ [pre_ftl_planet.GetName] ﻕﻮﻓ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻲﻓ ﻥﻮﺜﺣﺎﺒﻟﺍ ﻡﺪﺨﺘﺳﺍ"
+ observation.5.a:1 "!ﻢﻠﻌﻠﻟ ﺔﺑﺮﺿ"
+# Observing Empire Destroys Asteroid
+ observation.7.name:1 "ﺐﻜﻳﻮﻜﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ"
+ observation.7.desc:1 "...ﺽﺍﺮﻘﻧﻻﺍ ﻦﻣ ﻢﻬﺑﺍﺮﺘﻗﺍ ﻯﺪﻣ ﻦﻋ ﺓﺮﻜﻓ ﻱﺃ ﻢﻬﻳﺪﻟ ﺲﻴﻟ [pre_ftl_country.GetName] ﻲﻓ ﺔﻴﺋﺎﻀﻔﻟﺍ [GetPreFTLLower] ﺕﺎﻨﺋﺎﻛ ﻥﺈﻓ ،ﻼﻫﺬﻣ ﺎﻴﻛﺰﻴﻧ ﻼﺑﺍﻭ ﻥﻮﻜﻳ ﻥﺃ ﺽﺮﺘﻔﻤﻟﺍ ﻦﻣ ﻥﺎﻛ ﺎﻤﻟ ﻢﻬﺗﺪﻫﺎﺸﻣ ﻦﻋ ﺮﻈﻨﻟﺍ ﻑﺮﺼﺑ\n\n.ﺭﺮﺿ ﻱﺃ ﻲﻓ ﺐﺒﺴﺘﺗ ﻥﺃ ﻞﺒﻗ ﻥﺎﻣﺄﺑ ﻕﺮﺘﺣﺍ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻦﻣ ﺎﻳﺎﻈﺸﻟﺍ ﻪﻴﻟﺇ ﺖﻠﺻﻭ ﺎﻣ .[pre_ftl_planet.GetPlanetHabitat] ﺢﻄﺳ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻦﻣ ﻦﻜﻤﺘﻳ ﻥﺃ ﻞﺒﻗ [pre_ftl_planet.GetName] ﻮﺤﻧ ﻪﺠﺘﻳ ﻥﺎﻛ ﻱﺬﻟﺍ ﺐﻜﻳﻮﻜﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ"
+ observation.7.a:1 ".ﻚﻟﺫ ﺍﻮﻠﻌﻔﻳ ﻦﻟﻭ"
+# Third Party Destroys Asteroid (Event for Third Party)
+ observation.8.name:0 "$ﻢﺳﺍ.7.ﺔﻈﺣﻼﻤﻟﺍ$"
+ observation.8.desc:0 "$desc.7.ﺔﻈﺣﻼﻤﻟﺍ$"
+ observation.8.a:0 "$a.7.ﺔﻈﺣﻼﻤﻟﺍ$"
+# Third Party Destroys Asteroid (Event for Observing Empire)
+ observation.9.name:0 "$ﻢﺳﺍ.7.ﺔﻈﺣﻼﻤﻟﺍ$"
+ observation.9.desc:0 "$desc.7.ﺔﻈﺣﻼﻤﻟﺍ$"
+ observation.9.a:0 "$a.7.ﺔﻈﺣﻼﻤﻟﺍ$"
+# Pre-FTL civilization Diverts Asteroid (Event for Observing Empire)
+ observation.10.name:0 "ﺐﻜﻳﻮﻜﻟﺍ ﻞﻳﻮﺤﺗ"
+ observation.10.desc:0 ".ﻩﺭﺎﺴﻣ ﻦﻋ ﺐﻜﻳﻮﻜﻟﺍ ﻞﻳﻮﺤﺗ ﻲﻓ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺩﻮﺟﻮﻤﻟﺍ [GetPreFTLLowerPlural] ﺢﺠﻧ ،ﺔﻳﺭﺍﺪﻤﻟﺍ ﺎﻜﻴﻧﺎﻜﻴﻤﻠﻟ ﻊﺋﺍﺭ ﺽﺮﻋ ﻲﻓ ﻪﻧﺃ ﻻﺇ ،ﻩﺮﻴﻣﺪﺘﻟ ﺔﻴﻓﺎﻛ ﻦﻜﺗ ﻢﻟ ﺦﻳﺭﺍﻮﺼﻟﺍ ﻩﺬﻫ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺐﻜﻳﻮﻜﻟﺍ ﻰﻠﻋ ﺔﻳﻭﻮﻧ ﺦﻳﺭﺍﻮﺻ ﺓﺪﻋ [pre_ftl_country.GetName] ﻖﻠﻃﺃ ،[pre_ftl_planet.GetName] ﺫﺎﻘﻧﻹ ﺓﺮﻴﺧﺃ ﺔﻟﻭﺎﺤﻣ ﻲﻓ"
+ observation.10.a:0 "!ﺰﻴﻤﻣ"
+ observation.10.a.tt:0 ".ﺍﺮﻬﺷ 24 ﺓﺪﻤﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ §G+25%§!: §Y[pre_ftl_country.GetName]§! ﺐﺳﺎﻜﻣ"
+
+# Missing Scientist
+ observation.101.name:1 "ﺩﻮﻘﻔﻣ ﻢﻟﺎﻋ"
+ observation.101.desc:2 ".ﻥﻵﺍ ﻰﺘﺣ ﺡﺎﺠﻧ ﻥﻭﺩ ﻦﻜﻟﻭ ،[GetPreFTLLowerPlural] ﻪﺒﻨﻧ ﻻ ﻰﺘﺣ ﺍﺩﻭﺪﺤﻣ ﺎﺜﺤﺑ ﺎﻨﻳﺮﺟﺃ ﺪﻘﻟ \n\n.[missing_scientist.GetHisHer] ﻖﻳﺮﻓ ﺔﻴﻘﺑ ﻊﻣ ﻙﻮﻜﻤﻟﺍ ﻰﻟﺇ ﺪﻌﻳ ﻢﻟ ﻪﻨﻜﻟ ،[pre_ftl_planet.GetPlanetHabitat] ﺢﻄﺳ ﻦﻣ ﺔﻴﺗﺎﺒﻧ ﺕﺎﻨﻴﻋ ﻊﻤﺠﻟ ﺔﻳﺮﺳ ﺔﻤﻬﻣ ﻲﻓ ﻙﺭﺎﺸﻳ [missing_scientist.GetWasWere] [missing_scientist.GetHeSheCap]. [pre_ftl_planet.GetName] ﻝﻮﺣ ﺭﻭﺪﻳ ﻱﺬﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻲﻓ ﻥﻮﻠﻤﻌﻳ ﻦﻳﺬﻟﺍ ﺀﺎﻤﻠﻌﻟﺍ ﺪﺣﺃ ﺀﺎﻔﺘﺧﺍ ﻦﻋ ﻍﻼﺑﻹﺍ ﻢﺗ"
+ observation.101.a:1 ".ﺚﺤﺒﻟﺍ ﻲﻓ ﺮﻤﺘﺳﺍ"
+ observation.102.name:1 "ﺎﺘﻴﻣ ﻢﻟﺎﻋ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ"
+ observation.102.desc:1 ".ﺎﻧﺩﻮﺟﻭ ﻦﻋ ﻦﻴﻠﻓﺎﻏ ﺍﻮﻟﺍﺯ ﺎﻣ ﻞﻗﻷﺍ ﻰﻠﻋ [GetPreFTLLowerPlural] ﻦﻜﻟ ،ﻲﻤﻠﻌﻟﺍ ﺎﻨﻘﻳﺮﻔﻟ ﺔﻔﺳﺆﻣ ﺓﺭﺎﺴﺧ .ﺮﻴﺒﻛ ﻲﻠﺤﻣ ﺱﺮﺘﻔﻣ ﻥﺍﻮﻴﺤﻟ ﺔﻴﺤﺿ ﻊﻗﻭ [missing_scientist.GetHeShe] ﻥﺃ ﻭﺪﺒﻳ .ﻝﺎﺣ ﻱﺃ ﻰﻠﻋ ﻪﻨﻣ ﻰﻘﺒﺗ ﺎﻣ ﻭﺃ ...[pre_ftl_planet.GetName] ﻰﻠﻋ ﺩﻮﻘﻔﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺔﺜﺟ ﻰﻠﻋ ﺍﺮﻴﺧﺃ ﺎﻧﺮﺜﻋ ﺪﻘﻟ"
+ observation.102.a:1 ".ﻪﻴﺟﻮﺘﻟﺍ ﺪﻴﻳﺄﺗ ﻢﺗ ﺪﻗﻭ"
+ observation.103.name:1 "[pre_ftl_planet.GetName] ﻦﻣ ﺔﺒﻳﺮﻏ ﺮﻳﺭﺎﻘﺗ"
+ observation.103.desc:1 "؟ﺩﻮﻘﻔﻤﻟﺍ ﺎﻨﻤﻟﺎﻌﺑ ﺎﻄﺒﺗﺮﻣ ﺍﺬﻫ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﻞﻫ .ﻲﻟﺎﺤﻟﺍ ﺎﻫﺭﻮﻄﺗ ﻯﻮﺘﺴﻣ ﺯﻭﺎﺠﺘﻳ ﺎﻤﺑ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻠﻟ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻰﻠﻋ ﻼﻴﻟﺩ ﺎﻨﻳﺃﺭ ﺪﻗﻭ ،ﺔﻀﻣﺎﻏ ﺔﻴﻨﻳﺩ ﺔﻴﺼﺨﺷ ﺓﺩﺎﻴﻗ ﺖﺤﺗ ﺔﻴﻠﺻﻷﺍ ﻚﻟﺎﻤﻤﻟﺍ ﻯﺪﺣﺇ ﺕﺪﺸﺘﺣﺍ .[pre_ftl_planet.GetName] ﻕﻮﻓ ﺎﻨﻴﺒﻗﺍﺮﻣ ﻦﻣ ﺔﺒﻳﺮﻏ ﺮﻳﺭﺎﻘﺗ ﻰﻘﻠﺘﻧ"
+ observation.104.desc:1 ".[GetPreFTLLowerPlural] ﻰﻟﺇ ﺔﻴﻘﻴﻘﺤﻟﺍ ﺓﺭﺎﻀﺤﻟﺍ ﺐﻠﺟ ﺕﺭﺮﻗ ،ﺕﻻﻭﺍﺪﻤﻟﺍ ﻦﻣ ﺮﻴﺜﻜﻟﺍ ﺪﻌﺑ ؟ﻚﻟﺫ ﻥﻮﻠﻌﻔﻳ ﻻ ﺍﺫﺎﻤﻟﻭ ...ﻪﻟﺈﻛ ﻲﻧﺍﺮﻴﻟ ﺎﻨﻫ [GetPreFTLLowerPlural] ﺀﺎﺟ ﺪﻘﻟ\n\n.ﺎﻣﺎﻤﺗ ﺍﺪﻤﻌﺘﻣ [pre_ftl_planet.GetName] ﻰﻠﻋ ﻲﺋﺎﻔﺘﺧﺍ ﻥﺎﻛ .ﻲﻨﻋ ﺚﺤﺒﻟﺍ ﻲﻓ ﻪﺘﻟﺬﺑ ﻱﺬﻟﺍ ﺪﻬﺠﻟﺍ ﻞﻛ ﻦﻋ ﺭﺬﺘﻋﺃ ﻥﺃ ﺪﻳﺭﺃ ،ﻻﻭﺃ\n\n.ﺖﻗﻮﻟﺍ ﺾﻌﺑ ﺮﻣ ﺪﻘﻟ .ﺀﺎﻗﺪﺻﻻﺍ ﺎﻬﻳﺍ ﻲﺗﺎﻴﺤﺗ"
+ observation.104.a:1 "!؟ﻚﺑﺎﺻﺃ ﺍﺫﺎﻣ"
+ observation.104.a.response:1 ".ﺔﻴﻟﻭﺆﺴﻤﻟﺍ ﻦﻣ ﺏﺮﻬﺘﻠﻟ ﺔﻳﺰﺨﻣ ﺔﻠﻴﺳﻭ ﺩﺮﺠﻣ ﻲﻫ ﺔﻴﺒﻧﺎﺠﻟﺍ ﻁﻮﻄﺨﻟﺍ ﻦﻣ ﺀﻭﺪﻬﺑ ﺔﺒﻗﺍﺮﻤﻟﺍ ﻥﺇ .ﻩﺭﺎﺘﺨﻧ ﻱﺬﻟﺍ ﺭﺎﺴﻤﻟﺍ ﻝﻮﻃ ﻰﻠﻋ ﺎﻬﻠﻴﻜﺸﺗﻭ ﺎﻬﻬﻴﺟﻮﺘﻟ - [GetPreFTLLower] ﺕﺎﻓﺎﻘﺛ ﻲﻓ ﻞﺧﺪﺘﻟﺍ ﺎﻨﺒﺟﺍﻭ ﻦﻣ !ﺀﺍﺮﻫ ﻦﻣ ﻪﻟ ﺎﻳ\n\n."ﺔﻴﺒﻠﺴﻟﺍ" ﺔﻈﺣﻼﻤﻟﺍ ﻦﻣ ﺖﻤﺌﺳ ﻲﻨﻧﺃ ﻪﻠﻛ ﻚﻟﺫ ﻦﻣ ﻢﻫﻷﺍﻭ .ﻲﺋﻼﻣﺯ ﻱﺪﻳﺃ ﻰﻠﻋ ﺎﻬﻨﻣ ﺖﻴﻧﺎﻋ ﻲﺘﻟﺍ ﺔﻳﺮﺨﺴﻟﺍ ﻦﻣ ﺖﻤﺌﺳ ،ﺮﻈﻨﻟﺍ ﺓﺮﻴﺼﻗ ﺔﻴﻗﻼﺧﻷﺍ ﺩﻮﻴﻘﻟﺍ ﻦﻣ ﺖﻤﺌﺳ ﺪﻘﻟ .ﺎﺒﻌﺘﻣ ﺖﻨﻛ"
+ observation.104.b:1 "!ﻱﺭﻮﻔﻟﺍ ﺝﺍﺮﺨﺘﺳﻻﺍ ﻦﻋ ﻍﻼﺑﻹﺎﺑ ﻡﻮﻘﺗ ﻑﻮﺳ"
+ observation.104.b.response:1 ".ﺎﻴﺒﻫﺫ ﺍﺮﺼﻋ ﻞﻬﺘﺳﺃﻭ ﺔﻓﺎﻘﺜﻟﺍ ﻩﺬﻫ ﺃﺪﺑﺄﺳ ،ﻲﻌﻣ ﺎﻬﺗﺮﻀﺣﺃ ﻲﺘﻟﺍ ﺔﻴﻨﻔﻟﺍ ﻂﻄﺨﻟﺍﻭ ﻲﺘﻓﺮﻌﻣ ﻞﻀﻔﺑ .ﻥﻵﺍ ﻲﺘﻴﺑ ﻮﻫ ﺍﺬﻫ .ﻪﻘﺤﺘﺳﺃ ﻱﺬﻟﺍ ﻡﺍﺮﺘﺣﻻﺎﺑ ﻞﻣﺎﻋﺃ ﺎﻨﻫ\n\n.ﻩﺭﺍﺪﻫﺇ ﺕﺮﺘﺧﺍ ﻚﻨﻜﻟﻭ ،ﻚﻓﺮﺼﺗ ﺖﺤﺗ ﻲﻠﻘﻋ ﻥﺎﻛ ﺪﻘﻟ .ﻲﺘﻄﺤﻣ ﻞﻔﺳﺃ ﻦﻳﺩﻮﺟﻮﻤﻟﺍ ﻚﺌﻟﻭﺃ ﻦﻣ ﺮﻣﺍﻭﻷﺍ ﻲﻘﻠﺗ ﻦﻣ ﺖﻴﻬﺘﻧﺍ ﺪﻘﻟ .ﻰﺸﺧﺃ ،ﻚﻟﺬﻟ ﻥﺍﻭﻷﺍ ﺕﺎﻓ ﺪﻘﻟ"
+ observation.104.c:1 ".ﻥﻮﻨﺠﻣ ﺖﻧﺃ"
+ observation.104.c.response:1 ".ﺎﻋﺍﺩﻭ ﻚﻟ ﻝﻮﻗﺃ ﺎﻧﺃ .ﻪﻟﻮﻗ ﻦﻜﻤﻳ ﺎﻤﻣ ﺮﻴﺜﻜﻟﺍ ﻙﺎﻨﻫ ﺲﻴﻟ\n\n.ﺎﻬﺋﺎﻨﺒﺑ ﻡﻮﻗﺃ ﻲﺘﻟﺍ ﻚﻠﺗ ﻞﺜﻣ ﺓﺎﻴﺤﻟﺎﺑ ﺔﻀﺑﺎﻧ ﺔﺑﺎﺷ ﺕﺎﻓﺎﻘﺛ ﻰﻟﺇ ﺓﺮﺠﻤﻟﺍ ﻲﻤﺘﻨﺘﺳ ،ﻞﻤﻌﻟﺍ ﻦﻋ ﺲﻋﺎﻘﺘﻟﺎﺑ ﻢﻜﺴﻔﻧﺃ ﺮﻴﻣﺪﺗ ﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ ﺪﻌﺑ .ﻲﺗﺄﻴﺳ ﻚﻃﻮﻘﺳ ﻦﻜﻟﻭ ،ﻥﺎﻣﺰﻟﺍ ﻦﻣ ﻥﺮﻗ ﻰﻟﺇ ﺪﻘﻋ ﻦﻣ ﺮﻣﻷﺍ ﻕﺮﻐﺘﺴﻳ ﺪﻗ ،ﻩﻭﺃ\n\n.ﺕﺎﻣﻼﻌﻟﺍ ﻯﺮﺗ ﻻ ﻰﺘﺣ ﻰﻤﻋﺃ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ .ﻪﻨﻣ ﺮﻔﻣ ﻻ ﺮﻣﺃ [Root.GetName] ﺕﻮﻣ !ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺎﺣﻮﺿﻭ ﺮﺜﻛﺃ ﻦﻛﺃ ﻢﻟ !ﺎﻣﺎﻤﺗ ﺲﻜﻌﻟﺍ ﻰﻠﻋ"
+ observation.105.name:1 "ﻪﺘﻄﻠﺳ ﺯﺰﻌﻳ ﻕﺭﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ"
+ observation.105.desc:2 ".ﻪﻟﺈﻛ [missing_scientist.GetHimHer] ﻥﻭﺮﻳ ﻥﻭﺮﻴﺜﻜﻟﺍ ﺢﺒﺻﺃ ﺚﻴﺣ ،ﻦﻴﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﻰﻠﻋ ﻚﻟﺫ ﺮﻴﺛﺄﺗ ﻦﻋ ﻩﺪﻳﺪﺤﺗ ﻦﻜﻤﻳ ﺎﻣ ﻙﺎﻨﻫ ﺲﻴﻟ .ﺓﺮﻴﺒﻛ ﺔﻳﺮﺑ ﺕﺍﻮﻗ ﺐﻠﻄﺘﻴﺳ ﻚﻟﺫ ﻦﻜﻟ ،ﺓﻮﻘﻟﺎﺑ [missing_scientist.GetHimHer]A ﻉﺍﺰﺘﻧﻻ \n\n ﺔﻄﺧ ﺡﺍﺮﺘﻗﺍ ﻢﺗ .[missing_scientist.GetHisHer] ﻢﺳﺎﺑ [pre_ftl_planet.GetPlanetMoon] ﺔﻴﻘﺑ ﻭﺰﻏ ﺩﺪﺼﺑ ﻥﻵﺍ ﻢﻫﻭ ،ﺔﻣﺪﻘﺘﻣ ﺔﺤﻠﺳﺃ ﻰﻠﻋ ﺔﻴﻋﺎﻄﻗﻹﺍ ﻚﻟﺎﻤﻤﻟﺍ ﻯﺪﺣﺇ ﻝﻮﺼﺤﻟ ﺍﺮﻈﻧ [missing_scientist.GetHasHave] [missing_scientist.GetHeShe] - ﻪﺘﻄﻠﺳ ﺰﻳﺰﻌﺗ ﻰﻠﻋ ﻞﻤﻌﻳ ﻕﺭﺎﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﻥﺃ ﻭﺪﺒﻳ .[pre_ftl_planet.GetName] ﺢﻄﺳ ﻦﻣ ﻖﻠﻘﻠﻟ ﺓﺮﻴﺜﻣ ﺮﻳﺭﺎﻘﺗ ﺎﻨﻴﻘﻠﺗ ﺪﻘﻟ"
+ observation.105.a:1 ".[missing_scientist.GetHimHer] ﺔﻟﺍﺯﺈﺑ ﻢﻗ .ﺔﻳﺭﺎﺟ ﺔﻴﻠﻤﻌﻟﺍ"
+ observation.105.b:1 "... ﺭﻮﻣﻷﺍ ﻢﻗﺎﻔﺗ ﻰﻟﺇ ﻻﺇ ﻱﺩﺆﻳ ﻦﻟ"
+ observation.106.name:1 "ﺢﺟﺎﻧ ﺝﺍﺮﺨﺘﺳﺍ"
+ observation.106.desc:1 ".ﻡﻮﺠﻨﻟﺍ ﻦﻣ ﺓﺍﺰﻐﻟﺍ ﻞﺒﻗ ﻦﻣ ﻮﺘﻠﻟ ﻢﻬﻬﻟﺇ ﺩﺎﻌﺑﺇ ﻢﺗ ﺪﻗﻭ ،ﺎﻨﺗﺎﻴﻨﻘﺗ ﻦﻣ ﺎﻀﻌﺑ ﻥﻮﻜﻠﺘﻤﻳ ﺍﻮﻟﺍﺯ ﺎﻣ .ﻼﺋﺎﻫ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ [pre_ftl_planet.GetPlanetHabitat] ﺓﺭﺎﻀﺣ ﻰﻠﻋ ﺙﺍﺪﺣﻷﺍ ﻩﺬﻫ ﺮﻴﺛﺄﺗ ﻦﻜﻟ ،ﻢﻟﺎﻌﻟﺍ ﻊﻣ ﻥﻵﺍ ﻲﻧﻮﻧﺎﻘﻟﺍ ﺎﻨﻣﺎﻈﻧ ﻞﻣﺎﻌﺘﻴﺳ \n\n ."ﻢﻬﻬﻟﺇ" ﺔﻳﺎﻤﺤﻟ ﺔﻳﺪﺠﻣ ﺮﻴﻏ ﺔﻟﻭﺎﺤﻣ ﻲﻓ ﺎﻨﺗﺍﻮﻗ ﺪﺿ ﺔﻳﺭﺎﺤﺘﻧﺍ ﺕﺎﻤﺠﻫ ﺍﻮﻨﺷ ﺎﻣﺪﻨﻋ ﻱﻭﺎﺳﺄﻣ ﻞﻜﺸﺑ [owner.GetPreFTLLowerPlural] ﻦﻣ ﺕﯫﻤﻟﺍ ﻰﻠﻋ ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﻢﺗ ![pre_ftl_planet.GetName] ﻦﻣ ﻕﺭﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ ﻲﻓ ﺎﻨﺤﺠﻧ ﺪﻘﻟ"
+ observation.106.a:1 ".ﻞﻗﻷﺍ ﻰﻠﻋ ﺓﺪﺣﺍﻭ ﺔﻠﻜﺸﻣ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻢﺗ ﺪﻘﻟ"
+ observation.107.name:1 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﺔﻴﻨﻳﺪﻟﺍ ﺕﺎﻋﺍﺮﺼﻟﺍ"
+ observation.107.desc:1 ".ﻮﺘﻠﻟ ﺃﺪﺑ ﺪﻗ ﻉﺍﺮﺼﻟﺍ ﻥﺃ ﻭﺪﺒﻳﻭ ،ﺔﻴﻋﺎﻌﺷﻹﺍ "ﺓﺭﺬﻘﻟﺍ ﻞﺑﺎﻨﻘﻟﺍ" ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺮﻴﺠﻔﺘﺑ ﻥﻵﺍ ﻰﺘﺣ ﺔﺿﺭﺎﻌﺘﻤﻟﺍ ﻞﺋﺎﺼﻔﻟﺍ ﺖﻣﺎﻗ ﺪﻗﻭ .ﻥﻵﺍ ﻥﻮﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﺎﻬﻣﺪﺨﺘﺴﻳ ﻲﺘﻟﺍ ﺓﺮﻣﺪﻤﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺐﺒﺴﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺎﺳﺮﺷ ﻝﺎﺘﻘﻟﺍ ﻥﺎﻛ \n\n .ﺔﻴﻨﻳﺪﻟﺍ [missing_scientist.GetHisHer] ﺓﺪﻴﻘﻌﻟ ﺹﺎﺨﻟﺍ ﺎﻫﺮﻴﺴﻔﺗ ﺎﻬﻨﻣ ﻞﻜﻟﻭ ،ﺔﻋﺭﺎﺼﺘﻣ ﻞﺋﺎﺼﻓ ﺓﺪﻋ ﻰﻟﺇ [missing_scientist.GetHeShe] ﺎﻫﺎﻨﺑ ﻲﺘﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺖﻤﺴﻘﻧﺍ .ﺏﺮﺤﻟﺍ ﻰﻟﺇ [pre_ftl_planet.GetName] ﻖﻟﺰﻧﺍ ،ﻕﺭﺎﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﺝﺍﺮﺧﺇ ﻲﻓ ﺡﺎﺠﻨﻟﺍ ﺪﻌﺑ"
+ observation.107.a:1 "..ﺮﻴﺧ ﻰﻠﻋ ﻲﻬﺘﻨﻳ ﻦﻟ ﺍﺬﻫﻭ"
+ observation.108.name:1 "[pre_ftl_planet.GetName] ﻲﻓ ﺃﺪﻬﻳ ﻊﺿﻮﻟﺍ"
+ observation.108.desc:1 ".ﺔﻤﻳﺪﻘﻟﺍ ﻪﻗﺮﻃ ﻰﻟﺇ ﺎﻴﺠﻳﺭﺪﺗ [GetPreFTLLowerPlural] ﺩﻮﻌﻳ .[pre_ftl_planet.GetName] ﺩﺍﺮﻓﻷ ﺓﺪﺋﺎﻓ ﺕﺍﺫ ﻥﻮﻜﺗ ﻦﻟ [missing_scientist.GetHimHer] ﻊﻣ ﺎﻫﺭﺎﻀﺣﺇ ﻢﺗ ﻲﺘﻟﺍ [missing_scientist.GetHeShe] ﺔﻴﻨﻔﻟﺍ ﺕﺎﻄﻄﺨﻤﻟﺍ ﻥﺈﻓ ،ﺕﺎﻧﺎﻴﺒﻟﺍ ﺮﻴﺴﻔﺘﻟ [missing_scientist.GetHimHer] ﻥﻭﺪﺑ .ﻕﺭﺎﻤﻟﺍ ﺎﻨﻤﻟﺎﻌﻟ ﺢﺟﺎﻨﻟﺍ ﺝﺍﺮﺨﺘﺳﻻﺍ ﺬﻨﻣ ﻼﻴﻠﻗ ﺮﻘﺘﺳﺍ ﺪﻗ [pre_ftl_planet.GetName] ﻲﻓ ﻊﺿﻮﻟﺍ ﻥﺃ ﻭﺪﺒﻳ"
+ observation.108.a:1 ".ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﺓﺪﻴﺠﻟﺍ ﺭﺎﺒﺧﻷﺍ ﺾﻌﺑ"
+ observation.109.name:1 "!ﺔﻴﺧﻭﺭﺎﺼﻟﺍ ﺕﺎﺑﺮﻀﻟﺍ ﺔﺒﻗﺍﺮﻣ ﺰﻛﺮﻣ"
+ observation.109.desc:1 ".ﺔﻤﺋﺍﺩ ﺔﻴﻤﻠﻋ ﺓﺭﻮﺛ ﺖﺛﺪﺣﺃ ﺪﻗ [missing_scientist.GetHeShe] ﻢﻬﻟ ﺎﻬﻣﺪﻗ ﻲﺘﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻥﺃ ﺪﺑ ﻻ ."ﻢﻬﻬﻟﺇ" ـﺑ ﻰﻤﺴﻳ ﺎﻣ ﺮﻴﺛﺄﺗ ﺎﻨﻟﺯﺃ ﺎﻨﻧﺃ ﺔﻘﻴﻘﺣ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ - ﻕﺪﺼﻳ ﻻ ﻝﺪﻌﻤﺑ ﻡﺪﻘﺘﻟﺍ ﻲﻓ ﺓﺮﻤﺘﺴﻣ [pre_ftl_planet.GetPlanetHabitat] ﺢﻄﺳ ﻰﻠﻋ ﺓﺩﻮﺟﻮﻤﻟﺍ [GetPreFTLLower] ﺓﺭﺎﻀﺣ ﻥﺃ ﻲﻓ ﻚﺷ ﻙﺎﻨﻫ ﺲﻴﻟ\n\n.ﻦﻴﺟﺎﻧ ﻱﺃ ﻥﻭﺩ ﺔﻄﺤﻤﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ !ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻲﻓ [pre_ftl_planet.GetName] ﺢﻄﺳ ﻦﻣ ﺀﺎﻀﻓ-ﺽﺭﺃ ﺦﻳﺭﺍﻮﺻ ﻦﻣ ﻞﺑﺍﻭ ﻕﻼﻃﺇ ﻢﺗ ،ﻡﻮﻴﻟﺍ ﻦﻣ ﻖﺑﺎﺳ ﺖﻗﻭ ﻲﻓ"
+ observation.109.a:1 ".ﻞﺧﺪﺘﻟﺍ ﻡﺪﻌﺑ ﻪﻴﺟﻮﺗ ﺎﻨﻳﺪﻟ ﺐﺒﺴﻟﺍ ﺍﺬﻬﻟﻭ"
+ observation.110.desc:1 "![missing_scientist.GetHimHerCap] ﻦﻋ ﻱﺭﻮﻔﻟﺍ ﺝﺍﺮﻓﻹﺎﺑ ﺐﻟﺎﻃﺃ ؟ﺲﺋﺎﺒﻟﺍ ﻕﻮﻠﺨﻤﻟﺍ ﺎﻬﻳﺃ ،ﺱﻭﺪﻘﻟﺍ ﺎﻨﺼﻠﺨﻣ ﻦﻳﺃ\n\n.ﻚﻠﻌﻓ ﻦﻣ ﻚﻟﺫ ﻥﺃ ﻲﻨﻫﺫ ﻲﻓ ﻚﺷ ﻙﺎﻨﻫ ﺲﻴﻟﻭ ،ﺓﺀﻮﺒﻨﻟﺍ ﺖﻘﻘﺤﺗ ﺪﻘﻟ .ﺍﺪﻴﻌﺑ [missing_scientist.GetHimHerCap] ﺔﻗﺮﺴﻟ ﺀﺎﻤﺴﻟﺍ ﻦﻣ ﺎﻣ ﺎﻣﻮﻳ ﻥﻮﻟﺰﻨﻳ ﺪﻗﻭ ،[missing_scientist.GetHimHerCap] ﺮﻬﻈﻣ ﻥﻭﺪﻠﻘﻴﺳ ﻦﻳﺬﻟﺍ ﻦﻴﻃﺎﻴﺸﻟﺍ ﻦﻋ [missing_scientist.GetHeSheCap] ﺙﺪﺤﺗ .ﺔﺤﺿﺍﻭ ﺕﺎﻓﻼﺘﺧﻻﺍ ﻦﻜﻟ ،ﺱﻭﺪﻘﻟﺍ ﺎﻨﺼﻠﺨﻣ ﻞﺜﻣ ﻭﺪﺒﺗ ﺖﻧﺃ !ﻲﻨﻴﻤﺤﺗ ﺡﺍﻭﺭﻷﺍ"
+ observation.110.a:1 ".ﺎﻴﺋﺎﻀﻓ ﺎﻤﻟﺎﻋ "ﺱﺪﻘﻤﻟﺍ ﻚﺼﻠﺨﻣ" ﻥﺎﻛ ﺪﻘﻟ"
+ observation.110.a.response:1 ".ﺱﻭﺪﻘﻟﺍ ﺺﻠﺨﻤﻟﺍ ﺎﻨﻴﻟﺇ ﺪﻴﻌﺗ ﻚﻧﺃ ﺎﻤﻟﺎﻃ ﻚﺘﺌﻴﻄﺧ ﻚﻟ ﺮﻔﻏﺄﺳ .ﺎﻬﻳﺪﻟ ﺎﻣ ﻞﻛ ﻖﻴﻘﺤﺗ ﻦﻣ ﺎﻨﺗﺭﺎﻀﺣ ﺖﻨﻜﻤﺗ [missing_scientist.GetHisHerCap] ﺔﺳﺪﻘﻤﻟﺍ ﺕﺍﻭﺩﻷﺍ ﻝﻼﺧ ﻦﻣ ﻂﻘﻓ .ﺕﻮﻤﻟﺎﺑ ﺎﻬﻴﻠﻋ ﺐﻗﺎﻌﻳﻭ ﺮﻔﺘﻐﺗ ﻻ ﺔﺌﻴﻄﺧ ﺱﻭﺪﻘﻟﺍ ﺺﻠﺨﻤﻟﺍ ﻢﺳﺎﺑ ﺮﻴﻬﺸﺘﻟﺍ ﻥﺇ !ﻚﻔﻳﺪﺠﺗ ﻦﻋ ﻒﻛ"
+ observation.110.b:1 ".ﻚﺒﻌﺷ ﺪﺿ [missing_scientist.GetHisHer] ﻢﺋﺍﺮﺟ ﺐﺒﺴﺑ [missing_scientist.GetHeSheCap] ﻡﺍﺪﻋﺇ ﻢﺗ"
+ observation.110.b.response:1 ".ﺭﺎﺒﻏ ﻰﻟﺇ ﻝﻮﺤﺘﺗ ﺔﻴﻧﺎﻄﻴﺸﻟﺍ ﻚﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻥﻭﺮﻳ ﻑﻮﺳ ﻲﺒﻌﺷ ﻥﺃ ﻻﺇ ،ﻡﺎﻋ ﻒﻟﺃ ﻕﺮﻐﺘﺴﻳ ﺪﻗ ﺮﻣﻷﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺏﺎﻘﻋ ﻥﻭﺩ ﺮﻤﺗ ﻦﻟ ﺔﻤﻳﺮﺠﻟﺍ ﻩﺬﻫ :ﻲﺗﺎﻤﻠﻛ ﺍﻭﺮﻛﺬﺗ\n\n.ﺓﺭﺩﺎﻐﻟﺍﻭ ﺓﺮﻴﻘﺤﻟﺍ ﻦﻴﻃﺎﻴﺸﻟﺍ .ﺔﻠﺘﻘﻟﺍ"
+ observation.110.c:1 ".ﻚﺗﺪﻬﻋ ﻲﻓ [missing_scientist.GetHeSheCap] ﺡﺍﺮﺳ ﻕﻼﻃﺇ ﻢﺘﻴﺳ .ﺍﺪﺟ ﺪﻴﺟ"
+ observation.110.c.response:1 ".ﻚﻟ ﺔﺒﺴﻨﻟﺎﺑ ﻞﻣﺃ ﻙﺎﻨﻫ ﻝﺍﺰﻳ ﻻ ﺎﻤﺑﺭ .ﻥﺎﻄﻴﺸﻟﺍ ﺎﻬﻳﺃ ﻚﻤﺋﺍﺮﺟ ﺱﻭﺪﻘﻟﺍ ﺺﻠﺨﻤﻟﺍ ﺮﻔﻐﻴﻟ"
+ observation.111.desc:1 ".ﺀﻲﺷ ﻞﻛ ﺪﻌﺑ ﺍﺪﺟ ﺮﻴﺒﻛ ﺀﺎﻀﻔﻟﺍ .ﺶﻳﺎﻌﺘﻠﻟ ﺔﻘﻳﺮﻃ ﺪﺠﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ،ﺎﻨﻧﺄﺷﻭ ﻲﺒﻌﺷﻭ ﻲﻨﺘﻛﺮﺗ ﺎﻤﻟﺎﻃ .ﺕﺎﻓ ﺪﻗ ﻰﻀﻣ ﺎﻣ ﻙﺮﺘﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻲﻨﻧﺃ ﻻﺇ ،ﺔﻔﻴﺨﺴﻟﺍ ﺔﻴﺴﻔﻨﻟﺍ ﺕﺎﻤﻴﻴﻘﺘﻟﺍﻭ ﺲﺒﺤﻟﺍﻭ ،ﺎﻬﺘﻴﻘﻠﺗ ﻲﺘﻟﺍ ﺔﻤﻟﺎﻈﻟﺍ ﺔﻠﻣﺎﻌﻤﻟﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻱﺬﻴﻣﻼﺗ ﻰﻟﺇ ﻲﻨﺘﻌﺟﺭﺃ ﻚﻧﻷ ﻙﺮﻜﺷﺃ ﻥﺃ ﺐﺠﻳ ﻲﻨﻧﺃ ﺪﻘﺘﻋﺃ"
+ observation.111.a:1 ".ﻯﺮﻨﺳ"
+ observation.112.desc:1 ".ﺔﻄﻠﺴﻟﺍ ﻦﻣ ﺀﺎﻤﻠﻌﻟﺍ ﺔﺣﺍﺯﻹ ﺔﺻﺮﻔﻟﺍ ﺓﺬﻓﺎﻧ ﻕﻼﻏﺇ ﻢﺗ ﺪﻗﻭ ،ﻼﻤﺘﺤﻣ ﺍﺪﻳﺪﻬﺗ ﻢﻫﺭﺎﺒﺘﻋﺎﺑ ﻢﻬﻴﻟﺇ ﺮﻈﻨﻧ ﻥﺃ ﻥﻵﺍ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻳﻭ .ﻚﺷ ﻼﺑ ﻕﺭﺎﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﺩﻮﻬﺟ ﻞﻀﻔﺑ - ﻕﺪﺼﻳ ﻻ ﻝﺪﻌﻤﺑ [pre_ftl_planet.GetPlanetHabitat] ﺢﻄﺳ ﻰﻠﻋ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺓﺭﺎﻀﺤﻟﺍ ﺖﻣﺪﻘﺗ\n\n.ﻦﻴﺟﺎﻧ ﻱﺃ ﻥﻭﺩ ﺔﻄﺤﻤﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ !ﻝﺎﻋ ﺭﺍﺪﻣ ﻲﻓ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻰﻠﻋ [pre_ftl_planet.GetName] ﺢﻄﺳ ﻦﻣ ﺀﺎﻀﻓ-ﺽﺭﺃ ﺦﻳﺭﺍﻮﺻ ﻦﻣ ﻞﺑﺍﻭ ﻕﻼﻃﺇ ﻢﺗ ،ﻡﻮﻴﻟﺍ ﻦﻣ ﻖﺑﺎﺳ ﺖﻗﻭ ﻲﻓ"
+
+# Shuttle Intercepted
+ observation.201.name:1 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﻙﻮﻜﻤﻟﺍ ﻢﻄﺤﺗ"
+ observation.201.reg_pre_ftl.desc:0 "!ﺎﻧﺩﻮﺟﻭ ﻰﻠﻋ ﺔﻟﺩﻷﺍ ﻞﻛ ﺔﻟﺍﺯﺇ ﺐﺠﻳ .ﻢﻄﺤﺘﻟﺍ ﻊﻗﻮﻣ ﻰﻟﺇ [GetPreFTLLowerPlural] ﻝﻮﺻﻭ ﻞﺒﻗ ﻦﻴﺟﺎﻧ ﻱﺃ ﺀﻼﺟﺇ ﺎﻧﺩﺭﺃ ﺍﺫﺇ ﺔﻋﺮﺴﺑ ﻑﺮﺼﺘﻧ ﻥﺃ ﺎﻨﻴﻠﻋ\n\n.ﺔﻴﺋﺎﻧ ﺔﻳﺮﺑ ﺔﻘﻄﻨﻣ ﻲﻓ ﻢﻄﺤﺘﻓ ،ﻙﻮﻜﻤﻟﺍ ﺕﺎﻛﺮﺤﻣ ﻞﻴﻄﻌﺗ ﻰﻟﺇ ﻅﻮﻈﺤﻣ ﺥﻭﺭﺎﺻ ﻁﻮﻘﺳ ﻯﺩﺃ .ﺔﻴﻠﺤﻣ ﺔﻴﻣﻮﻗ ﺔﻟﻭﺪﻟ ﺔﻌﺑﺎﺘﻟﺍ ﺔﻳﻮﺠﻟﺍ ﺕﻼﺗﺎﻘﻤﻟﺍ ﻦﻣ ﺏﺮﺳ ﻞﺒﻗ ﻦﻣ ﺎﻨﺗﺎﻛﻮﻜﻣ ﻯﺪﺣﺇ ﺽﺍﺮﺘﻋﺍ ﻢﺗ ،[pre_ftl_planet.GetName] ﺢﻄﺳ ﻰﻟﺇ ﺔﻳﺮﺳ ﺔﻤﻬﻣ ﺀﺎﻨﺛﺃ"
+ observation.201.hive_pre_ftl.desc:0 "!ﺎﻧﺩﻮﺟﻭ ﻰﻠﻋ ﺔﻟﺩﻷﺍ ﻞﻛ ﺔﻟﺍﺯﺇ ﺐﺠﻳ .ﻢﻄﺤﺘﻟﺍ ﻊﻗﻮﻣ ﻰﻟﺇ [GetPreFTLLowerPlural] ﻝﻮﺻﻭ ﻞﺒﻗ ﻦﻴﺟﺎﻧ ﻱﺃ ﺀﻼﺟﺇ ﺎﻧﺩﺭﺃ ﺍﺫﺇ ﺔﻋﺮﺴﺑ ﻑﺮﺼﺘﻧ ﻥﺃ ﺎﻨﻴﻠﻋ\n\n.ﺔﻴﺋﺎﻧ ﺔﻳﺮﺑ ﺔﻘﻄﻨﻣ ﻲﻓ ﻢﻄﺤﺘﻓ ،ﻙﻮﻜﻤﻟﺍ ﺕﺎﻛﺮﺤﻣ ﻞﻴﻄﻌﺗ ﻰﻟﺇ ﻅﻮﻈﺤﻣ ﺥﻭﺭﺎﺻ ﻁﻮﻘﺳ ﻯﺩﺃ .ﻝﻮﻬﺠﻣ ﻞﻘﻌﻟ ﺔﻌﺑﺎﺘﻟﺍ ﺔﻳﻮﺠﻟﺍ ﺕﻼﺗﺎﻘﻤﻟﺍ ﻦﻣ ﺏﺮﺳ ﻞﺒﻗ ﻦﻣ ﺎﻨﺗﺎﻛﻮﻜﻣ ﻯﺪﺣﺇ ﺽﺍﺮﺘﻋﺍ ﻢﺗ ،[pre_ftl_planet.GetName] ﺢﻄﺳ ﻰﻟﺇ ﺔﻳﺮﺳ ﺔﻤﻬﻣ ﺀﺎﻨﺛﺃ"
+ observation.201.reg_pre_ftl.desc.gestalt:0 ".ﻢﻄﺤﺘﻟﺍ ﻊﻗﻮﻣ ﻰﻟﺇ [GetPreFTLLowerPlural] ﻱﺃ ﻝﻮﺻﻭ ﻞﺒﻗ ﺎﻧﺩﻮﺟﻭ ﻰﻠﻋ ﺔﻟﺩﻷﺍ ﻊﻴﻤﺟ ﺔﻟﺍﺯﺇﻭ ،ﺔﻠﻘﺘﺴﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻊﻴﻤﺟ ﺀﻼﺧﺇ ﺐﺠﻳ\n\n.ﺔﻟﻮﻫﺄﻣ ﺮﻴﻏ ﺔﻘﻄﻨﻣ ﻰﻟﺇ ﺎﻬﻌﻗﻮﻣ ﺎﻨﻌﺒﺘﺗ ﺪﻘﻟ .ﺓﺩﺪﺤﻣ ﺮﻴﻏ ﺔﻴﻠﺤﻣ ﺔﻴﻣﻮﻗ ﺔﻟﻭﺩ ﻰﻟﺇ ﻲﻤﺘﻨﻳ ،ﺔﻳﻮﺠﻟﺍ ﺕﻼﺗﺎﻘﻤﻟﺍ ﻦﻣ ﺏﺮﺳ ﻞﺒﻗ ﻦﻣ ﻪﺿﺍﺮﺘﻋﺍ ﺪﻌﺑ ﺡﺩﺎﻓ ﻞﺸﻓ ﻦﻋ ،[pre_ftl_planet.GetName] ﻰﻠﻋ V45-BM ﺔﻳﺮﺴﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺔﻤﻬﻣ ﻰﻟﺇ ﻪﺟﻮﺘﻤﻟﺍ ،XB-23-968H ﻙﻮﻜﻤﻟﺍ ﻎﻠﺑﺃ"
+ observation.201.hive_pre_ftl.desc.gestalt:0 "..ﻢﻄﺤﺘﻟﺍ ﻊﻗﻮﻣ ﻰﻟﺇ [GetPreFTLLowerPlural] ﻱﺃ ﻝﻮﺻﻭ ﻞﺒﻗ ﺎﻧﺩﻮﺟﻭ ﻰﻠﻋ ﺔﻟﺩﻷﺍ ﻊﻴﻤﺟ ﺔﻟﺍﺯﺇﻭ ،ﺔﻠﻘﺘﺴﻤﻟﺍ [GetIndividualNamePlural] ﻊﻴﻤﺟ ﺀﻼﺧﺇ ﺐﺠﻳ\n\n.ﺔﻟﻮﻫﺄﻣ ﺮﻴﻏ ﺔﻘﻄﻨﻣ ﻰﻟﺇ ﻪﻌﻗﻮﻣ ﺎﻨﻌﺒﺘﺗ ﺪﻘﻟ .ﺔﻳﻮﺠﻟﺍ ﺕﻼﺗﺎﻘﻤﻟﺍ ﻦﻣ ﺏﺮﺳ ﻪﺿﺮﺘﻋﺍ ﻥﺃ ﺪﻌﺑ ﺡﺩﺎﻓ ﻞﻄﻋ ﺙﻭﺪﺣ ﻦﻋ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺔﻳﺮﺳ ﺔﺒﻗﺍﺮﻣ ﺔﻤﻬﻤﺑ ﻡﺎﻴﻘﻠﻟ ﻞﺧﺍﺪﻟﺍ ﻰﻟﺇ ﻪﺠﺘﻤﻟﺍ ﺎﻨﻛﻮﻜﻣ ﻎﻠﺑﺃ"
+ observation.201.a:1 ".ﺮﻴﺼﻗ ﺖﻗﻮﻟﺍ"
+
+ observation.202.name:1 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﺀﻼﻤﻌﻟﺍ ﺫﺎﻘﻧﺇ ﻢﺗ"
+
+ observation.202.start:0 ".ﺎﻬﻴﻠﻋ ﺭﻮﺜﻌﻟﺍ [GetPreFTLLowerPlural] ـﻟ ﻦﻜﻤﻳ ﺓﺮﻴﻐﺻ ﺓﺮﻔﺣ ﻯﻮﺳ ﻙﺮﺘﻳ ﻢﻟﻭ ،ﻪﻴﻓ ﻢﻜﺤﺘﻣ ﺭﺎﺠﻔﻧﺍ ﻲﻓ ﻲﻘﺒﺘﻤﻟﺍ ﻡﺎﻄﺤﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ .[pre_ftl_planet.GetName] ﻰﻠﻋ ﻢﻄﺤﻤﻟﺍ ﻙﻮﻜﻤﻟﺍ ﻦﻣ ﻦﻴﺟﺎﻨﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺀﻼﺟﺇ ﻦﻣ [Root.GetName] ﺀﻼﻤﻋ ﻦﻜﻤﺗ"
+ observation.202.gestalt.start:0 ".ﺎﻬﻴﻠﻋ ﺭﻮﺜﻌﻟﺍ [GetPreFTLLowerPlural] ـﻟ ﻦﻜﻤﻳ ﺓﺮﻴﻐﺻ ﺓﺮﻔﺣ ﻯﻮﺳ ﻙﺮﺘﻳ ﻢﻟﻭ ،ﻪﻴﻓ ﻢﻜﺤﺘﻣ ﺭﺎﺠﻔﻧﺍ ﻲﻓ ﻲﻘﺒﺘﻤﻟﺍ ﻡﺎﻄﺤﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ .[pre_ftl_planet.GetName] ﻰﻠﻋ ﻢﻄﺤﻤﻟﺍ ﻙﻮﻜﻤﻟﺍ ﻦﻣ ﺔﻠﻘﺘﺴﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺀﻼﺧﺇ ﻦﻣ [Root.GetName] ﺀﻼﻤﻋ ﻦﻜﻤﺗ"
+ observation.202.reg.end:0 ".ﻰﻧﺩﻷﺍ ﻩﺪﺣ ﻲﻓ ﺔﻴﻌﻴﺒﻄﻟﺍ ﻢﻬﺘﻴﻤﻨﺗ ﻞﻴﻄﻌﺗ ﻥﻮﻜﻳ ﻥﺃ ﻞﻣﺄﻧ ﻦﻜﻟﻭ ،ﻱﺩﻭﺪﺤﻟﺍ ﻙﺎﻬﺘﻧﻻﺍ ﺍﺬﻫ ﻰﻠﻋ ﺎﻬﻧﺍﺮﻴﺟ ﻡﻮﻠﺘﺳ ﺙﺩﺎﺤﻟﺍ ﺎﻬﻴﻓ ﻊﻗﻭ ﻲﺘﻟﺍ ﺔﻴﻣﻮﻘﻟﺍ ﺔﻟﻭﺪﻟﺍ ﻥﺃ ﻚﺷ ﻻ"
+ observation.202.hive_mind.end:0 ".ﻰﻧﺩﻷﺍ ﻩﺪﺣ ﻲﻓ ﺔﻴﻌﻴﺒﻄﻟﺍ ﻢﻬﺘﻴﻤﻨﺗ ﻞﻴﻄﻌﺗ ﻥﻮﻜﻳ ﻥﺃ ﻞﻣﺄﻧ ﻦﻜﻟﻭ ،ﺩﻭﺪﺤﻟﺍ ﻙﺎﻬﺘﻧﺍ ﻰﻠﻋ ﻪﻧﺍﺮﻴﺟ ﻡﻮﻠﻳ ﻑﻮﺳ ﺙﺩﺎﺤﻟﺍ ﺍﺬﻫ ﻪﻴﻓ ﻊﻗﻭ ﻱﺬﻟﺍ ﻲﻋﺎﻤﺠﻟﺍ ﻲﻋﻮﻟﺍ ﻥﺃ ﻚﺷ ﻻ"
+
+ observation.202.reg_pre_ftl.desc:0 "$observation.202.reg.end$\n\n$observation.202.start$"
+ observation.202.hive_pre_ftl.desc:0 "$observation.202.hive_mind.end$\n\n$observation.202.start$"
+ observation.202.reg_pre_ftl.desc.gestalt:0 "$observation.202.reg.end$\n\n$observation.202.gestalt.start$"
+ observation.202.hive_pre_ftl.desc.gestalt:0 "$observation.202.hive_mind.end$\n\n$observation.202.gestalt.start$"
+
+ observation.203.name:1 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﺀﻼﻤﻌﻟﺍ ﻰﻠﻋ ﺾﺒﻘﻟﺍ ﻢﺗ"
+
+ observation.203.start:0 ".ﻦﻴﺟﺎﻨﻟﺍ ﻊﻴﻤﺟ ﻰﻠﻋ ﺾﺒﻘﻟﺍ ﻢﺗﻭ ،ﻪﻃﺎﻘﺳﺇ ﻢﺗ ﻱﺬﻟﺍ ﺚﺤﺒﻟﺍ ﻖﻳﺮﻓ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻦﻣ ﻦﻜﻤﺘﻧ ﻥﺃ ﻞﺒﻗ ﻢﻄﺤﺘﻟﺍ ﻊﻗﻮﻣ ﻰﻟﺇ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺓﺩﻮﺟﻮﻤﻟﺍ [GetPreFTLUpper] ﺕﺍﻮﻗ ﺖﻠﺻﻭ"
+ observation.203.gestalt.start:0 ".ﻦﻴﻠﻘﺘﺴﻤﻟﺍ ﺀﻼﻤﻌﻟﺍ ﻊﻴﻤﺟ ﻰﻠﻋ ﺾﺒﻘﻟﺍ ﻢﺗﻭ ،ﻪﻃﺎﻘﺳﺇ ﻢﺗ ﻱﺬﻟﺍ ﺚﺤﺒﻟﺍ ﻖﻳﺮﻓ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻦﻣ ﻦﻜﻤﺘﻧ ﻥﺃ ﻞﺒﻗ ﻢﻄﺤﺘﻟﺍ ﻊﻗﻮﻣ ﻰﻟﺇ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺓﺩﻮﺟﻮﻤﻟﺍ [GetPreFTLUpper] ﺕﺍﻮﻗ ﺖﻠﺻﻭ"
+ observation.203.reg.end:0 "... ﻢﻬﻌﻤﺘﺠﻣ ﻰﻠﻋ ﻚﻟﺫ ﺮﻴﺛﺄﺗ ﻮﻫ ﺎﻣ ﻂﺒﻀﻟﺎﺑ ﻯﺮﻧ ﻥﺃ ﻰﻘﺒﻳ .ﻢﻬﻤﻟﺎﻋ ﺝﺭﺎﺧ ﺓﺩﻮﺟﻮﻣ ﺓﺎﻴﺤﻟﺍ ﻥﺃ ﻰﻠﻋ ﻪﻴﻓ ﻝﺍﺪﺟ ﻻ ﻞﻴﻟﺩ ﻥﻵﺍ ﻢﻬﻳﺪﻟ \n\n .ﻪﻠﻴﻠﺤﺗ ﻰﻠﻋ ﻥﻮﻠﻤﻌﻳ ﻢﻬﺋﺎﻤﻠﻋ ﻞﻀﻓﺃ ﻥﺃ ﻚﺷ ﻻﻭ ،ﻙﻮﻜﻤﻟﺍ ﻡﺎﻄﺣ ﻝﻮﺣ ﺎﻄﻴﺤﻣ [GetPreFTLLowerPlural] ﺄﺸﻧﺃ ﺪﻘﻟ"
+ observation.203.hive_mind.end:0 "... ﻢﻬﻌﻤﺘﺠﻣ ﻰﻠﻋ ﻚﻟﺫ ﺮﻴﺛﺄﺗ ﻮﻫ ﺎﻣ ﻂﺒﻀﻟﺎﺑ ﻯﺮﻧ ﻥﺃ ﻰﻘﺒﻳ .ﻢﻬﻤﻟﺎﻋ ﺝﺭﺎﺧ ﺓﺩﻮﺟﻮﻣ ﺓﺎﻴﺤﻟﺍ ﻥﺃ ﻰﻠﻋ ﻪﻴﻓ ﻝﺍﺪﺟ ﻻ ﻞﻴﻟﺩ ﻥﻵﺍ ﻢﻬﻳﺪﻟ \n\n .ﻪﻠﻴﻠﺤﺗ ﺩﺪﺼﺑ ﻚﺷ ﻼﺑ ﻢﻫﻭ ،ﻙﻮﻜﻤﻟﺍ ﻡﺎﻄﺣ ﻝﻮﺣ ﺎﻄﻴﺤﻣ [GetPreFTLLowerPlural] ﺄﺸﻧﺃ ﺪﻘﻟ"
+
+ observation.203.reg_pre_ftl.desc:0 "$observation.203.reg.end$\n\n$observation.203.start$"
+ observation.203.hive_pre_ftl.desc:0 "$observation.203.hive_mind.end$\n\n$observation.203.start$"
+ observation.203.reg_pre_ftl.desc.gestalt:0 "$observation.203.reg.end$\n\n$observation.203.gestalt.start$"
+ observation.203.hive_pre_ftl.desc.gestalt:0 "$observation.203.hive_mind.end$\n\n$observation.203.gestalt.start$"
+ observation.203.a:1 ".ﺍﺪﻴﺟ ﺲﻴﻟ ﺍﺬﻫ"
+
+# Nuclear War, everyone dead, planet is a tomb world
+ observation.205.name:0 "ﺔﻳﻭﻮﻧ ﺏﺮﺣ ﻰﻟﺇ ﺭﺪﺤﻨﻳ [pre_ftl_planet.GetName]"
+
+ observation.205.reg.start:0 ".ﻢﻄﺤﺘﻟﺍ ﻊﻗﻮﻣ ﻦﻣ ﺎﻬﺗﺩﺎﻌﺘﺳﺍ ﻲﺘﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﺔﻛﺭﺎﺸﻣ ﺓﺮﻴﺧﻷﺍ ﺖﻀﻓﺭ ﻥﺃ ﺪﻌﺑ ،ﺎﻨﻛﻮﻜﻣ ﺖﻄﻘﺳﺃ ﻲﺘﻟﺍ ﺔﻟﻭﺪﻟﺍ ﺪﺿ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺔﻴﻣﻮﻘﻟﺍ ﻝﻭﺪﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺖﻌﻤﺘﺟﺍ"
+ observation.205.hive_mind.start:0 ".ﻢﻄﺤﺘﻟﺍ ﻊﻗﻮﻣ ﻦﻣ ﺎﻫﻭﺩﺎﻌﺘﺳﺍ ﻲﺘﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﺔﻛﺭﺎﺸﻣ ﺮﻴﺧﻷﺍ ﺾﻓﺭ ﻥﺃ ﺪﻌﺑ ،ﺎﻨﻛﻮﻜﻣ ﻂﻘﺳﺃ ﻱﺬﻟﺍ ﻲﻋﻮﻟﺍ ﺔﻬﺟﺍﻮﻣ ﻲﻓ [pre_ftl_planet.GetName] ﻰﻠﻋ ﻲﻋﻮﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺖﺠﻣﺪﻧﺍ ،ﺙﺍﺪﺣﻸﻟ ﻕﻮﺒﺴﻣ ﺮﻴﻏ ﻝﻮﺤﺗ ﻲﻓ"
+ observation.205.end:0 ".ﺓﺮﻴﺒﻛ ﺭﺍﺮﺿﻷ ﺔﺌﻴﺒﻟﺍ ﺖﺿﺮﻌﺗ ﺪﻗﻭ ،ﻯﺮﺳﻷﺍ ﺎﻨﺋﺎﻤﻠﻋ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺢﻄﺴﻟﺍ ﻰﻠﻋ ﻥﻮﺟﺎﻧ ﺪﺟﻮﻳ ﻻ \n\n.[pre_ftl_planet.GetPlanetHabitat] ﻢﻈﻌﻣ ﺕﺮﻣﺩ ﻲﺘﻟﺍ ﺔﻳﻭﻮﻨﻟﺍ ﺦﻳﺭﺍﻮﺼﻠﻟ ﻞﺋﺎﻫ ﻝﺩﺎﺒﺗ ﻲﻓ ﺾﻌﺒﻟﺍ ﺎﻤﻬﻀﻌﺑ ﻦﻴﺒﻧﺎﺠﻟﺍ ﻼﻛ ﺲﻤﻃ ،ﺓﺮﻴﺼﻗ ﺔﻳﺪﻴﻠﻘﺗ ﺏﺮﺣ ﺪﻌﺑ"
+ observation.205.gestalt.end:0 ".ﺓﺮﻴﺒﻛ ﺭﺍﺮﺿﻷ ﺔﺌﻴﺒﻟﺍ ﺖﺿﺮﻌﺗﻭ - ﻩﺮﺳﺃ ﻢﺗ ﻱﺬﻟﺍ [GetIndividualNamePlural] ﻰﺘﺣ ﻻﻭ - ﺢﻄﺴﻟﺍ ﻰﻠﻋ ﻥﻮﺟﺎﻧ ﺪﺟﻮﻳ ﻻ \n\n.[pre_ftl_planet.GetPlanetHabitat] ﻢﻈﻌﻣ ﺕﺮﻣﺩ ﻲﺘﻟﺍ ﺔﻳﻭﻮﻨﻟﺍ ﺦﻳﺭﺍﻮﺼﻠﻟ ﻞﺋﺎﻫ ﻝﺩﺎﺒﺗ ﻲﻓ ﺾﻌﺒﻟﺍ ﺎﻤﻬﻀﻌﺑ ﻦﻴﺒﻧﺎﺠﻟﺍ ﻼﻛ ﺲﻤﻃ ،ﺓﺮﻴﺼﻗ ﺔﻳﺪﻴﻠﻘﺗ ﺏﺮﺣ ﺪﻌﺑ"
+
+ observation.205.reg_pre_ftl.desc:0 "$observation.205.end$\n\n$observation.205.reg.start$"
+ observation.205.hive_pre_ftl.desc:0 "$observation.205.end$\n\n$observation.205.hive_mind.start$"
+ observation.205.reg_pre_ftl.desc.gestalt:0 "$observation.205.gestalt.end$\n\n$observation.205.reg.start$"
+ observation.205.hive_pre_ftl.desc.gestalt:0 "$observation.205.gestalt.end$\n\n$observation.205.hive_mind.start$"
+
+ observation.205.a:1 "...ﺝﻭﺮﺨﻟﺍ ﻲﻓ ﺢﺠﻧ ﺪﻗ ﻂﻘﻓ ﺎﻨﻛﻮﻜﻣ ﻥﺃ ﻮﻟ"
+
+# Nuclear War, everyone dead, planet is a toxic world
+ observation.206.name:0 "$ﻢﺳﺍ.205.ﺔﻈﺣﻼﻤﻟﺍ$"
+
+ observation.206.reg.start:0 "$observation.205.reg.start$"
+ observation.206.hive_mind.start:0 "$observation.205.hive_mind.start$"
+ observation.206.end:0 ".ﻰﺗﻮﻤﻟﺍ ﺕﺍﺭﺎﻴﻠﻣ ﻦﻴﺑ ﻦﻣ ﻥﻭﺪﻌﻳ ﻯﺮﺳﻷﺍ ﺎﻧﺅﺎﻤﻠﻋ .ﺓﺎﻴﺤﻟﺍ ﻢﻋﺩ ﻰﻠﻋ ﺍﺭﺩﺎﻗ [pre_ftl_planet.GetName] ﺪﻌﻳ ﻢﻟﻭ ،ﺢﻄﺴﻟﺍ ﻥﺎﻜﺳ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﻢﺗ\n\n.[pre_ftl_planet.GetPlanetHabitat] ﻢﻈﻌﻣ ﺕﺮﻣﺩ ﻲﺘﻟﺍ ﺔﻳﻭﻮﻨﻟﺍ ﺦﻳﺭﺍﻮﺼﻠﻟ ﻞﺋﺎﻫ ﻝﺩﺎﺒﺗ ﻲﻓ ﺾﻌﺒﻟﺍ ﺎﻤﻬﻀﻌﺑ ﻦﻴﺒﻧﺎﺠﻟﺍ ﻼﻛ ﺲﻤﻃ ،ﺓﺮﻴﺼﻗ ﺔﻳﺪﻴﻠﻘﺗ ﺏﺮﺣ ﺪﻌﺑ"
+ observation.206.gestalt.end:0 ".ﻰﺗﻮﻤﻟﺍ ﺕﺍﺭﺎﻴﻠﻣ ﻦﻤﺿ ﻩﺮﺳﺃ ﻢﺗ ﻱﺬﻟﺍ [GetIndividualNamePlural] ﺀﺎﺼﺣﺇ ﻢﺗ .ﺓﺎﻴﺤﻟﺍ ﻢﻋﺩ ﻰﻠﻋ ﺍﺭﺩﺎﻗ [pre_ftl_planet.GetName] ﺪﻌﻳ ﻢﻟﻭ ،ﺢﻄﺴﻟﺍ ﻥﺎﻜﺳ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﻢﺗ\n\n.[pre_ftl_planet.GetPlanetHabitat] ﻢﻈﻌﻣ ﺕﺮﻣﺩ ﻲﺘﻟﺍ ﺔﻳﻭﻮﻨﻟﺍ ﺦﻳﺭﺍﻮﺼﻠﻟ ﻞﺋﺎﻫ ﻝﺩﺎﺒﺗ ﻲﻓ ﺾﻌﺒﻟﺍ ﺎﻤﻬﻀﻌﺑ ﻦﻴﺒﻧﺎﺠﻟﺍ ﻼﻛ ﺲﻤﻃ ،ﺓﺮﻴﺼﻗ ﺔﻳﺪﻴﻠﻘﺗ ﺏﺮﺣ ﺪﻌﺑ"
+
+ observation.206.reg_pre_ftl.desc:0 "$observation.206.end$\n\n$observation.206.reg.start$"
+ observation.206.hive_pre_ftl.desc:0 "$observation.206.end$\n\n$observation.206.hive_mind.start$"
+ observation.206.reg_pre_ftl.desc.gestalt:0 "$observation.206.gestalt.end$\n\n$observation.206.reg.start$"
+ observation.206.hive_pre_ftl.desc.gestalt:0 "$observation.206.gestalt.end$\n\n$observation.206.hive_mind.start$"
+
+ observation.206.a:1 "$a.205.ﺔﻈﺣﻼﻤﻟﺍ$"
+
+# Nuclear War, pre-ftls regress to stone age, planet is a tomb world
+ observation.207.name:0 "$ﻢﺳﺍ.205.ﺔﻈﺣﻼﻤﻟﺍ$"
+
+ observation.207.reg.start:0 "$observation.205.reg.start$"
+ observation.207.hive_mind.start:0 "$observation.205.hive_mind.start$"
+ observation.207.end:0 ".ﻰﺗﻮﻤﻟﺍ ﺕﺍﺭﺎﻴﻠﻣ ﻦﻴﺑ ﻦﻣ ﻥﻭﺪﻌﻳ ﻯﺮﺳﻷﺍ ﺎﻧﺅﺎﻤﻠﻋ .ﺮﻴﺜﻜﺑ ﺍﺭﻮﻄﺗ ﻞﻗﺃ ﺔﻟﺎﺣ ﻰﻟﺇ [pre_ftl_planet.GetPlanetHabitat] ﺓﺭﺎﻀﺣ ﻊﺟﺍﺮﺘﺗ ﻥﺃ ﻥﻮﻌﻗﻮﺘﻳ ﺎﻨﻴﺜﺣﺎﺑ ﻦﻜﻟ ،ﺽﺎﻘﻧﻷﺍ ﺖﺤﺗ ﻦﻣ ﻥﻭﺮﺛﺎﻨﺘﻣ ﻥﻮﺟﺎﻧ ﺮﻬﻇ ﺪﻘﻟ .ﻥﺎﻜﺴﻟﺍ ﻦﻣ ٪90 ﻦﻣ ﺮﺜﻛﺃﻭ ﺔﻴﺴﻴﺋﺭ ﺔﻨﻳﺪﻣ ﻞﻛ ﺮﻴﻣﺪﺗ ﻊﻣ ،ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺭﺍﺮﺿﻷ [pre_ftl_planet.GetPlanetHabitat] ﺖﺿﺮﻌﺗ\n\n.[pre_ftl_planet.GetPlanetHabitat] ﻢﻈﻌﻣ ﺕﺮﻣﺩ ﻲﺘﻟﺍ ﺔﻳﻭﻮﻨﻟﺍ ﺦﻳﺭﺍﻮﺼﻠﻟ ﻞﺋﺎﻫ ﻝﺩﺎﺒﺗ ﻲﻓ ﺾﻌﺒﻟﺍ ﺎﻤﻬﻀﻌﺑ ﻦﻴﺒﻧﺎﺠﻟﺍ ﻼﻛ ﺲﻤﻃ ،ﺓﺮﻴﺼﻗ ﺔﻳﺪﻴﻠﻘﺗ ﺏﺮﺣ ﺪﻌﺑ"
+ observation.207.gestalt.end:0 ".ﻰﺗﻮﻤﻟﺍ ﺕﺍﺭﺎﻴﻠﻣ ﻦﻴﺑ ﻩﺮﺳﺃ ﻢﺗ ﻱﺬﻟﺍ [root.GetIndividualNamePlural] ﺀﺎﺼﺣﺇ ﻢﺗ .ﺮﻴﺜﻜﺑ ﺍﺭﻮﻄﺗ ﻞﻗﺃ ﺔﻟﺎﺣ ﻰﻟﺇ [pre_ftl_planet.GetPlanetHabitat] ﺓﺭﺎﻀﺣ ﻊﺟﺍﺮﺘﺗ ﻥﺃ ﻊﻗﻮﺘﻧ ﺎﻨﻨﻜﻟ ،ﺽﺎﻘﻧﻷﺍ ﺖﺤﺗ ﻦﻣ ﻥﻭﺮﺛﺎﻨﺘﻣ ﻥﻮﺟﺎﻧ ﺮﻬﻇ ﺪﻘﻟ .ﻥﺎﻜﺴﻟﺍ ﻦﻣ ٪90 ﻦﻣ ﺮﺜﻛﺃﻭ ﺔﻴﺴﻴﺋﺭ ﺔﻨﻳﺪﻣ ﻞﻛ ﺮﻴﻣﺪﺗ ﻊﻣ ،ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺭﺍﺮﺿﻷ [pre_ftl_planet.GetPlanetHabitat] ﺖﺿﺮﻌﺗ\n\n.[pre_ftl_planet.GetPlanetHabitat] ﻢﻈﻌﻣ ﺕﺮﻣﺩ ﻲﺘﻟﺍ ﺔﻳﻭﻮﻨﻟﺍ ﺦﻳﺭﺍﻮﺼﻠﻟ ﻞﺋﺎﻫ ﻝﺩﺎﺒﺗ ﻲﻓ ﺾﻌﺒﻟﺍ ﺎﻤﻬﻀﻌﺑ ﻦﻴﺒﻧﺎﺠﻟﺍ ﻼﻛ ﺲﻤﻃ ،ﺓﺮﻴﺼﻗ ﺔﻳﺪﻴﻠﻘﺗ ﺏﺮﺣ ﺪﻌﺑ"
+
+ observation.207.reg_pre_ftl.desc:0 "$observation.207.end$\n\n$observation.207.reg.start$"
+ observation.207.hive_pre_ftl.desc:0 "$observation.207.end$\n\n$observation.207.hive_mind.start$"
+ observation.207.reg_pre_ftl.desc.gestalt:0 "$observation.207.gestalt.end$\n\n$observation.207.reg.start$"
+ observation.207.hive_pre_ftl.desc.gestalt:0 "$observation.207.gestalt.end$\n\n$observation.207.hive_mind.start$"
+
+ observation.207.a:1 "$a.205.ﺔﻈﺣﻼﻤﻟﺍ$"
+
+ observation.209.name:1 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﺓﺪﻳﺪﺟ ﺔﺤﻠﺳﺃ"
+
+ observation.209.reg_pre_ftl.desc:0 ".ﻢﻬﻤﻜﺣ ﺖﺤﺗ ﻞﻣﺎﻜﻟﺎﺑ [pre_ftl_planet.GetPlanetHabitat] ﺪﻴﺣﻮﺗ ﺩﺪﺼﺑ ﻥﻵﺍ ﻢﻫﻭ ﺓﺭﻭﺎﺠﻤﻟﺍ ﻝﻭﺪﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻭﺰﻏ ﻲﻓ ﺍﻮﺤﺠﻧ ،ﺕﺍﺪﻌﻤﻟﺍ ﻩﺬﻫ ﻡﺍﺪﺨﺘﺳﺎﺑ .ﻢﻬﺸﻴﺠﻟ ﺓﺪﻳﺪﺟ ﺔﻴﺑﺮﺣ ﺕﺍﻭﺩﺃ ﻢﻴﻤﺼﺗ ﻰﻠﻋ ﻯﺮﺳﻷﺍ ﺎﻨﺋﺎﻤﻠﻋ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺎﻨﻛﻮﻜﻣ ﺖﻄﻘﺳﺃ ﻲﺘﻟﺍ ﺔﻴﻣﻮﻘﻟﺍ ﺔﻟﻭﺪﻟﺍ ﺕﺮﺒﺟﺃ ﺪﻘﻟ"
+ observation.209.hive_pre_ftl.desc:0 ".ﻢﻬﻤﻜﺣ ﺖﺤﺗ ﻞﻣﺎﻜﻟﺎﺑ [pre_ftl_planet.GetPlanetHabitat] ﺪﻴﺣﻮﺗ ﺩﺪﺼﺑ ﻥﻵﺍ ﻢﻫﻭ ﺓﺭﻭﺎﺠﻤﻟﺍ ﻞﺤﻨﻟﺍ ﺎﻳﻼﺧ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻭﺰﻏ ﻲﻓ ﺍﻮﺤﺠﻧ ،ﺕﺍﺪﻌﻤﻟﺍ ﻩﺬﻫ ﻡﺍﺪﺨﺘﺳﺎﺑ .ﻢﻬﺸﻴﺠﻟ ﺓﺪﻳﺪﺟ ﺔﻴﺑﺮﺣ ﺕﺍﻭﺩﺃ ﻢﻴﻤﺼﺗ ﻰﻠﻋ ﻯﺮﺳﻷﺍ ﺎﻨﺋﺎﻤﻠﻋ ﺮﺒﺟﺃ ﺪﻗ ﺎﻨﻛﻮﻜﻣ ﻂﻘﺳﺃ ﻱﺬﻟﺍ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺩﻮﺟﻮﻤﻟﺍ ﻲﻋﻮﻟﺍ ﻥﺇ"
+ observation.209.reg_pre_ftl.desc.gestalt:0 ".ﻢﻬﻤﻜﺣ ﺖﺤﺗ ﻞﻣﺎﻜﻟﺎﺑ [pre_ftl_planet.GetPlanetHabitat] ﺪﻴﺣﻮﺗ ﺩﺪﺼﺑ ﻥﻵﺍ ﻢﻫﻭ ﺓﺭﻭﺎﺠﻤﻟﺍ ﻝﻭﺪﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻭﺰﻏ ﻲﻓ ﺍﻮﺤﺠﻧ ،ﺕﺍﺪﻌﻤﻟﺍ ﻩﺬﻫ ﻡﺍﺪﺨﺘﺳﺎﺑ .ﺎﻬﺸﻴﺠﻟ ﺓﺪﻳﺪﺟ ﺏﺮﺣ ﺕﺍﻭﺩﺃ ﻢﻴﻤﺼﺗ ﻰﻠﻋ ﺎﻬﻴﻠﻋ ﺀﻼﻴﺘﺳﻻﺍ ﻢﺗ ﻲﺘﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺎﻨﺗﺍﺮﺋﺎﻃ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺎﻨﻛﻮﻜﻣ ﺖﻄﻘﺳﺃ ﻲﺘﻟﺍ ﺔﻴﻣﻮﻘﻟﺍ ﺔﻟﻭﺪﻟﺍ ﺕﺮﺒﺟﺃ ﺪﻘﻟ"
+ observation.209.hive_pre_ftl.desc.gestalt:0 ".ﻢﻬﻤﻜﺣ ﺖﺤﺗ ﻞﻣﺎﻜﻟﺎﺑ [pre_ftl_planet.GetPlanetHabitat] ﺪﻴﺣﻮﺗ ﺩﺪﺼﺑ ﻥﻵﺍ ﻢﻫﻭ ﺓﺭﻭﺎﺠﻤﻟﺍ ﻞﺤﻨﻟﺍ ﺎﻳﻼﺧ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻭﺰﻏ ﻲﻓ ﺍﻮﺤﺠﻧ ،ﺕﺍﺪﻌﻤﻟﺍ ﻩﺬﻫ ﻡﺍﺪﺨﺘﺳﺎﺑ .ﻢﻬﺸﻴﺠﻟ ﺓﺪﻳﺪﺟ ﺔﻴﺑﺮﺣ ﺕﺍﻭﺩﺃ ﻢﻴﻤﺼﺗ ﻰﻠﻋ ﻩﺮﺳﺃ ﻢﺗ ﻱﺬﻟﺍ [root.GetIndividualName] ﺮﺒﺟﺃ ﺪﻗ ﺎﻨﻛﻮﻜﻣ ﻂﻘﺳﺃ ﻱﺬﻟﺍ [pre_ftl_planet.GetName] ﻲﻋﻭ ﻥﺇ"
+
+ observation.209.a:1 "!ﻕﺎﻄﻳ ﻻ ﺍﺬﻫ"
+
+ observation.211.name:1 "ﻦﺋﺎﻫﺮﻟﺍ ﺔﻘﻔﺻ"
+
+ observation.211.reg.start:0 ".ﺎﻨﻟ ﺺﺼﺨﻣ ﻪﻧﺃ ﻭﺪﺒﻳ .ﺔﻴﻋﺎﻨﺼﻟﺍ ﺎﻫﺭﺎﻤﻗﺃ ﺪﺣﺃ ﺮﺒﻋ ﺀﺎﻀﻔﻟﺍ ﻰﻟﺇ ﺎﺣﻮﺘﻔﻣ ﻻﺎﺳﺭﺇ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺎﻨﻛﻮﻜﻣ ﺖﻄﻘﺳﺃ ﻲﺘﻟﺍ ﺔﻴﻣﻮﻘﻟﺍ ﺔﻟﻭﺪﻟﺍ ﺖﻠﺳﺭﺃ"
+ observation.211.hive_mind.start:0 ".ﺎﻨﻟ ﺺﺼﺨﻣ ﻪﻧﺃ ﻭﺪﺒﻳ .ﺔﻴﻋﺎﻨﺼﻟﺍ ﻢﻫﺭﺎﻤﻗﺃ ﺪﺣﺃ ﺮﺒﻋ ﺀﺎﻀﻔﻟﺍ ﻰﻟﺇ ﺎﺣﻮﺘﻔﻣ ﻻﺎﺳﺭﺇ ﺎﻨﻛﻮﻜﻣ ﻂﻘﺳﺃ ﻱﺬﻟﺍ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺩﻮﺟﻮﻤﻟﺍ ﻲﻋﻮﻟﺍ ﻞﺳﺭﺃ ﺪﻘﻟ"
+ observation.211.end:0 ".ﻢﻬﺑ ﺹﺎﺨﻟﺍ ﻡﺎﺨﻟﺍ ﻲﻧﻮﻳﺰﻔﻠﺘﻟﺍ ﺚﺒﻟﺍ ﻡﺎﻈﻧ ﺮﺒﻋ ﺓﺮﺷﺎﺒﻣ ﺀﺍﻮﻬﻟﺍ ﻰﻠﻋ ﺎﻨﻠﻋ ﺎﻨﺋﺎﻤﻠﻋ ﻡﺍﺪﻋﺇ ﻢﺘﻴﺴﻓ ،ﺎﻨﻀﻓﺭ ﺍﺫﺇ .ﻙﻮﻜﻤﻟﺍ ﻢﻄﺤﺗ ﻊﻗﻮﻣ ﻲﻓ ﻢﻫﻭﺮﺳﺃ ﻦﻳﺬﻟﺍ ﺀﺎﻤﻠﻌﻟﺍ ﺓﺎﻴﺣ ﻞﺑﺎﻘﻣ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺎﻨﺗﺎﻴﻨﻘﺗ ﻦﻣ ﺎﻀﻌﺑ ﻢﻬﻛﺭﺎﺸﻧ ﻥﺄﺑ ﻥﻮﺒﻟﺎﻄﻳ ﻢﻬﻧﺇ"
+ observation.211.gestalt.end:0 ".ﻢﻬﺑ ﺹﺎﺨﻟﺍ ﻡﺎﺨﻟﺍ ﺰﻔﻠﺘﻤﻟﺍ ﺚﺒﻟﺍ ﻡﺎﻈﻧ ﻰﻠﻋ ﺓﺮﺷﺎﺒﻣ ﺀﺍﻮﻬﻟﺍ ﻰﻠﻋ ﺎﻨﻠﻋ ﺎﻨﺑ ﺹﺎﺨﻟﺍ [GetIndividualNamePlural] ﺬﻴﻔﻨﺗ ﻢﺘﻴﺳ ،ﺎﻨﻀﻓﺭ ﺍﺫﺇ .ﻙﻮﻜﻤﻟﺍ ﻢﻄﺤﺗ ﻊﻗﻮﻣ ﻲﻓ ﺎﻬﻴﻠﻋ ﺍﻮﻟﻮﺘﺳﺍ ﻲﺘﻟﺍ [GetIndividualNamePlural] ﺓﺎﻴﺣ ﻞﺑﺎﻘﻣ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺎﻨﺗﺎﻴﻨﻘﺗ ﻦﻣ ﺎﻀﻌﺑ ﻢﻬﻛﺭﺎﺸﻧ ﻥﺄﺑ ﻥﻮﺒﻟﺎﻄﻳ ﻢﻬﻧﺇ"
+
+ observation.211.reg_pre_ftl.desc:0 "$observation.211.end$\n\n$observation.211.reg.start$"
+ observation.211.hive_pre_ftl.desc:0 "$observation.211.end$\n\n$observation.211.hive_mind.start$"
+ observation.211.reg_pre_ftl.desc.gestalt:0 "$observation.211.gestalt.end$\n\n$observation.211.reg.start$"
+ observation.211.hive_pre_ftl.desc.gestalt:0 "$observation.211.gestalt.end$\n\n$observation.211.hive_mind.start$"
+ observation.211.a:1 ".ﻝﻭﻷﺍ ﻡﺎﻘﻤﻟﺍ ﻲﻓ ﻲﺗﺄﺗ ﺎﻨﺒﻌﺷ ﺔﻣﻼﺳ"
+ observation.211.a.gestalt:1 ".ﻝﻭﻷﺍ ﻡﺎﻘﻤﻟﺍ ﻲﻓ ﻲﺗﺄﺗ ﺔﻠﻘﺘﺴﻤﻟﺍ ﺎﻨﺗﺍﺪﺣﻭ ﺔﻣﻼﺳ"
+ observation.211.b:1 ".ﻦﻳﺪﻌﺘﺴﻣ ﺮﻴﻏ ﻢﻬﻧﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ"
+
+ observation.212.name:1 "ﻦﺋﺎﻫﺮﻟﺍ ﻡﺍﺪﻋﺇ"
+
+ observation.212.desc:1 "."ﺔﻴﺋﺎﻀﻓ ﺕﺎﻨﺋﺎﻛ ﻝﺍﻮﻫﺃ" ﻢﻬﻧﺃ ﻰﻠﻋ ﺮﺷﺎﺒﻤﻟﺍ ﻥﻮﻳﺰﻔﻠﺘﻟﺍ ﺔﺷﺎﺷ ﻰﻠﻋ ﺕﺍﺮﻴﻣﺎﻜﻟﺍ ﻡﺎﻣﺃ [pre_ftl_planet.GetName] ﻰﻠﻋ ﻯﺮﺳﻷﺍ ﺎﻨﺋﺎﻤﻠﻋ ﺽﺮﻋ ﻢﺗ ،ﺶﺣﺎﻓ ﺪﻬﺸﻣ ﻪﻧﺄﺑ ﻻﺇ ﻪﻔﺻﻭ ﻦﻜﻤﻳ ﻻ ﺎﻣ ﻲﻓ"
+ observation.212.desc.mach:1 "."ﻡﻮﺠﻨﻟﺍ ﺀﺍﺭﻭ ﻦﻣ ﺔﻟﻵﺍ ﻝﺍﻮﻫﺃ" ﺎﻬﻧﺃ ﻰﻠﻋ ﺮﺷﺎﺒﻤﻟﺍ ﻥﻮﻳﺰﻔﻠﺘﻟﺍ ﺔﺷﺎﺷ ﻰﻠﻋ ﺕﺍﺮﻴﻣﺎﻜﻟﺍ ﻡﺎﻣﺃ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺎﻬﻃﺎﻘﺘﻟﺍ ﻢﺗ ﻲﺘﻟﺍ ﺔﻴﻤﻠﻌﻟﺍ ﺎﻨﺗﺍﺪﺣﻭ ﺽﺮﻋ ﻢﺗ ،ﺶﺣﺎﻓ ﺪﻬﺸﻣ ﻪﻧﺄﺑ ﻻﺇ ﻪﻔﺻﻭ ﻦﻜﻤﻳ ﻻ ﺎﻣ ﻲﻓ"
+ observation.212.a:1 "!ﻒﺳﺆﻣ"
+
+# Smuggler Outpost
+ observation.301.name:1 "ﺐﻳﺮﻬﺘﻟﺍ ﺮﻔﺨﻣ"
+ observation.301.desc:1 ".ﺭﺮﻀﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻲﻓ ﺐﺒﺴﺘﻟﺍ ﻦﻣ ﺍﻮﻨﻜﻤﺘﻳ ﻥﺃ ﻞﺒﻗ ﻦﻴﻣﺮﺠﻤﻟﺍ ﺔﻟﺍﺯﺇﻭ ﻊﺿﻮﻟﺍ ﺍﺬﻫ ﺀﺍﻮﺘﺣﻻ ﺔﻋﺮﺴﺑ ﻙﺮﺤﺘﻟﺍ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﻦﺤﻧ .ﻒﻨﻌﻟﺎﺑ ﺎﻬﻀﻌﺑ ﻰﻬﺘﻧﺍﻭ - ﻲﻠﺻﻷﺍ [GetPreFTLLowerPlural] ـﺑ ﻥﻮﺑﺮﻬﻤﻟﺍ ﻞﺼﺗﺍ ﺚﻴﺣ ﺔﻟﻭﺰﻌﻣ ﺙﺩﺍﻮﺣ ﻞﻌﻔﻟﺎﺑ ﺖﻌﻗﻭ ﺪﻘﻟ \n\n.[Root.GetName] ﻦﻣ ﻯﺮﺧﺃ ﺔﻴﻣﺍﺮﺟﺇ ﺮﺻﺎﻨﻋﻭ [Root.GetSpeciesName] ﻮﺑﺮﻬﻣ ﺎﻫﺄﺸﻧﺃ ﻲﺘﻟﺍ ﺔﻴﻧﺎﻄﻴﺘﺳﻻﺍ ﺓﺭﺆﺒﻟﺍ ﻦﻣ ﻉﻮﻧ ﺎﻬﻧﺃ ﻭﺪﺒﻳ .[pre_ftl_planet.GetPlanetHabitat] ﺢﻄﺳ ﻰﻠﻋ ﺔﻴﻧﻮﻧﺎﻗ ﺮﻴﻏ ﺔﻨﻃﻮﺘﺴﻣ [pre_ftl_planet.GetName] ﻕﻮﻓ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻒﺸﺘﻛﺍ"
+ observation.301.a:1 ".ﻢﻬﺤﺴﻣﺍ"
+ observation.301.b:1 "؟ﻦﻴﺑﺮﻬﻤﻟﺍ ﻦﻣ ﻞﻴﻠﻗ ﺩﺪﻋ ﻪﺛﺪﺤﻳ ﻥﺃ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ﺭﺮﻀﻟﺍ ﺎﻣ"
+ observation.302.name:1 "ﻦﻴﺑﺮﻬﻤﻟﺍ ﺔﻤﻫﺍﺪﻣ"
+ observation.302.desc:1 ".ﺎﻨﺘﻨﻳﺰﺧ ﻰﻟﺇ ﺓﺭﺩﺎﺼﻤﻟﺍ ﻩﺬﻫ ﺡﺎﺑﺭﺃ ﺖﻔﻴﺿﺃ ﺪﻗﻭ .ﺔﻴﻧﻮﻧﺎﻘﻟﺍ ﺮﻴﻏ ﺔﺑﺮﻬﻤﻟﺍ ﻊﺋﺎﻀﺒﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﺎﻨﺗﺍﻮﻗ ﺕﺭﺩﺎﺻ ﺎﻤﻛ ،ﻰﻧﺩﻷﺍ ﻩﺪﺣ ﻲﻓ ﻥﺎﻛ ﻲﻓﺎﻘﺜﻟﺍ ﺙﻮﻠﺘﻟﺍ ﻥﺃ ﺪﻘﺘﻌﻳ\n\n.ﻡﺪﻬﻟﺍ ﻡﻮﺳﺭ ﺐﺒﺴﺑ ﻍﺭﺎﻔﻟﺍ ﻰﻨﺒﻤﻟﺍ ﺮﺨﺒﺗ ﻚﻟﺫ ﺪﻌﺑ ﻢﺗ .ﺭﺍﺪﻤﻟﺍ ﻰﻟﺇ ﻢﻬﻠﻘﻧﻭ ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﻦﻴﻗﺎﺒﻟﺍ ﻦﻴﻣﺮﺠﻤﻟﺍ ﻰﻠﻋ ﺾﺒﻘﻟﺍ ﻢﺗ ،ﺮﻴﺼﻗ ﺭﺎﻧ ﻕﻼﻃﺇ ﻝﺩﺎﺒﺗ ﺪﻌﺑﻭ .[pre_ftl_planet.GetName] ﻲﻓ ﻦﻴﺑﺮﻬﻤﻟﺍ ﻊﻗﻮﻣ ﺔﻳﺮﺒﻟﺍ ﺎﻨﺗﺍﻮﻗ ﺖﻤﺤﺘﻗﺍ ،ﺔﻔﻃﺎﺧ ﺓﺭﺎﻏ ﻲﻓ"
+ observation.302.a:1 ".ﺮﻴﺒﻛ ﺭﺎﺼﺘﻧﺍ"
+ observation.303.name:1 "ﺔﺑﺮﻬﻤﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺓﺭﺎﺠﺗ"
+ observation.303.desc:3 ".ﺔﻠﺣﺮﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﻪﻴﻓ ﺔﻌﺟﺭ ﻻ ﻲﻓﺎﻘﺜﻟﺍ ﺙﻮﻠﺘﻟﺍ .ﺔﻋﻭﺮﻣ ﻦﻴﺒﻧﺎﺠﻟﺍ ﻼﻛ ﻲﻓ ﺮﺋﺎﺴﺨﻟﺍ ﺖﻧﺎﻛ ﺪﻘﻓ ،ﻢﻬﻓﺮﺼﺗ ﺖﺤﺗ ﻥﻵﺍ ﺓﺮﻓﻮﺘﻤﻟﺍ ﺔﻴﻨﻘﺘﻟﺍ ﺔﻴﻟﺎﻋ ﺔﺤﻠﺳﻸﻟ ﺍﺮﻈﻧﻭ .ﺔﻔﻠﺘﺨﻤﻟﺍ [GetPreFTLLower] ﺕﺎﻋﻮﻤﺠﻣ ﻦﻴﺑ ﻝﺎﺘﻘﻟﺍ ﻊﻟﺪﻧﺍ \n\n.ﺪﻴﺒﻌﻟﺍﻭ ﺔﻨﻴﻤﺜﻟﺍ ﻥﺩﺎﻌﻤﻟﺍ ﻞﺑﺎﻘﻣ ﻲﻠﺤﻤﻟﺍ [GetPreFTLLowerPlural] ﻰﻟﺇ ﻡﺎﺨﻟﺍ ﺓﺭﺪﺨﻤﻟﺍ ﺕﺎﻄﺸﻨﻤﻟﺍﻭ ﺔﺜﻳﺪﺤﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺓﺭﺎﺠﺗ ﻲﻓ [pre_ftl_planet.GetName] ﻲﻓ ﻥﻮﺑﺮﻬﻤﻟﺍ ﺃﺪﺑ .ﻥﺍﻭﻷﺍ ﺕﺎﻓ ﺪﻘﻟ"
+ observation.303.a:1 ".ﺔﺛﺭﺎﻛ ﻩﺬﻫ"
+
+# Scientist Abduction
+ observation.1001.name:0 "ﻑﺎﻄﺘﺧﻻﺍ ﺡﺍﺮﺘﻗﺍ"
+ observation.1001.desc:1 ".ﺔﻴﻘﻴﻘﺤﻟﺍ ﻡﻮﻠﻌﻟﺍ ﺾﻌﺒﺑ ﻡﺎﻴﻘﻠﻟ ﺔﺻﺮﻓ [abducted_scientist.GetHeShe] ﻯﺪﻟ ﻥﻮﻜﻴﺳ ،ﺔﻣﺪﻘﺘﻤﻟﺍ ﺎﻨﺗﺍﺮﺒﺘﺨﻣ ﻲﻓ .ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ [owner.GetPreFTLLower] ﺓﺭﺎﻀﺣ ﻲﻓ ﺎﻫﺭﺍﺪﻫﺇ ﻢﺘﻳ [abducted_scientist.GetHisHer] ﺕﺎﻧﺎﻜﻣﺇ ﻥﺃ ﻻﺇ ،[pre_ftl_country.GetSpeciesNamePlural] ـﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ ﻦﻣ ﺪﻴﻛﺄﺘﻟﺎﺑ ﺪﻳﺰﻳ [abducted_scientist.GetHisHer] ﻞﻤﻋ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.ﺎﻧﺮﻴﻳﺎﻌﻤﻟ ﺎﻘﻓﻭ ﻰﺘﺣ ﺔﻳﺭﻮﺛ ﻪﻨﻣ ﺀﺍﺰﺟﺃﻭ ،[abducted_scientist.GetHisHer] ﻦﻣ ﻪﻧﺍﺮﻗﺃ ﻦﻋ ﺮﻴﺒﻛ ﻕﺭﺎﻔﺑ ﻊﺋﺍﺮﻟﺍ [abducted_scientist.GetHisHerCap] ﺚﺤﺑ ﻡﺪﻘﺘﻳ .ﺍﺮﻴﺒﻛ ﺍﺪﻋﻭ ﺮﻬﻈﻳ [pre_ftl_planet.GetName] ﻰﻠﻋ [pre_ftl_country.GetSpeciesNamePlural] [owner.GetPreFTLLower] ﻦﻴﺑ ﻦﻣ ﺎﻤﻟﺎﻋ ﺎﻧﺩﺪﺣ ﺪﻘﻟ"
+ observation.1001.a:0 ".ﻑﺎﻄﺘﺧﻻﺍ ﻮﻳﺭﺎﻨﻴﺳ ﻢﺳﺭﺍ"
+ observation.1001.b:1 ".ﺹﺎﺨﺷﻷﺍ ﻦﻣ [abducted_scientist.GetHisHer] ﻊﻣ [abducted_scientist.GetHimHer] ﻙﺮﺗﺍ .[owner.GetPreFTLLower] ﻝﺍﺰﻳ ﻻ [abducted_scientist.GetHeSheCap]"
+ observation.1002.name:0 "ﺡﺎﺠﻨﺑ ﻑﺎﻄﺘﺧﻻﺍ ﻢﺗ"
+ observation.1002.desc:2 ".ﺎﻨﻳﺪﻟ ﻞﻤﻌﻟﺎﺑ ﺪﻴﺠﻟﺍ ﻢﻟﺎﻌﻟﺍ "ﻉﺎﻨﻗﺇ" ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﻦﻣ ﻥﻮﻘﺛﺍﻭ ﻦﺤﻧ .ﻲﺼﺨﺸﻟﺍ [abducted_scientist.GetHisHer] ﺱﺭﺎﺣ ﻞﻴﺻﺎﻔﺗ ﺕﺎﻳﺮﻛﺫ ﺢﺴﻣ ﻢﺗ ﺎﻤﻨﻴﺑ ،ﻙﻮﻜﻤﻟﺍ ﻰﻟﺇ ﻩﺭﺎﻀﺣﺇ ﻢﺗﻭ ﺎﺘﻗﺆﻣ ﻞﻠﺸﻟﺎﺑ ﻢﻟﺎﻌﻟﺍ ﺐﻴﺻﺃ \n\n .ﻲﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻛ ﺭﺎﺠﻔﻧﺎﺑ ﺎﻬﺘﻠﻄﻋﻭ ،ﻞﻴﻠﻟﺍ ﻦﻣ ﺮﺧﺄﺘﻣ ﺖﻗﻭ ﻲﻓ ﻞﻤﻌﻟﺍ ﻦﻣ ﻝﺰﻨﻤﻟﺍ ﻰﻟﺇ ﺍﺪﺋﺎﻋ [abducted_scientist.GetHeShe] ﻥﺎﻛ ﺎﻤﻨﻴﺑ [abducted_scientist.GetHisHer] ﺓﺭﺎﻴﺳ ﺔﻴﺿﺭﻷﺍ ﺎﻨﺗﺎﻛﻮﻜﻣ ﻯﺪﺣﺇ ﺖﺿﺮﺘﻋﺍ ![pre_ftl_country.GetName] ﻦﻣ [owner.GetPreFTLLower] ﻢﻟﺎﻋ ﻑﺎﻄﺘﺧﺍ ﻲﻓ ﺎﻧﺅﻼﻤﻋ ﺢﺠﻧ"
+ observation.1002.tt:0 ".§Y$leader_trait_spark_of_genius$§! ﺔﻤﺳ ﻡﺍﺪﺨﺘﺳﺎﺑ §Y Scientist[pre_ftl_country.GetSpeciesName] 6 ﻯﻮﺘﺴﻤﻟﺍ§! ﻰﻠﻋ ﻞﺼﺣﺍ"
+ observation.1003.name:0 "ﻑﺎﻄﺘﺧﻻﺍ ﻞﺸﻓ"
+ observation.1003.desc:2 ".[pre_ftl_country.GetSpeciesName] ﺔﺴﻓﺎﻨﻤﻟﺍ ﺔﻴﻣﻮﻘﻟﺍ ﺔﻟﻭﺪﻟﺍ ﻰﻠﻋ [abducted_scientist.GetHisHer] ﺓﺎﻓﻭ ﻲﻓ ﻡﻮﻠﻟﺍ ﺀﺎﻘﻟﺇ ﻢﺘﻳ ﻥﺃ ﻞﻣﺄﻧ .ﻼﻳﻮﻃ ﺎﻃﻮﻘﺳ ﻥﺎﻛ ﺪﻘﻟ ،ﺎﻨﺴﺣ ...ﻢﻟﺎﻌﻟﺍﻭ ﻉﺎﻔﺗﺭﻻﺍ ﻉﺎﻌﺷ ﺔﻌﻃﺎﻘﻣ ﺖﻤﺗ ﻦﻜﻟﻭ ،ﺭﺍﺪﻤﻟﺍ ﻰﻟﺇ ﻥﺎﻣﺄﺑ ﻙﻮﻜﻤﻟﺍ ﺏﺮﻫ \n\n .ﺙﺩﺎﺤﻟﺍ ﻥﺎﻜﻣ ﻰﻟﺇ [pre_ftl_country.GetSpeciesName] ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﺔﻠﺗﺎﻘﻣ ﺖﻠﺻﻭ ،ﻉﺎﻔﺗﺭﻻﺍ ﻉﺎﻌﺷ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻪﻧﺎﻜﻣ ﻰﻟﺇ ﻝﻮﻠﺸﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻞﻘﻧ ﺀﺎﻨﺛﺃ ﻦﻜﻟﻭ ،[abducted_scientist.GetHisHer] ﺓﺭﺎﻴﺳ ﺔﻴﺿﺭﻷﺍ ﺎﻨﺗﺎﻛﻮﻜﻣ ﻯﺪﺣﺇ ﺖﺿﺮﺘﻋﺍ .ﻞﺸﻔﻟﺎﺑ [pre_ftl_country.GetName] ﻦﻣ [owner.GetPreFTLLower] ﻢﻟﺎﻋ ﻑﺎﻄﺘﺧﻻ ﺎﻨﺘﻟﻭﺎﺤﻣ ﺕﺀﺎﺑ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ"
+ observation.1004.name:0 "![pre_ftl_planet.GetName] ﻰﻠﻋ ﻕﺍﺮﺘﺧﺍ"
+ observation.1004.desc:0 ".[pre_ftl_country.GetName] ـﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺭﻮﻄﺘﻟﺍ ﻊﻳﺮﺴﺗ ﻰﻟﺇ ﺩﺎﺤﻟﺍ ﻲﻠﻴﻠﺤﺘﻟﺍ ﻞﻘﻌﻟﺍﻭ [abducted_scientist.GetHisHer] ﻲﻓ ﻱﺪﻴﻠﻘﺘﻟﺍ ﺮﻴﻏ ﺚﺤﺒﻟﺍ ﻯﺩﺃ ﺪﻘﻟ .ﺔﻌﺋﺍﺭ ﺔﺒﻫﻮﻣ ﻰﻟﺇ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺓﺮﻣ ﻝﻭﻷ ﻩﺎﻧﺩﺪﺣ ﻱﺬﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺭﻮﻄﺗ ﺪﻘﻟ"
+ observation.1004.a:0 "!ﺰﻴﻤﻣ"
+
+# Defense Force
+ observation.1101.name:1 "ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺔﺤﻓﺎﻜﻤﻟ ﻞﻤﻋ ﺔﻗﺮﻓ :[pre_ftl_planet.GetName]"
+ observation.1101.desc:1 "".ﻪﻠﻛ ﺎﻫﺭﺎﺒﺘﻋﺎﺑ [pre_ftl_country.GetSpeciesName] ﻉﺍﻮﻧﺃ ﺪﺿ ﺔﻓﻭﺮﻌﻣ ﺮﻴﻏ ﺔﺒﻳﺮﻏ ﺔﻟﺎﻛﻭ ﺎﻬﺒﻜﺗﺮﺗ ﻲﺘﻟﺍ ﺔﻴﺋﺍﺪﻌﻟﺍ ﺔﻄﺸﻧﻷﺍ" ﻦﻣ [pre_ftl_planet.GetPlanetHabitat] ﻦﻋ ﻉﺎﻓﺪﻟﺎﺑ ﻩﺬﻫ ﻞﻤﻌﻟﺍ ﺔﻗﺮﻓ ﻒﻴﻠﻜﺗ ﻢﺗ ،ﺔﻴﻠﺤﻤﻟﺍ ﻡﻼﻋﻹﺍ ﻞﺋﺎﺳﻮﻟ ﺎﻘﻓﻭ \n\n.ﺔﻴﻨﻃﻭ ﻕﻮﻓ ﺓﺪﻳﺪﺟ ﺔﻳﺮﻜﺴﻋ ﺔﻤﻈﻨﻣ ﻞﻴﻜﺸﺘﻟ ﺎﺘﻗﺆﻣ ﺎﺒﻧﺎﺟ ﻢﻬﺗﺎﻓﻼﺧ ﻊﺿﻮﺑ [pre_ftl_planet.GetName] ﻲﻓ [pre_ftl_country.GetSpeciesName] ﻝﻭﺩ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺖﻣﺎﻗ ،[GetPreFTLLower] ﻢﻟﺎﻋ ﻰﻠﻋ ﺎﻨﺗﺎﻴﻠﻤﻌﻟ ﺔﺤﺿﺍﻭ ﺔﺑﺎﺠﺘﺳﺍ ﻲﻓ"
+# Interceptions
+ observation.1102.name:1 "ﻞﻤﻌﻟﺍ ﺔﻗﺮﻓ ﺔﻄﺸﻧﺃ :[pre_ftl_planet.GetName]"
+ observation.1102.desc:1 "!ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﻑﺎﻄﺘﺧﻻﺍ ﺕﺎﻛﻮﻜﻣ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻁﺎﻘﺳﺇ ﻦﻣ ﻢﻬﺘﻨﻜﻣ ﺔﻠﺋﺎﻬﻟﺍ ﻢﻫﺩﺍﺪﻋﺃ ﻥﺈﻓ ،ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺎﻨﻗﻮﻔﺗ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺓﻮﻘﻟﺍ ﻩﺬﻫ ـﻟ ﺔﻌﺑﺎﺘﻟﺍ ﺔﻳﻮﺠﻟﺍ ﺕﻼﺗﺎﻘﻤﻟﺍ ﻞﺒﻗ ﻦﻣ ﻲﻨﻴﺗﻭﺭ ﻞﻜﺸﺑ ﺎﻨﻳﺪﻟ ﺔﻳﻮﺠﻟﺍ ﻑﺎﻄﺘﺧﻻﺍ ﺕﻼﺣﺭ ﺽﺍﺮﺘﻋﺍ ﻥﻵﺍ ﻢﺘﻳﻭ ،ﺔﻴﻣﻮﻘﻟﺍ ﻢﻬﻟﻭﺩ ﻦﻴﺑ ﻥﻭﺎﻌﺘﻟﺍ ﻦﻣ ﻕﻮﺒﺴﻣ ﺮﻴﻏ ﻯﻮﺘﺴﻣ ﺪﻬﺸﻧ ﺎﻨﻧﺇ \n\n.[pre_ftl_country.GetSpeciesNamePlural] ﺎﻬﺘﺴﺳﺃ ﻲﺘﻟﺍ ﺐﻧﺎﺟﻷﺍ ﺔﺤﻓﺎﻜﻤﻟ ﺔﻴﻨﻃﻮﻟﺍ ﻕﻮﻓ ﻞﻤﻌﻟﺍ ﺔﻗﺮﻓ ﺓﺮﻄﻴﺳ ﺖﺤﺗ ﺎﻬﻠﻛﻭ ،[pre_ftl_planet.GetPlanetHabitat] ﺢﻄﺳ ﻰﻠﻋ ﺭﺍﺩﺍﺮﻟﺍ ﻖﻓﺍﺮﻣﻭ ﺓﺪﻳﺪﺠﻟﺍ ﺔﻳﺮﻜﺴﻌﻟﺍ ﺪﻋﺍﻮﻘﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺀﺎﻨﺑ [pre_ftl_planet.GetName] ﻕﻮﻓ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺔﻄﻘﻧ ﺎﻬﺘﻄﻘﺘﻟﺍ ﻲﺘﻟﺍ ﻉﻼﻄﺘﺳﻻﺍ ﺕﺎﻄﻘﻟ ﺕﺪﻛﺃ"
+ observation.1102.a:0 ".ﺎﻨﻳﺪﻟ ﺔﻴﻧﺍﻭﺪﻌﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺔﻄﺸﻧﺃ ﻒﻌﻀﻳ ﻑﻮﺳ ﺍﺬﻫﻭ"
+# Observation Post Lost
+ observation.1103.name:1 "ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻥﺍﺪﻘﻓ ﻢﺗ :[pre_ftl_planet.GetName]"
+ observation.1103.desc:1 ".ﺎﻬﻃﺎﻘﺳﺇ ﻢﺗ ﻲﺘﻟﺍ ﺎﻨﺗﺎﻛﻮﻜﻣ ﻦﻣ ﺎﻬﺒﻬﻧ ﻢﺗ ﻲﺘﻟﺍ ﺕﺎﻴﻨﻘﺘﻠﻟ ﺔﻴﺴﻜﻋ ﺔﺳﺪﻨﻫ ﺀﺍﺮﺟﺇ ﻦﻣ ﺍﻮﻨﻜﻤﺗ ﻦﻴﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﻥﺃ ﻲﻫ ﺕﺎﻳﺮﻈﻨﻟﺍ ﻯﺪﺣﺇ .[pre_ftl_country.GetSpeciesNamePlural] ﻦﻋ ﺎﻫﺩﻮﺟﻭ ﺀﺎﻔﺧﻹ ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺕﺎﻃﺎﻴﺘﺣﺍ ﺫﺎﺨﺗﺍ ﻢﺗ ﺚﻴﺣ ،ﺔﻄﺤﻤﻟﺍ ﻊﺒﺘﺗ ﻦﻣ ﻢﻬﻨﻜﻤﺗ ﺔﻴﻔﻴﻛ ﻦﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺮﻴﻏ ﺎﻨﻟﺯ ﺎﻣ\n\n.[pre_ftl_country.GetSpeciesName] ﺔﻴﻨﻃﻮﻟﺍ ﻕﻮﻓ ﻞﻤﻌﻟﺍ ﺔﻗﺮﻓ ﺎﻬﻴﻠﻋ ﺮﻄﻴﺴﺗ ﺔﻳﺮﻜﺴﻋ ﺓﺪﻋﺎﻗ ﻦﻣ ﻪﻗﻼﻃﺇ ﻢﺗ ﺀﺎﻀﻓ-ﺽﺭﺃ ﺍﺮﻴﺒﻛ ﺎﺧﻭﺭﺎﺻ ﻲﻧﺎﺠﻟﺍ ﻥﺎﻛ ![pre_ftl_planet.GetName] ﻕﻮﻓ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﺮﻴﻣﺪﺗ ﻢﺗ ﺪﻘﻟ"
+ observation.1103.a:0 "!ﻦﺋﺎﺷ ﺮﻣﺃ ﺍﺬﻫ"
+# Strike
+ observation.1105.name:1 "ﺔﻴﺣﺍﺮﺟ ﺔﺑﺮﺿ :[pre_ftl_planet.GetName]"
+ observation.1105.desc:1 ".ﺔﺠﻋﺰﻤﻟﺍ [pre_ftl_country.GetSpeciesName] ﻞﻤﻌﻟﺍ ﺔﻗﺮﻓ ﺔﻳﺎﻬﻧ ﻰﻟﺇ ﻱﺩﺆﻴﺳ ﺎﻫﺮﻴﻣﺪﺗ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ .ﺓﺮﻏ ﻦﻴﺣ ﻰﻠﻋ ﺓﺪﻋﺎﻘﻟﺍ ﺬﺧﺃ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﻥﻮﻜﺘﺳ ﺡﻼﺴﻟﺎﺑ ﺞﺟﺪﻣ ﻡﻮﺠﻫ ﻖﻳﺮﻓ ﺎﻬﺑ ﻡﻮﻘﻳ ﻲﺘﻟﺍ ﺔﻌﻳﺮﺴﻟﺍ ﺓﺭﺎﻐﻟﺍ ﻦﻜﻟ ،ﻻﺎﻌﻓ ﻱﺭﺍﺪﻤﻟﺍ ﻒﺼﻘﻟﺍ ﻥﻮﻜﻳ ﻦﻟ .[pre_ftl_planet.GetAMountainFeature] ﻕﺎﻤﻋﺃ ﻲﻓ ،[pre_ftl_planet.GetPlanetHabitat] ﺢﻄﺳ ﻰﻠﻋ ﺔﻴﺴﻴﺋﺮﻟﺍ ﻢﻬﺗﺪﻋﺎﻗ ﻰﻠﻋ ﻑﺮﻌﺘﻟﺍ ﻢﺗ\n\n .ﺎﻨﻳﺪﻟ ﻑﺎﻄﺘﺧﻻﺍ ﺕﺎﻴﻠﻤﻋ ﻞﻴﻄﻌﺘﻟ ﺔﺒﻫﻮﻣ ﺔﻤﻈﻨﻤﻟﺍ ﻩﺬﻫ ﺕﺭﻮﻃ ﺪﻘﻓ ،ﺎﻧﺮﻴﻳﺎﻌﻤﻟ ﺎﻘﻓﻭ ﺔﻤﻳﺪﻗ ﺎﻬﻧﻮﻛ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺎﻬﻟﺬﺒﻧ ﻲﺘﻟﺍ ﺔﻴﻧﺍﻭﺪﻌﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺩﻮﻬﺟ ﻰﻠﻋ ﺍﺩﺭ [pre_ftl_country.GetSpeciesNamePlural] ﺎﻬﺴﺳﺃ ﻲﺘﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺔﺤﻓﺎﻜﻤﻟ ﻞﻤﻌﻟﺍ ﺔﻗﺮﻓ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻲﻓ ﺓﺪﻋﺎﺴﻤﻟﺍ [pre_ftl_planet.GetName] ﻝﻮﺣ ﺭﻭﺪﻳ ﻱﺬﻟﺍ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻢﻗﺎﻃ ﺐﻠﻃ"
+ observation.1105.a:1 ".ﻚﻟﺫ ﻞﻌﻓﺍ"
+ observation.1105.b:1 "...ﺮﺜﻛﺃ ﻢﻫﺀﺍﺪﻌﺘﺳﺍ ﺐﻨﺠﺘﻧ ﻥﺃ ﺐﺠﻳ ،ﻻ"
+ observation.1106.name:2 "ﺔﺤﺟﺎﻧ ﺔﺑﺮﺿ :[pre_ftl_planet.GetName]"
+ observation.1106.desc:2 ".ﻥﻵﺍ ﻩﺬﻫ ﺔﺠﻋﺰﻤﻟﺍ [pre_ftl_country.GetSpeciesName] ﻞﻤﻌﻟﺍ ﺔﻗﺮﻓ ﻦﻣ ﺀﻲﺷ ﻖﺒﺘﻳ ﻢﻟ .ﺓﺮﻈﺘﻨﻤﻟﺍ ﺕﺎﻛﻮﻜﻤﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﻡﻮﺠﻬﻟﺍ ﻖﻳﺮﻓ ﺝﺍﺮﺧﺇ ﻢﺗ ،ﺓﺪﻋﺎﻘﻟﺍ ﻕﺎﻤﻋﺃ ﻲﻓ ﺔﻔﺳﺎﻧ ﺕﺍﻮﺒﻋ ﻉﺭﺯ ﺪﻌﺑ\n\n.ﺓﺮﻬﻤﻟﺍ ﺎﻧﺀﻼﻤﻋ ﻥﻮﻴﻫﺎﻀﻳ ﻻ ﻢﻬﻧﺃ ﺓﺩﻭﺪﺤﻤﻟﺍ ﻢﻬﺘﺤﻠﺳﺃﻭ ﺎﻬﻨﻋ ﻥﻮﻌﻓﺍﺪﻤﻟﺍ ﺖﺒﺛﺃﻭ ،ﻲﻣﻮﺠﻬﻟﺍ ﺎﻨﻘﻳﺮﻓ ﻞﺒﻗ ﻦﻣ ﺓﺪﻋﺎﻘﻟﺍ ﻕﺍﺮﺘﺧﺍ ﻢﺗ !ﺎﻣﺎﻤﺗ ﺔﺤﺟﺎﻧ [pre_ftl_country.GetSpeciesName] ﺔﻴﻨﻃﻮﻟﺍ ﻕﻮﻓ ﻞﻤﻌﻟﺍ ﺔﻗﺮﻔﻟ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺓﺪﻋﺎﻘﻟﺍ ﺮﻴﻣﺪﺘﻟ ﺎﻨﺘﻤﻬﻣ ﺖﻧﺎﻛ"
+ observation.1106.a:1 ".ﺔﺤﺟﺎﻧ ﺔﻤﻬﻤﻟﺍ"
+ observation.1107.name:3 "ﺔﻠﺷﺎﻓ ﺔﺑﺮﺿ :[pre_ftl_planet.GetName]"
+ observation.1107.desc:2 ".ﺔﺣﺩﺎﻓ ﺮﺋﺎﺴﺨﻟﺍ ﺖﻧﺎﻛﻭ .ﺔﻳﻮﺠﻟﺍ ﺕﻼﺗﺎﻘﻤﻟﺍ ﻦﻣ ﻢﺨﺿ ﻞﻴﻜﺸﺗ ﺎﻬﺿﺮﺘﻋﺍ ،ﺭﺍﺪﻤﻟﺍ ﻰﻟﺇ ﺎﻬﻘﻳﺮﻃ ﻖﺸﺗ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺀﻼﺧﻹﺍ ﺕﺎﻛﻮﻜﻣ ﺖﻧﺎﻛ ﺎﻤﻨﻴﺑ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ .ﺏﺎﺤﺴﻧﻻﺎﺑ ﺍﺮﻴﺧﺃ ﺮﻣﻷﺍ ﻡﻮﺠﻬﻟﺍ ﻖﻳﺮﻓ ﺪﺋﺎﻗ ﺭﺪﺻﺃ ،[pre_ftl_country.Owner.GetSpeciesName] ﺕﺍﺰﻳﺰﻌﺗ ﺏﺍﺮﺘﻗﺍ ﺀﻮﺿ ﻲﻓ\n\n.ﺓﺪﻋﺎﻘﻟﺍ ﻞﺧﺪﻣ ﻰﻟﺇ ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﺍﻮﻠﺻﻭ ﺎﻣﺪﻨﻋ ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﻞﻜﺸﺑ ﺓﺪﻳﺪﺷ ﺔﻣﻭﺎﻘﻣ ﺀﻼﻤﻌﻟﺍ ﻲﻗﺎﺑ ﻪﺟﺍﻭ .ﺓﺪﻋﺎﻘﻟﺍ ﻰﻟﺇ ﻞﺼﺗ ﻥﺃ ﻞﺒﻗ ﺕﺍﺮﺋﺎﻄﻠﻟ ﺓﺩﺎﻀﻣ ﺔﻴﻔﺨﻣ ﻊﻗﺍﻮﻣ ﺔﻄﺳﺍﻮﺑ ﺏﺭﺎﻀﻟﺍ ﺎﻨﻘﻳﺮﻓ ﻞﻘﺗ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺕﺎﻛﻮﻜﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻁﺎﻘﺳﺇ ﻢﺗ !ﺎﻌﻳﺭﺫ ﻼﺸﻓ ﺖﻠﺸﻓ [pre_ftl_country.Owner.GetSpeciesName] ﺔﻴﻨﻃﻮﻟﺍ ﻕﻮﻓ ﻞﻤﻌﻟﺍ ﺔﻗﺮﻔﻟ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺓﺪﻋﺎﻘﻟﺍ ﺮﻴﻣﺪﺘﻟ ﺎﻨﺘﻤﻬﻣ"
+ observation.1107.a:1 "!ﺔﺛﺭﺎﻛ ﻩﺬﻫ"
+# Disbanded
+ observation.1104.name:1 "ﻞﻤﻌﻟﺍ ﺔﻗﺮﻓ ﻞﺣ ﻢﺗ :[pre_ftl_planet.GetName]"
+ observation.1104.desc:1 ".[pre_ftl_country.GetSpeciesName] ﺔﻴﻣﻮﻘﻟﺍ ﻝﻭﺪﻟﺍ ﻦﻴﺑ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻒﻗﺍﻮﻤﻟﺍﻭ ﻲﻠﺧﺍﺪﻟﺍ ﻝﺎﺘﺘﻗﻻﺍ ﻰﻟﺇ ﺙﺍﺪﺣﻷﺍ ﻲﻓ ﻊﻗﻮﺘﻤﻟﺍ ﺮﻴﻏ ﻝﻮﺤﺘﻟﺍ ﺍﺬﻫ ﺕﺍﺭﺎﺒﺨﺘﺳﻻﺍ ﻊﺟﺮﺗ\n\n.ﻉﻭﺮﺸﻤﻟﺍ ﻦﻣ ﺏﺎﺤﺴﻧﻻﺍﻭ ﻞﻳﻮﻤﺘﻟﺍ ﻊﻄﻗ ﺍﻭﺭﺮﻗ ﺔﻤﻈﻨﻤﻠﻟ ﻦﻴﺴﺳﺆﻤﻟﺍ ﺀﺎﻀﻋﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻥﺃ ﻻﺇ ،ﻑﺎﻄﺘﺧﻻﺍ ﻕﺮﻓﻭ ﺎﻨﺗﺎﻛﻮﻜﻣ ﺪﺿ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺕﺍﺭﺎﺼﺘﻧﻻﺍ ﺾﻌﺑ ﻖﻴﻘﺤﺗ ﻦﻣ ﺎﻣ ﺔﻘﻳﺮﻄﺑ ﺍﻮﻨﻜﻤﺗ ﻢﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ![pre_ftl_planet.GetName] ﻰﻠﻋ ﺎﻨﺗﺎﻴﻠﻤﻋ ﻁﺎﺒﺣﻹ [pre_ftl_country.GetSpeciesName] ﻝﻭﺩ ﺎﻬﺘﺴﺳﺃ ﻲﺘﻟﺍ ﺔﻴﻨﻃﻮﻟﺍ ﻕﻮﻓ ﻞﻤﻌﻟﺍ ﺔﻗﺮﻓ ﻞﺣ ﻢﺗ"
+ observation.1104.a:1 ".ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﻥﺎﻛ ﻥﺇﻭ ،ﻪﺑ ﺐﺣﺮﻣ ﺭﻮﻄﺗ"
+
+# Malfunctioning Implants
+ observation.1201.name:1 "ﻉﺭﺰﻟﺍ ﻝﺎﻄﻋﺃ :[pre_ftl_planet.GetName]"
+ observation.1201.desc:1 ".ﻯﺮﺧﺃ ﺙﺩﺍﻮﺣ ﻱﺃ ﻉﻮﻗﻭ ﻞﺒﻗ ﻢﻬﺗﺎﺳﺮﻏ ﺔﻟﺍﺯﺇﻭ ﻦﻴﻘﺒﺘﻤﻟﺍ ﺹﺎﺨﺷﻷﺍ ﻊﻤﺟ ﻲﻓ ﺓﺪﻋﺎﺴﻤﻟﺍ ﺎﻨﻳﺪﻟ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻲﻓ ﺩﻮﺟﻮﻤﻟﺍ [root.GetResearcherPlural] ﺐﻠﻃ .ﺔﻔﻴﻨﻌﻟﺍ ﺎﻳﺮﻴﺘﺴﻬﻟﺍ ﻦﻣ ﻞﻗﻷﺍ ﻰﻠﻋ ﺕﺎﻘﻠﺣ ﺙﻼﺛﻭ ،ﺭﺎﺤﺘﻧﻻﺍ ﺕﻻﺎﺣ ﻦﻣ ﺩﺪﻋ ﻙﺎﻨﻫ ﻥﺎﻛ \n\n .ﺔﺳﺍﺭﺪﻠﻟ ﺎﻨﻌﻀﺧ ﻦﻳﺬﻟﺍ ﺹﺎﺨﺷﻷﺍ ﻙﻮﻠﺳ ﻰﻠﻋ ﻲﺒﻠﺳ ﺮﻴﺛﺄﺗ ...ﻥﻵﺍ ﺎﻬﻟ ﺢﺒﺻﺃﻭ ،ﺕﺎﺳﺮﻐﻟﺍ ﻩﺬﻫ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻞﻄﻌﺗ ،ﻊﻴﻨﺼﺘﻟﺍ ﻲﻓ ﻞﻠﺧ ﺐﺒﺴﺑ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ .ﻢﻬﻛﻮﻠﺳ ﺔﺒﻗﺍﺮﻣﻭ ﻢﻬﻌﺒﺘﺘﻟ [pre_ftl_country.GetSpeciesName] ﺭﺎﺒﺘﺧﻻ ﻦﻴﻌﺿﺎﺨﻟﺍ ﺹﺎﺨﺷﻷﺍ ﻦﻣ ﺩﺪﻋ ﻰﻠﻋ ﺎﻴﺣﺍﺮﺟ ﻍﺎﻣﺩ ﻉﺭﺯ ﺕﺎﻴﻠﻤﻋ ﺖﻴﺒﺜﺘﺑ ﻑﺎﻄﺘﺧﻻﺍ ﻕﺮﻓ ﺖﻣﺎﻗ ،[pre_ftl_planet.GetName] ﻰﻠﻋ ﺎﻬﻟﺬﺒﻧ ﻲﺘﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺩﻮﻬﺟ ﻦﻣ ﺀﺰﺠﻛ"
+ observation.1201.a:0 ".ﻰﺿﻮﻔﻟﺍ ﻩﺬﻫ ﻒﻴﻈﻨﺘﻟ ﺔﺟﺎﺤﺑ ﻦﺤﻧ"
+ observation.1201.b:0 ".ﺎﻨﺘﻠﻜﺸﻣ ﺖﺴﻴﻟ ﺎﻬﻧﺇ"
+ observation.1202.name:3 "ﺕﺎﺳﺮﻐﻟﺍ ﺔﻟﺍﺯﺇ ﺖﻤﺗ :[pre_ftl_planet.GetName]"
+ observation.1202.desc:2 ".ﺎﻬﺑﻮﻴﻋ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺎﻬﺘﻟﺍﺯﺇ ﺖﻤﺗ ﻲﺘﻟﺍ ﺕﺎﺳﺮﻐﻟﺍ ﻦﻣ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻣ ﺓﻭﺮﺛ ﺝﺍﺮﺨﺘﺳﺍ ﻦﻣ [Root.GetLeaderName] ﻡﻮﻠﻌﻟﺍ ﻝﻭﺆﺴﻣ ﻦﻜﻤﺗ ،ﺔﻴﻓﺎﺿﺇ ﺓﺄﻓﺎﻜﻤﻛﻭ .[pre_ftl_planet.GetPlanetHabitat] ﺢﻄﺳ ﻰﻟﺇ ﺕﺎﻋﻮﺿﻮﻤﻟﺍ ﺓﺩﺎﻋﺇ ﺖﻤﺗﻭ ،ﺔﻴﻔﻴﻇﻭ ﺕﺍﺭﺍﺪﺻﺈﺑ ﺕﺎﺳﺮﻐﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻲﻓ ﻲﺣﺍﺮﺠﻟﺍ ﻢﻗﺎﻄﻟﺍ ﻝﺪﺒﺘﺳﺍ \n\n.ﺔﺒﻴﻌﻣ ﺔﻴﻏﺎﻣﺩ ﺕﺎﻋﺭﺯ ﻊﻣ ﺔﻋﺮﺴﺑ [pre_ftl_country.GetSpeciesName] ﺭﺎﺒﺘﺧﺍ ﺕﺎﻋﻮﺿﻮﻣ ﻊﻤﺠﻟ [Root.GetName] ﻢﻗﺎﻃ ﻊﻣ ﻖﻴﺴﻨﺘﻟﺎﺑ [pre_ftl_planet.GetName] ﻕﻮﻓ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻦﻣ ﻑﺎﻄﺘﺧﻻﺍ ﻕﺮﻓ ﺖﻠﻤﻋ"
+ observation.1202.a:0 ".ﺍﺬﻫ ﻦﻣ ﺪﻴﺟ ﺀﻲﺷ ﺀﺎﺟ ﻞﻗﻷﺍ ﻰﻠﻋ"
+ observation.1203.name:3 "ﺕﺎﺳﺮﻐﻟﺍ ﺔﻟﺍﺯﺇ ﻢﺘﺗ ﻢﻟ :[pre_ftl_planet.GetName]"
+ observation.1203.desc:2 ".ﺮﺷﺎﺒﻤﻟﺍ ﻢﻬﻄﻴﺤﻣ ﻲﻓ ﺀﻲﺷ ﻱﺃ ﻭﺃ ﺺﺨﺷ ﻱﺃ ﺔﻴﺸﺣﻮﺑ ﺍﻮﻤﺟﺎﻫ ﺎﻤﻨﻴﺑ ﻢﻬﺗﺎﺳﺮﻏ ﻲﻓ ﺔﻣﺪﺨﺘﺴﻤﻟﺍ [Root.GetSpeciesName] ﺔﺠﻣﺮﺒﻟﺍ ﺔﻐﻟ ﻦﻣ ﺔﻴﺠﻣﺮﺒﻟﺍ ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﻦﻣ ﺔﻴﺋﺍﻮﺸﻋ ﺀﺍﺰﺟﺄﺑ ﺍﻮﺧﺮﺻ ﺚﻴﺣ ،ﺎﻣﺎﻤﺗ ﻦﻴﺠﺋﺎﻫ ﻢﻬﻨﻣ ﺪﻳﺪﻌﻟﺍ ﺢﺒﺻﺃ .ﺔﺒﻴﻌﻤﻟﺍ ﺦﻤﻟﺍ ﺕﺎﺳﺮﻏ ﺕﺍﺮﻴﺛﺄﺘﻟ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ [pre_ftl_country.GetSpeciesName] ﺭﺎﺒﺘﺧﺍ ﺕﺎﻋﻮﺿﻮﻣ ﺮﺧﺁ ﻢﻠﺴﺘﺳﺍ ﺪﻘﻟ"
+ observation.1203.a:0 "؟ﺍﺬﻫ ﺙﺪﺤﻳ ﻥﺃ ﻦﻜﻤﻳ ﻒﻴﻛ"
+ observation.1205.name:0 "ﺔﻨﻀﺘﺤﻤﻟﺍ ﺕﺎﺳﺮﻐﻟﺍ :[pre_ftl_planet.GetName]"
+ observation.1205.desc:1 ".ﻪﻴﻠﻋ ﻦﻳﺭﺩﺎﻗ ﺎﻨﻛ ﺎﻤﻣ [pre_ftl_country.GetSpeciesName] ﺎﻴﺟﻮﻟﻮﻴﺑ ﻊﻣ ﺎﻘﻓﺍﻮﺗ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﻲﻟﻵﺍ ﻢﻜﺤﺘﻟﺍ ﻢﻠﻋ ﺔﺳﺪﻨﻫ ﻦﻣ [GetPreFTLLower] ﻮﺜﺣﺎﺑ ﻦﻜﻤﺗ ،ﺎﻣ ﺔﻘﻳﺮﻄﺑ .ﺎﻧﺀﺍﺭﻭ ﺎﻫﺎﻨﻛﺮﺗ ﻲﺘﻟﺍ ﺓﺪﻳﺎﺤﻤﻟﺍ ﺕﺎﺳﺮﻐﻟﺍ ﻝﻮﺣ ﺔﺻﺎﺨﻟﺍ ﻪﺛﺎﺤﺑﺃ [pre_ftl_planet.GetName] ﻰﻠﻋ [pre_ftl_country.GetSpeciesName] ﻯﺮﺟﺃ"
+ observation.1205.a:0 "!ﺰﻴﻤﻣ"
+ observation.1205.tt:0 ".§YCybernetics§! §Y[pre_ftl_country.GetSpeciesName]§! ﻦﻀﺘﺣﺍ ﺪﻘﻟ"
+
+# Ethic Shifts
+ observation.1301.name:1 "ﺔﻴﻗﻼﺧﻷﺍ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ :[pre_ftl_planet.GetName]"
+ observation.1301.xenophobe:0 ".ﻝﻮﻬﺠﻤﻟﺍ ﻦﻣ ﺍﺭﺬﺣ ﺮﺜﻛﺃ [pre_ftl_country.GetSpeciesNamePlural] ﻞﻌﺟ ﺎﻤﻣ ،ﺍﺬﻫ ﻲﻓ ﺎﻣ ﺍﺭﻭﺩ ﺖﺒﻌﻟ ﺪﻗ [pre_ftl_planet.GetPlanetHabitat] ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺎﻬﺑ ﻡﻮﻘﻧ ﻲﺘﻟﺍ ﺔﻴﻧﺍﻭﺪﻌﻟﺍ ﻑﺎﻄﺘﺧﻻﺍ ﺕﺎﻴﻠﻤﻋﻭ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺕﻼﺣﺭ ﻥﺃ ﻭﺪﺒﻳ \n\n .ﺀﺎﺑﺮﻐﻠﻟ ﻻﻮﺒﻗ ﻞﻗﺃ ﻥﻵﺍ ﺍﻮﺤﺒﺻﺃﻭ ﻞﺧﺍﺪﻟﺍ ﻰﻟﺇ ﻢﻬﻌﻤﺘﺠﻣ ﻝﻮﺤﺗ ﺪﻘﻟ .[pre_ftl_planet.GetName] ﻰﻠﻋ [pre_ftl_country.GetSpeciesNamePlural] [GetPreFTLLower] ﻕﺮﻃ ﻲﻓ ﺎﻇﻮﺤﻠﻣ ﺍﺮﻴﻐﺗ ﺎﻨﻈﺣﻻ ﺪﻘﻟ"
+ observation.1301.xenophile:0 ".ﻝﻮﻬﺠﻤﻟﺍ ﻦﻋ ﺪﻳﺰﻤﻟﺍ ﺔﻓﺮﻌﻣ ﻰﻠﻋ ﺎﺼﻳﺮﺣ [pre_ftl_country.GetSpeciesNamePlural] ﻞﻌﺟ ﺎﻤﻣ ،ﺍﺬﻫ ﻲﻓ ﺎﻣ ﺍﺭﻭﺩ ﺖﺒﻌﻟ ﺪﻗ [pre_ftl_planet.GetPlanetHabitat] ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺕﻼﺣﺭ ﻥﺃ ﻭﺪﺒﻳ \n\n .ﺀﺎﺑﺮﻐﻠﻟ ﻻﻮﺒﻗ ﺮﺜﻛﺃ ﻥﻵﺍ ﺍﻮﺤﺒﺻﺃﻭ ﺝﺭﺎﺨﻟﺍ ﻰﻟﺇ ﻢﻬﻌﻤﺘﺠﻣ ﻝﻮﺤﺗ ﺪﻘﻟ .[pre_ftl_planet.GetName] ﻰﻠﻋ [pre_ftl_country.GetSpeciesNamePlural] [GetPreFTLLower] ﻕﺮﻃ ﻲﻓ ﺎﻇﻮﺤﻠﻣ ﺍﺮﻴﻐﺗ ﺎﻨﻈﺣﻻ ﺪﻘﻟ"
+ observation.1301.spiritualist:0 ".ﺮﻄﺨﻟﺎﺑ ﺭﺬﻨﻳ ﻝﺪﻌﻤﺑ [pre_ftl_country.GetSpeciesNamePlural] ﻦﻴﺑ ﺔﻴﺒﻌﺷ ﺐﺴﺘﻜﻳ ﻮﻫﻭ ،ﻁﺎﻤﻧﻷﺍ ﻩﺬﻫ ﻰﻠﻋ ﺀﺎﻨﺑ ﺪﻳﺪﺟ ﻦﻳﺩ ﻞﻴﻜﺸﺗ ﻢﺗ .ﻦﻴﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ـﻟ ﺔﻴﺣﻭﺮﻟﺍ ﺔﻴﻤﻫﻷﺍ ﻦﻣ ﺎﻋﻮﻧ ﺖﺒﺴﺘﻛﺍ ﺪﻗ ﻞﻴﺻﺎﺤﻤﻟﺍ ﺮﺋﺍﻭﺩ ﻥﺃ ﻭﺪﺒﻳ ﻦﻜﻟﻭ ،ﺔﺣﺰﻤﻟﺍ ﻩﺬﻫ ﺐﺒﺴﺑ ﺓﺪﺸﺑ ﻙﻮﻜﻤﻟﺍ ﻢﻘﻃﺃ ﺦﻴﺑﻮﺗ ﻢﺗ ﺪﻘﻟ \n\n.[pre_ftl_planet.GetPlanetHabitat] ـﻟ ﺔﻴﻠﺻﻷﺍ [pre_ftl_country.GetSpeciesNamePlural] [GetPreFTLLower] ـﻟ ﺔﻌﺑﺎﺘﻟﺍ ﻞﻴﺻﺎﺤﻤﻟﺍ ﻝﻮﻘﺣ ﻲﻓ ﺓﺪﻘﻌﻣ ﻁﺎﻤﻧﺃﻭ ﺓﺮﻴﺒﻛ ﺮﺋﺍﻭﺩ ﻕﺮﺤﻟ ﻢﻬﺗﺎﻛﻮﻜﻣ ﺕﺎﻌﻓﺍﺩ ﻥﻮﻣﺪﺨﺘﺴﻳ ﺍﻮﻧﺎﻛ [pre_ftl_planet.GetName] ﻕﻮﻓ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻲﻓ ﺓﺰﻛﺮﻤﺘﻤﻟﺍ ﺎﻨﻟ ﺔﻌﺑﺎﺘﻟﺍ ﻑﺎﻄﺘﺧﻻﺍ ﻕﺮﻓ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ"
+ observation.1301.materialist:0 ".ﺮﻄﺨﻟﺎﺑ ﺭﺬﻨﻳ ﻝﺪﻌﻤﺑ [pre_ftl_country.GetSpeciesNamePlural] ﻦﻴﺑ ﺔﻴﺒﻌﺷ ﺐﺴﺘﻜﺗ ﻲﻫﻭ ،ﻁﺎﻤﻧﻷﺍ ﺔﺳﺍﺭﺪﻟ ﺓﺪﻳﺪﺟ ﺔﻴﻤﻠﻋ ﺔﻛﺮﺣ ﺕﺭﻮﻄﺗ ﺪﻘﻟ .ﻰﻨﻌﻣ ﺔﻴﺿﺎﻳﺮﻟﺍ ﺕﺎﺑﺎﺴﺤﻟﺍ ﺾﻌﺑ ﺎﻬﻳﺪﻟ ﻞﻴﺻﺎﺤﻤﻟﺍ ﺮﺋﺍﻭﺩ ﻥﺄﺑ ﻥﻮﻌﻨﺘﻘﻣ ﻦﻴﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﻥﺃ ﻭﺪﺒﻳ ﻦﻜﻟﻭ ،ﺔﺣﺰﻤﻟﺍ ﻩﺬﻫ ﺐﺒﺴﺑ ﺓﺪﺸﺑ ﻙﻮﻜﻤﻟﺍ ﻢﻘﻃﺃ ﺦﻴﺑﻮﺗ ﻢﺗ ﺪﻘﻟ \n\n.[pre_ftl_planet.GetPlanetHabitat] ﻲﻓ ﺔﻴﻠﺻﺃ ﻲﻫ ﻲﺘﻟﺍﻭ [pre_ftl_country.GetSpeciesNamePlural] [GetPreFTLLower] ﻰﻟﺇ ﻲﻤﺘﻨﺗ ﻲﺘﻟﺍ ﻞﻴﺻﺎﺤﻤﻟﺍ ﻝﻮﻘﺣ ﻲﻓ ﺓﺪﻘﻌﻣ ﻁﺎﻤﻧﺃﻭ ﺓﺮﻴﺒﻛ ﺮﺋﺍﻭﺩ ﻕﺮﺤﻟ ﺎﻬﺗﺎﻛﻮﻜﻣ ﺕﺎﻌﻓﺍﺩ ﻡﺪﺨﺘﺴﺗ ﺖﻧﺎﻛ [pre_ftl_planet.GetName] ﻕﻮﻓ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻲﻓ ﺓﺰﻛﺮﻤﺘﻤﻟﺍ ﺎﻨﻟ ﺔﻌﺑﺎﺘﻟﺍ ﻑﺎﻄﺘﺧﻻﺍ ﻕﺮﻓ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ"
+
+# Nuclear War, everyone dead, planet is a tomb world
+ observation.1402.name:0 "ﺔﻳﻭﻮﻧ ﺏﺮﺣ ﻰﻟﺇ ﺭﺪﺤﻨﻳ [pre_ftl_planet.GetName]"
+
+ observation.1402.reg.start:0 ".[pre_ftl_planet.GetName] ﻰﻠﻋ ﻯﺮﺒﻜﻟﺍ ﺔﻴﻣﻮﻘﻟﺍ ﻝﻭﺪﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻴﺑ ﺔﻤﺨﺿ ﺏﺮﺣ ﺍﺮﺧﺆﻣ ﺖﻌﻟﺪﻧﺍ"
+ observation.1402.hive_mind.start:0 ".[pre_ftl_planet.GetName] ﻰﻠﻋ ﻲﻋﻮﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻴﺑ ﺔﻤﺨﺿ ﺏﺮﺣ ﺍﺮﺧﺆﻣ ﺖﻌﻟﺪﻧﺍ"
+ observation.1402.end:0 ".ﺓﺮﻴﺒﻛ ﺭﺍﺮﺿﻷ ﺔﺌﻴﺒﻟﺍ ﺖﺿﺮﻌﺗﻭ ،ﻱﻭﻮﻨﻟﺍ ﻖﻳﺮﺤﻟﺍ ﻲﻓ ﻢﻬﻔﺘﺣ ﺍﻮﻘﻟ ﺪﻗ ﻞﻣﺎﻜﻟﺎﺑ [pre_ftl_planet.GetPlanetHabitat] ﻥﺎﻜﺳ ﻥﺃ ﻭﺪﺒﻳ\n\n .ﻲﻤﻟﺎﻋ ﻱﻭﻮﻧ ﻝﺩﺎﺒﺗ ﻰﻟﺇ ﺔﻋﺮﺴﺑ ﻉﺍﺮﺼﻟﺍ ﺪﻋﺎﺼﺗ ،ﺭﺍﺪﻤﻟﺍ ﻦﻣ ﻥﺎﻣﺄﺑ ﻥﻮﺒﻗﺍﺮﻳ ﺎﻧﻮﺜﺣﺎﺑ ﻥﺎﻛ ﺎﻤﻨﻴﺑ"
+ observation.1402.gestalt.end:0 ".ﺓﺮﻴﺒﻛ ﺭﺍﺮﺿﻷ ﺔﺌﻴﺒﻟﺍ ﺖﺿﺮﻌﺗﻭ ،ﻱﻭﻮﻨﻟﺍ ﻖﻳﺮﺤﻟﺍ ﻲﻓ ﻢﻬﻔﺘﺣ ﺍﻮﻘﻟ ﺪﻗ ﻞﻣﺎﻜﻟﺎﺑ [pre_ftl_planet.GetPlanetHabitat] ﻥﺎﻜﺳ ﻥﺃ ﻭﺪﺒﻳ \n\n .ﻲﻤﻟﺎﻋ ﻱﻭﻮﻧ ﻝﺩﺎﺒﺗ ﻰﻟﺇ ﺎﻌﻳﺮﺳ ﻉﺍﺮﺼﻟﺍ ﺪﻋﺎﺼﺗ ،ﺭﺍﺪﻤﻟﺍ ﻦﻣ ﻥﺎﻣﺄﺑ ﺐﻗﺍﺮﻳ [root.GetIndividualNamePlural] ﻥﺎﻛ ﺎﻤﻨﻴﺑ"
+
+ observation.1402.reg_pre_ftl.desc:0 "$observation.1402.end$\n\n$observation.1402.reg.start$"
+ observation.1402.hive_pre_ftl.desc:0 "$observation.1402.end$\n\n$observation.1402.hive_mind.start$"
+ observation.1402.reg_pre_ftl.desc.gestalt:0 "$observation.1402.gestalt.end$\n\n$observation.1402.reg.start$"
+ observation.1402.hive_pre_ftl.desc.gestalt:0 "$observation.1402.gestalt.end$\n\n$observation.1402.hive_mind.start$"
+
+ observation.1402.a:1 ".ﻱﻭﺎﺳﺄﻣ ﺱﺭﺩ"
+
+# Nuclear War, everyone dead, planet is a toxic world
+ observation.1404.name:0 "$ﻢﺳﺍ.1402.ﺔﻈﺣﻼﻤﻟﺍ$"
+
+ observation.1404.reg.start:0 "$observation.1402.reg.start$"
+ observation.1404.hive_mind.start:0 "$observation.1402.hive_mind.start$"
+ observation.1404.end:0 ".ﻦﻜﺴﻠﻟ ﺎﺤﻟﺎﺻ ﻪﻠﻤﻛﺄﺑ [pre_ftl_planet.GetPlanetHabitat] ﺪﻌﻳ ﻢﻟﻭ ،ﺢﻄﺴﻟﺍ ﻰﻠﻋ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻊﻴﻤﺟ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﻢﺗ \n\n .ﻲﻤﻟﺎﻋ ﻱﻭﻮﻧ ﻝﺩﺎﺒﺗ ﻰﻟﺇ ﺔﻋﺮﺴﺑ ﻉﺍﺮﺼﻟﺍ ﺪﻋﺎﺼﺗ ،ﺭﺍﺪﻤﻟﺍ ﻦﻣ ﻥﺎﻣﺄﺑ ﻥﻮﺒﻗﺍﺮﻳ ﺎﻧﻮﺜﺣﺎﺑ ﻥﺎﻛ ﺎﻤﻨﻴﺑ"
+ observation.1404.gestalt.end:0 ".ﻦﻜﺴﻠﻟ ﺎﺤﻟﺎﺻ ﻪﻠﻤﻛﺄﺑ [pre_ftl_planet.GetPlanetHabitat] ﺪﻌﻳ ﻢﻟﻭ ،ﺢﻄﺴﻟﺍ ﻰﻠﻋ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻊﻴﻤﺟ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﻢﺗ \n\n .ﻲﻤﻟﺎﻋ ﻱﻭﻮﻧ ﻝﺩﺎﺒﺗ ﻰﻟﺇ ﺔﻋﺮﺴﺑ ﻉﺍﺮﺼﻟﺍ ﺪﻋﺎﺼﺗ ،ﺭﺍﺪﻤﻟﺍ ﻦﻣ ﻥﺎﻣﺄﺑ ﺐﻗﺍﺮﻳ [root.GetIndividualNamePlural] ﻥﺎﻛ ﺎﻤﻨﻴﺑ"
+
+ observation.1404.reg_pre_ftl.desc:0 "$observation.1404.end$\n\n$observation.1404.reg.start$"
+ observation.1404.hive_pre_ftl.desc:0 "$observation.1404.end$\n\n$observation.1404.hive_mind.start$"
+ observation.1404.reg_pre_ftl.desc.gestalt:0 "$observation.1404.gestalt.end$\n\n$observation.1404.reg.start$"
+ observation.1404.hive_pre_ftl.desc.gestalt:0 "$observation.1404.gestalt.end$\n\n$observation.1404.hive_mind.start$"
+
+ observation.1404.a:1 "$a.1402.ﺔﻈﺣﻼﻤﻟﺍ$"
+
+# Nuclear War, pre-ftls regress to stone age, planet is a tomb world
+ observation.1406.name:0 "$ﻢﺳﺍ.1402.ﺔﻈﺣﻼﻤﻟﺍ$"
+
+ observation.1406.reg.start:0 "$observation.1402.reg.start$"
+ observation.1406.hive_mind.start:0 "$observation.1402.hive_mind.start$"
+ observation.1406.end:0 ".ﺮﻴﺜﻜﺑ ﺍﺭﻮﻄﺗ ﻞﻗﺃ ﺔﻟﺎﺣ ﻰﻟﺇ [pre_ftl_planet.GetPlanetHabitat] ﺓﺭﺎﻀﺣ ﻊﺟﺍﺮﺘﺗ ﻥﺃ ﻥﻮﻌﻗﻮﺘﻳ ﺎﻨﻴﺜﺣﺎﺑ ﻦﻜﻟ ،ﺽﺎﻘﻧﻷﺍ ﺖﺤﺗ ﻦﻣ ﻥﻭﺮﺛﺎﻨﺘﻣ ﻥﻮﺟﺎﻧ ﺮﻬﻇ ﺪﻘﻟ .ﻥﺎﻜﺴﻟﺍ ﻦﻣ %90 ﻦﻣ ﺮﺜﻛﺃﻭ ﺔﻴﺴﻴﺋﺭ ﺔﻨﻳﺪﻣ ﻞﻛ ﺮﻴﻣﺪﺗ ﻊﻣ ،ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺭﺍﺮﺿﻷ [pre_ftl_planet.GetPlanetHabitat] ﺖﺿﺮﻌﺗ \n\n .ﻲﻤﻟﺎﻋ ﻱﻭﻮﻧ ﻝﺩﺎﺒﺗ ﻰﻟﺇ ﺎﻌﻳﺮﺳ ﻉﺍﺮﺼﻟﺍ ﺪﻋﺎﺼﺗ ،ﺭﺍﺪﻤﻟﺍ ﻦﻣ ﻥﺎﻣﺄﺑ ﻥﻮﺒﻗﺍﺮﻳ ﺎﻧﻮﺜﺣﺎﺑ ﻥﺎﻛ ﺎﻤﻨﻴﺑ"
+ observation.1406.gestalt.end:0 "".ﺮﻴﺜﻜﺑ ﺍﺭﻮﻄﺗ ﻞﻗﺃ ﺔﻟﺎﺣ ﻰﻟﺇ [pre_ftl_planet.GetPlanetHabitat] ﺓﺭﺎﻀﺣ ﻊﺟﺍﺮﺘﺗ ﻥﺃ ﻊﻗﻮﺘﻧ ﺎﻨﻨﻜﻟ ،ﺽﺎﻘﻧﻷﺍ ﺖﺤﺗ ﻦﻣ ﻥﻭﺮﺛﺎﻨﺘﻣ ﻥﻮﺟﺎﻧ ﺮﻬﻇ ﺪﻘﻟ .ﻥﺎﻜﺴﻟﺍ ﻦﻣ %90 ﻦﻣ ﺮﺜﻛﺃﻭ ﺔﻴﺴﻴﺋﺭ ﺔﻨﻳﺪﻣ ﻞﻛ ﺮﻴﻣﺪﺗ ﻊﻣ ،ﺔﻤﻴﺴﺟ ﺭﺍﺮﺿﻷ [pre_ftl_planet.GetPlanetHabitat] ﺖﺿﺮﻌﺗ \n\n .ﻲﻤﻟﺎﻋ ﻱﻭﻮﻧ ﻝﺩﺎﺒﺗ ﻰﻟﺇ ﺎﻌﻳﺮﺳ ﻉﺍﺮﺼﻟﺍ ﺪﻋﺎﺼﺗ ،ﺭﺍﺪﻤﻟﺍ ﻦﻣ ﻥﺎﻣﺄﺑ ﺐﻗﺍﺮﺗ [root.GetIndividualNamePlural] ﺖﻧﺎﻛ ﺎﻤﻨﻴﺑ"
+
+ observation.1406.reg_pre_ftl.desc:0 "$observation.1406.end$\n\n$observation.1406.reg.start$"
+ observation.1406.hive_pre_ftl.desc:0 "$observation.1406.end$\n\n$observation.1406.hive_mind.start$"
+ observation.1406.reg_pre_ftl.desc.gestalt:0 "$observation.1406.gestalt.end$\n\n$observation.1406.reg.start$"
+ observation.1406.hive_pre_ftl.desc.gestalt:0 "$observation.1406.gestalt.end$\n\n$observation.1406.hive_mind.start$"
+
+ observation.1406.a:1 "$a.1402.ﺔﻈﺣﻼﻤﻟﺍ$"
+
+# Research Proposal
+ observation.1501.name:1 "ﺚﺤﺑ ﺡﺮﺘﻘﻣ"
+ observation.1501.desc:2 ".ﻢﻬﺗﺎﻳﺮﻛﺫ ﻮﺤﻣ ﻊﻣ ﺢﻄﺴﻟﺍ ﻰﻟﺇ ﻥﺎﻣﺄﺑ ﻢﻬﺗﺩﺎﻋﺇ ﻚﻟﺫ ﺪﻌﺑ ﻢﺘﻴﺳ .ﻢﻬﻴﻠﻋ ﺕﺍﺭﺎﺒﺘﺧﺍ ﺀﺍﺮﺟﺇﻭ ﺍﺮﺳ [GetPreFTLLowerPlural] ﺾﻌﺑ ﻑﺎﻄﺘﺧﺍ ﻲﻓ ﻥﻮﺒﻏﺮﻳ ،ﺚﺤﺒﻟﺍ ﺽﺮﻐﻟ .[pre_ftl_planet.GetPlanetHabitat] ﺢﻄﺳ ﻦﻣ ﺕﺎﻨﻴﻌﻟﺍ ﻊﻤﺟ ﻲﻓ ﻢﻬﺗﺪﻋﺎﺴﻤﻟ ﺔﻴﻤﻠﻋ ﺔﻨﻴﻔﺳ [pre_ftl_planet.GetName] ﻕﻮﻓ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻲﻓ ﺎﻧﺅﺎﻤﻠﻋ ﺐﻠﻃ ﺪﻘﻟ"
+ observation.1501.a:1 ".ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﻢﻬﻤﻬﻓ ﻰﻠﻋ ﺎﻧﺪﻋﺎﺴﻳ ﻑﻮﺳﻭ"
+ observation.1501.b:1 ".ﻢﻬﻧﺄﺷﻭ ﻢﻬﻛﺮﺘﻧ ﻥﺃ ﺐﺠﻳ ،ﻻ"
+ observation.1501.b.tt:0 "§R!$mission_passive_observation$ ﻰﻠﻋ ﻪﻠﻔﻗ ﻢﺘﻳ ﻑﻮﺳ§!$t$\n $r_unity$§G+2§! ﻥﻵﺍ ﺞﺘﻨﻴﺳ §Y$mission_passive_observation$§!"
+ observation.1502.desc:2 ".ﻢﻬﺨﻴﺑﻮﺗ ﻢﺗ ﺪﻘﻟ .ﻞﻴﺻﺎﺤﻤﻟﺍ ﻞﻘﺣ ﻲﻓ ﺔﻳﺮﺋﺍﺩ ﻁﺎﻤﻧﺃ ﺀﺎﺸﻧﻹ ﺍﺪﻤﻋ ﻢﻬﺗﺎﻌﻓﺍﺩ ﺎﻨﻳﺪﻟ ﻙﻮﻜﻤﻟﺍ ﻢﻘﻃﺃ ﺪﺣﺃ ﻡﺪﺨﺘﺳﺍ ﺚﻴﺣ ﺙﺩﺎﺣﻭ "ﺓﺮﺴﻔﻣ ﺮﻴﻏ ﺀﺍﻮﺿﺃ" ﻦﻋ ﺮﻳﺭﺎﻘﺘﻟﺍ ﺾﻌﺑ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،[pre_ftl_planet.GetPlanetHabitat] ﻥﺎﻜﺳ ﻞﺒﻗ ﻦﻣ ﺮﻴﺒﻛ ﺪﺣ ﻰﻟﺇ ﺪﺣﺃ ﺎﻬﻈﺣﻼﻳ ﻥﺃ ﻥﻭﺩ ﺕﺮﻣ ﺪﻗ ﺎﻨﺘﻤﻬﻣ ﻥﺃ ﻭﺪﺒﻳ\n\n.ﺔﻴﻠﺤﻤﻟﺍ ﺔﻴﺷﺎﻤﻟﺍ ﺾﻌﺑ ﺢﻳﺮﺸﺗ ﻖﻳﺮﻃ ﻦﻋ ﺕﺎﻨﻴﻋ ﻰﻠﻋ ﻯﺮﺧﻷﺍ ﺓﺪﻴﻌﺒﻟﺍ ﻕﺮﻔﻟﺍ ﺖﻠﺼﺣ ﺎﻤﻨﻴﺑ ،ﻢﻬﻌﻤﺟﻭ ﺎﻬﻧﺎﻜﺳ ﺮﻳﺪﺨﺗ ﻚﻟﺫ ﺪﻌﺑ ﻢﺗ .[GetPreFTLLowerPlural] ﺎﻬﻣﺪﺨﺘﺴﺗ ﻲﺘﻟﺍ ﺔﻤﻳﺪﻘﻟﺍ ﻕﺍﺮﺘﺣﻻﺍ ﺕﺎﺒﻛﺮﻣ ﻞﻴﻄﻌﺘﻟ ﺔﻴﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻛ ﺕﺎﻀﺒﻧ ،ﻼﻴﻟ ﺾﻔﺨﻨﻣ ﻉﺎﻔﺗﺭﺍ ﻰﻠﻋ ﺽﺭﻷﺍ ﺢﺴﺘﻜﺗ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ،ﻡﻮﻠﻌﻟﺍ ﺔﻨﻴﻔﺳ ﻦﻣ ﺕﺎﻛﻮﻜﻤﻟﺍ ﺖﻣﺪﺨﺘﺳﺍ .[pre_ftl_planet.GetName] ﻰﻟﺇ ﺔﻴﻤﻠﻌﻟﺍ ﻪﺘﻤﻬﻣ [Root.GetName] ﻰﻬﻧﺃ"
+ observation.1502.a:0 ".ﺪﻴﺟ ﻞﻤﻋ"
+
+# Special Projects for events above.
+ EXTRACT_MISSING_SCIENTIST:1 "ﺩﻮﻘﻔﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ"
+ EXTRACT_MISSING_SCIENTIST_DESC:1 ".ﺮﻣﻷﺍ ﻡﺰﻟ ﺍﺫﺇ ﺓﻮﻘﻟﺎﺑ - [missing_scientist.GetHimHer] ﺔﻟﺍﺯﻹ ﺔﻴﻠﻤﻋ ﻕﻼﻃﺇ ﺐﺠﻳ .[pre_ftl_planet.GetName] ﻰﻠﻋ [GetPreFTLLowerPlural] ﻞﺒﻗ ﻦﻣ ﻪﻟﺈﻛ ﻪﺗﺩﺎﺒﻋ ﻢﺘﻳﻭ ﺎﻗﺭﺎﻣ ﺎﻨﺋﺎﻤﻠﻋ ﺪﺣﺃ ﺢﺒﺻﺃ ﺪﻘﻟ"
+ SHUTTLE_INTERCEPTED:1 "ﻙﻮﻜﻤﻟﺍ ﻦﻣ ﻦﻴﺟﺎﻨﻟﺍ ﺫﺎﻘﻧﺇ"
+ SHUTTLE_INTERCEPTED_DESC:1 ".ﺔﻴﻠﺤﻤﻟﺍ ﺕﺍﻮﻘﻟﺍ ﻞﺒﻗ ﻦﻣ ﻢﻬﻴﻠﻋ ﺾﺒﻘﻟﺍ ﻢﺘﻳ ﻥﺃ ﻞﺒﻗ ﻦﻴﺟﺎﻧ ﺀﺎﻄﺸﻧ ﻱﺃ ﺫﺎﻘﻧﺇ ﺎﻨﻴﻠﻋﻭ ،[pre_ftl_country.GetName] ﻰﻠﻋ ﻦﻴﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﻞﺒﻗ ﻦﻣ ﺎﻨﺗﺎﻛﻮﻜﻣ ﻯﺪﺣﺇ ﻁﺎﻘﺳﺇ ﻢﺗ"
+ ABDUCT_SCIENTIST_PROJECT:1 "[GetPreFTLUpper] ﻢﻟﺎﻋ ﻒﻄﺘﺧﺍ"
+ ABDUCT_SCIENTIST_PROJECT_DESC:1 ".ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ ﺎﻨﺤﻟﺎﺼﻟ ﻞﻤﻌﻟﺎﺑ [abducted_scientist.GetHisHer] "ﻉﺎﻨﻗﺇ" ﻢﺛ ﻦﻣﻭ [abducted_scientist.GetHisHer] ﻑﺎﻄﺘﺧﻻ ﺬﻴﻔﻨﺘﻟﺍ ﻊﺿﻮﻣ ﻂﻄﺨﻟﺍ ﻊﺿﻭ ﻢﺗ .ﺔﻴﺜﺤﺒﻟﺍ ﺎﻨﺠﻣﺍﺮﺒﻟ ﺓﺮﻴﺒﻛ ﺔﻤﻌﻧ ﺔﺑﺎﺜﻤﺑ ﻥﻮﻜﻴﺳ [abducted_scientist.GetHeShe] ﻦﻜﻟ ،[GetPreFTLLower] [abducted_scientist.GetHisHer] ﺓﺭﺎﻀﺣ ﻲﻓ ﺓﺮﻴﺒﻜﻟﺍ [abducted_scientist.GetHisHerCap] ﺓﺭﺎﻬﻣ ﺭﺍﺪﻫﺇ ﻢﺗ .[pre_ftl_planet.GetName] ﻰﻠﻋ [pre_ftl_country.GetSpeciesNamePlural] [GetPreFTLLower] ﻦﻴﺑ ﻦﻣ ﻊﻣﻻ ﻢﻟﺎﻋ ﻰﻠﻋ ﻑﺮﻌﺘﻟﺍ ﻢﺗ"
+ DEFENSE_FORCE_STRIKE_PROJECT:1 "ﺔﻴﻨﻃﻮﻟﺍ ﻉﺎﻓﺪﻟﺍ ﺓﻮﻗ ﺮﻴﻣﺪﺗ"
+ DEFENSE_FORCE_STRIKE_PROJECT_DESC:1 ".ﺔﻤﻈﻨﻤﻟﺍ ﻩﺬﻬﻟ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺓﺪﻋﺎﻘﻟﺍ ﺪﺿ ﺔﻴﺑﺎﻘﻋ ﺔﺑﺮﺿ ﻦﺸﻧ ﻥﺃ ﺐﺠﻳ .ﻪﻌﻣ ﺢﻣﺎﺴﺘﻟﺍ ﻦﻜﻤﻳ ﻻ ﺍﺬﻫ .ﻲﻠﺻﻷﺍ ﻢﻬﻤﻟﺎﻋ ﻲﻓ ﺎﻨﺗﺎﻴﻠﻤﻋ ﻁﺎﺒﺣﺇ ﺎﻬﺘﻤﻬﻣ ﺐﻧﺎﺟﻷﺍ ﺔﺤﻓﺎﻜﻤﻟ ﻞﻤﻋ ﺔﻗﺮﻓ ﺖﻠﻜﺷﻭ ﺎﻌﻣ [pre_ftl_planet.GetName] ﻲﻓ [pre_ftl_country.GetSpeciesName] ﻝﻭﺩ ﺖﻌﻤﺘﺟﺍ"
+ IMPLANT_MALFUNCTIONS_PROJECT:1 "ﺔﺑﻮﻄﻌﻤﻟﺍ ﺕﺎﺳﺮﻐﻟﺍ ﺔﻟﺍﺯﺇ"
+ IMPLANT_MALFUNCTIONS_PROJECT_DESC:1 ".ﻞﻛﺎﺸﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺐﺒﺴﺗ ﻥﺃ ﻞﺒﻗ ﺕﺎﺳﺮﻐﻟﺍ ﻩﺬﻫ ﺔﻟﺍﺯﺇ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﻦﺤﻧ .ﺓﺎﻓﻮﻟﺍ ﻰﻟﺇ ،ﺕﻻﺎﺤﻟﺍ ﺾﻌﺑ ﻲﻓﻭ ،ﻒﻴﻨﻋ ﻙﻮﻠﺳ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﻝﺎﻄﻋﻷﺍ ﻦﻣ ﺩﺪﻋ ﺙﺪﺣ ﺪﻘﻟ .[pre_ftl_planet.GetName] ﻰﻠﻋ [pre_ftl_country.GetSpeciesNamePlural] [GetPreFTLLowerPlural] ﻦﻴﺑ ﺭﺎﺒﺘﺧﻼﻟ ﻦﻴﻌﺿﺎﺨﻟﺍ ﺹﺎﺨﺷﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻠﻟ ﺎﻫﺅﺍﺮﺟﺇ ﻢﺗ ﻲﺘﻟﺍ ﻍﺎﻣﺪﻟﺍ ﻉﺭﺯ ﺕﺎﻴﻠﻤﻋ ﻊﻣ ﻞﻛﺎﺸﻣ ﻪﺟﺍﻮﻧ"
+ PROBE_ALIENS_PROJECT:1 "ﺐﻧﺎﺟﻷﺍ ﻖﻴﻘﺤﺘﻟﺍ"
+ PROBE_ALIENS_PROJECT_DESC:1 ".ﺔﺑﺮﺠﺘﻠﻟ ﺓﺮﻛﺍﺫ ﻥﻭﺪﺑ [pre_ftl_planet.GetPlanetHabitat] ﺢﻄﺳ ﻰﻟﺇ ﺹﺎﺨﺷﻷﺍ ﻉﺎﺟﺭﺇ ﻢﺘﻴﺳ ،ﺕﺍﺭﺎﺒﺘﺧﻻﺍ ﺀﺍﺮﺟﺇ ﺪﻌﺑ .[pre_ftl_planet.GetName] ﻰﻠﻋ ﺔﻴﻠﺻﻷﺍ ﺓﺭﺎﻀﺤﻟﺍ ﻦﻣ ﺭﺎﺒﺘﺧﺍ ﺕﺎﻋﻮﺿﻮﻣ ﻊﻤﺟ ﻲﻓ ﺎﻧﺅﺎﻤﻠﻋ ﺐﻏﺮﻳ"
+
+ # Custom Tooltips
+ cannot_reveal_tt:1 "§R.ﺙﺍﺪﺣﻷﺍ ﻩﺬﻫ ﻲﻬﺘﻨﺗ ﻰﺘﺣ ﺎﻨﺴﻔﻧﺃ ﻦﻋ ﻒﺸﻜﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻻ§!"
+ cannot_dismantle_outpost_tt:1 "§R.ﺙﺍﺪﺣﻷﺍ ﻩﺬﻫ ﻲﻬﺘﻨﺗ ﻰﺘﺣ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻚﻴﻜﻔﺗ ﺎﻨﻨﻜﻤﻳ ﻻ§!"
+ tech_progress_gain_tt:0 ".ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ §G%[pre_ftl_country.TechProgressPercentage]+§!: §Y[pre_ftl_country.GetName]§!"
+ tech_progress_loss_tt:0 ".ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ §R%[pre_ftl_country.TechProgressPercentage]-§!: §Y[pre_ftl_country.GetName]§!"
+ locked_to_passive_observation:0 "$mission_passive_observation$ ﻰﻠﻋ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺰﻛﺮﻣ ﻞﻔﻗ ﻢﺗ"
+ acquired_tech_tooltip:1 ".ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ ﻝﺪﻌﻣ §G+50%§!: §Y[pre_ftl_country.GetName]§!"
+ acquired_tech_tooltip_five_years:0 ".§!ﺎﻣﺎﻋ XYZT_55 ﺓﺪﻤﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ §G+50%§!: §Y[pre_ftl_country.GetName]§!"
+ advance_to_age_tt:0 ".§Y[pre_ftl_country.GetNewAge]§! ﻰﻟﺇ ﻡﺪﻘﺘﻟﺍ :§Y[pre_ftl_country.GetName]§!"
+ regress_to_age_tt:0 ".§Y[pre_ftl_country.GetNewAge]§! ﻰﻟﺇ ﻊﺟﺍﺮﺘﻳ :§Y[pre_ftl_country.GetName]§!"
+
+# Scripted Loc
+ mountain:0 "ﻞﺒﺟ"
+ mountain_habitat:0 "ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ"
+
+ #Refactored Observation Events
+
+ observation.2011.name:2 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﺔﺳﺎﻜﺘﻧﺍ :ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺭﻮﻄﺘﻟﺍ"
+ observation.2011.desc:1 ".ﻊﻗﻮﺘﻤﻟﺍ ﻦﻣ ﻝﻮﻃﺃ ﺎﺘﻗﻭ [pre_ftl_planet.Owner.GetSpeciesNamePlural] ﺲﻳﺭﺪﺗ ﻕﺮﻐﺘﺴﻴﺳ .ﻒﺳﻸﻟ ﺔﻴﻨﻣﺰﻟﺍ ﺎﻨﻟﻭﺍﺪﺟ ﻩﺬﻫ ﺐﻧﺎﺟﻷﺍ ﺔﻴﻫﺍﺮﻛ ﺖﺠﻋﺯﺃ ﺪﻘﻟ \n\n .ﺯﺍﺰﺌﻤﺷﻻﺍﻭ ﻚﺸﻟﺍ ﻦﻴﻌﺑ ﺎﻨﺋﺎﻤﻠﻋ ﻰﻟﺇ ﻥﻭﺮﻈﻨﻳ ﻢﻬﻨﻴﺑ ﻢﻠﻌﺘﻠﻟ ﺎﻔﻐﺷ ﺮﺜﻛﺃ ﻢﻫ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻰﺘﺣﻭ ،ﺎﻨﺑ ﺔﻗﻼﻋ ﻱﺃ ﻢﻬﻟ ﻥﻮﻜﻳ ﻥﺃ ﻥﻮﻀﻓﺮﻳ [pre_ftl_planet.Owner.GetSpeciesNamePlural] ﻦﻣ ﺪﻳﺪﻌﻟﺍ .ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻦﻣ ﻰﻠﻋﺃ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﻢﻬﺑ ﺀﺎﻘﺗﺭﻼﻟ ﻢﻬﺘﻤﻬﻣ ﻲﻓ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻊﻣ ﻞﻤﻌﻟﺍ ﻲﻓ ﺔﻠﻜﺸﻣ [pre_ftl_planet.GetName] ﻲﻓ ﺎﻧﻭﺭﺎﺸﺘﺴﻣ ﻪﺟﺍﻮﻳ"
+ observation.2014.name:1 "[pre_ftl_planet.GetName] ﻲﻓ ﻡﺪﻘﺘﻟﺍ :ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺭﻮﻄﺘﻟﺍ"
+ observation.2014.desc:1 ".ﺖﻗﻮﻠﻟ ﺔﻴﻟﻭﻷﺍ ﺎﻨﺗﺍﺮﻳﺪﻘﺗ ﺔﻌﺟﺍﺮﻤﺑ ﺎﻨﻤﻗ ﺪﻘﻟ .ﻢﻬﺗﺭﺎﻀﺤﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ ﺰﻳﺰﻌﺘﻟ ﺎﻨﺘﻤﻬﻣ ﻊﻳﺮﺴﺗ ﻰﻟﺇ ﻯﺩﺃ ﺪﻗ ﺎﻨﻋ ﺪﻳﺰﻤﻟﺍ ﺔﻓﺮﻌﻣ ﻰﻠﻋ [pre_ftl_planet.Owner.GetSpeciesNamePlural] ﺹﺮﺣ ﻥﺇ \n\n .ﺎﻨﺨﻳﺭﺎﺗﻭ ﺎﻨﺘﻓﺎﻘﺛ ﻝﻮﺣ ﺔﻠﺌﺳﺄﺑ ﺎﻨﺋﺎﻤﻠﻋ ﺍﻮﻔﺼﻗﻭ ،ﻢﻬﻤﻟﺎﻋ ﺢﻄﺳ ﻰﻠﻋ ﺎﻫﺎﻧﺄﺸﻧﺃ ﻲﺘﻟﺍ ﺏﻮﻴﺠﻟﺍ ﻰﻠﻋ ﺍﻭﺪﻓﺍﻮﺗ ﺪﻘﻟ .ﻢﻬﻌﻣ ﺎﻬﻛﺭﺎﺸﻧ ﻲﺘﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺎﺑ ﺀﺍﺪﻌﺳ [pre_ftl_planet.GetName] ﻥﺎﻜﺳ ﻥﺇ"
+ observation.2014.tt:0 ".ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ §G+20%§!: §Y[pre_ftl_country.GetName]§!"
+ observation.2016.name:1 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﺔﺳﺎﻜﺘﻧﺍ :ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺭﻮﻄﺘﻟﺍ"
+ observation.2016.desc:1 ".ﻊﻗﻮﺘﻤﻟﺍ ﻦﻣ ﻝﻮﻃﺃ ﺎﺘﻗﻭ ﻕﺮﻐﺘﺴﺗ ﺪﻗ ﺔﻳﺮﻳﻮﻨﺘﻟﺍ ﺎﻨﺘﻤﻬﻣ ﻥﺃ ﻭﺪﺒﻳ .ﺓﺪﻳﺪﺟ ﺭﺎﻜﻓﺃﻭ ﻢﻴﻫﺎﻔﻣ ﻲﻨﺒﺗ ﻲﻓ ﺄﻄﺑﺃﻭ ﺎﻬﻗﺮﻃ ﻦﻋ ﻲﻠﺨﺘﻟﺍ ﻲﻓ ﺔﺌﻴﻄﺑ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻥﺃ ﻥﻮﻴﻤﻠﻌﻟﺍ ﺎﻧﻭﺭﺎﺸﺘﺴﻣ ﺩﺎﻓﺃ .[pre_ftl_planet.GetName] ﻰﻠﻋ [pre_ftl_species.GetName] ﺲﻳﺭﺪﺗ ﺔﺑﻮﻌﺻ ﻒﺳﻸﻟ ﺖﺒﺛ ﺪﻘﻟ"
+ observation.2016.tt:0 ".ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ §R-20%§!: §Y[pre_ftl_country.GetName]§!"
+ observation.2018.name:1 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﺔﺳﺎﻜﺘﻧﺍ :ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺭﻮﻄﺘﻟﺍ"
+ observation.2018.desc:1 ".ﺎﻨﺘﻤﻬﻣ ﻡﺪﻘﺗ ﺮﻴﺧﺄﺗ ﻰﻟﺇ ﻒﺳﻸﻟ ﺍﺬﻫ ﻯﺩﺃ ﺪﻗﻭ .ﺏﺎﻘﻋ ﺔﺑﺎﺜﻤﺑ [pre_ftl_planet.GetName] ﺢﻄﺴﻟ ﺺﻴﺼﺨﺘﻟﺍ ﺢﺒﺻﺃ\n\n .ﺮﻳﺪﻘﺗ ﻞﻗﺃ ﻰﻠﻋ ،ﺎﻳﺪﺤﺗ ﻞﺜﻤﻳ ﻢﻫﺭﻮﻀﺣ ﻲﻓ ﺪﺟﺍﻮﺘﻟﺍ ﻥﺈﻓ ،[pre_ftl_species.GetName] ـﻟ ﺓﺪﻳﺮﻔﻟﺍ ﺔﺤﺋﺍﺮﻟﺍﻭ ﺮﻬﻈﻤﻠﻟ ﺍﺮﻈﻧ .[pre_ftl_planet.GetName] ﻰﻠﻋ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺮﻳﻮﻄﺘﻠﻟ ﺎﻨﺘﻤﻬﻣ ﻲﻓ ﺔﻛﺭﺎﺸﻤﻟﺍ ﻲﻓ ﻥﻮﺒﻏﺮﻳ ﻦﻴﻴﻤﻠﻋ ﻦﻳﺭﺎﺸﺘﺴﻣ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻲﻓ ﺔﺑﻮﻌﺻ ﻪﺟﺍﻮﻧ"
+ observation.2018.tt:0 ".ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ §R-20%§!: §Y[pre_ftl_country.GetName]§!"
+ observation.2020.desc:1 ".ﺩﺪﺤﻤﻟﺍ ﺪﻋﻮﻤﻟﺍ ﻞﺒﻗ ﻲﻬﺘﻨﺗ ﺪﻗ ﺀﺎﻀﻔﻟﺍ ﺮﺼﻋ ﻰﻟﺇ [pre_ftl_species.GetName] ﺓﺭﺎﻀﺤﺑ ﻡﺪﻘﺘﻠﻟ ﺎﻨﺘﻤﻬﻣ ﻥﺃ ﻰﻟﺇ ﻢﻫﺮﻳﺭﺎﻘﺗ ﺮﻴﺸﺗ .ﻩﻭﺯﺮﺣﺃ ﻱﺬﻟﺍ ﻡﺪﻘﺘﻟﺎﺑ ﻥﻮﺒﺠﻌﻣ ﻲﻟﺰﻨﻤﻟﺍ ﻢﻬﻤﻟﺎﻋ ﻲﻓ ﻦﻳﺰﻛﺮﻤﺘﻤﻟﺍ ﺎﻨﻳﺭﺎﺸﺘﺴﻣ ﻥﺇ .ﻥﻮﻴﻌﻴﺒﻃ ﺀﺎﻤﻠﻋ ﻢﻬﻧﺃ [pre_ftl_planet.GetName] ـﻟ [pre_ftl_species.GetNamePlural] ﺖﺒﺛﺃ"
+ observation.2022.desc:0 ".[pre_ftl_species.GetName] ﻲﻓ ﺓﺮﻴﺒﻛ ﺕﺎﻧﺎﻜﻣﺇ ﻥﻭﺮﻳ ﻦﻴﻴﻤﻠﻌﻟﺍ ﺎﻨﻳﺭﺎﺸﺘﺴﻣ ﻥﺃ ﻻﺇ ،ﺎﻴﺒﺴﻧ ﺪﻬﻌﻟﺍ ﺔﺜﻳﺪﺣ ﻢﻬﺗﺭﺎﻀﺣ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻱﺩﺎﻌﻟﺍ ﺮﻴﻏ ﻢﻬﺋﺎﻛﺫ ﻰﻟﺇ ﺮﻴﺒﻛ ﺪﺣ ﻰﻟﺇ ﻚﻟﺫ ﻊﺟﺮﻳﻭ ،ﺩﺪﺤﻤﻟﺍ ﺪﻋﻮﻤﻟﺍ ﻞﺒﻗ ﺮﻴﺴﺗ [pre_ftl_planet.GetName] ﻰﻠﻋ [pre_ftl_species.GetNamePlural] ﻰﻟﺇ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺮﻳﻮﻄﺘﻟﺍ ﺐﻠﺟ ﻲﻓ ﺔﻠﺜﻤﺘﻤﻟﺍ ﺎﻨﺘﻤﻬﻣ ﻥﺇ"
+ observation.2030.name:0 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﺔﻴﻗﻼﺧﻷﺍ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ"
+ observation.2030.desc:0 ".ﻢﻬﻨﻋ ﺐﻳﺮﻏ ﺀﻲﺷ ﻰﻟﺇ ﻥﻭﺮﻈﻨﻳ ﺎﻣﺪﻨﻋ ﺯﺍﺰﺌﻤﺷﻻﺎﺑ ﺩﺮﻟﺍ ﻲﻓ ﺍﺪﺟ ﺎﻌﻳﺮﺳ [pre_ftl_species.GetNamePlural] ﺪﻌﻳ ﻢﻟ .ﻯﺮﺧﻷﺍ ﺕﺎﻓﺎﻘﺜﻟﺍﻭ ﻉﺍﻮﻧﻸﻟ ﻼﺒﻘﺗ ﺮﺜﻛﺃ ﻦﻴﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﻞﻌﺟ [pre_ftl_planet.GetName] ﻰﻠﻋ ﻦﻴﻴﻤﻠﻌﻟﺍ ﺎﻨﻳﺭﺎﺸﺘﺴﻣ ﻊﻣ ﻝﻮﻄﻤﻟﺍ ﻝﺎﺼﺗﻻﺍ ﻥﺃ ﻭﺪﺒﻳ"
+ observation.2031.desc:1 ".ﻢﻬﻨﻋ ﺔﺒﻳﺮﻐﻟﺍ ﺀﺎﻴﺷﻷﺍ ﻞﻜﺑ ﺎﻘﻴﻤﻋ ﺎﻣﺎﻤﺘﻫﺍ ﺭﻮﻃ ﺪﻗ [pre_ftl_species.GetNamePlural] ﻥﺃ ﻭﺪﺒﻳ ،[pre_ftl_planet.GetName] ﻰﻠﻋ ﺎﻨﻳﺭﺎﺸﺘﺴﻣﻭ ﺎﻨﺋﺎﻤﻠﻋ ﻊﻣ ﻖﻴﺛﻭ ﻞﻜﺸﺑ ﻞﻤﻌﻟﺍ ﺪﻌﺑ"
+ observation.2031.tt:0 ".ﺐﻧﺎﺟﻸﻟ ﺔﺒﺤﻣ ﺮﺜﻛﺃ [pre_ftl_planet.GetName] ﻥﺎﻜﺳ ﺢﺒﺼﻳ ﻑﻮﺳ"
+ observation.social.intro:0 ".ﺎﻨﻗﺮﻃ ﺓﺎﻛﺎﺤﻣ ﻲﻓ ﺎﻀﻳﺃ ﺍﻭﺃﺪﺑ ﻢﻬﻧﺃ ﺎﻧﻭﺭﺎﺸﺘﺴﻣ ﺩﺎﻓﺃ ﻞﺑ ،ﺐﺴﺤﻓ ﺎﻨﺘﻴﻨﻘﺘﺑ ﻦﻴﻧﻮﺘﻔﻣ [pre_ftl_planet.GetName] ﻲﻓ ﻥﻮﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﺢﺒﺼﻳ ﻢﻟ"
+ observation.2032.desc:0 ".ﺔﻔﻠﺘﺨﻤﻟﺍ [pre_ftl_species.GetName] ﺔﻓﺎﻘﺛ ﺕﺎﻋﻮﻤﺠﻣ ﻦﻴﺑ ﻉﺍﺮﺼﻟﺍ ﻒﻗﻮﺗ ،ﺎﻨﻟﻮﺻﻭ ﺬﻨﻣ .ﻒﻨﻋﻼﻟﺍﻭ ﻡﻼﺴﻠﻟ ﺎﻨﺘﻔﺴﻠﻓ ﺮﻴﺒﻛ ﺪﺣ ﻰﻟﺇ ﺍﻮﻨﺒﺗ ﻢﻬﻧﺃ ﻭﺪﺒﻳ\n\n$observation.social.intro$"
+ observation.2032.tt:0 ".ﻡﻼﺴﻟﺍ ﻮﺤﻧ [pre_ftl_planet.GetName] ﺐﻌﺷ ﻪﺠﺘﻳ ﻑﻮﺳ"
+ observation.2033.desc:1 ".ﺎﻨﻟﻮﺻﻭ ﺬﻨﻣ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻳﺮﻜﺴﻋ ﻢﻬﻌﻤﺘﺠﻣ ﺢﺒﺻﺃ ﺪﻘﻟ .ﺏﺮﺤﻟﺍ ﻦﻔﻟ ﺍﺪﻳﺪﺟ ﺍﺮﻳﺪﻘﺗ [pre_ftl_species.GetNamePlural] ﺭﻮﻃ ،ﺎﻬﻴﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺔﻴﻧﺎﻜﻣﺇ ﻢﻬﺤﻨﻤﻧ ﻲﺘﻟﺍ ﺓﺪﻳﺪﺠﻟﺍ ﺔﺤﻠﺳﻷﺍ ﻞﻀﻔﺑ\n\n$observation.social.intro$"
+ observation.2033.tt:0 ".ﺔﻳﺮﻜﺴﻌﻟﺍ ﺔﻋﺰﻨﻟﺍ ﻮﺤﻧ [pre_ftl_planet.GetName] ﺐﻌﺷ ﻪﺠﺘﻳ ﻑﻮﺳ"
+ observation.2034.desc:0 ".ﺓﺭﺎﻀﺤﻛ ﺔﻤﻈﻌﻟﺍ ﻖﻴﻘﺤﺘﻟ ﺓﺪﻴﺣﻮﻟﺍ ﺔﻘﻳﺮﻄﻟﺍ ﻲﻫ ﻩﺬﻫ ﻥﺃ ﻥﻵﺍ [pre_ftl_species.GetNamePlural] ﻙﺭﺪﻳ .ﺓﺪﺣﻮﻤﻟﺍﻭ ﺔﻳﻮﻘﻟﺍ ﺓﺩﺎﻴﻘﻟﺍ ﺔﻤﻴﻗ ﻢﻫﺎﻨﻤﻠﻋ ﺚﻴﺣ ،ﺢﺟﺎﻧ ﻝﺎﺜﻣ ﺔﺑﺎﺜﻤﺑ ﺎﻨﻛ ﺪﻘﻟ\n\n$observation.social.intro$"
+ observation.2034.tt:0 ".ﺩﺍﺪﺒﺘﺳﻻﺍ ﻮﺤﻧ [pre_ftl_planet.GetName] ﺐﻌﺷ ﻪﺠﺘﻳ ﻑﻮﺳ"
+ observation.2035.desc:1 ".ﺎﻨﻟﻮﺻﻭ ﺬﻨﻣ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺔﻴﺼﺨﺸﻟﺍ ﻢﻬﺗﺎﻳﺮﺣ ﺕﺩﺍﺯ ﺪﻘﻟ .ﺓﺍﻭﺎﺴﻤﻟﺎﺑ ﺍﺪﻳﺪﺟ ﺎﺳﺎﺴﺣﺇ ﺭﻮﻃ ﺪﻗ [pre_ftl_species.GetName] ﻊﻤﺘﺠﻣ ﻥﺃ ﻭﺪﺒﻳ ،ﺎﻨﺘﻓﺎﻘﺛﻭ ﺎﻨﻨﻓ ﻦﻣ ﻩﻭﺃﺭ ﺎﻤﻣ ﻡﺎﻬﻟﺈﺑ\n\n$observation.social.intro$"
+ observation.2035.tt:0 ".ﺓﺍﻭﺎﺴﻤﻟﺍ ﻮﺤﻧ [pre_ftl_planet.GetName] ﺐﻌﺷ ﻪﺠﺘﻳ ﻑﻮﺳ"
+ observation.2036.desc:0 ".ﺕﺎﻓﺍﺮﺨﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻋ ﻲﻠﺨﺘﻟﺍ ﻢﺘﻳﻭ ،ﻊﺟﺍﺮﺗ ﻲﻓ ﻢﻈﻨﻤﻟﺍ ﻦﻳﺪﻟﺍ .ﻢﻬﻌﻤﺘﺠﻣ ﻰﻠﻋ ﻖﻴﻤﻋ ﻞﻜﺸﺑ ﺕﺮﺛﺃ ﻡﻮﻠﻌﻟﺍ ﺔﻤﻴﻗ [pre_ftl_species.GetName] ﻢﻴﻠﻌﺘﻟ ﺎﻨﺘﻤﻬﻣ ﻥﺇ\n\n$observation.social.intro$"
+ observation.2036.tt:0 ".ﺔﻳﺩﺎﻤﻟﺍ ﻮﺤﻧ [pre_ftl_planet.GetName] ﺐﻌﺷ ﻪﺠﺘﻳ ﻑﻮﺳ"
+ observation.2037.desc:1 ".ﻢﻬﺗﺍﺪﻘﺘﻌﻣ ﻲﻓ ﺎﻨﺗﺍﺪﻘﺘﻌﻣ ﻦﻣ ﺮﺻﺎﻨﻋ ﻥﻮﺠﻣﺪﻳﻭ ،ﻢﻬﺗﺭﺎﻀﺤﻟ ﺔﻤﻳﺪﻘﻟﺍ ﺕﺎﻧﺎﻳﺪﻟﺍ ﻰﻟﺇ [pre_ftl_species.GetNamePlural] ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻖﻓﺪﺘﻳ ،ﺎﻨﻧﺎﻤﻳﺇ ﺓﻮﻗ ﺓﺪﻫﺎﺸﻣ ﺪﻌﺑ\n\n$observation.social.intro$"
+ observation.2037.tt:0 ".ﺔﻴﻧﺎﺣﻭﺭ ﺮﺜﻛﺃ [pre_ftl_planet.GetName] ﺐﻌﺷ ﺢﺒﺼﻳ ﻑﻮﺳ"
+ observation.2038.desc:0 ".ﺎﻨﺘﻤﻬﻣ ﻡﺪﻘﺗ ﻒﺳﻸﻟ ﺕﺮﺧﺃ ﺪﻗ ﺏﺮﺣ ﺕﺍﻭﺩﺃ ﻰﻟﺇ ﻢﻬﻟ ﺎﻬﻣﺪﻘﻧ ﻲﺘﻟﺍ ﺔﻴﻤﻠﺴﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻞﻳﻮﺤﺘﻟ ﺔﻴﻨﻀﻤﻟﺍ ﻢﻫﺩﻮﻬﺟ ﻥﺇ\n\n.ﺓﺪﻳﺪﺟ ﺔﺤﻠﺳﺃ ﺎﻴﺟﻮﻟﻮﻨﻜﺗ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺎﺑ ﻂﻘﻓ ﻦﻴﻤﺘﻬﻣ ﻥﻭﺪﺒﻳ ﻦﻴﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﻥﺃ ﺍﻭﺩﺎﻓﺃ .ﻙﺎﻨﻫ ﺎﻨﺘﻤﻬﻣ ﺔﻤﻜﺣ ﻲﻓ [pre_ftl_planet.GetName] ـﻟ [pre_ftl_species.GetNamePlural] ـﻟ ﺓﺭﻮﺸﻤﻟﺍ ﻢﻳﺪﻘﺘﻟ ﻢﻫﺎﻨﻠﺳﺭﺃ ﻦﻳﺬﻟﺍ ﺀﺎﻤﻠﻌﻟﺍ ﺾﻌﺑ ﻚﻜﺷ ﺪﻘﻟ"
+ observation.2039.desc:1 ".ﺎﻨﻣﺪﻘﺗ ﺮﻴﺧﺄﺗ ﻰﻟﺇ ﻒﺳﻸﻟ ﺍﺬﻫ ﻯﺩﺃ ﺪﻗﻭ .ﻥﺎﻜﺴﻟﺎﺑ ﺔﻟﻮﻫﺄﻣ ﺔﻨﻳﺪﻣ ﻕﻮﻓ ﺔﻴﺟﺎﻣﺪﻧﺍ ﺔﻠﺒﻨﻗ ﺮﻴﺠﻔﺗ ﺭﺎﺛﺁ ﺢﺿﻮﺗ ﺓﺎﻛﺎﺤﻣ ﺎﻧﺮﻬﻇﺃ ﻥﺃ ﺪﻌﺑ ﻢﻬﺘﺋﺪﻬﺘﻟ ﻊﻴﺑﺎﺳﺃ ﻥﻮﻴﻤﻠﻌﻟﺍ ﺎﻧﻭﺭﺎﺸﺘﺴﻣ ﻕﺮﻐﺘﺳﺍ\n\n.ﺓﺪﻳﺪﺠﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺗ ﻢﻬﻤﻴﻠﻌﺗ ﻝﻭﺎﺤﻧ ﺎﻣﺪﻨﻋ ﺐﻋﺮﻟﺎﺑ [pre_ftl_species.GetName] ﺀﺎﻤﻠﻋ ﺮﻌﺸﻳ ﺎﻣ ﺍﺮﻴﺜﻛ .ﺎﻬﻟ ﻂﻄﺨﻣ ﻮﻫ ﺎﻤﻛ ﺮﻴﺴﺗ ﻻ ﺔﻴﻠﺻﻷﺍ ﺓﺭﺎﻀﺤﻟﺍ ﺮﻳﻮﻨﺘﻟ [pre_ftl_planet.GetName] ﻰﻠﻋ ﺎﻨﺘﻤﻬﻣ"
+ observation.2040.desc:0 ".ﺔﻳﺎﻐﻠﻟ ﺔﻠﺋﺎﻔﺘﻣ ﺖﻧﺎﻛ ﺔﻤﻬﻤﻟﺍ ﻩﺬﻬﻟ ﺔﻴﻟﻭﻷﺍ ﺔﻴﻨﻣﺰﻟﺍ ﺎﻨﺗﺍﺮﻳﺪﻘﺗ ﻥﺃ ﻭﺪﺒﻳ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ\n\n.ﻱﺩﺎﻤﻟﺍ ﻞﻴﻟﺪﻟﺍ ﻝﻮﺒﻘﻟ ﺪﻴﻨﻌﻟﺍ ﻢﻬﻀﻓﺭﻭ ﺔﻀﻣﺎﻐﻟﺍ ﺔﻴﻨﻳﺪﻟﺍ ﻢﻫﺪﻴﻟﺎﻘﺗ ﺐﺒﺴﺑ ﻁﺎﺒﺣﻹﺎﺑ ﻥﻮﻴﻤﻠﻌﻟﺍ ﺎﻧﻭﺭﺎﺸﺘﺴﻣ ﺮﻌﺸﻳ ﺎﻣ ﺎﺒﻟﺎﻏﻭ ،ﺕﺎﻓﺍﺮﺨﻟﺎﺑ ﺔﻨﻣﺆﻣ ﺔﻋﻮﻤﺠﻣ ﻢﻬﻧﺃ [pre_ftl_species.GetNamePlural] ﺖﺒﺛﺃ ﺪﻘﻟ .ﻢﻬﺗﺭﺎﻀﺤﺑ ﺀﺎﻘﺗﺭﻼﻟ ﺎﻨﺘﻤﻬﻣ ﻲﻓ [pre_ftl_planet.GetName] ﻲﻓ ﺹﺎﺨﺷﻷﺍ ﻊﻣ ﻞﻤﻌﻟﺍ ﻲﻓ ﺔﺑﻮﻌﺻ ﻪﺟﺍﻮﻧ"
+ observation.2041.desc:1 ".ﺓﺭﺮﻘﻤﻟﺍ ﺕﺎﻣﻼﻌﻟﺍ ﻦﻣ ﻝﻮﻃﺃ ﺎﺘﻗﻭ ﻕﺮﻐﺘﺴﻳ ﻑﻮﺳﻭ .ﺮﻳﻮﻨﺘﻟﺍ ﻰﻟﺇ [pre_ftl_species.GetNamePlural] ﻪﻴﺟﻮﺘﻟ ﺎﻨﺘﻤﻬﻣ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺍﺬﻫ ﻕﺎﻋﺃ ﺪﻗﻭ \n\n .ﻝﻭﺆﺴﻣ ﻞﻜﺸﺑ ﺎﻬﻣﺍﺪﺨﺘﺳﻻ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺔﻴﺣﻭﺮﻟﺍ ﺱﻭﺭﺪﻟﺍ ﺲﻴﻟ ﻦﻜﻟﻭ ،ﺔﻴﻓﺎﻛ ﺔﻟﻮﻬﺴﺑ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻝﻮﺒﻘﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻢﻬﻧﺇ .ﻦﻴﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﻦﻋ ﺔﺑﺎﻴﻧ ﻥﺎﻤﻳﻹﺍ ﻲﻓ ﻖﻠﻘﻠﻟ ﺮﻴﺜﻣ ﺺﻘﻧ ﻦﻋ [pre_ftl_planet.GetName] ﻲﻓ ﻥﻮﻴﻤﻠﻌﻟﺍﻭ ﻥﻮﻴﻨﻳﺪﻟﺍ ﺎﻧﻭﺭﺎﺸﺘﺴﻣ ﻎﻠﺑﺃ .ﻡﻮﺠﻨﻟﺍ ﻮﺤﻧ ﺢﻴﺤﺼﻟﺍ ﻖﻳﺮﻄﻟﺍ ﻰﻠﻋ ﻢﻬﺗﺩﺎﻴﻗﻭ [pre_ftl_species.GetNamePlural] ﺮﻳﻮﻨﺘﻟ ﺎﻧﺩﻮﻬﺟ ﻁﺎﺒﺣﺇ ﻢﺗ ﺪﻘﻟ"
+ observation.2042.desc:0 ".ﻊﻗﻮﺘﻤﻟﺍ ﻦﻣ ﻝﻮﻃﺃ ﺎﺘﻗﻭ ﻕﺮﻐﺘﺴﻳ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣ ﺮﻣﻷﺍ ﻥﺃ ﻰﻟﺇ ﻢﻫﺎﻨﻠﺳﺭﺃ ﻦﻳﺬﻟﺍ ﻥﻮﻴﻤﻠﻌﻟﺍ ﻥﻭﺭﺎﺸﺘﺴﻤﻟﺍ ﺩﺎﻓﺃ - ﺎﻨﺘﻤﻬﻣ ﻡﺪﻘﺗ ﻲﺸﻔﺘﻤﻟﺍ ﻢﻫﺩﺍﺪﺒﺘﺳﺍ ﺖﻗﺎﻋﺃ ﺪﻘﻟ \n\n.[pre_ftl_species.GetNamePlural] ﻦﻴﺑ ﺎﻬﻌﻴﺠﺸﺗ ﻢﺘﻳ ﻻ - ﻢﻠﻌﻟﺍ ﺎﻬﺑ ﺮﻫﺩﺰﻳ ﻲﺘﻟﺍ - ﺔﻳﺩﺮﻔﻟﺍ ﺕﺍﺭﺩﺎﺒﻤﻟﺍﻭ ﺭﺎﻜﻓﻷﺍ ﻥﺇ .[pre_ftl_species.GetNamePlural] ـﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ﻊﻓﺮﻟ ﺎﻧﺩﻮﻬﺟ [pre_ftl_planet.GetName] ﻲﻓ ﻱﺩﺍﺪﺒﺘﺳﻻﺍﻭ ﻲﻌﻤﻘﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ ﻂﺒﺣﺃ ﺪﻘﻟ"
+ observation.2043.desc:1 ".ﻊﻗﻮﺘﻤﻟﺍ ﻦﻣ ﻝﻮﻃﺃ ﺎﺘﻗﻭ ﻕﺮﻐﺘﺴﺘﺳ ﺎﻬﻨﻜﻟ ،ﻥﻮﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﺎﻫﺮﻬﻇﺃ ﻲﺘﻟﺍ ﺔﻠﻠﻀﻤﻟﺍ ﺓﺍﻭﺎﺴﻤﻟﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺔﻳﺮﻳﻮﻨﺘﻟﺍ ﺎﻨﺘﻤﻬﻣ ﺮﻤﺘﺴﺗ\n\n.ﻡﺎﻌﻟﺍ ﺢﻟﺎﺼﻠﻟ ﻭﺃ ﻪﻘﻳﺮﻓ ﺕﺎﺟﺎﻴﺘﺣﻻ ﺭﺎﺒﺘﻋﺍ ﻱﺃ ﻥﻭﺩ ،ﻉﻭﺮﺸﻤﻠﻟ ﺔﻔﻠﺘﺨﻣ ﺔﻳﺅﺭ ﻪﻳﺪﻟ ﻢﻟﺎﻋ ﻞﻛ ﻥﺃ ﻭﺪﺒﻳ ﻥﺎﻴﺣﻷﺍ ﺾﻌﺑ ﻲﻓ .[pre_ftl_species.GetNamePlural] ـﻟ ﺔﺜﻳﺪﺤﻟﺍ ﻡﻮﻠﻌﻟﺍ ﺲﻳﺭﺪﺗ ﻲﻓ ﺔﺑﻮﻌﺻ ﺎﻧﻭﺭﺎﺸﺘﺴﻣ ﻪﺟﺍﻮﻳﻭ ،[pre_ftl_planet.GetName] ﺢﻄﺳ ﻰﻠﻋ ﻰﺿﻮﻔﻟﺍ ﺩﻮﺴﺗ"
+
+ ### New events which fire before nuclear war/apocalypse gatekeepers, giving the player a final chance to stop pre-FTLs from blowing themselves up! ###
+ # This event appears prior to observation.107 (religious nuclear war) #
+ observation.3205.name:0 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﻚﻴﺷﻮﻟﺍ ﺕﻮﻤﻟﺍ"
+ observation.3205.desc:0 ".ﻪﻠﻤﻛﺄﺑ ﺐﻛﻮﻜﻟﺍ ﻢﻌﺗ ﺔﻴﻨﻳﺩ ﺏﺮﺣ ﻲﻓ ﻢﻬﺴﻔﻧﺃ ﻖﻳﺰﻤﺘﻟ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻥﻮﻣﺪﺨﺘﺴﻳ ﻑﻮﺴﻓ ،ﺀﺍﺮﺟﺇ ﻱﺃ ﺬﺨﺘﻧ ﻢﻟ ﺍﺫﺇ\n\n .ﺎﻬﻨﻋ ﻉﺎﻓﺪﻟﺍ ﻦﻜﻤﻳ ﻻ ﺕﺎﻳﻮﺘﺴﻣ ﻰﻟﺇ ﺕﺍﺮﺗﻮﺘﻟﺍ ﺖﻌﻔﺗﺭﺍﻭ ،ﻢﺴﻘﻨﻣ ﻊﻤﺘﺠﻤﻟﺎﻓ .ﺪﻴﺟ ﻥﺎﻜﻣ ﻲﻓ ﺍﻮﺴﻴﻟ [pre_ftl_planet.GetName] ﻥﺎﻜﺳ ﻥﺈﻓ ،ﻢﻬﺼﻠﺨﻤﻟ ﺢﺿﺍﻮﻟﺍ ﻑﺎﻄﺘﺧﻻﺍ ﺍﻭﺪﻬﺷ ﻥﺃ ﺪﻌﺑ"
+ observation.3205.a:0 ".ﺎﻨﻳﺪﻟ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺩﺍﺩﺮﺘﺳﺍ"
+ observation.3205.b:0 ".ﻲﻓﺎﻘﺜﻟﺍ ﺙﻮﻠﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺎﺑ ﺮﻃﺎﺨﻧ ﻻﺃ ﺐﺠﻳﻭ"
+ # This event appears prior to observation.204 (nuclear war following downed shuttle and stolen tech) #
+ observation.3210.name:0 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﻖﻓﻷﺍ ﻲﻓ ﺡﻮﻠﺗ ﺔﺛﺭﺎﻜﻟﺍ"
+ observation.3210.desc:0 ".ﺔﺛﺭﺎﻛ ﻩﺬﻫ ﻥﻮﻜﺘﺴﻓ ،ﻞﺧﺪﺘﻧ ﻢﻟ ﺎﻣﻭ \n\n .ﻢﻬﺴﻔﻧﺃ ﺮﻴﻣﺪﺘﻟ ﺎﻨﻳﺪﻟ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﺔﻟﻮﻬﺴﺑ ﻢﻬﻨﻜﻤﻳ ،ﻲﻤﻠﻌﻟﺍ ﺎﻨﻤﻬﻓ ﻰﻟﺇ ﻢﻫﺭﺎﻘﺘﻓﻻ ﺍﺮﻈﻧﻭ .ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻊﻴﻤﺠﻟ ﺍﺪﻳﺪﻬﺗ [pre_ftl_planet.GetName] ﻰﻠﻋ ﻂﻘﺴﻤﻟﺍ ﺎﻨﻛﻮﻜﻣ ﻦﻣ ﺎﻬﻴﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻢﺗ ﻲﺘﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻞﻜﺸﺗ"
+ observation.3210.a:0 ".ﻲﺗﺍﺬﻟﺍ ﺮﻴﻣﺪﺘﻟﺍ ﻙﻮﻜﻣ ﻞﻴﻌﻔﺗ"
+ observation.3210.b:0 ".ﻞﻌﻔﻟﺎﺑ ﺭﺮﻀﻟﺍ ﻊﻗﻭ ﺪﻘﻟ"
+ # This event appears prior to observation.1400 (random nuclear war) #
+ observation.3215.name:0 "[pre_ftl_planet.GetName] ﻰﻠﻋ ﻱﻭﻮﻨﻟﺍ ﺪﻴﻌﺼﺘﻟﺍ"
+ observation.3215.desc:0 ".ﺪﻴﺣﻮﻟﺍ ﻢﻬﻠﻣﺃ ﻦﺤﻧ\n\n.ﻢﻬﺴﻔﻧﺃ ﻥﻭﺮﻣﺪﻳ ﻑﻮﺴﻓ ،ﯫﻴﺷ ﻞﻌﻔﻧ ﻢﻟ ﺍﺫﺇ .ﻖﻓﻷﺍ ﻲﻓ ﺡﻮﻠﺗ ﺔﻳﻭﻮﻧ ﺏﺮﺣ .[pre_ftl_planet.GetName] ﻰﻠﻋ ﺮﻤﺘﺨﺗ ﺕﺍﺮﺗﻮﺘﻟﺍ"
+ observation.3215.a:0 ".ﺔﺋﺪﻬﺗﻭ ﺍﺮﺳ ﻞﻠﺴﺘﻟﺍ"
+ observation.3215.b:0 ".ﺲﺴﺠﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺔﺟﺎﺣ ﻙﺎﻨﻫ ﺖﺴﻴﻟ"

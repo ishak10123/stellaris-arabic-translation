@@ -1,0 +1,1073 @@
+@tab_height = -45
+
+guiTypes = {
+
+	@SOURCE_W = 755
+	@SOURCE_H = 50
+	@SOURCE_SUB_W = 745
+
+	@TARGET_W = 300
+	@TARGET_H = 55
+
+	@TARGET_X = 730
+
+	@TITLE_H = 50
+
+	### EXPANSION SOURCE PLANET SUB ENTRY ###
+
+	containerWindowType = {
+		name = "expansion_source_planet_sub_entry"
+		size = { width = 725 height = 77 }
+
+		background = {
+			name = "bg"
+			spriteType = "GFX_button_light"
+			clicksound = interface
+		}
+
+		containerWindowType = {
+			name = "selected_overlay"
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
+
+			background = {
+				name = "selected_bg"
+				spriteType = "GFX_glow_tile_orange_no_padding"
+				alwaysTransparent = yes
+			}
+		}
+
+
+		containerWindowType = {
+			name = "portrait"
+			size = { width = 60 height = 64 }
+			position = { x = 5 y = 6 }
+			clipping = yes
+
+			background = {
+				name = "portrait_hitbox"
+				spriteType = "GFX_invisible"
+			}
+
+			iconType = {
+				name = "species_portrait"
+				quadTextureSprite = "GFX_portrait_character"
+				position = { x = -22 y = -4 }
+				scale = 0.18
+				alwaysTransparent = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "species_container"
+			position = { x = 75 y = 20 }
+
+			instantTextBoxType = {
+				name = "species_name_text"
+				font = "cg_16b"
+				position = { x = 0 y = 0 }
+				maxWidth = 190
+				maxHeight = 16
+				fixedSize = yes
+				format = left
+				orientation = upper_left
+				text_color_code = "E"
+				alwaysTransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "ship_type_text"
+				font = "cg_16b"
+				position = { x = 0 y = 18 }
+				maxWidth = 190
+				maxHeight = 16
+				fixedSize = yes
+				format = left
+				orientation = upper_left
+				alwaysTransparent = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "habitability_container"
+			position = { x = 270 y = 20 }
+
+			instantTextBoxType = {
+				name = "habitability_title"
+				text = "HABITABILITY"
+				text_color_code = "E"
+				font = "cg_16b"
+				position = { x = 0 y = 0 }
+				maxWidth = 130
+				maxHeight = 16
+				fixedSize = yes
+			}
+
+			iconType = {
+				name = "habitability_icon"
+				spriteType = "GFX_colonizability_shadow"
+				position = { x = 0 y = 18 }
+				scale = 0.65
+				alwaysTransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "habitability_percentage"
+				font = "cg_16b"
+				position = { x = 28 y = 18 }
+				maxWidth = 100
+				maxHeight = 16
+				fixedSize = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "colonization_cost_container"
+			position = { x = 405 y = 20 }
+
+			instantTextBoxType = {
+				name = "colonization_cost_title"
+				position = { x = 0 y = 0 }
+				text = "COLONIZATION_COST"
+				text_color_code = "E"
+				font = "cg_16b"
+				maxWidth = 150
+				maxHeight = 16
+				fixedSize = yes
+			}
+
+			instantTextBoxType = {
+				name = "colony_ship_cost"
+				font = "cg_16b"
+				position = { x = 0 y = 18 }
+				maxWidth = 150
+				maxHeight = 32
+			}
+		}
+
+		overlappingElementsBoxType = {
+			name = "traits_list"
+			size = { x = 150 y = 24 }
+			position = { x = -165 y = 25 }
+			orientation = "UPPER_RIGHT"
+			format = center
+			spacing = 0
+		}
+	}
+
+	### EXPANSION SOURCE FLEET ENTRY ###
+
+	containerWindowType = {
+		name = "expansion_source_fleet_entry"
+		size = { width = 725 height = 77 }
+
+		background = {
+			name = "bg"
+			spriteType = "GFX_button_light"
+			clicksound = interface
+		}
+
+		containerWindowType = {
+			name = "selected_overlay"
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
+
+			background = {
+				name = "selected_bg"
+				spriteType = "GFX_glow_tile_orange_no_padding"
+				alwaysTransparent = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "portrait"
+			size = { width = 60 height = 64 }
+			position = { x = 5 y = 6 }
+			clipping = yes
+
+			background = {
+				name = "portrait_hitbox"
+				spriteType = "GFX_invisible"
+			}
+
+			iconType = {
+				name = "species_portrait"
+				quadTextureSprite = "GFX_portrait_character"
+				position = { x = -22 y = -4 }
+				scale = 0.18
+				alwaysTransparent = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "species_container"
+			position = { x = 75 y = 20 }
+
+			instantTextBoxType = {
+				name = "species_name_text"
+				font = "cg_16b"
+				position = { x = 0 y = 0 }
+				maxWidth = 190
+				maxHeight = 16
+				fixedSize = yes
+				format = left
+				orientation = upper_left
+				text_color_code = "E"
+				alwaysTransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "ship_type_text"
+				font = "cg_16b"
+				position = { x = 0 y = 18 }
+				maxWidth = 190
+				maxHeight = 16
+				fixedSize = yes
+				format = left
+				orientation = upper_left
+				alwaysTransparent = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "habitability_container"
+			position = { x = 270 y = 20 }
+
+			instantTextBoxType = {
+				name = "habitability_title"
+				text = "HABITABILITY"
+				text_color_code = "E"
+				font = "cg_16b"
+				position = { x = 0 y = 0 }
+				maxWidth = 130
+				maxHeight = 16
+				fixedSize = yes
+			}
+
+			iconType = {
+				name = "habitability_icon"
+				spriteType = "GFX_colonizability_shadow"
+				position = { x = 0 y = 18 }
+				scale = 0.65
+				alwaysTransparent = yes
+			}
+
+			instantTextBoxType = {
+				name = "habitability_percentage"
+				font = "cg_16b"
+				position = { x = 28 y = 18 }
+				maxWidth = 100
+				maxHeight = 16
+				fixedSize = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "colony_ship_container"
+			position = { x = 405 y = 20 }
+
+			instantTextBoxType = {
+				name = "ship_name_title"
+				position = { x = 0 y = 0 }
+				text = "SHIP_NAME_TITLE"
+				text_color_code = "E"
+				font = "cg_16b"
+				maxWidth = 150
+				maxHeight = 16
+				fixedSize = yes
+			}
+
+			instantTextBoxType = {
+				name = "ship_name"
+				font = "cg_16b"
+				position = { x = 0 y = 18 }
+				maxWidth = 150
+				maxHeight = 32
+			}
+		}
+
+		instantTextBoxType = {
+			name = "ship_location"
+			font = "cg_16b"
+			position = { x = 75 y = 55 }
+			maxWidth = 300
+			maxHeight = 20
+			fixedSize = yes
+		}
+
+		overlappingElementsBoxType = {
+			name = "traits_list"
+			size = { x = 150 y = 24 }
+			position = { x = -165 y = 25 }
+			orientation = "UPPER_RIGHT"
+			format = center
+			spacing = 0
+		}
+	}
+
+	### SURFACE VIEW ###
+
+	containerWindowType = {
+		name = "expansion_planner_surface_view"
+		orientation = center
+		origo = center
+		moveable = yes
+		clipping = no
+		size = { width = 1080 height = 635 }
+
+		background = {
+			name = "bg"
+			spriteType = "GFX_tile_large_bg"
+		}
+
+		### WINDOW HEADER ###
+
+		buttonType = {
+			name = "close"
+			spriteType = "GFX_close_button"
+			position = { x = -42 y = 12 }
+			orientation = upper_right
+			shortcut = "ESCAPE"
+			pdx_tooltip = "CLOSE_TITLE"
+			clicksound = "back_click"
+			actionShortcut = "cancel"
+		}
+
+		iconType = {
+			name = "hex_bg"
+			spriteType = "GFX_hex_bg"
+			position = { x = -10 y = -14 }
+			alwaysTransparent = yes
+		}
+
+		iconType = {
+			name = "title_line"
+			spriteType = "GFX_line_long"
+			position = { x = 6 y = 22 }
+			alwaysTransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "title"
+			font = "malgun_goth_24"
+			text = "EXPANSION_PLANNER_SURFACE_VIEW"
+			position = { x = 15 y = 5 }
+			maxWidth = 1000
+			maxHeight = 20
+			fixedSize = yes
+			alwaysTransparent = yes
+		}
+
+		### PLANET INFO ###
+
+		iconType = {
+			name = "has_intel_hostile"
+			position = { x = 1035 y = 48 }
+			spriteType = "GFX_hostile_intel_icon"
+		}
+
+		containerWindowType = {
+			name = "districts_window"
+			size = { width = @TARGET_W height = 140 }
+			position = { x = -308 y = 55 }
+			orientation = UPPER_RIGHT
+
+			background = {
+				position = { x = 0 y = 0 }
+				name = "districts_window_background"
+				spriteType = "GFX_dark_green_frame_area"
+			}
+
+			containerWindowType = {
+				name = "districts_window_title_bar"
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = @TITLE_H }
+
+				background = {
+					name = "districts_title_background"
+					spriteType = "GFX_tiles_dark_area_square_cut"
+				}
+
+				instantTextBoxType = {
+					name = "districts_text"
+					font = "malgun_goth_24"
+					position = { x = 10 y = 10 }
+					text = "DISTRICTS_TITLE"
+					maxWidth = 320
+					maxHeight = 24
+					fixedSize = yes
+					format = left
+					orientation = upper_left
+					alwaysTransparent = yes
+				}
+
+				containerWindowType = {
+					name = "planet_total_districts_container"
+					position = { x = -124 y = 0 }
+					orientation = UPPER_RIGHT
+
+					# Available District Cubes Container
+					containerWindowType = {
+						name = "available_districts_window"
+						size = { width = 100 height = 45 }
+						position = { x = 0 y = 0 }
+
+						gridBoxType = {
+							name = "available_districts_grid_box"
+							size = { width = 100 height = 20 }
+							position = { x = -30 y = 15 }
+							format = UPPER_RIGHT
+							slotsize = { width = 10 height = 10 }
+							max_slots_horizontal = 11
+							max_slots_vertical = 2
+							add_horizontal = no
+						}
+					}
+
+					containerWindowType = {
+						name = "planet_num_districts"
+						size = { width = 70 height = 16 }
+						position = { x = 100 y = 15 }
+						#orientation = UPPER_RIGHT
+
+						instantTextBoxType = {
+							name = "planet_districts_amount"
+							font = "cg_16b"
+							position = { x = 0 y = 0 }
+							text = "10"
+							maxWidth = 30
+							maxHeight = 16
+							fixedSize = yes
+							format = left
+						}
+					}
+				}
+			}
+
+			containerWindowType = {
+				name = "districts_grid_container"
+				size = { width = 290 height = 80 }
+				position = { x = 5 y = 55 }
+
+				background = {
+					name = "districts_grid_bg"
+					spriteType = "GFX_tiles_dark_area_square_cut"
+				}
+
+				# Districts
+				gridBoxType = {
+					name = "districts_grid_box"
+					position = { x = 0 y = -9 }
+					size = { width = 270 height = 80 }
+					format = UPPER_LEFT
+					slotsize = { width = 70 height = 80 }
+					add_horizontal = yes
+					max_slots_horizontal = 4
+					max_slots_vertical = 1
+				}
+			}
+		}
+
+	# MODIFIERS
+		containerWindowType = {
+			name = "modifiers_container"
+			size = { width = @TARGET_W height = 120 }
+			position = { x = -308 y = 200 }
+			orientation = UPPER_RIGHT
+
+			background = {
+				name = "modifiers_bg"
+			 	spriteType = "GFX_dark_green_frame_area"
+			}
+
+			containerWindowType = {
+				name = "modifiers_container_title_bar"
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = @TITLE_H }
+
+				background = {
+					name = "modifiers_title_background"
+					spriteType = "GFX_tiles_dark_area_square_cut"
+				}
+
+				instantTextBoxType = {
+					name = "modifiers_title_text"
+					font = "malgun_goth_24"
+					text = "MODIFIERS"
+					position = { x = 10 y = 10 }
+					maxHeight = 24
+					fixedSize = yes
+					format = left
+				}
+			}
+
+			# Planet Class
+			containerWindowType = {
+				name = "planet_class_container"
+				size = { width = 290 height = 60 }
+				position = { x = 5 y = 55 }
+
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_square_cut"
+				}
+
+				instantTextBoxType = {
+					name = "planet_class_text"
+					font = "cg_16b"
+					text = "PLANETVIEW_PLANET_CLASS"
+					text_color_code = "E"
+					position = { x = 14 y = 14 }
+					maxWidth = 140
+					maxHeight = 16
+					fixedSize = yes
+					format = left
+				}
+
+				instantTextBoxType = {
+					name = "planet_class_name"
+					font = "cg_16b"
+					text = "planet_class"
+					position = { x = 14 y = 30 }
+					maxWidth = 140
+					maxHeight = 16
+					fixedSize = yes
+					format = left
+				}
+
+				containerWindowType = {
+					name = "planet_size_container"
+					position = { x = 150 y = 14 }
+
+					instantTextBoxType=  {
+						name = "planet_size_text"
+						font = "cg_16b"
+						position = { x = 0 y = 0 }
+						text = "SIZE"
+						text_color_code = "E"
+						maxWidth = 50
+						maxHeight = 16
+						fixedSize = yes
+					}
+
+					iconType = {
+						name = "planet_size_icon"
+						spriteType = "GFX_planet_view_planet"
+						position = { x = 0 y = 16 }
+						scale = 0.75
+						tooltip_mode_enabled = yes
+					}
+
+					instantTextBoxType = {
+						name = "planet_size_amount"
+						font = "cg_16b"
+						position = { x = 8 y = 16 }
+						text = "10"
+						maxWidth = 50
+						maxHeight = 16
+						fixedSize = yes
+						format = center
+					}
+				}
+
+				overlappingElementsBoxType = {
+					name = "planet_modifiers"
+					position = { x = 200 y = 7 }
+					size = { x = 70 y = 48 }
+					format = center
+				}
+			}
+		}
+
+		## DEPOSITS
+
+		containerWindowType = {
+			name = "deposits_window"
+			position = { x = -308 y = 325 }
+			size = { width = @TARGET_W height = 260 }
+			orientation = UPPER_RIGHT
+
+			background = {
+				name = "deposits_bg"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_dark_green_frame_area"
+			}
+
+			containerWindowType = {
+				name = "deposits_title_bar"
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = @TITLE_H }
+
+				background = {
+					name = "background"
+					spriteType = "GFX_tiles_dark_area_square_cut"
+				}
+
+				instantTextBoxType = {
+					name = "header"
+					font = "malgun_goth_24"
+					text = "DEPOSITS_TITLE"
+					position = { x = 10 y = 10 }
+					text_color_code = "E"
+				}
+			}
+
+			containerWindowType = {
+				name = "deposits_list_container"
+				size = { width = 290 height = 204 }
+				position = { x = 5 y = 55 }
+
+				background = {
+					name = "deposits_list_bg"
+					spriteType = "GFX_tiles_dark_area_square_cut"
+				}
+
+				# Deposits
+				smoothListboxType = {
+					name = "deposits_list"
+					position = { x = 5 y = 5 }
+					size = { x = 270 y = 199 }
+					scrollbarType = "standardlistbox_slider"
+					borderSize = { x = 0 y = 0 }
+					spacing = 4
+				}
+			}
+		}
+
+		buttonType = {
+			name = "colonize_button"
+			position = { x = 860 y = 580 }
+			spriteType = "GFX_standard_button_116_34"
+			text = "COLONIZE"
+			font = "cg_16b"
+		}
+
+		### LIST COLONY SHIP SOURCES ###
+
+		# Entry is either a finished colony ship or a planet capable of constructing colony ships.
+		# Entry shows potential cost and production time.
+		# Entry click updates list of colonist variations.
+
+		containerWindowType = {
+			name = "expansion_source"
+			size = { width = @SOURCE_W height = 290 }
+			position = { x = 7 y = 55 }
+			clipping = no
+
+			background = {
+				name = "expansion_source_bg"
+			 	spriteType = "GFX_dark_green_frame_area"
+			}
+
+			containerWindowType = {
+				name = "expansion_source_container_title_bar"
+				position = { x = 0 y = 0 }
+				size = { width = 100% height = @TITLE_H }
+
+				background = {
+					name = "expansion_source_title_background"
+					spriteType = "GFX_tiles_dark_area_square_cut"
+				}
+
+				instantTextBoxType = {
+					name = "expansion_source_title_text"
+					font = "malgun_goth_24"
+					text = "COLONY_SPECIES"
+					position = { x = 10 y = 10 }
+					#maxWidth = 20
+					maxHeight = 24
+					fixedSize = yes
+					format = left
+				}
+
+				### CHECKBOX ONLY MAIN SPECIES ###
+
+				containerWindowType = {
+					name = "main_species_filter"
+					position = { x = -190 y = 10 }
+					orientation = UPPER_RIGHT
+
+					checkboxType = {
+						name = "checked"
+						spriteType = "GFX_checkbox_20_20_01"
+						pdx_tooltip = "EXPANSION_PLANNER_ONLY_MAIN_SPECIES_DESC"
+					}
+
+					instantTextBoxType = {
+						name = "title"
+						font = "cg_16b"
+						maxWidth = 180
+						maxHeight = 30
+						position = { x = 35 y = 0 }
+						vertical_alignment = center
+						text_color_code = "E"
+						text = "EXPANSION_PLANNER_ONLY_MAIN_SPECIES"
+						pdx_tooltip = "EXPANSION_PLANNER_ONLY_MAIN_SPECIES_DESC"
+					}
+				}
+			}
+
+			containerWindowType = {
+				name = "expansion_source_list_container"
+				size = { width = @SOURCE_SUB_W height = 230 }
+				position = { x = 5 y = 55 }
+
+				background = {
+					name = "expansion_source_list_bg"
+					spriteType = "GFX_tiles_dark_area_square_cut"
+				}
+
+				smoothListboxType = {
+					name = "expansion_source_list"
+					size = { x = 725 y = 224 }
+					position = { x = 7 y = 5 }
+					scrollbartype = "standardlistbox_slider"
+				}
+			}
+		}
+
+
+	containerWindowType = {
+		name = "designation_container"
+		position = { x = 7 y = 355 }
+		size = { width = @SOURCE_W height = 270 }
+
+		background = {
+			name = "designation_container_bg"
+			spriteType = "GFX_dark_green_frame_area"
+			position = { x = 0 y = 0 }
+		}
+
+		containerWindowType = {
+			name = "designation_container_title_bar"
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = @TITLE_H }
+
+			background = {
+				name = "designation_title_background"
+				spriteType = "GFX_tiles_dark_area_square_cut"
+			}
+
+			instantTextBoxType = {
+				name = "designation_title_text"
+				font = "malgun_goth_24"
+				text = "COLONY_DESIGNATION"
+				position = { x = 10 y = 10 }
+				#maxWidth = 20
+				maxHeight = 24
+				fixedSize = yes
+				format = left
+			}
+
+			### PLANET AUTOMATION TOGGLE ###
+
+			containerWindowType = {
+				name = "automation_toggle"
+				position = { x = -190 y = 10 }
+				orientation = UPPER_RIGHT
+
+				instantTextBoxType = {
+					name = "automation_title"
+					font = "cg_16b"
+					maxWidth = 120
+					maxHeight = 30
+					position = { x = 35 y = 0 }
+					vertical_alignment = center
+					text_color_code = "E"
+					text = "PLANET_AUTOMATION_TITLE"
+				}
+
+				checkboxType = {
+					name = "automation_checkbox"
+					spriteType = "GFX_checkbox_20_20_01"
+				}
+			}
+		}
+
+		# Planet portrait
+		containerWindowType = {
+			name = "planet_portrait_window"
+			size = { width = 560 height = 500 }
+			position = { x = 5 y = 40 }
+
+			containerWindowType = {
+				name = "planet_portrait_container"
+				position = { x = 1 y = 6 }
+				size = { width = 560 height = 217 } # Non-scaled size: 560, 175
+				moveable = no
+				clipping = yes
+
+				buttonType = {
+					name = "planet_portrait_button"
+					spriteType = "GFX_portrait_planet_mask"
+					position = { x = -17 y = -119}
+					scale = 0.86
+				}
+			}
+
+			iconType = {
+				name = "black_frame"
+				spriteType = "GFX_planetview_black_frame"
+				position = { x = 1 y = 14 }
+				scale = 1.226
+			}
+
+			iconType = {
+				name = "stripes_1"
+				spriteType = "GFX_planetview_stripes_1"
+				position = { x = -9 y = 12 }
+				orientation = upper_left
+				scale = 1.226
+				alwaysTransparent = yes
+			}
+
+			iconType = {
+				name = "city_frame"
+				spriteType = "GFX_city_frame"
+				scale = 1.226
+				position = { x = -4 y = 9 }
+			}
+		}
+
+		# Selected designation description
+		containerWindowType = {
+			name = "designation_desc_container"
+			size = { width = 250 height = 80 }
+			position = { x = 20 y = 100 }
+
+			background = {
+				name = "designation_desc_bg"
+				spriteType = "GFX_dark_area_cut"
+			}
+
+			instantTextBoxType = {
+				name = "designation_description"
+				font = "cg_16b"
+				maxWidth = 200
+				maxHeight = 80
+				position = { x = 10 y = 10 }
+			}
+		}
+
+		# Selection grid for colony designations
+		containerWindowType = {
+			name = "designation_list"
+			size = { width = 395 height = 219 }
+			position = { x = -396 y = 50 }
+			orientation = upper_right
+
+			background = {
+				name = "designation_list_bg"
+				spriteType = "GFX_dark_green_area"
+				position = { x = 0 y = 0 }
+			}
+
+			containerWindowType = {
+				name = "designation_grid_container"
+				size = { width = 390 height = 210 }
+				position = { x = 0 y = 5 }
+				verticalScrollbar = "right_vertical_slider"
+
+				background = {
+					name = "designation_grid_bg"
+					spriteType = "GFX_tiles_dark_area_square_cut"
+				}
+
+				gridboxType = {
+					name = "designation_gridbox"
+					position = { x = 5 y = 5 }
+					slotSize = { width = 125 height = 85 }
+					padding = { bottom = 4 right = 4 }
+					max_slots_horizontal = 3
+					format = "UPPER_LEFT"
+				}
+			}
+		}
+	}
+}
+
+	containerWindowType = {
+		name = "colonize_district_entry"
+		position = { x = 10 y = 12 }
+		size = { width = 56 height = 135 }
+		moveable = no
+
+		iconType = {
+			name = "district_icon"
+			spriteType = "GFX_district_unknown"
+			position = { x=5 y=5 }
+			scale = 0.65
+		}
+
+		instantTextBoxType={
+			name = "not_surveyed"
+			font = "malgun_goth_24"
+			text = "UNKNOWN_SHORT"
+			position = { x = 20 y = 60 }
+			maxWidth = 20
+			maxHeight = 20
+			fixedSize = yes
+			format = left
+		}
+
+		containerWindowType = {
+			name = "district_box"
+			size = { width = 52 height = 82 }
+			position = { x = 3 y = 54 }
+
+			iconType = {
+				name = "district_cube_icon"
+				position = { x = 8 y = 5 }
+				spriteType = "GFX_district_box_icon"
+			}
+
+			instantTextBoxType = {
+				name = "district_amount_text"
+				position = { x = 27 y = 3 }
+				font = "cg_16b"
+				text = "4321"
+				maxWidth = 25
+				maxHeight = 16
+				fixedSize = yes
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "colonize_deposit_entry"
+		position = { x = 0 y = 82 }
+		moveable = no
+		size = { width = 270 height = 90 }
+
+		background = {
+			name = "background"
+			spriteType = "GFX_planet_construction_button"
+		}
+
+		containerWindowType = {
+			name = "deposit_name"
+			size = { width = 250 height = 22 }
+			position = { x = 0 y = -2 }
+
+			instantTextBoxType = {
+				name = "deposit_name"
+				font = "cg_16b"
+				text = "Deposit Name"
+				position = { x = 6 y = 4 }
+				maxWidth = 250
+				maxHeight = 20
+				fixedSize = yes
+				format = left
+				alwaysTransparent = yes
+			}
+		}
+
+		instantTextBoxType = {
+			name = "deposit_effects"
+			font = "cg_16b"
+			text = "Deposit effects go here"
+			position = { x = 85 y = 25 }
+			maxWidth = 200
+			maxHeight = 80
+			fixedSize = yes
+			format = left
+			alwaysTransparent = yes
+		}
+
+		iconType = {
+			name = "deposit_icon"
+			spriteType = "GFX_deposit_unknown"
+			position = { x = 4 y = 26 }
+			alwaysTransparent = yes
+			scale = 0.75
+		}
+
+		iconType = {
+			name = "blocker_frame"
+			spriteType = "GFX_planet_background_frame_blocker"
+			position = { x = 4 y = 26 }
+			alwaysTransparent = yes
+			scale = 0.76
+		}
+
+		iconType = {
+			name = "rare_deposit_frame"
+			spriteType = "GFX_planet_background_frame_rare"
+			position = { x = 4 y = 26 }
+			alwaysTransparent = yes
+			scale = 0.76
+		}
+
+		instantTextBoxType={
+			name = "clear_blocker_cost"
+			font = "cg_16b"
+			text = "cost cost"
+			orientation = UPPER_RIGHT
+			position = { x = -180 y = 68 }
+			maxWidth = 170
+			maxHeight = 20
+			fixedSize = yes
+			format = right
+			alwaysTransparent = yes
+		}
+
+		iconType = {
+			name = "clear_blocker_deposit_icon"
+			spriteType = "GFX_deposit_blocker_unknown"
+			position = { x = -58 y = 25 }
+			orientation = UPPER_RIGHT
+			scale = 0.5
+		}
+
+		buttonType = {
+			name = "background"
+			quadTextureSprite = "GFX_list_hover"
+			position = { x = -4 y = -4 }
+			#size = { width = 258 height = 64 }
+			clicksound = "click_outliner"
+			oversound = no_sound
+		}
+	}
+
+	# Colony designation gridbox entry
+	containerWindowType = {
+		name = "designation_grid_entry"
+		size = { width = 120 height = 80 }
+
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_button_light"
+			clicksound = "click_outliner"
+		}
+
+		containerWindowType = {
+			name = "selected_overlay"
+			position = { x = 0 y = 0 }
+			size = { width = 100% height = 100% }
+
+			background = {
+				name = "selected_bg"
+				spriteType = "GFX_glow_tile_orange_no_padding"
+				alwaysTransparent = yes
+			}
+		}
+
+		iconType = {
+			name = "designation_icon"
+			position = { x = 45 y = 15 }
+			quadTextureSprite = "GFX_colony_type_urban"
+			alwaysTransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "designation_name"
+			#orientation = "CENTER_DOWN"
+			position = { x = 0 y = 45 }
+			text = "Designation"
+			font = "cg_16b"
+			maxWidth = 120
+			maxHeight = 32
+			format = center
+		}
+	}
+}

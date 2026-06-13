@@ -1,0 +1,65 @@
+﻿l_spanish:
+# Pre-FTL Stances
+# Resolutions
+ resolution_category_pre_ftl_stances:1 "FTL ﻞﺒﻗ ﺎﻣ ﻒﻗﻮﻣ"
+ resolution_pre_ftl_stances_repeal_1:0 "§R$resolution_pre_ftl_stances_equal_standing$ ﺀﺎﻐﻟﺇ§!"
+ resolution_pre_ftl_stances_repeal_1_desc:1 ".ﺎﺒﺳﺎﻨﻣ ﻩﺍﺮﺗ ﺎﻤﻛ ﺎﻫﺩﻭﺪﺣ ﻞﺧﺍﺩ ﻞﻗﻷﺍ ﺕﺍﺭﺎﻀﺤﻟﺍ ﺔﻠﻣﺎﻌﻤﺑ [global_event_country.GetGalCommunityOrGalImperium] ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺡﺎﻤﺴﻟﺍ ﺐﺠﻳ .ﻞﻘﻌﻠﻟ ﺔﻴﻓﺎﻨﻣ ﺓﺮﻜﻓ ﻮﻫ ﺓﺍﻭﺎﺴﻤﻟﺍ ﻡﺪﻗ ﻰﻠﻋ ﺔﻴﻠﺻﻷﺍ ﺎﻬﻤﻟﺍﻮﻋ ﻙﺮﺗ ﻰﻠﻋ ﺩﺎﻜﻟﺎﺑ ﺓﺭﺩﺎﻘﻟﺍ "ﺕﺍﺭﺎﻀﺤﻟﺍ" ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻥﺇ"
+ resolution_pre_ftl_stances_repeal_1_effect_success:1 ".§Y$resolution_pre_ftl_stances_equal_standing$§! ﺔﻗﺩ ﻲﻐﻠﻳ"
+
+ resolution_pre_ftl_stances_repeal_2:0 "§R$resolution_pre_ftl_stances_non_interference$ ﺀﺎﻐﻟﺇ§!"
+ resolution_pre_ftl_stances_repeal_2_desc:1 ".ﺔﻴﻜﻠﻤﻟﺍ ﻕﻮﻘﺣﻭ ﺔﻳﺮﻜﻔﻟﺍ ﺎﻨﻗﻮﻘﺤﻟ ﺎﻛﺎﻬﺘﻧﺍ ﺪﻌﻳ ﺎﻬﻴﻠﻋ ﻥﻮﺴﻠﺠﻳ ﻦﻴﺸﺣﻮﺘﻤﻟﺍ ﻥﺃ ﺩﺮﺠﻤﻟ ﻲﻧﻮﻧﺎﻗ ﻞﻜﺸﺑ ﺎﻬﻴﻟﺇ ﻲﻤﺘﻨﺗ ﻲﺘﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﻦﻣ [global_event_country.GetGalCommunityOrGalImperium] ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻊﻨﻣ ﻥﺇ"
+ resolution_pre_ftl_stances_repeal_2_effect_success:1 ".§Y$resolution_pre_ftl_stances_non_interference$§! ﺔﻗﺩ ﻲﻐﻠﻳ"
+
+ resolution_pre_ftl_stances_repeal_3:1 "§R$resolution_pre_ftl_stances_exploitation$ ﺀﺎﻐﻟﺇ§!"
+ resolution_pre_ftl_stances_repeal_3_desc:1 ".ﻯﺮﺧﺃ ﺕﺎﻨﺋﺎﻛ ﻱﺃ ﺎﻬﺑ ﻊﺘﻤﺘﺗ ﻲﺘﻟﺍ ﻕﻮﻘﺤﻟﺍ ﺲﻔﻨﺑ ﻊﺘﻤﺘﺗ ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺎﻨﻌﺒﺘﺘﺳ ﻲﺘﻟﺍ ﺕﺍﺭﺎﻀﺤﻟﺍ ﻥﺃ [global_event_country.GetGalCommunityOrGalImperium] ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻦﻤﻀﺗ ﻥﺃ ﺐﺠﻳ .ﺾﻴﻐﺑ ﺮﻣﺃ ﻮﻫ ﺔﻴﻟﺎﺤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺱﺎﺳﺃ ﻰﻠﻋ ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺎﻬﻟﻼﻐﺘﺳﺍ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺩﺭﺍﻮﻤﻠﻟ ﺭﺪﺼﻤﻛ ﻯﺮﺧﺃ ﺓﺭﺎﻀﺣ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻥﺇ"
+ resolution_pre_ftl_stances_repeal_3_effect_success:1 ".§Y$resolution_pre_ftl_stances_exploitation$§! ﺔﻗﺩ ﻲﻐﻠﻳ"
+
+ resolution_pre_ftl_stances_equal_standing:1 "ﺔﻤﺋﺍﺪﻟﺍ ﺓﺍﻭﺎﺴﻤﻟﺍ ﻥﻮﻧﺎﻗ"
+ resolution_pre_ftl_stances_equal_standing_desc:1 ".ﻡﺍﺮﺘﺣﺍﻭ ﺔﻣﺍﺮﻜﺑ ﻞﺒﻘﺘﺴﻤﻟﺍ ﻲﻓ ﺀﺎﻀﻋﺃ ﻱﺃ ﻞﻣﺎﻌﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﻮﺤﻨﻟﺍ ﺍﺬﻫ ﻰﻠﻋﻭ .[global_event_country.GetGalCommunityOrGalImperium] ﻰﻟﺇ ﻡﺎﻤﻀﻧﻻﺍﻭ ﺔﻴﺋﺎﻀﻓ ﺔﻠﺣﺮﺑ ﻡﺎﻴﻘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺎﺑ FTL ﻞﺒﻗ ﺎﻣ ﺓﺭﺎﻀﺣ ﻞﻛ ﻊﺘﻤﺘﺗ"
+ resolution_pre_ftl_stances_equal_standing_tooltip:1 ".ﺔﻴﻟﺎﻌﻓ ﺮﺜﻛﺃ FTL ﻞﺒﻗ ﺎﻣ ﺕﺍﺭﺎﻀﺣ ﻊﻣ §Yﺔﻳﺭﺎﺠﺘﻟﺍ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ§!\n.§Yﺀﻻﻮﻟﺍ§! £loyalty£ §G+100§! ﺐﺴﺘﻜﺘﺳ §Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§! ﺮﺒﻋ ﺀﺎﻀﻔﻟﺍ ﺮﺒﻋ ﺮﻓﺎﺴﺗ ﺖﺤﺒﺻﺃ ﻲﺘﻟﺍ §YFTL ﻞﺒﻗ ﺎﻣ ﺕﺍﺭﺎﻀﺣ§!\n.ﺕﺍﺭﺎﻀﺤﻟﺍ Pre-FTL ﻊﻣ §Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§! ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺔﻴﻗﺎﻔﺗﻻﺍ ﺔﻴﻟﺎﻌﻓ ﻦﻣ ﺪﻳﺰﺗ\n.§Rbanned§! §Y$interference_aggressive$§!ﻭ §Y$interference_not_allowed$§! ﺕﺎﺳﺎﻴﺳ ﺪﻌﺗ"
+
+ resolution_pre_ftl_stances_non_interference:1 "ﻞﺧﺪﺘﻟﺍ ﻡﺪﻋ ﻥﻮﻧﺎﻗ"
+ resolution_pre_ftl_stances_non_interference_desc:1 ".ﻲﺟﺭﺎﺧ ﻞﺧﺪﺗ ﻥﻭﺩ ﺭﻮﻄﺘﻠﻟ ﺔﺻﺮﻔﻟﺍ FTL ﻞﺒﻗ ﺎﻣ ﺕﺍﺭﺎﻀﺣ ﺢﻨﻣ ﻲﻐﺒﻨﻳ"
+ resolution_pre_ftl_stances_non_interference_tooltip:1 ".§Rﺓﺮﺠﻤﻟﺍ ﻥﻮﻧﺎﻗ ﻙﺎﻬﺘﻧﺍ§! ﻲﻓ ﺭﺎﺒﺘﻋﻻﺍ ﻲﻓ ﺎﻫﺬﺧﺃ ﻢﺘﻴﺳ FTL ﻞﺒﻗ ﺎﻣ ﺕﺍﺭﺎﻀﺣ ﻑﺪﻬﺘﺴﺗ ﻲﺘﻟﺍ §Yﺲﺴﺠﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ§! ﻞﺸﻓ\n.§Rﺓﺮﺠﻤﻟﺍ ﻥﻮﻧﺎﻗ ﻙﺎﻬﺘﻧﺍ§! ﻲﻓ ﺭﺎﺒﺘﻋﻻﺍ ﻲﻓ FTL ﻞﺒﻗ ﺎﻣ ﺕﺍﺭﺎﻀﺣ ﻊﻣ §Yﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﺬﺧﺃ ﻢﺘﻴﺳ§!All \n.ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ ﻭﺃ ﺕﺎﻴﻗﻼﺧﻷﺍ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ §Y$interference_not_allowed$§! ﺔﺳﺎﻴﺳ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻖﺣ ﺢﻨﻤﺗ\n.§Rbanned§! ﻲﻫ §Y$interference_aggressive$§!ﻭ §Y$interference_active$§! ﺕﺎﺳﺎﻴﺳ"
+
+ resolution_pre_ftl_stances_non_interference_modifier:0 ".§G+25%§! ﺭﺍﺪﻘﻤﺑ FTL ﻞﺒﻗ ﺎﻣ ﺕﺍﺭﺎﻀﺣ ﺔﺒﻗﺍﺮﻣ ﻦﻣ §YInsight§! ﻡﺪﻘﺗ ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+
+ resolution_pre_ftl_stances_exploitation:1 "ﻝﻼﻐﺘﺳﻻﺍ ﻥﻮﻧﺎﻗ"
+ resolution_pre_ftl_stances_exploitation_desc:1 ".ﺔﺒﺳﺎﻨﻣ ﺎﻫﺍﺮﺗ ﺔﻘﻳﺮﻃ ﻱﺄﺑ ﺎﻬﺗﺎﻜﻠﺘﻤﻣ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﺔﻳﺮﺤﺑ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻞﻜﻟ ﺡﺎﻤﺴﻟﺍ ﺐﺠﻳﻭ ،ﺎﻬﻣﺎﻈﻧ ﻲﻓ ﻢﻜﺤﺘﻳ ﻦﻣ ﺹﺎﺼﺘﺧﺍ ﻦﻤﺿ FTL ﻞﺒﻗ ﺎﻣ ﻢﻟﺍﻮﻋ ﻊﻘﺗ"
+ resolution_pre_ftl_stances_exploitation_tooltip:1 ".§Rﺓﺮﺠﻤﻟﺍ ﻥﻮﻧﺎﻘﻟ ﻕﺮﺧ§! ﻲﻓ ﺎﻬﻴﻓ ﺮﻈﻨﻟﺍ ﻢﺘﻴﺳﻭ ﺲﺴﺠﺗ ﺔﻴﻠﻤﻋ ﺬﻴﻔﻨﺗ ﻢﺗ §Y$operation_plant_advanced_knowledge$§! ﻥﺃ ﻰﻠﻋ ﻞﻴﻟﺩ\n.§Rﺓﺮﺠﻤﻟﺍ ﻥﻮﻧﺎﻗ ﻙﺎﻬﺘﻧﺍ§! ﻲﻓ ﺭﺎﺒﺘﻋﻻﺍ ﻲﻓ FTL ﻞﺒﻗ ﺎﻣ ﺕﺍﺭﺎﻀﺣ ﻊﻣ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺔﻴﻗﺎﻔﺗﻻﺍ ﻲﻓ §Y$ACTION_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_TITLE$§! ﻡﺍﺪﺨﺘﺳﺍ ﺬﺧﺃ ﻢﺘﻴﺳ\n.§Rbanned§! ﻲﻫ §Y$interference_not_allowed$§! ﺔﺳﺎﻴﺳ\n\n.§Hﺔﺒﺴﺘﻜﻤﻟﺍ ﺚﺤﺒﻟﺍ ﻁﺎﻘﻧ§! £engineering£ £physics£ ﺔﻗﺩ ﺓﺩﺎﻳﺯ ﻰﻟﺇ §Y$resolution_galacticstudies_advanced_xenostudies$§! ﺮﻳﺮﻤﺗ ﻱﺩﺆﻴﺳ .FTL ﻞﺒﻗ ﺎﻣ ﺕﺍﺭﺎﻀﺣ §Yﺔﺒﻗﺍﺮﻣ§! ﺮﻓﻮﺗ ﺎﻤﻨﻴﺑ §Hﺚﺤﺒﻟﺍ ﻁﺎﻘﻧ§! £engineering£ £physics£ ﻦﻣ ﺍﺮﻴﻐﺻ ﺍﺭﺪﻗ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺕﺎﻛﺭﺎﺸﻣ ﺮﻓﻮﺗ"
+
+# Events
+ preftl.10000.desc:0 "؟ﺔﻘﻓﺍﻮﺘﻣ ﻥﻮﻜﺘﻟ ﺎﻨﺗﺎﺳﺎﻴﺳ ﺮﻴﻐﻧ ﻥﺃ ﺐﺠﻳ ﻞﻫ .ﺎﻴﻟﺎﺣ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻚﻬﺘﻨﺗ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻥﺇ\n\n.§Y$interference_aggressive$§! ﻭﺃ §Y$interference_not_allowed$§! ﺕﺎﺳﺎﻴﺴﺑ ﻅﺎﻔﺘﺣﻻﺍ ﻦﻣ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻊﻨﻤﻳ ﺎﻤﻣ ،§Y$resolution_pre_ftl_stances_equal_standing$§! ﺭﺍﺮﻗ [global_event_country.GetGalCommunityOrGalImperium] ﺯﺎﺘﺟﺍ ﺪﻘﻟ"
+ preftl.10050.name:0 "$resolution_pre_ftl_stances_equal_standing$ ﻕﺮﺧ"
+ preftl.10050.desc:0 "$preftl.10050.outro$\n\n.ﺎﻧﺎﻳﺍﻮﻧ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ ،§Y$resolution_pre_ftl_stances_equal_standing$§! ﻚﻬﺘﻨﻳ §H[pre_ftl_country.GetName]§! ﻊﻣ ﺎﻨﻠﻣﺎﻌﺗ ﻥﺃ [global_event_country.GetGalCommunityOrGalImperium] ﻦﻣ ﻥﻮﻟﻭﺆﺴﻤﻟﺍ ﺭﺮﻗ"
+ preftl.10050.outro:0 ".ﺎﻨﻴﻠﻋ ﺓﺮﻴﺒﻛ ﺔﻣﺍﺮﻏ ﺭﺍﺪﺻﺇ ﻢﺗ ،ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ .ﺔﻣﺩﺎﻘﻟﺍ ﺮﺸﻌﻟﺍ ﺕﺍﻮﻨﺴﻠﻟ §Rﺓﺮﺠﻤﻟﺍ ﻥﻮﻧﺎﻗ ﻕﺮﺧ§! ﻲﻓ ﺭﺎﺒﺘﻋﻻﺍ ﻲﻓ [Root.GetName] ﺬﺧﺃ ﻢﺘﻴﺳ"
+
+ preftl.10055.name:0 "$preftl.10050.name$"
+ preftl.10055.desc:0 "$preftl.10055.outro$\n\n.ﺎﺤﻣﺎﺴﺗ ﺮﺜﻛﺃ ﺍﻮﺤﺒﺼﻳ ﻥﺃ ،ﺎﻨﻟﺎﻌﻓﺄﺑ ﻑﺍﺮﺘﻋﻻﺍ ﻝﻼﺧ ﻦﻣ ،ﻞﻣﺄﻧ .[global_event_country.GetGalCommunityOrGalImperium] ﻲﻟﻭﺆﺴﻣ ﻰﻟﺇ ﺔﺑﻮﻠﻄﻤﻟﺍ ﻕﺍﺭﻭﻷﺍ ﺎﻨﻠﺳﺭﺃ ،§H[pre_ftl_country.GetName]§! ﻊﻣ ﺎﻨﻠﻣﺎﻌﺗ ﺐﺒﺴﺑ §Y$resolution_pre_ftl_stances_equal_standing$§! ـﻟ ﺎﻨﻛﺎﻬﺘﻧﺍ ﺪﻌﺑ"
+ preftl.10055.outro:0 ".ﺎﻨﻴﻠﻋ ﺓﺮﻴﺒﻛ ﺔﻣﺍﺮﻏ ﺭﺍﺪﺻﺇ ﻢﺗ ،ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ .ﺔﻣﺩﺎﻘﻟﺍ ﺲﻤﺨﻟﺍ ﺕﺍﻮﻨﺴﻠﻟ §Rﺓﺮﺠﻤﻟﺍ ﻥﻮﻧﺎﻗ ﻕﺮﺧ§! ﻲﻓ ﺭﺎﺒﺘﻋﻻﺍ ﻲﻓ [Root.GetName] ﺬﺧﺃ ﻢﺘﻴﺳ"
+
+ preftl.10100.desc:0 "؟ﺔﻘﻓﺍﻮﺘﻣ ﻥﻮﻜﺘﻟ ﺎﻨﺗﺎﺳﺎﻴﺳ ﺮﻴﻐﻧ ﻥﺃ ﺐﺠﻳ ﻞﻫ .ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻚﻬﺘﻨﺗ ﺎﻴﻟﺎﺣ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻥﺇ\n\n.§Y$interference_not_allowed$§! ﺀﺎﻨﺜﺘﺳﺎﺑ §Y$policy_interference$§! ﺔﺳﺎﻴﺳ ﻱﺄﺑ ﻅﺎﻔﺘﺣﻻﺍ ﻦﻣ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻊﻨﻤﻳ ﺎﻤﻣ ،§Y$resolution_pre_ftl_stances_non_interference$§! ﺭﺍﺮﻗ [global_event_country.GetGalCommunityOrGalImperium] ﺯﺎﺘﺟﺍ ﺪﻘﻟ"
+ preftl.10150.name:0 "$resolution_pre_ftl_stances_non_interference$ ﻕﺮﺧ"
+ preftl.10150.desc:0 "$preftl.10050.outro$\n\n.ﺎﻧﺎﻳﺍﻮﻧ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ ،§Y$resolution_pre_ftl_stances_non_interference$§! ـﻟ ﺎﺤﺿﺍﻭ ﺎﻛﺎﻬﺘﻧﺍ ﺪﻌﻳ ﺍﺬﻫ ﻥﺃ ﺎﻧﻮﻐﻠﺑﺃ ﺪﻘﻟ .§H[pre_ftl_country.GetName]§! ـﻟ ﻲﻌﻴﺒﻄﻟﺍ ﺭﻮﻄﺘﻟﺍ ﻲﻓ ﺎﻨﻠﺧﺪﺗ ﻦﻋ ﺕﺎﻣﻮﻠﻌﻣ [global_event_country.GetGalCommunityOrGalImperium] ﻦﻣ ﻥﻮﻟﻭﺆﺴﻤﻟﺍ ﻰﻘﻠﺗ"
+
+ preftl.10155.name:0 "$preftl.10150.name$"
+ preftl.10155.desc:0 ".ﻼﻫﺎﺴﺗ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﺎﻨﺘﻴﻀﻗ ﻰﻟﺇ ﻥﻭﺮﻈﻨﻳ ﻢﻫﺭﻭﺪﺑ ﺪﻗ ﻦﻳﺬﻟﺍ ،ﻦﻴﻣﺎﻌﻟﺍ ﻦﻴﻋﺪﻤﻟﺍ ﻯﺪﻟ ﺎﺑﻮﺒﺤﻣ ﻲﻓﺍﺮﺘﻋﻻﺍ ﻒﺸﻜﻟﺍ ﺍﺬﻫ ﺎﻨﻠﻌﺠﻳ ﻥﺃ ﻞﻣﺄﻧ .§H[pre_ftl_country.GetName]§! ﻲﻓ §Y$resolution_pre_ftl_stances_non_interference$§! ـﻟ ﺎﻨﻛﺎﻬﺘﻧﺍ ﺪﻌﺑ ،[global_event_country.GetGalCommunityOrGalImperium] ﻲﻓ ﻦﻴﻟﻭﺆﺴﻤﻟﺍ ﻰﻟﺇ ﻼﻣﺎﻛ ﺍﺮﻳﺮﻘﺗ ﺎﻨﻠﺳﺭﺃ ﺪﻘﻟ"
+
+ preftl.10157.desc:0 "$preftl.10050.outro$\n\n.§Y$resolution_pre_ftl_stances_non_interference$§! ـﻟ ﺎﺤﺿﺍﻭ ﺎﻛﺎﻬﺘﻧﺍ ﺪﻌﻳ ﺍﺬﻫ ﻥﺃ ﺎﻧﻮﻐﻠﺑﺃ ﺪﻘﻟ .[global_event_country.GetGalCommunityOrGalImperium] ﺔﻄﺳﺍﻮﺑ §H[pre_ftl_country.GetAdj]§! ﻝﺰﻨﻤﻟﺍ ﻢﻟﺎﻌﻟ ﺎﻧﻭﺰﻏ ﺔﻈﺣﻼﻣ ﺖﻤﺗ"
+ preftl.10161.desc:0 "$preftl.10050.outro$\n\n.§Y$resolution_pre_ftl_stances_non_interference$§! ـﻟ ﺎﺤﺿﺍﻭ ﺎﻛﺎﻬﺘﻧﺍ ﺪﻌﻳ ﺍﺬﻫ ﻥﺃ ﺎﻧﻮﻐﻠﺑﺃ ﺪﻘﻟ .[global_event_country.GetGalCommunityOrGalImperium] ﺔﻄﺳﺍﻮﺑ §H[pre_ftl_country.GetAdj]§! ﻝﺰﻨﻤﻟﺍ ﻢﻟﺎﻌﻟ ﺎﻨﻔﺼﻗ ﺔﻈﺣﻼﻣ ﺖﻤﺗ"
+
+ preftl.10200.desc:1 "؟ﺔﻘﻓﺍﻮﺘﻣ ﻥﻮﻜﺘﻟ ﺎﻨﺗﺎﺳﺎﻴﺳ ﺮﻴﻐﻧ ﻥﺃ ﺐﺠﻳ ﻞﻫ .ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺎﻴﻟﺎﺣ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻚﻬﺘﻨﺗ \n\n.§Y$interference_not_allowed$§! ﺔﺳﺎﻴﺴﺑ ﻅﺎﻔﺘﺣﻻﺍ ﻦﻣ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻊﻨﻤﻳ ﺎﻤﻣ ،§Y$resolution_pre_ftl_stances_exploitation$§! ﺭﺍﺮﻗ [global_event_country.GetGalCommunityOrGalImperium] ﺯﺎﺘﺟﺍ ﺪﻘﻟ"
+ preftl.10250.name:0 "$resolution_pre_ftl_stances_exploitation$ ﻕﺮﺧ"
+ preftl.10250.desc:0 "$preftl.10050.outro$\n\n.ﺎﻧﺎﻳﺍﻮﻧ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ ،§Y$resolution_pre_ftl_stances_exploitation$§! ـﻟ ﺎﺤﺿﺍﻭ ﺎﻛﺎﻬﺘﻧﺍ ﺪﻌﻳ ﺍﺬﻫ ﻥﺃ ﺎﻧﻮﻐﻠﺑﺃ ﺪﻘﻟ .§H[pre_ftl_country.GetName]§! ﻊﻣ ﺔﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺕﺎﻧﺎﻴﺒﻠﻟ ﺎﻨﺘﻛﺭﺎﺸﻣ ﻦﻋ ﺕﺎﻣﻮﻠﻌﻣ [global_event_country.GetGalCommunityOrGalImperium] ﻦﻣ ﻥﻮﻟﻭﺆﺴﻤﻟﺍ ﻰﻘﻠﺗ"
+
+ preftl.10255.name:0 "$preftl.10250.name$"
+ preftl.10255.desc:0 ".ﻼﻫﺎﺴﺗ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﺎﻨﺘﻴﻀﻗ ﻰﻟﺇ ﻥﻭﺮﻈﻨﻳ ﻢﻫﺭﻭﺪﺑ ﺪﻗ ﻦﻳﺬﻟﺍ ،ﻦﻴﻣﺎﻌﻟﺍ ﻦﻴﻋﺪﻤﻟﺍ ﻯﺪﻟ ﺎﺑﻮﺒﺤﻣ ﻲﻓﺍﺮﺘﻋﻻﺍ ﻒﺸﻜﻟﺍ ﺍﺬﻫ ﺎﻨﻠﻌﺠﻳ ﻥﺃ ﻞﻣﺄﻧ .§H[pre_ftl_country.GetName]§! ﻲﻓ §Y$resolution_pre_ftl_stances_exploitation$§! ـﻟ ﺎﻨﻛﺎﻬﺘﻧﺍ ﺪﻌﺑ ،[global_event_country.GetGalCommunityOrGalImperium] ﻲﻓ ﻦﻴﻟﻭﺆﺴﻤﻟﺍ ﻰﻟﺇ ﻼﻣﺎﻛ ﺍﺮﻳﺮﻘﺗ ﺎﻨﻠﺳﺭﺃ ﺪﻘﻟ"
+
+ pre_ftl_stances_fix_breach_not_allowed:1 ".§Y$interference_not_allowed$§! ﻰﻟﺇ §Y$policy_interference$§! ﺔﺳﺎﻴﺳ ﺮﻴﻴﻐﺘﺑ ﻡﻮﻘﻨﺳ"
+ pre_ftl_stances_fix_breach_subtle:1 ".§Y$interference_subtle$§! ﻰﻟﺇ §Y$policy_interference$§! ﺔﺳﺎﻴﺳ ﺮﻴﻴﻐﺘﺑ ﻡﻮﻘﻨﺳ"
+ pre_ftl_stances_fix_breach_active:1 ".§Y$interference_active$§! ﻰﻟﺇ §Y$policy_interference$§! ﺔﺳﺎﻴﺳ ﺮﻴﻴﻐﺘﺑ ﻡﻮﻘﻨﺳ"
+ pre_ftl_stances_fix_breach_aggressive:1 ".§Y$interference_aggressive$§! ﻰﻟﺇ §Y$policy_interference$§! ﺔﺳﺎﻴﺳ ﺮﻴﻴﻐﺘﺑ ﻡﻮﻘﻨﺳ"
+
+ breach_resolution_pre_ftl_stances_equal_standing_tt:0 "§R!$resolution_pre_ftl_stances_equal_standing$ ﻙﺎﻬﺘﻧﺍ ﻰﻟﺇ ﻚﻟﺫ ﻱﺩﺆﻴﺳ§!"
+ breach_resolution_pre_ftl_stances_non_interference_tt:0 "§R!$resolution_pre_ftl_stances_non_interference$ ﻙﺎﻬﺘﻧﺍ ﻰﻟﺇ ﻚﻟﺫ ﻱﺩﺆﻴﺳ§!"
+ breach_resolution_pre_ftl_stances_exploitation_tt:0 "§R!$resolution_pre_ftl_stances_exploitation$ ﻙﺎﻬﺘﻧﺍ ﻰﻟﺇ ﻚﻟﺫ ﻱﺩﺆﻴﺳ§!"

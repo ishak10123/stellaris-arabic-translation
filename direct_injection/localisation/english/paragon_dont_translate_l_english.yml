@@ -1,0 +1,11 @@
+﻿l_english:
+ prosperity_visual_ethics:0 "£pacifist£ £xenophile£"
+ isolationist_visual_ethic:0 "£pacifist£ £xenophobe£"
+ manifesti_visual_ethic:0 "£egalitarian£"
+ progressive_visual_ethic:0 "£egalitarian£"
+ supremacist_visual_ethic:0 "£militarist£ £xenophobe£"
+ technologist_visual_ethic:0 "£materialist£"
+ totalitarian_visual_ethic:0 "£authoritarian£"
+ traditionalist_visual_ethic:0 "£spiritualist£"
+ xenoist_visual_ethic:0 "£egalitarian£ £xenophile£"
+ imperialist_visual_ethic:1 "£militarist£ £authoritarian£"

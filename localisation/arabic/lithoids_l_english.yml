@@ -1,0 +1,72 @@
+﻿l_english:
+
+ LITHOIDS_TITLE: "ﺕﺍﺪﻳﻮﺜﻴﻠﻟﺍ ﻉﺍﻮﻧﺃ ﺔﻣﺰﺣ" # Do not translate
+ DLC_LITHOIDS_RECOMMENDATION_DESC:2 ".ﺓﺪﻳﺮﻔﻟﺍ ﺎﻬﺗﺎﻴﻟﺂﺑ ،ﺭﻮﺨﺼﻟﺍ ﻰﻠﻋ ﺔﻤﺋﺎﻗ ﻉﺍﻮﻧﺄﻛ ﺐﻌﻠﻟﺍ ﻚﻟ ﺢﻴﺘﺗ ﻉﺍﻮﻧﺃ ﺔﻣﺰﺣ ﻦﻋ ﺓﺭﺎﺒﻋ §SLithoids§!"
+ DLC_LITHOIDS_RECOMMENDATION_THEME_REC:1 ".ﻉﺎﺨﻨﻟﺍ ﻰﺘﺣ - ﻱﺮﺨﺼﻟﺍ ﺎﻬﻋﻮﺿﻮﻣ ﺐﺳﺎﻨﻳ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻩﺬﻫ ﺐﻴﻛﺮﺗ ﻥﻷ ﺍﺮﻈﻧ §SLithoids§! ـﺑ ﻲﺻﻮﻧ ﻦﺤﻧ"
+ DLC_LITHOIDS_RECOMMENDATION_MINERALS_REC:1 ".ﺎﻬﻨﻣ ﺕﺂﻓﺎﻜﻣ ﻰﻠﻋ ﻞﺼﺤﻳ ﻭﺃ ،ﻥﺩﺎﻌﻤﻟﺍ ﺝﺎﺘﻧﺇ ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻣﺇ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻩﺬﻫ ﻦﻳﻮﻜﺗ ﻥﺃ ﺚﻴﺣ §SLithoids§! ـﺑ ﻲﺻﻮﻧ ﻦﺤﻧ"
+
+ vo_lithoid_voice:0 "ﺪﻳﻮﺜﻴﻟ"
+ lithoid:0 "ﺪﻳﻮﺜﻴﻟ"
+
+ MESSAGE_TERRAVORE_CONSUME_WORLD_TITLE:0 "ﻢﻟﺎﻌﻟﺍ ﻚﻠﻬﺘﺳﺍ"
+ MESSAGE_TERRAVORE_CONSUME_WORLD_MINERALS_TEXT:0 ".ﺏﺮﺴﻠﻟ ﻥﺩﺎﻌﻣ ﺝﺎﺘﻧﺇ ﻰﻟﺇ $PLANET|Y$ ﻙﻼﻬﺘﺳﺍ ﻱﺩﺆﻳ"
+ MESSAGE_TERRAVORE_CONSUME_WORLD_ALLOYS_TEXT:0 ".ﺏﺮﺴﻠﻟ ﻚﺋﺎﺒﺳ ﺝﺎﺘﻧﺇ ﻰﻟﺇ $PLANET|Y$ ﻙﻼﻬﺘﺳﺍ ﻱﺩﺆﻳ"
+ MESSAGE_TERRAVORE_CONSUME_WORLD_POP_TEXT:0 ".ﺏﺮﺴﻠﻟ ﻡﺎﺴﺟﺃ ﺝﺎﺘﻧﺇ ﻰﻟﺇ $PLANET|Y$ ﻙﻼﻬﺘﺳﺍ ﻱﺩﺆﻳ"
+
+ situation_terravore_consume_planet: "[Target.GetName] ﻚﻠﻬﺘﺳﺍ"
+ situation_terravore_consume_planet_type: "ﻢﻟﺎﻌﻟﺍ ﻚﻠﻬﺘﺳﺍ"
+ situation_terravore_consume_planet_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_terravore_consume_planet_desc: ".ﺪﻌﺑ ﻊﺒﺸﻳ ﻢﻟ ﺎﻨﻋﻮﺟ ؛ﺮﺧﺁ ﻢﻟﺎﻋ ﺔﺑﺮﺗ ﺎﻨﻗﺍﺫ :ﻞﻔﺘﺤﻧ ﻦﺤﻧ"
+ terravore_consume_finish_tooltip: ".ﺎﻏﺭﺎﻓﻭ ﺍﺭﻮﺴﻜﻣ ﻪﻛﺮﺗﺍﻭ ،[Target.GetName] ﻚﻠﻬﺘﺳﺍ"
+ approach_devour: "ﻢﻬﺘﻟﺍ"
+ approach_restraint: "ﺲﻔﻨﻟﺍ ﻂﺒﺿ"
+ string_terravore_progress: "ﺐﻛﻮﻜﻟﺍ ﻙﻼﻬﺘﺳﺍ"
+ terravore_devour_effect: ".ﺮﻬﺷﺃ §!XYZT_96XYZT ﻞﻛ §HPops§! £pop£ ﻭﺃ §H$alloys$§! £alloys£ ﻭﺃ §H$minerals$§! £minerals£ ﺐﺴﺘﻛﺍﻭ ،ﻢﻟﺎﻌﻟﺍ ﻚﻠﻬﺘﺳﺍ"
+ terravore_restraint_effect: ".ﺎﻨﺘﻌﻴﺒﻃ ﻊﻣ ﺽﺭﺎﻌﺘﻳ ﻚﻟﺫ ﻥﺎﻛ ﻮﻟ ﻰﺘﺣ ،ﻢﻟﺎﻌﻟﺍ ﻙﻼﻬﺘﺳﺍ ﻦﻋ ﺍﻮﻔﻗﻮﺗ"
+ stage_feed_feed_feed: ".ﻡﺎﻌﻃﺇ ...ﻡﺎﻌﻃﺇ ...ﻡﺎﻌﻃﺇ"
+ being_devoured_modifier: "ﺎﻬﻣﺎﻬﺘﻟﺍ ﻱﺮﺠﻳ"
+ being_devoured_modifier_desc: ".ﺓﺩﻭﺪﻌﻣ ﺎﻬﻣﺎﻳﺃ .ﻲﻠﺤﻤﻟﺍ Terravore ﻪﻤﻬﺘﻠﻳ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ"
+# Calamitous Birth
+
+ lithoid_crater_effect: "§R-50%§!: §Hﺔﻳﺩﻮﺜﻴﻠﻟﺍ ﺮﻴﻏ ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ§! £pop£ ﻲﻓ ﻦﻜﺴﻠﻟ ﺔﻴﻠﺑﺎﻘﻟﺍ"
+
+
+# Selective Kinship
+ civic_selective_kinship: "ﺔﻴﺋﺎﻘﺘﻧﻻﺍ ﺔﺑﺍﺮﻘﻟﺍ"
+ civic_selective_kinship_desc: ".ﺔﻳﻭﺎﺴﺘﻣ ﺎﻬﻧﺃ ﻰﻠﻋ ﺎﻫﺩﺪﺤﺗ ﻲﺘﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻥﺄﺸﺑ ﺔﻴﺋﺎﻘﺘﻧﺍ ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻫ .ﻂﻘﻓ ﺏﺭﺎﻗﻷﺎﺑ ﻕﻮﺛﻮﻟﺍ ﻦﻜﻤﻳ ،ﺪﻛﺆﻣ ﺮﻴﻏ ﻢﻟﺎﻋ ﻲﻓ"
+
+ wrong_species_class: ".ﻩﺬﻫ ﻉﺍﻮﻧﻷﺍ ﺔﺌﻔﻟ ﺔﻠﻣﺎﻜﻟﺍ ﺔﻨﻃﺍﻮﻤﻟﺍ ﻕﻮﻘﺤﺑ ﺢﻤﺴﻧ ﻻ ﻦﺤﻧ"
+ selective_kinship_must_citizen: ".§Yﺔﻨﻃﺍﻮﻤﻟﺍ§!$TRIGGER_FAIL$ﻪﺤﻨﻣ ﻢﺗ ﺪﻗ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﻥﺃ ﻉﺍﻮﻧﻷﺍ ﺔﺌﻓ ﺔﻛﺭﺎﺸﻣ ﻲﻨﻌﺗ "
+ triggered_selective_kinship: "ﻙﺮﺘﺸﻣ ﻦﻴﻛ"
+ triggered_selective_kinship_hates: "ﻊﻴﻈﻓ ﻲﺒﻨﺟﺃ"
+ mod_citizen_pop_same_species_class_happiness: "§YSpecies Class§! ﺲﻔﻧ ﻊﻣ ﺐﻛﻮﻜﻟﺍ ﺔﻛﺭﺎﺸﻣ ﺀﺎﻨﺛﺃ ﻦﻃﺍﻮﻤﻟﺍ ﺓﺩﺎﻌﺳ"
+ mod_citizen_pop_different_species_class_happiness: "§Yﻉﺍﻮﻧﻷﺍ ﺕﯫﻓ§! ﻊﻤﻗ ﺀﺎﻨﺛﺃ ﻦﻃﺍﻮﻤﻟﺍ ﺓﺩﺎﻌﺳ"
+ mod_citizen_pop_political_power: "ﺔﻴﺳﺎﻴﺴﻟﺍ ﻦﻃﺍﻮﻤﻟﺍ ﺓﻮﻗ"
+ civic_tooltip_selective_kinship_effects: "ﺔﻠﻣﺎﻜﻟﺍ ﺔﻴﺴﻨﺠﻟﺍ ﻦﻣ ﺔﻋﻮﻨﻤﻣ §HPops§! ﻯﺮﺧﻷﺍ £pop£\nﺔﻠﻣﺎﻜﻟﺍ ﺔﻨﻃﺍﻮﻤﻟﺎﺑ ﻊﺘﻤﺘﺗ §Yﻉﺍﻮﻧﻷﺍ ﺔﺌﻓ§! ﺎﻨﻳﺪﻟ ﻦﻣ §HPops§! £pop£\n §R-20%§!: §Yﻯﺮﺧﻷﺍ ﻉﺍﻮﻧﻷﺍ§!$mod_refugee_attraction$ ﺕﯫﻓ ﻊﻣ \n§G+30%§!: §YSpecies Class§!$mod_refugee_attraction$ ﻊﻣ \n§R-50§! :ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻱﺃﺭ\n§G+100§! :ﺔﻛﺮﺘﺸﻤﻟﺍ ['concept_species_class'] ﻊﻣ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻱﺃﺭ"
+ councilor_selective_kinship: "ﺏﺭﺎﻗﻷﺍ ﻦﻋ ﺙﺪﺤﺘﻤﻟﺍ"
+ councilor_selective_kinship_female: "$councilor_selective_kinship$"
+ councilor_selective_kinship_desc: ".ﻦﻴﻴﻋﺮﺸﻟﺍ ﺎﻨﻴﻨﻃﺍﻮﻣ ﺕﻮﺻ ﻢﻴﺨﻀﺗ ﻰﻠﻋ $TITLE$ ﻞﻤﻌﻳ"
+
+# Void Hive
+
+ civic_void_hive: "ﺔﻏﺭﺎﻓ ﺔﻴﻠﺧ"
+ civic_void_hive_desc: ".ﻢﻟﺎﻌﻠﻟ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻰﻟﺇ ﻝﻮﺧﺪﻟﺍ ﻥﻭﺩ ﺔﻠﻣﺎﻛ ﺓﺎﻴﺣ ﺕﺍﺭﻭﺩ ﺀﺎﻀﻗ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺎﺼﻴﺼﺧ ﺓﺭﻮﻄﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ .ﻪﺗﻻﺎﺠﻣ ﻦﻣ ﻯﺮﺧﺃ ﺔﺣﺎﺴﻣ Hive Mind ﺡﺎﺗﺃ ﺪﻘﻟ"
+ civic_tooltip_void_hive_effects: " $r_unity$.§!XYZT_1210XYZT ﺎﻫﺭﺪﻗ ﺔﻴﻓﺎﺿﺇ ﺀﺎﻨﺑ ﺔﻔﻠﻜﺗ §Yﺙﺎﺤﺑﻷﺍ ﺕﺎﻄﺤﻤﻟ ﻥﻮﻜﺘﺳ§! ﻭ ﺓﺮﺷﺎﺒﻣ §YMining§! ﺀﺎﺸﻧﺇ -\n.§R-75%§! ﺔﺒﺴﻨﺑ ﻪﻨﻣ ﺞﺗﺎﻨﻟﺍ ﻞﻴﻠﻘﺗ ﻰﻟﺇ ﻦﻴﻌﻣ ﺩﺭﻮﻣ ﻝﻼﻐﺘﺳﻻ ﺔﻣﺯﻼﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻰﻟﺇ ﺭﺎﻘﺘﻓﻻﺍ ﻱﺩﺆﻳ -\n.ﺮﻬﺷﺃ ﺔﻌﺑﺭﺃ ﻞﻛ ،ﻪﻜﻠﻤﻧ ﻡﺎﻈﻧ ﻲﻓ ﻞﻐﺘﺴﻣ ﺮﻴﻏ ﻲﺋﺍﻮﺸﻋ ﻉﺍﺪﻳﺇ ﺮﺒﻋ ﺎﻴﺋﺎﻘﻠﺗ §YResearch Stations§!ﻭ §YMining§! ﺀﺎﺸﻧﺇ -"
+ reduce_gas_output: "ﻝﺎﻌﻓ ﺮﻴﻏ $exotic_gases$ ﺝﺍﺮﺨﺘﺳﺍ"
+ reduce_gas_output_desc: ".ﺔﺑﻮﻠﻄﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻥﻭﺪﺑ $ ﺔﺒﻳﺮﻐﻟﺍ ﺕﺍﺯﺎﻐﻟﺍ ﺝﺍﺮﺨﺘﺳﺎﺑ ﻡﻮﻘﻧ ﻦﺤﻧ"
+ reduce_gas_output_tt: "§R-75%§!$mod_station_gatherers_exotic_gases_produces_mult$ "
+ reduce_crystal_output: "ﻝﺎﻌﻓ ﺮﻴﻏ $rare_crystals$ ﺝﺍﺮﺨﺘﺳﺍ"
+ reduce_crystal_output_desc: ".ﺔﺑﻮﻠﻄﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻥﻭﺪﺑ $rare_crystals$ ﺝﺍﺮﺨﺘﺳﺎﺑ ﻡﻮﻘﻧ ﻦﺤﻧ"
+ reduce_crystal_output_tt: "§R-75%§!$mod_station_gatherers_rare_crystals_produces_mult$ "
+ reduce_motes_output: "ﻝﺎﻌﻓ ﺮﻴﻏ $volatile_motes$ ﺝﺍﺮﺨﺘﺳﺍ"
+ reduce_motes_output_desc: ".ﺔﺑﻮﻠﻄﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻥﻭﺪﺑ $volatile_motes$ ﺝﺍﺮﺨﺘﺳﺎﺑ ﻡﻮﻘﻧ ﻦﺤﻧ"
+ reduce_motes_output_tt: "§R-75%§!$mod_station_gatherers_volatile_motes_produces_mult$ "
+ reduce_zro_output: "ﻝﺎﻌﻓ ﺮﻴﻏ $sr_zro$ ﺝﺍﺮﺨﺘﺳﺍ"
+ reduce_zro_output_desc: ".ﺔﺑﻮﻠﻄﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻥﻭﺪﺑ $sr_zro$ ﺝﺍﺮﺨﺘﺳﺎﺑ ﻡﻮﻘﻧ ﻦﺤﻧ"
+ reduce_zro_output_tt: "§R-75%§!$mod_station_gatherers_sr_zro_produces_mult$ "
+ reduce_dark_matter_output: "ﻝﺎﻌﻓ ﺮﻴﻏ $sr_dark_matter$ ﺝﺍﺮﺨﺘﺳﺍ"
+ reduce_dark_matter_output_desc: ".ﺔﺑﻮﻠﻄﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻥﻭﺪﺑ $sr_dark_matter$ ﺝﺍﺮﺨﺘﺳﺎﺑ ﻡﻮﻘﻧ ﻦﺤﻧ"
+ reduce_dark_matter_output_tt: "§R-75%§!$mod_station_gatherers_sr_dark_matter_produces_mult$ "
+ reduce_living_metal_output: "ﻝﺎﻌﻓ ﺮﻴﻏ $sr_living_metal$ ﺝﺍﺮﺨﺘﺳﺍ"
+ reduce_living_metal_output_desc: ".ﺔﺑﻮﻠﻄﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻥﻭﺪﺑ $sr_living_metal$ ﺝﺍﺮﺨﺘﺳﺎﺑ ﻡﻮﻘﻧ ﻦﺤﻧ"
+ reduce_living_metal_output_tt: "§R-75%§!$mod_station_gatherers_sr_living_metal_produces_mult$ "

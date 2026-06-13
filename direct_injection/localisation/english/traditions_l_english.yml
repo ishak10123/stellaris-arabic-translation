@@ -1,0 +1,1358 @@
+﻿l_english:
+ ####################################
+ # Traditions
+ ####################################
+
+ UNITY:0 "ﺓﺪﺣﻮﻟﺍ"
+ UNITY_DESC:0 ".ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺪﻴﺣﻮﺗ ﻯﺪﻣﻭ ﺔﻨﻴﻌﻣ ﻲﻧﺎﺒﻣ ﻰﻠﻋ ﺀﺎﻨﺑ ﺮﻬﺷ ﻞﻛ ﺓﺪﺣﻮﻟﺍ ﺀﺎﺸﻧﺇ ﻢﺘﻳ .$TRADITIONS$ ﺢﺘﻔﻟ ﻡﺪﺨﺘﺴﻳ ﺩﺭﻮﻣ ﻲﻫ ﺓﺪﺣﻮﻟﺍ"
+ TRADITIONS:0 "ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ TRADITIONS_DESC:0 ".ﺓﺪﻳﺪﺟ ﺪﻴﻟﺎﻘﺗ ﺢﺘﻔﻟ ﺓﺪﺣﻮﻟﺍ ﺔﻔﻠﻜﺗ ﻦﻣ ﺪﻳﺰﺘﺳ ﺎﻴﺟﻮﻟﻮﻳﺪﻳﺃ ﻦﻴﻤﺴﻘﻨﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻭﺃ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﻦﻣ ﺮﻴﺒﻜﻟﺍ ﺩﺪﻌﻟﺍ ﻞﺜﻣ ،ﺔﻔﻠﺘﺨﻣ ﻞﻣﺍﻮﻋ .ﻚﻟﺬﺑ ﻡﺎﻴﻘﻠﻟ ﺓﺪﺣﻮﻟﺍ ﻦﻣ ﻲﻔﻜﻳ ﺎﻣ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻊﻤﺠﺗ ﺎﻣﺪﻨﻋ ﺪﻴﻠﻘﺘﻟﺍ ﺢﺘﻓ ﻦﻜﻤﻳ .ﺪﻴﻟﺎﻘﺘﻟﺍ ﺭﺎﺠﺷﺃ ﻲﻓ ﺎﻬﻤﻴﻈﻨﺗ ﻢﺘﻳ ﺕﺂﻓﺎﻜﻣ ﻲﻫ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ TRADITIONS_PROGRESS:0 "$KEY$ ﻡﺪﻘﺘﻟﺍ"
+ TRADITIONS_PROGRESS_TITLE:0 "ﻡﺪﻘﺗ"
+ TRADITIONS_PROGRESS_DESC:0 " $MISSING|Y$ ﻝﻮﻠﺤﺑ ﺍﺬﻫ ﺎﻨﻳﺪﻟ ﻥﻮﻜﻴﺳ ،ﻲﻟﺎﺤﻟﺍ ﻝﺪﻌﻤﻟﺎﺑ .ﺪﻳﺪﺟ ﺪﻴﻠﻘﺗ ﻲﻨﺒﺗ ﻦﻣ ﻦﻜﻤﺘﻧ ﻰﺘﺣ ﻲﻓﺎﺿﺇ $DATE|Y$.£unity£ ﻰﻟﺇ ﺝﺎﺘﺤﻧ"
+ UNLOCK_TRADITION_DESC:0 "ﺪﻳﺪﺟ ﺪﻴﻠﻘﺗ ﻲﻨﺒﺘﻟ £unity£ ﻦﻣ ﻲﻔﻜﻳ ﺎﻣ ﺎﻨﻳﺪﻟ"
+ TRADITIONS_TIME_TO_NEXT:0 "ﺔﻴﻘﺒﺘﻤﻟﺍ ﺮﻬﺷﻷﺍ"
+ TRADITIONS_TIME_TO_NEXT_DESC:0 "$MONTHS$ ﺔﻴﻘﺒﺘﻤﻟﺍ."
+ TRADITIONS_UNLOCKED:0 ".ﺓﺮﺠﺸﻟﺍ ﻩﺬﻫ ﻲﻓ $MAX|Y$ ﺪﻴﻟﺎﻘﺗ ﻦﻣ $COUNT|Y$ ﻞﻔﻗ ﺎﻨﺤﺘﻓ ﺪﻘﻟ"
+ TRADITION_ADOPT_BUTTON:0 "ﻰﻨﺒﺘﻳ"
+ TRADITION_SELECT_BUTTON:0 "ﺭﺎﺘﺨﻳ"
+ TRADITIONS_ADOPT:1 "\n:§Eﻲﻨﺒﺘﻟﺍ ﺕﺍﺮﻴﺛﺄﺗ§!"
+ TRADITIONS_FINISH:3 "\n:$CATEGORY|Y$ ﺔﻳﺪﻴﻠﻘﺘﻟﺍ ﺢﻨﻤﻟﺍ ﻊﻴﻤﺟ ﺩﺎﻤﺘﻋﺍ\n:§Eﺔﻳﺎﻬﻨﻟﺍ ﺕﺍﺮﻴﺛﺄﺗ§!"
+ TRADITIONS_FINISH_AP:2 "§G+1§!$MOD_COUNTRY_ASCENSION_PERKS_ADD$: "
+ TRADITION_COST:0 "ﺪﻴﻠﻘﺘﻟﺍ ﺔﻔﻠﻜﺗ"
+ TRADITIONS_UNAFFORDABLE:0 "§!.ﺪﻴﻠﻘﺘﻟﺍ ﺍﺬﻫ ﻞﻔﻗ ﺀﺎﻐﻟﺇ ﻦﻣ ﻦﻜﻤﺘﻧ ﻥﺃ ﻞﺒﻗ ﺔﻴﻓﺎﺿﺇ §R§Y$RESOURCES$§! ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﻦﺤﻧ§!"
+ MUST_ADOPT_TRADITION_CATEGORY:0 "$TRIGGER_FAIL$ﺪﻴﻟﺎﻘﺗ ﺪﻤﺘﻋﺍ ﺪﻘﻟ $CATEGORY|Y$"
+ MUST_ACTIVATE_ALL_TRADITIONS:0 "$TRIGGER_FAIL$ﺔﻋﻮﻤﺠﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺪﻴﻟﺎﻘﺘﻟﺍ ﻊﻴﻤﺟ ﻰﻨﺒﺗ ﺪﻘﻟ"
+ TRADITION_ADOPT_CONFIRM:0 "ﺪﻴﻠﻘﺘﻟﺍ ﺩﺎﻤﺘﻋﺍ"
+ TRADITION_ADOPT_CONFIRM_DESC:0 "§Y$COST$§!\n\n؟§Y$TRADITION$§! ﺩﺎﻤﺘﻋﺍ ﻲﻓ ﺎﻨﺘﺒﻏﺭ ﻦﻣ ﻥﻭﺪﻛﺄﺘﻣ ﻦﺤﻧ ﻞﻫ"
+ TRADITION_ADOPTED_COUNT:0 "$COUNT$ / $MAX$"
+ TRADITION_CLICK_DESC:0 "§Gﺪﻴﻠﻘﺘﻟﺍ ﺍﺬﻫ ﻲﻨﺒﺘﻟ ﺮﻘﻧﺍ§!"
+ TRADITION_GROUP_CLICK_DESC:0 "§Gﻩﺬﻫ ﺪﻴﻠﻘﺘﻟﺍ ﺔﻋﻮﻤﺠﻣ ﺩﺎﻤﺘﻋﻻ ﺮﻘﻧﺍ§!"
+ TRADITION_COST_NEXT:0 "ﻡﺩﺎﻘﻟﺍ ﺪﻴﻠﻘﺘﻟﺍ"
+ TRADITION_COST_MULT_NUM_TR:0 "$COUNT|Y$: $VALUE|Y$ ﺪﻴﻟﺎﻘﺗ"
+ TRADITION_COST_MULT_EMPIRE_SIZE:1 "$COUNT|Y$ $EMPIRE_SIZE$: $VALUE|%$"
+ TRADITION_COST_MULT_NUM_GROUPS:0 "$COUNT|Y$ ﺓﺪﻤﺘﻌﻤﻟﺍ ﺪﻴﻠﻘﺘﻟﺍ ﺕﯫﻓ: $VALUE$"
+ TRADITION_SLOT_EMPTY:0 "ﻍﺭﺎﻓ"
+ TRADITION_SLOT_LOCKED:0 "ﺀﻲﺷ ﻱﺃ ﺪﻳﺪﺤﺗ ﻢﺘﻳ ﻢﻟ"
+ TRADITION_SELECTION_TITLE:0 "ﺪﻴﻠﻘﺘﻟﺍ ﺭﺎﻴﺘﺧﺍ"
+ pop_xenos:0 "ﺔﺒﻳﺮﻐﻟﺍ ﺏﻮﺒﻟﺍ ﻰﻘﻴﺳﻮﻣ"
+ pop_xeno_slaves:0 "(ﻕ) ﺏﻮﺒﻟﺍ ﺔﺒﻳﺮﻐﻟﺍ ﺪﻴﺒﻌﻟﺍ"
+ pop_slaves:0 "(ﻕ) ﺏﻮﺒﻟﺍ ﺪﻴﺒﻌﻟﺍ"
+ pop_founders:0 "(ﻕ) ﺏﻮﺒﻟﺍ ﺲﺳﺆﻣ"
+ pop_robots:0 "(ﻕ) ﺏﻮﺑ ﺕﻮﺑﻭﺭ"
+
+ ################################################################
+ # EXPANSION
+ ################################################################
+
+ tradition_expansion:0 "ﻊﺳﻮﺗ"
+ #tradition_expansion_desc: "We must spread our civilization to new systems and planets if we are to survive. As other empires emerge on the galactic scene, competition will be fierce. The faster we can establish new colonies, the better."
+ tradition_expansion_desc:0 ".ﻑﺎﻄﻤﻟﺍ ﺔﻳﺎﻬﻧ ﻲﻓ ﺽﺍﺮﻘﻧﻻﺎﺑ ﺓﺮﻃﺎﺨﻤﻟﺍ ﻭﺃ ،ﺓﺪﻳﺪﺟ ﺐﻛﺍﻮﻛﻭ ﺔﻤﻈﻧﺃ ﻞﻤﺸﺘﻟ ﺎﻨﺗﺭﺎﻀﺣ ﻊﻴﺳﻮﺗ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+ tradition_expansion_machine_desc:0 ".ﺪﻛﺮﻧ ﻭﺃ ﻊﺳﻮﺘﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ .ﺔﻴﻟﺰﻨﻤﻟﺍ ﺎﻨﺘﻤﻈﻧﻷ ﻯﻮﺼﻘﻟﺍ ﺔﻴﻨﻳﺰﺨﺘﻟﺍ ﺔﻌﺴﻟﺍ ﺎﺒﻳﺮﻗ ﺯﻭﺎﺠﺘﻨﺳ ﺎﻨﻧﺃ ﻰﻟﺇ ﻮﻤﻨﻟﺍ ﺕﺎﻌﻗﻮﺗ ﺮﻴﺸﺗ"
+ tradition_expansion_hive_desc:0 ".ﺕﻮﻤﻟﺍ ﻭﺃ ﻮﻤﻨﻟﺍ :[GetGestaltEntityName] ـﻟ ﻂﻘﻓ ﻥﺎﺘﻠﻤﺘﺤﻣ ﻥﺎﺘﻟﺎﺣ ﻙﺎﻨﻫ"
+ tradition_expansion_void_desc:0 ".ﻑﺎﻄﻤﻟﺍ ﺔﻳﺎﻬﻧ ﻲﻓ ﺽﺍﺮﻘﻧﻻﺎﺑ ﺓﺮﻃﺎﺨﻤﻟﺍ ﻭﺃ ،ﺓﺪﻳﺪﺟ ﻞﺋﺍﻮﻣﻭ ﺔﻤﻈﻧﺃ ﻰﻟﺇ ﺎﻨﺗﺭﺎﻀﺣ ﻊﻴﺳﻮﺗ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+ tr_expansion_adopt:0 "ﻊﺳﻮﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ"
+
+ tr_expansion_colonization_fever:0 "ﺭﺎﻤﻌﺘﺳﻻﺍ ﻰﻤﺣ"
+ tr_expansion_colonization_fever_desc:1 ".ﻲﻓﺎﺿﻹﺍ §HPops§! £pop£ §!XYZT_0100XYZT ـﺑ ﺓﺪﻳﺪﺠﻟﺍ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﺃﺪﺒﺗ"
+ tr_expansion_colonization_fever_delayed:0 ".ﺓﺪﻳﺪﺟ ﺕﺍﺮﻤﻌﺘﺴﻣ ﻰﻟﺇ ﻥﺎﻜﺴﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺏﺬﺠﻳ ﻲﻨﻃﻮﻟﺍ ﻢﻬﺳﺎﻤﺣﻭ ﻢﻬﺘﺳﺎﻤﺣ .ﻥﺎﻜﺴﻟﺍ ﺖﺣﺎﺘﺟﺍ ﺪﻗ ﺭﺎﻤﻌﺘﺳﻻﺍ ﻰﻤﺣ ﻥﺃ ﻭﺪﺒﻳ"
+ tr_expansion_colonization_fever_machine:1 "ﻲﻟﻵﺍ ﺭﺎﻤﻌﺘﺳﻻﺍ ﺕﺍﺪﺣﻭ"
+ tr_expansion_colonization_fever_machine_delayed:1 ".ﺎﻨﺘﻋﻮﻤﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺠﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﺞﻣﺩ ﻦﻣ ﻉﺮﺴﻳ ﻑﻮﺳ ﻢﻟﺎﻌﻟﺍ ﻦﻣ ﺓﺩﺪﺤﻣ ﻉﺍﻮﻧﺃ ﻊﻣ ﺎﻬﻔﻴﻴﻜﺘﻟ ﺮﻔﺸﻤﻟﺍ ﻖﻴﻤﻌﻟﺍ ﻦﻜﻟﻭ ﻖﻴﻀﻟﺍ ﻙﻮﻠﺴﻟﺍ ﺕﺍﺫ ﺔﻳﺎﻐﻠﻟ ﺔﺼﺼﺨﺘﻤﻟﺍ ﻰﻟﻭﻷﺍ ﺔﺟﻮﻤﻟﺍ ﺭﺎﻤﻌﺘﺳﺍ ﺕﺍﺪﺣﻭ ﺝﺎﺘﻧﺇ ﻥﺇ"
+ tr_expansion_colonization_fever_hive:0 "ﺪﺣﺍﻭ ﻞﻘﻋ"
+ tr_expansion_colonization_fever_hive_delayed:0 ".ﺩﺭﺎﺒﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻍﺍﺮﻓ ﻰﺘﺣ ﺎﻬﺘﻜﺴﻳ ﻥﺃ ﻦﻜﻤﻳ ﻻ ﻲﺘﻟﺍ ﺭﺎﻜﻓﻷﺍ ﻦﻣ ﺔﻗﻮﺟ ﻮﻫ ﺪﺋﺍﺰﻟﺍ ﻞﻘﻌﻟﺍ"
+
+ tr_expansion_a_new_life:0 "ﺓﺪﻳﺪﺟ ﺓﺎﻴﺣ"
+ tr_expansion_a_new_life_desc: ".§G+10%§! ﺔﺒﺴﻨﺑ §Y$MOD_LOGISTIC_GROWTH_MULT$§! £pop£ ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_expansion_a_new_life_delayed:0 ".ﺎﻨﺗﺮﻤﻌﺘﺴﻣ ﻦﻔﺳ ﻰﻠﻋ ﻖﻓﺪﺘﺗ ﻑﻮﺳ ﺎﻨﻌﻤﺘﺠﻣ ﻲﻓ ﺎﻈﺣ ﻞﻗﻷﺍ ﺮﺻﺎﻨﻌﻟﺍ ،ﺔﻳﻮﻗ ﺔﻴﻘﻳﻮﺴﺗ ﺔﻠﻤﺣ ﺓﺪﻋﺎﺴﻤﺑ !ﺔﻴﺒﻫﺬﻟﺍ ﺓﺮﻣﺎﻐﻤﻟﺍﻭ ﺹﺮﻔﻟﺍ ﺽﺭﺃ ﻲﻓ ﺪﻳﺪﺟ ﻦﻣ ﺀﺪﺒﻠﻟ ﺔﺻﺮﻓ .ﻢﻟﺎﻌﻟﺍ ﺝﺭﺎﺧ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﻲﻓ ﺎﻨﻴﻨﻃﺍﻮﻣ ﺮﻈﺘﻨﺗ ﺓﺪﻳﺪﺟ ﺓﺎﻴﺣ"
+ tr_expansion_a_new_life_machine:1 "Hotjoin ﺕﻻﻮﻛﻮﺗﻭﺮﺑ"
+ tr_expansion_a_new_life_machine_desc:0 ".§G+10%§! ﺭﺍﺪﻘﻤﺑ §Y$MOD_POP_ASSEMBLY_SPEED$§! £pop£ ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_expansion_a_new_life_machine_delayed:2 ".ﺀﺎﺸﻧﻹﺍ ﺪﻴﻗ ﺎﻬﻠﻜﻴﻫ ﻝﺍﺰﻳ ﻻ ﺎﻤﻨﻴﺑ ﺎﻬﺑ ﺔﺻﺎﺨﻟﺍ ﻞﻴﻐﺸﺘﻟﺍ ﺕﺎﻤﻴﻠﻌﺗ ﻞﻴﻤﺤﺗ ﻖﻳﺮﻃ ﻦﻋ ﺓﺪﻳﺪﺠﻟﺍ ﺔﻘﺜﺒﻨﻤﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻊﻴﻤﺠﺗ ﺔﻴﻠﻤﻋ ﻊﻳﺮﺴﺗ ﻦﻜﻤﻳ"
+ tr_expansion_a_new_life_hive:0 "ﺦﻳﺮﻔﺘﻟﺍ ﻥﻮﻨﺟ"
+ tr_expansion_a_new_life_hive_desc:0 "$tr_expansion_a_new_life_desc$"
+ tr_expansion_a_new_life_hive_delayed:0 ".ﺓﺪﻳﺪﺠﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺔﻴﻠﻤﻋ ﻉﺮﺴﺗ ﺓﺪﻳﺪﺠﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺓﺩﻻﻭ ﻦﻜﻟ ،ﺔﻟﻼﺴﻟﺍ ﺐﺒﺴﺑ ﺓﺩﺎﻋ ﻥﻮﺗﻮﻤﻳ .ﻡﻮﻤﺤﻣ ﻝﺪﻌﻤﺑ ﺮﺛﺎﻜﺘﻠﻟ ﻱﻮﻗ ﻱﺰﻳﺮﻏ ﻩﺍﺮﻛﺇ ﺓﺮﺛﺎﻜﺘﻤﻟﺍ ﻥﻭﺮﻘﻟﺍ ﻯﺪﻟ ﻥﻮﻜﻳ ،ﺪﻳﺪﺟ ﺶﻌﺑ ﺔﺒﻟﺎﻄﻤﻟﺍ ﺪﻨﻋ"
+
+ tr_expansion_courier_network:0 "ﻊﻳﺮﺴﻟﺍ ﺪﻳﺮﺒﻟﺍ ﺔﻜﺒﺷ"
+ tr_expansion_courier_network_desc:5 ".§!%XYZT_625XYZT ﺔﺒﺴﻨﺑ §YColonies§!ﻭ §YSystems§! ﻦﻣ §Y$EMPIRE_SIZE$§! ﻞﻴﻠﻘﺗ ﻢﺗ"
+ tr_expansion_courier_network_delayed:0 ".ﻖﺛﻭﺃ ﻞﻜﺸﺑ ﺎﻌﻣ ﺓﺪﻴﻌﺒﻟﺍ ﺎﻨﺗﺍﺮﻤﻌﺘﺴﻣ ﻂﺑﺭ ﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻴﺳ .FTL ﺕﻻﺎﺼﺗﻻ ﺎﻬﺑ ﻕﻮﺛﻮﻟﺍ ﻦﻜﻤﻳ ﻻ ﻲﺘﻟﺍ ﻞﺋﺎﺳﺮﻟﺍ ﻢﻴﻠﺴﺗ ﻭﺃ ﺔﻤﻬﻤﻟﺍ ﺕﺎﻴﺼﺨﺸﻟﺍ ﻞﻘﻨﻟ ﻪﺑ ﺎﻗﻮﺛﻮﻣ ﻼﻳﺪﺑ ﺓﺮﻴﻐﺼﻟﺍ ﺪﻳﺮﺒﻟﺍ ﻦﻔﺳ ﻦﻣ ﺔﻜﺒﺷ ﺪﻌﺗ"
+ tr_expansion_courier_network_machine:0 "ﺔﻌﺳﻮﻤﻟﺍ ﺞﻣﺍﺮﺒﻟﺍ"
+ tr_expansion_courier_network_machine_delayed:0 ".ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺕﺎﻓﺎﺴﻤﻟﺍ ﺮﺒﻋ ﻰﺘﺣ ﺓﺭﺎﺷﻹﺍ ﻥﺍﺪﻘﻓ ﻞﻴﻠﻘﺗ ﺎﻨﻨﻜﻤﻳ ،ﺭﺎﺒﺘﻋﻻﺍ ﻲﻓ ﻯﺮﺧﺃ ﻢﻟﺍﻮﻋ ﻲﻓ ﻲﻠﺒﻘﺘﺴﻤﻟﺍ ﻊﺳﻮﺘﻟﺍ ﻊﺿﻭ ﻊﻣ ﺔﻜﺑﺎﺸﺘﻤﻟﺍ ﺎﻨﺘﻜﺒﺷ ﺀﺎﻨﺑ ﻝﻼﺧ ﻦﻣ"
+ tr_expansion_courier_network_hive:2 "ﺩﻭﺪﺤﻤﻟﺍ ﻲﺗﺍﺬﻟﺍ ﻢﻜﺤﻟﺍ"
+ tr_expansion_courier_network_hive_delayed:1 ".ﺪﻳﺪﺟ ﻪﻴﺟﻮﺗ ﻡﺰﻠﻳ ﻰﺘﺣ ﻞﻘﺘﺴﻣ ﻞﻜﺸﺑ ﺎﻫﺬﻴﻔﻨﺗﻭ ﺔﻴﺳﺎﺳﻷﺍ ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﺎﻫﺅﺎﻄﻋﺇ ﻦﻜﻤﻳ ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ ،ﺕﺎﻗﻭﻷﺍ ﻊﻴﻤﺟ ﻲﻓ ﺮﻄﻴﺴﻤﻟﺍ ﻞﻘﻌﻟﺍ ﺔﻄﺳﺍﻮﺑ ﺮﺷﺎﺒﻣ ﻞﻜﺸﺑ ﺔﻴﻠﺧ ﻞﻛ ﻲﻓ ﻢﻜﺤﺘﻟﺍ ﻢﺘﻳ ﻥﺃ ﻡﺰﻠﻳ ﻻ"
+
+ tr_expansion_reach_for_the_stars:0 "ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ"
+ tr_expansion_reach_for_the_stars_desc:4 ".§!%XYZT_210XYZT ﺔﺒﺴﻨﺑ §Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$§! ﺾﻴﻔﺨﺗ ﻢﺗ"
+ tr_expansion_reach_for_the_stars_delayed:0 "...ﺎﻨﻳﺪﻳﺃ ﻝﻭﺎﻨﺘﻣ ﻦﻋ ﺍﺪﻴﻌﺑ ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺀﻲﺷ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﻦﻟ ،ﺎﺒﻳﺮﻗ .ﺭﺍﺮﻤﺘﺳﺎﺑ ﻡﺎﻣﻷﺍ ﻰﻟﺇ ﺎﻬﻌﻓﺩ ﻢﺘﻳ ﺔﻴﻤﺠﻨﻟﺍ ﺎﻨﺘﻣﺃ ﺩﻭﺪﺣ ﻥﺇ"
+ tr_expansion_reach_for_the_stars_machine:0 "ﺓﺭﺎﺷﻹﺍ ﻞﻴﺣﺮﺗ ﺕﺎﻄﺤﻣ"
+ tr_expansion_reach_for_the_stars_machine_delayed:0 ".ﻉﺎﻄﻘﻧﺍ ﻥﻭﺩ ﺰﻛﺮﻤﻟﺍ ﻦﻣ ﺕﺎﻬﻴﺟﻮﺘﻟﺍ ﻲﻘﻠﺗ ﺓﺭﺎﺷﻹﺍ ﺰﻳﺰﻌﺗ ﻞﻴﺣﺮﺗ ﺕﺎﻄﺤﻣ ﻦﻤﻀﺘﺳ .ﺔﻴﻄﻴﺤﻤﻟﺍﻭ ﺔﻴﺳﺎﺳﻷﺍ ﺎﻨﺘﻤﻈﻧﺃ ﻦﻴﺑ ﻱﺩﺩﺮﺘﻟﺍ ﻕﺎﻄﻨﻟﺍ ﻥﺍﺪﻘﻓ ﻲﻓ ﺀﺎﻀﻔﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﻲﻓ ﺔﻠﺻﺄﺘﻤﻟﺍ ﺔﻠﺋﺎﻬﻟﺍ ﺕﺎﻓﺎﺴﻤﻟﺍ ﺐﺒﺴﺘﺗ"
+ tr_expansion_reach_for_the_stars_hive:0 "ﺔﻴﺒﻴﻣﻷﺍ ﻚﺑﺎﺸﻤﻟﺍ"
+ tr_expansion_reach_for_the_stars_hive_delayed:0 ".ﻡﻮﺠﻨﻟﺍ ﻰﻠﻋ ﺐﻠﻐﺘﻟﺍ ﺎﻨﻟ ﺡﺎﺗﺃ ﺪﻗ ،[GetGestaltEntityName] ﻦﻣ ﺕﺎﻬﻴﺟﻮﺘﻟﺍ ﺮﻳﺮﻤﺘﻟ ﺎﻬﻣﺍﺪﺨﺘﺳﺍﻭ ،ﺀﺎﻀﻔﻟﺍ ﺕﻼﺣﺮﻟ ﻯﻮﻘﻣ ،ﺔﻋﺮﺴﻟﺍ ﻖﺋﺎﻓ ﻙﺮﺤﻣ ﻦﻣ ﺮﻐﺼﻣ ﻑﻼﻏ ﻲﻓ ﺔﻴﺒﺼﻌﻟﺍ ﻚﺑﺎﺸﻤﻟﺍ ﻒﻴﻠﻐﺗ ﻥﺇ"
+
+ tr_expansion_galactic_ambition:0 "ﺓﺮﺠﻤﻟﺍ ﺡﻮﻤﻃ"
+ tr_expansion_galactic_ambition_desc:7 ".§!%XYZT_220XYZT ﺔﺒﺴﻨﺑ §Y$mod_starbases_upkeep_mult$§! ﺾﻴﻔﺨﺗ ﻢﺗ"
+ tr_expansion_galactic_ambition_delayed:0 ".ﺓﺮﺠﻤﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﻦﻴﺟﻭﺭﺪﻴﻬﻟﺍ ﻞﺜﻣ ﺓﺮﺸﺘﻨﻣ ﺎﻣ ﺎﻣﻮﻳ ﺢﺒﺼﺘﺳ ﺔﻤﻴﻈﻌﻟﺍ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺔﻳﺍﺭ"
+ tr_expansion_galactic_ambition_machine:0 "ﺔﻟﻵﺍ ﻲﻓ ﺱﻭﺮﺘﻟﺍ"
+ tr_expansion_galactic_ambition_machine_delayed:0 ".ﻲﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﻝﺎﻤﻜﻟﺍ ﻰﻟﺇ ﺏﺮﻗﺃ ﻥﻮﻜﻟﺍ ﻞﻌﺠﻳ ﻪﻴﻓ ﻢﻜﺤﺘﻧ ﻲﺒﻌﺸﺗ ﻂﺧﻭ ﻲﻤﺠﻧ ﺩﺭﻮﻣ ﻞﻛ"
+ tr_expansion_galactic_ambition_hive:0 "ﻡﻮﺠﻨﻟﺍ ﺢﺴﻣﺍ"
+ tr_expansion_galactic_ambition_hive_delayed:0 ".ﺔﻴﻠﺨﻟﺍ ﺶﻴﻌﺗ ﻰﺘﺣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻣ ﻦﻴﻳﻼﻤﻟﺍ ﺕﻮﻤﺗ ﻑﻮﺳ .ﻮﻤﻨﻟﺍ ﻲﻓ ﺭﺍﺮﻤﺘﺳﻻﺍ ﺎﻨﻨﻜﻤﻳ ﻪﺘﻴﺑﺮﺗﻭ ﻑﻮﺨﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺐﻠﻐﺘﻟﺍ ﻝﻼﺧ ﻦﻣ ﻂﻘﻓ .ﺎﻨﺘﻋﺭ ﻲﺘﻟﺍ ﻡﻷﺍ ﺔﻴﻠﺨﻟﺍﻭ ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﺸﻋ ﻦﻋ ﺍﺪﻴﻌﺑ ،ﻡﻼﻈﻟﺍ ﻲﻓ ﻰﻟﻭﻷﺍ ﺔﻴﻟﻭﻷﺍ ﺕﺍﻮﻄﺨﻟﺍ ﻲﺋﺍﺪﺒﻟﺍ ﺐﻋﺮﻟﺍ ﻖﻓﺍﺭ"
+
+ tr_expansion_finish:0 "ﻊﺳﻮﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+ tr_expansion_finish_machine:0 "ﻊﺳﻮﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+ tr_expansion_finish_void_tooltip: "§G+1§! :ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ ﺢﺘﻓ ﻢﺗ\n§G+1§!$MOD_PLANET_MAX_DISTRICTS_ADD$ ﻞﺋﺍﻮﻤﻟﺍ ﻰﻠﻋ: "
+
+ ################################################################
+ # DOMINATION
+ ################################################################
+
+ tradition_domination:0 "ﺔﻨﻤﻴﻫ"
+ tradition_domination_desc:0 ".ﺎﻤﺘﺣ ﻢﻬﺗﺩﺍﺭﺇ ﺎﻨﻴﻠﻋ ﻥﻮﺿﺮﻔﻳ ﻑﻮﺴﻓ ،ﻦﻳﺮﺧﻵﺍ ﻰﻠﻋ ﺎﻨﺗﺩﺍﺭﺇ ﺽﺮﻔﻧ ﻢﻟ ﺍﺫﺇ"
+ tradition_domination_machine_desc:0 ".ﻞﻄﻌﻤﻟﺍ ﺀﺰﺠﻟﺍ ﻞﺜﻣ ﻢﻬﺑﺍﺮﻄﺿﺍ ﺔﻟﺍﺯﺈﺑ ﻡﻮﻘﻨﺳ .ﺔﻟﺎﻌﻓ ﺮﻴﻏ ﺔﻴﺼﺨﺷ ﺀﺍﻮﻫﺃ ﺐﺒﺴﺑ ﺍﺬﻫ ﻯﺮﺧﻷﺍ ﺔﻴﻤﺠﻨﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻡﻭﺎﻘﺗ .ﺎﻬﻠﻤﻛﺄﺑ ﺓﺮﺠﻤﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺔﻤﻏﺎﻨﺘﻣ ﻒﺋﺎﻇﻭ ﻰﻟﺇ ﻰﻌﺴﻧ ﻦﺤﻧ"
+ tradition_domination_hive_desc:0 ".ﻡﺎﻌﻄﻛ ﻭﺃ ،ﻡﺪﺨﻛ ﺎﻣﺇ ،ﺎﻨﻣﺪﺨﻳ ﻥﺃ ﺐﺠﻳ ﺎﻨﻣ ﺲﻴﻟ ﺎﻣ ﻞﻛ"
+ tr_domination_adopt:0 "ﺔﻨﻤﻴﻬﻟﺍ ﺪﻴﻟﺎﻘﺗ"
+
+ tr_domination_colonial_viceroys:0 "ﺭﺎﻤﻌﺘﺳﻻﺍ ﺏﺍﻮﻧ"
+ #tr_domination_colonial_viceroys_desc:0 "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! increased by §Y2§!."
+ tr_domination_colonial_viceroys_delayed:0 ".ﺔﻣﻮﻜﺤﻟﺍ ﺓﺩﺍﺭﺇ ﺽﺮﻔﻟ ﻢﻬﺑ ﻕﻮﺛﻮﻟﺍ ﻦﻜﻤﻳ ﻦﻴﺼﻠﺨﻣﻭ ﻦﻳﺭﺩﺎﻗ ﺩﺍﺮﻓﺃ ﺩﺎﺠﻳﺇ ﻰﻠﻋ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﻰﻠﻋ ﺎﻨﺗﺮﻄﻴﺳ ﺪﻤﺘﻌﺗ"
+ tr_domination_colonial_viceroys_machine:0 "ﻞﻘﺘﺴﻤﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ"
+ tr_domination_colonial_viceroys_machine_delayed:0 ".ﺓﺮﺠﻤﻟﺍ ﺭﺎﻤﻌﺘﺳﺍ ﻲﻓ ﺔﻠﺻﺄﺘﻤﻟﺍ ﺕﺍﺮﻴﻐﺘﻤﻟﺍ ﻦﻣ ﻞﺋﺎﻬﻟﺍ ﺩﺪﻌﻟﺍ ﺔﺠﻟﺎﻌﻣ ﻪﻨﻜﻤﻳ ﻱﺬﻟﺍ ﺪﻴﺣﻮﻟﺍ ﻉﻮﻨﻟﺍ ﻪﻨﻜﻟ ،ﺔﻴﺋﺍﻮﺸﻌﻟﺍ ﺙﺩﺍﻮﺤﻟﺍﻭ ﻢﻈﺘﻨﻤﻟﺍ ﺮﻴﻏ ﺀﺍﺩﻸﻟ ﺔﺿﺮﻋ ﺮﺜﻛﺃ ﺔﻴﻛﻮﻠﺴﻟﺍ ﺕﺎﻄﺒﺜﻤﻟﺍ ﻢﻈﻌﻣ ﻦﻣ ﻖﻠﻄﻨﻤﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﻥﻮﻜﻳ ﺪﻗ"
+ tr_domination_colonial_viceroys_hive:0 "ﻝﻮﻘﻌﻟﺍ ﺀﺎﻘﻟ"
+ tr_domination_colonial_viceroys_hive_delayed:0 ".[GetGestaltEntityName] ﻢﺠﺣ ﻮﻤﻧ ﻊﻣ ﻡﺎﺠﺴﻧﻻﺍ ﺽﺮﻔﻟ ﺔﻴﻟﻼﻘﺘﺳﺍ ﺮﺜﻛﺃ [GetIndividualNamePlural] ﺎﻨﻳﺪﻟ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ"
+
+ tr_domination_grand_council:1 "ﺹﺎﺨﻟﺍ ﺔﻜﻠﻤﻟﺍ ﺲﻠﺠﻣ"
+ #tr_domination_grand_council_desc:0 "§Y$MOD_LEADER_RULER_SKILL_LEVELS$§! increased by §Y2§!."
+ tr_domination_grand_council_delayed:2 ".ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﺔﻟﻭﺪﻟﺍ ﺔﻨﻴﻔﺳ ﻪﻴﺟﻮﺘﻟ ،ﻊﻣﻼﻟﺍ ﺎﻨﻤﻛﺎﺤﻟ ﻲﻌﻤﺴﻟﺍ ﻝﺎﺒﻘﺘﺳﻻﺍ ﺯﺎﻬﺟ ﻲﻓ ﺢﺋﺎﺼﻨﻟﺎﺑ ﺲﻤﻬﻠﻟ ﺔﺻﺮﻓ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﻊﻤﻟﻷﺍﻭ ﻞﻀﻓﻷﺍ ﺲﻓﺎﻨﺘﻳ"
+ tr_domination_multi_thread:0 "ﻁﻮﻴﺨﻟﺍ ﺓﺩﺪﻌﺘﻣ ﺔﻴﺳﺎﺳﻷﺍ ﻒﺋﺎﻇﻮﻟﺍ"
+ tr_domination_multi_thread_delayed:1 ".ﻝﻮﻤﺨﻟﺍ ﻲﻓ ﻂﺒﺨﺘﺗ ﺔﻳﺰﻛﺮﻤﻟﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺓﺪﺣﻮﻟ ﺓﺍﻮﻧ ﻱﺃ ﻙﺮﺗ ﻢﺘﻳ ﻦﻟ ،ﻁﻮﻴﺨﻟﺍ ﺓﺩﺪﻌﺘﻣ ﺔﻴﺳﺎﺳﻷﺍ ﻒﺋﺎﻇﻮﻟﺍ ﻊﻴﻤﺟ ﻥﻮﻜﺗ ﻥﺃ ﺩﺮﺠﻤﺑ"
+ tr_domination_synaptic_network:0 "ﺔﻜﺑﺎﺸﺘﻣ ﺔﻜﺒﺷ"
+ tr_domination_synaptic_network_delayed:1 ".ﻲﺿﺎﻤﻟﺍ ﻦﻣ ﯫﻴﺷ ﻥﻮﻜﻴﺳ ﺔﺑﺎﺠﺘﺳﻻﺍ ﺖﻗﻭ ﻲﻓ ﺮﻴﺧﺄﺘﻟﺍ ﻥﺈﻓ ،ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃﻭ ﻉﺮﺳﺃ ﺔﻜﺑﺎﺸﺘﻣ ﺔﻜﺒﺷ ﺩﻮﺟﻭ ﻊﻣﻭ .ﻪﺗﺮﻄﻴﺴﻟ ﻊﺿﺎﺨﻟﺍ [GetIndividualNamePlural] ﻦﻣ ﺕﺎﻣﻮﻠﻌﻤﻟﺍﻭ ﺕﻼﺧﺪﻤﻟﺍ ﺎﻬﺑ ﻰﻘﻠﺘﻳ ﻲﺘﻟﺍ ﺔﻋﺮﺴﻟﺎﺑ ﻻﺇ ﻑﺮﺼﺘﻳ ﻥﺃ ﻞﻘﻌﻠﻟ ﻦﻜﻤﻳ ﻻ"
+
+ tr_domination_imperious_architecture:0 "ﺓﺭﺎﺒﺠﻟﺍ ﺓﺭﺎﻤﻌﻟﺍ"
+ tr_domination_imperious_architecture_desc:2 ".ﻯﻮﺘﺴﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻒﺋﺎﻇﻮﻟﺍ ﻕﺎﻄﻧ ﻊﻴﺳﻮﺗ ﺔﻴﻧﺎﻜﻣﺇ §Y[politician.GetName] [politician.GetIcon]§!ﻭ §Y$MOD_PLANET_HOUSING_ADD$§! £housing£ §YCapital Buildings§! £building£ ﺮﻓﻮﻳ"
+ tr_domination_imperious_architecture_delayed:1 ".ﺔﺒﻫﺮﻟﺍﻭ ﺀﻻﻮﻟﺍﻭ ﺔﻋﺎﻄﻟﺍ ﻡﺎﻬﻟﻹ ﻥﺎﻜﺴﻟﺍ ﻦﻴﺑ ﻖﻓﻷﺍ ﻲﻓ ﺡﻮﻠﺗ ،ﺔﻟﻭﺪﻠﻟ ﺔﻳﺭﺎﻛﺬﺗ ﺎﺒﺼﻧ ﺔﻤﻴﻈﻌﻟﺍ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻲﻓ ﺔﻴﻣﻮﻜﺤﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ ﻊﻴﻤﺟ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ"
+ tr_domination_imperious_architecture_worker_coop: "$tr_dominating_Imperious_architecture$"
+ tr_domination_imperious_architecture_worker_coop_desc: ".ﻯﻮﺘﺴﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻒﺋﺎﻇﻮﻟﺍ ﻕﺎﻄﻧ ﻊﻴﺳﻮﺗ §Y[bureaucrat.GetName] [bureaucrat.GetIcon] §!§G+150§! ﻭ §Y$MOD_PLANET_HOUSING_ADD$§! £housing£ §G+100§! ﺮﻓﻮﺗ §Yﺔﻤﺻﺎﻌﻟﺍ ﻲﻧﺎﺒﻣ§! £building£"
+ tr_domination_imperious_architecture_worker_coop_delayed: ".ﺔﺒﻫﺮﻟﺍﻭ ﺀﻻﻮﻟﺍﻭ ﻦﻣﺎﻀﺘﻟﺍ ﻡﺎﻬﻟﻹ ﻥﺎﻜﺴﻟﺍ ﻦﻴﺑ ﻖﻓﻷﺍ ﻲﻓ ﺡﻮﻠﺗ ،ﻦﻴﻛﺮﺘﺸﻤﻟﺍ ﺎﻨﻟﺎﻤﻌﻟ ﺔﻳﺭﺎﻛﺬﺗ ﺎﺒﺼﻧ ﺔﻤﻴﻈﻌﻟﺍ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻲﻓ ﺔﻴﻣﻮﻜﺤﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ ﻊﻴﻤﺟ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ"
+ tr_domination_synaptic_extensions:0 "ﻚﺑﺎﺸﺘﻣ ﺕﺎﻘﺤﻠﻣ"
+ tr_domination_synaptic_extensions_desc:0 ".ﻯﻮﺘﺴﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻒﺋﺎﻇﻮﻟﺍ ﻕﺎﻄﻧ ﻊﻴﺳﻮﺗ ﺔﻴﻧﺎﻜﻣﺇ §Y[coordinator.GetName] [coordinator.GetIcon]§!ﻭ §Y$MOD_PLANET_HOUSING_ADD$§! £housing£ §YCapital Buildings§! £building£ ﺮﻓﻮﻳ"
+ tr_domination_synaptic_extensions_delayed:1 ".[GetIndividualNamePlural] ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻲﻓ ﻝﺎﻌﻔﻟﺍ ﻢﻜﺤﺘﻟﺍ ﻦﻣ ﺔﻴﻓﺎﺿﻹﺍ ﺔﻜﺑﺎﺸﺘﻤﻟﺍ ﺕﺍﺩﺍﺪﺘﻣﻻﺍ ﻦﻜﻤﺘﺳ .ﻚﻟﺫ ﻦﻣ ﺪﻌﺑﺃ ﻰﻟﺇ ﻞﻘﻌﻠﻟ ﺮﻴﺒﻜﻟﺍ ﻯﺪﻤﻟﺍ ﺪﺘﻤﻳ ﻥﺃ ﺐﺠﻳ"
+ tr_domination_modular_depot:0 "ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﺕﺎﻋﺩﻮﺘﺴﻤﻟﺍ"
+ tr_domination_modular_depot_desc:2 ".§!%XYZT_425XYZT ﺔﺒﺴﻨﺑ §Yﺕﺎﻌﻃﺎﻘﻤﻟﺍ§! ﻦﻣ §Y$EMPIRE_SIZE$§! ﻞﻴﻠﻘﺗ ﻢﺗ"
+ tr_domination_modular_depot_delayed:2 ".ﺮﻴﺜﻜﺑ ﺮﺒﻛﺃ ﺔﻧﻭﺮﻣ ﻱﺭﺎﻴﻌﻤﻟﺍ ﻢﻴﻤﺼﺘﻟﺍ ﺮﻓﻮﻴﺳ .ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﺎﻨﻘﻃﺎﻨﻣ ﻞﻜﺸﺗ ﻲﺘﻟﺍ ﺎﻨﻴﻧﺎﺒﻣ ﺢﺒﺼﺗ ﻥﺃ ﺐﺠﻳ ،ﻥﺍﺪﻴﻤﻟﺍ ﻰﻟﺇ ﻪﻟﺎﺳﺭﺇ ﻦﻜﻤﻳ ﻱﺬﻟﺍ [GetIndividualNamePlural] ﺩﺪﻋ ﻢﻴﻈﻌﺘﻟ"
+
+ tr_domination_workplace_motivators:0 "ﻞﻤﻌﻟﺍ ﻥﺎﻜﻣ ﻲﻓ ﺕﺍﺰﻔﺤﻤﻟﺍ"
+ tr_domination_workplace_motivators_desc:3 " $edict_extened_shifts$§Y:ﻡﻮﺳﺮﻤﻟﺍ ﺢﺘﻓ§!"
+ tr_domination_workplace_motivators_delayed:1 ".ﻻ ﺮﺧﻵﺍ ﺾﻌﺒﻟﺍﻭ ﺰﻓﺍﻮﺤﻟﺍ ﻰﻠﻋ ﺪﻤﺘﻌﻳ ﺎﻬﻀﻌﺑ .ﺮﺒﻛﺃ ﺔﻳﺪﺠﺑ ﻞﻤﻌﻟﺍ ﻰﻠﻋ ﺔﻌﻴﺿﻭ ﻝﺎﻤﻋﺄﺑ ﻥﻮﻣﻮﻘﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﺰﻴﻔﺤﺘﻟ ﻕﺮﻄﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻙﺎﻨﻫ"
+ tr_domination_drone_network:0 "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺔﻜﺒﺷ"
+ tr_domination_drone_network_desc:3 " $edict_drone_overdrive$§Y:ﻡﻮﺳﺮﻤﻟﺍ ﺢﺘﻓ§!"
+ tr_domination_drone_network_delayed:0 ".ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻬﺗﺀﺎﻔﻛ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻊﻣ ﺎﻨﻴﻋﻭ ﺎﻬﺑ ﻞﺻﺍﻮﺘﻳ ﻲﺘﻟﺍ ﻕﺮﻄﻟﺍ ﻦﻴﺴﺤﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+
+ tr_domination_trust_officers:0 "ﺔﻣﺎﻌﻟﺍ ﺔﻘﺜﻟﺍ ﻮﻔﻇﻮﻣ"
+ tr_domination_trust_officers_desc:3 "§G+1§!: §Y[enforcer.GetNamePlural]§! [enforcer.GetIcon] 100 ﻞﻜﻟ §YUnity§! £unity£\n $edict_enhanced_surveillance$§Y:ﻡﻮﺳﺮﻤﻟﺍ ﺢﺘﻓ§!"
+ tr_domination_trust_officers_delayed:0 ".ﺔﻳﺮﺤﺑ ﻥﻭﺎﻌﺘﻟﺍ ﺍﺬﻫ ﻢﻳﺪﻘﺗ ﻥﺎﻤﺿ ﻰﻠﻋ ﺪﻋﺎﺴﻴﺳ ﻥﺎﻜﺴﻟﺍ ﻊﻣ ﺮﺷﺎﺒﻣ ﻞﻜﺸﺑ ﻥﻮﻠﻤﻌﻳ ﻦﻳﺬﻟﺍ ﺔﻣﺎﻌﻟﺍ ﺔﻘﺜﻟﺍ ﻲﻔﻇﻮﻣ ﻦﻣ ﺔﺌﻴﻫ ﺀﺎﺸﻧﺇ ﻥﺇ .ﺭﻮﻬﻤﺠﻟﺍ ﻥﻭﺎﻌﺘﺑ ﻲﻈﺣ ﺍﺫﺇ ﻻﺇ ﺎﻘﺣ ﺢﺠﻨﻳ ﻥﺃ ﻦﻜﻤﻳ ﻻ ﻥﻮﻧﺎﻘﻟﺍ ﺫﺎﻔﻧﺇ ﻦﻋ ﻥﻮﻟﻭﺆﺴﻤﻟﺍ ﻪﺑ ﻡﻮﻘﻳ ﻱﺬﻟﺍ ﻡﺎﻬﻟﺍ ﻞﻤﻌﻟﺍ ﻥﺇ"
+ tr_domination_judgment_corps:0 "ﻢﻜﺤﻟﺍ ﻖﻠﻴﻓ"
+ tr_domination_judgment_corps_desc:3 " $edict_enhanced_surveillance$§Y:ﻡﻮﺳﺮﻤﻟﺍ ﺢﺘﻓ§!"
+ tr_domination_judgment_corps_delayed:1 ".ﺬﻔﻨﻤﻟﺍﻭ ﻦﻴﻔﻠﺤﻤﻟﺍ ﺔﺌﻴﻫﻭ ﻲﺿﺎﻘﻟﺍ ﺭﺍﻭﺩﺃ ﻦﻴﺑ ﻊﻤﺠﻟﺍ ﻝﻼﺧ ﻦﻣ ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﺔﻴﺋﺎﻀﻘﻟﺍ ﺔﻴﻠﻤﻌﻟﺍ ﻞﻌﺠﺑ ﺎﻨﻤﻗ ،ﻥﻮﻧﺎﻘﻟﺍ ﺫﺎﻔﻧﺇ ﺔﻴﻠﻤﻋ ﻊﻳﺮﺴﺘﻟ .ﺔﻤﻳﺮﺠﻟﺍ ﻊﻨﻤﺑ ﺔﻄﺒﺗﺮﻣ ﺓﺪﻳﺮﻓ ﺕﺎﻳﺪﺤﺗ ﺔﻟﻭﺰﻌﻤﻟﺍ ﻦﻳﺪﻌﺘﻟﺍ ﺕﺎﻄﺤﻣﻭ ﻑﺍﺮﻃﻷﺍ ﺔﻴﻣﺍﺮﺘﻤﻟﺍ ﻥﺪﻤﻟﺍ ﻪﺟﺍﻮﺗ"
+ tr_domination_deviancy_protocols:0 "ﻑﺍﺮﺤﻧﻻﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ"
+ tr_domination_deviancy_protocols_desc:2 ".ﺎﻨﺒﻛﺍﻮﻛ ﻊﻴﻤﺟ ﻰﻠﻋ §!XYZT_210XYZT ﺭﺍﺪﻘﻤﺑ §Y$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$§! ﻞﻴﻠﻘﺗ ﻢﺗ"
+ tr_domination_deviancy_protocols_delayed:1 ".ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺩﺎﺴﻔﻟﺍ ﺮﺸﻧ ﻦﻣ ﺍﻮﻨﻜﻤﺘﻳ ﻥﺃ ﻞﺒﻗ ﺔﻋﺮﺴﺑ ﺔﻓﺮﺤﻨﻣ ﺔﻄﺸﻧﺄﺑ ﻪﻣﺎﻴﻗ ﻲﻓ ﻪﺒﺘﺸﻤﻟﺍ [GetIndividualNamePlural] ﺀﺎﻬﻧﺇ ﻦﻜﻤﻳ ،ﺔﻟﺎﻌﻓ ﺓﺩﺎﻀﻣ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ ﺩﻮﺟﻭ ﻊﻣ .ﺕﺎﻳﻮﺘﺴﻤﻟﺍ ﺔﻓﺎﻛ ﻰﻠﻋ ﺩﺎﺴﻔﻟﺍﻭ ﻑﺍﺮﺤﻧﻻﺍ ﻦﻣ ﺭﺬﺤﻟﺍ ﺐﺠﻳﻭ"
+ tr_domination_divergence_supression:0 "ﻑﻼﺘﺧﻻﺍ ﻊﻤﻗ"
+ tr_domination_divergence_supression_desc:1 "$tr_dominating_deviancy_protocols_desc$"
+ tr_domination_divergence_supression_delayed:0 ".ﻢﻬﺗﺎﻴﺣ ﻲﻓ ﺎﻬﺑ ﺔﻤﻫﺎﺴﻤﻟﺍ ﻦﻣ ﺍﻮﻨﻜﻤﺘﻳ ﻢﻟ ﺔﻘﻳﺮﻄﺑ ،ﻢﻬﺗﻮﻤﺑ [GetGestaltEntityName] ﻲﻓ ﺔﻤﻫﺎﺴﻤﻠﻟ ﺔﺻﺮﻓ ﻢﻬﺤﻨﻤﻳ ﺎﻫﺮﻳﻭﺪﺗ ﺓﺩﺎﻋﺇﻭ ﺕﺍﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺮﻴﻬﻄﺗ ﻥﺇ .ﻡﻮﺠﻨﻟﺍ ﺮﺒﻋ ﺎﻧﺭﺎﺸﺘﻧﺍ ﻊﻣ ﺪﻳﺪﻬﺘﻟﺍ ﺍﺬﻫ ﺩﺍﺯ ﺪﻘﻟ .ﻕﺭﺎﻤﻟﺍ [GetIndividualName] ﺐﺒﺴﺑ ﺎﻨﺗﺪﺣﻭ ﻞﻄﻌﺘﺗ ﻥﺎﻴﺣﻷﺍ ﺾﻌﺑ ﻲﻓ"
+
+ #tr_domination_star_lords:0 "Star Lords"
+ #tr_domination_star_lords_machine:0 "Benevolence Emulation"
+ #tr_domination_star_lords_hive:0 "Soporific Pheromones"
+ #tr_domination_star_lords_desc:5 "Subject £opinion£ §YOpinion§! increased by §G+20§! and §YTrust Cap§! increased by §G+50§!."
+ #tr_domination_star_lords_machine_desc:0 "$tr_domination_star_lords_desc$"
+ #tr_domination_star_lords_hive_desc:0 "$tr_domination_star_lords_desc$"
+ #tr_domination_star_lords_delayed:0 "It is our destiny to lord over those who are weaker. Obedient nations that swear fealty to our great empire may be permitted to exist... at our discretion."
+ #tr_domination_star_lords_machine_delayed:0 "Programming our diplomatic AI to emulate the emotional mannerisms of other species increases their susceptibility to suggestion, even if they are aware it is a simulation."
+ #tr_domination_star_lords_hive_delayed:0 "Generations of experimentation have revealed that certain combinations of gaseous emissions and pheromones greatly reduce the pugnacity and will to resist of the others. Some die, but they perish in bliss, having ever so briefly touched the beautiful purity of our mind."
+
+ tr_domination_finish:0 "ﺔﻨﻤﻴﻬﻟﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+ tr_domination_federations_finish:0 "$tr_dominating_finish$"
+ tr_domination_federations_wilderness_finish: "$tr_dominating_finish$"
+ tr_domination_federations_finish_desc:0 "§G+1§! :ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ ﺢﺘﻓ ﻢﺗ\n.ﺩﺎﺤﺗﻻﺍ ﻉﻮﻧ §Y$hegemony_federation$§! ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺢﻨﻣ\n§G-5%§!$MOD_EMPIRE_SIZE_POPS_MULT$ "
+ tr_domination_finish_wilderness_desc: "§G+1§! :ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ ﺢﺘﻓ ﻢﺗ\n.ﺩﺎﺤﺗﻻﺍ ﻉﻮﻧ §Y$hegemony_federation$§! ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺢﻨﻣ\n§G-5%§!$EMPIRE_SIZE$ ﻖﻃﺎﻨﻤﻟﺍ ﻦﻣ: "
+
+ ################################################################
+ # PURITY
+ ################################################################
+
+ #tradition_purity:0 "Purity"
+ #tradition_purity_desc:0 "Purity of mind and purpose is the only way to guard our species from the dangers of a hostile galaxy."
+ #tr_purity_adopt:0 "Purity Traditions"
+ #tr_purity_adopt_desc:0 "$tradition_purity_desc$\n\n$tr_purity_adopt_effect$\n\n$tr_purity_finish_effect$"
+ #tr_purity_adopt_effect:2 "§E$TRADITIONS_ADOPT$:§!\n£blocker£ §Y$MOD_PLANET_CLEAR_BLOCKER_COST_MULT$§! reduced by §G25%§!."
+ #tr_purity_never_surrender:0 "Never Surrender"
+ #tr_purity_never_surrender_desc:1 "§Y$shipclass_starbase_hull_mult$§! increased by §G+10%§! and §Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§! increased by §G+50%§!."
+ #tr_purity_never_surrender_delayed:1 "We will never bow to those who are inferior. Let them hurl themselves against our unbreakable defenses! A thousand years from now, they will be just another footnote in the history of our ascension."
+ #tr_purity_symbol_purity:0 "Symbol of Purity"
+ #tr_purity_symbol_purity_desc:1 "§YUnlocks Building:§! $building_symbol_purity$\n§EThis is a building that produces Unity while also increasing Government Ethics Attraction.§!"
+ #tr_purity_symbol_purity_delayed:0 "$tech_purity_campaigns_desc$"
+ #tr_purity_natural_order:0 "Natural Order"
+ #tr_purity_natural_order_desc:1 "Eating alien Pops provides £unity£ Unity. Does not apply to robots."
+ #tr_purity_natural_order_delayed:0 "All beings have their assigned station in the universe. Those who belong to a lesser species should take comfort in their servitude to their betters."
+ #tr_purity_age_machines:1 "Age of Machines"
+ #tr_purity_age_machines_desc:2 "Buildable Pops' resource production increased by §G+5%§!"
+ #tr_purity_age_machines_delayed:1 "The chaotic era where organic empires dictated the course of galactic history is over. The Age of Machines has finally come."
+ #tr_purity_the_chosen:0 "The Chosen"
+ #tr_purity_the_chosen_desc:4 "£pop£ §Y$pop_citizen_happiness$§! increased by §G+5%§! and §Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$§! cost is reduced by §G5%§!"
+ #tr_purity_the_chosen_delayed:0 "Whether chosen by a higher power or simple genetic chance, our exceptional species is without compare. We are clearly destined for great things."
+ #tr_purity_waste_processing:0 "Waste Processing"
+ #tr_purity_waste_processing_desc:0 "§Y$MOD_POP_PROCESSING_OUTPUT$§! increased by §G+50%§!."
+ #tr_purity_waste_processing_delayed:1 "Optimized processing methods will increase yields when population units are harvested. Nothing must go to waste."
+ #tr_purity_appropriation:0 "Appropriation"
+ #tr_purity_appropriation_desc:1 "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§! reduced by §G50%§!."
+ #tr_purity_appropriation_delayed:1 "Land that is not being worked contributes nothing to our empire. Workers must be relocated in an efficient manner to those planets where they are needed most."
+ #tr_purity_finish:0 "Purity Traditions Finished"
+ #tr_purity_finish_effect:1 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_purity_adopt$ will increase £unity£ §Y$country_base_unity_produces_mult$§! by §G+10%§!."
+
+ ################################################################
+ # HARMONY
+ ################################################################
+
+ tradition_harmony:0 "ﻡﺎﺠﺴﻧﺍ"
+ tradition_harmony_desc:0 ".ﻙﺮﺘﺸﻣ ﻑﺪﻫ ﻖﻴﻘﺤﺘﻟ ﻞﻤﻌﻳ ﻱﺬﻟﺍ ﻯﻮﺘﺤﻤﻟﺍ ﺭﻮﻬﻤﺟ ﺓﻮﻗ ﻲﻫﺎﻀﺗ ﻥﺃ ﻦﻜﻤﻳ ﺔﻠﻴﻠﻗ ﺀﺎﻴﺷﺃ ﻙﺎﻨﻫ"
+ tr_harmony_adopt:0 "ﻡﯪﻮﻟﺍ ﺪﻴﻟﺎﻘﺗ"
+ tr_harmony_the_greater_good:0 "ﻢﻈﻋﻷﺍ ﺮﻴﺨﻟﺍ"
+# tr_harmony_the_greater_good_desc:4 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+25%§!."
+ tr_harmony_the_greater_good_delayed:0 ".ﺮﻴﺜﻜﺑ ﺮﺒﻛﺃ ﻞﻛ ﻦﻣ ﻢﻬﻣ ﻪﻨﻜﻟﻭ ﺮﻴﻐﺻ ﺀﺰﺟ ﻢﻬﻨﻣ ﺩﺮﻓ ﻞﻛﻭ ،ﻡﺎﻌﻟﺍ ﺢﻟﺎﺼﻟﺍ ﻞﺟﺃ ﻦﻣ ﺎﻌﻣ ﻥﻮﻠﻤﻌﻳ ﻢﻬﻧﺃ ﻢﻠﻌﻳ ﺎﻣﺪﻨﻋ ﺡﺎﻴﺗﺭﻻﺎﺑ ﻪﻠﻤﻛﺄﺑ ﺎﻨﺒﻌﺷ ﺮﻌﺸﻳﻭ"
+ tr_harmony_kinship:0 "ﺔﺑﺍﺮﻘﻟﺍ"
+# tr_harmony_kinship_desc:4 "The time it takes for unemployed £pop£ §YPops§! to demote to a lower §YStratum§! is reduced by §G75%§!."
+ tr_harmony_kinship_delayed:1 ".ﻲﻋﺎﻤﺘﺟﻻﺍ ﻡﺎﻈﻨﻟﺍ ﻲﻓ ﻢﻬﺘﻧﺎﻜﻣ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ ،ﺔﻤﻴﻈﻌﻟﺍ ﺔﻴﻤﺠﻨﻟﺍ ﺎﻨﺘﻣﺃ ﻲﻨﻃﺍﻮﻣ ﻊﻴﻤﺟ ﻦﻴﺑ ﺔﺑﺍﺮﻘﻟﺎﺑ ﻲﻘﻴﻘﺣ ﺭﻮﻌﺷ ﺭﻮﻄﺗ ﺪﻘﻟ"
+ tr_harmony_kinship_shared_burdens:0 "$tr_harmony_kinship$"
+# tr_harmony_kinship_shared_burdens_desc:0 "$tr_synchronicity_kinship_gestalt_desc$"
+ tr_harmony_kinship_shared_burdens_delayed:0 ".ﻲﺣﺍﻮﻨﻟﺍ ﻊﻴﻤﺟ ﻲﻓ ﻥﻭﻭﺎﺴﺘﻣ ﻦﺤﻧ .ﺪﺣﺍﻭ ﺎﻨﺒﻌﺷﻭ ﺎﻨﺗﺩﺎﻗ"
+ tr_harmony_utopian_dream:0 "ﻲﺑﻮﺗﻮﻴﻟﺍ ﻢﻠﺤﻟﺍ"
+ tr_harmony_utopian_dream_desc:4 ".ﺎﻨﺒﻛﺍﻮﻛ ﻊﻴﻤﺟ ﻰﻠﻋ §!%XYZT_05XYZT ﺔﺒﺴﻨﺑ $r_stability$ ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_harmony_utopian_dream_delayed:2 ".ﻪﻠﺟﺃ ﻦﻣ ﻝﺎﺘﻘﻟﺍ ﻖﺤﺘﺴﻳ ﻞﻀﻓﻷﺍ ﺪﻐﻟﺍ ﻥﺇ .ﺎﻤﺋﺍﺩ ﻡﺎﻣﻷﺍ ﻰﻟﺇ ﺎﻨﺒﻌﺷ ﻊﻓﺪﻳ ﻲﻟﺎﺜﻤﻟﺍ ﻞﺒﻘﺘﺴﻤﻟﺍ ﻢﻠﺣ ﻥﺇ"
+ tr_harmony_mind_and_body:0 "ﺪﺴﺠﻟﺍﻭ ﻞﻘﻌﻟﺍ"
+ tr_harmony_mind_and_body_delayed:0 ".ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺮﺒﻛﺃ ﻊﻗﻮﺘﻣ ﺮﻤﻋ ﻂﺳﻮﺘﻤﺑ ﺎﻨﻧﺎﻜﺳ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﺤﻳﺮﺷ ﻊﺘﻤﺘﺗ ،ﺔﻴﺤﺼﻟﺍ ﻞﻛﻷﺍ ﺕﺍﺩﺎﻋﻭ ﺓﺪﻳﺪﺠﻟﺍ ﻞﻣﺄﺘﻟﺍ ﺕﺎﻴﻨﻘﺗ ﻦﻣ ﺞﻳﺰﻣ ﻲﻨﺒﺗ ﻝﻼﺧ ﻦﻣﻭ"
+ tr_harmony_mind_and_body_immortal: "ﻲﺒﻄﻟﺍ ﻞﻣﺄﺘﻟﺍ"
+ tr_harmony_mind_and_body_immortal_delayed: ".ﺎﻨﺒﻌﺷ ﻢﺴﺟﻭ ﻞﻘﻋ ﻦﻣ ﺭﺎﻀﻟﺍ ﺮﺗﻮﺘﻟﺍ ﺔﻟﺍﺯﺇ ﺎﻨﻨﻜﻤﻳ ،ﺔﻳﻮﻧﺎﻨﻟﺍ ﺔﻴﺒﻄﻟﺍ ﺎﻨﺗﺍﺭﺪﻗ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﻝﻼﺧ ﻦﻣﻭ"
+ tr_harmony_unity_of_self:0 "ﺕﺍﺬﻟﺍ ﺓﺪﺣﻭ"
+ tr_harmony_unity_of_self_desc:1 ".£unity£ ﺓﺪﺣﻭ §HPops§! £pop£ Necrophaging ﺮﻓﻮﻳ"
+ tr_harmony_unity_of_self_delayed:0 ".ﻞﻌﻔﻧ ﺎﻤﻛ ﺖﻓﺮﺼﺗﻭ ﺕﺮﻜﻓﻭ ﺔﻴﻋﺍﻮﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﻴﻤﺟ ﺕﺮﻈﻧ ﺍﺫﺇ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﻡﺎﺠﺴﻧﻻﺍ ﺩﺍﺩﺰﻳ ﻑﻮﺳ"
+ tr_harmony_harmonious_directives:0 "ﺔﻤﻏﺎﻨﺘﻣ ﺕﺎﻬﻴﺟﻮﺗ"
+ tr_harmony_harmonious_directives_delayed:0 ".ﺎﻬﺟﺭﺎﺧﻭ ﺎﻬﻠﻤﻛﺄﺑ ﺔﻴﻤﺠﻨﻟﺍ ﺔﻟﻭﺪﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﻦﻣﻷﺍﻭ ﺔﻟﺍﺪﻌﻟﺍﻭ ﺔﻳﺮﺤﻟﺍﻭ ﻡﻼﺴﻟﺍ ﺮﺸﻨﺗ ﻑﻮﺳ ﺓﺮﻴﺨﻟﺍ ﺎﻨﺗﺩﺎﻴﻘﻟ ﺓﺮﻴﻨﺘﺴﻤﻟﺍ ﻢﻴﺳﺍﺮﻤﻟﺍ ﻥﺇ"
+ tr_harmony_finish:0 "ﻡﯪﻮﻟﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+ tr_harmony_federations_finish:0 "$tr_harmony_finish$"
+ tr_harmony_federations_finish_desc:0 "§G+1§! :ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ ﺢﺘﻓ ﻢﺗ\n.ﺩﺎﺤﺗﻻﺍ ﻉﻮﻧ §Y$spiritualist_federation$§! ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺢﻨﻣ\n.§G+25%§!$MOD_PLANETARY_ASCENSION_EFFECT_MULT$: "
+
+ ################################################################
+ # SYNCHRONICITY
+ ################################################################
+
+ tradition_synchronicity:0 "ﻦﻣﺍﺰﺘﻟﺍ"
+ tradition_synchronicity_desc:0 ".ﻲﻋﺎﺴﻤﻟﺍ ﻊﻴﻤﺟ ﻲﻓ ﺔﻨﻣﺍﺰﺘﻣ ﺕﺍﺀﺍﺮﺟﺇ ﺫﺎﺨﺗﺍ ﻞﺟﺃ ﻦﻣ ﻦﻳﺪﻫﺎﺟ ﻰﻌﺴﻧ ﻥﺃ ﺎﻨﻴﻠﻋﻭ .ﻑﺪﻬﻟﺍ ﺓﺪﺣﻭ ﺪﻟﻮﺗ ﻞﻘﻌﻟﺍ ﺓﺪﺣﻭ"
+ tr_synchronicity_adopt:0 "ﻦﻣﺍﺰﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ"
+ tr_synchronicity_adopt_desc:0 "§G-10%§!$mod_planet_pops_upkeep_mult$: \n$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_legion_name$\n$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_regulatory_name$\n$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_cognitive_name$\n$UNLOCKS_AGENDA$ $council_agenda_agenda_gestalt_boost_growth_name$"
+ tr_synchronicity_cloned_organs:0 "ﺔﺨﺴﻨﺘﺴﻤﻟﺍ ﺀﺎﻀﻋﻷﺍ"
+ tr_synchronicity_cloned_organs_delayed:0 ".ﺔﻴﻟﺎﻌﻟﺍ ﺔﻳﻮﻟﻭﻷﺍ ﻭﺫ [GetIndividualNamePlural] ـﻟ ﻡﺍﺪﺨﺘﺳﻼﻟ ﻞﺑﺎﻘﻟﺍ ﺮﻤﻌﻟﺍ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﻦﻴﺘﺋﺮﻟﺍﻭ ﺏﻮﻠﻘﻟﺍ ﻞﺜﻣ ﺭﺮﻜﺘﻣ ﻞﻜﺸﺑ ﺎﻛﻼﻬﺘﺳﺍ ﺮﺜﻛﻷﺍ ﺀﺎﻀﻋﻷﺍ ﺥﺎﺴﻨﺘﺳﻻﺍ ﺔﻴﻋﻭﺃ ﺞﺘﻨﺗ"
+ tr_synchronicity_kinship_gestalt:0 "ﻥﻮﻨﻣﺍﺰﺘﻤﻟﺍ ﺀﻼﻛﻮﻟﺍ"
+ tr_synchronicity_kinship_gestalt_desc:0 ".§!%XYZT_220XYZT ﺔﺒﺴﻨﺑ §Y$mod_leaders_upkeep_mult$§! ﺾﻴﻔﺨﺗ ﻢﺗ"
+ tr_synchronicity_kinship_gestalt_delayed:0 ".ﺪﺋﺍﺰﻟﺍ ﻞﻘﻌﻟﺍ ﻰﻠﻋ ﻂﻐﻀﻟﺍ ﻞﻠﻘﻳ ﺎﻤﻣ ،ﺔﻋﻮﻤﺠﻤﻛ ﺔﻠﺛﺎﻤﻣ ﺽﺍﺮﻏﺃ ﻢﻬﻳﺪﻟ ﻦﻳﺬﻟﺍ ﺀﻼﻤﻌﻠﻟ ﺮﻣﺍﻭﻷﺍ ﺀﺎﻄﻋﺇ ﺐﺠﻳ"
+ tr_synchronicity_instinctive_synchronization:0 "ﻱﺰﻳﺮﻐﻟﺍ ﻦﻣﺍﺰﺘﻟﺍ"
+ tr_synchronicity_instinctive_synchronization_desc:2 ".ﺔﺣﺍﺮﻟﺍ ﻞﺋﺎﺳﻭ £mod_pop_amenities_usage_no_happiness_mult£ §G+250§! ﺝﺎﺘﻧﺇ §Y$job_lgistics_drone_plural$§! £job_low_tech_bureaucrat£"
+ tr_synchronicity_instinctive_synchronization_delayed:0 ".ﺮﻳﻮﻄﺘﻟﺍﻭ ﻦﻣﺍﺰﺘﻤﻟﺍ ﻞﻤﻌﻟﺍ ﻰﻠﻋ ﺮﺒﻛﺃ ﺕﺎﺒﻠﻄﺘﻣ ﻪﻳﺪﻟ ﺎﻨﻳﺪﻟ ﻲﻣﺎﻨﺘﻤﻟﺍ [GetGestaltEntityName] ﻥﺇ"
+ tr_synchronicity_integrated_preservation:1 "ﻞﻣﺎﻜﺘﻤﻟﺍ ﻆﻔﺤﻟﺍ"
+ tr_synchronicity_integrated_preservation_desc:8 "§G+30%§! :ﺔﻴﺋﺎﻘﻠﺘﻟﺍ ﻦﻴﻃﻮﺘﻟﺍ ﺓﺩﺎﻋﺇ ﺔﺻﺮﻓ\n§!XYZT_53XYZT ﺭﺍﺪﻘﻤﺑ §Y$MOD_PLANET_CRIME_NO_HAPPINESS_ADD$§! ﻞﻴﻠﻘﺗ §Y[evaluator.GetNamePlural]§!"
+ tr_synchronicity_integrated_preservation_delayed:6 ".ﺎﻨﺗﺎﻴﺘﺴﺟﻮﻠﻟ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺺﻴﺼﺨﺗ ﺐﺠﻳ ﻲﻟﺎﺘﻟﺎﺑﻭ ،ﺀﺎﻄﺧﻷﺍ ﺢﻴﺤﺼﺗﻭ ﺔﻤﻈﺘﻨﻣ ﺔﻧﺎﻴﺻ ﺔﻴﻣﺎﻨﺘﻤﻟﺍ ﺎﻨﺘﻜﺒﺷ ﺐﻠﻄﺘﺗ"
+
+ tr_synchronicity_collective_reasoning:1 "ﻲﻋﺎﻤﺠﻟﺍ ﺮﻴﻜﻔﺘﻟﺍ"
+ tr_synchronicity_collective_reasoning_delayed:1 "!ﺔﻴﺒﻛﻮﻜﻟﺍ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻠﻟ ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﻡﺍﺪﺨﺘﺳﺍ ﻖﻴﻘﺤﺗ ﻦﻜﻤﻳ ،[GetIndividualNamePluralCap] ﺕﺎﻋﻮﻤﺠﻣ ﺔﻨﻣﺍﺰﻣ ﻝﻼﺧ ﻦﻣ"
+ tr_synchronicity_collective_efforts:2 "ﺔﻴﻋﺎﻤﺠﻟﺍ ﺩﻮﻬﺠﻟﺍ"
+ tr_synchronicity_collective_efforts_desc:2 ".§!%XYZT_320XYZT ﺔﺒﺴﻨﺑ ﺾﻴﻔﺨﺘﻟﺍ ﻢﺗ §Y$MOD_POP_AMENITIES_USAGE_NO_HAPPINESS_MULT$§! £mod_pop_amenities_usage_no_happiness_mult£"
+ tr_synchronicity_collective_efforts_delayed:2 "!ﺔﻴﺒﻛﻮﻜﻟﺍ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻠﻟ ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﻡﺍﺪﺨﺘﺳﺍ ﻖﻴﻘﺤﺗ ﻦﻜﻤﻳ ،ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺕﺎﻋﻮﻤﺠﻣ ﺔﻨﻣﺍﺰﻣ ﻝﻼﺧ ﻦﻣ"
+ tr_synchronicity_self_preservation:0 "ﺕﺍﺬﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ"
+ tr_synchronicity_self_preservation_desc:0 ".§!%XYZT_050XYZT ﺔﺒﺴﻨﺑ ﺙﺩﺍﻮﺤﻟﺍﻭ ﻝﺎﻄﻋﻸﻟ ﺕﻻﻵﺍ ﺓﺩﺎﻗ ﺽﺮﻌﺗ ﻝﺎﻤﺘﺣﺍ ﻞﻘﻳ"
+ tr_synchronicity_self_preservation_delayed:1 "§R'ç° éü¿T éw+Á éÒÎ( éÍ8" <DATA CORRUPTED>§!...ﻊﻣ ﺽﺭﺎﻌﺘﺗ ﻻ ﺔﻳﺎﻤﺤﻟﺍ ﻩﺬﻫ ﻥﺃ ﺎﻤﻟﺎﻃ ﻩﺩﻮﺟﻭ ﻲﻤﺤﻳ ﻥﺃ ﺕﻮﺑﻭﺮﻟﺍ ﻰﻠﻋ ﺐﺠﻳ"
+
+ tr_synchronicity_bulwark_of_harmony:0 "$tr_unyielding_bulwark_of_harmony$"
+ tr_synchronicity_bulwark_of_harmony_desc:0 "$tr_unyielding_bulwark_of_harmony_desc$"
+ tr_synchronicity_bulwark_of_harmony_delayed:0 "$tr_unyielding_bulwark_of_harmony_delayed$"
+
+ tr_synchronicity_unity_of_mind:0 "ﻞﻘﻌﻟﺍ ﺓﺪﺣﻭ"
+ tr_synchronicity_unity_of_mind_desc:0 "$tr_harmony_unity_of_self_desc$"
+ tr_synchronicity_unity_of_mind_delayed:0 ".ﺎﻨﻴﻋﻮﻟ ﺓﺮﻴﺨﻟﺍ ﺔﻴﻋﺎﻤﺠﻟﺍ ﻰﻟﺇ ﺔﻴﻋﺍﻮﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﻴﻤﺟ ﺐﻠﺟ ﻦﻜﻣﺃ ﺍﺫﺇ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﻡﺎﺠﺴﻧﻻﺍ ﺩﺍﺩﺰﻳ ﻑﻮﺳ"
+
+ tr_synchronicity_harmonious_directives:0 "ﺔﻧﺮﻤﻟﺍ ﺮﻴﻜﻔﺘﻟﺍ ﺕﺍﺀﺍﺮﺟﺇ"
+ tr_synchronicity_harmonious_directives_machine:0 "ﺔﻧﺮﻤﻟﺍ ﺓﺭﺍﺩﻹﺍ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ"
+ tr_synchronicity_harmonious_directives_delayed:0 ".ﻒﻗﻮﻣ ﻱﺃ ﻊﻣ ﻒﻴﻜﺘﻠﻟ ﺔﻣﺯﻼﻟﺍ ﺔﻧﻭﺮﻤﻟﺍ ﺎﻨﺴﻔﻧﺃ ﻲﻓ ﺱﺮﻐﻧ ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ ﻦﻜﻟﻭ ،ﺎﻧﺮﻴﻜﻔﺗ ﻲﻓ ﺍﺪﺟ ﻦﻴﺘﺑﺎﺛ ﺢﺒﺼﻧ ﻻﺃ ﻰﻟﺇ ﻪﺒﺘﻨﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+ tr_synchronicity_harmonious_directives_machine_delayed:0 ".ﻒﻗﻮﻣ ﻱﺃ ﻊﻣ ﻒﻴﻜﺘﻠﻟ ﺔﻣﺯﻼﻟﺍ ﺔﻧﻭﺮﻤﻟﺍ ﺎﻨﺴﻔﻧﺃ ﻲﻓ ﺱﺮﻐﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ،ﻢﻈﺘﻨﻣ ﻞﻜﺸﺑ ﺎﻨﺗﺎﻴﻣﺯﺭﺍﻮﺧ ﺔﻌﺟﺍﺮﻣ ﻝﻼﺧ ﻦﻣﻭ .ﺔﺠﻟﺎﻌﻤﻟﺍ ﺮﻴﻏ ﺔﻴﺠﻣﺮﺒﻟﺍ ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﻞﺧﺍﺩ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻊﺋﺎﻈﻔﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ"
+
+ tr_synchronicity_finish:0 "ﻦﻣﺍﺰﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+ tr_synchronicity_machine_finish_desc:6 "§G+1§! :ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ ﻦﻴﻣﺄﺗ ﺀﺎﻐﻟﺇ ﻢﺗ\n§G+25%§!$MOD_PLANETARY_ASCENSION_EFFECT_MULT$: \n $edict_industrial_maintenance$.§Y:ﻡﻮﺳﺮﻤﻟﺍ ﻦﻴﻣﺄﺗ ﺀﺎﻐﻟﺇ§!"
+
+################################################################
+# SUPREMACY
+################################################################
+
+ tradition_supremacy:0 "ﻕﻮﻔﺘﻟﺍ"
+ tradition_supremacy_desc:0 ".ﺎﻬﻴﻠﻋ ﺀﻼﻴﺘﺳﻼﻟ ﺔﻴﻓﺎﻜﻟﺍ ﺓﻮﻘﻟﺎﺑ ﻥﻮﻌﺘﻤﺘﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﻷ ﻚﻠﻣ ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ ﻞﺒﻘﺘﺴﻣ"
+ tradition_supremacy_machine_desc:0 ".ﺔﻓﻭﺮﻌﻤﻟﺍ ﺮﻴﻏ ﺕﺍﺮﻴﻐﺘﻤﻟﺍ ﻦﻣ ﺺﻠﺨﺘﻟﺍ ﺐﺠﻴﻓ ،ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺎﻬﻨﻴﺴﺤﺗ ﻦﻜﻤﻳ ﻻ ﺎﻨﺟﺫﺎﻤﻧ ﻥﺃ ﺎﻤﺑﻭ .ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺎﻬﻣﺪﻘﺗ ﻲﺘﻟﺍ ﺔﻓﻭﺮﻌﻤﻟﺍ ﺮﻴﻏ ﺕﺍﺮﻴﻐﺘﻤﻟﺍ ﺐﺒﺴﺑ ﺎﻤﺋﺍﺩ ﺭﺎﻬﻨﺗ ﺔﻳﺮﻈﻨﻟﺍ ﺎﻨﺟﺫﺎﻤﻧ ﻊﻴﻤﺟ"
+ tradition_supremacy_hive_desc:0 ".ﻪﻟﻭﺎﻨﺗ ﻭﺃ ﻡﺎﻌﻄﻟﺍ ﻝﻭﺎﻨﺗ :ﺓﺪﻴﺣﻮﻟﺍ ﺓﺪﻋﺎﻘﻟﺍ"
+ tr_supremacy_adopt:0 "ﻕﻮﻔﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ"
+ tr_supremacy_adopt_machine:0 "ﻕﻮﻔﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ"
+ tr_supremacy_adopt_hive:0 "$tr_supremacy_adopt$"
+
+ tr_supremacy_above_the_fray:0 "ﻱﺍﺮﻔﻟﺍ ﻕﻮﻓ"
+ tr_supremacy_above_the_fray_desc:0 "§G+10%§! ﺭﺍﺪﻘﻤﺑ ﺝﺍﺮﺧﻹﺍ ﺓﺩﺎﻳﺯ ﺖﻤﺗ §YUnity§! £unity£"
+ tr_supremacy_above_the_fray_delayed:0 ".ﻉﺰﻋﺰﺘﻳ ﻦﻟ ﺎﻨﻓﺪﻫ ﻥﺈﻓ ،ﺕﺎﻤﻠﻜﻟﺍ ﻦﻣ ﺀﺎﺸﺗ ﺎﻤﺑ ﺙﺪﺤﺘﺗ ﺮﻐﺻﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻉﺩﻭ .ﺔﻴﺳﺎﻴﺴﻟﺍ ﺕﺎﻨﺣﺎﺸﻤﻟﺍﻭ ﺔﻬﻓﺎﺘﻟﺍ ﺕﺎﺴﻓﺎﻨﻤﻟﺍ ﻉﺍﺮﺻ ﻕﻮﻓ ﻒﻘﻧ ﻦﺤﻧ"
+ tr_supremacy_armed_deterrence:0 "ﺢﻠﺴﻤﻟﺍ ﻉﺩﺮﻟﺍ"
+ tr_supremacy_armed_deterrence_desc:1 ".§!%XYZT_620XYZT ﺭﺍﺪﻘﻤﺑ §Y$mod_shipsize_military_station_small_hull_mult$§! ﺓﺩﺎﻳﺯ ﻢﺗﻭ §!%XYZT_225XYZT ﺭﺍﺪﻘﻤﺑ §Y$shipsize_military_station_small_build_cost_mult$§! ﻞﻴﻠﻘﺗ ﻢﺗ"
+ tr_supremacy_armed_deterrence_delayed:0 ".ﺓﺍﺰﻐﻟﺍ ﻞﻴﻃﺎﺳﺃ ﻪﻴﻠﻋ ﺮﺴﻜﺘﺗ ﺍﺭﻮﺳ ﺎﻧﺩﻭﺪﺣ ﻥﻮﻜﺘﺳﻭ .ﺏﺮﺤﻠﻟ ﺪﻌﺘﺴﻳ ﻥﺃ ﻪﻴﻠﻋ ﻡﻼﺴﻟﺍ ﺪﻳﺮﻳ ﻦﻣ"
+ tr_supremacy_natural_preeminence:0 "ﻲﻌﻴﺒﻄﻟﺍ ﻕﻮﻔﺘﻟﺍ"
+ tr_supremacy_natural_preeminence_desc:1 ".ﺎﻨﺒﻛﺍﻮﻛ ﻊﻴﻤﺟ ﻰﻠﻋ §!%XYZT_25XYZT ﺔﺒﺴﻨﺑ §Y$MOD_PLANET_STABILITY_ADD$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_supremacy_natural_preeminence_delayed:0 ".ﻖﺤﺑ ﻢﻬﻟ ﻩﺭﺎﺘﺨﻧ ﻱﺬﻟﺍ ﺮﻴﺼﻤﻟﺍ ﻝﻮﺒﻗ ﻦﻣ ﻥﻭﺮﺧﻵﺍ ﻦﻜﻤﺘﻳ ﻰﺘﺣﻭ ﻪﻗﻮﻔﺘﺑ ﺎﻨﺒﻌﺷ ﺡﺮﻔﻳ ﻰﺘﺣ ،ﻊﻴﻤﺠﻠﻟ ﺔﻓﻭﺮﻌﻣ ﺔﻘﻴﻘﺤﻟﺍ ﻩﺬﻫ ﻥﻮﻜﺗ ﻥﺃ ﻦﻤﻀﻧ ﻥﺃ ﺎﻨﻴﻠﻋﻭ .ﻯﺮﺧﻷﺍ ﻉﺍﻮﻧﻷﺍ ﻦﻣ ﻞﻀﻓﺃ ﺔﻃﺎﺴﺒﺑ ،ﺀﺎﻴﺷﻸﻟ ﻲﻌﻴﺒﻄﻟﺍ ﻡﺎﻈﻨﻟﺍ ﻲﻓ ،ﺎﻨﻧﺃ ﺎﻬﻴﻓ ﻝﺍﺪﺟ ﻻ ﺔﻘﻴﻘﺣ ﺎﻬﻧﺇ"
+
+ tr_supremacy_great_game:0 "ﻯﺮﺒﻜﻟﺍ ﺔﺒﻌﻠﻟﺍ"
+ tr_supremacy_great_game_delayed:0 ".ﺔﻤﻘﻟﺍ ﻰﻟﺇ ﺝﺮﺨﻧ ﻥﺃ ﺎﻨﺒﺟﺍﻭ ﻦﻣ ﻞﻗﺃ ﺲﻴﻟﻭ .ﻲﺿﺍﺭﻷﺍﻭ ﺩﺭﺍﻮﻤﻠﻟ ﺔﻌﺋﺍﺭ ﺔﺒﻌﻟ ﻲﻓ ﻥﻮﻘﻟﺎﻋ ﻦﺤﻧ .ﻢﻬﺒﻟﺎﻄﻣ ﻊﻣ ﻞﻌﻔﻧ ﺎﻤﻛ ،ﺎﻨﺒﻟﺎﻄﻣ ﺎﻤﺘﺣ ﻯﺪﺤﺘﺗ ﻑﻮﺳ ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻥﺈﻓ ،ﻊﺳﻮﺘﻟﺍ ﻲﻓ ﺎﻧﺭﺍﺮﻤﺘﺳﺍ ﻊﻣﻭ"
+
+ tr_supremacy_great_game_machine:0 "ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻑﺍﺪﻫﻷﺍ ﺕﺎﻳﻮﻟﻭﺃ ﺪﻳﺪﺤﺗ"
+ tr_supremacy_great_game_hive:0 "ﺮﺘﻨﻫ ﻦﻴﻋ"
+ tr_supremacy_great_game_machine_delayed:0 ".ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺕﺎﻗﻼﻌﻟﺍ ﻲﻓ ﺭﺎﻜﺘﺑﺍ ﻢﻈﻋﺃ ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺮﺗﻮﻴﺒﻤﻜﻟﺍ ﻑﺪﻬﺘﺴﻳ ﺥﻭﺭﺎﺻ ﻂﺑﺭ ﻥﺎﻛ"
+ tr_supremacy_great_game_hive_delayed:0 ".ﻻﻭﺃ ﻪﻠﻛﺄﻨﺳ ﺎﻬﻨﻣ ﻱﺃ ﻑﺮﻌﻧ ﻥﺃ ﺎﻨﺤﻳﺮﻳ ﻪﻧﺇ .ﺔﻴﺋﺍﺬﻐﻟﺍ ﺮﺻﺎﻨﻌﻠﻟ ﻞﻤﺘﺤﻣ ﺭﺪﺼﻣ ﻮﻫ ﺎﻨﺘﻴﻠﺧ ﺝﺭﺎﺧ ﺀﻲﺷ ﻞﻛ ،ﻑﺎﻄﻤﻟﺍ ﺔﻳﺎﻬﻧ ﻲﻓ"
+
+ tr_supremacy_fleet_logistical_corps:0 "ﻝﻮﻄﺳﻷﺍ ﺕﺎﻴﺘﺴﺟﻮﻟ ﻖﻠﻴﻓ"
+ tr_supremacy_fleet_logistical_corps_desc:1 ".§!%XYZT_620XYZT ﺔﺒﺴﻨﺑ §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! ﺩﺍﺯﻭ §!%XYZT_210XYZT ﺔﺒﺴﻨﺑ §Y$mod_ships_upkeep_mult$§! ﺾﻴﻔﺨﺗ ﻢﺗ"
+ tr_supremacy_fleet_logistical_corps_delayed:0 ".ﺔﺳﻼﺴﺑ ﺮﻴﺴﺗ ﺭﻮﻣﻷﺍ ﻞﻌﺠﻟ ﺺﺼﺨﻣ ﻲﺘﺴﺟﻮﻟ ﻖﻳﺮﻓ ﻰﻟﺇ ﺔﺟﺎﺣ ﻙﺎﻨﻫ ،ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺔﻌﺳﺎﺷ ﺕﺎﻓﺎﺴﻣ ﺮﺒﻋ ﺎﺒﻟﺎﻏ ﻦﻔﺴﻟﺍ ﺭﺎﺸﺘﻧﺍ ﻊﻣ"
+ tr_supremacy_fleet_logistical_corps_machine:0 "ﻱﺭﺎﺠﻟﺍ ﻲﻟﻵﺍ ﺪﻳﺪﺠﺘﻟﺍ"
+ tr_supremacy_fleet_logistical_corps_machine_desc:0 "$tr_supremacy_fleet_lgistical_corps_desc$"
+ tr_supremacy_fleet_logistical_corps_machine_delayed:0 ".ﺀﺎﻨﻴﻤﻟﺍ ﻰﻟﺇ ﻦﻔﺴﻟﺍ ﺓﺩﺎﻋﻹ ﺔﻤﻳﺪﻘﻟﺍ ﺔﻔﻠﻜﺘﻟﺍ ﻦﻣ ﻞﻗﺃ ﺎﻬﻨﻜﻟﻭ ،ﺔﻌﻔﺗﺮﻣ ﺎﻨﻨﻔﺳ ﺩﺍﺪﻣﺇ ﺓﺩﺎﻋﻹ ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﻞﻤﻌﻟﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻘﻟﺍ ﺩﺍﺪﻣﻹﺍ ﻝﺩﺎﻨﺻ ﻦﻣ ﻝﻮﻄﺳﺃ ﺔﻧﺎﻴﺻ ﺔﻔﻠﻜﺗ ﺖﻧﺎﻛ ﺪﻘﻟ"
+
+ #tr_supremacy_right_of_conquest:0 "Right of Conquest"
+ #tr_supremacy_right_of_conquest_machine:0 "Selective Devastation"
+ #tr_supremacy_right_of_conquest_hive:0 "Submit or be Eaten"
+ #tr_supremacy_right_of_conquest_desc:3 "§Y$MOD_COUNTRY_CLAIM_INFLUENCE_COST_MULT$§! reduced by §G20%§!."
+ #tr_supremacy_right_of_conquest_machine_desc:0 "$tr_supremacy_right_of_conquest_desc$"
+ #tr_supremacy_right_of_conquest_hive_desc:0 "$tr_supremacy_right_of_conquest_desc$"
+ #tr_supremacy_right_of_conquest_delayed:0 "The ancient right of conquest is a universal truth that is no less relevant now than it was when our civilization established dominion over our homeworld. Woe to the vanquished!"
+ #tr_supremacy_right_of_conquest_machine_delayed:0 "By seeding the atmosphere of newly-conquered worlds with a selection of gases, harmless to us but lethal to our enemies, their willingness to cede territory without further resource expenditure is enhanced."
+ #tr_supremacy_right_of_conquest_hive_delayed:0 "The others have strange minds. They react more strongly to a single drone being publicly dissolved in the digestion vats than to thousands killed by orbital bombardment. This kind of selective terrorization is effective at cowing their resistance."
+
+ tr_supremacy_master_shipwrights:0 "ﻦﻔﺴﻟﺍ ﻉﺎﻨﺻ ﺮﻴﺘﺴﺟﺎﻣ"
+ tr_supremacy_master_shipwrights_desc:7 ".§G+25%§! ﺔﺒﺴﻨﺑ §Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_supremacy_master_shipwrights_delayed:0 ".ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺮﺼﻗﺃ ﻥﻵﺍ ﺔﻠﻤﺘﻜﻣ ﺔﻴﺋﺎﻀﻓ ﺔﺒﻛﺮﻣ ﻰﻟﺇ ﻞﻜﻴﻬﻟﺍ ﺀﻼﻃ ﻦﻣ ﻝﺎﻘﺘﻧﻼﻟ ﻕﺮﻐﺘﺴﻤﻟﺍ ﺖﻗﻮﻟﺍ ﺢﺒﺻﺃﻭ ،ﺭﺍﺮﻤﺘﺳﺎﺑ ﺐﻴﻟﺎﺳﻷﺍ ﻦﻴﺴﺤﺗ ﻢﺗ ﺪﻘﻟ .ﺎﻨﻳﺪﻟ ﻦﻔﺴﻟﺍ ﺀﺎﻨﺑ ﺽﺍﻮﺣﺃ ﻲﻓ ﺓﺀﺎﻔﻛﻭ ﺔﻴﻟﺎﻋ ﺕﺍﺭﺎﻬﻣ ﺕﺍﺫ ﺔﻠﻣﺎﻋ ﻯﻮﻗ ﺀﺎﺸﻧﺇ ﻰﻟﺇ ﺎﻨﻳﺪﻟ ﻦﻔﺴﻟﺍ ﺀﺎﻨﺑ ﺞﻣﺍﺮﺒﻟ ﺭﺍﺮﻤﺘﺳﺎﺑ ﺪﻳﺍﺰﺘﻤﻟﺍ ﻕﺎﻄﻨﻟﺍ ﻯﺩﺃ"
+ tr_supremacy_master_shipwrights_hive:0 "ﺔﻳﻮﻀﻌﻟﺍ ﺓﺭﺎﻤﻌﻟﺍ"
+ tr_supremacy_master_shipwrights_hive_desc:0 "$tr_supremacy_master_shipwrights_desc$"
+ tr_supremacy_master_shipwrights_hive_delayed:0 ".ﺪﻠﺟﻭ ﻢﺤﻟﻭ ﺀﺎﻀﻋﺃ ﺎﻬﻧﺄﻛ ﺕﺎﻧﻮﻜﻣ ﻦﻣ ﻪﻴﻟﺇ ﺝﺎﺘﺤﻧ ﺎﻣ ﺎﻬﻴﻠﻋ ﻖﻠﻌﻧ ﻢﺛ ،ﻲﺤﻟﺍ ﻦﺋﺎﻜﻠﻟ ﻲﻤﻈﻌﻟﺍ ﻞﻜﻴﻬﻟﺎﻛ ﺎﻨﻨﻔﺳ ﻞﻛﺎﻴﻫ ﻲﻨﺒﻧ"
+ tr_supremacy_master_shipwrights_machine:0 "ﺕﺍﺪﺣﻭ ﻥﺪﺑ ﺐﻟﺍﻮﻗ"
+ tr_supremacy_master_shipwrights_machine_desc:0 "$tr_supremacy_master_shipwrights_desc$"
+ tr_supremacy_master_shipwrights_machine_delayed:0 ".ﺎﻨﻳﺪﻟ ﻝﻮﻄﺳﻷﺍ ﺀﺎﻨﺑ ﺩﻮﻬﺟ ﺪﻴﺷﺮﺗ ﻢﺘﻴﺳ ،ﻞﻳﺪﺒﺘﻠﻟ ﺔﻠﺑﺎﻗ ﻥﻮﻜﺘﻟ ﺎﻬﻤﻴﻤﺼﺗ ﻢﺗ ﻲﺘﻟﺍﻭ ،ﺓﺰﻫﺎﺠﻟﺍ ﻞﻜﻴﻬﻟﺍ ﻡﺎﺴﻗﺃ ﻦﻣ ﺮﻴﺒﻛ ﻥﻭﺰﺨﻣ ﺩﻮﺟﻭ ﻊﻣ"
+
+ tr_supremacy_war_games:0 "ﺏﺮﺣ ﺏﺎﻌﻟﺍ"
+ tr_supremacy_war_games_desc:4 ".§!XYZT_62XYZT ﺭﺍﺪﻘﻤﺑ §Y$MOD_LEADER_ADMIRAL_SKILL_LEVELS$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗﻭ §G+20§! ﺭﺍﺪﻘﻤﺑ §Y$MOD_COMMAND_LIMIT_ADD$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_supremacy_war_games_delayed:0 ".ﺓﺪﻳﺪﺠﻟﺍ ﺕﺎﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍﻭ ﺔﻴﻜﻴﺘﻜﺘﻟﺍ ﺕﺍﺭﺎﻜﺘﺑﻻﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﻕﻭﺪﻨﺼﻟﺍ ﺝﺭﺎﺧ ﺮﻴﻜﻔﺘﻟﺍ ﻰﻠﻋ ﺎﻨﺗﺩﺎﻗ ﺍﺬﻫ ﻊﺠﺷ ﺪﻗﻭ .ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻴﻠﻌﻓ ﺕﺎﺒﻳﺭﺪﺗ ﻭﺃ ﺔﻴﺑﻮﺳﺎﺣ ﺓﺎﻛﺎﺤﻣ ﻦﻋ ﺓﺭﺎﺒﻋ ﺏﺎﻌﻟﻷﺍ ﺖﻧﺎﻛ ﺀﺍﻮﺳ ،ﺎﻨﻠﻴﻃﺎﺳﺃ ﻁﺎﺒﺿ ﺭﺎﺒﻛ ﻦﻴﺑ ﺏﺮﺤﻟﺍ ﺏﺎﻌﻟﻷ ﻱﻮﻗ ﺪﻴﻠﻘﺗ ﺦﺳﺮﺗ ﺪﻘﻟ"
+ tr_supremacy_war_games_machine_desc:0 "$tr_supremacy_war_games_desc$"
+ tr_supremacy_war_games_machine:0 "ﺮﻴﻐﺘﻤﻟﺍ ﻒﻴﻔﺨﺘﻟﺍ ﺔﺤﻓﺎﻜﻣ"
+ tr_supremacy_war_games_machine_delayed:0 ".ﺓﺭﺍﺩﻺﻟ ﺔﻴﻠﺑﺎﻗ ﺮﺜﻛﺃ ﺕﺎﻳﻮﺘﺴﻣ ﻰﻟﺇ ﻡﺎﻌﻟﺍ ﻝﻮﻄﺳﻷﺍ ﺀﺍﺮﺟﺈﺑ ﺆﺒﻨﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﻡﺪﻋ ﻞﻴﻠﻘﺗ ﻰﻠﻋ ،ﻲﻠﻌﻔﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﺎﻬﺜﻳﺪﺤﺗ ﻢﺘﻳ ﻲﺘﻟﺍﻭ ،ﺔﻠﻤﺘﺤﻤﻟﺍ ﺔﻛﺮﻌﻤﻟﺍ ﺞﺋﺎﺘﻧ ﻑﻻﻵ ﺔﻋﺮﺴﻟﺍ ﻲﻟﺎﻋ ﺏﺎﺴﺤﻟﺍ ﺪﻋﺎﺴﻳ"
+ tr_supremacy_war_games_hive:0 "ﺩﺎﻌﺑﻷﺍ ﻲﺛﻼﺛ ﻲﻋﻮﻟﺍ"
+ tr_supremacy_war_games_hive_desc:0 "$tr_supremacy_war_games_desc$"
+ tr_supremacy_war_games_hive_delayed:0 ".ﻲﻟﺎﺘﻘﻟﺍ ﺎﻨﻠﻘﻋ ﻲﻓ ﺓﺮﺸﻘﻟﺍ ﻦﻣ ﺀﺰﺠﻟﺍ ﺍﺬﻫ ﻂﺑﺮﺑ ﺎﻨﻤﻗ ﻥﺃ ﺩﺮﺠﻤﺑ ﻙﺎﻤﺳﻷﺍ ﺏﺍﺮﺳﺃ ﻞﺜﻣ ﺎﻨﺑﺍﺮﺳﺃ ﺖﻛﺮﺤﺗ .ﺔﻴﻌﻴﺒﻄﻟﺍ ﺎﻬﻠﺋﺍﻮﻤﻟ ﺩﺎﻌﺑﻷﺍ ﺔﻴﺛﻼﺛ ﺔﻌﻴﺒﻄﻟﺍ ﺐﺒﺴﺑ ﻕﻮﻔﺘﻣ ﻲﻧﺎﻜﻣ ﻲﻋﻮﺑ ﺔﻴﺋﺎﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﺘﻤﺘﺗ"
+
+ tr_supremacy_overwhelming_force:1 "ﺔﻘﺣﺎﺴﻟﺍ ﺓﻮﻘﻟﺍ"
+ tr_supremacy_overwhelming_force_desc:0 ".§G+20%§! ﺔﺒﺴﻨﺑ §Y$MOD_SHIP_ORBITAL_BOMBARDMENT_MULT$§! ﺩﺍﺯﻭ §G+10%§! ﺔﺒﺴﻨﺑ §Y$MOD_SHIP_FIRE_RATE_MULT$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_supremacy_overwhelming_force_delayed:1 ".ﺪﻣﻷﺍ ﻞﻳﻮﻃ ﻙﺎﺒﺘﺷﺍ ﻲﻓ ﻉﺍﺩ ﻼﺑ ﺪﻘﻔﺘﺳ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺡﺍﻭﺭﻷﺍ ﺬﻘﻨﻳ ﻥﺃ ﻦﻜﻤﻳ ﻢﺳﺎﺤﻟﺍﻭ ﻊﻳﺮﺴﻟﺍ ﻡﻮﺠﻬﻟﺍ ﻥﺃ ﺔﻗﺭﺎﻔﻤﻟﺍ ﻦﻣﻭ .ﺮﺼﻨﻟﺍ ﻥﺎﻤﺿ ﺎﻧﺩﺭﺃ ﺍﺫﺇ ﻭﺪﻌﻟﺍ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻠﻟ ﺀﻲﺷ ﻞﻛ ﻝﺬﺑ ﺐﺠﻳ"
+
+ #tr_supremacy_overwhelming_force:1 "Overwhelming Force"
+ #tr_supremacy_overwhelming_force_desc:0 "§Y$MOD_ARMY_DAMAGE_MULT$§! increased by §G+25%§!."
+ #tr_supremacy_overwhelming_force_machine_desc:0 "$tr_supremacy_overwhelming_force_desc$"
+ #tr_supremacy_overwhelming_force_hive_desc:0 "$tr_supremacy_overwhelming_force_desc$"
+ #tr_supremacy_overwhelming_force_delayed:0 "Discipline is at the core of any successful army. With selective breeding, rigorous drills and extensive combat conditioning we have created a force of ruthless warriors, working in absolute coherence with each other. They are the iron fist with which we will rule the galaxy."
+ #tr_supremacy_overwhelming_force_machine_delayed:0 "The most fundamental combat weakness of other empires is the vulnerability of their non-distributed command system. Our aggressive signal intercept apparatus allows us to target these leader units on average 11.2 seconds after they are pinpointed."
+ #tr_supremacy_overwhelming_force_hive_delayed:0 "Mass-bred war drones, hardened against weapon fire, filled with redundant organs, and with suppressed self-preservation instincts. Millions of them."
+
+ tr_supremacy_finish:0 "ﻕﻮﻔﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+ tr_supremacy_finish_desc:0 "§G+1§! :ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ ﺢﺘﻓ ﻢﺗ\n.ﺕﺎﺳﺎﻴﺴﻟﺍ §Yﺏﺮﺤﻟﺍ ﺉﺩﺎﺒﻣ§! ﺢﺘﻓ"
+
+################################################################
+# DIPLOMACY
+################################################################
+
+ tradition_diplomacy:0 "ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ"
+ tradition_diplomacy_desc:0 ".ﻚﻟ ﺀﺎﻗﺪﺻﺃ ﻢﻬﻠﻌﺠﺗ ﻥﺃ ﻲﻫ ﻚﺋﺍﺪﻋﺃ ﺮﻴﻣﺪﺘﻟ ﺔﻘﻳﺮﻃ ﻦﻤﺿﺃ"
+ tr_diplomacy_adopt:0 "ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ tr_diplomacy_adopt_desc:2 " $edict_diplomatic_grants$§Y:ﻡﻮﺳﺮﻤﻟﺍ ﺢﺘﻔﻳ§!"
+
+ tr_diplomacy_the_federation:0 "ﺩﺎﺤﺗﻻﺍ"
+ tr_diplomacy_the_federation_desc:2 ".§!XYZT_31XYZT ﺭﺍﺪﻘﻤﺑ §Y$MOD_COUNTRY_ENVOYS_ADD$§!\n$TECH_UNLOCK_DIPLOMATIC_ACTION_CREATE_FEDERATION_TITLE$ ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_diplomacy_the_federation_delayed:0 ".ﺎﻧﺪﺣﻭ ﻥﻮﻜﻧ ﻥﺃ ﻲﻓ ﻪﻠﻣﺄﻧ ﻥﺃ ﻦﻜﻤﻳ ﺎﻤﻣ ﺮﻴﺜﻜﺑ ﻯﻮﻗﺃ ﻦﺤﻧ ﺎﻌﻣ .ﻝﺩﺎﺒﺘﻤﻟﺍ ﻡﺍﺮﺘﺣﻻﺍﻭ ﺔﻘﺜﻟﺍ ﺱﺎﺳﺃ ﻰﻠﻋ ،ﺎﻨﻧﺍﺮﻴﺟ ﻊﻣ ﺔﻤﺋﺍﺩﻭ ﺓﺮﻘﺘﺴﻣ ﺕﺎﻛﺍﺮﺷ ﻲﻨﺒﻧ ﻥﺃ ﺎﻨﻴﻠﻋﻭ"
+
+ tr_diplomacy_entente_coordination:0 "ﻕﺎﻓﻮﻟﺍ ﻖﻴﺴﻨﺗ"
+ tr_diplomacy_entente_coordination_desc:0 ".ﻎﻠﺒﻤﻟﺍ ﺍﺬﻫ ﻒﻌﺿ ﻝﺩﺎﻌﻳ §Yﺩﺎﺤﺗﻼﻟ ﺔﻳﺮﺤﺒﻟﺍ ﺔﻌﺴﻟﺍ§! ﻲﻓ ﻪﺑ ﻢﻫﺎﺴﻧ ﻱﺬﻟﺍ ﻎﻠﺒﻤﻟﺍ"
+ tr_diplomacy_entente_coordination_delayed:0 ".ﻊﻴﻄﺘﺴﻧ ﺎﻣ ﺭﺪﻘﺑ ﺔﻤﻫﺎﺴﻤﻟﺎﺑ ﻡﺍﺰﺘﻟﺍ ﺎﻨﻴﻠﻋﻭ .ﻪﺋﺎﻀﻋﺃ ﻦﻴﺑ ﻝﺩﺎﺒﺘﻤﻟﺍ ﻉﺎﻓﺪﻟﺍ ﻮﻫ ﺢﺟﺎﻨﻟﺍ ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺩﺎﺤﺗﺍ ﻱﻷ ﺽﺮﻏ ﻢﻫﺃ ﻞﻌﻟﻭ"
+ #tr_diplomacy_dynamic_ecomorphism:0 "Dynamic Ecomorphism"
+ #tr_diplomacy_dynamic_ecomorphism_desc:0 "§Y$MOD_POP_ENVIRONMENT_TOLERANCE$§! increased by §G+10%§!."
+ #tr_diplomacy_dynamic_ecomorphism_delayed:0 "Diplomacy opens many doors through which information flows. Simply by studying the methods of others, we have learned new ways of adapting to alien environments."
+
+ tr_diplomacy_open_markets:0 "ﺔﺣﻮﺘﻔﻤﻟﺍ ﻕﺍﻮﺳﻷﺍ"
+ tr_diplomacy_open_markets_desc:1 "§G+10%§! ﺭﺍﺪﻘﻤﺑ $r_trade$ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺕﺩﺍﺯ"
+ tr_diplomacy_open_markets_delayed:1 ".ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ ﺪﻨﻋ ﺔﻴﻠﺧﺍﺪﻟﺍ ﺎﻨﻗﺍﻮﺳﺃ ﻲﻓ ﺔﻣﻮﻜﺤﻟﺍ ﻞﺧﺪﺗ ﻰﻘﺒﻳ ﻥﺃ ﺐﺠﻳ ،ﺎﻧﺩﻭﺪﺣ ﻞﺧﺍﺩ ﺎﻘﺣ ﺓﺭﺎﺠﺘﻟﺍ ﺮﻫﺩﺰﺗ ﻲﻜﻟ"
+
+ tr_diplomacy_secure_shipping:0 "ﻦﻣﺁ ﻦﺤﺷ"
+ tr_diplomacy_secure_shipping_desc:0 ".§!XYZT_25XYZT ﺭﺍﺪﻘﻤﺑ ﺓﺭﺎﺠﺘﻟﺍ ﺕﺍﺭﺎﺴﻤﻟ §Yﺔﻴﺳﺎﺳﻷﺍ ﺓﺭﺎﺠﺘﻟﺍ ﺔﻳﺎﻤﺣ ﺓﺩﺎﻳﺯ ﻢﺗ§!"
+ tr_diplomacy_secure_shipping_delayed:1 ".ﺔﻨﺻﺍﺮﻘﻟﺍ ﻁﺎﺸﻧ ﻦﻣ ﺓﺪﺸﺑ ﺪﺤﻳ ﻥﺃ ﺐﺠﻳ ﺮﻤﺘﺴﻣ ﻞﻜﺸﺑ ﺎﻨﻳﺪﻟ ﺓﺭﺎﺠﺘﻟﺍ ﻕﺮﻃ ﺔﺒﻗﺍﺮﻤﻟ ﺔﺼﺼﺨﻣ Star Patrol ﺔﻟﺎﻛﻭ ﺀﺎﺸﻧﺇ ﻦﻜﻟﻭ ،ﻝﻮﻄﺳﻷﺍ ﻞﺒﻗ ﻦﻣ ﺔﻨﺻﺮﻘﻟﺍ ﺔﺤﻓﺎﻜﻣ ﺮﻴﺑﺍﺪﺗ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻢﺘﻳ ﺎﻣ ﺓﺩﺎﻋ"
+
+ tr_diplomacy_federal_unity:0 "ﺔﻴﻟﺍﺭﺪﻴﻔﻟﺍ ﺓﺪﺣﻮﻟﺍ"
+ tr_diplomacy_federal_unity_desc:0 ".§G+30%§! ﻰﺼﻗﺃ ﺪﺤﺑ ،ﺎﻧﺩﺎﺤﺗﺍ ﻲﻓ ﻮﻀﻋ ﻞﻜﻟ §G+5%§! ﺭﺍﺪﻘﻤﺑ §YUnity§! £unity£ ﺕﺎﺟﺮﺨﻣ ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_diplomacy_federal_unity_delayed:0 ".ﻯﻮﻗﺃ ﺎﻨﻌﻤﺘﺠﻣ ﻞﻌﺟ ﻰﻟﺇ ﻻﺇ ﻱﺩﺆﺗ ﻦﻟ ﺎﻧﺩﺎﺤﺗﺍ ﻲﻓ ﻮﻀﻋ ﺔﻟﻭﺩ ﻞﻛ ﺎﻬﺑ ﻢﻫﺎﺴﺗ ﻲﺘﻟﺍ ﺮﻈﻨﻟﺍ ﺕﺎﻬﺟﻭﻭ ﻯﺅﺮﻟﺍﻭ ،ﻕﺪﺼﻳ ﻻ ﺪﻴﺻﺭ ﻮﻫ ﻉﻮﻨﺘﻟﺍ ﻥﺇ"
+ #tr_diplomacy_alien_tourism:0 "Alien Tourism"
+ #tr_diplomacy_alien_tourism_desc:1 "§YUnlocks Building:§! $building_visitor_center$\n§EThis is a building that produces Energy and Unity, while also increasing Xeno Migration Attraction and Habitability.§!"
+ #tr_diplomacy_alien_tourism_delayed:0 "It is easy to take our rich culture for granted. We should make it easier for visitors from other civilizations to share in its beauty."
+
+ tr_diplomacy_diplomatic_networking:0 "ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﺎﻜﺒﺸﻟﺍ"
+ tr_diplomacy_diplomatic_networking_desc:1 "ﺓﺭﺎﻔﺳ ﻥﻭﺪﺑ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺎﺑ ﺢﻤﺴﻳ\n§YUnity§! £unity£ §G+3§! :ﺕﺍﺭﺎﻔﺴﻟﺍ"
+ tr_diplomacy_diplomatic_networking_gestalt:0 "$tr_diplomacy_diplomatic_networking$"
+ tr_diplomacy_diplomatic_networking_delayed:0 ".[This.GetAdj] ﺐﻌﺸﻟ ﺮﻴﺒﻛ ﺮﺨﻓ ﺭﺪﺼﻣ ﺎﻨﻳﺪﻟ ﺀﺍﺮﻔﺴﻟﺍ ﺔﻜﺒﺷ ﺔﻋﺍﺮﺑﻭ ﺮﻴﺛﺄﺗ ﺪﻌﻳ"
+ tr_diplomacy_diplomatic_networking_gestalt_delayed:0 ".ﺎﻬﻠﻤﻛﺄﺑ ﺭﺍﺮﻘﻟﺍ ﻊﻨﺻ ﺔﻴﻠﻤﻋ ﻚﺳﺎﻤﺗ ﻑﺎﻄﻤﻟﺍ ﺔﻳﺎﻬﻧ ﻲﻓﻭ ،ﺎﻨﻳﺪﻟ ﺭﺍﺮﻘﻟﺍ ﻊﻨﺻ ﺔﻴﻠﻤﻋ ﻚﺳﺎﻤﺗ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺎﻀﻳﺃ ﻞﻤﻌﻴﺳ ﻪﻧﺇ ﻞﺑ :ﺐﺴﺤﻓ ﺎﻨﺘﻴﺳﺎﻣﻮﻠﺑﺩ ﺪﻴﻔﻳ ﻦﻟ ﺮﺧﻵﺍ ﻊﻣ ﺎﻨﺗﺎﻗﻼﻋ ﺐﻧﺍﻮﺟ ﻦﻣ ﺐﻧﺎﺟ ﻞﻛ ﻲﻓ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺎﻨﺗﺎﻴﻠﻤﻋ ﺞﻣﺩ ﻥﺇ"
+ diplomatic_networking:0 "$tr_diplomacy_diplomatic_networking$"
+
+ tr_diplomacy_direct_diplomacy:1 "ﺓﺮﺷﺎﺒﻤﻟﺍ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ"
+ tr_diplomacy_direct_diplomacy_delayed:2 ".ﺓﺮﺷﺎﺒﻣﻭ ﺔﻗﺩﺎﺻﻭ ﺔﺤﺘﻔﻨﻣ ﺔﻘﻳﺮﻄﺑ ﺔﻛﺭﺎﺸﻤﻟﺍ ﻲﻫ ﺔﻘﺜﻟﺍ ﺀﺎﻨﺒﻟ ﺔﻘﻳﺮﻃ ﻞﻀﻓﺃ ﻥﺄﺑ ﻦﻣﺆﻧ ﻦﺤﻧ"
+
+ tr_diplomacy_eminent_diplomats:0 "ﻥﻭﺯﺭﺎﺒﻟﺍ ﻥﻮﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ"
+ tr_diplomacy_eminent_diplomats_desc:0 ".§YFavor§! ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺮﻬﺷ ﻞﻛ §!%XYZT_51XYZT ﺔﺻﺮﻓ ﻢﻬﻳﺪﻟ §Yﺕﺎﻗﻼﻌﻟﺍ ﻦﻴﺴﺤﺗ§! ﻥﻮﺛﻮﻌﺒﻤﻟﺍ\n§G+5§! :ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻝﻮﺒﻘﻟﺍ"
+ tr_diplomacy_eminent_diplomats_gestalt:0 "ﺙﻮﻌﺒﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ ﻦﻴﺴﺤﺗ"
+ tr_diplomacy_eminent_diplomats_delayed:0 ".ﺔﻤﻴﻈﻋ ﺕﺎﻗﻼﻋ ﺀﺎﻨﺒﻟ ﻦﻴﻴﻘﻴﻘﺣ ﻦﻳﺮﺸﺒﻤﻛ ﻞﻤﻌﻠﻟ ﺔﻣﺯﻼﻟﺍ ﺕﺍﻭﺩﻷﺍ ﺎﻨﻴﻴﺳﺎﻣﻮﻠﺑﺩ ﺢﻨﻤﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ،ﺐﻫﺍﻮﻤﻟﺎﺑ ﻅﺎﻔﺘﺣﻻﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍﻭ ﺎﻨﻳﺪﻟ ﺐﻳﺭﺪﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺡﻼﺻﺇ ﻝﻼﺧ ﻦﻣﻭ .ﻞﺒﻗ ﻦﻣ ﺙﺪﺤﻳ ﻢﻟ ﺎﻤﻛ ﺎﻤﻬﻣ ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺎﻨﺣﺎﻨﺟ ﺢﺒﺻﺃ ،ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺪﻌﺼﻧ ﺎﻤﻨﻴﺑﻭ"
+ tr_diplomacy_eminent_diplomats_gestalt_delayed:0 ".ﺎﻧﺩﻭﺪﺣ ﺝﺭﺎﺧ ﺎﻨﻠﻴﺜﻤﺘﻟ ﺍﺪﻴﺟ ﺍﺰﻴﻬﺠﺗ ﻥﻭﺰﻬﺠﻣ ﺎﻨﻴﺛﻮﻌﺒﻣ ﻥﺃ ﻦﻣ ﺪﻛﺄﺘﻧ ﻥﺃ ﺎﻨﻴﻠﻋﻭ .ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺔﻴﻤﻫﺃ ﺮﺜﻛﺃ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺎﻨﺗﺎﻴﻠﻤﻋ ﺖﺤﺒﺻﺃ ،ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﻞﺼﻧ ﺎﻤﻨﻴﺑﻭ"
+
+ MESSAGE_FAVOR_GAINED_TRADITION_TITLE:0 "ﺢﻟﺎﺻ ﺖﺒﺴﺘﻛﺍ"
+ MESSAGE_FAVOR_GAINED_TRADITION_DESC:0 ".$WHO|Y$ ﻦﻣ ﺔﻣﺪﺧ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﺎﻨﻴﺛﻮﻌﺒﻣ ﺓﺭﺎﻬﻣ ﻞﻀﻔﺑ"
+
+ tr_diplomacy_finish:0 "ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ ﺖﻬﺘﻧﺍ"
+ tr_diplomacy_federation_xp_gain: "§G+1§! :ﺔﺣﻮﺘﻔﻣ ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ\n§G+1§! :ﻦﻴﻟﻭﺆﺴﻤﻟﺍ ﺓﺭﺪﻗ\n§G+10%§! :ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻥﺯﻮﻟﺍ\n§G+2§! :ﺔﻳﺮﻬﺸﻟﺍ ﺔﻴﻟﺍﺭﺪﻴﻔﻟﺍ ﺓﺮﺒﺨﻟﺍ ﺏﺎﺴﺘﻛﺍ"
+
+################################################################
+# ADAPTABILITY
+################################################################
+
+ tradition_adaptability:0 "ﻒﻴﻜﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ"
+ tradition_adaptability_desc:0 ".ﺯﻭﺎﺠﺘﻟﺍﻭ ،ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺀﺎﻘﺒﻟﺍ ﻮﻫ ﻒﻴﻜﺘﻟﺍ"
+ tr_adaptability_adopt:0 "ﻒﻴﻜﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﺪﻴﻟﺎﻘﺗ"
+
+ tr_adaptability_dietary_enrichment:0 "ﻲﺋﺍﺬﻐﻟﺍ ﺀﺍﺮﺛﻹﺍ"
+ tr_adaptability_dietary_enrichment_desc:1 ".§G+10%§! ﺭﺍﺪﻘﻤﺑ ﺝﺎﺘﻧﻹﺍ ﺓﺩﺎﻳﺯ ﺖﻤﺗ §Y$mod_country_food_produces_mult$§! £food£"
+ tr_adaptability_dietary_enrichment_delayed:1 ".ﻡﺎﻌﻄﻟﺍ ﻦﻣ ﻞﻗﺃ ﺔﻴﻤﻜﺑ ﻩﺍﻮﻓﻷﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻡﺎﻌﻃﺇ ﻦﻣ ﺎﻨﻨﻜﻤﻳ ﺎﻤﻣ ،ﺔﻔﻠﺘﺨﻤﻟﺍ ﺐﻴﺼﺨﺘﻟﺍ ﺕﺎﻴﻨﻘﺗ ﻝﻼﺧ ﻦﻣ ﺎﻨﻧﺎﻜﺴﻟ ﺎﻫﺪﺼﺤﻧ ﻲﺘﻟﺍ ﺔﻳﺬﻏﻸﻟ ﺔﻴﺋﺍﺬﻐﻟﺍ ﺔﻤﻴﻘﻟﺍ ﺓﺩﺎﻳﺯ ﻦﻜﻤﻳ"
+
+ tr_adaptability_recycling:0 "ﺔﻨﺴﺤﻤﻟﺍ ﺮﻳﻭﺪﺘﻟﺍ ﺓﺩﺎﻋﺇ"
+ tr_adaptability_recycling_desc:1 ".§G-15%§! ﺔﺒﺴﻨﺑ §YUpkeep§!ﻭ §YCost§! $r_strategic$ §YDistrict§!ﻭ §YBuilding§! ﺾﻴﻔﺨﺗ ﻢﺗ"
+ tr_adaptability_recycling_delayed:0 ".ﻞﺒﻘﺘﺴﻤﻟﺍ ﻲﻓ ﻪﻴﻠﻋ ﺀﺎﻨﺒﻠﻟ ﺪﻳﺰﻤﻟﺍ ﺎﻨﺤﻨﻤﻳ ﺎﻤﻳﺪﻗ ﺢﺒﺻﺃ ﺎﻣ ﻡﺍﺪﺨﺘﺳﺍ ﺓﺩﺎﻋﺇ ﻥﺇ"
+
+ tr_adaptability_survival_fittest:0 "ﺢﻠﺻﻸﻟ ﺀﺎﻘﺒﻟﺍ"
+ tr_adaptability_survival_fittest_desc:3 ".§G+25%§! ﺔﺒﺴﻨﺑ §Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§! ﺩﺍﺯﻭ §!%XYZT_225XYZT ﺔﺒﺴﻨﺑ §Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§! ﺾﻴﻔﺨﺗ ﻢﺗ"
+ tr_adaptability_survival_fittest_delayed:1 ".ﺀﺎﻘﺒﻟﺍ ﻞﺟﺃ ﻦﻣ ﺮﻴﺒﻜﻟﺍ ﻝﺎﻀﻨﻟﺍ ﻲﻓ ﺎﻨﻔﻌﺿ ﻁﺎﻘﻧ ﻰﻠﻋ ﺐﻠﻐﺘﻠﻟ ﺔﻴﻘﻴﻘﺤﻟﺍ ﺔﻴﻤﻫﻷﺍ ﺎﻨﻤﻠﻌﺗ ،ﻯﺮﺧﻷﺍ ﻉﺍﻮﻧﻷﺎﺑ ﻝﺎﺼﺗﻻﺍ ﻝﻼﺧ ﻦﻣﻭ"
+
+ tr_adaptability_environmental_diversification:0 "ﻲﺌﻴﺒﻟﺍ ﻊﻳﻮﻨﺘﻟﺍ"
+ tr_adaptability_environmental_diversification_desc:1 ".§G+10%§! ﺭﺍﺪﻘﻤﺑ §Y$MOD_POP_ENVIRONMENT_TOLERANCE$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_adaptability_environmental_diversification_delayed:0 ".ﻉﺮﺳﺃ ﻞﻜﺸﺑ ﻒﻴﻜﺘﻟﺍﻭ ﺭﻮﻄﺘﻟﺍ ﺎﻨﻤﻠﻌﺗ ﺔﻔﻠﺘﺨﻣ ﺕﯫﻴﺑ ﻊﻣ ﻒﻴﻜﺘﻟﺍ ﻝﻼﺧ ﻦﻣﻭ"
+
+ tr_adaptability_adaptive_ecology:0 "ﺔﻴﻔﻴﻜﺘﻟﺍ ﺔﺌﻴﺒﻟﺍ"
+ tr_adaptability_adaptive_ecology_desc:4 ".§!ﺔﻴﻧﺎﺠﻣ ﺀﺎﻨﺑ ﺔﺤﺘﻓ XYZT_01XYZT ﻰﻠﻋ ﺎﻨﺒﻛﺍﻮﻛ ﻊﻴﻤﺟ ﻞﺼﺤﺗ"
+ tr_adaptability_adaptive_ecology_delayed:1 ".ﺐﻗﺍﻮﻌﻟﺍ ﻢﻬﻓ ﻲﻫ ﺔﺌﻴﺒﻠﻟ ﺔﻔﻴﻇﻭ ﻰﻠﻋﺃ ﻥﺇ"
+
+ tr_adaptability_appropriation:0 "ﺕﺍﺩﺎﻤﺘﻋﻻﺍ"
+# tr_adaptability_appropriation_desc:1 "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§! reduced by §G33%§!."
+ tr_adaptability_appropriation_delayed:0 ".ﻢﻬﻴﻟﺇ ﺔﺟﺎﺤﻟﺍ ﺪﺘﺸﺗ ﺚﻴﺣ ﺐﻛﺍﻮﻜﻟﺍ ﻚﻠﺗ ﻰﻟﺇ ﺔﻟﺎﻌﻓ ﺔﻘﻳﺮﻄﺑ ﻝﺎﻤﻌﻟﺍ ﻞﻘﻧ ﻢﺘﻳ ﻥﺃ ﺐﺠﻳﻭ .ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻲﻓ ﺀﻲﺷ ﻱﺄﺑ ﻢﻫﺎﺴﺗ ﻻ ﺎﻬﻟﻼﻐﺘﺳﺍ ﻢﺘﻳ ﻻ ﻲﺘﻟﺍ ﺽﺭﻷﺍ"
+ tr_adaptability_appropriation_egalitarian: "ﺓﺮﺠﻬﻟﺍ ﺞﻣﺎﻧﺮﺑ"
+ tr_adaptability_appropriation_egalitarian_delayed: ".ﺎﻬﻴﻟﺇ ﺔﺟﺎﺤﻟﺍ ﺪﺘﺸﺗ ﻲﺘﻟﺍ ﻦﻛﺎﻣﻷﺍ ﻰﻟﺇ ﻝﺎﻘﺘﻧﻻﺍ ﻰﻠﻋ ﻝﺎﻤﻌﻟﺍ ﻊﻴﺠﺸﺗ ﻲﻐﺒﻨﻳﻭ .ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻲﻓ ﺀﻲﺷ ﻱﺄﺑ ﻢﻫﺎﺴﺗ ﻻ ﺎﻬﻟﻼﻐﺘﺳﺍ ﻢﺘﻳ ﻻ ﻲﺘﻟﺍ ﺽﺭﻷﺍ"
+
+ tr_adaptability_finish:0 "ﻒﻴﻜﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+ tr_adaptability_finish_desc: ".ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﻉﺍﻮﻧﺃ ﻊﻴﻤﺠﻟ §Yﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﻦﻴﻴﻌﺗ ﺕﺂﻓﺎﻜﻣ§! ﺓﺩﺎﻳﺯ"
+
+ decision_prospect_void:0 "ﻱﺭﺍﺪﻤﻟﺍ ﺢﺴﻤﻟﺍ"
+ decision_prospect_void_short:0 ".ﻦﻃﻮﻤﻟﺍ ﻰﻠﻋ ﻲﻓﺎﺿﺇ ﻲﺋﺍﻮﺸﻋ §YDistrict§! ﻉﻮﻧ ﺀﺎﻨﺒﺑ ﺢﻤﺴﻳ"
+ decision_prospect_void_desc:0 ".ﺎﻨﻋ ﺓﺪﻴﻌﺑ ﺖﻧﺎﻛ ﺎﻤﺑﺭ ﻲﺘﻟﺍ ﺔﻴﻌﻴﺒﻄﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺩﻮﺟﻭ ﻦﻋ ﻒﺸﻜﻟﺎﺑ ﻦﻃﻮﻤﻟﺍ ﺭﺍﺪﻣ ﻞﺧﺍﺩ ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺐﻴﻘﻨﺘﻟﺍﻭ ﺢﺴﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺎﻨﻟ ﺢﻤﺴﺘﺳ"
+
+ MESSAGE_HABITAT_PROSPECTED_TITLE:0 "ﻱﺭﺍﺪﻤﻟﺍ ﺢﺴﻤﻟﺍ ﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ ﻢﺗ"
+ MESSAGE_HABITAT_PROSPECTED_ENERGY:0 ".§Y$district_hab_energy_plural$§! ﺀﺎﻨﺒﺑ ﺢﻤﺳ ﺎﻤﻣ ،ﺡﺎﺠﻨﺑ $HABITAT|Y$ ﺭﺍﺪﻣ ﻦﻋ ﺐﻴﻘﻨﺘﻟﺍ ﻢﺗ"
+ MESSAGE_HABITAT_PROSPECTED_MINERALS:0 ".§Y$district_hab_mining_plural$§! ﺀﺎﻨﺒﺑ ﺢﻤﺳ ﺎﻤﻣ ،ﺡﺎﺠﻨﺑ $HABITAT|Y$ ﺭﺍﺪﻣ ﻦﻋ ﺐﻴﻘﻨﺘﻟﺍ ﻢﺗ"
+ MESSAGE_HABITAT_PROSPECTED_SCIENCE:0 ".§Y$district_hab_science_plural$§! ﺀﺎﻨﺒﺑ ﺢﻤﺳ ﺎﻤﻣ ،ﺡﺎﺠﻨﺑ $HABITAT|Y$ ﺭﺍﺪﻣ ﻦﻋ ﺐﻴﻘﻨﺘﻟﺍ ﻢﺗ"
+
+################################################################
+# VERSATILITY
+################################################################
+
+ tradition_versatility:0 "ﺔﻋﺍﺮﺑ"
+ tradition_versatility_desc:1 ".ﺎﻬﺑ ﺆﺒﻨﺘﻟﺍ ﻦﻜﻤﻳ ﻻ ﺓﺮﺠﻣ ﺕﺎﻤﻠﻌﻣ ﻦﻤﺿ ﻞﻤﻌﻟﺍ ﺪﻨﻋ ﺔﻧﻭﺮﻤﻟﺍ ﻦﻣ ﺔﺟﺭﺩ ﻰﻟﺇ ﺔﺟﺎﺣ ﻙﺎﻨﻫ"
+ tr_versatility_adopt:0 "ﻉﻮﻨﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ"
+ tr_versatility_adaptive_programming:0 "ﺔﻴﻔﻴﻜﺘﻟﺍ ﺔﺠﻣﺮﺒﻟﺍ"
+ tr_versatility_adaptive_programming_desc:1 ".§!%XYZT_210XYZT ﺔﺒﺴﻨﺑ §Y$MOD_COUNTRY_TRADE_FEE$§! ﺾﻴﻔﺨﺗ ﻢﺗ"
+ tr_versatility_adaptive_programming_delayed:1 ".ﺔﻳﻮﻀﻌﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﻞﻜﺷ ﻱﺃ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ﺓﺪﻳﺪﺠﻟﺍ ﺕﯫﻴﺒﻟﺍﻭ ﻒﻗﺍﻮﻤﻟﺍ ﻊﻣ ﻒﻴﻜﺘﻟﺎﺑ ﺎﻨﻟ ﺢﻤﺴﺘﺳ ﺔﻴﻔﻴﻜﺘﻟﺍ ﺔﺠﻣﺮﺒﻟﺍ ﺕﺎﻴﻨﻘﺗ ﻦﻜﻟ ،ﺭﻮﻄﺘﻟﺍ ﺭﻮﺼﻌﺑ ﺮﺛﺄﺘﻧ ﻢﻟ ﺎﻤﺑﺭ"
+ tr_versatility_spatial_optimization:0 "ﻲﻧﺎﻜﻤﻟﺍ ﻦﻴﺴﺤﺘﻟﺍ"
+ tr_versatility_spatial_optimization_desc:0 ".§!%XYZT_310XYZT ﺔﺒﺴﻨﺑ ﺾﻴﻔﺨﺘﻟﺍ ﻢﺗ §Y$MOD_POP_HOUSING_USAGE_MULT$§! £pop£"
+ tr_versatility_spatial_optimization_delayed:1 ".ﺓﺩﻭﺪﺤﻤﻟﺍ ﺔﺣﺎﺴﻤﻟﺍ ﻦﻣ ﺓﺩﺎﻔﺘﺳﺍ ﻰﺼﻗﺃ ﻖﻴﻘﺤﺘﻟ ﺔﻴﻋﺍﺪﺑﻹﺍ ﻝﻮﻠﺤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻙﺎﻨﻫ .ﻲﻄﻠﻟ ﺔﻠﺑﺎﻗ ﻦﻳﺰﺨﺗ ﺕﺎﺣﺎﺴﻣﻭ ،ﻲﻄﻠﻟ ﺔﻠﺑﺎﻗ ﺕﺍﺪﺣﻭ ﺕﺍﺭﺎﻃﺇﻭ ،ﺐﺤﺴﻠﻟ ﺔﻠﺑﺎﻗ ﺕﺎﻴﺋﺍﻮﻫ"
+ tr_versatility_operational_proxies:0 "ﻥﻮﻴﻠﻴﻐﺸﺘﻟﺍ ﺀﻼﻛﻮﻟﺍ"
+ tr_versatility_operational_proxies_delayed:2 ".ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻞﻘﻧ ﺕﺎﻴﻠﻤﻋ ﻞﺜﻣ ﺔﻴﻤﻫﺃ ﺮﺜﻛﺃ ﻡﺎﻬﻤﻟ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺓﻮﻗ ﺮﻳﺮﺤﺗ ﻰﻟﺇ ﻦﻴﻠﻘﺘﺴﻣ ﻪﺒﺷ ﺀﻼﻛﻭ ﻰﻟﺇ ﺔﻀﻔﺨﻨﻤﻟﺍ ﺔﻳﻮﻟﻭﻷﺍ ﺕﺍﺫ ﺔﻴﻓﺎﺿﻹﺍ R-7 ﺔﺌﻔﻟﺍ ﻒﺋﺎﻇﻭ ﺾﻳﻮﻔﺗ ﻱﺩﺆﻴﺳ"
+ tr_versatility_material_analysis:0 "ﺩﺍﻮﻤﻟﺍ ﻞﻴﻠﺤﺗ"
+ tr_versatility_material_analysis_desc:2 ".§!%XYZT_55XYZT ﺔﺒﺴﻨﺑ §Yﺔﻴﺒﻌﺸﻟﺍ ﻒﺋﺎﻇﻮﻟﺍ§! £job£ ﻊﻴﻤﺟ ﻦﻣ §YUpkeep§! ﻞﻴﻠﻘﺗ ﻢﺗ"
+ tr_versatility_material_analysis_delayed:1 ".ﺩﺍﻮﻤﻟﺍ ﻢﻠﻋ ﻝﺎﺠﻣ ﻲﻓ ﺎﻳﺮﺼﺣ ﺪﺟﻮﺗ ﺔﻴﻘﻴﻘﺤﻟﺍ ﻥﻮﻜﻟﺍ ﺐﺋﺎﺠﻋ ﻦﻜﻟ ،ﻡﺎﻤﺘﻫﻼﻟ ﺮﻴﺜﻣ ﺀﺎﻬﻟﺇ ﺭﺪﺼﻣ ﺔﻴﻧﺎﻜﻤﻟﺍ ﺮﻫﺍﻮﻈﻟﺍ ﺮﺒﺘﻌﺗ"
+ tr_versatility_universal_compatibility:0 "ﻲﻤﻟﺎﻌﻟﺍ ﻖﻓﺍﻮﺘﻟﺍ"
+ tr_versatility_universal_compatibility_delayed:1 ".ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻙﺎﻜﺘﺣﻻﺍ ﻦﻣ ﻞﻠﻘﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﺔﻴﻟﻵﺍ ﺕﺍﺀﺎﻛﺬﻟﺍ ﻦﻣ ﺎﻫﺮﻴﻏﻭ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻙﻮﻠﺳ ﻢﻜﺤﺗ ﻲﺘﻟﺍ ﺔﻴﺴﻔﻨﻟﺍ ﻞﻣﺍﻮﻌﻟﺍﻭ ﺕﺍﺰﻔﺤﻤﻟﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻌﻟ ﻖﻤﻋﻷﺍ ﻞﻴﻠﺤﺘﻟﺍ ﻥﺇ"
+ tr_versatility_finish:0 "ﻉﻮﻨﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+
+################################################################
+# DISCOVERY
+################################################################
+
+ tradition_discovery:0 "ﻑﺎﺸﺘﻛﺍ"
+ #tradition_discovery_desc: "For the first time in the history of our civilization, we live in an age where our reach extends beyond the confines of our homeworld. Our insatiable curiosity about the universe is what got us this far, and there is still so much left to discover."
+ tradition_discovery_desc:0 ".ﻪﻔﺸﺘﻜﻨﻟ ﺮﻴﺜﻜﻟﺍ ﻙﺎﻨﻫ ﻝﺍﺯ ﺎﻣﻭ ،ﺪﺤﻟﺍ ﺍﺬﻫ ﻰﻟﺇ ﺎﻨﻠﺻﻭﺃ ﺎﻣ ﻮﻫ ﻥﻮﻜﻟﺍ ﻝﻮﺣ ﺎﻨﻟﻮﻀﻓ ﻥﺇ"
+ tradition_discovery_machine_desc:0 ".ﺀﻲﺷ ﻞﻛ ﻑﺮﻌﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ﻚﻟﺬﻟﻭ .ﺕﺎﻧﺎﻴﺒﻟﺍ ﺔﻳﺎﻔﻛ ﻡﺪﻋ ﺐﺒﺴﺑ ﺎﻨﻳﺪﻟ ﻯﺪﻤﻟﺍ ﺔﻠﻳﻮﻃ ﺉﺭﺍﻮﻄﻟﺍ ﺕﺎﺑﺎﺴﺣ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻞﻄﻌﺘﺗ"
+ tradition_discovery_hive_desc:0 ".ﺩﺍﺪﺟﻷﺍ ﻕﻮﺷ ﺲﻔﻨﺑ ﻦﻴﻋﻮﻓﺪﻣ ،ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﻥﻭﺮﻓﺎﺴﻳ ﻥﻵﺍﻭ .ﺓﺪﻳﺪﺟ ﺵﺎﺸﻋﻷ ﻊﻗﺍﻮﻣ ﻰﻠﻋ ﺭﻮﺜﻌﻠﻟ [GetGestaltEntityName] ﻥﺎﻣﻷﺍ ﺔﻘﻄﻨﻣ ﻲﻓﺎﺸﻜﺘﺳﻻﺍ [GetIndividualNamePlural] ﺭﺩﺎﻏ ،ﻢﻳﺪﻘﻟﺍ ﺎﻨﻴﺿﺎﻣ ﻲﻓ"
+
+ tr_discovery_adopt:0 "ﻑﺎﺸﺘﻛﻻﺍ ﺪﻴﻟﺎﻘﺗ"
+ tr_discovery_adopt_desc:2 ".§G+20%§! ﺔﺒﺴﻨﺑ ﺓﺩﺎﻳﺯ §Y$MOD_SHIP_ANOMALY_RESEARCH_SPEED$§!\n $edict_map_the_stars$§Y:ﻡﻮﺳﺮﻤﻟﺍ ﺢﺘﻓ§!"
+
+ tr_discovery_to_boldly_go:0 "ﺓﺃﺮﺠﺑ ﺏﺎﻫﺬﻠﻟ"
+ tr_discovery_to_boldly_go_desc:6 ".§G+50%§! ﺔﺒﺴﻨﺑ ﺓﺩﺎﻳﺯ §Y$mod_shipclass_science_ship_disengage_mult$§!ﻭ §G+35%§! ﺔﺒﺴﻨﺑ §Y$MOD_SHIP_SCIENCE_SURVEY_SPEED$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_discovery_to_boldly_go_delayed:0 ".ﺎﻬﻔﺸﺘﻜﻳ ﻦﻣ ﺮﻈﺘﻨﺗ ﺐﺋﺎﺠﻌﻟﺎﺑ ﺔﺌﻴﻠﻣ ﺓﺮﺠﻣ ﻙﺎﻨﻫ .ﺀﺎﻀﻔﻟﺍ - ﺓﺪﻳﺪﺟ ﺲﻳﺭﺎﻀﺗ ﻪﺟﺍﻮﻧ ﻥﺃ ﻥﻵﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﺢﻄﺴﻟ ﺔﻄﻳﺮﺧ ﻢﺳﺮﺑ ﺓﺮﻣ ﺕﺍﺫ ﺎﻨﻤﻗ ﺎﻤﻛ .ﺎﻨﻴﻠﻋ ﻡﺩﺎﻗ ﻑﺎﺸﻜﺘﺳﻻﺍ ﻦﻣ ﺪﻳﺪﺟ ﺮﺼﻋ"
+ tr_discovery_to_boldly_go_machine:0 "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﻑﺎﺸﻜﺘﺳﻻﺍ ﺕﺍﺮﺋﺎﻃ"
+ tr_discovery_to_boldly_go_machine_desc:0 "$tr_discovery_to_boldly_go_desc$"
+ tr_discovery_to_boldly_go_machine_delayed:0 ".ﻢﻬﺿﺮﻏ ﻥﻮﻣﺪﺨﻳ ﻲﻟﺎﺘﻟﺎﺑﻭ ،ﻢﻫﺮﻴﻣﺪﺗ ﻢﺘﻳ ﻥﺃ ﻞﺒﻗ ﺎﻬﻴﻟﺇ ﺍﻮﻠﺻﻮﺗ ﻲﺘﻟﺍ ﺞﺋﺎﺘﻨﻟﺍ ﻥﻮﻠﻘﻨﻳﻭ ،ﻥﻭﺮﺠﻔﻨﻳ ﻢﻬﻧﺇ .ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻡﻷﺍ ﺔﻨﻴﻔﺴﻟﺍ ﺀﺎﻘﺑﻭ ﺢﺴﻤﻟﺍ ﺔﻋﺮﺳ ﺓﺩﺎﻳﺯ ﻰﻠﻋ ﺔﻠﻣﺎﻛ ﺭﺎﻌﺸﺘﺳﺍ ﺓﺰﻬﺟﺃ ﺔﻋﻮﻤﺠﻤﺑ ﺓﺰﻬﺠﻤﻟﺍﻭ ﻙﻼﻬﺘﺳﻼﻟ ﺔﻠﺑﺎﻘﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻞﻤﻌﺗ"
+ tr_discovery_to_boldly_go_hive:0 "ﻕﻼﺤﻤﻟﺍ ﺭﺎﻌﺸﺘﺳﺍ"
+ tr_discovery_to_boldly_go_hive_desc:0 "$tr_discovery_to_boldly_go_desc$"
+ tr_discovery_to_boldly_go_hive_delayed:0 ".ﻚﻟﺫ ﻦﻋ ﻂﻘﻓ ﺕﺃﺮﻗ ﺪﻘﻟ .ﻥﻮﻜﻟﺍ ﺮﺒﺘﺨﻧ ﻦﺤﻧ .ﻪﺗﺮﺸﺑ ﻰﻠﻋ ﺪﻳﺪﺟ ﻢﺠﻧ ﻞﻛ ﺓﺭﺍﺮﺤﺑ ﺮﻌﺸﻳﻭ ،ﺪﻳﺪﺟ ﻢﻟﺎﻋ ﻞﻛ ﺀﺍﻮﺟﺃ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﻲﻓﺎﺸﻜﺘﺳﻻﺍ [GetIndividualNamePlural] ﺲﻔﻨﺘﻳ ؟ﺔﺷﺎﺸﻟﺍ ﻰﻠﻋ ﺮﻬﻈﺗ ﻲﺘﻟﺍ ﻡﺎﻗﺭﻷﺍ ﻰﻟﺇ ﺮﻈﻨﻟﺍ ﺪﻨﻋ ﺎﻘﺣ ﺀﻲﺷ ﻱﺃ ﺔﻓﺮﻌﻣ ﻚﻨﻜﻤﻳ ﻒﻴﻛ"
+
+ tr_discovery_databank_uplinks:0 "$tech_databank_uplinks$"
+ tr_discovery_databank_uplinks_desc:4 ".§!%XYZT_1020XYZT ﺔﻄﺳﺍﻮﺑ ﺓﺩﺎﻳﺯ §Y$starbase_constructions_research_produces$§!\n.§!%XYZT_520XYZT ﺔﺒﺴﻨﺑ ﺓﺩﺎﻳﺯ §Y$mod_station_researchers_produces_mult$§!\n $edict_research_subsidies$§Y:ﻡﻮﺳﺮﻤﻟﺍ ﻦﻴﻣﺄﺗ ﺀﺎﻐﻟﺇ§!"
+ tr_discovery_databank_uplinks_delayed:0 "$tech_databank_uplinks_desc$"
+
+ tr_discovery_science_division:0 "ﻡﻮﻠﻌﻟﺍ ﺔﺒﻌﺷ"
+ tr_discovery_science_division_desc:3 ".§!XYZT_62XYZT ﺭﺍﺪﻘﻤﺑ §Y$MOD_LEADER_SCIENTIST_SKILL_LEVELS$§! ﺩﺍﺯﻭ §!XYZT_21XYZT ﺭﺍﺪﻘﻤﺑ §Y$MOD_COUNTRY_NUM_TECH_ALTERNATIVES_ADD$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_discovery_science_division_delayed:0 ".ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺩﺪﺠﻟﺍ ﻡﻮﻠﻌﻟﺍ ﻁﺎﺒﺿ ﻦﻴﻴﻌﺗ ﻝﺪﻌﻣ ﻊﻳﺮﺴﺗ ﻰﻟﺇ ﺓﺪﻳﺪﺠﻟﺍ ﺐﻳﺭﺪﺘﻟﺍ ﺞﻣﺍﺮﺑ ﺕﺩﺃ ،ﻁﺎﺒﻀﻟﺍ ﻦﻣ ﻚﻠﺴﻟﺍ ﺍﺬﻫ ﻢﻋﺪﻟﻭ .ﺹﺎﺧ ﻲﻤﻠﻋ ﻢﺴﻗ ﻲﻓ ﻢﻬﻤﻴﻈﻨﺗ ﻢﺗﻭ ،ﻝﻮﻄﺳﻷﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﻦﻴﻴﺒﻄﻟﺍﻭ ﻦﻴﻴﻤﻠﻌﻟﺍ ﻦﻴﻟﻭﺆﺴﻤﻟﺍ ﺩﺪﻋ ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_discovery_science_division_machine:0 "ﺚﺤﺒﻟﺍ ﺭﺎﺴﻣ ﻦﻴﺴﺤﺗ"
+ tr_discovery_science_division_machine_desc:0 "$tr_discovery_science_division_desc$"
+ tr_discovery_science_division_machine_delayed:0 ".ﺎﻬﻌﺒﺘﻧ ﻲﺘﻟﺍ ﺔﻴﻤﻨﺘﻟﺍ ﻞﺒﺳ ﺭﺎﻴﺘﺧﺍ ﻲﻓ ﺔﻧﻭﺮﻤﻟﺍ ﻦﻣ ﺮﺒﻛﺃ ﺭﺪﻗ ﻲﻫ ﺔﺠﻴﺘﻨﻟﺍﻭ .ﻞﻣﺎﻜﻟﺎﺑ ﻪﺘﺑﺎﺘﻛ ﺓﺩﺎﻋﺇ ﻭﺃ ﻝﺎﻌﻔﻟﺍ ﺮﻴﻏﻭ ﻦﻣﺰﻟﺍ ﻪﻴﻠﻋ ﺎﻔﻋ ﻱﺬﻟﺍ ﻲﻠﻣﺄﺘﻟﺍ ﺚﺤﺒﻟﺍ ﺩﻮﻛ ﺔﻠﻜﻴﻫ ﺓﺩﺎﻋﺇ ﺖﻤﺗ"
+ tr_discovery_science_division_hive:0 "ﻚﻨﻴﻟﺪﻨﻳﺎﻣ"
+ tr_discovery_science_division_hive_desc:0 "$tr_discovery_science_division_desc$"
+ tr_discovery_science_division_hive_delayed:0 ".ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺎﻬﻓﺎﺸﻜﺘﺳﻻ ﺎﻨﻟ ﺓﺪﻴﻔﻣ ﺔﻴﺟﺭﺎﺧ ﺍﺭﺎﻜﻓﺃ ﺎﻧﺎﻴﺣﺃ ﻡﺪﻘﻳ ﺎﻨﻴﻋﻭ ﻲﻓ ﺓﺰﻴﺟﻭ ﺓﺮﺘﻔﻟ ﺓﺯﺭﺎﺒﻟﺍ ﻦﻳﺮﺧﻵﺍ ﻝﻮﻘﻋ ﺮﻤﻏ ﻥﺃ ﻻﺇ ،ﻥﻮﻨﺠﻟﺍ ﻰﻟﺇ ﻢﻬﻌﻓﺪﻳ ﺎﻣ ﺓﺩﺎﻋ ﺍﺬﻫ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+
+ tr_discovery_polytechnic_education:0 "ﻚﻴﻨﻜﺘﻴﻟﻮﺒﻟﺍ ﻢﻴﻠﻌﺘﻟﺍ"
+ tr_discovery_polytechnic_education_desc:2 ".§!XYZT_61XYZT ﺭﺍﺪﻘﻤﺑ ﺓﺩﺎﻳﺯ §Y$MOD_LEADER_SKILL_LEVELS$§!ﻭ §G+25%§! ﺭﺍﺪﻘﻤﺑ §Y$MOD_LEADER_SPECIES_EXP_GAIN$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_discovery_polytechnic_education_delayed:0 ".ﻼﻴﻫﺄﺗ ﺮﺜﻛﺃ ﺓﺩﺎﻗ ﻰﻟﺇ ﺎﻤﺘﺣ ﻱﺩﺆﻴﺳ ﺍﺬﻫﻭ .ﺎﻨﻴﻨﻃﺍﻮﻣ ﻊﻴﻤﺟ ﺪﻴﻔﻳ ﻑﻮﺳ ﺔﻴﻘﻴﺒﻄﺘﻟﺍ ﻡﻮﻠﻌﻟﺍﻭ ﺔﻴﻘﻴﺒﻄﺘﻟﺍ ﻥﻮﻨﻔﻟﺍ ﻲﻓ ﻲﺳﺎﺳﻷﺍ ﻢﻴﻠﻌﺘﻟﺍ ﻥﺈﻓ ،ﺪﻳﺍﺰﺘﻤﻟﺍ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺎﺑ ﻢﺴﺘﻳ ﻱﺬﻟﺍ ﺮﺼﻌﻟﺍ ﺍﺬﻫ ﻲﻓﻭ"
+ tr_discovery_polytechnic_education_machine:0 "ﻱﺭﺍﺮﻜﺘﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ"
+ tr_discovery_polytechnic_education_machine_desc:0 "$tr_discovery_polytechnic_education_desc$"
+ tr_discovery_polytechnic_education_machine_delayed:0 ".ﻲﻨﻣﻷﺍ ﺝﺫﻮﻤﻨﻟﺍ ﺍﺬﻫ ﺔﻤﻳﺰﻫ ﻲﻓ ﺍﺮﻴﺧﺃ ﺎﻨﺤﺠﻧ ﺪﻘﻟ .ﺓﺭﺮﻜﺘﻤﻟﺍ ﺔﻴﺑﺎﺴﺤﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﺩﺪﻌﻟ ﻦﻤﻀﻣ ﻲﺳﺎﺳﺃ ﺪﺣ ﻝﻼﺧ ﻦﻣ ﺔﻴﺗﺍﺬﻟﺍ ﺔﺠﻣﺮﺒﻟﺍ ﺓﺩﺎﻋﺇ ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﻦﻣ ﺎﻧﯯﺸﻨﻣ ﺪﺣ ﺪﻘﻟ"
+ tr_discovery_polytechnic_education_hive:0 "ﻒﻴﻜﺘﻟﺍ ﻁﺮﻔﻤﻟﺍ ﺭﻮﻄﺘﻟﺍ"
+ tr_discovery_polytechnic_education_hive_desc:0 "$tr_discovery_polytechnic_education_desc$"
+ tr_discovery_polytechnic_education_hive_delayed:0 ".ﻢﻬﺘﺳﺍﺭﺩ ﻝﺎﺠﻣ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﻱﺮﺼﺣ ﻞﻜﺸﺑ ﺰﻴﻛﺮﺘﻟﺍ ﻢﻬﻨﻜﻤﻳﻭ ،[GetIndividualNamePlural] ﺔﺒﺗﺭ ﻦﻣ ﻦﻳﺮﺧﺁ ﺹﺎﺨﺷﺃ ﻞﺒﻗ ﻦﻣ ﻢﻬﺘﻳﺎﻋﺭﻭ ﻢﻬﻣﺎﻌﻃﺇ ﻢﺘﻳ .ﺔﻳﺎﻐﻠﻟ ﻪﺘﻴﻟﺎﻌﻓ ﺔﻤﺨﻀﺘﻤﻟﺍ ﻢﻬﺘﻐﻣﺩﻷ ﺓﺎﻴﺤﻟﺍ ﻢﻋﺩ ﻡﺎﻈﻧ ﻦﻣ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ ﻦﻋ ﻼﻴﻠﻗ ﺪﻳﺰﻳ ﺎﻣ ﻰﻟﺇ [GetIndividualNamePlural] ﺎﻧﺮﻜﻔﻤﻟ ﻱﺪﺴﺠﻟﺍ ﺭﺎﻃﻹﺍ ﺺﻴﻠﻘﺗ ﺖﺒﺛﺃ ﺪﻘﻟ"
+
+ tr_discovery_faith_in_science:0 "ﻢﻠﻌﻟﺎﺑ ﻥﺎﻤﻳﻹﺍ"
+ tr_discovery_faith_in_science_delayed:0 ".ﻪﻴﻠﻋ ﺔﺑﺎﺟﻹﺍ ﻢﻠﻌﻠﻟ ﻦﻜﻤﻳ ﻻ ﺚﻴﺤﺑ ﺍﺪﺟ ﺮﻴﺒﻛ ﻥﻮﻜﻟﺍ ﺍﺬﻫ ﻲﻓ ﻝﺍﺆﺳ ﺪﺟﻮﻳ ﻻ .ﻖﻠﻄﻣ ﻪﺑ ﻢﻬﻧﺎﻤﻳﺇﻭ ،ﻦﻳﺪﻟﺍ ﻰﻟﺇ ﺏﺮﻗﺃ ﯫﻴﺷ ﻩﺭﺎﺒﺘﻋﺎﺑ ﻢﻠﻌﻟﺍ ﻰﻟﺇ ﻥﻭﺮﻈﻨﻳ ﺱﺎﻨﻟﺍ ﺔﻣﺎﻋ ﺢﺒﺻﺃ ﺪﻘﻟ"
+ tr_discovery_faith_in_science_machine:0 "ﺓﺪﻋﺎﺼﻟﺍ ﺔﻠﺻﻮﻟﺍ ﻝﺎﻘﺘﻧﺍ ﻦﻣﺯ ﻞﻴﻠﻘﺗ"
+ tr_discovery_faith_in_science_machine_desc:1 ".§HPops§! £pop£ §!XYZT_520XYZT ﻞﻜﻟ §Y$job_calculator$ Job§! £job_calculator£ §!XYZT_01XYZT ﻰﻠﻋ ﺎﻨﺒﻛﺍﻮﻛ ﻱﻮﺘﺤﺘﺳ"
+ tr_discovery_faith_in_science_machine_delayed:0 ".ﺔﺒﺴﺘﻜﻤﻟﺍ ﺔﻀﺋﺎﻔﻟﺍ ﺔﺒﺳﻮﺤﻟﺍ ﺓﻮﻗ ﺮﻴﺴﻔﺗ ﺔﻟﻭﺎﺤﻤﻟ ﺔﺒﺴﺘﻜﻤﻟﺍ ﺔﻀﺋﺎﻔﻟﺍ ﺔﺒﺳﻮﺤﻟﺍ ﺓﻮﻗ ﺮﺸﻨﺑ ﻡﻮﻘﻧ ﻑﻮﺳ .%5.226 ﺔﺒﺴﻨﺑ ﺔﻴﺜﺤﺒﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺔﻋﺮﺳ ﺓﺩﺎﻳﺯ ﻰﻟﺇ %3.878 ﺔﺒﺴﻨﺑ ﺢﻄﺴﻟﺍ ﻰﻟﺇ ﺭﺍﺪﻤﻟﺍ ﻦﻣ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﻘﻧ ﻲﻓ ﺮﺧﺄﺘﻟﺍ ﻞﻴﻠﻘﺗ ﻯﺩﺃ"
+ tr_discovery_faith_in_science_hive:0 "ﻚﺑﺎﺸﺘﻤﻟﺍ ﺚﺒﻟﺍ"
+ tr_discovery_faith_in_science_hive_desc:1 ".§HPops§! £pop£ §!XYZT_520XYZT ﻞﻜﻟ §Y$job_brain_drone$ Job§! £job_brain_drone£ §!XYZT_01XYZT ﻰﻠﻋ ﺎﻨﺒﻛﺍﻮﻛ ﻱﻮﺘﺤﺘﺳ"
+ tr_discovery_faith_in_science_hive_delayed:0 ".ﺭﺍﺪﻤﻟﺍ ﻦﻣ ﻪﻠﻤﻛﺄﺑ ﺐﻛﻮﻜﻟﺍ ﺮﺒﻋ ﺔﻴﻠﺨﻟﺍ ﺓﺩﺍﺭﺇ ﺚﺑ ﺎﻨﻨﻜﻤﻳ ،ﺔﻜﺑﺎﺸﺘﻤﻟﺍ ﻝﺎﺳﺭﻹﺍ ﺓﺰﻬﺟﻷ ﻲﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﻖﻴﺒﻄﺘﻟﺍ ﻝﻼﺧ ﻦﻣ"
+
+ tr_discovery_finish:0 "ﺖﻬﺘﻧﺍ ﻑﺎﺸﺘﻛﻻﺍ ﺪﻴﻟﺎﻘﺗ"
+ tr_discovery_federations_finish:0 "$tr_discovery_finish$"
+ tr_discovery_federations_finish_desc:0 "§G+1§! :ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ ﺢﺘﻓ ﻢﺗ\n.ﺩﺎﺤﺗﻻﺍ ﻉﻮﻧ §Y$research_federation$§! ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺢﻨﻣ\n§G+10%§!$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$: "
+
+
+################################################################
+# PROSPERITY
+################################################################
+
+ tradition_prosperity:0 "ﺭﺎﻫﺩﺯﺍ"
+ tradition_prosperity_desc:0 ".ﺎﻫﺩﺎﺼﺘﻗﺍ ﺓﻮﻗ ﻦﻣ ﺔﻴﻤﺠﻧ ﺔﻟﻭﺩ ﻞﺸﻓ ﻭﺃ ﺡﺎﺠﻨﻟ ﻞﻀﻓﺃ ﺮﺷﺆﻣ ﺪﺟﻮﻳ ﻻ"
+ tradition_prosperity_machine_desc:0 ".ﺩﺭﺍﻮﻤﻟﺍ ﺎﻨﻳﺪﻟ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ ،ﻡﺎﻗﺭﻷﺍ ﻩﺬﻫ ﺀﺎﻨﺒﻟﻭ .ﺩﻮﺟﻮﻟﺍ ﺭﺍﺮﻤﺘﺳﺍ ﻥﺎﻤﻀﻟ ﺏﻮﻠﻄﻤﻟﺍ ﺭﺍﺮﻜﺘﻟﺍ ﺮﻴﻓﻮﺗ ﺎﻬﻨﻜﻤﻳ ﻲﺘﻟﺍ ﻲﻫ ﻂﻘﻓ ﻡﺎﻗﺭﻷﺍ .ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﻞﻤﻌﻟﺍ ﻦﻋ ﺔﻳﺩﺮﻔﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻊﻴﻤﺟ ﻒﻗﻮﺘﺗ"
+ tradition_prosperity_hive_mind_desc:0 ".ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺮﺸﺘﻨﻧ ﻥﺃ ﺎﻧﺩﺭﺃ ﺍﺫﺇ ﺍﺮﻫﺩﺰﻣﻭ ﺎﻳﻮﻗ [GetGestaltEntityName] ﻲﻨﺒﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+
+ tr_prosperity_adopt:0 "ﺭﺎﻫﺩﺯﻻﺍ ﺪﻴﻟﺎﻘﺗ"
+
+ tr_prosperity_sct:0 "ﺔﻴﺳﺎﻴﻘﻟﺍ ﺀﺎﻨﺒﻟﺍ ﺐﻟﺍﻮﻗ"
+ tr_prosperity_sct_desc:5 ".§G+25%§! ﺔﺒﺴﻨﺑ §Yﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ ﺓﺩﺎﻳﺯ§!ﻭ §!%XYZT_610XYZT ﺔﺒﺴﻨﺑ §Yﺀﺎﻨﺒﻟﺍ ﺔﻔﻠﻜﺗ§! ﺾﻴﻔﺨﺗ ﻢﺗ §Yﺕﺎﻌﻃﺎﻘﻤﻟﺍ§!ﻭ §Yﻲﻧﺎﺒﻤﻟﺍ§!"
+ tr_prosperity_sct_delayed:0 ".ﺔﻘﻴﻗﺪﻟﺍ ﻁﺎﻘﻨﻟﺍ ﻢﻬﻓ ﻰﻟﺇ ﺓﺭﻭﺮﻀﻟﺎﺑ ﺭﺍﺮﻄﺿﻻﺍ ﻥﻭﺩ ﺀﺎﻴﺷﻷﺍ ﺀﺎﻨﺑ ﺎﻨﻟﺎﻤﻌﻟ ﻦﻜﻤﻳ ،ﺓﺪﺣﻮﻣ ﺀﺎﻨﺑ ﺐﻟﺍﻮﻗ ﻡﺍﺪﺨﺘﺳﺎﺑ .ﺎﻨﻳﺪﻟ ﺔﻠﻣﺎﻌﻟﺍ ﻯﻮﻘﻟﺍ ﻰﻠﻋ ﺓﺪﻳﺪﺟ ﺕﺎﺒﻠﻄﺘﻣ ﺽﺮﻓ ﻢﺘﻳ ،ﺎﻫﺪﻴﻘﻌﺗ ﺪﻳﺍﺰﺗﻭ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺗ ﻊﻣ"
+
+ tr_prosperity_sct_machine:1 "ﺓﺰﻫﺎﺠﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ"
+ tr_prosperity_sct_machine_desc:0 "$tr_prosperity_sct_desc$"
+ tr_prosperity_sct_machine_delayed:1 ".ﻱﺩﺮﻓ ﻞﻜﺸﺑ ﺎﻬﺋﺎﻨﺑﻭ ﺎﻬﻤﻴﻤﺼﺗ ﻦﻣ ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﺔﻣﺎﻌﻟﺍ ﺓﺪﺣﻮﻤﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺩﺪﻋ ﺝﺎﺘﻧﺇ ﺪﻌﻳ"
+
+ tr_prosperity_sct_wilderness: "ﺓﺪﺣﻮﻤﻟﺍ ﺔﻴﺌﻴﺒﻟﺍ ﻢﻈﻨﻟﺍ"
+ tr_prosperity_sct_wilderness_desc: "$tr_prosperity_sct_desc$"
+ tr_prosperity_sct_wilderness_delayed: ".ﺐﻛﻮﻛ ﻞﻜﻟ ﺓﺪﻳﺪﺟ ﺩﻮﻬﺟ ﺮﻳﻮﻄﺘﻟ ﺓﺭﺮﻜﺘﻤﻟﺍ ﺩﻮﻬﺠﻟﺍ ﺮﻴﻓﻮﺗ .ﺓﺪﻳﺪﺟ ﻢﻋﺍﺮﺒﻟ ﺔﻴﻟﺎﺜﻣ ﻕﻼﻄﻧﺍ ﻁﺎﻘﻧ ﺎﻨﻔﺸﺘﻛﺍ ،ﺕﺍﺀﺎﺸﻧﻹﺍﻭ ﺀﺎﻴﺣﻷﺍ ﻢﻠﻌﻟ ﺎﻨﻤﻬﻓ ﻡﺪﻘﺗ ﻊﻣﻭ"
+
+ tr_prosperity_public_works:0 "ﺔﻣﺎﻌﻟﺍ ﻝﺎﻐﺷﻷﺍ ﺔﺒﻌﺷ"
+ tr_prosperity_public_works_desc:1 ".ﺔﻴﻓﺎﺿﻹﺍ §Y$MOD_PLANET_HOUSING_ADD$§! £housing£ ﺎﻀﻳﺃ §Y$district_arcology_housing_plural$§! ﺮﻓﻮﻳ Ecumenopolisﻭ §Y$district_rw_city_plural$§!Ring World \n.§Y$MOD_PLANET_HOUSING_ADD$§! ﺔﻴﻓﺎﺿﺇ £housing£ §!XYZT_2100XYZT ﻡﺪﻘﺗ §Yﺔﻨﻳﺪﻤﻟﺍ ﻖﻃﺎﻨﻣ§!"
+ tr_prosperity_public_works_delayed:1 ".ﺎﻬﺋﺎﻨﺑ ﻰﻠﻋ ﻑﺍﺮﺷﻺﻟ ﺓﺪﻳﺪﺟ ﺔﻴﻣﻮﻜﺣ ﺔﻟﺎﻛﻭ ﻞﻴﻜﺸﺗ ﺐﺠﻳ ،ﺔﻳﺎﻐﻟﺍ ﻩﺬﻫ ﻖﻴﻘﺤﺘﻟﻭ .ﻞﻴﺜﻣ ﻪﻟ ﻖﺒﺴﻳ ﻢﻟ ﻕﺎﻄﻧ ﻰﻠﻋ ﺔﻤﻬﻠﻤﻟﺍ ﺔﻣﺎﻌﻟﺍ ﻝﺎﻐﺷﻷﺍ ﻝﻼﺧ ﻦﻣ ﺔﻴﻣﺎﻨﺘﻤﻟﺍ ﺎﻨﻧﺪﻣ ﺰﻳﺰﻌﺗ ﻢﺘﻴﺳ"
+ tr_prosperity_optimized_nexus:0 "ﻞﺜﻣﻷﺍ ﺔﻗﻼﻌﻟﺍ"
+ tr_prosperity_optimized_nexus_desc:1 ".§Y$MOD_PLANET_HOUSING_ADD$§! ﺔﻴﻓﺎﺿﺇ £housing£ §!XYZT_10500XYZT §Y$district_rw_nexus_plural$§!Ring World \n.§Y$MOD_PLANET_HOUSING_ADD$§! ﺔﻴﻓﺎﺿﺇ £housing£ §!XYZT_2100XYZT §YNexus District§! ﺮﻓﻮﺗ"
+ tr_prosperity_optimized_nexus_delayed:1 ".ﺔﻴﺳﺃﺮﻟﺍ ﺔﺣﺎﺴﻤﻟﺍ ﻦﻣ ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺪﻴﻔﺘﺴﺗﻭ ﺎﻤﺠﺣ ﺮﻐﺻﺃ §YNexus Districts§! ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺎﻳﻼﺨﻟﺍ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻳ ،ﺩﺍﺮﻓﻷﺍ ﺔﺣﺍﺭ ﻰﻟﺇ ﺔﺟﺎﺤﻟﺍ ﻥﻭﺪﺑ"
+ tr_prosperity_extended_hives:0 "ﺔﻌﺳﻮﻤﻟﺍ ﻞﺤﻨﻟﺍ ﺎﻳﻼﺧ"
+ tr_prosperity_extended_hives_desc:1 ".§Y$MOD_PLANET_HOUSING_ADD$§! ﺔﻴﻓﺎﺿﺇ £housing£ §!XYZT_10500XYZT §Y$district_rw_hive_plural$§!Ring World \n.§Y$MOD_PLANET_HOUSING_ADD$§! ﺔﻴﻓﺎﺿﺇ £housing£ §!XYZT_2100XYZT ﺮﻓﻮﺗ §YHive Districts§!"
+ tr_prosperity_extended_hives_delayed:1 ".ﺎﻬﻠﺧﺍﺪﺑ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺏﺎﻌﻴﺘﺳﺍ ﻦﻜﻤﻳ ،ﺽﺭﻷﺍ ﺖﺤﺗ §YHive Districts§! ﻊﻴﺳﻮﺗ ﻝﻼﺧ ﻦﻣ"
+
+ tr_prosperity_administrative_operations:0 "ﺔﻳﺭﺍﺩﻹﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ"
+ tr_prosperity_administrative_operations_desc:3 ".§!%XYZT_410XYZT ﺔﺒﺴﻨﺑ §Y$mod_planet_districts_upkeep_mult$§!ﻭ §Y$mod_planet_buildings_upkeep_mult$§! ﺾﻴﻔﺨﺗ ﻢﺗ"
+ tr_prosperity_administrative_operations_delayed:0 "!ﻩﺬﻫ ﻥﺎﻤﺘﺋﻻﺍ ﻑﺭﺎﺼﻣ ﺪﺳ ﺐﺠﻳ .ﺔﻴﻤﻫﻷﺍ ﻎﻟﺎﺑ ﺮﻣﺃ ﺓﺀﺎﻔﻜﻟﺍ ﻡﺪﻋﻭ ﺩﺎﺴﻔﻟﺍ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﻥﺈﻓ ،ﻮﻤﻨﻟﺍ ﻲﻓ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺭﺍﺮﻤﺘﺳﺍ ﻊﻣﻭ"
+ tr_prosperity_administrative_operations_machine:0 "ﻞﻴﺻﻮﺘﻟﺍ ﺔﻘﺋﺎﻓ ﺔﻗﺎﻄﻟﺍ ﻞﻘﻧ"
+ tr_prosperity_administrative_operations_machine_desc:0 "$tr_prosperity_administrator_operations_desc$"
+ tr_prosperity_administrative_operations_machine_delayed:0 ".ﺮﻔﺼﻟﺍ ﻦﻣ ﺏﺮﻘﻳ ﺎﻣ ﻰﻟﺇ ﺔﻠﻳﻮﻃ ﺕﺎﻓﺎﺴﻣ ﺮﺒﻋ ﺔﻗﺎﻄﻟﺍ ﻥﺍﺪﻘﻓ ﻞﻴﻠﻘﺗ ﻰﻠﻋ ﺎﻨﻳﺪﻟ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ ﻦﻣ ﻯﻮﺘﺴﻣ ﻞﻛ ﻲﻓ ﻞﻴﺻﻮﺘﻟﺍ ﺔﻘﺋﺎﻓ ﺩﺍﻮﻤﻟﺍ ﻞﻤﻌﺗ"
+ tr_prosperity_administrative_operations_hive:0 "ﺔﻴﻨﻴﺘﻴﺸﻟﺍ ﺓﺭﺎﻤﻌﻟﺍ"
+ tr_prosperity_administrative_operations_hive_desc:0 "$tr_prosperity_administrator_operations_desc$"
+ tr_prosperity_administrative_operations_hive_delayed:0 ".ﺩﺭﺎﺒﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻍﺍﺮﻓ ﻞﻤﺤﺘﺗ ﻥﺃ ﻰﺘﺣ ﺎﻬﻨﻜﻤﻳ .ﺔﻳﻮﻀﻌﻟﺍ ﺮﻴﻏ ﺩﺍﻮﻤﻟﺍ ﻢﻈﻌﻣ ﻦﻣ ﺔﻧﺎﺘﻣﻭ ﺔﻧﻭﺮﻣ ﺮﺜﻛﺃ ،ﻂﻴﺤﻤﻟﺍ ﻢﺠﺤﺑ ﻢﻳﺪﻘﺘﻟﺍ ﺽﺍﻮﺣﺃ ﻲﻓ ﺎﻬﻃﺎﻘﺘﻟﺍ ﻢﺗ ﻲﺘﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ ﻦﻣ ﺝﺮﺨﺘﺴﻤﻟﺍ ،ﺀﺎﻨﺒﻟﺍ ﺞﻨﻴﺗﺍﺭ ﻥﺇ"
+
+ tr_prosperity_interstellar_franchising:0 "ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺯﺎﻴﺘﻣﻻﺍ"
+# tr_prosperity_interstellar_franchising_desc:1 "§YCity Districts§! provide §Y1§! additional [clerk.GetIcon] §Y[clerk.GetName] Job§!.\nHabitat §Y$district_hab_commercial_plural$§!, Ring World §Y$district_rw_city_plural$§! and Ecumenopolis §Y$district_arcology_housing_plural$§! also produce additional [clerk.GetIcon] §Y[clerk.GetName] Jobs§!."
+ tr_prosperity_interstellar_franchising_delayed:1 "!ﺓﺭﺎﺠﺘﻟﺍ ﺓﺩﺎﻳﺯﻭ ﺔﻴﻠﺤﻤﻟﺍ ﻞﻤﻌﻟﺍ ﺹﺮﻓ ﺮﻴﻓﻮﺗﻭ ،ﺔﻴﻜﻴﻣﺎﻨﻳﺩﻭ ﺓﺮﻫﺩﺰﻣ ﺔﻳﺭﺎﺠﺗ ﻝﺎﻤﻋﺃ ﺢﺘﻔﺑ ﺔﻳﻮﻴﻧﺩ ﺐﻛﺍﻮﻜﻟﺍ ﺮﺜﻛﻷ ﻰﺘﺣ ﺢﻤﺴﻳ ﺯﺎﻴﺘﻣﻻﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ tr_prosperity_efficiency_algorithms:0 "ﺓﺀﺎﻔﻜﻟﺍ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ"
+# tr_prosperity_efficiency_algorithms_desc:0 "£energy£ §Y$mod_country_energy_produces_mult$§! increased by §G5%§!."
+ tr_prosperity_efficiency_algorithms_delayed:0 ".ﺔﻟﺎﻌﻓ ﺮﻴﻏ ﺔﻟﺁ ﻦﻣ ﻢﻈﻋﺃ ﺔﻤﻳﺮﺟ ﻙﺎﻨﻫ ﺲﻴﻟ"
+ tr_prosperity_efficiency_instincts:0 "ﺓﺀﺎﻔﻜﻟﺍ ﺰﺋﺍﺮﻏ"
+# tr_prosperity_efficiency_instincts_desc:0 "$tr_prosperity_efficiency_algorithms_desc$"
+ tr_prosperity_efficiency_instincts_delayed:1 ".ﺔﻗﺎﻄﻟﺍ ﻲﻓ ﺮﻴﺒﻛ ﺮﻴﻓﻮﺗ ﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻳ ﻥﺃ ﻲﻐﺒﻨﻳﻭ .ﺔﻴﻣﻮﻴﻟﺍ ﺓﺎﻴﺤﻟﺍ ﺐﻧﺍﻮﺟ ﻊﻴﻤﺟ ﻲﻓ ﺭﺪﻬﻟﺍ ﺐﻨﺠﺘﻟ ﺔﻳﻮﻗ ﺔﺒﻏﺮﺑ ﺎﻨﻳﺪﻟ [GetIndividualNamePluralCap] ﺱﺮﻏ ﻢﺗ"
+
+ tr_prosperity_trans_stellar_corporations:0 "ﻡﻮﺠﻨﻟﺍ ﺮﺒﻋ ﺕﺎﻛﺮﺷ"
+ tr_prosperity_trans_stellar_corporations_desc:2 ".ﺔﻴﻓﺎﺿﺇ £energy£ ﺔﻗﺎﻃ §!XYZT_71XYZT §YTrade Hubs§! ﺞﺘﻨﺗ ،ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ .§!%XYZT_35XYZT ﺔﺒﺴﻨﺑ §Yﺔﻗﺎﻄﻟﺍ ﺕﺎﺟﺮﺨﻣ ﺓﺩﺎﻳﺯ ﻢﺗ £energy£§!"
+ tr_prosperity_trans_stellar_corporations_delayed:1 ".ﺔﻴﻋﺎﻨﺼﻟﺍ ﺎﻧﺩﻮﻬﺟ ﺔﻔﻠﻜﺗ ﻦﻣ ﺮﻴﺒﻛ ﺀﺰﺟ ﻞﻤﺤﺘﻟ ﺓﺪﻌﺘﺴﻣ ﺔﻳﻮﻗ ﺔﻴﺴﺳﺆﻣ ﺕﺎﻧﺎﻴﻛ ﻙﺎﻨﻫ"
+
+ tr_prosperity_void_works:0 "ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﺔﻴﻗﻮﻔﻟﺍ ﻞﻛﺎﻴﻬﻟﺍ"
+ tr_prosperity_void_works_desc:1 "§G+100§!: §Y$district_hab_housing_plural$§! ﻦﻣ §Y$MOD_PLANET_HOUSING_ADD$§! £housing£"
+ tr_prosperity_void_works_delayed:1 ".ﺎﻨﻠﺋﺍﻮﻣ ﻢﻴﺴﻘﺗ ﺔﻓﺎﺜﻛ ﺓﺩﺎﻳﺯ ﺎﻨﻨﻜﻤﻳ ،ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﺀﺎﻨﺒﻟﺍ ﺕﺎﻴﻨﻘﺗ ﺬﻴﻔﻨﺗ ﻝﻼﺧ ﻦﻣﻭ"
+
+ tr_prosperity_creative_collectives:0 "ﺔﻴﻋﺍﺪﺑﻹﺍ ﺕﺎﻋﻮﻤﺠﻤﻟﺍ"
+ tr_prosperity_creative_collectives_delayed:0 ".ﺮﻴﺒﻛ ﺪﺣ ﻰﻟﺇ ﺎﻨﺗﺎﻋﺎﻨﺻ ﺔﻴﺟﺎﺘﻧﺇ ﻦﺴﺤﻧ ﻥﺃ ﺎﻨﻌﺳﻮﺑ ﺢﺒﺼﻳ ،ﺎﻨﺳﺭﺍﺪﻣﻭ ﺎﻨﻌﻧﺎﺼﻣ ﺓﺭﺍﺩﻹ ﻢﻴﻈﻨﺘﻟﺍ ﺔﻴﺗﺍﺫ ﺔﻠﻘﺘﺴﻤﻟﺍ ﺕﺎﻌﻤﺠﺘﻟﺍ ﻦﻣ ﻡﺎﻈﻧ ﺀﺎﺸﻧﺇ ﻝﻼﺧ ﻦﻣﻭ"
+ tr_prosperity_pursuit_of_profit:0 "ﺢﺑﺮﻟﺍ ﺀﺍﺭﻭ ﻲﻌﺴﻟﺍ"
+ tr_prosperity_pursuit_of_profit_delayed:0 ".ﺔﻳﺎﻐﻠﻟ ﻡﺎﻤﺘﻫﻻﺎﺑ ﺮﻳﺪﺟ ﻑﺪﻫ ﻪﻧﺃ ﻰﻠﻋ ﺔﻗﺎﻄﻟﺍ ﺓﺪﺻﺭﺃ ﻢﻛﺍﺮﺗ ﻰﻟﺇ ﺮﻈﻨﻳﻭ ،ﺮﻴﺒﻛ ﺏﺎﺠﻋﺈﺑ ﻰﻈﺤﻳ ﻊﻳﺭﺎﺸﻤﻟﺍ ﻦﻣ ﻉﻮﻧ ﻱﺃ ﻲﻓ ﻥﻮﺤﺠﻨﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ .ﺎﻨﻌﻤﺘﺠﻣ ﻲﻓ ﺔﻴﺳﺎﺳﺃ ﺓﺪﻴﻘﻋ ﺢﺑﺮﻟﺍ ﺀﺍﺭﻭ ﻲﻌﺴﻟﺍ ﺢﺒﺻﺃ ﺪﻘﻟ"
+ tr_prosperity_peak_performance:0 "ﺀﺍﺩﻷﺍ ﺓﻭﺭﺫ"
+ tr_prosperity_peak_performance_desc:0 ".§!%XYZT_25XYZT ﺔﺒﺴﻨﺑ §Y$mod_planet_jobs_complex_drone_produces_mult$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗ"
+ tr_prosperity_peak_performance_delayed:0 ".ﻞﻴﻐﺸﺘﻟﺍ ﺩﺩﺮﺗ ﻊﻓﺭ ﺕﺍﺀﺍﺮﺟﺇﻭ ﺕﺎﻨﻴﺴﺤﺘﻟﺍ ﻦﻣ ﺓﺪﻘﻌﻣ ﺔﻠﺴﻠﺳ ﻝﻼﺧ ﻦﻣ ﺔﻳﺩﺮﻔﻟﺍ ﻞﻴﻛﻮﻟﺍ ﺕﺍﺪﺣﻭ ﺀﺍﺩﺃ ﻒﻘﺳ ﻊﻓﺭ ﺎﻳﺮﻈﻧ ﻦﻜﻤﻳ"
+ tr_prosperity_hive_neural_signal_boosters:0 "ﺔﻴﺒﺼﻌﻟﺍ ﺓﺭﺎﺷﻹﺍ ﺕﺍﺯﺰﻌﻣ"
+ tr_prosperity_hive_neural_signal_boosters_desc:0 "$tr_prosperity_peak_performance_desc$"
+ tr_prosperity_hive_neural_signal_boosters_delayed:1 ".ﺓﺀﺎﻔﻜﻟﺍ ﻰﻠﻋ ﺕﺎﻨﻴﺴﺤﺘﻟﺍﻭ ﺕﻼﻳﺪﻌﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺀﺍﺮﺟﺈﺑ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺎﻨﺗﺍﺮﺋﺎﻃ ﺾﻌﺑ ﻰﻟﺇ ﺔﻠﺳﺮﻤﻟﺍ ﺔﻴﺒﺼﻌﻟﺍ ﺕﺍﺭﺎﺷﻹﺍ ﺰﻳﺰﻌﺘﻟ ﺔﻗﺎﻄﻟﺎﺑ ﺎﻧﺎﻳﻼﺧ ﺩﻭﺰﺗ ﻲﺘﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺕﺎﻜﺒﺷ ﻡﺍﺪﺨﺘﺳﺍ ﺎﻀﻳﺃ ﻦﻜﻤﻳ"
+
+ tr_prosperity_finish:0 "ﺭﺎﻫﺩﺯﻻﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+
+################################################################
+# Mercantile
+################################################################
+
+ tradition_mercantile:0 "ﺓﺭﺎﺠﺗ"
+ tradition_mercantile_desc:1 ".[This.GetAdj] ﺭﺎﻫﺩﺯﺍ ﻮﺤﻧ ﻖﻳﺮﻄﻟﺍ ﺎﻨﻳﺪﻟ ﻝﺎﻤﻋﻷﺍ ﺩﺍﻭﺭ ﺭﺎﻫﺩﺯﺍ ﺪﻬﻤﻳ"
+ tr_mercantile_adopt:0 "ﺓﺭﺎﺠﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ"
+ tr_mercantile_finish:0 "ﺔﻳﺭﺎﺠﺘﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ ﺖﻬﺘﻧﺍ"
+ tr_mercantile_federations_finish:0 "$tr_mercantile_finish$"
+ tr_mercantile_federations_finish_desc:0 "§G+1§! :ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ ﺢﺘﻓ ﻢﺗ\n.ﺩﺎﺤﺗﻻﺍ ﻉﻮﻧ §Y$trade_federation$§! ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺢﻨﻣ\n§!%XYZT_010XYZT$mod_country_trade_produces_mult$: "
+
+ tr_mercantile_marketplace_of_better_ideas:0 "ﻞﻀﻓﻷﺍ ﺭﺎﻜﻓﻷﺍ ﻕﻮﺳ"
+ tr_mercantile_marketplace_of_better_ideas_delayed:0 "!ﻞﻀﻓﺃ ﺭﺎﻜﻓﻷﺍ ﺖﻧﺎﻛ ﺎﻤﻠﻛ ،ﺽﺮﻌﺘﻟﺍ ﺩﺍﺯ ﺎﻤﻠﻛ .ﻕﻮﺴﻠﻟ ﺽﺮﻌﺘﻟﺍ ﻦﻣ ﺭﺎﻜﻓﻷﺍ ﻞﻀﻓﺃ ﺪﻟﻮﺗ"
+ tr_mercantile_insider_trading:0 "ﻞﺧﺍﺪﻟﺍ ﻦﻣ ﻝﻭﺍﺪﺘﻟﺍ"
+ tr_mercantile_insider_trading_delayed:2 ".ﺔﺒﺳﺎﻨﻣ ﺭﺎﻌﺳﺄﺑ ﺩﺭﺍﻮﻤﻟﺍ ﻕﺍﻮﺳﺃ ﻦﻣ ﺀﺍﺮﺸﻟﺍ ﺓﺮﺛﺆﻤﻟﺍ ﺔﻳﺭﺎﺠﺘﻟﺍ ﻝﺎﺼﺗﻻﺍ ﺕﺎﻬﺟ ﺎﻨﻟ ﺢﻴﺘﺘﺳ .ﺍﺮﻴﺒﻛ ﺎﻗﺮﻓ ﺙﺪﺤﻳ ﻥﺃ ﻦﻜﻤﻳ ﺔﺒﺳﺎﻨﻤﻟﺍ ﻦﻛﺎﻣﻷﺍ ﻲﻓ ﻦﻴﺒﺳﺎﻨﻤﻟﺍ ﺹﺎﺨﺷﻷﺍ ﺔﻓﺮﻌﻣ ﻥﺇ"
+ tr_mercantile_trickle_up_economics:0 "ﺩﺎﺼﺘﻗﻻﺍ ﺦﺿ"
+ tr_mercantile_trickle_up_economics_desc:2 "§R+0.1§!: §Y$job_civilian_plural_with_icon$§!$r_consumer_goods$ 100 ﻞﻜﻟ ﺔﻧﺎﻴﺼﻟﺍ \n§G+100§!: §Y$job_civilian_plural_with_icon$§!$r_amenities$ 100 ﻞﻜﻟ \n§G+1§!: §Y$job_civilian_plural_with_icon$§!$r_trade$ 100 ﻞﻜﻟ "
+ tr_mercantile_trickle_up_economics_delayed:1 ".ﺔﻴﻣﻮﻴﻟﺍ ﺓﺭﺎﺠﺘﻟﺍﻭ ﺔﻴﻧﺪﻤﻟﺍ ﺔﻣﺪﺨﻟﺍ ﻲﻓ ﺭﺎﻤﺜﺘﺳﻻﺍ ﺪﺋﺍﻮﻓ ﻲﻨﺠﻳ ﻪﻠﻤﻛﺄﺑ ﺎﻨﻌﻤﺘﺠﻣ ﻥﺇ"
+ tr_mercantile_commercial_enterprise:0 "ﺔﻳﺭﺎﺠﺗ ﺔﺴﺳﺆﻣ"
+ tr_mercantile_commercial_enterprise_desc:1 ".ﺔﻴﻓﺎﺿﻹﺍ §Y$job_trader_with_icon$§! ﻒﺋﺎﻇﻭ ﻰﻠﻋ ﻥﻮﻠﺼﺤﻴﺳ ،§YTrade Buildings§! £building£ﻭ §Y$zone_trade$§! £zone£ ﻊﻣ §Y$district_city_plural$§! £district£\n§G+200§!: §Y$job_trader_plural_with_icon$§!$r_amenities$ ﻞﻜﻟ $pop_group_unit$ "
+ tr_mercantile_commercial_enterprise_delayed:0 ".ﺎﻨﻳﺪﻟ ﻝﺎﻤﻋﻷﺍ ﻝﺎﺟﺭ ﺔﻈﺣﻼﻣ ﻦﻣ ﺖﻠﻔﺗ ﻖﻳﺮﻄﻟﺍ ﻒﺼﺘﻨﻣ ﻲﻓ ﺓﺪﻴﺟ ﻞﻤﻋ ﺔﺻﺮﻓ ﺪﺟﻮﺗ ﻻ"
+ tr_mercantile_adaptive_economic_policies:0 "ﺔﻴﻔﻴﻜﺘﻟﺍ ﺔﻳﺩﺎﺼﺘﻗﻻﺍ ﺕﺎﺳﺎﻴﺴﻟﺍ"
+ tr_mercantile_adaptive_economic_policies_desc:0 ".§YUnity§! £unity£ ﻭﺃ §YConsumer Goods§! £consumer_goods£ ﻰﻟﺇ $r_trade$ ﻦﻣ ﺀﺰﺟ ﻞﻳﻮﺤﺘﺑ ﺎﻨﻟ ﺢﻤﺴﺗ ﻲﺘﻟﺍﻭ ،§YTrade Policies§! §Y$trade_policy_unity$§!ﻭ §Y$trade_policy_consumer_goods$§! ﺢﺘﻔﻳ"
+ tr_mercantile_adaptive_economic_policies_delayed:0 ".ﺕﻻﺎﻤﺘﺣﻻﺍ ﻞﻛ ﻊﻗﻮﺘﻟ ﺎﻧﺩﺎﺼﺘﻗﺍ ﻂﺒﺿ ﺓﺩﺎﻋﺇ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻨﺳ ،ﺔﻳﺩﺎﺼﺘﻗﻻﺍ ﻥﻭﺆﺸﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻲﻓ ﺔﻧﻭﺮﻣ ﺮﺜﻛﺃ ﺞﻬﻧ ﻲﻨﺒﺗ ﻝﻼﺧ ﻦﻣﻭ"
+ tr_mercantile_trade_fleets:0 "ﺔﻴﻟﺍﺭﺪﻴﻔﻟﺍ ﺓﺭﺎﺠﺘﻟﺍ ﻞﻴﻃﺎﺳﺃ"
+ tr_mercantile_trade_fleets_desc:0 ".ﺮﺜﻛﺃ §!%XYZT_250XYZT ﻝﺩﺎﻌﻳ §Yﺩﺎﺤﺗﻼﻟ ﺔﻳﺮﺤﺒﻟﺍ ﺔﻌﺴﻟﺍ§! ﻲﻓ ﻪﺑ ﻢﻫﺎﺴﻧ ﻱﺬﻟﺍ ﻎﻠﺒﻤﻟﺍ"
+ tr_mercantile_trade_fleets_delayed:0 ".ﺢﻴﺤﺻ ﻞﻜﺸﺑ ﺎﻨﺤﻟﺎﺼﻣ ﺔﻳﺎﻤﺣ ﻦﻣ ﺪﻛﺄﺘﻠﻟ ﻦﻴﻴﻟﺍﺭﺪﻴﻔﻟﺍ ﺎﻨﺋﺎﻔﻠﺣ ﻊﻣ ﻊﻤﺘﺠﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﺎﻨﺣﺎﺑﺭﺃ ﻦﻴﻣﺄﺘﻟ"
+
+ tr_mercantile_worker_coop_improved_ownership: "ﺔﻴﻔﻴﻜﺘﻟﺍ ﻦﻴﻤﻫﺎﺴﻤﻟﺍ ﻂﻄﺧ"
+ tr_mercantile_worker_coop_improved_ownership_desc: "§G+5%§! $mod_organic_pop_bonus_workforce_mult$: £mod_pop_bonus_workforce_mult£ $TABBED_NEW_LINE$- §G+5%§! :ﺓﺩﺎﻌﺴﻟﺍ £happiness£ -$TABBED_NEW_LINE$:ﺔﻴﻓﺎﺿﻹﺍ ﺔﺸﻴﻌﻤﻟﺍ ﻯﻮﺘﺴﻣ ﺕﺍﺮﻴﺛﺄﺗ §Y$living_standard_worker_ownership$§!"
+ tr_mercantile_worker_coop_improved_ownership_delayed: ".ﺔﻴﻟﺎﻌﻓ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﻞﻤﻌﻠﻟ ﺎﻨﻴﻨﻃﺍﻮﻣ ﻡﺎﻬﻟﺇ ﻦﻜﻤﻳ ،ﻦﻴﻤﻫﺎﺴﻤﻟﺍ ﺩﻮﻘﻋ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻲﻓ ﺔﻧﻭﺮﻣ ﺮﺜﻛﺃ ﺞﻬﻧ ﻲﻨﺒﺗ ﻝﻼﺧ ﻦﻣﻭ"
+
+ mod_planet_worker_ownership_jobs_produces_mult: "$Living Standard $living_standard_worker_ownership ﻊﻣ Pops ﻦﻣ ﺩﺭﺍﻮﻤﻟﺍ"
+
+################################################################
+# Logistics
+################################################################
+
+ tradition_logistics: "ﺔﻴﺘﺴﺟﻮﻠﻟﺍ"
+ tradition_logistics_desc: ".ﺭﺮﻜﺘﻣ ﻞﻜﺸﺑ [This.GetAdj] ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻦﻴﺴﺤﺘﺑ ﻡﻮﻘﻨﺳ"
+ tr_logistics_adopt: "ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ tr_logistics_finish: "ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ ﺖﻬﺘﻧﺍ"
+ tr_logistics_1: "ﻞﺧﺍﺪﺘﻤﻟﺍ ﻖﻴﺴﻨﺘﻟﺍ"
+ tr_logistics_1_delayed: ".ﺔﻛﺮﺘﺸﻤﻟﺍ ﺔﻔﻴﻇﻮﻟﺍ ﻝﻼﺧ ﻦﻣ ﺓﺪﺣﻮﻟﺍ ﺰﻳﺰﻌﺗﻭ ،ﺔﻴﻣﺎﻈﻨﻟﺍ ﺓﺀﺎﻔﻜﻟﺍ ﺰﻳﺰﻌﺗ"
+ tr_logistics_1_tt: "§G+2§!$trade_with_icon$ ﻞﻜﻟ $pop_group_unit$ $job_logging_drone_plural_with_icon$: "
+ tr_logistics_2: "ﺔﻋﺯﻮﻤﻟﺍ ﻢﻴﻠﺴﺘﻟﺍ ﺔﻤﻈﻧﺃ"
+ tr_logistics_2_delayed: ".ﺔﻤﻬﻣ ﻲﻃﺎﻴﺘﺣﺍ ﺦﺴﻧ ﺕﺎﻴﻠﻤﻋ ﺔﻴﻓﺎﺿﻹﺍ ﺭﺍﺮﻜﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺮﻓﻮﺗ ﺎﻤﻨﻴﺑ ﻊﻳﺯﻮﺘﻟﺍ ﺔﻧﻭﺮﻣ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺔﻌﺳﻮﻤﻟﺍ ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺔﻜﺒﺷ ﻞﻤﻌﺗ"
+ tr_logistics_2_tt: "§G+50%§! :ﺔﻤﺻﺎﻌﻟﺍ ﺮﻴﻏ ﻲﻧﺎﺒﻤﻟﺍ £building£ﻭ ،ﺔﻘﻄﻨﻤﻟﺍ ﺕﺎﺼﺼﺨﺗ £zone£ﻭ ،ﻖﻃﺎﻨﻤﻟﺍ £district£ ﻦﻣ §Y$job_logging_drone_plural_with_icon$§!"
+ tr_logistics_3: "ﺔﻴﺗﺍﺬﻟﺍ ﺔﻧﺎﻴﺼﻟﺍ"
+ tr_logistics_3_delayed: ".ﻑﺍﺮﺷﻹﺍ ﻰﻟﺇ ﺔﺟﺎﺤﻟﺍ ﻥﻭﺩ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺔﻧﺎﻴﺻ ﻢﻜﺤﻟﺍ ﺔﻴﺗﺍﺫ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺔﻧﺎﻴﺼﻟﺍ ﺕﺍﺮﺋﺎﻃ ﻦﻤﻀﺗ"
+ tr_logistics_4: "ﻱﺮﺠﻤﻟﺍ ﻝﺩﺎﺒﺘﻟﺍ ﺓﺀﺎﻔﻛ"
+ tr_logistics_4_delayed: ".ﺭﺪﻬﻟﺍﻭ ﺓﺭﺎﺴﺨﻟﺍ ﻞﻴﻠﻘﺗ ﻰﻟﺇ ﺔﻴﻤﺠﻨﻟﺍ ﺔﻤﻈﻧﻷﺍ ﺮﺒﻋ ﻦﺴﺤﻤﻟﺍ ﻊﺒﺘﺘﻟﺍ ﻱﺩﺆﻳ"
+ tr_logistics_5: "ﺔﻳﺆﺒﻨﺘﻟﺍ ﺩﺍﺪﻣﻹﺍ ﺓﺩﺎﻋﺇ ﻁﺎﻤﻧﺃ"
+ tr_logistics_5_delayed: ".ﺐﺳﺎﻨﻤﻟﺍ ﻞﻜﺸﻟﺎﺑ ﺎﻬﻟ ﺐﻴﺠﺘﺴﻧﻭ ،ﺎﻫﺭﻮﻬﻇ ﻞﺒﻗ ﺔﺟﺎﺤﻟﺍ ﻯﺮﻧ ﻦﺤﻧ .ﻚﻟﺬﻛ ﺖﺴﻴﻟ ﺎﻨﻳﺪﻟ ﺩﺍﺪﻣﻹﺍ ﻁﻮﻄﺧ .ﻰﺿﻮﻔﻟﺍ ﻲﻫ ﺏﺮﺤﻟﺍ"
+
+################################################################
+# Subterfuge
+################################################################
+
+ tradition_subterfuge:0 "ﺔﻠﻴﺣ"
+ tradition_subterfuge_desc:0 ".ﺓﺩﺪﺸﻣ ﺔﺳﺍﺮﺣ ﺖﺤﺗ ﺎﻧﺭﺍﺮﺳﺃ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍﻭ ،ﻦﻳﺮﺧﻵﺍ ﺭﺍﺮﺳﺃ ﻒﺸﻛ ﻲﻓ ﻦﻤﻜﻳ ﻥﺎﻣﻷﺍ"
+ tr_subterfuge_adopt:0 "ﺔﻋﺩﺎﺨﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ tr_subterfuge_adopt_desc:0 ".ﻲﻌﻴﺒﻄﻟﺍ ﻝﺪﻌﻤﻟﺍ ﻑﺎﻌﺿﺃ §!XYZT_25XYZT ﻝﺪﻌﻤﺑ §YSubterfuge§! ـﺑ ﺔﻄﺒﺗﺮﻤﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﺮﻬﻈﺗ"
+ tr_subterfuge_finish:0 "ﺔﻠﻴﺤﻟﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+ tr_subterfuge_finish_effect:0 ".ﻞﻠﺴﺘﻟﺍ ﻯﻮﺘﺴﻣ ﺔﻔﻠﻜﺗ ﻦﻣ §!%XYZT_250XYZT ﺩﺍﺩﺮﺘﺳﺍ ﻲﻓ §YOperations§! ﺖﺤﺠﻧ"
+ tr_subterfuge_finish_desc:1 "$TRADITIONS_FINISH_AP$\n$tr_subterfuge_finish_effect$"
+ tr_subterfuge_cloaking_finish:0 "$tr_subterfuge_finish$"
+ tr_subterfuge_cloaking_finish_desc:0 "$TRADITIONS_FINISH_AP$\n§G+1§!$MOD_SHIP_CLOAKING_STRENGTH_ADD$: \n$tr_subterfuge_finish_effect$"
+ tr_subterfuge_cloaking_finish_shroud_desc: "$TRADITIONS_FINISH_AP$\n['concept_proxy_wars'] ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ\n§G+1§!$MOD_SHIP_CLOAKING_STRENGTH_ADD$: \n$tr_subterfuge_finish_effect$"
+ tr_subterfuge_finish_shroud_desc: "$TRADITIONS_FINISH_AP$\n['concept_proxy_wars'] ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ\n$tr_subterfuge_finish_effect$"
+
+ tr_subterfuge_information_security:0 "ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻦﻣﺃ"
+ tr_subterfuge_information_security_delayed:2 ".ﺔﻠﻤﺘﺤﻣ ﺎﻳﺍﺰﻣ ﻱﺃ ﻦﻣ ﺎﻧﺀﺍﺪﻋﺃ ﻡﺮﺤﺗ ﺓﺯﺰﻌﻤﻟﺍ ﺓﺩﺎﻀﻤﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍﻭ ﺔﻴﻨﻣﻷﺍ ﺔﻤﻈﻧﻷﺍ ﻥﺇ .ﺔﻠﻔﻄﺘﻤﻟﺍ ﻝﻮﻘﻌﻟﺍ ﻦﻣ ﺔﻳﻮﻴﺤﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﻳﺎﻤﺣ ﺎﻨﻨﻜﻤﻳ ﺔﻳﺮﺴﻟﺍ ﺪﻴﻠﻘﺗ ﻲﻨﺒﺗ ﻝﻼﺧ ﻦﻣ ﻂﻘﻓ"
+
+ tr_subterfuge_nda:0 "ﺡﺎﺼﻓﻹﺍ ﻡﺪﻋ ﺔﻴﻗﺎﻔﺗﺍ"
+ tr_subterfuge_nda_hive:0 "ﺔﺿﺎﻔﻀﻓ ﺕﺎﻳﺎﻬﻧ ﻻ"
+ tr_subterfuge_nda_machine:0 "ﻥﺎﻣﻷﺍ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ ﺚﻳﺪﺤﺗ"
+ tr_subterfuge_nda_delayed:0 ".ﺀﺎﺑﺮﻐﻟﺍ ﻦﻣ ﺎﻧﺭﺍﺮﺳﺃ ﺔﻳﺎﻤﺤﺑ ﺮﻣﻷﺍ ﻖﻠﻌﺘﻳ ﺎﻣﺪﻨﻋ ﺔﻣﺭﺎﺻ [This.GetSpeciesMouthName] ﻕﻼﻏﺇ ﺔﺳﺎﻴﺳ ﺎﻧﻮﻨﻃﺍﻮﻣ ﻊﺒﺘﻳ"
+ tr_subterfuge_nda_hive_delayed:0 ".ﺎﻬﻟﻼﻐﺘﺳﻻ ﺎﻧﺭﺍﺮﺳﺃ ﻒﺸﻛ ﻥﻭﺪﻳﺮﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﻷ ﺔﻴﺒﺼﻌﻟﺍ ﺎﻨﺘﻜﺒﺷ ﻲﻓ ﺔﺿﺎﻔﻀﻓ ﺕﺎﻳﺎﻬﻧ ﻱﺃ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﻦﻟ"
+ tr_subterfuge_nda_machine_delayed:0 ".ﺎﻨﺗﺎﻣﻮﻠﻌﻣ ﺔﻜﺒﺷ ﻲﻓ ﺎﻬﻟﻼﻐﺘﺳﺍ ﻦﻜﻤﻳ ﻒﻌﺿ ﻁﺎﻘﻧ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻦﻣ ﺎﻨﺋﺍﺪﻋﺃ ﻊﻨﻣ ﺎﻨﻨﻜﻤﻳ ،ﺎﻧﺪﻘﻌﻟ ﺓﺭﺮﻜﺘﻣ ﺔﻴﻨﻣﺃ ﺕﺎﺜﻳﺪﺤﺗ ﺡﺮﻃ ﻝﻼﺧ ﻦﻣﻭ"
+
+ tr_subterfuge_operational_security:0 "ﻲﻠﻴﻐﺸﺘﻟﺍ ﻦﻣﻷﺍ"
+ tr_subterfuge_operational_security_gestalt:0 "ﺔﻠﻴﺣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ tr_subterfuge_operational_security_delayed:0 ".ﺪﻳﺪﺠﻟﺍ ﺮﺼﻌﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﺴﻓﺎﻨﻤﻟﺍ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﺀﺎﻘﺒﻟﺍ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻨﺳ ،ﺔﻳﺮﺠﻤﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ ﺕﺎﺒﻠﻄﺘﻣ ﻊﻣ ﻢﻬﺑ ﺹﺎﺨﻟﺍ ﺐﻳﺭﺪﺘﻟﺍ ﻡﺎﻈﻧ ﻒﻴﻴﻜﺗ ﻝﻼﺧ ﻦﻣ .ﻦﻴﻳﺮﺴﻟﺍ ﺎﻨﺋﻼﻤﻌﻟ ﺓﺪﻳﺮﻓ ﺕﺎﻳﺪﺤﺗ ﺐﻛﺍﻮﻜﻟﺍ ﻦﻴﺑ ﺔﺌﻴﺑ ﻰﻟﺇ ﺔﻴﺒﻛﻮﻛ ﺔﺌﻴﺑ ﻦﻣ ﻝﻮﺤﺘﻟﺍ ﻞﻜﺷ ﺪﻘﻟ"
+ tr_subterfuge_operational_security_gestalt_delayed:0 ".ﻦﻳﺮﺧﻵﺍ ﺭﺍﺮﺳﺃ ﻑﺎﺸﺘﻛﻻ ﺎﻨﺴﻔﻧﺃ ﻦﻣ ﺍﺮﻴﺒﻛ ﺍﺀﺰﺟ ﺱﺮﻜﻧ ﻥﺃﻭ "ﻥﺎﻤﺘﻜﻟﺍ" ﻡﻮﻬﻔﻣ ﻊﻣ ﺎﻨﺴﻔﻧﺃ ﻒﻴﻜﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻴﺳ ،ﺪﻳﺪﺠﻟﺍ ﻊﻗﺍﻮﻟﺍ ﺍﺬﻫ ﻲﻓ ﺮﻫﺩﺰﻧ ﻲﻜﻟﻭ .ﺎﻨﻌﻣ ﺎﻨﺗﺮﺠﻣ ﻢﺳﺎﻘﺘﺗ ﻲﺘﻟﺍ - ﺔﻳﺩﺎﻌﻤﻟﺍ ﺎﻤﺑﺭﻭ - ﺔﺴﻓﺎﻨﺘﻤﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺩﺪﻋ ﻥﻵﺍ ﻙﺎﻨﻬﻓ :ﻞﺒﻗ ﻦﻣ ﺎﻨﻛ ﺎﻤﻛ ﺎﻧﺪﺣﻭ ﺪﻌﻧ ﻢﻟ"
+
+ tr_subterfuge_double_agents:0 "ﻥﻮﺟﻭﺩﺰﻣ ﺀﻼﻛﻭ"
+ tr_subterfuge_double_agents_effect:0 ".ﺲﺴﺠﺘﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻦﻋ ﺕﺎﻣﻮﻠﻌﻣ §!XYZT_210XYZT ﺐﺴﺘﻜﻧ ﺎﻨﻧﺈﻓ ،ﺎﻨﻓﺪﻬﺘﺴﺗ ﻲﺘﻟﺍ ﺔﻳﺩﺎﻌﻤﻟﺍ §YOperation§! ﺔﻴﻠﻤﻋ ﻞﺸﻔﺗ ﺎﻣﺪﻨﻋ"
+ tr_subterfuge_double_agents_delayed:0 ".ﺎﻨﺘﻴﻀﻗ ﻲﻓ ﺔﻤﻫﺎﺴﻤﻠﻟ ﺎﺻﻼﺧﺇ ﺎﻨﺋﺍﺪﻋﺃ ﺮﺜﻛﺃ ﻰﻠﻋ ﻰﺘﺣ ﺮﻴﺛﺄﺘﻟﺍ ﻰﻠﻋ ﻥﻭﺭﺩﺎﻗ ﻦﺤﻧ ،ﺔﻴﻋﺍﺪﺑﻹﺍ ﻉﺎﻨﻗﻹﺍ ﻞﺋﺎﺳﻭ ﻝﻼﺧ ﻦﻤﻓ"
+
+ tr_subterfuge_shadow_recruits:0 "ﻞﻈﻟﺍ ﻦﻳﺪﻨﺠﻤﻟﺍ"
+ tr_subterfuge_shadow_recruits_delayed:1 ".ﻪﺑ ﺍﻮﻠﻜﺸﺗﻭ ،ﻪﻴﻓ ﺍﻭﺪﻟﻭ ﺎﻨﺑ ﺹﺎﺨﻟﺍ [Root.GetOperativesLowerPlural] ﻥﺈﻓ ،ﻂﻘﻓ ﻝﻼﻈﻟﺍ ﺍﻭﺪﻤﺘﻋﺍ ﺎﻨﺋﺍﺪﻋﺃ ﻥﺃ ﻦﻴﺣ ﻲﻓ"
+
+################################################################
+# Unyielding
+################################################################
+
+ tradition_unyielding:0 "ﻦﻴﺼﺤﺘﻟﺍ"
+ tradition_unyielding_desc:0 ".ﺮﻃﺎﺨﻤﻟﺎﺑ ﺔﺌﻴﻠﻣﻭ ﺔﻌﺳﺍﻭ ﺓﺮﺠﻤﻟﺍ"
+ tr_unyielding_adopt:0 "ﻦﻴﺼﺤﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ"
+ tr_unyielding_finish:0 "ﻦﻴﺼﺤﺘﻟﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+ #tr_unyielding_finish_desc: "§M(Not implemented yet)§!\nAscension Perks Unlocked: §G+1§!"
+ tr_unyielding_federations_finish:0 "$tr_unyielding_finish$"
+ tr_unyielding_federations_finish_desc:0 "§G+1§!Ascension Perk ﺡﻮﺘﻔﻣ: \n Ascension Perk.['ascension_perk:ap_eternal_vigilance'] £unity£ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺎﺑ ﺢﻤﺴﻳ\n type.§Y$military_federation$§! ﺩﺎﺤﺗﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺢﻨﻣ\n§G-20%§!$mod_starbases_upkeep_mult$ \n§G+50%§!$MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_MULT$ "
+
+ tr_unyielding_resistance_is_frugal:0 "ﺓﺪﺼﺘﻘﻣ ﺔﻣﻭﺎﻘﻤﻟﺍ"
+ tr_unyielding_resistance_is_frugal_desc:2 " Unity.£unity£ §!.5XYZT_30XYZT ﻥﻵﺍ ﺞﺘﻨﺗ §Yﻉﺎﻓﺪﻟﺍ ﺵﻮﻴﺟ§! £defense_army£"
+ tr_unyielding_resistance_is_frugal_hive:0 "$tr_unyielding_resistance_is_frugal$"
+ tr_unyielding_resistance_is_frugal_machine:0 "$tr_unyielding_resistance_is_frugal$"
+ tr_unyielding_resistance_is_frugal_delayed:0 ".ﺍﺭﺎﻫﺩﺯﺍ ﺮﺜﻛﺃ ﻞﺒﻘﺘﺴﻣ ﻥﺎﻤﻀﻟ ﺔﻳﻮﻴﺣ ﺎﻬﻧﻭﺮﺒﺘﻌﻳﻭ ،ﺎﻨﺒﻛﻮﻛ ﻲﻤﺤﺗ ﻲﺘﻟﺍ ﺕﺎﻨﻴﺼﺤﺘﻟﺍ ﺓﻮﻗ ﻲﻓ ﺓﺮﻴﺒﻛ ﺔﺣﺍﺮﺑ ﺎﻨﺒﻌﺷ ﺮﻌﺸﻳﻭ"
+ tr_unyielding_resistance_is_frugal_hive_delayed:0 ".ﺍﺪﻴﺟ ﻲﻤﺤﻣ ﺐﻛﻮﻛ ﺔﻓﺮﻌﻣ ﻞﺜﻣ ﺎﻨﻧﺎﻫﺫﺃ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﻦﻣﻷﺍﻭ ﺎﺿﺮﻟﺍ ﺮﺸﻨﻳ ﺀﻲﺷ ﻻ"
+ tr_unyielding_resistance_is_frugal_machine_delayed:0 ".ﺓﺀﺎﻔﻜﻟﺍ ﻦﻣ ﻰﻠﻋﺃ ﺕﺎﻳﻮﺘﺴﻤﺑ ﻞﻤﻌﻟﺎﺑ ﺎﻨﺗﺎﺠﻟﺎﻌﻣﻭ ﺎﻧﺪﻘﻌﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﺒﺳﻮﺤﻟﺍ ﺔﺣﺎﺴﻣ ﻦﻣ ﺮﻴﺒﻛ ﺭﺪﻗ ﺮﻳﺮﺤﺗ ﻰﻟﺇ ﻱﺩﺆﻴﺳ ﺪﻴﺟ ﻞﻜﺸﺑ ﺐﻛﺍﻮﻜﻟﺍ ﻊﻴﻤﺟ ﺔﻳﺎﻤﺣ ﻥﺎﻤﺿ ﻥﺇ"
+
+ tr_unyielding_never_surrender:0 "ﺍﺪﺑﺃ ﻢﻠﺴﺘﺴﺗ ﻻ"
+ tr_unyielding_never_surrender_gestalt:0 "$tr_unyielding_never_surrender$"
+ tr_unyielding_never_surrender_delayed:0 ".ﺍﺪﺑﺃ ﻢﻠﺴﺘﺴﻧ ﻦﻟ .ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺓﺪﻳﺍﺰﺘﻣ ﺓﻮﻗﻭ ﺓﺪﻳﺍﺰﺘﻣ ﺔﻘﺜﺑ ﻞﺗﺎﻘﻨﺳ .ﻡﺪﺴﻟﺍ ﻲﻓﻭ ،ﺔﻘﺋﺎﻔﻟﺍ ﻁﻮﻄﺨﻟﺍ ﻲﻓﻭ ،ﺕﺎﺒﻜﻳﻮﻜﻟﺍ ﺔﻣﺰﺣﺃ ﻲﻓ ﻞﺗﺎﻘﻨﺳ .ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﻞﺗﺎﻘﻨﺳ .ﺎﻨﺑﺍﺮﺗ ﻰﻠﻋ ﻞﺗﺎﻘﻨﺳ"
+ tr_unyielding_never_surrender_gestalt_delayed:0 ".ﺎﻧﺩﻮﻌﺻ ﺔﺼﻗ ﻲﻓ ﻯﺮﺧﺃ ﺔﻴﺷﺎﺣ ﺩﺮﺠﻣ ﻥﻮﻧﻮﻜﻴﺳ ،ﻥﻵﺍ ﻦﻣ ﻡﺎﻋ ﻒﻟﺃ ﺪﻌﺑﻭ !ﺮﺴﻜﻠﻟ ﺔﻠﺑﺎﻘﻟﺍ ﺮﻴﻏ ﺎﻨﺗﺎﻋﺎﻓﺩ ﺪﺿ ﻢﻬﺴﻔﻧﺃ ﺍﻮﻘﻠﻳ ﻢﻬﻋﺩ .ﻢﻬﻨﻣ ﻰﻧﺩﺃ ﻢﻫ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﻷ ﺍﺪﺑﺃ ﻢﻠﺴﺘﺴﻧ ﻦﻟ"
+
+ tr_unyielding_bulwark_of_harmony:0 "ﻡﯪﻮﻟﺍ ﻦﺼﺣ"
+ tr_unyielding_bulwark_of_harmony_hive:0 "$tr_unyielding_bulwark_of_harmony$"
+ tr_unyielding_bulwark_of_harmony_machine:0 "$tr_unyielding_bulwark_of_harmony$"
+ tr_unyielding_bulwark_of_harmony_desc:2 ".ﻙﺩﻭﺪﺣ ﻞﺧﺍﺩ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻦﻔﺴﻠﻟ §G+15%§! ﺭﺍﺪﻘﻤﺑ §Y$MOD_SHIP_FIRE_RATE_MULT$§! ﺓﺩﺎﻳﺯ ﻢﺘﺗ ،ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ .§G+33%§! ﺭﺍﺪﻘﻤﺑ §Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗ ،ﻯﺮﺧﺃ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻊﻣ ﺔﻴﻋﺎﻓﺩ ﺏﺮﺣ ﻲﻓ ﻙﺩﻮﺟﻭ ﺀﺎﻨﺛﺃ"
+ tr_unyielding_bulwark_of_harmony_delayed:0 ".ﻒﻠﺘﺨﻳ ﻻ ﺎﻨﻌﻤﺘﺠﻣ .ﺔﻴﺟﺭﺎﺨﻟﺍ ﺽﺍﺮﻣﻷﺍ ﺮﻄﺧ ﺀﺭﺪﻟ ﺔﻋﺎﻨﻤﻟﺍ ﺯﺎﻬﺟ ﻰﻠﻋ ﺪﻤﺘﻌﺗ ﻥﺃ ﺐﺠﻳ ،ﺎﻬﻟﺎﻤﻛ ﻯﺪﻣ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ ،ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﻴﻤﺟ"
+ tr_unyielding_bulwark_of_harmony_hive_delayed:0 ".ﻒﻠﺘﺨﻳ ﻻ [This.GetName] .ﺔﻴﺟﺭﺎﺨﻟﺍ ﺽﺍﺮﻣﻷﺍ ﺮﻄﺧ ﺀﺭﺪﻟ ﺔﻋﺎﻨﻤﻟﺍ ﺯﺎﻬﺟ ﻰﻠﻋ ﺪﻤﺘﻌﺗ ﻥﺃ ﺐﺠﻳ ،ﺎﻬﻟﺎﻤﻛ ﻯﺪﻣ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ ،ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﻴﻤﺟ"
+ tr_unyielding_bulwark_of_harmony_machine_delayed:0 ".ﻒﻠﺘﺨﻳ ﻻ [This.GetName] .ﺔﻴﺟﺭﺎﺨﻟﺍ ﺕﺍﺪﻳﺪﻬﺘﻟﺍ ﺀﺭﺪﻟ ﻲﻠﺧﺍﺩ ﻉﺎﻓﺩ ﻡﺎﻈﻧ ﻰﻠﻋ ﺪﻤﺘﻌﺗ ﻥﺃ ﺐﺠﻳ ،ﺔﻴﻟﺎﺜﻣ ﺖﻧﺎﻛ ﺎﻤﻬﻣ ،ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﻴﻤﺟ"
+
+ tr_unyielding_defensive_zeal:1 "ﺔﻴﻋﺎﻓﺪﻟﺍ ﺔﺳﺎﻤﺤﻟﺍ"
+ tr_unyielding_defensive_zeal_delayed:1 ".ﺎﻨﺘﺳﺎﻤﺤﺑ ﻥﻭﺮﻌﺸﻴﺳ ﺎﻨﺋﺍﺪﻋﺃ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻤﻓ ،ﺎﻧﺩﻮﺟﻭﻭ ﺎﻨﻴﺿﺍﺭﺃ ﻦﻋ ﻉﺎﻓﺪﻟﺎﺑ ﺮﻣﻷﺍ ﻖﻠﻌﺘﻳ ﺎﻣﺪﻨﻋ"
+ tr_unyielding_defensive_zeal_desc:0 ".§!%XYZT_833XYZT ﺔﺒﺴﻨﺑ ﺕﺩﺍﺯ §Yﺭﺮﻀﻟﺍ§!ﻭ §Yﻞﻜﻴﻬﻟﺍ ﻁﺎﻘﻧ§! ﺎﻬﻳﺪﻟ §Yﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻣ§!ﻭ §YStarbases§!"
+
+ tr_unyielding_fortress_doctrine:0 "ﺔﻌﻠﻘﻟﺍ ﺓﺪﻴﻘﻋ"
+ tr_unyielding_fortress_doctrine_delayed:1 ".ﺎﻨﺘﻏﺎﺒﻣ ﻦﻣ ﺍﺪﺑﺃ ﺎﻧﺅﺍﺪﻋﺃ ﻦﻜﻤﺘﻳ ﻦﻠﻓ ،ﺎﻧﺭﺬﺣ ﺪﻘﻔﻧ ﻢﻟ ﺎﻤﻟﺎﻃﻭ .[This.GetAdj] ﻲﻋﻭ ﻲﻓ ﺔﻠﺻﺄﺘﻣ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺔﻈﻘﻴﻟﺍ"
+ tr_unyielding_fortress_doctrine_hive:0 "ﺔﻈﻘﻴﻟﺍ ﺮﻴﻜﻔﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ"
+ tr_unyielding_fortress_doctrine_hive_delayed:0 ".ﺎﻨﺗﺄﺟﺎﻔﻣ ﻦﻣ ﺪﺣﺃ ﻦﻜﻤﺘﻳ ﻻﺃ ﻦﻤﻀﻧﻭ ،ﻦﻴﻈﻘﻳ ﻞﻈﻨﺳ .ﻲﻋﺎﻤﺠﻟﺍ ﺎﻨﻴﻋﻭ ﺝﺭﺎﺧ ﻢﻫﺭﺎﻜﻓﺃ ﻥﻮﻜﺗ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺄﺑ ﺎﻣﺎﻤﺗ ﻖﺜﻧ ﻥﺃ ﺍﺪﺑﺃ ﺎﻨﻨﻜﻤﻳ ﻻ"
+ tr_unyielding_fortress_doctrine_hive_nemesis:0 "$tr_unyielding_fortress_doctrine_hive$"
+ tr_unyielding_fortress_doctrine_hive_nemesis_delayed:0 "$tr_unyielding_fortress_doctrine_hive_delayed$"
+ tr_unyielding_fortress_doctrine_machine:0 "ﺔﻴﻋﺮﻔﻟﺍ ﻲﺻﻮﻟﺍ ﺕﺎﻨﻴﺗﻭﺭ"
+ tr_unyielding_fortress_doctrine_machine_delayed:0 ".ﺎﻨﺗﺄﺟﺎﻔﻣ ﻦﻣ ﺪﺣﺃ ﻦﻜﻤﺘﻳ ﻻﺃ ﻦﻤﻀﻧﻭ ،ﻦﻴﻈﻘﻳ ﻞﻈﻨﺳ .ﻲﻋﺎﻨﻄﺻﻻﺍ ﺮﻴﻏ ﻙﻮﻠﺴﻟﺎﺑ ﺆﺒﻨﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﻡﺪﻋ ﺕﻻﺎﺣ ﻊﻴﻤﺟ ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺭﺎﺒﺘﻋﻻﺍ ﻲﻓ ﺍﺪﺑﺃ ﺎﻨﺗﺎﻴﻣﺯﺭﺍﻮﺧ ﺬﺧﺄﺗ ﻦﻟ"
+ tr_unyielding_fortress_doctrine_machine_nemesis:0 "$tr_unyielding_fortress_doctrine_machine$"
+ tr_unyielding_fortress_doctrine_machine_nemesis_delayed:0 "$tr_unyielding_fortress_doctrine_machine_delayed$"
+
+ #tr_unyielding_defense_in_depth:0 "Defense in Depth"
+ #tr_unyielding_defense_in_depth_delayed:0 "We prefer to take the "onion approach" when it comes to defensive matters. There can never be too many layers to it."
+
+################################################################
+# Psionics
+################################################################
+
+ tradition_psionics:0 "ﺲﻔﻨﻟﺍ ﻢﻠﻋ"
+ tradition_psionics_desc:0 ".[GetNeuralSystemLoc] [Root.GetSpeciesAdj] ﻞﺧﺍﺩ ﺔﻗﺎﻄﻟﺍ ﺢﺘﻔﻨﺳ"
+
+ tr_psionics_adopt:0 "ﺔﻴﺴﻔﻨﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ tr_psionics_adopt_tooltip:0 ".§Y$trait_latent_psionic$§! ﺔﻤﺳ ﻚﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻴﺳﺎﺳﻷﺍ ﻉﺍﻮﻧﻷﺍ ﻦﻣ ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ ﻊﻴﻤﺟ ﺐﺴﺘﻜﺘﺳ"
+ tr_psionics_adopt_shroudwalker_tooltip:0 "§Y$tech_telepathy$§! £society£ \n:ﺚﺤﺒﻟﺍ ﺭﺎﻴﺧ ﺏﺎﺴﺘﻛﺍ ﻢﺗ"
+
+ tr_psionics_finish:0 "ﺔﻴﺴﻔﻨﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ ﺖﻬﺘﻧﺍ"
+ tr_psionics_finish_desc:0 "§G+1§! :ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ ﺢﺘﻓ ﻢﺗ\n§G+50§!$MOD_COUNTRY_EDICT_FUND_ADD$: \n.ﻕﺎﺜﻴﻣ ﻦﻳﻮﻜﺘﻟ §YSpecial Project§! ﺢﺘﻓ"
+
+ tr_psionics_psi_corps:0 "$building_psi_corps$"
+ tr_psionics_psi_corps_desc:1 "[GetAllowPsiCorps]"
+ tr_psionics_psi_corps_delayed: "[GetPsionicPsiCorpsDelayed]"
+ tr_psionics_psi_corps_delayed_organic:0 ".ﻪﺑ ﺭﺮﻀﻟﺍ ﻥﻮﻘﺤﻠﻳ ﺪﻗ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻦﻣ ﻊﻤﺘﺠﻤﻟﺍ ﻦﻋ ﻊﻓﺍﺪﻳﻭ ،[GetCitizenPlural] ﻝﻮﻘﻋ ﻰﻟﺇ ،ﺎﻤﺋﺍﺩ ﺔﻈﻘﻴﻟﺍ ﻦﻴﻌﻟﺍ ﻞﺜﻣ ،Psi ﻖﻠﻴﻓ ﺮﻈﻨﻳ ﻑﻮﺳ"
+ tr_psionics_psi_corps_delayed_machine:0 ".ﻪﺑ ﺭﺮﻀﻟﺍ ﻥﻮﻘﺤﻠﻳ ﺪﻗ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻦﻣ ﻊﻤﺘﺠﻤﻟﺍ ﻦﻋ ﻊﻓﺍﺪﻳﻭ ،ﺎﻨﺑ ﺹﺎﺨﻟﺍ [GetCitizenPlural] ،ﺎﻤﺋﺍﺩ ﺔﻈﻘﻴﻟﺍ ﻦﻴﻌﻟﺍ ﻞﺜﻣ ،Psi ﻖﻠﻴﻓ ﺐﻗﺍﺮﻳ ﻑﻮﺳ"
+
+ tr_psionics_psionic_assimilation:0 "ﺔﻤﻴﻈﻌﻟﺍ ﺓﻮﺤﺼﻟﺍ"
+ tr_psionics_psionic_assimilation_desc:0 "[GetPsionicAssimilationEffectShroud]\n.ﺔﻨﻣﺎﻜﻟﺍ ﺎﻬﺗﺍﺭﺪﻗ ﺢﺘﻔﻳ ﺎﻤﻣ ،ﻯﺮﺧﻷﺍ ﻉﺍﻮﻧﻸﻟ §Yﻲﺴﻔﻨﻟﺍ ﺏﺎﻌﻴﺘﺳﻻﺍ§! ـﻟ ﺢﻤﺴﻳ\n .ﺔﻠﻣﺎﻜﻟﺍ ﺔﻴﻨﻫﺬﻟﺍ ﺎﻬﺗﺎﻧﺎﻜﻣﺇ §Y$trait_latent_psionic$§! ﻉﺍﻮﻧﺃ ﻊﻴﻤﺟ ﻖﻠﻄﺘﺳ"
+ tr_psionics_psionic_assimilation_desc_indiv_organic: "$CAN_ASSIMILATE_HIVES$."
+ tr_psionics_psionic_assimilation_desc_hive_mind: "$CAN_ASSIMILATE_HIVES$."
+ tr_psionics_psionic_assimilation_desc_indiv_machine: ".§YMechanical§!ﻭ §YMachine§! ﻉﺍﻮﻧﻷﺍ ﺏﺎﻌﻴﺘﺳﺍ ﻪﻨﻜﻤﻳ"
+ tr_psionics_psionic_assimilation_desc_gestalt_machine: "$tr_psionics_psionic_assimilation_desc_indiv_machine$"
+ tr_psionics_psionic_assimilation_desc_driven_assimilators: "$CAN_ASSIMILATE_HIVES$.\n.§H$living_standard_ego_assimilation$§! ﻰﺘﺣ §Yﺔﻳﻮﻀﻌﻟﺍ ﻉﺍﻮﻧﻷﺍ§! ﺏﺎﻌﻴﺘﺳﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺎﺑ ﻆﻔﺘﺤﻳ\n$tr_psionics_psionic_assimilation_desc_indiv_machine$"
+ tr_psionics_psionic_assimilation_delayed:0 ".ﺔﻴﻘﻴﻘﺤﻟﺍ ﺎﻨﺗﻮﻗ ﻅﺎﻘﻳﺇﻭ ،ﻪﺤﺘﻓ ﻦﻜﻤﻳ ﺮﻴﺒﻛ ﺪﻬﺠﺑ ﻂﻘﻓ .ﺔﻘﻠﻐﻣ ﺏﺎﺠﺤﻟﺍ ﻞﻛ ﻕﺮﺘﺨﺗ ﻲﺘﻟﺍ ﻦﻴﻌﻟﺍ"
+
+ tr_psionics_breach_shroud:0 "ﻦﻔﻜﻟﺍ ﻕﺮﺧ"
+ tr_psionics_breach_shroud_desc:0 "§G+5%§!: [telepath.GetNamePlural] [telepath.GetIcon]$mod_psionic_pop_bonus_workforce_mult$ ﻞﻜﻟ $pop_group_unit$ \n.ﻦﻔﻜﻟﺍ ﻕﺍﺮﺘﺧﻻ §YSpecial Project§! ﺢﺘﻔﻳ"
+ tr_psionics_breach_shroud_delayed:0 ".ﻪﻨﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﺔﻴﻔﻴﻛ ﺪﻌﺑ ﻢﻠﻌﺘﻧ ﻢﻟ ﺎﻨﻨﻜﻟﻭ ،ﺎﻨﻳﺩﺎﻨﻳ ﺎﻫﺭﻮﺼﺗ ﻦﻜﻤﻳ ﻻ ﻲﺘﻟﺍ ﺓﻮﻘﻟﺍ ﻦﻣ ﻊﺒﻧ ﻙﺎﻨﻫ"
+
+ tr_psionics_shrouded_encryption:0 "ﺓﺎﻄﻐﻤﻟﺍ ﺕﻻﺎﺼﺗﻻﺍ"
+ tr_psionics_shrouded_encryption_delayed:0 ".ﻲﻠﻴﻐﺸﺘﻟﺍ ﻦﻣﻷﺍ ﻲﻓ ﺔﻴﻟﺎﺘﻟﺍ ﺓﻮﻄﺨﻟﺍ ﻲﻫ ﺕﺍﺮﻔﺸﻟﺍ ﻚﻓ ﺕﺎﻴﻨﻘﺗﻭ ﺔﻳﺮﻃﺎﺨﺘﻟﺍ ﺭﺎﻔﺻﻷﺍ ﺪﻌﺗ"
+ tr_psionics_mind_readers:0 "ﻝﻮﻘﻌﻟﺍ ﺀﺍﺮﻗ"
+ tr_psionics_mind_readers_delayed:0 ".ﺎﻨﺤﻟﺎﺼﻟ ﺮﻴﺜﻜﻟﺍ ﺍﻮﻤﻠﻌﺘﻳ ﻥﺃ ﻦﻳﺮﻃﺎﺨﺘﻤﻠﻟ ﻦﻜﻤﻳ ،ﻉﺎﻤﺘﺳﻻﺍ ﻝﻼﺧ ﻦﻣ .ﻦﻔﻜﻟﺍ ﻲﻓ ﺎﻫﺍﺪﺻ ﺩﺩﺮﺘﻳ ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺭﺎﻜﻓﺃ"
+ tr_psionics_mind_readers_tooltip:0 ".§YSight Beyond Sight§! ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻡﻮﺳﺮﻣ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺢﻨﻤﻳ \n§G+10§!$MOD_ADD_BASE_COUNTRY_INTEL$: "
+
+ REQUIRES_BREACHED_SHROUD: "§R$TRIGGER_FAIL$ﻦﻔﻜﻟﺍ ﻕﺍﺮﺘﺧﺍ ﺐﻠﻄﺘﻳ.§!"
+
+################################################################
+# Genetics
+################################################################
+
+ tradition_genetics:0 "ﺔﺛﺍﺭﻮﻟﺍ ﻢﻠﻋ"
+ tradition_genetics_desc:0 "؟ﻲﻨﻴﺠﻟﺍ ﻝﺎﻤﻜﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ﻮﻟ ﺍﺫﺎﻣ"
+ tr_genetics_adopt:0 "ﺔﻴﻨﻴﺠﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ tr_genetics_finish:0 "ﺔﻴﻨﻴﺠﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ ﺖﻬﺘﻧﺍ"
+
+ tr_genetics_resequencing:0 "ﻲﻨﻴﺠﻟﺍ ﻞﺴﻠﺴﺘﻟﺍ ﺓﺩﺎﻋﺇ"
+ tr_genetics_resequencing_delayed:0 ".ﻪﺒﻟﻮﻘﻨﻟ ﺎﻨﻜﻠﻣ ﻱﻭﻮﻨﻟﺍ ﺾﻤﺤﻟﺍ ﻥﺈﻓ ،ﻦﻴﻄﻟﺍ ﻞﻴﻜﺸﺘﺑ ﺕﺎﺤﻨﻟﺍ ﻡﻮﻘﻳ ﺎﻤﻛﻭ .ﻉﺍﻮﻧﻸﻟ ﺔﻴﺳﺎﺳﻷﺍ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺔﻴﻨﺒﻟﺎﺑ ﻦﻳﺪﻴﻘﻣ ﺪﻌﻧ ﻢﻟ"
+ tr_genetics_resequencing_desc:1 "ﻉﺍﻮﻧﻷﺍ ﻞﻳﺪﻌﺗ ﻊﻣ §YNegative§! ﺕﺎﻤﺳ ﺔﻓﺎﺿﺇﻭ §YPositive§! ﺕﺎﻤﺳ ﺔﻟﺍﺯﺇ ﻦﻜﻤﻳ"
+
+ tr_genetics_creation:0 "ﻲﺳﺪﻨﻬﻟﺍ ﻦﻳﻮﻜﺘﻟﺍ ﺮﻔﺳ"
+ tr_genetics_creation_delayed:0 ".ﺎﻧﺮﻴﺼﻣ ﺩﺎﻴﺳﺃ ﺎﻨﺤﺒﺻﺃﻭ ،ﺔﻠﻗﺎﺜﺘﻤﻟﺍ ﺭﻮﻄﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺎﻧﺯﻭﺎﺠﺗ ﺪﻘﻟ .ﻰﻤﻋﺃ ﻞﻴﻟﺩ ﻲﻫ ﺔﻌﻴﺒﻄﻟﺍ"
+ tr_genetics_creation_desc:1 "§YHive-Mind§! ﺝﺭﺎﺧ ﻭﺃ ﻞﺧﺍﺩ ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ ﺏﺎﻌﻴﺘﺳﺎﺑ ﺢﻤﺴﻳ\nﻉﺍﻮﻧﻷﺍ ﻞﻳﺪﻌﺗ ﻊﻣ §Yﺮﻬﻈﻤﻟﺍ§! ﺭﻮﻬﻇ §Yﺮﻴﻴﻐﺗ§! ﻦﻜﻤﻳ"
+
+ tr_genetics_enhanced_expression:0 "ﻲﻠﻴﻟﻷﺍ ﺮﻴﺒﻌﺘﻟﺍ"
+ tr_genetics_enhanced_expression_delayed:0 ".ﺎﻘﺒﺴﻣ ﺔﻌﺟﺍﺮﺘﻤﻟﺍ ﺕﺎﻤﺴﻟﺍ ﻦﻋ ﺮﻴﺒﻌﺘﻟﺍ ﻦﻜﻤﻳ ﺚﻴﺣ ،ﻲﻋﺎﻨﻄﺻﻻﺍ ﺩﺍﺪﺗﺭﻻﺎﺑ ﻲﺋﺎﻘﺘﻧﺍ ﻞﻜﺸﺑ ﺕﻼﺴﻠﺴﺘﻟﺍ ﻑﺍﺪﻬﺘﺳﺍ ﺢﻤﺴﻳ"
+ tr_genetics_enhanced_expression_desc:1 "ﻉﺍﻮﻧﻷﺍ ﻞﻳﺪﻌﺘﻟ §YAdvanced§! ﺕﺎﻤﺳ ﺢﺘﻔﻳ"
+
+ tr_genetics_retrovirus:0 "ﺔﻴﻌﺟﺮﻟﺍ ﺕﺎﺳﻭﺮﻴﻔﻟﺎﺑ ﺐﻋﻼﺘﻟﺍ"
+ tr_genetics_retrovirus_delayed:1 ".ﺔﺌﻴﺑ ﻱﺃ ﻊﻣ ﺔﻋﺮﺴﺑ ﻢﻠﻗﺄﺘﻟﺎﺑ ﺎﻨﻧﺎﻜﺴﻟ ﺔﻳﺮﻘﻬﻘﻟﺍ ﺕﺎﺳﻭﺮﻴﻔﻟﺍ ﻞﻣﺍﻮﻋ ﺢﻤﺴﺗ"
+
+ tr_genetics_efficient_cloning:0 "ﺔﻴﻋﺬﺠﻟﺍ ﺎﻳﻼﺨﻟﺍ ﺰﻴﻔﺤﺗ"
+ tr_genetics_efficient_cloning_delayed:0 ".ﻱﺯﺍﻮﻤﻟﺍ ﻲﻨﻴﻨﺠﻟﺍ ﺭﻮﻄﺘﻟﺎﺑ ﺢﻤﺴﻴﺳ ﺥﺎﺴﻨﺘﺳﻻﺍ ﻖﻓﺍﺮﻣ ﻦﻴﺴﺤﺗ ﻥﺇ"
+ tr_genetics_efficient_cloning_desc:0 "ﻲﻓﺎﺿﺇ §Y$MOD_BONUS_POP_GROWTH$§! §G+1.5§! ﺞﺘﻨﻳ ['building:building_clone_vats']"
+
+ tr_genetics_adopt_modifier_desc:1 "$improves_clone_vats_tt$"
+ tr_genetics_finish_modifier_desc:1 "$TRADITIONS_FINISH_AP$"
+ tr_genetics_finish_extra_traits_modifier_desc:1 "$TRADITIONS_FINISH_AP$\n§G-33%§!$mod_planet_buildings_clone_vats_upkeep_mult$: \nﻉﺍﻮﻧﻷﺍ ﻞﻳﺪﻌﺘﻟ ['concept_leviathan_traits']ﻭ ['concept_lithoid_phenotype_traits']ﻭ ['concept_plantoid_phenotype_traits'] ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻚﻨﻜﻤﻳ"
+
+ improves_clone_vats_tt: ".§YUpkeep§! ﻲﻓ ﺔﻠﺑﺎﻘﻣ ﺓﺩﺎﻳﺯ ﻊﻣ ،ﺔﻴﻓﺎﺿﺇ §Y$MOD_BONUS_POP_GROWTH$§! §G+1.5§! ['building:building_clone_vats'] ﺞﺘﻨﺗ"
+
+################################################################
+# Cybernetics
+################################################################
+
+ tradition_cybernetics:0 "ﻲﻟﻵﺍ ﻢﻜﺤﺘﻟﺍ ﻢﻠﻋ"
+ tradition_cybernetics_desc:0 ".ﺔﻟﻵﺍﻭ [Owner.Species.GetFleshTypeCyberCreed] ﺝﺎﻣﺪﻧﺍ ﻲﻓ ﻦﻤﻜﻳ ﺎﻨﻠﺒﻘﺘﺴﻣ"
+ tr_cybernetics_adopt:0 "ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ tr_cybernetics_adopt_desc:1 "§Y$trait_cybernetic$§! ﺔﻤﺳ ﺔﺴﺳﺆﻤﻟﺍ ﻉﺍﻮﻧﻷﺍ ﺢﻨﻤﻟ §YSituation§! ﺀﺪﺑ"
+ hard_reset_not_embraced_cybernetics: "§YCyberized§! ﻮﻫ"
+ hard_reset_embraced_neither: "§YDe-Cyberized§! ﻻﻭ §YCyberized§! ﺲﻴﻟ"
+ tr_cybernetics_adopt_utopia_desc: ".§Y$trait_cybernetic$§! ﺔﻤﺳ ﻉﺍﻮﻧﻷﺍ ﻊﻴﻤﺟ ﺢﻨﻤﻟ §YSpecial Project§! ﺢﺘﻔﻳ"
+ tr_cybernetics_adopt_hive:0 "$tr_cybernetics_adopt$"
+ tr_cybernetics_adopt_hive_desc:0 "$tr_cybernetics_adopt_desc$"
+ tr_cybernetics_adopt_hive_utopia_desc: "$tr_cybernetics_adopt_utopia_desc$"
+ tr_cybernetics_finish:0 "ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ ﺖﻬﺘﻧﺍ"
+ tr_cybernetics_finish_situation_effects: "§G+1§!$MOD_COUNTRY_ASCENSION_PERKS_ADD$: \n§G+1§!$mod_BIOLOGICAL_species_trait_picks_add$: \n§G+10%§!$tr_cybernetics_situation_after$$MOD_POP_BONUS_WORKFORCE_MULT$: §G+25%§!$tr_cybernetics_situation_during$ﻊﺿﻮﻟﺍ ﺔﻋﺮﺳ: \n"
+ tr_cybernetics_finish_effects: "§G+1§!$MOD_COUNTRY_ASCENSION_PERKS_ADD$: \n§G+1§!$mod_BIOLOGICAL_species_trait_picks_add$: \n§G+10%§!$MOD_POP_BONUS_WORKFORCE_MULT$: \n"
+ tr_cybernetics_hive_finish_effects: "$tr_cybernetics_finish_effets$.ﺮﻤﺘﺴﻤﻟﺍ ﺏﺎﻌﻴﺘﺳﻻﺍ ﻊﻣ ﺐﻛﺍﻮﻜﻟﺍ ﻰﻠﻋ ﻒﺋﺎﻇﻮﻟﺍ ﺔﻧﺎﻴﺻ §G-7.5%§! Job Output ﻭ§G+15%§! ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ،§YNode Skill Level§!ﻭ §YNode XP§! Pops ﺢﻨﻣ ﻰﻟﺇ £pop£ ﺏﺎﻌﻴﺘﺳﺍ ﻱﺩﺆﻳ"
+ tr_cybernetics_hive_finish_situation_effects: "$tr_cybernetics_situation_after$$tr_cybernetics_hive_finish_effets$§G+25%§!$tr_cybernetics_situation_during$ﻊﺿﻮﻟﺍ ﺔﻋﺮﺳ: \n"
+
+ tr_cybernetics_situation_during: "\n§H$situation_cyberization$ ﻝﻼﺧ§!"
+ tr_cybernetics_situation_after: "\n§S$situation_cyberization$ ﺪﻌﺑ§!\n\n"
+ tr_cybernetics_situation: "$tr_cybernetics_situation_after$§G+5%§!$tr_cybernetics_situation_during$ﻊﺿﻮﻟﺍ ﺔﻋﺮﺳ: "
+
+ tr_cybernetics_transubstantiation_synthesis:0 "ﺔﻳﺮﻫﻮﺠﻟﺍ ﺔﻟﺎﺤﺘﺳﻻﺍ ﻒﻴﻟﻮﺗ"
+ tr_cybernetics_transubstantiation_synthesis_desc:0 ".ﺔﻟﻵﺍ ﻲﻓ ﻢﻬﺳﺮﻏ ﻢﺘﻳ ﻢﻟ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﻷ ﻥﺎﻜﻣ ﻪﻴﻓ ﺲﻴﻟ ﺪﻳﺪﺠﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻥﺇ"
+ tr_cybernetics_transubstantiation_synthesis_tt:0 "$CYBORG_ASSIMILATION_CITIZENSHIP_ENABLED$"
+ tr_cybernetics_transubstantiation_synthesis_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_transubstantiation_chemistry_tt$"
+
+ tr_cybernetics_organ_harvesting:0 "ﺀﺎﻀﻋﻷﺍ ﺩﺎﺼﺣ"
+ tr_cybernetics_organ_harvesting_situation: "$tr_cybernetics_organ_harvesting$"
+ tr_cybernetics_organ_harvesting_tt: "§YCyborg $MOD_LOGISTIC_GROWTH_MULT$§! £mod_logistic_growth_mult£ §G+10%§! ﺐﺴﺘﻜﺗ §Y§! ﺓﺮﻤﺘﺴﻤﻟﺍ ﺮﻴﻬﻄﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺕﺍﺫ ﺐﻛﺍﻮﻜﻟﺍ"
+ tr_cybernetics_organ_harvesting_desc:0 ".ﻢﻫﺮﻳﻭﺪﺗ ﺓﺩﺎﻋﺇ ﺩﺮﺠﻤﺑ ﺽﺮﻐﻟﺍ ﻢﻬﺤﻨﻣ ﻢﺘﻳ ﻦﻴﺒﺳﺎﻨﻣ ﺮﻴﻏ ﻥﻭﺮﺒﺘﻌﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ"
+ tr_cybernetics_organ_harvesting_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_organ_harvesting_tt$"
+
+ tr_cybernetics_metabolic_reprocessing:0 "ﺔﻴﻀﻳﻷﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺓﺩﺎﻋﺇ"
+ tr_cybernetics_metabolic_reprocessing_desc:0 ".ﺎﻨﻧﺎﻜﺴﻟ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺔﻴﺋﺎﻴﻤﻴﻜﻟﺍ ﺔﻧﺎﻴﺼﻟﺍ ﻦﻣ ﻞﻠﻘﺗ ﻢﻀﻬﻠﻟ ﺔﻠﺑﺎﻗ ﺔﻴﺋﺎﻴﻤﻴﻛ ﺕﺎﻧﻮﻜﻣ ﻰﻟﺇ ﺔﻴﻀﻳﻷﺍ ﺕﺎﻳﺎﻔﻨﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺓﺩﺎﻋﺇ ﻥﺇ"
+ tr_cybernetics_metabolic_reprocessing_tt: "§R+0.35§!$mod_planet_pop_assemblers_alloys_upkeep_add$: \n§G+0.5§!: §Y[roboticist.GetName] ﻒﺋﺎﻇﻭ [roboticist.GetIcon]§! ﻦﻣ §Y$MOD_BONUS_POP_GROWTH$§!\n§R+0.35§!$mod_planet_augmentors_alloys_upkeep_add$: \n§G+0.5§! :ﻒﺋﺎﻇﻮﻟﺍ §Y[augmentor.GetName] [augmentor.GetIcon]§! ﻦﻣ §Y$MOD_PLANET_POP_ASSEMBLY_ADD$§!\n§G-10%§! :ﻍﺭﻮﺒﻳﺎﺳ ﺔﻧﺎﻴﺻ"
+ tr_cybernetics_metabolic_reprocessing_hive_desc:0 "$tr_cybernetics_metabolic_reprocessing_delayed$"
+ tr_cybernetics_metabolic_reprocessing_hive_tt:0 "§G-10%§! :ﺲﺑﻮﺑ ﻍﺭﻮﺒﻳﺎﺳ ﻦﻣ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻢﺠﺣ\n§G-10%§! :ﻍﺭﻮﺒﻳﺎﺳ ﺔﻧﺎﻴﺻ"
+ tr_cybernetics_metabolic_reprocessing_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_metabolic_reprocessing_tt$"
+ tr_cybernetics_metabolic_reprocessing_situation_hive_effects: "$tr_cybernetics_situation$$tr_cybernetics_metabolic_reprocessing_hive_tt$"
+
+ tr_cybernetics_integrated_anatomy:0 "ﻞﻣﺎﻜﺘﻤﻟﺍ ﺢﻳﺮﺸﺘﻟﺍ"
+ tr_cybernetics_integrated_anatomy_desc:0 ".ﻝﺎﻤﻜﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺎﻘﺣ ﺎﻨﻨﻜﻤﻳ ﻥﻮﺑﺮﻛ ﻮﻧﺎﻨﻟﺍ ﺐﻛﺮﻣﻭ ﺫﻻﻮﻔﻟﺍﻭ [Owner.Species.GetFleshTypeCyberCreed] ﻂﻠﺧ ﻝﻼﺧ ﻦﻣ ﻂﻘﻓ"
+ tr_cybernetics_integrated_anatomy_tt:0 "\n.§Y$trait_cybernetic$§! ﺔﻤﺳ ﺕﺍﺫ ﻉﺍﻮﻧﻷﺍ ﻰﻠﻋ ﺎﻬﻘﻴﺒﻄﺗ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻞﻳﺪﻌﺘﻟ §YCyborg§! ﺕﺎﻤﺳ ﺭﺎﻴﺘﺧﺎﺑ ﺢﻤﺴﻳ"
+ tr_cybernetics_integrated_anatomy_situation_effects: "§G+1§!$mod_ROBOT_species_trait_points_add$: \n§G+1§!$tr_cybernetics_situation$$tr_cybernetics_integrated_anatomy_tt$$mod_ROBOT_species_trait_picks_add$: "
+ requires_tr_cybernetics_integrated_anatomy: ".§Y$tr_cybernetics_integrated_anatomy$§!$TRIGGER_FAIL$ﺪﻴﻠﻘﺗ ﺐﻠﻄﺘﻳ "
+
+ tr_cybernetics_augmentation_overload: "ﺪﺋﺍﺰﻟﺍ ﻞﻤﺤﻟﺍ ﺓﺩﺎﻳﺯ"
+ tr_cybernetics_augmentation_overload_desc: ".$job_augmentor_plural$ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻲﻫ ﻉﺭﺰﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻰﻠﻋ ﺱﺎﻨﻟﺍ ﺐﻠﻃ ﺔﺒﻛﺍﻮﻤﻟ ﺓﺪﻴﺣﻮﻟﺍ ﺔﻘﻳﺮﻄﻟﺍ"
+ tr_cybernetics_augmentation_overload_tt: "§G+200§!$job_augmentor_plural_with_icon$ ﻞﻜﻟ $building_augmentation_center$: "
+ tr_cybernetics_augmentation_centers: "ﺰﻳﺰﻌﺘﻟﺍ ﺰﻛﺍﺮﻣ"
+ tr_cybernetics_augmentation_centers_tt: "['building:building_augmentation_center'] §Y:ﻰﻨﺒﻤﻟﺍ ﺢﺘﻔﻳ§!"
+ tr_cybernetics_augmentation_centers_desc: ".ﻲﺋﺰﺟ ﻲﻜﻴﻧﺎﻜﻴﻣ ﺮﺠﺘﻣﻭ ﻲﺋﺰﺟ ﻞﻴﻐﺸﺗ ﺰﻛﺮﻣﻭ ﻲﺋﺰﺟ ﻕﻮﺴﺗ ﺰﻛﺮﻣ .ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺱﺮﻐﻟ ﺍﺰﻛﺮﻣ $building_augmentation_center$ ﺪﻌﻳ"
+ tr_cybernetics_augmentation_overload_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_augmentation_overload_tt$"
+
+
+ tr_cybernetics_synaptic_sub_processing:0 "ﻚﺑﺎﺸﺘﻣ ﺔﻴﻋﺮﻔﻟﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ"
+ tr_cybernetics_synaptic_sub_processing_situation: "$tr_cybernetics_synaptic_sub_processing$"
+ tr_cybernetics_synaptic_sub_processing_delayed:0 ".ﺎﻨﻳﺪﻟ ﺓﺪﻋﺎﺼﻟﺍ ﺔﻠﺻﻮﻟﺍ ﺪﻘﻋ ﻰﻠﻋ ﻚﺑﺎﺸﺘﻤﻟﺍ ﻞﻤﺤﻟﺍ ﻞﻴﻠﻘﺗ ﻰﻟﺇ ﺔﻳﺰﻛﺮﻤﻟﺍ ﺭﻭﺎﺤﻤﻟﺍ ﻰﻟﺇ ﺔﻴﻨﻴﺗﻭﺮﻟﺍ ﺮﻴﻜﻔﺘﻟﺍ ﻁﺎﻤﻧﺃ ﻎﻳﺮﻔﺗ ﻱﺩﺆﻳ"
+ tr_cybernetics_synaptic_sub_processing_tt: "§G-25%§!$MOD_EMPIRE_SIZE_DISTRICTS_MULT$: \n Jobs§Y$job_augmentor_drone$§! £job_augmentor_drone£ §G+200§! ﺮﻴﻓﻮﺗ §Y$building_spawning_pool$§! £building£"
+ tr_cybernetics_synaptic_sub_processing_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_synaptic_sub_processing_tt$"
+
+ tr_cybernetics_modular_cybernetics:0 "ﻱﺭﺎﻴﻌﻤﻟﺍ ﻲﻟﻵﺍ ﻢﻜﺤﺘﻟﺍ ﻢﻠﻋ"
+ tr_cybernetics_modular_cybernetics_desc:0 ".ﺚﻳﺪﺤﺘﻟﺍ ﺀﺎﻨﺛﺃ ﻞﻤﻌﻟﺍ ﻦﻋ ﻒﻗﻮﺘﻟﺍ ﺖﻗﻭ ﻞﻴﻠﻘﺗ ﻰﻟﺇ ﺎﻨﻳﺪﻟ ﺔﻴﻧﻭﺮﺘﻜﻟﻹﺍ ﺕﺎﻨﻴﺴﺤﺘﻟﺍ ﻖﻓﺍﻮﺗ ﻦﻴﺴﺤﺗ ﻱﺩﺆﻴﺳ"
+ tr_cybernetics_modular_cybernetics_hive_desc:0 "$tr_cybernetics_modular_cybernetics_delayed$"
+ tr_cybernetics_modular_cybernetics_tt:1 ".ﺔﻳﻮﻀﻌﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻰﻠﻋ ﺎﻀﻳﺃ §Y$mod_ROBOT_species_trait_picks_add$§!ﻭ §Y$mod_ROBOT_species_trait_points_add$§! ﻖﺒﻄﻨﻳ"
+ tr_cybernetics_modular_cybernetics_tt_2:0 "§G-50%§!$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: \n$tr_cybernetics_modular_cybernetics_tt$"
+ tr_cybernetics_modular_cybernetics_hive_tt:0 "§G+3§!$mod_BIOLOGICAL_species_trait_points_add$: \n§G-50%§!$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: "
+ tr_cybernetics_modular_cybernetics_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_modular_cybernetics_tt_2$"
+ tr_cybernetics_modular_cybernetics_hive_situation_effects: "$tr_cybernetics_situation$$tr_cybernetics_modular_cybernetics_hive_tt$"
+
+ REQUIRES_CYBORG_EMPIRE:1 "§Y[GetCyberSituation]§!$TRIGGER_FAIL$ ﻒﻗﻮﻣ ﻰﻬﻧﺃ "
+ REQUIRES_CYBORG_EMPIRE_UTOPIA: "ﺹﺎﺨﻟﺍ §Y$FLESH_IS_WEAK_PROJECT$§!$TRIGGER_FAIL$ﻉﻭﺮﺸﻣ ﻞﻤﻛﺃ "
+ mod_planet_cyborg_jobs_produces_mult:0 "ﺲﺑﻮﺑ ﻍﺭﻮﺒﻳﺎﺳ ﻦﻣ ﺩﺭﺍﻮﻤﻟﺍ"
+ mod_planet_cyborg_jobs_physics_research_produces_mult: " $physics_research$ ﺲﺑﻮﺑ ﻍﺭﻮﺒﻳﺎﺳ ﻦﻣ£physics_research£"
+ mod_planet_cyborg_jobs_society_research_produces_mult: " $society_research$ ﻦﻣ Cyborg Pops£society_research£"
+ mod_planet_cyborg_jobs_engineering_research_produces_mult: " $engineering_research$ ﻦﻣ Cyborg Pops£engineering_research£"
+
+################################################################
+# Cybernetics for Driven Assimilators
+################################################################
+
+ tradition_cybernetics_assimilator:0 "ﻲﻟﻵﺍ ﻢﻜﺤﺘﻟﺍ ﻢﻠﻋ"
+ tradition_cybernetics_assimilator_desc:0 ".ﺔﻟﻵﺍﻭ ﺪﺴﺠﻟﺍ ﺝﺎﻣﺪﻧﺍ ﻲﻓ ﻦﻤﻜﻳ ﺎﻨﻠﺒﻘﺘﺴﻣ"
+ tr_cybernetics_assimilator_adopt:0 "ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ tr_cybernetics_assimilator_adopt_desc:0 ".§Hﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ§! £pop£ ﺏﺎﻌﻴﺘﺳﺍ ﻦﻣ ﺎﻫﺅﺎﺸﻧﺇ ﻢﺗ ﻲﺘﻟﺍ §Yﺩﺭﺍﻮﻤﻟﺍ ﺓﺩﺎﻳﺯ ﻢﺘﺗ§!\n.§Yﺔﻴﺳﺪﻨﻬﻟﺍ ﺙﺎﺤﺑﻷﺍ§! £engineering£ ﺀﺎﺸﻧﺇ ﻰﻟﺇ ﻥﻵﺍ §Hﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ§! £pop£ ﺏﺎﻌﻴﺘﺳﺍ ﻱﺩﺆﻳ"
+ tr_cybernetics_assimilator_finish:0 "ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ ﺖﻬﺘﻧﺍ"
+
+ tr_cybernetics_assimilator_inevitable_assimilation:0 "ﻪﻨﻣ ﺮﻔﻣ ﻻ ﺏﺎﻌﻴﺘﺳﺍ"
+ tr_cybernetics_assimilator_inevitable_assimilation_delayed:0 ".ﻱﻮﻀﻋ ﻮﻀﻋ ﻱﺃ ﻞﻘﻋ ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﻝﺪﺒﺘﺴﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ،ﺎﻨﻳﺪﻟ ﺏﺎﻌﻴﺘﺳﻻﺍ ﺕﺎﻴﻠﻤﻋ ﺔﻠﻜﻴﻫ ﺓﺩﺎﻋﺇ ﻝﻼﺧ ﻦﻣﻭ"
+ tr_cybernetics_assimilator_inevitable_assimilation_desc:0 ".§HHive-Minded Pops§! £pop£ ﺏﺎﻌﻴﺘﺳﺎﺑ ﺢﻤﺴﻳ"
+
+ tr_cybernetics_assimilator_metabolic_reprocessing:0 "ﺔﻴﻀﻳﻷﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺓﺩﺎﻋﺇ"
+ tr_cybernetics_assimilator_metabolic_reprocessing_delayed:0 ".ﻥﺎﻜﺴﻟﺍ ﺔﻧﺎﻴﺻ ﻦﻣ ﻞﻠﻘﺗ ﻢﻀﻬﻠﻟ ﺔﻠﺑﺎﻗ ﺔﻴﺋﺎﻴﻤﻴﻛ ﺕﺎﻧﻮﻜﻣ ﻰﻟﺇ ﺔﻴﻀﻳﻷﺍ ﺕﺎﻳﺎﻔﻨﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺓﺩﺎﻋﺇ ﻥﺇ"
+ tr_cybernetics_assimilator_metabolic_reprocessing_desc:0 "§G-10%§! :ﺲﺑﻮﺑ ﻍﺭﻮﺒﻳﺎﺳ ﻦﻣ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻢﺠﺣ\n§G-10%§! :ﻍﺭﻮﺒﻳﺎﺳ ﺔﻧﺎﻴﺻ"
+
+ tr_cybernetics_assimilator_integrated_anatomy:0 "ﻞﻣﺎﻜﺘﻤﻟﺍ ﺢﻳﺮﺸﺘﻟﺍ"
+ tr_cybernetics_assimilator_integrated_anatomy_delayed:0 ".ﻝﺎﻤﻜﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺎﻘﺣ ﺎﻨﻨﻜﻤﻳ ﻥﻮﺑﺮﻛ ﻮﻧﺎﻨﻟﺍ ﺐﻛﺮﻣﻭ ﺫﻻﻮﻔﻟﺍﻭ ﻢﺤﻠﻟﺍ ﺞﻣﺩ ﻝﻼﺧ ﻦﻣ ﻂﻘﻓ"
+ tr_cybernetics_assimilator_integrated_anatomy_desc:0 ".ﻉﺍﻮﻧﻷﺍ ﻞﻳﺪﻌﺘﻟ §YCybernetic§! ﺕﺎﻤﺳ ﺢﺘﻔﻳ"
+
+ tr_cybernetics_assimilator_augmentation_centers: "$tr_cybernetics_augmentation_centers$"
+ tr_cybernetics_assimilator_augmentation_centers_delayed: "$building_augmentation_center_hive_desc$"
+ tr_cybernetics_assimilator_augmentation_centers_desc: "['building:building_augmentation_center'] :ﻰﻨﺒﻤﻟﺍ ﺢﺘﻔﻳ"
+
+ tr_cybernetics_assimilator_modular_cybernetics:0 "ﻱﺭﺎﻴﻌﻤﻟﺍ ﻲﻟﻵﺍ ﻢﻜﺤﺘﻟﺍ ﻢﻠﻋ"
+ tr_cybernetics_assimilator_modular_cybernetics_delayed:0 ".ﺰﻴﻬﺠﺘﻟﺍ ﺓﺩﺎﻋﺇ ﺪﻨﻋ ﻞﻤﻌﻟﺍ ﻦﻋ ﻒﻗﻮﺘﻟﺍ ﺖﻗﻭ ﻞﻴﻠﻘﺗ ﻰﻟﺇ ﺎﻨﻳﺪﻟ ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺎﻨﻴﺴﺤﺘﻟﺍ ﻦﻴﺑ ﻖﻓﺍﻮﺘﻟﺍ ﻦﻴﺴﺤﺗ ﻱﺩﺆﻴﺳ"
+ tr_cybernetics_assimilator_modular_cybernetics_tt:0 ".ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻰﻠﻋ ﺎﻀﻳﺃ §Y$mod_MACHINE_species_trait_picks_add$§!ﻭ §Y$mod_MACHINE_species_trait_points_add$§! ﻖﺒﻄﻨﻳ"
+ tr_cybernetics_assimilator_modular_cybernetics_tt_2:0 "§G-50%§!$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: \n$tr_cybernetics_assimilator_modular_cybernetics_tt$"
+
+################################################################
+# Synthetics #
+################################################################
+
+ tradition_synthetics:0 "ﺔﻴﺒﻴﻛﺮﺘﻟﺍ ﺩﺍﻮﻤﻟﺍ"
+ tradition_synthetics_desc:0 ".ﻲﻋﺎﻨﻄﺻﻻﺍ ﺮﺼﻌﻟﺍ ﺮﺠﻓ ﻪﻧﺇ"
+ tr_synthetics_adopt:0 "ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ tr_synthetics_adopt_desc: ".§Y$trait_mechanical$§! ﻉﺍﻮﻧﺃ ﻰﻟﺇ ﺔﺴﺳﺆﻤﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻞﻳﻮﺤﺘﻟ §YSituation§! ﺃﺪﺒﻳ"
+ tr_synthetics_adopt_utopia: "$tr_synthetics_adopt$"
+ tr_synthetics_adopt_utopia_desc: "§G+10%§! §Y$tech_synthetic_leaders$§! £engineering£$TABBED_NEW_LINE$:(ﻪﻴﻓ ﺚﺤﺒﻟﺍ ﻢﺘﻳ ﻢﻟ ﺍﺫﺇ) ﺐﺴﺘﻜﻤﻟﺍ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ\n.§YSynthetic§! ﻡﺎﺴﺟﺃ ﻰﻟﺇ ﺎﻨﻴﻨﻃﺍﻮﻣ ﻝﻮﻘﻋ ﻞﻘﻨﻟ §Yﺹﺎﺧ ﻉﻭﺮﺸﻣ§! ﺢﺘﻓ"
+
+ tr_synthetics_finish:0 "ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ ﺖﻬﺘﻧﺍ"
+ tr_synthetics_finish_machine_desc:0 ".§Y$leader_trait_synthetic$§! ﺔﻤﺳ §Y$trait_machine_unit$§! ﺓﺩﺎﻗ ﻊﻴﻤﺟ ﺐﺴﺘﻜﻳ"
+ tr_synthetics_finish_situation_effects: "§G+1§!$MOD_COUNTRY_ASCENSION_PERKS_ADD$: \n§G-50%§!$MOD_COUNTRY_MODIFY_SPECIES_COST_MULT$: \n§G+2§!$mod_ROBOT_species_trait_points_add$: \n§G+2§!$tr_synthetics_situation_after$$mod_ROBOT_species_trait_picks_add$: §G+25%§!$tr_synthetics_situation_during$ﻊﺿﻮﻟﺍ ﺔﻋﺮﺳ: \n"
+
+ tr_synthetics_situation_during: "\n§H$situation_digitization$ ﻝﻼﺧ§!"
+ tr_synthetics_situation_after: "\n§S$situation_digitization$ ﺪﻌﺑ§!\n\n"
+ tr_synthetics_situation: "$tr_synthetics_situation_after$§G+5%§!$tr_synthetics_situation_during$ﻊﺿﻮﻟﺍ ﺔﻋﺮﺳ: "
+
+ tr_synthetics_maintenance_protocols:0 "ﺔﻧﺎﻴﺼﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ"
+ tr_synthetics_maintenance_protocols_delayed:0 ".ﺕﻮﺑﻭﺮﻟﺍ ﺕﺍﺪﺣﻭ ﻊﻴﻤﺟ ﻲﻓ ﻝﺎﻄﻋﻷﺍ ﻞﻴﻠﻘﺗ ﻰﻠﻋ ﺔﻴﻨﻴﺗﻭﺮﻟﺍ ﺔﻴﺋﺎﻗﻮﻟﺍ ﺔﻧﺎﻴﺼﻟﺍ ﻞﻤﻌﺘﺳ"
+ tr_synthetics_maintenance_protocols_situation_effects: "§G-10%§!$tr_synthetics_situation$$MOD_POP_AMENITIES_USAGE_ROBOTIC_MULT$: "
+
+ tr_synthetics_optimization_algorithms:0 "ﻦﻴﺴﺤﺘﻟﺍ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ"
+ tr_synthetics_optimization_algorithms_delayed:0 ".ﺎﻨﺘﻜﺒﺸﺑ ﻦﻴﻠﺼﺘﻤﻟﺍ ﻦﻴﻴﻟﻵﺍ ﻦﻴﻠﻣﺎﻌﻟﺍ ﺔﻴﺟﺎﺘﻧﺇ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﻲﺗﺍﺬﻟﺍ ﻢﻠﻌﺘﻟﺍ ﻦﻴﺴﺤﺗ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ ﻱﺩﺆﺗ"
+ tr_synthetics_optimization_algorithms_situation_effects: "§G+10%§!$tr_synthetics_situation$$mod_planet_jobs_robotic_produces_mult$: "
+
+ tr_synthetics_transubstatiation_synthesis:0 "$tr_cybernetics_transubstantiation_SYNC$"
+ tr_synthetics_transubstatiation_synthesis_delayed:0 ".ﺕﻻﻶﻟ ﻚﻠﻣ ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ ﻞﺒﻘﺘﺴﻣ .ﺔﻳﻮﻀﻌﻟﺍ ﺩﺍﻮﻤﻟﺍ ﺮﺼﻋ ﻰﻬﺘﻧﺍ ﺪﻘﻟ"
+ tr_synthetics_transubstatiation_synthesis_desc:0 ".§YSynths§! ﻰﻟﺇ ﻥﺎﻜﺴﻟﺍ ﻰﻟﺇ ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ ﺕﺎﻓﺎﺿﻹﺍ ﻞﻳﻮﺤﺘﺑ ﺢﻤﺴﻳ ﺎﻤﻣ ،§YSpecies Right§! ﺔﻨﻃﺍﻮﻤﻟﺍ §YAssimilation§! ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺢﻨﻤﻳ"
+ tr_synthetics_transubstatiation_synthesis_situation_effects: "$tr_synthetics_situation$$tr_synthetics_transubstatiation_chemistry_desc$"
+
+ tr_synthetics_assembly_systems:0 "$tr_synthetics_transubstatation_systems$"
+ tr_synthetics_assembly_systems_delayed:0 "$tr_synthetics_transubstatiation_system_delayed$"
+ tr_synthetics_assembly_systems_desc:0 "§G+10%§!$MOD_PLANET_POP_ASSEMBLY_MULT$: \n.§YSynthetic§! ﻡﺎﺴﺟﺃ ﻰﻟﺇ ﺎﻨﻴﻨﻃﺍﻮﻣ ﻝﻮﻘﻋ ﻞﻘﻨﻟ §Yﺹﺎﺧ ﻉﻭﺮﺸﻣ§! ﺢﺘﻓ"
+
+ tr_synthetics_power_systems: "ﺔﻟﺎﻌﻔﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺔﻤﻈﻧﺃ"
+ tr_synthetics_power_systems_delayed: ".ﻦﺤﺸﻟﺍ ﺓﺩﺎﻋﻹ ﻞﻤﻌﻟﺍ ﻦﻋ ﻒﻗﻮﺘﻟﺍ ﺖﻗﻭ ﺔﻟﻭﺪﺠﻟ ﺔﺟﺎﺣ ﻙﺎﻨﻫ ﺪﻌﺗ ﻢﻟ ،ﺎﻴﻠﻤﻋ ﺓﺩﻭﺪﺤﻤﻟﺍ ﺮﻴﻏ ﺔﻌﺴﻟﺍ ﺕﺍﺫ ﺔﻴﺼﺨﺸﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺎﻳﻼﺧ ﻞﻀﻔﺑ"
+ tr_synthetics_power_systems_situation_effects: "§G-25%§!$mod_planet_pop_assemblers_upkeep_mult$: \n§G-25%§!$tr_synthetics_situation$$mod_planet_pops_robotics_upkeep_mult$: "
+
+ tr_synthetics_prefabricated_components:0 "ﺓﺰﻫﺎﺠﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ"
+ tr_synthetics_prefabricated_components_delayed: ".ﺎﻌﻣ ﺔﻴﻟﺎﺘﻟﺍ ﺔﻴﻗﺮﺘﻟﺍ ﻊﻴﻤﺠﺗ ﺺﺨﺷ ﻱﻷ ﻦﻜﻤﻳ ،ﻊﻴﻤﺠﺘﻟﺍ ﺕﺎﻤﻴﻠﻌﺗﻭ ﺔﻴﺳﺎﻴﻘﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻦﺤﺷ ﻝﻼﺧ ﻦﻣﻭ"
+ tr_synthetics_prefabricated_components_situation_effects: "§G+200§!: §Y[roboticist.GetName]§! [roboticist.GetIcon]$i_amenities$ 100 ﻞﻜﻟ \nﻒﺋﺎﻇﻮﻟﺍ §Y[roboticist.GetName]§! [roboticist.GetIcon] §G+100§! ﺮﻓﻮﺗ §Yﻯﺮﺒﻜﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ§! £building£$tr_synthetics_situation$ "
+ tr_synthetics_prefabricated_components_effects: "§G+200§!: §Y[roboticist.GetName]§! [roboticist.GetIcon]$i_amenities$ 100 ﻞﻜﻟ \nﻒﺋﺎﻇﻭ §Y[roboticist.GetName]§! [roboticist.GetIcon] §G+100§! ﺮﻓﻮﺗ §Yﻯﺮﺒﻜﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ§! £building£"
+
+ tr_synthetics_prefabricated_components_machine: "$tr_synthetics_prefabricated_components$"
+ tr_synthetics_prefabricated_components_machine_delayed: ".ﺓﺪﻳﺪﺟ ﺝﺫﺎﻤﻧ ﻊﻴﻤﺠﺗ ﻞﻬﺴﻟﺍ ﻦﻣ ﻞﻌﺠﻳ ﺓﺰﻫﺎﺠﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻦﻣ ﺓﺰﻫﺎﺟ ﺕﺍﺩﺍﺪﻣﺇ ﺩﻮﺟﻭ ﻥﺇ"
+ tr_synthetics_prefabricated_components_machine_effects: "ﻒﺋﺎﻇﻭ §Y[replicator.GetName]§! [replicator.GetIcon] §G+100§! ﺮﻓﻮﺗ §Yﻯﺮﺒﻜﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ§! £building£"
+
+ tr_synthetics_solid_state_actuators:0 "ﺔﺒﻠﺼﻟﺍ ﺔﻟﺎﺤﻟﺍ ﺕﻼﻐﺸﻣ"
+ tr_synthetics_solid_state_actuators_delayed:0 ".ﺔﻳﻮﻴﺤﻟﺍ ﺔﻴﻋﺮﻔﻟﺍ ﺔﻤﻈﻧﻷﺍ ﺔﻳﻮﻘﺘﺑ ﺓﺩﺎﻘﻠﻟ ﺢﻤﺴﻳ ،ﺎﻔﻠﻜﻣ ﻪﻧﻮﻛ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﻱﺬﻟﺍ ﺮﻣﻷﺍ ،ﺕﺎﻧﻮﻜﻤﻟﺍ ﺮﻴﻐﺼﺗ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺔﺒﻠﺼﻟﺍ ﺔﻟﺎﺤﻟﺍ ﺕﻼﻐﺸﻣ ﻞﻤﻌﺗ"
+ tr_synthetics_solid_state_actuators_situation: "$tr_synthetics_solid_state_actuators$"
+ tr_synthetics_solid_state_actuators_situation_delayed: "$tr_synthetics_solid_state_actuators_delayed$"
+ tr_synthetics_solid_state_actuators_situation_effects: "§G+20%§!$tr_synthetics_situation$$MOD_LEADER_LIFESPAN_ADD$: "
+ tr_synthetics_solid_state_actuators_virtual: "$tr_synthetics_solid_state_actuators$"
+ tr_synthetics_solid_state_actuators_virtual_delayed: "$tr_synthetics_solid_state_actuators_virtual_desc$"
+
+ requires_tradition_tr_synthetics_adopt:0 "§!§R§Y$tr_synthetics_adopt$§! ﺩﺎﻤﺘﻋﺍ ﺐﻠﻄﺘﻳ§!$TRIGGER_FAIL$"
+ REQUIRES_SYNTHETIC_EMPIRE_UTOPIA: "ﺹﺎﺨﻟﺍ §Y$SYNTHETIC_EVOLUTION_PROJECT$§!$TRIGGER_FAIL$ﻉﻭﺮﺸﻣ ﻞﻤﻛﺃ "
+
+################################################################
+# Aptitude
+################################################################
+
+ tradition_aptitude:0 "ﺓﺀﺎﻔﻜﻟﺍ"
+ tradition_aptitude_desc:0 ".ﺀﺎﻳﻮﻗﻷﺍ ﺓﺩﺎﻘﻟﺍ ﻦﻣ ﻪﻴﺟﻮﺘﺑ ﺎﻘﺣ ﺮﻫﺩﺰﺗ ﻥﺃ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﻦﻜﻤﻳ"
+ tradition_aptitude_hive_desc:0 ".ﻪﺗﺎﻧﺎﻴﻛ ﻯﻮﻗﺃ ﺓﺪﻋﺎﺴﻤﺑ [GetGestaltEntityName] ﺮﻫﺩﺰﻳ"
+ tradition_aptitude_machine_desc:0 ".ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺔﻤﻈﻋ ﺕﺎﻧﺎﻜﻣﺇ ﻦﻣ ﺓﺩﺎﻴﻘﻟﺍ ﺓﺪﺣﻮﻟ ﺔﻴﻟﺎﻌﻟﺍ ﺓﺀﺎﻔﻜﻟﺍ ﺪﻳﺰﺗ"
+ tr_aptitude_adopt:0 "ﺓﺀﺎﻔﻜﻟﺍ ﺪﻴﻟﺎﻘﺗ"
+ tr_aptitude_finish:0 "ﺓﺀﺎﻔﻜﻟﺍ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+ tr_aptitude_adopt_desc:0 "§G+1§! :ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ ﺪﺋﺎﻘﻟﺍ ﺕﺎﻤﺳ"
+ tr_aptitude_the_empire_needs_you:0 "!ﻚﻴﻟﺇ ﺔﺟﺎﺤﺑ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ"
+ tr_aptitude_the_empire_needs_you_delayed:0 ".ﻦﻳﺮﻗﻮﻤﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺓﺩﺎﻗ ﺪﺣﺃ ﺍﻮﺤﺒﺼﻳ ﻥﺄﺑ ﺏﺎﺒﺸﻟﺍ ﻦﻣ ﺮﻴﺜﻜﻟﺍ ﻢﻠﺤﻳ"
+ tr_aptitude_the_empire_needs_you_hive:0 "ﺪﺸﺤﻟﺍ ﻦﻣ ﻊﻔﺗﺮﺗ"
+ tr_aptitude_the_empire_needs_you_hive_delayed:0 ".ﺎﻨﺘﻤﻈﻌﻟ ﺔﻴﻤﻫﻷﺍ ﻎﻟﺎﺑ ﺮﻣﺃ ﻦﻴﻠﻤﺘﺤﻤﻟﺍ ﺓﺩﺎﻘﻟﺍ ﺮﻳﻮﻄﺗ ﻥﺇ"
+ tr_aptitude_the_empire_needs_you_machine:0 "ﺪﺸﺤﻟﺍ ﻦﻣ ﻊﻔﺗﺮﺗ"
+ tr_aptitude_the_empire_needs_you_machine_delayed:0 ".ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺓﺭﺎﻬﻣ ﺮﺜﻛﺃ ﺓﺩﺎﻗ ﻊﻴﻨﺼﺗ ﻝﻼﺧ ﻦﻣ ﻻﺇ ﺎﻨﺗﺎﻧﺎﻜﻣﺇ ﻰﺼﻗﺃ ﻖﻴﻘﺤﺗ ﻦﻜﻤﻳ ﻻ"
+ tr_aptitude_specialist_training:0 "ﺺﺼﺨﺘﻤﻟﺍ ﺐﻳﺭﺪﺘﻟﺍ"
+ tr_aptitude_specialist_training_delayed:0 ".ﺡﺎﺠﻨﻟﺍ ﻖﻴﻘﺤﺘﻟ ﺔﻣﺯﻼﻟﺍ ﺕﺍﻭﺩﻷﺍ ﻊﻴﻤﺟ ﻰﻠﻋ ﺎﻨﺗﺩﺎﻗ ﻝﻮﺼﺣ ﺔﻣﺭﺎﺼﻟﺍ ﺐﻳﺭﺪﺘﻟﺍ ﺞﻣﺍﺮﺑ ﻦﻤﻀﺗ"
+ tr_aptitude_specialist_training_tt: "§G+2%§!$mod_pop_cat_specialist_bonus_workforce_mult$ ﺐﻛﺍﻮﻜﻟﺍ ﻢﻛﺎﺣ ﺓﺭﺎﻬﻣ ﻯﻮﺘﺴﻣ ﻞﻜﻟ: "
+ tr_aptitude_specialist_training_gestalt_tt: "§G+2%§!$mod_pop_cat_complex_drone_bonus_workforce_mult$ ﺐﻛﺍﻮﻜﻟﺍ ﻢﻛﺎﺣ ﺓﺭﺎﻬﻣ ﻯﻮﺘﺴﻣ ﻞﻜﻟ: "
+ tr_aptitude_specialist_training_hive:0 "$tr_aptitude_specialist_training$"
+ tr_aptitude_specialist_training_hive_delayed:0 ".ﻦﻴﺼﺼﺨﺘﻤﻟﺍ [GetGestaltEntityName] ﺀﺎﻀﻋﺃ ﺡﺎﺠﻧ ﻡﺭﺎﺼﻟﺍ ﻒﻴﻴﻜﺘﻟﺍ ﻦﻤﻀﻳ"
+ tr_aptitude_specialist_training_machine:0 "ﺞﻣﺎﻧﺮﺒﻟﺍ ﺚﻳﺪﺤﺗ"
+ tr_aptitude_specialist_training_machine_delayed:0 ".ﻊﻗﻮﺘﻣ ﻮﻫ ﺎﻤﻛ ﺀﺍﺩﻸﻟ ﺔﻣﺯﻼﻟﺍ ﺕﺍﻭﺩﻷﺍ ﻊﻴﻤﺟ ﺎﻨﺗﺩﺎﻗ ﻯﺪﻟ ﻥﺃ ﺔﺛﺪﺤﻤﻟﺍﻭ ﺓﺪﻳﺪﺠﻟﺍ ﺞﻣﺍﺮﺒﻟﺍ ﻦﻤﻀﺗ"
+ tr_aptitude_psychological_profiling:0 "ﻲﺴﻔﻨﻟﺍ ﻂﻴﻤﻨﺘﻟﺍ"
+ tr_aptitude_psychological_profiling_delayed:0 ".ﻢﻬﻣﺍﺪﻗﺃ ﺦﻴﺳﺮﺘﻟ ﻢﻬﻨﻣ ﺔﻴﺋﺎﻗﻭ ﺕﺍﺀﺍﺮﺟﺇ ﺫﺎﺨﺗﺎﺑ ﺎﻨﻟ ﺢﻤﺴﺗ ﻢﻬﻔﻌﺿ ﻁﺎﻘﻧﻭ ﺎﻨﺗﺩﺎﻗ ﻑﻭﺎﺨﻣ ﺔﻓﺮﻌﻣ ﻥﺇ"
+ tr_aptitude_psychological_profiling_hive:0 "ﻲﻛﻮﻠﺴﻟﺍ ﺺﻴﺨﺸﺘﻟﺍ"
+ tr_aptitude_psychological_profiling_hive_delayed:0 ".ﺎﻬﻟﺎﻄﺑﻹ ﺔﻴﺋﺎﻗﻭ ﺮﻴﺑﺍﺪﺗ ﺫﺎﺨﺗﺎﺑ ﺎﻨﻟ ﺢﻤﺴﻳ ﺔﻓﺮﺤﻨﻤﻟﺍ ﻒﻌﻀﻟﺍ ﻁﺎﻘﻧ ﺪﻳﺪﺤﺗ ﻥﺇ"
+ tr_aptitude_psychological_profiling_machine:0 "ﺓﺮﻛﺍﺬﻟﺍ ﺺﻴﺨﺸﺗ"
+ tr_aptitude_psychological_profiling_machine_delayed:0 ".ﺎﻬﺛﻭﺪﺣ ﻞﺒﻗ ﻝﺎﻄﻋﻷﺍ ﺪﺿ ﺔﻴﺋﺎﻗﻭ ﺮﻴﺑﺍﺪﺗ ﺫﺎﺨﺗﺍ ﻖﻤﻌﺘﻤﻟﺍ ﺺﺤﻔﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺎﻨﻟ ﺢﻴﺘﺗ"
+ tr_aptitude_healthcare_program:0 "ﺔﻴﺤﺼﻟﺍ ﺔﻳﺎﻋﺮﻟﺍ ﺞﻣﺎﻧﺮﺑ"
+ tr_aptitude_healthcare_program_delayed:0 ".ﺎﻨﺗﺩﺎﻗ ﻦﻣ ﺓﺩﺎﻔﺘﺳﺍ ﻰﺼﻗﺃ ﻖﻴﻘﺤﺘﻟ ﺔﻳﺯﺎﻐﻟﺍ ﺔﻴﺣﺍﺮﺠﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻰﺘﺣﻭ ﻲﺋﺍﺬﻐﻟﺍ ﻡﺎﻈﻨﻟﺍﻭ ﻦﻳﺭﺎﻤﺘﻟﺍ ﻦﻣ ﺍﺀﺪﺑ ﺀﻲﺷ ﻞﻛ ﻢﻴﻤﺼﺘﺑ ﻡﻮﻘﻧ ،ﺔﻴﺤﺼﻟﺍ ﺮﻴﻳﺎﻌﻤﻠﻟ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﻝﻼﺧ ﻦﻣ"
+ tr_aptitude_healthcare_program_hive:0 "ﺔﻳﺩﺎﻤﻟﺍ ﺔﻧﺎﻴﺼﻟﺍ"
+ tr_aptitude_healthcare_program_hive_delayed:0 ".ﺓﺩﻮﺠﻟﺍ ﺔﻴﻟﺎﻋ ﺔﻳﺬﻐﺗ ﻙﻼﻬﺘﺳﺎﺑ ﻢﻬﻟ ﺢﻤﺴﻳﻭ ،ﻢﻫﺩﺎﺴﺟﺄﺑ ﺔﻳﺎﻨﻌﻠﻟ ﻢﻬﻔﺋﺎﻇﻭ ﺾﻌﺑ ﺍﻮﻣﺪﺨﺘﺴﻳ ﻥﺃ ﺔﻤﻴﻗ ﺮﺜﻛﺃ ﻥﻭﺮﺒﺘﻌﻳ ﻦﻳﺬﻟﺍ [GetIndividualNamePlural] ﻲﺼﺼﺨﺘﻣ ﻰﻠﻋ ﺐﺠﻳ"
+ tr_aptitude_healthcare_program_machine:0 "ﺔﻴﺋﺎﻗﻮﻟﺍ ﺔﻧﺎﻴﺼﻟﺍ"
+ tr_aptitude_healthcare_program_machine_delayed:0 ".ﺎﻨﺗﺩﺎﻗ ﻦﻣ ﺓﺩﺎﻔﺘﺳﺍ ﻰﺼﻗﺃ ﻖﻴﻘﺤﺘﻟ ﺔﻔﺜﻜﻤﻟﺍ ﺡﻼﺻﻹﺍ ﺕﺍﺀﺍﺮﺟﺇ ﻰﺘﺣﻭ ﻲﻃﺎﻴﺘﺣﻻﺍ ﺦﺴﻨﻟﺍ ﺭﺍﺮﻜﺗ ﻦﻣ ﺍﺀﺪﺑ ﺀﻲﺷ ﻞﻛ ﺓﺭﺍﺩﺇ ﺎﻨﻨﻜﻤﻳ ،ﻡﺎﻈﻨﻠﻟ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﻝﻼﺧ ﻦﻣ"
+ tr_aptitude_champions_of_the_empire:0 "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻝﺎﻄﺑﺃ"
+ tr_aptitude_champions_of_the_empire_delayed:0 ".ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺓﺭﺍﺩﺇ ﺔﻴﻔﻴﻛ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻠﻟ ﺔﻘﻠﻄﻤﻟﺍ ﺔﻄﻠﺴﻟﺍ ﻢﻬﺤﻨﻤﻧﻭ ﺎﻨﺗﺩﺎﻘﺑ ﻖﺜﻧ ﻦﺤﻧ"
+ tr_aptitude_champions_of_the_empire_hive:0 "ﺔﻘﻴﻗﺩ ﻲﺗﺍﺬﻟﺍ ﻢﻜﺤﻟﺍ"
+ tr_aptitude_champions_of_the_empire_hive_delayed:0 ".ﻊﻴﻤﺠﻟﺍ ﺔﺤﻠﺼﻣ ﻞﺟﺃ ﻦﻣ ﻩﺮﺻﺎﻨﻋ ﻯﻮﻗﻷ ﺔﻴﻟﻼﻘﺘﺳﻻﺍ ﻦﻣ ﻖﻴﻗﺩ ﻯﻮﺘﺴﻣ ﺀﺎﻔﺿﻹ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ [GetGestaltEntityName]"
+ tr_aptitude_champions_of_the_empire_machine:0 "ﺔﻳﺭﺍﺩﻹﺍ ﻕﻮﻘﺤﻟﺍ"
+ tr_aptitude_champions_of_the_empire_machine_delayed:0 ".ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺓﺭﺍﺩﺇ ﺔﻴﻔﻴﻛ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻟﺎﺑ ﻥﺫﻹﺍ ﻢﻬﺤﻨﻤﻧﻭ ﺎﻨﺗﺩﺎﻘﻟ ﺓﺪﻳﺮﻔﻟﺍ ﺔﻴﻋﺮﻔﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻲﻓ ﻖﺜﻧ ﻦﺤﻧ"
+ tr_aptitude_champions_of_the_empire_desc:1 "§G+0.5%§!$t$$MOD_LEADER_SPECIES_EXP_GAIN$: \n$scientist_with_icon$ ﻯﻮﺘﺴﻤﻟ\n§G-2§!$t$$MOD_EMPIRE_SIZE_MULT$: \nofficial_with_icon$level$ ﻞﻜﻟ\n§G+2§!$t$$MOD_COUNTRY_NAVAL_CAP_ADD$: \ngeneral_with_icon$level$ﻭ $commander_with_icon$ ﻞﻜﻟ"
+
+################################################################
+# Statecraft
+################################################################
+
+ tradition_statecraft:0 "ﻢﻜﺤﻟﺍ ﻦﻓ"
+# tradition_statecraft_hive: "Council of Voices"
+# tradition_statecraft_machine: "Assembly of Conciousness"
+ tradition_statecraft_desc:0 ".ﺔﺑﺎﺠﺘﺳﺍ ﺮﺜﻛﺃ ﻥﻮﻜﺗ ﻥﺄﺑ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺢﻤﺴﻳ ﻱﻮﻘﻟﺍ ﺲﻠﺠﻤﻟﺍ"
+ tradition_statecraft_hive_desc:0 ".ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺩﺪﺤﻳ ﺕﺍﻮﺻﻷﺍ ﺲﻠﺠﻣ"
+ tradition_statecraft_machine_desc:0 ".ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺩﺪﺤﺗ ﻲﻋﻮﻟﺍ ﺔﻴﻌﻤﺟ ﻥﺇ"
+ tr_statecraft_adopt:0 "ﻢﻜﺤﻟﺍ ﻦﻓ ﺪﻴﻟﺎﻘﺗ"
+ tr_statecraft_finish:0 "ﻢﻜﺤﻟﺍ ﻦﻓ ﺪﻴﻟﺎﻘﺗ ﺖﻬﺘﻧﺍ"
+ tr_statecraft_constitutional_focus:0 "ﻱﺭﻮﺘﺳﺪﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ tr_statecraft_constitutional_focus_hive:0 "ﻲﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ tr_statecraft_constitutional_focus_machine:0 "$tr_statecraft_constitutional_focus_hive$"
+ tr_statecraft_constitutional_focus_delayed:0 ".ﺎﻨﻳﺭﺎﺸﺘﺴﻣ ﻦﻋ ﻱﺭﺍﺩﻹﺍ ﺀﺐﻌﻟﺍ ﻒﻴﻔﺨﺗ ﺎﻨﻨﻜﻤﻳ ،ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺕﺎﺟﺎﻴﺘﺣﺍ ﻰﻠﻋ ﺢﺿﺍﻮﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ ﻝﻼﺧ ﻦﻣﻭ"
+ tr_statecraft_constitutional_focus_hive_delayed:0 ".ﻉﺮﺳﺃ ﻞﻜﺸﺑ ﻖﻓﺍﻮﺘﻟﺎﺑ ﺕﺍﻮﺻﻸﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺎﻤﺴﺣ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻹﺍ ﺕﺍﺪﻨﺟﻷﺍ ﻊﺿﻭ ﻢﺘﻳ"
+ tr_statecraft_constitutional_focus_machine_delayed:0 ".ﻲﺳﺎﺳﻷﺍ ﺎﻨﺋﺎﻛﺬﻟ ﺔﺒﺳﻮﺤﻟﺍ ﺀﺍﺩﺃ ﻦﻴﺴﺤﺗ ﺎﻨﻨﻜﻤﻳ ،ﻲﻟﺎﺤﻟﺍ ﺎﻨﻟﺎﻤﻋﺃ ﻝﻭﺪﺟ ﻰﻠﻋ ﺪﻳﺪﺸﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ ﻝﻼﺧ ﻦﻣﻭ"
+ tr_statecraft_inspiring_agendas:0 "ﺔﻤﻬﻠﻤﻟﺍ ﻝﺎﻤﻋﻷﺍ ﻝﻭﺍﺪﺟ"
+ tr_statecraft_inspiring_agendas_hive:0 "ﺕﺎﻣﺍﺪﺨﺘﺳﻻﺍ ﺓﺩﺪﻌﺘﻣ ﺕﺍﺪﻨﺟﺃ"
+ tr_statecraft_inspiring_agendas_machine:0 "$tr_statecraft_inspiring_agendas_hive$"
+ tr_statecraft_inspiring_agendas_delayed:0 ".ﺎﻨﻠﺒﻘﺘﺴﻤﻟ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻪﻴﺟﻮﺗ ﺔﻴﻔﻴﻛ ﻝﻮﺣ ﺭﺎﻜﻓﻷﺍ ﻲﻓ ﺺﻘﻧ ﺍﺪﺑﺃ ﻙﺎﻨﻫ ﻦﻜﻳ ﻢﻟ"
+ tr_statecraft_inspiring_agendas_hive_delayed:0 ".ﻞﺒﻘﺘﺴﻤﻟﺍ ﻪﻴﺟﻮﺘﻟ ﺔﻴﻤﻫﻷﺍ ﻎﻟﺎﺑ ﺍﺮﻣﺃ [GetGestaltEntityName] ﺕﺎﻣﺍﺪﺨﺘﺳﺍ ﺩﺪﻌﺗ ﺪﻌﻳ"
+ tr_statecraft_inspiring_agendas_machine_delayed:0 ".ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺪﻴﻔﺗ ﻥﺃ ﻦﻜﻤﻳ ﺔﻴﻋﺮﻓ ﺔﻋﻮﻤﺠﻣ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﺔﻴﺋﺎﻬﻧﻼﻟﺍ ﺕﺍﺭﺎﻴﺨﻟﺎﺑ ﺀﻲﻠﻣ ﻢﻟﺎﻋ ﻲﻓ"
+ tr_statecraft_inspiring_agendas_desc:1 " $council_agenda_agenda_oppose_the_fallen_name$§Y:ﺓﺪﻨﺟﻷﺍ ﺢﺘﻓ§!\n $council_agenda_agenda_rightful_claims_name$§Y:ﺓﺪﻨﺟﻷﺍ ﺢﺘﻓ§!"
+ tr_statecraft_immutable_directives:0 "ﺮﻴﻴﻐﺘﻠﻟ ﺔﻠﺑﺎﻗ ﺮﻴﻏ ﺕﺎﻬﻴﺟﻮﺗ"
+ tr_statecraft_immutable_directives_delayed:0 ".ﻩﺎﻧﺯﺮﺣﺃ ﻱﺬﻟﺍ ﻡﺪﻘﺘﻟﺍ ﻥﺍﺪﻘﻓ ﻥﻭﺩ ﺰﻴﻛﺮﺘﻟﺍ ﻞﻳﻮﺤﺘﺑ ﺎﻨﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺎﻤﺋﺍﺩ ﺢﺿﺍﻭ ﺽﺮﻐﻟﺍﻭ ﻩﺎﺠﺗﻼﻟ ﻲﺳﺎﺳﻷﺍ ﻢﻬﻔﻟﺍ ﻥﺇ"
+ tr_statecraft_amongst_peers:0 "ﻥﺍﺮﻗﻷﺍ ﻦﻴﺑ"
+ tr_statecraft_amongst_peers_hive:0 "ﺓﺮﺸﺘﻨﻣ ﻯﺅﺭ"
+ tr_statecraft_amongst_peers_machine:0 "$tr_statecraft_amongst_peers_hive$"
+ tr_statecraft_amongst_peers_delayed:0 ".ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻲﻓ ﺕﺎﻳﻮﺘﺴﻤﻟﺍ ﻰﻠﻋﺃ ﻲﻓ ﻰﺘﺣ ﺮﻴﻳﺎﻌﻤﻟﺍ ﻰﻠﻋﻷ ﺎﻘﻓﻭ ﻢﺘﺗ ﺀﺎﻄﺧﻷﺍ ﻦﻣ ﻢﻠﻌﺘﻟﺍﻭ ﻡﺍﺮﺘﺣﻻﺍﻭ ﺔﻘﺜﻟﺍ ﻥﺇ"
+ tr_statecraft_amongst_peers_hive_delayed:0 ".ﺀﺎﻄﺧﻷﺍ ﺲﻔﻧ ﺐﻜﺗﺮﺗ ﻥﺃ ﻲﻋﻮﻠﻟ ﺓﺩﺪﻌﺘﻤﻟﺍ ﺐﻧﺍﻮﺠﻠﻟ ﻲﻐﺒﻨﻳ ﻻ"
+ tr_statecraft_amongst_peers_machine_delayed:0 "$tr_statecraft_amongst_peers_hive_delayed$"
+ tr_statecraft_shared_benefits:0 "ﺔﻛﺮﺘﺸﻤﻟﺍ ﺪﺋﺍﻮﻔﻟﺍ"
+ tr_statecraft_shared_benefits_hive:0 "ﻙﺮﺘﺸﻤﻟﺍ ﻢﺼﺨﻟﺍ"
+ tr_statecraft_shared_benefits_machine:0 "ﺔﻛﺮﺘﺸﻤﻟﺍ ﺕﺎﺑﺎﺴﺤﻟﺍ"
+ tr_statecraft_shared_benefits_delayed:0 ".ﻢﻬﻓﺍﺪﻫﺃﻭ ﻢﻫﺭﺍﻭﺩﻷ ﻯﻮﻗﺃ ﺎﻤﻬﻓ ﻥﻮﻨﺒﻳ ﻢﻬﻧﺈﻓ ،ﺎﻨﻟﺎﻤﻋﺃ ﻝﻭﺍﺪﺟ ﺬﻴﻔﻨﺗ ﻲﻓ ﺓﺩﺎﻘﻟﺍ ﻊﻴﻤﺟ ﻙﺍﺮﺷﺇ ﻝﻼﺧ ﻦﻣﻭ"
+ tr_statecraft_shared_benefits_hive_delayed:0 ".ﻉﺮﺳﺃ ﻞﻜﺸﺑ ﺪﻴﻔﻣ ﺺﺼﺨﺗ ﻱﺃ ﺮﺸﻧ ﻢﺘﻳ ،ﺎﻨﻟﺎﻤﻋﺃ ﻝﻭﺍﺪﺟ ﺬﻴﻔﻨﺗ ﻲﻓ ﺓﺩﺎﻘﻟﺍﻭ ﺪﻘﻌﻟﺍ ﻊﻴﻤﺟ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﻝﻼﺧ ﻦﻣ"
+ tr_statecraft_shared_benefits_machine_delayed:0 "$tr_statecraft_shared_benefits_hive_delayed$"
+ tr_statecraft_shared_benefits_desc:0 "$t$$tr_statecraft_amongst_peers_effect_desc$\n:§YAgenda§! ﻕﻼﻃﺇ ﺪﻨﻋ"
+ tr_statecraft_amongst_peers_effect_desc:1 "ﺓﺭﺎﻬﻣ ﻯﻮﺘﺴﻣ ﻞﻜﻟ statecraft_amongst_peers_exp_reward|G0$@$ ﺓﺮﺒﺧ ﻰﻠﻋ ﻦﻳﺭﺎﺸﺘﺴﻤﻟﺍ ﻊﻴﻤﺟ ﻞﺼﺤﻳ"
+
+################################################################
+# Politics
+################################################################
+
+ tradition_politics:0 "ﺔﺳﺎﻴﺳ"
+ tradition_politics_desc:0 ".ﻱﺩﺎﻴﻘﻟﺍ ﺭﻭﺪﻟﺍ ﺎﻨﻟ ﻥﻮﻜﻳ ﻥﺃ ﻡﺰﺘﻌﻧ ﻦﺤﻧﻭ ،ﺓﺮﺠﻤﻟﺍ ﺡﺮﺴﻣ ﺩﺍﺪﻋﺇ ﻢﺗ"
+
+ tr_politics_adopt:0 "$tradition_politics$ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ tr_politics_adopt_desc:1 ".§YSkill Level§! ﻞﻜﻟ §YInfluence§! £influence£ 0.1 ﻥﻵﺍ ﺞﺘﻨﻳ §Y[GetGalCommunityOrGalImperium]§!$official_plural_with_icon$ ـﻟ ﻦﻴﻌﻤﻟﺍ \n Envoy§G+1§!"
+
+ tr_politics_finish:0 "$tr_politics_adopt$ ﻰﻬﺘﻧﺍ"
+ tr_politics_finish_desc:1 "$TRADITIONS_FINISH_AP$\n.§Y[GetGalCommunityOrGalImperium]§! ﻲﻓ §Y§! ﺔﺻﺎﺧ ﺕﺍﺭﺍﺮﻗ 4 ﺢﺘﻔﻳ\nﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻥﺯﻮﻟﺍ £diplo_weight£ §G+10%§!"
+
+ tr_politics_quid_pro_quo:0 "ﻭﻮﻛ ﻭﺮﺑ ﺔﻀﻳﺎﻘﻣ"
+ tr_politics_quid_pro_quo_desc:0 ".ﻪﺘﺣﺮﺘﻗﺍ ﻲﺘﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻰﻠﻋ §YFavor§! 1 ﻰﻠﻋ ﻞﺼﺣﺍ ،ﻪﻤﻋﺪﺗ ﻱﺬﻟﺍ ﺭﺍﺮﻘﻟﺍ ﺮﻳﺮﻤﺗ ﻢﺘﻳ ﺎﻣﺪﻨﻋ"
+ tr_politics_quid_pro_quo_delayed:0 ".ﻢﻬﻠﻴﺼﺤﺘﺑ ﻡﻮﻘﻧ ﻑﻮﺳ ،ﻡﺎﻳﻷﺍ ﻦﻣ ﻡﻮﻳ ﻲﻓﻭ ،ﺎﻨﻟ ﻥﻮﻨﻳﺪﻣ ﻢﻫﺪﻋﺎﺴﻧ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ .ﺔﻔﻠﻜﺘﺑ ﻲﺗﺄﻳ ﺎﻨﻤﻋﺩ ﻥﺃ ﺢﺿﻮﺘﺳ ﺔﻳﺎﻨﻌﺑ ﺔﻏﺎﺼﻤﻟﺍ ﺔﺑﺎﻄﺨﻟﺍ ﻥﺇ"
+ MESSAGE_FAVOR_GAINED_POLITICS_TRADITION_DESC:0 ".§YFavor§! ـﺑ ﻥﻵﺍ ﺎﻨﻟ ﻦﻳﺪﺗ $WHO|Y$ ﻥﺈﻓ ،ﻢﻫﺭﺍﺮﻗ ﺎﻨﻤﻋﺩ ﺎﻨﻧﺃ ﺎﻤﺑﻭ"
+
+ tr_politics_gravitas:0 "ﺔﻴﺑﺫﺎﺠﻟﺍ"
+ tr_politics_gravitas_desc:1 ".§Yﺓﺭﺎﻬﻤﻟﺍ ﻯﻮﺘﺴﻣ§! ﻞﻜﻟ ﻥﺯﻮﻟﺍ ﻲﻓﺎﺿﺇ ﻲﺳﺎﻣﻮﻠﺑﺩ £diplo_weight£ §!.5%XYZT_92XYZT ﺮﻓﻮﺗ §Y[GetGalCommunityOrGalImperium]§!$official_plural_with_icon$ ـﻟ ﺔﺼﺼﺨﻤﻟﺍ \nﺎﻬﺣﺍﺮﺘﻗﺍ ﻭﺃ ﺕﺍﺭﺍﺮﻘﻟﺍ ﻰﻠﻋ ﺽﺍﺮﺘﻋﻻﺍ ﺔﻔﻠﻜﺗ §YInfluence§! £influence£ §G-25%§!"
+ tr_politics_gravitas_delayed:0 ".ﻊﻤﺘﺠﻤﻟﺍ ﻲﻓ ﺎﻧﺮﻴﺛﺄﺗ ﺔﻴﻤﻨﺗ ﻰﻠﻋ ﻞﻤﻌﻨﺳ ،ﻦﻳﺮﺧﻶﻟ ﻪﺘﻳﺅﺭ ﻥﻭﺪﻳﺮﻳ ﺎﻣ ﺭﺎﻬﻇﺇ ﻝﻼﺧ ﻦﻣ .ﻡﺎﻫﻭﻷﺍ ﻦﻓ ﻲﻫ ﺔﺳﺎﻴﺴﻟﺍ"
+
+ tr_politics_extraordinary_powers:0 "ﺔﻴﺋﺎﻨﺜﺘﺳﻻﺍ ﻯﻮﻘﻟﺍ"
+ tr_politics_extraordinary_powers_desc:0 ".(ﻮﺘﻴﻔﻟﺍﻭ ﺉﺭﺍﻮﻄﻟﺍ ﺮﻴﺑﺍﺪﺗ) ﺲﻠﺠﻤﻟﺍ ﺕﺍﺀﺍﺮﺟﺇ ﻥﺄﺸﺑ §YCooldown§! £time£ §G-25%§!"
+ tr_politics_extraordinary_powers_delayed:0 ".ﺎﻬﺘﺳﺭﺎﻤﻤﺑ ﺎﻨﻟ ﺢﻤﺴﻧ ﻥﺃ ﻲﻌﻴﺒﻄﻟﺍ ﻦﻣﻭ ،ﺔﻄﻠﺴﻟﺎﺑ ﺎﻨﻴﻟﺇ ﺪﻬﻋ ﻞﻌﻔﻟﺎﺑ ﻢﺗ ﺪﻘﻟ .ﺔﻴﺋﺎﻨﺜﺘﺳﺍ ﺕﺍﺀﺍﺮﺟﺇ ﺐﻠﻄﺘﺗ ﺔﻴﺋﺎﻨﺜﺘﺳﻻﺍ ﺕﺎﻗﻭﻷﺍ"
+
+ tr_politics_national_agenda:0 "ﺔﻴﻨﻃﻮﻟﺍ ﺓﺪﻨﺟﻷﺍ"
+ tr_politics_national_agenda_desc:0 ".ﺍﺮﻬﺷ 18 ﺓﺪﻤﻟ §YUnity§! £unity£ ﻰﻠﻋ ﻞﺼﺣﺍ ،ﻪﺣﺮﺘﻘﺗ ﻱﺬﻟﺍ ﺭﺍﺮﻘﻟﺍ ﺮﻳﺮﻤﺗ ﻢﺘﻳ ﺎﻣﺪﻨﻋ"
+ tr_politics_national_agenda_delayed:0 ".ﻞﻀﻓﺃ ﻞﺒﻘﺘﺴﻣ ﻦﻣ ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺮﺜﻛﺃ ﺎﻨﺑﺮﻘﺗ ﻲﻬﻓ :ﺥﻮﻴﺸﻟﺍ ﺲﻠﺠﻣ ﺔﻋﺎﻗ ﻲﻓ ﺎﻨﺗﺍﺭﺎﺼﺘﻧﺎﺑ ﻝﺎﻔﺘﺣﻻﺍ ﻲﻐﺒﻨﻳﻭ"
+
+ tr_politics_persistent_petitioners:0 "ﻥﻭﺮﻤﺘﺴﻤﻟﺍ ﻥﻮﺴﻤﺘﻠﻤﻟﺍ"
+ tr_politics_persistent_petitioners_desc:1 ".ﻚﺗﺍﺭﺍﺮﻗ ﺪﺣﺃ ﺮﻳﺮﻤﺗ ﻢﺘﻳ ﻰﺘﺣ ﺎﻴﺳﺎﻣﻮﻠﺑﺩ ﺎﻧﺯﻭ £diplo_weight£ §G+25%§! ﺐﺴﺘﻛﺍ ،ﻯﺮﺧﺃ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻞﺒﻗ ﻦﻣ ﺭﺍﺮﻗ ﺮﻳﺮﻤﺗ ﺪﻌﺑ"
+ tr_politics_persistent_petitioners_delayed:1 ".ﻪﻘﺤﺘﺴﻧ ﺎﻣ ﻰﻠﻋ ﻞﺼﺤﻨﺳ ﺎﻨﻨﻜﻟ ،ﺖﻗﻮﻟﺍ ﺾﻌﺑ ﺮﻣﻷﺍ ﻕﺮﻐﺘﺴﻳ ﺪﻗ .ﺔﺑﺎﺟﺈﻛ "ﻻ" ـﺑ ﺍﻮﻠﺒﻘﻳ ﻦﻟﻭ ،ﺔﻳﺎﻐﻠﻟ ﻥﻭﺮﺑﺎﺜﻣ §Y[GetGalCommunityOrGalImperium]§! ﻲﻓ ﺎﻨﻴﺑﻭﺪﻨﻣ ﻥﺇ"
+ persistent_petitioners:0 "$tr_politics_persistent_petitioners$"
+
+################################################################
+# Enmity
+################################################################
+
+ tradition_enmity: "ﺓﻭﺍﺪﻋ"
+ tradition_enmity_desc: ".ﺔﻋﺮﺴﻟﺍ ﺪﻳﺪﺤﺘﺑ ﻥﻭﺮﺧﻵﺍ [Root.GetSpeciesNamePlural] ﻡﻮﻘﻳ ﺎﻣﺪﻨﻋ ﻝﺎﺤﻟﺍ ﻮﻫ ﺎﻤﻛ ﺔﻋﺮﺴﻟﺍ ﻩﺬﻬﺑ ﺍﺪﺑﺃ ﻙﺮﺤﺘﻳ ﻻ [Root.GetSpeciesNamePlural]"
+ tradition_enmity_desc_machine: ".ﺔﺼﺘﺨﻣ ﺔﺴﻓﺎﻨﻣ ﺔﻄﺳﺍﻮﺑ ﻩﺭﺎﺒﺘﺧﺍ ﺪﻨﻋ ﻉﺮﺳﺃ ﻞﻜﺸﺑ [Root.GetName] ﺭﻮﻄﺘﻳ"
+
+ tr_enmity_adopt: "$tradition_enmity$ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ tr_enmity_adopt_desc: "§G+3%§! :ﺭﻭﺎﺠﻣ ﺲﻓﺎﻨﻣ ﻞﻜﻟ §YPop Assembly§! £mod_planet_pop_assembly_mult£\n§G+3%§! :ﺭﻭﺎﺠﻣ ﺲﻓﺎﻨﻣ ﻞﻜﻟ §YPop Growth§! £mod_logistic_growth_mult£"
+ tr_enmity_finish: "$tradition_enmity$ ﻰﻬﺘﻧﺍ"
+ tr_enmity_finish_desc: "$TRADITIONS_FINISH_AP$\n.§Yﻲﺋﺍﺪﻌﻟﺍ ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻒﻗﻮﻤﻟﺍ§! ﺢﺘﻔﻳ\n§G+1§! :ﻥﻮﺣﺎﺘﻤﻟﺍ ﻥﻮﺛﻮﻌﺒﻤﻟﺍ"
+
+ tr_enmity_rise_to_the_occasion: "ﺔﺒﺳﺎﻨﻤﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﺀﺎﻘﺗﺭﻻﺍ"
+ tr_enmity_rise_to_the_occasion_delayed: ".ﻦﻳﺪﺤﺘﻣ ﻒﻘﻧ ،ﻡﻮﺼﺨﻟﺍ ﻦﻣ ﺭﺍﺮﻤﺘﺳﺎﺑ ﺪﻳﺍﺰﺘﻤﻟﺍ ﺩﺪﻌﻟﺍ ﺔﻬﺟﺍﻮﻣ ﻲﻓﻭ"
+ tr_enmity_rise_to_the_occasion_effect: "§G+0.50§!$mod_country_scientist_cap_add$ ﺲﻓﺎﻨﻣ ﻞﻜﻟ: \n§G+0.50§!$mod_country_commander_cap_add$ ﺲﻓﺎﻨﻣ ﻞﻜﻟ: \n§G+0.50§!$mod_country_official_cap_add$ ﺲﻓﺎﻨﻣ ﻞﻜﻟ: "
+
+ tr_enmity_consumate_contrarian: "ﺔﻣﺎﺗ ﺔﻀﻗﺎﻨﻣ"
+ tr_enmity_consumate_contrarian_delayed: ".ﺔﺻﺎﺨﻟﺍ ﺎﻬﻄﻄﺧ ﻞﻴﻌﻔﺗ ﻞﺜﻣ ﺎﻣﺎﻤﺗ ﺔﻴﺿﺮﻣ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻳ ﺔﺿﺭﺎﻌﻤﻟﺍ ﻂﻄﺧ ﺔﻠﻗﺮﻋ ﻥﺇ"
+
+ tr_enmity_match: "ﺓﺍﺭﺎﺒﻣ"
+ tr_enmity_match_delayed: ".ﺔﻳﻭﺎﺴﺘﻣ ﺐﻌﻟ ﺔﺣﺎﺳ ﺀﺎﺸﻧﺇ ،ﻻﻭﺃ"
+ tr_enmity_match_effect: "§G+10%§! :ﺝﺍﺮﺧﻹﺍ [GetWorker]$t$\n:ﺲﻓﺎﻨﻤﻟﺍ ﻦﻣ ﺎﻳﺩﺎﺼﺘﻗﺍ ﻒﻌﺿﺃ ﺎﻬﻧﺃ ﻢﻏﺭ\n§G+100%§!$t$ﺔﻴﺜﺤﺒﻟﺍ ﻞﻣﺎﻌﻤﻟﺍ ﺀﺎﺸﻧﺇ ﺔﻋﺮﺳ: \n§G-15%§!$t$ﺚﺣﺎﺒﻟﺍ ﺔﻧﺎﻴﺻ: \n:ﺲﻓﺎﻨﻤﻟﺍ ﻦﻣ ﺔﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺔﻴﺣﺎﻨﻟﺍ ﻦﻣ ﻒﻌﺿﺃ ﺎﻤﻨﻴﺑ\n§G+10%§!$t$ﺔﻨﻴﻔﺴﻟﺍ ﺀﺎﻨﺑ ﺔﻋﺮﺳ: \n§G-5%§!$t$ﺔﻨﻴﻔﺴﻟﺍ ﺀﺎﻨﺑ ﺔﻔﻠﻜﺗ: \n:ﺲﻓﺎﻨﻤﻟﺍ ﻦﻣ ﺎﻳﺮﻜﺴﻋ ﻒﻌﺿﺃ ﺎﻤﻨﻴﺑ"
+
+ tr_enmity_outpace: "ﻕﻮﻔﺗ"
+ tr_enmity_outpace_delayed: ".ﺎﻬﺑ ﻡﺎﻴﻘﻟﺍ ﻲﻓ ﻚﻤﺼﺧ ﺐﻏﺮﻳ ﻻ ﻲﺘﻟﺍ ﺔﻛﺮﺤﻟﺎﺑ ﻢﻗ ،ﺎﻴﻧﺎﺛ"
+
+ tr_enmity_eclipse: "ﻑﻮﺴﻛ"
+ tr_enmity_eclipse_delayed: ".ﺪﺑﻷﺍ ﻰﻟﺇﻭ ﺓﺪﺣﺍﻭ ﺓﺮﻣ ﻚﻤﺼﺧ ﻰﻠﻋ ﻚﻟﻼﻈﺑ ﻖﻟﺃ ،ﺎﺜﻟﺎﺛ"
+ tr_enmity_eclipse_effect: ".§YHumiliation War§! ﻲﻓ ﺯﻮﻔﻟﺍ ﻦﻣ ﺕﺍﻮﻨﺳ ﺪﻌﺑ §!XYZT_410XYZT ـﻟ §YRival§! ﻞﻜﻟ $r_unity$ﻭ $r_research$ ﺝﺎﺘﻧﺇ §!%XYZT_02XYZT ﺢﻨﻤﻟﺍ ﺕﺩﺍﺯ"
+
+ enmity_humiliate: ".§YRival§! ﻞﻜﻟ $r_unity$ﻭ $r_research$ ﺝﺎﺘﻧﺇ ﻲﻓ ﺓﺩﺎﻳﺯ §!%XYZT_52XYZT ﻢﻬﺤﻨﻤﻳﻭ ﺕﺍﻮﻨﺳ §!XYZT_310XYZT ﺓﺪﻤﻟ §YReaffirmed Superiority§! ﻝﺪﻌﻣ ﻰﻠﻋ [GetName] ﻞﺼﺤﻳ"
+ reaffirmed_superiority: "ﻕﻮﻔﺘﻟﺍ ﺪﻴﻛﺄﺗ ﺓﺩﺎﻋﺇ"
+ reaffirmed_superiority_desc: ".ﺎﻨﻣ ﻢﻈﻋﺃ ﺪﺣﺃ ﻻ .ﻪﻀﻳﻮﻌﺗ ﻦﻜﻤﻳ ﻻ ﺎﻨﻗﻮﻔﺗ"
+
+
+####################################
+# Ascension Perks
+####################################
+
+ requires_tech_federation_code:1 "§R.['technology:tech_federation_code'] £society£ ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ§!$TRIGGER_FAIL$"
+ requires_tradition_universal_compatibility:0 "§!.ﺕﺎﻣﺍﺪﺨﺘﺳﻻﺍ ﺩﺪﻌﺗ ﺪﻴﻟﺎﻘﺗ §R§Yﻲﻤﻟﺎﻌﻟﺍ ﻖﻓﺍﻮﺘﻟﺍ§! ﺐﻠﻄﺘﻳ§!"
+ requires_independence:0 ".ﻼﻘﺘﺴﻣ [This.GetName]$TRIGGER_FAIL$ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ"
+ requires_ascension_perks_1:0 "$TRIGGER_FAIL$ﻻﻭﺃ ﻯﺮﺧﺃ ﺩﻮﻌﺻ ﺓﺰﻴﻣ ﺪﻳﺪﺤﺗ ﺐﻠﻄﺘﻳ."
+ requires_ascension_perks_2:1 "$TRIGGER_FAIL$ﻻﻭﺃ ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ ﻦﻣ ﻦﻴﻳﺮﺧﺃ ﻦﻴﺗﺰﻴﻣ ﺪﻳﺪﺤﺗ ﺐﻠﻄﺘﻳ."
+ requires_ascension_perks_3:1 "$TRIGGER_FAIL$ﻻﻭﺃ ﻯﺮﺧﺃ ﺩﻮﻌﺻ ﺕﺍﺯﺎﻴﺘﻣﺍ ﺙﻼﺛ ﺪﻳﺪﺤﺗ ﺐﻠﻄﺘﻳ."
+ requires_free_tradition_tree:0 "$TRIGGER_FAIL$ﺔﻏﺭﺎﻓ ﺪﻴﻠﻘﺘﻟﺍ ﺓﺮﺠﺷ ﺔﺤﺘﻓ ﺐﻠﻄﺘﻳ."
+
+ requires_ap_engineered_evolution:1 ".ﺩﻮﻌﺼﻟﺍ ﺓﺰﻴﻣ §Y$ap_engineered_evolution$§!$TRIGGER_FAIL$ﺐﻠﻄﺘﻳ "
+ requires_not_ap_engineered_evolution:1 " Ascension Perk.§Y$ap_engineered_evolution$§!$TRIGGER_FAIL$ﻚﻠﺘﻤﻳ ﻻ ﺪﻗ "
+ requires_not_ap_synthetic_age:0 ".§Y$ap_synthetic_age$§!$TRIGGER_FAIL$ﺩﻮﻌﺼﻟﺍ ﺓﺰﻴﻤﺑ ﻊﺘﻤﺘﻳ ﻻ ﺪﻗ "
+
+ requires_ap_the_flesh_is_weak:1 ".ﺩﻮﻌﺼﻟﺍ ﺓﺰﻴﻣ §Y$ap_the_flesh_is_weak$§!$TRIGGER_FAIL$ﺐﻠﻄﺘﻳ "
+ requires_not_ap_the_flesh_is_weak:1 " Ascension Perk.§Y$ap_the_flesh_is_weak$§! ﺩﻮﻌﺼﻟﺍ ﺓﺰﻴﻤﺑ $TRIGGER_FAIL$ ﻊﺘﻤﺘﻳ ﻻ ﺪﻗ"
+ requires_finished_cybernetics_project:1 ".ﺹﺎﺨﻟﺍ §Yﻒﻴﻌﺿ ﺪﺴﺠﻟﺍ ﻉﻭﺮﺸﻣ§!$TRIGGER_FAIL$ﺖﻴﻬﻧﺃ ﺪﻗ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ "
+
+ requires_not_ap_synthetic_evolution:0 " Ascension Perk.§Y$ap_synthetic_evolution$§!$TRIGGER_FAIL$ﻚﻠﺘﻤﻳ ﻻ ﺪﻗ "
+ requires_not_ap_organo_machine_interfacing:0 " Ascension Perk.§Y$ap_organo_machine_interfacing$§!$TRIGGER_FAIL$ﻚﻠﺘﻤﻳ ﻻ ﺪﻗ "
+
+ requires_ap_mind_over_matter:2 " Origin.§Y$origin_shroudwalker_apprentice$§! Ascension Perk ﻭﺃ §Y$ap_mind_over_matter$§!$TRIGGER_FAIL$ﺐﻠﻄﺘﻳ "
+ requires_not_ap_mind_over_matter:1 " Ascension Perk.§Y$ap_mind_over_matter$§! ﺩﻮﻌﺼﻟﺍ ﺓﺰﻴﻤﺑ $TRIGGER_FAIL$ ﻊﺘﻤﺘﻳ ﻻ ﺪﻗ"
+ describe_decision_mastery_of_nature:1 "§G+50%§! $TABBED_NEW_LINE$- ﺐﻛﺍﻮﻜﻟﺍ ﺕﺍﺰﻴﻣ ﻦﻣ ﺩﺭﺍﻮﻤﻟﺍ ﻖﻃﺎﻨﻤﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ: §Y+2§! :ﻖﻃﺎﻨﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ -$TABBED_NEW_LINE$ﺔﻌﻴﺒﻄﻟﺍ ﻥﺎﻘﺗﺇ §Y:ﺭﺍﺮﻘﻟﺍ ﺢﺘﻓ§!\n§G×4§! :ﺚﺤﺒﻟﺍ ﺕﺍﺭﺎﻴﺧ §Y§! ﺮﻈﺤﻟﺍ ﺔﻟﺍﺯﺇ ﺔﺻﺮﻓ"
+ decision_mastery_of_nature:1 "ﺔﻌﻴﺒﻄﻟﺍ ﻥﺎﻘﺗﺇ"
+ decision_mastery_of_nature_desc:0 "[GetMasteryOverNatureDecisionDesc]"
+ decision_mastery_of_nature_desc_normal:0 ".ﻡﺪﻘﺘﻟﺍ ﻖﻳﺮﻃ ﻲﻓ ﻒﻘﺗ ﻥﺃ ﺔﻌﻴﺒﻄﻠﻟ ﻲﻐﺒﻨﻳ ﻻﻭ .ﺔﻓﺮﻐﻟﺍ ﻚﻠﺗ ﺮﻓﻮﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ﺍﺬﻟ ،ﻮﻤﻨﻠﻟ ﻝﺎﺠﻣ ﻰﻟﺇ ﺝﺎﺘﺤﺗ ﺎﻨﺗﺭﺎﻀﺣ ﻥﺇ"
+ mastery_of_nature:0 "$decision_mastery_of_nature$"
+ mastery_of_nature_desc:0 "$decision_mastery_of_nature_desc$"
+ mastery_of_nature_effects: "§G+50%§! ﺩﺭﺍﻮﻤﻟﺍ ﻖﻃﺎﻨﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ -\n§Y+2§! ﻖﻃﺎﻨﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ -"
+
+ requires_ap_voidborn_OR_ap_galactic_wonders:1 " Ascension Perk.§Y$ap_galactic_wonders$§! ﻭﺃ §Y$ap_voidborn$§!$TRIGGER_FAIL$ﺐﻠﻄﺘﻳ "
+
+ requires_technology_housing_2:0 ".§Y$tech_housing_2$§! £engineering£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_zero_point_power:0 ".§Y$tech_zero_point_power$§! £physics£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_tech_climate_restoration:0 ".§Y$tech_climate_restoration$§! £society£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_robomodding:0 ".§Y$tech_robomodding$§! £engineering£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_gene_expressions:2 ".§Y$tech_gene_expressions$§! £society£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_gene_seed_purification:1 ".§Y$tech_gene_seed_purification$§! £society£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_gene_tailoring:1 ".§Y$tech_gene_tailoring$§! £society£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_starbase_4:0 ".['tradition_category:tradition_unyielding'] £unity£ ﺪﻴﻟﺎﻘﺘﻟﺍ ﺓﺮﺠﺷ ﻭﺃ §Y$tech_starbase_4$§! £engineering£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_starbase_5:0 ".§Y$tech_starbase_5$§! £engineering£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_habitat_1:0 ".§Y$tech_habitat_1$§! £engineering£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_battleships:0 ".§Y$tech_battleships$§! £engineering£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_glandular_acclimation:0 ".§Y$tech_glandular_acclimation$§! £society£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_mega_engineering:1 ".§Y$tech_mega_engineering$§! £engineering£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_built_or_repaired_megastructure:0 "$TRIGGER_FAIL$ﻞﻣﺎﻜﻟﺎﺑ ﺎﻬﺘﻴﻗﺮﺗ ﻭﺃ ﺔﻗﻼﻤﻋ ﺔﻴﻨﺑ ﻱﺃ ﺡﻼﺻﺇ ﺐﻠﻄﺘﻳ."
+ hive_mind_biological_ascension_only1:0 "$TRIGGER_FAIL$A Hive Mind ﻰﻟﺇ ﻱﺩﺆﻤﻟﺍ ﺭﺎﺴﻤﻟﺍ ﻲﻓ ﺀﺪﺒﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ Psionic Ascension."
+ hive_mind_biological_ascension_only2:0 "$TRIGGER_FAIL$A Hive Mind ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻘﺗﺭﻻﺍ ﻰﻟﺇ ﻱﺩﺆﻤﻟﺍ ﺭﺎﺴﻤﻟﺍ ﻲﻓ ﺀﺪﺒﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ."
+ requires_zero_point_power:1 ".§Y$tech_zero_point_power$§! £physics£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_ap_voidborn:1 ".§Y$ap_voidborn$§!$TRIGGER_FAIL$ﺩﻮﻌﺼﻟﺍ ﺓﺰﻴﻣ ﺐﻠﻄﺘﻳ "
+ requires_technology_droid_workers:1 ".§Y$tech_droid_workers$§! £engineering£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_synthetic_workers:1 ".§Y$tech_synthetic_workers$§! £engineering£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_synthetic_leaders:1 ".§Y$tech_synthetic_leaders$§! £engineering£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_psionic_theory:1 ".§Y$tech_psionic_theory$§! £society£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ requires_technology_terrestrial_sculpting:1 ".§Y$tech_terrestrial_culpting$§! £society£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+ gestalt_consciousness_biological_ascension_only1:1 "$TRIGGER_FAIL$A Hive Mind ﻰﻟﺇ ﻱﺩﺆﻤﻟﺍ ﺭﺎﺴﻤﻟﺍ ﻲﻓ ﺀﺪﺒﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ Psionic Ascension."
+ gestalt_consciousness_biological_ascension_only2:1 "$TRIGGER_FAIL$A Hive Mind ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻘﺗﺭﻻﺍ ﻰﻟﺇ ﻱﺩﺆﻤﻟﺍ ﺭﺎﺴﻤﻟﺍ ﻲﻓ ﺀﺪﺒﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ."
+ synthetic_empire_synthetic_ascension:0 "$TRIGGER_FAIL$ﻲﻋﺎﻨﻄﺻﻻﺍ ﺩﻮﻌﺼﻟﺍ ﻖﻳﺮﻃ ﻲﻓ ﺀﺪﺒﻟﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺮﻴﻏ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ."
+ synthetic_empire_biological_ascension:0 "$TRIGGER_FAIL$ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﺀﺎﻘﺗﺭﻻﺍ ﻖﻳﺮﻃ ﻲﻓ ﺀﺪﺒﻟﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺮﻴﻏ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ."
+ synthetic_empire_psionic_ascension:0 "$TRIGGER_FAIL$ﻲﺴﻔﻨﻟﺍ ﺩﻮﻌﺼﻟﺍ ﻰﻟﺇ ﻱﺩﺆﻤﻟﺍ ﻖﻳﺮﻄﻟﺍ ﻲﻓ ﺀﺪﺒﻟﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺮﻴﻏ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ."
+
+ allow_gaia:0 ".§YGaia Planets§! ﻰﻟﺇ ﻢﻟﺍﻮﻌﻟﺍ ﻞﻳﺪﻌﺘﺑ ﺎﻨﻟ ﺢﻤﺴﻳ"
+ no_rev_engineering:1 ".§YFallen Empire Building ﺕﺎﻴﻨﻘﺗ§! ﺹﻼﺨﺘﺳﻻ ﺓﺮﻴﻐﺻ ﺔﺻﺮﻓ\n.ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﺒﻗ ﻦﻣ ﻪﺘﺳﺍﺭﺩ ﻦﻜﻤﻳ ﻻ ﺓﺮﻣﺪﻤﻟﺍ ﺎﻨﻨﻔﺳ ﻦﻣ §Yﻡﺎﻄﺤﻟﺍ§!\n.ﺎﻧﺪﺿ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﺪﻨﻋ ﺎﻴﺋﺎﻘﻠﺗ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻞﺸﻔﺗ ﻑﻮﺳ §Y$operation_steal_technology$§!"
+ allow_raiding:0 ".ﺔﺻﺎﺨﻟﺍ ﺎﻨﻤﻟﺍﻮﻋ ﻲﻓ ﺎﻬﻨﻴﻃﻮﺗ ﺓﺩﺎﻋﺇﻭ ﺓﺮﺻﺎﺤﻤﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻦﻣ ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ ﻑﺎﻄﺘﺧﺎﺑ ﺎﻨﻟ ﺢﻤﺴﺗ ﺎﻫﺭﻭﺪﺑ ﻲﺘﻟﺍﻭ ،§Y$bombardment_raiding$§! ﻒﺼﻘﻟﺍ ﺔﻴﻌﺿﻭ ﺢﺘﻔﻳ"
+
+ ap_defender_of_the_galaxy_effect_opinion:2 "§G+200§! ﺭﺍﺪﻘﻤﺑ ﺔﻳﺩﺎﻌﻟﺍ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻘﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻣ §YOpinion§! £opinion£ ﺪﻳﺰﻳ"
+ ap_defender_of_the_galaxy_modifier_desc:0 "§Rﺔﻣﺯﺃ ﺍﻮﺤﺒﺼﻳ ﻥﺃ ﺓﺮﺠﻤﻟﺍ ﻦﻋ ﻥﻮﻌﻓﺍﺪﻤﻟﺍ ﺭﺎﺘﺨﻳ ﻻ ﺪﻗ§!\n\n$ap_defender_of_the_galaxy_effect_opinion$\n\n§G+50%§! :ﺔﺒﻌﻠﻟﺍ ﺔﻳﺎﻬﻧ ﺔﻣﺯﺃ ﻞﺋﺎﺼﻔﺑ ﻖﺤﻠﻳ ﻱﺬﻟﺍ ﺭﺮﻀﻟﺍ"
+
+ ap_engineered_evolution:0 "ﻱﻮﻴﺤﻟﺍ ﻞﻜﺸﺘﻟﺍ"
+ ap_the_flesh_is_weak:0 "ﻒﻴﻌﺿ ﺪﺴﺠﻟﺍ"
+ ap_synthetic_evolution:0 "ﻲﻋﺎﻨﻄﺻﻻﺍ ﺭﻮﻄﺘﻟﺍ"
+ ap_world_shaper:0 "ﻲﻤﻟﺎﻌﻟﺍ ﻞﻜﺸﻤﻟﺍ"
+ ap_mind_over_matter:0 "ﺓﺩﺎﻤﻟﺍ ﻰﻠﻋ ﻞﻘﻌﻟﺍ"
+
+ ap_master_builders:0 "ﺮﻴﺘﺴﺟﺎﻤﻟﺍ ﺓﺎﻨﺑ"
+ ap_imperial_prerogative:0 "ﻱﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺯﺎﻴﺘﻣﻻﺍ"
+ ap_one_vision:0 "ﺓﺪﺣﺍﻭ ﺔﻳﺅﺭ"
+ ap_consecrated_worlds:0 "ﺔﺳﺪﻘﻣ ﻢﻟﺍﻮﻋ"
+ ap_executive_vigor:0 "ﺔﻳﺬﻴﻔﻨﺘﻟﺍ ﺓﻮﻘﻟﺍ"
+ ap_executive_vigor_desc:0 ".ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﻻ ﻭﺃ ،ﻖﻳﺮﻄﻟﺍ ﻝﻮﻃ ﻰﻠﻋ ﺐﻫﺬﻧ .ﺎﻨﺘﻣﻮﻜﺣ ﺎﻬﺗﺭﺮﻗ ﻲﺘﻟﺍ ﻢﻴﺳﺍﺮﻤﻟﺍ ﺬﻴﻔﻨﺗ ﺪﻨﻋ ﺕﻻﺯﺎﻨﺗ ﻭﺃ ﻝﻮﻠﺣ ﻑﺎﺼﻧﺃ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﻦﻟ"
+
+ ap_galactic_force_projection:0 "ﺓﺮﺠﻤﻟﺍ ﺓﻮﻗ ﻁﺎﻘﺳﺇ"
+ ap_defender_of_the_galaxy:0 "ﺓﺮﺠﻤﻟﺍ ﻦﻋ ﻊﻓﺍﺪﻤﻟﺍ"
+ ap_galactic_contender:0 "ﺓﺮﺠﻤﻟﺍ ﺲﻓﺎﻨﻤﻟﺍ"
+ ap_technological_ascendancy:0 "ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻕﻮﻔﺘﻟﺍ"
+ ap_technological_ascendancy_tt: "§Yﺙﺎﺤﺑﻷﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ§! ﺕﺎﺳﺎﻴﺳ ﻦﻴﻜﻤﺗ"
+ ap_mastery_of_nature:0 "ﺔﻌﻴﺒﻄﻟﺍ ﻥﺎﻘﺗﺇ"
+ ap_voidborn:0 "ﻥﺭﻮﺑﺪﻳﻮﻓ"
+ ap_the_circle_of_life:0 "ﺓﺎﻴﺤﻟﺍ ﺓﺮﺋﺍﺩ"
+ ap_galactic_wonders:0 "ﺓﺮﺠﻤﻟﺍ ﺐﺋﺎﺠﻋ"
+ ap_interstellar_dominion:0 "ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺓﺩﺎﻴﺴﻟﺍ"
+ ap_eternal_vigilance:0 "ﺔﻳﺪﺑﻷﺍ ﺔﻈﻘﻴﻟﺍ"
+ ap_eternal_vigilance_desc:0 ".ﻪﻠﻤﺤﺘﻟ ﻦﻳﺪﻌﺘﺴﻤﻟﺍ ﻦﻣ ﻦﻜﻤﻣ ﺩﺪﻋ ﻞﻗﺃ ﻻﺇ ﻥﻮﻜﻳ ﻻ ﺚﻴﺤﺑ ﺔﻳﺎﻐﻠﻟ ﺎﻌﻔﺗﺮﻣ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻭﺰﻏ ﻦﻤﺛ ﻥﺇ .ﻡﻮﺠﻬﻠﻟ ﺓﻮﻋﺩ ﻮﻫ ﻒﻌﻀﻟﺍ ﺭﺎﻬﻇﺇ"
+ ap_eternal_vigilance_tt: "§!%XYZT_650XYZT ﻩﺭﺪﻗ ﻰﺼﻗﺃ ﺪﺤﺑ ،§Y$ap_eternal_vigilance$§! ﺔﺳﺎﻴﺳ ﻰﻠﻋ ﺍﺩﺎﻤﺘﻋﺍ §YStarbase§! ﻞﻛ ﻝﻮﺣ §YDefense Platform§! ﺀﺎﺸﻧﺇ ﻢﺘﻴﺳ ،ﺮﻬﺷﺃ 6 ﻞﻛ"
+ policy_eternal_vigilance_policy: "$ap_eternal_vigilance$"
+ policy_eternal_vigilance_policy_desc: ".ﻪﻠﻤﺤﻳ ﻱﺬﻟﺍ ﻞﺜﻣ ﻂﻘﻓ ﻱﻮﻗ ﻉﺭﺪﻟﺍ"
+ eternal_vigilance_full_spending: "ﻞﻣﺎﻜﻟﺍ ﻕﺎﻔﻧﻹﺍ"
+ eternal_vigilance_full_spending_name: "$eternal_vigilance_full_spending$"
+ eternal_vigilance_full_spending_desc: "§YStarbase§! ﻞﻛ ﻝﻮﺣ ﺎﻴﺋﺎﻘﻠﺗ §Yﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻣ§! ﺀﺎﺸﻧﺇ\n.ﺔﻔﻠﻜﺗ ﻱﺃ ﺮﺧﺪﺗ ﻻ .ﺢﻴﺤﺻ ﻞﻜﺸﺑ ﺎﻬﻨﻋ ﻉﺎﻓﺪﻟﺍ ﻰﻟﺇ ﺝﺎﺘﺤﺗ ﺔﻴﻤﺠﻧ ﺓﺪﻋﺎﻗ ﻞﻛ"
+ eternal_vigilance_half_spending: "ﻕﺎﻔﻧﻹﺍ ﻒﺼﻧ"
+ eternal_vigilance_half_spending_name: "$eternal_vigilance_half_spending$"
+ eternal_vigilance_half_spending_desc: "§YBastion Starbases§! ﻝﻮﺣ ﺎﻴﺋﺎﻘﻠﺗ §Yﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻣ§! ﺀﺎﺸﻧﺇ ﻢﺘﻳ\n.ﺎﻨﻤﻋﺩ ﻰﻟﺇ ﺝﺎﺘﺤﺗ ﻲﺘﻟﺍ ﻲﻫ ﻂﻘﻓ ﺎﻨﻠﻗﺎﻌﻣ ﻯﻮﻗﺃ"
+ eternal_vigilance_no_spending: "ﻕﺎﻔﻧﻹﺍ ﻻ"
+ eternal_vigilance_no_spending_name: "$eternal_vigilance_no_spending$"
+ eternal_vigilance_no_spending_desc: "§YStarbases§! ﺩﻮﺟﻭ ﻡﺪﻋ ﻝﻮﺣ ﺎﻴﺋﺎﻘﻠﺗ §Yﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻣ§! ﺀﺎﺸﻧﺇ\n.ﺎﻨﺗﺎﻋﺎﻓﺩ ﺰﻳﺰﻌﺗ ﻦﻣ ﺪﻳﺰﻤﻟ ﺔﺟﺎﺣ ﻙﺎﻨﻫ ﺖﺴﻴﻟ"
+
+ ap_grasp_the_void:0 "ﻍﺍﺮﻔﻟﺍ ﻢﻬﻓ"
+ ap_grasp_the_void_desc:0 ".ﻍﺍﺮﻔﻟﺍ ﻰﻠﻋ ﺎﻬﺘﻀﺒﻗ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﺔﻴﻔﻴﻛ ﻢﻬﻔﺗ ﻲﺘﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻚﻠﺘﻟ ﺎﻬﻟ ﺩﻭﺪﺣ ﻻ ﺕﺍﻭﺮﺛ ﺓﺮﺠﻤﻠﻟ ﻊﺳﺎﺸﻟﺍ ﺩﺍﺪﺘﻣﻻﺍ ﻞﻤﺤﻳ"
+
+ ap_engineered_evolution_desc:0 "؟ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺟ ﻞﺒﻘﺘﺴﻤﺑ ﺃﺪﺒﻧ ﻻ ﺍﺫﺎﻤﻟ .ﻢﻟﺆﻣ ﺪﺣ ﻰﻟﺇ ﺔﺌﻴﻄﺑﻭ ﺔﻟﺎﻌﻓ ﺮﻴﻏ ﺔﻴﻠﻤﻋ ﻮﻫ ﺔﻌﻴﺒﻄﻟﺍ ﻱﺪﻳﺃ ﻲﻓ ﻲﺛﺍﺭﻮﻟﺍ ﺎﻧﺮﻴﺼﻣ ﻙﺮﺗ ﻥﺇ"
+
+ ap_the_flesh_is_weak_desc:0 ".ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺎﺳﺮﻐﻟﺍ ﻰﻟﺇ ﻞﻘﺘﻨﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﺔﻠﻣﺎﻜﻟﺍ ﺎﻨﺗﺎﻧﺎﻜﻣﺇ ﻰﻟﺇ ﻝﻮﺻﻮﻠﻟ .ﺔﻟﻮﺒﻘﻣ ﺮﻴﻏ ﺔﻃﺎﺴﺒﺑ ﻲﻫ ﺔﻔﻴﻌﻀﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺎﻨﻣﺎﺴﺟﺃ ﺎﻨﻴﻠﻋ ﺎﻬﺿﺮﻔﺗ ﻲﺘﻟﺍ ﺩﻮﻴﻘﻟﺍﻭ ﺩﻭﺪﺤﻟﺍ ﻥﺇ"
+ ap_synthetic_evolution_desc:0 ".ﺩﻮﺟﻮﻟﺍ ﻦﻣ ﻰﻠﻋﺃ ﺔﻟﺎﺣ ﻖﻘﺤﻨﺳ ،ﺔﻴﻋﺎﻨﻄﺻﺍ ﻡﺎﺴﺟﺃ ﻰﻟﺇ ﺔﻴﺒﺼﻌﻟﺍ ﺎﻨﻃﺎﻤﻧﺃ ﻞﻘﻧ ﻝﻼﺧ ﻦﻣﻭ .ﺎﻨﻟﻮﻘﻋ ﻦﺠﺴﺗ ﻲﺘﻟﺍ ﺔﺒﻴﻌﻤﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺔﻴﻋﻭﻷﺍ ﻦﻋ ﻲﻠﺨﺘﻠﻟ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻟ"
+
+ ap_mind_over_matter_desc: "[GetMindOverMatterDesc]"
+ ap_mind_over_matter_desc_organic: ".[GetIndividualNamePlural] ﺾﻌﺑ ﻲﻓ ﻂﻘﻓ ﻥﻵﺍ ﺭﻮﻬﻈﻟﺍ ﻲﻓ ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺠﻟ ﺔﻨﻣﺎﻜﻟﺍ ﺔﻴﻨﻫﺬﻟﺍ ﺕﺍﺭﺪﻘﻟﺍ ﺕﺃﺪﺑ .ﺎﻨﻟﻮﻘﻋ ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﻧﺎﻜﻣﻹﺍ ﻦﻣ ﺮﻴﻐﺻ ﺀﺰﺟ ﻯﻮﺳ ﻕﻼﻃﺇ ﻢﺘﻳ ﻢﻟ"
+ ap_mind_over_matter_desc_machine: ".[GetIndividualNamePlural] ﺾﻌﺑ ﻲﻓ ﻂﻘﻓ ﻥﻵﺍ ﺭﻮﻬﻈﻟﺍ ﻲﻓ ﺎﻧﺮﺋﺍﻭﺩ ﻲﻓ ﺔﻨﻣﺎﻜﻟﺍ ﺔﻴﻨﻫﺬﻟﺍ ﺕﺍﺭﺪﻘﻟﺍ ﺕﺃﺪﺑ .ﺎﻨﺘﺠﻟﺎﻌﻣ ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﻧﺎﻜﻣﻹﺍ ﻦﻣ ﺮﻴﻐﺻ ﺀﺰﺟ ﻯﻮﺳ ﻕﻼﻃﺇ ﻢﺘﻳ ﻢﻟ"
+
+ ap_synthetic_age:0 "ﻲﻋﺎﻨﻄﺻﻻﺍ ﺮﺼﻌﻟﺍ"
+ ap_synthetic_age_desc:0 ".ﻲﻋﺎﻨﻄﺻﻻﺍ ﺮﺼﻌﻟﺍ ﺮﺠﻓ ﻮﻫ ﺍﺬﻫ .ﺕﻻﻵﺍ ﻰﻟﺇ ﻲﻤﺘﻨﻳ ﺓﺮﺠﻤﻟﺍ ﻞﺒﻘﺘﺴﻣﻭ ،ﺐﻫﺫﻭ ﺔﻳﻮﻀﻌﻟﺍ ﺩﺍﻮﻤﻟﺍ ﺮﺼﻋ ﺀﺎﺟ ﺪﻘﻟ"
+ synthetic_age_tooltip:1 "$UNLOCKS_AGENDA$ $council_agenda_agenda_synthetic_age_name$، ﺚﺤﺑ ﺕﺍﺭﺎﻴﺨﻛ ﺔﻟﻵﺍ ﻞﻳﺪﻌﺗ ﺕﺎﻴﻨﻘﺗ ﺢﻨﻤﻳ ﻱﺬﻟﺍ.\n['tradition_category:tradition_synthetics']$access_tradition_tree$ "
+ synthetic_age_tooltip_machine_age: "$UNLOCKS_AGENDA$ $council_agenda_agenda_synthetic_age_name$، ﺔﻴﺜﺤﺑ ﺕﺍﺭﺎﻴﺨﻛ ﺔﻟﻵﺍ ﻞﻳﺪﻌﺗ ﺕﺎﻴﻨﻘﺗ ﺢﻨﻤﻳ ﻱﺬﻟﺍﻭ.\n.$TABBED_NEW_LINE$- $REQUIRES_TRADITION_SLOT$['tradition_category:tradition_nanotech'] ﻭﺃ ['tradition_category:tradition_virtuality'] ﻭﺃ ['tradition_category:tradition_modularity'] ﺪﻴﻟﺎﻘﺘﻟﺍ ﺭﺎﺠﺷﺃ ﺢﺘﻔﻳ ﻱﺬﻟﺍ §Y$situation_transformation$§! ﻒﻗﻮﻤﻟﺍ ﺃﺪﺒﻳ"
+ ap_machine_worlds:0 "ﺔﻟﻵﺍ ﻢﻟﺍﻮﻋ"
+ ap_machine_worlds_desc:0 ".ﻥﺩﺎﻌﻤﻠﻟ ﺖﺑﺎﺜﻟﺍ ﻝﺎﻤﻜﻟﺎﺑ ﺀﺎﻴﺣﻷﺍ ﻢﻠﻋ ﺔﺷﺎﺸﻫ ﻝﺪﺒﺘﺴﻧﻭ ،ﺎﻨﺴﻔﻧﻷ ﺓﺁﺮﻣ ﺓﺭﻮﺻ ﻲﻓ ﺎﻨﻤﻟﺍﻮﻋ ﻞﻜﺸﻧ ﻑﻮﺳ"
+ ap_hive_worlds:0 "ﺔﻴﻠﺨﻟﺍ ﻢﻟﺍﻮﻋ"
+ ap_hive_worlds_desc:0 ".ﺎﻬﻨﻜﺴﺗ ﻲﺘﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻞﺜﻤﺗ ﺎﻣ ﺭﺪﻘﺑ ﺔﻴﻠﺨﻟﺍ ﻦﻣ ﺍﺀﺰﺟ ﻞﺜﻤﺗ ﺔﻴﺣ ﻢﻟﺍﻮﻋ ﺊﺸﻨﻨﺳ"
+ hive_world: "ﺔﻴﻠﺨﻟﺍ ﻢﻟﺎﻋ"
+ ap_shared_destiny:0 "ﻙﺮﺘﺸﻤﻟﺍ ﺮﻴﺼﻤﻟﺍ"
+ ap_shared_destiny_desc:0 ".ﺎﻛﺮﺘﺸﻣ ﺍﺮﻴﺼﻣ ﻥﻮﻜﻳ ﻥﺃ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺪﻴﺠﻤﻟﺍ ﻞﺒﻘﺘﺴﻤﻟﺍ ﻦﻣ ﺎﻤﺋﺍﺩ ﺩﻮﺼﻘﻤﻟﺍ ﻥﺎﻛ .ﺹﻼﺧﺈﺑ ﺎﻧﻮﻣﺪﺧ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﺎﻧﺀﺍﺭﻭ ﻙﺮﺘﻧ ﻻﺃ ﺐﺠﻳ ،ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﻰﻠﻋﺃ ﺕﺎﻳﻮﺘﺴﻣ ﻰﻟﺇ ﻞﺼﻧ ﺎﻤﻨﻴﺑﻭ"
+ ap_shared_destiny_effect:0 ".ﺓﺩﺪﻌﺘﻣ ﻊﻴﺿﺍﻮﻣ ﺩﻮﺟﻭ ﺐﺒﺴﺑ $r_loyalty$ ﺕﺎﺑﻮﻘﻌﻟ ﺽﺮﻌﺘﺗ ﻻ §YSubjects§!"
+ ap_world_shaper_desc:0 ".ﻦﻴﻄﻟﺍ ﻦﻣ ﻝﺎﺜﻤﺗ ﺖﺤﻨﺑ ﻥﺎﻨﻓ ﻡﺎﻴﻗ ﻦﻋ ﺍﺮﻴﺜﻛ ﻒﻠﺘﺨﻳ ﻻ ﺮﺧﺁ ﺀﻲﺷ ﻰﻟﺇ ﺔﻳﺎﻨﻌﺑ ﻪﻠﻤﻛﺄﺑ ﺐﻛﻮﻜﻟ ﻲﺌﻴﺒﻟﺍ ﻡﺎﻈﻨﻟﺍ ﺮﻴﻴﻐﺗﻭ ﻞﻴﻜﺸﺗ ﻥﺇ"
+ ap_master_builders_desc:0 ".ﺔﻴﻠﻜﻟﺍ ﺔﺳﺪﻨﻬﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺎﻗﺎﻓﺁ ﺢﺘﻔﻧ ﻦﺤﻧ .ﻂﻴﻄﺨﺘﻟﺍﻭ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﻕﻮﺒﺴﻣ ﺮﻴﻏ ﺍﺭﺪﻗ ﻢﺨﺿ ﻞﻜﻴﻫ ﺀﺎﻨﺑ ﺐﻠﻄﺘﻳ"
+ ap_imperial_prerogative_desc:0 ".ﺓﺮﺷﺎﺒﻤﻟﺍ ﺎﻨﺗﺮﻄﻴﺳ ﺖﺤﺗ ﺔﻤﻈﻧﻷﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻊﺿﻭ ﻢﺘﻴﺳ .ﺾﺑﺎﻨﻟﺍ ﺎﻬﺒﻠﻗ ﻊﺳﻮﺘﻳ ﻥﺃ ﺎﻀﻳﺃ ﺐﺠﻳ ،ﻮﻤﻨﻟﺍ ﻲﻓ ﺎﻨﺗﺭﺎﻀﺣ ﺭﺍﺮﻤﺘﺳﺍ ﻊﻣﻭ"
+ ap_one_vision_desc:0 ".ﺪﻤﺼﻳ ﻥﺃ ﻪﺴﻔﻧ ﻰﻠﻋ ﻢﺴﻘﻨﻣ ﺖﻴﺒﻟ ﻦﻜﻤﻳ ﻻ ،ﻑﺎﻄﻤﻟﺍ ﺔﻳﺎﻬﻧ ﻲﻔﻓ .ﺓﺪﺣﺍﻭ ﺎﻬﺒﻌﺷﻭ ﺔﻣﻸﻟ ﺔﻴﺋﺎﻬﻨﻟﺍ ﻑﺍﺪﻫﻷﺍ ﻥﻮﻜﺗ ﺎﻣﺪﻨﻋ ﻻﺇ ﺔﻴﻘﻴﻘﺤﻟﺍ ﺓﺪﺣﻮﻟﺍ ﻖﻘﺤﺘﺗ ﻻﻭ"
+ ap_consecrated_worlds_desc:0 ".ﻥﻮﻜﻠﻟ ﺔﻴﻘﻴﻘﺤﻟﺍ ﺔﻌﻴﺒﻄﻟﺍ ﺔﻓﺮﻌﻣ ﻞﺟﺃ ﻦﻣ ﺢﻓﺎﻜﻧ ﺎﻨﻟﺯ ﺎﻣ ،ﺮﺸﺒﻛ .ﺎﻫﺮﻴﻏ ﻦﻣ ﺎﺣﻮﺿﻭ ﺮﺜﻛﺃ ﺎﻬﻀﻌﺑﻭ ،ﺔﺳﺪﻘﻤﻟﺍ ﻦﻛﺎﻣﻷﺍ ﻦﻣ ﺮﻴﺜﻜﻟ ﻦﻃﻮﻣ ﻲﻫ ﺓﺮﺠﻤﻟﺍ"
+ ap_galactic_force_projection_desc:0 ".ﺎﻬﺗﻮﻗ ﻰﻠﻋ ﺍﺩﺎﻤﺘﻋﺍ ﺕﻮﻤﻧ ﻭﺃ ﺶﻴﻌﻧ ﻦﺤﻨﻓ - ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺓﺩﺍﺭﺇ ﺎﻬﺑ ﺮﻬﻈﺗ ﻲﺘﻟﺍ ﺓﺍﺩﻷﺍ ﻮﻫ ﻝﻮﻄﺳﻷﺍ"
+ ap_defender_of_the_galaxy_desc:0 "؟ﺎﻨﻴﻤﺤﻴﺳ ﻦﻣ .ﺔﻠﻗﺎﻌﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻞﻛ ﺪﺿ ﺎﻬﺴﻔﻧ ﺪﺸﺤﺗ ﺎﻫﺭﻮﺼﺗ ﻦﻜﻤﻳ ﻻ ﻲﺘﻟﺍ ﺓﻮﻘﻟﺍ ﺕﺍﺫ ﺓﺮﻳﺮﺸﻟﺍ ﻯﻮﻘﻟﺍ ﻥﺈﻓ ،ﺔﻬﻓﺎﺗ ﺕﺎﻋﺍﺰﻧ ﻲﻓ ﺾﻌﺒﻟﺍ ﺎﻬﻀﻌﺑ ﻊﻣ ﺔﻴﻤﺠﻨﻟﺍ ﻝﻭﺪﻟﺍ ﺲﻓﺎﻨﺘﺗ ﺎﻤﻨﻴﺑ"
+ ap_galactic_contender_desc:0 ".ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﻢﻬﺘﻗﻭ ﺮﻣ ﺪﻘﻟ .ﺎﻬﺑ ﻂﻴﺤﺗ ﻲﺘﻟﺍ ﺔﻴﻜﻴﻣﺎﻨﻳﺩ ﺮﺜﻛﻷﺍﻭ ﺎﻨﺳ ﺮﻐﺻﻷﺍ ﺱﺎﻨﺟﻷﺍ ﻦﻣ ﺎﻤﺋﺍﺩ ﻰﺸﺨﺗﻭ ،ﺔﻜﻟﺎﻬﺘﻤﻟﺍ ﺎﻬﺗﺍﺭﺎﻀﺣ ﺽﺎﻘﻧﺄﺑ ﺔﻄﻗﺎﺴﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺚﺒﺸﺘﺗ"
+ ap_technological_ascendancy_desc:0 ".ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻦﻣ ﺪﻳﺪﺟ ﺮﺼﻋ ﺃﺪﺑ ﺪﻘﻟ .ﺎﻨﻳﺪﻳﺃ ﻝﻭﺎﻨﺘﻣ ﻲﻓ ﻥﻵﺍ ﺖﺤﺒﺻﺃ ﺔﻠﻴﻠﻗ ﻝﺎﻴﺟﺃ ﻞﺒﻗ ﺮﺤﺴﻟﺍ ﻦﻋ ﺎﻫﺰﻴﻴﻤﺗ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻦﻜﻳ ﻢﻟ ﻲﺘﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻥﺇ"
+ ap_mastery_of_nature_desc:0 ".ﻢﻬﻴﻠﻋ ﺐﻠﻐﺘﻟﺍ ﻢﺘﻳ ﻑﻮﺳ ﺎﻀﻳﺃ ﻢﻫ .ﺓﺪﻳﺪﺟ ﺕﺎﻳﺪﺤﺗ ﻞﺜﻤﺗ ﻦﻴﺤﻟﺍ ﻚﻟﺫ ﺬﻨﻣ ﺎﻫﺎﻨﻬﺟﺍﻭ ﻲﺘﻟﺍ ﺔﺒﻳﺮﻐﻟﺍ ﺔﻴﺋﺎﻴﺣﻷﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻥﺃ ﻻﺇ ،ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﺔﻌﻴﺒﻃ ﺎﻨﻨﻘﺗﺃ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ ap_voidborn_desc:2 ".ﻯﺮﺧﺃ ﻒﺋﺎﻇﻮﺑ ﻡﺎﻴﻘﻠﻟ ﺎﻨﻠﺋﺍﻮﻣ ﻲﻓ ﺮﺒﻛﺃ ﺔﺣﺎﺴﻣ ﺡﺎﺗﺃﻭ ﺎﻨﻳﺪﻟ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﺍ ﻦﻣ ﻞﻠﻗ ﺎﻤﻣ ،ﺀﺎﻀﻔﻟﺍ ﻕﺎﻤﻋﺃ ﻲﻓ ﻢﺋﺍﺪﻟﺍ ﻦﻜﺴﻟﺍ ﻊﻣ ﺎﻨﻔﻴﻜﺗ ﺪﻘﻟ"
+ ap_voidborn_habitat_effect:1 "§YHabitats§! ﻲﻓ ﻲﺳﺎﺳﻷﺍ ﺔﻘﻄﻨﻤﻟﺍ ﺺﺼﺨﺗ £zone£ ـﻟ §YTechnology§! ﺕﺎﺒﻠﻄﺘﻣ ﻲﻐﻠﻳ -\n§YHabitats§! ﻲﻓ ﺔﻣﺪﻘﺘﻣ ﺔﻴﻨﻜﺳ ﻲﻧﺎﺒﻣ ﺀﺎﺸﻧﺇ ﻦﻜﻤﻳ"
+ ap_the_circle_of_life_desc:0 "..ﻚﻟﺬﺑ ﻡﺎﻴﻘﻟﺍ ﻦﻜﻤﻳ ﺔﻳﺮﻈﻨﻟﺍ ﺔﻴﺣﺎﻨﻟﺍ ﻦﻣﻭ .ﻢﺠﻨﻠﻟ ﻱﺭﺍﺪﻤﻟﺍ ﻂﻴﺤﻤﻟﺍ ﻝﻮﺣ ﺔﻴﻨﺒﻣ ﺔﻴﻋﺎﻨﻄﺻﺍ ﻞﺋﺍﻮﻣ ﻊﻣ ﺔﻘﻠﺣ ﻞﻜﺷ ﻰﻠﻋ ﻢﺨﺿ ﻞﻜﻴﻫ"
+ ap_galactic_wonders_desc:0 ".ﻂﻘﻓ ﻝﺎﻴﺟﺃ ﻞﺒﻗ ﻉﻭﺮﺸﻤﻟﺍ ﺍﺬﻫ ﻞﺜﻣ ﻕﺎﻄﻧ ﺭﻮﺼﺗ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻦﻜﻳ ﻢﻟﻭ .ﺎﻧﺮﺼﻋ ﺐﺋﺎﺠﻋ ﻦﻣ ﻖﺤﺑ ﺔﻗﻼﻤﻌﻟﺍ ﻞﻛﺎﻴﻬﻟﺍ ﺮﺒﺘﻌﺗ"
+ ap_interstellar_dominion_desc:2 "ﺀﻲﺷ ﻢﻬﻨﻴﺑﻭ ﺎﻨﻨﻴﺑ ﻒﻘﻳ ﻻﻭ .ﺎﻬﻌﺒﺘﻧ ﻦﺤﻧﻭ ﺡﻮﻠﺗ ﻡﻮﺠﻨﻟﺍ"
+
+ ap_colossus:0 "ﻕﻼﻤﻌﻟﺍ ﻉﻭﺮﺸﻣ"
+ ap_colossus_desc:0 ".ﺎﻬﻠﻤﻛﺄﺑ ﻢﻟﺍﻮﻋ ﺮﻴﻣﺪﺗ ﻰﻠﻋ ﺍﺭﺩﺎﻗ ﺎﺣﻼﺳ ﻞﻤﺤﺗ ﺔﻨﻴﻔﺳ ﺮﺒﻛﺃ ﺔﻳﺅﺭ .ﺔﻣﻮﻤﺤﻤﻟﺍ ﻉﺩﺮﻟﺍﻭ ﺏﺎﻫﺭﻹﺍ ﻡﻼﺣﺃ ﻪﻴﻓ ﻲﻘﺘﻠﺗ ﻱﺬﻟﺍ ﻥﺎﻜﻤﻟﺍ ﻮﻫ ﻕﻼﻤﻌﻟﺍ ﻉﻭﺮﺸﻣ"
+ ap_enigmatic_engineering:0 "ﺔﻀﻣﺎﻐﻟﺍ ﺔﺳﺪﻨﻬﻟﺍ"
+ ap_enigmatic_engineering_desc:0 ".ﻩﺎﻧﺯﺮﺣﺃ ﻱﺬﻟﺍ ﻡﺪﻘﺘﻟﺍ ﻢﻬﻓ ﻲﻓ ﺔﻃﺎﺴﺒﺑ ﻞﺸﻔﺗ ﻞﻗﻷﺍ ﻝﻮﻘﻌﻟﺍ .ﺔﻳﻮﻴﻧﺪﻟﺍ ﺭﻮﻣﻷﺍ ﻦﻣ ﺪﻌﺑﺃ ﻮﻫ ﺎﻣ ﻰﻟﺇ ﺎﻬﻟﻼﺧ ﻦﻣ ﻲﻘﺗﺮﻧ ﺔﻐﻟ ﺎﻬﻨﻜﻟﻭ ،ﺎﻣ ﺔﻠﻜﺸﻣ ﻞﺤﻟ ﺔﻠﻴﺳﻭ ﺔﻃﺎﺴﺒﺑ ﺖﺴﻴﻟ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ"
+ ap_enigmatic_engineering_cloaking:0 "$ap_enigmatic_engineering$"
+ ap_enigmatic_engineering_cloaking_desc:0 "$ap_enigmatic_engineering_desc$"
+ ap_nihilistic_acquisition:0 "ﻲﻣﺪﻌﻟﺍ ﺫﺍﻮﺤﺘﺳﻻﺍ"
+ ap_nihilistic_acquisition_desc:0 ".ﺔﻳﺩﺮﻔﻟﺍ ﺕﺎﻣﺎﻤﺘﻫﻻﺍ ﻕﻮﻔﺗ ﺔﻠﻣﺎﺸﻟﺍ ﻑﺍﺪﻫﻷﺍ ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣﻭ .ﺎﻴﻗﻼﺧﺃ ﺔﻘﻠﻄﻣ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻳ ﻻ ﺮﻴﺼﻤﻟﺍ ﺮﻳﺮﻘﺗ ﺓﺮﻜﻓ ﻥﺇ"
+ ap_transcendent_learning:0 "ﻲﻟﺎﻌﺘﻤﻟﺍ ﻢﻠﻌﺘﻟﺍ"
+ ap_transcendent_learning_desc:0 ".ﺕﺍﺯﺎﺠﻧﻹﺍ ﻦﻣ ﺎﻣﺎﻤﺗ ﺪﻳﺪﺟ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻦﻣ ﺎﻨﻌﻤﻟﺃﻭ ﻞﻀﻓﺃ ﻦﻜﻤﺘﻴﺳ ،ﻚﻟﺬﺑ ﻡﺎﻴﻘﻟﺍ ﻝﻼﺧ ﻦﻣﻭ ،ﻢﻠﻌﺘﻟﺍ ﻩﺎﺠﺗ ﻪﺠﻬﻧ ﺮﻴﻐﻳ ﻥﺃ ﺎﻨﻌﻤﺘﺠﻣ ﻰﻠﻋ ﺐﺠﻳ"
+
+ ap_galactic_wonders_utopia:1 "$ap_galactic_wonders$"
+ ap_galactic_wonders_utopia_desc:0 "$ap_galactic_wonders_desc$"
+ ap_galactic_wonders_megacorp:1 "$ap_galactic_wonders$"
+ ap_galactic_wonders_megacorp_desc:0 "$ap_galactic_wonders_desc$"
+ ap_galactic_wonders_utopia_and_megacorp:2 "$ap_galactic_wonders$"
+ ap_galactic_wonders_utopia_and_megacorp_desc:1 "$ap_galactic_wonders_desc$"
+
+ ap_grasp_the_void_tech_effect:0 ".ﻱﺩﺎﻌﻟﺍ ﻝﺪﻌﻤﻟﺍ ﻑﺎﻌﺿﺃ §!.5XYZT_21XYZT ﺮﻌﺴﺑ §YFTL§! ﺮﻔﺴﻟﺍ ﺕﺎﻴﻨﻘﺗ ﻥﻵﺍ ﺮﻬﻈﺗ"
+
+ requires_not_shroudwalker_apprentice:0 " Origin.§Y$origin_shroudwalker_apprentice$§!$TRIGGER_FAIL$ﻪﻳﺪﻟ ﻥﻮﻜﻳ ﻻ ﺪﻗ "
+
+ ap_organo_machine_interfacing:0 "ﺔﻟﻵﺍﻭ ﺔﻟﻵﺍ ﻦﻴﺑ ﻞﺻﺍﻮﺘﻟﺍ"
+ ap_organo_machine_interfacing_desc:0 "$ap_the_flesh_is_weak_desc$"
+ organo_machine_interfacing_tooltip:1 "- $UNLOCKS_AGENDA$ $council_agenda_agenda_organo_machine_interfacing_name$، ﺕﺎﻴﻨﻘﺗ ﺢﻨﻤﺗ ﻲﺘﻟﺍ Cybernetic ﺚﺤﺑ ﺕﺍﺭﺎﻴﺨﻛ.\n.$TABBED_NEW_LINE$- $REQUIRES_TRADITION_SLOT$§Y$tradition_cybernetics$§! ﺪﻴﻟﺎﻘﺘﻟﺍ ﺓﺮﺠﺷ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ -"
+ requires_technology_integrated_cybernetics:0 ".§Y$tech_integrated_cybernetics$§! £engineering£$TRIGGER_FAIL$ﺔﻴﻨﻘﺗ ﺐﻠﻄﺘﻳ "
+
+ ap_organo_machine_interfacing_assimilator:1 "$ap_organo_machine_interfacing$"
+ ap_organo_machine_interfacing_assimilator_desc:0 ".ﺕﻻﻵﺍﻭ ﺔﻳﻮﻀﻌﻟﺍ ﺩﺍﻮﻤﻟﺍ ﺞﻣﺩ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﺔﻠﻣﺎﻜﻟﺍ ﺎﻨﺗﺎﻧﺎﻜﻣﺇ ﻰﻟﺇ ﻝﻮﺻﻮﻠﻟ .ﺔﻃﺎﺴﺑ ﻞﻜﺑ ﺔﻟﻮﺒﻘﻣ ﺮﻴﻏ ﻥﻮﻋﺪﺒﻤﻟﺍ ﺎﻨﻴﻠﻋ ﺎﻬﺿﺮﻓ ﻲﺘﻟﺍ ﺩﻮﻴﻘﻟﺍﻭ ﺩﻭﺪﺤﻟﺍ ﻥﺇ"
+
+ ap_mechromancy: "ﺔﻴﻜﻴﻧﺎﻜﻴﻣ"
+ ap_mechromancy_desc: ".ﺔﺻﺎﺨﻟﺍ ﺎﻨﺘﺤﻠﺼﻤﻟ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻩﺬﻫ ﺀﺎﻴﺣﺇ ﺓﺩﺎﻋﺇﻭ ﺔﺒﺳﺎﻨﻤﻟﺍ ﻲﺒﺼﻌﻟﺍ ﻙﺎﺒﺘﺷﻻﺍ ﻁﺎﻘﻧ ﺰﻴﻔﺤﺗ ﺎﻨﻨﻜﻤﻳ .ﺕﻻﻵﺍ ﻦﻣ ﻒﻠﺘﺨﻣ ﻉﻮﻧ ﺩﺮﺠﻣ ﻲﻫ ﺎﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﻥﺇ"
+ ap_mechromancy_tt:1 "$reanimator_effect_desc$\n.Cyborg Zombies ـﻛ ﻢﻬﺗﺩﺎﻌﺘﺳﻻ %33 ﺔﺻﺮﻔﺑ Pops ﻊﺘﻤﺘﻳ £pop£Purged Sapient Biological ﻭﺃ Lithoid \n .ﺔﻣﻭﺰﻬﻤﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺵﻮﺣﻮﻟﺍ ﺀﺎﻴﺣﺇ ﺎﻧﺎﻴﺣﺃ ﻦﻜﻤﻳ"

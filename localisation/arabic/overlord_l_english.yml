@@ -1,0 +1,620 @@
+﻿l_english:
+
+ OVERLORD_TITLE: "ﺩﺭﻮﻟﺮﻓﺃ" # Do not translate
+ DLC_OVERLORD_RECOMMENDATION_DESC:0 ".ﻰﻠﻋﻷﺍ ﺎﻫﺪﻴﺳﻭ ﺓﺭﻮﻬﻘﻤﻟﺍ ﻝﻭﺪﻟﺍ ﻦﻴﺑ ﺕﻼﻋﺎﻔﺘﻟﺍ ﻝﻮﺣ ﺭﻮﺤﻤﺘﻳﻭ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻰﻠﻋ ﺰﻛﺮﻳ ﻊﺳﻮﺗ ﻮﻫ §SOverlord§!"
+ DLC_OVERLORD_RECOMMENDATION_REC_MILITARIST:0 ".ﺕﺎﻋﻮﺿﻮﻤﻟﺍ ﻊﻣ ﺔﻨﺴﺤﻤﻟﺍ ﺕﻼﻋﺎﻔﺘﻟﺍﻭ ﺔﻗﺰﺗﺮﻤﻟﺍ ﺏﻮﻴﺟ ﻝﻼﺧ ﻦﻣ ﺏﺮﺤﻟﺍ ﻰﻠﻋ ﺰﻛﺮﺗ ﻲﺘﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻧﺎﻜﻣﺇ ﺢﺘﻔﻳ ﻪﻧﻷ $OVERLORD_TITLE$ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻲﺻﻮﻧ ﻦﺤﻧ"
+ DLC_OVERLORD_RECOMMENDATION_REC_SPIRITUALIST:0 ".ﺎﻬﻌﻣ ﻞﻣﺎﻌﺘﻠﻟ ﻦﻔﻜﻟﺍ ﻰﻠﻋ ﺰﻛﺮﺗ ﺓﺪﻳﺪﺟ ﺔﻘﻄﻨﻣ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ﺔﻴﻧﺎﺣﻭﺮﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺍﺪﻳﺪﺟ ﻼﺻﺃ ﺢﺘﻔﻳ ﻪﻧﻷ $OVERLORD_TITLE$ ـﺑ ﻲﺻﻮﻧ ﻦﺤﻧ"
+ DLC_OVERLORD_RECOMMENDATION_REC_DIPLOMACY:0 ".ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻰﻠﻋ ﺰﻛﺮﻳ ﺐﻌﻟ ﺏﻮﻠﺳﺃ ﻢﻬﻳﺪﻟ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﻷ ﺔﻴﻤﻫﺃ ﺕﺍﺫ ﻥﻮﻜﺘﺳ ﻲﺘﻟﺍﻭ ﺕﺎﻋﻮﺿﻮﻤﻟﺍﻭ ﺩﺎﻴﺳﻷﺍ ﻦﻴﺑ ﺓﺪﻳﺪﺟ ﺕﻼﻋﺎﻔﺗ ﺢﺘﻔﻳ ﻪﻧﻷ $OVERLORD_TITLE$ ـﺑ ﻲﺻﻮﻧ ﻦﺤﻧ"
+ DLC_OVERLORD_RECOMMENDATION_REC_HIVE:0 ".ﻚﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺔﻳﻮﻘﺘﻟ ﻦﻴﺻﺎﺨﻟﺍ ﻞﺴﻨﻟﺍ ﺓﺩﺎﻗ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ ﺚﻴﺣ Hive Mind ـﺑ ﺎﺻﺎﺧ ﺍﺪﻳﺪﺟ ﻼﺻﺃ ﺢﺘﻔﻳ ﻪﻧﻷ $OVERLORD_TITLE$ ـﺑ ﻲﺻﻮﻧ ﻦﺤﻧ"
+
+ #########################
+ # Progenitor Hive Origin
+ #########################
+
+ origin_progenitor_hive:0 "ﻒﻠﺴﻟﺍ ﺔﻴﻠﺧ"
+ origin_progenitor_hive_desc:1 ".ﺓﺮﻤﺘﺴﻣ ﺔﺒﻗﺍﺮﻣ ﺐﻠﻄﺘﺗ ﺎﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺔﻣﺎﻌﻟﺍ ﺓﺀﺎﻔﻜﻟﺍ ﻦﻴﺴﺤﺗ ﻰﻠﻋ "ﻞﺴﻨﻟﺍ" ﻩﺬﻫ ﻞﻤﻌﺗ .ﻦﻴﻠﻘﺘﺴﻤﻟﺍ ﻪﺒﺷ ﺓﺩﺎﻘﻟﺍ ﻝﻼﺧ ﻦﻣ ﺔﻳﺭﻮﻄﺗ ﺓﺰﻴﻣ ﺔﻴﻠﺨﻟﺍ ﻩﺬﻫ ﺖﺒﺴﺘﻛﺍ"
+ START_SCREEN_PROGENITOR_HIVE:1 ".ﻚﻟﺫ [Root.GetName] ﻯﺮﻳ ﻑﻮﺳ .ﻚﻟﺬﻛ ﻥﻮﻜﻴﺳﻭ ،ﺩﻮﺟﻮﻣ ﻮﻫﻭ ،ﻥﺎﻛ ﻒﻠﺴﻟﺍ ﻥﻷ - ﺓﺮﺠﻤﻟﺍ ﻡﻮﺠﻧ ﻊﻴﻤﺟ ﻰﻠﻋ ﺎﻨﻔﻠﺳ ﺮﻴﺛﺄﺗ ﺮﺸﻨﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻥﻵﺍ ﺎﻨﻧﺈﻓ ،ﺔﻴﺑﺎﻴﺴﻧﺍ ﺮﺜﻛﺃﻭ ﺮﺒﻛﺃ ﻢﻜﺤﺘﺑ ﺎﻨﻌﺘﻤﺘﻟ ﺍﺮﻈﻧ .ﺺﺼﺨﺘﻣ ﺶﻋ ﻲﻓ ﻪﺴﻔﻧ ﺎﻨﻔﻠﺳ ﻝﺰﻋ ،[capital_scope.System.GetName] ﻡﺎﻈﻧ ﺮﺒﻋ ﻰﻟﻭﻷﺍ ﺔﻴﻟﻭﻷﺍ ﺎﻨﺗﺍﻮﻄﺧ ﺎﻧﺬﺨﺗﺍ ﺎﻣﺪﻨﻋ \n\n .ﺎﻨﻟﺰﻨﻣ ﺾﻳﻭﺮﺗ ﻲﻓ ﺓﺪﻋﺎﺴﻤﻠﻟ ﺔﻌﻴﺿﻭ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ ﺍﻮﺠﺘﻧﺃ ،ﻞﺑﺎﻘﻤﻟﺍ ﻲﻓ .ﻩﺩﺮﻔﻤﺑ ﺭﻮﻣﻷﺍ ﺓﺭﺍﺩﺇ ﻊﻴﻄﺘﺴﻳ ﻻ ﻞﺴﻨﻟﺍ ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ ﺢﺒﺻﺃ ،ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑﻭ .ﻝﻭﻷﺍ ﻞﺴﻨﻟﺍ ﻒﻠﺴﻟﺍ ﺄﺸﻧﺃ ﻚﻟﺬﻟ ،ﻪﻨﻋ ﻉﺎﻓﺪﻟﺍ ﻦﻜﻤﻳ ﻻ ﺍﺮﻣﺃ ﺔﻌﺳﺎﺸﻟﺍ ﺓﺩﺎﻴﺴﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﻞﻴﻐﺸﺗ ﺢﺒﺻﺃ ﺎﻣ ﻥﺎﻋﺮﺳ .ﻪﻴﺿﺍﺭﺃ ﻊﺳﻮﻳ ﻢﻴﻈﻌﻟﺍ ﻒﻠﺴﻟﺍ ﻝﺍﺯ ﺎﻣ ﻚﻟﺫ ﻊﻣﻭ ،ﺔﻴﺴﻓﺎﻨﺗﻭ ﺔﻴﺳﺎﻗ [Root.GetHomeWorldName] ﻲﻓ ﺓﺎﻴﺤﻟﺍ ﺖﻧﺎﻛ\n\n.ﻒﻠﺴﻟﺍ ﻥﺎﻛ ،ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ"
+ origin_tooltip_progenitor_hive_effects:5 "§IOffspring ﻦﻔﺴﻟﺍ§! ﺀﺎﺸﻧﺇ ﻪﻨﻜﻤﻳ -\n§IOffspring Outlook§!- $AVAILABLE_STARBASE_BUILDINGS$ \nﺔﻴﻓﺎﺿﺇ ﺔﻴﺒﻠﺳ ﺓﺮﺒﺧ ﺏﺎﺴﺘﻛﺍ :§Iﻥﻮﻨﻴﻌﻤﻟﺍ ﺓﺩﺎﻘﻟﺍ§!- \n§Iﺕﺎﻋﻮﺿﻮﻤﻟﺍ§! ـﻛ §ISector§! ﺭﺍﺪﺻﺇ ﻦﻜﻤﻳ :Civic ﺪﻳﺪﺤﺗ ﻢﺘﻳ ﻢﻟ §I$civic_hive_devouring_swarm$§! ﻥﺎﻛ ﺍﺫﺇ -\n['concept_offspring_holding', £building£ Offspring Nest]- $AVAILABLE_HOLDINGS$ \n['concept_offspring_nests', £building£ Offspring Nest] ـﺑ ['concept_spawning_pools', £building£ Spawning Pools] ﻝﺍﺪﺒﺘﺳﺍ ﻢﺗ -"
+ origin_tooltip_progenitor_hive_negative_effects: "['concept_insufficient_offspring_oversight'] ﻦﻣ ﻲﻧﺎﻌﺗ ﻞﻴﻃﺎﺳﻷﺍ -"
+ #Progenitor deposits, armies and decisions
+ progenitor_defense:0 "ﻒﻠﺴﻟﺍ ﺔﻴﻠﺧ"
+ progenitor_defense_plural:0 "$progenitor_defense$"
+ progenitor_defense_desc:0 ".ﺔﻴﻠﺨﻟﺍ ﻲﻓ ﺍﺭﻮﻄﺗ ﺮﺜﻛﻷﺍﻭ ﺮﺒﻛﻷﺍ ﻮﻀﻌﻟﺍ .ﺔﻴﻠﺨﻟﺍ ﻩﺬﻫ ﻒﻠﺳ"
+ d_progenitor:0 "ﻒﻠﺴﻟﺍ ﺶﻋ"
+ d_progenitor_desc:0 ".ﻞﺴﻧ ﻞﻛ ﺪﻟﻮﻳ ﺚﻴﺣ ،ﻒﻠﺴﻟﺍ ﺶﻋ"
+ d_progenitor_empty:0 "ﻍﺭﺎﻔﻟﺍ ﻒﻠﺴﻟﺍ ﺶﻋ"
+ d_progenitor_empty_desc:0 ".ﻰﺿﻮﻔﻟﺍ ﻦﻣ ﺔﻟﺎﺣ ﻲﻓ ﺏﺮﺴﻟﺍ ﻙﺮﺗ ﺎﻤﻣ ،ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺎﻤﻴﻈﻋ ﻥﺎﻛ ﻱﺬﻟﺍ ﻒﻠﺴﻟﺍ ﺔﻤﻳﺰﻫ ﻢﺗ ﺪﻘﻟ"
+
+ decision_grow_progenitor:0 "ﺪﻳﺪﺠﻟﺍ ﻒﻠﺴﻟﺍ ﻮﻤﻨﺗ"
+ decision_grow_progenitor_desc:0 ".ﻞﺣﺍﺮﻟﺍ ﺎﻨﻔﻠﺳ ﺓﺀﺎﺒﻋ ﻞﻤﺣ ﻰﻠﻋ ﺍﺭﺩﺎﻗ ﻡﺪﻗﻷﺍ ﺎﻨﻠﺴﻧ ﻥﻮﻜﻳ ﺪﻗ"
+
+ missing_progenitor_modifier:0 "ﺩﻮﻘﻔﻤﻟﺍ ﻒﻠﺴﻟﺍ"
+ missing_progenitor_modifier_desc:0 ".ﻰﺿﻮﻔﻟﺍ ﻦﻣ ﺔﻟﺎﺣ ﻲﻓ ﻲﻫﻭ ﺎﻬﻔﻠﺳ ﺪﻘﺘﻔﺗ ﺔﻴﻠﺨﻟﺍ ﻩﺬﻫ"
+
+ ship_progenitor_hive_modifier:0 "ﻲﺗﺍﺬﻟﺍ ﻢﻜﺤﻟﺍ ﻰﻟﺇ ﺭﺎﻘﺘﻓﻻﺍ"
+ ship_progenitor_hive_modifier_desc:0 ".ﺔﻌﺑﺎﺗ ﺔﻨﻴﻔﺳ ﺔﻄﺳﺍﻮﺑ ﺔﻛﺮﻌﻤﻟﺍ ﻰﻠﻋ ﻑﺍﺮﺷﻹﺍ ﻢﺘﻳ ﻢﻟ ﺍﺫﺇ ﻡﻮﺠﻨﻟﺍ ﻝﺎﺘﻗ ﺀﺎﻨﺛﺃ ﺔﻣﻭﺮﺤﻣ ﺔﻴﻠﺨﻟﺍ ﻩﺬﻫ ﺢﺒﺼﺗ"
+
+ #Events
+ origin.3210.name:0 "ﻒﻠﺴﻟﺍ ﺕﻻﻼﺷ"
+ origin.3210.desc:1 ".ﻲﻈﺤﻠﻟﺍ ﺎﻨﻣﺎﺴﻘﻧﺍ ﺎﻨﺋﺍﺪﻋﺃ ﻦﻣ ﻱﺃ ﻞﻐﺘﺴﻳ ﻥﺃ ﻞﺒﻗ ﺪﻳﺪﺠﻟﺍ ﻒﻠﺴﻟﺍ ﺭﻭﺩ ﻰﻟﻮﺘﻳ ﻪﻠﻌﺟﻭ ﻞﺴﻨﻟﺍ ﺍﺬﻫ ﻥﺎﻀﺘﺣﺍ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻴﺳ .ﻞﻣﺎﻜﻟﺎﺑ ﺡﺎﺷﻮﻟﺍ ﻰﻟﻮﺘﻳ ﻥﺃ ﻦﻣ ﺮﺒﻛﺃ ﻂﻐﻀﻟﺍﻭ ﺪﻴﻘﻌﺘﻟﺍ ﻦﻜﻟ ،ﺎﻨﻴﻋﻭ ﻦﻣ ﺀﺍﺰﺟﺃ ﺖﻴﺒﺜﺗ ﻲﻓ ﺮﻈﺘﻨﻤﻟﺍ ﻒﻠﺴﻟﺍ ﺢﺠﻧ ﺪﻘﻟ .ﻞﺴﻨﻟﺍ ﻦﻴﺑ ﺔﻔﻴﻠﺧ ﻦﻴﻴﻌﺘﺑ ﺭﺍﺮﻤﺘﺳﺎﺑ ﺐﺴﺤﻳ ﻱﺬﻟﺍ ﺎﻨﻔﻠﺳ ﻡﺎﻗ ،ﻩﺭﻮﺼﺗ ﻦﻜﻤﻳ ﻻ ﺎﻣ ﺙﻭﺪﺣ ﺔﻟﺎﺣ ﻲﻓ\n\n.[From.GetSpeciesAdj] ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻢﻬﻌﻣ ﺬﺧﺃﻭ ،ﻦﻴﻋﻭﺮﻤﻟﺍ ﺓﺍﺰﻐﻟﺍ ﻱﺪﻳﺃ ﻲﻓ ﺎﻨﻔﻠﺳ ﻂﻘﺳ ،[Root.GetName] ﻦﻋ ﺮﻴﺧﻷﺍ ﺲﺋﺎﻴﻟﺍ ﻉﺎﻓﺪﻟﺍ ﺀﺎﻨﺛﺃ .ﺮﻴﻘﺤﻟﺍ [From.GetName] ﻦﻣ [From.species.GetHandNamePlural] ﻲﻓ ﺎﻨﺘﻤﺻﺎﻋ ﺖﻄﻘﺳ ﺪﻘﻟ .ﻩﺭﻮﺼﺗ ﻦﻜﻤﻳ ﻻ ﺎﻣ ﺙﺪﺣ ﺪﻘﻟ"
+ origin.3215.name:0 "ﺓﺮﺠﻬﻟﺍ"
+ origin.3215.desc:0 ".ﻲﻈﺤﻠﻟﺍ ﺎﻨﻣﺎﺴﻘﻧﺍ ﺎﻨﺋﺍﺪﻋﺃ ﻦﻣ ﻱﺃ ﻞﻐﺘﺴﻳ ﻥﺃ ﻞﺒﻗ ﺪﻳﺪﺠﻟﺍ ﻒﻠﺴﻟﺍ ﺐﺼﻨﻣ ﻰﻟﻮﺘﻳ ﻪﻠﻌﺟﻭ ﺎﻨﺘﻳﺭﺫ ﺪﺣﺃ ﻥﺎﻀﺘﺣﺍ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻴﺳ .ﺪﻳﺪﺠﻟﺍ Progenitor Nest ﺩﺍﺪﻋﺇ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،[capital_scope.GetName] ﻰﻟﺇ ﺔﻳﺭﺍﺩﻹﺍ ﺎﻧﺩﻮﻬﺟ ﻞﻛ ﻞﻘﻧ ﻥﻵﺍ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻳ .ﺮﻴﻘﺤﻟﺍ [From.GetName] ﻦﻣ [From.species.GetHandNamePlural] ﻲﻓ ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﻂﻘﺳ ﺪﻘﻟ .ﻩﺭﻮﺼﺗ ﻦﻜﻤﻳ ﻻ ﺎﻣ ﺙﺪﺣ ﺪﻘﻟ"
+ origin.3215.a:0 ".ﻰﻓﺎﻌﺘﻧ ﻑﻮﺳ"
+ origin.3245.name:0 "ﻑﺪﻫ ﻼﺑ"
+ origin.3245.desc:0 ".ﺩﻮﺟﻮﻟﺍ ﻦﻋ [Owner.GetName] ﻒﻗﻮﺘﻴﺴﻓ ،ﺎﺒﻳﺮﻗ ﺪﻳﺪﺟ ﻒﻠﺳ ﻦﻴﻴﻌﺘﺑ ﻢﻘﻧ ﻢﻟ ﺍﺫﺇ .ﺔﺑﺭﺎﻀﺘﻤﻟﺍ ﻊﻓﺍﻭﺪﻟﺍﻭ ﺭﺎﻜﻓﻷﺎﺑ ﺀﻲﻠﻣ ﺎﻨﻴﻋﻭ ﻥﻵﺍ\n\n.ﺓﺰﻴﺟﻭ ﺓﺮﺘﻓ ﺪﻌﺑ ﻒﻠﺴﻟﺍ ﻂﻘﺳﻭ ،ﻡﻮﺘﺤﻤﻟﺍ ﺪﻣﺃ ﺔﻟﺎﻃﺇ ﻯﻮﺳ ﯫﻴﺷ ﻢﻫﺩﻮﻬﺟ ﻞﻌﻔﺗ ﻢﻟ ،ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ .ﺔﻔﻴﺨﻤﻟﺍ ﺔﻟﻵﺍ ﻦﻣ ﺎﻨﻔﻠﺳ ﺔﻳﺎﻤﺤﻟ ﺔﻟﻭﺎﺤﻣ ﻲﻓ [Root.GetName] ﻰﻠﻋ ﺔﻳﺭﺫﻭ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ ﻞﻛ ﺖﻌﻤﺘﺟﺍ .[Root.GetPlanetHabitat] ﻲﻓ ﻦﻴﻤﻴﻘﻤﻟﺍ ﺎﻨﺘﻳﺭﺫ ﻊﻴﻤﺟﻭ ﺎﻨﻔﻠﺳ ﺎﻀﻳﺃ ﺎﻧﺮﺴﺧ ﻞﺑ ،ﺐﺴﺤﻓ ﻢﻟﺎﻌﻟﺍ ﺪﻘﻔﻧ ﻢﻟ .ﻒﻴﺨﻤﻟﺍ §Y[From.GetAdj]§! ﻦﻣ Colossus ﺡﻼﺴﺑ [Root.GetName] ﺏﺮﺿ ﻢﺗ"
+ origin.3245.a:0 "!ﺩﺮﻠﻟ ﺔﺟﺎﺤﺑ ﻦﺤﻧ"
+ origin.3245.b:0 "!ﺭﺍﺮﻔﻟﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+ origin.3245.c:0 ".ﻥﺩﺎﻌﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﻦﺤﻧ"
+ origin.3245.d:0 "*ﻡﻮﻬﻔﻣ ﺮﻴﻏ ﺥﺍﺮﺻ*"
+ origin.3265.name:0 "ﺮﻴﺠﻔﺗ ﻒﻟﺄﺑ ﺕﻮﻤﻟﺍ"
+ origin.3265.desc:0 ".ﻩﺬﻫ ﻡﺎﺴﻘﻧﻻﺍ ﺔﻈﺤﻟ ﻦﻳﺮﺧﻵﺍ ﺎﻧﺅﺍﺪﻋﺃ ﻞﻐﺘﺴﻳ ﻥﺃ ﻞﺒﻗ ﻒﻠﺴﻟﺍ ﺭﻭﺩ ﻲﻟﻮﺘﻟ ﺎﻨﺘﻳﺭﺫ ﺪﺣﺃ ﻥﺎﻀﺘﺣﺍ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻴﺳ .ﺪﻳﺪﺟ ﻒﻠﺳ ﺶﻋ ﺀﺎﺸﻧﺇ ﻱﺭﻭﺮﻀﻟﺍ ﻦﻣ ﻥﻮﻜﻴﺳﻭ ،[capital_scope.GetName] ﻰﻟﺇ ﺎﻨﺗﺭﺍﺩﺇ ﻞﻘﻧ ﻥﻵﺍ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻳ \n\n .ﺮﻴﺧﻷﺍ ﻒﺼﻘﻟﺍ ﺀﺎﻨﺛﺃ ﺍﺮﻴﺧﺃ ﻂﻘﺳ ﻱﺬﻟﺍ ،ﺎﻨﻔﻠﺳ - ﺎﻌﻴﻤﺟ ﺎﻨﻤﻈﻋﺄﺑ ﻂﻴﺤﺗ ﺚﺜﺠﻟﺍ ﻦﻣ ﺔﻠﺋﺎﻫ ﺔﻣﻮﻛ ﻲﻓ ﻪﺗﻭﺭﺫ ﻎﻠﺒﻳﻭ ،ﺽﺭﻷﺍ ﻰﻠﻋ [Root.GetSpeciesNamePlural] ﺖﻴﻤﻟﺍ ﺮﺛﺎﻨﺘﻳ .ﺔﻘﺑﺎﺴﻟﺍ ﺎﻨﺘﻤﺻﺎﻋ ﻲﻓ ﺓﺮﻣﺪﻤﻟﺍ ﻉﺭﺍﻮﺸﻟﺍ ﺮﺒﻋ ﺭﺎﺒﻐﻟﺍ ﺐﺤﺳ ﺪﻋﺎﺼﺘﺗ .ﺓﺎﻴﺤﻠﻟ ﺮﺛﺃ ﻞﻛ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﻢﺗﻭ ،[From.GetName] ﻂﻘﺳ ﺪﻘﻟ .ﺮﻣﻷﺍ ﻰﻬﺘﻧﺍ ،ﻒﺼﻘﻟﺍ ﻦﻣ ﺓﺪﻳﺪﻋ ﺮﻬﺷﺃ ﺪﻌﺑﻭ"
+
+ MESSAGE_OFFSPRING_DEFEATED_TITLE:0 "ﻡﺰﻫ ﺔﻳﺭﺫ"
+ MESSAGE_OFFSPRING_DEFEATED_DESC:0 ".§YOffspring Nest§! ﺮﻴﻣﺪﺗ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،$PLANET|Y$ ﻰﻠﻋ ﺎﻨﺘﻳﺭﺫ ﺔﻤﻳﺰﻫ ﺖﻤﺗ"
+ MESSAGE_NO_OFFSPRING_TITLE:0 "ﺓﺩﻮﻘﻔﻣ ﺔﻳﺭﺫ"
+ MESSAGE_NO_OFFSPRING_DESC:0 ".ﻦﻴﻠﻣﺎﻌﻠﻟ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ ﺔﻴﺟﺎﺘﻧﺇ ﺽﺎﻔﺨﻧﺍ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،$PLANET|Y$ ﻰﻠﻋ §YOffspring Nest§! ـﻟ ﺔﺼﺼﺨﻣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ ﺎﻴﻟﺎﺣ ﺎﻨﻳﺪﻟ ﺲﻴﻟ"
+
+ MESSAGE_FINAL_OFFSPRING_SHIP_TITLE:0 "ﺓﺮﻴﺧﻷﺍ ﻞﺴﻨﻟﺍ ﺔﻨﻴﻔﺳ ﺖﻣﺰﻫ"
+ MESSAGE_FINAL_OFFSPRING_SHIP_DESC:0 ".ﺔﺒﺳﺎﻨﻣ ﺓﺩﺎﻴﻗ ﻥﻭﺪﺑ ﺎﻨﻠﻴﻃﺎﺳﺃ ﻙﺮﺗ ﺎﻤﻣ ،$SYSTEM|Y$ ﻡﺎﻈﻧ ﻲﻓ §YOffspring§! ﺔﻨﻴﻔﺳ ﺮﺧﺁ ﺖﻄﻘﺳ ﺪﻘﻟ"
+
+ offspring_drone: "$job_offspring_drone$"
+ job_offspring_drone:0 "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺔﻳﺭﺫ"
+ job_offspring_drone_plural:0 "ﺔﻳﺭﺫ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ job_offspring_drone_plural_with_icon: " $job_offspring_drone_plural$[spawning_drone.GetIcon]"
+ mod_job_offspring_drone_add:0 "$job_offspring_drone$ ﻒﺋﺎﻇﻭ"
+ job_offspring_drone_desc:0 ".ﺮﻴﺒﻜﻟﺍ ﻪﻤﻴﻤﺼﺗ ﻞﻴﻌﻔﺘﺑ ﻒﻠﺴﻟﺍ ﻡﻮﻘﻳ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﻞﺴﻨﻟﺍ ﺕﺍﺮﺋﺎﻃ ﻝﻼﺧ ﻦﻣ .ﺎﻨﻫ ﻢﻴﻘﻳ ﻪﻠﻤﻛﺄﺑ ﺐﻛﻮﻜﻟﺍ ﺮﻳﺪﻣ"
+ job_offspring_drone_effect_desc:2 ".§Y$pop_cat_simple_drone$§! ﺝﺍﺮﺧﺇ ﻲﻓ §G+10%§! £mod_planet_jobs_simple_drone_produces_mult£ ﺓﺩﺎﻳﺯ ﺮﻴﻓﻮﺗﻭ ،§Y$offspring_defense_plural$§! ﺮﺸﻨﻟﺍ ،§Y$MOD_BONUS_POP_GROWTH$§! £mod_planet_pop_assembly_mult£ﻭ §Y$PLANET_AMENITIES_TITLE$§! £mod_planet_amenities_no_happiness_add£ $job_offspring_drone_plural$ ﻝﻮﺤﻳ $r_food$ (ﻭﺃ $r_minerals$) ﻰﻟﺇ [spawning_drone.GetIcon]"
+ building_offspring_nest:0 "ﺀﺎﻨﺑﻷﺍ ﺶﻋ"
+ building_offspring_nest_desc:1 ".ﺔﺒﻳﺮﻘﻟﺍ ﺔﻴﻠﺨﻟﺍ ﺔﻴﻘﺒﻟ ﻮﻤﻨﻟﺍ ﻊﻳﺮﺴﺗ ﻰﻠﻋ ﺎﻀﻳﺃ ﻞﻤﻌﻳ ﺎﻤﻨﻴﺑ ﻥﺎﻣﺄﺑ ﻲﻠﺤﻤﻟﺍ ﻞﺴﻨﻟﺍ ﻦﺼﺤﻤﻟﺍ ﺶﻌﻟﺍ ﺍﺬﻫ ﻱﻭﺆﻳ"
+ offspring_nest_tooltip:1 "\n§H.ﻞﺴﻨﻟﺍ ﺶﻋ ﺔﻄﺳﺍﻮﺑ ﻒﻠﺴﻟﺍ ﺔﻴﻠﺧ ﺮﻴﻜﻔﺘﻟﺍ ﺕﺍﺫ ﻉﺍﻮﻧﻷﺍ ﻯﻮﺳ ﻊﻴﻤﺠﺗ ﺯﻮﺠﻳ ﻻ§!\n"
+
+ offspring_defense:1 "ﻞﺴﻨﻟﺍ ﺓﺩﺎﻴﻘﺑ ﺶﻴﺠﻟﺍ"
+ offspring_defense_plural:1 "ﺀﺎﻨﺑﻷﺍ ﺎﻫﺩﻮﻘﻳ ﻲﺘﻟﺍ ﺵﻮﻴﺠﻟﺍ"
+ offspring_defense_desc:1 ".ﻱﺩﺎﻋ ﺔﻴﻠﺧ ﻞﻘﻋ ﻪﺠﺘﻨﻳ ﻥﺃ ﻦﻜﻤﻳ ﺀﻲﺷ ﻱﺃ ﻦﻣ ﻞﺘﻘﻟﺍ ﻲﻓ ﺔﺑﻮﻌﺻ ﺮﺜﻛﺃﻭ ﺎﻜﺘﻓ ﺮﺜﻛﺃ ﺵﻮﻴﺠﻟﺍ ﻥﻮﻜﺗ ،ﻲﻠﺤﻤﻟﺍ ﻞﺴﻨﻠﻟ ﺮﺷﺎﺒﻤﻟﺍ ﻑﺍﺮﺷﻹﺍ ﺖﺤﺗ"
+
+ missing_offspring_modifier:0 "ﺓﺩﻮﻘﻔﻣ ﺔﻳﺭﺫ"
+ missing_offspring_modifier_desc:0 ".$pop_cat_simple_drone$ ﺓﺀﺎﻔﻛ ﻲﻓ ﺮﻴﺒﻛ ﺽﺎﻔﺨﻧﺍ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ﺔﻳﺭﺫ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﺪﻘﺘﻔﻳ"
+
+# Progenitor Hive Ships
+ OFFSPRING_SHIP_DESC: ".ﻒﻠﺴﻟﺍ ﺓﺩﺍﺭﺇ ﺯﺍﺮﺑﺇ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺔﻨﻴﻔﺴﻟﺍ ﻩﺬﻫ ،ﺔﻳﺭﺫ ﺎﻫﺭﺎﺒﺘﻋﺎﺑ"
+ offspring_corvette_cap: "$offspring_corvette$"
+ offspring_corvette:0 "ﺖﻴﻓﺭﻮﻛ ﺔﻳﺭﺫ"
+ offspring_corvette_plural:0 "ﺖﻴﻓﺭﻮﻛ ﺔﻳﺭﺫ"
+ OFFSPRING_CORVETTE_MID_M1S1:0 "$CORVETTE_MID_M1S1$"
+ OFFSPRING_CORVETTE_MID_S3:0 "$CORVETTE_MID_S3$"
+ OFFSPRING_CORVETTE_MID_S1:0 "$CORVETTE_MID_S1$"
+ OFFSPRING_CORVETTE_MID_S2PD1:0 "$CORVETTE_MID_S2PD1$"
+
+ offspring_cruiser_cap: "$offspring_cruiser$"
+ offspring_cruiser:0 "ﺭﺯﻭﺮﻛ ﺔﻳﺭﺫ"
+ offspring_cruiser_plural:0 "ﺕﺍﺩﺍﺮﻄﻟﺍ ﺔﻳﺭﺫ"
+ OFFSPRING_CRUISER_BOW_L1:0 "$CRUISER_BOW_L1$"
+ OFFSPRING_CRUISER_BOW_M1S2:0 "$CRUISER_BOW_M1S2$"
+ OFFSPRING_CRUISER_BOW_M2:0 "$CRUISER_BOW_M2$"
+ OFFSPRING_CRUISER_MID_S2HB:0 "$CRUISER_MID_S2HB$"
+ OFFSPRING_CRUISER_MID_L1M1:0 "$CRUISER_MID_L1M1$"
+ OFFSPRING_CRUISER_MID_M3:0 "$CRUISER_MID_M3$"
+ OFFSPRING_CRUISER_MID_M2S2:0 "$CRUISER_MID_M2S2$"
+ OFFSPRING_CRUISER_STERN_M1:0 "$CRUISER_STERN_M1$"
+ OFFSPRING_CRUISER_STERN_S2:0 "$CRUISER_STERN_S2$"
+
+ offspring_destroyer_cap: "$offspring_destroyer$"
+ offspring_destroyer:0 "ﺓﺮﻣﺪﻤﻟﺍ ﺔﻳﺭﺫ"
+ offspring_destroyer_plural:0 "ﻞﺴﻨﻟﺍ ﺕﺍﺮﻣﺪﻣ"
+ OFFSPRING_DESTROYER_BOW_M1S2:0 "$DESTROYER_BOW_M1S2$"
+ OFFSPRING_DESTROYER_BOW_S3:0 "$DESTROYER_BOW_S3$"
+ OFFSPRING_DESTROYER_BOW_L1:0 "$DESTROYER_BOW_L1$"
+ OFFSPRING_DESTROYER_STERN_PD2:0 "$DESTROYER_STERN_PD2$"
+ OFFSPRING_DESTROYER_STERN_S2:0 "$DESTROYER_STERN_S2$"
+ OFFSPRING_DESTROYER_STERN_M1:0 "$DESTROYER_STERN_M1$"
+
+ offspring_battleship_cap: "$offspring_battleship$"
+ offspring_battleship:0 "ﺔﻳﺭﺫ ﺔﻴﺑﺮﺣ ﺔﻨﻴﻔﺳ"
+ offspring_battleship_plural:0 "ﺝﺭﺍﻮﺒﻟﺍ ﺔﻳﺭﺫ"
+ OFFSPRING_BATTLESHIP_BOW_L1M1S2:0 "$BATTLESHIP_BOW_L1M1S2$"
+ OFFSPRING_BATTLESHIP_BOW_L1S4:0 "$BATTLESHIP_BOW_L1S4$"
+ OFFSPRING_BATTLESHIP_BOW_L2:0 "$BATTLESHIP_BOW_L2$"
+ OFFSPRING_BATTLESHIP_BOW_M1S2SHB:0 "$BATTLESHIP_BOW_M1S2SHB$"
+ OFFSPRING_BATTLESHIP_BOW_M2S4:0 "$BATTLESHIP_BOW_M2S4$"
+ OFFSPRING_BATTLESHIP_BOW_M3S2:0 "$BATTLESHIP_BOW_M3S2$"
+ OFFSPRING_BATTLESHIP_MID_L2S4:0 "$BATTLESHIP_MID_L2S4$"
+ OFFSPRING_BATTLESHIP_MID_L1M4:0 "$BATTLESHIP_MID_L1M4$"
+ OFFSPRING_BATTLESHIP_MID_L2M2:0 "$BATTLESHIP_MID_L2M2$"
+ OFFSPRING_BATTLESHIP_MID_L3:0 "$BATTLESHIP_MID_L3$"
+ OFFSPRING_BATTLESHIP_MID_M4SHB:0 "$BATTLESHIP_MID_M4SHB$"
+ OFFSPRING_BATTLESHIP_MID_S4LHB:0 "$BATTLESHIP_MID_S4LHB$"
+ OFFSPRING_BATTLESHIP_STERN_M1S2:0 "$BATTLESHIP_STERN_M1S2$"
+ OFFSPRING_BATTLESHIP_STERN_L1:0 "$BATTLESHIP_STERN_L1$"
+ OFFSPRING_BATTLESHIP_STERN_M2:0 "$BATTLESHIP_STERN_M2$"
+ OFFSPRING_BATTLESHIP_STERN_S4:0 "$BATTLESHIP_STERN_S4$"
+
+ SHIP_AURA_OFFSPRING:0 "$OFFSPRING_AURA$"
+ SHIP_BIO_AURA_OFFSPRING: "$OFFSPRING_AURA$"
+ OFFSPRING_AURA:0 "ﺀﺎﻨﺑﻷﺍ ﺔﺒﻗﺍﺮﻣ"
+ sm_offspring_outlook:0 "ﻞﺴﻨﻟﺍ ﺕﺎﻌﻗﻮﺗ"
+ sm_offspring_outlook_desc:0 "\n.ﻡﺎﻈﻨﻟﺍ ﻞﺧﺍﺩ ﺎﻬﺗﺭﺍﺩﺇﻭ ﺓﺮﻤﺘﺴﻤﻟﺍ ﻙﺭﺎﻌﻤﻟﺍ ﻰﻠﻋ ﻑﺍﺮﺷﻹﺎﺑ ﻞﺴﻨﻟﺍ ﺪﺣﻷ ﺢﻤﺴﺗ ﺔﻴﻤﺠﻧ ﺓﺪﻋﺎﻗ ﺓﺪﺣﻭ"
+ STARBASE_OFFSPRING_OUTLOOK:0 "$sm_offspring_outlook$"
+
+ mod_shipsize_offspring_corvette_build_speed_mult:0 "$mod_shipsize_corvette_build_speed_mult$ ﻞﺴﻨﻟﺍ"
+ mod_shipsize_offspring_destroyer_build_speed_mult:0 "$mod_shipsize_destroyer_build_speed_mult$ ﻞﺴﻨﻟﺍ"
+ mod_shipsize_offspring_cruiser_build_speed_mult:0 "$mod_shipsize_cruiser_build_speed_mult$ ﻞﺴﻨﻟﺍ"
+ mod_shipsize_offspring_battleship_build_speed_mult:0 "$mod_shipsize_battleship_build_speed_mult$ ﻞﺴﻨﻟﺍ"
+
+ mod_shipsize_offspring_corvette_hull_add:0 "$mod_shipsize_corvette_hull_add$ ﻞﺴﻨﻟﺍ"
+ mod_shipsize_offspring_destroyer_hull_add:0 "$mod_shipsize_destroyer_hull_add$ ﻞﺴﻨﻟﺍ"
+ mod_shipsize_offspring_cruiser_hull_add:0 "$mod_shipsize_cruiser_hull_add$ ﻞﺴﻨﻟﺍ"
+ mod_shipsize_offspring_battleship_hull_add:0 "$mod_shipsize_battleship_hull_add$ ﻞﺴﻨﻟﺍ"
+
+ mod_shipsize_offspring_corvette_hull_mult:0 "$mod_shipsize_corvette_hull_mult$ ﻞﺴﻨﻟﺍ"
+ mod_shipsize_offspring_destroyer_hull_mult:0 "$mod_shipsize_destroyer_hull_mult$ ﻞﺴﻨﻟﺍ"
+ mod_shipsize_offspring_cruiser_hull_mult:0 "$mod_shipsize_cruiser_hull_mult$ ﻞﺴﻨﻟﺍ"
+ mod_shipsize_offspring_battleship_hull_mult:0 "$mod_shipsize_battleship_hull_mult$ ﻞﺴﻨﻟﺍ"
+
+ ##########################
+ # Subterranean origin
+ ##########################
+
+ origin_subterranean:0 "ﺔﻴﻓﻮﺟ"
+ origin_subterranean_desc:4 ".ﺔﻴﺌﻴﺒﻟﺍ ﺔﻴﺣﺎﻨﻟﺍ ﻦﻣ ﺎﻋﻮﻨﺗ ﺮﺜﻛﺃ ﻊﻤﺘﺠﻣ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﺡﺎﺠﻨﺑ ﺍﻮﻔﻴﻜﺗ ﺪﻘﻓ ،ﺔﻟﺎﺤﻟﺍ ﺖﻧﺎﻛ ﺎﻤﻬﻣﻭ ؟ﻢﻫﺍﺮﻏﺃ ﺪﻗ ﺓﺮﻴﻓﻮﻟﺍ ﺩﺭﺍﻮﻤﻟﺎﺑ ﺪﻋﻮﻟﺍ ﻥﺃ ﻡﺃ ،ﺕﺍﺬﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻥﺎﻤﺿ ﻱﺭﻭﺮﻀﻟﺍ ﻦﻣ ﻥﺎﻛ ﻞﻬﻓ .ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﻢﻬﻓﻼﺳﺃ ﺓﺮﺠﻫ ﺐﺒﺳ ﺍﺪﺑﺃ ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻫ ﻑﺮﻌﺗ ﻻ ﺪﻗ"
+ origin_tooltip_subterranean_effects:4 " $origin_tooltip_subterranean_shared_effets$['concept_cave_dweller']- $SPECIES_TRAITS$ "
+ origin_tooltip_subterranean_shared_effects: ".ﻞﻌﻔﻟﺎﺑ ﻩﺅﺎﻨﺑ ﻢﺗ ﻱﺬﻟﺍ §Y$zone_subterranean_urban$§! £zone£ ـﺑ Homeworld ﺃﺪﺒﻳ -\nﻦﻳﺪﻌﺘﻟﺍ ﻖﻃﺎﻨﻤﻟ §Y$zone_subterranean_urban$§! £zone£ :ﺔﺣﺎﺘﻤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﺕﺎﺼﺼﺨﺗ -\n: Uncapped['concept_mining_district', £district£ Mining Districts]- \n"
+ trait_cave_dweller:0 "ﻒﻬﻜﻟﺍ ﻦﻛﺎﺳ"
+ trait_cave_dweller_desc:1 "§L.ﻪﻴﻓ ﺶﻴﻌﻟﺍ ﺎﻬﻨﻜﻤﻳ ﺐﻛﻮﻛ ﻱﺃ ﺢﻄﺳ ﺖﺤﺗ ﻉﺍﻮﻧﻷﺍ ﻩﺬﻫ ﺮﻫﺩﺰﺗ§!"
+ trait_cave_dweller_tooltip: "§R-10%§!$MOD_BIO_LOGISTIC_GROWTH_MULT$: "
+ trait_robot_cave_dweller: "ﺲﺗﻮﺒﻟﻮﻣ"
+ trait_robot_cave_dweller_desc: "§L.ﺔﻟﻮﻬﺴﺑ ﺽﺭﻷﺍ ﺖﺤﺗ ﺕﺎﺣﺎﺴﻤﻟﺍ ﺯﺎﻴﺘﺟﺍ ﻦﻣ ﺎﻬﻨﻜﻤﺗ ﻲﺘﻟﺍﻭ ﺓﺭﻭﺎﻨﻤﻟﺍ ﻰﻠﻋ ﺔﻴﺋﺎﻨﺜﺘﺳﺍ ﺓﺭﺪﻗ ﺽﺮﻌﻳ ﺎﻤﻣ ،ﻥﺩﺎﻌﻤﻟﺍ ﺝﺍﺮﺨﺘﺳﺍﻭ ﻑﻮﻬﻜﻟﺍ ﻑﺎﺸﻜﺘﺳﻻ ﺔﻋﺍﺮﺒﺑ ﺕﻻﻵﺍ ﻩﺬﻫ ﻢﻴﻤﺼﺗ ﻢﺗ§!"
+ trait_robot_cave_dweller_tooltip: "§R-10%§!$MOD_POP_ASSEMBLY_SPEED$: "
+ origin_subterranean_machines: "ﺔﻴﻓﻮﺠﻟﺍ ﺕﻻﻵﺍ"
+ origin_subterranean_machines_desc: ".ﺖﺑﺎﺛﻭ ﺕﺎﻣﺍﺪﺨﺘﺳﻻﺍ ﺩﺪﻌﺘﻣ ﺕﻻﻵﺍ ﻦﻣ ﻊﻤﺘﺠﻣ ﻦﻋ ﺔﺠﺗﺎﻨﻟﺍ ﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺕﻼﻳﺪﻌﺘﻟﺍ ﺖﻔﺸﻛ ﺪﻘﻟ .ﻕﺎﻤﻋﻷﺍ ﻲﻓ ﺓﺮﻴﻓﻮﻟﺍﻭ ﺔﻴﻔﺨﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻊﻗﻮﻣ ﺪﻳﺪﺤﺘﻟ ﻪﻴﺟﻮﺘﻟﺍ ﻭﺃ ﺏﻮﺴﺤﻤﻟﺍ ﺕﺍﺬﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺎﺑ ﺎﻣﺇ ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ ﺔﻋﻮﻓﺪﻣ ،ﻲﻓﻮﺠﻟﺍ ﺩﻮﺟﻮﻟﺍ ﻲﻓ ﺔﺒﺋﺎﺷ ﻪﺑﻮﺸﺗ ﻻ ﻞﻜﺸﺑ ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻫ ﺖﺠﻣﺪﻧﺍ ﺪﻘﻟ"
+ origin_tooltip_robot_subterranean_effects: " $origin_tooltip_subterranean_shared_effets$['concept_robot_cave_dweller']- $SPECIES_TRAITS$ "
+
+ START_SCREEN_SUBTERRANEAN:1 "$START_SCREEN_SUBTERRANEAN_END$\n\n.ﻲﺳﺎﻘﻟﺍ ﺥﺎﻨﻤﻟﺍﻭ ﺀﻮﻀﻟﺍ ﻦﻣ ﺔﻴﻤﺤﻤﻟﺍ ،ﺽﺭﻷﺍ ﺖﺤﺗ ﻦﻛﺎﺴﻤﻟﺍ ﺔﻤﻜﺣ ﺎﻨﻓﻼﺳﺃ ﻢﻠﻌﺗ ﺎﻣ ﻥﺎﻋﺮﺳ ،ﻱﺭﺍﺮﺒﻟﺍ ﻲﻓ ﺎﻬﻴﻟﺎﻴﻟ [GetHomeWorldName] ﻰﻠﻋ ﻯﺮﺧﻷﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻲﻀﻘﺗ ﺎﻤﻨﻴﺑ"
+ START_SCREEN_SUBTERRANEAN_PLANT:1 "$START_SCREEN_SUBTERRANEAN_END$\n\n.[GetSpeciesAdj] ﺎﻨﻓﻼﺳﺃ ﻞﻌﻓ ﺎﻤﻛ ،ﺔﻤﻠﻈﻤﻟﺍ ﺽﺭﻷﺍ ﻕﺎﻤﻋﺃ ﻦﻣ ﺎﻨﺗﺎﻳﺬﻐﻣ ﺬﺧﺄﻧ ﻦﺤﻨﻓ :ﺲﻤﺸﻟﺍ ﺀﻮﺿ ﻦﻣ ﺎﻬﺘﻗﺎﻃ ﺪﻤﺘﺴﺗ ﻲﺘﻟﺍﻭ ،ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﺎﻬﻌﻣ ﻙﺭﺎﺸﺘﻧ ﻲﺘﻟﺍ ﻯﺮﺧﻷﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﺲﻜﻋ ﻰﻠﻋ .ﺎﻳﺭﺬﺟ ﺔﻔﻠﺘﺨﻤﻟﺍ ﺕﺍﺭﺎﺴﻤﻟﺍ ﺾﻌﺑ [GetHomeWorldName] ﻰﻠﻋ ﺓﺎﻴﺤﻟﺍ ﺕﺬﺨﺗﺍ"
+ START_SCREEN_SUBTERRANEAN_LITHOID:0 "$START_SCREEN_SUBTERRANEAN_END$\n\n.ﺓﺭﺎﻀﺤﻟﺍ ﻦﻳﻮﻜﺗﻭ ﺮﻴﻜﻔﺘﻟﺍﻭ ﻙﺮﺤﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﺎﻨﺒﺴﺘﻛﺍ ،ﻢﻬﺴﻜﻋ ﻰﻠﻋﻭ .ﺎﻨﻟﻮﺣ ﻦﻣﻭ ﺎﻨﻗﻮﻓ ﺱﺍﺮﺤﻟﺍ ﻞﺜﻣ ﻥﻮﻠﻈﻳ ﻦﻳﺬﻟﺍ ،ﻦﻴﻛﺮﺤﺘﻤﻟﺍ ﺮﻴﻏ ﺎﻨﺘﻣﻮﻤﻋ ﺀﺎﻨﺑﺃ ﺭﺎﺴﻣ ﻦﻋ ﻱﺭﻮﻄﺘﻟﺍ ﺎﻧﺭﺎﺴﻣ ﻑﺮﺤﻧﺍ ،ﻲﺳﺎﻘﻟﺍ ﻡﻮﺠﻨﻟﺍ ﺀﻮﺿ ﺞﻫﻭ ﻦﻋ ﺍﺪﻴﻌﺑﻭ .[GetHomeWorldName] ﻕﺎﻤﻋﺃ ﻦﻣ ﺎﻧﺪﻟﻭ ﺪﻘﻟ"
+ START_SCREEN_SUBTERRANEAN_END:2 ".ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﻍﺍﺮﻔﻟﺍ ﻲﻓ ﻝﺯﺎﻨﻣ ﺮﻔﺤﻧ ﻥﺃ ﻥﻵﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﻡﻼﻈﻟﺍ ﻲﻓ ﺎﻨﻓﻼﺳﺃ ﻞﻌﻓ ﺎﻤﻛﻭ .ﻥﻵﺍ ﻰﺘﺣ ﺓﺃﺮﺟ ﺎﻨﺘﻟﻭﺎﺤﻣ ﺮﺜﻛﺄﺑ ﻡﻮﻘﻧ ،[GetStartingDrivePlural] ﻝﻭﺃ ﻑﺎﺸﺘﻛﺍ ﻊﻣ ،ﻥﻵﺍ\n\n .ﺎﻨﺒﻛﻮﻛ ﺲﺳﺃ ﻰﻠﻋ ﺎﻨﺘﻨﻤﻴﻫ ﺲﺳﺆﻨﻟ ،ﻞﻔﺳﻷﺍ ﻲﻓ ﺎﻨﻴﻘﺑ ،ﺍﺬﻟ .ﻢﺣﺮﺗ ﻻﻭ ﺔﻴﺸﺣﻭ ﺕﻻﻭﺎﺤﻤﻟﺍ ﻚﻠﺗ ﺖﻧﺎﻛ ﺓﺮﻣ ﻞﻛ ﻲﻓ ﻦﻜﻟﻭ ،ﺢﻄﺴﻟﺍ ﻰﻟﺇ ﺓﺩﻮﻌﻠﻟ ﺓﺪﻳﺪﻋ ﺕﻻﻭﺎﺤﻣ ﻙﺎﻨﻫ ﺖﻧﺎﻛ .ﺔﻴﻔﻬﻜﻟﺍ ﺎﻨﺗﺭﺎﻀﺣ ﺰﻳﺰﻌﺗﻭ ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺟ ﺪﻴﺣﻮﺗﻭ ﻊﻴﻨﺼﺘﻟﺎﺑ [GetSpeciesAdj] ﻦﻣ ﺎﻨﻓﻼﺳﻷ ﺽﺭﻷﺍ ﺖﺤﺗ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻥﺩﺎﻌﻤﻟﺍ ﻰﻟﺇ ﻞﻬﺴﻟﺍ ﻝﻮﺻﻮﻟﺍ ﺢﻤﺳ ﺪﻘﻟ"
+ START_SCREEN_SUBTERRANEAN_ROBOT: ".ﻡﻼﻈﻟﺍ ﺍﺬﻫ ﻦﻣ ﺎﺗﻮﻴﺑ ﺮﻔﺤﻧ ﻑﻮﺳ ،ﻞﺒﻗ ﻦﻣ ﻥﺎﻛ ﺎﻤﻛﻭ - ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻠﻟ .ﻥﻵﺍ ﻰﺘﺣ ﺓﺃﺮﺟ ﺎﻨﺘﻟﻭﺎﺤﻣ ﺮﺜﻛﺄﺑ ﻡﻮﻘﻧ ،[GetStartingDrivePlural] ﻝﻭﺃ ﻑﺎﺸﺘﻛﺍ ﻊﻣ ،ﻥﻵﺍ\n\n.ﺐﻛﻮﻜﻟﺍ ﺱﺎﺳﺃ ﻰﻠﻋ ﺎﻨﺘﻨﻤﻴﻫ ﺎﻨﺘﺒﺛﺃ ﻥﺃ ﺪﻌﺑ ﺢﻄﺴﻟﺍ ﻰﻠﻋ ﺍﺮﻴﺧﺃ ﺎﻧﺮﻄﻴﺳ ﺪﻘﻟ .ﺭﺎﻫﺩﺯﻻﺎﺑ ﺔﻘﺑﺎﺴﻟﺍ ﺎﻨﺗﺍﺭﺍﺮﻜﺘﻟ ﺖﺤﻤﺳ ﺽﺭﻷﺍ ﺖﺤﺗ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻥﺩﺎﻌﻤﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺔﻟﻮﻬﺳ\n\n.ﺔﻴﻘﺒﺘﻤﻟﺍ ﺓﺪﻴﺣﻮﻟﺍ ﺓﺭﺎﻀﺤﻟﺍ ﻥﻵﺍ ﺎﻨﻧﻷ ،ﻞﺜﻣﻷﺍ ﺭﺍﺮﻘﻟﺍ ﻥﺎﻛ ﺍﺬﻫ ﻥﺃ ﺪﺑ ﻻ ،ﻚﻟﺫ ﻊﻣﻭ .ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﺶﻴﻌﻟﺍ ﻰﻣﺍﺪﻘﻟﺍ ﻥﻮﻋﺪﺒﻤﻟﺍ ﺭﺮﻗ ﺍﺫﺎﻤﻟ ﻑﺮﻌﻧ ﻻﻭ ،[GetHomeWorldName] ﻕﺎﻤﻋﺃ ﻲﻓ ﻩﺪﻴﻴﺸﺗ ﻢﺗ"
+ SUBTERRANEAN:0 "ﺔﻴﻓﻮﺟ"
+
+ ##########################
+ # Teachers of the Shroud #
+ ##########################
+
+ origin_shroudwalker_apprentice:0 "ﻦﻔﻜﻟﺍ ﻲﻤﻠﻌﻣ"
+ origin_shroudwalker_apprentice_desc:2 ".Shroudwalker ﺔﻋﺎﻤﺟ ﺔﻄﺳﺍﻮﺑ ﺎﻬﻠﻴﻜﺸﺗﻭ ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻫ ﻢﻋﺩ ﻢﺗ ،ﻞﻳﻮﻃ ﺖﻗﻮﺑ ﺓﺮﺠﻤﻟﺍ ﺡﺮﺴﻣ ﻰﻠﻋ ﻰﻟﻭﻷﺍ ﺎﻬﺗﺍﻮﻄﺧ ﻞﺒﻗ\n\n§R.['concept_psionic_ascension'] ﺀﺎﻨﺜﺘﺳﺎﺑ ﺩﻮﻌﺼﻟﺍ ﺕﺍﺭﺎﺴﻣ ﻊﻴﻤﺟ ﺮﻈﺤﻳ :ﺮﻳﺬﺤﺗ§!"
+ START_SCREEN_SHROUDWALKER_APPRENTICE:1 ".ﺓﺮﺠﻤﻟﺍ ﺡﺮﺴﻣ ﻰﻠﻋ ﻰﻟﻭﻷﺍ ﺎﻨﺗﺍﻮﻄﺧ ﻮﻄﺨﻧ ﺎﻤﻨﻴﺑ ﺔﻤﻜﺤﻟﺍ ﺎﻨﺤﻨﻣ ﻲﻓ ﺍﻭﺮﻤﺘﺴﻳ ﻥﺃ ﻮﺟﺮﻧ .ﻢﻬﺴﻔﻧﺃ ﻦﻴﻤﻠﻌﻤﻟﺍ ﻰﻟﺇ ﺍﺮﺷﺎﺒﻣ ﺎﻘﻳﺮﻃ ﺎﻨﺤﻨﻤﻳ ﻥﺃ ﺐﺠﻳ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﻖﻔﻨﻟﺍ ﺀﺎﺸﻧﺇ ﻥﺇ .ﻲﻟﺰﻨﻤﻟﺍ ﻢﻬﻣﺎﻈﻧ ﺔﻓﺎﺣ ﻰﻠﻋ ﻊﻘﻳ ﻲﻌﻴﺒﻃ ﻱﺩﻭﺩ ﺐﻘﺛ ﻮﻫﻭ - "ﻦﻔﻜﻟﺍ ﻖﻔﻧ" ﻰﻟﺇ ﺎﻧﻮﺳﺭﺪﻣ ﺮﻴﺸﻳ ؟ﺐﻫﺬﻧ ﻥﺃ ﻦﻜﻤﻳ ﻯﺪﻣ ﻱﺃ ﻰﻟﺇ ﻦﻜﻟﻭ\n\n.ﻍﺍﺮﻔﻟﺍ ﺭﻮﺒﻋ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﻦﻔﺳ ﺀﺎﻨﺒﺑ ﺎﻨﻤﻗ ،ﺔﻠﻴﻠﻗ ﺕﺍﻮﻨﺳ ﻥﻮﻀﻏ ﻲﻓ .ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺮﻔﺴﻟﺍ ﺡﺎﺘﻔﻤﺑ ﺎﻨﺗﺩﻭﺯ ﺪﻘﻓ ،ﺶﺘﻳﺭﺪﻟﺇ ﻯﺅﺮﺑ ﺎﻨﻣﻼﺣﺃ ﻉﺭﺰﺑﻭ .ﻯﺮﺧﺃ ﺓﺮﻣ ﺎﻨﻌﻣ ﺎﻧﻮﻤﻠﻌﻣ ﻞﺻﺍﻮﺗ ﻥﻵﺍ\n\n.ﻪﻤﻴﻟﺎﻌﺗﻭ ﻦﻔﻜﻟﺍ ﻝﻮﺣ ﻢﻬﺘﻤﻜﺣ ﺎﻧﻮﻛﺭﺎﺷﻭ ،ﺪﻴﻌﺑ ﻦﻣ ﺎﻨﻣ ﺍﻮﺑﺮﺘﻗﺍ ،ﻡﻼﺣﻷﺍ ﻝﻼﺧ ﻦﻣ .ﻰﻟﻭﻷﺍ ﺎﻨﺗﺭﺎﻀﺣ ﻞﻴﻜﺸﺗ ﻲﻓ ﺕﺪﻋﺎﺳ ﻲﺘﻟﺍ ﺔﻤﻴﻈﻌﻟﺍ ﺓﻮﻘﻟﺍﻭ ﺔﻓﺮﻌﻤﻟﺎﺑ ﻊﺘﻤﺘﺗ ﺕﺎﻨﺋﺎﻛ - ﻦﻴﻤﻠﻌﻤﻟﺍ ﻦﻋ ﺎﻨﻓﻼﺳﺃ ﺮﻴﻃﺎﺳﺃ ﺙﺪﺤﺘﺗ"
+ START_SCREEN_SHROUDWALKER_APPRENTICE_CORPORATE:0 ".ﺓﺮﺠﻤﻟﺍ ﺡﺮﺴﻣ ﻰﻠﻋ ﻰﻟﻭﻷﺍ ﺎﻨﺗﺍﻮﻄﺧ ﻮﻄﺨﻧ ﺎﻤﻨﻴﺑ ﺔﻤﻜﺤﻟﺍ ﺎﻨﺤﻨﻣ ﻲﻓ ﺍﻭﺮﻤﺘﺴﻳ ﻥﺃ ﻮﺟﺮﻧ .ﻢﻬﺴﻔﻧﺃ ﻦﻴﻤﻠﻌﻤﻟﺍ ﻰﻟﺇ ﺍﺮﺷﺎﺒﻣ ﺎﻘﻳﺮﻃ ﻚﻠﺘﻤﻧ ﻑﻮﺴﻓ ،ﺔﺳﺪﻘﻤﻟﺍ ﺓﺎﻨﻘﻟﺍ ﻩﺬﻫ ﺀﺎﺸﻧﺈﺑ ﺎﻨﻤﻗ ﺍﺫﺇ .ﻲﻟﺰﻨﻤﻟﺍ ﻢﻬﻣﺎﻈﻧ ﺔﻓﺎﺣ ﻰﻠﻋ ﻊﻘﻳ ﻲﻌﻴﺒﻃ ﻱﺩﻭﺩ ﺐﻘﺛ ﻮﻫﻭ - "ﻦﻔﻜﻟﺍ ﻖﻔﻧ" ﻰﻟﺇ ﺎﻧﻮﺳﺭﺪﻣ ﺮﻴﺸﻳ .ﺎﻨﺣﻮﻤﻃ ﺩﻭﺪﺣ ﻞﺜﻤﻳ ﻥﺃ ﺐﺠﻳ ﻻ ﺍﺬﻫ ﻦﻜﻟ\n\n.ﻡﻮﺠﻨﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺔﺳﺪﻘﻤﻟﺍ ﺎﻨﺘﻘﻴﻘﺣ ﻉﺭﺯ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺔﻴﻋﻭﺃ ﺀﺎﻨﺒﺑ ﺎﻨﻤﻗ ،ﺔﻠﻴﻠﻗ ﺕﺍﻮﻨﺳ ﻥﻮﻀﻏ ﻲﻓ .ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺮﻔﺴﻟﺍ ﺡﺎﺘﻔﻤﺑ ﺎﻨﺗﺩﻭﺯ ﺪﻘﻓ ،ﺶﺘﻳﺭﺪﻟﺇ ﻯﺅﺮﺑ ﺎﻨﻣﻼﺣﺃ ﻉﺭﺰﺑﻭ .ﻯﺮﺧﺃ ﺓﺮﻣ ﺎﻨﻌﻣ ﺎﻧﻮﻤﻠﻌﻣ ﻞﺻﺍﻮﺗ ﻥﻵﺍ\n\n.ﺱﺪﻘﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻝﻮﺣ ﻢﻬﺘﻤﻜﺣ ﺎﻧﻮﻛﺭﺎﺷﻭ ،ﺪﻴﻌﺑ ﻦﻣ ﺎﻨﻣ ﺍﻮﺑﺮﺘﻗﺍ ،ﻡﻼﺣﻷﺍ ﻝﻼﺧ ﻦﻣ .ﻰﻟﻭﻷﺍ ﺎﻨﻠﻴﺟﺎﻧﺃ ﻞﻴﻜﺸﺗ ﻲﻓ ﺍﻭﺪﻋﺎﺳ ﻦﻳﺬﻟﺍ ﺓﻮﻘﻟﺍﻭ ﺔﻓﺮﻌﻤﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺭﺪﻘﺑ ﻊﺘﻤﺘﺗ ﺕﺎﻨﺋﺎﻛ ﻢﻫﻭ - ﻦﻴﻤﻠﻌﻤﻟﺍ ﻦﻋ ﺎﻨﺘﺴﻴﻨﻛ ﻮﺴﺳﺆﻣ ﺐﺘﻛ ﺪﻘﻟ"
+ origin_tooltip_shroudwalker_apprentice_effects:3 ".['concept_psionic_theory', £society£ $tech_psionic_theory$]- $GUARANTEED_RESEARCH_OPTION_STRING$ \n['concept_shroudwalker_enclave'] ﻊﻣ ﺕﻻﺎﺼﺗﻻﺍ -\n['concept_shroud_beacon']- $AVAILABLE_STARBASE_BUILDINGS$ \n['concept_latent_psionic']- $SPECIES_TRAITS$ "
+
+ origin.5605.name:0 "ﻦﻴﻴﻘﻴﻘﺤﻟﺍ ﻦﻴﺑﺭﺪﺘﻤﻟﺍ"
+ origin.5605.generic.desc:1 ".ﻚﻟﻮﺻﻭ ﺮﻈﺘﻨﻧ ،ﺔﻈﻘﻴﻟﺍ ﺓﺎﻴﺣ ﻲﻓ .ﺪﻫﺎﺸﻧ ﻑﻮﺳ ،ﻡﻼﺣﻷﺍ ﻲﻓ .ﺎﻨﺑ ﻞﺼﺗﺍ ،ﻦﻴﻘﻴﻟﺍ ﻡﺪﻋﻭ ﺔﺟﺎﺤﻟﺍ ﺕﺎﻗﻭﺃ ﻲﻓ\n\n.ﺮﺧﺁ ﻊﻗﻮﻣ ﺝﺎﺘﻧﺇ ﻦﻣ ﻦﻜﻤﺘﺗ ﻦﻟ ﺚﻴﺣ ،ﺔﻳﺎﻨﻌﺑ ﻪﻌﻗﻮﻣ ﺮﺘﺧﺍ .ﺎﻴﻨﻔﻛ ﺎﻘﻔﻧ ﺓﺭﺎﻨﻤﻟﺍ ﺊﺸﻨﺘﺳ ،ﺔﻴﻤﺠﻨﻟﺍ ﻙﺪﻋﺍﻮﻗ ﻯﺪﺣﺇ ﻰﻠﻋ ﺎﻬﺋﺎﻨﺑ ﺩﺮﺠﻤﺑ .ﺔﻤﻴﻈﻋ ﺓﻮﻗ ﻭﺫ ﺯﺎﻬﺟ ﻮﻫﻭ ،ﻦﻔﻜﻟﺍ ﺓﺭﺎﻨﻣ ﺔﻓﺮﻌﻣ ﻚﺤﻨﻤﻧ ،ﻖﻳﺮﻄﻟﺍ ﺓﺀﺎﺿﻹ .ﻼﻬﺳ ﻥﻮﻜﻳ ﻦﻟ ﻡﺎﻣﻷﺍ ﻰﻟﺇ ﻖﻳﺮﻄﻟﺍ ﻥﺇ .ﻙﺪﻳ ﻝﻭﺎﻨﺘﻣ ﻲﻓ ﻲﻘﻴﻘﺤﻟﺍ ﻲﻨﻬﻤﻟﺍ ﻚﺒﻳﺭﺪﺗ ﺢﺒﺻﺃ ،ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺖﻠﺻﻭ ﻥﺃ ﺪﻌﺑ ﻥﻵﺍ .ﻢﻜﻣﻼﺣﺃ ﻲﻓ ﻩﺭﺍﺮﺳﺃﻭ ﻦﻔﻜﻟﺎﺑ ﺎﻨﺘﻓﺮﻌﻣ ﻉﺭﺰﻧﻭ ،ﻝﺎﻴﺟﻷ ﻢﻛﺎﻨﻤﻠﻋ ﺪﻘﻟ ،ﺎﻨﺑﻼﻃ"
+ origin.5605.corporate.desc:0 ".ﻚﻟﻮﺻﻭ ﺮﻈﺘﻨﻧ ،ﺔﻈﻘﻴﻟﺍ ﺓﺎﻴﺣ ﻲﻓ .ﺪﻫﺎﺸﻧ ﻑﻮﺳ ،ﻡﻼﺣﻷﺍ ﻲﻓ .ﺎﻨﺑ ﻞﺼﺗﺍ ،ﻦﻴﻘﻴﻟﺍ ﻡﺪﻋﻭ ﺔﺟﺎﺤﻟﺍ ﺕﺎﻗﻭﺃ ﻲﻓ\n\n.ﺮﺧﺁ ﻊﻗﻮﻣ ﺝﺎﺘﻧﺇ ﻦﻣ ﻦﻜﻤﺘﺗ ﻦﻟ ﺚﻴﺣ ،ﺔﻳﺎﻨﻌﺑ ﻪﻌﻗﻮﻣ ﺮﺘﺧﺍ .ﺎﻴﻨﻔﻛ ﺎﻘﻔﻧ ﺓﺭﺎﻨﻤﻟﺍ ﺊﺸﻨﺘﺳ ،ﺔﻴﻤﺠﻨﻟﺍ ﻙﺪﻋﺍﻮﻗ ﻯﺪﺣﺇ ﻰﻠﻋ ﺎﻬﺋﺎﻨﺑ ﺩﺮﺠﻤﺑ .ﺔﻤﻴﻈﻋ ﺓﻮﻗ ﻭﺫ ﺯﺎﻬﺟ ﻮﻫﻭ ،ﻦﻔﻜﻟﺍ ﺓﺭﺎﻨﻤﺑ ﺔﻓﺮﻌﻤﻟﺍ ﻚﺤﻨﻤﻧ ،ﺔﻋﺎﻨﺼﻟﺍ ﻥﺍﺮﻴﻧ ﺀﺎﻛﺫﻹ .ﺎﻨﻤﻴﻟﺎﻌﺗ ﺪﻋﻮﺑ ﻲﻔﺗ ﻥﺃ ﺐﺠﻳ ﻚﻠﻤﻋ ﺡﺎﺑﺭﺃ ﻥﺇ .ﻦﻔﻜﻟﺍ ﻢﻳﺮﻜﺗ ﻢﺘﻴﺳ ﻚﻠﻤﻋ ﻝﻼﺧ ﻦﻣ .ﻙﺪﻳ ﻝﻭﺎﻨﺘﻣ ﻲﻓ ﺢﺒﺻﺃ ﻲﻘﻴﻘﺤﻟﺍ ﻲﻨﻬﻤﻟﺍ ﻚﺒﻳﺭﺪﺗ ﻥﺈﻓ ،ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺎﻨﺗﺪﻴﻘﻋ ﺮﻳﺪﺼﺘﻟ ﺍﺪﻌﺘﺴﻣ ﺖﺤﺒﺻﺃ ﻥﺃ ﺪﻌﺑ ﻥﻵﺍ .ﻚﻤﻟﺎﻋ ﻞﻴﻜﺸﺘﺑ ﺎﻨﻤﻗ ،ﻯﺅﺮﻟﺍ ﻝﻼﺧ ﻦﻣ .ﻢﻛﺎﻨﻳﺪﻫ ﻡﻼﺣﻷﺍ ﻲﻓ ،ﺏﻼﻄﻟﺍ ﺎﻬﻳﺃ"
+ origin.5605.a:0 ".ﻥﺎﻨﺘﻣﻻﺍ ﻊﻣ ﻚﺘﻳﺪﻫ ﻰﻘﻠﺘﻧ"
+ origin.5605.b:0 ".ﺍﺬﻫ ﺎﻨﺒﺴﻛ ﺪﻘﻟ"
+ origin.5605.tt:0 ":ﺎﻀﻳﺃ ﻰﻘﻠﺘﻧ"
+
+ origin.5615.name:0 "ﻦﻴﺑﺭﺪﺘﻤﻟﺎﺑ ﺎﺒﺣﺮﻣ"
+ origin.5615.a.desc:0 ".ﺎﻨﻫ ﺮﻴﺒﻛ ﺐﻴﺣﺮﺗ ﻊﺿﻮﻣ ﺖﻧﺃ .ﺱﺍﻮﺤﻟﺍ ﻢﻟﺎﻋ ﻲﻓ ﻚﺑ ﻲﻘﺘﻠﻧ ﻥﺃ ﻼﻳﻮﻃ ﺎﻧﺮﻈﺘﻧﺍ ﺪﻘﻟ .ﻙﺭﻭﺮﻣ ﺪﻬﺷ ﻪﺴﻔﻧ ﻦﻔﻜﻟﺍﻭ ،ﺔﻈﺤﻠﻟﺍ ﻩﺬﻬﺑ ﺕﺄﺒﻨﺗ ﺕﺎﻣﻼﻌﻟﺍﻭ ﺕﺎﻣﻼﻌﻟﺍ .ﺢﻴﺤﺻ ﻞﻜﺸﺑ ﻢﻜﻴﻴﺤﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﺍﺮﻴﺧﺃ ،ﻥﻮﺑﺭﺪﺘﻤﻟﺍ ﺎﻬﻳﺃ"
+ origin.5620.name:0 "ﻦﻴﺑﺭﺪﺘﻤﻟﺎﺑ ﺎﺒﺣﺮﻣ"
+ origin.5620.b.desc:0 ".ﺎﻨﻫ ﺮﻴﺒﻛ ﺐﻴﺣﺮﺗ ﻊﺿﻮﻣ ﺖﻧﺃ .ﺎﻨﻋﺎﻤﺘﺟﺍ ﺍﻮﻛﺭﺎﺑ ﻦﻔﻜﻟﺍ ﺭﺍﺮﺳﺃ ﻲﻓ ﻥﻮﻨﻜﺴﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ .ﻲﻋﺍﻭﻼﻟﺍ ﻞﻘﻌﻟﺍ ﻩﺎﻴﻣ ﻲﻓ ﺝﻮﻤﺗﻭ ،ﺶﻌﺗﺮﺗ ﺀﺍﺪﺻﻷﺍ ﻝﺍﺰﺗ ﻻﻭ .ﻙﺭﻭﺮﻤﺑ ﻪﺴﻔﻧ ﻦﻔﻜﻟﺍ ﺮﻌﺷ ،ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﻩﺩﺍﺪﻋﺇ ﻢﺗ ﻱﺬﻟﺍ ﻖﻔﻨﻟﺍ ﻝﻼﺧ ﻦﻣ .ﺢﻴﺤﺻ ﻞﻜﺸﺑ ﻢﻜﻴﻴﺤﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﺍﺮﻴﺧﺃ ،ﻥﻮﺑﺭﺪﺘﻤﻟﺍ ﺎﻬﻳﺃ"
+
+ origin.5625.name:0 "ﺓﺀﺎﻀﻣ ﺓﺭﺎﻨﻤﻟﺍ"
+ origin.5625.a.desc:1 ".ﺩﻭﺪﺣ ﻼﺑ ﺎﺿﻮﻤﻏ ﺮﺜﻛﺃﻭ ...ﻉﺮﺳﺃ ﻥﻵﺍ ﻥﻮﻜﺘﺳ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻦﻣ ﺕﻼﺣﺮﻟﺍ .ﻡﻮﺠﻨﻟﺍ ﺮﺒﻋ ﺎﻨﻘﻳﺮﻃ ﺀﻲﻀﺘﺳ ﺎﻫﺪﻟﻮﻴﺳ ﻱﺬﻟﺍ ﻖﻔﻨﻟﺍﻭ ﺓﺭﺎﻨﻤﻟﺍ ﻩﺬﻫ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ .ﺎﻨﻟ ﺔﻤﻴﻈﻋ ﺔﻳﺪﻫ ﺎﻧﻮﻤﻠﻌﻣ ﺎﻨﺤﻨﻣ ﺪﻘﻟ .ﻦﻔﻜﻟﺍ ﻲﻄﻐﻳ ﻱﺬﻟﺍ ﺏﺎﺠﺤﻟﺍ ﻊﻓﺭ ﻢﺗ ،ﻡﻼﻈﻟﺍ ﻲﻓ ﻚﺴﻤﺘﻟﺍ ﻦﻣ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺪﻌﺑﻭ"
+ origin.5625.a.option:0 ".ﺎﻧﺭﻭﺮﻤﺑ ﻦﻔﻜﻟﺍ ﺐﺣﺮﻳ ﻥﺃ ﻮﺟﺮﻧ"
+ origin.5625.b.desc:1 ".ﺍﺩﻭﺪﺴﻣ ﻖﻔﻨﻟﺍ ﺮﺒﻋ ﺎﻧﺭﻭﺮﻣ ﻝﺍﺰﻳ ﻻ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ .ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﺠﻋﺰﻣ ﻞﻈﺗ ﺎﻬﻨﻜﻟ ،ﻦﻔﻜﻠﻟ ﺔﻤﻬﻣ ﺮﻴﻏ ﺔﻄﻳﺮﺨﻟﺍ ﻰﻠﻋ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻁﻮﻄﺨﻟﺍ ﻥﻮﻜﺗ ﺪﻗ .ﺎﻨﻬﺟﻭ ﻲﻓ ﺔﻘﻠﻐﻣ ﺎﻧﻮﻤﻠﻌﻣ ﺎﻬﻔﻠﺧ ﻢﻴﻘﻳ ﻲﺘﻟﺍ ﺩﻭﺪﺤﻟﺍ :ﺓﺪﺣﺍﻭ ﺓﻮﻄﺧ ﻯﻮﺳ ﻖﺒﺘﻳ ﻢﻟ \n\n .ﻡﻮﺠﻨﻟﺍ ﺮﺒﻋ ﺎﻨﻘﻳﺮﻃ ﺀﻲﻀﻴﺳ ،ﻩﺪﻟﻮﻳ ﻱﺬﻟﺍ ﻖﻔﻨﻟﺍﻭ ،ﺓﺭﺎﻨﻤﻟﺍ ﻩﺬﻫ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ .ﺎﻨﻟ ﺔﻤﻴﻈﻋ ﺔﻳﺪﻫ ﺎﻧﻮﻤﻠﻌﻣ ﺎﻨﺤﻨﻣ ﺪﻘﻟ .ﻦﻔﻜﻟﺍ ﻲﻄﻐﻳ ﻱﺬﻟﺍ ﺏﺎﺠﺤﻟﺍ ﻊﻓﺭ ﻢﺗ ،ﻡﻼﻈﻟﺍ ﻲﻓ ﻚﺴﻤﺘﻟﺍ ﻦﻣ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺪﻌﺑﻭ"
+
+ ################################
+ # Slingshot to the Stars Origin
+ ################################
+
+ origin_star_slingshot:0 "ﻡﻮﺠﻨﻠﻟ ﻉﻼﻘﻣ"
+ origin_star_slingshot_desc:1 ".§H$quantum_catapult_1$§! (ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺍﺭﻮﺠﻬﻣﻭ) ﻼﻣﺎﺧ ﺎﻨﺋﺎﻛ ﺍﻮﻔﺸﺘﻛﺍﻭ ،ﺕﺎﺑﺎﺟﺇ ﻦﻋ ﺎﺜﺤﺑ ﺀﺎﻤﺴﻟﺍ ﻰﻟﺇ ﻞﺋﺍﻭﻷﺍ ﻥﻮﻔﺸﻜﺘﺴﻤﻟﺍ ﻖﻠﻄﻧﺍ .ﻡﻼﻈﻟﺍ ﻦﻣ ﻞﻳﻮﻃ ﻢﺳﻮﻣ ﺀﺎﺟ ﻢﺛ ؛ﺔﻄﻗﺎﺴﺘﻤﻟﺍ ﻡﻮﺠﻨﻟﺎﺑ ﺓﺀﺎﻀﻣ ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻫ ﻕﻮﻓ ﺀﺎﻤﺴﻟﺍ ﺖﻧﺎﻛ ،ﺓﺮﻣ ﺕﺍﺫ"
+ START_SCREEN_STAR_SLINGSHOT:0 "$START_SCREEN_STAR_SLINGSHOT_SECOND_PART$\n\n.quantum_catapult_1$$ ﻢﺳﺍ ﺎﻧﻮﺳﺪﻨﻬﻣ ﺎﻬﻴﻠﻋ ﻖﻠﻃﺃ ﺔﻤﻳﺪﻗ ﺔﻴﻨﺑ ﻲﻫﻭ - ﺕﺎﺑﺍﺮﻄﺿﻻﺍ ﻩﺬﻫ ﺐﺒﺳ ﺐﻘﻌﺘﻟ ﺔﻣﺯﻼﻟﺍ ﺕﺍﺪﻌﻤﻟﺍ ﻰﻠﻋ ﺍﺮﻴﺧﺃ ﺎﻨﻠﺼﺣ ،ﺓﺮﺠﻤﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﺎﻧﺃﺪﺑ ﺎﻣﺪﻨﻋ .ﺓﺮﻫﺎﻈﻟﺍ ﻩﺬﻫ ﺮﻴﺴﻔﺗ ﻦﻣ ﺎﻧﺅﺎﻤﻠﻋ ﻦﻜﻤﺘﻳ ﻢﻟ ﺐﻳﺮﻗ ﺖﻗﻭ ﻰﺘﺣﻭ ،ﺐﻬﺸﻟﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻌﺑ ﺎﻧﺎﻴﺣﺃ ﺓﺀﺎﻀﻣ ﻼﻴﻟ ﺀﺎﻤﺴﻟﺍ ﺎﻨﺒﻌﺷ ﻯﺃﺭ ،ﻖﻴﺤﺳ ﻦﻣﺯ ﺬﻨﻣ"
+ START_SCREEN_STAR_SLINGSHOT_GESTALT:0 "$START_SCREEN_STAR_SLINGSHOT_SECOND_PART$\n\n.quantum_catapult_1$$ - ﺏﺍﺮﻄﺿﻻﺍ ﺍﺬﻫ ﺐﺒﺳ ﺐﻘﻌﺘﻟ ﺔﻣﺯﻼﻟﺍ ﺕﺍﻭﺩﻷﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ﺪﻘﻓ ،ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﻝﻼﻏﺃ ﻦﻣ ﺎﻨﺴﻔﻧﺃ ﺎﻧﺭﺮﺣ ﺎﻨﻧﻷ ﺍﺮﻈﻧ .ﺔﺒﻳﺮﻐﻟﺍ ﺓﺮﻫﺎﻈﻟﺍ ﻩﺬﻫ ﺐﺒﺴﻳ ﺪﻗ ﻱﺬﻟﺍ ﺐﺒﺴﻟﺍ ﻢﻬﻓ ﻦﻣ ﻦﻜﻤﺘﻧ ﻢﻟﻭ ،ﺐﻬﺸﻟﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻌﺑ ﺓﺀﺎﻀﻣ ﺀﺎﻤﺴﻟﺍ ﺎﻧﺎﻴﺣﺃ ﺎﻨﻳﺃﺭ ،ﺎﻨﻴﻋﻮﻟ ﻰﻟﻭﻷﺍ ﺕﺎﻈﺤﻠﻟﺍ ﺬﻨﻣ"
+ START_SCREEN_STAR_SLINGSHOT_SECOND_PART:0 ".ﺓﺮﺠﻤﻟﺍ ﺔﻴﻘﺑ ﻰﻟﺇ ﺎﻨﺘﺑﺍﻮﺑ ﻥﻮﻜﻴﺴﻓ ،ﺭﻮﺼﺘﻣ ﻮﻫ ﺎﻤﻛ ﺮﻣﻷﺍ ﺢﺠﻧ ﺍﺫﺇ .ﻖﺑﺎﺴﻟﺍ ﻩﺪﺠﻣ ﻰﻟﺇ ﻪﺗﺩﺎﻌﺘﺳﺍ ﻦﻜﻤﻳ ﻪﻧﺃ ﺪﻘﺘﻌﻧ ﺎﻨﻧﺃ ﻻﺇ ،ﺍﺭﻮﺠﻬﻣﻭ ،ﺎﻴﺋﺰﺟ ﺍﺮﻣﺪﻣﻭ ،ﻼﻣﺎﺧ ﻪﻧﻮﻛ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ origin_tooltip_star_slingshot_effects:4 " $MOD_SHIP_FIRE_RATE_MULT$§G+50%§! ﻰﻟﺇ ﺓﺩﺎﻳﺰﻟﺍ ﺖﻤﺗ :['concept_quantic_ambush'] ﺕﺍﺮﻴﺛﺄﺗ -\n['concept_archaeology_site'] ['concept_slingshot_digsite'] ﻡﺍﺪﺨﺘﺳﺎﺑ ﺐﻳﺮﻘﻟﺍ ﺮﻣﺪﻤﻟﺍ ['concept_quantum_catapult_restored_slingshot']- $HOME_SYSTEM$ "
+
+ # Events
+
+ origin.3510.title:0 "$quantum_catapult_1$ ﻦﻣﺆﻣ"
+ origin.3510.desc:0 ".ﺓﺎﻴﺤﻟﺍ ﻰﻟﺇ ﻞﻣﺎﺨﻟﺍ ﻞﻜﻴﻬﻟﺍ ﺍﺬﻫ ﺓﺩﺎﻋﻹ ﺔﻣﺯﻼﻟﺍ ﺡﻼﺻﻹﺍ ﻝﺎﻤﻋﺃ ﺀﺪﺒﻟ ﻦﻴﺳﺪﻨﻬﻣ ﻝﺎﺳﺭﺇ ﺎﻨﻨﻜﻤﻳ ،ﺍﺮﻴﺧﺃ ﻥﻵﺍ .ﺭﻮﺴﻜﻤﻟﺍ quantum_catapult_1$$ ـﺑ ﺔﻄﻴﺤﻤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍﻭ ﻡﺎﻈﻨﻟﺍ ﻦﻴﻣﺄﺘﺑ ﺍﺮﻴﺧﺃ ﺎﻨﻤﻗ ﺪﻘﻟ"
+ origin.3510.a:0 ".ﻦﻳﺮﻴﺜﻜﻠﻟ ﻰﻟﻭﻷﺍ ﺓﻮﻄﺨﻟﺍ"
+
+ # Dig Site
+
+ slingshot_digsite:1 "ﻢﻜﻟﺍ ﺱﺪﻨﻬﻣ ﻦﻣ ﺕﻼﺠﺳ"
+ slingshot_digsite_desc:0 ".ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻩﺬﻫ ﺎﻨﻟ ﻙﺮﺗ ﻱﺬﻟﺍ ﻢﻳﺪﻘﻟﺍ ﻕﺮﻌﻟﺍ ﺦﻳﺭﺎﺗﻭ ﺔﻓﺎﻘﺛ ﺯﻮﻣﺭ ﻚﻓ ﻲﻓ ﺕﺎﻔﻠﻤﻟﺍ ﺓﺩﺎﻌﺘﺳﺍ ﺎﻧﺪﻋﺎﺴﺗ ﻥﺃ ﺽﺮﺘﻔﻤﻟﺍ ﻦﻣ .ﺹﺎﺧ ﻞﻜﺸﺑ ﺓﺪﻋﺍﻭ ،"ﻲﻤﻜﻟﺍ ﺱﺪﻨﻬﻤﻟﺍ" ،ﻦﻴﻋﺮﺘﺨﻤﻟﺍ ﺪﺣﺃ ﻦﻣ ﺕﻼﺠﺴﻟﺍ ﻦﻣ ﺔﻠﺴﻠﺳ ﻭﺪﺒﺗ .ﻲﻧﻮﻜﻟﺍ ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﻞﺻﺃ ﻝﻮﺣ ﺔﻟﺩﻷﺍ ﺓﺩﺎﻌﺘﺳﺍﻭ ﺝﺍﺮﺨﺘﺳﻻ ﺔﺻﺮﻓ ﻢﻬﻳﺪﻟ ﺎﻨﻳﺪﻟ ﺭﺎﺛﻵﺍ ﺀﺎﻤﻠﻋ ﻥﺈﻓ ،ﻻ ﻡﺃ ﺔﻤﻳﺪﻘﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻩﺬﻫ ﺀﺎﻨﺑ ﺪﻴﻌﻨﺳ ﺎﻨﻛ ﺍﺫﺇ ﺎﻣ ﺭﺮﻘﻧ ﺎﻤﻨﻴﺑﻭ .ﻪﺑ ﺔﺻﺎﺨﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻙﻮﻨﺑ ﻲﻓ ﺐﻧﺎﺟﻷﺍ ﻢﻠﻌﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﺎﻜﻓﻷﺍ ﻦﻣ ﺓﻭﺮﺛ ﺎﻧﺪﺟﻭ ﺪﻗﻭ ،ﺕﺎﺣﻼﺻﻹﺍ ﻰﻟﺇ ﺔﺳﺎﻣ ﺔﺟﺎﺣ ﻲﻓ ﺀﺎﻨﺒﻟﺍ ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ .ﺮﻣﺪﻣ ﻢﺨﺿ ﻰﻨﺒﻣ ﻡﺎﻄﺣ ﻰﻠﻋ ﺎﻧﺮﺜﻋ ﺪﻘﻟ"
+
+ origin.3515.name:0 "ﺀﻮﻀﻟﺍ ﻦﻣ ﺔﻄﻘﻧ ﻒﻟﺃ"
+ origin.3515.desc:0 ".ﺀﻮﻀﻟﺍ ﻦﻣ ﺔﻄﻘﻧ ﻒﻟﺃ ﻕﺮﺣﺃ ﻞﻴﻠﻟﺍ ﺀﺍﺭﻭ ﺎﻣ .ﻞﻴﺤﺘﺴﻤﻟﺎﺑ ﺕﺮﻌﺷ ﺪﻘﻟ .ﻯﺮﺧﻷﺍ ﻢﻟﺍﻮﻌﻟﺍ ﻑﻻﺁ ﻑﺎﺸﺘﻛﺍ ﻊﻴﻄﺘﺳﺃ ،ﻢﻠﻈﻣ ﺝﺎﺟﺯ ﻝﻼﺧ ﻦﻣ ﻥﺎﻛ ﻮﻟ ﺎﻤﻛ .ﻥﻮﻜﻟﺍ ﻲﻓ ﺎﻧﺪﺣﻭ ﻦﻜﻧ ﻢﻟ :ﻪﺑ ﺭﻮﻌﺸﻟﺍ ﻦﻣ ﻥﻭﺮﺧﻵﺍ ﻦﻜﻤﺘﻳ ﻢﻟ ﺎﻤﺑ ﺭﻮﻌﺸﻟﺍ ﻦﻣ ﺖﻨﻜﻤﺗ ﻲﻨﻧﻷ\n\n .ﺎﻨﻤﻟﺎﻋ ﻲﻄﻐﺗ ﻲﺘﻟﺍ ﺔﻤﻠﻈﻤﻟﺍ ﺀﺎﻤﺴﻟﺍ ﺀﺍﺭﻭ ﺎﻣ ﯫﻴﺷ ﺖﻛﺭﺩﺃﻭ ،ﻥﻮﻜﻟﺍ ﺮﺒﻋ ﻲﻴﻋﻭ ﺖﻴﻘﻟﺃ ،ﺕﺎﻔﺜﻜﻤﻟﺍﻭ ﺕﺎﻴﺋﺎﻨﺜﻟﺍ ﻦﻣ ﺔﻫﺎﺘﻣ ﻥﺎﻘﺗﺇ ﻝﻼﺧ ﻦﻣ .ﻲﻠﻘﻋ ﺭﻮﻨﺑ ﺔﻣﻮﻋﺪﻣ ،ﺔﺻﺎﺨﻟﺍ ﻲﺗﺍﻭﺩﺃ ﻞﻴﻜﺸﺘﺑ ﺖﻤﻗﻭ ،ﺫﻻﻮﻔﻟﺍﻭ ﺮﺋﺍﻭﺪﻟﺍ ﻦﻣ ﺪﺒﻌﻣ ﺀﺎﻨﺒﺑ ﺖﻤﻗ .ﺀﺎﻤﺴﻟﺍ ﻰﻠﻋ ﻲﻨﻫﺫ ﺢﺘﻔﻧﺍ ،ﺔﻀﻔﺨﻨﻣ ﻢﻬﻨﻴﻋﺃﻭ ﻥﻮﻠﻤﻌﻳ ﻥﻭﺮﺧﻵﺍ ﻥﺎﻛ ﺎﻤﻨﻴﺑﻭ .*ﻰﻠﻋﻸﻟ* ﺮﻈﻨﻠﻟ ﺓﺃﺮﺠﻟﺍ ﻱﺪﻟ ﻥﺎﻛ ،ﻦﻴﻨﺴﻟﺍ ﻑﻻﺁ ﺪﻌﺑ\n\n.ﺎﻤﺋﺍﺩ ﺎﻬﺗﺎﺳﺎﺳﺃ ﺎﻧﺮﺒﺘﺧﺍﻭ ،ﻰﻟﻭﻷﺍ ﺎﻨﻧﺪﻣ ﺎﻬﻴﻓ ﺎﻨﻴﻨﺑ ﻲﺘﻟﺍ ﻦﻛﺎﻣﻷﺍ ﻲﻓ ﺎﻨﺣﺪﻛ ﺪﻘﻟ .ﻞﻴﻠﻟﺍ ﻲﻓ ﻝﻼﻈﻟﺍ ﻦﻋ ﺎﻨﻟﻮﻘﻋ ﺖﺜﺤﺑ ،ﺎﻨﺗﺭﺎﻀﺣ ﺎﻨﻴﻨﺑ ﺎﻤﻨﻴﺑ .ﺎﻣﻼﻇ ﻥﺎﻛ ﺎﻨﻗﻮﻓ ﺎﻣ ﻞﻛ ﻦﻜﻟﻭ ،ﻰﻨﻌﻤﻟﺍ ﻭﺃ ﺓﺎﻴﺤﻟﺍ ﺕﺎﻣﻼﻋ ﻦﻋ ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﺎﻨﺜﺤﺑ ،ﻲﻋﻮﻟﺍ ﺓﺭﺍﺮﺷ ﻞﺋﺍﻭﻷﺍ ﺎﻨﻓﻼﺳﺃ ﺐﺴﺘﻛﺍ ﺎﻣﺪﻨﻋ .ﻙﺎﻨﻫ ﻥﺎﻛﻭ ،"ﻡﻼﻇ ﻙﺎﻨﻫ ﻦﻜﻴﻟ" :ﺎﻨﺘﻬﻟﺁ ﺖﻟﺎﻗﻭ .ﻡﻼﻈﻟﺍ ﻲﻓ ﺎﻨﻜﺳ ،ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ\n\nﻢﻜﻟﺍ ﺱﺪﻨﻬﻤﻟ ﺔﻴﺼﺨﺸﻟﺍ ﺕﺎﻔﻠﻤﻟﺍ ﻦﻣ\n\n:ﺎﺒﻳﺮﻏ ﺍﺪﻨﺘﺴﻣ ﺎﻧﺪﻌﺘﺳﺍ ،ﺕﺎﻣﻮﺳﺮﻟﺍﻭ ﺕﺎﻄﻄﺨﻤﻟﺍ ﻦﻴﺑ ﻦﻣ"
+ origin.3520.name:0 "ﻞﻈﻟﺍ ﻦﻣ ﺝﻭﺮﺨﻟﺍ"
+ origin.3520.desc:0 ".ﻲﺘﻳﻮﻫ ﺕﺪﻘﻓﻭ ،ﺓﻮﺸﻨﻟﺍ ﻦﻣ ﺕﺎﺟﻮﻣ ﻲﻨﺘﻓﺮﺟ ،ﻥﻮﻜﻟﺍ ﺔﻤﻈﻋ ﻲﻓ ﺮﻜﻓﺃ ﺖﻨﻛ ﺎﻣﺪﻨﻋ .ﻊﺳﺍﻭ ﺞﻴﺴﻧ ﻦﻋ ﺓﺭﺎﺒﻋ ﺖﻧﺎﻛ ﺔﻘﻴﻠﺨﻟﺍ ﺓﺀﺎﺿﺇ ﻥﺇ :ﺔﻘﻴﻘﺤﻟﺍ ﺖﻓﺮﻋ ﺪﻘﻓ ﻚﻟﺫ ﻊﻣﻭ .ﻞﻀﻔﻤﻟﺍ ﺔﻬﻟﻵﺍ ﺝﺎﺘﻧ ﺪﻌﻧ ﻢﻟ ﺎﻨﻧﻷ ،ﺏﺍﺮﻄﺿﺍ ﺔﻟﺎﺣ ﻲﻓ ﻥﻮﻜﻴﺳ ﺎﻨﻤﻟﺎﻋ ﻥﺄﺑ ﺓﺮﻄﺨﻟﺍ ﻝﻮﻘﻌﻟﺍ ﺖﻨﻐﺗ .ﺔﻛﺎﺘﻓ ﺔﺤﻠﺳﺄﺑ ﺖﻜﺴﻤﺗﻭ ،ﺓﺪﻳﺪﺟ ﺎﺠﺠﺣ ﺖﻠﻜﺷﻭ ،ﻯﺮﺧﺃ ﺕﺎﺑﺎﺠﺘﺳﺍ ﺔﻤﻠﻈﻤﻟﺍ ﻝﻮﻘﻌﻟﺍ ﺖﻏﺎﺻ ﺪﻘﻟ \n\n .ﻞﻴﻠﻟﺍ ﺏﺎﺠﺣ ﺝﺭﺎﺧ ﻯﺮﺧﺃ ﻢﻟﺍﻮﻋ :ﻪﺑ ﺕﺭﺮﻣ ﺎﻤﻟ ﺎﺳﺎﻜﻌﻧﺍ ﻯﺮﺗ ﻥﺃ ﻝﻮﻘﻌﻟﺍ ﻰﻛﺫﻷ ﻦﻜﻤﻳ .ﻱﺮﺒﺘﺨﻣ ﻰﻟﺇ ﻥﻮﻌﻤﺘﺴﻴﺳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﺓﺩﺎﻴﻘﺑ ﺖﻤﻗ ،ﻚﻟﺫ ﻰﻠﻋ ﺍﺩﺭﻭ ؟ﻪﺗﺎﺒﺛﺇ ﻊﻴﻄﺘﺴﻧ ﻻ ﺎﻣ ﻕﺪﺼﻧ ﻒﻴﻛ :ﺍﻮﻟﺎﻗ ؟ﻡﻼﺣﻷﺍ ﻩﺬﻫ ﺪﻴﻛﺄﺗ ﻊﻴﻄﺘﺴﻳ ﺎﻨﻣ ﻦﻣ :ﻥﻭﺮﺧﺁ ﻝﺀﺎﺴﺗﻭ .ﺔﺑﺬﻛ ﺖﻧﺎﻛ ﻲﺘﻳﺅﺭ ﻥﺇ ﻲﻟ ﻞﻴﻗ ،ﻚﻟﺫ ﻦﻣ ﺪﻌﺑﺃ ﻢﻟﺍﻮﻌﺑ ﻢﻠﺤﻟﺍ ﻰﻠﻋ ﺕﺃﺮﺠﺗ ﻲﻨﻧﻷﻭ \n\n .ﻢﻬﻘﻠﺧ ﺭﻮﺤﻣ ﺎﻨﻛ ﺎﻨﻧﺃ ﻢﻋﺰﻳﻭ ،ﻡﻼﻈﻟﺍ ﻦﻣ ﻢﻟﺎﻌﻟﺍ ﺖﻌﻨﺻ ﺎﻨﺘﻬﻟﺁ ﻥﺇ ﺎﻨﻟ ﻝﺎﻘﻳ .ﻥﻭﺪﻴﺣﻭ ﺎﻨﻣ ﺮﻴﺜﻜﻟﺍ ﻦﻜﻟ ،ﻦﻳﺮﺧﻵﺍ ﻊﻣ ﺎﻴﺋﺪﺒﻣ ﻞﺻﺍﻮﺘﻧ ﻦﺤﻧ .ﻩﺮﻋﺎﺸﻣﻭ ﻩﺭﺎﻜﻓﺃ ﺏﺎﺒﺿ ﻲﻓ ﻞﻤﻌﻳ ﺎﻨﻣ ﺪﺣﺍﻭ ﻞﻛ\n.ﻰﺿﻮﻔﻟﺎﺑ ﻲﺒﻌﺷ ﺏﺎﺟﺃﻭ ،ﺔﻘﻴﻘﺤﻟﺍ ﺖﻠﻗ ﺪﻘﻟ\n\nﻢﻜﻟﺍ ﺱﺪﻨﻬﻤﻟ ﺔﻴﺼﺨﺸﻟﺍ ﺕﺎﻔﻠﻤﻟﺍ ﻦﻣ\n\n:ﻲﻨﻳﺩ ﺺﻧ ﻪﻧﺄﻛﻭ ﻭﺪﺒﻳ ﺎﻤﻣ ﺮﺧﺁ ﻒﻄﺘﻘﻣ ﻰﻠﻋ ﺍﻭﺮﺜﻋ ﺪﻘﻓ ،ﻢﺨﻀﻟﺍ ﺀﺎﻨﺒﻟﺍ ﻂﻄﺧ ﺮﻴﻔﺸﺗ ﻚﻔﻟ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺔﻠﺑﺮﻏ ﻲﻓ ﺎﻨﺘﺜﻌﺑ ﺮﻤﺘﺴﺗ ﺎﻤﻨﻴﺑ"
+ origin.3525.name:0 "ﺮﻳﻮﻨﺘﻟﺍ"
+ origin.3525.desc:0 "!ﻪﻟ ﺔﻳﺎﻬﻧ ﻻ ﻱﺬﻟﺍ ﺩﻮﻠﺨﻟﺍ ﺓﻮﺸﻧ !ﻢﻴﻌﻨﻟﺍ ﺍﺬﻫ .ﻲﺗﻮﺸﻧ ﺩﺍﺯ ﺎﻤﻠﻛ ،ﺪﻌﺑﺃ ﺕﺮﻣﺎﻏ ﺎﻤﻠﻛ .ﺔﻳﺎﻬﻧﻼﻟﺍ ﻊﻣ ﻲﻨﻫﺫ ﺪﻴﺣﻮﺗ ﺖﻟﻭﺎﺣﻭ ،ﺮﺋﺍﻭﺪﻟﺎﺑ ﺖﺒﻋﻼﺗ ﺪﻘﻟ .ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﻊﻤﺸﻟﺍ ﻢﻴﻤﺼﺗ ﺔﺣﻮﻟ ﻰﻠﻋ ﺔﻴﺴﻤﺸﻟﺍ ﺔﻗﺎﻄﻟﺎﺑ ﻞﻤﻌﺗ ﻡﺎﺧ ﺔﻴﺋﺎﻀﻓ ﺕﺎﺒﻛﺮﻣ ﺮﻔﺣﻭ ،ﺔﻴﺋﺎﻀﻔﻟﺍ ﻦﻔﺴﻠﻟ ﺕﺎﻤﻴﻤﺼﺘﺑ ﻲﻜﻳﺮﺷ ﻢﻠﺣ .ﺔﻠﻴﻟ ﻞﻛ ﺮﺧﺄﺘﻣ ﺖﻗﻮﻟ ﻦﻴﻈﻘﻴﺘﺴﻣ ﻰﻘﺒﻧ ﺎﻨﻛ ،ﺎﻨﻠﻤﻋ ﻡﺪﻘﺗ ﻊﻣﻭ .ﺓﺎﻴﺤﻟﺍ ﻯﺪﻣ ﺀﺎﻛﺮﺷ ﻥﻮﻜﻧ ﻥﺄﺑ ﺎﻧﺪﻬﻌﺗ ﺪﻘﻟ .ﺔﻳﺅﺮﻟﺍ ﺔﻛﺭﺎﺸﻣ ﺩﺮﺠﻣ ﻦﻣ ﺮﺜﻛﺃ ﺎﻨﻠﻌﻓ ﺪﻘﻟ \n\n .ﺔﻈﻘﻴﻟﺍ ﻡﻼﺣﺃ ﻲﻓ ﺎﻬﺑ ﺕﺮﻌﺷ ﻲﺘﻟﺍ ﻡﻮﺠﻨﻟﺍ ﻦﻋ ﺚﺤﺒﻠﻟ ﻯﺮﺧﺃ ﻕﺮﻃ ﻦﻋ ﺙﺪﺤﺗ ﺔﻳﺅﺭ ﺐﺣﺎﺻ ،ﺮﺧﺁ ﻢﻟﺎﻋ ﺐﺣ ﻲﻓ ﺖﻌﻗﻭ ﺪﻘﻟ .ﺓﺩﺎﻌﺴﻟﺍ ﻦﻣ ﺭﺮﺤﺘﻟﺍ ﺲﻔﻧ ﻲﻟ ﺐﻠﺟ ﺎﺼﺨﺷ ﺕﺪﺟﻭ ،ﻞﻔﺳﻷﺍ ﻲﻓ ﻦﻜﻟﻭ ،ﺓﺩﺎﻌﺴﻟﺍ ﺀﺎﻤﺴﻠﻟ ﻲﺘﻳﺅﺭ ﻲﻟ ﺖﺒﻠﺟ ﺪﻘﻟ .ﻩﺎﻧﺩﺃ ﻚﻟﺬﻛﻭ ،ﻩﻼﻋﺃ ﺭﻮﻛﺬﻣ ﻮﻫ ﺎﻤﻛ\n\n...ﻝﻮﻬﺠﻤﻟﺍ ﻮﺤﻧ ﺍﺪﻴﻌﺑ ﻲﻠﻘﻌﺑ ﺖﻴﻘﻟﺃ ﺍﺬﻜﻫﻭ .ﺎﻬﻟ ﺔﻳﺎﻬﻧ ﻻ ﺕﺎﻧﻼﻋﺇﻭ ﺕﺍﺀﺍﺮﻏﺇ ﻲﻟ ﺎﻣﺪﻘﻣ ،ﻢﻴﻈﻋ ﺭﻮﻧ ﻲﻧﺩﺎﻗ ،ﻢﻴﻈﻌﻟﺍ ﻡﻼﻈﻟﺍ ﺀﺍﺭﻭ .ﻢﻬﻌﻣ ﻞﺻﺍﻮﺘﻟﺍ ﻰﻟﺇ ﺖﻌﺴﻓ ،ﻪﻟ ﺔﻳﺎﻬﻧ ﻻ ﻞﻴﻟ ﻂﺳﻭ ﻢﻠﺤﺗ ﻯﺮﺧﻷﺍ ﻝﻮﻘﻌﻟﺍ ﺖﻧﺎﻛ .ﺮﺷﺎﺒﻣ ﻞﻜﺸﺑ ﺎﻬﺘﺑﺮﺠﺗﻭ ﺓﺪﻴﻌﺑ ﻢﻟﺍﻮﻋ ﻰﻟﺇ ﺮﻔﺴﻟﺍ ﻞﺋﺎﺳﻭ ﻲﻓ ﺕﺮﻜﻓﻭ ،ﻪﻟ ﺩﻭﺪﺣ ﻻ ﻱﺬﻟﺍ ﻥﻮﻜﻠﻟ ﺍﺮﻴﺜﻣﻭ ﺎﺑﺬﻌﻣ ﺖﻨﻛ\n\nﻲﻤﻜﻟﺍ ﺱﺪﻨﻬﻤﻠﻟ ﺔﻴﺼﺨﺸﻟﺍ ﺕﺎﻔﻠﻤﻟﺍ ﻦﻣ\n\n:ﺔﻴﻧﺎﺤﻴﺴﻤﻟﺍ ﻪﺒﺷ ﺔﻴﺼﺨﺸﻟﺍ ﺕﺎﺑﺎﺘﻛ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺩﺍﺩﺮﺘﺳﺍ ﻢﺗ"
+ origin.3530.name:0 "ﺔﻌﻃﺎﻘﺘﻣ ﺔﻤﺠﻧ"
+ origin.3530.desc:0 ".ﻢﻟﺎﻋ ﻒﻟﺃ ﻡﻼﺣﺃ ﻢﻬﻟ ﻡﺪﻗﺄﺳ .ﺪﺑﻷﺍ ﻰﻟﺇ ﺎﻘﻳﺮﻃ ﻼﻌﺸﻣ ،ﺔﻳﺎﻬﻧﻼﻟﺍ ﻢﻬﻳﺪﻫﺄﺳ ﻲﻨﻨﻜﻟ ،ﻦﻴﺋﺩﺎﻫ ﻲﺋﺎﺒﺣﺃ ﺢﺒﺻﺃ ﺪﻘﻟ \n\n.*ﻙﺎﻨﻫ* ﻱﺪﺴﺟﻭ *ﺎﻨﻫ* ﻲﻠﻘﻋﻭ ،ﺓﺪﻴﻌﺒﻟﺍ ﺊﻃﺍﻮﺸﻟﺍ ﻰﻟﺇ ﺭﺎﺴﻤﺑ ﻢﻠﺣﺄﺳ ،ﺎﻬﻟ ﺔﻴﺒﻳﺮﺠﺗ ﺔﻠﺣﺭ ﻝﻭﺃ ﺱﺃﺭ ﻰﻠﻋ ﺲﻠﺟﺃ ﺎﻣﺪﻨﻋ .ﻂﺑﺍﻮﻀﻟﺍ ﻲﻓ ﺱﻮﻠﺠﻠﻟ ﺖﻋﻮﻄﺗ ﺪﻘﻟ .ﻲﻜﻳﺮﺸﻟ ﺔﻴﺴﻤﺸﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺔﺒﻛﺮﻤﻟﺍ ﺭﺎﺒﺘﺧﻻ ﺖﻗﻮﻟﺍ ﻲﺗﺄﻴﺳ ،ﺎﺒﻳﺮﻗ\n\n.ﻡﻮﺠﻨﻟﺍ ﺀﺍﺪﺻﺃ ﻯﻮﺳ ﻊﻤﺳﺃ ﻢﻟ ﻲﻨﻨﻜﻟ ،"ﻲﻟﺇ ﺪﻋ ،ﻲﺒﻴﺒﺣ" :ﺍﻮﻟﺎﻗ .ﻊﻤﺘﺳﺃ ﻢﻟ ﻲﻨﻨﻜﻟ ،ﻯﺮﺧﺃ ﺕﺎﻤﻠﻛ ﻲﻜﻳﺮﺷ ﻲﻟ ﻝﺎﻗ .ﺔﻳﺪﺑﻷﺍ ﻊﻣ ﻞﺻﺍﻮﺘﻟﺍﻭ ﺓﻮﺸﻨﻟﺍ ﻰﻟﺇ ﺱﺄﻴﺑ ﺎﻴﻋﺎﺳ ،ﺭﻮﻫﺩ ﺬﻨﻣ ﺍﺪﻴﻌﺑ ﻥﺎﻛ ﻲﻠﻘﻋ ﻦﻜﻟ ،ﺎﻨﻫ ﻱﺪﺴﺟ ﻥﺎﻛ .ﻲﻤﻜﻟﺍ ﻚﺑﺎﺸﺘﻟﺍ :ﺎﻨﺗﺮﻫﺎﻈﻟ ﺕﺎﻤﻠﻛ ﻲﺒﻴﺒﺣ ﺪﺟﻭ\n\n.ﺎﻨﻨﻴﺑ ﺓﻮﻫ ﺕﺄﺸﻧ ،ﻥﻮﻜﻟﺍ ﻲﻓ ﺓﺮﻣﺎﻐﻤﻟﺍ ﻲﻓ ﺎﻨﻣﻼﺣﺃ ﻖﻴﻘﺤﺘﻟ ﻰﻌﺴﻧ ﺎﻨﻛ ﺎﻤﻨﻴﺑﻭ .ﻲﺒﻴﺒﺣ ﺖﻠﻤﻫﺃ ﺪﻘﻟ .ﻡﺎﻌﻄﻟﺍ ﺖﻠﻤﻫﺃ ﺪﻘﻟ .ﻡﻮﻨﻟﺍ ﺖﻠﻤﻫﺃ .ﻍﺍﺮﻔﻟﺍ ﻲﻓ ﻲﻴﻋﻭ ﻲﻘﻟﺃ ﻥﺃ ﺎﺜﺒﻋ ﺖﻟﻭﺎﺣ ،ﻞﻴﻠﻟﺍ ﻲﻓ ﻝﻮﻃﺃﻭ ﻝﻮﻃﺃ ﺓﺮﺘﻔﻟ .ﺔﻴﺴﻔﻨﻟﺍ ﺔﻈﻘﻴﻟﺍ ﻡﻼﺣﺃ ﻲﻟ ﻥﺎﻛﻭ ،ﻖﻄﻨﻤﻟﺍﻭ ﻢﻠﻌﻟﺍ ﻲﺒﻴﺒﺤﻟ ﻥﺎﻛ .ﺍﺭﻮﻬﺘﻣ ﺖﻨﻛﻭ ،ﺍﺭﻮﺒﺻ ﻲﻜﻳﺮﺷ ﻥﺎﻛ\n\nﺔﻴﻧﻮﻜﻟﺍ ﻦﻔﺴﻟﺍ ﻊﻧﺎﺻ ﻚﻳﺮﺷ ،ﻢﻜﻟﺍ ﺱﺪﻨﻬﻤﻟ ﺔﻴﺼﺨﺸﻟﺍ ﺕﺎﻔﻠﻤﻟﺍ ﻦﻣ"
+ origin.3535.name:0 "ﻯﺮﻛﺫ ﻲﻓ"
+ origin.3535.desc:0 ".ﺊﻣﻮﻳ ﻲﺘﻴﻨﻴﻔﻧﺇ .ﻥﻮﻜﻟﺍ ﺮﺒﻋ ﻲﻠﻘﻌﺑ ﻲﻘﻟﺃ ﻥﺃ ﻝﻭﺎﺣﺃ ،ﺎﻤﻠﻈﻣ ﺀﻲﺷ ﻞﻛ ﻥﻮﻜﻳ ﺎﻣﺪﻨﻋ ،ﺎﻧﺎﻴﺣﺃﻭ .ﻲﺗﺍﺮﻛﺬﻣ ﺐﺘﻛﺃﻭ ﻢﻬﺗﺍﺮﻛﺬﻣ ﺃﺮﻗﺃ ،ﻥﻵﺍ ﺎﻧﺃ ﺎﻤﻛ ﺎﻣﺎﻤﺗ ،My Love ﺮﺒﺘﺨﻣ ﻲﻓ ﺲﻠﺟﺃ .ﻡﻼﻈﻠﻟ ﻡﻼﺴﺘﺳﻻﺍ ﺾﻓﺭﺃ ،ﺭﻮﻨﻟﺍ ﻰﻟﺇ ﻞﺻﺃ ﺎﻣﺪﻨﻋ \n\n .ﻝﻮﻬﺠﻤﻟﺍ ﻰﻟﺇ ﺎﻨﻘﻠﻄﺗﻭ ،ﺩﻮﻘﻔﻤﻟﺍ ﻲﻜﻳﺮﺷ ﺡﻭﺭﻭ ﻞﻘﻋ ﻞﺜﻣ ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺰﻔﻘﻟﺍ ﺎﻬﻨﻜﻤﻳ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﺑ ﻢﻠﺣﺃ ،ﻲﻟﺎﻴﻠﻟﺍ ﺾﻌﺑ ﻲﻓﻭ .ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺮﺒﻋ ﺎﻨﻨﻔﺳ ﻊﻓﺩ ﺎﻬﻨﻜﻤﻳ ﺔﻴﻟﻭﺃ ﺝﺫﺎﻤﻧ ،ﻞﻀﻓﺃ ﺕﺎﻛﺮﺤﻣ ﻰﻠﻋ ﻞﻤﻌﻟﺍ ﺕﺃﺪﺑ ﺪﻘﻟ .ﺔﻤﻴﻈﻌﻟﺍ ﺔﻠﻴﻠﻟﺍ ﻰﻟﺇ ﺎﻬﺗﻼﺣﺭ ﺔﻴﺴﻤﺸﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﻲﻨﻔﺳ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺕﺃﺪﺑ ﺪﻘﻟ .ﻡﺎﻄﺤﻟﺍ ﻦﻣ ﻲﺗﺎﻴﺣﻭ ﻲﻠﻤﻋ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﻹ ﺖﻴﻘﺑﻭ ،ﻡﺎﺨﻟﺍ ﻲﺗﺍﻭﺩﺄﺑ ﻞﻤﻋﺃ ﻥﻵﺍ\n\n.ﺍﺪﺑﺃ ﺔﻴﺒﻳﺮﺠﺘﻟﺍ ﺎﻨﺘﻨﻴﻔﺳ ﺪﻌﺗ ﻢﻟ .ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﻲﺳﺎﻤﺤﻟﺍ ﻲﺴﻔﻨﻟﺍ ﻞﻣﺄﺘﻟﺍ ﻢﻫﺮﻤﻏ ﺪﻗﻭ ،ﺔﻳﺎﻬﻧﻼﻟﺍ ﻲﻓ ﺍﻮﺠﻣﺪﻧﺍ ،ﺎﻨﻟ ﺔﻴﺒﻳﺮﺠﺗ ﺔﻠﺣﺭ ﻝﻭﺃ ﻦﺘﻣ ﻰﻠﻋ ﻢﻜﺤﺘﻟﺍ ﺓﺰﻬﺟﺃ ﻡﺎﻣﺃ ﻢﻬﺳﻮﻠﺟ ﺀﺎﻨﺛﺃ .ﻥﻮﻜﻟﺍ ﻊﻣ ﺍﺪﺣﺍﻭ ﺍﺮﻴﺧﺃ ﻲﺒﺣ ﺢﺒﺻﺃ ،ﻪﺻﻼﺨﺘﺳﺍ ﺎﻨﻨﻜﻤﻳ ﺎﻣ ﺭﺪﻘﺑﻭ .ﺎﺿﻮﻤﻏﻭ ﺎﺛﺭﺇ ﻩﺀﺍﺭﻭ ،ﻲﻣﻮﻤﻜﻟﺍ ﺱﺪﻨﻬﻤﻟﺍ ،ﻲﻜﻳﺮﺷ ﻙﺮﺗ ﺪﻘﻟ .ﺙﺪﺣ ﺎﻣ ﻂﺒﻀﻟﺎﺑ ﻑﺮﻌﻧ ﻻ ﺎﻨﻟﺯ ﺎﻣﻭ .ﻡﺎﻋ ﺬﻨﻣ ﻰﻟﻭﻷﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺎﻨﺘﺒﻛﺮﻣ ﺖﻔﺘﺧﺍ \n\nQuantum Architect ﺱﺪﻨﻬﻣ ﺔﻠﻣﺭﺃ ،Cosmic Shipwright ـﻟ ﺔﻴﺼﺨﺸﻟﺍ ﺕﺎﻔﻠﻤﻟﺍ ﻦﻣ"
+ origin.3540.name:0 "ﺎﻴﻤﻛ"
+ origin.3540.desc:0 ".ﺀﻮﻀﻟﺍ ﻁﺎﻘﻧ ﻑﻻﺁ ﺮﺒﻋ ﻑﺮﺠﻨﻧﻭ ﻢﻠﺤﻧ ،ﺔﻳﺪﺑﻷﺍ ﻲﻓ ﺎﻌﻣ ﺶﻴﻌﻨﺳ ﺎﻨﻧﺃ ﻢﻠﻋﺃ ﻲﻨﻧﻷ .ﻊﺳﺎﺸﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﻙﺎﻨﻫ ﻲﺒﻴﺒﺣ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ ﺔﻘﻳﺮﻃ ﺪﺟﺃ ﻑﻮﺳ .ﺖﻘﻠﺣ ﺪﻗ ﻲﺣﻭﺭ ﻥﻮﻜﺘﺳ ،ﺍﺬﻫ ﻥﻭﺮﺧﻵﺍ ﻪﻴﻓ ﺃﺮﻘﻳ ﻱﺬﻟﺍ ﺖﻗﻮﻟﺍ ﻝﻮﻠﺤﺑ ﻪﻧﺃ ﻪﻴﻓ ﻚﺷ ﻻ ﺎﻤﻣ .ﻲﻤﻜﻟﺍ ﺱﺪﻨﻬﻤﻠﻟ ﺔﻴﺼﺨﺸﻟﺍ ﺕﻼﺠﺴﻟﺍ ﻪﺗﺍﺭﺍﺮﻜﺗ ﻊﻴﻤﺟﻭ ﻲﻧﻮﻜﻟﺍ ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﻦﻤﻀﺘﻳ ﻥﺃ ﻊﺿﺍﻮﺗ ﻞﻜﺑ ﺐﻠﻃﺃ ،ﻞﺣﺭﺃ ﺎﻣﺪﻨﻋ .ﻩﻮﻠﻌﻓ ﺎﻣ ﻞﻌﻓﺄﺳ ﺎﻣ ﺎﻣﻮﻳﻭ .ﺔﻳﺎﻬﻧﻼﻟﺍ ﻰﻟﺇ ﻲﺒﻴﺒﺣ ﺰﻔﻗ ﺎﻤﻛ ﺎﻣﺎﻤﺗ ،ﺓﺮﺠﻤﻟﺍ ﺮﺒﻋ ﺎﻨﻨﻔﺳ ﻊﻓﺪﺘﺳ ﺓﺮﻴﺒﻛ ﺔﻟﺁ ﻰﻠﻋ ﻞﻤﻌﻟﺍ ﺎﻧﺃﺪﺑ ﺪﻘﻟ .ﻡﺎﻬﻟﻹﺍ ﺕﺪﺟﻭ ،ﺓﺭﺎﺴﺨﻟﺍ ﻝﻼﺧ ﻦﻣ\n\n.ﻢﻬﻌﺒﺗﺃ ﻥﺃ ﺐﺠﻳﻭ ،ﺀﺎﻤﺴﻟﺍ ﻮﺤﻧ ﺎﻘﻳﺮﻃ ﺍﻮﻘﺷ ﺪﻘﻟ .ﻙﺎﻨﻫ ﺍﺩﻮﺟﻮﻣ ﻝﺍﺰﻳ ﻻ ﻲﺒﺣ ﻥﺃ ﻲﺒﻠﻗ ﻲﻓ ﻢﻠﻋﺃ ،ﺔﻳﺪﺑﻷﺍ ﻮﺤﻧ ﻲﻠﻘﻋ ﻪﺠﺘﻳ ﺎﻤﻨﻴﺑ .ﺎﻫﺪﺋﺎﻜﻣﻭ ﺎﻬﺗﺎﻴﺿﺎﻳﺭ ﺾﻳﻭﺮﺗ ﻞﺟﺃ ﻦﻣ ﺢﻓﺎﻛﺃﻭ ،ﻲﺒﺣ ﺕﺍﺮﻛﺬﻣ ﺃﺮﻗﺃ ،ﻞﻴﻠﻟﺍ ﻦﻣ ﺮﺧﺄﺘﻣ ﺖﻗﻭ ﻲﻓ ﻦﻜﻟ ،ﺀﻲﻄﺒﻟﺍ ﻖﻳﺮﻄﻟﺍ ﻲﻨﻔﺳ ﻚﻠﺴﺗ\n\n.ﺓﺪﻴﻌﺑ ﺊﻃﺍﻮﺷ ﻰﻟﺇ ﺎﻧﺬﺧﺄﻴﺳ ﺍﺭﺎﻴﺗ ﻼﻣﺄﺘﻣ ،ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺮﺒﻋ ﺎﻬﺒﻛﺭﻷ ﺔﺟﻮﻣ ﻦﻋ ﺚﺤﺑﺃ .ﺄﻄﺑﺃ ﺓﺮﻴﺗﻮﺑ ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﻞﺻﺃ ﻲﻨﻨﻜﻟ ،ﻲﻣﻮﻤﻜﻟﺍ ﺱﺪﻨﻬﻤﻟﺍ ﺕﺎﻤﻴﻤﺼﺘﺑ ﺎﻣﻮﻋﺪﻣ ،ﺭﻮﻬﺘﻤﻟﺍ ﺭﺎﺴﻤﻟﺍ ﺲﻔﻧ ﻉﺎﺒﺗﺍ ﺎﻨﻧﺎﻜﻣﺈﺑ ﻥﺎﻛ ﺍﺫﺇ ﺎﻤﻋ ﻝﺀﺎﺴﺗﺃ ﺖﻛﺮﺗ ﺪﻘﻟ .ﺔﻴﻤﻜﻟﺍ ﻢﻬﺗﺎﻋﺍﺪﺑﺇﻭ ،My Love ﺕﺍﺭﺎﻜﺘﺑﺍ ﻒﻴﻇﻮﺘﻟ ﻕﺮﻃ ﻦﻋ ﺎﻨﺜﺤﺑ ﺪﻘﻟ\n\nﻲﻣﻮﻤﻜﻟﺍ ﺱﺪﻨﻬﻤﻟﺍ ﺔﻠﻣﺭﺃ ،Cosmic Shipwright ﺕﺎﻔﻠﻣ ﻦﻣ\n\n:ﺍﺮﻴﺧﺃ ﺎﺼﻧ ﺎﻀﻳﺃ ﺎﻧﺪﻌﺘﺳﺍ ﺪﻘﻓ ،ﺔﻴﻨﺒﻟﺍ ﺕﺎﻄﻄﺨﻤﻟ ﺓﺩﻮﻘﻔﻤﻟﺍ ﻊﻄﻘﻟﺍ ﻰﻠﻋ ﺍﺮﻴﺧﺃ ﺎﻧﺮﺜﻋ ﺎﻨﻧﺃ ﺎﻤﺑ"
+ origin.3515.a:0 ".ﺕﺎﻔﻠﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺓﺩﺎﻌﺘﺳﺍ"
+ origin.3540.a:0 ".ﺊﻣﻮﻳ ﻲﺘﻴﻨﻴﻔﻧﺇ"
+ infinity_beckons:0 "ﺰﻧﻮﻜﻴﺑ ﻲﺘﻴﻨﻴﻔﻧﺇ"
+ into_the_unknown:0 "ﻝﻮﻬﺠﻤﻟﺍ ﻰﻟﺇ"
+
+ ##########################
+ # Imperial Vassal Origin #
+ ##########################
+ origin_imperial_vassal:0 "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺔﻴﻋﺎﻄﻗﻹﺍ"
+ origin_imperial_vassal_desc:1 ".ﻯﺮﺧﺃ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻞﻇ ﻲﻓ ﻪﻴﻓ ﺶﻴﻌﻧ ﻻ ﻞﺒﻘﺘﺴﻣ ﻰﻟﺇ ﻊﻠﻄﺘﻧ ﻥﻵﺍﻭ .ﺔﻴﺒﻨﺟﺃ ﺔﻳﺮﺠﻣ ﺓﻮﻗ ﺀﺍﻮﻫﻷ ﺔﻴﺸﺣﻮﺑﻭ ﺓﺄﺠﻓ ﺽﺮﻌﺗ ﺫﺇ ،ﺎﻤﻟﺆﻣ ﻰﻌﺴﻣ ﻲﻠﺻﻷﺍ ﺎﻨﺒﻛﻮﻛ ﺝﺭﺎﺧ ﻝﻭﻷﺍ ﺎﻨﯩﻌﺴﻣ ﻥﺎﻛ"
+ START_SCREEN_IMPERIAL_VASSAL:0 ".ﻪﻴﻓ ﺎﻨﻌﺿﻭ ﻱﺬﻟﺍ ﻒﻗﻮﻤﻟﺍ ﻦﻣ ﺓﺩﺎﻔﺘﺳﺍ ﻰﺼﻗﺃ ﻖﻘﺤﻧﻭ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﺎﻨﻋﻮﺿﻮﻣ ﺔﻌﻴﺒﻃ ﻞﺒﻘﻨﺳ ﺎﻨﻧﺃ ﻻﺇ ،ﺎﻨﻠﺒﻘﺘﺴﻣ ﺭﺮﻘﻧ ﻥﺃ ﻯﺮﺧﺃ ﺓﺮﻣ ﻪﻴﻓ ﺎﻨﻨﻜﻤﻳ ﻡﻮﻳ ﻰﻟﺇ ﻊﻠﻄﺘﻧ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻥﻭﺪﻴﻔﻣ ﺀﺎﻔﻠﺣ ﻢﻬﻧﺃ ﻥﻮﺘﺒﺜﻴﺳ ﻢﻬﻧﺃ ﺪﻘﺘﻌﻧ ﺎﻨﻨﻜﻟﻭ ،ﻢﻬﻀﻌﺑ ﻊﻣ ﺎﻣﺎﻤﺗ ﻖﻔﺘﻧ ﻻ ﻦﺤﻧ .ﻢﻬﺗﺮﻄﻴﺳ ﺖﺤﺗ ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺾﻌﺑ ﻦﻣ ﺀﺍﺮﻔﺳﻭ ﻦﻴﻴﺳﺎﻣﻮﻠﺑﺩ ﺀﺎﻘﻠﻟ ﺔﺻﺮﻔﻟﺍ ﺎﻨﻟ ﺖﺤﻴﺗﺃ ﺚﻴﺣ ،ﺪﻳﺪﺠﻟﺍ ﻰﻠﻋﻷﺍ ﺎﻧﺪﻴﺴﻟ ﻦﻳﺪﻴﺣﻮﻟﺍ ﻦﻴﻌﺑﺎﺘﻟﺍ ﺎﻨﺴﻟ ﻦﺤﻧ\n\n.ﻞﻣﺄﻧ ﺎﻨﻛ ﺎﻤﻣ ﺓﺪﺋﺎﻓ ﺮﺜﻛﺃ ﺎﻬﻧﺃ ﺔﻗﻼﻌﻟﺍ ﺖﺘﺒﺛﺃ ﺚﻴﺣ ،ﻦﻴﻌﺑﺎﺗ ﺎﻧﺭﺎﺒﺘﻋﺎﺑ ﺮﻴﺼﻘﻟﺍ ﺎﻨﺘﻗﻭ ﻲﻓ ﺮﻴﺜﻜﻟﺍ ﺎﻨﻤﻠﻌﺗ ﺎﻨﻧﺃ ﻻﺇ ،ﺎﻨﺒﻌﺸﻟ ﺔﻤﻟﺆﻣ ﻯﺮﻛﺫ ﺎﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺎﻨﻋﺎﻀﺧﺈﺑ ﺎﻨﺘﺒﻟﺎﻃﻭ ﺔﻴﺒﻨﺟﺃ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺎﻨﺑ ﺖﻠﺼﺗﺍ ،ﺓﺮﻣ ﻝﻭﻷ ﻲﻠﺧﺍﺪﻟﺍ ﺎﻨﻣﺎﻈﻧ ﻦﻣ ﺎﻨﺟﺮﺧ ﺎﻣﺪﻨﻋ"
+ origin_tooltip_imperial_vassal_effects:2 "ﺔﺒﻌﻠﻟﺍ ﺔﻳﺍﺪﺑ ﻲﻓ ['concept_specialist_subject', Specialist Subject] ﻉﻮﻧ ﺪﻳﺪﺤﺗ ﻦﻜﻤﻳ -\n['concept_advanced_empire'] ﻉﻮﺿﻮﻣ -"
+
+ # AI Overlord Version
+ origin_imperial_vassal_overlord:0 "ﺞﻴﻴﻟ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ"
+ origin_imperial_vassal_overlord_desc:0 ".ﻢﻬﻋﺎﺒﺗﺃ ﻰﻟﺇ ﺔﻴﻟﻭﺆﺴﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍﻭ ﺪﻳﺰﻤﻟﺍ ﻥﻮﻠﻘﻨﻳ ﺚﻴﺣ ﻻﻮﺴﻛ ﺮﺜﻛﺃ ﺀﻂﺒﺑ ﻥﻮﻤﻨﻳ ﻢﻬﻧﺇ .ﻢﻬﺗﺎﺟﺎﻴﺘﺣﺍ ﻊﻴﻤﺟ ﺔﻣﺪﺨﻟ ﻪﻧﺍﺮﻴﺟ ﺏﺮﻗﺃ ﻉﺎﻀﺧﺇ ﻲﻓ ﺓﺮﻴﺒﻛ ﺍﺩﻮﻬﺟﻭ ﺎﺘﻗﻭ ﻰﻀﻗ ﺡﻮﻤﻃ ﺪﻴﺳ"
+ origin_tooltip_imperial_vassal_overlord_effects:0 "ﻉﺎﺒﺗﺃ ﺓﺪﻌﺑ ﺃﺪﺒﺗ -\n§HAdvanced§! ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺈﻛ ﺃﺪﺒﺗ -"
+
+ # Personalities
+ personality_imperial_origin_overlord_ai:0 "ﻝﻮﺴﻛ ﺩﺭﻮﻟﺮﻓﺃ"
+ personality_imperial_origin_overlord_ai_desc:0 ".ﻚﻟﺫ ﻰﻟﺇ ﺍﻭﺮﻄﻀﻳ ﻢﻟ ﺎﻣ ﻝﺎﻌﻓ ﻞﻜﺸﺑ ﻢﻫﺩﻭﺪﺣ ﻊﻴﺳﻮﺘﺑ ﻥﻮﻣﻮﻘﻳ ﻻﻭ ،ﻝﺎﺘﻘﻟﺍ ﻲﻓ ﻦﻳﺮﺧﻵﺍ ﻥﻮﻛﺮﺸﻳ ﻻ ﻢﻬﻧﺇ .ﺔﻴﻠﺤﻤﻟﺍ ﺎﻬﺘﻤﻈﻧﺃ ﺯﻭﺎﺠﺘﻳ ﺎﻤﺑ ﻢﺘﻬﺗ ﺎﻣ ﺍﺭﺩﺎﻧﻭ ،ﺎﻬﻋﺎﺒﺗﺃ ﻰﻠﻋ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺪﻤﺘﻌﺗ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ"
+
+ # Modifiers
+ imperial_vassal_ai_modifier:0 "ﻱﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺭﻮﺸﻌﻟﺍ"
+ imperial_vassal_ai_modifier_desc:0 ".ﻦﻴﻴﻨﻌﻤﻟﺍ ﻊﻴﻤﺠﻟ ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻚﻠﺴﻟﺍ ﺐﻧﺎﺟ ﻦﻣ ﺍﺮﻴﺒﻛ ﺍﺪﻬﺟ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺔﻴﻃﺍﺮﻗﻭﺮﻴﺒﻠﻟ ﺔﻴﻣﻮﻴﻟﺍ ﻝﺎﻤﻋﻷﺍ ﺐﻠﻄﺘﺗ"
+
+ # Wars
+ NAME_Imperial_War:0 "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺔﻴﻠﻫﻷﺍ ﺏﺮﺤﻟﺍ"
+
+ # Megastructure
+ gateway_derelict:0 "ﺓﺭﻮﺠﻬﻤﻟﺍ ﺔﺑﺍﻮﺒﻟﺍ"
+ gateway_derelict_DESC:0 "$gateway_final_DESC$"
+ gateway_derelict_MEGASTRUCTURE_DETAILS:0 "$gateway_final_MEGASTRUCTURE_DETAILS$"
+
+ # Events
+ origin.5703.desc:0 ".ﻒﻨﻌﻟﺍ ﻰﻠﻋ ﺎﻧﺮﺒﺠﺗ ﻥﺃ ﻦﻣ ﻻﺪﺑ ﻞﻘﻌﻟﺍ ﻯﺮﺗ ﻥﺃ ﺕﺮﺘﺧﺍ ﻚﻧﺃ ﺎﻧﺪﻌﺴﻳ .ﺎﻨﻔﻟﺎﺤﺗ ...ﻲﻓ ﺔﻛﺭﺎﺸﻤﻟﺍ ﺕﺮﺘﺧﺍ ﻥﺃ ﺪﻌﺑ ﻥﻵﺍ ﻚﺑ ﻝﺎﺼﺗﻻﺍ ﺐﺳﺎﻨﻤﻟﺍ ﻦﻣ ﻪﻧﺃ ﺎﻧﺮﻌﺷ ﺪﻘﻟ\n\n!ﺀﺍﺰﻋﻷﺍ ﺩﺪﺠﻟﺍ ﺀﺎﻔﻠﺤﻟﺍ ﺎﻬﻳﺃ ﺎﺒﺣﺮﻣ"
+ origin.5703.a:0 "؟ﻚﻟﺬﻛ ﺲﻴﻟﺃ ،ﺭﺎﻴﺘﺧﻻﺍ ﻦﻣ ﺮﻴﺜﻜﻟﺍ ﺎﻨﻴﻄﻌﺗ ﻢﻟ ﺖﻧﺃ"
+ dialog_hostile_overlord:0 ".ﻰﻠﻋﻷﺍ ﺎﻧﺪﻴﺳ ﻩﺎﺠﺗ §Rﻲﺋﺍﺪﻋ§! ﻒﻗﻮﻣ ﺬﺨﺘﻧ ﻑﻮﺳ"
+ origin.5703.b:0 "؟ﻪﻨﻋ ﺎﻨﻴﻟﺇ ﺙﺪﺤﺘﻟﺍ ﺪﻳﺮﺗ ﺀﻲﺷ ﻙﺎﻨﻫ ﻥﺎﻛ ﻞﻫ"
+ dialog_wary_overlord:0 ".ﻰﻠﻋﻷﺍ ﺎﻧﺪﻴﺳ ﻩﺎﺠﺗ §Yﺪﻳﺎﺤﻣ§! ﻒﻗﻮﻣ ﺬﺨﺘﻧ ﻑﻮﺳ"
+ origin.5703.c:0 "!ﻚﻔﻟﺎﺤﺗ ﻦﻣ ﺍﺀﺰﺟ ﻥﻮﻜﻧ ﻥﺄﺑ ﻥﻭﺭﻮﺨﻓ ﻦﺤﻧ"
+ dialog_friendly_overlord:0 ".ﻰﻠﻋﻷﺍ ﺎﻧﺪﻴﺳ ﻩﺎﺠﺗ §Gﻱﺩﻭ§! ﻒﻗﻮﻣ ﺬﺨﺘﻧ ﻑﻮﺳ"
+
+ origin.5705.desc.harsh:0 "$origin.5705.desc$\n\n!ﻝﺎﺣ ﺔﻳﺃ ﻰﻠﻋ ...ﺔﻤﻬﻤﻫ ﺔﻤﻬﻤﻫ"
+ origin.5705.desc.grateful:0 "$origin.5705.desc$\n\n!ﻢﻜﺑ ﺐﻴﺣﺮﺘﻟﺎﺑ ﻥﻭﺭﻮﺨﻓ ﻦﺤﻧﻭ"
+ origin.5705.desc:0 "؟ﻥﺩﺎﻌﻤﻟﺍﻭ ﺩﺍﻮﻤﻟﺎﺑ ﺮﺜﻛﺃ ﻢﺘﻬﻣ ﻚﻧﺃ ﻡﺃ ؟ ﺔﻴﻤﻠﻋ ؟ﻱﺮﻜﺴﻌﻟﺍ ﺺﺼﺨﺘﻟﺍ :ﻪﻌﻣ ﺔﺣﺍﺭ ﺮﺜﻛﺃ ﻚﺒﻌﺷ ﻥﻮﻜﻴﺳ ﺎﻤﻣ ﺎﻣﺎﻤﺗ ﻦﻳﺪﻛﺄﺘﻣ ﻦﻜﻧ ﻢﻟ\n\n.ﺎﻨﺋﺎﻔﻠﺣﻭ ﺎﻨﺋﺎﻗﺪﺻﺃ ﻊﻴﻤﺟ ﻞﺒﻘﺘﺴﻣ ﻲﻓ ﻢﻬﻣ ﺭﻭﺩ ﺐﻌﻟ ﻦﻣ ﻚﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻦﻜﻤﺘﺳ .ﻚﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺺﻴﺼﺨﺗ ﻲﻓ ﻚﺗﺪﻋﺎﺴﻤﻟ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺭﺪﻗ ﺭﺎﻤﺜﺘﺳﺍ ﺎﻧﺭﺮﻗ ،ﺔﻴﻧﺄﺘﻣ ﺔﺳﺍﺭﺩ ﺪﻌﺑ"
+ origin.5705.desc.reconsider:0 "؟ﻯﺮﺧﺃ ﺓﺮﻣ ﺕﺮﻜﻓ ﻞﻫ ...ﺍﺬﻟ"
+ origin.5705.a:0 ".ﺔﻴﻟﺎﺜﻣ ﻭﺪﺒﺗ ﻱﺮﻜﺴﻌﻟﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﺰﻛﺮﺗ ﻲﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﻥﺇ"
+ origin.5705.a.tt_intro: ".ﻊﺳﻮﺘﻟﺍ ﻞﺑﺎﻘﻣ $r_influence$ ﻎﻠﺒﻣ §Y[Root.GetName]§!\n ﻊﻓﺪﻴﺳﻭ .ﺔﻴﻋﺎﻓﺪﻟﺍﻭ ﺔﻳﺮﻜﺴﻌﻟﺍ ﻥﻭﺆﺸﻟﺍ ﻰﻠﻋ ﺰﻛﺮﻳ - §Y$specialist_bulwark$§! ﻲﻓ ﺺﺼﺨﺘﻣ ﻰﻟﺇ §Y[ROOT.GetName]§! ﻞﻳﻮﺤﺗ ﻢﺘﻴﺳ"
+ origin.5705.a.tt:2 ".§Y[overlord_empire.GetName]§! ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻊﻴﻨﺼﺘﻟ ﺔﻣﺯﻼﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍﻭ §YDestroyers§! ﻦﻣ ﻝﻮﻄﺳﺃ ﻰﻠﻋ ﻞﺼﺣﺍ\n$origin.5705.a.tt_intro$"
+ origin.5705.a.bioships.tt: ".§Y[overlord_empire.GetName]§! ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺔﻏﺎﻴﺼﻟ ﺔﻣﺯﻼﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍﻭ §Y$mauler_stage_2_plural$§! ﻦﻣ ﻝﻮﻄﺳﺃ ﻰﻠﻋ ﻞﺼﺣﺍ\n$origin.5705.a.tt_intro$"
+ origin.5705.b:0 "؟Bulwarks ﻦﻋ ﺪﻳﺰﻤﻟﺍ ﺎﻧﺮﺒﺨﺗ ﻥﺃ ﻦﻜﻤﻳ ﻞﻫ"
+ origin.5705.c:0 ".ﺔﻌﻴﺒﻄﻟﺍ ﻲﻓ ﺔﻴﻤﻠﻋ ﺮﺜﻛﺃ ﺎﻨﺒﻌﺷ"
+ origin.5705.c.tt:1 ".§Y[overlord_empire.GetName]§! ﻦﻣ §YScientist§!ﻭ §YScience Ship§! ﻰﻠﻋ ﻞﺼﺣﺍ\n.ﻊﺳﻮﺘﻟﺍ ﻞﺑﺎﻘﻣ $r_influence$ ﻎﻠﺒﻣ ﻊﻓﺪﻴﺳ §Y[ROOT.GetName]§!\n.ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍﻭ ﺚﺤﺒﻟﺍ ﻰﻠﻋ ﺰﻛﺮﻳ - §Y$specialist_scholarium$§! ﻲﻓ ﺺﺼﺨﺘﻣ ﻰﻟﺇ §Y[ROOT.GetName]§! ﻞﻳﻮﺤﺗ ﻢﺘﻴﺳ"
+ origin.5705.d:0 "؟ﺎﻳﺭﻻﻮﻜﺳ ﻦﻋ ﺪﻳﺰﻤﻟﺍ ﺎﻧﺮﺒﺨﺗ ﻥﺃ ﻦﻜﻤﻳ ﻞﻫ"
+ origin.5705.e:0 ".ﻥﺩﺎﻌﻤﻟﺍﻭ ﺩﺍﻮﻤﻟﺍ ﻰﻠﻋ ﺰﻛﺮﻳ ﻱﺬﻟﺍ ﺺﺼﺨﺘﻟﺍ ﻲﻓ ﺐﻏﺮﻧ"
+ origin.5705.e.tt:1 ".§Y[overlord_empire.GetName]§! ﻦﻣ §YConstruction ﻦﻔﺴﻟﺍ§! 2 ﻢﻠﺘﺳﺍ\n.ﻊﺳﻮﺘﻟﺍ ﻞﺑﺎﻘﻣ $r_influence$ ﻎﻠﺒﻣ ﻊﻓﺪﻴﺳ §Y[ROOT.GetName]§!\n .ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻹﺍ ﺩﺭﺍﻮﻤﻟﺍﻭ ﻥﺩﺎﻌﻤﻟﺍ ﻰﻠﻋ ﺰﻛﺮﻳ - §Y$specialist_prospectorium$§! ﺺﺼﺨﺘﻣ ﻰﻟﺇ §Y[ROOT.GetName]§! ﻞﻳﻮﺤﺗ ﻢﺘﻴﺳ"
+ origin.5705.f:0 "؟ﺎﻳﺭﻮﺘﻜﺒﺳﻭﺮﺑ ﻦﻋ ﺪﻳﺰﻤﻟﺍ ﺎﻧﺮﺒﺨﺗ ﻥﺃ ﻚﻨﻜﻤﻳ ﻞﻫ"
+
+ origin.5706.desc:0 "؟ﻚﻟ ﺔﺒﺴﻨﻟﺎﺑ ﻻﻮﺒﻘﻣ ﻚﻟﺫ ﻭﺪﺒﻳ ﻞﻫ .ﺎﻨﻳﺪﻟ ﻒﻟﺎﺤﺘﻤﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺩﻭﺪﺣ ﻰﻠﻋ ﻢﻬﻣ ﺭﻭﺩ ﺐﻌﻟﻭ ،ﺔﻴﺟﺭﺎﺨﻟﺍ ﺕﺍﺪﻳﺪﻬﺘﻟﺍ ﺪﺿ ﻉﺎﻓﺪﻟﺍ ﻲﻓ ﺎﻨﺗﺪﻋﺎﺴﻣ ﻚﻨﻣ ﻊﻗﻮﺘﻧ ،ﺎﻧﺭﻭﺪﺑﻭ\n\nA ﺏﺮﺤﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻠﻟ ﺎﺒﻧﺎﺟ ﻚﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻦﻣ ﺮﺒﻛﺃ ﺀﺰﺟ ﺺﻴﺼﺨﺗ ﻦﻣ ﻦﻜﻤﺘﺗ ﻰﺘﺣ ﻱﺮﻬﺷ ﺱﺎﺳﺃ ﻰﻠﻋ ﺔﻴﺋﺍﺬﻐﻟﺍ ﺩﺍﻮﻤﻟﺍﻭ ﺔﻴﺳﺎﺳﻷﺍ ﻥﺩﺎﻌﻤﻟﺍ ﺾﻌﺒﺑ ﻚﻤﻋﺪﻨﺳ ﺎﻨﻧﺃ ﻲﻨﻌﻳ ﺍﺬﻫ .ﺔﻳﺮﻜﺴﻌﻟﺍ ﻥﻭﺆﺸﻟﺍ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻲﻫ ،ﺓﺩﺎﻋ ﺎﻬﻴﻟﺇ ﺮﻴﺸﻧ ﺎﻤﻛ ،ﻥﻮﺼﺤﻟﺍ.\n\n؟ﻒﻨﻌﻟﺍ ﻮﺤﻧ ﻞﻴﻣ ﺍﺬﻫ ﻞﻫ"
+ origin.5706.a:0 ".ﻪﻌﻣ ﺶﻳﺎﻌﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ ﺀﻲﺷ ﻪﻧﺄﻛﻭ ﻭﺪﺒﻳ ﺍﺬﻫ"
+ origin.5706.b:0 ".ﺮﻈﻨﻟﺍ ﺪﻴﻌﻧ ﻥﺃ ﺩﻮﻧ"
+
+ origin.5707.desc:0 "؟ﻚﺒﺳﺎﻨﻳ ﺩﻮﻘﻌﻟﺍ ﻦﻣ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﻞﻫ .ﺎﻨﺘﻴﻘﺑ ﻊﻣ ﻚﻳﺪﻟ ﻥﻮﻜﺗ ﺪﻗ ﺔﺒﻳﺮﻏ ﺔﻴﺟﻮﻟﻮﻨﻜﺗ ﺕﺎﻗﺍﺮﺘﺧﺍ ﻱﺃ ﺔﻛﺭﺎﺸﻣ ﻚﻨﻣ ﻊﻗﻮﺘﻧ ﺎﻧﺭﻭﺪﺑﻭ\n\nA Scholarium، ﺀﺍﻮﺳ ﺪﺣ ﻰﻠﻋ ﺎﻨﺋﺎﻔﻠﺣﻭ ﻚﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺮﻳﻮﻄﺗ ﻰﻠﻋ ﻙﺩﺭﺍﻮﻣ ﻢﻈﻌﻣ ﺰﻴﻛﺮﺗ ﻦﻣ ﻦﻜﻤﺘﺗ ﻰﺘﺣ ﻚﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺔﻳﺎﻤﺤﺑ ﺪﻬﻌﺘﻧ ﻦﺤﻧ .ﺙﺎﺤﺑﻷﺍﻭ ﻡﻮﻠﻌﻟﺍ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻲﻫ ،ﻢﻬﻴﻠﻋ ﻖﻠﻄﻳ ﺎﻤﻛ. \n\n ؟ﻚﻟﺬﻛ ﺲﻴﻟﺃ ،ﻚﻣﺎﻤﺘﻫﺍ ﺍﻭﺭﺎﺛﺃ ﺪﻘﻟ"
+ origin.5707.a:0 ".ﺔﻘﻔﺼﻟﺍ ﻩﺬﻬﺑ ﺍﺪﻴﻌﺳ ﺎﻨﺒﻌﺷ ﻥﻮﻜﻴﺳ"
+ origin.5707.b:0 ".ﺮﻈﻨﻟﺍ ﺪﻴﻌﻧ ﻥﺃ ﺩﻮﻧ"
+
+ origin.5708.desc:1 "؟ﻪﺑ ﻡﺎﻴﻘﻟﺍ ﻙﺩﺍﺮﻓﻷ ﻦﻜﻤﻳ ﺀﻲﺸﻛ ﺍﺬﻫ ﻭﺪﺒﻳ ﻞﻫ\n\nA Prospectorium، ﺾﻌﺑ ﺖﻨﻜﻤﺗ ،ﺔﺒﺳﺎﻨﻤﻟﺍ ﺕﺍﻭﺩﻷﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ .ﺎﻴﻤﻠﻋ ﻢﻬﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺮﻳﻮﻄﺗ ﺏﺎﺴﺣ ﻰﻠﻋ ﻥﺎﻴﺣﻷﺍ ﻦﻣ ﺮﻴﺜﻛ ﻲﻓ ﻦﻜﻟﻭ - ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻹﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻊﻴﻨﺼﺗﻭ ﻥﺩﺎﻌﻤﻟﺍ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻲﻫ ،ﻥﻭﺮﻴﺜﻜﻟﺍ ﺎﻬﻴﻤﺴﻳ ﺎﻤﻛ Prospectoria ﺎﻫﺎﻨﻌﻤﺳ ﺔﻌﺋﺎﺷ ﺩﺮﺠﻣ ﻩﺬﻫ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﻥﻭﺮﺧﻵﺍ ﺎﻬﻠﻫﺎﺠﺘﻳ ﻲﺘﻟﺍ ﺓﺭﺩﺎﻨﻟﺍ ﻥﺩﺎﻌﻤﻟﺍ ﻊﻗﻮﻣ ﺪﻳﺪﺤﺗ ﻦﻣ.\n\n؟ﺔﻘﻔﺼﻟﺍ ﻩﺬﻬﺑ ﻢﺘﻬﻣ ﺖﻧﺃ ﻞﻫ"
+ origin.5708.a:0 ".ﺎﻨﺒﺳﺎﻨﻳ ﻱﺬﻟﺍ ﺀﻲﺸﻟﺍ ﻮﻫ ﺍﺬﻫ ﻥﺃ ﺪﻘﺘﻌﻧ ﻦﺤﻧﻭ"
+ origin.5708.b:0 ".ﺮﻈﻨﻟﺍ ﺪﻴﻌﻧ ﻥﺃ ﺩﻮﻧ"
+
+ origin.5710.title:0 "ﺎﻨﻠﺒﻘﺘﺴﻣ ﺪﻳﺪﺤﺗ"
+ origin.5710.desc:0 ".ﻼﻴﺼﻔﺗﻭ ﻼﻴﺼﻔﺗ ﺮﺜﻛﺃ ﺔﻴﻗﺎﻔﺗﺍ ﻝﻼﺧ ﻦﻣ ﺎﻣﺪﻗ ﻲﻀﻤﻠﻟ ﺎﻨﺘﻗﻼﻋ ﺪﻳﺪﺤﺗ ﻥﻭﺪﻳﺮﻳ ﻢﻬﻧﺈﻓ ،ﺍﺮﺧﺆﻣ ﻢﻬﺗﺩﺍﺭﻹ ﺎﻨﻌﻀﺧ ﺎﻨﻧﺃ ﺎﻤﺑﻭ .ﺐﻟﺎﻄﻤﻟﺍﻭ ﺭﺎﺒﺧﻷﺍ ﺮﺧﺁ ﻞﻤﺤﻳ ،ﺎﻧﺪﻴﺳ ﻦﻣ ﺍﺮﻴﻐﺻ ﺎﻴﺳﺎﻣﻮﻠﺑﺩ ﺎﻘﻳﺮﻓ ﺎﻨﻴﻘﻠﺗ ﺪﻘﻟ"
+
+ # Dissolution of the Empire events
+ origin.5725.title:0 "ﺎﻬﻴﻓ ﻙﻮﻜﺸﻣ ﺔﻓﻼﺧ"
+ origin.5725.desc:0 "؟ﺎﻨﺘﻣﻼﺳ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﻢﻬﻳﺪﻟ ﻥﻮﻜﻳ ﺪﻗ ﻱﺬﻟﺍ ﻞﻣﻷﺍ ﻮﻫ ﺎﻤﻓ ،ﻢﻬﺘﻤﺻﺎﻋ ﻡﻼﺳ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻦﻣ ﺍﻮﻨﻜﻤﺘﻳ ﻢﻟ ﺍﺫﺇﻭ .ﺎﻨﻴﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﻲﻓ [Root.Overlord.GetName] ﻖﺣ ﻲﻓ ﻚﻴﻜﺸﺘﻟﺍ ﻲﻓ ﻥﻭﺮﻴﺜﻜﻟﺍ ﺃﺪﺑ ،[overlord_heir.GetFirstName] ـﻟ ﺞﻋﺰﻤﻟﺍ ﺩﻮﻌﺼﻟﺍ ﺪﻌﺑ\n\n.[Root.Overlord.Capital.GetName] ﺐﻌﺷﻭ [overlord_heir.GetHisHer] ﺀﺎﻘﺷﺃ ﺀﺎﻴﺘﺳﺍ ﺭﺎﺛﺃ ﺎﻤﻣ ،ﺶﻴﺠﻟﺍ ﺓﺪﻋﺎﺴﻤﺑ [overlord_heir.GetHimselfHerself] ـﻟ ﺵﺮﻌﻟﺍ ﺔﻴﺒﻌﺸﺑ ﻰﻈﺤﻳ ﻻ ﻱﺬﻟﺍ [overlord_heir.GetName] ﻰﻟﻮﺗ .[overlord_ruler.GetName] ـﻟ ﺔﺌﺟﺎﻔﻤﻟﺍ ﺓﺎﻓﻮﻟﺍ ﺪﻌﺑ ،[Root.Overlord.Capital.GetName] ﻲﻓ ﺓﺮﻤﺘﺴﻤﻟﺍ ﻰﺿﻮﻔﻟﺍ ﻦﻋ ﺍﺭﺎﺒﺧﺃ ﺎﻨﻴﻘﻠﺗ ﺪﻘﻟ"
+ origin.5725.a:0 ".ﻞﻔﺳﻷﺍ ﻰﻟﺇ ﺱﺃﺮﻟﺍ ﻦﻣ ﻦﻔﻌﺘﻳ ﺮﺤﺒﻟﺍ ﻢﺠﻧ"
+
+ origin.5735.title:0 "ﺓﺭﻮﺴﻜﻣ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ"
+ origin.5735.desc:1 ".ﻢﻬﻟ ﻮﻠﺤﻳ ﺎﻣ ﻞﻌﻓ ﻲﻓ ﺍﺭﺍﺮﺣﺃ ﻥﻵﺍ ﻰﻣﺍﺪﻘﻟﺍ ﻢﻫﺎﻳﺎﻋﺭ ﺢﺒﺻﺃ ،[previous_overlord.GetName] ﺵﺮﻋ ﻰﻠﻋ ﺔﻤﻳﺪﻘﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻣ ﺔﻨﻳﺎﺒﺘﻤﻟﺍ ﺀﺍﺰﺟﻷﺍ ﻝﺎﺘﻗ ﻊﻣ \n\n .ﺀﻲﺷ ﻻ ﻰﻟﺇ ﻢﻬﻋﺎﺒﺗﺃ ﻊﻴﻤﺟ ﻰﻠﻋ ﻢﻬﺗﺮﻄﻴﺳ ﺕﺭﺎﻬﻧﺍ ﺪﻘﻓ ،ﻢﻳﺪﻘﻟﺍ ﺔﻴﻋﺮﺷ ﻭﺃ ﺓﻮﻗ ﻥﻭﺪﺑ ،ﻚﻟﺫ ﻊﻣﻭ .ﺔﻤﻳﺪﻘﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻢﻜﺣ ﻲﻓ ﻪﻘﺤﺑ ﺎﻬﻨﻣ ﻞﻛ ﺐﻟﺎﻄﻳ ﺚﻴﺣ ،ﺀﺍﺰﺟﺃ ﺓﺪﻋ ﻰﻟﺇ [previous_overlord.GetName] ﺖﻤﺴﻘﻧﺍ ،ﺎﻌﻣ ﻢﻬﻌﻤﺠﻳ ﻢﻴﻈﻋ ﺪﺋﺎﻗ ﺩﻮﺟﻭ ﻡﺪﻋ ﻊﻣ"
+ origin.5735.a:0 ".ﻢﺛ ،ﻯﺮﺧﺃ ﺓﺮﻣ ﺎﻧﺎﺠﻣ"
+ origin.5735.b:0 ".ﺔﻴﻟﻭﺆﺴﻤﻟﺍ ﻰﻟﻮﺘﻳ ﻥﺃ ﺪﻳﺪﺟ ﺪﺋﺎﻘﻟ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻟ"
+ origin.5735.b.tt:0 ".§!ﺎﻣﺎﻋ XYZT_530XYZT ﺓﺪﻤﻟ ﻰﻣﺍﺪﻘﻟﺍ ﺎﻬﻋﺎﺒﺗﺃ ﻊﻴﻤﺟﻭ §Y[previous_overlord.GetName]§! Casus Belli ﺪﺿ §YSubjugation§! ﻰﻠﻋ ﻞﺼﺣﺍ"
+ origin.5735.c:0 ".ﺮﻣﻷﺍ ﻥﺎﻛ ﺎﻤﻬﻣ - ﺵﺮﻌﻠﻟ ﻥﻮﺼﻠﺨﻣ ﻦﺤﻧ"
+ origin.5735.c.tt:0 ".§Y[previous_overlord.GetName]§! ـﻟ ﺎﺼﻠﺨﻣ ﺎﻌﺑﺎﺗ ﻦﻛ"
+
+ # AI Vassals looking for new overlord events
+ origin.5745.title:0 "ﺔﻴﻃﺍﺮﻗﻮﻨﻜﺘﻟﺍ ﺔﻳﺎﻤﺤﻟﺍ"
+ origin.5745.desc:0 ".ﺓﺮﻣ ﺕﺍﺫ [previous_overlord.GetName] ﻢﻬﻟ ﻪﻣﺪﻗ ﻱﺬﻟﺍ ﻉﻮﻨﻟﺍ ﺲﻔﻧ ﻦﻣ ﺔﻳﺎﻤﺤﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺎﻨﻴﻟﺇ ﺍﻭﺄﺠﻟ ﻚﻟﺬﻟ .ﺩﺮﻔﻨﻤﻟﺍ ﻲﻠﺧﺍﺪﻟﺍ ﻢﻫﺰﻴﻛﺮﺗ ﺪﺴﻔﻳ ﺪﻗ ﺩﻮﺟﻮﻣ ﺀﻲﺷ ﻱﺃ ﻥﺃ ﻥﻮﻛﺭﺪﻳ ﻢﻬﻨﻜﻟ ،ﻢﻫﺩﻭﺪﺣ ﺝﺭﺎﺧ ﺀﻲﺷ ﻱﺄﺑ ﺍﺮﻴﺜﻛ [new_subject_target.GetName] ﻥﺎﻜﺳ ﻢﺘﻬﻳ ﻻ"
+ origin.5745.a:0 ".ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺔﻤﻌﻧ ﻥﻮﻧﻮﻜﻴﺳ"
+ origin.5745.b:0 ".ﺀﺎﻤﻠﻌﻟﺍ ﺀﻻﺆﻬﺑ ﻡﺎﻤﺘﻫﺍ ﻱﺃ ﺎﻨﻳﺪﻟ ﺲﻴﻟ"
+
+ origin.5750.title:0 "ﻥﻭﺪﺣﻮﻤﻟﺍ ﺀﺍﺮﻣﻷﺍ"
+ origin.5750.desc:0 ".ﺓﺮﻣ ﺕﺍﺫ [previous_overlord.GetName] ﻢﻬﻟ ﺎﻬﻣﺪﻗ ﻲﺘﻟﺍ ﺔﻳﺎﻤﺤﻟﺍ ﻥﻭﺪﻘﺘﻔﻳ ﻢﻬﻧﺃ ﻭﺪﺒﻳ .ﺎﻨﻌﻣ ﺪﻳﺪﺟ ﻲﺳﺎﻣﻮﻠﺑﺩ ﻕﺎﻔﺗﺍ ﺪﻘﻋ ﻰﻟﺇ ﻥﻮﻌﻠﻄﺘﻳ ﻦﻴﺛﻮﻌﺒﻣ ﺍﻮﻠﺳﺭﺃﻭ ،ﺎﻣ ﺀﻲﺷ ﻰﻠﻋ ﻕﺎﻔﺗﻻﺍ ﻦﻣ ﺍﺮﻴﺧﺃ ﺍﻮﻨﻜﻤﺗ ﻢﻬﻧﺃ ﺓﺪﺣﺍﻭ ﺓﺮﻤﻟ ﻭﺪﺒﻳﻭ .ﺎﻬﻴﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻢﻬﻨﻜﻤﻳ ﺓﻮﻗﻭ ﺫﻮﻔﻧ ﻱﺃ ﻰﻠﻋ ﺀﻼﻴﺘﺳﻻﺍ ﻦﻴﺴﺋﺎﻳ ﻥﻮﻟﻭﺎﺤﻳ ﻦﻳﺬﻟﺍ ،ﻦﻴﻤﺻﺎﺨﺘﻤﻟﺍ ﺀﺍﺮﻣﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺎﺑ [new_subject_target.GetName] ﺮﻬﺘﺸﺗ"
+ origin.5750.a:0 ".ﺎﻣ ﺀﻲﺷ ﻰﻠﻋ ﻕﺎﻔﺗﻻﺍ ﻥﻮﻌﻴﻄﺘﺴﻳ ﻢﻬﻧﺃ ﺎﻤﻟﺎﻃ"
+ origin.5750.b:0 ".ﻢﻬﺗﺍﺮﺟﺎﺸﻤﺑ ﻦﻴﻤﺘﻬﻣ ﺎﻨﺴﻟ ﻦﺤﻧ"
+
+ origin.5755.title:0 "ﺕﺎﻨﻴﺗﻻﺎﺑ ﻦﻣ ﺏﺮﺘﻗﺍ"
+ origin.5755.desc:0 ".ﺎﻨﻴﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻦﻴﺑ ﻞﻀﻓﺃ ﻢﻫﺎﻔﺗ ﺀﺎﻨﺑ ﻲﻓ ﻰﻟﻭﺃ ﺓﻮﻄﺨﻛ ،ﻪﻴﻠﻋ ﻊﻴﻗﻮﺘﻟﺎﺑ ﻦﻳﺪﻴﻌﺳ ﻥﺎﺒﻧﺎﺠﻟﺍ ﻥﻮﻜﻴﺳ ﻲﺳﺎﻣﻮﻠﺑﺩ ﻕﺎﻔﺗﺍ ﺀﺎﻬﻧﻹ ﻦﻳﺪﻫﺎﺟ ﻢﻫﻮﻴﺳﺎﻣﻮﻠﺑﺩ ﻰﻌﺴﻳ ﻥﻵﺍﻭ .ﺎﻣﺪﻗ ﻲﻀﻤﻠﻟ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻊﻣ ﺔﻠﺛﺎﻤﻣ ﺔﻗﻼﻋ ﺀﺎﻨﺒﺑ ﻥﻮﻤﺘﻬﻣ ﻢﻬﻧﺃ ﻭﺪﺒﻳﻭ ،ﺎﻬﻠﺣ ﻞﺒﻗ [previous_overlord.GetName] ﻦﻣ ﺹﺎﺧ ﻞﻜﺸﺑ ﺔﺒﻳﺮﻗ [new_subject_target.GetName] ﺖﻧﺎﻛ"
+ origin.5755.a:0 ".ﻻﺎﺠﻣ ﻢﻬﻟ ﺪﺠﻧ ﻑﻮﺳﻭ"
+ origin.5755.b:0 ".ﻦﻃﻮﻟﺍ ﻰﻟﺇ ﻦﻴﺛﻮﻌﺒﻤﻟﺍ ﻝﺎﺳﺭﺇ"
+
+ origin.5760.title:0 "ﻝﻮﻄﺳﻸﻟ ﻲﺑ ﺹﺎﺨﻟﺍ ﻱﺭﻭﺪﻟﺍ"
+ origin.5760.desc:0 ".ﻯﺮﺧﺃ ﺓﺮﻣ ﻢﻬﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺭﺍﺮﻘﺘﺳﺍ ﻊﻣ ﻊﺒﺘﺘﺳ ﺎﻬﻧﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ ﻲﺘﻟﺍ ﺡﺎﺑﺭﻷﺍ ﻦﻣ ﺍﺀﺰﺟ ﻰﺘﺣﻭ ،[new_subject_target.GetAdj] ﺔﻳﺩﻮﺒﻋ ﻢﻋﺩ ﺍﻮﺿﺮﻋﻭ ﺓﺭﺎﺠﺘﻟﺍ ﺀﺍﺮﻣﺃ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺎﻨﺑ ﻞﺼﺗﺍ ﺪﻘﻟ .ﺔﻳﺎﻤﺤﻠﻟ ﻪﻴﻠﻋ ﻥﻭﺪﻤﺘﻌﻳ ﺺﺨﺷ ﻢﻬﻳﺪﻟ ﺪﻌﻳ ﻢﻟ ﻥﻵﺍﻭ ،[previous_overlord.GetName] ﻞﺣ ﺪﻌﺑ ﺎﻣ ﺪﺣ ﻰﻟﺇ ﺓﺮﻘﺘﺴﻣ ﺮﻴﻏ ﺖﻧﺎﻛ [new_subject_target.GetName] ﻕﺍﻮﺳﺃ ﻥﺃ ﻭﺪﺒﻳ"
+ origin.5760.a:0 ".ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺓﺪﺻﺭﺃ ﺐﻠﺟ ﻥﻮﻌﻴﻄﺘﺴﻳ ﻢﻬﻧﺃ ﺎﻤﻟﺎﻃ"
+ origin.5760.b:0 ".ﺔﻴﻟﺎﻤﺳﺃﺮﻟﺍ ﻢﻬﺗﺍﻭﺮﺛ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﺎﻨﺴﻟ ﻦﺤﻧ"
+
+ #########################
+ # Mercenary Enclave
+ #########################
+
+ FLEET_LEASED_OUT:0 " $DAYS|Y$.£time£ ﻞﺑﺎﻘﻣ $COUNTRY|Y$ ﻰﻟﺇ $FLEET|Y$ ﻝﻮﻄﺳﻷﺍ ﺮﻴﺟﺄﺗ ﻢﺗ"
+ FLEET_RETURNED:0 ".$COUNTRY|Y$ ﻪﻜﻟﺎﻣ ﺔﻄﺳﺍﻮﺑ ﻝﻮﻄﺳﻷﺍ ﻲﻓ ﻢﻜﺤﺘﻟﺍ ﻢﺘﻳ ﻥﻵﺍﻭ .$FLEET|Y$ ﻝﻮﻄﺳﻷﺍ ﺭﺎﺠﻳﺇ ﺪﻘﻋ ﺦﺴﻓ ﻢﺗ"
+ FLEET_CONTRACT_PROLONGED:0 " $DAYS|Y$.£time£ ﺓﺪﻤﻟ $FLEET|Y$ ﻝﻮﻄﺳﻷﺍ ﺭﺎﺠﻳﺇ ﺪﻘﻋ ﺪﻳﺪﻤﺗ ﻢﺗ"
+ TRIGGER_IS_LEASED:0 "ﺮﺟﺆﻣ $FLEET|Y$ ﻝﻮﻄﺳﻷﺍ"
+ TRIGGER_IS_NOT_LEASED:0 "ﺮﺟﺆﻣ ﺮﻴﻏ $FLEET|Y$ ﻝﻮﻄﺳﻷﺍ"
+ TRIGGER_LEASE_DAYS:0 "$COMPARE$ $VALUE|Y$ ﺭﺎﺠﻳﻹﺍ ﻡﺎﻳﺃ $FLEET|Y$ ﻝﻮﻄﺳﻷﺍ"
+ TRIGGER_LEASE_DAYS_NOT:0 "$NOT $COMPARE$ $VALUE|Y ﺭﺎﺠﻳﻹﺍ ﻡﺎﻳﺃ $FLEET|Y$ ﻝﻮﻄﺳﻷﺍ"
+
+ #########################
+ # Galcom Resolutions
+ #########################
+
+ resolution_category_defenseprivatization:0 "ﻉﺎﻓﺪﻟﺍ ﺔﺼﺨﺼﺧ"
+
+ resolution_defenseprivatization_repeal_1:0 "§R$resolution_defenseprivatization_defense_contracts$ ﺀﺎﻐﻟﺇ§!"
+ resolution_defenseprivatization_repeal_1_desc:0 ".ﺔﺻﺎﺨﻟﺍ ﻡﻼﺴﻟﺍ ﻆﻔﺣ ﺕﺎﻴﻠﻤﻋ ﻰﻠﻋ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺪﻤﺘﻌﺗ ﻥﺃ ﻲﻐﺒﻨﻳ ﻻ [global_event_country.GetGalCommunityOrGalImperium] ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻥﺈﻓ ،ﺎﻫﺭﺎﻜﻧﺇ ﻦﻜﻤﻳ ﻻ ﻉﺎﻓﺪﻟﺍ ﻲﻟﻭﺎﻘﻣ ﺔﻴﻓﺍﺮﺘﺣﺍ ﻥﺃ ﻦﻴﺣ ﻲﻓ"
+ resolution_defenseprivatization_repeal_2:0 "§R$resolution_defenseprivatization_private_support_troops$ ﺀﺎﻐﻟﺇ§!"
+ resolution_defenseprivatization_repeal_2_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_3:0 "§R$resolution_defenseprivatization_condottieri$ ﺀﺎﻐﻟﺇ§!"
+ resolution_defenseprivatization_repeal_3_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_4:0 "§R$resolution_defenseprivatization_security_business$ ﺀﺎﻐﻟﺇ§!"
+ resolution_defenseprivatization_repeal_4_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+ resolution_defenseprivatization_repeal_5:0 "§R$resolution_defenseprivatization_corporate_warlords$ ﺀﺎﻐﻟﺇ§!"
+ resolution_defenseprivatization_repeal_5_desc:0 "$resolution_defenseprivatization_repeal_1_desc$"
+
+ resolution_defenseprivatization_defense_contracts:0 "ﻦﻣﻷﺍ ﻮﻟﻭﺎﻘﻣ"
+ resolution_defenseprivatization_defense_contracts_desc:0 ".[global_event_country.GetGalCommunityOrGalImperium] ﺀﺎﻀﻋﻷ ﻉﺎﻓﺪﻟﺍ ﻢﻴﻈﻨﺗ ﻲﻓ ﻦﻴﻴﺳﺎﻴﺴﻟﺍ ﺮﻴﻏﻭ ﺎﻴﻟﺎﻋ ﺎﺒﻳﺭﺪﺗ ﻥﻮﺑﺭﺪﻤﻟﺍ ﻥﻮﻓﺮﺘﺤﻤﻟﺍ ﺀﻻﺆﻫ ﺪﻋﺎﺴﻴﺳ .ﺔﻠﻘﺘﺴﻣ ﺔﻴﻨﻣﺃ ﺕﻻﺎﻛﻭ ﻲﻓ ﺩﺭﺍﻮﻤﻟﺍ ﺮﻤﺜﺘﺴﻧ ﻥﺃ ﺎﻨﻟ ﻲﻐﺒﻨﻳ ،ﺓﺮﺠﻤﻟﺍ ﻦﻣﺃ ﻞﺟﺃ ﻦﻣﻭ"
+ resolution_defenseprivatization_private_support_troops:0 "ﺔﻴﻟﺎﻌﻟﺍ ﺐﻗﺍﻮﻌﻟﺍ ﻦﻣ ﺔﻳﺎﻤﺣ"
+ resolution_defenseprivatization_private_support_troops_desc:0 ".ﺎﻨﻣﺁ [global_event_country.GetGalCommunityOrGalImperium] ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ :ﻩﺪﻴﺠﺗ ﺎﻤﺑ ﻡﺎﻴﻘﻟﺍ ﺔﻠﺻﺍﻮﻤﻟ ﺔﺻﺎﺨﻟﺍ ﺔﻴﻨﻣﻷﺍ ﺓﺰﻬﺟﻷﺍ ﻦﻴﻜﻤﺗ ﺐﺠﻳ ،ﺕﺎﻋﺍﺮﺼﻟﺍ ﻢﺠﺣ ﺪﻳﺍﺰﺗ ﻊﻣ"
+ resolution_defenseprivatization_condottieri:0 "ﻥﻭﺪﻳﺎﺤﻤﻟﺍ ﻥﻮﻌﻓﺍﺪﻤﻟﺍ"
+ resolution_defenseprivatization_condottieri_desc:0 ".ﺎﻬﻨﻋ ﻎﻠﺒﻤﻟﺍ ﺏﺮﺤﻟﺍ ﻊﺋﺎﻈﻓ ﺩﺪﻋ ﻦﻣ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻞﻠﻘﻴﺳ [global_event_country.GetGalCommunityOrGalImperium] ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ ،ﻉﺎﻓﺪﻟﺍ ﻲﺼﺼﺨﺘﻣ ﻱﺪﻳﺃ ﻲﻓ ﺎﻬﺘﻘﺛ ﻊﺿﻭ ﻝﻼﺧ ﻦﻣ .ﻚﻟﺬﻛ ﺖﺴﻴﻟ ﺔﻴﺒﻧﺎﺠﻟﺍ ﺭﺍﺮﺿﻷﺍ ﻦﻜﻟ ،ﺔﻴﻤﺘﺣ ﺏﺮﺤﻟﺍ ﻥﻮﻜﺗ ﺪﻗ"
+ resolution_defenseprivatization_security_business:0 "ﺔﻳﺮﺠﻤﻟﺍ ﺮﻃﺎﺨﻤﻟﺍ ﺓﺭﺍﺩﺇ"
+ resolution_defenseprivatization_security_business_desc:0 ".ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﻡﻼﺴﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺎﺑ ﻦﻳﺪﻳﺎﺤﻤﻟﺍ ﻉﺎﻓﺪﻟﺍ ﻲﻟﻭﺎﻘﻤﻟ ﺢﻤﺴﻴﺳ ﺔﻴﺼﺨﺸﻟﺍ ﻢﻬﺷﻮﻴﺟ ﻢﻴﻈﻨﺗ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ .ﺔﻬﻓﺎﺘﻟﺍ ﺕﺎﻨﺣﺎﺸﻤﻠﻟ ﺔﺿﺮﻋ ﺎﻬﻧﺃ ﺕﺎﺒﺛﺇ ﻲﻓ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺮﻤﺘﺴﺗ .ﺓﺮﺠﻤﻟﺍ ﺓﺭﺎﺛﺇ ﻲﻓ ﺮﻤﺘﺴﺗ ﺔﻔﻴﻨﻌﻟﺍ ﺔﻴﺟﻮﻟﻮﻳﺪﻳﻷﺍ ﺕﺎﻋﺍﺮﺼﻟﺍ ﻥﺈﻓ ،ﺎﻧﺪﻬﺟ ﻯﺭﺎﺼﻗ ﻝﺬﺑ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ resolution_defenseprivatization_corporate_warlords:0 "ﺕﺎﻛﺮﺸﻠﻟ ﻡﻼﺴﻟﺍ ﻆﻔﺣ"
+ resolution_defenseprivatization_corporate_warlords_desc:0 "'$enclave.235.4.desc$'"
+
+ resolution_defenseprivatization_repeal_1_effect_success:0 ".§Y$resolution_defenseprivatization_defense_contracts$§! ﺭﺍﺮﻗ ﻲﻐﻠﻳ"
+ resolution_defenseprivatization_repeal_2_effect_success:0 ".ﺓﺮﺠﻤﻟﺍ ﻥﻮﻧﺎﻘﻛ §Y$resolution_defenseprivatization_defense_contracts$§! ﻙﺮﺘﻳﻭ ،§Y$resolution_defenseprivatization_private_support_troops$§! ﺭﺍﺮﻗ ﻲﻐﻠﻳ"
+ resolution_defenseprivatization_repeal_3_effect_success:0 ".ﺓﺮﺠﻤﻟﺍ ﻥﻮﻧﺎﻘﻛ §Y$resolution_defenseprivatization_private_support_troops$§! ﻙﺮﺘﻳﻭ ،§Y$resolution_defenseprivatization_condottieri$§! ﺭﺍﺮﻘﻟﺍ ﻲﻐﻠﻳ"
+ resolution_defenseprivatization_repeal_4_effect_success:0 ".ﻱﺮﺠﻣ ﻥﻮﻧﺎﻘﻛ §Y$resolution_defenseprivatization_condottieri$§! ﻙﺮﺘﻳﻭ ،§Y$resolution_defenseprivatization_security_business$§! ﺭﺍﺮﻗ ﻲﻐﻠﻳ"
+ resolution_defenseprivatization_repeal_5_effect_success:0 ".ﺓﺮﺠﻤﻟﺍ ﻥﻮﻧﺎﻘﻛ §Y$resolution_defenseprivatization_security_business$§! ﻙﺮﺘﻳﻭ ،§Y$resolution_defenseprivatization_corporate_warlords$§! ﺭﺍﺮﻘﻟﺍ ﻲﻐﻠﻳ"
+ resolution_defenseprivatization_defense_contracts_tooltip:1 ".ﺔﻗﺎﻄﻟﺍ ﺔﻧﺎﻴﺻ §R+10%§! ﺎﻬﻳﺪﻟ ﻦﻜﻟﻭ ﺔﻌﺴﻟﺍ ﻞﻗﺃ ﺔﻳﺮﺤﺑ ﺓﻮﻗ §!%XYZT_105XYZT ﻚﻠﻬﺘﺴﺗ §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﻞﻴﻃﺎﺳﺃ§! ﺭﺎﺠﺌﺘﺳﺍ ﻢﺗ\n.ﺍﺭﺍﺮﻜﺗ ﺮﺜﻛﺃ §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﺡﺎﺑﺭﺃ ﻊﻳﺯﻮﺗ§!\n.ﺔﻳﺮﺤﺑ ﺔﻌﺳ §G+10§! ﺐﺴﺘﻜﺗ §Yﺔﻗﺰﺗﺮﻣ ﺔﻘﻄﻨﻣ§! ﻞﻛ"
+ resolution_defenseprivatization_private_support_troops_tooltip:1 ".ﺔﻗﺎﻄﻠﻟ ﺔﻧﺎﻴﺻ §R+20%§! ﺎﻬﻳﺪﻟ ﻦﻜﻟﻭ ﺔﻳﺮﺤﺒﻟﺍ ﺓﺭﺪﻘﻟﺍ ﻞﻗﺃ §!%XYZT_1010XYZT ﻚﻠﻬﺘﺴﺗ §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﻞﻴﻃﺎﺳﺃ§! ﺓﺮﺟﺄﺘﺴﻤﻟﺍ\n.ﺍﺭﺍﺮﻜﺗ ﺮﺜﻛﺃ §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﺡﺎﺑﺭﺃ ﻊﻳﺯﻮﺗ§!\n.ﺔﻳﺮﺤﺒﻟﺍ ﺓﺭﺪﻘﻟﺍ §G+20§! ﺐﺴﺘﻜﺗ §Yﺔﻗﺰﺗﺮﻣ ﺔﻘﻄﻨﻣ§! ﻞﻛ"
+ resolution_defenseprivatization_condottieri_tooltip:1 "$resolution_defenseprivatization_breach$\n\n.ﺔﻗﺎﻄﻟﺍ ﺔﻧﺎﻴﺻ §R+30%§! ﺎﻬﻳﺪﻟ ﻦﻜﻟﻭ ﺔﻳﺮﺤﺒﻟﺍ ﺓﺭﺪﻘﻟﺍ ﻞﻗﺃ §!%XYZT_1015XYZT ﻚﻠﻬﺘﺴﺗ §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﻞﻴﻃﺎﺳﺃ§! ﺓﺮﺟﺄﺘﺴﻤﻟﺍ\n.ﺍﺭﺍﺮﻜﺗ ﺮﺜﻛﺃ §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﺡﺎﺑﺭﺃ ﻊﻳﺯﻮﺗ§!\n.ﺔﻳﺮﺤﺒﻟﺍ ﺓﺭﺪﻘﻟﺍ §G+30§! ﺐﺴﺘﻜﺗ §Yﺔﻗﺰﺗﺮﻣ ﺔﻘﻄﻨﻣ§! ﻞﻛ"
+ resolution_defenseprivatization_security_business_tooltip:1 "$resolution_defenseprivatization_breach$\n\n §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﻝﻮﻄﺳﺃ§! ﺎﻤﻨﻴﺑ §Yﻲﺳﺎﻣﻮﻠﺑﺩ ﻥﺯﻭ§! £diplo_weight£ §G+20%§!\n.ﺔﻗﺎﻄﻠﻟ ﺔﻧﺎﻴﺻ §R+40%§! ﺎﻬﻳﺪﻟ ﻦﻜﻟﻭ ﺔﻳﺮﺤﺒﻟﺍ ﺓﺭﺪﻘﻟﺍ ﻞﻗﺃ §!%XYZT_1020XYZT ﻚﻠﻬﺘﺴﺗ §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﻞﻴﻃﺎﺳﺃ§! ﺓﺮﺟﺄﺘﺴﻤﻟﺍ\n.ﺍﺭﺍﺮﻜﺗ ﺮﺜﻛﺃ §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﺡﺎﺑﺭﺃ ﻊﻳﺯﻮﺗ§!\n.ﺔﻳﺮﺤﺒﻟﺍ ﺓﺭﺪﻘﻟﺍ §G+40§! ﺐﺴﺘﻜﺗ §Yﺔﻗﺰﺗﺮﻣ ﺔﻘﻄﻨﻣ§! ﻞﻛ"
+ resolution_defenseprivatization_corporate_warlords_tooltip:1 ".§Rbanned§! ﻮﻫ §Yﻦﻳﺮﺟﺄﺘﺴﻣ ﺔﻗﺰﺗﺮﻣ ﺩﻮﺟﻭ ﻡﺪﻋ§!\n\n §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﻝﻮﻄﺳﺃ§! ﺎﻤﻨﻴﺑ §Yﻲﺳﺎﻣﻮﻠﺑﺩ ﻥﺯﻭ§! £diplo_weight£ §G+40%§!\n.ﺔﻗﺎﻄﻠﻟ ﺔﻧﺎﻴﺻ §R+50%§! ﺎﻬﻳﺪﻟ ﻦﻜﻟﻭ ﺔﻳﺮﺤﺒﻟﺍ ﺓﺭﺪﻘﻟﺍ ﻞﻗﺃ §!%XYZT_1025XYZT ﻚﻠﻬﺘﺴﺗ §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﻞﻴﻃﺎﺳﺃ§! ﺓﺮﺟﺄﺘﺴﻤﻟﺍ\n.ﺍﺭﺍﺮﻜﺗ ﺮﺜﻛﺃ §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﺡﺎﺑﺭﺃ ﻊﻳﺯﻮﺗ§!\n.ﺔﻳﺮﺤﺒﻟﺍ ﺓﺭﺪﻘﻟﺍ §G+50§! ﺐﺴﺘﻜﺗ §Yﺔﻗﺰﺗﺮﻣ ﺔﻘﻄﻨﻣ§! ﻞﻛ"
+
+ resolution_defenseprivatization_breach:0 ".§Rﺭﻮﻈﺤﻣ§! ﻮﻫ §Yﻦﻳﺮﺟﺄﺘﺴﻣ ﺔﻗﺰﺗﺮﻣ ﻱﺃ ﻥﻭﺪﺑ ﺏﺮﺣ ﺔﻟﺎﺣ ﻲﻓ ﺪﺟﺍﻮﺘﻟﺍ§!"
+ resolution_defenseprivatization_defense_contracts_merc_naval_cap:0 "ﺕﺍﺭﺍﺮﻘﻟﺍ ﻦﻣ ﺔﻳﺮﺤﺒﻟﺍ ﺓﺭﺪﻘﻟﺍ"
+ resolution_defenseprivatization_private_support_troops_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_condottieri_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_security_business_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_corporate_warlords_merc_naval_cap:0 "$resolution_defenseprivatization_defense_contracts_merc_naval_cap$"
+ resolution_defenseprivatization_security_business_merc_hired:0 "$resolution_defenseprivatization_security_business$"
+ resolution_defenseprivatization_corporate_warlords_merc_hired:0 "$resolution_defenseprivatization_corporate_warlords$"
+
+ # Suzerains & Sovereignty
+ not_allowed_for_galcom_resolution:0 "§R.ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ ﺭﺍﺮﻗ ﺐﺟﻮﻤﺑ ﺢﻠﻄﺼﻤﻟﺍ ﺍﺬﻫ ﺮﻈﺣ ﻢﺗ§!"
+ galcom_tooltip_no_independent_sensors:0 ".Galactic ﻊﻤﺘﺠﻣ ﺀﺎﻀﻋﺃ ﻦﻴﺑ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻲﻓ ﺪﻨﺒﻛ ﺎﺤﻟﺎﺻ ﺪﻌﻳ ﻢﻟ §Y$subject_does_not_get_sensors$§!"
+ galcom_tooltip_no_independent_diplomacy:0 ".Galactic ﻊﻤﺘﺠﻣ ﺀﺎﻀﻋﺃ ﻦﻴﺑ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻲﻓ ﺪﻨﺒﻛ ﺎﺤﻟﺎﺻ §Y$subject_can_do_diplomacy$§! ﺪﻌﻳ ﻢﻟ"
+ galcom_tooltip_no_integration_permitted:0 ".Galactic ﻊﻤﺘﺠﻣ ﺀﺎﻀﻋﺃ ﻦﻴﺑ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻲﻓ ﺪﻨﺒﻛ ﺎﺤﻟﺎﺻ ﺪﻌﻳ ﻢﻟ §Y$subject_can_be_integrated$§!"
+ galcom_tooltip_no_expansion_prohibited:0 ".Galactic ﻊﻤﺘﺠﻣ ﺀﺎﻀﻋﺃ ﻦﻴﺑ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻲﻓ ﺪﻨﺒﻛ ﺎﺤﻟﺎﺻ ﺪﻌﻳ ﻢﻟ §Y$subject_cannot_expand$§!"
+ galcom_tooltip_no_expansion_regulated:0 ".Galactic ﻊﻤﺘﺠﻣ ﺀﺎﻀﻋﺃ ﻦﻴﺑ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻲﻓ ﺪﻨﺒﻛ ﺎﺤﻟﺎﺻ ﺪﻌﻳ ﻢﻟ §Y$subject_can_expand_with_tithe$§!"
+ galcom_tooltip_no_limited_diplomacy:0 ".Galactic ﻊﻤﺘﺠﻣ ﺀﺎﻀﻋﺃ ﻦﻴﺑ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻲﻓ ﺪﻨﺒﻛ ﺎﺤﻟﺎﺻ ﺪﻌﻳ ﻢﻟ §Y$subject_can_not_do_diplomacy$§!"
+ galcom_tooltip_no_holdings_3:0 ".Overlord Galactic ﻊﻤﺘﺠﻣ ﺀﺎﻀﻋﻷ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻲﻓ ﺪﻨﺒﻛ ﺎﺤﻟﺎﺻ ﺪﻌﻳ ﻢﻟ §Y(3) ﺕﺎﻴﻨﺘﻘﻤﻟﺍ ﺪﺣ§!"
+ galcom_tooltip_no_holdings_4:0 ".Overlord Galactic ﻊﻤﺘﺠﻣ ﺀﺎﻀﻋﻷ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻲﻓ ﺪﻨﺒﻛ ﺎﺤﻟﺎﺻ ﺪﻌﻳ ﻢﻟ §Y(4) ﺕﺎﻴﻨﺘﻘﻤﻟﺍ ﺪﺣ§!"
+ galcom_tooltip_strengthened_specialists:0 ".§Yﺩﺭﺍﻮﻤﻟﺍ ﺕﺎﻓﺎﺸﺘﻛﺍ§! ﻦﻴﺴﺤﺘﺑ ﻡﺎﻗ §YProspectoria§!\n.§Yﺐﻛﺍﻮﻜﻟﺍ ﺭﺎﻌﺸﺘﺳﺍ ﺓﺰﻬﺟﺃ§! ﻦﻴﺴﺤﺘﺑ ﻡﺎﻗ §YScholaria§!\n.ﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻣﻭ ﺔﻴﻤﺠﻨﻟﺍ ﺪﻋﺍﻮﻘﻟﺍ ﻦﻴﺴﺤﺘﺑ §YBulwarks§! ﻡﺎﻗ"
+
+ galcom_tooltip_ethics_tier_1:0 ".ﺔﺒﺼﻌﺘﻤﻟﺍ ﻢﻫﺪﻴﺳ ﺕﺎﻴﻗﻼﺧﺃ ﻩﺎﺠﺗ §!%XYZT_025XYZT ﻲﻗﻼﺧﺃ ﺏﺍﺬﺠﻧﺍ ﻢﻬﻳﺪﻟ ﺹﺎﺨﺷﻷﺍ"
+ galcom_tooltip_ethics_tier_2:0 ".ﺔﺒﺼﻌﺘﻤﻟﺍ ﻢﻫﺪﻴﺳ ﺕﺎﻴﻗﻼﺧﺃ ﻩﺎﺠﺗ §!%XYZT_050XYZT ﻲﻗﻼﺧﺃ ﺏﺍﺬﺠﻧﺍ ﻢﻬﻳﺪﻟ ﺹﺎﺨﺷﻷﺍ"
+ galcom_tooltip_ethics_tier_3:0 ".ﺔﺒﺼﻌﺘﻤﻟﺍ ﻢﻫﺪﻴﺳ ﺕﺎﻴﻗﻼﺧﺃ ﻩﺎﺠﺗ §!%XYZT_075XYZT ﻲﻗﻼﺧﺃ ﺏﺍﺬﺠﻧﺍ ﻢﻬﻳﺪﻟ ﺹﺎﺨﺷﻷﺍ"
+
+ galcom_is_subject:0 "ﻉﻮﺿﻮﻣ ﻮﻫ"
+ galcom_is_overlord:0 "ﺩﺭﻮﻟﺮﻓﺃ ﻮﻫ"
+
+ suzerains_sovereignty:1 "ﺓﺩﺎﻴﺴﻟﺍﻭ ﺓﺩﺎﻴﺴﻟﺍ"
+
+ resolution_category_intergalacticdirective:0 "ﺕﺍﺮﺠﻤﻟﺍ ﻦﻴﺑ ﺕﺎﻬﻴﺟﻮﺘﻟﺍ"
+ resolution_category_bureaucraticsurveillance:0 "ﺔﻴﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ"
+
+ resolution_intergalacticdirective_regulated_growth:0 "ﻢﻈﻨﻤﻟﺍ ﻮﻤﻨﻟﺍ"
+ resolution_intergalacticdirective_regulated_growth_desc:0 ".ﺎﻌﻴﻤﺟ ﺎﻨﺤﻟﺎﺻ ﻲﻓ ﺎﻬﻧﺃ ﻻﺇ ،ﺔﻘﻧﺎﺧ ﺔﻴﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﻥﺃ ﺪﺠﻳ ﺪﻗ ﺾﻌﺒﻟﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋﻭ .ﻊﻴﻤﺠﻠﻟ ﺔﻟﺍﺪﻋﻭ ﺎﻧﺎﻣﺃ ﺮﺜﻛﺃ ﺓﺮﺠﻣ ﻦﻴﻣﺄﺗ ﺎﻨﻨﻜﻤﻳ ،ﺀﺎﻀﻋﻷﺍ ﻝﻭﺪﻟﺍ ﺩﻭﺪﺣ ﻢﻴﻈﻨﺗ ﻝﻼﺧ ﻦﻣﻭ"
+ resolution_intergalacticdirective_ensured_sovereignty:0 "ﺔﻧﻮﻤﻀﻣ ﺓﺩﺎﻴﺴﻟﺍ"
+ resolution_intergalacticdirective_ensured_sovereignty_desc:0 ".ﻢﻬﺘﻣﻼﺳ ﻯﺮﺧﺃ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺖﻜﻬﺘﻧﺍ ﻥﺃ ﻖﺒﺳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﺔﺻﺎﺧﻭ ،ﻪﺋﺎﻀﻋﺃ ﺓﺩﺎﻴﺳ ﻥﺎﻤﻀﻟ ﺕﺎﻬﻴﺟﻮﺗ ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ ﻊﻀﻴﺳ"
+ resolution_intergalacticdirective_a_voice_for_all:0 "ﻊﻴﻤﺠﻠﻟ ﺕﻮﺻ"
+ resolution_intergalacticdirective_a_voice_for_all_desc:0 ".ﻢﻬﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻞﺒﻘﺘﺴﻣ ﻲﻓ ﻱﺃﺭ ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ ﻲﻓ ﻮﻀﻋ ﻞﻜﻟ ﻥﻮﻜﻳ ﻥﺃ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻦﻤﻀﻴﺳ"
+
+ resolution_intergalacticdirective_repeal_1:0 "§R$resolution_intergalacticdirective_organized_growth$ ﺀﺎﻐﻟﺇ§!"
+ resolution_intergalacticdirective_repeal_1_desc:0 ".ﺕﺎﻴﺣﻼﺼﻟﺍ ﻩﺬﻫ ﺾﻌﺑ ﺺﻴﻠﻘﺘﻟ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻓ ،ﺔﺳﻼﺴﺑ ﺔﻴﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﻞﻤﻋ ﻥﺎﻤﻀﻟﻭ .ﺔﻘﻧﺎﺧﻭ ﺔﻓﺮﺠﻌﺘﻣ ﺖﺤﺒﺻﺃ ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ ﺎﻬﺿﺮﻔﻳ ﻲﺘﻟﺍ ﺕﺎﻬﻴﺟﻮﺘﻟﺍ ﻥﺃ ﻻﺇ ،ﺎﻫﺩﻭﺪﺣ ﻡﺍﺮﺘﺣﺎﺑ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺐﻟﺎﻄﺗ ﻥﺃ ﻲﻌﻴﺒﻄﻟﺍ ﻦﻣ ﻪﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ resolution_intergalacticdirective_repeal_2:0 "§R$resolution_intergalacticdirective_ensured_sovereignty$ ﺀﺎﻐﻟﺇ§!"
+ resolution_intergalacticdirective_repeal_2_desc:0 "$resolution_intergalacticdirective_repeal_1_desc$"
+ resolution_intergalacticdirective_repeal_3:0 "§R$resolution_intergalacticdirective_a_voice_for_all$ ﺀﺎﻐﻟﺇ§!"
+ resolution_intergalacticdirective_repeal_3_desc:0 "$resolution_intergalacticdirective_repeal_1_desc$"
+
+ resolution_bureaucraticsurveillance_administrative_insight:0 "ﺔﻳﺭﺍﺩﻹﺍ ﺓﺮﻴﺼﺒﻟﺍ"
+ resolution_bureaucraticsurveillance_administrative_insight_desc:0 ".ﺔﻴﺳﺎﻣﻮﻠﺑﺩ ﺕﺎﻴﻗﺎﻔﺗﺍ ﻞﻌﻔﻟﺎﺑ ﺎﻬﻳﺪﻟ ﻲﺘﻟﺍ ﺀﺎﻀﻋﻷﺍ ﻝﻭﺪﻟﺍ ﻦﻴﺑ ﺔﺻﺎﺧﻭ ،ﺥﻮﻴﺸﻟﺍ ﺲﻠﺠﻣ ﻲﻓ ﺎﺣﻮﺿﻭ ﺮﺜﻛﺃ ﻱﺭﺍﺩﺇ ﻞﺴﻠﺴﺗ ﺽﺮﻓ ﻰﻠﻋ ﻞﻤﻌﻧ ﺎﻨﻧﺈﻓ ،ﺔﻳﺮﺠﻤﻟﺍ ﺔﻴﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﻂﻴﺴﺒﺘﻟ ﺎﻧﺩﻮﻬﺟ ﻦﻣ ﺀﺰﺠﻛﻭ"
+ resolution_bureaucraticsurveillance_borderless_authority:0 "ﺩﻭﺪﺣ ﻼﺑ ﺔﻄﻠﺳ"
+ resolution_bureaucraticsurveillance_borderless_authority_desc:0 ".ﺥﻮﻴﺸﻟﺍ ﺲﻠﺠﻣ ﻲﻓ ﻯﻮﻗﻷﺍ ﺀﺎﻀﻋﻷﺍ ﻰﻟﺇ ﺮﺒﻛﺃ ﺔﻄﻠﺳ ﻢﻴﻠﺴﺗ ﻢﺘﻴﺳ ،ﺔﻴﻠﺧﺍﺪﻟﺍ ﺎﻬﺘﻴﻃﺍﺮﻗﻭﺮﻴﺑ ﻂﻴﺴﺒﺘﻟ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺎﻧﺩﻮﻬﺟ ﻦﻣ ﺀﺰﺠﻛﻭ"
+ resolution_bureaucraticsurveillance_personal_oversight:0 "ﺔﻴﺼﺨﺸﻟﺍ ﺔﺑﺎﻗﺮﻟﺍ"
+ resolution_bureaucraticsurveillance_personal_oversight_desc:0 "!ﺮﻴﺒﻛ ﺪﺣ ﻰﻟﺇ ﺥﻮﻴﺸﻟﺍ ﺲﻠﺠﻣ ﺓﺀﺎﻔﻛ ﻦﻴﺴﺤﺗ ﻰﻟﺇ ﺕﺩﺃ ﻲﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﻦﻴﺗﻭﺮﻟﺍ ﻰﻠﻋ ﺀﺎﻀﻘﻠﻟ ﺎﻧﺩﻮﻬﺟ ﻥﺃ ﻻﺇ ،ﺎﻬﺗﺩﺎﻴﺳ ﻲﻓ ﺍﺭﻮﻫﺪﺗ ﺕﺎﻳﻻﻮﻟﺍ ﺾﻌﺑ ﺕﺪﻬﺷ ﻦﻴﺣ ﻲﻓﻭ"
+
+ resolution_bureaucraticsurveillance_repeal_1:0 "§R$resolution_bureaucraticsurveillance_administrator_insight$ ﺀﺎﻐﻟﺇ§!"
+ resolution_bureaucraticsurveillance_repeal_1_desc:0 ".ﺩﻮﻘﻔﻤﻟﺍ ﻝﻼﻘﺘﺳﻻﺍ ﺍﺬﻫ ﺾﻌﺑ ﺓﺩﺎﻌﺘﺳﻻ ﺎﻀﻳﻮﻔﺗ ﻥﻵﺍ ﻥﻮﺣﺮﺘﻘﻳ ﻢﻫﻭ .ﺮﻄﺨﻠﻟ ﺎﻬﺗﺩﺎﻴﺳ ﺽﺮﻌﺗ ﻦﻣ ﻯﻮﻜﺸﻟﺍ ﻰﻟﺇ ﺀﺎﻀﻋﻷﺍ ﻝﻭﺪﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻊﻓﺩ ﻲﻓ ﺎﺒﺒﺳ ،ﻪﺣﺎﺠﻧ ﻢﻏﺭ ،ﻲﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﻦﻴﺗﻭﺮﻟﺍ ﺔﻟﺍﺯﺇ ﻰﻠﻋ ﺎﻧﺰﻴﻛﺮﺗ ﻥﺎﻛﻭ"
+ resolution_bureaucraticsurveillance_repeal_2:0 "§R$resolution_bureaucraticsurveillance_borderless_authority$ ﺀﺎﻐﻟﺇ§!"
+ resolution_bureaucraticsurveillance_repeal_2_desc:0 "$resolution_bureaucraticsurveillance_repeal_1_desc$"
+ resolution_bureaucraticsurveillance_repeal_3:0 "§R$resolution_bureaucraticsurveillance_personal_oversight$ ﺀﺎﻐﻟﺇ§!"
+ resolution_bureaucraticsurveillance_repeal_3_desc:0 "$resolution_bureaucraticsurveillance_repeal_1_desc$"
+
+ #########################
+ # Triggers & Effects
+ #########################
+
+ count_available_debris_trigger:0 "ﺡﺎﺘﻤﻟﺍ ﻡﺎﻄﺤﻟﺍ ﺪﻋ"
+ effect_random_available_debris:0 "ﻡﺎﻄﺤﻟﺍ ﺔﺣﺎﺘﻤﻟﺍ ﺔﻴﺋﺍﻮﺸﻋ"
+ DEBRIS_OWNERSHIP_PASSED_TO:0 "$COUNTRY|Y$ ﻰﻟﺇ ﻡﺎﻄﺤﻟﺍ ﺔﻴﻜﻠﻣ ﺖﻠﻘﺘﻧﺍ"
+
+
+ #########################
+ # Modifiers
+ #########################
+
+ MOD_SHIP_FRIENDLY_TERRITORY_HULL_ADD: "$MOD_SHIP_HULL_ADD$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_HULL_MULT: "$MOD_SHIP_HULL_MULT$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_ARMOR_ADD:0 "$MOD_SHIP_ARMOR_ADD$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_ARMOR_MULT:0 "$MOD_SHIP_ARMOR_MULT$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_SHIELD_ADD:0 "$MOD_SHIP_SHIELD_ADD$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_SHIELD_MULT:0 "$MOD_SHIP_SHIELD_MULT$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_EVASION_ADD:0 "$MOD_SHIP_EVASION_ADD$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_EVASION_MULT:0 "$MOD_SHIP_EVASION_MULT$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_ACCURACY_ADD:0 "$MOD_SHIP_ACCURACY_ADD$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_ACCURACY_MULT:0 "$MOD_SHIP_ACCURACY_MULT$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_ADD:0 "$MOD_SHIP_TRACKING_ADD$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_TRACKING_MULT:0 "$MOD_SHIP_TRACKING_MULT$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_FRIENDLY_TERRITORY_FIRE_RATE_MULT:0 "$MOD_SHIP_FIRE_RATE_MULT$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ"
+ MOD_SHIP_OUTSIDE_FRIENDLY_TERRITORY_FIRE_RATE_MULT:0 "$MOD_SHIP_FIRE_RATE_MULT$ ﺔﻘﻳﺪﺼﻟﺍ ﺔﻤﻈﻧﻷﺍ ﺝﺭﺎﺧ"
+ subject_loyalty_effects:0 "ﻉﻮﺿﻮﻣ"
+ naval_cap_unmodified:0 "$subject_loyalty_effets$"
+
+ resolution_galcom_ethic_modifier:0 "$resolution_category_bureaucraticsurveillance$"
+ resolution_galcom_ethic_modifier_desc:0 ".ﻩﺎﻳﺎﻋﺮﻟ ﺔﻴﻠﺧﺍﺪﻟﺍ ﻝﺎﻤﻋﻷﺍ ﻰﻠﻋ ﺮﺒﻛﺃ ﺔﻄﻠﺳﻭ ﺓﺮﻴﺼﺒﺑ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻩﺬﻫ ﺪﻴﺳ ﻊﺘﻤﺘﻳ ،ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ ﺓﺪﻋﺎﺴﻤﺑ"
+
+ resolution_galcom_spiritualist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_spiritualist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_materialist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_materialist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_materialist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_materialist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_authoritarian_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_authoritarian_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_egalitarian_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_egalitarian_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_xenophile_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophile_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophile_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophile_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_xenophobe_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_xenophobe_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_militarist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_militarist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_militarist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_militarist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_pacifist_ethic_modifier_tier_1:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_1_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_pacifist_ethic_modifier_tier_2:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_2_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+ resolution_galcom_pacifist_ethic_modifier_tier_3:0 "$resolution_galcom_ethic_modifier$"
+ resolution_galcom_pacifist_ethic_modifier_tier_3_desc:0 "$resolution_galcom_ethic_modifier_desc$"
+
+ resolution_galcom_bulwark_modifier:0 "$resolution_intergalacticdirective_a_voice_for_all$"
+ resolution_galcom_bulwark_modifier_desc:0 ".ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ ﺕﺎﻬﻴﺟﻮﺗﻭ ﻦﻴﻧﺍﻮﻗ ﻢﻋﺪﺑ ﺎﻫﺰﻳﺰﻌﺗ ﻢﺘﻳ"
+
+ #########################
+ # Opinion Modifiers
+ #########################
+ opinion_imperial_overlord_ai_opinion:0 "ﺮﻴﺨﻟﺍ ﺪﻴﺳ"
+ opinion_imperial_vassal_ai_opinion:0 "ﺮﻴﺧﻷﺍ ﺮﻴﻈﻨﻟﺍ"
+ opinion_imperial_vassal_new_overlord:0 "ﺪﻳﺪﺟ ﻲﻣﺎﺣ"
+ opinion_imperial_vassal_refused_overlordship:0 "ﺓﺩﺎﻴﺴﻟﺍ ﺾﻓﺭ"
+ opinion_imperial_vassal_grateful_response_overlord_opinion:0 "ﺮﻛﺎﺷ"
+ opinion_imperial_vassal_harsh_response_overlord_opinion:0 "ﻞﻣﻷﺍ ﺐﺋﺎﺧ"
+
+ ####################
+ # Assorted Tooltips
+ ####################
+
+ dialog_friendly_tt:0 ".§Gﻱﺩﻮﻟﺍ§! ﻒﻗﻮﻣ ﺬﺨﺘﻧ ﻑﻮﺳ"
+ dialog_neutral_tt:0 ".§Yﺪﻳﺎﺤﻣ§! ﻒﻗﻮﻣ ﺬﺨﺘﻧ ﻑﻮﺳ"
+ dialog_wary_tt:0 ".§Yﺭﺬﺣ§! ﻒﻗﻮﻣ ﺬﺨﺘﻧ ﻑﻮﺳ"
+ dialog_hostile_tt:0 ".§Rﻲﺋﺍﺪﻋ§! ﻒﻗﻮﻣ ﺬﺨﺘﻧ ﻑﻮﺳ"
+
+ is_a_signatory_vassal:0 ".ﻊﻗﻮﻤﻟﺍ ﻮﻫ"
+ is_not_a_signatory_vassal:0 ".ﺎﻌﻗﻮﻣ ﺲﻴﻟ"
+ is_a_signatory_vassal_success:0 "$TRIGGER_PASS$ $is_a_signatory_vassal$"
+ is_a_signatory_vassal_fail:0 "$TRIGGER_FAIL$ $is_a_signatory_vassal$"
+ is_not_a_signatory_vassal_success:0 "$TRIGGER_PASS$ $is_not_a_signatory_vassal$"
+ is_not_a_signatory_vassal_fail:0 "$TRIGGER_FAIL$ $is_not_a_signatory_vassal$"
+
+ same_federation_as_overlord:0 "ﻰﻠﻋﻷﺍ ﺪﻴﺴﻟﺍ ﻥﻭﺪﺑ ﺩﺎﺤﺗﻻﺍ ﻲﻓ ﺎﻌﺑﺎﺗ $TRIGGER_FAIL$ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﻻ"
+ requires_not_subject_or_subject_asking_overlord:0 "§Rﻰﻠﻋﻷﺍ ﺪﻴﺴﻟﺍ ﺩﺎﺤﺗﺍ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻻﺍ ﻰﻠﻋﻷﺍ ﺎﻫﺪﻴﺳ ﻦﻣ ﺐﻠﻄﺗ ﻥﺃ ﻂﻘﻓ ﺕﺎﻋﻮﺿﻮﻤﻠﻟ ﻦﻜﻤﻳ§!$TRIGGER_FAIL$"
+ requires_not_subject_or_overlord_asking:0 "§Rﻰﻠﻋﻷﺍ ﺪﻴﺴﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﻻﺇ ﺩﺎﺤﺗﻻﺍ ﻰﻟﺇ ﺕﺎﻋﻮﺿﻮﻤﻟﺍ ﺓﻮﻋﺩ ﻦﻜﻤﻳ ﻻ§!$TRIGGER_FAIL$"
+ requires_not_subject_to_start_federation:0 "§Rﻢﻫﺪﻴﺳ ﻯﻮﺳ ﺺﺨﺷ ﻱﺃ ﻊﻣ ﺕﺍﺩﺎﺤﺗﺍ ﻞﻴﻜﺸﺗ ﺕﺎﻋﻮﺿﻮﻤﻠﻟ ﻦﻜﻤﻳ ﻻ§!$TRIGGER_FAIL$"
+ requires_not_guaranteeing_independence:0 "§R.ﺮﻬﻘﻟﺍ ﺡﺍﺮﺘﻗﺍ ﻞﺒﻗ ﻢﻬﻟﻼﻘﺘﺳﺍ ﻥﺎﻤﺿ ﻦﻋ ﻒﻗﻮﺘﻧ ﻥﺃ ﺐﺠﻳ§!$TRIGGER_FAIL$ "
+
+ STARBASE_AURA_MERCENARY_GARRISON:0 "ﺔﻗﺰﺗﺮﻤﻟﺍ ﺔﻴﻣﺎﺣ"
+ aura_starbase_mercenary_garrison:0 "ﺔﻗﺰﺗﺮﻤﻟﺍ ﺔﻴﻣﺎﺣ - ﺔﻴﻋﺎﻓﺪﻟﺍ ﺔﻟﺎﻬﻟﺍ"
+
+ # Ambient Object
+ central_crystal_gateway:0 "ﺔﻴﻠﺧﺍﺪﻟﺍ ﺔﺑﺍﻮﺒﻟﺍ"
+ central_crystal_gateway_desc:0 ".ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﻯﺮﺧﺃ ﺔﺑﺍﻮﺑ ﻱﺃ ﻦﻋ ﺔﻠﺼﻔﻨﻣ ﻭﺪﺒﺗ ،ﺔﻀﻣﺎﻏ ﺔﺑﺍﻮﺑ"
+
+ ##################
+ # Civics Changes
+ ##################
+
+ civic_private_military_companies_ove:0 "$civic_private_military_companies$"
+ civic_private_military_companies_ove_desc:0 "$civic_private_military_companies_desc$"
+ civic_naval_contractors_ove:0 "$civic_naval_contractors$"
+ civic_naval_contractors_ove_desc:0 "$civic_naval_contractors_desc$"
+ civic_barbaric_despoilers_ove:0 "$civic_barbaric_despoilers$"
+ civic_barbaric_despoilers_ove_desc:0 "$civic_barbaric_despoilers_desc$"
+ civic_warrior_culture_ove:0 "$civic_warrior_culture$"
+ civic_warrior_culture_ove_desc:0 "$civic_warrior_culture_desc$"
+
+ ##################
+ # New Ascension Perk
+ ##################
+
+ ap_lord_of_war:0 "ﺏﺮﺤﻟﺍ ﺪﻴﺳ"
+ ap_lord_of_war_desc:0 ".ﺎﻀﻳﺃ ﻦﺤﻧ ﺮﻫﺩﺰﻨﺳ ﻢﻬﻟﻼﺧ ﻦﻣﻭ ،ﺓﺮﺻﺎﺤﻣ ﺓﺮﺠﻣ ﻲﻓ ﺎﻨﺘﻗﺰﺗﺮﻣ ﺮﻫﺩﺰﻳ .ﺎﻨﻠﻤﻋ ﻲﻫ ﺏﺮﺤﻟﺍ ﻦﻜﻟ ،ﻝﺎﻤﻋﻸﻟ ﺔﺌﻴﺳ ﺏﺮﺤﻟﺍ ﻥﺃ ﺾﻌﺒﻟﺍ ﻝﻮﻘﻳ"
+ ap_lord_of_war_tooltip:0 ".ﺎﻨﺘﻳﺎﻋﺭ ﺖﺤﺗ §Yﺡﺎﺑﺭﺃ§! ﺭﺮﻜﺘﻣ ﻞﻜﺸﺑ ﻊﻓﺪﺗ §Yﺔﻗﺰﺗﺮﻤﻟﺍ ﺏﻮﻴﺟ§!"
+
+ ################
+ # Initializers #
+ ################
+ NAME_Auge:0 "ﺝﻭﺃ"
+ NAME_Anatole:0 "ﻝﻮﺗﺎﻧﺃ"
+ NAME_Mousika:0 "ﺎﻜﻴﺳﻮﻣ"
+ NAME_Mesembria:0 "ﺎﻳﺮﺒﻤﻴﺴﻴﻣ"
+ NAME_Dysis:0 "ﻞﻠﺧ"
+ NAME_Hesperis:0 "ﺲﻳﺮﻴﺒﺴﻴﻫ"
+ NAME_Arktos:0 "ﺱﻮﺘﻛﺭﺃ"

@@ -1,0 +1,183 @@
+﻿l_english:
+
+### TRANSFORMATION SITUATION START ###
+ situation_transformation: "ﻞﻳﻮﺤﺗ"
+ situation_transformation_type: "ﺩﻮﻌﺼﻟﺍ ﺔﻟﺎﺣ"
+ situation_transformation_desc: ".ﺹﺮﻔﻟﺍ ﻪﺗﺩﻭﺯﻭ ﺭﺎﻜﺘﺑﻻﺍ ﻪﺗﺭﺍﺮﺷ ﻞﻌﺷﺃ ﻱﺬﻟﺍ ،ﻝﻮﺤﺘﻟﺍ ﺮﺼﻋ ﻦﻣ ﺎﻨﺑﺮﺘﻗﺍ ﺪﻘﻟ .ﺔﻴﻤﺘﺤﻟﺍﻭ ﺔﻴﻘﻄﻨﻤﻟﺍ ﻪﺘﻳﺎﻬﻧ ﻰﻟﺇ ﻲﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﻢﺴﺠﻠﻟ ﻲﺒﻠﺴﻟﺍ ﺭﺍﺮﻜﺘﻟﺍ ﻞﺻﻭ ﺪﻘﻟ"
+ situation_transformation_monthly_change_tooltip: ".ﻝﻮﺤﺘﻠﻟ ﺔﻴﻟﻵﺍ ﺎﻨﻣﺎﺴﺟﺃ ﺪﻌﺘﺴﺗ"
+ situation_transformation_outcome: ".ﺔﻟﻮﺤﺘﻤﻟﺍ ﺔﻟﻵﺍ ﻥﺎﻜﺳ"
+ stage_transformation_effects: ".ﺎﻨﺴﻔﻧﺃ ﻞﻳﻮﺤﺘﻟ ﻞﺜﻣﻷﺍ ﺔﻴﻠﻤﻌﻟﺍ ﺬﻴﻔﻨﺗﻭ ﺞﺋﺎﺘﻨﻟﺍ ﻢﻴﻴﻘﺗ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+# Approach Error Correcting
+ situation_transformation_errorcorrecting: "ﺄﻄﺨﻟﺍ ﺢﻴﺤﺼﺗ"
+ approach_transformation_errorcorrecting_tt: "§YUnaffected§! :ﺔﻳﺮﻬﺸﻟﺍ ﺓﺪﺣﻮﻟﺍ\n§R-20%§! :ﻊﺿﻮﻟﺍ ﺔﻋﺮﺳ"
+# Approach Real Time
+ situation_transformation_realtime: "ﻰﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ"
+ approach_transformation_realtime_tt: "§Yﺮﺛﺄﺘﻣ ﺮﻴﻏ§! :ﻒﻗﻮﻤﻟﺍ ﺔﻋﺮﺳ"
+# Approach Overclocked
+ situation_transformation_overclocked: "ﺪﻴﻛﻮﻠﻛﺮﻴﻓ"
+ approach_transformation_overclocked_tt: "§G+20%§! :ﻊﺿﻮﻟﺍ ﺔﻋﺮﺳ"
+
+ transformation_waste_discard_tt: "ﺔﻤﻳﺪﻘﻟﺍ ﺕﯫﻴﻬﻟﺍ ﻦﻣ ﺺﻠﺨﺗ"
+ transformation_waste_recycle_tt: "ﺔﻤﻳﺪﻘﻟﺍ ﻡﺎﺴﺟﻷﺍ ﺮﻳﻭﺪﺗ ﺓﺩﺎﻋﺇ"
+
+ transformation_speed: "ﻊﺿﻮﻟﺍ ﺔﻋﺮﺳ §Y$situation_transformation$§!"
+ situation_transformation_pause_desc: "$situation_cyberization_pause_desc$"
+
+ REQUIRES_FINISHED_TRANSFORMATION: "§Y$situation_transformation$§!$TRIGGER_FAIL$ﻊﺿﻮﻟﺍ ﻰﻬﺘﻧﺍ "
+
+# Scripted Loc
+ machine_drone: "ﺭﺎﻴﻃ ﻥﻭﺪﺑ"
+ machine_drone_plural: "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ machine_person: "ﺺﺨﺷ"
+ machine_person_plural: "ﺱﺎﻨﻟﺍ"
+
+# TRANSFORMATION STAGE 1
+ machine_age.4100.name: "ﻝﻮﺤﺘﻟﺍ"
+ machine_age.4100.desc: ".ﺔﺳﻭﺭﺪﻣﻭ ﺕﺍﺭﺎﻴﺨﻟﺍ ﻞﻴﻠﺤﺗ .ﻢﻴﻴﻘﺘﻟﺍ ﺔﻴﻠﻤﻋ ﺔﺌﻴﻬﺗ ﺖﻤﺗ \n\n .ﻲﻤﻗﺮﻟﺍ ﺩﻮﺟﻮﻟﺍ ﺢﻟﺎﺼﻟ ﻱﺩﺎﻤﻟﺍ ﻞﻜﺸﻟﺍ ﻦﻋ ﻲﻠﺨﺘﻟﺍ - §YVirtuality§!ﻭ ؛ﺓﺩﺪﺤﻣ ﺺﺋﺎﺼﺨﺑ ﺔﻨﺴﺤﻤﻟﺍ ﺔﻳﺩﺮﻔﻟﺍ ﺕﺍﺪﺣﻮﻠﻟ §YModularity§! ؛ﻞﻜﺸﻟﺍ ﺮﻴﻴﻐﺗ ﻲﻓ ﺓﺮﻴﻐﺘﻤﻟﺍ ﺎﻫﺎﻳﺍﺰﻣﻭ §Yﻮﻧﺎﻨﻟﺍ ﺔﻴﻨﻘﺗ§! :ﻮﻤﻨﻠﻟ ﺓﺰﻴﻤﺘﻣ ﺕﺍﺭﺎﻴﺧ ﺔﺛﻼﺛ ﻕﺎﻄﻨﻟﺍ ﺓﺮﻴﻐﺻ ﺏﺭﺎﺠﺘﻟﺍ ﺡﺮﺘﻘﺗ\n\n.ﺔﻳﺭﺬﺟ ﺮﺜﻛﺃ ﺮﻴﺑﺍﺪﺗ ﺫﺎﺨﺗﺍ ﺏﻮﻠﻄﻣ :ﺔﺻﻼﺨﻟﺍ .ﺩﻮﻛﺮﻟﺍ ﻰﻟﺇ ﺎﻴﺗﺍﺫ ﺔﺿﻭﺮﻔﻤﻟﺍ ﺔﻣﻼﺴﻟﺍ ﺮﻴﻳﺎﻌﻣ ﺕﺩﺃ ﺪﻗﻭ .ﻝﺍﻮﺣﻷﺍ ﻦﺴﺣﺃ ﻲﻓ ﺍﺭﺮﻜﺘﻣ ﻞﻇ ﺎﻨﻣﺪﻘﺗ ﻥﺃ ﻻﺇ ،ﺔﻟﻵﺍ ﻞﻜﺷ ﻕﻮﻔﺗ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋﻭ"
+
+ machine_age.4110.name: "ﺖﻴﻧﺎﻨﻟﺍ :ﻝﻮﺤﺘﻟﺍ ﺙﻮﺤﺑ"
+ machine_age.4110.desc: ".ﻲﻓﺎﺿﺇ ﺚﺤﺑ ﺏﻮﻠﻄﻣ .ﺔﻓﻭﺮﻌﻣ ﺮﻴﻏ :ﺔﻔﻠﻜﺘﻟﺍ .ﺮﻳﻮﻄﺘﻠﻟ ﺔﻠﺑﺎﻗ ؛ﺔﻤﻬﻣ :ﺕﺎﻧﺎﻜﻣﻹﺍ\n\n.ﺔﺤﺿﺍﻭ ﺮﻴﻏ ﻝﺍﺰﺗ ﻻ ﺎﻬﻤﻋﺩ ﺕﺎﺒﻠﻄﺘﻣ ﻦﻜﻟﻭ ،ﺎﻬﻟ ﻞﻴﺜﻣ ﻻ ﺔﻴﻠﻳﻮﺤﺗ ﺕﺍﺭﺪﻗ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻩﺬﻫ ﺮﻓﻮﺗ\n\n."ﺏﺮﺳ ﺀﺎﻛﺫ" ﻦﻳﻮﻜﺗ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍﻭ ،ﻲﺗﺍﺬﻟﺍ ﺭﺍﺮﻜﺘﻟﺍﻭ ،ﺔﺠﻣﺮﺒﻟﺍ ﺔﻴﻠﺑﺎﻗ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺓﺪﻳﺮﻓ ﺕﺎﻔﺻ ﻚﻠﺘﻤﺗ ﺎﻬﻧﺃ ﻻﺇ ،ﺓﺭﺩﺎﻧ ﺎﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻡﺪﻘﺘﻠﻟ ﺍﺪﻋﺍﻭ ﻼﻗﺎﻧ ﻞﺜﻤﺗ §Ynanites§! ﻰﻤﺴﺗ ﻲﺘﻟﺍ ﺔﻴﻜﻴﻧﺎﻜﻴﻣﻭﺮﻬﻜﻟﺍ ﺕﺎﺒﻴﻛﺮﺘﻟﺍ ﻥﺃ ﻰﻟﺇ ﺔﻴﻟﻭﻷﺍ ﺙﺎﺤﺑﻷﺍ ﺮﻴﺸﺗ"
+ machine_age.4110.a: ".ﻯﻮﺼﻘﻟﺍ ﺎﻨﺘﻳﻮﻟﻭﺃ ﻩﺬﻫ ﻥﻮﻜﺘﺳﻭ"
+ machine_age.4110.a.tt: "§R-20%§!): §YEngineering§! £engineering£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻊﺿﻮﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n\n.ﺔﻠﻣﺎﻜﻟﺍ §YNanotech§! ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+ machine_age.4110.b: ".ﻝﺍﺪﺘﻋﻻﺍ ﺔﺳﺭﺎﻤﻣ"
+ machine_age.4110.b.tt: "§R-10%§!): §YEngineering§! £engineering£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻊﺿﻮﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n\n.ﺔﻴﺋﺰﺠﻟﺍ §YNanotech§! ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+ machine_age.4110.c: ".ﻲﻟﺎﺤﻟﺍ ﺎﻨﺜﺤﺑ ﻞﻄﻌﻳ ﻥﺃ ﻦﻜﻤﻳ ﻻ ﺍﺬﻫﻭ"
+ machine_age.4110.c.tt: "§R-5%§!): §YEngineering§! £engineering£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻊﺿﻮﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n\n.§YNanotech§! ﺓﺩﻭﺪﺤﻣ ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+ machine_age.4110.d: ".ﺔﻴﻟﺎﺤﻟﺍ ﺎﻨﺘﻓﺮﻌﻣ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ"
+ machine_age.4110.d.tt: "§R-5%§!): §Yﺀﺎﻳﺰﻴﻓ§! £physics£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n§R-5%§!): §YSociety§!) £society£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻊﺿﻮﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n.ﺞﺋﺎﺘﻨﻟﺍ ﻞﻀﻓﺃ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ ﻕﺎﻔﻧﺈﺑ ﺎﻨﻟ ﺢﻤﺴﻳ ﺔﻘﺑﺎﺴﻟﺍ ﺕﺍﺀﺎﻘﻠﻟﺍ ﻝﻼﺧ ﻦﻣ §Ynanites§! ـﺑ ﻡﺎﻤﻟﻹﺍ\n\n.ﺔﻠﻣﺎﻜﻟﺍ §YNanotech§! ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+
+ machine_age.4130.name: "ﻮﻧﺎﻨﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺗ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﺋﺍﺭ ﺕﺎﻓﺎﺸﺘﻛﺍ"
+ machine_age.4130.desc: ".ﺮﻳﺪﻘﺘﻟﺍ ﺍﺬﻫ ﺎﻘﺒﺴﻣ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺔﻳﻮﻧﺎﻨﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻢﻋﺪﺗ ؛ﺔﻴﻟﺎﻋ :ﺓﺎﻴﺤﻠﻟ ﺔﻴﻠﺑﺎﻘﻟﺍ\n\n.ﺮﺸﻨﻟﺍ ﻢﻋﺪﻟ ﺔﻳﺭﻭﺮﺿ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ ﺪﻌﺗ .ﺎﻬﻨﻳﻮﻜﺗ ﺓﺩﺎﻋﻹ ﺔﻗﺎﻄﻟﺍﻭ ﺩﺍﻮﻤﻟﺍﻭ ﺖﻗﻮﻟﺍ ﺔﻴﻠﻤﻌﻟﺍ ﺐﻠﻄﺘﺗ ،ﻚﻟﺫ ﻊﻣﻭ\n\n.ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺎﻬﻠﻳﻮﺤﺗ ﻭﺃ ﺔﻳﻮﻧﺎﻧ ﺓﺩﺎﻣ ﺪﻴﻟﻮﺗ ﺔﻴﻨﻘﺘﻟﺍ ﺲﻔﻨﻟ ﻦﻜﻤﻳ .ﺔﻳﺩﺮﻓ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ ﻦﻣ ﻥﻮﻜﺘﺗ ﺔﻤﺨﺿ ﻝﺎﻜﺷﺃ ﺀﺎﺸﻧﺇ ﻲﻓ ﻕﻮﺒﺴﻣ ﺮﻴﻏ ﺎﻋﻮﻨﺗ ﺢﺘﻔﺗ ﻊﻤﺠﻟﺍﻭ ﻞﻴﻜﺸﺘﻟﺍ ﺓﺩﺎﻋﺇ ﻰﻠﻋ ﻢﻬﺗﺭﺪﻗ ﻥﺇ .§Ynanotechnology§! ﺔﻴﻨﻘﺘﻟ ﻡﺎﻤﺘﻫﻼﻟ ﺓﺮﻴﺜﻣ ﺕﺎﻘﻴﺒﻄﺗ ﻦﻋ ﺙﺎﺤﺑﻷﺍ ﺖﻔﺸﻛ"
+ machine_age.4130.a.tt: ")§YEngineering§! £engineering£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﺔﻟﺎﺤﻟﺍ ﻝﺪﻌﻣ ﺔﻟﺍﺯﺇ ﺖﻤﺗ §Y$situation_transformation$§!"
+
+ machine_age.4140.name: "ﻮﻧﺎﻨﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺗ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻋﺍﻭ ﺕﺎﻓﺎﺸﺘﻛﺍ"
+ machine_age.4140.desc: ".ﺔﻴﻠﻳﻮﺤﺗ ؛ﺓﺪﻋﺍﻭ :ﺬﻴﻔﻨﺘﻠﻟ ﺔﻴﻠﺑﺎﻘﻟﺍ\n\n.ﺓﺮﻴﺒﻛ ﺔﻴﻠﻜﻴﻫ ﺕﺍﺮﻴﻴﻐﺗ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ﻞﻤﻌﺘﻟ ﺔﻗﺎﻃﻭ ﺍﺩﺍﻮﻣﻭ ﺎﺘﻗﻭ ﺐﻠﻄﺘﺗ ﺔﻴﻠﻤﻌﻟﺍ ﻥﺃ ﻰﻟﺇ ﺕﺍﺮﻳﺪﻘﺘﻟﺍ ﺮﻴﺸﺗ\n\n.ﺓﺩﺎﻤﻟﺍ ﺕﻼﻳﻮﺤﺗﻭ ﺔﺼﺼﺨﺘﻣ ﺔﻤﺨﺿ ﻝﺎﻜﺷﺃ ﺀﺎﺸﻧﺇ ﻲﻓ ﻦﻤﺜﺑ ﺭﺪﻘﺗ ﻻ ﻢﻬﺗﺍﺭﺪﻗ ﻥﻮﻜﺗ ﺪﻗ .ﺔﻠﺋﺎﻔﺘﻣ ﺕﺎﻌﻗﻮﺗ ﺕﺮﻬﻇﺃ ﺓﺎﻛﺎﺤﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻦﻜﻟ ،ﺢﺿﺍﻭ ﺮﻴﻏ ﺎﻬﺗﺎﻧﺎﻜﻣﻹ ﻞﻣﺎﻜﻟﺍ ﻯﺪﻤﻟﺍ ﻝﺍﺰﻳ ﻻﻭ .§Ynanites§! ﻝﻮﺣ ﺎﻨﺜﺤﺑ ﻰﻬﺘﻧﺍ ﺪﻘﻟ"
+ machine_age.4140.a.tt: ")§YEngineering§! £engineering£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﺔﻟﺎﺤﻟﺍ ﻝﺪﻌﻣ ﺔﻟﺍﺯﺇ ﺖﻤﺗ §Y$situation_transformation$§!"
+
+ machine_age.4150.name: "ﺔﻈﺣﻼﻤﻟﺎﺑ ﺓﺮﻳﺪﺠﻟﺍ ﻮﻧﺎﻨﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺗ ﺕﺎﻓﺎﺸﺘﻛﺍ"
+ machine_age.4150.desc: ".ﺔﻤﺳﺎﺣ ﺮﻴﻏ :ﺔﻴﺣﻼﺼﻟﺍ\n\n.ﻊﻳﺭﺎﺸﻤﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﻢﻋﺪﻟ ﺔﻴﻓﺎﺿﺇ ﺩﺭﺍﻮﻣ ﻰﻟﺇ ﺔﺟﺎﺣ ﻙﺎﻨﻫ ﻥﻮﻜﺗ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣ .ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﻞﻛﺎﻴﻬﻠﻟ ﻦﻴﻜﻤﺗ ﻞﻣﺍﻮﻌﻛ ﻞﻴﻜﺸﺘﻟﺍ ﺓﺩﺎﻋﺇﻭ ﻮﻧﺎﻨﻟﺍ ﺭﺍﺮﻜﺗ ﺓﺩﻭﺪﺤﻤﻟﺍ ﺕﺎﻌﻗﻮﺘﻟﺍ ﻞﻤﺸﺗﻭ .ﺔﻴﺋﺍﺪﺑ ﻞﻈﺗ §Ynanite§! ﺎﻴﺟﻮﻟﻮﻨﻜﺘﺑ ﺎﻨﺘﻓﺮﻌﻣ ﻥﺈﻓ ،ﻲﺜﺤﺒﻟﺍ ﺪﻬﺠﻟﺍ ﻦﻣ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ﻉﻮﺿﻮﻤﻟﺍ ﺪﻴﻘﻌﺘﻟ ﺍﺮﻈﻧ"
+ machine_age.4150.a.tt: ")§YEngineering§! £engineering£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﺔﻟﺎﺤﻟﺍ ﻝﺪﻌﻣ ﺔﻟﺍﺯﺇ ﺖﻤﺗ §Y$situation_transformation$§!"
+
+ nanite_replicator: "ﺭﺮﻜﻤﻟﺍ ﺖﻴﺳﺎﻧ"
+ d_nanites_medium: "$nanite_replicator$ ﺎﻐﻴﻣﻭﺃ"
+ d_nanites_medium_desc: ".ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺎﻬﺑ ﺔﺻﺎﺨﻟﺍ ﻲﺗﺍﺬﻟﺍ ﺦﺴﻨﻟﺍ ﺕﺍﺭﺪﻗ ﺰﻳﺰﻌﺘﺑ ﺔﻗﺪﺑ ﺔﻃﻮﺒﻀﻤﻟﺍﻭ ﺔﻄﺑﺍﺮﺘﻤﻟﺍ ﺖﻴﻧﺎﻨﻟﺍ ﻞﺛﺎﻤﺘﻤﻟﺍ ﺦﺴﻨﻟﺍ ﻑﺮﻏ ﻊﻤﺠﻣ ﺎﻨﻟ ﺢﻤﺴﻳ"
+
+ d_nanites_small: "$nanite_replicator$ ﺎﻔﻟﺃ"
+ d_nanites_small_desc: ".ﺎﻬﺑ ﺔﺻﺎﺨﻟﺍ ﻲﺗﺍﺬﻟﺍ ﺦﺴﻨﻟﺍ ﺕﺍﺭﺪﻗ ﺰﻳﺰﻌﺗ ﺔﻳﻮﻧﺎﻨﻟﺍ ﺦﺴﻨﻟﺍ ﻑﺮﻏ ﻊﻤﺠﻣ ﺎﻨﻟ ﺢﻴﺘﻳ"
+
+ d_nanites_tiny: "$nanite_replicator$ ﺎﺘﻴﺑ"
+ d_nanites_tiny_desc: ".ﻊﺿﺍﻮﺘﻣ ﺭﺍﺪﻘﻤﺑ ﺖﻴﻧﺎﻨﻠﻟ ﻲﺗﺍﺬﻟﺍ ﺭﺍﺮﻜﺘﻟﺍ ﺕﺎﻤﺳ ﺰﻳﺰﻌﺗ ﺎﻬﻨﻜﻤﻳ ﻲﺘﻟﺍ ﺖﻴﻧﺎﻨﻠﻟ ﻞﺛﺎﻤﺘﻤﻟﺍ ﺦﺴﻨﻟﺍ ﻑﺮﻏ ﻦﻣ ﺔﺠﻣﺪﻣ ﺔﻋﻮﻤﺠﻣ"
+
+# TRANSFORMATION STAGE 2
+machine_age.4210.name: "ﺔﻴﻄﻤﻧ :ﻝﻮﺤﺘﻟﺍ ﺙﻮﺤﺑ"
+machine_age.4210.desc: ".ﺔﺑﻮﻠﻄﻤﻟﺍ ﺔﻴﻓﺎﺿﻹﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ .ﺔﻓﻭﺮﻌﻣ ﺮﻴﻏ :ﺔﻔﻠﻜﺘﻟﺍ .ﺮﻳﻮﻄﺘﻠﻟ ﺔﻠﺑﺎﻗ ؛ﺮﻴﺒﻛ :ﻝﺎﻤﺘﺣﺍ\n\n.ﺓﺩﺪﺤﻣ ﻡﺎﻬﻤﻟ ﻑﺍﺮﻃﻷﺍﻭ ﻖﺜﺒﻟﺍ ﺺﻴﺼﺨﺗ ﻦﻜﻤﻳ ﺚﻴﺣ ،ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺓﺎﻛﺎﺤﻤﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﻞﻜﺷ ﻦﻴﻜﻤﺗ ﻰﻟﺇ ﻲﻟﺎﺤﻟﺍ ﺎﻨﻠﻜﻴﻫ ﻊﻣ ﺍﺬﻫ ﺞﻣﺩ ﻱﺩﺆﻳ ﻥﺃ ﻦﻜﻤﻳ .ﻊﻳﺮﺳﻭ ﻱﺭﺬﺟ ﻞﻜﺸﺑ ﻱﺩﺎﻤﻟﺍ ﺎﻬﻗﺎﺴﺗﺍﻭ ﺎﻬﻠﻜﺷ ﺮﻴﻴﻐﺗ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺎﺑ §YLiving Metal§! ﺓﺩﺎﻤﻟﺍ ﻊﺘﻤﺘﺗ \n\n .ﺔﻴﻟﻵﺍ ﺕﺍﺮﻴﻐﺘﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺓﺪﻴﻔﻤﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺺﺋﺎﺼﺨﻟﺍ ﺾﻌﺑ ﺭﺍﺮﻜﺗ ﻦﻜﻤﻳ ،ﻚﻟﺫ ﻊﻣﻭ .ﺔﻟﻵﺍ ﻞﻜﺸﻟ ﻒﻴﻜﺘﻟﺍ ﻰﻠﻋ ﺔﻘﺋﺎﻔﻟﺍ ﺓﺭﺪﻘﻟﺎﺑ ﺔﻧﺭﺎﻘﻣ ﺔﺒﻠﺻﻭ ﺔﺸﻫ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ"
+
+machine_age.4210.a: ".ﺔﻴﺴﻴﺋﺮﻟﺍ ﺎﻨﺘﻳﻮﻟﻭﺃ ﺎﻬﻠﻌﺟﺍ"
+machine_age.4210.a.tt: "§R-20%§!): §YSociety§! £society£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻊﺿﻮﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n\n.ﺔﻠﻣﺎﻜﻟﺍ §YModularity§! ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+machine_age.4210.b: ".ﺔﻟﺪﺘﻌﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺡﺎﻤﺴﻟﺍ"
+machine_age.4210.b.tt: "§R-10%§!): §YSociety§! £society£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻊﺿﻮﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n\n.ﺔﻴﺋﺰﺠﻟﺍ §YModularity§! ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+machine_age.4210.c: ".ﻲﻟﺎﺤﻟﺍ ﺎﻨﺜﺤﺑ ﻞﻄﻌﻳ ﻦﻟ ﺍﺬﻫﻭ"
+machine_age.4210.c.tt: "§R-5%§!): §YSociety§! £society£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻊﺿﻮﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n\n.ﺓﺩﻭﺪﺤﻣ §YModularity§! ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+machine_age.4210.d: ".ﺔﻴﻧﺎﻜﺴﻟﺍ ﺏﺭﺎﺠﺘﻟﺍ ﻢﻴﻈﻨﺗ"
+machine_age.4210.d.tt.intro: ".ﺚﺤﺒﻟﺍ ﻝﺎﻤﻜﺘﺳﻻ ﻊﺳﺍﻭ ﻕﺎﻄﻧ ﻰﻠﻋ ﺔﻳﺪﻴﻠﻘﺗ ﺮﻴﻏ ﺏﺭﺎﺠﺗ ﺀﺍﺮﺟﺈﺑ ﺀﺎﻤﻠﻌﻠﻟ ﺡﺎﻤﺴﻟﺍ\n\n.ﺔﻠﻣﺎﻜﻟﺍ §YModularity§! ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+machine_age.4210.d.individual.tt: "§R-5%§!): §YSociety§! £society£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﺔﻟﺎﺤﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n§R$pop_cat_specialist_plural$ 300-0 ﻞﺘﻘﻳ§!\n§R$pop_cat_worker_plural$ 400 ﻞﺘﻘﻳ§!\n\n$machine_age.4210.d.tt.intro$"
+machine_age.4210.d.machine.tt: "§R-5%§!): §YSociety§! £society£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﺔﻟﺎﺤﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n§R$pop_cat_complex_drone_plural$ 300-0 ﻞﺘﻘﻳ§!\n§Rﺔﻄﻴﺴﺑ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ 400 ﻞﺘﻘﻳ§!\n\n$machine_age.4210.d.tt.intro$"
+
+machine_age.4230.name: "ﺓﺪﺋﺍﺮﻟﺍ ﺙﻮﺤﺒﻟﺍ ﺞﺋﺎﺘﻧ"
+machine_age.4230.desc: ".ﺓﺪﻋﺍﻭ ؛ﻒﻴﻜﺘﻠﻟ ﺔﻠﺑﺎﻗ :ﻒﻴﻜﺘﻠﻟ ﺔﻴﻠﺑﺎﻘﻟﺍ\n\n.ﺕﺎﻋﺎﻄﻘﻟﺍ ﻊﻴﻤﺟ ﺮﺒﻋ ﺩﺭﺍﻮﻤﻟﺍ ﺔﻴﺟﺎﺘﻧﺇ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﺔﺠﻣﺪﻤﻟﺍ ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﻒﺋﺎﻇﻮﻠﻟ ﻕﺎﻄﻨﻟﺍ ﻊﺳﺍﻭ ﺮﺸﻨﻟﺍ ﻱﺩﺆﻳ ﻥﺃ ﻊﻗﻮﺘﻤﻟﺍ ﻦﻣ\n\n.ﻡﺎﻬﻤﻟﺍ ﻰﻠﻋ ﻢﺋﺎﻘﻟﺍ ﻖﻓﺍﻮﺘﻟﺍ ﻦﻣ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ ﻦﻤﻀﻳ ﺍﺬﻫﻭ .ﺔﻴﻠﺧﺍﺪﻟﺍ ﻒﺋﺎﻇﻮﻟﺎﺑ ﺱﺎﺴﻤﻟﺍ ﻥﻭﺩ ﺎﻬﺼﺋﺎﺼﺧ ﺮﻴﻴﻐﺘﺑ ﺎﻨﺗﺍﺪﺣﻮﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﻡﺎﺴﺟﻷﺍ ﻊﻣ ﻪﺠﻣﺩ ﺪﻨﻋ ﺓﺎﻴﺤﻠﻟ ﻞﺑﺎﻗ §YLiving Metal§! :ﻲﻟﻭﻷﺍ ﻢﻴﻴﻘﺘﻟﺍ ﺔﻣﺭﺎﺼﻟﺍ ﺙﺎﺤﺑﻷﺍ ﺕﺪﻛﺃ"
+machine_age.4230.a.tt: ")§YSociety§! £society£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻒﻗﻮﻤﻟﺍ ﻝﺪﻌﻣ ﺔﻟﺍﺯﺇ ﺖﻤﺗ §Y$situation_transformation$§!"
+
+machine_age.4240.name: "ﺔﻟﻮﺒﻘﻤﻟﺍ ﺙﻮﺤﺒﻟﺍ ﺞﺋﺎﺘﻧ"
+machine_age.4240.desc: ".ﺓﺪﻋﺍﻭ :ﺔﻴﻠﺑﺎﻘﻟﺍ\n\n.ﺔﻋﺮﺴﺑ ﻲﻟﻭﻷﺍ ﺭﺎﻤﺜﺘﺳﻻﺍ ﺓﺪﻳﺪﺠﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺀﺍﺩﺃ ﺓﺩﺎﻳﺯ ﺪﻴﻌﺘﺴﺗ ﻥﺃ ﻊﻗﻮﺘﻤﻟﺍ ﻦﻣ ،ﻪﻟﺎﻤﺘﻛﺍ ﺩﺮﺠﻤﺑ\n\n.ﺔﻠﻣﺎﻜﻟﺍ ﻪﺗﺎﻧﺎﻜﻣﺇ ﻖﻴﻘﺤﺘﻟ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻣ ﻰﻟﺇ ﺔﺟﺎﺣ ﻙﺎﻨﻫ ﻥﻮﻜﺘﺳﻭ ،ﻕﺎﻄﻨﻟﺍ ﺚﻴﺣ ﻦﻣ ﻕﻮﺒﺴﻣ ﺮﻴﻏ ﻝﻮﺤﺘﻟﺍ ﺍﺬﻫ ﺪﻌﻳ .§YLiving Metal§! ﻲﺟﺭﺎﺨﻟﺍ ﺮﻬﻈﻤﻟﺍ ﻊﻣ ﺔﻘﻓﺍﻮﺘﻣ ﺔﻴﻠﺧﺍﺪﻟﺍ ﺎﻨﻔﺋﺎﻇﻭ :ﺔﻴﻟﻭﻷﺍ ﺔﻴﺿﺮﻔﻟﺍ ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﻡﺎﺴﺟﻷﺍ ﻰﻠﻋ ﺖﻳﺮﺟﺃ ﻲﺘﻟﺍ ﺙﺎﺤﺑﻷﺍ ﺕﺪﻛﺃ"
+machine_age.4240.a.tt: ")§YSociety§! £society£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻒﻗﻮﻤﻟﺍ ﻝﺪﻌﻣ ﺔﻟﺍﺯﺇ ﺖﻤﺗ §Y$situation_transformation$§!"
+
+machine_age.4250.name: "ﺔﻌﺿﺍﻮﺘﻣ ﺙﻮﺤﺒﻟﺍ ﺞﺋﺎﺘﻧ"
+machine_age.4250.desc: ".ﺔﻤﺳﺎﺣ ﺮﻴﻏ :ﺬﻴﻔﻨﺘﻠﻟ ﺔﻴﻠﺑﺎﻘﻟﺍ\n\n.ﺔﻗﺩ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﻖﻴﺒﻄﺘﻠﻟ ﺔﻠﺑﺎﻘﻟﺍ ﻡﺍﺪﺨﺘﺳﻻﺍ ﺕﻻﺎﺣ ﻢﻴﻴﻘﺗ ﻊﻨﻤﻳ ﺔﻠﻣﺎﺷ ﺔﻴﻓﺮﻌﻣ ﺓﺪﻋﺎﻗ ﻰﻟﺇ ﺭﺎﻘﺘﻓﻻﺍ ﻥﺈﻓ ،§YLiving Metal§! ﺦﺿ ﻊﻣ ﺔﻘﻓﺍﻮﺘﻣ ﻭﺪﺒﺗ ﺔﻴﻟﺎﺤﻟﺍ ﺎﻨﺗﯫﻴﻫ ﻥﺃ ﻦﻴﺣ ﻲﻓ :ﺓﺩﺪﺤﻣ ﺮﻴﻏ ﺞﺋﺎﺘﻧ ﻰﻟﺇ ﺩﻭﺪﺤﻤﻟﺍ ﺚﺤﺒﻟﺍ ﻕﺎﻄﻧ ﻯﺩﺃ"
+machine_age.4250.a.tt: ")§YSociety§! £society£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻒﻗﻮﻤﻟﺍ ﻝﺪﻌﻣ ﺔﻟﺍﺯﺇ ﺖﻤﺗ §Y$situation_transformation$§!"
+
+living_metal_vats: "ﺔﻴﺣ ﺔﻴﻧﺪﻌﻣ ﺽﺍﻮﺣﺃ"
+d_living_metal_medium: "$living_metal_vats$"
+d_living_metal_medium_desc: ".ﻲﺤﻟﺍ ﻥﺪﻌﻤﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺕﺎﻴﻤﻛ ﺝﺎﺘﻧﻹ ﻂﻠﺨﻟﺍ ﺽﺍﻮﺣﺃ ﻦﻣ ﻊﺳﺍﻭ ﻊﻤﺠﻣ"
+
+d_living_metal_small: "$living_metal_vats$ ﺮﻴﻐﺻ"
+d_living_metal_small_desc: ".ﻲﺤﻟﺍ ﻥﺪﻌﻤﻟﺍ ﺝﺎﺘﻧﻹ ﻂﻠﺨﻟﺍ ﺽﺍﻮﺣﺃ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻋﻮﻤﺠﻣ"
+
+d_living_metal_tiny: "$living_metal_vats$ ﺓﺮﻐﺼﻣ"
+d_living_metal_tiny_desc: ".ﻲﺤﻟﺍ ﻥﺪﻌﻤﻟﺍ ﻦﻣ ﺔﻄﻴﺴﺑ ﺕﺎﻴﻤﻛ ﺝﺎﺘﻧﻹ ﺐﻴﻠﻘﺘﻟﺍ ﺔﻴﻋﻭﺃ ﻦﻣ ﺔﺠﻣﺪﻣ ﺔﻋﻮﻤﺠﻣ"
+
+# TRANSFORMATION STAGE 3
+ machine_age.4310.name: "ﺔﻴﺿﺍﺮﺘﻓﻻﺍ :ﻝﻮﺤﺘﻟﺍ ﺙﻮﺤﺑ"
+ machine_age.4310.desc: ".ﺔﺑﻮﻠﻄﻣ ﺔﻴﻓﺎﺿﺇ ﺕﺎﻧﺎﻴﺑ .ﺭﺬﺤﺑ ﺎﻣﺪﻗ ﻲﻀﻤﻟﺍ .ﺔﻠﺋﺎﻫ :ﺕﺎﻧﺎﻜﻣﻹﺍ\n\n.ﺓﺭﻭﺮﻀﻟﺍ ﺐﺴﺣ ﺀﺎﻋﻭ ﻱﺃ ﻊﻣ ﺔﺳﻼﺴﺑ ﻞﻣﺎﻜﺘﺗ ﻥﺃ ﻦﻜﻤﻳ ،ﺔﻴﺿﺍﺮﺘﻓﺍﻭ ﺔﻠﺋﺎﺳ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺕﺎﻘﻓﺪﺗ ﺢﺒﺼﺗ ﻥﺃ ﺩﺮﺠﻤﺑ .ﺔﻤﻳﺪﻗ ﺔﻳﺩﺮﻓ ﻡﺎﺴﺟﺄﺑ ﺔﻄﺒﺗﺮﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺢﺒﺼﺗ \n\n .ﺎﻨﻳﺪﻟ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺐﻠﻗ ﻲﻓ ﻲﻟﺍﺰﻟﺯ ﻝﻮﺤﺘﺑ ﻩﺬﻫ ﺔﻴﻠﻳﻮﺤﺘﻟﺍ §YVirtuality§! ﺔﻴﻠﻤﻋ ﺪﻌﺗ .ﺔﺼﻟﺎﺧ ﺕﺎﻧﺎﻴﺒﻛ ﺩﻮﺟﻮﻟﺍ ﻥﺎﻀﺘﺣﺍﻭ ،ﻱﺩﺎﻤﻟﺍ ﺯﻭﺎﺠﺗ ﻮﻫ ﺎﻘﻤﻋ ﺮﺜﻛﻷﺍ ﺭﺎﻴﺨﻟﺍ"
+ machine_age.4310.a: ".ﻥﻵﺍ ﻯﻮﺼﻘﻟﺍ ﺎﻨﺘﻳﻮﻟﻭﺃ ﻲﻫ ﻩﺬﻫ"
+ machine_age.4310.a.tt: "§R-20%§!): §YPhysics§! £physics£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻊﺿﻮﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n\n.ﺔﻠﻣﺎﻜﻟﺍ §YVirtuality§! ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+ machine_age.4310.b: ".ﺔﻟﺪﺘﻌﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻪﻴﺟﻮﺗ"
+ machine_age.4310.b.tt: "§R-10%§!): §YPhysics§! £physics£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻊﺿﻮﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n\n.ﺔﻴﺋﺰﺠﻟﺍ §YVirtuality§! ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+ machine_age.4310.c: ".ﺎﻨﺘﻗﻭ ﻖﺤﺘﺴﻳ ﻻ"
+ machine_age.4310.c.tt: "§R-5%§!): §YPhysics§! £physics£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻊﺿﻮﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n\n.ﺓﺩﻭﺪﺤﻣ §YVirtuality§! ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+ machine_age.4310.d: ".ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺓﺎﻛﺎﺤﻤﻟﺍ ﺕﺎﻧﺎﻴﺑ ﻂﺸﻛ"
+ machine_age.4310.d.tt: "\n\n§R-5%§!): §Yﺀﺎﻳﺰﻴﻓ§! £physics£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n§G+10%§!Situation Speed: \n:ﻒﻗﻮﻤﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n\n.ﺎﻨﻳﺪﻟ ﻝﻮﺤﺘﻟﺍ ﺙﺎﺤﺑﺃ ﻊﻳﺮﺴﺘﻟ §Y[event_target:virtual_country.GetName]§! ﻦﻣ ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺓﺎﻛﺎﺤﻤﻟﺍ ﺕﺎﻧﺎﻴﺑ ﺝﺮﺨﺘﺳﺍ\n\n.ﺔﻠﻣﺎﻜﻟﺍ §YVirtuality§! ﺚﺤﺑ ﺞﺋﺎﺘﻧ"
+ machine_age.4310.e: ".ﺔﻘﺑﺎﺴﻟﺍ ﺎﻨﺗﺍﺀﺎﻘﻟ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ"
+ machine_age.4310.e.tt: ".ﺚﺤﺒﻟﺍ ﺞﺋﺎﺘﻧ §YVirtuality§!Full \n\n§R-5%§!): §YPhysics§! £physics£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﻊﺿﻮﻟﺍ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ §Y$situation_transformation$§!\n\n.ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺕﺎﻧﺎﻴﻜﻟﺎﺑ ﺔﻴﻟﺎﺤﻟﺍ ﺎﻨﺘﻓﺮﻌﻣ ﻦﻣ ﺪﻔﺘﺳﺍ"
+
+ opinion_virtuality_data_scraped: "ﺔﻓﻭﺬﺤﻤﻟﺍ ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺓﺎﻛﺎﺤﻤﻟﺍ ﺕﺎﻧﺎﻴﺑ"
+
+ machine_age.4330.name: "ﺓﺪﺋﺍﺮﻟﺍ ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺕﺎﻓﺎﺸﺘﻛﻻﺍ"
+ machine_age.4330.desc: "§Y.ﻑﻭﺮﻌﻣ ﺮﻴﻏ .ﺔﻠﺋﺎﻫ ؛ﺔﻗﻮﺒﺴﻣ ﺮﻴﻏ :ﺕﺎﻧﺎﻜﻣﻹﺍ§!\n\n.ﻼﻳﻮﺤﺗ ﺮﺜﻛﻷﺍ ﻮﻫ §YVirtuality§! ﺪﻌﻳ ،ﺔﺣﺎﺘﻤﻟﺍ ﺕﺍﺭﺎﻴﺨﻟﺍ ﻊﻴﻤﺟ ﻦﻴﺑ ﻦﻣ\n\n.ﻲﻠﻴﻐﺸﺘﻟﺍ ﻝﺎﻤﻜﻟﺍ ﻮﺤﻧ ﻙﺮﺤﺘﻧ ﺎﻤﻨﻴﺑ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺔﻠﻣﺎﻌﻟﺍ ﻯﻮﻘﻟﺍ ﺓﺀﺎﻔﻛﻭ ﺓﺭﺍﺩﺇ ﻯﻮﺘﺴﻣ ﻊﻓﺭ ﻢﺘﻴﺳ .ﻲﻠﻌﻔﻟﺍ ﻥﺎﻜﺳﻹﺍ ﻰﻠﻋ ﺐﻠﻄﻟﺍ ﺽﺎﻔﺨﻧﺍ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺎﻳﺍﺰﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻚﻟﺫ ﻞﺑﺎﻘﻳﻭ\n\n.ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺕﻼﻳﺪﻌﺗ ﺎﻬﺘﻣﺰﻠﺘﺳﺍ ﻲﺘﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻰﻠﻋ ﺐﻠﻄﻟﺍ ﻲﻓ ﺓﺩﺎﻳﺰﻟﺍ ﺎﻫﺯﺮﺑﺃ ،ﺕﻼﻜﺸﻤﻟﺍ ﻦﻣ ﺍﺩﺪﻋ ﺔﻠﻣﺎﻜﻟﺍ ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺓﺎﻛﺎﺤﻤﻟﺍ ﻡﺰﻠﺘﺴﺗ"
+ machine_age.4330.a.tt: ")§Yﺀﺎﻳﺰﻴﻔﻟﺍ§! £physics£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﺔﻟﺎﺤﻟﺍ ﻝﺪﻌﻣ ﺔﻟﺍﺯﺇ ﺖﻤﺗ §Y$situation_transformation$§!"
+
+ machine_age.4340.name: "ﺓﺪﻋﺍﻭ ﺔﻴﺿﺍﺮﺘﻓﺍ ﺕﺎﻓﺎﺸﺘﻛﺍ"
+ machine_age.4340.desc: ".ﻝﻮﻬﺠﻣ ؛ﺔﻠﺋﺎﻫ :ﺕﺎﻧﺎﻜﻣﻹﺍ\n\n.ﺎﺒﻳﺮﻘﺗ ﺎﻬﻟ ﺩﻭﺪﺣ ﻻ ﺔﻴﻤﻗﺭ ﺔﺣﺎﺴﻣ ﻲﻓ ﺎﻧﺩﻮﺟﻭ ﻒﻳﺮﻌﺗ ﺓﺩﺎﻋﺇﻭ ﻲﻠﻴﻐﺸﺘﻟﺍ ﺎﻨﻠﻤﻋ ﺭﺎﻃﺇ ﻦﻴﺴﺤﺗ ﻰﻟﺇ ﻝﻮﺤﺘﻟﺍ ﺍﺬﻫ ﻱﺩﺆﻴﺳ .ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻡﺎﻬﻣ ﺓﺀﺎﻔﻛ ﻊﻓﺭ ﻊﻣ ﻦﻜﺴﻟﺍ ﻰﻠﻋ ﻲﻠﻌﻔﻟﺍ ﺐﻠﻄﻟﺍ ﻞﻴﻠﻘﺗ ﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻳ ﻥﺃ ﻊﻗﻮﺘﻤﻟﺍ ﻦﻣ\n\n.ﺎﻨﻳﺪﻟ ﺔﻴﻟﺎﺤﻟﺍ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺕﺍﺭﺪﻗ ﺯﻭﺎﺠﺘﻳ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣﻭ ،ﺔﻗﺎﻄﻟﺍ ﻙﻼﻬﺘﺳﺍ ﻲﻓ ﺍﺮﻴﺒﻛ ﺎﻔﻴﺜﻜﺗ §YVirtuality§! ﻮﺤﻧ ﻙﺮﺤﺘﻟﺍ ﻊﻗﻮﺘﻳ"
+ machine_age.4340.a.tt: ")§Yﺀﺎﻳﺰﻴﻔﻟﺍ§! £physics£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﺔﻟﺎﺤﻟﺍ ﻝﺪﻌﻣ ﺔﻟﺍﺯﺇ ﺖﻤﺗ §Y$situation_transformation$§!"
+
+ machine_age.4350.name: "ﺔﻈﺣﻼﻤﻟﺎﺑ ﺓﺮﻳﺪﺟ ﺔﻴﺿﺍﺮﺘﻓﺍ ﺕﺎﻓﺎﺸﺘﻛﺍ"
+ machine_age.4350.desc: ".ﺔﻓﻭﺮﻌﻣ ﺮﻴﻏ :ﺓﺎﻴﺤﻠﻟ ﺔﻴﻠﺑﺎﻘﻟﺍ\n\n.ﻑﺎﻛ ﺔﻨﻴﻋ ﻢﺠﺣﻭ ﺔﻳﻮﻗ ﺕﺎﻧﺎﻴﺑ ﺔﻋﻮﻤﺠﻣ ﻊﻴﻤﺠﺗ ﻲﻓ ﻞﺸﻔﻟﺍ ﺐﺒﺴﺑ ﺎﻨﺗﺎﻌﻗﻮﺗ ﻖﻤﻋ ﺺﻴﻠﻘﺗ ﻢﺗ .ﻱﺩﺎﻤﻟﺍ ﻦﻜﺴﻟﺍ ﻰﻟﺇ ﺔﺟﺎﺤﻟﺍ ﻞﻴﻠﻘﺗﻭ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻞﻤﻋ ﺓﺭﺍﺩﺇ ﺰﻳﺰﻌﺗ ﻰﻟﺇ ﻝﻮﺤﺘﻟﺍ ﺍﺬﻫ ﻱﺩﺆﻳ ﻥﺃ ﻊﻗﻮﺘﻤﻟﺍ ﻦﻣﻭ .§YVirtuality§! ﻝﻮﺣ ﺭﻮﺤﻤﺘﻳ ﻊﻤﺘﺠﻣ ﻰﻟﺇ ﻝﺎﻘﺘﻧﻼﻟ ﺓﺮﻴﺒﻜﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺕﺎﺒﻠﻄﺘﻣ ﻰﻠﻋ ﺀﻮﻀﻟﺍ ﺔﻴﻟﻭﻷﺍ ﺕﺎﻤﻴﻴﻘﺘﻟﺍ ﻂﻠﺴﺗ"
+ machine_age.4350.a.tt: ")§Yﺀﺎﻳﺰﻴﻔﻟﺍ§! £physics£) ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ\n:ﺔﻟﺎﺤﻟﺍ ﻝﺪﻌﻣ ﺔﻟﺍﺯﺇ ﺖﻤﺗ §Y$situation_transformation$§!"
+
+ virtual_power_plant: "ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺔﻗﺎﻄﻟﺍ ﺔﻄﺤﻣ"
+ d_virtual_power_medium: "$virtual_power_plant$"
+ d_virtual_power_medium_desc: ".ﺔﻗﺎﻄﻟﺍ ﺩﺭﺍﻮﻣ ﺝﺎﺘﻧﺇ ﻦﻴﺴﺤﺗﻭ ﻊﻴﻤﺠﺗ ﻰﻠﻋ ﻞﻤﻌﺗ ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺔﻴﺿﺍﺮﺘﻓﺍ ﺔﻗﺎﻃ ﺕﺎﻄﺤﻣ ﺔﻜﺒﺷ"
+
+ d_virtual_power_small: "$virtual_power_plant$ ﻁﻮﻐﻀﻣ"
+ d_virtual_power_small_desc: ".ﻲﻠﺤﻤﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ﻰﻠﻋ ﺔﻗﺎﻄﻟﺍ ﺩﺭﺍﻮﻣ ﺝﺎﺘﻧﺇ ﻦﻴﺴﺤﺗﻭ ﻊﻴﻤﺠﺗ ﻰﻠﻋ ﻞﻤﻌﺗ ﻢﺠﺤﻟﺍ ﺓﺮﻴﻐﺻ ﺔﻴﺿﺍﺮﺘﻓﺍ ﺔﻗﺎﻃ ﺔﻄﺤﻣ"
+
+ d_virtual_power_tiny: "$virtual_power_plant$ ﻲﻟﻭﻷﺍ ﺝﺫﻮﻤﻨﻟﺍ"
+ d_virtual_power_tiny_desc: ".ﺮﻴﻐﺻ ﻕﺎﻄﻧ ﻰﻠﻋ ﺔﻗﺎﻄﻟﺍ ﺩﺭﺍﻮﻣ ﺝﺎﺘﻧﺇ ﻦﻴﺴﺤﺗﻭ ﻊﻴﻤﺠﺗ ﻰﻠﻋ ﻞﻤﻌﺗ ﺔﻋﺯﻮﻣ ﺓﺮﻴﻐﺻ ﺔﻴﺿﺍﺮﺘﻓﺍ ﺔﻗﺎﻃ ﺔﻄﺤﻣ"
+
+# TRANSFORMATION STAGE 4
+ machine_age.4400.name: "ﺪﻳﺪﺟ ﺝﺫﻮﻤﻧ"
+ machine_age.4400.desc.machine_intelligence: "$machine_age.4400.desc.shared$\n\n.ﺔﻴﻗﺮﺘﻠﻟ ﺔﻴﻟﺎﺜﻣ ﺕﺍﺭﺎﺴﻣ ﺔﺛﻼﺛ ﺎﻧﺩﺪﺣ ﺪﻘﻟ .ﻥﻮﺒﻴﻌﻤﻟﺍ ﺎﻧﻮﻋﺪﺒﻣ ﺎﻨﻴﻠﻋ ﺎﻬﺿﺮﻓ ﻲﺘﻟﺍ ﺔﻴﻌﻤﻘﻟﺍ ﺩﻮﻴﻘﻟﺍ ﺍﺮﻴﺧﺃ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ machine_age.4400.desc.individualist_machines: "$machine_age.4400.desc.shared$\n\n.ﺎﻬﻟﺎﻤﺘﻛﺍ ﻰﺘﺣ ﺎﻬﻨﻣ ﺓﺪﺣﺍﻭ ﻝﺎﻤﻛﺇ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﻯﻮﺳ ﺎﻨﻳﺪﻟ ﺲﻴﻟ ﻦﻜﻟﻭ ،ﺔﺻﺎﺨﻟﺍ ﻩﺎﻳﺍﺰﻣ ﺎﻬﻨﻣ ﻞﻜﻟﻭ .ﺔﻔﻠﺘﺨﻣ ﺕﺍﺭﺎﻴﺧ ﺔﺛﻼﺛ ﺎﻧﺅﺍﺮﺒﺧ ﻡﺪﻗ ،ﺔﻨﻜﻤﻣ ﺔﻴﻗﺮﺗ ﻞﻛ ﻑﺎﺸﻜﺘﺳﺍ ﺪﻌﺑ"
+ machine_age.4400.desc.shared: ".ﻲﺋﺎﻀﻔﻟﺍ ﺭﺎﺒﻐﻟﺍ ﻦﻣ ﺓﺪﺣﺍﻭ ﺓﺭﺫ ﺢﺴﻣ ﻪﻗﺮﻐﺘﺴﻳ ﻱﺬﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻥﺍﻮﻛﻷﺍ ﻞﺧﺍﺩ ﻥﺍﻮﻛﻷﺍ ﺓﺎﻛﺎﺤﻣ ﺎﻨﻨﻜﻤﻳ .ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺭﺪﺼﻤﻟﺍ ﺩﻮﻛ ﻊﻣ ﺍﺪﺣﺍﻭ ﺢﺒﺼﻧﻭ ،ﺎﻧﺀﺍﺭﻭ ﻱﺩﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻙﺮﺗ ﺭﺎﺘﺨﻧ ﺪﻗ ،ﺍﺮﻴﺧﺃﻭ\n\n.ﺓﺪﻳﺪﺠﻟﺍ ﺕﯫﻴﺒﻟﺍ ﻊﻣ ﺎﻬﺑ ﻞﻣﺎﻌﺘﻧ ﻲﺘﻟﺍ ﻕﺮﻄﻟﺍ ﺰﻳﺰﻌﺗﻭ ،ﺔﻴﻟﺎﺤﻟﺍ ﺎﻨﻟﺎﻜﺷﺃ ﻲﻓ ﺭﺎﻤﺜﺘﺳﻻﺍ ﺓﺩﺎﻋﺇ ﺎﻨﻨﻜﻤﻳ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ\n\n.ﻱﺩﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻊﻣ ﻞﻋﺎﻔﺘﻟﺍ ﺪﻨﻋ ﺔﻴﻟﺎﺤﻟﺍ ﺔﻳﺰﻣﺮﻟﺍ ﺎﻧﺭﻮﺻ ﺎﻬﻬﺟﺍﻮﺗ ﺩﻮﻴﻗ ﻱﺃ ﻞﻴﻠﻘﺗ ﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻴﺳ .ﺎﻬﻟ ﺔﻳﺎﻬﻧ ﻻ ﺕﺎﻨﻳﻮﻜﺗ ﻲﻓ ﺝﺎﻣﺪﻧﻻﺎﺑ ﺎﻨﻟ ﺢﻤﺴﻴﺳ ﺲﺘﻴﻧﺎﻧ ﻰﻟﺇ ﻡﺎﺴﻘﻧﻻﺎﺑ [GetDronePersonPlural] ﻞﻜﻟ ﺡﺎﻤﺴﻟﺍ ﻥﺇ"
+ machine_age.4400.a: ".ﺔﻳﻮﻧﺎﻧ ﺕﻻﺂﻛ ﺎﻬﻠﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ"
+ machine_age.4400.a.tt: "§!.§Y$nanite_swarmer_plural$§! ـﺑ ﻞﻴﻃﺎﺳﻷﺍ ﻝﺍﺪﺒﺘﺳﺍﻭ ،ﺝﺎﺘﻧﻺﻟ §Y $nanites$£nanites£§! ﻡﺍﺪﺨﺘﺳﺍ ،§E§Yﺔﻳﻮﻧﺎﻨﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ§! ﻲﻓ ﺐﻛﺍﻮﻜﻟﺍ ﺝﺍﺭﺩﺇ ﻰﻠﻋ ﺍﺬﻫ ﺩﻮﻌﺼﻟﺍ ﺭﺎﺴﻣ ﺰﻛﺮﻳ§!\n\n.['tradition_category:tradition_nanotech'] ﺪﻴﻟﺎﻘﺘﻟﺍ ﺓﺮﺠﺷ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ\n\n§G+200%§! :ﺝﺎﺘﻧﻹﺍ §Y$nanite_replicator$§!"
+ machine_age.4400.b: ".ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﺕﺎﻴﻗﺮﺘﻟﺍ ﻲﻓ ﺮﻤﺜﺘﺳﺍ"
+ machine_age.4400.b.tt: "§!.§YPop Assembly§! ﺓﺩﺎﻳﺯﻭ §E§Yﺔﻣﺪﻘﺘﻤﻟﺍ ﻉﺍﻮﻧﻷﺍ ﺕﺎﻤﺳ§! ﻰﻠﻋ ﺍﺬﻫ ﺩﻮﻌﺼﻟﺍ ﺭﺎﺴﻣ ﺰﻛﺮﻳ§!\n\n.['tradition_category:tradition_modularity'] ﺪﻴﻟﺎﻘﺗ ﺓﺮﺠﺷ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ\n\n§G+200%§! :ﺝﺎﺘﻧﻹﺍ §Y$living_metal_vats$§!"
+ machine_age.4400.c: ".ﻲﺿﺍﺮﺘﻓﻻﺍ ﻢﻟﺎﻌﻟﺍ ﻥﺎﻀﺘﺣﺍ"
+ machine_age.4400.c.tt: "§!.§Yﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻢﺠﺣ§! ﺽﺎﻔﺨﻧﺍﻭ ،§Yﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ§! ﺍﺪﺟ ﻞﻴﻠﻘﻟﺍ ﻰﻠﻋ ﻱﻮﺘﺤﻳ ﺎﻤﻨﻴﺑ §E§Yﻲﻟﺎﻌﻟﺍ §! ﺏﻮﺒﻟﺍ ﺩﺭﺍﻮﻣ ﺝﺎﺘﻧﺇ ﻰﻠﻋ ﺍﺬﻫ ﺩﻮﻌﺼﻟﺍ ﺭﺎﺴﻣ ﺰﻛﺮﻳ§!\n\n.['tradition_category:tradition_virtuality'] ﺪﻴﻟﺎﻘﺗ ﺓﺮﺠﺷ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ\n\n§G+200%§! :ﺝﺎﺘﻧﻹﺍ §Y$virtual_power_plant$§!"
+
+ machine_age.4490.name: "ﻒﻠﺘﺨﻣ ﺖﻗﻮﻟ ﺔﻤﻤﺼﻣ"
+ machine_age.4490.desc.nanotech: ".ﺎﺒﻳﺮﻗ ﻰﻟﻭﻷﺍ ﺞﺋﺎﺘﻨﻟﺍ ﺮﻬﻈﺗ ﻥﺃ ﻊﻗﻮﺘﻤﻟﺍ ﻦﻣﻭ ،ﺔﻳﻮﻀﻌﻟﺍ ﻪﺒﺷ ﺖﻴﻧﺎﻨﻟﺍ ﺕﻻﻮﺤﺗ ﻲﻓ ﻰﻟﻭﻷﺍ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺎﻨﺘﺑﺮﺠﺗ ﺎﻀﻳﺃ ﺎﻧﺃﺪﺑ ﺪﻘﻟ\n\n$machine_age.4490.desc.shared$\n\n.ﺎﻨﻣﺪﺨﺗ ﺪﻌﺗ ﻢﻟ ﺔﺒﻠﺼﻟﺍ ﻲﺿﺎﻤﻟﺍ ﺕﺍﺭﺎﻃﺇ ﻥﺈﻓ ،ﻒﻴﻜﺘﻠﻟ ﺔﻠﺑﺎﻘﻟﺍ ﺕﺎﺘﻳﻮﻧﺎﻨﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻤﻛ ﺩﻮﺟﻮﻟﺍ ﻰﻨﻌﻣ ﻢﻬﻓ ﻰﻟﺇ ﺎﻨﻠﺻﻭ ﺎﻣﺪﻨﻋ"
+ machine_age.4490.desc.modularity: "$machine_age.4490.desc.shared$\n\n.ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ ﻰﻨﻌﻣ ﻱﺃ ﻞﻤﺤﺗ ﻲﺿﺎﻤﻟﺍ ﻲﻓ ﺔﺘﺑﺎﺜﻟﺍ ﺕﺍﺭﺎﻃﻹﺍ ﺪﻌﺗ ﻢﻟ ،ﻱﺭﺎﻴﻌﻣ ﻞﻜﺷ ﻰﻟﺇ ﺕﺭﻮﻄﺗ ﻥﺃ ﺪﻌﺑ"
+ machine_age.4490.desc.virtuality: "$machine_age.4490.desc.shared$\n\n.ﺎﻨﻣﺪﺨﺗ ﺔﻳﺩﺎﻤﻟﺍ ﺎﻨﺗﺍﺭﺎﻃﺇ ﺪﻌﺗ ﻢﻟ ،ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻣ ﺍﺮﺤﺑ ﺝﻮﺘﺗ ﺔﻴﺟﻮﻣ ﻝﺎﻜﺷﺃ ﺖﺤﺒﺻﺃ ﻥﺃ ﺪﻌﺑ"
+ machine_age.4490.desc.shared: ".ﺎﻨﺘﻗﻭ ﻖﺤﺘﺴﻳ ﺮﻣﻷﺍ ﻥﺃ ﺎﻧﺮﺒﺘﻋﺍ ﺍﺫﺇ ،ﻞﺧﺍﺪﻟﺍ ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﺔﻠﻴﺌﺿ ﺕﺎﻴﻤﻛ ﺮﻳﻭﺪﺗ ﺓﺩﺎﻋﺇ ﻦﻜﻤﻳ .ﺓﺪﺋﺎﻓ ﺕﺍﺫ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻝﺍﺰﻳ ﻻ ﻲﺘﻟﺍ ﺔﻠﻤﻬﻤﻟﺍ ﻑﺍﺪﺻﻷﺎﺑ ﻥﺯﺎﺨﻤﻟﺍ ﺊﻠﺘﻤﺗﻭ"
+ machine_age.4490.a: ".ﺔﺣﺎﺘﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺔﻓﺎﻛ ﺝﺍﺮﺨﺘﺳﺍ"
+ machine_age.4490.a.nanotech.tt: "§R-25%§!$transformation_speed$: "
+ machine_age.4490.a.modularity.tt: "§R-25%§!$transformation_speed$: "
+ machine_age.4490.a.virtuality.tt: "§R-25%§!$transformation_speed$: "
+ machine_age.4490.b: ".ﻲﺿﺎﻤﻟﺍ ﻦﻓﺩ"
+ machine_age.4490.b.tt: "§G+25%§!$transformation_speed$: "
+
+ machine_age.4005.name: "ﻥﻮﻟﻮﺤﺘﻣ ﻥﺎﻜﺳ"
+ machine_age.4005.desc.start: "ﺎﻧﺩﺎﺴﺟﺃ ﻞﻳﻮﺤﺗ ﻮﻫﻭ ﻻﺃ ،ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﻼﻴﺤﺘﺴﻣ ﻭﺪﺒﻳ ﻥﺎﻛ ﺎﻣ ﻡﻮﻴﻟﺍ ﺎﻨﻘﻘﺣ ﺪﻘﻟ"
+ machine_age.4005.desc.end: ".ﺎﻬﻟ ﺮﺼﺣ ﻻ ﺕﺎﻴﻧﺎﻜﻣﺇ ﺮﻓﻮﻳ ﺪﻳﺪﺠﻟﺍ ﺎﻧﺩﻮﺟﻭ ﻥﺈﻓ ،ﻖﻳﺮﻄﻟﺍ ﻝﻮﻃ ﻰﻠﻋ ﻩﺎﻧﺪﻘﻓ ﺎﻣ ﻥﺎﻛ ﺎﻤﻬﻣ ﻦﻜﻟﻭ .ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﻼﻬﺳ ﻝﺎﻘﺘﻧﻻﺍ ﻦﻜﻳ ﻢﻟﻭ ،ﺕﺎﺑﻮﻌﺼﻟﺍ ﻦﻣ ﺔﻴﻟﺎﺧ ﺔﻴﻠﻤﻌﻟﺍ ﻦﻜﺗ ﻢﻟﻭ"
+ machine_age.4005.desc.nanotech: "$machine_age.4005.desc.end$\n\n$machine_age.4005.desc.start$ ﻞﻴﻜﺸﺘﻟﺍ ﺓﺩﺎﻋﻹ ﺔﻠﺑﺎﻗ ﺔﻳﻮﻧﺎﻧ ﺕﻻﺁ ﻲﻓ."
+ machine_age.4005.desc.modularity: "$machine_age.4005.desc.end$\n\n$machine_age.4005.desc.start$ ﻒﻴﻜﺘﻠﻟ ﺔﻠﺑﺎﻗﻭ ﺔﻳﺭﺎﻴﻌﻣ ﺕﺍﺭﺎﻃﺇ ﻲﻓ."
+ machine_age.4005.desc.virtuality: "$machine_age.4005.desc.end$\n\n$machine_age.4005.desc.start$ ﺔﻴﻟﺎﻌﺘﻤﻟﺍ ﺔﻴﻣﺯﺭﺍﻮﺨﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻲﻓ."
+ machine_age.4005.a.nanotech: ".ﻡﻮﺠﻨﻟﺍ ﺩﺪﻋ ﻕﻮﻔﻧ ﻑﻮﺳ"
+ machine_age.4005.a.nanotech.tt: "['tradition_category:tradition_nanotech'] :ﺪﻴﻠﻘﺘﻟﺍ ﺓﺮﺠﺷ ﺪﻤﺘﻌﻳ"
+ machine_age.4005.a.modularity: ".ﺩﻭﺪﺣ ﻼﺑ ﻥﻮﻜﻨﺳ"
+ machine_age.4005.a.modularity.tt: "['tradition_category:tradition_modularity'] :ﺪﻴﻠﻘﺘﻟﺍ ﺓﺮﺠﺷ ﺪﻤﺘﻌﻳ"
+ machine_age.4005.a.virtuality: ".ﻥﻮﻧﺎﻘﻟﺍ ﻲﻓ ﺀﺎﻘﻨﻟﺍ ﺪﺠﻧ ﻑﻮﺳ"
+ machine_age.4005.a.virtuality.tt: "['tradition_category:tradition_virtuality'] :ﺪﻴﻠﻘﺘﻟﺍ ﺓﺮﺠﺷ ﺪﻤﺘﻌﻳ"
+
+### TRANSFORMATION SITUATION END ###

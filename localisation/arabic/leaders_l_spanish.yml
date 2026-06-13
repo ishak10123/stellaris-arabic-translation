@@ -1,0 +1,309 @@
+﻿l_spanish:
+
+ ### LEADER CLASSES
+ ADMIRAL_TEXTICON:0 "£admiral£"
+ COMMANDER_TEXTICON: "£commander£"
+ SCIENTIST_TEXTICON:0 "£scientist£"
+ GENERAL_TEXTICON:0 "£general£"
+ OFFICIAL_TEXTICON: "£official£"
+ GOVERNOR_TEXTICON:0 "£official£"
+ NOCLASS_TEXTICON:0 "£noclass£"
+
+ ### Veteran Classes
+ veteran_class:0 "ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﺑﺭﺎﺤﻤﻟﺍ ﺔﺌﻓ"
+ general_subclass:2 "§v$veteran_class$§! £general£"
+ commander_subclass: "§v$veteran_class$§! £commander£"
+ governor_subclass:2 "§v$veteran_class$§! £official£"
+ official_subclass: "§v$veteran_class$§! £official£"
+ scientist_subclass:2 "§v$veteran_class$§! £scientist£"
+ councilor_subclass_base:0 "[Root.GetClass]"
+
+ councilor_subclass_commander: ")£council£$commander_subclass$ ("
+ councilor_subclass_general:0 ")£council£$general_subclass$ ("
+ councilor_subclass_governor:0 ")£council£$governor_subclass$ ("
+ councilor_subclass_official: ")£council£$official_subclass$ ("
+ councilor_subclass_scientist:0 ")£council£$scientist_subclass$ ("
+ councilor_subclass:2 ")£council£ (§v$veteran_class$§! [Root.GetClassTexticon]"
+
+ admiral_subclass_tt: "§Gﻞﻴﻃﺎﺳﻷﺍ ﺓﺩﺎﻴﻗ ﻰﻠﻋ ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﺑﺭﺎﺤﻤﻟﺍ ﺔﺌﻓ ﺰﻛﺮﺗ§!"
+ general_subclass_tt: "§Gﺵﻮﻴﺠﻟﺍ ﺓﺩﺎﻴﻗ ﻰﻠﻋ ﺰﻛﺮﺗ ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﺑﺭﺎﺤﻤﻟﺍ ﺔﺌﻓ§!"
+ delegate_subclass_tt: "§G[GetGalCommunityOrGalImperium]ﻭ ﺕﺍﺩﺎﺤﺗﻻﺍ ﻲﻓ ﺎﻨﻠﻴﺜﻤﺗ ﻰﻠﻋ ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﺑﺭﺎﺤﻤﻟﺍ ﺔﺌﻓ ﺰﻛﺮﺗ§!"
+ explorer_subclass_tt:0 "§Gﺢﺴﻤﻟﺍﻭ ﻑﺎﺸﻜﺘﺳﻻﺍ ﻰﻠﻋ ﺰﻛﺮﺗ ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﺑﺭﺎﺤﻤﻟﺍ ﺔﺌﻓ§!"
+ scholar_subclass_tt: "§Gﺮﻔﺤﻟﺍ ﻊﻗﺍﻮﻣﻭ ﺓﺫﺎﺸﻟﺍ ﺕﻻﺎﺤﻟﺍ ﻲﻓ ﻖﻴﻘﺤﺘﻟﺍ ﻰﻠﻋ ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﺑﺭﺎﺤﻤﻟﺍ ﺔﺌﻓ ﺰﻛﺮﺗ§!"
+ governor_subclass_tt: "§Gﻢﻛﺎﺤﻟﺍ ﺕﺎﻤﺳ ﻰﻠﻋ ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﺑﺭﺎﺤﻤﻟﺍ ﺔﺌﻓ ﺕﺰﻛﺭ§!"
+ councilor_subclass_tt:0 "§Gﺭﺎﺸﺘﺴﻤﻟﺍ ﺕﺎﻤﺳ ﻰﻠﻋ ﺰﻛﺮﺗ ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﺑﺭﺎﺤﻤﻟﺍ ﺔﺌﻓ§!"
+
+ ## Commander
+ subclass_commander_admiral: "ﻝﺍﺮﻴﻣﺩﺃ"
+ subclass_commander_admiral_desc: ".ﻭﺪﻌﻟﺍ ﻊﻣ ﻢﻬﻛﺎﺒﺘﺷﺍ ﺀﺎﻨﺛﺃ ﻢﻗﺎﻄﻟﺍ ﺏﺎﺼﻋﺃ ﻱﻮﻘﻳ ﻢﺳﺎﺤﻟﺍ ﻝﺍﺮﻴﻣﺩﻸﻟ ﻲﻗﺍﻭﺮﻟﺍ ﺩﻮﺟﻮﻟﺍ ﻥﺇ"
+ subclass_commander_admiral_hive: "$subclass_commander_admiral$"
+ subclass_commander_admiral_hive_desc: ".ﻭﺪﻌﻟﺍ ﻊﻣ ﻪﻛﺎﺒﺘﺷﺍ ﺀﺎﻨﺛﺃ ﺎﻜﺳﺎﻤﺘﻣ ﻝﻮﻄﺳﻷﺍ ﺀﺎﻘﺑ ﻦﻤﻀﻳ ﺺﺼﺨﻣ ﻝﺍﺮﻴﻣﺃ ﺩﻮﺟﻭ ﻥﺇ"
+ subclass_commander_admiral_machine: "$subclass_commander_admiral$"
+ subclass_commander_admiral_machine_desc: ".ﻭﺪﻌﻟﺍ ﻊﻣ ﻪﻛﺎﺒﺘﺷﺍ ﺀﺎﻨﺛﺃ ﺎﻨﻣﺍﺰﺘﻣ ﻝﻮﻄﺳﻷﺍ ﺀﺎﻘﺑ ﺔﺼﺼﺨﻣ ﻝﺍﺮﻴﻣﺃ ﺓﺪﺣﻭ ﺩﻮﺟﻭ ﻦﻤﻀﻳ"
+ commander_admiral_subclass: "§Gﻱﺮﺤﺒﻟﺍ ﻝﺎﺘﻘﻟﺍﻭ ﻞﻴﻃﺎﺳﻷﺍ ﻰﻠﻋ ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﺑﺭﺎﺤﻤﻟﺍ ﺔﺌﻓ ﺰﻛﺮﺗ§!"
+
+ subclass_commander_general: "ﻡﺎﻋ"
+ subclass_commander_general_desc: ".ﺐﻛﺍﻮﻜﻟﺍ ﺕﺍﻭﺰﻏ ﻦﻴﺑ ﻖﻴﺴﻨﺘﻟﺍ ﻦﻴﺴﺤﺘﺑ ﻝﺍﺮﻨﺠﻟﺍ ﺩﻮﺟﻭ ﺢﻤﺴﻳ"
+ subclass_commander_general_hive: "$subclass_commander_general$"
+ subclass_commander_general_hive_desc: "$subclass_commander_general_desc$"
+ subclass_commander_general_machine: "$subclass_commander_general$"
+ subclass_commander_general_machine_desc: "$subclass_commander_general_desc$"
+ commander_general_subclass: "§Gﺐﻛﺍﻮﻜﻟﺍ ﻭﺰﻏﻭ ﺐﻛﺍﻮﻜﻟﺍ ﻒﺼﻗﻭ ﺔﻴﻤﺠﻨﻟﺍ ﺪﻋﺍﻮﻘﻟﺍ ﺔﻤﺟﺎﻬﻣ ﻰﻠﻋ ﺰﻛﺮﺗ ﻰﻣﺍﺪﻘﻟﺍ ﻦﻴﺑﺭﺎﺤﻤﻟﺍ ﺔﺌﻓ§!"
+
+ subclass_commander_governor: "ﺽﻮﻔﻣ"
+ subclass_commander_governor_desc: ".ﺔﻳﻮﻗ ﺔﻳﺅﺭﻭ ﺔﻳﺮﻜﺴﻋ ﺔﻣﺍﺮﺼﺑ ﺕﺎﻋﺎﻄﻘﻟﺍﻭ ﺐﻛﺍﻮﻜﻟﺍ ﻢﻜﺣﻭ ،ﺓﻮﻘﻟﺍ ﻝﻼﺧ ﻦﻣ ﻡﺎﻈﻨﻟﺍ ﺽﺮﻓ ﻲﻓ ﻥﻮﺼﺼﺨﺘﻣ ﻥﻮﺿﻮﻔﻤﻟﺍ"
+ subclass_commander_governor_hive: "$subclass_commander_governor$"
+ subclass_commander_governor_hive_desc: "$subclass_commander_governor_desc$"
+ subclass_commander_governor_machine: "$subclass_commander_governor$"
+ subclass_commander_governor_machine_desc: "$subclass_commander_governor_desc$"
+
+ subclass_commander_councilor:0 "ﻲﺠﻴﺗﺍﺮﺘﺳﺍ"
+ subclass_commander_councilor_desc:0 ".ﺕﺍﺮﺠﻤﻟﺍ ﺮﺒﻋ ﺪﺘﻤﺗ ﺔﻴﺑﺮﺣ ﻂﻄﺧ ﻊﺿﻭﻭ ﺶﻴﺠﻟﺍ ﻲﻓ ﻚﺳﺎﻤﺘﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻥﻮﻠﻀﻔﻳ ،ﺔﻣﺪﻘﻤﻟﺍ ﻲﻓ ﺔﻛﺮﻌﻤﻟﺍ ﺓﺩﺎﻴﻗ ﻦﻣ ﻻﺪﺒﻓ .ﺮﺒﻛﻷﺍ ﺓﺭﻮﺼﻟﺍ ﻰﻠﻋ ﻥﻮﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﺰﻛﺮﻳﻭ"
+ subclass_commander_councilor_hive:0 "$subclass_commander_councilor$"
+ subclass_commander_councilor_hive_desc:0 "$subclass_commander_councilor_desc$"
+ subclass_commander_councilor_machine:0 "$subclass_commander_councilor$"
+ subclass_commander_councilor_machine_desc:0 "$subclass_commander_councilor_desc$"
+
+ ## Official
+ subclass_official_delegate: "ﺏﻭﺪﻨﻣ"
+ subclass_official_delegate_desc: ".ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ ﻲﻓﻭ ﺕﺍﺩﺎﺤﺗﻻﺍ ﻲﻓ ﺎﻨﺤﻟﺎﺼﻣ ﻥﻮﺑﻭﺪﻨﻤﻟﺍ ﻞﺜﻤﻳ ،ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﻡﺎﻌﻟﺍ ﻪﺟﻮﻟﺍ ﻢﻫﺭﺎﺒﺘﻋﺎﺑ"
+ subclass_official_delegate_hive: "ﺏﻭﺪﻨﻣ"
+ subclass_official_delegate_hive_desc: "$subclass_official_delegate_desc$"
+ subclass_official_delegate_machine: "ﺏﻭﺪﻨﻣ"
+ subclass_official_delegate_machine_desc: "$subclass_official_delegate_desc$"
+
+ subclass_official_diplomacy_councilor: "ﺮﻴﻔﺳ"
+ subclass_official_diplomacy_councilor_desc: ".ﺎﻤﻬﻗﺎﻄﻧ ﻦﻤﺿ ﻥﺎﻌﻘﻳ ﺔﻘﻴﻗﺪﻟﺍ ﺲﺴﺠﺘﻟﺍ ﺔﻓﺮﺣﻭ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻦﻓ ﻥﺇ .ﺔﻗﺩ ﺮﺜﻛﺃ ﻕﺮﻄﺑﻭ ﻲﻨﻠﻋ ﻞﻜﺸﺑ ،ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻊﻣ ﺎﻨﺗﺎﻗﻼﻋ ﻰﻠﻋ ﺀﺍﺮﻔﺴﻟﺍ ﻆﻓﺎﺤﻳ"
+ subclass_official_diplomacy_councilor_hive: "$subclass_official_diplomacy_councilor$"
+ subclass_official_diplomacy_councilor_hive_desc: "$subclass_official_diplomacy_councilor_desc$"
+ subclass_official_diplomacy_councilor_machine: "$subclass_official_diplomacy_councilor$"
+ subclass_official_diplomacy_councilor_machine_desc: "$subclass_official_diplomacy_councilor_desc$"
+
+ subclass_official_governor:0 "ﻲﻋﺎﻨﺻ"
+ subclass_official_governor_desc:1 ".ﺪﺋﺎﻘﻟﺍ ﺍﺬﻬﻟ ﻲﻌﻴﺒﻃ ﻞﻜﺸﺑ ﻲﺗﺄﺗ ﺩﺍﻮﻤﻟﺍ ﺀﺍﺮﺷ ﻭﺃ ﺝﺎﺘﻧﻹﺍ ﺺﺼﺣ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻲﻓ ﺕﺍﺭﺎﻬﻤﻟﺍﻭ ﺔﻓﺮﻌﻤﻟﺍ"
+ subclass_official_governor_hive:0 "ﺝﺎﺘﻧﻹﺍ ﺔﺒﻗﺍﺮﻣ"
+ subclass_official_governor_hive_desc:2 ".ﺝﺎﺘﻧﻹﺍ ﺔﻴﻠﻤﻋ ﻲﻓ ﻦﻳﺮﺧﻵﺍ ﻪﻴﺟﻮﺘﻟ ﻲﺋﺎﻘﺘﻧﺍ ﻞﻜﺸﺑ [owner.GetIndividualName] ﺝﺎﺘﻧﺇ ﻢﺗ"
+ subclass_official_governor_machine:0 "ﺓﺀﺎﻔﻜﻟﺍ ﺔﻘﻠﺣ"
+ subclass_official_governor_machine_desc:1 ".ﺔﻟﺎﻌﻔﻟﺍ ﺮﻴﻏ ﺝﺎﺘﻧﻹﺍ ﻁﺎﻤﻧﺃ ﻑﺬﺣﻭ ﻝﺰﻌﻟ ﺓﺰﻬﺠﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ subclass_official_economy_councilor:0 "ﺭﺎﺸﺘﺴﻣ"
+ subclass_official_economy_councilor_desc:1 ".ﺔﻳﺩﺎﺼﺘﻗﻻﺍ ﺔﻳﺮﻈﻨﻟﺍ ﻲﻓ ﻦﻴﺼﺼﺨﺘﻤﻟﺍ ﺓﺩﺎﻘﻟﺍ ﻦﻣ ﺔﺌﻓ ﻢﻫﻭ ،ﺎﻨﻳﺭﺎﺸﺘﺴﻣ ﻱﺪﻳﺃ ﻲﻓ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺔﻴﻧﺍﺰﻴﻣ ﻥﺇ"
+ subclass_official_economy_councilor_hive:0 "$subclass_official_economy_councilor$"
+ subclass_official_economy_councilor_hive_desc:1 "$subclass_official_economy_councilor_desc$"
+ subclass_official_economy_councilor_machine:0 "$subclass_official_economy_councilor$"
+ subclass_official_economy_councilor_machine_desc:1 "$subclass_official_economy_councilor_desc$"
+
+ ## Scientist
+ subclass_scientist_explorer:0 "ﺭﺭﻮﻠﺒﺴﻛﺇ"
+ subclass_scientist_explorer_desc:1 ".ﻞﺜﻤﻟﺍ ﻩﺬﻬﻟ ﺪﻴﺴﺠﺗ ﻮﻫ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ :ﺓﺪﻳﺪﺟ ﺕﺍﺭﺎﻀﺣ ﺔﻬﺟﺍﻮﻣﻭ ،ﺓﺪﻳﺪﺟ ﻉﺍﻮﻧﺃ ﺔﺳﺮﻬﻓﻭ ،ﺔﻟﻮﻬﺠﻣ ﻢﻟﺍﻮﻋ ﻑﺎﺸﻜﺘﺳﻻ"
+ subclass_scientist_explorer_hive:0 "ﺭﺭﻮﻠﺒﺴﻛﺇ"
+ subclass_scientist_explorer_hive_desc:1 ".ﺀﻱﺮﺠﻟﺍ [owner.GetIndividualName] ﺍﺬﻬﻟ ﻪﺟﻮﻤﻟﺍ ﻊﻓﺍﺪﻟﺍ :ﺓﺪﻳﺪﺟ ﺕﺍﺭﺎﻀﺣ ﺔﻬﺟﺍﻮﻣﻭ ،ﺓﺪﻳﺪﺟ ﻉﺍﻮﻧﺃ ﺔﺳﺮﻬﻓﻭ ،ﺔﻟﻮﻬﺠﻣ ﻢﻟﺍﻮﻋ ﻑﺎﺸﻜﺘﺳﻻ"
+ subclass_scientist_explorer_machine:0 "ﺭﺭﻮﻠﺒﺴﻛﺇ"
+ subclass_scientist_explorer_machine_desc:1 ".ﺔﺌﻳﺮﺠﻟﺍ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﺔﻴﻬﻴﺟﻮﺘﻟﺍ ﺔﺠﻣﺮﺒﻟﺍ :ﺓﺪﻳﺪﺟ ﺕﺍﺭﺎﻀﺣ ﺔﻬﺟﺍﻮﻣﻭ ،ﺓﺪﻳﺪﺟ ﻉﺍﻮﻧﺃ ﺔﺳﺮﻬﻓﻭ ،ﺔﻟﻮﻬﺠﻣ ﻢﻟﺍﻮﻋ ﻑﺎﺸﻜﺘﺳﻻ"
+
+ subclass_scientist_scholar: "ﻢﻟﺎﻋ"
+ subclass_scientist_scholar_desc: ".ﻯﺮﺧﻷﺍ ﺯﺎﻐﻟﻷﺍﻭ ﺔﻴﻧﺎﻜﻤﻟﺍ ﺕﺍﺫﻭﺬﺸﻟﺍﻭ ﺮﻔﺤﻟﺍ ﻊﻗﺍﻮﻣ ﺔﺳﺍﺭﺩ ﻲﻓ ﻥﻭﺮﻣﺎﻐﻤﻟﺍ ﻥﻮﺜﺣﺎﺒﻟﺍ ﺀﻻﺆﻫ ﻕﻮﻔﺘﻳ .ﺎﻬﻠﺤﻟ ﻥﻭﺩﻮﺟﻮﻣ ﺀﺎﻤﻠﻌﻟﺍﻭ ،ﺭﺍﺮﺳﻷﺎﺑ ﺔﺌﻴﻠﻣ ﺓﺮﺠﻤﻟﺍ"
+ subclass_scientist_scholar_hive: "$subclass_scientist_scholar$"
+ subclass_scientist_scholar_hive_desc: "$subclass_scientist_scholar_desc$"
+ subclass_scientist_scholar_machine: "$subclass_scientist_scholar$"
+ subclass_scientist_scholar_machine_desc: "$subclass_scientist_scholar_desc$"
+
+ subclass_scientist_governor:0 "ﻞﻠﺤﻤﻟﺍ"
+ subclass_scientist_governor_desc:0 ".ﻢﻤﺼﻣ ﻞﻠﺤﻣ ﻱﻷ ﻞﻏﺎﺸﻟﺍ ﻞﻐﺸﻟﺍ ﻮﻫ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻴﺴﺤﺘﻟ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻦﻋ ﺚﺤﺒﻟﺍﻭ ﺏﺭﺎﺠﺘﻟﺍ ﺀﺍﺮﺟﺇﻭ ﻡﻮﻠﻌﻟﺍ ﺔﻌﻴﻠﻃ ﻲﻓ ﺪﺟﺍﻮﺘﻟﺍ ﻥﺇ"
+ subclass_scientist_governor_hive:0 "ﻞﻠﺤﻤﻟﺍ"
+ subclass_scientist_governor_hive_desc:2 ".[owner.GetIndividualName] ﻞﻠﺤﻤﻠﻟ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺕﺎﻣﺎﻤﺘﻫﻻﺍ ﻲﻫ [owner.GetGestaltEntityName] ﻦﻴﺴﺤﺘﻟ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻦﻋ ﺚﺤﺒﻟﺍﻭ ﺏﺭﺎﺠﺘﻟﺍ ﺀﺍﺮﺟﺇﻭ ﻡﻮﻠﻌﻟﺍ ﺔﻌﻴﻠﻃ ﻲﻓ ﻚﻧﻮﻛ ﻥﺇ"
+ subclass_scientist_governor_machine:0 "ﻞﻠﺤﻤﻟﺍ"
+ subclass_scientist_governor_machine_desc:1 ".ﺓﺩﺪﺤﻣ ﻞﻠﺤﻣ ﺓﺪﺣﻭ ﻱﻷ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺕﺎﻣﺎﻤﺘﻫﻻﺍ ﻲﻫ ﺓﺀﺎﻔﻜﻟﺍ ﻦﻴﺴﺤﺘﻟ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻦﻋ ﺚﺤﺒﻟﺍﻭ ﺏﺭﺎﺠﺘﻟﺍ ﺀﺍﺮﺟﺇﻭ ﻡﻮﻠﻌﻟﺍ ﺔﻌﻴﻠﻃ ﻲﻓ ﻚﻧﻮﻛ ﻥﺇ"
+
+ subclass_scientist_councilor: "ﻲﺋﺎﺼﺣﺇ"
+ subclass_scientist_councilor_desc: ".ﺓﺩﺍﻮﻫ ﻼﺑ ﺔﻓﺮﻌﻤﻟﺍ ﻰﻟﺇ ﺩﺍﺮﻓﻷﺍ ﺀﻻﺆﻫ ﻰﻌﺴﻳ ،ﺓﺪﻳﺪﺠﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﻝﻼﺧ ﻦﻣﻭ .ﻊﻳﺭﺎﺸﻤﻟﺍﻭ ﺚﺤﺒﻟﺍ ﻕﺮﻓ ﺓﺭﺍﺩﺇ ﺀﺍﺭﻭ ﺔﻌﻓﺍﺪﻟﺍ ﺓﻮﻘﻟﺍ ﻢﻫ ﻥﻮﻴﺋﺎﺼﺣﻹﺍ"
+ subclass_scientist_councilor_hive: "ﻲﺋﺎﺼﺣﺇ"
+ subclass_scientist_councilor_hive_desc: ".ﺓﺩﺍﻮﻫ ﻼﺑ ﺔﻓﺮﻌﻤﻟﺍ ﺀﺍﺭﻭ ﻥﻮﻌﺴﻳ ﻢﻬﻧﺇ .ﻊﻳﺭﺎﺸﻤﻟﺍﻭ ﺚﺤﺒﻟﺍ ﻕﺮﻓ ﺓﺭﺍﺩﺇ ﺀﺍﺭﻭ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺔﻌﻓﺍﺪﻟﺍ ﺓﻮﻘﻟﺍ ﻢﻫ ﻥﻮﻴﺋﺎﺼﺣﻹﺍ"
+ subclass_scientist_councilor_machine: "ﻲﺋﺎﺼﺣﺇ"
+ subclass_scientist_councilor_machine_desc: "$subclass_scientist_councilor_hive_desc$"
+
+
+ ### TRAITS
+
+ leader_trait_ignore_leader_cap_tt: "ﺪﺋﺎﻘﻟﺍ ﺓﺭﺪﻗ ﻦﻤﺿ ﺎﻬﺑﺎﺴﺘﺣﺍ ﻢﺘﻳ ﻻ"
+
+ leader_trait_scout:0 "ﻑﺎﺸﻛ"
+ leader_trait_scout_desc:2 ".ﺕﺎﻧﺎﻴﻜﻟﺍ ﺮﻄﺧﺃ ﻰﺘﺣ ﺯﻭﺎﺠﺘﻟ ﺔﻣﺯﻼﻟﺍ ﺔﻴﻨﻔﻟﺍ ﺓﺭﺎﻬﻤﻟﺎﺑ ﻊﺘﻤﺘﻳﻭ ،ﻉﻼﻄﺘﺳﻻﺍ ﻲﻓ ﺮﻴﺒﺧ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ"
+ leader_trait_scout_hive:0 "ﻑﺎﺸﻛ"
+ leader_trait_scout_hive_desc:1 ".ﻯﺪﻤﻟﺍ ﺔﻠﻳﻮﻃ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺔﺒﻛﺮﻤﻟﺍ ﺭﺎﻌﺸﺘﺳﺍ ﺓﺰﻬﺟﺃ ﻦﻣ ﺓﺩﺎﻔﺘﺳﺍ ﻰﺼﻗﺃ ﻰﻠﻋ ﺎﻨﻟﻮﺼﺣ ﻦﻤﻀﻳ ﺎﻤﻣ ،ﻉﻼﻄﺘﺳﻼﻟ ﺺﺼﺨﻣ [owner.GetIndividualName] ﻥﺇ"
+ leader_trait_scout_machine:0 "ﻑﺎﺸﻛ"
+ leader_trait_scout_machine_desc:1 ".ﻯﺪﻤﻟﺍ ﺓﺪﻴﻌﺑ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺔﺒﻛﺮﻤﻟﺍ ﺭﺎﻌﺸﺘﺳﺍ ﺓﺰﻬﺟﺃ ﻦﻣ ﺓﺩﺎﻔﺘﺳﺍ ﻰﺼﻗﺃ ﻰﻠﻋ ﺎﻨﻟﻮﺼﺣ ﻦﻤﻀﻳ ﺎﻤﻣ ،ﻉﻼﻄﺘﺳﻻﺍ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_restore_point:1 "ﺏﻭﺮﻬﻟﺍ ﺏﺍﺮﺟ"
+ leader_trait_restore_point_desc:1 ".ﺮﻄﺧ ﺔﻣﻼﻋ ﻝﻭﺃ ﺪﻨﻋ ﺔﻨﻴﻔﺴﻟﺍ ﻙﺮﺘﺑ [Root.GetHimHer] ـﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺏﻭﺮﻬﻟﺍ ﺓﺮﺠﺣ ﻦﻣ ﺔﻨﻴﻔﺴﻟﺍ ﺓﺩﺎﻴﻘﻟ [Root.GetHisHer] ﺔﻨﻴﻔﺳ ﻞﻳﺪﻌﺘﺑ ﻲﻨﻠﻋ ﻞﻜﺸﺑ ﺭﺬﺤﻟﺍ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﻡﺎﻗ"
+ leader_trait_restore_point_effect: ".ﻝﻮﻄﺳﻷﺍ ﺮﻴﻣﺪﺗ ﻢﺘﻳ ﺎﻣﺪﻨﻋ ﺍﺪﺑﺃ ﺕﻮﻤﻳ ﻻ ﺪﺋﺎﻘﻟﺍ"
+
+ leader_trait_academia_recruiter:1 "ﻲﻤﻳﺩﺎﻛﻷﺍ ﺪﻨﺠﻤﻟﺍ"
+ leader_trait_academia_recruiter_desc:1 ".ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍﻭ ﺔﺳﺪﻨﻬﻟﺍ ﻲﻓ ﻡﺪﻘﺘﻟﺍ ﻰﻟﺇ ﻱﺩﺆﺗ ﻥﺃ ﺐﺠﻳﻭ ،ﺔﻴﺳﺍﺭﺪﻟﺍ ﻝﻮﺼﻔﻟﺍ ﻲﻓ ﺎﻬﺴﻳﺭﺪﺗ ﻦﻜﻤﻳ ﻻ ﺔﻛﺮﻌﻤﻟﺍ ﺔﺣﺎﺳ ﻲﻓ ﺔﺒﺴﺘﻜﻤﻟﺍ ﺔﻴﻠﻤﻌﻟﺍ ﺓﺮﺒﺨﻟﺍ ﻥﺇ .ﺎﻨﻳﺪﻟ ﻝﻮﻘﻌﻟﺍ ﻰﻛﺫﺃﻭ ﻞﻀﻓﻷ ﺔﻳﺮﻜﺴﻌﻟﺍ ﺔﻣﺪﺨﻟﺍ ﻞﺋﺎﻀﻓ ﺪﻴﺠﻤﺘﺑ ﺪﻴﻨﺠﺘﻟﺍ ﻰﻠﻋ ﻥﻮﻤﺋﺎﻘﻟﺍ ﻡﻮﻘﻳ ،ﺔﻴﻤﻳﺩﺎﻛﻷﺍ ﺎﻨﺗﺎﺴﺳﺆﻣ ﻲﻓ"
+ leader_trait_academia_recruiter_effect:1 "§G+1§! :ﻦﻴﺜﺣﺎﺒﻟﺍ ﻒﺋﺎﻇﻭ ﻦﻣ ﺔﻳﺮﺤﺒﻟﺍ ﺓﺭﺪﻘﻟﺍ"
+
+ leader_trait_selfcare_expert: "ﺔﻓﺎﻀﻤﻟﺍ ﺔﻤﻴﻘﻟﺍ ﺔﺒﻳﺮﺿ ﺥﺎﺴﻨﺘﺳﺍ"
+ leader_trait_selfcare_expert_desc: ".ﺕﻮﻤﻟﺍ ﺪﻌﺑ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﻞﺤﻣ ﻙﻮﻠﺴﻟﺍﻭ ﺔﻴﺼﺨﺸﻟﺍﻭ ﺕﺍﺭﺎﻬﻤﻟﺍ ﺲﻔﻨﺑ ﻊﺘﻤﺘﻳ ﻱﺬﻟﺍ ﺦﺴﻨﺘﺴﻤﻟﺍ ﻞﺤﻳ ﻑﻮﺳ"
+ leader_trait_selfcare_expert_machine: "ﺔﻴﻃﺎﻴﺘﺣﺍ ﺔﺨﺴﻧ"
+ leader_trait_selfcare_expert_machine_desc: ".ﻞﻤﻌﻟﺍ ﻦﻋ [Root.GetHeShe] ﻒﻗﻮﺗ ﺪﻌﺑ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﻞﺤﻣ ﻙﻮﻠﺴﻟﺍﻭ ﺔﻴﺼﺨﺸﻟﺍﻭ ﺕﺍﺭﺎﻬﻤﻟﺍ ﺲﻔﻨﺑ ﺔﻴﻟﺁ ﺔﺨﺴﻧ ﻞﺤﺘﺳ"
+ leader_trait_selfcare_expert_hive: "ﺥﺎﺴﻨﺘﺳﺍ [owner.GetIndividualNameCap]"
+ leader_trait_selfcare_expert_hive_desc: ".ﺕﻮﻤﻟﺍ ﺪﻌﺑ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﻞﺤﻣ ﻙﻮﻠﺴﻟﺍﻭ ﺔﻴﺼﺨﺸﻟﺍﻭ ﺕﺍﺭﺎﻬﻤﻟﺍ ﺲﻔﻨﺑ ﻉﻭﺭﺰﻤﻟﺍ [owner.GetIndividualName] ﻞﺤﻳ ﻑﻮﺳ"
+ leader_trait_selfcare_expert_effect: ".ﻲﻟﺎﺤﻟﺍ ﺮﻤﻌﻟﺍ ﻒﺼﻧﻭ ﻯﻮﺘﺴﻤﻟﺍﻭ ﺕﺍﺭﺎﻬﻤﻟﺍ ﺲﻔﻨﺑ ﺪﺋﺎﻘﻟﺍ ﻦﻣ ﺔﺨﺴﻧ ﺀﺎﺸﻧﺇ :ﺓﺎﻓﻮﻟﺍ ﺪﻨﻋ"
+
+ leader_trait_midas_touch:0 "ﺓﺎﻴﺤﻟﺎﺑ ﺾﺑﺎﻨﻟﺍ ﺺﺼﻘﻟﺍ ﻱﻭﺍﺭ"
+ leader_trait_midas_touch_desc:1 ".ﺓﺫﺎﺸﻟﺍ ﺙﺍﺪﺣﻷﺍﻭ ﺓﺭﺩﺎﻨﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻝﻮﺣ ﺔﻤﻴﻗ ﻯﺅﺭ ﺮﻓﻮﺗﻭ ،ﺮﻴﻫﺎﻤﺠﻟﺍ [Root.GetHisHer] ﺕﺍﺮﻐﺛ ﻢﻬﻠﺗ .ﺎﻘﺣ ﺓﺪﻴﻌﺑﻭ ﺔﻠﻫﺬﻣ ﻦﻛﺎﻣﺃ ﻰﻠﻋ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﺪﻬﺷ ،ﻢﻟﺎﻌﻟﺍ ﺝﺭﺎﺧ ﻥﺎﻴﺣﻷﺍ ﻦﻣ ﺮﻴﺜﻛ ﻲﻓ"
+ leader_trait_midas_touch_effect:4 "§G+300§!$tt$ﻊﻴﻤﺟ ﺐﺴﺘﻜﻳ $scientist_plural_with_icon$ ﺓﺮﺒﺧ \n:ﺓﺫﺎﺷ ﺔﻟﺎﺣ ﻱﺃ ﻦﻋ ﺚﺤﺒﻟﺍ ﺪﻨﻋ"
+
+ leader_trait_speed_chaser: "ﺔﻋﺮﺴﻟﺍ ﺩﺭﺎﻄﻣ"
+ leader_trait_speed_chaser_desc: ".ﻥﻭﺮﺧﻵﺍ ﻪﻌﺒﺘﻴﻟ ﺎﺒﻬﺘﻠﻣ ﺍﺮﺛﺃ ﻙﺮﺗﺍﻭ ،ﺎﺑﺎﺷ ﺖﻣﻭ ،ﺎﻗﺮﺸﻣ ﻕﺮﺘﺣﺍ"
+
+ leader_trait_destructive: "ﺓﺮﻣﺪﻣ"
+ leader_trait_destructive_desc: ".ﺎﻬﻠﻴﻐﺸﺗ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺓﺮﻤﺘﺴﻣ ﺔﻧﺎﻴﺻﻭ ﺓﺭﺮﻜﺘﻣ ﺕﺎﺣﻼﺻﺇ ﺀﺍﺮﺟﺇ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺕﻻﻵﺍﻭ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﺒﻛﺮﻤﻟﺎﺑ ﺔﻳﺎﻨﻌﻟﺍ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﻞﻤﻬﻳ"
+
+ leader_trait_collective_wisdom:1 "ﻞﻴﺻﺎﻔﺘﻟﺍ ﻮﺤﻧ ﻪﺟﻮﻣ"
+ leader_trait_collective_wisdom_desc:2 ".ﺙﺎﺤﺑﻷﺍ ﻦﻣ ﻕﺪﺼﺗ ﻻ ﺕﺎﻴﻤﻛ ﺞﺘﻨﻳ ﻪﻨﻜﻟ ،ﺀﻂﺒﺑ ﻞﻤﻌﻳ ﻖﻴﻗﺩ ﻲﻤﻳﺩﺎﻛﺃ"
+ leader_trait_collective_wisdom_effect:2 " $mod_leader_scientists_society_research_produces_add$ ﺭﺎﺛﻵﺍ ﻊﻗﺍﻮﻣ ﻲﻓ ﺐﻴﻘﻨﺘﻟﺍ ﺀﺎﻨﺛﺃ§G+$@trait_collective_wisdom_soc_amt|0$§! ﺢﻨﻣ"
+ leader_trait_collective_wisdom_ancrel_effect:1 " $MINOR_ARTIFACTS$ ﺭﺎﺛﻵﺍ ﻊﻗﺍﻮﻣ ﺐﻴﻘﻨﺘﻟﺍ ﺀﺎﻨﺛﺃ£minor_artifacts£ §G+$@trait_collective_wisdom_ma_amt|0$§! $mod_leader_scientists_society_research_produces_add$ ﻭ§G+$@trait_collective_wisdom_soc_amt|0$§! ﺢﻨﻣ"
+ leader_trait_collective_wisdom_2:0 "$leader_trait_collective_wisdom$ II"
+ leader_trait_collective_wisdom_2_desc:0 "$leader_trait_collective_wisdom_desc$"
+ leader_trait_collective_wisdom_2_effect:1 ".ﻊﻗﻮﻤﻟﺍ ﻲﻓ ﺐﻴﻘﻨﺘﻟﺍ ﺀﺎﻨﺛﺃ §Y$society_research$§! £society£+20 "
+
+ leader_trait_observant: "ﻆﺣﻼﻣ"
+ leader_trait_observant_desc:2 ".ﺔﻠﺒﻘﻤﻟﺍ ﺔﻠﺣﺮﻠﻟ ﻂﻴﻄﺨﺘﻟﺍﻭ ﺪﻳﺰﻤﻟﺍ ﺔﻳﺅﺮﺑ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻬﻟ ﻊﻨﺼﻟﺍ ﺔﻴﺗﺍﺫ ﺔﻳﻮﻘﻟﺍ ﺔﻴﺋﻮﻀﻟﺍ ﺕﺎﺤﺳﺎﻤﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﺢﻤﺴﺗ"
+ leader_trait_observant_hive: "ﻆﺣﻼﻣ"
+ leader_trait_observant_hive_desc:2 "$leader_trait_observant_desc$"
+ leader_trait_observant_machine:0 "ﻖﻴﻤﻌﻟﺍ ﺢﺴﻤﻟﺍ"
+ leader_trait_observant_machine_desc:2 "$leader_trait_observant_desc$"
+
+ leader_trait_observant_2_hive:0 "$leader_trait_observant_hive$ II"
+ leader_trait_observant_2_hive_desc:0 "$leader_trait_observant_hive_desc$"
+ leader_trait_observant_2_machine:0 "$leader_trait_observant_machine$ II"
+ leader_trait_observant_2_machine_desc:0 "$leader_trait_observant_machine_desc$"
+
+ leader_trait_resolution_category_focus_favor_intro: "$tt$\n:ﺔﺌﻔﻟﺍ ﻩﺬﻫ ﻲﻓ ﻩﺮﻳﺮﻤﺗ ﻢﺘﻳ ﻱﺬﻟﺍ ﺭﺍﺮﻘﻟﺍ ﻢﻋﺩ ﺪﻨﻋ"
+ leader_trait_resolution_category_focus_favor_outro: ":ﺔﺣﺮﺘﻘﻤﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻊﻣ §YFavor§! 1 ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺔﺻﺮﻓ"
+ leader_trait_resolution_category_focus_1_favor_tt: "§G+$@resolution_focus_amt_1|0$%§!$leader_trait_resolution_category_focus_favor_intro$$leader_trait_resolution_category_focus_favor_outro$ "
+ leader_trait_resolution_category_focus_2_favor_tt: "§G+$@resolution_focus_amt_2|0$%§!$leader_trait_resolution_category_focus_favor_intro$$leader_trait_resolution_category_focus_favor_outro$ "
+ leader_trait_resolution_category_focus_3_favor_tt: "§G+$@resolution_focus_amt_3|0$%§!$leader_trait_resolution_category_focus_favor_intro$$leader_trait_resolution_category_focus_favor_outro$ "
+
+ leader_trait_resolution_category_commerce_focus: "ﺔﻳﺮﺠﻤﻟﺍ ﺓﺭﺎﺠﺘﻟﺍ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_commerce_focus_desc: ".ﺔﻳﺮﺠﻤﻟﺍ ﺓﺭﺎﺠﺘﻟﺎﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_industry_focus: "ﺔﻴﻋﺎﻨﺼﻟﺍ ﺔﻴﻤﻨﺘﻟﺍ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_industry_focus_desc: ".ﺔﻴﻋﺎﻨﺼﻟﺍ ﺔﻴﻤﻨﺘﻟﺎﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_politics_traditions_focus: "ﺔﻴﺳﺎﻴﺴﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_politics_traditions_focus_desc: ".ﺔﻴﺳﺎﻴﺴﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺎﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+ leader_trait_resolution_category_politics_traditions_focus_tt: ":ﺕﺍﺭﺍﺮﻘﻟﺍ §Yﺔﻴﺳﺎﻴﺴﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ§!$GALCOM_EFFECTS_TXT$$TABBED_NEW_LINE$- ﻰﻠﻋ ﺖﻳﻮﺼﺘﻟﺍ ﺓﻮﻗ "
+ leader_trait_resolution_category_politics_traditions_focus_1_tt: "$leader_trait_resolution_category_focus_1_favor_tt$\n§G+5%§!$leader_trait_resolution_category_politics_traditions_focus_tt$ "
+ leader_trait_resolution_category_politics_traditions_focus_2_tt: "$leader_trait_resolution_category_focus_2_favor_tt$\n§G+15%§!$leader_trait_resolution_category_politics_traditions_focus_tt$ "
+ leader_trait_resolution_category_politics_traditions_focus_3_tt: "$leader_trait_resolution_category_focus_3_favor_tt$\n§G+25%§!$leader_trait_resolution_category_politics_traditions_focus_tt$ "
+
+ leader_trait_resolution_category_greatergood_focus: "ﻢﻈﻋﻷﺍ ﺮﻴﺨﻟﺍ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_greatergood_focus_desc: ".ﻢﻈﻋﻷﺍ ﺢﻟﺎﺼﻟﺎﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_galacticreforms_focus: "ﺓﺮﺠﻤﻟﺍ ﺕﺎﺣﻼﺻﺇ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_galacticreforms_focus_desc: ".ﺓﺮﺠﻤﻟﺍ ﺕﺎﺣﻼﺻﺈﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_ecology_focus: "ﺔﻴﺌﻴﺒﻟﺍ ﺔﻳﺎﻤﺤﻟﺍ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_ecology_focus_desc: ".ﺔﻴﺌﻴﺒﻟﺍ ﺔﻳﺎﻤﺤﻟﺎﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_galacticstudies_focus: "ﺓﺪﻴﻘﻤﻟﺍ ﺮﻴﻏ ﺔﻓﺮﻌﻤﻟﺍ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_galacticstudies_focus_desc: ".ﺓﺪﻴﻘﻤﻟﺍ ﺮﻴﻏ ﺔﻓﺮﻌﻤﻟﺎﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_divinity_focus: "ﺓﺎﻴﺤﻟﺍ ﺔﻴﻫﻮﻟﺃ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_divinity_focus_desc: ".ﺓﺎﻴﺤﻟﺍ ﺔﻴﻫﻮﻟﺄﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_mutualdefense_focus: "ﻝﺩﺎﺒﺘﻤﻟﺍ ﻉﺎﻓﺪﻟﺍ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_mutualdefense_focus_desc: ".ﻙﺮﺘﺸﻤﻟﺍ ﻉﺎﻓﺪﻟﺎﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_rulesofwar_focus: "ﺏﺮﺤﻟﺍ ﺪﻋﺍﻮﻗ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_rulesofwar_focus_desc: ".ﺏﺮﺤﻟﺍ ﺪﻋﺍﻮﻘﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_defenseprivatization_focus: "ﻉﺎﻓﺪﻟﺍ ﺔﺼﺨﺼﺧ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_defenseprivatization_focus_desc: ".ﻉﺎﻓﺪﻟﺍ ﺔﺼﺨﺼﺨﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_intergalacticdirective_focus: "ﺕﺍﺮﺠﻤﻟﺍ ﻦﻴﺑ ﺕﺎﻬﻴﺟﻮﺘﻟﺍ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_intergalacticdirective_focus_desc: ".ﺕﺍﺮﺠﻤﻟﺍ ﻦﻴﺑ ﺕﺎﻬﻴﺟﻮﺘﻟﺎﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_bureaucraticsurveillance_focus: "ﺔﻴﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_bureaucraticsurveillance_focus_desc: ".ﺔﻴﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺎﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_pre_ftl_stances_focus: "FTL ﻞﺒﻗ ﺎﻣ ﻒﻗﻮﻣ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_pre_ftl_stances_focus_desc: ".FTL ﻞﺒﻗ ﺎﻣ ﻒﻗﻮﻤﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+
+ leader_trait_resolution_category_sanctions_focus: "ﺕﺎﺑﻮﻘﻌﻟﺍ :ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_resolution_category_sanctions_focus_desc: ".ﺓﺮﺠﻤﻟﺍ ﺕﺎﺑﻮﻘﻌﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻴﻤﺠﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻢﺘﻬﻳ"
+ leader_trait_resolution_category_sanctions_focus_tt: ":§Yﺮﺠﻤﻟﺍ ﺕﺎﺑﻮﻘﻋ ﺕﺍﺭﺍﺮﻗ§!$GALCOM_EFFECTS_TXT$$TABBED_NEW_LINE$- ﻰﻠﻋ ﺖﻳﻮﺼﺘﻟﺍ ﺓﻮﻗ "
+ leader_trait_resolution_category_sanctions_focus_1_tt: "$leader_trait_resolution_category_focus_1_favor_tt$\n§G+100%§!$leader_trait_resolution_category_sanctions_focus_tt$ "
+ leader_trait_resolution_category_sanctions_focus_2_tt: "$leader_trait_resolution_category_focus_2_favor_tt$\n§G+200%§!$leader_trait_resolution_category_sanctions_focus_tt$ "
+ leader_trait_resolution_category_sanctions_focus_3_tt: "$leader_trait_resolution_category_focus_3_favor_tt$\n§G+500%§!$leader_trait_resolution_category_sanctions_focus_tt$ "
+
+ leader_trait_supporting_voter: "ﻝﺩﺎﺒﺘﻤﻟﺍ ﻢﻋﺪﻟﺍ"
+ leader_trait_supporting_voter_desc: ".ﻢﻬﺣﺎﺠﻧ ﻰﻠﻋ ﻦﻳﺮﺧﻵﺍ ﺔﺌﻨﻬﺗ ﻰﻠﻋ ﺎﻤﺋﺍﺩ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﺹﺮﺤﻳ"
+ leader_trait_supporting_voter_tt: "ﺔﺣﺮﺘﻘﻤﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻊﻣ §YTrust§! 5ﻭ §YFavor§!:$TABBED_NEW_LINE$- 1 ﺢﻨﻤﻳ ﻩﺮﻳﺮﻤﺗ ﻢﺗ ﻱﺬﻟﺍ ﺭﺍﺮﻘﻟﺍ ﻢﻋﺩ §EEffects§! §Y[GetGalCommunityOrGalImperium]§! £diplo_weight£"
+
+ MESSAGE_SUPPORTING_VOTER: "ﺢﻟﺎﺻ ﺖﺒﺴﺘﻛﺍ"
+ MESSAGE_FAVOR_SUPPORTING_VOTER_DESC: ".$WHO|Y$ ﻯﺪﻟ 5 ﺔﻘﺛﻭ ﺔﻣﺪﺧ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ،$LEADER$ ﺓﺭﺎﻬﻣ ﻞﻀﻔﺑ"
+ MESSAGE_FAVOR_DELEGATE_FOCUS_DESC: ".$WHO|Y$ ﻯﺪﻟ ﺔﻣﺪﺧ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ،$LEADER$ ﺓﺭﺎﻬﻣ ﻞﻀﻔﺑ"
+
+ leader_trait_diplo_weight: "ﺔﻴﺑﺫﺎﺠﻟﺍ"
+ leader_trait_diplo_weight_desc: ".ﻉﺎﻤﺘﺳﻼﻟ ﻊﻴﻤﺠﻟﺍ ﻒﻗﻮﺘﻳ ،ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﺙﺪﺤﺘﻳ ﺎﻣﺪﻨﻋ .ﻡﺍﺮﺘﺣﻻﺍ ﻖﺤﺘﺴﻳ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﺎﻬﺑ ﻑﺮﺼﺘﻳ ﻲﺘﻟﺍ ﺔﻘﻳﺮﻄﻟﺍ ﻲﻓ ﻦﻴﻌﻣ ﺀﻲﺷ ﻙﺎﻨﻫ"
+
+ leader_trait_federal_negotiator: "ﺔﻤﻴﻤﺤﻟﺍ ﺔﻗﺍﺪﺼﻟﺍ"
+ leader_trait_federal_negotiator_desc: ".ﺎﻌﻴﻤﺟ ﺎﻨﻟ ﻡﺎﻬﻟﺇ ﺭﺪﺼﻣ ﻮﻫ [Root.GetHisHer] ﻲﻧﺎﻔﺗ ﻥﺇ .ﺕﺍﺩﺎﺤﺗﻼﻟ ﺓﺪﺣﻮﻤﻟﺍ ﺓﻮﻘﻟﺎﺑ ﺎﺨﺳﺍﺭ ﺎﻧﺎﻤﻳﺇ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﻦﻣﺆﻳ"
+
+ leader_trait_federal_greeter: "ﺔﻴﺤﺗ"
+ leader_trait_federal_greeter_desc: ".ﺔﻋﻮﻤﺠﻤﻟﺍ ﻦﻣ ﺀﺰﺟ ﻢﻬﻧﺄﺑ ﻥﻭﺮﻌﺸﻳ ﻢﻬﻠﻌﺠﻳ ﻒﻴﻛ ﻑﺮﻌﻳﻭ ﺩﺪﺠﻟﺍ ﺩﺎﺤﺗﻻﺍ ﺀﺎﻀﻋﺄﺑ ﺐﻴﺣﺮﺘﻟﺍ ﻰﻟﺇ ﺏﻭﺪﻨﻤﻟﺍ ﺍﺬﻫ ﻉﺭﺎﺴﻳ"
+
+ leader_trait_federal_sweet_talker: "ﻡﻼﺴﻟﺍ ﻊﻧﺎﺻ"
+ leader_trait_federal_sweet_talker_desc: ".ﻂﻘﻓ ﺀﺎﻔﻌﺿ ﺎﻨﻠﻌﺠﻳ ﻉﺍﺮﺼﻟﺍ .ﻡﻼﺣﻷﺍ ﺲﻔﻧﻭ ،ﺩﺎﺤﺗﻻﺍ ﺲﻔﻧﻭ ،ﻑﺪﻬﻟﺍ ﺲﻔﻧ ﻲﻓ ﻙﺮﺘﺸﻧ ﺎﻨﻨﻜﻟﻭ ،ﺔﻔﻠﺘﺨﻣ ﺕﺍﺪﻘﺘﻌﻣ ﺎﻨﻳﺪﻟ ﻥﻮﻜﺗ ﺪﻗ"
+
+ leader_trait_federal_joint_navy: "ﻙﺮﺘﺸﻣ ﻦﻳﺮﻤﺗ"
+ leader_trait_federal_joint_navy_desc: ".ﺮﺒﻛﺃ ﻝﻮﻄﺳﺃ ﺩﻮﺟﻭ ﻂﻘﻓ ﻚﻟﺫ ﻲﻨﻌﻳ ،ﻥﺎﻴﺣﻷﺍ ﺾﻌﺑ ﻲﻓ .ﺎﻨﻠﺧﺍﺩ ﻲﻓ ﻦﻤﻜﺗ ﺓﻮﻘﻟﺍ ﻚﻠﺗ ،ﻥﺎﻴﺣﻷﺍ ﺾﻌﺑ ﻲﻓ .ﺓﻮﻘﻟﺍ ﻲﻫ ﺓﺪﺣﻮﻟﺍ"
+
+ leader_trait_ambassador_ear_to_the_ground: "ﺔﻓﺮﻌﻤﻟﺍ ﻞﻛ"
+ leader_trait_ambassador_ear_to_the_ground_desc: ".ﺔﻋﻮﻨﺘﻤﻟﺍ ﺔﻴﺴﺤﻟﺍ ﺓﺰﻬﺟﻷﺍ ﻦﻣ ﺎﻫﺮﻴﻏﻭ .[root.species.GetEarNamePlural] ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ .ﻥﺎﻜﻣ ﻞﻛ ﻲﻓ ﻥﻮﻴﻋ ﻪﻳﺪﻟ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ"
+ leader_trait_ambassador_ear_to_the_ground_machine: "$leader_trait_ambassador_ear_to_the_ground$"
+ leader_trait_ambassador_ear_to_the_ground_machine_desc: ".ﺔﻋﻮﻨﺘﻤﻟﺍ ﺔﻴﺴﺤﻟﺍ ﺓﺰﻬﺟﻷﺍ ﻦﻣ ﺎﻫﺮﻴﻏﻭ .ﺕﺎﻧﻮﻓﻭﺮﻜﻴﻤﻟﺍ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ .ﻥﺎﻜﻣ ﻞﻛ ﻲﻓ ﺕﺍﺮﻴﻣﺎﻛ ﻪﻳﺪﻟ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ"
+
+ leader_trait_ambassador_whisper_networks: "ﺓﺮﺛﺮﺜﻟﺍ"
+ leader_trait_ambassador_whisper_networks_desc: ".ﺎﻴﻠﻌﻟﺍ ﺐﺻﺎﻨﻤﻟﺍ ﻲﻓ ﻦﻴﻴﻟﻮﻀﻔﻟﺍ ﺓﺩﺎﻘﻟﺍ ﻊﻣ ﺕﻻﺎﺼﺗﺍ ﺔﻣﺎﻗﺇ ﻲﻓ ﻉﺭﺎﺑ ﻮﻫﻭ ،ﺔﻤﻴﻤﻨﻟﺍ ﻰﻟﺇ ﻪﻠﻴﻤﺑ ﻝﻭﺆﺴﻤﻟﺍ ﺍﺬﻫ ﺮﻫﺎﻈﺘﻳ"
+
+ leader_trait_ambassador_bully: "ﺪﻗﺎﺣ"
+ leader_trait_ambassador_bully_desc: ".ﻞﻤﻌﻠﻟ ﺕﺍﻮﻋﺩ ﻰﻟﺇ ﺓﺮﻳﺮﻤﻟﺍ ﻯﻭﺎﻜﺸﻟﺍ ﻞﻳﻮﺤﺗ ﻦﻓ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﻦﻘﺗﺃ ﺪﻘﻟ .ﺎﻳﻮﻗ ﺍﺰﻓﺎﺣ ﺔﻳﺎﻜﻨﻟﺍ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ"
+
+ leader_trait_ambassador_favor_maker: "ﻱﺯﺎﻬﺘﻧﺍ"
+ leader_trait_ambassador_favor_maker_desc: ".ﺯﺍﺰﺘﺑﺍ ﺓﺩﺎﻣ ﻰﻟﺇ ﺔﻧﺎﻫﺇ ﻞﻛ ﻞﻳﻮﺤﺗ ﻰﻟﺇ ﺮﻛﺎﻤﻟﺍ ﺮﻴﻔﺴﻟﺍ ﺍﺬﻫ ﻉﺭﺎﺴﻳ"
+ leader_trait_ambassador_favor_maker_effect: "§YFavor§! ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺮﻬﺷ ﻞﻛ §!.25%XYZT_20 ﺔﺻﺮﻔﺑ §Yﺕﺎﻗﻼﻌﻟﺍ ﻦﻴﺴﺤﺗ§!$EMPIRE_EFFECTS_TXT$$TABBED_NEW_LINE$- ﻥﻮﺛﻮﻌﺒﻤﻟﺍ ﻊﺘﻤﺘﻳ "
+ leader_trait_ambassador_favor_maker_2_effect: "§YFavor§! ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺮﻬﺷ ﻞﻛ §!.50%XYZT_20 ﺔﺻﺮﻓ ﻢﻬﻳﺪﻟ §Yﺕﺎﻗﻼﻌﻟﺍ ﻦﻴﺴﺤﺗ§!$EMPIRE_EFFECTS_TXT$$TABBED_NEW_LINE$- ﻥﻮﺛﻮﻌﺒﻤﻟﺍ "
+ leader_trait_ambassador_favor_maker_3_effect: "§YFavor§! ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺮﻬﺷ ﻞﻛ §!%XYZT_21 ﺔﺻﺮﻓ ﻢﻬﻳﺪﻟ §Yﺕﺎﻗﻼﻌﻟﺍ ﻦﻴﺴﺤﺗ§!$EMPIRE_EFFECTS_TXT$$TABBED_NEW_LINE$- ﻥﻮﺛﻮﻌﺒﻤﻟﺍ "
+
+ leader_trait_ambassador_pact_keeper: "ﺮﺣﺎﺳ"
+ leader_trait_ambassador_pact_keeper_desc: ".ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻰﻠﻋ ﺽﻭﺎﻔﺘﻟﺍ ﺪﻨﻋ ﺔﻴﺗﺍﻮﻣ ﻑﻭﺮﻇ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻰﻠﻋ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﺔﻔﻴﻄﻠﻟﺍ ﻕﻼﺧﻷﺍ ﺪﻋﺎﺴﺗ"
+
+ leader_trait_ambassador_commercial_pact_focus: "ﻝﻭﺎﻘﻣ"
+ leader_trait_ambassador_commercial_pact_focus_desc: ".ﺢﺑﺮﻟﺍ ﻖﻴﻘﺤﺗ ﺎﻌﻴﻤﺟ ﺎﻨﻨﻜﻤﻳ ،ﺎﻌﻣ ﻞﻤﻌﻟﺍ ﻝﻼﺧ ﻦﻣﻭ .ﺔﻠﻔﺣ ﺎﻬﻧﺇ :ﺏﺮﺣ ﺔﻘﻄﻨﻣ ﺖﺴﻴﻟ ﻕﻮﺴﻟﺍ"
+
+ leader_trait_ambassador_research_pact_focus: "ﺙﻮﺤﺒﻟﺍ ﻝﺩﺎﺒﺗ"
+ leader_trait_ambassador_research_pact_focus_desc: ".ﺎﻌﻣ ﻞﺒﻘﺘﺴﻤﻟﺍ ﻲﻨﺒﻧ .ﺙﺎﺤﺑﻷﺍ ﺔﻛﺭﺎﺸﻣ .ﺮﻈﻨﻟﺍ ﺕﺎﻬﺟﻭ ﻝﺩﺎﺒﺗ .ﺔﻓﺮﻌﻤﻟﺍ ﻢﺳﺎﻘﺗ"
+
+ leader_trait_ambassador_extra_envoys: "ﺔﻴﺷﺎﺣ"
+ leader_trait_ambassador_extra_envoys_desc: ".ﺎﺼﻴﺼﺧ ﻦﻴﺑﺭﺪﻣ ﻦﻳﺪﻋﺎﺴﻤﺑ [root.GetHerselfHimself] ﺔﻃﺎﺣﺇ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﺐﺤﻳ"
+
+ leader_trait_explorer_cloaking_focus: "ﺔﻳﺮﺴﻟﺍ ﺙﻮﺤﺒﻟﺍ"
+ leader_trait_explorer_cloaking_focus_desc: ".ﺔﻴﻔﺨﻣ ﺕﺎﻓﺎﺸﺘﻛﻻﺍ ﺾﻌﺑ ﻞﻈﺗ ﻥﺃ ﻞﻀﻓﻷﺍ ﻦﻣ"
+ leader_trait_explorer_cloaking_focus_3_tt: "§!%XYZT_050 :$SHIELD_REDUCTION_CLOAKING$ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ"
+
+ leader_trait_academic_minor_artifacts_expert: "ﻱﺮﺛﺃ"
+ leader_trait_academic_minor_artifacts_expert_desc: ".ﺔﻌﻄﻗ ﻞﻛ ﺺﺤﻓ ﻞﺒﻗ ﻱﺮﺛﺃ ﻊﻗﻮﻣ ﻱﺃ ﺭﺩﺎﻐﻳ ﻻ ﻖﻴﻗﺪﻟﺍ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ .ﺯﻮﻨﻜﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻯﺮﻳ ،ﺔﻣﺎﻤﻘﻟﺍ ﻥﻭﺮﺧﻵﺍ ﻥﻮﻴﻤﻳﺩﺎﻛﻷﺍ ﻯﺮﻳ ﺚﻴﺣ"
+ leader_trait_academic_minor_artifacts_expert_tt_intro: ":ﻱﺮﺛﺃ ﻊﻗﻮﻣ ﻲﻓ ﺐﻴﻘﻨﺘﻟﺍ ﺪﻨﻋ $r_minor_artifacts$ ﻑﺎﺸﺘﻛﺍ ﺔﺻﺮﻓ"
+ leader_trait_academic_minor_artifacts_expert_tt: "§G+$@minor_artifacts_expert_amt_1|0$%§!$leader_trait_academic_minor_artifacts_expert_tt_intro$ "
+ leader_trait_academic_minor_artifacts_expert_2_tt: "§G+$@minor_artifacts_expert_amt_2|0$%§!$leader_trait_academic_minor_artifacts_expert_tt_intro$ "
+ leader_trait_academic_minor_artifacts_expert_3_tt: "§G+$@minor_artifacts_expert_amt_3|0$%§!$leader_trait_academic_minor_artifacts_expert_tt_intro$ "
+
+ leader_trait_academic_dig_site_expert: "ﺓﺭﺎﻔﺣ"
+ leader_trait_academic_dig_site_expert_desc: ".ﺹﺎﺧ ﻞﻜﺸﺑ ﺎﻌﺘﻤﻣ ﻲﻧﺍﺪﻴﻤﻟﺍ ﻞﻤﻌﻟﺍ ﺪﺠﻳﻭ ﻲﻧﺪﺒﻟﺍ ﻞﻤﻌﻟﺍ ﻰﻠﻋ ﺎﺒﻳﺮﻏ ﺲﻴﻟ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ"
+
+ leader_trait_academic_astral_rift_expert: "Riftwalker"
+ leader_trait_academic_astral_rift_expert_desc: ".ﺀﺍﺪﻨﻟﺍ ﺐﻴﺠﻳ ﻢﻠﻌﻤﻟﺎﻓ .ﺊﻣﻮﻳ ﻉﺪﺼﻟﺍ"

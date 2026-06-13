@@ -1,0 +1,444 @@
+﻿l_spanish:
+
+# Ascension Perk
+ap_galactic_hyperthermia: "ﺓﺮﺠﻤﻟﺍ ﺓﺭﺍﺮﺣ ﻉﺎﻔﺗﺭﺍ"
+ap_galactic_hyperthermia_desc: ".ﻦﻳﺮﺧﻵﺍ ﻙﻼﻫ ﻦﻣ ﺪﺑ ﻻ ﻥﺎﻛ ﻮﻟ ﻰﺘﺣ ،ﺱﺎﻤﺤﻟﺍ ﻯﻮﺘﺴﻣ ﻊﻓﺭ ﻰﻟﺇ ﺝﺎﺘﺤﻧ ،ﺮﻫﺩﺰﻧ ﻲﻜﻟ .ﻱﺩﺎﻌﻣﻭ ﻢﻠﻈﻣ ﻥﺎﻜﻣ ﻰﻟﺇ ﺩﺮﺑ ﻪﻨﻜﻟ ،ﺭﺎﻨﻟﺎﺑ ﻥﻮﻜﻟﺍ ﺃﺪﺑ"
+must_be_infernals: "$TRIGGER_FAIL$ﺓﺭﺍﺮﺤﻠﻟ ﻦﻴﺒﺤﻣ ﻦﻣ ﺎﻨﻧﺎﻜﺳ ﻥﻮﻜﺘﻳ ﻥﺃ ﺐﻠﻄﺘﻳ."
+
+# UI
+entropy_crystals: "ﺓﺭﻮﻠﺒﺘﻤﻟﺍ ﺎﻴﺑﻭﺮﺘﻧﻹﺍ"
+entropy_crystals_name: ":$ﺕﺍﺭﻮﻠﺑ_ﺎﻴﺑﻭﺮﺘﻧﻻﺍ$"
+entropy_crystals_value: " $VAL|0$£entropy_crystals£"
+entropy_crystals_gaining: ".§Y$entropy_crystals$§! £entropy_crystals£ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ §Hﺔﻣﺯﻷﺍ ﻑﺍﺪﻫﺃ§! ﻞﻤﻛﺃ"
+entropy_crystals_desc: ".ﺕﺍﺪﻌﻤﻟﺍ ﻲﻓ ﺎﻬﺠﻣﺩ ﻭﺃ ﺩﻮﻗﻮﻛ ﺎﻬﻠﻘﻨﻟ ﻲﻔﻜﻳ ﺎﻤﺑ ،ﺎﻣ ﺪﺣ ﻰﻟﺇ ﺓﺮﻘﺘﺴﻣ ﻩﺬﻫ ﺔﺌﻟﻸﺘﻤﻟﺍ ﻡﺎﺨﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺔﻓﻮﻔﺼﻣ ﻥﺇ"
+mod_country_base_entropy_crystals_produces_add: " $entropy_crystals$ ﺎﻳﺮﻬﺷ£entropy_crystals£"
+entropy_crystals_crisis_objective: "$menace_crisis_objective$"
+entropy_crystals_crisis_objective_gained: "£entropy_crystals£ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻢﺗ"
+entropy_crystals_crisis_objective_reward: "$ﺓﺄﻓﺎﻜﻣ$"
+entropy_crystals_crisis_objective_progress: " $AMOUNT$ ﺍﺬﻫ ﺔﻣﺯﻷﺍ ﻑﺪﻫ ﻦﻣ.£entropy_crystals£ ﺎﻨﺤﺑﺭ ﺪﻘﻟ"
+entropy_crystals_crisis_level_locked: "\n:ﻯﻮﺘﺴﻤﻟﺍ ﺍﺬﻫ ﺢﺘﻔﻟ ﺏﻮﻠﻄﻣ" # remove?
+entropy_crystals_crisis_level_unlocked: "\n:ﺕﺂﻓﺎﻜﻤﻟﺍ ﻰﻠﻋ ﻞﺼﺤﺗ ،$LEVEL$ ﺪﻨﻋ"
+entropy_crystals_crisis_level_desc: ".§Y$galactic_crucible_4$§! ﺀﺎﻨﺒﺑ ﻢﻗﻭ $entropy_crystals$ ﻊﻴﻤﺠﺘﺑ ﻢﻗ ،ﺔﻣﺯﻷﺍ ﺕﺎﻳﻮﺘﺴﻣ ﺮﺒﻋ ﻡﺪﻘﺘﻠﻟ"
+entropy_crystals_crisis_level_unlock: " $entropy_crystals$§Y$CURRENCY$§! £entropy_crystals£ ﻰﻠﻋ ﻱﻮﺘﺤﻳ"
+entropy_crystals_current_value: "§Y$VALUE|0$§! :ﺔﻴﻟﺎﺤﻟﺍ ﺔﻤﻴﻘﻟﺍ"
+entropy_crystals_crisis_description_title: "$ap_galactic_hyperthermia$"
+entropy_crystals_crisis_description: ".ﺮﺼﻌﻟﺍ ﺍﺬﻫ ﻝﺎﻌﺷﻹ ﺎﻬﺴﻔﻧ ﻡﻮﺠﻨﻟﺍ ﺭﺎﻧ ﺮﻴﺨﺴﺗ ﻰﻟﺇ ﺝﺎﺘﺤﻨﺳ .ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻨﺗﻮﻗ ﺓﺩﺎﻳﺰﺑ ﺎﻨﻟ ﺢﻤﺴﺘﺳ ﺔﻗﺎﻄﻟﺎﺑ ﺐﻋﻼﺘﻠﻟ ﺓﺪﻳﺪﺟ ﺔﻘﻳﺮﻃ\n\n$menace_crisis_description_intro$"
+entropy_crystals_crisis_howto_title: "ﺓﻮﻘﻟﺍ ﺭﺪﺼﻣ"
+entropy_crystals_crisis_howto: ".ﻲﻟﺎﺘﻟﺍ ﺔﻣﺯﻷﺍ ﻯﻮﺘﺴﻣ ﺢﺘﻓﻭ galactic_crucible_4$$ ﺔﻴﻗﺮﺘﻟ ﻪﻣﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ ﻱﺬﻟﺍﻭ ،§H$entropy_crystals$§! £entropy_crystals£ §H ﺊﺸﻨﻳﺔﻣﺯﻷﺍ ﻑﺍﺪﻫﺃ§! ﺔﻌﺑﺎﺘﻣ"
+
+# Level
+crisis_hyperthermia_already_ongoing: ".ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻰﻠﻋ ﻞﻌﻔﻟﺎﺑ ﺮﻄﻴﺴﺗ ﻯﺮﺧﺃ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ"
+crisis_hyperthermia_already_happened: ".ﺓﺮﺠﻤﻟﺍ ﻞﻴﻜﺸﺗ ﺕﺩﺎﻋﺃﻭ ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻰﻠﻋ ﻞﻌﻔﻟﺎﺑ ﺮﻄﻴﺴﺗ ﻯﺮﺧﺃ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ"
+crisis_hyperthermia_level_1: "§Rﻖﻠﻘﻟﺍ ﺮﻴﺜﻳ§!"
+crisis_hyperthermia_level_1_desc: "$crisis_level_1_desc$"
+crisis_hyperthermia_lv1_tt: "§Y$INF_CRISIS_ENTROPY$§! ﺹﺎﺨﻟﺍ ﻉﻭﺮﺸﻤﻟﺍ ﻞﻤﻛﺃ £trigger_yes£"
+crisis_hyperthermia_lv1_req_tt: "§Y$INF_CRISIS_ENTROPY$§! ﺹﺎﺨﻟﺍ ﻉﻭﺮﺸﻤﻟﺍ ﻞﻤﻛﺃ £trigger_no£"
+crisis_hyperthermia_level_2: "§Rﺮﻃﺎﺨﻤﻟﺍ§!"
+crisis_hyperthermia_level_2_desc: "$crisis_level_2_desc$"
+crisis_hyperthermia_lv2_tt: "§Y$galactic_crucible_1$§! ﻰﻟﺇ ﺎﻬﺘﻴﻗﺮﺗﻭ §Y$galactic_crucible_0$§! ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺀﺎﻨﺒﺑ £trigger_yes£ ﻡﺎﻗ"
+crisis_hyperthermia_lv2_req_tt: "§Y$galactic_crucible_1$§! ﻰﻟﺇ ﺎﻬﺘﻴﻗﺮﺗﻭ §Y$galactic_crucible_0$§! ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺀﺎﻨﺒﺑ £trigger_no£ ﻡﺎﻗ"
+crisis_hyperthermia_level_3: "§Rﺮﻄﺧ§!"
+crisis_hyperthermia_level_3_desc: "$crisis_level_3_desc$"
+crisis_hyperthermia_lv3_tt: "§Y$galactic_crucible_1$§! ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺔﻴﻗﺮﺘﺑ £trigger_yes£ ﻡﺎﻗ"
+crisis_hyperthermia_lv3_req_tt: "§Y$galactic_crucible_1$§! ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺔﻴﻗﺮﺘﺑ £trigger_no£ ﻡﺎﻗ"
+crisis_hyperthermia_level_4: "§Rﺔﺛﺭﺎﻛ§!"
+crisis_hyperthermia_level_4_desc: "$crisis_level_4_desc$"
+crisis_hyperthermia_lv4_tt: "§Y$galactic_crucible_2$§! ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺔﻴﻗﺮﺘﺑ £trigger_yes£ ﻡﺎﻗ"
+crisis_hyperthermia_lv4_req_tt: "§Y$galactic_crucible_2$§! ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺔﻴﻗﺮﺘﺑ £trigger_no£ ﻡﺎﻗ"
+crisis_hyperthermia_dec_lv4_tt: "§Y$INF_CRISIS_ENTROPY_EVIL$§! ﺹﺎﺨﻟﺍ ﻉﻭﺮﺸﻤﻟﺍ ﻞﻤﻛﺃ £trigger_yes£"
+crisis_hyperthermia_lv4_dec_req_tt: "§Y$INF_CRISIS_ENTROPY_EVIL$§! ﺹﺎﺨﻟﺍ ﻉﻭﺮﺸﻤﻟﺍ ﻞﻤﻛﺃ £trigger_no£"
+crisis_hyperthermia_level_5: "§Rﻱﺩﻮﺟﻮﻟﺍ ﺪﻳﺪﻬﺘﻟﺍ§!"
+crisis_hyperthermia_level_5_desc: "$crisis_level_5_desc$"
+crisis_hyperthermia_lv5_tt: "§Y$galactic_crucible_3$§! ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺔﻴﻗﺮﺘﺑ £trigger_yes£ ﻡﺎﻗ"
+crisis_hyperthermia_lv5_req_tt: "§Y$galactic_crucible_3$§! ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺔﻴﻗﺮﺘﺑ £trigger_no£ ﻡﺎﻗ"
+
+# MPerks Level 1
+menp_hyperthermia_crystals: "$ﺕﺍﺭﻮﻠﺑ_ﺎﻴﺑﻭﺮﺘﻧﻻﺍ$"
+menp_hyperthermia_crystals_desc: ".ﻪﺴﻔﻧ ﺓﺮﺠﻤﻟﺍ ﻡﺎﻈﻧ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﺎﻨﻨﻜﻤﻳ ،ﺎﻨﺗﺮﻄﻴﺳ ﺖﺤﺗ ﺮﻳﺎﻄﺘﻤﻟﺍ ﺩﺭﻮﻤﻟﺍ ﺍﺬﻫ ﺩﻮﺟﻭ ﻊﻣﻭ .ﻢﻜﺤﺘﻠﻟ ﺔﻌﺿﺎﺨﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺭﺍﺮﻘﺘﺳﺍ ﺔﻋﺰﻋﺯ ﻲﻓ ﺓﺮﻔﻃ §Y$entropy_crystals$§! ﻞﺜﻤﻳ"
+unlocks_entropy_objectives: ".§HCrisis Objectives§! ﻝﺎﻤﻜﺘﺳﺍ ﻝﻼﺧ ﻦﻣ §Y$entropy_crystals$§! £entropy_crystals£ ﻢﻛﺍﺮﺘﺑ ﺢﻤﺴﻳ"
+menp_hyperthermia_harnessing: "ﺎﻴﺑﻭﺮﺘﻧﻻﺍ ﺮﻴﺨﺴﺗ"
+menp_hyperthermia_harnessing_desc: ".ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻹﺍ ﻑﺍﺪﻫﻷﺍ ﻊﻣ ﻲﻨﻔﻟﺍ ﺎﻧﺰﻴﻛﺮﺗ ﻊﻣ ﻖﻓﺍﻮﺘﻳ ﺎﻤﻣ ،ﺐﻠﻘﺘﻤﻟﺍ ﺩﺭﻮﻤﻟﺍ ﺍﺬﻬﻟ ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﺎﻣﺍﺪﺨﺘﺳﺍ ﺎﻨﺘﻋﺎﻨﺻ ﻲﻓ §Y$entropy_crystals$§! ﺐﻴﻛﺮﺗ ﺞﻣﺩ ﺢﻴﺘﻳ"
+unlocks_entropy_edict: " $edict_entropy_harnessing$§H:ﻡﻮﺳﺮﻤﻟﺍ ﺢﺘﻓ§!"
+menp_hyperthermia_crucible: "ﺓﺮﺠﻤﻟﺍ ﺔﻘﺗﻮﺑ"
+menp_hyperthermia_crucible_desc: ".ﻡﻮﺠﻨﻟﺍ ﺮﺒﻋ ﺎﻫﺮﺸﻧﻭ ،ﺔﻳﺭﺎﻨﻟﺍ ﺎﻨﺗﻮﻘﻟ ﺓﺭﺎﻨﻣ ﺔﻘﺗﻮﺒﻟﺍ ﺢﺒﺼﺗ ﻥﺃ ﻦﻜﻤﻳ ،ﺎﻬﻠﻘﻧﻭ ﺎﻬﺗﺭﻮﻠﺑ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﻊﻣ .ﺔﻴﻤﺠﻨﻟﺍ ﺎﻴﺑﻭﺮﺘﻧﻹﺍ ﺮﻴﺨﺴﺘﻟ ﻱﺰﻛﺮﻣ ﻙﺮﺤﻣ ﺔﺑﺎﺜﻤﺑ ﺔﺣﺮﺘﻘﻤﻟﺍ ﺔﻘﺗﻮﺒﻟﺍ ﻩﺬﻫ ﻥﻮﻜﺘﺳ"
+unlocks_galactic_crucible: " $galactic_crucible_0$§H:ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺢﺘﻔﻳ§!"
+
+# MPerks Level 2
+menp_hyperthermia_conc_entropy: "ﺓﺰﻛﺮﻤﻟﺍ ﺎﻴﺑﻭﺮﺘﻧﻻﺍ"
+menp_hyperthermia_conc_entropy_desc: ".ﺎﻗﺮﺣﻭ ﺎﻗﺍﺮﺷﺇ ﺮﺜﻛﺃ ﻞﺒﻘﺘﺴﻣ ﻮﺤﻧ ﺎﻨﺗﺮﻴﺴﻣ ﻊﻳﺮﺴﺗ ﻰﻟﺇ Crucible ﺝﺎﺘﻧﺇ ﺓﺩﺎﻳﺯ ﻱﺩﺆﺘﺳ .ﺔﻠﺣﺮﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺎﻨﺗﻮﻗ ﻊﻴﺳﻮﺘﻟ ﺎﻳﻮﻴﺣ ﺍﺮﻣﺃ $entropy_conduit_plural$ ﺪﻌﻳ"
+unlocks_conduit_spawn: "\n\n .ﻡﺎﻳﺃ ﺓﺪﻌﻟ ﻡﺍﺪﻄﺻﻻﺍ ﺪﻨﻋ ﺀﺍﺪﻋﻷﺍ ﻞﻄﻌﻳ ﻱﺬﻟﺍ ،§Y$LENS_FLARE_BEAM$§! £ship_xl_slot£ ﺡﻼﺴﺑ ﻥﻭﺰﻬﺠﻣ -\n .ﺕﺂﻓﺎﻜﻣ ﻰﻠﻋ ﻑﺪﻬﺘﺴﻤﻟﺍ ﻡﺎﻈﻨﻟﺍ ﻞﺧﺍﺩ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﻞﺼﺤﺗ -\n .ﺔﺒﻳﺮﻘﻟﺍ ﻡﻮﺠﻨﻟﺍ ﺔﻤﻈﻧﺃ ﻰﻟﺇ ﻞﻘﺘﻨﺗ ﻑﻮﺳﻭ §Y$galactic_crucible_4$§! ﺔﻄﺳﺍﻮﺑ ﺎﻴﺋﺎﻘﻠﺗ ﺎﻫﺅﺎﺸﻧﺇ ﻢﺘﻳ §Y$entropy_conduit_plural$§!- \n $entropy_conduit$ §H$UNLOCKS_SHIP_TYPE$:§!"
+menp_hyperthermia_radiant: "ﺔﻌﺸﻣ ﺕﺎﺣﻮﻤﻃ"
+menp_hyperthermia_radiant_desc: ".ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺀﺎﻨﺒﻟﺍ ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﺓﺩﺎﻳﺯ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﺎﻨﻓﺍﺪﻫﺃ ﻖﻴﻘﺤﺘﻟﻭ .ﻰﺼﺤﺗ ﻻﻭ ﺪﻌﺗ ﻻ ﺔﻤﻈﻧﺃ ﻢﻴﻤﺼﺗ ﺓﺩﺎﻋﺇ ﻲﻓ ﺖﻗﻮﻟﺍ ﻊﻴﻀﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﻻ .ﺔﻴﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﻭﺃ ﻦﻴﻤﺨﺘﻠﻟ ﺖﻗﻮﻟﺍ ﻙﺮﺘﺗ ﻻ ﺓﺮﺠﻤﻟﺍ ﻞﻌﺸﺗ ﻲﺘﻟﺍ ﺓﺭﺍﺮﺸﻟﺍ ﺎﻬﻧﻮﻛ"
+menp_hyperthermia_ignition: "ﻱﺮﺴﻘﻟﺍ ﻝﺎﻌﺷﻹﺍ"
+menp_hyperthermia_ignition_desc: ".ﺪﺣ ﻰﺼﻗﺃ ﻰﻟﺇ ﺝﺎﺘﻧﻹﺍ ﺓﺩﺎﻳﺯﻭ ﺕﺎﻧﺎﻤﻀﻟﺍ ﻞﻴﻠﻘﺘﻟ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻟ .ﺔﻠﻣﺎﻜﻟﺍ ﺎﻬﺗﺎﻧﺎﻜﻣﺇ ﻝﻼﻐﺘﺳﺍﻭ ﻲﻟﺎﺘﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ﻰﻟﺇ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺎﺑ ﺀﺎﻘﺗﺭﻻﺍ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﻦﺤﻧ .ﻲﻔﻜﻳ ﻻ ﺓﻮﻘﺑ ﻂﻐﻀﻟﺍ ،ﻥﺎﻴﺣﻷﺍ ﺾﻌﺑ ﻲﻓ"
+unlocks_crucible_overclocking: ".§HMegastructure§! §Y$galactic_crucible_1$§! ـﻟ "ﻞﻴﻐﺸﺘﻟﺍ ﺩﺩﺮﺗ ﻊﻓﺭ" ﻦﻴﻜﻤﺗ"
+
+# MPerks Level 3
+menp_hyperthermia_cruiser: "$ember_cruiser$"
+menp_hyperthermia_cruiser_desc: ".ﻢﺤﻔﺘﻣ ﺩﺎﻣﺭ ﻰﻟﺇ ﺎﻨﺋﺍﺪﻋﺃ ﻝﻮﺤﻳ ﺎﻤﻣ ،ﺔﻬﺟﻮﻣ ﺓﺩﺎﺑﺇ ﻰﻟﺇ ﺮﻳﺎﻄﺘﻤﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﻖﻓﺪﺗ ﻞﻳﻮﺤﺘﺑ ﻦﻔﺴﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ ،ﺕﺎﻴﻨﻘﺘﻟﺍ ﺙﺪﺣﺄﺑ ﺓﺰﻬﺠﻣ"
+unlocks_ember_cruiser: " $ember_cruiser$§H$UNLOCKS_SHIP_TYPE$:§!"
+menp_hyperthermia_flames: "ﻥﺍﺮﻴﻨﻟﺍ ﺡﺎﻴﺘﺟﺍ"
+menp_hyperthermia_flames_desc: ".ﺔﻴﻠﺻﻷﺍ ﻢﻬﻤﻟﺍﻮﻋ ﻰﻠﻋ ﺭﺎﻨﻟﺍ ﻦﻣ ﻞﺑﺍﻮﺑ ﻞﺑﺎﻘﺘﺳ ﺔﻣﻭﺎﻘﻤﻟﺍ ﻥﺃ ﺔﻋﺮﺴﺑ ﻢﻠﻌﺘﻳ ﻑﻮﺳ ﺎﻨﻓﺎﻘﻳﺇ ﻝﻭﺎﺤﻳ ﺺﺨﺷ ﻱﺃ .ﺎﻨﻓﺍﺪﻫﺃ ﺔﺿﺭﺎﻌﻤﻟ ﻝﺎﺠﻣ ﻱﺃ ﻙﺮﺘﺗ ﻻ ﺎﻫﺭﻮﺼﺘﻧ ﻲﺘﻟﺍ ﺔﻠﺿﺎﻔﻟﺍ ﺔﻨﻳﺪﻤﻟﺍ ﻥﺇ"
+unlocks_firestorm_stance: "\n\n $bombardment_firestorm$§H:ﻒﺼﻘﻟﺍ ﻊﺿﻭ ﺢﺘﻓ§!\n $pc_volcanic$ §H:ﺡﻼﺼﺘﺳﻻﺍ ﺢﺘﻓ§!"
+menp_hyperthermia_coronal: "ﻲﻠﻴﻠﻛﻹﺍ ﺲﻴﻔﻨﺘﻟﺍ"
+menp_hyperthermia_coronal_desc: ".ﺎﻨﺋﺍﺪﻋﺃ ﺪﺿ ﺓﺮﻣﺪﻣ ﺔﺤﻠﺳﺃ ﻰﻟﺇ $entropy_conduit_plural$ ﻞﻳﻮﺤﺗ ﺎﻨﻨﻜﻤﻳ ،ﻂﻴﺤﻤﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻰﻟﺇ ﺓﺭﺍﺮﺤﻟﺍ ﻚﻠﺗ ﺲﻴﻔﻨﺗ ﻝﻼﺧ ﻦﻣﻭ .ﺍﺮﻘﺘﺴﻣ ﻞﻈﻴﻟ ﺔﻠﺋﺎﻬﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺪﻳﺪﺒﺗ ﻰﻠﻋ ﺎﻴﻟﺎﺣ ﺎﻨﺑ ﺹﺎﺨﻟﺍ $entropy_conduit_plural$ ﻞﻤﻌﻳ"
+unlocks_conduit_damage: "\n\n .ﺔﻳﺩﺎﻌﻤﻟﺍ ﺕﺎﻄﺤﻤﻟﺍﻭ ﻦﻔﺴﻟﺎﺑ ﺎﻴﺒﻠﺳ ﺍﺭﺮﺿ ﻖﺤﻠﻳ §Y$entropy_conduit_plural$§!"
+
+# MPerks Level 4
+menp_hyperthermia_reactors: "ﻲﺴﻤﺸﻟﺍ ﺝﺎﻣﺪﻧﻻﺍ ﺕﻼﻋﺎﻔﻣ"
+menp_hyperthermia_reactors_desc: ".ﻞﺒﻗ ﻦﻣ ﺙﺪﺤﻳ ﻢﻟ ﺎﻤﻛ ﻡﻮﺠﻨﻟﺍ ﺮﺒﻋ ﺎﻨﻨﻔﺳ ﻞﻌﺘﺸﺗ ﻑﻮﺳ .ﺎﻬﻟ ﻞﻴﺜﻣ ﻻ ﺓﻮﻗ ﺕﺍﺫ ﻊﻓﺩ ﺔﻤﻈﻧﺃ ﺢﺘﻓ ﻰﻟﺇ ﺔﻳﺮﻜﺴﻌﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻲﻓ §Y$entropy_crystals$§! ﺮﻴﺨﺴﺗ ﻱﺩﺆﻳ"
+menp_hyperthermia_solarflare: "ﻲﻋﺎﻨﻄﺻﻻﺍ ﻲﺴﻤﺸﻟﺍ ﺞﻫﻮﺘﻟﺍ"
+menp_hyperthermia_solarflare_desc: ".ﺎﻨﺿﺭﺎﻌﻳ ﻦﻣ ﻞﻜﻟ ﺎﺳﻭﺭﺪﻣ ﺍﺭﺎﻣﺩ ﺔﺒﻟﺎﺟ ،ﻡﻮﺠﻨﻟﺍ ﺔﻴﻌﻤﺠﻟﺍ_ﺎﻴﺑﻭﺮﺘﻧﻹﺍ$ ﺎﻨﺗﺍﻮﻨﻗ ﻦﻣ ﺩﻮﺸﺣ ﺮﻤﻐﺗ ﻑﻮﺳ ،ﺎﺒﻳﺮﻗﻭ .ﻲﻬﺘﻨﻳ ﻢﻫﻮﻟﺍ ﺍﺬﻫﻭ .ﺎﻨﺗﺮﻄﻴﺳ ﻕﺎﻄﻧ ﺝﺭﺎﺧ ﻊﻘﺗ ﺓﺮﺠﻤﻟﺍ ﻦﻣ ﺀﺍﺰﺟﺃ ﺎﻬﻴﻓ ﺖﻧﺎﻛ ﺓﺮﺘﻓ ﻙﺎﻨﻫ ﺖﻧﺎﻛ"
+unlocks_conduit_borders: "\n\n .ﻭﺪﻌﻟﺍ ﻲﺿﺍﺭﺃ ﻰﻟﺇ ﺎﻴﺋﺎﻘﻠﺗ ﺩﻭﺪﺤﻟﺍ ﺮﺒﻌﻳ §Y$entropy_conduit_plural$§!"
+menp_hyperthermia_armada: "ﺔﻠﻌﺘﺸﻤﻟﺍ ﺍﺩﺎﻣﺭﺃ"
+menp_hyperthermia_armada_desc: ".ﺎﻧﺩﻮﻌﺻ ﻥﺍﺮﻴﻧ ﺞﻴﺟﺄﺗﻭ ،ﺔﻗﺎﻄﻟﺍ ﺔﻬﺒﺟ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻲﻓ ﻢﻫﺎﺴﻳ ﻥﺃ ﻥﻵﺍ ﻦﻃﺍﻮﻣ ﻞﻛ ﻰﻠﻋ ﺐﺠﻳﻭ .ﺎﻳﺭﻭﺮﺿ ﺍﺮﻣﺃ ﺔﺌﺒﻌﺘﻟﺍ ﺢﺒﺼﺗ ،ﺎﻧﺪﺿ ﺓﺮﺠﻤﻟﺍ ﺪﺣﻮﺘﺗ ﺎﻤﻨﻴﺑ"
+unlocks_blazing_navalcap: "\n\n.§Y$MOD_COUNTRY_NAVAL_CAP_ADD$§! £navy_size£ ﺓﺩﺎﻳﺯ §Y[GetResearcherPlural]§!ﻭ §Y[GetAlloyProducerPlural]§!"
+
+# MPerks Level 5
+menp_hyperthermia_battleship: "$ember_battleship$"
+menp_hyperthermia_battleship_desc: ".ﺔﻘﺗﻮﺒﻟﺍ ﻝﻮﺣ ﺔﻴﻋﺎﻓﺪﻟﺍ ﺎﻨﺗﺍﻮﻗ ﻦﻣ ﺮﺒﻛﻷﺍ ﺀﺰﺠﻟﺍ ﺓﺮﻴﺒﻜﻟﺍ ﻦﻔﺴﻟﺍ ﻩﺬﻫ ﻞﻜﺸﺘﺳ ،ﺓﺮﺠﻤﻟﺍ ﺡﺎﻴﺘﺟﺍ ﻰﻠﻋ ﻚﺷﻮﺗ ﻲﺘﻟﺍ ﺔﻳﺭﺎﻨﻟﺍ ﺔﻔﺻﺎﻌﻟﺍ ﻞﺜﻣ ﻕﺩﺎﻨﺒﻟﺍ ﺕﺎﻫﻮﻓ ﺔﻧﻮﺨﺳ ﻊﻣ"
+unlocks_ember_battleship: ".§Y$LENS_FLARE_BEAM$§! £ship_xl_slot£ ﺡﻼﺳ ﺰﻴﻬﺠﺗ ﻪﻨﻜﻤﻳ -\n $ember_battleship$ §H$UNLOCKS_SHIP_TYPE$:§!"
+menp_hyperthermia_critical_mass: "ﺔﺟﺮﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ"
+menp_hyperthermia_critical_mass_desc: ".ﺮﺒﻛﺃ ﺔﻋﺮﺴﺑ ﺎﻬﻠﻤﻛﺄﺑ ﺔﻤﻈﻧﻷﺍ ﻦﻴﺨﺴﺗ ﻲﻓ ﺐﺒﺴﺘﻳ ﺍﺬﻫﻭ .ﻉﺎﻌﺷﻹﺍ ﻦﻣ ﺔﺟﻮﻤﻟ ﻢﺠﻨﻟﺍ ﻕﻼﻃﺇ ﻰﻟﺇ ﻢﺠﻨﻠﻟ ﻲﺟﺭﺎﺨﻟﺍ ﻑﻼﻐﻟﺍ ﻲﻓ ﻲﺑﻭﺮﺘﻧﻻﺍ ﻁﺎﺸﻨﻟﺍ ﺓﺩﺎﻳﺯ ﻱﺩﺆﺗ"
+unlocks_conduit_boost: "\n\n$hyperthermia_map_perc$\n\n.ﺎﻬﻃﺎﻘﺘﻟﺍ ﻢﺗ ﻲﺘﻟﺍ ﺔﻤﻈﻧﻷﺍ ﺔﻴﻤﻛ ﻰﻠﻋ ﺍﺩﺎﻤﺘﻋﺍ ﻯﻮﻗﺃ ﺢﺒﺼﺗ §Y$entropy_conduit_plural$§!"
+hyperthermia_map_perc: "§Y[root.hyperthermia_systems_var]§!/§Y[root.hyperthermia_own_systems_var]§! $TABBED_NEW_LINE$- ﺔﺑﻮﻠﻄﻤﻟﺍ ﺔﻤﻈﻧﻷﺍ: §YThermophile§! $POPS$ $TABBED_NEW_LINE$- ﺮﻴﻏ ﻉﺍﻮﻧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻰﻠﻋ ﻂﻘﻓ ﺮﺛﺆﻳ £pop£ ﺀﻂﺒﺑ ﺓﺮﺛﺄﺘﻤﻟﺍ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﺪﻘﻔﺘﺳ -$TABBED_NEW_LINE$ ﺔﺒﻳﺮﻘﻟﺍ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﺮﻴﻣﺪﺗ ﻲﻓ ﺐﺒﺴﺘﻳ $TABBED_NEW_LINE$- $entropy_conduit_plural$ :ﺓﺮﺠﻤﻟﺍ ﻦﻣ §!%XYZT_020"
+menp_hyperthermia_ammunition: "ﺓﺀﻮﻠﻤﻤﻟﺍ ﺓﺮﻴﺧﺬﻟﺍ"
+menp_hyperthermia_ammunition_desc: ".ﻅﻮﺤﻠﻣ ﻞﻜﺸﺑ ﺯﺰﻌﻣ ﺮﻴﻣﺪﺗ ﻲﻫ ﺔﺠﻴﺘﻨﻟﺍﻭ .ﻡﺍﺪﻄﺻﻻﺍ ﺪﻨﻋ ﺓﺮﻘﺘﺴﻣ ﺮﻴﻏ ﺔﻳﺭﺍﺮﺣ ﺕﺎﺟﻮﻣ ﻕﻼﻃﺇ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻢﺠﺤﻟﺍ ﺓﺮﻴﻐﺻ ﺎﻴﺑﻭﺮﺘﻧﺇ ﻯﻮﻨﺑ ﺔﻴﺳﺎﻴﻘﻟﺍ ﺮﺋﺎﺧﺬﻟﺍ ﺰﻳﺰﻌﺗ ﻥﻵﺍ ﻢﺗ :ﺮﺋﺎﺧﺬﻟﺍ ﻢﻴﻤﺼﺗ ﻦﻴﺴﺤﺗ"
+
+# Misc
+entropy_crystals_deficit: "$entropy_crystals$ ﺺﻘﻨﻟﺍ"
+edict_entropy_harnessing: "ﺎﻴﺑﻭﺮﺘﻧﻻﺍ ﺮﻴﺨﺴﺗ"
+edict_entropy_harnessing_desc: ".ﻪﺗﺎﻧﺎﻜﻣﺇ ﻰﺼﻗﺃ ﻰﻟﺇ ﺐﻠﻘﺘﻤﻟﺍ ﺪﻳﺪﺠﻟﺍ ﺩﺭﻮﻤﻟﺍ ﺍﺬﻫ ﻝﻼﻐﺘﺳﺍﻭ ،ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺔﻴﻨﻘﺘﻟﺍ ﺎﻨﺘﻋﺍﺮﺑ ﺮﻴﺨﺴﺘﺑ ﺎﻨﻟ ﺢﻤﺴﻳ ﺔﻴﺘﺤﺘﻟﺍ ﺎﻨﺘﻴﻨﺑ ﻲﻓ $entropy_crystals$ ﺝﺎﺘﻧﺇ ﺞﻣﺩ ﻥﺇ"
+mod_planet_technician_entropy_crystals_produces_add: "[GetTechnician] £job_technician£ ﻦﻣ §Y$entropy_crystals$§! £entropy_crystals£"
+mod_shipsize_ember_cruiser_weapon_damage: "$MOD_SHIP_WEAPON_DAMAGE$ ($ember_cruiser$)"
+mod_shipsize_ember_battleship_weapon_damage: "$MOD_SHIP_WEAPON_DAMAGE$ ($ember_battleship$)"
+mod_conduit_spawnrate_add: " $entropy_conduit$ ﺀﺎﻨﺒﻟﺍ ﺖﻗﻭ£time£"
+mod_conduit_spawnrate_switch: "§RDisabled§!$entropy_conduit$ ﺀﺎﻨﺒﻟﺍ: "
+mod_conduit_spawnrate_switch_short: "§Rentropy_conduit$ Construction$ ﻞﻴﻄﻌﺗ§!"
+mod_shipsize_ember_cruiser_speed_mult: "$MOD_SHIP_SPEED_MULT$ ($ember_cruiser$)"
+mod_shipsize_ember_battleship_speed_mult: "$MOD_SHIP_SPEED_MULT$ ($ember_battleship$)"
+ENTROPY_WORMHOLE: "$NATURAL_WORMHOLE_GALACTIC$"
+BYPASS_ENTROPY_WORMHOLE: "$ENTROPY_WORMHOLE_GALACTIC$"
+BYPASS_DESC_UNKNOWN_ENTROPY_WORMHOLE: "ﻞﺒﻗ ﻦﻣ ﻞﻴﻜﺸﺘﻟﺍ ﻦﻣ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﺮﻧ ﻢﻟ"
+ENTROPY_WORMHOLE_GALACTIC: "ﺐﻳﺮﻏ ﻱﺩﻭﺩ ﺐﻘﺛ"
+ENTROPY_WORMHOLE_DESC: "$DEST|Y$ ـﺑ ﻞﺼﺘﻣ §YWormhole§! ﻰﻠﻋ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻱﻮﺘﺤﻳ"
+ENTROPY_WORMHOLE_DESC_UNEXPLORED: "§YWormhole§! §Rﻒﺸﻜﺘﺴﻣ ﺮﻴﻏ§! ﻰﻠﻋ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻱﻮﺘﺤﻳ"
+ENTRY_BYPASS_ENTROPY_WORMHOLE: "$BYPASS_TYPE$"
+EXIT_BYPASS_ENTROPY_WORMHOLE: "$BYPASS_TYPE$ ﻦﻣ ﺝﺮﺧﺍ"
+personality_hyperthermia_empire: "ﻱﺭﺍﺮﺤﻟﺍ ﻡﺎﻈﻨﻟﺍ"
+personality_hyperthermia_empire_desc: ".ﺓﺩﺍﺭﻹﺍﻭ ﺓﺭﺍﺮﺤﻟﺎﺑ ﺓﺮﺠﻤﻟﺍ ﻥﻮﺘﺤﻨﻳﻭ ﻥﻮﻳﻮﻜﻳ ﻢﻬﻧﺇ - ﻥﻭﺮﻬﻘﻳ ﻻ ﻢﻬﻧﺇ .ﺔﻴﻤﺠﻨﻟﺍ ﺭﺎﻨﻟﺍﻭ ﺎﻴﺑﻭﺮﺘﻧﻹﺍﻭ ﺔﻗﺎﻄﻟﺍ ﺪﺠﻤﺗ ﺔﻴﺟﻮﻟﻮﻳﺪﻳﺃ ﺎﻬﻤﻜﺤﺗ ﺔﻳﺭﺍﺮﺤﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ"
+triggered_opinion_hyperthermia_empire: "$personality_hyperthermia_empire$ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ"
+mod_job_metallurgist_naval_cap_add: "ﻒﺋﺎﻇﻮﻟﺍ [GetAlloyProducer] £job_foundry£ $MOD_COUNTRY_NAVAL_CAP_ADD$ ﻦﻣ £mod_country_naval_cap_add£"
+crisis_thermophile_adaptation: "ﻱﺭﺍﺮﺤﻟﺍ ﻒﻴﻜﺘﻟﺍ"
+crisis_thermophile_adaptation_desc: ""
+crisis_conduit_stop: "$mod_conduit_spawnrate_switch$" # modifier is hidden
+crisis_conduit_stop_desc: ""
+
+sm_gravitational_centrifuge: "ﺔﻴﺑﺫﺎﺠﻟﺍ ﻱﺰﻛﺮﻤﻟﺍ ﺩﺮﻄﻟﺍ"
+sm_gravitational_centrifuge_desc: ".ﻡﺍﺪﺨﺘﺳﻻﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺎﻬﺗﺭﻮﻠﺑ ﻦﻜﻤﻳ ﺔﻴﺑﻭﺮﺘﻧﺍ ﺎﻣﺯﻼﺑ ﺀﺎﺸﻧﺇ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻲﺌﻳﺰﺠﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ﻰﻠﻋ ﺕﺎﻳﺎﻔﻨﻟﺍ ﺩﺍﻮﻣ ﻞﺼﻔﻟ ﺔﻳﻮﻘﻟﺍ ﺔﻴﺑﺫﺎﺠﻟﺍ ﺕﺎﺟﺭﺪﺗ ﻞﻜﻴﻬﻟﺍ ﺍﺬﻫ ﻞﻐﺘﺴﻳ"
+gravitational_centrifuge_tt: "§H$crisobj_entropy_starbase_name$§! ﺔﻣﺯﻷﺍ ﻑﺪﻫ ﻞﻤﻜﻳ"
+requires_multiple_stars_or_or_bh: "§!.§Y$pc_black_hole$§! ﻭﺃ §Ytrinary§! ﻭﺃ §R§Ybinary§! ﻡﺎﻈﻧ ﺎﻣﺇ ﺐﻠﻄﺘﻳ§!"
+
+# Conduit Starforming
+crisis_conduit_buff: "ﻲﻤﺠﻨﻟﺍ ﻑﺍﺮﺷﻹﺍ"
+crisis_conduit_buff_desc: ".ﺮﻫﺩﺰﻧ ﻲﻜﻟ ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ ﻲﻟﺎﺜﻣ ﻪﻧﺃ ﻻﺇ ،ﻦﻳﺮﺧﻶﻟ ﺔﺒﺴﻨﻟﺎﺑ ﻲﺛﺭﺎﻛ ﺮﻣﺃ ﺍﺬﻫ ﻥﺃ ﻦﻴﺣ ﻲﻓﻭ .ﻡﺎﻈﻨﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺔﻠﻌﺘﺸﻤﻟﺍ ﺔﻴﺴﻤﺸﻟﺍ ﺕﺎﺠﻫﻮﺘﻟﺍ ﻦﻣ ﻞﺑﺍﻭ ﻲﻓ ﺐﺒﺴﺘﻳ ﺎﻤﻣ ،ﺔﻌﻳﺮﺳ ﺕﺍﺮﻴﻐﺘﺑ ﻲﻠﺤﻤﻟﺍ ﻢﺠﻨﻠﻟ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﺮﻤﻳ"
+TERRAFORM_ORDER: "ﺭﺎﺘﺳ ﻞﻳﻮﺤﺗ"
+TERRAFORM_ORDER_DESC: ".§Y$pc_m_giant_star$§! ﻰﻟﺇ ﺀﻂﺒﺑ ﻑﺪﻬﺘﺴﻤﻟﺍ ﻢﺠﻨﻟﺍ ﻞﻳﻮﺤﺗ ﻢﺘﻴﺳ"
+TERRAFORM_ORDER_RESEARCH: ".ﺔﻳﻮﻗ ﺀﺍﺮﻤﺣ ﺔﻘﻟﺎﻤﻋ ﻰﻟﺇ ﺎﻤﺠﺣ ﺮﻐﺻﻷﺍ ﻡﻮﺠﻨﻟﺍ ﻊﻴﺳﻮﺗ ﻦﻜﻤﻳ ،ﺓﺭﻮﻠﺒﺘﻤﻟﺍ ﺎﻴﺑﻭﺮﺘﻧﻺﻟ ﺔﺒﻛﺮﻤﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺕﺎﻧﺎﻜﻣﺇ ﻡﺍﺪﺨﺘﺳﺎﺑ"
+FLEETORDER_TERRAFORM_BUTTON: "$TERRAFORM_ORDER$"
+FLEETORDER_TERRAFORM: "Starforging $PLANET|Y$ ($PROGRESS|Y%0$)"
+FLEETORDER_BOOST_STAR: "ﻢﺠﻨﻟﺍ ﻝﺎﻌﺷﺇ"
+CAN_NOT_TERRAFORM_STAR: "$TRIGGER_FAIL$ﺎﻴﺳﺎﺳﺃ ﺎﻤﺠﻧ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ."
+CAN_NOT_CRISIS_TERRAFORM_STAR_CLASS: "$TRIGGER_FAIL$ﻞﻳﻮﺤﺘﻠﻟ ﺔﺤﻟﺎﺻ ﺮﻴﻏ ﻡﻮﺠﻨﻟﺍ ﺔﺌﻓ."
+CAN_NOT_CRISIS_TERRAFORM_STAR_MEGASTRUCTURE: "$TRIGGER_FAIL$ﻝﻮﺤﺘﻟﺍ ﻊﻨﻤﺗ ﺔﻳﺭﺍﺪﻤﻟﺍ ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ."
+VALID_TERRAFORM_STAR: ".ﻢﺠﻨﻟﺍ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻦﻜﻤﻳ"
+STATION_CAN_NOT_TERRAFORM_STAR: ".ﺭﺍﺪﻤﻟﺍ ﻲﻓ ﺓﺎﻨﻘﻟﺍ ﺔﻄﺤﻣ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ"
+
+# Objectives
+crisobj_own_volcanics_name: "ﺔﺻﺎﺨﻟﺍ ﺔﻴﻧﺎﻛﺮﺒﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ"
+crisobj_own_volcanics_desc: ".§Y$pc_volcanic$§! ﺕﺍﺮﻤﻌﺘﺴﻣ ﺩﺪﻋ ﺓﺩﺎﻳﺯ ﻊﻣ ،ﻡﺎﻋ ﻞﻛ ﻲﺒﻠﺴﻟﺍ §Y$entropy_crystals$§! ﻞﺧﺩ ﺮﻓﻮﻳ\n\n.ﺔﻣﺪﻘﻤﻟﺍ ﻲﻓ ﺀﺎﻘﺒﻠﻟ §YVolcanic Worlds§! ﺭﺎﻤﻌﺘﺳﻻ ﺔﻳﻮﻟﻭﻷﺍ ﻲﻄﻌﻧ ﻥﺃ ﺐﺠﻳ .ﺔﻳﺭﺎﻨﻟﺍ ﺎﻨﺘﻤﻬﻣ ﺰﻳﺰﻌﺘﻟ ﻲﻟﺎﺜﻣ ﻮﻫﻭ ،ﻲﻧﺎﻛﺮﺒﻟﺍ ﻁﺎﺸﻨﻟﺍ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﻡﺎﻈﻨﻟﺍ ﺓﺭﺍﺮﺣ ﻉﺎﻔﺗﺭﺍ ﻱﺩﺆﻳ"
+crisobj_create_volcanics_name: "ﺔﻴﻧﺎﻛﺮﺑ ﻢﻟﺍﻮﻋ ﺀﺎﺸﻧﺇ"
+crisobj_create_volcanics_desc: "§Y$pc_volcanic$§! ﻰﻟﺇ ﻪﻠﻳﻮﺤﺗﻭ ﺐﻛﻮﻛ ﺡﻼﺼﺘﺳﺍ\n\n.ﺭﺎﺘﺨﻧ ﺎﻤﻨﻳﺃ ﻡﺍﺪﺘﺴﻣ ﻲﻧﺎﻛﺮﺑ ﻁﺎﺸﻧ ﺓﺭﺎﺛﺇ ﺎﻨﻨﻜﻤﻳ ،ﺔﺤﻴﺤﺼﻟﺍ ﺡﻼﺼﺘﺳﻻﺍ ﺕﺎﻴﻨﻘﺗ ﻡﺍﺪﺨﺘﺳﺎﺑ .ﻲﺑﻭﺮﺘﻧﻹﺍ ﻲﻟﺎﺘﺴﻳﺮﻜﻟﺍ ﺎﻧﺩﺎﺼﺘﻗﺍ ﻱﺬﻐﻴﺳ ﺓﺮﺠﻤﻟﺍ ﺮﺒﻋ ﺔﻴﺒﻛﻮﻜﻟﺍ ﻦﻴﻛﺍﺮﺒﻟﺍ ﺮﺸﻧ ﻥﺇ"
+crisobj_own_red_stars_name: "ﺔﺻﺎﺨﻟﺍ ﺀﺍﺮﻤﺤﻟﺍ ﻡﻮﺠﻨﻟﺍ"
+crisobj_own_red_stars_desc: ".ﺎﻧﺩﻭﺪﺣ ﻞﺧﺍﺩ §Y$pc_m_giant_star$§! ﻭﺃ §Y$pc_m_star$§! ﻞﻛ ﻊﻣ ﻊﺳﻮﺘﻟﺍ ﻊﻣ ،ﺮﻬﺷ ﻞﻛ ﻲﺒﻠﺴﻟﺍ §Y$entropy_crystals$§! ﻞﺧﺩ ﺮﻓﻮﺗ\n\n .ﺔﻳﺭﺍﺮﺤﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻊﻴﻤﺠﺘﻟ ﺔﻴﻟﺎﺜﻣ ﺎﻬﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻌﺳﺎﺸﻟﺍ ﺕﺎﺛﺎﻌﺒﻧﻻﺍ ﺢﻄﺳﺃ ﺮﺒﺘﻌﺗ .ﺀﺍﺮﻤﺤﻟﺍ ﻡﻮﺠﻨﻟﺍ ﻝﻮﺣ ﺭﺍﺮﻘﺘﺳﻻﺍ ﺔﻤﻈﻧﻷ ﺔﻳﻮﻟﻭﻷﺍ ﻲﻄﻌﻧ ﻥﺃ ﺐﺠﻳ"
+crisobj_create_red_stars_name: "ﺀﺍﺮﻤﺤﻟﺍ ﻡﻮﺠﻨﻟﺍ ﺀﺎﺸﻧﺇ"
+crisobj_create_red_stars_desc: "§Y$pc_m_giant_star$§! ﺢﺒﺼﺗ §Y$entropy_conduit_plural$§! ﺔﻄﺳﺍﻮﺑ ﺎﻬﺣﻼﺼﺘﺳﺍ ﻢﺗ ﻲﺘﻟﺍ ﻡﻮﺠﻨﻟﺍ\n\n.ﺔﻠﻌﺘﺸﻤﻟﺍ ﺓﺪﻳﺪﺠﻟﺍ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺩﻮﻌﺻ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺀﺍﺮﻤﺣ ﺔﻘﻟﺎﻤﻋ ﻰﻟﺇ ﻡﻮﺠﻨﻟﺍ ﻢﻴﺨﻀﺗ ﺎﻨﻨﻜﻤﻳ ،ﻲﺑﻭﺮﺘﻧﻹﺍ ﺕﺍﺭﻮﻠﺑ ﻪﻴﺟﻮﺗ ﻝﻼﺧ ﻦﻣ"
+crisobj_planet_firestorm_name: "ﻲﺒﻛﻮﻜﻟﺍ ﻕﺮﺤﻟﺍ"
+crisobj_planet_firestorm_desc: "§!ﺭﺎﻣﺪﻟﺍ ﻦﻣ %XYZT_4100 ﻕﺎﺤﻟﻹ §Y$bombardment_firestorm$§! ﻡﺍﺪﺨﺘﺳﺎﺑ ﺓﺮﻤﻌﺘﺴﻣ ﻒﺼﻗ\n\n.ﺩﺎﻣﺭ ﻰﻟﺇ ﻢﻬﻤﻟﺎﻋ ﻝﻮﺤﻴﺳ ﺔﻳﺭﺎﻧ ﺔﻔﺻﺎﻋ ﻒﺼﻗ ﻝﻼﺧ ﻦﻣ ،ﻕﻮﻔﺘﻠﻟ ﻲﻘﻴﻘﺤﻟﺍ ﻰﻨﻌﻤﻟﺍ ﺎﻨﻴﺴﻓﺎﻨﻣ ﻢﻴﻠﻌﺘﻟ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻟ"
+crisobj_lens_beam_impact_name: "ﻦﻔﺴﻟﺍ ﻞﻴﻄﻌﺗ"
+crisobj_lens_beam_impact_desc: ".ﻭﺪﻌﻟﺍ ﻢﻟﺍﻮﻋ ﻒﺼﻘﻟ ،§Y$ember_battleship_plural$§!ﻭ §Y$entropy_conduit_plural$§! ـﺑ ﺰﻬﺠﻤﻟﺍ §Y$LENS_FLARE_BEAM$§! £ship_xl_slot£ ﺡﻼﺳ ﻡﺪﺨﺘﺳﺍ\n\n.ﺎﻨﺗﺎﺟﺎﻴﺘﺣﻻ ﺔﻣﺀﻼﻣ ﺮﺜﻛﺃ ﻝﺎﻜﺷﺃ ﻰﻟﺇ ﺎﻬﺤﻄﺳﺃ ﺮﻬﺻ ﻝﻼﺧ ﻦﻣ ،ﺎﻬﻠﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﺎﻨﻴﻠﻋ ﺐﺠﻳ .ﺽﺮﻏ ﻱﺄﺑ ﺎﻨﻣﺪﺨﺗ ﻻ ﺔﻟﺪﺘﻌﻤﻟﺍﻭ ﺓﺩﺭﺎﺒﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ ﻥﺇ"
+crisobj_entropy_starbase_name: "ﺔﺻﺎﺨﻟﺍ ﺔﻴﺑﺫﺎﺠﻟﺍ ﻱﺰﻛﺮﻤﻟﺍ ﺩﺮﻄﻟﺍ ﺓﺰﻬﺟﺃ"
+crisobj_entropy_starbase_desc: ".§Y$pc_black_hole$§! ﻭﺃ §Ytrinary§! ﻭﺃ §Ybinary§! ﺔﻤﻈﻧﺃ ﻲﻓ §Y$sm_gravitational_centrifuge$§! ﺔﻴﻤﺠﻨﻟﺍ ﺓﺪﻋﺎﻘﻟﺍ ﻰﻨﺒﻣ ﺀﺎﺸﻧﺈﺑ ﻢﻗ \n\n .$entropy_crystals$ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻊﻤﺟ ﻰﻠﻋ ﺔﻴﺑﺫﺎﺠﻟﺍ ﻱﺰﻛﺮﻤﻟﺍ ﺩﺮﻄﻟﺍ ﺓﺰﻬﺟﺃ ﺎﻧﺪﻋﺎﺴﺗ ﻑﻮﺳ"
+
+# Ships
+NAME_Ember_Cruiser: "ﻱﺭﺎﻨﻟﺍ ﺮﻣﺪﻤﻟﺍ"
+ember_cruiser_cap: "$ember_cruiser$"
+ember_cruiser: "$ﺭﺯﻭﺮﻛ$ ﺮﺒﻣﺍ"
+ember_cruiser_plural: "$cruiser_plural$ ﺮﺒﻣﺇ"
+EMBER_CRUISER_BOW_L1: "$CRUISER_BOW_L1$"
+EMBER_CRUISER_BOW_M1S2: "$CRUISER_BOW_M1S2$"
+EMBER_CRUISER_BOW_M2: "$CRUISER_BOW_M2$"
+EMBER_CRUISER_MID_S2HB: "$CRUISER_MID_S2HB$"
+EMBER_CRUISER_MID_L1M1: "$CRUISER_MID_L1M1$"
+EMBER_CRUISER_MID_M3: "$CRUISER_MID_M3$"
+EMBER_CRUISER_MID_M2S2: "$CRUISER_MID_M2S2$"
+EMBER_CRUISER_STERN_M1: "$CRUISER_STERN_M1$"
+EMBER_CRUISER_STERN_S2: "$CRUISER_STERN_S2$"
+
+NAME_Ember_Battleship: "ﻞﻌﺘﺸﻤﻟﺍ ﺮﻬﺼﻤﻟﺍ"
+ember_battleship_cap: "$ember_battleship$"
+ember_battleship: "$ﺔﻴﺑﺮﺣ ﺔﻨﻴﻔﺳ$ ﺮﺒﻣﺍ"
+ember_battleship_plural: "$battleship_plural$ ﺮﺒﻣﺇ"
+EMBER_BATTLESHIP_BOW_L1M1S2: "$BATTLESHIP_BOW_L1M1S2$"
+EMBER_BATTLESHIP_BOW_L2: "$BATTLESHIP_BOW_L2$"
+EMBER_BATTLESHIP_BOW_M1S2SHB: "$BATTLESHIP_BOW_M1S2SHB$"
+EMBER_BATTLESHIP_BOW_XL: "$BATTLESHIP_BOW_M2S4$"
+EMBER_BATTLESHIP_MID_L2M2: "$BATTLESHIP_MID_L2M2$"
+EMBER_BATTLESHIP_MID_L3: "$BATTLESHIP_MID_L3$"
+EMBER_BATTLESHIP_MID_M4SHB: "$BATTLESHIP_MID_M4SHB$"
+EMBER_BATTLESHIP_MID_S4LHB: "$BATTLESHIP_MID_S4LHB$"
+EMBER_BATTLESHIP_STERN_L1: "$BATTLESHIP_STERN_L1$"
+EMBER_BATTLESHIP_STERN_M2: "$BATTLESHIP_STERN_M2$"
+
+conduit_station_cap: "$ﺓﺎﻨﻗ_ﺎﻴﺑﻭﺮﺘﻧﻻﺍ$"
+conduit_station: "$ﺓﺎﻨﻗ_ﺎﻴﺑﻭﺮﺘﻧﻻﺍ$"
+conduit_station_plural: "$entropy_conduit_plural$"
+NAME_Conduit_Station: "$NAME_Entropy_Conduit$" 
+entropy_conduit_cap: "$ﺓﺎﻨﻗ_ﺎﻴﺑﻭﺮﺘﻧﻻﺍ$"
+entropy_conduit: "ﺓﺎﻨﻗ"
+entropy_conduit_plural: "ﺕﺍﻮﻨﻘﻟﺍ"
+entropy_conduit_key: "ﺔﻴﺳﺎﺳﻷﺍ ﺓﺎﻨﻘﻟﺍ"
+NAME_Entropy_Conduit: "ﺎﻴﺑﻭﺮﺘﻧﻻﺍ ﺓﺎﻨﻗ"
+
+# Weapon
+LENS_FLARE_BEAM: "ﺔﺳﺪﻌﻟﺍ ﻝﻮﻠﺸﻣ"
+LENS_FLARE_BEAM_DESC: ".ﺔﺿﺭﺎﻌﻣ ﻥﻭﺩ ﺕﺎﻤﺠﻫ ﻦﺸﻟ ﺓﺩﻭﺪﺤﻣ ﺔﺻﺮﻔﺑ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﻤﻬﻤﻟﺍ ﻢﻜﺤﺘﻟﺍ ﺔﻤﻈﻧﺃ ﻞﻴﻄﻌﺘﻟ ﺡﻼﺴﻟﺍ ﺍﺬﻫ ﻉﺎﻌﺷ ﺓﺮﻳﺎﻌﻣ ﺖﻤﺗ"
+lfb_on_hit_stun_tt: ".ﺩﺮﻟﺍ ﻭﺃ ﻙﺮﺤﺘﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ ﻪﻠﻌﺠﻳ ﺎﻤﻣ ،ﻡﺎﻳﺃ §!XYZT_27 ﺓﺪﻤﻟ ﻑﺪﻬﻟﺍ §YDisables§!"
+lf_weapon_stun_effect: "§R$LENS_FLARE_BEAM$ Impact§!"
+lf_weapon_stun_effect_desc: "   " # not visible
+
+# Megastructure
+galactic_crucible_0: "ﺓﺮﺠﻤﻟﺍ ﺔﻘﺗﻮﺑ ﺭﺎﻃﺇ"
+galactic_crucible_0_DESC: ".ﺔﻄﺤﻤﻟﺍ ﺀﺎﻨﺑ ﻝﺎﻤﻋﺃ ﺔﻴﻘﺑ ﻪﻴﺟﻮﺗﻭ ﻢﻋﺪﻟ ﻢﻤﺼﻤﻟﺍ ،galactic_crucible_4$$ ـﻟ ﻲﺴﻴﺳﺄﺘﻟﺍ ﺭﺎﻃﻹﺍ"
+galactic_crucible_0_MEGASTRUCTURE_DETAILS: ".ﻡﻮﺠﻨﻟﺍ ﺮﺋﺎﺼﻣ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻰﻠﻋ ﺓﺭﺩﺎﻘﻟﺍ ﻦﻔﺴﻟﺍ ؛§Y$entropy_conduit_plural$§! ﺞﺘﻨﺗ ﻲﺘﻟﺍ ﺔﻴﻟﻵﺍ ﻦﻔﺴﻟﺍ ﺀﺎﻨﺑ ﺽﺍﻮﺣﺃ ﻞﻴﻐﺸﺗ ﻰﻠﻋ ﻞﻤﻌﺗﻭ ،ﻒﻴﻀﻤﻟﺍ ﺎﻬﻤﺠﻧ ﻦﻣ ﺔﻗﺎﻄﻟﺍ ﺔﻌﺳﺎﺸﻟﺍ ﺔﻄﺤﻤﻟﺍ ﻩﺬﻫ ﺐﺤﺴﺗ"
+galactic_crucible_1: "$galactic_crucible_4$ ﻞﻜﻴﻬﻟﺍ"
+galactic_crucible_1_DESC: ".ﺎﻴﺑﻭﺮﺘﻧﻹﺍ ﺭﻮﻠﺒﺗ ﺔﻤﻈﻧﺃ ﺀﺎﺸﻧﺇ ﻞﻌﻔﻟﺎﺑ ﻱﺮﺠﻳ .ﺔﻟﺎﻌﻓ ﺔﻄﺤﻣ ﻥﻵﺍ galactic_crucible_4$$ ﺖﺤﺒﺻﺃ ،ﺔﻴﺳﺎﺳﻷﺍ ﺔﻴﺘﺤﺘﻟﺍ ﺎﻬﺘﻴﻨﺑ ﻝﺎﻤﺘﻛﺍ ﻊﻣ"
+galactic_crucible_2: "$galactic_crucible_4$ ﺓﺍﻮﻨﻟﺍ"
+galactic_crucible_2_DESC: "§H.ﺔﻴﻟﺎﺘﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ ﺢﺘﻔﻟ ﺹﺎﺨﻟﺍ ﻉﻭﺮﺸﻤﻟﺍ ﻞﻤﻛﺃ§!\n\n.ﺱﺎﺳﻷﺍ ﺍﺬﻫ ﻰﻠﻋ ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ ﺕﺎﻴﻗﺮﺘﻟﺍ ﻊﻴﻤﺟ ﺪﻤﺘﻌﺘﺳ .§Y$entropy_crystals$§! ﺮﺸﻧ ﻊﻴﺳﻮﺘﻟ ﺍﺰﻫﺎﺟﻭ ﻪﺘﻗﺎﻃ ﻞﻣﺎﻜﺑ ﻞﻤﻌﻠﻟ ﺍﺰﻫﺎﺟ ﻥﻵﺍ galactic_crucible_4$$ ﺢﺒﺻﺃ"
+galactic_crucible_3: "$galactic_crucible_4$ ﺭﻮﺤﻤﻟﺍ"
+galactic_crucible_3_DESC: ".ﺭﻮﺼﻘﻟﺍ ﻪﺟﻭﺃ ﻞﻴﻠﻘﺗ ﻊﻣ ﺎﻬﺗﺭﺪﻗ ﺓﺩﺎﻳﺯ ﻦﻴﻴﻨﻔﻠﻟ ﻦﻜﻤﻳ .ﺔﺳﻼﺴﺑ ﻮﻤﻨﻟﺍﻭ ﻞﻴﻜﺸﺘﻟﺍ ﺓﺩﺎﻋﻹ ﺔﻤﻤﺼﻣ ،ﺔﻳﺭﺎﻴﻌﻣ ﺎﻴﺑﻭﺮﺘﻧﺇ ﺔﻤﻈﻧﺄﺑ ﻥﻵﺍ ﻊﺳﻮﺘﻤﻟﺍ galactic_crucible_4$$ ﺰﻴﻤﺘﻳ"
+galactic_crucible_4: "ﺓﺮﺠﻤﻟﺍ ﺔﻘﺗﻮﺑ"
+galactic_crucible_4_DESC: ".ﺔﻳﺮﻈﻧ ﺓﺀﺎﻔﻛ ﻰﺼﻗﺄﺑ ﻥﻵﺍ ﻲﺑﻭﺮﺘﻧﻻﺍ ﻖﻓﺪﺘﻟﺍ ﺔﻤﻈﻧﺃ ﻞﻤﻌﺗ .ﺓﺮﺠﻤﻟﺍ ﺮﺒﻋ ﻱﺭﺎﻨﻟﺍ ﺎﻬﻟﻮﺠﺘﻟ ﻥﺎﻨﻌﻟﺍ ﻕﻼﻃﻹ ﺓﺰﻫﺎﺟ ﻲﻫﻭ ،ﻞﻤﻌﻠﻟ ﺓﺰﻫﺎﺟﻭ ﻞﻣﺎﻜﻟﺎﺑ ﺔﺤﻠﺴﻣ galactic_crucible_4$$ ﻥﺇ"
+galactic_crucible_5: "galactic_crucible_4$$ ﺪﻬﻌﻣ"
+galactic_crucible_5_DESC: ".ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺭﺎﻫﺩﺯﻻ ﺎﻨﻣﺁﻭ ﺍﺮﻘﺘﺴﻣ ﺍﺭﺪﺼﻣ ﻞﻈﺘﺳﻭ .ﺮﻴﻄﺧ ﻞﻜﺸﺑ ﻊﻔﺗﺮﻤﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺝﺎﺘﻧﺇ ﻊﻨﻤﻟ ﻪﻴﻓ ﺔﻌﺟﺭ ﻻ ﻞﻜﺸﺑ galactic_crucible_4$$ ﻢﻴﻤﺼﺗ ﺓﺩﺎﻋﺇ ﺖﻤﺗ"
+galactic_crucible_ruined: "galactic_crucible_4$$ ﺮﻣﺩ"
+galactic_crucible_ruined_DESC: ".ﺔﻄﻗﺎﺳ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺔﻳﺭﺎﻨﻟﺍ ﺕﺎﺣﻮﻤﻄﻟﺍ ﺔﻣﺪﺨﻟ ﻡﻮﻳ ﺕﺍﺫ ﻩﺅﺎﺸﻧﺇ ﻢﺗ ﻱﺬﻟﺍ ،ﺮﻣﺪﻤﻟﺍ ﻦﻔﺴﻟﺍ ﺀﺎﻨﺑ ﺽﻮﺣ"
+galactic_crucible_ruined_MEGASTRUCTURE_DETAILS: ".ﺔﻤﻄﺤﻤﻟﺍ ﺎﻳﺎﻘﺒﻟﺍ ﺮﺒﻋ ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﻞﻜﺸﺑ ﺾﺒﻨﻳﻭ ،ﺓﺭﺍﺮﺤﻟﺍ ﻦﻣ ﺔﻀﻣﺍﻭ ﺏﻮﻴﺠﺑ ﻊﺸﻳ ﻊﺳﺎﺸﻟﺍ ﺏﺍﺮﺨﻟﺍ ﺍﺬﻫ ﻝﺍﺰﻳ ﻻ"
+SPAWN_CONDUITS: "$entropy_conduit_plural$"
+SPAWN_CONDUITS_DESC: ".§Y$pc_m_giant_star$§! ﻰﻟﺇ ﻪﻠﻳﻮﺤﺗ ﻦﻜﻤﻳ ﻢﺠﻧ ﻰﻟﺇ ﻢﻬﻘﻳﺮﻃ ﻥﻮﻘﺸﻳ ﻑﻮﺳ .ﺎﻴﺋﺎﻘﻠﺗ $entropy_conduit_plural$ ﺀﺎﺸﻧﺈﺑ galactic_crucible_4$$ ﻡﻮﻘﻳ"
+megastructure_overclocking_desc: ".ﺓﺪﻳﺮﻓ ﺕﺍﺮﻴﺛﺄﺘﻟ ﻥﺎﻨﻌﻟﺍ ﻖﻠﻄﻳﻭ ﺔﻴﺳﺎﻴﻘﻟﺍ ﺔﻴﻠﻴﻐﺸﺘﻟﺍ ﺩﻭﺪﺤﻟﺍ ﻢﺨﻀﻟﺍ ﻞﻜﻴﻬﻟﺍ ﺍﺬﻫ ﺯﻭﺎﺠﺘﻳ ﺪﻗ ،ﻲﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﻞﻴﻐﺸﺘﻟﺍ ﺩﺩﺮﺗ ﻊﻓﺭ ﻝﻼﺧ ﻦﻣ"
+overclock_mode: ":ﻊﺿﻭ"
+overclock_gc_default: "§HDefault§!$overclock_mode$ "
+overclock_gc_default_desc: "\n.Crystallized Entropy ﻦﻣ ﺎﻌﺿﺍﻮﺘﻣﻭ ﺎﺘﺑﺎﺛ ﺍﺩﺍﺪﻣﺇ ﺞﺘﻨﻳ"
+overclock_gc_high: "§HOvercharged§!$overclock_mode$ "
+overclock_gc_high_desc: "\n.ﺓﺎﻨﻘﻟﺍ ﺀﺎﻨﺑ ﺰﻳﺰﻌﺘﻟ ﺔﻠﺋﺎﻬﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺕﺎﻴﻃﺎﻴﺘﺣﺍ ﻡﺪﺨﺘﺴﻳ"
+overclock_gc_eco: "§HProduction§!$overclock_mode$ "
+overclock_gc_eco_desc: "\n.ﻰﻠﻋﺃ ﻝﺪﻌﻤﺑ ﺓﺭﻮﻠﺒﺘﻤﻟﺍ ﺎﻴﺑﻭﺮﺘﻧﻹﺍ ﺝﺎﺘﻧﺈﺑ ﻚﺋﺎﺒﺴﻟﺍ ﻲﻓ ﺮﻴﺒﻜﻟﺍ ﺭﺎﻤﺜﺘﺳﻻﺍ ﺢﻤﺴﻳ"
+overclock_gc_war: "§Hﻖﻴﺴﻨﺘﻟﺍ ﺰﻛﺮﻣ§!$overclock_mode$ "
+overclock_gc_war_desc: "\n.ﺔﻴﻋﺎﻓﺪﻟﺍ ﻞﻴﻃﺎﺳﻸﻟ ﺔﻴﻟﺎﺘﻘﻟﺍ ﺓﻮﻘﻟﺍ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﺔﻴﻃﺎﻴﺘﺣﻻﺍ ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺕﺎﻴﻤﻜﺑ ﺔﺒﻳﺮﻘﻟﺍ ﻦﻔﺴﻟﺍ ﺪﻳﻭﺰﺘﻟ galactic_crucible_4$$ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ"
+
+# Event Chain
+galactic_hyperthermia_chain_title: "$ap_galactic_hyperthermia$"
+galactic_hyperthermia_chain_desc: ".ﺎﻬﻠﻤﻛﺄﺑ ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﺭﺎﻨﻟﺍ ﻝﺎﻌﺷﻹ ﻙﺮﺤﺘﻧﻭ ،ﺭﺎﻨﻟﺎﺑ ﻞﻠﻜﻣ ﻞﺒﻘﺘﺴﻤﻟﺍ ﻥﺃ ﺎﻧﺭﺮﻗ ﺪﻘﻟ"
+
+# Special Projects
+INF_CRISIS_ENTROPY: "ﺪﻳﺪﺟ ﺔﻗﺎﻃ ﺭﺪﺼﻣ"
+INF_CRISIS_ENTROPY_DESC: ".ﺪﻳﺪﺠﻟﺍ §Y$entropy_crystals$§! £entropy_crystals£ ﺩﺭﻮﻣ ﺢﺘﻔﻳ §H:ﺮﻴﺛﺄﺘﻟﺍ§!\n\n .ﻡﻮﺠﻨﻟﺍ ﺮﺒﻋ ﺎﻨﻓﺬﻘﻳ ﻥﺃ ﻪﻨﻜﻤﻳﻭ ،ﺩﻮﻗﻮﻟﺎﺑ ﺔﻴﻟﺎﺤﻟﺍ ﺎﻨﺗﺭﺎﻀﺣ ﺪﻳﻭﺰﺗ ﺩﺮﺠﻣ ﺯﻭﺎﺠﺘﻳ ﺔﻗﺎﻄﻠﻟ ﺭﺪﺼﻣ :ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺀﺎﻤﻠﻌﻟﺍ ﻪﺑ ﻢﻠﺣ ﺎﻣ ﺍﺬﻫ ﻥﻮﻜﻳ ﺪﻗ .ﺓﺪﻳﺪﺟ ﻕﺮﻄﺑ ﺔﻳﻮﺿﻮﻔﻟﺍ ﺎﻬﺗﻮﻗ ﺮﻴﺨﺴﺗ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻧ ﺪﻗ ﻥﻵﺍ ﻦﻜﻟﻭ ،ﺎﻨﻌﻤﺘﺠﻣ ﻲﻓ ﺎﻤﻬﻣ ﺍﺭﻭﺩ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺭﺎﻨﻟﺍ ﺖﺒﻌﻟ ﺪﻘﻟ"
+INF_CRISIS_ENTROPY_EVIL: "ﺔﻤﻤﺼﻣ ﺔﻳﺭﺎﻧ ﺔﻔﺻﺎﻋ"
+INF_CRISIS_ENTROPY_EVIL_DESC: "\n\n.ﻭﺪﻌﻟﺍ ﻲﺿﺍﺭﺃ ﻲﻓ ﻡﻮﺠﻨﻟﺍ ﻞﻳﻮﺤﺗ ﻥﻵﺍ ﻪﻨﻜﻤﻳ §Y$entropy_conduit_plural$§!- \n.§Y$galactic_crucible_4$§! ـﻟ ﺔﻴﻟﺎﺘﻟﺍ ﺔﻴﻗﺮﺘﻟﺍ ﺢﺘﻓ -\n§H:ﺕﺍﺮﻴﺛﺄﺘﻟﺍ§!\n\n.ﺎﻨﺘﻳﺅﺭ ﺾﻓﺮﻳ ﺺﺨﺷ ﻱﺃ ﻕﺮﺣﻭ ،ﺔﺠﻫﻮﺘﻣ ﺓﺪﻳﺪﺟ ﺓﺭﻮﺻ ﻲﻓ ﺓﺮﺠﻤﻟﺍ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﻹ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻟ .ﻰﻘﻤﺤﻟﺍ ﻦﻣ ﻲﻧﺎﻌﻧ ﻻﺃ ﺐﺠﻳﻭ ،ﺎﻬﻧﺎﻀﺘﺣﺍ ﻡﺪﻋ ﺔﻗﺎﻤﺤﻟﺍ ﻦﻣ ﻥﻮﻜﻴﺳ .ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺠﻟ ﺍﺪﻳﺪﺟ ﺎﻘﻳﺮﻃ ﺔﻘﺗﻮﺒﻟﺍ ﺎﻨﻟ ﺕﺮﻬﻇﺃ ﺪﻘﻟ" # Crystallized Entropy is used to its full potential
+INF_CRISIS_ENTROPY_GOOD: "ﻊﻗﻮﺘﻤﻟﺍ ﺮﻴﻏ ﻁﺎﺒﺗﺭﻻﺍ"
+INF_CRISIS_ENTROPY_GOOD_DESC: ".ﺎﻨﻧﺍﺮﻴﺟ ﺔﻴﻧ ﻦﺴﺣ ﺓﺭﺎﺴﺧ ﻭﺃ ﺮﻄﺨﻠﻟ ﺓﺮﺠﻤﻟﺍ ﺾﻳﺮﻌﺗ ﻥﻭﺩ ﺎﻨﺴﻔﻧﻷ ﺀﺎﺧﺮﻠﻟ ﺎﻌﺿﺍﻮﺘﻣ ﺍﺭﺪﺼﻣ ﻦﻣﺆﻨﺴﻓ ،ﻢﺋﺍﺩ ﻞﻜﺸﺑ ﺎﻬﺗﺍﺭﺪﻗ ﻞﺸﺑ ﺎﻨﻤﻗ ﺍﺫﺇﻭ .ﺔﺒﻠﻘﺘﻣ ﺎﻀﻳﺃ ﻲﻬﻓ ،ﺔﻠﺋﺎﻫ ﺔﻘﺗﻮﺒﻟﺍ ﺓﻮﻗ ﻥﺃ ﻦﻴﺣ ﻲﻓ" # Crystallized Entropy can be used for the economy
+
+# Countdown Situation
+situation_galactic_hyperthermia_timer: "ﺔﺌﺒﻌﺘﻟﺍ"
+situation_galactic_hyperthermia_timer_type: "$situation_galactic_hyperthermia_timer$"
+situation_galactic_hyperthermia_timer_desc: ".ﺎﻬﺴﻔﻧ ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﺭﺎﻨﻟﺍ ﻝﺎﻌﺷﺇ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻨﺴﻓ ،ﺎﻨﻄﻄﺧ ﻲﻓ ﻞﺧﺪﺘﻳ ﺪﻗ ﺺﺨﺷ ﻱﺃ ﺪﺿ ﺎﻬﻨﻋ ﺎﻨﻌﻓﺍﺩﻭ ،ﺔﻤﻈﻧﻷﺍ ﻩﺬﻫ ﻦﻣ ﻞﻛ ﻲﻓ §Y$entropy_conduit_plural$§! ﺎﻧﺄﺸﻧﺃ ﺍﺫﺇ\n .ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻝﻮﺣ ﺔﻤﻈﻧﺃ ﺔﺘﺴﻟ ﺔﻳﺩﻭﺩ ﺎﺑﻮﻘﺛ ﺎﻨﺤﺘﻓ ﺪﻘﻟ .ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﻱﺭﺬﺟ ﻝﻮﺤﺗ ﺀﺪﺒﺑ ﺎﺒﻳﺮﻗ ﺎﻨﻟ ﺢﻤﺴﻴﺳ §Y$entropy_crystals$§! ـﻟ ﺎﻨﻧﺎﻘﺗﺇ ﻥﺇ"
+situation_galactic_hyperthermia_timer_monthly_change_tooltip: ".ﺓﺮﺠﻤﻟﺍ ﻕﺮﺘﺤﺘﺳ ،ﺎﻬﺗﻭﺭﺫ ﻰﻟﺇ ﻞﺼﺗ ﺎﻣﺪﻨﻋﻭ .ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻲﻓ ﻊﺸﺗ ﻲﺘﻟﺍ ﺎﻴﺑﻭﺮﺘﻧﻺﻟ ﻲﻟﺎﺤﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ"
+situation_gh_timer_outcome: ".ﺃﺪﺒﻳ ﻥﺃ ﻞﺒﻗ ﻰﺘﺣ ﺎﻨﻋﻭﺮﺸﻣ ﻞﺸﻔﻳ ﻑﻮﺴﻓ ،ﻦﻳﺪﻌﺘﺴﻣ ﻥﻮﻜﻧ ﻥﺃ ﻥﻭﺩ ﻢﻬﺑ ﺎﻨﻴﻘﺘﻟﺍ ﺍﺫﺇﻭ .ﺎﻨﻄﻄﺧ ﻁﺎﺒﺣﻹ ﺏﺮﺤﻠﻟ ﺪﻌﺘﺴﺗ ﺎﻤﺑﺭ ﺔﻔﻠﺘﺨﻣ ﻻﻭﺩ ﻥﺃ ﻰﻟﺇ ﺎﻨﺗﺍﺭﺎﺒﺨﺘﺳﺍ ﺮﻳﺭﺎﻘﺗ ﺮﻴﺸﺗ"
+situation_gh_approach_timer: "ﺕﺎﻴﻋﺍﺪﺘﻟﺍ ﺔﻬﺟﺍﻮﻣ"
+situation_gh_approach_timer_tt: ".ﺔﻳﺭﻮﻄﺳﺃ ﺩﺎﻌﺑﺃ ﺕﺍﺫ ﺏﺮﺣ ﻲﻓ ﺓﺮﺠﻤﻟﺍ ﺡﺎﻴﺘﺟﺍ ﻚﺷﻭ ﻰﻠﻋ ﻪﻨﻣ ﺮﻔﻣ ﻻ ﻉﺍﺮﺻ ﻙﺎﻨﻫ .ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻟ"
+situation_gh_difficulty_progress: "ﺔﺑﻮﻌﺻ"
+situation_gh_opponent_progress: "ﺔﺿﺭﺎﻌﻣ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻞﻜﻟ §G-0.1§!"
+
+# Crisis Situation
+situation_galactic_hyperthermia: "ﺔﻳﺭﺎﻨﻟﺍ ﺓﺮﺠﻤﻟﺍ ﺔﻔﺻﺎﻋ"
+situation_galactic_hyperthermia_type: "$situation_galactic_hyperthermia$"
+situation_galactic_hyperthermia_monthly_change_tooltip: ".ﻞﻣﺎﻜﻟﺍ ﻝﺎﻌﺘﺷﻻﺍ ﻦﻣ ﺓﺮﺠﻤﻟﺍ ﺎﻬﺑ ﺏﺮﺘﻘﺗ ﻲﺘﻟﺍ ﺔﻋﺮﺴﻟﺍ"
+situation_hyperthermia_desc_perp: "$situation_hyperthermia_stats$\n\n§L.ﺓﺮﺠﻤﻟﺍ ﻥﺎﻛﺭﺃ ﻦﻣ ﻦﻛﺭ ﻞﻛ ﻙﻼﻬﺘﺳﺍ ﻢﺘﻳ ﻰﺘﺣ ﻥﺍﺮﻴﻨﻟﺍ ﻝﺎﻌﺷﺇ ﻥﻵﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻳﻭ ،ﻰﻟﻭﻷﺍ ﺕﺍﺭﺍﺮﺸﻟﺍ ﺎﻨﻠﻌﺷﺃ ﺪﻘﻟ .ﺎﻨﻘﻳﺮﻃ ﻲﻓ ﻒﻘﻳ ﺎﻣ ﻞﻛ ﻕﺮﺣ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ﺎﻫﺀﺎﺸﻧﻹ ﻦﻜﻟﻭ ،ﺔﻠﻌﺘﺸﻣ ﺔﻠﺿﺎﻓ ﺔﻨﻳﺪﻣ ﺭﻮﺼﺘﻧ ﻦﺤﻧ§!"
+situation_hyperthermia_desc: "$situation_hyperthermia_stats$\n\n§!.ﺩﺎﻣﺭ ﻰﻟﺇ ﻝﻮﺤﺘﻴﺳ ﻩﺎﻨﻘﻘﺣ ﺎﻣ ﻞﻛ ﻥﺈﻓ ،ﺎﻨﻠﺸﻓ ﺍﺫﺇ .ﺔﻴﻧﺎﺛ ﺹﺮﻓ ﺪﺟﻮﺗ ﻻ .ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﺓﺮﺠﻤﻟﺍ ﻪﺘﻬﺟﺍﻭ ﻖﻳﺮﺣ ﺮﺒﻛﺃ ﺔﺑﺭﺎﺤﻤﻟ ﻥﻵﺍ ﺎﻧﺭﻭﺩ ﻥﺎﺣ ﺪﻘﻟ .ﻡﻮﺠﻨﻟﺍ ﻞﻌﺷﺃ §L§Y[event_target:hyperthermia_empire.GetName]§!§!"
+situation_hyperthermia_stats: "[event_target:hyperthermia_empire.gh_crisis_core_var] §H:ﺔﻄﻘﺘﻠﻤﻟﺍ ﺔﻴﺳﺎﺳﻷﺍ ﺔﻤﻈﻧﻷﺍ§!"
+
+situation_galactic_hyperthermia_outcome: "[GetHyperthermiaOutcome]"
+situation_gh_outcome_perp: ".ﻲﻠﺻﻷﺍ ﺎﻨﻤﺠﻧ ﺓﺭﻮﺻ ﻰﻠﻋ ﺎﻬﻠﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻢﺘﻴﺳ ،ﻦﻴﻨﺴﻟﺍ ﺕﺍﺭﺎﻴﻠﻣ ﺪﻌﺑﻭ .ﺔﻨﺼﺤﻣ ﺖﺴﻴﻟ ﻡﻮﺠﻨﻟﺍ ﻰﺘﺣ .ﺩﺎﻣﺮﻟﺍ ﻦﻴﺑ ﻦﻴﻔﻗﺍﻭ ﺓﺭﺍﺮﺤﻟﺍ ﺍﻮﻨﻀﺘﺣﺍ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻯﻮﺳ ﻖﺒﺘﻳ ﻢﻟﻭ ،ﺓﺮﺠﻤﻟﺍ ﻚﻠﻬﺘﺴﻳ ﻑﻮﺳ ﺭﺎﻨﻟﺍ ﻦﻣ ﺍﺮﻄﻣ ﻥﺈﻓ ،ﺎﻨﺤﺠﻧ ﺍﺫﺇ"
+situation_gh_outcome_other: ".ﺓﺭﺍﺮﺤﻠﻟ ﺔﺒﺤﻤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻯﻮﺳ ﻪﻴﻓ ﻰﻘﺒﺗ ﻦﻟ ﺎﻤﻟﺎﻋ ﻖﻠﺨﻳ ﺎﻤﻣ ،ﺩﺎﻣﺭ ﻰﻟﺇ ﺎﻬﻟﻮﺤﺗﻭ ﺎﻬﻠﻤﻛﺄﺑ ﺓﺮﺠﻤﻟﺍ ﻕﺮﺣ ﻢﺘﻴﺴﻓ ،§Y[hyperthermia_empire.GetName]§! ﺢﺠﻧ ﺍﺫﺇ"
+
+situation_galactic_hyperthermia_progress: "ﻲﻟﺎﺤﻟﺍ ﻡﺪﻘﺘﻟﺍ\n\n §G+3§!: §!XYZT_113 $TABBED_NEW_LINE$- ﺔﻤﻈﻧﺃ ﻦﻣ ﺮﺜﻛﺃ §!XYZT_90: §!XYZT_73 $TABBED_NEW_LINE$- ﺔﻤﻈﻧﺃ ﻞﻐﺸﺗ §R-3§! :ﺔﻤﻈﻧﺃ §!XYZT_33$TABBED_NEW_LINE$- ﻦﻣ ﻞﻗﺃ \n .ﻱﺮﻬﺸﻟﺍ ﻡﺪﻘﺘﻟﺍ §Y$entropy_conduit_plural$§! ﺎﻬﻠﻐﺸﺗ ﻲﺘﻟﺍ Galactic Core ﺔﻤﻈﻧﺃ ﺭﺍﺪﻘﻣ ﺩﺪﺤﻳ"
+situation_galactic_hyperthermia_stage1: "(stage_1$$) ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻢﺗ"
+
+situation_gh_approach_perp: "ﺭﺎﻨﻟﺍ ﺩﻮﻗﻭ"
+situation_gh_approach_perp_tt: ".ﻩﺎﻨﻘﻘﺣ ﺎﻣ ﻞﻛ ﺓﺭﺎﺴﺨﺑ ﻑﺯﺎﺠﻧ ﻭﺃ ،ﺢﺠﻨﻧ ﻥﺃ ﺐﺠﻳ .ﺍﺪﺑﺃ ﻭﺃ ﻥﻵﺍ ﺎﻣﺇ"
+situation_gh_approach_other: "ﺐﻬﻠﻟﺍ ﺀﺎﻔﻃﺇ"
+situation_gh_approach_other_tt: ".ﺓﺭﻭﺮﺿ ﻞﺑ ،ﺍﺭﺎﻴﺧ ﺔﻠﻣﺎﻜﻟﺍ ﺔﻛﺭﺎﺸﻤﻟﺍ ﺪﻌﺗ ﻢﻟﻭ .ﺓﺮﺠﻤﻟﺍ ﺭﺍﺮﻘﺘﺳﻻ ﺎﻳﺩﻮﺟﻭ ﺍﺪﻳﺪﻬﺗ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻩﺬﻫ ﻞﺜﻤﺗ"
+
+# Events
+# NOTE: Remove most #comments below after texts are done
+infernals.1000.name: "ﺓﺪﻳﺪﺟ ﺓﻮﻗ"
+infernals.1000.desc: "[GetHyperthermiaIntroIfRedGiant]"
+infernals.1000.descNormal: "§Y$INF_CRISIS_ENTROPY$§! §H:ﺹﺎﺧ ﻉﻭﺮﺸﻣ ﺕﺍﺭﺍﺪﺻﺇ§!\n\n.ﺓﺮﺠﻤﻟﺍ ﻕﺎﻄﻧ ﻰﻠﻋ ﻱﺭﺍﺮﺤﻟﺍ ﺩﺪﻤﺘﻟﺍ ﻢﻗﺎﻔﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﻠﺑﺎﻗ ﺓﺭﺍﺮﺣ ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺗﻭ ﺓﺮﺠﻤﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻦﻣ ﺓﺩﺭﺎﺸﻟﺍ ﺎﻴﺑﻭﺮﺘﻧﻹﺍ ﺓﺩﺎﻌﺘﺳﺍ ﻦﻜﻤﻳ ،ﺃﺪﺒﻤﻟﺍ ﺚﻴﺣ ﻦﻣ .ﺀﺍﺮﻤﺣ ﺔﻘﻟﺎﻤﻋ ﻰﻟﺇ ﻡﻮﺠﻨﻟﺍ ﺭﻮﻄﺗ ﻊﻳﺮﺴﺗ ﻲﻓ ﻰﺘﺣ ﻭﺃ ،ﺓﺭﺍﺮﺣ ﺮﺜﻛﺃ ﺕﺎﺧﺎﻨﻣ ﻰﻟﺇ ﺐﻛﺍﻮﻜﻟﺍ ﻞﻳﻮﺤﺘﻟ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻢﺘﻳ ﺪﻗ ﻪﻧﺃ ﻰﻟﺇ ﺔﺟﺬﻤﻨﻟﺍ ﺮﻴﺸﺗ\n\n.ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺕﺎﻴﻠﻤﻌﻟﺍﻭ ﺔﻳﺩﺎﺼﺘﻗﻻﺍﻭ ﺔﻴﻋﺎﻨﺼﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﺮﺒﻋ ﺎﻬﻘﻴﺒﻄﺗ ﻦﻜﻤﻳﻭ ،ﺓﺮﻴﺒﻛ ﺔﻳﺭﺍﺮﺣ ﺔﻗﺎﻃ ﻞﻘﻧﻭ ﻦﻳﺰﺨﺗ §Y$entropy_crystals$§! ـﻟ ﻦﻜﻤﻳ .ﺔﻗﺎﻄﻟﺍ ﺔﻴﻟﺎﻋ ﺔﻳﺭﻮﻠﺑ ﺔﻓﻮﻔﺼﻤﺑ ﺎﻬﻄﺑﺭ ﻖﻳﺮﻃ ﻦﻋ ﺎﻬﻨﻳﺰﺨﺗﻭ ﺎﻴﺑﻭﺮﺘﻧﻹﺍ ﺩﺎﺼﺤﻟ ﺓﺪﻳﺪﺟ ﺔﻘﻳﺮﻃ ﺎﻨﺑ ﺹﺎﺨﻟﺍ [GetScientistPlural] ﻡﺪﻘﻳ" 
+infernals.1000.descRedGiant: "§Y$INF_CRISIS_ENTROPY$§! §H:ﺹﺎﺧ ﻉﻭﺮﺸﻣ ﺕﺍﺭﺍﺪﺻﺇ§!\n\n.ﻲﻣﺎﻈﻨﻟﺍ ﻱﺭﺍﺮﺤﻟﺍ ﺩﺪﻤﺘﻟﺍ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺓﺭﺍﺮﺣ ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺗﻭ ﺔﻄﻴﺤﻤﻟﺍ ﺔﻳﺮﺠﻤﻟﺍ ﺎﻴﺑﻭﺮﺘﻧﻹﺍ ﺓﺩﺎﻌﺘﺳﺍ ﻦﻜﻤﻳ ،ﺔﻳﺮﻈﻨﻟﺍ ﺔﻴﺣﺎﻨﻟﺍ ﻦﻣ .ﺀﺍﺮﻤﺣ ﺔﻘﻟﺎﻤﻋ ﻰﻟﺇ ﻡﻮﺠﻨﻟﺍ ﺭﻮﻄﺗ ﻰﻟﺇ ﻱﺩﺆﺗ ﻭﺃ ﺓﺭﺍﺮﺣ ﺮﺜﻛﺃ ﺕﺎﺧﺎﻨﻣ ﻲﻓ ﺡﻼﺼﺘﺳﻻﺍ ﻦﻣ ﻦﻜﻤﺗ ﺪﻗ ﺎﻬﻧﺃ ﻰﻟﺇ ﺓﺎﻛﺎﺤﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺮﻴﺸﺗ\n\n.ﻲﻤﺠﻨﻟﺍﻭ ﻱﺩﺎﺼﺘﻗﻻﺍﻭ ﻲﻋﺎﻨﺼﻟﺍ ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﻠﺋﺎﻬﻟﺍ ﺔﻳﺭﺍﺮﺤﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻞﻘﻧﻭ ﻂﺑﺮﻟ ﺓﺮﻳﺎﻄﺘﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻩﺬﻫ ﺔﺳﺪﻨﻫ ﺓﺩﺎﻋﺇ ﻥﻵﺍ ﺎﻨﻨﻜﻤﻳ .ﺃﺪﺒﺗ ﻥﺃ ﻞﺒﻗ ﺎﻨﺗﺭﺎﻀﺣ ﻲﻬﻨﻳ ﻥﺃ ﺩﺎﻛ ﻱﺬﻟﺍ ﻞﻌﻔﻟﺍ ﻮﻫﻭ ،ﺮﻤﺣﻷﺍ ﻕﻼﻤﻌﻟﺍ ﻝﺎﻌﺷﻹ ﻪﻣﺍﺪﺨﺘﺳﺍ ﻢﺗ ﻱﺬﻟﺍ §Y$entropy_crystals$§! ﻞﻴﻠﺤﺘﺑ ﺎﻨﺑ ﺹﺎﺨﻟﺍ [GetScientistPlural] ﻡﺎﻗ ﺪﻘﻟ" # Intro if you've learned about entropy from the Red Giant Miners
+
+infernals.1005.name: "ﺭﻮﻠﺒﺘﻟﺍ ﻖﻴﻘﺤﺗ ﻢﺗ"
+infernals.1005.desc1: "§Y$galactic_crucible_0$§! §H:ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺢﺘﻔﻳ§!\n\n.ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺝﺎﺘﻧﻹﺍ ﻕﺎﻄﻧ ﻊﻴﺳﻮﺗ ﺔﻴﻔﻴﻛ ﻦﻋ ﻞﻌﻔﻟﺎﺑ ﺎﻨﻳﺪﻟ [GetScientistPlural] ﺚﺤﺒﻳ .ﺎﻤﻬﻌﺒﺘﺘﺳ ﺔﻄﻠﺴﻟﺍﻭ ﺓﻭﺮﺜﻟﺍ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻤﻓ ،ﺪﻳﺪﺠﻟﺍ ﺩﺎﺼﺘﻗﻻﺍ ﺍﺬﻫ ﻝﺎﻌﺘﺷﺍ ﻊﻣﻭ .ﺔﻄﻴﺤﻤﻟﺍ ﺎﻴﺑﻭﺮﺘﻧﻹﺍ ﺮﻴﺨﺴﺗ ﻖﻳﺮﻃ ﻦﻋ $entropy_crystals$ .ﻊﻴﻤﺠﺘﻠﻟ ﻕﺮﻃ ﺔﺑﺮﺠﺗﻭ ،ﻲﻋﺎﻨﺼﻟﺍ ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﻴﻠﻤﻌﻟﺍ ﻒﻴﻴﻜﺗ ﻲﻓ ﺎﻨﻳﺪﻟ ﻥﻮﻴﻨﻔﻟﺍ ﺃﺪﺑ ﺎﻤﻛ \n\n.ﺎﻨﺗﺮﻄﻴﺳ ﺖﺤﺗ ﻡﺎﻈﻧ ﻱﺃ ﻲﻓ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺮﺸﻨﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻦﺤﻧﻭ ،ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻬﻟ ﺔﻴﻟﺎﺜﻣ ،ﻱﺭﺍﺮﺤﻟﺍ ﺎﻬﺟﺎﺘﻧﺇﻭ ﺔﻌﺳﺎﺸﻟﺍ ﺎﻬﺛﺎﻌﺒﻧﺍ ﺢﻄﺳﺃ ﻞﻀﻔﺑ ،ﺔﻗﻼﻤﻌﻟﺍ ﺀﺍﺮﻤﺤﻟﺍ ﺕﺍﺭﻮﻠﺒﻟﺍ ﺮﺒﺘﻌﺗ \n\n .ﺔﻳﺪﻴﻠﻘﺘﻟﺍ ﻕﺮﻄﻟﺍ ﻦﻣ ﺮﻴﺜﻜﺑ ﺮﺒﻛﺃ ﺓﺀﺎﻔﻜﺑ ﺎﻬﻠﻘﻧﻭ ﺔﻗﺎﻄﻟﺍ ﻦﻳﺰﺨﺗ ﻦﻣ ﻞﻌﻔﻟﺎﺑ ﺎﻨﺘﻋﺎﻨﺻ ﻦﻜﻤﺗﻭ ﺔﻠﺋﺎﻫ ﺔﻳﺭﺍﺮﺣ ﺔﻗﺎﻃ ﻰﻠﻋ ﺕﺍﺭﻮﻠﺒﻟﺍ ﻩﺬﻫ ﻱﻮﺘﺤﺗ .§Y$entropy_crystals$§! ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺗﻭ ﺔﻗﺎﻄﻟﺍ ﻊﻴﻤﺠﺘﻟ ﺎﻨﻳﺪﻟ ﻰﻟﻭﻷﺍ ﺔﻠﻣﺎﻌﻟﺍ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺎﻨﻠﻤﻛﺃ ﺪﻘﻟ" # Reaching lv1
+infernals.1005.desc2: "§Y$galactic_crucible_0$§! §H:ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺢﺘﻔﻳ§!\n\n.ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺝﺎﺘﻧﻹﺍ ﻕﺎﻄﻧ ﻊﻴﺳﻮﺗ ﺔﻴﻔﻴﻛ ﻦﻋ ﻞﻌﻔﻟﺎﺑ ﺎﻨﻳﺪﻟ [GetScientistPlural] ﺚﺤﺒﻳ .ﺎﻤﻬﻌﺒﺘﺘﺳ ﺔﻄﻠﺴﻟﺍﻭ ﺓﻭﺮﺜﻟﺍ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻤﻓ ،ﺪﻳﺪﺠﻟﺍ ﺩﺎﺼﺘﻗﻻﺍ ﺍﺬﻫ ﻝﺎﻌﺘﺷﺍ ﻊﻣﻭ .ﺔﻄﻴﺤﻤﻟﺍ ﺎﻴﺑﻭﺮﺘﻧﻹﺍ ﺮﻴﺨﺴﺗ ﻖﻳﺮﻃ ﻦﻋ $entropy_crystals$ .ﻒﻴﻟﻮﺘﻟﺍ ﻕﺮﻃ ﺔﺑﺮﺠﺗﻭ ،ﻲﻋﺎﻨﺼﻟﺍ ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﻴﻠﻤﻌﻟﺍ ﻒﻴﻴﻜﺗ ﻲﻓ ﺎﻨﻳﺪﻟ ﻥﻮﻴﻨﻔﻟﺍ ﺃﺪﺑ ﺎﻤﻛ \n\n.ﺎﻨﺗﺮﻄﻴﺳ ﺖﺤﺗ ﻡﺎﻈﻧ ﻱﺃ ﻲﻓ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺮﺸﻨﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻦﺤﻧﻭ ،ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻬﻟ ﺔﻴﻟﺎﺜﻣ ،ﻱﺭﺍﺮﺤﻟﺍ ﺎﻬﺟﺎﺘﻧﺇﻭ ﺔﻌﺳﺎﺸﻟﺍ ﺎﻬﺛﺎﻌﺒﻧﺍ ﺢﻄﺳﺃ ﻞﻀﻔﺑ ،ﺔﻗﻼﻤﻌﻟﺍ ﺀﺍﺮﻤﺤﻟﺍ ﺕﺍﺭﻮﻠﺒﻟﺍ ﺮﺒﺘﻌﺗ \n\n .ﺔﻳﺪﻴﻠﻘﺘﻟﺍ ﻕﺮﻄﻟﺍ ﻦﻣ ﺮﻴﺜﻜﺑ ﺮﺒﻛﺃ ﺓﺀﺎﻔﻜﺑ ﺎﻬﻠﻘﻧﻭ ﺔﻗﺎﻄﻟﺍ ﻦﻳﺰﺨﺘﺑ ﺎﻨﺘﻋﺎﻨﺼﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﻠﺋﺎﻫ ﺔﻳﺭﺍﺮﺣ ﺔﻗﺎﻃ ﻰﻠﻋ ﺕﺍﺭﻮﻠﺒﻟﺍ ﻩﺬﻫ ﻱﻮﺘﺤﺗ .ﺮﻄﺨﻠﻟ ﺎﻨﻤﺠﻧ ﺾﻳﺮﻌﺗ ﻥﻭﺩ ﺎﻬﻌﻴﻨﺼﺗﻭ ﺎﻫﺩﺎﺼﺣ ﺎﻨﻨﻜﻤﻳ ،§Y$entropy_crystals$§! ﻦﻣ ﺔﻴﻟﺎﺤﻟﺍ ﺎﻨﺗﺎﻨﻴﻋ ﻡﺍﺪﺨﺘﺳﺎﺑ" # Reaching lv1
+infernals.1005.a: ".ﺀﺎﻨﺒﻟﺍ ﺃﺪﺒﻧ ﻥﺃ ﺐﺠﻳ"
+infernals.1005.a.tt: ".ﻢﺠﻧ ﻝﻮﺣ §Y$galactic_crucible_0$§! ﺀﺎﻨﺒﻟ $constructor$ ﻡﺪﺨﺘﺳﺍ"
+infernals.1005.b: ".ﺀﺎﻨﺒﻟﺍ ﺀﺪﺒﻟ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺮﻣﺃ"
+infernals.1005.b.tt: ".ﻢﺠﻧ ﻝﻮﺣ §Y$galactic_crucible_0$§! ﺀﺎﻨﺒﻟ $constructor$ ﻡﺪﺨﺘﺳﺍ"
+
+infernals.1006.name: "ﺓﺭﺍﺮﺤﻠﻟ ﺔﺒﺤﻣ ﺭﻮﻄﺗ"
+infernals.1006.desc: ".ﺪﻳﺪﺠﻟﺍ ﻱﺭﺎﻨﻟﺍ ﺎﻨﻠﺒﻘﺘﺴﻣ ﻲﻓ ﺭﺎﻫﺩﺯﻻﺍ ﻰﻠﻋ ﺎﻧﺪﻋﺎﺴﻴﺳ ﺔﻌﻔﺗﺮﻤﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺕﺎﺟﺭﺩ ﻊﻣ ﺎﻨﻧﺎﻜﺳ ﻒﻴﻜﺗ ﻥﺇ .ﺓﺭﺍﺮﺤﻟﺍ ﺔﻬﺟﺍﻮﻤﻟ ﺓﺪﻌﺘﺴﻣ ﺎﻨﻟﺎﻜﺷﺃ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ ﻦﻜﻟﻭ ،ﺓﺮﺠﻤﻟﺍ ﻝﺎﻌﺷﻹ ﺎﻨﻘﻳﺮﻃ ﻲﻓ ﺃﺪﺒﻧ"
+infernals.1006.descRedGiant: ".ﺎﻨﻤﺠﻨﻟ ﺪﻳﺪﺠﻟﺍ ﻱﺭﺎﻨﻟﺍ ﻞﺒﻘﺘﺴﻤﻟﺍ ﻊﻣ ﺐﻨﺟ ﻰﻟﺇ ﺎﺒﻨﺟ ﺭﺎﻫﺩﺯﻻﺍ ﻰﻠﻋ ﺎﻧﺪﻋﺎﺴﻴﺳ ﺔﻌﻔﺗﺮﻤﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺕﺎﺟﺭﺩ ﻊﻣ ﺎﻨﻧﺎﻜﺳ ﻒﻴﻜﺗ ﻥﺇ .ﺓﺭﺍﺮﺤﻟﺍ ﺔﻬﺟﺍﻮﻤﻟ ﺓﺪﻌﺘﺴﻣ ﺎﻨﻟﺎﻜﺷﺃ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ ،ﺎﻨﻤﺠﻧ ﻰﻠﻋ ﺕﺃﺮﻃ ﻲﺘﻟﺍ ﺕﺍﺮﻴﻐﺘﻟﺍ ﺲﻜﻌﻟ ﻞﻠﻛ ﻼﺑ ﻞﻤﻌﻧ ﺎﻤﻨﻴﺑﻭ"
+
+infernals.1010.name: "$entropy_conduit_plural$ ﻕﻼﻃﺇ"
+infernals.1010.desc: "§Y$galactic_crucible_2$§! §H:ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺔﻴﻗﺮﺗ ﺮﻓﻮﺘﺗ§!\n\n.ﻮﻤﻨﻟﺍ ﻦﻋ ﺍﺪﺑﺃ ﻒﻗﻮﺘﺗ ﻻ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ،ﺀﻲﺷ ﻞﻛ ﺪﻌﺑ .ﺓﺮﺠﻤﻟﺍ ﺮﺒﻋ ﺭﺎﺸﺘﻧﻻﺎﺑ ﻢﻬﻟ ﺡﺎﻤﺴﻟﺍ ﺎﻧﺪﻴﻔﻳ ﺪﻗ ،ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﻦﻜﻟ ،ﺎﻨﻴﺿﺍﺭﺃ ﻞﺧﺍﺩ ﻥﻮﻘﺒﻴﺳ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ .ﺎﻨﺘﺣﺍﺮﻟ ﻞﻘﺘﺴﻣ ﻞﻜﺸﺑ ﺎﻬﻠﻴﻐﺸﺗﻭ ﺔﻤﻈﺘﻨﻣ ﺕﺍﺮﺘﻓ ﻰﻠﻋ §Y$entropy_conduit_plural$§! ﺝﺎﺘﻧﺇ ﻦﻜﻤﻳ \n\n .ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺔﻌﺳﻮﺘﻤﻟﺍ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ ﻢﻋﺪﻟ ﺎﻬﻠﻤﻛﺄﺑ ﺔﻤﻈﻧﻷﺍ ﺔﺌﻓﺪﺗﻭ ،ﺮﻤﺣﺃ ﻕﻼﻤﻋ ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺗﻭ ،ﻢﺠﻨﻟﺍ ﺔﻗﺎﻃ ﺝﺎﺘﻧﺇ ﻒﻴﺜﻜﺗﻭ ﺮﻳﻭﺪﺗ ﺓﺩﺎﻋﺈﺑ ﻡﻮﻘﺘﺳ ،ﺎﻬﻟﺎﺳﺭﺇ ﺩﺮﺠﻤﺑ .ﺔﻴﻤﺠﻨﻟﺍ ﺎﻴﺑﻭﺮﺘﻧﻹﺍ ﻢﻴﺨﻀﺗﻭ ﻪﻴﺟﻮﺘﻟ ﺔﻤﻤﺼﻣ ﺔﻴﻟﺁ ﺔﻤﻈﻧﺃ :§Y$entropy_conduit_plural$§!$galactic_crucible_1$ ﺮﺸﻨﻟ ﻥﻵﺍ ﺰﻫﺎﺟ " # Reaching lv2
+infernals.1010.a: ".$entropy_crystals$ ﺝﺎﺘﻧﺇ ﻉﺭﺎﺴﺘﻳ ﻑﻮﺳ"
+infernals.1010.b: ".ﻡﻮﺠﻨﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻰﻠﻋ ﺐﻠﻐﺘﻟﺍ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﻦﺤﻧ"
+
+infernals.1015.name: "؟ﻮﺠﻟﺍ ﺔﻧﻮﺨﺳ ﻯﺪﻣ ﺎﻣ"
+infernals.1015.desc: "§Hﺎﺻﺎﺧ ﺎﻋﻭﺮﺸﻣ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺢﺘﻔﻳ§!\n\n.ﺮﺧﺁ ﺺﺨﺷ ﺔﻄﺳﺍﻮﺑ ﻭﺃ ﺎﻨﺘﻄﺳﺍﻮﺑ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻩﺬﻫ ﺢﻴﻠﺴﺗ ﻢﺘﻳ ﻥﺃ ﻞﺒﻗ ﻂﻘﻓ ﺖﻗﻭ ﺔﻟﺄﺴﻣ ﻲﻬﻓ ،ﻚﻟﺫ ﻑﻼﺨﺑ .ﺍﺪﺑﺃ ﺔﺤﻠﺳﻷﺍ ﻩﺬﻫ ﻞﺜﻣ ﺝﺎﺘﻧﺇ ﻰﻠﻋ ﺎﻬﺗﺭﺪﻗ ﻡﺪﻋ ﻦﻤﻀﻧﻭ ،ﺎﻨﻠﻋ galactic_crucible_2$$ ﻞﺸﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻴﻓ ،ﺎﻧﺎﻳﺍﻮﻧ ﺕﺎﺒﺛﺇ ﺎﻧﺩﺭﺃ ﺍﺫﺇ .ﻲﻔﻜﺗ ﻦﻟ ﺔﻏﺭﺎﻔﻟﺍ ﻡﻼﺴﻟﺍ ﺕﺎﻤﻠﻛ ﻥﺇ \n\n ؟ﻡﺎﻳﻷﺍ ﻦﻣ ﻡﻮﻳ ﻲﻓ ﺎﻧﺪﺿ ﻪﺟﻮﺗ ﻥﺃ ﻦﻜﻤﻳ ﻻ ﺔﺤﻠﺳﻷﺍ ﻩﺬﻫ ﻞﺜﻣ ﻥﺇ ﻝﻮﻘﻳ ﻥﺃ ﻊﻴﻄﺘﺴﻳ ﻦﻣﻭ .ﺎﻨﻧﺍﺮﻴﺟ ﻦﻴﺑﻭ ﺎﻨﻨﻴﺑ ﺔﻴﻘﺒﺘﻤﻟﺍ ﺔﻠﻴﻠﻘﻟﺍ ﺔﻘﺜﻟﺍ ﻢﻄﺤﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﺔﻳﺮﻜﺴﻌﻟﺍ ﺕﺎﻘﻴﺒﻄﺘﻟﺍ ﻩﺬﻫ ﻑﺎﺸﻜﺘﺳﺍ ﻦﻜﻟ \n\n .ﺎﻨﺘﻤﺣﺭ ﺖﺤﺗ ﺓﺮﺠﻤﻟﺍ ﻊﻘﺗ ﻥﺃ ﻦﻜﻤﻳ ،ﺓﻮﻘﻟﺍ ﻩﺬﻫ ﻞﺜﻤﺑﻭ .ﺎﻬﻠﻤﻛﺄﺑ ﺐﻛﺍﻮﻛ ﺮﻴﻣﺪﺗ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ،ﻩﺭﻮﺼﺗ ﻦﻜﻤﻳ ﻻ ﻕﺎﻄﻧ ﺕﺍﺫ ﺔﺤﻠﺳﺃ ﻞﻴﻐﺸﺗ ﺎﻬﻨﻜﻤﻳ ،ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻫﺰﻴﻛﺮﺗ ﻢﺘﻳ ﺎﻣﺪﻨﻋ :ﻒﻴﺨﻣ ﻝﺎﻤﺘﺣﺍ ﻦﻋ §Y$entropy_crystals$§! ﻝﻮﺣ ﺮﻤﺘﺴﻤﻟﺍ ﺎﻨﺜﺤﺑ ﻒﺸﻛ ﺪﻘﻟ" # Reaching lv3 & decision
+infernals.1015.a: "!ﺏﺮﺤﻟﺍ ﻥﺍﺮﻴﻧ ﻞﻌﺷﺃ" # evil path
+infernals.1015.a.desc: "\n.crisis_hyperthermia_level_4$$ ﺔﻣﺯﻷﺍ ﻯﻮﺘﺴﻣ ﺢﺘﻔﻳ" #\n\n§HIssues Special Project:§! §Y$INF_CRISIS_ENTROPY_EVIL$§!
+infernals.1015.b: ".ﺎﻨﺗﺎﺣﻮﻤﻃ ﻦﻣ ﻒﻔﺨﻧ ﺎﻧﻮﻋﺩ" # good path
+infernals.1015.b.desc: ".§Y$galactic_crucible_5$§! ﻰﻟﺇ §Y$galactic_crucible_2$§! ﻞﻳﻮﺤﺘﻟ §Y$INF_CRISIS_ENTROPY_GOOD$§! §H:ﺹﺎﺧ ﻉﻭﺮﺸﻣ ﺭﺍﺪﺻﺇ§!\n\n .crisis_hyperthermia_level_4$$ ﺔﻣﺯﻷﺍ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻊﻨﻤﻳ"
+
+infernals.1020.name: "ﺭﺎﻨﻟﺍ ﻲﻓ"
+infernals.1020.desc: "§Y$galactic_crucible_4$§! §H:ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺔﻴﻗﺮﺗ ﺮﻓﻮﺘﺗ§!\n\n.ﺓﺮﺠﻤﻟﺍ ﺀﺍﺭﺁ ﺔﻴﻤﻫﺃ ﺖﻠﻗ ،ﺔﺤﻠﺳﻷﺍ ﻩﺬﻫ ﺢﺘﻓ ﻲﻓ ﺎﻨﻋﺮﺳﺃ ﺎﻤﻠﻛ .ﺔﻴﻧﺍﻭﺪﻋ ﺮﺜﻛﻷﺍ ﻪﺗﺎﻘﻴﺒﻄﺗ ﻰﻠﻋ ﺹﺎﺧ ﻞﻜﺸﺑ ﺰﻴﻛﺮﺘﻟﺍ ﻊﻣ ،galactic_crucible_3$$ ﻊﺳﻮﺗ ﻉﺭﺎﺴﺘﻳ ﻑﻮﺳ\n\n .ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﻼﻣﺎﺠﻤﻟﺍ ﻞﺟﺃ ﻦﻣ ﺎﻨﺴﻔﻧﺃ ﺔﺋﺪﻬﺗ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﺪﻌﻧ ﻢﻟ ،ﺎﻨﻳﺪﻳﺃ ﻲﻓ ﺓﻮﻘﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﺩﻮﺟﻭ ﻊﻣﻭ .ﻲﻘﻴﻘﺣ ﺮﻣﺃ ﺓﺮﻣﺪﻣ ﺔﺤﻠﺳﺃ ﻡﺍﺪﺨﺘﺳﺍ ﻝﺎﻤﺘﺣﺍ ﻥﺇ :ﻪﻴﻓ ﻚﺸﻧ ﺎﻨﻛ ﺎﻣ §Y$INF_CRISIS_ENTROPY_EVIL$ Project§!ﻭ §Y$entropy_crystals$§! ﻲﻓ ﺎﻨﻘﻴﻘﺤﺗ ﺪﻛﺃ ﺪﻘﻟ" # Finishing special project for evil path
+infernals.1020.a: ".ﺏﺮﺤﻠﻟ ﺎﻨﺴﻔﻧﺃ ﺰﻬﺠﻧ ﻥﺃ ﺐﺠﻳ"
+infernals.1020.a.tt: "- $unlocks_conduit_damage$\n.ﺔﻳﻮﻟﻭﺃ §Y$galactic_crucible_4$§! ﻊﻴﺳﻮﺗ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ -"
+infernals.1020.b: ".ﺭﺎﻨﻟﺍ ﺍﻮﻠﻌﺸﻳ ﻥﺃ ﺎﻨﻴﺴﻓﺎﻨﻣ ﻰﻠﻋ ﺐﺠﻳ"
+infernals.1020.b.tt: "- $unlocks_conduit_damage$\n.ﺔﻳﻮﻟﻭﺃ §Y$galactic_crucible_4$§! ﻊﻴﺳﻮﺗ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ -"
+
+infernals.1021.name: "ﺖﺑﺎﺛ ﺞﻫﻮﺗ"
+infernals.1021.desc: "§Y$galactic_crucible_5$§! §H:ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺔﻴﻗﺮﺗ ﺮﻓﻮﺘﺗ§!\n\n.ﻊﺋﺍﺮﻟﺍ ﻢﻠﻌﻟﺍ ﺍﺬﻫ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﻲﻓ ﺭﺍﺮﻤﺘﺳﻻﺍ ﻊﻣ ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ ﻊﻣ ﻥﻭﺎﻌﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ ﺚﻴﺣ ﻞﺒﻘﺘﺴﻣ ﻦﻴﻣﺄﺘﻟ ،ﻂﺨﻟﺍ ﺯﻭﺎﺠﺗ ﻞﺒﻗ ﺎﻨﻌﺟﺍﺮﺗ ﺪﻘﻟ .ﺭﺎﻫﺩﺯﻻﺍﻭ ﺔﻗﺎﻄﻠﻟ ﺎﻳﻮﻗ ﺍﺭﺪﺼﻣ galactic_ Crucible_5$$ ﻞﻈﺘﺳ ،ﺩﻭﺪﺤﻤﻟﺍ ﺎﻬﻠﻜﺷ ﻲﻓ ﻰﺘﺣ ،ﻆﺤﻟﺍ ﻦﺴﺤﻟﻭ \n\n .ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﺎﻗﻼﻌﻟﺍ ﻞﻛ ﺭﺎﻴﻬﻧﺍﻭ ﺔﺛﺭﺎﻜﺑ ﺔﻓﺯﺎﺠﻤﻟﺍ ﻰﻟﺇ ﻱﺩﺆﻴﻟ ﻥﺎﻛ ﺭﺎﺴﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺭﺍﺮﻤﺘﺳﻻﺍ ﻥﺈﻓ ،ﻒﺳﺆﻣ ﺮﻣﺃ ﺔﻠﻣﺎﻜﻟﺍ ﺎﻬﺗﺎﻧﺎﻜﻣﺇ ﺓﺭﺎﺴﺧ ﻥﺃ ﻦﻴﺣ ﻲﻓﻭ .ﺓﺮﻣﺪﻣ ﺽﺍﺮﻏﻷ ﻪﻣﺍﺪﺨﺘﺳﺍ ﺓﺩﺎﻋﺇ ﻭﺃ ﻪﻌﻴﺳﻮﺗ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﺪﻌﻳ ﻢﻟ ﻪﻧﺃ ﻦﻤﻀﻳ ﺎﻤﻣ ،ﺡﺎﺠﻨﺑ galactic_crucible_3$$ ﺔﻗﺎﻋﺇ ﻢﺗ ﺪﻘﻟ" # Finishing special project for good path
+infernals.1021.a: ".ﻥﻭﺎﻌﺘﻟﺍ ﻦﻣ ﺪﻴﻔﺘﺴﻧ ﺎﻌﻴﻤﺟ ﻦﺤﻧ"
+infernals.1021.b: ".ﺀﺎﺧﺮﻟﺍ ﺪﺠﻧ ﻢﻏﺎﻨﺘﻟﺎﺑﻭ"
+
+infernals.1025.name: "ﺓﺍﻮﻨﻟﺎﺑ ﺔﻄﻴﺤﻤﻟﺍ"
+infernals.1025.desc: ".ﺎﻬﻴﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺲﻴﺳﺄﺗﻭ ﺓﺮﻘﺘﺴﻣ ﺔﻳﺩﻭﺩ ﺏﻮﻘﺛ ﺀﺎﺸﻧﻹ ﺔﻳﺭﺎﺟ ﺩﻮﻬﺠﻟﺍ ﻦﻜﻟ ،ﺔﻳﺮﺠﻤﻟﺍ ﺔﻘﺋﺎﻔﻟﺍ ﻁﻮﻄﺨﻟﺍ ﺔﻜﺒﺷ ﺝﺭﺎﺧ ﺔﻤﻈﻧﻷﺍ ﻩﺬﻫ ﻊﻘﺗ .ﻰﻌﺴﻤﻟﺍ ﺍﺬﻬﻟ ﺔﻴﻠﻴﻐﺸﺗ ﺰﻛﺍﺮﻣ ﺔﺑﺎﺜﻤﺑ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻳ ﻲﺘﻟﺍﻭ ﺓﺍﻮﻨﻟﺎﺑ ﻂﻴﺤﺗ ﺔﻤﻈﻧﺃ ﺔﺘﺳ ﺎﻧﺩﺪﺣ ﺪﻘﻟ\n\n .ﺎﻨﻟ ﺔﻣﺀﻼﻣ ﺮﺜﻛﺃ ﻥﺎﻜﻣ ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺗ ﻲﻟﺎﺘﻟﺎﺑﻭ ،ﺎﻬﻠﻤﻛﺄﺑ ﺓﺮﺠﻤﻟﺍ ﺮﺒﻋ ﺔﻳﺭﺍﺮﺣ ﺔﻠﺴﻠﺳ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺎﻬﺴﻔﻧ ﺓﺮﺠﻤﻟﺍ ﺓﺍﻮﻧ ﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ ﻉﺎﻔﺗﺭﻻ ﺎﻨﺗﺎﻴﻠﻤﻋ ﻕﺎﻄﻧ ﻊﻴﺳﻮﺗ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻧ ﺪﻗ ﺎﻨﻧﺃ ﻰﻟﺇ Red Giants ﻰﻟﺇ ﻡﻮﺠﻨﻟﺍ ﻞﻳﻮﺤﺗﻭ §Y$entropy_conduit_plural$§! ﻝﻮﺣ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺎﻨﺛﺎﺤﺑﺃ ﺮﻴﺸﺗ" # Reaching lv4
+infernals.1025.a: ".ﻥﺍﺮﻴﻨﻟﺍ ﻦﻣ ﺓﺎﺠﻨﻟﺍ ﻰﻠﻋ ﻥﻭﺭﺩﺎﻘﻟﺍ ﻥﻭﺪﻴﺣﻮﻟﺍ ﻦﺤﻧ"
+infernals.1025.a.tt: ".ﺓﺮﺠﻤﻟﺍ ﺏﺮﺤﻟ ﺩﺍﺪﻌﺘﺳﻻﺍ .ﺎﻨﺘﺿﺭﺎﻌﻣ ﻯﺮﺧﻷﺍ ﻉﺍﻮﻧﻷﺍ ﻝﻭﺎﺤﺘﺳ"
+infernals.1025.b: ".ﻡﯪﻭ ﻲﻓ ﻞﻌﺘﺸﺗ ﻑﻮﺳ ﺎﻬﻠﻤﻛﺄﺑ ﺓﺮﺠﻤﻟﺍ"
+infernals.1025.b.tt: ".ﺓﺮﺠﻤﻟﺍ ﺏﺮﺤﻟ ﺩﺍﺪﻌﺘﺳﻻﺍ .ﺎﻨﺘﺿﺭﺎﻌﻣ ﻯﺮﺧﻷﺍ ﻉﺍﻮﻧﻷﺍ ﻝﻭﺎﺤﺘﺳ"
+
+infernals.1030.name: "ﻝﺎﻌﺘﺷﻼﻟ ﻕﺎﺒﺳ"
+infernals.1030.desc: "§Hﺔﻴﺳﺎﺳﻷﺍ ﺓﺮﺠﻤﻟﺍ ﺔﻤﻈﻧﺃ ﻦﻴﻣﺄﺘﻟ ﻱﺩﻭﺪﻟﺍ ﺐﻘﺜﻟﺍ ﻡﺪﺨﺘﺳﺍ§!\n\n.ﺎﻨﺗﺩﺍﺭﻹ ﺓﺍﻮﻨﻟﺍ ﻲﻨﺤﻨﻳﻭ ،ﺔﻴﻠﻀﻓﻷﺍ ﻚﻠﺘﻤﻧ ﻦﺤﻧ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻦﻜﻟ ،ﺔﻤﻈﻧﻷﺍ ﻩﺬﻫ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻝﻭﺎﺤﺗﻭ ﺎﻨﻃﺎﺸﻧ ﻯﺮﺧﺃ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻒﺸﺘﻜﺗ ﺪﻗ .ﺓﺍﻮﻨﻟﺍ ﺔﻧﻮﺨﺳ ﺓﺩﺎﻳﺯ ﻰﻠﻋ ﺎﻨﻠﻤﻋ ﺃﺪﺒﻳ ﻥﺃ ﻦﻜﻤﻳ\n\n.ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻝﻮﺣ ﺔﺘﺴﻟﺍ ﺞﻳﺭﺪﺘﻟﺍ ﺔﻤﻈﻧﺃ ﻊﻴﻤﺟ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻦﻴﻣﺄﺗ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﺔﻳﺩﻭﺪﻟﺍ ﺏﻮﻘﺜﻟﺍ ﻕﺎﻔﻧﺃ ﻝﺎﻤﺘﻛﺍ ﻊﻣ .ﺎﻬﺘﻗﺎﻃ ﻞﻣﺎﻜﺑ ﻞﻤﻌﺗﻭ ﻞﻣﺎﻜﻟﺎﺑ ﺔﺤﻠﺴﻣ ﻥﻵﺍ galactic_crucible_4$$ ﺖﺤﺒﺻﺃ" # Reaching lv5, lanes open in 3 years!
+infernals.1030.a: ".ﺔﻴﺳﺎﺳﻷﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ ﺖﻴﺒﺜﺘﻟﺍ ﺃﺪﺑﺍ"
+infernals.1030.a.tt: ".ﺕﺍﺩﺍﺪﻌﺘﺳﻻﺍ ﺃﺪﺒﻧ ﻥﺃ ﺐﺠﻳ .ﺓﺪﺣﺍﻭ ﺓﺮﻣ ﺎﻬﻠﻤﻛﺄﺑ ﺓﺮﺠﻤﻟﺍ ﺔﻧﻮﺨﺳ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﺔﺘﺴﻟﺍ ﺔﻴﺳﺎﺳﻷﺍ ﺓﺮﺠﻤﻟﺍ ﺔﻤﻈﻧﺃ ﻲﻓ §Y$entropy_conduit_plural$§! ﺮﺸﻧ ﻱﺩﺆﻴﺳ"
+infernals.1030.b: ".ﺭﺎﻨﻟﺎﺑ ﻕﺮﺸﻣ ﺎﻨﻠﺒﻘﺘﺴﻣ"
+infernals.1030.b.tt: "$a.tt.1030.ﻢﻴﺤﺠﻟﺍ$"
+
+infernals.1035.name: "ﺓﺮﺠﻤﻟﺍ ﻖﻳﺮﺣ ﺭﺍﺬﻧﺇ"
+infernals.1035.desc: ".ﺪﻋﺎﺼﻟﺍ ﺎﻨﻠﺒﻘﺘﺴﻤﻟ ﺞﻫﻮﺘﻤﻟﺍ ﺪﺠﻤﻟﺍ ﻪﻠﺤﻣ ﻞﺤﻴﺳﻭ ،ﺀﺎﻀﻔﻠﻟ ﺩﺭﺎﺒﻟﺍ ﻡﻼﻈﻟﺍ ﺔﻟﺍﺯﺇ ﻢﺘﻴﺳ .ﻒﻗﻮﺘﻧ ﻦﻟ ﺎﻨﻨﻜﻟ\n\n.ﺔﻣﻭﺎﻘﻤﻠﻟ ﺪﻌﺘﺴﻧ ﻥﺃ ﺐﺠﻳ ،ﻁﺮﻔﻣ ﻞﻜﺸﺑ ﺓﺍﻮﻨﻟﺍ ﻦﻴﺨﺴﺗ ﻲﻓ ﺎﻧﺭﺍﺮﻤﺘﺳﺍ ﻊﻣﻭ .ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺎﻨﻗﻼﻄﻧﺍ ﻖﻃﺎﻨﻣ ﻰﻠﻋ ﺔﺣﻮﺘﻔﻣ ﺔﻴﺒﻌﺸﺗ ﺎﻃﻮﻄﺧ ﺔﺴﻓﺎﻨﺘﻤﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺕﺮﺒﺟﺃ ﺪﻘﻟ"
+# core is now connected with the galaxy!
+infernals.1035.a: ".ﺍﺪﺑﺃ ﺎﻧﻭﺩﺮﻄﻳ ﻦﻟ"
+infernals.1035.b: ".ﻕﺮﺤﻤﻟﺍ ﺎﻨﺒﻴﻬﻟ ﻲﻓ ﻢﻬﺴﻔﻧﺄﺑ ﺍﻮﻓﺬﻘﻴﻠﻓ"
+
+infernals.1040.name: "ﺔﻣﺩﺎﻘﻟﺍ ﺔﻔﺻﺎﻌﻟﺍ"
+infernals.1040.desc: ".ﻉﺎﻔﺗﺭﺍ ﻲﻓ ﻝﺍﺰﺗ ﻻ ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩﻭ ،ﺎﻨﻫ ﺔﻣﺯﻷﺍ .ﻢﻬﺘﻀﺒﻗ ﻦﻣ ﺓﺮﻄﻴﺴﻟﺍ ﻉﺍﺰﺘﻧﺍﻭ ﺔﻤﻈﻧﻷﺍ ﻩﺬﻫ ﻕﺍﺮﺘﺧﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻴﻓ ،ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺀﺎﻘﺒﻟﺍ ﺎﻧﺩﺭﺃ ﺍﺫﺇ \n\n .ﻖﺋﺍﺮﺤﻟﺍ ﻝﺎﻌﺷﺈﺑ ﺔﺳﻭﻮﻬﻤﻟﺍ ﻢﻬﺗﺎﺣﻮﻤﻃ ﻑﺎﻘﻳﺇ ﻲﻓ ﻞﺸﻔﻳ ﻦﻣ ﻞﻛ ﻕﺮﺣ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺓﺮﺠﻤﻟﺍ ﺮﺒﻋ ﺔﻴﻟﺎﺘﺘﻣ ﺔﻳﺭﺎﻧ ﺔﻔﺻﺎﻋ ﻝﺎﻌﺷﺈﺑ ﺭﻮﻬﺘﻤﻟﺍ ﺚﺒﻌﻟﺍ ﺍﺬﻫ ﺩﺪﻬﻳ .ﻁﺮﻔﻣ ﻞﻜﺸﺑ ﺓﺍﻮﻨﻟﺍ ﻦﻴﺨﺴﺗ ﻰﻠﻋ ﻞﻤﻌﺗ ﻲﺘﻟﺍﻭ ،§Y[hyperthermia_empire.GetName]§! ﺔﻄﺳﺍﻮﺑ ﺎﻬﻠﻴﻐﺸﺗ ﻢﺘﻳ ﺔﻴﻟﺰﻨﻣ ﻖﻓﺍﺮﻣ ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﺔﻤﻈﻧﻷﺍ ﻩﺬﻫ ﻥﺃ ﻭﺪﺒﻳ .ﺰﻛﺮﻤﻟﺎﺑ ﻂﻴﺤﺗ ﺔﻤﻈﻧﺃ ﺔﺘﺴﺑ ﻞﺼﺘﺗﻭ ﺎﺜﻳﺪﺣ ﺎﻬﻠﻴﻜﺸﺗ ﻢﺗ ﺔﻃﺮﻔﻣ ﻁﻮﻄﺧ ﻦﻋ ،ﺓﺪﻳﺪﻋ ﻢﻟﺍﻮﻋ ﻦﻣ ﻢﻫﺭﺎﻴﺘﺧﺍ ﻢﺗ ﻦﻳﺬﻟﺍ ،ﻥﺎﻌﺠﺸﻟﺍ ﺀﺎﻤﻠﻌﻟﺍ ﻦﻣ ﻖﻳﺮﻓ ﻒﺸﻛ ،ﺮﻋﺬﻟﺍ ﺀﺪﺑ ﻊﻣﻭ \n\n .ﺔﺒﻳﺮﻘﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻰﻟﺇ ﻱﺭﺍﺮﺤﻟﺍ ﻉﺎﻌﺷﻹﺍ ﻦﻣ ﺕﺎﺟﻮﻣ ﻝﺎﺳﺭﺇ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻞﺋﺎﻬﻟﺍ ﺩﻮﺳﻷﺍ ﺐﻘﺜﻟﺍ ﻝﻮﺣ ﺎﻴﺑﻭﺮﺘﻧﻹﺍ ﺕﺎﻳﻮﺘﺴﻣ ﻊﻔﺗﺮﺗ .ﻙﺮﺤﺘﻟﺎﺑ ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﺃﺪﺑ ﺪﻘﻟ" # other empires learn about the core, forming a coalition war
+infernals.1040.a: "!ﺍﺬﻫ ﻦﻋ ﻒﻗﻮﺘﻧ ﻥﺃ ﺐﺠﻳ" # generic reply (declares war)
+infernals.1040.a.tt: ".§Y[hyperthermia_empire.GetName]§! ﺪﺿ §Rﺏﺮﺤﻟﺍ §! ﻦﻠﻌﻨﺳ .ﺓﺮﺠﻤﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﻉﺍﺮﺻ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺔﻣﺯﻷﺍ ﺽﺭﺎﻌﺗ ﻲﺘﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻣ §Ycoalition§! ﻞﻜﺸﻧ ﻑﻮﺳ\n\n §L.ﺎﻧﺬﻘﻨﺗ ﻥﺃ ﻦﻜﻤﻳ ﺎﺜﻳﺪﺣ ﻪﻠﻴﻜﺸﺗ ﻢﺗ ﻱﺬﻟﺍ ﻒﻟﺎﺤﺘﻠﻟ ﺔﻛﺮﺘﺸﻤﻟﺍ ﺓﻮﻘﻟﺍ ﻂﻘﻓ .ﺎﻨﺗﺮﺠﻣ ﻊﻠﺘﺒﺗ ﻥﺃ ﻚﺷﻭ ﻰﻠﻋ ﺎﻬﻟ ﻞﻴﺜﻣ ﻻ ﺩﺎﻌﺑﺃ ﺕﺍﺫ ﺔﻣﺯﺃ ﻙﺎﻨﻫ §!"
+infernals.1040.b: "!ﺀﺎﻔﻌﻀﻟﺍ ﺎﻬﻳﺃ ﺍﻮﻗﺮﺣﺍ" # Genocidals reply
+infernals.1040.b.tt: "§L.ﺎﻨﺴﻔﻧﺄﺑ ﺔﻠﻜﺸﻤﻟﺍ ﻩﺬﻫ ﻞﺤﻟ ﺓﻮﻘﻟﺍ ﺎﻨﻳﺪﻟ .ﺎﻬﺴﻔﻧ ﻲﻫ ﻉﺍﻮﻧﻷﺍ ﻞﻛ ،ﺕﺎﻣﺯﻷﺍ ﺕﺎﻗﻭﺃ ﻲﻓ§!"
+infernals.1040.c: ".ﺎﻣﺎﻤﺗ ﺎﻨﻠﺜﻣ ﻢﻬﻧﺇ" # Infernals reply
+infernals.1040.c.tt: "§!.ﺔﺛﺭﺎﻛ ﻥﻭﺮﺧﻵﺍ ﻩﺮﺒﺘﻌﻳ ﺪﻗ ﺎﻤﻟ ﺔﻠﻣﺎﻜﻟﺍ ﺓﻮﻘﻟﺍ ﻦﻣ ﻮﺠﻨﻧ ﺪﻗ ،ﻑﺎﻔﻄﺻﻻﺍ ﺍﺬﻫ ﺀﻮﺿ ﻲﻓﻭ .ﺓﺩﺪﺠﺘﻣ ﺓﺮﺠﻤﻟ ﺎﻨﺘﻳﺅﺭ ﻊﻣ §L§Y[hyperthermia_empire.GetName]§! ﺐﻴﻟﺎﺳﺃ ﻖﻓﺍﻮﺘﺗ§!"
+infernals.1040.d: ".ﺎﻨﻘﻠﻗ ﺲﻴﻟ" # neutral reply
+infernals.1040.d.tt: "§L.ﺎﻨﺴﻔﻧﺃ ﻙﺍﺮﺷﻹ ﻪﻴﺟﻭ ﺐﺒﺳ ﻙﺎﻨﻫ ﺲﻴﻟ .ﺀﺎﻴﺷﻷﺍ ﻞﻛ ﻞﻌﻔﺗ ﺎﻤﻛ ،ﺕﺎﺑﺍﺮﻄﺿﻻﺍ ﻩﺬﻫ ﺮﻤﺗ ﻑﻮﺳ .ﺪﻳﺪﺠﻟﺍ ﺮﻣﻷﺎﺑ ﺖﺴﻴﻟ ﺭﺎﻨﻟﺎﺑ ﺐﻌﻠﺗ ﻲﺘﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻥﺇ§!"
+
+infernals.1042.name: "§Rﺔﻣﺯﻷﺍ ﻥﻼﻋﺇ§! :ﺪﻴﻌﺼﺘﻟﺍ"
+infernals.1042.desc: "§H!ﺎﻧﻮﻤﻀﻣ ﺎﻧﺭﺎﺼﺘﻧﺍ ﻥﻮﻜﻴﺳﻭ ﺔﻴﺳﺎﺳﻷﺍ ﺓﺮﺠﻤﻟﺍ ﺔﻤﻈﻧﺃ ﻦﻋ ﻊﻓﺍﺩ §!\n\n.ﺎﻫﺎﻨﻴﻋﺪﺘﺳﺍ ﻲﺘﻟﺍ ﺔﻔﺻﺎﻌﻟﺍ ﻥﻮﻬﺟﺍﻮﻳ ﺎﻬﻧﻮﺿﺭﺎﻌﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻉﺩ .ﻢﻬﺴﻔﻧﺃ ﻡﻮﺠﻨﻟﺍ ﺎﻨﺘﻳﺅﺭ ﺖﻠﻌﺷﺃ ﺪﻘﻟ\n\n.ﺔﻘﺣﺎﺳ ﺓﻮﻘﺑ ﻪﺟﺍﻮﻴﺳ galactic_crucible_4$$ ﻭﺃ ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻩﺎﺠﺗ ﺞﻬﻧ ﻱﺃ :ﻞﻳﺪﺑ ﻱﺃ ﺎﻨﻟ ﻖﺒﺘﻳ ﻢﻟ ،ﻦﻠﻌﻤﻟﺍ ﻢﻬﻓﺪﻫ ﺓﺩﺎﺑﺇ ﻊﻣ\n\n .ﺎﻧﺪﺿ ﺪﺣﻮﻣ ﻱﺮﻜﺴﻋ ﻒﻟﺎﺤﺗ ﺪﺸﺣ ﻢﺗ ،ﻚﻟﺫ ﻰﻠﻋ ﺍﺩﺭ .ﺓﺭﻭﺮﺿ ﺲﻴﻟﻭ ﺍﺪﻳﺪﻬﺗ ﻩﺭﺎﺒﺘﻋﺎﺑ ﺎﻨﻠﻤﻋ ﻰﻟﺇ ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ ﺮﻈﻨﻳ ،ﻚﻟﺫ ﻊﻣﻭ .ﺔﻴﺤﻀﺘﻟﺍ ﺎﻤﺋﺍﺩ ﺖﺒﻠﻄﺗ ﺦﻳﺭﺎﺘﻟﺍ ﺎﻫﺪﻬﺷ ﻲﺘﻟﺍ ﺕﻻﻮﺤﺘﻟﺍ ﻢﻈﻋﺃ ﻥﺇ"
+infernals.1042.a: ".ﺎﻬﻨﻣ ﺮﻔﻣ ﻻ ﺔﺠﻴﺘﻨﻟﺍ"
+
+infernals.1043.name: "§Rﺔﻣﺯﻷﺍ ﻥﻼﻋﺇ§! :ﺡﻼﺴﻟﺍ ﻞﻤﺤﻟ ﺓﻮﻋﺩ"
+infernals.1043.desc: "§H!ﺎﻬﻠﻛ ﻊﻴﻀﺘﺳ ﻻﺇﻭ ﺔﻴﺳﺎﺳﻷﺍ ﺓﺮﺠﻤﻟﺍ ﺔﻤﻈﻧﺃ ﻰﻠﻋ ﻲﻟﻮﺘﺳﺍ §!\n\n.ﻥﺍﺰﻴﻤﻟﺍ ﻲﻓ ﺔﻘﻠﻌﻣ ﺡﺍﻭﺭﻷﺍ ﺕﺎﻧﻮﻴﻠﻳﺮﺗﻭ ،ﺔﻛﺮﻌﻤﻟﺍ ﺕﺃﺪﺑ ﺪﻘﻟ \n\n .ﺓﺭﻭﺮﻀﻟﺍ ﻩﺪﺣﻮﺗ ﻱﺬﻟﺍ ﻒﻟﺎﺤﺘﻠﻟ ﺓﺮﺷﺎﺒﻣ ﺔﺿﺭﺎﻌﻣ ﻲﻓ ﻥﻵﺍ §Y[hyperthermia_empire.GetName]§! ـﺑ ﻰﻤﺴﻳ ﺎﻣ ﻒﻘﻳ .ﺽﺍﺮﻘﻧﻻﺍ ﺮﻄﺧ ﺎﻬﻟ ﺮﺼﺣ ﻻ ﺕﺍﺭﺎﻀﺣ ﻪﺟﺍﻮﺘﺴﻓ ،ﻉﺩﺍﺭ ﻥﻭﺩ ﺕﺎﺣﻮﻤﻄﻟﺍ ﻩﺬﻫ ﺕﺮﻤﺘﺳﺍ ﺍﺫﺇ\n\n.ﺮﻄﺨﻠﻟ ﺔﻓﻭﺮﻌﻤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻊﻴﻤﺟ ﺓﺮﺠﻤﻟﺍ ﺓﺭﺍﺮﺣ ﺔﺟﺭﺩ ﻊﻓﺮﻟ ﺔﻳﺭﺬﺠﻟﺍ ﻩﺩﻮﻬﺟ ﺽﺮﻌﺗ ﻱﺬﻟﺍ ،§Y[hyperthermia_empire.GetName]§! ﺪﺿ ﺍﺪﺣﻮﻣ ﺍﺩﺭ ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ ﺬﺨﺗﺍ ،ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻲﻓ ﺓﺪﻋﺎﺼﺘﻤﻟﺍ ﺕﺍﺪﻳﺪﻬﺘﻟﺍ ﺀﻮﺿ ﻲﻓ"
+infernals.1043.a: "!ﻞﻴﻃﺎﺳﻷﺍ ﺔﺌﺒﻌﺗ"
+
+infernals.1045.name: "ﻦﻣﺰﻟﺍ ﻊﻣ ﻕﺎﺒﺳ"
+infernals.1045.desc1: ".ﺩﺎﻣﺭ ﻰﻟﺇ ﻢﻬﻟﻮﺤﺗﻭ ﺔﻳﺭﺎﻨﻟﺍ ﺔﻔﺻﺎﻌﻟﺍ ﻞﻌﺘﺸﺗ ﻰﺘﺣ ،ﺐﻠﻘﻟﺍ ﻲﻓ ﻂﺨﻟﺍ ﻰﻠﻋ ﻆﻓﺎﺤﻧ ﻥﺃ ﺐﺠﻳ .ﻞﺧﺪﺘﻟﺎﺑ ﻢﻬﻟ ﺡﺎﻤﺴﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻻ\n\n؟ﺪﻛﺍﺮﻟﺍ ﺩﺭﺎﺒﻟﺍ ﻢﻬﻣﻼﻇ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ؟ﺍﺫﺎﻤﻟ .ﻪﺋﺎﻨﺒﺑ ﺎﻨﻤﻗ ﺎﻣ ﻞﻛ ﻦﻋ ﻊﺟﺍﺮﺘﻟﺍﻭ ﺎﻨﻗﻼﻄﻧﺍ ﻖﻃﺎﻨﻣ ﻭﺰﻐﻟ ﻥﻮﻄﻄﺨﻳ ،ﺎﺜﻳﺪﺣ ﺓﺄﺸﻨﻤﻟﺍ ﺔﻘﺋﺎﻔﻟﺍ ﻁﻮﻄﺨﻟﺍ ﻝﻼﺧ ﻦﻣ .ﻕﺮﺸﻤﻟﺍ ﺎﻨﻠﺒﻘﺘﺴﻣ ﻥﺎﻀﺘﺣﺍ ﺾﻓﺮﺗ ﺓﺮﺠﻤﻟﺍ ﻦﻜﻟ \n\n .ﻡﻮﺠﻨﻟﺍ ﻰﻠﻋ ﺎﻨﺘﻨﻤﻴﻫ ﺯﺰﻌﻳﻭ ﺎﻧﺀﺍﺪﻋﺃ ﺮﻬﻄﻴﻟ ،ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﺭﻮﺜﻳ ﻑﻮﺳ ،ﺎﺒﻳﺮﻗ .ﺔﻴﻟﺎﺘﺘﻣ ﺔﻳﺭﺎﻧ ﺔﻔﺻﺎﻋ ﻖﻓﻷﺍ ﻲﻓ ﺡﻮﻠﺗ" # last stage of global situation - crisis
+infernals.1045.desc2: ".ﻥﻮﻗﺮﺘﺤﻳ ﻑﻮﺳ ...ﺭﺎﻨﻟﺎﺑ ﻥﻮﺒﻌﻠﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻥﺃ §Y[hyperthermia_empire.GetName]§! ﺭﺎﻬﻇﻹ ﺖﻗﻮﻟﺍ ﻥﺎﺣ .ﻥﺍﺰﻴﻤﻟﺍ ﻲﻓ ﻖﻠﻌﻣ ﺎﻬﻠﻤﻛﺄﺑ ﺓﺮﺠﻤﻟﺍ ﺮﻴﺼﻣ\n\n.§Y[hyperthermia_empire.GetName]§! ﻑﺎﻘﻳﺇ ﻦﻜﻤﻳ ﻂﻘﻓ ﺎﻫﺪﻨﻋ .ﺎﻋﻮﻄﺳ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﺎﻬﺗﻮﻗ ﻕﺮﺘﺤﺗ ﺚﻴﺣ ،ﺔﻴﺳﺎﺳﻷﺍ ﺓﺮﺠﻤﻟﺍ ﺔﻤﻈﻧﺃ :ﺭﺪﺼﻤﻟﺍ ﺏﺮﻀﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺀﺎﻘﺒﻟﺍ ﺎﻧﺩﺭﺃ ﺍﺫﺇ .ﻢﻬﻌﻣ ﻢﻫﺎﻔﺘﻟﺍ ﻦﻜﻤﻳ ﻻ\n\n.ﺎﺒﻳﺮﻘﺗ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻞﻛ ﻦﻣ ﺓﺮﺠﻤﻟﺍ ﺮﻬﻄﺗﻭ ،ﺔﺿﺭﺎﻌﻤﻟﺍ ﻞﻛ ﻰﻠﻋ ﺔﻳﺭﺎﻨﻟﺍ ﻢﻬﺘﻔﺻﺎﻋ ﻲﻀﻘﺘﺳ ،ﺓﺮﻴﺗﻮﻟﺍ ﻩﺬﻬﺑ .ﻡﻮﺠﻨﻟﺍ ﻝﺎﻌﺷﺈﺑ ﺐﺼﻌﺘﻤﻟﺍ §Y[hyperthermia_empire.GetName]§! ﺱﻮﻬﺑ ﺎﻋﻮﻓﺪﻣ ،ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺮﺜﻛﺃ ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﺔﻧﻮﺨﺳ ﺩﺍﺩﺰﻳ" # last stage of global situation - others
+infernals.1045.a: ".ﻂﺨﻟﺍ ﻰﻠﻋ ﻆﻓﺎﺤﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+infernals.1045.a.tooltip: ".ﺮﺼﻨﻟﺍ ﻖﻴﻘﺤﺘﻟ ﺔﺘﺴﻟﺍ ﺔﻴﺳﺎﺳﻷﺍ ﺔﻤﻈﻧﻷﺍ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﻰﻠﻋ ﻆﻓﺎﺤﻧ ﻥﺃ ﺐﺠﻳ"
+infernals.1045.b: ".ﺪﺑﻷﺍ ﻰﻟﺇ ﻢﻬﻘﻨﺧ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﻦﺤﻧ"
+infernals.1045.b.tooltip: ".ﺎﻨﻗﺮﺣ ﻢﺘﻴﺳ ﻻﺇﻭ ،ﻙﺎﻨﻫ §Y[hyperthermia_empire.GetName]§! ﺕﺍﻮﻨﻗ ﺮﻴﻣﺪﺗﻭ ﺔﺘﺴﻟﺍ ﺔﻴﺳﺎﺳﻷﺍ ﺔﻤﻈﻧﻷﺍ ﺔﻤﺟﺎﻬﻣ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+
+infernals.1055.name: "!ﺎﻨﻟ ﺓﺮﺠﻤﻟﺍ"
+infernals.1055.desc: ".ﺔﻗﺮﺤﻤﻟﺍ ﻲﻓ ﻯﺮﺧﺃ ﺕﺍﺮﺠﻣ ﻲﻘﻠﻨﺳ ،ﺎﻤﺑﺭ ،ﻡﺎﻳﻷﺍ ﻦﻣ ﻡﻮﻳ ﻲﻓﻭ .ﻍﺍﺮﻔﻟﺍ ﻲﻓ ﺎﻨﺘﻨﻤﻴﻬﻟ ﺔﺠﻫﻮﺘﻣ ﺓﺭﺎﻨﻤﻛ ﺎﻬﻠﻴﻜﺸﺗ ﺎﻧﺪﻋﺃﻭ ﺓﺮﺠﻤﻟﺍ ﺎﻨﻜﻠﻬﺘﺳﺍ ﺪﻘﻟ \n\n.ﺎﻬﻓﺎﻘﻳﺇ ﻦﻜﻤﻳ ﻻﻭ ...ﺓﻮﻗﻭ ﺀﺍﺮﺛ ﺮﺜﻛﺃ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺢﺒﺼﺗ ،ﻡﻮﻳ ﻞﻛ ﺭﻭﺮﻣ ﻊﻣ .ﺎﻨﺗﺩﺍﺭﻹ ﻊﻀﺨﻧﻭ ﻩﺪﺼﺤﻨﻟ ﺎﻨﻣﺎﻈﻧ ،ﻡﺎﻈﻧ ﻞﻛ ﺮﺒﻋ ﻖﻓﺪﺘﺗ ﺎﻴﺑﻭﺮﺘﻧﻹﺍ .ﺀﺍﺮﻤﺤﻟﺍ ﺔﻘﻟﺎﻤﻌﻠﻟ ﺔﻤﺨﻀﺘﻤﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺐﺒﺴﺑ ﺞﻫﻮﺘﺗﻭ ،ﺀﻮﻀﻟﺍﻭ ﺓﺭﺎﻬﺼﻟﺍ ﻊﻣ ﺐﻛﺍﻮﻜﻟﺍ ﻲﻠﻐﺗ ،ﺐﻀﻐﻟﺍﻭ ﺭﺎﻨﻟﺍ ﻦﻣ ﺪﻳﺪﺠﻟﺍ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻲﻓ\n\n.ﺎﻨﻟ ﺓﺮﺠﻤﻟﺍ .ﻪﺑ ﺐﻟﺎﻄﻧ ﻱﺬﻟﺍ ﺪﻴﺠﻤﻟﺍ ﻞﺒﻘﺘﺴﻤﻟﺍ ﻥﺎﻀﺘﺣﻻ ﺔﻋﺎﺠﺸﻟﺍﻭ ﺔﻳﺅﺮﻟﺍ ﻰﻟﺇ ﺍﻭﺮﻘﺘﻓﺍ ﺪﻘﻟ .ﺩﺎﻣﺭ ﻰﻟﺇ ﺎﻧﺀﺍﺪﻋﺃ ﺔﻳﺭﺎﻨﻟﺍ ﺔﻔﺻﺎﻌﻟﺍ ﺖﻟﻮﺣ ﺪﻘﻟ .ﺔﻴﺟﺭﺎﺨﻟﺍ ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻦﻣ ﺮﺼﻨﻟﺍ ﻥﺍﺮﻴﻧ ﺓﺭﺎﺛﺈﺑ ﺎﻨﻤﻗ ﺪﻘﻟ" # crisis won
+infernals.1055.a: ".ﺎﻫﺬﺧﺄﻨﻟ ﺎﻨﻜﻠﻣ ﺓﺪﻳﺪﺠﻟﺍ ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ"
+infernals.1055.b: ".ﺓﺪﺣﺍﻭ ﺢﺒﺼﺘﻟ ﻥﺍﺮﻴﻨﻟﺍ ﻞﻛ ﻊﻤﺘﺠﺗ ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓﻭ"
+infernals.1055.c: ".ﺮﺗﺎﻓ ﻒﻌﺿ ﻰﻟﺇ ﺝﺎﺘﺤﻳ ﻻ ﻱﺭﺎﻨﻟﺍ ﺎﻨﺘﻴﺑ" #Scorched world heralds (genocidal Infernal)
+infernals.1055.d: ".ﺍﺮﻴﺧﺃ ﻞﻤﺤﺘﻟﺍ ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﺓﺄﻓﺎﻜﻣ ﺖﻤﺗ ﺪﻘﻟ" #Infernal Fire Cult
+infernals.1055.e: ".ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ ﻦﻣ ﺩﺭﺎﺒﻟﺍ ﻡﻼﻈﻟﺍ ﺎﻧﺩﺮﻃ ﺪﻘﻟ ،ﺍﺮﻴﺧﺃ" #Other Infernals
+infernals.1055.f: ".ﺩﺎﻣﺭ ﻰﻟﺇ ﻥﻮﺴﺋﺎﺒﻟﺍ ﺎﻧﻮﺴﻓﺎﻨﻣ ﻝﻮﺤﺗ ،ﺍﺮﻴﺧﺃ" #Generic Genocidal
+
+infernals.1052.name: "$galactic_crucible_4$ ﻁﺎﻘﺘﻟﻻﺍ ﻢﺗ"
+infernals.1052.desc: ".ﺓﻮﻘﻟﺎﺑ ﺓﺮﺠﻤﻟﺍ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﻲﻓ ﻪﻴﺌﺸﻨﻣ ﻯﺪﻟ ﻖﺒﺘﻣ ﻞﻣﺃ ﻱﺃ ﺪﻳﺪﺒﺗ ﻰﻟﺇ ﻕﻼﻤﻌﻟﺍ ﻞﻜﻴﻬﻟﺍ ﺍﺬﻫ ﻥﺍﺪﻘﻓ ﻱﺩﺆﻳ \n\n .ﻲﻠﺤﻤﻟﺍ ﻢﺠﻨﻟﺍ ﻝﻮﺣ ﻩﺅﺎﻨﺑ ﻢﺗ ﻱﺬﻟﺍ galactic_crucible_4$$ ﻰﻠﻋ ﺎﻀﻳﺃ ﺎﻨﺗﺍﻮﻗ ﺕﺮﻄﻴﺳ ،§H[crucible_system.GetName]§! ﻡﺎﻈﻧ ﻰﻠﻋ ﺀﻼﻴﺘﺳﻻﺍ ﻝﻼﺧ ﻦﻣ"
+infernals.1052.a: "!ﺎﻫﺮﻴﻣﺪﺗ"
+infernals.1052.a.tt: ".ﻪﺣﻼﺻﺇ ﻦﻜﻤﻳ ﻻ ﻞﻜﺸﺑ §Y$galactic_crucible_4$§! ﺮﻴﻣﺪﺗ ﻢﺘﻴﺳ"
+infernals.1052.b: ".ﺍﺬﻫ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﺎﻨﻨﻜﻤﻳ"
+infernals.1052.b.tt: ".$r_alloys$ ﺝﺎﺘﻧﻹ §Y$galactic_crucible_5$§! ﻰﻟﺇ §Y$galactic_crucible_4$§! ﻝﻮﺤﻳ"
+
+infernals.1053.name: "$galactic_crucible_4$ ﻁﺎﻘﺘﻟﻻﺍ ﻢﺗ"
+infernals.1053.desc: ".ﺪﺑﻷﺍ ﻰﻟﺇﻭ ﺓﺪﺣﺍﻭ ﺓﺮﻣ ﻕﻼﻤﻌﻟﺍ ﻞﻜﻴﻬﻟﺍ ﺍﺬﻫ ﻞﻴﻄﻌﺘﻟ ﺔﻴﻘﺒﺘﻤﻟﺍ ﺎﻨﺗﻮﻗﻭ ﺎﻧﺩﺭﺍﻮﻣ ﻡﺍﺪﺨﺘﺳﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﺏﺮﺤﻟﺍ ﺀﺎﻬﺘﻧﺍ ﺩﺮﺠﻤﺑﻭ .ﻲﻋﺎﻤﺟ ﺽﺍﺮﻘﻧﺍ ﺙﺪﺣ ﻲﻓ ﺐﺒﺴﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﺎﻬﻳﺪﻟ ﻲﺘﻟﺍ ﺔﻟﻵﺍ ﻖﻴﻠﻌﺗ ﻢﺗ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ \n\n .ﺔﻗﻮﺒﺴﻣ ﺮﻴﻏ ﺔﻳﺭﺎﻧ ﺔﻔﺻﺎﻋ ﻝﻼﺧ ﻦﻣ ﺎﻬﻠﻤﻛﺄﺑ ﺓﺮﺠﻤﻠﻟ ﺔﻠﻣﺎﻜﻟﺍ ﺓﺩﺎﺑﻹﺍ ﺖﻨﻤﻀﺗ ﻲﺘﻟﺍﻭ ،§H[crucible_builders.GetName]§! ـﻟ ﺓﺮﻳﺮﺸﻟﺍ ﻂﻄﺨﻟﺍ ﻦﻋ §H[crucible_system.GetName]§! ﻡﺎﻈﻧ ﻒﺸﻛ"
+infernals.1053.a: "!ﺔﻋﺮﺴﺑ ﺏﺮﺤﻟﺍ ﻩﺬﻫ ﺀﺎﻬﻧﺇ ﺎﻨﻴﻠﻋ"
+infernals.1053.b: ".ﻊﺋﺍﺭ ﺀﺎﻨﺑ"
+
+infernals.1056.name: "ﺓﺮﺠﻤﻟﺍ ﺓﺩﻻﻭ"
+infernals.1056.desc: ".ﺓﺮﺠﻤﻟﺍ ﻰﻠﻋ ﻢﻬﺘﻀﺒﻗ ﻡﺎﻜﺣﺇ ﺀﺎﻨﺛﺃ ﺐﺜﻛ ﻦﻋ ﺔﻴﻟﺎﺘﻟﺍ ﻢﻬﺗﺎﻛﺮﺤﺗ ﺔﺒﻗﺍﺮﻣ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ﻦﻜﻟ ،ﺎﺜﻳﺪﺣ ﺔﻏﺎﺼﻤﻟﺍ ﺔﻠﺿﺎﻔﻟﺍ ﺔﻨﻳﺪﻤﻟﺍ ﻩﺬﻫ ﻥﺎﻀﺘﺣﺍ ﺎﻨﻨﻜﻤﻳ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ\n\n .ﺪﺑﻷﺍ ﻰﻟﺇ ﺓﺮﺠﻤﻟﺍ ﻞﻴﻜﺸﺗ ﺩﺎﻋﺃﻭ ،ﺔﺤﻠﺳﺃ ﻰﻟﺇ ﻞﻌﻔﻟﺎﺑ ﻡﻮﺠﻨﻟﺍ ﻝﻮﺣ ﺪﻗ §Y[hyperthermia_empire.GetName]§! ﻥﺎﻛ ،ﺓﺮﺠﻤﻟﺍ ﻞﻌﺸﺗ ﻥﺃ ﺎﻬﻧﺄﺷ ﻦﻣ ﻲﺘﻟﺍ ﺓﺭﺍﺮﺸﻟﺍ ﻝﺎﻌﺷﺈﺑ ﻦﻴﻟﻮﻐﺸﻣ ﺎﻨﻛ ﺎﻤﻨﻴﺑ"
+infernals.1056.a: ".ﺕﺎﻋﺍﺮﺼﻟﺍ ﻰﻟﺇ ﻱﺩﺆﺗ ﺔﻠﺋﺎﻬﻟﺍ ﺓﻮﻘﻟﺍ"
+infernals.1056.b: ".ﺪﻳﺪﺟ ﺪﻳﺪﻬﺗ ﺮﻬﻇ ﺪﻗﻭ"
+infernals.1056.c: ".ﺙﺍﺪﺣﻸﻟ ﺊﺟﺎﻔﻣ ﻝﻮﺤﺗ"
+
+# Relic
+r_crystallized_singularity: "ﺭﻮﻠﺒﺘﻤﻟﺍ ﺩﺮﻔﺘﻟﺍ"
+r_crystallized_singularity_desc: ".ﻥﺍﺮﻴﻨﻟﺍ ﻰﻟﺇ ﺏﺮﻗﺃ ...ﻂﺴﺑﺃ ﺓﺎﻴﺣ ﻕﺎﻨﺘﻋﺍ ﻰﻠﻋ ﻥﻭﺮﺒﺠﻣ ﻢﻬﻧﺄﺑ ﻥﻭﺮﻌﺸﻳ ﺎﻬﻣﺎﻣﺃ ﻥﻮﻔﻘﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ .ﺓﺮﻔﻘﻣ ﻢﻟﺍﻮﻌﻟﺍ ﺮﺜﻛﺃ ﻰﻟﺇ ﻰﺘﺣ ،ﻡﻮﻬﻔﻣ ﺮﻴﻏ ﺐﺒﺴﻟ ﺝﺎﺠﺤﻟﺍ ﺏﺬﺠﻳ ﻑﻮﺳ ﻪﻧﺈﻓ ،ﺔﻳﺎﻨﻌﺑ ﻪﻗﻼﻏﺇ ﻢﺘﻳ ﻢﻟ ﺎﻣﻭ .ﺔﻳﺮﻐﻣ ﺓﺭﺍﺮﺤﺑ ﻊﻗﺮﻔﺗ ،ﺔﻗﺮﺘﺤﻣ ﺓﺮﺠﻣ ﺎﻬﻫﻮﺸﺗ ﻲﺘﻟﺍ ،ﺓﺩﺮﻔﺘﻟﺍ ﻩﺬﻫ"
+r_crystallized_singularity_effect_tt: ".$r_energy$ ﺎﻀﻳﺃ ﺪﻟﻮﻴﺳ §Y$physics_research$§! £physics_research£ ﺎﻨﻠﺧﺩ ﻭﺃ §!%XYZT_110- \n"
+r_crystallized_singularity_ls_effect_tt: ".ﺓﺪﻳﺪﺟ ﺔﻴﺋﺍﺪﺑ ﺓﺭﺎﻀﺣ ﺀﺎﺸﻧﻹ ﺭﺎﻤﻌﺘﺳﻼﻟ ﺔﻠﺑﺎﻘﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ ﻥﺄﺸﺑ §Y$decision_gh_life_seeding$§! ﺭﺍﺮﻗ ﺢﺘﻓ -"
+crystallized_singularity_mod: "$r_crystalized_singularity$"
+crystallized_singularity_mod_desc: "$r_crystalized_singularity_desc$"
+
+decision_gh_life_seeding: "ﺓﺎﻴﺤﻟﺍ ﺭﺬﺑ"
+decision_gh_life_seeding_desc: ".ﺎﻨﺗﺭﻮﺻ ﻰﻠﻋ ﺓﺎﻴﺤﻟﺍ ﻖﻠﺧ ﺪﻴﻌﻧ ﻥﺃ ﺎﻨﻟ ﻑﺮﺸﻟ ﻪﻧﺇ ،ﻥﻵﺍﻭ .ﺐﻛﺍﻮﻜﻟﺍ ﻢﻈﻌﻣ ﻰﻠﻋ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻉﺍﻮﻧﻸﻟ ﻊﻳﺮﺴﻟﺍ ﺽﺍﺮﻘﻧﻻﺍ ﻰﻟﺇ ﺓﺮﺠﻤﻟﺍ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻲﻓ ﺎﻨﺣﺎﺠﻧ ﻯﺩﺃ ﺪﻘﻟ"
+decision_gh_life_seeding_limit: "§R.ﺔﻴﺋﺍﺪﺑ ﺓﺭﺎﻀﺣ ﻞﻌﻔﻟﺎﺑ ﻪﻳﺪﻟ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ§!$TRIGGER_FAIL$"
+decision_gh_life_seeding_colony: "§R.ﺓﺮﻤﻌﺘﺴﻣ ﻪﺑ ﻡﺎﻈﻧ ﻲﻓ ﻩﺬﻴﻔﻨﺗ ﻦﻜﻤﻳ ﻻ§!$TRIGGER_FAIL$"
+decision_gh_life_seeding_effect: " / 3[from.gh_life_seeder_var] §H:ﻂﻴﺸﻨﺘﻟﺍ ﺪﺣ§!\n\n .ﺎﻨﺗﺭﻮﺻ ﻰﻠﻋ ﺔﻴﺋﺍﺪﺑ ﺓﺭﺎﻀﺣ ﻖﻠﺨﻳ"
+
+# Grand Archive Specimen
+infernal_burning_gem: "ﺔﻠﻌﺘﺸﻣ ﺓﺮﻫﻮﺟ"
+infernal_burning_gem_desc_short: "ﺎﻴﺑﻭﺮﺘﻧﻹﺍ ﺮﻴﺨﺴﺘﻟ [GetName] ﺩﻮﻬﺟ ﻝﻼﺧ ﺎﻫﺅﺎﺸﻧﺇ ﻢﺗ ﻲﺘﻟﺍ ﺔﻠﻣﺎﻌﻟﺍ ﺔﻴﻟﻭﻷﺍ ﺝﺫﺎﻤﻨﻟﺍ ﺪﺣﺃ"
+infernal_burning_gem_desc_details: ".ﻪﻤﻠﻌﺘﻨﻟ ﺮﻴﺜﻜﻟﺍ ﺎﻬﻳﺪﻟ ﻝﺍﺰﻳ ﻻ ﻪﺼﺋﺎﺼﺧﻭ ﻪﺋﺎﻨﺑ ﻥﺃ ﻻﺇ ،ﺙﺪﺣﺃ ﺕﺎﻴﻨﻘﺗ ﺔﻄﺳﺍﻮﺑ ﺎﻫﺯﻭﺎﺠﺗ ﻢﺘﻳ ﺪﻗ ﻪﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺎﻬﻴﻠﻋ ﻱﻮﺘﺤﺗ ﺩﺎﻜﻟﺎﺑ ﻲﺘﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﺔﻠﻫﺬﻤﻟﺍ ﺔﻴﻤﻜﻟﺍ ﺏﺬﻜﻳ ﺔﻳﺭﻮﻠﺒﻟﺍ ﺔﻌﻄﻘﻟﺍ ﻩﺬﻬﻟ ﺖﻓﺎﺨﻟﺍ ﺾﻴﺑﻷﺍ ﺾﻴﻣﻮﻟﺍ ﻥﺈﻓ ،ﺔﻳﺮﺼﺒﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻢﻈﻌﻤﻟ ﻉﺩﺎﺧ ﻞﻜﺸﺑ ﺖﻓﺎﺧ"
+
+# Timeline
+TIMELINE_EVENT_GH_START: "§L[GetDate]§!\nﺔﻳﺭﺎﻨﻟﺍ ﺔﻔﺻﺎﻌﻟﺍ"
+TIMELINE_EVENT_GH_START_TOOLTIP: ".ﺩﺎﻣﺮﻟﺍ ﻯﻮﺳ ﻢﻫﺀﺍﺭﻭ ﺍﻮﻛﺮﺘﻳ ﻦﻟﻭ ،ﻭﺰﻐﻟﺍ ﻦﻣ ﻞﻌﺘﺸﻣ ﻖﻳﺮﻃ ﻲﻓ ﻢﻬﺴﻔﻧﺃ ﻥﻭﺪﺠﻳ ﻑﻮﺳ ﺔﻳﺅﺮﻟﺍ ﻩﺬﻫ ﻥﻮﻛﺭﺎﺸﻳ ﻻ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ .ﺓﺮﺠﻤﻟﺍ ﺮﻴﺼﻣ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﻲﻓ ﺃﺪﺑﻭ ،ﻪﺘﻨﻤﻴﻫ ﻞﻌﺷﺃ [EVENT_TARGET_0.GetName]\n\n§Yﺔﻣﺯﻷﺍ ﺙﺪﺣ§!\n§Hﺔﻣﺯﻷﺍ ﻝﻮﺤﺗ§!"
+TIMELINE_EVENT_GH_END: "§L[GetDate]§!\nﻥﺍﺮﻴﻨﻟﺍ ﻙﻼﻬﺘﺳﺍ"
+TIMELINE_EVENT_GH_END_TOOLTIP: ".ﻢﻬﺨﻳﺭﺎﺗ ﻊﻣ ،ﺩﺎﻣﺭ ﻰﻟﺇ ﺍﻮﻟﻮﺤﺗ ﺎﻧﻮﺿﺭﺎﻋ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ .ﺓﺮﺠﻤﻟﺍ ﺖﻠﻌﺷﺃ ﻲﺘﻟﺍ ﺓﺭﺍﺮﺸﻟﺍ ﺢﺒﺻﺃ ﻱﺭﺎﻧ ﺡﻮﻤﻄﻛ ﺃﺪﺑ ﺎﻣ\n\n§Yﺔﻣﺯﻷﺍ ﺙﺪﺣ§!\n§Hﺓﺮﺠﻤﻟﺍ ﺔﻤﻳﺰﻫ§!"
+
+# Hyperthermia Terraformed Stars
+sc_crisis_binary_1: "$sc_binary_1$"
+sc_crisis_binary_2: "$sc_binary_1$"
+sc_crisis_binary_5: "$sc_binary_1$"
+sc_crisis_binary_7_8_9: "$sc_binary_1$"
+sc_crisis_binary_10: "$sc_binary_1$"
+sc_crisis_trinary_1: "$sc_trinary_1$"
+sc_crisis_trinary_2: "$sc_trinary_1$"
+sc_crisis_trinary_3: "$sc_trinary_1$"
+sc_crisis_trinary_4: "$sc_trinary_1$"

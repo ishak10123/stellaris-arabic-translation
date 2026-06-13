@@ -1,0 +1,31 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_counter_4"
+		textureFile = "gfx/interface/system/icon_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_counter_8"
+		textureFile = "gfx/interface/system/icon_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_16"
+		textureFile = "gfx/interface/system/icon_16.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_32"
+		textureFile = "gfx/interface/system/icon_32.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_64"
+		textureFile = "gfx/interface/system/icon_64.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_counter_128"
+		textureFile = "gfx/interface/system/icon_128.dds"
+	}
+}

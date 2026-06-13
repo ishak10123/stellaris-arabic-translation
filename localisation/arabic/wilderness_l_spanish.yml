@@ -1,0 +1,765 @@
+﻿l_spanish:
+####################################
+# Events
+####################################
+
+# introduction event
+ progress.2.desc.wilderness: "...ﺕﺎﻨﺋﺎﻛ ﻪﺟﺍﻮﻧ ﻥﺃ ﻞﺒﻗ ﻂﻘﻓ ﺖﻗﻭ ﺔﻟﺄﺴﻣ ﺢﺟﺭﻷﺍ ﻰﻠﻋ ﺎﻬﻧﺃ ﻻﺇ ،ﺔﻠﻗﺎﻋ ﺖﺴﻴﻟ [from.GetName] ﻰﻠﻋ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻦﻣ ﺎﻳﺃ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻥﻮﻜﻟﺍ ﻲﻓ ﺎﻧﺪﺣﻭ ﺎﻨﺴﻟ ،[root.owner.capital_scope.GetName] ﺐﻛﻮﻜﻟﺍ ،ﺎﻨﻧﺃ ﺍﺮﻴﺧﺃ ﻑﺎﺸﺘﻛﻻﺍ ﺍﺬﻫ ﺪﻛﺆﻳ\n\n .ﺎﻨﺴﻔﻧﺃ ﺝﺭﺎﺧ ﺕﺄﺸﻧ ﺓﺎﻴﺣ ﻝﺎﻜﺷﺃ ﺎﻨﻬﺟﺍﻭ ،ﺓﺮﻣ ﻝﻭﻷ !ﺔﻴﺋﺎﻀﻔﻟﺍ ﺓﺎﻴﺤﻟﺎﺑ ﺞﻌﻳ [from.GetPlanetMoon]: [from.GetName] ﻰﻠﻋ ﻼﻫﺬﻣ ﺎﻓﺎﺸﺘﻛﺍ [Root.GetName] ﻒﺸﺘﻛﺍ"
+
+# Colonization Events
+ wilderness.1010.name: "ﻆﻘﻴﺘﺴﻳ [from.GetName]"
+ wilderness.1010.desc.intro: ".ﺓﺮﻣ ﻝﻭﻷ ﺐﻳﺮﻏ ﻢﻟﺎﻋ ﺭﺎﻤﻌﺘﺳﻻ ﺎﻨﺴﻔﻧﺃ ﻦﻣ ﺍﺀﺰﺟ ﺖﻣﺪﻗ ﺚﻴﺣ ،ﺎﻬﻓﺪﻫ ﺔﺤﻠﺼﺘﺴﻤﻟﺍ ﺎﻨﻏﺍﻮﺑﺃ ﺖﻘﻘﺣ ﺪﻘﻟ"
+ wilderness.1010.desc.same: ".ﺎﻨﻫ ﺎﻘﺒﺴﻣ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻑﻭﺮﻈﻟﺍ ﻊﻣ ﺔﻟﻮﻬﺴﺑ ﺎﻨﻔﻴﻜﺗ ﺪﻘﻟ .ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺔﺒﻳﺮﻏ ﺖﻧﺎﻛ ﺲﻤﺷ ﺖﺤﺗ ﺓﺪﻳﺪﺠﻟﺍ ﻝﺎﻜﺷﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺫﺎﺨﺗﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺩﻮﺟﻮﻠﻟ ﺔﺤﻳﺮﻣ ﺔﻘﻳﺮﻃ :ﻞﻌﻔﻟﺎﺑ ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺎﻓﻮﻟﺄﻣ ﺮﻣﻷﺍ ﻭﺪﺒﻳ ...[root.GetHomeWorldName] ﻚﻟﺬﻛﻭ [from.GetName] ﺢﺒﺼﺗ ﻥﺃ" #e.g. 'becoming Mars as well as Earth...''
+ wilderness.1010.desc.similar_cold: ".ﺔﻌﺋﺎﺠﻟﺍ ﻩﺍﻮﻓﻷﺍ ﺩﺎﻄﺼﺗﻭ ،ﻞﺋﺍﻮﻤﻟﺍ ﺖﺤﻧ ﻢﺘﻳﻭ ،ﻕﻼﺤﻤﻟﺍ ﺪﺘﻤﺗ .ﻚﻟﺫ ﻊﻣ ﻞﻣﺎﻌﺘﻠﻟ ﺔﻓﻮﻟﺄﻣ ﺎﻗﺮﻃ ﻞﻌﻔﻟﺎﺑ ﺎﻧﺪﺟﻭ ﺎﻨﻨﻜﻟﻭ ،ﻪﺗﺎﻳﺪﺤﺗ ﻪﻟ ﻥﻮﻜﻴﺳ §Y[from.GetName]§! [from.GetClassAdj] ﺐﺳﺎﻨﺘﻟ ﺎﻨﺴﻔﻧﺃ ﻒﻴﻴﻜﺗ ﻥﺇ" #e.g. 'Adapting our self to suit arctic Pluto...'
+ wilderness.1010.desc.similar_dry: ".ﺎﻫﺪﺿ ﺲﻴﻟﻭ ،ﺔﺒﻌﺼﻟﺍ ﺓﺪﻳﺪﺠﻟﺍ ﺎﻴﺟﻮﻟﻮﻴﺠﻟﺍ ﻩﺬﻫ ﻊﻣ ﻞﻤﻌﻟﺍ ﺎﻨﻤﻠﻌﺗﻭ ،ﺎﻬﻴﻠﻋ ﻅﺎﻔﺤﻟﺍﻭ ﺔﺑﻮﻃﺮﻟﺍ ﻦﻋ ﺚﺤﺒﻠﻟ ﺓﺪﻳﺪﺟ ﺎﻗﺮﻃ ﻞﻌﻔﻟﺎﺑ ﺎﻧﺪﺟﻭ ﺪﻘﻟ .§Y[from.GetName]§! [from.GetClassAdj] ﺢﺒﺼﻧ ﻥﺃ ﻲﻓ ﻞﺜﻤﺘﻤﻟﺍ ﻱﺪﺤﺘﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﻲﻘﺗﺮﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ﻚﻟﺬﻛ .ﻑﺎﺠﻟﺍ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻲﻓ ﺎﻤﺋﺍﺩ ﺎﻧﺮﻫﺩﺯﺍ ﺪﻘﻓ ،[root.GetHomeWorldName] ﺐﻛﻮﻛ ﺎﻧﺭﺎﺒﺘﻋﺎﺑ" #e.g. 'the challenge of becoming savannah Mars'
+ wilderness.1010.desc.similar_wet: ".ﻪﻴﻟﺇ ﺝﺎﺘﺤﻧ ﺎﻣ ﺝﺍﺮﺨﺘﺳﻻ ﺎﻗﺮﻃ ﻞﻌﻔﻟﺎﺑ ﺎﻧﺪﺟﻭ ﺎﻨﻨﻜﻟ ،ﺎﻨﻫ ﺔﺒﻳﺮﻏ ﻭﺪﺒﺗ ﺎﻫﺎﻘﻠﺘﻧ ﻲﺘﻟﺍ ﺭﺎﻬﻨﻟﺍ ﺀﻮﺿ ﺔﻴﻤﻛ ﻰﺘﺣﻭ ﺕﺍﺭﺎﻴﺘﻟﺍﻭ ﻥﺩﺎﻌﻤﻟﺍ ﻥﺇ .§Y[from.GetName]§! [from.GetClassAdj] ـﻛ ﺎﻀﻳﺃ ﺮﻫﺩﺰﻨﺳ ،ﺎﻬﻨﻴﺑ ﺎﻤﻴﻓﻭ [root.GetHomeWorldName] ﻩﺎﻴﻣ ﻲﻓ ﺎﻧﺮﻫﺩﺯﺍ ﺎﻤﻛ ﺎﻣﺎﻤﺗ" #e.g. 'we flourish as oceanic Neptune'
+ wilderness.1010.desc.diff_cold: ".ﻞﻌﻔﻟﺎﺑ ﺎﻬﻘﻳﺮﻃ ﺕﺪﺟﻭ ﺪﻗ ﺓﺎﻴﺤﻟﺍ ﻥﺃ ﻆﺣﻼﻧ ،ﺩﺭﺎﺒﻟﺍ ﺪﻬﺸﻤﻟﺍ ﺍﺬﻬﺑ ﺚﺒﺸﺘﻟﺎﺑ ﻦﻜﻟﻭ - ﺔﺑﻮﻌﺻ ﺮﺜﻛﺃ ﺓﺎﻴﺤﻠﻟ ﺔﻣﺯﻼﻟﺍ ﺔﻴﺳﺎﺳﻷﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻞﻌﺠﺗ ﺔﻓﻮﻟﺄﻤﻟﺍ ﺮﻴﻏ ﺔﺌﻴﺒﻟﺍ ﻩﺬﻫ .ﻒﻴﻜﺘﻟﺍ ﻲﻓ ﺃﺪﺑﻭ ،ﺎﻳﻮﻗ ﻲﻘﺑ ﺎﻣ ﻦﻜﻟﻭ ،ﻞﻌﻔﻟﺎﺑ ﺎﻨﻫ ﻰﺷﻼﺗ ﺪﻗ [root.GetHomeWorldName] [root.capital_scope.GetClassAdj] ﺐﻛﻮﻛ ﺎﻨﻠﻌﺟ ﺎﻣ ﺾﻌﺑ ،ﻊﻗﺍﻮﻟﺍ ﻲﻓ .ﺎﺒﻌﺻ ﺍﺮﻣﺃ ﻥﻮﻜﻴﺳ §Y[from.GetName]§! ﻰﻟﺇ ﻝﻮﺤﺘﻟﺍ ﻥﺃ ﻢﻠﻌﻧ ﺎﻨﻛ" #e.g. 'becoming Earth'
+ wilderness.1010.desc.diff_dry: ".ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﻞﻈﻟﺍ ﺮﻴﻓﻮﺘﻟ ﺎﻗﺮﻃ ﺎﻧﺪﺟﻭ ،ﺍﺭﺩﺎﻧ ﻞﻈﻟﺍ ﻥﺎﻛ ﺎﻤﺜﻴﺣ .ﺎﻬﻨﻳﺰﺨﺘﻟ ﺎﻗﺮﻃ ﺎﻧﺪﺟﻭ ،ﺔﺑﻮﻃﺮﻟﺍ ﺪﺟﻮﺗ ﺎﻤﺜﻴﺣ .ﺎﻀﻳﺃ ﺎﻨﺴﻔﻧﺃ ﻲﻓ ﺍﺪﻳﺪﺟ ﯫﻴﺷ ﻆﻗﻮﻳ ﺪﻗ §Y[from.GetName]§! ﺢﺒﺼﻧ ﻥﺃ ...ﺎﻨﻫ ﺭﺎﻫﺩﺯﻻﺍﻭ ﻒﻴﻜﺘﻟﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ﺍﺫﺇ ،ﻚﻟﺫ ﻊﻣﻭ ."ﻕﺮﺤﻟﺍ" ﻦﻋ ﺔﻳﺰﻳﺮﻏ ﺕﺎﻳﺮﻛﺫ ﻆﻗﻮﻳ ﻪﻧﺃ ﺔﺟﺭﺪﻟ ﺍﺪﺟ ﻑﺎﺟﻭ ﺭﺎﺣ :ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺎﻴﺋﺍﺪﺑ ﺎﻓﻮﺧ ﻥﺎﻜﻤﻟﺍ ﺍﺬﻫ ﺮﻴﺜﻳ"
+ wilderness.1010.desc.diff_wet: ".ﻥﺎﻜﻤﻟﺍ ﺍﺬﻬﻟ ﺓﺪﻳﺮﻔﻟﺍ ﺕﺍﺭﺎﻴﺘﻟﺍ ﺎﻨﻘﻨﺘﻋﺍ ﺪﻘﻟ .ﺮﻄﺨﻠﻟ ﺔﺿﺮﻋ ﺮﺜﻛﻷﺍ ﻚﺌﻟﻭﻷ ﺎﻬﻨﻣ ﺺﻠﺨﺘﺗ ﻥﻵﺍ ﻩﺎﻴﻤﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻗ ﺮﺜﻛﻷﺍ ﺎﻨﻣ ﺀﺍﺰﺟﻷﺍ ﻚﻠﺗ .ﻥﺎﻓﻮﻄﻟﺍﻭ ﻦﻔﻌﺘﻟﺍ ﺪﺿ ﺎﻨﺴﻔﻧﺃ ﺎﻧﺰﻬﺟ ﺎﻨﻨﻜﻟ ،ﺔﺒﻌﺻ §Y[from.GetName]§! ﺢﺒﺼﻨﻟ ﺎﻧﺩﻮﻬﺟ ﻥﻮﻜﺘﺳ" #e.g. 'Our effort to become Mars'
+ wilderness.1010.desc.other: ".ﺏﺮﺠﻧﻭ ﻆﺣﻼﻧ ﻚﻟﺬﻟ - ﺐﻳﺮﻏ ﻮﻫ ﺎﻤﻣ ﺮﻴﺜﻜﻟﺍ ﺎﻀﻳﺃ ﻦﻜﻟﻭ ،ﻞﺒﻗ ﻦﻣ ﻩﺎﻨﻓﺮﻋ ﺎﻣ ﻊﻣ ﺔﻛﺮﺘﺸﻤﻟﺍ ﻢﺳﺍﻮﻘﻟﺍ ﻦﻣ ﺮﻴﺜﻜﻟﺍ ﻲﻓ ﻙﺮﺘﺸﻳ ﺍﺬﻫ [from.GetClassAdj] ﺩﻮﺟﻭ ﻥﺇ .ﻞﺑﺬﺗ ﻑﻮﺳ ﻲﺘﻟﺍﻭ ﺮﻫﺩﺰﺗ ﻑﻮﺳ ﻲﺘﻟﺍ ﺎﻨﺗﺍﻭﺫ ﻦﻣ ﺀﺍﺰﺟﻷﺍ ﻚﻠﺗ ﺩﺪﺤﻧ ﺎﻨﻧﺈﻓ ،§Y[from.GetName]§! ﺢﺒﺼﻨﻟ ﺎﻨﺴﻔﻧﺃ ﻞﻜﺸﻧ ﺎﻤﻨﻴﺑ" #e.g. 'shape ourselves to become Luna'
+ wilderness.1010.desc.outro: ".ﻆﻘﻴﺘﺴﻳ [from.GetName] .ﺎﻨﻠﺒﻗ ﺎﻨﻫ ﺓﺩﻮﺟﻮﻣ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻊﻣ ﻁﻼﺘﺧﻻﺍﻭ ﻒﻴﻜﺘﻟﺍ ﻲﻓ ﻱﻭﻮﻨﻟﺍ ﺎﻨﻀﻤﺣﻭ ﺎﻨﺗﺎﻳﺬﻐﻣﻭ ﺔﻴﻗﻮﻔﻟﺍ ﺎﻨﺘﻴﻨﺑ ﺕﺃﺪﺑ ﺪﻘﻟ"
+ wilderness.1010.a: ".ﺓﺪﺣﺍﻭ ﺎﻨﻤﻟﺍﻮﻋ ﺢﺒﺼﺗ ﻑﻮﺳ ﺎﺒﻳﺮﻗ"
+
+# Terraforming Events
+ terra.25.desc.wilderness: ".ﺖﻗﻮﻟﺍ ﺾﻌﺒﻟ ﺢﻓﺎﻜﺗ ﺪﻗ ﺎﻨﻳﺪﻟ ﺔﻛﺮﺣ ﺮﺜﻛﻷﺍ ﺮﺻﺎﻨﻌﻟﺍ ﺾﻌﺑ ﻥﺃ ﻲﻨﻌﻳ ﻪﻧﺃ ﻻﺇ ،ﻪﺘﻌﻴﺒﻄﺑ ﺎﻨﻴﻠﻋ ﺍﺮﻄﺧ ﻞﺜﻤﻳ ﻻ ﺢﻴﻘﻟﺎﺑ ﺔﻬﻴﺒﺸﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺾﺋﺎﻔﻟﺍ ﺍﺬﻫ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ \n\n.ﻦﻜﺴﻠﻟ ﺔﺤﻟﺎﺻ ﺔﻨﻴﻌﻣ ﻖﻃﺎﻨﻣ ﻕﻮﻓ ﺔﺟﺰﻟ ﺓﺮﺸﻗ ﻞﻴﻜﺸﺗﻭ ﻥﺎﻳﺩﻮﻟﺍ ﺩﺍﺪﺴﻧﺍ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،§YTerraforming Residue§! ﻦﻣ ﻂﻴﺴﺑ ﻥﺎﻓﻮﻃ ﻕﻼﻃﺇ ﻰﻟﺇ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ ﻢﻴﻈﻨﺗ ﺓﺩﺎﻋﺇ ﺕﺍﻭﺩﺃ ﺪﺣﺃ ﻲﻓ ﻕﺰﻤﺗ ﻯﺩﺃ .ﻞﻣﺄﻧ ﺎﻨﻛ ﺎﻤﻛ ﺡﺎﺠﻨﺑ §Y[From.GetName]§! ﻅﺎﻘﻳﻹ ﻝﻮﻄﻤﻟﺍ ﺎﻨﻋﻭﺮﺸﻣ ﻞﺣ ﻢﺘﻳ ﻢﻟ"
+ terra.80.desc.wilderness: ".ﺓﺎﻴﺤﻟﺍ ﻦﻣ ﺪﻳﺪﺠﻟﺍ ﻞﻜﺸﻟﺍ ﺍﺬﻫ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﺔﻴﻔﻴﻛ ﺭﺮﻘﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﺮﻴﻄﺨﻟﺍ ﻲﺌﻴﺒﻟﺍ ﻪﺛﺍﺮﺗ ﺮﺧﺁ ﺮﻴﻬﻄﺘﻟ [From.GetName] ﺪﻌﺘﺴﻳ ﺎﻤﻨﻴﺑ ،ﻥﻵﺍ .ﻞﻘﺘﺴﻤﻟﺍ ﺮﻜﻔﻟﺍ ﻖﻴﻘﺤﺗ ﺏﺎﺘﻋﺃ ﻰﻠﻋ ﻮﻬﻓ :ﻝﺎﻤﺘﺣﻻﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﻪﻧﺃ ﻭﺪﺒﻳ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﻥﺃ ﻮﻫ ﺔﺑﺍﺮﻏ ﺮﺜﻛﻷﺍ ﺮﻣﻷﺍﻭ \n\n .ﻝﻮﺑﺬﻟﺍ ﻲﻓ ﺕﺃﺪﺑ ،ﺎﻨﺗﺎﻓﺮﺼﺗ ﺐﺒﺴﺑ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ .ﺔﻌﺸﻤﻟﺍ ﺕﯫﻴﺒﻟﺍ ﻲﻓ ﺮﻫﺩﺰﻳ ﺔﻳﺎﻐﻠﻟ ﻝﺎﻨﻤﻟﺍ ﺪﻴﻌﺑ ﺎﻴﻠﺤﻣ ﺎﻋﻮﻧ ﺎﻨﺠﻋﺯﺃ ﺪﻗ ﺎﻨﻧﺃ ﻭﺪﺒﻳ .ﺎﺘﻗﺆﻣ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻦﻣ ﺀﺰﺟ ﻝﺰﻋﻭ ﻞﺧﺪﺘﻟﺍ ﺎﻨﻳﺪﻟ ﺐﻗﺍﺮﻤﻟﺍ [Root.GetTerraformerPlural] ﻰﻠﻋ ﻥﺎﻛ ،ﻚﻟﺫ ﻊﻣﻭ .§Y[From.GetName]§! ﺔﺑﺮﺗﻭ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻲﻓ ﻉﺎﻌﺷﻹﺍ ﻦﻣ ﻯﺮﺧﺃ ﺔﻘﺒﻃ ﻦﻣ ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ ﺎﻨﺴﻔﻧﺃ ﺎﻧﺭﺮﺣ ﺪﻘﻟ"
+ terra.80.b.wilderness: ".ﻥﻮﻈﻘﻴﺘﺴﻳ ﻢﻬﻛﺮﺘﻧ ﻥﺃ ﺐﺠﻳ .ﻢﻬﻟ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ"
+ terra.80.d.wilderness: ".ﻢﻬﻜﻠﻬﺘﺴﻧ ﺎﻧﻮﻋﺩ"
+
+ wilderness.2000.name: "ﺎﻬﻟ ﻂﻄﺨﻣ ﺓﻮﺤﺻ"
+ #wilderness.2000.desc.reg: "We feel the tremendous potential of [from.GetName]. It seems proper to both fear and delight in the awesome power we are about to exert there: shaping this [from.GetPlanetMoon] with our will and the tools we have developed; laying the pattern for its eventual awakening.\n\nWe have long relied on natural processes to grow and sustain the [root.GetName]. But these trials also cost us dearly, and taught us much. Now we shall see what wonders emerge when a habitable world skips its own evolution and gains the wisdom of hard-earned growth and decay."
+ wilderness.2000.desc.barren: ".ﻞﺒﻗ ﻦﻣ ﺓﺩﻮﺟﻮﻣ ﻦﻜﺗ ﻢﻟ ﺚﻴﺣ ﺎﺒﻳﺮﻗ ﺓﺎﻴﺤﻟﺍ ﺪﺟﻮﺘﺳ ،ﺎﻫﺎﻨﻔﺸﺘﻛﺍ ﻲﺘﻟﺍ ﺥﺎﻨﻤﻟﺍ ﺮﻴﻴﻐﺗ ﺕﺍﻭﺩﺃ ﻊﻣﻭ ،ﺎﻨﺗﺩﺍﺭﺈﺑ .[from.GetName] ﺓﺩﺎﻌﺘﺳﺍ ﻲﻓ ﺔﻗﺎﺷ ﺔﻤﻬﻣ ﻪﺟﺍﻮﻧ ﺎﻨﻧﺈﻓ ،ﻥﻵﺍ ﻰﺘﺣ ﻩﺎﻨﻤﻠﻌﺗ ﺎﻣ ﻞﻛ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.ﺍﺬﻫ ﻞﻳﺪﻌﺘﻟ ﺔﻓﺮﻌﻤﻟﺍﻭ ﺕﺍﻭﺩﻷﺍ ﻚﻠﺘﻤﻧ ،[root.GetName] ،ﻦﺤﻧ ﻥﻵﺍ ﻦﻜﻟﻭ ،ﻞﺣﺎﻘﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻞﻫﺎﺠﺗ ﺐﺳﺎﻨﻤﻟﺍ ﻦﻣ ﻪﻧﺃ ﻥﻵﺍ ﻰﺘﺣ ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺓﺎﻴﺤﻟﺍ ﺕﺃﺭ ﺪﻘﻟ .ﻝﻮﻃﺃ ﺓﺮﺘﻔﻟ ﺲﻴﻟ ﻦﻜﻟﻭ ،ﻪﺗﺪﻫﺎﺸﻣ ﺪﻨﻋ ﺎﻤﻟﺆﻣ [from.GetName] ﺏﺍﺮﺧ ﻥﻮﻜﻳ ﺎﻤﺑﺭ"
+ wilderness.2000.desc.tomb_detox: ".[root.GetName] ﻞﻜﺷ ﻰﻠﻋ ﻯﺮﺧﺃ ﺓﺮﻣ ﺓﺎﻴﺤﻟﺍ ﺔﻓﺎﻀﺘﺳﺍ ﻦﻣ [from.GetName] ﻦﻜﻤﺘﻳ ﻰﺘﺣ ﺔﺑﺮﺘﻟﺍﻭ ﺔﻴﺋﺎﻤﻟﺍ ﻱﺭﺎﺠﻤﻟﺍﻭ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﺓﺩﺎﻌﺘﺳﺍ ﻰﻠﻋ ﻞﻤﻌﻟﺍ ﺎﻧﺃﺪﺑ ﺪﻘﻟ .ﺔﻴﻧﺎﺛ ﺔﺻﺮﻓ ﻢﻟﺎﻌﻟﺍ ﺢﻨﻤﻟ ﻥﻭﺪﻌﺘﺴﻣ ﻥﻵﺍ ﺎﻨﻧﺃ ﻻﺇ ،ﺖﻬﺘﻧﺍ ﺪﻗ ﻥﻮﻜﺗ ﺎﻤﺑﺭ [from.GetName] ﻰﻠﻋ ﺎﻬﻓﺮﻌﻧ ﺎﻤﻛ ﺓﺎﻴﺤﻟﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ wilderness.2000.desc.gaia: ".ﺎﻨﻫ ﺓﺎﻴﺤﻟﺍ ﺮﻫﺩﺰﺗ ﻥﺃ ﺐﺠﻳ .ﻯﻭﺄﻤﻟﺍﻭ ﺪﻴﺼﻟﺍﻭ ﻡﺎﻌﻄﻟﺍ ﻦﻋ ﺚﺤﺒﻠﻟ ﺓﺮﻓﺍﻭ ﺔﺣﺎﺴﻣ ﺏﺎﻀﻬﻟﺍﻭ ﻝﻼﺘﻟﺍﻭ ﻥﺎﻳﺩﻮﻟﺍ ﺮﻓﻮﺘﺳ .ﺎﻨﺗﺎﻧﺍﻮﻴﺣﻭ ﺎﻨﺗﺎﺗﺎﺒﻨﻟ ﺓﺎﻴﺤﻟﺎﺑ ﺔﻀﺑﺎﻨﻟﺍ ﺓﺎﻴﺤﻟﺍ ﺕﺍﺭﻭﺩ ﺎﻬﺸﻌﻨﺗ ﻲﺘﻟﺍ ،ﺔﻴﺋﺍﺬﻐﻟﺍ ﺮﺻﺎﻨﻌﻟﺎﺑ ﺎﻣ ﺎﻣﻮﻳ [from.GetName] ﺲﺳﺃ ﺊﻠﺘﻤﺗ ﻥﺃ ﺐﺠﻳ \n\n .ﺮﺧﺁ ﻥﺎﻜﻣ ﻱﺃ ﻦﻋ ﺎﻔﻠﺘﺨﻣ ﻥﻮﻜﻳ ﻦﻟ ﻪﻇﺎﻘﻴﺘﺳﺍ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ ﻥﺎﻜﻣ ﻲﻓ [from.GetName] ﻞﻴﻜﺸﺗ ﻲﻓ ﺎﻧﺃﺪﺑ ،ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺎﻫﺭﻮﺼﺘﻧ ﻦﻜﻧ ﻢﻟ ﻲﺘﻟﺍ ﺔﻓﺮﻌﻤﻟﺍﻭ ﺕﺍﻭﺩﻷﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ .[from.GetName] [from.GetPlanetMoon] ﻰﻟﺇ ﺪﻳﺰﻤﻟﺍ ﻞﻘﻨﻟ ﺔﺻﺮﻔﻟﺍ ﻥﻵﺍ ﺎﻨﻳﺪﻟ ،ﻚﻟﺫ ﻊﻣﻭ .[root.GetName] ،ﺐﺋﺎﺠﻌﻟﺍ ﺎﻨﻟ ﺭﻮﻄﺘﻟﺍ ﺔﻘﺗﻮﺑ ﺖﻌﻨﺻ ﺪﻘﻟ"
+ wilderness.2000.a: ".ﺃﺪﺒﻧ ﺎﻧﻮﻋﺩ"
+
+ wilderness_pre_sapient_defence_army: "ﺮﻈﺘﻨﻤﻟﺍ ﻊﻴﻄﻘﻟﺍ"
+ seq_wilderness_pre_sapient_defence_army: "$R$ ﺩﺮﻴﻫ ﺖﻧﻮﻴﺒﻤﻴﺳ" # e.g. 'Symbiont Herd IV'
+ wilderness_pre_sapient_defence_army_plural: "ﺓﺰﻫﺎﺟ ﻥﺎﻌﻄﻗ"
+ wilderness_pre_sapient_defence_army_desc: ".ﺀﺎﺑﺮﻗﺃ ﻢﻬﻧﻭﺮﺒﺘﻌﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻦﻋ ﻉﺎﻓﺪﻠﻟ ﺔﻴﺳﺎﺳﻷﺍ ﺰﺋﺍﺮﻐﻟﺍ ﻯﻮﺳ ﺎﻬﻠﻫﺎﻛ ﻞﻘﺜﺗ ﻻ ﺖﻗﻮﻟﺍ ﻚﻟﺫ ﻲﻓﻭ ،ﺎﻫﺯﺍﺰﻔﺘﺳﺍ ﻢﺘﻳ ﻰﺘﺣ ﺩﺎﻴﻘﻧﻻﺍ ﺔﻠﻬﺳ ﻞﻈﺗ ﺔﻘﻴﻤﻋ ﺔﻴﻤﻴﻠﻗﺇ ﺕﺎﻗﻮﻠﺨﻣ"
+ wilderness_pre_sapient_assault_army: "ﻞﻤﺘﺤﻣ ﺪﺸﺣ"
+ seq_wilderness_pre_sapient_assault_army: "Symbiont Horde $R$" # e.g. 'Symbiont Horde IV'
+ wilderness_pre_sapient_assault_army_plural: "presapient ﻞﻓﺎﺤﺟ"
+ wilderness_pre_sapient_assault_army_desc: ".ﺀﺍﺪﻋﺃ ﻪﻧﻭﺮﺒﺘﻌﻳ ﺺﺨﺷ ﻱﻷ ﻲﺸﺣﻮﻟﺍ ﺮﻴﻣﺪﺘﻟﺍ ﻥﺎﻤﻀﻟ ﻡﺎﺨﻟﺍ ﻞﻤﺤﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍﻭ ﺓﺮﻛﺎﻤﻟﺍ ﻦﻣ ﻲﻔﻜﻳ ﺎﻣ ﺔﺳﺮﺸﻟﺍ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻚﻠﺘﻤﺗ"
+
+####################################
+# Origins
+####################################
+ origin_wilderness: "ﺔﻳﺮﺒﻟﺍ"
+ origin_wilderness_desc: ".ﻲﺒﻛﻮﻛ ﻕﺎﻄﻧ ﻰﻠﻋ ﺖﻟﺎﻄﺸﺠﻟﺍ ﻲﻋﻭ ﻞﻜﺸﺘﻟ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺖﺠﻣﺪﻧﺍ ﻲﺘﻟﺍ ﺔﻋﻮﻨﺘﻤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﺮﻴﺒﻛ ﺩﺪﻋ :ﻞﻗﺎﻋ ﻲﺌﻴﺑ ﻂﻴﺤﻣ ﻦﻣ ﻞﻗﺃ ﺲﻴﻟ ﻥﺎﻴﻜﻟﺍ ﺍﺬﻫ\n\n§R.['concept_purity_ascension'] ﺀﺎﻨﺜﺘﺳﺎﺑ ﺩﻮﻌﺼﻟﺍ ﺕﺍﺭﺎﺴﻣ ﻊﻴﻤﺟ ﺮﻈﺤﻳ :ﺮﻳﺬﺤﺗ§!"
+ origin_tooltip_wilderness_effects: "['concept_scorched_plains', £blocker£ $d_scorched_plains$] 18$TABBED_NEW_LINE$- £planetsize£ :ﻢﺠﺤﻟﺍ -$TABBED_NEW_LINE$:ﻝﺰﻨﻤﻟﺍ ﻢﻟﺎﻋ -\n ['concept_biomass'] £biomass£ :ﺍﺪﻳﺪﺟ ﺍﺩﺭﻮﻣ ﺢﺘﻔﻳ -\n['concept_terraforming'] ـﺑ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﻦﻔﺳ ﺭﺎﻤﻌﺘﺳﺍ ﻝﺪﺒﺘﺴﻳ -\nﺔﺼﺼﺨﻣ ﻯﺮﺧﺄﺑ ['concept_district_specialization'] £zone£ﻭ ['concept_districts'] £district£ﻭ ['concept_buildings'] £building£ ﻞﻛ ﻝﺪﺒﺘﺴﻳ -\n['trait:trait_wilderness'] :ﻉﻮﻨﻟﺍ ﺔﻤﺳ -"
+ trait_wilderness: "ﺔﻳﺮﺒﻟﺍ"
+ trait_wilderness_desc: "§L.ﻪﺟﺎﺘﻧﺇﻭ ﻩﺭﺎﻜﻓﺃ ﻲﻓ ﻪﺘﺌﻴﺑ ﻦﻋ ﻩﺰﻴﻴﻤﺗ ﻦﻜﻤﻳ ﻻﻭ ،ﻝﺩﺎﺒﺘﻣ ﻥﺎﻴﻛ ﻦﻣ ﺀﺰﺠﻛ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﺪﺟﻮﻳ§!"
+ WILDERNESS_NATURAL_WORLDS_DECLINE: "§!.ﺔﻴﻌﻴﺒﻃ ﺮﻴﻏ ﻢﻟﺍﻮﻋ ﻲﻓ ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺀﺎﻘﺒﻟﺍ §R§Yﺔﻳﺮﺒﻟﺍ§!ـﻟ ﻦﻜﻤﻳ ﻻ§!"
+ WILDERNESS_DEAD_WORLD: ".ﺔﻳﺮﺒﻟﺍ ﺮﻴﻏ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻲﻓ ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺀﺎﻘﺒﻟﺍ §YWilderness§!$TRIGGER_FAIL$ـﻟ ﻦﻜﻤﻳ ﻻ "
+ country_virtual_jobs: ".ﺎﻴﺋﺎﻘﻠﺗ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻩﺬﻫ ﻞﺧﺍﺩ ﺎﻬﺑ ﻞﻤﻌﻟﺍ ﻢﺗ ﻲﺘﻟﺍ ﻒﺋﺎﻇﻮﻟﺍ ﻊﻴﻤﺟ ﺀﻞﻣ ﻢﺘﻳ"
+
+ concept_wilderness_trait: "$trait_wilderness$"
+ concept_wilderness_trait_desc: "§L$trait_wilderness_desc$§!\n\n§Rﻲﻌﻴﺒﻃ ﻞﻜﺸﺑ ﺝﺎﺘﻧﻹﺍ ﺓﺩﺎﻋﺇ ﻦﻜﻤﻳ ﻻ§! $NEW_LINE$- §Rﻦﻴﻃﻮﺘﻟﺍ ﺓﺩﺎﻋﺇ ﻭﺃ ﻞﻴﺣﺮﺘﻟﺍ ﻦﻜﻤﻳ ﻻ§!- \n§R-100%§!- $MOD_LOGISTIC_GROWTH_MULT$: "
+
+ PRESCRIPTED_adjective_zhardmehka: "ﺕﺎﻧﻮﻠﻄﻨﺒﻟﺍ"
+ PRESCRIPTED_ship_prefix_zhardmehka: "ZMV"
+ PRESCRIPTED_species_name_zhardmehka: "ﻦﻴﻠﻳﺮﻛ ﺩﺭﺍﺯ"
+ PRESCRIPTED_species_name_plural_zhardmehka: "ﺲﻨﻴﻠﻳﺮﻛ ﺩﺭﺍﺯ"
+ PRESCRIPTED_species_adjective_zhardmehka: "ﻦﻴﻠﻳﺮﻛ ﺩﺭﺍﺯ"
+ PRESCRIPTED_planet_name_zhardmehka: "ﻥﻮﻠﻴﺗ"
+ PRESCRIPTED_system_name_zhardmehka: "ﻼﺗﺎﺗ"
+ PRESCRIPTED_ruler_name_zhardmehka: "$FUN3_CHR_Obanva$ $FUN3_CHR_uvi-Livve$"
+ PRESCRIPTED_ruler_title_zhardmehka: "ﺔﻳﺰﻣﺮﻟﺍ ﺓﺭﻮﺼﻟﺍ"
+
+ START_SCREEN_WILDERNESS_INTRO: "..ﻢﻴﻈﻌﻟﺍ ﺞﻫﻮﺘﻟﺍ ﺀﺎﺟ ﻢﺛ .ﺔﻋﺮﺴﺑ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﺓﺩﺎﻋﺇ ﻢﺗ ﺔﺒﻳﺮﻏ ﺔﻳﺮﺛﺃ ﻊﻄﻗ - ﻪﺤﻄﺳ ﻰﻠﻋ ﻡﺎﻄﺤﻟﺍ ﺓﺮﻴﺒﻜﻟﺍ ﻦﻔﺴﻟﺍ ﺕﺮﻄﻣﺃ .[root.GetHomeWorldName] ﻕﻮﻓ ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﺔﻛﺮﻌﻣ ﺖﻌﻗﻭ\n\n.ﺔﻠﻳﻮﻃ ﺓﺮﺘﻔﻟ ﺔﺑﺮﻄﻀﻣ ﻡﻮﺠﻨﻟﺍ ﺖﻠﻇ ،ﻚﻟﺫ ﻊﻣﻭ .ﺖﻓﺎﺧ ﻞﻜﺸﺑ ﻻﺇ ﻪﻔﻠﺧ ﺔﻌﻗﺍﻮﻟﺍ ﺓﺮﺠﻤﻟﺍ ﺔﻳﺅﺭ ﻦﻣ [root.GetHomeWorldName] ﻦﻜﻤﺘﻳ ﻢﻟ ،ﺭﻮﺼﻌﻟﺍ ﺮﻣ ﻰﻠﻋ .ﺱﺍﺮﺘﻓﻻﺍﻭ ،ﻝﻼﺤﻧﻻﺍﻭ ،ﻮﻤﻨﻟﺍ ﻥﺯﺍﻮﺗ :ﺕﺍﺬﻟﺍ ﻦﻣ ﺀﺰﺟ ﻮﻫ ﺎﻨﻫ ﻢﻳﺰﻧﺇﻭ ،ﻕﻼﺤﻣﻭ ،ﻉﺬﺟ ﻞﻛ .[root.GetHomeWorldName] ﺐﻛﻮﻜﻟﺍ ﻮﻫ [root.GetHomeWorldName] ﻥﺎﻛ ،ﺓﺮﻛﺍﺬﻟﺍ ﺓﺮﺘﻓ ﻝﺍﻮﻃ"
+ START_SCREEN_WILDERNESS_DEFAULT: ".ﺓﺎﻴﺤﻟﺍ ﻦﻣ ﺔﻔﻴﻈﻧ ﺎﻬﻠﻤﻛﺄﺑ ﺓﺭﺎﻗ ﺖﺤﺴﺘﻛﺍ .ﻉﺎﻌﺷﻹﺍﻭ ﺔﻳﺭﺎﻨﻟﺍ ﻒﺻﺍﻮﻌﻟﺍ ﻢﻬﺘﻓﺮﺟﻭ ﺎﻨﻳﺪﻟ ﻦﻴﻠﻓﺎﻜﺘﻤﻟﺍ ﻦﻣ ﺕﺍﺭﺎﻴﻠﻤﻟﺍ ﻕﺮﺘﺣﺍ ﺪﻘﻟ .ﻰﻤﻌﻠﻟ ﺐﺒﺴﻣﻭ ﻕﺭﺎﺣ ﺀﻮﺿ ﻪﻧﺄﺑ [root.GetHomeWorldName] ﺮﻌﺷ"
+ START_SCREEN_WILDERNESS_COLD: ".ﺎﻬﻠﻤﻛﺄﺑ ﺓﺭﺎﻗ ﺖﻓﺮﺟ .ﺭﻭﺬﺠﻟﺍ ﻰﺘﺣ [root.GetHomeWorldName] ﺔﻴﻤﺠﻨﻟﺍ ﺕﺎﻋﺎﻌﺷﻹﺍ ﺖﻗﺮﺣﺃ ﺎﻤﻨﻴﺑ ،ﺔﺠﺋﺎﻫ ﻝﻮﻴﺳ ﻰﻟﺇ ﺔﻳﺪﻴﻠﺠﻟﺍ ﺭﺎﻬﻧﻷﺍ ﺖﻟﻮﺤﺗﻭ .ﻰﻤﻌﻠﻟ ﺐﺒﺴﻣﻭ ﻕﺭﺎﺣ ﺀﻮﺿ ﻪﻧﺄﺑ [root.GetHomeWorldName] ﺮﻌﺷ"
+ START_SCREEN_WILDERNESS_DRY: ".ﺎﻣﺎﻤﺗ ﺔﻠﺣﺎﻗ ﺎﻬﻠﻤﻛﺄﺑ ﺓﺭﺎﻘﻟﺍ ﺖﺤﺒﺻﺃ .ﺔﻳﺮﺨﺼﻟﺍ ﺎﻨﻫﻮﺟﻭ ﺔﻴﺤﻄﺴﻟﺍ ﺡﺎﻳﺮﻟﺍ ﺖﻓﺮﺟﻭ ،ﺝﺎﺟﺯ ﻰﻟﺇ ﺖﻟﻮﺤﺗﻭ ﺔﻴﻠﻣﺮﻟﺍ ﻥﺎﺒﺜﻜﻟﺍ ﺖﺑﺍﺫ .ﻰﻤﻌﻠﻟ ﺐﺒﺴﻣﻭ ﻕﺭﺎﺣ ﺀﻮﺿ ﻪﻧﺄﺑ [root.GetHomeWorldName] ﺮﻌﺷ"
+ START_SCREEN_WILDERNESS_WET: ".ﺎﻬﻠﻤﻛﺄﺑ ﺓﺭﺎﻗ ﺕﺮﺴﺧ .ﺭﻭﺬﺠﻟﺍ ﻰﺘﺣ [root.GetHomeWorldName] ﺔﻴﻤﺠﻨﻟﺍ ﺕﺎﻋﺎﻌﺷﻹﺍ ﺖﻗﺮﺣﺃ ﺎﻣﺪﻨﻋ ﺔﻳﺪﻴﻠﺠﻟﺍ ﺢﺋﺎﻔﺼﻟﺍ ﺖﺑﺍﺫﻭ ﺕﺍﺮﻴﺤﺒﻟﺍ ﺖﻴﻠﻏ .ﻰﻤﻌﻠﻟ ﺐﺒﺴﻣﻭ ﻕﺭﺎﺣ ﺀﻮﺿ ﻪﻧﺄﺑ [root.GetHomeWorldName] ﺮﻌﺷ"
+ START_SCREEN_WILDERNESS_OUTRO: ".ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺎﻨﺴﻔﻧﺃ ﺬﺧﺄﻧ ﻑﻮﺳ .ﺮﺸﺘﻨﻧﻭ ﺖﺒﻨﻨﺳ ،ﻩﺎﻨﻤﻠﻌﺗ ﺎﻣ ﻡﺍﺪﺨﺘﺳﺎﺑﻭ .ﺐﺋﺎﺠﻌﻟﺍ ﺎﻀﻳﺃ ﻞﻤﺤﺗ ﺎﻬﻨﻜﻟ ،ﺮﻃﺎﺨﻤﻟﺎﺑ ﺔﻓﻮﻔﺤﻣ ﺓﺮﺠﻤﻟﺍ .ﺎﻨﺘﺷﺎﺸﻫ ﺎﻨﻛﺭﺩﺃ ،ﺓﺮﻣ ﻝﻭﻷﻭ .ﻢﻟﻷﺍ ﺎﻨﻈﻘﻳﺃ ﺪﻘﻟ"
+
+####################################
+# Authorities
+####################################
+ auth_mutualistic_intelligence: "ﻝﺩﺎﺒﺘﻤﻟﺍ ﺀﺎﻛﺬﻟﺍ"
+ auth_mutualistic_intelligence_plural: "ﺔﻟﺩﺎﺒﺘﻤﻟﺍ ﺕﺍﺀﺎﻛﺬﻟﺍ"
+ auth_mutualistic_intelligence_desc: ".ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﺍﻮﻜﻠﻬﻳ ﻥﺃ ﻞﺒﻗ ﻱﺰﻳﺮﻐﻟﺍﻭ ﻲﺸﺣﻮﻟﺍ ﻙﻮﻠﺴﻟﺍ ﻰﻟﺇ ﻥﻭﺩﻮﻌﻳ ﻑﻮﺴﻓ ،ﻢﻬﻟﺰﻋ ﻢﺗ ﺍﺫﺇ .ﺔﻟﺩﺎﺒﺘﻤﻟﺍ ﺎﻬﺘﺌﻴﺑ ﻊﻣ ﻢﻈﺘﻨﻤﻟﺍ ﻝﺎﺼﺗﻻﺍ ﻰﻠﻋ ﺪﻤﺘﻌﻳ ﺎﻬﻤﻈﻌﻣ ﻦﻜﻟﻭ ،ﺔﺼﺼﺨﺘﻣ ﻡﺎﻬﻣ ﻲﻓ ﻞﻘﺘﺴﻣ ﻪﺒﺷ ﻞﻜﺸﺑ ﺓﺭﺎﺘﺨﻤﻟﺍ ﺕﻼﻓﺎﻜﺘﻤﻟﺍ ﻞﻤﻌﺗ ﺪﻗ\n\n.ﺎﻬﺘﺌﻴﺒﻟ ﺔﻴﻋﺎﻤﺠﻟﺍ ﺓﺩﺍﺭﻺﻟ ﺎﻘﻓﻭ ﻞﻤﻌﺗ ﺎﻬﻠﻛﻭ ،ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻦﻣ ﺔﻋﻮﻨﺘﻣ ﺔﻋﻮﻤﺠﻣ ﻦﻣ ﺓﺪﻤﺘﺴﻣ ﺔﻴﻠﻓﺎﻜﺗ ﻉﺍﻮﻧﺃ ﻦﻣ ﻥﻮﻜﺘﺗ ﻲﻫﻭ .ﻲﺒﻛﻮﻛ ﻕﺎﻄﻧ ﻰﻠﻋ ﻉﺯﻮﻣ ﻲﻋﻮﻛ $auth_mutualistic_intelligence_plural$ ﺮﻬﻈﺗ"
+ tt_auth_mutualistic_intelligence: ")§Y$auth_hive_mind$§! (§Y$auth_mutualistic_intelligence$§! ﺔﻄﻠﺴﺑ ﻊﺘﻤﺘﻳ"
+
+ gov_wilderness: "$gov_hive_mind$"
+ gov_wilderness_desc: ".$RT_WILDERNESS$ ﺕﺎﺒﻏﺭﻭ ﺕﺎﺟﺎﻴﺘﺣﺍ ﺔﻴﺒﻠﺗ ﺯﻭﺎﺠﺘﺗ ﺔﻳﺩﺮﻓ ﺔﻟﺎﻛﻭ ﻱﺃ ﻥﺎﻜﺴﻟﺍ ﻯﺪﻟ ﺲﻴﻟ ﺚﻴﺣ ،ﺪﺣﺍﻭ ﻲﻋﻮﻛ ﺔﻣﻮﻜﺤﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+ RT_WILDERNESS: "ﺔﻳﺮﺒﻟﺍ"
+ RT_WILDERNESS_FEMALE: "$RT_WILDERNESS$"
+
+####################################
+# Buildings
+####################################
+ building_colony_shelter_wilderness: "ﻲﺒﻛﻮﻜﻟﺍ ﻕﻼﺤﻤﻟﺍ"
+ building_colony_shelter_wilderness_desc: ".ﺔﻳﺮﺒﻟﺍ ﺓﺎﻴﺤﻠﻟ ﺍﺮﻘﺘﺴﻣ ﺍﺩﻮﺟﻭ ﻦﻤﻀﻳ ﺎﻤﻣ ،ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻦﻣ ﺎﻳﻼﺨﻟﺍ ﺓﺩﺪﻌﺘﻣ ﺩﻭﺪﺣ ﺞﺴﻨﺗ"
+
+ building_capital_wilderness: "ﻲﺒﻛﻮﻜﻟﺍ ﺭﺬﺠﻟﺍ ﺔﻣﺰﺣ"
+ building_capital_wilderness_desc: ".ﺔﻴﺟﺎﺘﻧﻹﺍﻭ ﻖﻴﺴﻨﺘﻟﺍ ﻦﻴﺴﺤﺘﻟ ﺔﻛﺮﺤﺘﻤﻟﺍ ﺕﻼﻓﺎﻜﺘﻤﻟﺍ ﻊﻣ ﻢﻏﺎﻨﺘﺗ ﻲﺘﻟﺍ ﺔﻄﻴﺴﺒﻟﺍ ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻦﻣ ﺓﺎﻴﺤﻟﺎﺑ ﺔﻀﺑﺎﻧﻭ ﻑﺍﺮﻃﻷﺍ ﺔﻴﻣﺍﺮﺘﻣ ﺔﻠﺘﻛ"
+ building_major_capital_wilderness: "ﻲﺒﻛﻮﻜﻟﺍ ﺭﺬﺠﻟﺍ ﻊﻤﺠﻣ"
+ building_major_capital_wilderness_desc: ".ﺰﻴﻛﺮﺘﻟﺍ ﺪﻳﺪﺷ ﺪﺣﺍﻭ ﻝﺎﺠﻣ ﻲﻓ ﺍﻭﺮﺛﺎﻜﺘﻳﻭ ﺍﻮﺣﺪﻜﻳﻭ ﺍﻮﺸﻴﻌﻳ ﻥﺃ ﻦﻴﺸﻳﺎﻌﺘﻤﻠﻟ ﻦﻜﻤﻳ ﺚﻴﺤﺑ ﺔﻴﻓﺎﻛ ﺔﺟﺭﺪﺑ ﺔﻔﻴﺜﻛ ،ﺓﺰﻛﺮﻣ ﺔﻴﺣ ﺔﻠﺘﻛ"
+ building_system_capital_wilderness: "ﻲﺒﻛﻮﻜﻟﺍ ﺭﺬﺠﻟﺍ ﺔﻄﺑﺍﺭ"
+ building_system_capital_wilderness_desc: ".ﺔﻴﻟﺎﺜﻤﻟﺍ ﺓﺮﻴﻐﺼﻟﺍ ﻪﺗﺎﺧﺎﻨﻣ ﻉﺭﺰﻳ ﻪﻧﺃ ﺔﺟﺭﺪﻟ ﺍﺪﺟ ﻊﺳﺍﻭ ،ﺮﻓﺎﻀﺘﻣ ﻞﻜﺸﺑ ﻞﻤﻌﺗ ﻲﺘﻟﺍ ﺔﻋﻮﻨﺘﻤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﻞﺋﺎﻫ ﺩﺎﺤﺗﺍ"
+ requires_building_wilderness_capital: "§!.ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ §R§Y$building_capital_wilderness$§! ﺐﻠﻄﺘﻳ§!"
+ requires_building_wilderness_major_capital: "§!.ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ §R§Y$building_major_capital_wilderness$§! ﺐﻠﻄﺘﻳ§!"
+ requires_building_wilderness_system_capital: "§!.ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ §R§Y$building_system_capital_wilderness$§! ﺐﻠﻄﺘﻳ§!"
+
+ building_imperial_capital_wilderness: "ﻱﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻊﻤﺠﻤﻟﺍ"
+ building_imperial_capital_wilderness_desc: ".ﺓﺮﺠﻤﻟﺍ ﺮﻴﺼﻣ ﻪﻴﻓ ﺭﺮﻘﺘﻳ ﻱﺬﻟﺍ ﻥﺎﻜﻤﻟﺍ ﻮﻫ ﺍﺬﻫ .ﺪﻘﻌﻤﻟﺍﻭ ﻢﺨﻀﻟﺍ ﻞﻜﻴﻬﻟﺍ ﺍﺬﻫ ﻞﺧﺍﺩ ﻦﻣ ﺓﺮﺠﻤﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺔﻳﺮﺒﻟﺍ ﻢﻜﺤﺗ"
+
+ building_tendril_cradle_1: "ﻕﻼﺤﻤﻟﺍ ﺪﻬﻣ"
+ building_tendril_cradle_1_desc: ".ﺓﺭﻭﺎﺠﻤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺀﺎﻀﻋﻷﺍ ﻮﺤﻧ ﺔﺒﻳﺮﻘﻟﺍ ﺩﺍﻮﻤﻟﺍ ﺏﺬﺠﺗﻭ ،ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻦﻣ ﺭﻭﺬﺠﻟﺍ ﺕﺍﺫ ﺓﺮﻴﺼﻘﻟﺍ ﻁﻮﻴﺨﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﺪﺘﻤﺗ"
+ building_tendril_cradle_2: "ﻁﻮﻴﺨﻟﺍ ﺓﺮﺘﻓ"
+ building_tendril_cradle_2_desc: ".ﺎﻬﻌﻳﺯﻮﺗ ﺓﺩﺎﻋﺇﻭ ﺎﻬﺘﺠﻟﺎﻌﻣ ﻞﺒﻗ ﺓﺭﻭﺎﺠﻤﻟﺍ ﺕﺎﺣﺎﺴﻤﻟﺍ ﻦﻣ ﺩﺭﺍﻮﻤﻟﺍ ﺐﺤﺴﺗﻭ ،ﺔﻴﻌﻴﺒﻄﻟﺍ ﺮﻇﺎﻨﻤﻟﺍ ﺮﺒﻋ ﺔﻠﻳﻮﻄﻟﺍ ﻕﻼﺤﻤﻟﺍ ﺪﺘﻤﺗ"
+ building_tendril_cradle_3: "ﻞﻗﺎﻨﻟﺍ ﺶﻋ"
+ building_tendril_cradle_3_desc: ".ﺓﺪﻴﻌﺒﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺰﻛﺍﺮﻤﻟﺍ ﻮﺤﻧ ﺕﺎﻘﺒﻃ ﺕﺍﺫ ﺕﺍﻮﻨﻗ ﺮﺒﻋ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ ﻞﻘﻨﺗﻭ ،ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﻙﺮﺤﺘﺗﻭ ﺓﺮﻔﻀﻤﻟﺍ ﺭﻭﺬﺠﻟﺍ ﺾﺒﻨﺗ"
+ building_tendril_cradle_4: "ﻲﺒﻛﻮﻜﻟﺍ ﻂﻴﺨﻟﺍ ﺐﻠﻗ"
+ building_tendril_cradle_4_desc: ".ﻞﻜﻳ ﻻ ﻦﻣﺍﺰﺘﺑ ﺎﻬﻬﺟﻮﺗﻭ ﺎﻬﻤﻈﻨﺗﻭ ﺔﻳﺮﺒﻟﺍ ﺓﺎﻴﺤﻟﺍ ﺩﺭﺍﻮﻣ ﺐﺤﺴﺗﻭ ،ﺐﻛﻮﻜﻟﺍ ﻢﺴﺟ ﺮﺒﻋ ﺔﻤﺨﺿ ﺔﻴﺘﺴﺟﻮﻟ ﻕﻼﺤﻣ ﻊﺸﺗ"
+
+ planet_research_buildings: "ﺐﻛﻮﻜﻟﺍ ﺙﺎﺤﺑﺃ ﻲﻧﺎﺒﻣ"
+ mod_planet_research_buildings_upkeep_mult: "$planet_research_buildings$ ﺔﻧﺎﻴﺻ"
+ building_brain_node_1: "ﺙﻮﺤﺒﻟﺍ ﻮﻤﻧ"
+ building_brain_node_1_desc: ".ﻡﺎﻌﻟﺍ ﺚﺤﺒﻟﺍ ﺱﺎﺳﺃ ﻦﻴﻴﻓﺎﺸﻜﺘﺳﻻﺍﻭ ﻦﻴﺣﺮﻤﻟﺍ ﻦﻴﺸﻳﺎﻌﺘﻤﻟﺍ ﻞﻤﻋ ﺮﻓﻮﻳ"
+ mod_planet_building_brain_node_1_build_speed_mult: "$building_brain_node_1$ ﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ"
+ building_brain_node_2: "ﻑﻭﺮﺟ ﺚﺤﺑ"
+ building_brain_node_2_desc: ".ﺎﻣﺪﻘﺗ ﺮﺜﻛﻷﺍ ﺮﻫﺍﻮﻈﻟﺍﻭ ﺔﻳﺮﺛﻷﺍ ﻊﻄﻘﻟﺍ ﺔﺳﺍﺭﺩ ﻞﻴﻬﺴﺗﻭ ،ﻲﻟﻮﻀﻔﻟﺍ ﻙﻮﻠﺴﻟﺍ ﺰﻳﺰﻌﺘﻟ ﺪﻳﺮﻓ ﻞﻜﺸﺑ ﺺﺼﺨﻣ ﻦﻃﻮﻣ"
+ mod_planet_building_brain_node_2_build_speed_mult: "$building_brain_node_2$ ﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ"
+ building_brain_node_3: "ﺔﺒﻳﺮﻐﻟﺍ ﺙﻮﺤﺒﻟﺍ ﺔﻤﻴﻤﻀﻟﺍ"
+ building_brain_node_3_desc: ".ﺓﺮﻴﻄﺨﻟﺍﻭ ﺔﺒﻳﺮﻐﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻉﺍﻮﻧﺃ ﻊﻴﻤﺟ ﺔﺑﺮﺠﺘﺑ ﺔﻴﺳﺎﻘﻟﺍ ﻑﻭﺮﻈﻟﺍ ﻲﻓ ﻦﻴﻠﻓﺎﻜﺘﻤﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺩﺍﺪﻋﻷ ﻑﺍﺮﻃﻷﺍ ﺔﻴﻣﺍﺮﺘﻤﻟﺍ ﺕﺍﻮﺒﻌﻟﺍ ﻩﺬﻫ ﺢﻤﺴﺗ"
+ mod_planet_building_brain_node_3_build_speed_mult: "$building_brain_node_3$ ﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ"
+ building_brain_node_4: "ﺔﻣﺪﻘﺘﻤﻟﺍ ﺙﻮﺤﺒﻟﺍ ﺔﻤﻴﻤﺿ"
+ building_brain_node_4_desc: ".ﺔﻳﺎﻤﺤﻟﺍ ﺕﯫﻴﺑ ﻦﻣ ﺔﻋﻮﻨﺘﻣ ﺔﻋﻮﻤﺠﻣ ﻲﻓ ﺓﺭﻮﻄﺘﻤﻟﺍ ﺙﺎﺤﺑﻷﺍ ﻞﻬﺴﻳ ﺶﻳﺎﻌﺘﻣ ﻞﻜﺸﺑ ﺔﻋﻭﺭﺰﻤﻟﺍ ﺔﻌﺳﺍﻮﻟﺍ ﺔﺒﻠﻌﻟﺍﻭ ﺔﺒﻳﺮﻐﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻦﻴﺑ ﺞﻣﺪﻟﺍ ﺍﺬﻫ"
+ mod_planet_building_brain_node_4_build_speed_mult: "$building_brain_node_4$ ﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ"
+
+ building_commensal_clearing_1: "ﺔﻴﻀﻳﻮﻌﺘﻟﺍ ﺔﺻﺎﻘﻤﻟﺍ"
+ building_commensal_clearing_1_desc: ".ﺔﻳﺮﺒﻟﺍ ﻞﺧﺍﺩ ﺎﻬﺴﻔﻧ ﻪﻴﺟﻮﺗ ﺓﺩﺎﻋﺇﻭ ﺔﺣﺍﺮﻟﺍﻭ ﻊﻤﺠﺘﻟﺎﺑ ﺔﻛﺮﺤﺘﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻉﺍﻮﻧﺃ ﻊﻴﻤﺠﻟ ﻩﺬﻫ ﻥﻮﻜﺴﻟﺍ ﺭﺰﺟ ﺢﻤﺴﺗ"
+ building_commensal_clearing_2: "ﻑﻭﺮﺟ ﻝﺎﺴﻨﻴﻣﻮﻛ"
+ building_commensal_clearing_2_desc: ".ﺔﻋﺯﻮﻤﻟﺍ ﺕﺍﺬﻠﻟ ﻢﻬﻔﻟﺍ ﻦﻣ ﺪﻳﺰﻣ ﻰﻟﺇ ﻢﻬﺗﻼﻋﺎﻔﺗ ﻱﺩﺆﺗ ،ﺎﻨﻫ .ﻦﻴﺸﻳﺎﻌﺘﻤﻠﻟ ﺔﻳﺮﻴﻫﺎﻤﺠﻟﺍ ﺕﺎﻌﻤﺠﺘﻠﻟ ﺔﻴﻤﺤﻣﻭ ﺔﻴﻟﺎﺜﻣ ﻦﻛﺎﻣﺃ"
+ building_commensal_clearing_3: "ﻝﺎﺴﻨﻣﻮﻛ ﻱﺩﺍﻭ"
+ building_commensal_clearing_3_desc: ".ﺾﻌﺒﻟﺍ ﺎﻬﻀﻌﺑ ﻦﻴﺑ ﻂﺑﺍﻭﺮﻟﺍ ﺯﺰﻌﻳ ﺎﻤﻣ ،ﺮﻜﺒﻟﺍ ﺕﺎﻨﻳﻮﻜﺘﻟﺍ ﻩﺬﻫ ﺮﺒﻋ ﻦﻴﺸﻳﺎﻌﺘﻤﻟﺍ ﻦﻣ ﺔﻳﺎﻐﻠﻟ ﺔﻋﻮﻨﺘﻣﻭ ﺔﻔﻴﺜﻛ ﺕﺎﻌﻤﺘﺠﻣ ﺮﺟﺎﻬﺗ"
+ building_commensal_clearing_4: "ﻝﺎﺴﻨﻴﻣﻮﻛ ﻡﻮﻴﺑ"
+ building_commensal_clearing_4_desc: ".ﺔﻟﺩﺎﺒﺘﻤﻟﺍ ﺓﺪﺣﻮﻠﻟ ﺔﻳﻮﻴﺣ ﺓﺭﺍﺮﺷ ﺔﺑﺎﺜﻤﺑ ﺎﻬﻨﻣ ﻞﻛ ،ﺕﺍﺀﺎﻘﻠﻟﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺍﺩﺪﻋ ﺔﻄﺑﺍﺮﺘﻤﻟﺍﻭ ﺔﻌﺳﺎﺸﻟﺍ ﻞﺋﺍﻮﻤﻟﺍ ﻒﻴﻀﺘﺴﺗ"
+
+ building_massive_growth_1: "ﺔﻳﺬﻐﻣ ﻞﻳﺩ"
+ building_massive_growth_1_desc: ".ﻡﺎﻌﻟﺍ ﺭﺍﺪﻣ ﻰﻠﻋ ﻕﻮﺛﻮﻣ ﻞﻜﺸﺑ ﻞﻴﺻﺎﺤﻤﻟﺍ ﻮﻤﻨﻟ ﺎﻴﻟﺎﺜﻣ ﺍﺮﻴﻐﺻ ﺎﺧﺎﻨﻣ ﺮﻴﻐﺻ ﻕﺎﻄﻧ ﻰﻠﻋ ﻲﺟﻮﻟﻮﻴﺠﻟﺍ ﺖﺤﻨﻟﺍ ﺮﻓﻮﻳ"
+ building_massive_growth_2: "ﺔﻳﺬﻐﻣ ﺕﺍﺮﻴﺠﺷ"
+ building_massive_growth_2_desc: ".ﺭﺍﺮﻤﺘﺳﺎﺑ ﺓﺮﻀﻧﻭ ﺔﻴﻨﻏ ﺔﻳﺬﻏﺃ ﺝﺎﺘﻧﻹ ﺎﻬﺟﺎﺘﺤﺗ ﻲﺘﻟﺍ ﺔﻴﺌﻴﺒﻟﺍ ﺔﻳﺎﻤﺤﻟﺍ ﻞﻛ ﺕﺍﺮﻴﺠﺸﻟﺍ ﻩﺬﻬﻟ ﺓﺬﻔﻨﻤﻟﺍ ﻪﺒﺷﻭ ﺔﻌﺳﺍﻮﻟﺍ ﺔﻠﻈﻤﻟﺍ ﺮﻓﻮﺗ"
+ building_massive_growth_3: "Megaplantation ﻑﺎﻔﻛ"
+ building_massive_growth_3_desc: ".ﺏﻮﺒﺤﻟﺍﻭ ﺔﻴﻨﻴﺗﻭﺮﺒﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺓﺮﻓﻭ ﺮﻓﻮﺗﻭ ،ﺀﺍﻮﺳ ﺪﺣ ﻰﻠﻋ ﺔﻴﺋﺎﻤﻟﺍ ﻪﺒﺷ ﺕﺎﻧﺍﻮﻴﺤﻟﺍﻭ ﺔﻘﻴﻗﺪﻟﺍ ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻠﻟ ﺍﺫﻼﻣ ﻑﺍﺮﻃﻷﺍ ﺔﻴﻣﺍﺮﺘﻤﻟﺍ ﺕﺎﺟﺭﺪﻤﻟﺍ ﻩﺬﻫ ﺪﻌﺗ"
+ building_massive_growth_4: "ﺕﺎﺑﺎﻐﻟﺍ ﺔﻋﺍﺭﺯ ﺔﻋﺭﺰﻣ"
+ building_massive_growth_4_desc: ".ﺎﻬﻠﻤﻛﺄﺑ ﺔﻴﺋﺍﺬﻐﻟﺍ ﺔﻜﺒﺸﻟﺍ ﺔﻣﺪﺨﻟ ﺔﻴﺋﺍﺬﻐﻟﺍ ﻞﻴﺻﺎﺤﻤﻟﺍ ﻦﻣ ﺔﻴﻟﺎﻋ ﺔﻴﺟﺎﺘﻧﺇ ﺔﻤﺨﻀﻟﺍ ﺔﻴﻗﺭﻮﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺎﺑ ﺔﻴﻤﺤﻤﻟﺍ ﻮﻤﻨﻟﺍ ﺕﺎﺒﻴﺗﺮﺗ ﻦﻤﻀﺗ"
+
+ building_bioelectric_stimulator_1: "ﻚﻴﺘﺳﻼﺑﻭﺭﻮﻠﻜﻟﺍ ﻢﻠﻗﺄﺘﻣ"
+ building_bioelectric_stimulator_1_desc: ".ﺎﻘﺣﻻ ﺎﻬﻣﺍﺪﺨﺘﺳﻻ ﺎﻬﻨﻳﺰﺨﺗﻭ ﺔﻗﺎﻄﻟﺍ ﻚﻠﺗ ﻞﻳﻮﺤﺗﻭ ،ﻲﻨﻐﻟﺍ ﺐﻟﺎﺤﻄﻟﺍ ﺀﺎﺴﺣ ﻝﻼﺧ ﻦﻣ ﻞﺧﺍﺪﻟﺍ ﻰﻟﺇ ﺔﻴﺴﻤﺸﻟﺍ ﺔﻌﺷﻷﺍ ﺰﻴﻛﺮﺗ ﻰﻠﻋ ﺕﺎﺳﺪﻌﻟﺎﺑ ﺔﻬﻴﺒﺸﻟﺍ ﺕﺎﻋﺎﻘﻔﻟﺍ ﻦﻣ ﺕﺎﻋﻮﻤﺠﻣ ﻞﻤﻌﺗ"
+ building_bioelectric_stimulator_2: "ﻚﻴﺘﺳﻼﺑﻭﺭﻮﻠﻜﻟﺍ ﻉﺮﺴﻣ"
+ building_bioelectric_stimulator_2_desc: ".ﻲﺗﺍﺬﻟﺍ ﻎﻳﺮﻔﺘﻟﺍ ﻦﻣ ﻞﻠﻘﻳ ﺎﻤﻣ ،ﺎﻣﺎﻜﺣﺇ ﺮﺜﻛﺃ ﺔﻳﻮﻴﺣ ﺔﻴﺋﺎﻴﻤﻴﻛ ﻂﺑﺍﻭﺭ ﻦﻳﻮﻜﺘﻟ ﺔﻴﺴﻤﺸﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻲﺋﻮﻀﻟﺍ ﻞﻴﺜﻤﺘﻟﺎﺑ ﻡﻮﻘﺗ ﻲﺘﻟﺍ ﺐﻟﺎﺤﻄﻟﺎﺑ ﺔﺌﻴﻠﻤﻟﺍ ﺔﻴﺟﺎﺟﺰﻟﺍ ﺕﺎﻋﺎﻘﻔﻟﺍ ﻡﺪﺨﺘﺴﺗ"
+ building_bioelectric_stimulator_3: "ﺔﻴﻜﻴﺘﺳﻼﺑﻭﺭﻮﻠﻜﻟﺍ ﺕﺎﺳﺪﻌﻟﺍ ﺔﻓﻮﻔﺼﻣ"
+ building_bioelectric_stimulator_3_desc: ".ﺎﻗﻮﺛﻮﻣﻭ ﺕﺎﻣﺍﺪﺨﺘﺳﻻﺍ ﺩﺪﻌﺘﻣ ﺔﻗﺎﻄﻠﻟ ﺍﺰﻛﺮﻣ ﺎﻬﻠﻌﺠﻳ ﺎﻤﻣ ،ﺓﺭﺪﻘﻟﺍﻭ ﺐﻠﻄﻠﻟ ﺎﻘﻓﻭ ﺔﻴﺴﻤﺸﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺕﺎﻌﻤﺠﻤﺑ ﺔﻠﻤﺤﻤﻟﺍ ﺔﻧﺯﺍﻮﺘﻤﻟﺍ ﻉﻭﺮﻔﻟﺍ ﺾﻔﺨﻨﺗﻭ ﻊﻔﺗﺮﺗ ﺪﻗ"
+ building_bioelectric_stimulator_4: "ﻚﻴﺘﺳﻼﺑﻭﺭﻮﻠﻜﻟﺍ ﺲﻴﻛ"
+ building_bioelectric_stimulator_4_desc: ".ﺔﻓﺎﺴﻤﻟﺍ ﺮﺒﻋ ﺔﻗﺎﻄﻟﺍ ﻥﺍﺪﻘﻓ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﻰﻟﺇ ﺎﺒﻳﺮﻘﺗ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺎﻬﺘﻗﺎﻃ ﻰﻟﺇ ﺔﺟﺎﺤﻟﺍ ﺪﺘﺸﺗ ﺎﻤﺜﻴﺣ ﺮﺛﺎﻜﺘﺗﻭ ﺐﻟﺎﺤﻄﻟﺎﺑ ﺓﺀﻮﻠﻤﻤﻟﺍ ﺔﻴﺟﺎﺟﺰﻟﺍ ﺱﺎﻴﻛﻷﺍ ﻩﺬﻫ ﺮﺟﺎﻬﺗ ﺪﻗ"
+
+ building_churning_tunnels_1: "ﺔﻳﺮﺠﺤﻟﺍ ﻞﻤﺤﺘﺗ"
+ building_churning_tunnels_1_desc: ".ﺓﺪﻴﻔﻤﻟﺍ ﻥﺩﺎﻌﻤﻟﺍ ﻦﻣ ﺮﺒﻛﺃ ﺕﺎﻴﻤﻛ ﺐﺤﺳ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺔﻴﻟﺎﺤﻟﺍ ﺝﺍﺮﺨﺘﺳﻻﺍ ﻊﻗﺍﻮﻣ ﻝﻮﺣﻭ ﻞﺧﺍﺩ ﻰﻟﺇ ﺔﻳﺭﻮﻠﺒﻟﺍ ﻪﺒﺷ ﺔﺑﻼﺼﻟﺍ ﺕﺍﺫ ﺔﻴﺗﺎﺒﻨﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻊﻓﺩ ﻢﺘﻳ"
+ building_churning_tunnels_2: "ﺔﻴﺜﻴﻠﻟﺍ ﺕﺎﺤﺷﺮﻤﻟﺍ"
+ building_churning_tunnels_2_desc: ".ﺔﻠﺋﺎﺴﻟﺍ ﻦﻳﺪﻌﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻦﻣ ﻲﺤﻄﺴﻟﺍ ﻥﺎﻳﺮﺠﻟﺍ ﻲﻓ ﻊﻴﻀﺗ ﺪﻗ ﻲﺘﻟﺍ ﺔﻨﻴﻤﺜﻟﺍ ﻥﺩﺎﻌﻤﻟﺍ ﻊﻤﺠﺑ ﺓﺫﺎﻔﻨﻟﺍ ﻪﺒﺷ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻴﺸﻏﻷﺍ ﺕﺍﺮﻤﻌﺘﺴﻣ ﻡﻮﻘﺗ"
+ building_churning_tunnels_3: "ﻡﻮﻴﺜﻴﻠﻟﺍ ﺭﻮﺘﻳﺮﻛﺎﻣ"
+ building_churning_tunnels_3_desc: ".ﻥﺩﺎﻌﻤﻟﺍ ﺹﻼﺨﺘﺳﺍ ﺔﻴﻠﻤﻋ ﻞﻴﻬﺴﺘﻟ ﻲﺋﺎﻴﻤﻴﻛ ﻁﻼﻣ ﻰﻟﺇ ﺔﻴﺑﺍﺮﺘﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻞﻳﻮﺤﺗ ﻰﻠﻋ ﺔﻳﻮﻘﻟﺍ ﺔﺷﺎﻤﻜﻟﺍﻭ ﻦﺤﻄﻟﺍ ﺡﺍﻮﻟﺃ ﺪﻋﺎﺴﺗ"
+ building_churning_tunnels_4: "ﺔﻳﺮﺠﺤﻟﺍ ﺕﺎﻣﺎﻤﺤﻟﺍ"
+ building_churning_tunnels_4_desc: ".ﺔﻴﻨﻏ ﺖﻧﺎﻛ ﺎﻤﻨﻳﺃ ،ﻊﻗﻮﻤﻟﺍ ﻲﻓ ﻥﺩﺎﻌﻤﻟﺍ ﺝﺍﺮﺨﺘﺳﺎﺑ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻴﺸﻏﻷﺍﻭ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻴﺋﺎﻴﻤﻴﻜﻟﺍ ﻞﻣﺍﻮﻌﻟﺍﻭ ﻦﺤﻄﻟﺍ ﺕﺍﻭﺩﺃ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﺢﻤﺴﺗ"
+
+ building_natural_furnace_0: "ﺮﻬﺼﻟﺍ ﺔﻛﺮﺑ"
+ building_natural_furnace_0_desc: ".ﻪﻟﻮﺣﻭ ﺍﺬﻫ ﻲﻌﻴﺒﻄﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺭﺪﺼﻣ ﻞﺧﺍﺩ ﺓﺩﻮﺠﻟﺍ ﺔﻴﻟﺎﻋ ﻚﺋﺎﺒﺳ ﺝﺎﺘﻧﻹ ﻞﻠﻛ ﻼﺑ ﺓﺭﺍﺮﺤﻠﻟ ﺔﺒﺤﻤﻟﺍ ﺕﻼﻓﺎﻜﺘﻤﻟﺍ ﻞﻤﻌﺗ"
+ building_natural_furnace_1: "ﺮﻬﺼﻟﺍ ﻥﺮﻓ"
+ building_natural_furnace_1_desc: ".ﺓﺩﻮﺠﻟﺍ ﺔﻘﺋﺎﻓ ﻚﺋﺎﺒﺳ ﺝﺎﺘﻧﺇ ﻲﻟﺎﺘﻟﺎﺑﻭ ،ﺓﺭﺍﺮﺤﻠﻟ ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﺎﻣﺍﺪﺨﺘﺳﺍ ﺓﺭﺍﺮﺤﻠﻟ ﺔﻣﻭﺎﻘﻤﻟﺍ ﺕﺍﻮﻤﻨﻟﺍ ﺢﻴﺘﺗ"
+ building_natural_furnace_2: "ﺐﻠﺼﻟﺍ ﺀﻮﻀﻟﺍ ﺮﻬﺼﻣ"
+ building_natural_furnace_2_desc: ".ﺕﺎﻣﺍﺪﺨﺘﺳﻻﺍ ﺓﺩﺪﻌﺘﻣ ﻚﺋﺎﺒﺳ ﺝﺎﺘﻧﺇ ،ﻡﺍﺮﻏﻮﻟﻮﻬﻟﺍ ﺔﻴﻨﻘﺗ ﺓﺪﻋﺎﺴﻤﺑ ،ﺓﺭﻮﻄﺘﻤﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﻮﺜﻴﻠﻟﺍ ﻥﺍﺮﻓﺃ ﺢﻴﺘﺗ"
+ building_natural_furnace_3: "ﺮﻬﺼﻣ ﻮﻧﺎﻧ"
+ building_natural_furnace_3_desc: ".ﺎﻬﻴﻓ ﺏﻮﻏﺮﻤﻟﺍ ﺮﻴﻏ ﺐﺋﺍﻮﺸﻟﺍ ﻦﻣ ﺎﻨﻜﺋﺎﺒﺳ ﺺﻴﻠﺨﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺓﺭﺍﺮﺤﻟﺍ ﺓﺪﻳﺪﺷ ﻥﺍﺮﻓﻷﺍﻭ ﻙﺮﺒﻟﺍ ﻩﺬﻫ ﻲﻓ ﺓﺭﺍﺮﺤﻠﻟ ﺔﺒﺤﻤﻟﺍ ﺔﻳﻮﻧﺎﻨﻟﺍ ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻦﻜﺴﺗ"
+
+ building_avatar_chamber_1: "ﺔﻳﺰﻣﺮﻟﺍ ﺓﺭﻮﺼﻟﺍ ﺪﻬﻣ"
+ building_avatar_chamber_1_desc: ".ﻲﻠﺻﻷﺍ ﻱﻮﻴﺤﻟﺍ ﺎﻬﻄﻴﺤﻣ ﺝﺭﺎﺧ ﺔﻓﻮﻟﺄﻤﻟﺍ ﺮﻴﻏ ﺲﻳﺭﺎﻀﺘﻟﺍﻭ ﺓﺎﻴﺤﻠﻟ ﺎﻫﺰﺋﺍﺮﻏ ﺩﺍﺪﻋﺇ .ﺔﻴﺳﺎﺳﻷﺍ ﻝﺎﻜﺷﻷﺍ ﻞﻴﻜﺸﺗ ﻲﻓ ﺔﻳﺮﺒﻟﺍ ﺃﺪﺒﺗ ﺚﻴﺣ ﺊﺷﺎﻧ ﻮﻀﻋ"
+ building_avatar_chamber_2: "ﺔﻳﺰﻣﺮﻟﺍ ﺓﺭﻮﺼﻟﺍ ﺔﻓﺮﻏ"
+ building_avatar_chamber_2_desc: ".ﻝﻮﻬﺠﻤﻟﺍ ﺪﻴﺴﺠﺘﺑ ﺔﻓﺮﻌﻤﻟﺍ ﺮﺸﺘﻨﺗ .ﺔﻴﺒﻨﺟﻷﺍ ﺔﻴﺌﻴﺒﻟﺍ ﺔﻤﻈﻧﻷﺍﻭ ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺓﺎﻛﺎﺤﻣﻭ ،ﺔﻴﻠﺧﺍﺪﻟﺍ ﺏﺭﺎﺠﺘﻟﺍ ﻝﻼﺧ ﻦﻣ ﺎﻬﻬﻴﺟﻮﺗﻭ ﺓﺎﻛﺎﺤﻤﻟﺍ ﻡﺎﺴﺟﻷﺍ ﺔﻋﺍﺭﺯ ﻢﺘﺗ"
+ building_avatar_chamber_2_effect: "ﺔﻴﻓﺎﺿﺇ ﺔﺣﺍﺭ ﻞﺋﺎﺳﻭ £amenities£ §!XYZT_0200$building_avatar_chamber_1$ ﺞﺘﻨﻳ "
+ building_avatar_chamber_3: "ﺔﻳﺰﻣﺮﻟﺍ ﺭﻮﺼﻟﺍ ﺔﺑﺎﻏ"
+ building_avatar_chamber_3_desc: ".ﻞﺒﻗ ﻦﻣ ﻪﺴﻤﻠﺗ ﻢﻟ ﺎﻣ ﺶﻴﻋ ﻝﻼﺧ ﻦﻣ ﺔﻳﺮﺒﻟﺍ ﻢﻠﻌﺘﺗ .ﺔﺒﻳﺮﻏ ﺔﻴﻌﻴﺒﻃ ﺮﻇﺎﻨﻣﻭ ﻝﺎﻜﺷﺃ ﻞﻜﺷ ﻰﻠﻋ ﺔﻳﺰﻣﺭ ﺭﻮﺻ ﺐﻟﺍﻮﻗ ﻑﺍﺮﻃﻷﺍ ﻲﻣﺍﺮﺘﻤﻟﺍ ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﺚﺒﻳ"
+ building_avatar_chamber_3_effect: "ﺔﻴﻓﺎﺿﺇ ﺔﺣﺍﺭ ﻞﺋﺎﺳﻭ £amenities£ §!XYZT_0400$building_avatar_chamber_1$ ﺞﺘﻨﻳ "
+ building_avatar_chamber_4: "ﺓﺮﺸﻘﻟﺍ ﺔﻳﺰﻣﺮﻟﺍ ﺓﺭﻮﺼﻟﺍ"
+ building_avatar_chamber_4_desc: ".ﺓﺮﺠﻤﻟﺍ ﻊﻣ ﺎﻫﺀﺎﻘﻟ ﻰﻠﻋ ﺔﻳﺮﺒﻟﺍ ﺏﺭﺪﺘﺗ ،ﺎﻨﻫ .ﺔﻓﺮﻄﺘﻣ ﺔﻴﺌﻴﺑ ﺮﻫﺍﻮﻇﻭ ،ﺔﺒﻳﺮﻏ ﺕﯫﻴﺑﻭ ،ﺎﻬﻠﻤﻛﺄﺑ ﺕﺍﺭﺎﻀﺣ ﺓﺎﻛﺎﺤﻣ ﻰﻠﻋ ﺭﺩﺎﻗ ،ﺐﻛﻮﻜﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺪﻴﺴﺠﺗ ﻙﺮﺤﻣ"
+ building_avatar_chamber_4_effect: "ﺔﻴﻓﺎﺿﺇ ﺔﺣﺍﺭ ﻞﺋﺎﺳﻭ £amenities£ §!XYZT_0800$building_avatar_chamber_1$ ﺞﺘﻨﻳ "
+
+ building_mote_aggravator: "ﻲﺋﺎﻴﻤﻴﻜﻟﺍ ﻢﺿﺎﻬﻟﺍ"
+ building_mote_aggravator_desc: ".ﺔﻴﻣﻮﻴﻟﺍ ﺔﻴﺿﺭﻷﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺓﺮﻳﺎﻄﺘﻣ ﺕﺍﺭﺫ ﺔﻴﺋﺎﻴﻤﻴﻜﻟﺍ ﺕﺎﺒﻠﻘﺘﺴﻤﻟﺍﻭ ﺔﻴﺋﺎﻋﻮﻟﺍ ﺔﺠﺴﻧﻷﺍ ﻦﻣ ﻖﻴﻧﺃ ﻡﺎﻈﻧ ﺞﺘﻨﻳ"
+
+ building_churning_stomach: "ﺔﺒﻳﺮﻐﻟﺍ ﺯﺎﻐﻟﺍ ﺕﺎﺤﺷﺮﻣ"
+ building_churning_stomach_desc: ".ﺓﺭﺮﻜﻤﻟﺍ ﺔﺒﻳﺮﻐﻟﺍ ﺕﺍﺯﺎﻐﻟﺍ ﻩﺬﻫ ﺝﺎﺘﻧﻹ ﻱﻮﺠﻟﺍ ﺀﺎﺒﻬﻟﺍ ﻊﻣ ﺺﺼﺨﺘﻟﺍ ﺔﻴﻟﺎﻋ ﺔﻳﻮﻧﺎﻨﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍﻭ ﺕﺎﺑﻭﺮﻜﻴﻤﻟﺍ ﻞﻋﺎﻔﺘﺗ"
+
+ building_crystal_growth: "ﻝﺎﺘﺴﻳﺮﻛ ﺮﻳﺮﺳ"
+ building_crystal_growth_desc: ".ﻖﻴﻗﺪﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ $rare_crystals$ ﻮﻤﻨﻟ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩﻭ ﺔﺑﻮﻃﺮﻟﺍ ﻲﻓ ﻖﻴﻗﺪﻟﺍ ﻢﻜﺤﺘﻟﺍ ﻞﻴﻬﺴﺗ ﻰﻠﻋ ﺔﺻﺎﺨﻟﺍ ﺕﻼﻈﻤﻟﺍ ﻞﻤﻌﺗ"
+
+ building_planetary_carapace: "ﻡﺎﻈﻌﻟﺍ ﺔﻴﻣﺎﺣ"
+ building_planetary_carapace_desc: ".ﻢﻬﺋﺎﻋﺪﺘﺳﺍ ﻰﻟﺇ ﺔﺟﺎﺤﻟﺍ ﺔﻟﺎﺣ ﻲﻓ ﺍﺩﺍﺪﻌﺘﺳﺍ ،ﻩﺬﻫ ﺔﻨﺼﺤﻤﻟﺍ ﺭﺎﺒﺘﺧﻻﺍ ﺽﺭﺃ ﻲﻓ ﻦﻴﺳﺮﺸﻟﺍ ﻦﻴﻴﻤﻴﻠﻗﻹﺍ ﻦﻴﺸﻳﺎﻌﺘﻤﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺩﺪﻋ ﺀﺍﻮﻳﺇ ﻢﺘﻳ ﺪﻗ"
+ mod_planet_building_planetary_carapace_build_speed_mult: "$building_planetary_carapace$ ﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ"
+ building_planetary_carapace_2: "ﻡﺎﻈﻌﻟﺍ ﻦﺼﺣ"
+ building_planetary_carapace_2_desc: ".ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ ﻞﻏﻮﺗ ﻱﻷ ﻥﻭﺪﻌﺘﺴﻣ ﺎﻬﻠﺧﺍﺪﺑ ﻦﻳﺩﻮﺟﻮﻤﻟﺍ ﻦﻴﻌﻓﺍﺪﻤﻟﺍ ﻥﺃ ﺔﻳﻮﻘﻟﺍ ﺔﻣﺎﻗﻹﺍ ﻦﻛﺎﻣﺃﻭ ﺐﻳﺭﺪﺘﻟﺍ ﺐﻋﻼﻣ ﻢﻀﺗ ﻲﺘﻟﺍ ﻑﺍﺮﻃﻷﺍ ﺔﻴﻣﺍﺮﺘﻤﻟﺍ ﺓﺄﺸﻨﻤﻟﺍ ﻩﺬﻫ ﻦﻤﻀﺗ"
+
+ building_ozone_thickener: "ﺐﻛﺍﻮﻜﻟﺍ ﻉﺭﺩ ﺔﻠﻈﻣ"
+ building_ozone_thickener_desc: "$tech_planetary_shield_generator_desc$"
+
+ building_subterranean_cache: "ﺽﺭﻷﺍ ﺖﺤﺗ ﺄﺒﺨﻣ"
+ building_subterranean_cache_desc: "$building_resource_silo_desc$"
+
+ building_cradle_of_rebirth: "ﺔﻀﻬﻨﻟﺍ ﺪﻬﻣ"
+ building_cradle_of_rebirth_desc: ".ﺔﺘﻣﺎﺻ ﺔﻀﺒﻧ ﻞﻜﺑ ﻢﻟﺎﻌﻟﺍ ﺪﺴﺟ ﻱﺬﻐﺗﻭ ،ﺔﻳﻮﻴﺣ ﺔﻠﺘﻛ ﻰﻟﺇ ﺔﺴﻳﺮﻔﻟﺍ ﺮﺳﺄﺗﻭ ﺔﻠﻠﺤﺘﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﺐﻠﻘﺘﺴﺗ ،ﻖﻤﻌﺑ ﺓﺭﺬﺠﺘﻤﻟﺍ ﺔﻴﻨﺒﻟﺍ ﻩﺬﻫ"
+
+ building_wilderness_storm_relief: "$building_storm_resistance_production$"
+ building_wilderness_storm_relief_desc: ".ﺮﻄﺨﻠﻟ ﺔﻴﺟﺎﺘﻧﻹﺍ ﻭﺃ ﺓﺎﻴﺤﻟﺍ ﺾﻳﺮﻌﺗ ﻥﻭﺩ ﺔﻴﻧﻮﻜﻟﺍ ﺔﻔﺻﺎﻌﻟﺍ ﻁﺎﺸﻨﻟ ﺔﻌﻳﺮﺴﻟﺍ ﺕﺎﺑﺎﺠﺘﺳﻻﺎﺑ ﺢﻤﺴﺗﻭ ،ﺎﻬﻟ ﺓﺭﻭﺎﺠﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻲﻓ ﺔﺸﻳﺎﻌﺘﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺔﻣﻼﺳ ﺔﻳﻮﻴﺤﻟﺍ ﺀﺎﺑﺮﻬﻜﻟﺎﺑ ﺔﻧﻮﺤﺸﻤﻟﺍﻭ ﺔﺒﻠﺼﺘﻤﻟﺍ ﻕﺍﺭﻭﻷﺍ ﻦﻣ ﺔﻌﺳﺍﻮﻟﺍ ﺔﻠﻈﻤﻟﺍ ﻦﻤﻀﺗ"
+ building_wilderness_storm_relief_tt: "§!%XYZT_225 ﺔﺒﺴﻨﺑ ﺐﻛﻮﻜﻟﺍ ﺝﺎﺘﻧﺇ ﻰﻠﻋ ﺮﺛﺆﺗ ﻲﺘﻟﺍ §Y$default_storm$§! ﻦﻋ ﺔﻤﺟﺎﻨﻟﺍ ﺔﻴﺒﻠﺴﻟﺍ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﻞﻴﻠﻘﺗ ﻢﺗ"
+
+ holding_wilderness_glade: "ﺪﻴﻠﺟ ﺲﻧﺭﺪﻠﻳﻭ"
+ holding_wilderness_glade_plural: "ﺔﻳﺮﺒﻟﺍ ﺕﺎﺤﺴﻓ"
+ holding_wilderness_glade_desc: ".ﺔﺒﻳﺮﻘﻟﺍ ﻯﺮﺧﻷﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ ﻲﻓ ﻥﻮﻋﺭﺎﺑ ﺔﻴﺒﻴﺠﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻞﺧﺍﺩ ﻥﻮﺸﻴﻌﻳ ﻦﻳﺬﻟﺍ ﻦﻴﺸﻳﺎﻌﺘﻤﻟﺍ ﻥﺈﻓ ،ﺔﻴﻠﺤﻤﻟﺍ ﺀﺍﺬﻐﻟﺍ ﺭﺩﺎﺼﻣ ﻰﻠﻋ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻫﺩﺎﻤﺘﻋﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻡﻷﺍ ﺔﻋﺎﻤﺠﻟﺎﺑ ﺎﻘﻴﺛﻭ ﺎﻃﺎﺒﺗﺭﺍ ﻂﺒﺗﺮﺗ ،ﺔﻴﻠﻓﺎﻜﺘﻟﺍ ﺔﻳﺮﺒﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻦﻣ ﺔﺠﺘﻨﻣ ﺔﻘﻄﻨﻣ"
+ holding_wilderness_glade_effect_desc: ".ﺔﻘﻄﻨﻤﻟﺍ ﺔﺤﺘﻓ ﻞﺘﺤﻳﻭ ،ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ ﺮﺛﺎﻜﺘﻳ §Y$holding_wilderness_glade$§! £blocker£A \n.ﻉﻮﺿﻮﻤﻟﺍ ﻢﻟﺎﻋ ﻲﻓ $Overlord $mod_planet_jobs_productive_upkeep_mult ﺪﻴﺴﻟﺍ ﻞﻠﻘﻳ\n .ﻰﻠﻋﻷﺍ ﺪﻴﺴﻠﻟ $r_basic_plural$ ﻰﻟﺇ [owner.WildernessGladeProvides] ﻉﻮﺿﻮﻤﻟﺍ ﻝﻮﺤﻳ"
+ no_free_district_for_wilderness_glade: "§R.ﻱﻮﻴﺤﻟﺍ ﺎﻨﻟﺎﺠﻤﻟ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺔﻴﻧﺎﺠﻣ ﺔﻘﻄﻨﻣ ﺪﺟﻮﺗ ﻻ§!$TRIGGER_FAIL$"
+ blocker_tied_to_wilderness_glade: "§!.ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻲﻓ ﺓﺩﻮﺟﻮﻣ ﺔﻀﺑﺎﻘﻟﺍ §R§Y$holding_wilderness_glade$§! ﻥﺃ ﺎﻤﻟﺎﻃ ﺮﻈﺤﻟﺍ ﺍﺬﻫ ﻰﻘﺒﻴﺳ§!$TRIGGER_FAIL$"
+ d_wilderness_glade_blocker: "$d_wilderness_root_blocker$"
+ d_wilderness_glade_blocker_desc: ".ﺔﺒﻳﺮﻐﻟﺍ ﺎﻨﺘﺌﻴﺑ ﻲﻓ ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺀﺎﻘﺒﻟﺎﺑ ﺔﻴﺒﻴﺠﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻬﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﺒﻳﺮﻘﻟﺍ $holding_wilderness_glade$ ﻢﻋﺪﻟ ﺓﺮﻴﺒﻛ ﺔﻳﺭﺬﺟ ﻞﻛﺎﻴﻫ ﻰﻟﺇ ﺔﺟﺎﺣ ﻙﺎﻨﻫ"
+ holding_wilderness_glade_modifier: "ﺔﻋﺯﻮﻤﻟﺍ ﺔﻳﺮﺒﻟﺍ ﺕﺎﺤﺴﻓ"
+ holding_wilderness_glade_modifier_desc: ".ﻝﺩﺎﺒﺘﻤﻟﺍ ﻪﻠﻀﻓ ﻢﺳﺎﻘﺘﻳ ﻚﻳﺮﺷ ﻞﻛ ،ﺎﻨﻤﻟﺎﻋ ﻊﻣ ﺔﻤﻏﺎﻨﺘﻣ ﺔﻌﺑﺎﺗ ﻢﻟﺍﻮﻋ" # appears in 'lore brown'
+ holding_wilderness_glade_modifier_tt: ".§Y$holding_wilderness_glade_plural$§! ﻒﻴﻀﺘﺴﺗ ﻲﺘﻟﺍ ﺕﺎﻋﻮﺿﻮﻤﻟﺍ ﻢﻟﺍﻮﻋ ﺩﺪﻋ ﻰﻠﻋ ﺍﺩﺎﻤﺘﻋﺍ ﻎﻟﺎﺒﻤﻟﺍ ﻒﻠﺘﺨﺗ"
+
+####################################
+# Districts
+####################################
+ district_craglands: "ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﻡﻮﻴﺑ"
+ district_craglands_plural: "ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﺔﻴﺋﺎﻴﺣﻷﺍ ﻖﻃﺎﻨﻤﻟﺍ"
+ district_craglands_desc: ".ﺖﻗﻮﻟﺍ ﺲﻔﻧ ﻲﻓ ﺎﻬﻴﻠﻋ ﻥﻭﺪﻤﺘﻌﻳﻭ ﺔﻳﺮﺒﻟﺍ ﻥﻮﻠﻜﺸﻳ ﻦﻳﺬﻟﺍ ﻦﻴﺸﻳﺎﻌﺘﻤﻠﻟ ﻯﻭﺄﻤﻟﺍ ﺀﺍﺮﻀﺨﻟﺍ ﻦﻴﺗﺎﺴﺒﻟﺍ ﻩﺬﻫ ﺮﻓﻮﺗ"
+ mod_district_craglands_max_add: "$district_craglands_plural$ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ"
+ mod_planet_district_craglands_build_speed_mult: "$district_craglands$ ﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ"
+
+ district_orchard_forests: "ﻥﺎﺘﺴﺒﻟﺍ ﺔﺑﺎﻏ"
+ district_orchard_forests_plural: "ﻦﻴﺗﺎﺴﺒﻟﺍ ﺕﺎﺑﺎﻏ"
+ district_orchard_forests_desc: ".ﺔﺸﻳﺎﻌﺘﻤﻟﺍ ﺲﺋﺍﺮﻔﻟﺍﻭ ﻞﻛﻸﻟ ﺔﺤﻟﺎﺼﻟﺍ ﺏﻮﺒﺤﻟﺍ ﻰﺘﺣﻭ ﻱﻮﻠﺨﻟﺍ ﻲﺋﺍﺬﻐﻟﺍ ﻥﻭﺰﺨﻤﻟﺍ ﻦﻣ ﺍﺀﺪﺑ ﺀﻲﺷ ﻞﻛ ﻮﻤﻨﺗ ،ﺪﻴﺼﻟﺍﻭ ﺔﻋﺍﺭﺰﻠﻟ ﺔﺼﺼﺨﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ"
+ mod_district_orchard_forests_max_add: "$district_orchard_forests_plural$ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ"
+ mod_planet_district_orchard_forests_build_speed_mult: "$district_orchard_forests$ ﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ"
+
+ district_orchard_forests_uncapped: "$district_orchard_forests$"
+ district_orchard_forests_uncapped_plural: "$district_orchard_forests_plural$"
+ district_orchard_forests_uncapped_desc: "$district_orchard_forests_desc$"
+ mod_district_orchard_forests_uncapped_max: "$mod_district_orchard_forests_max_add$"
+ mod_planet_district_orchard_forests_uncapped_build_speed_mult: "$mod_planet_district_orchard_forests_build_speed_mult$"
+
+ #district_metallic_dew_plains: "Metallic Seam Biome"
+ #district_metallic_dew_plains_plural: "Metallic Seam Biomes"
+ #district_metallic_dew_plains_desc: "Complex geological forms and bespoke refinery buildings are sited throughout these mineral-rich regions."
+ #district_metallic_dew_plains_tooltip_desc: "$i_alloys$ from each §H$building_natural_furnace_0$§!: §G+1§!"
+ #mod_district_metallic_dew_plains_max: "Max $district_metallic_dew_plains_plural$"
+ #mod_planet_district_metallic_dew_plains_build_speed_mult: "$district_metallic_dew_plains$ Build Speed"
+
+ district_photosynthesis_fields: "ﻲﺋﻮﻀﻟﺍ ﻞﻴﺜﻤﺘﻟﺍ ﻝﺎﺠﻣ"
+ district_photosynthesis_fields_plural: "ﻲﺋﻮﻀﻟﺍ ﻞﻴﺜﻤﺘﻟﺍ ﺕﻻﺎﺠﻣ"
+ district_photosynthesis_fields_desc: ".ﺔﻗﺎﻄﻟﺍ ﻊﻤﺠﺗ ﻲﺘﻟﺍ ﺔﻌﺳﺎﺸﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻩﺬﻬﻟ ﻱﺮﻘﻔﻟﺍ ﺩﻮﻤﻌﻟﺍ ﻲﺋﻮﻀﻟﺍ ﻞﻴﺜﻤﺘﻟﺍ ﻒﻌﺴﺑ ﻙﺎﺴﻣﻹﺍ ﻞﻜﺸﻳ"
+ mod_district_photosynthesis_fields_max_add: "$district_photosynthetic_fields_plural$ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ"
+ mod_planet_district_photosynthesis_fields_build_speed_mult: "$district_photosynthetic_fields$ ﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ"
+
+ district_photosynthesis_fields_uncapped: "$district_photosynthetic_fields$"
+ district_photosynthesis_fields_uncapped_plural: "$district_photosynthetic_fields_plural$"
+ district_photosynthesis_fields_uncapped_desc: "$district_photosynthetic_fields_desc$"
+ mod_district_photosynthesis_fields_uncapped_max: "$district_photosynthetic_fields_plural$ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ"
+ mod_planet_district_photosynthesis_fields_uncapped_build_speed_mult: "$mod_planet_district_photochemistry_fields_build_speed_mult$"
+
+ district_hollow_mountains: "ﻑﻮﺠﻟﺍ ﻞﺒﺟ"
+ district_hollow_mountains_plural: "ﺔﻓﻮﺠﻤﻟﺍ ﻝﺎﺒﺠﻟﺍ"
+ district_hollow_mountains_desc: ".ﺔﻨﻴﻤﺜﻟﺍ ﻥﺩﺎﻌﻤﻟﺍ ﻦﻋ ﻢﻬﺜﺤﺑ ﻲﻓ ﺀﺎﻳﻮﻗﻷﺍ ﻥﻮﺸﻳﺎﻌﺘﻤﻟﺍ ﺎﻫﺮﻔﺣ ﻲﺘﻟﺍ ﻢﺟﺎﻨﻤﻟﺎﺑ ﺔﺌﻴﻠﻣ ﺔﻳﺮﺨﺼﻟﺍ ﺔﻴﻌﻴﺒﻄﻟﺍ ﺮﻇﺎﻨﻤﻟﺍ ﻩﺬﻫ"
+ mod_district_hollow_mountains_max_add: "$district_hollow_mountains_plural$ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ"
+ mod_planet_district_hollow_mountains_build_speed_mult: "$district_hollow_mountains$ ﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ"
+
+ district_hollow_mountains_uncapped: "$district_hollow_mountains$"
+ district_hollow_mountains_uncapped_plural: "$district_hollow_mountains_plural$"
+ district_hollow_mountains_uncapped_desc: "$district_hollow_mountains_desc$"
+ mod_district_hollow_mountains_uncapped_max: "$mod_district_hollow_mountains_max_add$"
+ mod_planet_district_hollow_mountains_uncapped_build_speed_mult: "$mod_planet_district_hollow_mountains_build_speed_mult$"
+
+####################################
+# Zones
+####################################
+zone_urban_wilderness: "ﻑﻭﺮﺠﺗﺭﺎﻫ"
+zone_urban_wilderness_desc: ".ﺔﺌﺷﺎﻧ ﺔﻔﻴﻇﻭ ﻱﺃ ﻢﻋﺪﻟ ﺓﺰﻫﺎﺟ ﻲﻫﻭ ،ﺔﻘﻴﻤﻋﻭ ﺔﻌﺳﺍﻭ ﺎﻫﺭﻭﺬﺟ ﻉﺭﺰﺗ ﺚﻴﺣ ،ﺎﻬﻠﻴﻜﺸﺗ ﺪﻴﻌﺗﻭ ﺭﺍﺮﻤﺘﺳﺎﺑ ﺎﻨﻫ ﺲﻧﺭﺪﻠﻳﻭ ﻊﺳﻮﺘﺗ .ﺓﺰﻳﺮﻐﻟﺍﻭ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻠﻟ ﺾﺑﺎﻧ ﺮﻫﻮﺟ"
+
+zone_foundry_wilderness: "ﺕﻮﻐﺘﻟﻮﻣ"
+zone_foundry_wilderness_desc: ".ﻢﻟﺎﻌﻟﺍ ﻲﻓ ﻲﻣﺎﻨﺘﻤﻟﺍ ﻲﻤﻈﻌﻟﺍ ﻞﻜﻴﻬﻟﺍ ﻱﺬﻐﻳ ،ﻲﻤﻀﻫ ﻉﺎﻘﻳﺇ ﻲﻓ ﺎﻨﻫ ﻥﺪﻌﻤﻟﺍ ﻞﻜﺸﻳ $job_forgesymbiont_plural$ .ﺔﻳﺮﺼﻨﻌﻟﺍ ﺓﻮﻘﻟﺍﻭ ﺮﻬﺼﻨﻤﻟﺍ ﺮﺠﺤﻟﺎﺑ ﺔﻳﺭﺍﺮﺤﻟﺍ ﺔﻓﺮﻐﻟﺍ ﻩﺬﻫ ﻖﻓﺪﺘﺗ"
+
+zone_research_wilderness: "ﻢﻴﺘﺴﻜﻨﻴﺛ"
+zone_research_wilderness_desc: ".ﺓﺪﻳﺪﺟ ﻢﻴﻫﺎﻔﻣﻭ ،ﺓﺪﻳﺪﺟ ﺱﺍﻮﺣﻭ ،ﺓﺪﻳﺪﺟ ﻑﺍﺮﻃﺄﺑ ﺎﻨﻫ ﺮﻬﻈﺗ $job_evosymbiont_plural$ .ﺓﺮﻔﻄﻤﻟﺍ ﺓﺮﻫﺰﻟﺍﻭ ﺐﺼﻌﻟﺍ ﺭﺬﺟ ﻦﻣ ﺔﻌﻔﺗﺮﻣ ﺓﺪﻘﻋ"
+
+zone_unity_wilderness: "ﺕﺍﺭﺪﺤﻨﻤﻟﺍ ﺀﺎﻨﻐﻟﺍ"
+zone_unity_wilderness_desc: ".ﻲﻨﻐﻳ ﻪﺴﻔﻧ ﻢﻟﺎﻌﻟﺍ ﻉﺪﻴﻟ ،$job_choirsymbiont_plural$ ﻊﻤﺘﺠﻳ ،ﺎﻨﻫ .ﻢﻟﺎﻌﻟﺍ ﺢﻄﺳ ﺮﺒﻋ ﺕﺎﻘﺒﻄﻟﺍ ﺓﺩﺪﻌﺘﻣ ﺕﺎﻤﻐﻧ ﺡﺎﻳﺮﻟﺍ ﻞﻤﺤﺗ ﺚﻴﺣ ،ﻱﺮﺠﺤﻟﺍ ﻢﺤﻠﻟﺍﻭ ﺔﻓﻮﺠﻤﻟﺍ ﻡﺎﻈﻌﻟﺎﺑ ﺔﺌﻴﻠﻣ ﺔﻘﻫﺎﺷ ﺕﺎﻨﻳﻮﻜﺗ"
+
+zone_fortress_wilderness: "ﺓﺩﺎﻴﻘﻟﺍ ﺔﺒﻤﻟ"
+zone_fortress_wilderness_desc: ".ﺯﺮﻔﺗ ﻞﺑ ،ﺮﻣﺄﺗ ﻻ ﺔﻳﺮﺒﻟﺍ .ﺔﻌﻗﻮﺘﻤﻟﺍ ﺩﻮﺸﺤﻟﺍ ﻪﻴﺟﻮﺗﻭ ﺪﺸﺤﻟ ﺔﺤﺋﺍﺭ ﺕﺎﻀﺒﻧ ﻖﻠﻄﺗﻭ ،$job_tamersymbiont_plural$ ﻊﻤﺠﺘﺗ ﺚﻴﺣ ﺔﻨﻘﺘﺤﻣ ﺔﻴﺴﺣ ﺓﺪﻘﻋ"
+
+zone_minerals_wilderness: "ﻦﻴﺒﺴﻳﺭﻭﺃ"
+zone_minerals_wilderness_desc: ".ﺔﺌﻴﻄﺒﻟﺍ ﺔﻳﺮﺒﻟﺍ ﺱﺎﻔﻧﺃ ﻊﻣ ﺾﺒﻨﺗﻭ ﻥﺩﺎﻌﻤﻟﺍ ﻢﻛﺍﺮﺘﺗ ،ﺔﻴﻔﻬﻜﻟﺍ ﻪﻣﺎﻈﻋ ﻞﺧﺍﺩ .ﻮﻀﻋ ﺀﺰﺟﻭ ،ﻝﺎﺒﺟ ﺔﻠﺴﻠﺳ ﻪﻨﻣ ﺀﺰﺟ ،ﻲﺤﻟﺍ ﺮﺠﺤﻟﺍ ﻦﻣ ﻖﻫﺎﺷ ﻞﻜﻴﻫ"
+
+zone_energy_wilderness: "ﺔﻴﺴﻤﺸﻟﺍ ﺕﺎﻳﺮﻄﻔﻟﺍ"
+zone_energy_wilderness_desc: ".ﻡﻮﺠﻨﻟﺍ ﺱﻮﻗ ﺀﺍﺭﻭ ﺎﻴﻌﺳ ﺔﻳﺭﺍﺮﺤﻟﺍ ﺕﺍﺭﺎﻴﺘﻟﺍ ﺎﺒﻛﺍﺭ ،ﺀﺎﻤﺴﻟﺍ ﻰﻟﺇ $job_photosymbiont_plural$ ﻕﻼﻃﺇ ﻢﺘﻳ ،ﺔﻌﺸﻤﻟﺍ ﺕﺎﻀﺒﻨﻟﺍ ﻩﺬﻫ ﻦﻣﻭ .ﺔﻴﻋﺎﻘﻳﺇ ﺕﺎﻌﻓﺩ ﻲﻓ ﺮﻓﺰﺗ ﻰﺘﺣ ﻂﻐﻀﻟﺍ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻂﻘﺘﻠﻤﻟﺍ ﺲﻤﺸﻟﺍ ﺀﻮﺿ ﻊﻣ ﻲﺋﻮﻀﻟﺍ ﻞﻴﺜﻤﺘﻟﺍ ﺔﺠﺴﻧﺃ ﻦﻣ ﻑﺍﺮﻃﻷﺍ ﺔﻴﻣﺍﺮﺘﻤﻟﺍ ﻝﻮﻘﺤﻟﺍ ﺦﻔﺘﻨﺗ"
+
+zone_food_wilderness: "ﻡﻮﻠﻣﻮﻠﺑ"
+zone_food_wilderness_desc: ".ﻲﻜﻴﻧﺎﻜﻴﻣ ﻊﻨﺼﻣ ﻱﺃ ﺓﺀﺎﻔﻜﺑ ﺐﻛﻮﻜﻟﺍ ﺔﺑﻮﺼﺧ ﻢﻴﻈﻨﺗ ﻢﺘﻳ ﺎﻨﻫ ﻦﻣﻭ .ﺞﻴﺴﻨﻟﺍ ﻲﻓ ﻁﻮﻴﺨﻟﺍ ﻞﺜﻣ ﺢﻴﻘﻠﺘﻟﺍ ﻕﺮﻃ ﺞﺴﻨﻳ ،ﺕﺎﻧﻮﻣﻭﺮﻴﻔﻟﺍﻭ ﺕﻼﺘﺒﻟﺍ ﻦﻣ ﻱﺮﻄﻋ ﻍﺎﻣﺩ"
+
+zone_research_unity_wilderness: "ﺔﻴﻘﻓﺍﻮﺘﻟﺍ ﺓﺍﻮﻨﻟﺍ"
+zone_research_unity_wilderness_desc: ".ﺩﺩﺮﺘﻳ ﻪﻧﺇ .ﺎﻨﻫ ﺃﺪﺒﻳ ﻻ ﺮﻜﻔﻟﺍ .ﺔﻓﺮﻌﻤﻟﺍﻭ ﺓﺮﻛﺍﺬﻟﺍ ﻝﻼﺧ ﻦﻣ ﺔﻓﺮﻌﻤﻟﺍ ﺰﺘﻬﺗ ﺚﻴﺣ ،ﺔﻳﺮﺒﻟﺍ ﺐﻠﻗ ﻲﻓ ﻲﻋﺎﻘﻳﺇ ﻮﻀﻋ"
+
+zone_trade_wilderness: "ﻖﻳﺮﻄﻟﺍ"
+zone_trade_wilderness_desc: ".ﻪﺴﻔﻧ ﻢﻠﺴﻳ ﺔﻳﺮﺒﻟﺍ .ﺎﻬﻟﺎﺳﺭﺇﻭ ﺓﺎﻴﺤﻟﺍ ﺕﺎﻴﺳﺎﺳﺃ ﺞﺴﻨﺑ $job_spindlesymbiont_plural$ ﻡﻮﻘﻳ ﺚﻴﺣ ﻞﻜﻳ ﻻ ﻪﻴﺟﻮﺗ ﺰﻛﺮﻣ ﺀﺎﺸﻧﺇ ﻰﻠﻋ ﻦﻳﺰﺨﺘﻟﺍ ﺱﺎﻴﻛﺃﻭ ﺔﻔﺘﻠﻤﻟﺍ ﻑﺍﺮﻃﻷﺍﻭ ﺔﻴﻔﻴﻠﻟﺍ ﺕﺎﻘﻠﺤﻟﺍ ﻞﻤﻌﺗ"
+
+####################################
+# Decisions
+####################################
+ decision_wilderness_expand: "ﺐﻛﻮﻜﻟﺍ ﻢﺠﺣ ﻊﻴﺳﻮﺗ"
+ decision_wilderness_expand_desc: ".ﺎﻨﻤﻟﺎﻋ ﺔﻴﻤﻨﺗ ﻞﺟﺃ ﻦﻣ ﺎﻫﺎﻨﻌﻤﺟ ﻲﺘﻟﺍ ﺔﻴﻘﻨﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ ﺏﺎﻌﻴﺘﺳﺍ ﺪﻋﺃ"
+ decision_wilderness_mastery_over_nature_desc: ".ﺐﻛﻮﻜﻟﺍ ﺕﯫﻴﺑ ﻊﻴﻤﺟ ﻊﻣ ﻒﻴﻜﺘﻟﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻳ .ﺔﺣﺎﺴﻤﻟﺍ ﻚﻠﺗ ﺮﻴﻓﻮﺗ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ﺍﺬﻟ ،ﻮﻤﻨﻠﻟ ﺔﺣﺎﺴﻣ ﻰﻟﺇ ﺔﻴﻋﺎﻤﺠﻟﺍ ﺎﻨﺗﺍﻭﺫ ﺝﺎﺘﺤﺗ"
+
+####################################
+# Jobs
+####################################
+
+ pop_cat_wilderness_heart_strata: "$ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ$"
+ pop_cat_wilderness_heart_strata_plural: "$ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ$"
+ pop_cat_wilderness_heart_strata_desc: ".ﺍﺪﺣﺍﻭ ﻼﻘﻋ ﻥﺎﻛ ﻮﻟ ﺎﻤﻛ ﻪﻠﻤﻛﺄﺑ ﻲﺌﻴﺒﻟﺍ ﻂﻴﺤﻤﻠﻟ ﺔﻛﺮﺘﺸﻤﻟﺍ ﺓﺩﺍﺭﻹﺍ ﻦﻋ ﺮﻴﺒﻌﺘﻟﺍ ﻢﺘﻳ"
+ mod_pop_cat_wilderness_heart_strata_bonus_workforce_mult: "$pop_cat_wilderness_heart_strata_plural$ ـﻟ ﺔﻠﻣﺎﻌﻟﺍ ﻯﻮﻘﻟﺍ ﺓﺄﻓﺎﻜﻣ"
+
+ pop_cat_menial_symbiont: "ﺖﻧﻮﻴﺒﻤﻴﺳ ﻊﻴﺿﻭ"
+ pop_cat_complex_symbiont: "ﺓﺪﻘﻌﻤﻟﺍ ﺖﻧﻮﻴﺒﻤﻴﺳ"
+
+ pollinosymbiont: "$job_pollinosymbiont$"
+ job_pollinosymbiont: "ﺕﺎﺣﺎﻘﻠﻟﺍ ﺶﻳﺎﻌﺗ"
+ job_pollinosymbiont_plural: "ﺕﺎﺣﺎﻘﻠﻟﺍ ﺶﻳﺎﻌﺗ"
+ job_pollinosymbiont_plural_with_icon: " $job_pollinosymbiont_plural$£job_pollinosymbiont£"
+ job_pollinosymbiont_desc: ".ﺀﺍﻮﺳ ﺪﺣ ﻰﻠﻋ ﺔﻴﻧﺎﺟﺮﻤﻟﺍ ﺏﺎﻌﺸﻟﺍﻭ ﺝﻭﺮﻤﻟﺍﻭ ﺕﺎﺑﺎﻐﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﻞﺑ ،ﺐﺴﺤﻓ ﺭﻮﻫﺰﻟﺍ ﺢﻴﻘﻠﺘﺑ ﻥﻮﻣﻮﻘﻳ ﻻﻭ ،ﺐﻛﺍﻮﻜﻟﺍ ﺔﺑﻮﺼﺨﺑ ﻢﻬﻔﻴﻠﻜﺗ ﻢﺗ"
+ job_pollinosymbiont_effect_desc: "§Y$food$§! £food£ $job_pollinosymbiont_plural$ ﺝﺎﺘﻧﺇ £job_pollinosymbiont£"
+ mod_job_pollinosymbiont_add: "$job_pollinosymbiont$ ﻒﺋﺎﻇﻭ"
+ mod_job_pollinosymbiont_pop: " $job_pollinosymbiont$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_pollinosymbiont_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_pollinosymbiont_add£ §G+1§!\n"
+
+ photosymbiont: "$job_photosymbiont$"
+ job_photosymbiont: "ﺖﻧﻮﻳﺎﺒﻤﻴﺳﻮﺗﻮﻓ"
+ job_photosymbiont_plural: "ﺲﺘﻧﻮﻴﺒﻤﻴﺳﻮﺗﻮﻓ"
+ job_photosymbiont_plural_with_icon: " $job_photosymbiont_plural$£job_photosymbiont£"
+ job_photosymbiont_desc: ".ﺲﻤﺸﻟﺍ ﺱﻮﻗ ﻊﻣ ﺔﻨﻣﺍﺰﺘﻣ ﻲﻫﻭ ،ﺭﺍﺪﻤﻟﺍ ﻦﻣ ﺔﺸﻳﺎﻌﺘﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ ﺓﺮﺠﻫ ﺕﺎﻋﺎﻘﻳﺇ ﺔﻳﺅﺭ ﻦﻜﻤﻳ"
+ job_photosymbiont_effect_desc: "§Y$ﺔﻗﺎﻃ$§! £energy£ $job_photosymbiont_plural$ ﺝﺎﺘﻧﺇ £job_photosymbiont£"
+ mod_job_photosymbiont_add: "$job_photosymbiont$ ﻒﺋﺎﻇﻭ"
+ mod_job_photosymbiont_per_pop: " $job_photosymbiont$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_photosymbiont_pop_short:0 "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_photosymbiont_add£ §G+1§!\n"
+
+ grubsymbiont: "$job_grubsymbiont$"
+ job_grubsymbiont: "ﺖﻧﻮﻴﺒﻤﻴﺴﺑﻭﺮﺟ"
+ job_grubsymbiont_plural: "ﺲﺘﻧﻮﻴﺒﻤﻴﺴﺑﻭﺮﺟ"
+ job_grubsymbiont_plural_with_icon: " $job_grubsymbiont_plural$£job_grubsymbiont£"
+ job_grubsymbiont_desc: ".ﻦﻴﻤﺜﻟﺍ ﻥﺪﻌﻤﻟﺍ ﻯﺪﺻ ﻰﻟﺇ ﻻﺇ ﻥﻮﺑﺬﺠﻨﻳ ﻻﻭ ،ﺕﺍﺯﺍﺰﺘﻫﻻﺎﺑ ﻥﻭﺮﻔﺤﻳ ،ﺔﻤﻋﺎﻨﻟﺍ ﻡﺎﺴﺟﻷﺍ ﻱﻭﺫﻭ ﺮﺼﺒﻟﺍ ﻲﻤﻳﺪﻋ ،ﻥﻮﻠﻓﺎﻜﺘﻤﻟﺍ ﺀﻻﺆﻫ"
+ job_grubsymbiont_effect_desc: "§Y$ﻥﺩﺎﻌﻤﻟﺍ$§! £minerals£ $job_grubsymbiont_plural$ ﺝﺎﺘﻧﺇ £job_grubsymbiont£"
+ mod_job_grubsymbiont_add: "$job_grubsymbiont$ ﻒﺋﺎﻇﻭ"
+ mod_job_grubsymbiont_per_pop: " $job_grubsymbiont$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_grubsymbiont_pop_short:0 "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_grubsymbiontt_add£ §G+1§!\n"
+
+ choirsymbiont: "$job_choirsymbiont$"
+ job_choirsymbiont: "ﺖﻧﻮﻴﺒﻤﻴﺳﺭﻮﻛ"
+ job_choirsymbiont_plural: "ﺕﺎﻗﻮﺟ"
+ job_choirsymbiont_with_icon: " $job_choirsymbiont$£job_choirsymbiont£"
+ job_choirsymbiont_plural_with_icon: " $job_choirsymbiont_plural$£job_choirsymbiont£"
+ job_choirsymbiont_desc: ".ﻞﻜﻟﺍ ﻊﻓﺮﺗﻭ ﻪﺟﻮﺗ ﺓﺪﻘﻌﻣﻭ ﺔﻴﺣ ﻰﻘﻴﺳﻮﻣ .ﻱﻮﻴﺤﻟﺍ ﻂﻴﺤﻤﻟﺍ ﺮﺒﻋ ﺝﻮﻤﺗ ﺕﺎﻘﺒﻄﻟﺍ ﺓﺩﺪﻌﺘﻣ ﺔﻴﻨﺤﻟ ﺕﺍﺀﺍﺪﻧ ﺔﺸﻳﺎﻌﺘﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ ﺭﺪﺼﺗ"
+ job_choirsymbiont_effect_desc: "§Y$unity$§! £unity£ ﻰﻟﺇ (§Y$minerals$§! £minerals£ ﻭﺃ) §Y$food$§! £food£ﻭ §Y$energy$§! £energy£ $job_choirsymbiont_plural$ ﻞﻳﻮﺤﺗ £job_choirsymbiont£"
+ mod_job_choirsymbiont_add: "$job_choirsymbiont$ ﻒﺋﺎﻇﻭ"
+ mod_job_choirsymbiont_per_pop: " $job_choirsymbiont$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_choirsymbiont_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_choirsymbiont_add£ §G+1§!\n"
+
+ forgesymbiont: "$job_forgesymbiont$"
+ job_forgesymbiont: "ﺖﻧﻮﻴﺒﻤﻴﺴﻴﺟﺭﻮﻓ"
+ job_forgesymbiont_plural: "ﺲﺘﻧﻮﻴﺒﻤﻴﺴﻴﺟﺭﻮﻓ"
+ job_forgesymbiont_plural_with_icon: " $job_forgesymbiont_plural$£job_forgesymbiont£"
+ job_forgesymbiont_desc: ".ﺔﻳﺮﺒﻟﺍ ﻰﻟﺇ ﺔﻣﺪﻘﻤﻟﺍ ﻦﻴﺑﺍﺮﻘﻟﺍ ﻞﺜﻣ ﻰﻠﻋﻷﺍ ﻰﻟﺇ ﺎﻬﻠﻤﺤﺗﻭ ،ﻚﺋﺎﺒﺳ ﻝﺎﻜﺷﺃ ﻰﻟﺇ ﻡﺎﺨﻟﺍ ﺕﺎﻣﺎﺨﻟﺍ ﺔﻴﻘﻨﺘﺑ ﻡﻮﻘﺗﻭ ،ﺓﺰﻳﺮﻐﻟﺎﺑ ﺪﺷﺮﺘﺴﺗﻭ ﺓﺭﺎﻬﺼﻟﺍ ﻦﻣ ﺔﺸﻳﺎﻌﺘﻤﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻩﺬﻫ ﺪﻟﻮﺗ"
+ job_forgesymbiont_effect_desc: "§Y$ﻚﺋﺎﺒﺳ$§! £alloys£ ﻰﻟﺇ §Y$ﻥﺩﺎﻌﻤﻟﺍ$§! £minerals£ $job_forgesymbiont_plural$ ﻝﻮﺤﻳ £job_forgesymbiont£"
+ mod_job_forgesymbiont_add: "$job_forgesymbiont$ ﻒﺋﺎﻇﻭ"
+ mod_job_forgesymbiont_per_pop: " $job_forgesymbiont$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_forgesymbiont_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_forgesymbiont_add£ §G+1§!\n"
+
+ evosymbiont_physicist: "$job_evosymbiont$ ﺀﺎﻳﺰﻴﻓ"
+ evosymbiont_biologist: "$job_evosymbiont$ ﺀﺎﻴﺣﻷﺍ ﻢﻠﻋ"
+ evosymbiont_engineer: "$job_evosymbiont$ ﺔﺳﺪﻨﻬﻟﺍ"
+ evosymbiont: "$job_evosymbiont$"
+
+ job_evosymbiont_physicist: "$job_evosymbiont$ ﺀﺎﻳﺰﻴﻓ"
+ job_evosymbiont_biologist: "$job_evosymbiont$ ﺀﺎﻴﺣﻷﺍ ﻢﻠﻋ"
+ job_evosymbiont_engineer: "$job_evosymbiont$ ﺔﺳﺪﻨﻬﻟﺍ"
+ job_evosymbiont_physicist_plural: "$job_evosymbiont_plural$ ﺀﺎﻳﺰﻴﻓ"
+ job_evosymbiont_biologist_plural: "$job_evosymbiont_plural$ ﺀﺎﻴﺣﻷﺍ ﻢﻠﻋ"
+ job_evosymbiont_engineer_plural: "$job_evosymbiont_plural$ ﺔﺳﺪﻨﻬﻟﺍ"
+ job_evosymbiont_physicist_desc: "$job_evosymbiont_desc$"
+ job_evosymbiont_biologist_desc: "$job_evosymbiont_desc$"
+ job_evosymbiont_engineer_desc: "$job_evosymbiont_desc$"
+ job_evosymbiont: "ﺖﻧﻮﻳﺎﺒﻤﻴﺳﻮﻔﻳﺇ"
+ job_evosymbiont_plural: "ﺲﺘﻧﻮﻴﺒﻤﻴﺳﻮﻔﻳﺇ"
+ job_evosymbiont_icon: "£job_brain_drone_physicist£"
+ job_evosymbiont_with_icon: " $job_evosymbiont$£job_brain_drone_physicist£"
+ job_evosymbiont_plural_with_icon: " $job_evosymbiont_plural$[calculator_engineer.GetIcon][calculator_biologist.GetIcon][calculator_physicist.GetIcon]"
+ job_evosymbiont_desc: ".ﺔﻴﺋﺎﻴﻤﻴﻜﻟﺍ ﻎﻴﺼﻟﺍ ﺯﻮﻣﺭ ﻚﻓﻭ ﺔﻴﺑﺫﺎﺠﻟﺍ ﻕﻭﺬﺘﻟ ،ﺔﻜﺒﺸﻟﺎﺑ ﺔﻬﻴﺒﺸﻟﺍ ﻙﺍﻮﺷﻷﺍﻭ ﺔﻳﺭﺎﺴﻜﻧﻻﺍ ﺔﻴﺸﻏﻷﺍﻭ ﺓﺪﻳﺪﺠﻟﺍ ﺕﺎﻴﺋﺍﻮﻬﻟﺎﺑ ﺔﺌﻴﻠﻤﻟﺍ ،ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ ﺕﺭﻮﻄﺗ ﺪﻘﻟ .ﺔﻴﺣ ﺕﺎﻴﺿﺮﻓ ﻲﻫ ﻦﻴﺸﻳﺎﻌﺘﻤﻟﺍ ﺀﻻﺆﻫ ﺩﺎﺴﺟﺃ"
+ job_evosymbiont_effect_desc: " $job_evosymbiont_plural$ ﻞﻳﻮﺤﺗ $r_minerals$ ﻰﻟﺇ $r_physics$ $r_society$ $r_engineering$£job_brain_drone_physicist£"
+ job_evosymbiont_physicist_effect_desc: " $job_evosymbiont_physicist_plural$ ﻝﻮﺤﻳ $r_minerals$ ﻰﻟﺇ $r_physics$£job_brain_drone_physicist£"
+ job_evosymbiont_biologist_effect_desc: " $job_evosymbiont_biologist_plural$ ﻝﻮﺤﻳ $r_minerals$ ﻰﻟﺇ $r_society$£job_brain_drone_biologist£"
+ job_evosymbiont_engineer_effect_desc: " $job_evosymbiont_engineer_plural$ ﻝﻮﺤﻳ $r_minerals$ ﻰﻟﺇ $r_engineering$£job_brain_drone_engineer£"
+
+ mod_job_evosymbiont_add: "$job_evosymbiont$ ﻒﺋﺎﻇﻭ"
+ mod_job_evosymbiont_per_pop: " $job_evosymbiont$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_evosymbiont_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_brain_Drone_add£ §G+1§!\n"
+
+ tamersymbiont: "$job_tamersymbiont$"
+ job_tamersymbiont: "ﺖﻧﻮﻴﺒﻤﻴﺳﺮﻣﺎﺗ"
+ job_tamersymbiont_plural: "ﺖﻧﻮﻴﺒﻤﻴﺳﺮﻣﺎﺗ"
+ job_tamersymbiont_desc: ".ﻖﺴﻨﻣ ﻲﺒﻛﻮﻛ ﻉﺎﻓﺩ ﻰﻟﺇ ﺔﻳﺮﺒﻟﺍ ﺓﺰﻳﺮﻐﻟﺍ ﻞﻳﻮﺤﺗﻭ ،ﺮﻈﺘﻨﻤﻟﺍ ﺪﺸﺤﻟﺍ ﻪﻴﺟﻮﺘﻟ ﺓﺪﻘﻌﻣ ﺔﻴﻧﻮﻣﺮﻓ ﺕﺍﺭﺎﺷﺇ ﺔﺸﻳﺎﻌﺘﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ ﺚﻌﺒﺗ"
+ job_tamersymbiont_effect_desc: "§Yﻉﺎﻓﺪﻟﺍ ﺵﻮﻴﺟ§! £defense_army£، $r_stability$، ﺮﺸﻨﻟﺍﻭ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§! £mod_country_naval_cap_add£ $job_tamersymbiont_plural$ ﺓﺩﺎﻳﺯ [soldier.GetIcon]"
+ mod_job_tamersymbiont_add: "$job_tamersymbiont$ ﻒﺋﺎﻇﻭ"
+ mod_job_tamersymbiont_per_pop: " $job_tamersymbiont$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_tamersymbiont_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_patrol_drone_add£ §G+1§!\n"
+ immunosymbiont: "$job_immunosymbiont$"
+ job_immunosymbiont: "ﻲﻋﺎﻨﻣ"
+ job_immunosymbiont_plural: "ﻲﻋﺎﻨﻤﻟﺍ ﺶﻳﺎﻌﺘﻟﺍ"
+ job_immunosymbiont_desc: ".ﻢﺠﺤﻟﺍ ﺮﻴﺒﻛ ﻦﺋﺎﻜﻟ ﻢﺠﺤﻟﺍ ﺓﺮﻴﺒﻛ ﺓﺩﺎﻀﻣ ﻡﺎﺴﺟﺃﻭ ،ﺔﻳﺮﺒﻟﺍ ﺭﻭﺬﺠﻟﺍ ﻲﻓ ﺕﺎﻳﺭﻭﺪﺑ ﻡﻮﻘﺗﻭ ،ﺔﺿﺭﺎﻌﻤﻟﺍ ﻞﻄﻌﺗﻭ ﻑﺍﺮﺤﻧﻻﺍ ﺔﻠﻓﺎﻜﺘﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ ﻒﺸﺘﻜﺗ"
+ job_immunosymbiont_effect_desc: "§Y$unity$§! £unity£ ﺝﺎﺘﻧﺇﻭ ،§Yﻉﺎﻓﺪﻟﺍ ﺵﻮﻴﺟ§! £defense_army£ ﺮﺸﻧ ،§Y$PLANET_CRIME_NO_HAPPINESS_TITLE$§! £crime£ $job_immunosymbiont_plural$ ﻞﻴﻠﻘﺗ [patrol_drone.GetIcon]"
+
+ broodsymbiont: "$job_broodsymbiont$"
+ job_broodsymbiont: "ﺖﻧﻮﻴﺒﻤﻴﺳﺩﻭﺮﺑ"
+ job_broodsymbiont_plural: "ﺔﻨﻀﺤﻟﺍ ﺶﻳﺎﻌﺗ"
+ job_broodsymbiont_plural_with_icon: " $job_broodsymbiont_plural$[spawning_drone.GetIcon]"
+ job_broodsymbiont_desc: ".ﺐﻛﻮﻜﻟﺍ ﻪﺒﻠﻄﺘﻳ ﺪﻗ ﺀﻲﺷ ﻱﺃ ﻰﻟﺇ ﻝﻮﺤﺘﻠﻟ ﺓﺄﻴﻬﻣ ﻡﺎﺧ ﺔﻴﺣ ﺓﺩﺎﻣ :ﺔﻧﺮﻣ ﺔﻳﻮﻴﺣ ﺔﻠﺘﻜﺑ ﺔﻳﺮﺒﻟﺍ ﺔﻠﻓﺎﻜﺘﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ ﻊﺒﺸﺗ"
+ job_broodsymbiont_effect_desc: "§YBiomass§! £biomass£ﻭ §Y$PLANET_AMENITIES_TITLE$§! £mod_planet_amenities_no_happiness_add£ $job_broodsymbiont_plural$ ﻝﻮﺤﻳ $r_food$ (ﻭﺃ $r_minerals$) ﻰﻟﺇ [spawning_drone.GetIcon]"
+ mod_job_broodsymbiont_add: "$job_broodsymbiont$ ﻒﺋﺎﻇﻭ"
+ mod_job_broodsymbiont_per_pop: " $job_broodsymbiont$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ ﺏﻮﺒﻟﺍ ﻦﻣ§G+1§!"
+ mod_job_broodsymbiont_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_spawning_drone_add£ §G+1§!\n"
+
+ motesymbiote: "$job_motesymbiote$"
+ job_motesymbiote: "ﺖﻧﻮﻴﺒﻤﻴﺴﺗﻮﻣ"
+ job_motesymbiote_plural: "ﺖﻧﻮﻴﺒﻤﻴﺴﺗﻮﻣ"
+ job_motesymbiote_desc: ".ﺔﻠﺗﺎﻗﻭ ﺔﻗﺮﺸﻣﻭ ﺓﺮﻴﻐﺻ .ﺓﺮﻘﺘﺴﻣ ﺮﻴﻏ ﺓﻮﻗ ﻦﻣ ﺔﻀﻣﺍﻭ ﺕﺍﺭﺫ ﻥﻮﺸﻳﺎﻌﺘﻤﻟﺍ ﺀﻻﺆﻫ ﺪﻟﻮﻳ ،ﻕﺍﺮﺘﺣﻻﺍ ﺔﻓﺎﺣ ﻰﻠﻋ ﻥﻮﺸﻴﻌﻳ ﻦﻳﺬﻟﺍ"
+ job_motesymbiote_effect_desc: "§Y$volatile_motes$§! £volatile_motes£ ﻰﻟﺇ [GetCatalyticMineralsOrFood] $job_motesymbiote_plural$ ﻝﻮﺤﻳ [chemist_drone.GetIcon]"
+ mod_job_motesymbiote_add: "$job_motesymbiote$ ﻒﺋﺎﻇﻭ"
+ mod_job_motesymbiote_per_pop: " $job_motesymbiote$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_motesymbiote_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_chemist_drone_add£ §G+1§!\n"
+
+ crystalsymbiote: "$job_crystalsymbiote$"
+ job_crystalsymbiote: "ﺖﻧﻮﻴﺒﻤﻴﺴﻟﺎﺘﺴﻳﺮﻛ"
+ job_crystalsymbiote_plural: "ﺖﻧﻮﻴﺒﻤﻴﺴﻟﺎﺘﺴﻳﺮﻛ"
+ job_crystalsymbiote_desc: ".ﺔﻴﻋﺎﻤﺠﻟﺍ ﺔﺟﺎﺤﻟﺍﻭ ﺔﻔﻴﻇﻮﻟﺍﻭ ﺔﺌﻴﺒﻟﺍ ﺐﺴﺣ ﻮﻤﻧ ﻞﻛ ﻞﻜﺸﺘﻳ .ﻢﻬﻣﺎﺴﺟﺃ ﺮﺒﻋ ﺓﺭﺩﺎﻧ ﺔﻳﺭﻮﻠﺑ ﺕﺎﻨﻳﻮﻜﺗ ﻥﻮﺸﻳﺎﻌﺘﻤﻟﺍ ﺀﻻﺆﻫ ﻉﺭﺰﻳ"
+ job_crystalsymbiote_effect_desc: "§Y$rare_crystals$§! £rare_crystals£ ﻰﻟﺇ [GetCatalyticMineralsOrFood] $job_crystalsymbiote_plural$ ﻞﻳﻮﺤﺗ [translucer_drone.GetIcon]"
+ mod_job_crystalsymbiote_add: "$job_crystalsymbiote$ ﻒﺋﺎﻇﻭ"
+ mod_job_crystalsymbiote_per_pop: " $job_crystalsymbiote$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_crystalsymbiote_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_translucer_drone_add£ §G+1§!\n"
+
+ gaseosymbiote: "$job_gaseosymbiote$"
+ job_gaseosymbiote: "ﻲﺘﻧﻮﻴﺒﻤﻴﺳﻭﺯﺎﻏ" #Cus I don't want to have a Gassy  mbionte
+ job_gaseosymbiote_plural: "ﺔﻳﺯﺎﻐﻟﺍ ﺕﺎﺸﻳﺎﻌﺘﻤﻟﺍ"
+ job_gaseosymbiote_desc: ".ﻲﻌﻴﺒﻃ ﻞﻜﺸﺑ ﺔﺒﻳﺮﻐﻟﺍ ﺕﺍﺯﺎﻐﻟﺍ ﺪﻴﻟﻮﺘﻟ ﺔﻣﺯﻼﻟﺍ ﺔﻘﻴﻗﺪﻟﺍ ﻑﻭﺮﻈﻟﺍ ﻰﻠﻋ ،ﺔﻴﺑﻭﺮﻜﻴﻤﻟﺍ ﺀﺎﻴﻤﻴﻜﻟﺍ ﺓﺬﺗﺎﺳﺃ ﻢﻫﻭ ،ﻥﻮﺸﻳﺎﻌﺘﻤﻟﺍ ﺀﻻﺆﻫ ﻆﻓﺎﺤﻳ"
+ job_gaseosymbiote_effect_desc: "§Y$exotic_gases$§! £exotic_gases£ ﻰﻟﺇ [GetCatalyticMineralsOrFood] $job_gaseosymbiote_drone_plural$ ﻞﻳﻮﺤﺗ [gas_refiner_drone.GetIcon]"
+ mod_job_gaseosymbiote_add: "$job_gaseosymbiote_drone$ ﻒﺋﺎﻇﻭ"
+ mod_job_gaseosymbiote_per_pop: " $job_gaseosymbiote_drone$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ ﺕﺎﺑﻮﺒﻟﺍ ﻦﻣ§G+1§!"
+ mod_job_gaseosymbiote_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_gas_refiner_drone_add£ §G+1§!\n"
+
+ spindlesymbiont: "$job_spindlesymbiont$"
+ job_spindlesymbiont: "Spindlesymbiont"
+ job_spindlesymbiont_plural: "ﻥﻮﻴﻟﺰﻐﻤﻟﺍ"
+ job_spindlesymbiont_desc: ".ﺔﻳﺮﺒﻟﺍ ﻥﺯﺍﻮﺗ ﺔﻛﺮﺣ ﻞﻛ .ﺎﻬﻴﻟﺇ ﺔﺟﺎﺤﻟﺍ ﺪﺘﺸﺗ ﺚﻴﺣ ﺩﺍﻮﻤﻟﺍﻭ ،ﺓﺩﺎﻤﻟﺍﻭ ،ﺔﻴﺋﺍﺬﻐﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻪﻴﺟﻮﺗﻭ ،ﺩﺭﺍﻮﻤﻟﺍ ﻖﻓﺪﺗ ﻞﻓﺎﻜﺘﻤﻟﺍ ﺍﺬﻫ ﻪﺟﻮﻳ ،ﺔﺒﻳﺮﻐﻟﺍ ﺔﻴﺴﺤﻟﺍ ﺀﺎﻀﻋﻷﺍﻭ ﺔﻧﺮﻤﻟﺍ ﻑﺍﺮﻃﻷﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻋ ﻊﻣ"
+ job_spindlesymbiont_with_icon: " $job_spindlesymbiont$£job_spindlesymbiont£"
+ job_spindlesymbiont_plural_with_icon: " $job_spindlesymbiont_plural$£job_spindlesymbiont£"
+ job_spindlesymbiont_effect_desc: "$job_spindlesymbiont_plural_with_icon$ ﺞﺘﻨﺗ $r_trade$"
+ mod_job_spindlesymbiont_add: "$job_spindlesymbiont$ ﻒﺋﺎﻇﻭ"
+
+ job_wilderness_maintenance_drone: "ﺔﻧﺮﻤﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ"
+ job_wilderness_maintenance_drone_plural: "$job_wilderness_maintenance_drone$"
+ job_wilderness_maintenance_drone_desc: ".ﺎﻬﻴﻟﺇ ﺔﺟﺎﺤﻟﺍ ﻦﻴﺤﻟ ﺎﻬﺘﻧﺎﻴﺻﻭ ﺎﻬﻨﻳﺰﺨﺗ ﻢﺘﻳﻭ ،ﺕﺎﻧﺎﻜﻣﻹﺎﺑ ﺔﺌﻴﻠﻣ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ"
+ job_heart_processing: "ﺎﺜﻳﺪﺣ ﺔﻠﻜﺸﻤﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ"
+ job_heart_processing_plural: "$job_heart_processing$"
+ job_heart_processing_desc: ".ﺎﻨﺴﻔﻧﺃ ﻞﺧﺍﺩ ﻰﻠﻋﺃ ﺔﻔﻴﻇﻭ ﻡﺪﺨﺗ ﻥﺃ ﺎﻬﻟ ﺭﺪﻘﻣ .ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ ﻩﺬﻫ ﺞﻣﺩ ﺎﺒﻳﺮﻗ ﻢﺘﻴﺳﻭ"
+
+ neurosymbiont: "$job_neurosymbiont$"
+ job_neurosymbiont: "ﺖﻧﻮﻳﺎﺒﻤﺳﻭﺭﻮﻴﻧ"
+ job_neurosymbiont_plural: "ﻲﺒﺼﻌﻟﺍ ﺶﻳﺎﻌﺘﻟﺍ"
+ job_neurosymbiont_plural_with_icon: " $job_neurosymbiont_plural$£job_neurosymbiont£"
+ job_neurosymbiont_desc: ".ﺶﺣﻮﻟﺍ ﺔﻴﺴﻔﻧ ﻲﻓ ﺎﻨﺘﻴﺴﻔﻧ ﺔﻳﺬﻐﺗ ﻲﻓ ﻂﻴﻘﻨﺘﻟﺎﺑ ﻢﻬﺗﺎﻴﺣ ﻥﻮﺸﻳﺎﻌﺘﻤﻟﺍ ﺀﻻﺆﻫ ﻲﻀﻘﻳ ،ﻕﻼﻤﻌﻟﺍ ﻦﻴﺑﻭ ﺎﻨﻨﻴﺑ ﺔﻴﺣ ﺕﺍﻮﻨﻗ"
+ job_neurosymbiont_effect_desc: "§Y$ﺔﻗﺎﻃ$§! £energy£ $job_neurosymbiont_plural$ ﺝﺎﺘﻧﺇ £job_neurosymbiont£"
+ mod_job_neurosymbiont_add: "$job_neurosymbiont$ ﻒﺋﺎﻇﻭ"
+ mod_job_neurosymbiont_per_pop: " $job_neurosymbiont$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_neurosymbiont_pop_short:0 "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_neurosymbiont_add£ §G+1§!\n"
+
+####################################
+# Traditions
+####################################
+ tr_adaptability_appropriation_wilderness: "ﺕﺍﺩﺎﻤﺘﻋﻻﺍ"
+ tr_adaptability_appropriation_wilderness_delayed: ".ﺎﻬﻴﻟﺇ ﺔﺟﺎﺤﻟﺍ ﺪﺘﺸﺗ ﻲﺘﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻚﻠﺗ ﻰﻟﺇ ﺔﻟﺎﻌﻓ ﺔﻘﻳﺮﻄﺑ [GetIndividualNamePluralCap] ﻞﻘﻧ ﺐﺠﻳ .ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻲﻓ ﺀﻲﺷ ﻱﺄﺑ ﻢﻫﺎﺴﺗ ﻻ ﺔﻠﻐﺘﺴﻤﻟﺍ ﺮﻴﻏ ﺔﻴﺌﻴﺒﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻥﺇ"
+ tr_discovery_faith_in_science_wilderness: "ﺔﻳﺮﻄﻔﻟﺍ ﺕﺎﻜﺒﺸﻟﺍ"
+ tr_discovery_faith_in_science_wilderness_delayed: ".ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﻑﺎﺸﺘﻛﺎﺑ ﺢﻤﺴﻳ ﺕﺎﻳﺮﻄﻔﻟﺍ ﻰﻠﻋ ﺔﻤﺋﺎﻗ ﺔﻄﺑﺍﺮﺘﻣ ﺔﻜﺒﺷ ﻲﻓ [GetIndividualNamePlural] ﻊﻴﻤﺠﻟ ﻲﻌﻴﺒﻄﻟﺍ ﻝﻮﻀﻔﻟﺍ ﺮﻴﺨﺴﺗ ﻥﺇ"
+ tr_domination_wilderness_network: "ﻲﻠﻜﻟﺍ ﻲﺋﺍﺬﻐﻟﺍ ﻞﻴﺜﻤﺘﻟﺍ ﺔﻴﻠﻤﻋ ﻊﻳﺮﺴﺗ"
+ tr_domination_wilderness_network_delayed: ".ﺾﻌﺒﻟﺍ ﺎﻨﻀﻌﺒﻟ ﺎﻨﻣ ﺀﺰﺟ ﻞﻛ ﺎﻬﻣﺪﻘﻳ ﻥﺃ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺕﺍﺪﻋﺎﺴﻤﻟﺍ ﻢﺠﺣ ﻲﻓ ﺮﻴﺒﻛ ﻦﻴﺴﺤﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﻱﺭﺎﻘﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ﻰﻠﻋ ﺔﻗﺎﻄﻟﺍ ﻝﺩﺎﺒﺗ ﻝﺪﻌﻣ ﺓﺩﺎﻳﺯ ﻥﺇ"
+ tr_domination_wilderness_network_effect: " $edict_drone_overdrive_wilderness$§Y:ﻡﻮﺳﺮﻤﻟﺍ ﺢﺘﻓ§!"
+ tr_domination_imperious_architecture_wilderness: "ﻥﻮﻣﺮﻓ ﻉﺍﻮﻧﻷﺍ ﻦﻴﺑ ﻖﻓﺍﻮﺘﻟﺍ"
+ tr_domination_imperious_architecture_wilderness_desc: "§G+1§!: §Y$defense_army_plural$§! £defense_army£ ﺮﻴﻓﻮﺗ §Y$district_craglands_plural$§!"
+ tr_domination_imperious_architecture_wilderness_delayed: ".ﺔﻴﺟﺭﺎﺨﻟﺍ ﺕﺍﺪﻳﺪﻬﺘﻠﻟ ﻉﺮﺳﺃ ﺕﺎﺑﺎﺠﺘﺳﺍ [GetIndividualNamePlural] ﻊﻴﻤﺟ ﻦﻴﺑ ﻲﻧﻮﻣﻭﺮﻴﻔﻟﺍ ﻝﺎﺼﺗﻻﺍ ﺽﺮﻓ ﺢﻴﺘﻳ"
+ tr_expansion_colonization_fever_wilderness: "ﺓﺮﻴﺜﻛ ﻢﻟﺍﻮﻋ ﻞﻘﻋ"
+ tr_expansion_colonization_fever_wilderness_desc: ".ﺪﻳﺪﺟ ﻢﻟﺎﻋ ﺭﺎﻤﻌﺘﺳﺍ ﺪﻨﻋ ﺎﻴﺋﺍﻮﺸﻋ §YDistrict£district£§! ﻒﺿﺃ"
+ tr_expansion_colonization_fever_wilderness_delayed: ".ﺀﺎﻀﻔﻠﻟ ﺩﺭﺎﺒﻟﺍ ﻍﺍﺮﻔﻟﺍ ﻰﺘﺣ ﺎﻬﺘﻜﺴﻳ ﻥﺃ ﻦﻜﻤﻳ ﻻ ﻲﺘﻟﺍ ﺭﺎﻜﻓﻷﺍ ﻦﻣ ﺔﻗﻮﺟ ﻦﻋ ﺓﺭﺎﺒﻋ [GetGestaltEntityName]"
+ tr_expansion_a_new_life_wilderness: "ﻲﺸﻔﺘﻤﻟﺍ ﻮﻤﻨﻟﺍ"
+ tr_expansion_a_new_life_wilderness_delayed: ".ﻪﻠﻛﺎﺸﻤﻟ ﻝﻮﻠﺤﻟﺍ ﺮﻳﻮﻄﺘﺑ [GetGestaltEntityName] ﻡﻮﻘﻳ"
+ tr_expansion_courier_network_wilderness: "$tr_expansion_courier_network_hive$"
+ tr_expansion_courier_network_wilderness_delayed: ".ﺐﻛﻮﻜﻟﺍ ﻞﻘﻋ ﻦﻣ ﻞﻣﺎﻜﻟﺍ ﻡﺎﻤﺘﻫﻻﺍ ﻰﻟﺇ ﺔﺟﺎﺤﻟﺍ ﻥﻭﺩ ﻑﺪﻬﺘﺴﻤﻟﺍ ﻝﺎﺼﺗﻻﺎﺑ ﺢﻤﺴﻳ ﺮﺒﻛﻷﺍ ﻞﻜﻟﺍ ﻦﻣ ﺮﻐﺻﺃ ﺎﻴﻋﺮﻓ ﺎﻤﺴﻗ ﺎﻫﺭﺎﺒﺘﻋﺎﺑ ﺔﻳﻮﻴﺣ ﺔﻘﻄﻨﻣ ﻞﻛ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻥﺇ"
+ tr_expansion_galactic_ambition_wilderness: "$tr_expansion_galactic_ambition_hive$"
+ tr_expansion_galactic_ambition_wilderness_delayed: ".[GetGestaltEntityName] ﺶﻴﻌﻳ ﻰﺘﺣ [GetIndividualNamePlural] ﻦﻣ ﻦﻴﻳﻼﻤﻟﺍ ﺕﻮﻤﻴﺳ .ﻮﻤﻨﻟﺍ ﻲﻓ ﺭﺍﺮﻤﺘﺳﻻﺍ ﺎﻨﻨﻜﻤﻳ ﻪﺘﻴﺑﺮﺗﻭ ﻑﻮﺨﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺐﻠﻐﺘﻟﺍ ﻝﻼﺧ ﻦﻣ ﻂﻘﻓ .ﺎﻧﺪﻬﻣ ﻢﻟﺎﻋ ﻦﻋ ﺍﺪﻴﻌﺑ ،ﻡﻼﻈﻟﺍ ﻲﻓ ﻝﻭﻷﺍ ﻲﺒﻳﺮﺠﺘﻟﺍ ﻕﻼﺤﻤﻟﺍ ﻲﺋﺍﺪﺒﻟﺍ ﺐﻋﺮﻟﺍ ﻖﻓﺍﺭ"
+ tr_prosperity_pursuit_of_profit_wilderness: "ﻲﻤﻟﺎﻌﻟﺍ ﻞﺋﺎﺴﻟﺍ ﻞﻘﻨﻟﺍ"
+ tr_prosperity_pursuit_of_profit_wilderness_delayed: ".ﺔﺟﺎﺘﺤﻤﻟﺍ ﺔﻴﺌﻴﺒﻟﺍ ﻢﻈﻨﻟﺍ ﺔﻠﻤﻜﺘﻟ ﺔﻤﻬﻤﻟﺍ ﺀﺎﻨﺒﻟﺍ ﺩﺍﻮﻣﻭ ﺔﻳﺬﻐﺘﻟﺍ ﺓﺭﺎﻘﻠﻟ ﺓﺪﺘﻤﻤﻟﺍ ﺓﺩﺭﻭﻷﺍ ﻞﻘﻨﺗ"
+ tr_prosperity_public_works_wilderness: "ﺔﻴﻓﻮﺠﻟﺍ ﻥﺭﺍﻭ"
+ tr_prosperity_public_works_wilderness_desc: "§Y$MOD_PLANET_HOUSING_ADD$§! £housing£ §G+50§! §Yﻖﻃﺎﻨﻤﻟﺍ§! £district£ ﻊﻴﻤﺟ ﺮﻓﻮﺗ"
+ tr_prosperity_public_works_wilderness_delayed: ".ﺎﻬﻨﻣ ﺪﻳﺰﻤﻟﺍ ﺏﺎﻌﻴﺘﺳﺍ ﻦﻜﻤﻳ ،ﺔﻴﻌﻤﺷ ﻞﻛﺎﻴﻬﺑ ﺎﻬﺷﺎﺸﻋﺃ ﻞﻤﻜﻳﻭ ﺔﻴﺤﻄﺴﻟﺍ ﺓﺮﺸﻘﻟﺍ ﺕﺎﻘﺒﻃ ﻞﻠﺨﺘﻳ [GetIndividualNamePlural] ﺩﻮﺟﻭ ﻝﻼﺧ ﻦﻣ"
+ tr_synchronicity_kinship_wilderness: "ﺔﻨﻣﺍﺰﺘﻤﻟﺍ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺔﻋﺎﺴﻟﺍ ﺕﺎﻋﺎﻘﻳﺇ"
+ tr_synchronicity_kinship_wilderness_delayed: ".ﺎﻴﻤﻟﺎﻋ ﺔﻴﺋﺍﺬﻐﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻊﻳﺯﻮﺗ ﺓﺩﺎﻋﻹ ﺔﻴﻌﻴﺒﻃ ﻝﻭﺍﺪﺟ ﺭﻮﻬﻇ ﻰﻟﺇ [GetIndividualNamePlural] ـﻟ ﺔﺣﺍﺮﻟﺍ ﺕﺍﺭﻭﺩ ﻲﻓ ﻖﻴﻗﺪﻟﺍ ﻢﻜﺤﺘﻟﺍ ﻱﺩﺆﻳ"
+
+####################################
+# Ascension Perks
+####################################
+
+ ap_mastery_of_nature_wilderness: "$ap_mastery_of_nature$"
+ ap_mastery_of_nature_wilderness_desc: ".ﺔﻌﻴﺒﻄﻟﺍ ﻦﺤﻧ .ﺃﺪﺒﻤﻟﺍ ﺍﺬﻬﺑ ﺶﻴﻌﻧ ،ﺓﺮﺠﺷ ﻝﻮﻃﺃ ﻰﻟﺇ ﺔﻴﻠﺧ ﺮﻐﺻﺃ ﻦﻣ .ﻞﻛﺆﺗﻭ ﻞﻛﺄﺗ ﻲﺘﻟﺍ ﺓﺭﻭﺪﻟﺍ ﻦﺤﻧ"
+ ap_engineered_evolution_wilderness: "$ap_engineered_evolution$"
+ ap_engineered_evolution_wilderness_desc: ".ﻚﻟﺬﻛ ﻦﺤﻧﻭ ،ﺔﺌﻴﺒﻟﺍ ﺕﺮﻴﻐﺗ ﺪﻘﻟ .ﻪﺘﺌﻴﺑ ﺏﺭﺎﺠﺗ ﻰﻠﻋ ﺐﻠﻐﺘﻠﻟ ﺎﻨﻴﻋﻭ ﺭﻮﻄﺗ"
+ engineered_evolution_wilderness_tt: "ﺔﻴﺜﺤﺑ ﺕﺍﺭﺎﻴﺨﻛ ﻲﺛﺍﺭﻮﻟﺍ ﻞﻳﺪﻌﺘﻟﺍ ﺕﺎﻴﻨﻘﺗ ﺢﻨﻤﻳ ﻱﺬﻟﺍ ،§Y$council_agenda_agenda_engineered_evolution_name$§!- $UNLOCKS_AGENDA$ \n.$TABBED_NEW_LINE$- $REQUIRES_TRADITION_SLOT$['tradition_category:tradition_purity'] ﺪﻴﻟﺎﻘﺘﻟﺍ ﺓﺮﺠﺷ ﺢﺘﻔﻳ ﻱﺬﻟﺍ §Y$genetic_ascension_situation$ Situation§! ﺀﺪﺑ -"
+
+############
+# Espionage
+############
+ operation_embed_planetary_roots: "ﺐﻛﺍﻮﻜﻟﺍ ﺭﻭﺬﺟ ﻦﻴﻤﻀﺗ" # literal roots, as in plantlife
+ operation_embed_planetary_roots_desc: ".ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻴﺋﺍﺬﻐﻟﺍ ﺕﺍﺩﺍﺪﻣﻹﺍ ﺔﻠﺴﻠﺳ ﻞﻴﻄﻌﺗ ﻰﺘﺣ ﺎﻤﺑﺭﻭ ،ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺲﺴﺠﺘﻟﺍ ﺔﻜﺒﺷ ﻢﻈﻌﻣ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﺎﻨﻨﻜﻤﻳ ،ﺔﻓﺪﻬﺘﺴﻤﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ ﺪﺣﺃ ﻲﻓ ﻙﺭﺪﻣ ﻪﺒﺷ ﻡﻮﻴﺑﻭﺮﻜﻴﻣ ﻉﺭﺯ ﻝﻼﺧ ﻦﻣ ،ﻚﻟﺫ ﻊﻣﻭ .ﺖﻗﻮﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﻳﺭﺎﺒﺨﺘﺳﻻﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻊﻤﺠﻟ [owner.GetIndividualNamePlural] ـﻟ ﺎﺣﺎﺤﻟﺇ ﺮﺜﻛﺃ ﺕﺎﻣﺍﺪﺨﺘﺳﺍ ﺎﻨﻳﺪﻟ" # the Wilderness embeds a part of itself, hence 'microbiome'
+ operation_embed_planetary_roots_on_success: "$operation_sleeper_cells_on_success$"
+ espionage_planetary_roots: "ﺔﻴﺒﻛﻮﻜﻟﺍ ﺭﻭﺬﺠﻟﺍ"
+ espionage_planetary_roots_desc: ".ﺔﻈﺤﻟ ﻱﺃ ﻲﻓ [owner.GetIndividualNamePlural] ﺔﻳﺭﺎﺒﺨﺘﺳﻻﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻊﻤﺟ ﺔﻴﻠﻤﻋ ﻢﻋﺪﻟ ﺓﺰﻫﺎﺟ ﺔﻴﺋﺍﺪﺒﻟﺍ ﺔﻠﻓﺎﻜﺘﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ .ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻩﺬﻫ ﻲﻓ ﻥﻭﺆﺸﻟﺎﺑ ﻢﻠﻋ ﻰﻠﻋ ﺎﻨﻴﻘﺒﻳ ﻙﺭﺪﻣ ﻪﺒﺷ ﻡﻮﻴﺑﻭﺮﻜﻴﻣ ﻦﻴﻤﻀﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+ operation_embed_planetary_roots_requires_blocker: "§R.ﻑﺪﻬﻟﺍ ﻢﻟﺍﻮﻋ ﺪﺣﺃ ﻲﻓ ['concept_natural_blocker'] ﺩﻮﺟﻭ ﺎﻨﺑ ﺹﺎﺨﻟﺍ $espionage_planetary_roots$ ﺐﻠﻄﺘﻳ§!$TRIGGER_FAIL$ "
+ operation_embed_planetary_roots_dont_stack_this: "§!.§R§Y[planet_roots_success]§! ﻰﺘﺣ ﺎﻫﺪﺋﺍﻮﻓ ﺮﻤﺘﺴﺗ ﺪﻗ .[target.GetName] ﻞﺧﺍﺩ $espionage_planetary_roots$ ﻦﻴﻤﻀﺘﺑ ﻞﻌﻔﻟﺎﺑ ﺎﻨﻤﻗ ﺪﻘﻟ§!$TRIGGER_FAIL$ "
+ operation_embed_planetary_roots_not_cleared: ".§R[target.GetName] ﻞﺧﺍﺩ ﺎﻣ ﻥﺎﻜﻣ ﻲﻓ ﺎﻨﺑ ﺹﺎﺨﻟﺍ $espionage_planetary_roots$ ﺩﻮﺟﻮﺑ ﺭﻮﻌﺸﻟﺍ ﺎﻨﻧﺎﻜﻣﺈﺑ ﻝﺍﺰﻳ ﻻ§!$TRIGGER_FAIL$ "
+ d_wilderness_root_blocker: "ﺔﻳﺯﺎﻐﻟﺍ ﺔﺑﺎﻏ"
+ d_wilderness_root_blocker_desc: ".ﺔﻴﻔﻳﺮﻟﺍ ﻲﺿﺍﺭﻷﺍ ﻩﺬﻫ ﻑﺍﺮﻃﺃ ﻰﻠﻋ ﺔﻴﻠﺻﻷﺍ ﺮﻴﻏﻭ ﺔﻠﻗﺎﻌﻟﺍ ﻪﺒﺷ ﺔﻳﺮﺒﻟﺍ ﻦﻣ ﻖﻧﺎﺧ ﺐﻴﺟ ﺦﺳﺮﺗ ﺪﻘﻟ"
+
+ wilderness.4500.name: "ﻱﺭﺍﺮﺒﻟﺍ ﻂﻴﺸﻤﺗ"
+ wilderness.4500.desc: ".ﻞﻳﻮﻄﻟﺍ ﻯﺪﻤﻟﺍ ﻰﻠﻋ ﺡﺎﺠﻨﻠﻟ ﺔﺻﺮﻓ ﺮﺒﻛﺃ ﺎﻨﻟ ﺮﻓﻮﺗ ﻲﺘﻟﺍ ﻚﻠﺘﻟ ﺔﻳﻮﻟﻭﻷﺍ ﺀﺎﻄﻋﺇ ﻊﻣ ،ﺖﻗﻮﻟﺍ ﺾﻌﺒﻟ ﻞﺋﺍﻮﻤﻟﺍ ﻩﺬﻫ ﺔﺒﻗﺍﺮﻤﺑ ﻥﻵﺍ ﻥﻮﻣﻮﻘﻴﺳﻭ .ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺪﻳﺮﻔﻟﺍ ﻡﻮﻴﺑﻭﺮﻜﻴﻤﻠﻟ ﺓﺎﻴﺤﻠﻟ ﺔﻠﺑﺎﻘﻟﺍ ﻊﻗﺍﻮﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺎﻨﻳﺪﻟ ﺔﻠﻘﺘﺴﻤﻟﺍ ﻪﺒﺷ [owner.GetOperativesLowerPlural] ﺕﺩﺪﺣ ﺪﻘﻟ"
+ wilderness.4505.name: "ﻞﻤﺘﺤﻤﻟﺍ ﻊﻗﻮﻤﻟﺍ ﺪﻳﺪﺤﺗ ﻢﺗ"
+ wilderness.4505.desc: ".ﻥﻮﻌﻴﻄﺘﺴﻳ ﺎﻣ ﺭﺪﻘﺑ ﻪﺘﺒﻗﺍﺮﻣﻭ ﺐﻳﺮﻐﻟﺍ ﺪﻬﺸﻤﻟﺍ ﺍﺬﻫ ﻰﻟﺇ ﻞﻠﺴﺘﻠﻟ ﻢﻬﻔﻐﺸﺑ ﺮﻌﺸﻧ ﺎﻨﻧﺃ ﻻﺇ ،ﺎﻨﺴﻔﻧﻷ ﻞﻣﺎﻛ ﺩﺍﺪﺘﻣﺍ ﻰﻟﺇ ﺍﺪﺑﺃ ﻞﺼﻳ ﻦﻟﻭ ،ﺮﻤﻌﻟﺍ ﺮﻴﺼﻗ ﻥﻮﻜﻳ ﺪﻗ ﺔﻣﺰﺤﻟﺍ ﻩﺬﻫ ﻦﻤﺿ ﻢﻬﺘﻴﺑﺮﺗ ﻢﺗ ﻦﻳﺬﻟﺍ ﻦﻴﻠﻓﺎﻜﺘﻤﻟﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.§H[roots_planet.GetName] [roots_planet.GetPlanetMoon]§! ﻲﻓ ﻲﺋﺎﻧ ﻊﻗﻮﻣ ﻰﻟﺇ ﺎﻨﺑ ﺹﺎﺨﻟﺍ "ﺭﻭﺬﺒﻟﺍ ﺔﻠﺒﻨﻗ" ﻡﻮﻴﺑﻭﺮﻜﻴﻤﻟﺍ ﻢﻴﻠﺴﺘﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻢﻬﻧﺈﻓ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺔﻌﻴﺒﻄﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺐﺟﺍﻭ ﻞﻤﻋ ﻲﻓ ﻁﺍﺮﺨﻧﻻﺍ ﻚﺷﻭ ﻰﻠﻋ ﻢﻬﻧﺃ ﺪﻘﺘﻌﻳ ﻱﺬﻟﺍﻭ ﺪﺼﻗ ﺮﻴﻏ ﻦﻋ [target.GetSpeciesAdj] ﺓﺪﻋﺎﺴﻣ ﻰﻠﻋ ﺎﻨﻠﺼﺣ ﺪﻘﻟ"
+ wilderness.4510.name: "$espionage_planetary_roots$ ﻦﻤﻀﻣ"
+ wilderness.4510.desc: ".[target.GetAdj] ﺔﺣﺎﺴﻣ ﻲﻓ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻑﺎﻨﺌﺘﺳﺍ ﺖﻗﻭ ﻦﻴﺤﻳ ﺎﻣﺪﻨﻋ ﺍﺪﻴﺟ ﺎﻨﻣﺪﺨﺘﺳ ﺎﻬﻧﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﻊﺳﻭﻷﺍ ﺎﻨﺴﻔﻧﺃ ﻦﻋ ﻲﺳﺎﺳﺃ ﻞﻜﺸﺑ ﺔﻠﺼﻔﻨﻣ ﺕﻼﻓﺎﻜﺘﻤﻟﺍ ﻩﺬﻫ ﺖﻠﻇ ﺎﻤﻟﺎﻃ ،ﺎﻔﻴﻌﺿ ﺎﻨﻫ ﺎﻧﺩﻮﺟﻭ ﻥﻮﻜﻴﺳ \n\n.§H[roots_planet.GetName]§! ﻢﺳﺎﺑ ﻑﻭﺮﻌﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻙﺭﺪﻧﻭ ،ﻉﻮﻨﻤﻤﻟﺍ ﻩﺀﺍﻮﻫ ﻖﺸﻨﺘﺴﻧ ﺎﻧﺃﺪﺑ ،ﺪﻳﺪﺠﻟﺍ [GetRootsBlockerName] ﻝﺰﻨﻣ ﻰﻟﺇ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﻡﻮﻴﺑﻭﺮﻜﻴﻤﻟﺍ ﻢﻴﻠﺴﺗ ﺎﻬﻴﻓ ﻢﺗ ﻲﺘﻟﺍ ﺔﻈﺤﻠﻟﺍ ﺬﻨﻣ"
+ wilderness.4510.a: ".ﻝﻮﻃﺃ ﺓﺮﺘﻔﻟ ﻡﻭﺪﺗﻭ ﻖﻤﻋﺃ ﻞﻜﺸﺑ ﺎﻧﺭﻭﺬﺟ ﻖﻤﻌﺘﺗ ﻥﺃ ﺐﺠﻳ"
+ wilderness.4510.b: ".ﺎﻨﻫ ﻰﺸﻔﺘﺗ ﺎﻧﺭﻭﺬﺟ ﻉﺩ"
+
+####################################
+# Technologies
+####################################
+ tech_wilderness_terraform: "ﺐﻛﺍﻮﻜﻟﺍ ﺕﺎﺒﻧﺇ"
+ tech_wilderness_terraform_desc: ".ﺔﻴﺤﺻ ﺔﻳﺍﺪﺑ ﺕﺃﺪﺑ ﺎﻨﺗﺍﺮﻤﻌﺘﺴﻣ ﻥﺃ ﻦﻣ ﺪﻛﺄﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ ،ﻻﻭﺃ ﺐﻛﻮﻜﻟﺍ ﻞﻴﻫﺄﺗ ﺓﺩﺎﻋﺇ ﻝﻼﺧ ﻦﻣ .ﻞﺘﺸﻤﻟﺍ ﺰﻬﺠﻧ ﻥﺃ ﻻﻭﺃ ﺎﻨﻣ ﺐﻠﻄﺘﻳ ﺪﻳﺪﺟ ﻢﻟﺎﻋ ﻲﻓ ﺎﻧﺭﻭﺬﺟ ﺮﺸﻧ ﻥﺇ"
+
+ tech_terrestrial_sculpting_wilderness: "$tech_terrestrial_culpting$"
+ tech_terrestrial_sculpting_wilderness_desc: "$tech_terrestrial_culpting_desc$"
+ tech_terrestrial_sculpting_wilderness_effect: ".ﺔﻴﺳﺎﻴﻘﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﺕﯫﻓ ﻊﻴﻤﺟ ﺡﻼﺼﺘﺳﺎﺑ ﺢﻤﺴﻳ §H :ﺢﺘﻔﻟﺍ ﺓﺰﻴﻣ§!"
+
+ tech_wilderness_node: "ﺩﻮﺟﻮﻟﺍ ﺰﻛﺍﺮﻣ"
+ tech_wilderness_node_desc: ".ﺮﺒﻛﺃ ﺓﻮﻘﺑ ﺔﻴﻋﺎﻤﺠﻟﺍ ﺎﻨﺗﺩﺍﺭﺈﺑ ﻊﻴﻤﺠﻟﺍ ﺮﻌﺸﻴﺳ ،ﺔﻋﺯﻮﻤﻟﺍ ﺎﻨﺗﺍﺫ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺕﺎﺤﺴﻔﻟﺍ ﻲﻓ ﻖﻴﻤﻌﻟﺍ ﺮﻴﻜﻔﺘﻟﺍ ﻱﻭﺫ ﻦﻴﺸﻳﺎﻌﺘﻤﻟﺍ ﻮﻤﻧ ﻊﻴﺠﺸﺗ ﻝﻼﺧ ﻦﻣ"
+ tech_wilderness_cluster: "$tech_hive_cluster$"
+ tech_wilderness_cluster_desc: ".ﺓﺩﺍﺭﻹﺍ ﺲﻔﻧ ﻞﻴﻬﺴﺗ ﻮﻫ ﺓﺎﻴﺤﻟﺍ ﻲﻓ ﺪﻴﺣﻮﻟﺍ ﻢﻬﻓﺪﻫ ﻦﻳﺬﻟﺍ ﻦﻴﺸﻳﺎﻌﺘﻤﻟﺍ ﻦﻣ ﺕﺎﻌﻤﺠﺗ ﻲﻓ ﻩﺭﺎﻤﺜﺘﺳﺍ ﻝﻼﺧ ﻦﻣ ﻲﻤﻟﺎﻌﻟﺍ ﻲﻋﺎﻤﺠﻟﺍ ﺮﻜﻔﻟﺍ ﺔﻗﻼﻃ ﻊﻳﺮﺴﺗ ﺎﻨﻨﻜﻤﻳ"
+ tech_wilderness_confluence: "$tech_hive_confluence$"
+ tech_wilderness_confluence_desc: ".ﻲﻋﺎﻤﺠﻟﺍ ﺎﻧﺮﻜﻓ ﺚﺑ ﻥﻭﺪﻴﻌﻳﻭ ﻥﻭﺰﻛﺮﻳ ﺚﻴﺤﺑ ﻢﻬﻄﻴﺤﻣ ﻊﻣ ﻦﻴﻤﻏﺎﻨﺘﻤﻟﺍﻭ ،ﻖﻤﻌﺑ ﻦﻴﻔﻃﺎﻌﺘﻤﻟﺍ ﻦﻣ ﺔﻌﺳﺍﻭ ﺕﺎﻌﻤﺠﺗ ﻝﻼﺧ ﻦﻣ ﺔﻟﺩﺎﺒﺘﻤﻟﺍ ﺎﻨﺗﺩﺍﺭﺇ ﺰﻳﺰﻌﺗ ﻢﺘﻳ ﻑﻮﺳ"
+
+ tech_genome_mapping_wilderness: "$tech_genome_mapping$"
+ tech_genome_mapping_wilderness_desc: ".ﺓﺪﻘﻌﻤﻟﺍ ﻞﻣﺍﻮﻌﻟﺍ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﻲﻓ ﺪﻋﺎﺴﻳﻭ ،ﺎﻧﻮﻤﻧ ﺔﻴﻔﻴﻜﻟ ﺎﻨﻤﻬﻓ ﻖﻤﻌﻳ ﺎﻨﻳﺪﻟ ﻰﺼﺤﺗ ﻻﻭ ﺪﻌﺗ ﻻ ﻲﺘﻟﺍ ﻱﻭﻮﻨﻟﺍ ﺾﻤﺤﻟﺍ ﺕﻻﻼﺴﻟ ﻡﻮﻨﻴﺠﻟﺍ ﻂﺋﺍﺮﺧ ﻢﺳﺭ ﻥﺇ"
+ tech_mining_1_wilderness: "$tech_mining_1$"
+ tech_mining_1_wilderness_desc: ".ﺎﻨﺟﺎﺘﻧﺇ ﺓﺩﺎﻳﺯﻭ ﻖﻤﻋﺃ ﻞﻜﺸﺑ ﻖﻤﻌﺘﻟﺍ ﻞﺟﺃ ﻦﻣ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺔﻴﻧﺪﻌﻤﻟﺍ ﺐﺳﺍﻭﺮﻟﺍ ﻰﻠﻋ ﻲﻜﻴﻟﻭﺭﺪﻴﻬﻟﺍ ﻂﻐﻀﻟﺍﻭ ﻲﻃﺎﺨﻤﻟﺍ ﺀﺎﺸﻐﻟﺍ ﺔﻛﺎﻤﺳ ﻞﻣﺍﻮﻋ ﻖﻴﺒﻄﺗ ﻦﻜﻤﻳ"
+ tech_powered_exoskeletons_wilderness: "$tech_powered_exoskeletons$"
+ tech_powered_exoskeletons_wilderness_desc: ".ﺎﻀﻳﺃ ﻱﻭﺪﻴﻟﺍ ﻞﻤﻌﻟﺍ ﺓﺀﺎﻔﻛ ﺓﺩﺎﻳﺯ ﻊﻣ ﺔﺤﺿﺍﻭ ﺔﻳﺮﻜﺴﻋ ﺕﺎﻘﻴﺒﻄﺗ ﺮﻓﻮﻳ ﺎﻤﻣ ،ﻪﺘﻋﺮﺳﻭ ﻞﻣﺎﻌﻟﺍ ﺓﻮﻗ ﺓﺩﺎﻳﺯ ﻰﻠﻋ ﺔﻗﺎﻄﻟﺎﺑ ﻞﻤﻌﺗ ﻲﺘﻟﺍ ﻲﺟﺭﺎﺨﻟﺍ ﻞﻜﻴﻬﻟﺍ ﺕﻻﺪﺑ ﻞﻤﻌﺗ"
+ tech_colonization_1_wilderness: "ﺓﺪﻳﺪﺟ ﻢﻟﺍﻮﻋ ﺓﺭﺩﺎﺒﻣ"
+ tech_colonization_1_wilderness_desc: ".ﻡﻮﺠﻨﻟﺍ ﺮﺒﻋ ﺔﻗﺎﺸﻟﺍ ﻢﻬﺗﻼﺣﺮﻟ ﻦﻴﺸﻳﺎﻌﺘﻤﻟﺍ ﺎﻧﺩﺍﻭﺭ ﺩﺍﺪﻋﺇ ﻲﻟﺎﺘﻟﺎﺑﻭ ،ﺓﺪﻳﺪﺟ ﻢﻟﺍﻮﻋ ﻅﺎﻘﻳﻹ ﺔﻣﺯﻼﻟﺍ ﺩﺍﻮﻤﻟﺍﻭ ﺩﺭﺍﻮﻤﻟﺍ ﺏﺎﺴﺣ ﻰﻟﺇ ﺎﻧﺰﻴﻛﺮﺗ ﻝﻮﺤﻧ"
+
+ tech_wilderness_government: "$tech_planetary_ Government$"
+ tech_wilderness_government_desc: ".ﻊﺳﻭﺃ ﻕﺎﻄﻧ ﻰﻠﻋ ﺎﻨﺗﺍﻭﺬﺑ ﻡﺎﻤﺘﻫﻻﺍ ﻦﻣ ﺮﺜﻛﺃ ،ﺓﺮﻫﺩﺰﻣﻭ ﺓﺮﻘﺘﺴﻣ ﺔﺌﻴﺑ ﻥﺎﻤﺿ ﻲﻓ ﻪﺗﺎﻳﻮﻟﻭﺃ ﻦﻤﻜﺗ ﻥﺃ ﺐﺠﻳ ،ﺪﻳﺪﺟ ﺐﻛﻮﻛ ﺎﻬﻴﻓ ﻆﻘﻴﺘﺴﻳ ﻲﺘﻟﺍ ﺔﻈﺤﻠﻟﺍ ﺬﻨﻣ"
+ tech_wilderness_colonial_centralization: "$tech_colonial_centralization$"
+ tech_wilderness_colonial_centralization_desc: "$tech_colonial_centralization_desc$"
+ tech_wilderness_galactic_administration: "$tech_galactic_administration$"
+ tech_wilderness_galactic_administration_desc: "$tech_galactic_administration_desc$"
+ tech_wilderness_science_lab_2: "$tech_basic_science_lab_2$"
+ tech_wilderness_science_lab_2_desc: "$tech_basic_science_lab_2_desc$"
+ tech_wilderness_science_lab_3: "$tech_basic_science_lab_3$"
+ tech_wilderness_science_lab_3_desc: "$tech_basic_science_lab_3_desc$"
+ tech_wilderness_food_processing_1: "$tech_food_processing_1$"
+ tech_wilderness_food_processing_1_desc: "$tech_food_processing_1_desc$"
+ tech_wilderness_food_processing_2: "$tech_food_processing_2$"
+ tech_wilderness_food_processing_2_desc: "$tech_food_processing_2_desc$"
+ tech_wilderness_power_hub_1: "$tech_power_hub_1$"
+ tech_wilderness_power_hub_1_desc: "$tech_power_hub_1_desc$"
+ tech_wilderness_power_hub_2: "$tech_power_hub_2$"
+ tech_wilderness_power_hub_2_desc: "$tech_power_hub_2_desc$"
+ tech_wilderness_mineral_purification_1: "$tech_mineral_purification_1$"
+ tech_wilderness_mineral_purification_1_desc: "$tech_mineral_purification_1_desc$"
+ tech_wilderness_mineral_purification_2: "$tech_mineral_purification_2$"
+ tech_wilderness_mineral_purification_2_desc: "$tech_mineral_purification_2_desc$"
+ tech_wilderness_industry: "$tech_basic_industry$"
+ tech_wilderness_industry_desc: "$tech_basic_industry_desc$"
+ tech_wilderness_alloys_1: "$tech_alloys_1$"
+ tech_wilderness_alloys_1_desc: "$tech_alloys_1_desc$"
+ tech_wilderness_alloys_2: "$tech_alloys_2$"
+ tech_wilderness_alloys_2_desc: "$tech_alloys_2_desc$"
+ tech_wilderness_volatile_motes: "$tech_volatile_motes$"
+ tech_wilderness_volatile_motes_desc: "$tech_volatile_motes_desc$"
+ tech_wilderness_exotic_gases: "$tech_exotic_gases$"
+ tech_wilderness_exotic_gases_desc: "$tech_exotic_gases_desc$"
+ tech_wilderness_rare_crystals: "$tech_rare_crystals$"
+ tech_wilderness_rare_crystals_desc: "$tech_rare_crystals_desc$"
+ tech_wilderness_planetary_defenses: "$tech_planetary_defenses$"
+ tech_wilderness_planetary_defenses_desc: "$tech_planetary_defenses_desc$"
+ tech_wilderness_defense_grid: "$tech_global_defense_grid$"
+ tech_wilderness_defense_grid_desc: "$tech_global_defense_grid_desc$"
+ tech_wilderness_shield_generator: "$tech_planetary_shield_generator$"
+ tech_wilderness_shield_generator_desc: "$tech_planetary_shield_generator_desc$"
+ tech_storm_relief_center: "$tech_industrial_storm_protection$"
+ tech_storm_relief_center_desc: "$tech_industrial_storm_protection$"
+ tech_archaeostudies_wilderness: "$tech_archaeostudies$"
+ tech_archaeostudies_wilderness_desc: "$tech_archaeostudies_desc$"
+
+####################################
+# City Appearance
+####################################
+ WILDERNESS: "ﺔﻳﺮﺒﻟﺍ"
+
+####################################
+# Deposits
+####################################
+ d_wilderness_mining: "ﻑﻮﺠﻤﻟﺍ ﻒﻬﻜﻟﺍ ﻡﺎﻈﻧ"
+ d_wilderness_mining_desc: ".ﺭﺎﻴﻬﻧﻼﻟ ﺔﺿﺮﻋﻭ ﺭﺎﻴﻬﻧﻼﻟ ﻕﺎﻔﻧﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺽﺮﻌﺗ ﻊﻣ ،ﻞﺠﻋ ﻰﻠﻋ ﻰﺿﻮﻔﻟﺍ ﻦﻣ ﺔﻟﺎﺣ ﻲﻓ ﺎﻬﻤﺟﺎﻨﻣ ﺎﻘﺑﺎﺳ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻞﻐﺸﺗ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﺖﻛﺮﺗ ﺪﻘﻟ"
+ d_wilderness_mining_2: "ﺔﺑﻮﻘﺜﻣ ﺔﺒﻀﻫ"
+ d_wilderness_mining_2_desc: ".ﻲﺿﺎﻤﻟﺍ ﻲﻓ ﻒﺜﻜﻤﻟﺍ ﻦﻳﺪﻌﺘﻟﺍ ﻁﺎﺸﻧ ﻦﻋ ﺔﻤﺟﺎﻧ ﺎﻬﻠﻛﻭ ،ﺔﻠﻤﺘﺤﻤﻟﺍ ﺔﻴﻨﻃﺎﺒﻟﺍ ﺮﻔﺤﻟﺍﻭ ﺎﻬﻟ ﺔﻤﻴﻗ ﻻ ﻲﺘﻟﺍ ﻢﺋﺎﻨﻐﻟﺎﺑ ﺔﺌﻴﻠﻣ ﺓﺮﻄﺨﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ"
+ d_wilderness_farming: "ﺔﻔﻔﺠﻣ ﺔﺑﺎﻏ"
+ d_wilderness_farming_desc: ".ﻞﻴﺻﺎﺤﻤﻟﺍ ﺝﺎﺘﻧﺇ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺔﻠﺑﺍﺬﻟﺍ ﺎﻬﻧﺎﺼﻏﺃ ﺪﻌﺗ ﻢﻟﻭ .ﺓﺎﻴﺣ ﻼﺑ ﻥﻵﺍ ﺢﺒﺻﺃ ﺔﺠﺘﻨﻣﻭ ﺔﻌﺳﺎﺷ ﺔﺑﺎﻏ ﻡﻮﻳ ﺕﺍﺫ ﻥﺎﻛ ﺎﻣ"
+ d_wilderness_farming_2: "ﺓﺮﺠﺤﺘﻤﻟﺍ ﺔﺑﺎﻐﻟﺍ"
+ d_wilderness_farming_2_desc: ".ﺎﻴﺋﺎﻴﻤﻴﻛ ﺔﻠﻣﺎﺧﻭ ﺔﻳﺭﻮﻠﺑ ﺎﻳﺎﻘﺒﻟﺍ ﺕﺪﺑ ﺚﻴﺤﺑ ﺓﺮﻴﺒﻛ ﺔﻋﺮﺴﺑ ﺓﺮﻴﻓﻮﻟﺍ ﺕﺎﻳﺮﻄﻔﻟﺍﻭ ﺔﻴﺗﺎﺒﻨﻟﺍ ﺓﺎﻴﺤﻟﺍ ﺖﺗﺎﻣ .ﺔﻋﻮﻨﺘﻤﻟﺍ ﺕﺎﺑﺎﻐﻟﺍ ﺔﻋﺍﺭﺰﺑ ﺔﻴﻨﻏ ﺔﻌﺳﺎﺷ ﺔﻘﻄﻨﻣ ﺎﻳﺎﻘﺑ"
+ d_wilderness_generator: "ﻕﻭﺮﺤﻣ ﻲﺴﻤﺷ ﻞﻘﺣ"
+ d_wilderness_generator_desc: ".ﺔﺸﻬﻟﺍ ﻥﺎﻘﻴﺴﻟﺍﻭ ﺔﻠﺑﺍﺬﻟﺍ ﺔﻠﻈﻤﻟﺍ ﻮﻫ ﺓﺎﻓﻮﺘﻤﻟﺍ ﺔﻴﺴﻤﺸﻟﺍ ﺔﻋﺭﺰﻤﻟﺍ ﻩﺬﻫ ﻦﻣ ﻰﻘﺒﺗ ﺎﻣ ﻞﻛ"
+ d_wilderness_generator_2: "ﺔﻴﺴﻤﺸﻟﺍ ﺭﺎﻔﻘﻟﺍ"
+ d_wilderness_generator_2_desc: ".ﻱﻮﺟ ﺭﺎﺒﻏ ﻞﻜﺷ ﻰﻠﻋ ﻼﻴﻠﻗ ﺔﻌﻌﺸﻤﻟﺍﻭ ﺔﻓﺎﺠﻟﺍ ﺔﻴﻗﺭﻮﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻥﻵﺍ ﻑﺮﺠﻨﺗ .ﻡﻮﻳ ﺕﺍﺫ ﻥﺎﻜﺴﻟﺎﺑ ﺞﻌﺗ ﺖﻧﺎﻛ ﺔﻴﺴﻤﺷ ﺔﺑﺎﻐﻟ ﺔﻜﺋﺎﺸﻟﺍ ﺎﻳﺎﻘﺒﻟﺍ ﺎﻬﻠﺘﺤﺗ ﺔﻌﺳﺎﺸﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ"
+ d_wilderness_city: "ﺔﻨﺘﻧ ﻊﻘﻨﺘﺴﻣ"
+ d_wilderness_city_desc: ".ﺔﺤﻴﻘﺘﻣ ﺓﺮﻔﺣ ﺩﺮﺠﻣ ﻦﻣ ﺮﺜﻛﺃ ﺲﻴﻟ ﻥﻵﺍ ﻮﻫﻭ ،ﺓﺎﻴﺤﻟﺍ ﻦﻣ ﻰﺼﺤﺗ ﻻﻭ ﺪﻌﺗ ﻻ ﻝﺎﻜﺷﻷ ﺍﺮﻫﺩﺰﻣ ﺎﻨﻃﻮﻣ ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﻥﺎﻛ ﺎﻣ ﻦﻋ ﻲﻠﺨﺘﻟﺍ ﻢﺗ ﺪﻘﻟ"
+ d_wilderness_city_2: "ﺱﺍﺭﻮﻣ ﺔﺤﻴﻘﺘﻤﻟﺍ"
+ d_wilderness_city_2_desc: ".ﻞﻛﺂﺘﻠﻟ ﺔﺒﺒﺴﻤﻟﺍﻭ ﺔﻋﺫﻼﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻴﺋﺎﻴﻤﻴﻜﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﻥﺎﻓﻮﻃ ﻕﻼﻃﺇ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﺔﻴﻌﻴﺒﻄﻟﺍ ﺮﻇﺎﻨﻤﻟﺍ ﻰﻟﺇ ﺔﻨﻔﻌﺘﻤﻟﺍ ﺎﻫﺎﻳﺎﻘﺑ ﺖﺑﺮﺴﺗ ﺪﻗﻭ .ﻉﺍﻮﻧﻷﺍ ﻒﻠﺘﺨﻣ ﻦﻣ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻋ ﺎﻨﻫ ﺕﺎﻣ ﺪﻘﻟ"
+ d_wilderness_industrial: "ﻲﻧﺪﻌﻣ ﻊﻘﻨﺘﺴﻣ"
+ d_wilderness_industrial_desc: ".ﺎﻬﺑ ﺔﻄﻴﺤﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻴﺠﻟﺍ ﺭﺎﻴﻬﻧﺍ ﺐﺒﺴﺑ ﺔﻠﻣﺎﺧﻭ ﺔﻣﺎﺳ ﺎﻬﺗﺎﻳﻮﺘﺤﻣ ﺖﺤﺒﺻﺃ ﻲﺘﻟﺍﻭ ،ﻖﻠﻄﻟﺍ ﺀﺍﻮﻬﻟﺍ ﻲﻓ ﺔﻴﻧﺪﻌﻤﻟﺍ ﺕﺎﻣﺎﻤﺤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺎﻳﺎﻘﺑ"
+ d_wilderness_industrial_2: "ﺔﻴﺋﺎﻴﻤﻴﻛﻮﻴﺒﻟﺍ ﺓﺮﻋﻮﻟﺍ ﻲﺿﺍﺭﻷﺍ"
+ d_wilderness_industrial_2_desc: ".ﺔﻳﻮﻀﻌﻟﺍ ﻪﺒﺷ ﻥﺩﺎﻌﻤﻟﺍ ﺔﺠﻟﺎﻌﻣ ﻝﺎﻤﻋﺃ ﻦﻣ ﺔﻌﺳﺍﻭ ﺔﻠﺴﻠﺳ ﻦﻣ ﻰﻘﺒﺗ ﺎﻣ ﻞﻛ ﻲﻫ ﻲﺋﺎﻴﻤﻴﻜﻟﺍ ﺭﺎﺒﻐﻟﺎﺑ ﺔﻨﻄﺒﻤﻟﺍ ﻥﺎﻳﺩﻮﻟﺍﻭ ﺔﻳﺮﺠﺤﻟﺍ ﺔﻴﻋﻭﻷﺍ ﻥﺇ"
+
+ d_scorched_plains: "ﺔﻗﻭﺮﺤﻤﻟﺍ ﻝﻮﻬﺴﻟﺍ"
+ d_scorched_plains_desc: ".ﻖﺋﺎﻓ ﻲﻤﺠﻧ ﺭﺎﺠﻔﻧﺍ ﺎﻫﺮﻣﺩ ﻰﺘﺣ ،ﻡﻮﻳ ﺕﺍﺫ ﺓﺎﻴﺤﻟﺎﺑ ﺞﻌﺗ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﺖﻧﺎﻛ"
+
+ concept_scorched_plains: "$d_scorched_plains$"
+ concept_scorched_plains_desc: "§L$d_scorched_plains_desc$§!\n\n$t$- 900 $i_energy$\n:ﺢﺴﻤﻟﺍ ﺔﻔﻠﻜﺗ -\n§IDays§! 180 £time£ :ﺢﺴﻤﻟﺍ ﺖﻗﻭ -\n§R-2§!- $MOD_PLANET_MAX_DISTRICTS_ADD$: "
+
+####################################
+# Colony Types
+####################################
+ col_wilderness_default: "ﺔﻳﺮﺒﻟﺍ ﺓﺮﻤﻌﺘﺴﻣ"
+
+####################################
+# Planet Designations
+####################################
+ col_wilderness_capital: "ﺐﻠﻘﻟﺍ ﻢﻟﺎﻋ"
+ col_wilderness_capital_tt: "$col_wilderness_capital_desc$"
+ col_wilderness_capital_desc: ".ﺎﻴﺣ ﺎﻴﻤﺠﻧ ﺎﻤﺴﺟ ﻞﻜﺸﺗ ﺚﻴﺤﺑ ﺔﻠﺋﺎﻫ ﺩﺍﺪﻋﺄﺑ ﺔﻌﻤﺠﺘﻣ ،ﺔﻴﻠﻓﺎﻜﺘﻟﺍ ﺓﺎﻴﺤﻟﺎﺑ ﺾﺒﻨﻳ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﺐﻧﺍﻮﺟ ﻦﻣ ﺐﻧﺎﺟ ﻞﻛ"
+ col_wilderness_generator: "ﻲﺋﻮﻀﻟﺍ ﺐﻴﻛﺮﺘﻟﺍ ﻢﻟﺎﻋ"
+ col_wilderness_generator_desc: "$col_generator_desc$"
+ col_wilderness_generator_tt: ".ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﻗﺎﻄﻟﺍ ﻦﻳﺰﺨﺗﻭ ﻊﻤﺠﺑ ﺔﻴﻜﻴﺘﺳﻼﺑﻭﺭﻮﻠﻜﻟﺍ ﺕﻼﻓﺎﻜﺘﻤﻟﺍ ﻦﻣ ﺎﻬﻟ ﺮﺼﺣ ﻻ ﺕﺎﻋﻮﻤﺠﻣ ﻡﻮﻘﺗ"
+ col_wilderness_mining: "ﻱﺮﺠﺤﻟﺍ ﻢﻟﺎﻌﻟﺍ"
+ col_wilderness_mining_desc: "$col_mining_desc$"
+ col_wilderness_mining_tt: ".ﺔﻴﻧﺪﻌﻣ ﺓﺄﻓﺎﻜﻣ ﺮﺒﺼﻟﺍ ﻍﺭﺎﻔﺑ ﺝﺮﺨﺘﺴﺗ ،ﺔﻴﻓﻮﺠﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻦﻣ ﺔﻴﻘﻴﺳﻮﻣ ﺔﻠﻔﺣ ﻙﺎﻨﻫ ،ﻼﺣﺎﻗ ﻭﺪﺒﻳ ﻱﺬﻟﺍ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﺢﻄﺳ ﺖﺤﺗ ﺊﺒﺘﺨﻳ"
+ col_wilderness_farming: "ﺢﻴﻘﻠﺘﻟﺍ ﻢﻟﺎﻋ"
+ col_wilderness_farming_desc: "$col_farming_desc$"
+ col_wilderness_farming_tt: ".ﺔﻳﺬﻐﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍﻭ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻦﻣ ﺓﺮﻴﻓﻭ ﺕﺍﺩﺍﺪﻣﺇ ﺮﻴﻓﻮﺗ ﻰﻠﻋ ﻊﺠﺸﻳ ﺎﻤﻣ ،ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺔﻴﻟﺎﺜﻣ ﻮﻤﻧ ﻑﻭﺮﻇ ﻰﻠﻋ ﺔﺼﺼﺨﺘﻤﻟﺍ ﺔﻠﻓﺎﻜﺘﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻆﻓﺎﺤﺗ"
+ col_wilderness_fortress: "ﺮﺘﻨﻫ ﻢﻟﺎﻋ"
+ col_wilderness_fortress_desc: "$col_fortress_desc$"
+ col_wilderness_fortress_tt: ".ﺔﻔﻴﺨﻤﻟﺍ ﺔﺳﺮﺘﻔﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺕﺎﺧﺮﺻﻭ ﺔﻘﻴﻤﻌﻟﺍ ﺔﻴﻤﻴﻠﻗﻹﺍ ﻥﺎﻌﻄﻘﻟﺍ ﻊﻓﺍﺪﺗ ﻊﻣ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﺢﻄﺳ ﺶﻌﺗﺮﻳ"
+ col_wilderness_tech: "ﻞﻣﺄﺘﻟﺍ ﻢﻟﺎﻋ"
+ col_wilderness_tech_desc: "$col_research_desc$"
+ col_wilderness_tech_tt: ".ﺔﻴﻟﻮﻀﻔﻟﺍﻭ ﺔﺑﺍﺬﺠﻟﺍ ﻝﻮﻘﻌﻟﺍ ﺎﻬﺑ ﺐﻋﻼﺘﺗ ﻥﺃ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ،ﺔﺒﻳﺮﻐﻟﺍ ﺮﻫﺍﻮﻈﻟﺍﻭ ﻝﻮﻀﻔﻟﺎﺑ ﺀﻲﻠﻣ ﺔﻳﻮﻴﺤﻟﺎﺑ ﻢﻌﻔﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ"
+ col_wilderness_nest: "ﺮﻔﻳﻭ ﻢﻟﺎﻋ"
+ col_wilderness_nest_desc: "$col_city_desc$"
+ col_wilderness_nest_tt: ".ﺎﻬﺘﺟﺰﻣﺃﻭ ﺔﻳﺮﺒﻟﺍ ﺓﺎﻴﺤﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻ ﺔﺑﺎﺠﺘﺳﺍ ﺎﻬﺒﻴﻛﺮﺗ ﻪﺴﻔﻧ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﺮﻴﻐﻳ ﺪﻗ ﻲﺘﻟﺍ ﺔﻴﻠﻓﺎﻜﺘﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﺮﻴﺒﻜﻟﺍ ﺩﺪﻌﻟﺍ ﺍﺬﻫ ﻞﺜﻤﻟ ﺫﻼﻣ"
+ col_wilderness_refinery: "ﺮﻳﺮﻜﺘﻟﺍ ﻢﻟﺎﻋ"
+ col_wilderness_refinery_desc: ".§Hﺔﻴﺠﻴﺗﺍﺮﺘﺳﻹﺍ ﺩﺭﺍﻮﻤﻟﺍ§! £strategic_resource£ ﻦﻣ ﺎﻫﺮﻴﻏﻭ §H$exotic_gases$§! £exotic_gases£ ﺝﺎﺘﻧﺇ ﻲﻓ ﺺﺼﺨﺘﻣ"
+ col_wilderness_refinery_tt: ".ﻡﺎﺨﻟﺍ ﺩﺍﻮﻤﻟﺍ ﺞﻟﺎﻌﺗﻭ ﻊﻤﺠﺘﺗ ﻥﺃ ﺔﺒﻳﺮﻐﻟﺍ ﺔﺸﻳﺎﻌﺘﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻦﻣ ﺎﻫﺮﻴﻏﻭ ﺔﻳﻮﻧﺎﻨﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻤﻟ ﻦﻜﻤﻳ ﺚﻴﺣ ﺔﻴﺿﺭﻷﺍ ﺔﻳﺭﺍﺮﺤﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺕﺎﺤﺘﻔﺑ ﺀﻲﻠﻣ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ"
+ col_wilderness_forge: "ﺔﻘﺗﻮﺑ ﻢﻟﺎﻋ"
+ col_wilderness_forge_desc: "$col_foundry_desc$"
+ col_wilderness_forge_tt: ".ﺕﺎﻣﺍﺪﺨﺘﺳﻻﺍ ﺓﺩﺪﻌﺘﻣﻭ ﺔﻟﺎﻌﻓ ﻚﺋﺎﺒﺳ ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺗﻭ ﻡﺎﺨﻟﺍ ﻥﺩﺎﻌﻤﻟﺍ ﺔﺠﻟﺎﻌﻤﻟ ﺐﻛﻮﻜﻟﺍ ﻢﺠﺤﺑ ﺔﻘﺗﻮﺑ"
+ col_wilderness_unification: "ﺉﺩﺎﻫ ﻢﻟﺎﻋ"
+ col_wilderness_unification_desc: "$col_bureau_desc$"
+ col_wilderness_unification_tt: ".ﻦﻴﺸﻳﺎﻌﺘﻤﻟﺍ ﻦﻴﺑ ﺓﺪﻘﻌﻤﻟﺍ ﺕﺎﻗﻼﻌﻟﺍ ﻖﻴﻤﻌﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺔﺌﻴﻄﺒﻟﺍ ﺔﻴﻟﺩﺎﺒﺘﻟﺍ ﻦﻣ ﺔﻟﺎﻫ ﺮﺸﺘﻨﺗ"
+
+####################################
+# Personalities
+####################################
+ personality_benevolent_wilderness: "ﺔﻴﻘﻓﺍﻮﺘﻟﺍ ﺔﻳﺮﺒﻟﺍ"
+ personality_benevolent_wilderness_desc: ".ﻡﯪﻭ ﻲﻓ ﻦﻜﻟﻭ ،ﻉﻮﺠﻟﺍ ﻲﻓ ﺲﻴﻟ ،ﺓﺮﺠﻤﻟﺍ ﺮﺒﻋ ﺮﺒﺼﺑ ﺪﺘﻤﺗ ﻢﻫﺭﻭﺬﺟ .ﻡﻮﺠﻨﻟﺍ ﻊﻣ ﻚﺑﺎﺸﺘﻟﺍ ﻰﻟﺇ ﻂﻘﻓ ﻞﻗﺎﻌﻟﺍ ﻊﺳﺍﻮﻟﺍ ﻱﻮﻴﺤﻟﺍ ﻂﻴﺤﻤﻟﺍ ﺍﺬﻫ ﻰﻌﺴﻳ"
+
+ personality_rampant_wilderness: "ﺔﻴﺸﻔﺘﻤﻟﺍ ﺔﻳﺮﺒﻟﺍ"
+ personality_rampant_wilderness_desc: ".ﻝﻼﺤﻧﻻﺍﻭ ﻮﻤﻨﻟﺍ ﻦﻣ ﺎﻬﻟ ﺔﻳﺎﻬﻧ ﻻ ﺓﺭﻭﺩ ﻲﻓ ﺎﻬﺗﺩﺎﻌﺘﺳﺍ ﻢﺘﻳ ،ﺔﺘﻴﻣ ﻭﺃ ﺔﻴﺣ ﺖﻧﺎﻛ ﺀﺍﻮﺳ ،ﺀﺎﻴﺷﻷﺍ ﻞﻛ .ﻡﻭﺪﻳﻭ ،ﻚﻠﻬﺘﺴﻳﻭ ،ﺮﺸﺘﻨﻳ ؛ﺐﻀﻐﺗ ﻻ ﺔﻴﺸﻔﺘﻤﻟﺍ ﺔﻳﺮﺒﻟﺍ"
+
+####################################
+# Policies
+####################################
+
+ policy_symbiont_policy: "$policy_drone_policy$"
+ policy_symbiont_policy_desc: ".ﻪﺟﻭ ﻞﻀﻓﺃ ﻰﻠﻋ ﺎﻧﺩﺭﺍﻮﻣ ﻡﺪﺨﺘﺴﻧ ﻦﻳﺃﻭ ﻒﻴﻛ ﺭﺮﻘﻧ ﻥﺃ ﺎﻨﻴﻠﻋﻭ .ﺩﻭﺪﺣ ﻼﺑ ﺖﺴﻴﻟ ﺎﻬﻨﻜﻟﻭ ،ﺯﺭﺎﺑ ﻞﻜﺸﺑ ﺓﺮﻤﺜﻣﻭ ﺓﺭﺩﺎﻗ ﺔﻴﻋﺎﻤﺠﻟﺍ ﺎﻨﺘﻋﻮﻤﺠﻣ ﻥﺇ"
+
+ symbiont_policy_balanced: "$drone_policy_balanced$"
+ symbiont_policy_balanced_name: "$symbiont_policy_balanced$"
+ symbiont_policy_balanced_desc: "§E.ﺩﺭﺍﻮﻤﻟﺍ ﺝﺎﺘﻧﺇ ﻰﻠﻋ ﺕﺎﺑﻮﻘﻋ ﻭﺃ ﺕﺂﻓﺎﻜﻣ ﺪﺟﻮﺗ ﻻ§!\n\n.ﻊﻨﺼﻟﺍ ﺔﻣﺎﺗ ﻊﻠﺴﻟﺍﻭ ﻡﺎﺨﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺝﺎﺘﻧﻹ ﻱﻭﺎﺴﺘﻟﺎﺑ ﺎﻬﺴﻔﻧ Wilderness ﺱﺮﻜﺗ"
+
+ symbiont_policy_worker: "$drone_policy_worker$"
+ symbiont_policy_worker_name: "$symbiont_policy_worker$"
+ symbiont_policy_worker_desc: "\n\n.ﺎﺼﺼﺨﺗ ﺮﺜﻛﻷﺍ ﺔﻌﻨﺼﻤﻟﺍ ﺕﺎﺟﺮﺨﻤﻟﺍ ﺏﺎﺴﺣ ﻰﻠﻋ ﺔﻴﺟﺎﺘﻧﺇ ﺮﺜﻛﺃ ﺔﻠﺼﻟﺍ ﺕﺍﺫ ﺔﻠﻓﺎﻜﺘﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺢﺒﺼﺗ ﺚﻴﺣ ،ﻡﺎﺨﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺝﺍﺮﺨﺘﺳﻻ ﺔﻳﻮﻟﻭﻷﺍ ﺔﻳﺮﺒﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻲﻄﻌﺗ"
+
+ symbiont_policy_thinker: "$drone_policy_thinker$"
+ symbiont_policy_thinker_name: "$symbiont_policy_thinker$"
+ symbiont_policy_thinker_desc: "\n\n.ﻡﺎﺨﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ ﺏﺎﺴﺣ ﻰﻠﻋ ﺔﻴﺟﺎﺘﻧﺇ ﺮﺜﻛﺃ ﺢﺒﺼﺘﻟ ،ﻊﻨﺼﻟﺍ ﺔﻣﺎﺘﻟﺍ ﻊﻠﺴﻟﺍ ﻊﻴﻨﺼﺘﻟ ﺔﻳﻮﻟﻭﻷﺍ ﺔﻳﺮﺒﻟﺍ ﻲﻄﻌﺗ"
+
+####################################
+# Edicts
+####################################
+ edict_capacity_subsidies_wilderness: "$eddict_capacity_subsidies$"
+ edict_capacity_subsidies_wilderness_desc: ".ﺔﻗﺎﻄﻟﺍ ﺝﺎﺘﻧﺇ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﺎﻨﺤﻄﺳ ﺮﺒﻋ ﺲﻤﺸﻟﺍ ﻊﺒﺘﺗ ﺓﺮﺟﺎﻬﻣ ﻥﺎﻌﻄﻗ ﻦﻳﻮﻜﺗ ﻰﻠﻋ ﻲﺋﻮﻀﻟﺍ ﺎﻨﺸﻳﺎﻌﺗ ﻡﻮﺳﺮﻤﻟﺍ ﺍﺬﻫ ﻊﺠﺸﻳ"
+ edict_mining_subsidies_wilderness: "$edict_mining_subsidies$"
+ edict_mining_subsidies_wilderness_desc: ".ﻲﻠﻜﻴﻬﻟﺍ ﺭﺎﻴﻬﻧﻻﺍ ﺮﻄﺧ ﻞﻴﻠﻘﺗ ﻊﻣ ﺮﻔﺤﻟﺎﺑ ﺊﺒﺘﺨﻤﻟﺍ ﺎﻨﺸﻳﺎﻌﺘﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺎﻧﺭﻭﺬﺟ ﻡﻮﺳﺮﻤﻟﺍ ﺍﺬﻫ ﺯﺰﻌﻳ"
+ edict_farming_subsidies_wilderness: "$edict_farming_subsidies$"
+ edict_farming_subsidies_wilderness_desc: ".ﻲﺋﺍﺬﻐﻟﺍ ﺎﻨﺟﺎﺘﻧﺇ ﺰﻳﺰﻌﺘﻟ ﺎﻨﺘﺑﺮﺗ ﻲﻓ ﺔﻗﺎﻄﻟﺍ ﺔﻴﻟﺎﻋ ﺔﻴﺋﺎﻴﻤﻴﻜﻟﺍ ﺩﺍﻮﻤﻠﻟ ﺎﻳﻮﻗ ﺎﻔﻴﻔﺨﺗ ﻡﻮﺳﺮﻤﻟﺍ ﺍﺬﻫ ﺮﻓﻮﻳ"
+ edict_forge_subsidies_wilderness: "$edict_forge_subsidies$"
+ edict_forge_subsidies_wilderness_desc: ".ﻚﺋﺎﺒﺴﻠﻟ ﺔﻳﻮﻧﺎﺜﻟﺍ ﺕﺎﺠﺘﻨﻤﻟﺍ ﺩﺎﺼﺣ ﺓﺩﺎﻳﺯﻭ ﻲﻤﺳﻮﻣ ﺭﺎﻫﺯﺈﺑ ﺢﻤﺴﻳ ﺔﻳﺬﻐﻤﻟﺍ ﺩﺍﻮﻤﻟﺎﺑ ﺎﻨﻳﺪﻟ ﺔﻳﺮﺠﺤﻟﺍ ﺐﻟﺎﺤﻄﻟﺍ ﺕﺎﻌﻤﺠﺗ ﻊﺒﺸﺗ ﻥﺇ"
+ edict_research_subsidies_wilderness: "$edict_research_subsidies$"
+ edict_research_subsidies_wilderness_desc: "$edict_research_subsidies_desc$"
+ edict_clearing_motes_wilderness: "$edict_clearing_motes$"
+ edict_clearing_motes_wilderness_desc: ".ﻪﻟﻭﺎﻨﺗ ﻝﻼﺧ ﻦﻣ ﺎﻨﺘﺌﻴﺑ ﻒﻴﻴﻜﺘﺑ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺖﻧﻮﻴﺒﻟﻮﻬﻟﺍ ﻡﻮﻘﻳ ﻑﻮﺳ .ﺔﻳﻮﻀﻌﻟﺍ ﺮﻴﻏﻭ ﺔﻳﻮﻀﻌﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻢﻀﻬﻟ ﺢﻤﺴﺗ ﺓﺮﻳﺎﻄﺘﻤﻟﺍ ﺕﺍﺭﺬﻟﺍ ﻊﻣ ﺔﺸﻳﺎﻌﺘﻤﻟﺍ ﺔﻴﺋﺍﺬﻐﻟﺍ ﺔﻤﻈﻧﻷﺍ ﺔﻠﻤﻜﺗ ﻥﺇ"
+ edict_learning_campaign_wilderness: "$edict_learning_campaign$"
+ edict_learning_campaign_wilderness_desc: ".ﺔﻴﺟﺎﺘﻧﻹﺍ ﺓﺩﺎﻳﺯ ﻰﻠﻋ ﻥﻭﺭﺩﺎﻗ ﺎﻨﻧﺈﻓ ،ﺔﻴﻓﺎﺿﻹﺍ ﺔﻴﺋﺍﺬﻐﻟﺍ ﺮﺻﺎﻨﻌﻟﺎﺑ ﺎﻨﻳﺪﻟ ﻦﻴﻠﻓﺎﻜﺘﻤﻟﺍ ﺪﻳﻭﺰﺗ ﻝﻼﺧ ﻦﻣ"
+ edict_war_drone_campaign_wilderness: "ﺔﻴﺗﻮﻴﺒﻤﻴﺴﻟﺍ ﺏﺮﺤﻟﺍ ﺔﻠﻤﺣ"
+ edict_war_drone_campaign_wilderness_desc: ".ﻲﻟﺎﺘﻘﻟﺍ ﻢﻫﺩﺍﺪﻌﺘﺳﺍﻭ ﻢﻬﺗﻮﻗ ﺓﺩﺎﻳﺯ ﻰﻠﻋ ﻥﻭﺭﺩﺎﻗ ﺎﻨﻧﺈﻓ ،ﻊﻴﻄﻘﻟﺍﻭ ﺔﺳﺮﺘﻔﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻠﻟ ﺔﻴﻓﺎﺿﺇ ﺔﻴﺋﺍﺬﻏ ﺮﺻﺎﻨﻋ ﺺﻴﺼﺨﺗ ﻝﻼﺧ ﻦﻣﻭ"
+ edict_scientific_revolution_wilderness: "$edict_scientific_revolution$"
+ edict_scientific_revolution_wilderness_desc: "$edict_scientific_revolution_desc$"
+ edict_drone_overdrive_wilderness: "ﻒﻳﺍﺭﺩﺮﻓﻭﺃ ﺖﻧﻮﻴﺒﻤﻴﺳ"
+ edict_drone_overdrive_wilderness_desc: ".ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻰﻟﺇ ﺔﺟﺎﺣ ﻙﺎﻨﻫ ﻥﺃ ﺚﻴﺣ ،ﺔﺴﻓﺎﻨﻤﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻗ ﺮﺜﻛﺃ ﺔﻳﻮﻴﺤﻟﺍ ﺎﻨﻘﻃﺎﻨﻣ ﺢﺒﺼﺘﺳ"
+
+####################################
+# Colonization Rules
+####################################
+COLONIZATION_IMPOSSIBLE_WILDERNESS_TECH: "§!.§R§H$tech_ecological_adaptation$§! £society£ ﻥﻭﺪﺑ ﻲﻠﺻﻷﺍ ﺎﻨﻤﻟﺎﻋ ﻦﻋ ﺎﻣﺎﻤﺗ ﺔﻔﻠﺘﺨﻣ ﺐﻛﺍﻮﻛ ﺭﺎﻤﻌﺘﺳﺍ ﺎﻨﻨﻜﻤﻳ ﻻ§!"
+
+####################################
+# Agendas
+####################################
+ council_agenda_agenda_purity_perfection_wilderness_name: "$council_agenda_agenda_purity_perfection_name$"
+ council_agenda_agenda_purity_perfection_wilderness_desc: ".ﺎﻬﻟ ﻞﻴﺜﻣ ﻻ ﺔﻗﺪﺑ ﺎﻨﻳﺪﻟ ﻦﻴﺸﻳﺎﻌﺘﻤﻠﻟ ﺔﻴﻨﻴﺠﻟﺍ ﺍﺮﺘﺴﻛﺭﻭﻷﺍ ﻪﻴﺟﻮﺘﺑ ﻡﻮﻘﻧ ﻑﻮﺳ"
+ agenda_purity_perfection_wilderness_finish: "$council_agenda_agenda_purity_perfection_wilderness_name$"
+ agenda_purity_perfection_wilderness_finish_desc: "$council_agenda_agenda_purity_perfection_wilderness_desc$"
+
+ council_agenda_agenda_superior_colonies_wilderness_name: "ﺔﻗﻮﻔﺘﻣ ﻢﻋﺍﺮﺑ"
+ council_agenda_agenda_superior_colonies_wilderness_desc: "$council_agenda_agenda_superior_colonies_desc$"

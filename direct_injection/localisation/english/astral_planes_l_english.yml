@@ -1,0 +1,1219 @@
+﻿l_english:
+
+ ASTRAL_PLANES_TITLE: "ﺔﻴﻤﺠﻨﻟﺍ ﺕﺍﺮﺋﺎﻄﻟﺍ" # Do not translate
+ DLC_ASTRAL_PLANES_RECOMMENDATION_DESC: ".ﻚﺘﺒﻏﺭ ﺐﺴﺣ ﻊﻗﺍﻮﻟﺍ ﻪﻳﻮﺸﺗﻭ ﺔﻠﻳﺪﺑ ﺩﺎﻌﺑﺃ ﻑﺎﺸﻜﺘﺳﺍ ﻚﻟ ﺢﻴﺘﺗ ﺔﻴﻨﻏ ﺔﻳﺩﺮﺳ ﺔﻌﺳﻮﺗ ﻦﻋ ﺓﺭﺎﺒﻋ §S$ASTRAL_PLANES_TITLE$§!"
+ DLC_ASTRAL_PLANES_RECOMMENDATION_REC_1: ".Quantum Catapultsﻭ Hyper Relays ﻊﻣ ﺔﻧﻭﺮﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﺑ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﻚﺑ ﺹﺎﺨﻟﺍ ﻞﻳﺰﻨﺘﻠﻟ ﻞﺑﺎﻘﻟﺍ §SOverlord§! ﻯﻮﺘﺤﻣ ﻊﻣ ﺪﻴﺟ ﻞﻜﺸﺑ ﻥﺮﺘﻘﻳ ﻪﻧﻷ §SAstral Planes§! ﻡﺍﺪﺨﺘﺳﺎﺑ ﻲﺻﻮﻧ ﻦﺤﻧ"
+ DLC_ASTRAL_PLANES_RECOMMENDATION_REC_2: ".§Sﺔﻤﻳﺪﻘﻟﺍ ﺭﺎﺛﻵﺍ§! ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻒﺋﻼﺴﻟﺍ ﻑﺎﺸﻜﺘﺳﻻ ﺓﺪﻳﺪﺟ ﺔﺻﺮﻓ ﺮﻓﻮﻳ ﻪﻧﻷ §SAstral Planes§! ﻡﺍﺪﺨﺘﺳﺎﺑ ﻲﺻﻮﻧ"
+
+ ##################
+ # Astral Actions #
+ ##################
+
+ ASTRAL_ACTIONS: "ﺔﻴﻤﺠﻨﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ"
+ ASTRAL_ACTIONS_TAB_DISABLED: ".§Y$tech_astral_harvesting$§! £physics£ ﺔﻴﻨﻘﺘﺑ ﺮﻓﻮﺘﻣ"
+ ASTRAL_ACTION_REMAINING_USAGES: "($0|ﻲﻟﺎﻤﺟﻹﺍ$/$0|ﺭﺎﺴﻴﻟﺍ$)"
+ ASTRAL_ACTION_REMAINING_USAGES_DESC: ".ﺔﻴﻘﺒﺘﻣ ﺕﺎﻣﺍﺪﺨﺘﺳﺍ LEFT|0$$ ﻚﻳﺪﻟ .TOTAL|0$$ ﻲﻟﺎﻤﺟﺇ ﻰﻠﻋ ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﺮﺼﺘﻘﻳ"
+ ASTRAL_ACTION_UNIQUE_USAGE_DESC: ".ﻂﻘﻓ ﺓﺪﺣﺍﻭ ﺓﺮﻣ ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ"
+ ASTRAL_ACTION_UNIQUE_USAGE_DESC_FLEET_ABILITY: ".ﻚﻠﻴﻃﺎﺳﺃ ﻰﻟﺇ ﺓﺪﻳﺪﺟ ﻒﺋﺎﻇﻭ ﻒﻴﻀﻳ ﻢﺛ ،ﻂﻘﻓ ﺓﺪﺣﺍﻭ ﺓﺮﻣ ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ"
+ ASTRAL_ACTION_RIFT_REQUIREMENT_DESC: " Astral Rift ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﺢﺘﻓ ﻦﻣ ﻦﻜﻤﺘﺘﻟ.§!XYZT_01XYZT ﻝﺎﻤﻛﺇ ﻚﻴﻠﻋ ﺐﺠﻳ"
+ ASTRAL_ACTION_RIFT_REQUIREMENT_DESC_PLURAL: ".ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﺢﺘﻓ ﻦﻣ ﻦﻜﻤﺘﺗ ﻰﺘﺣ NUM_RIFTS|Y$ Astral Rifts$ ﻝﺎﻤﻛﺇ ﻚﻴﻠﻋ ﺐﺠﻳ"
+ ASTRAL_ACTION_COOLDOWN_VALUE: " $VALUE|0$£time£"
+ ASTRAL_ACTION_COOLDOWN_TOOLTIP: "§Y$VALUE|0$§! £time£ :ﺔﻴﻤﺠﻨﻟﺍ ﺔﻛﺮﺤﻟﺍ ﺔﺋﺪﻬﺗ ﺓﺮﺘﻓ"
+ ASTRAL_ACTION_COOLDOWN_ACTIVE: "§R.ﻡﺎﻳﻷﺍ ﻦﻣ $VALUE|Y$ ﺓﺪﻤﻟ ﺆﻃﺎﺒﺘﻟﺍ ﺪﻴﻗ ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ§!$TRIGGER_FAIL$ "
+
+ MESSAGE_ASTRAL_ACTION_UNLOCKED_TITLE: ".ﺡﺎﺘﻣ ﺪﻳﺪﺟ ﻲﻤﺠﻧ ﻞﻤﻋ"
+ alert_astral_action_available_title: "$ASTRAL_ACTIONS$"
+ alert_astral_action_available_instant: ".ﻞﻗﻷﺍ ﻰﻠﻋ ﺪﺣﺍﻭ ﻲﻤﺠﻧ ﻞﻤﻋ ﺮﻓﻮﺘﻳ"
+ alert_astral_action_available_instruction: "§Gﺔﻴﻤﺠﻨﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﺽﺮﻋ ﺢﺘﻔﻟ ﺮﻘﻧﺍ§!"
+ ALERT_ASTRAL_ACTION_AVAILABLE_DETAIL: "$ACTION_NAME$ ﻡﺍﺪﺨﺘﺳﻼﻟ ﺰﻫﺎﺟ."
+
+ action_astral_boost: "ﻲﻤﺠﻧ ﺔﻌﻓﺩ"
+ action_astral_boost_desc: ".ﺓﺭﻭﺎﻨﻤﻟﺍ ﻰﻠﻋ ﺎﻬﺗﺭﺪﻗ ﻦﻴﺴﺤﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،$ASTRAL_THREADS_ICON$ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺎﻨﻨﻔﺳ ﺕﺎﻛﺮﺤﻣ ﺰﻳﺰﻌﺘﺑ ﻢﻗ"
+
+ action_hyper_relay_insight: "Hyper Relay ﺔﻳﺅﺭ ﻰﻠﻋ ﻞﺼﺣﺍ"
+ action_hyper_relay_insight_desc: ".ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﺎﻬﺴﻔﻧ ﻰﻠﻋ ﺔﺣﺎﺴﻤﻟﺍ ﻲﻃ ﺔﻴﻔﻴﻛ ﻢﻬﻓ ﻰﻠﻋ $ASTRAL_THREADS_ICON$ ـﻟ ﺓﺪﻳﺮﻔﻟﺍ ﺺﺋﺎﺼﺨﻟﺍ ﺎﻧﺪﻋﺎﺴﺗ ﻥﺃ ﺽﺮﺘﻔﻤﻟﺍ ﻦﻣ"
+
+ action_quantum_catapult_insight: "ﻲﻤﻜﻟﺍ ﻖﻴﻨﺠﻨﻤﻟﺍ ﺔﻳﺅﺭ ﻰﻠﻋ ﻞﺼﺣﺍ"
+ action_quantum_catapult_insight_desc: ".ﺮﺒﻛﺃ ﻞﻜﺸﺑ FTL ﺮﻔﺴﻟﺍ ﺩﻭﺪﺣ ﺮﺴﻜﺑ ﺎﻨﻟ ﺢﻤﺴﺗ ﻥﺃ ﺐﺠﻳ $ASTRAL_THREADS_ICON$ ـﻟ ﺓﺪﻳﺮﻔﻟﺍ ﺺﺋﺎﺼﺨﻟﺍ"
+ action_quantum_catapult_insight_2: "ﺔﻴﻤﺠﻨﻟﺍ ﺓﺮﻳﺎﻌﻤﻟﺍ"
+ action_quantum_catapult_insight_2_desc: ".ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﻲﻤﻜﻟﺍ ﻖﻴﻨﺠﻨﻤﻟﺍ ﺔﻗﺩ ﺓﺩﺎﻳﺯ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳ ،ﺮﺒﻛﺃ ﻞﻜﺸﺑ $ASTRAL_THREADS_ICON$ ﺕﺍﺭﺪﻗ ﺮﻴﺨﺴﺗ ﻝﻼﺧ ﻦﻣ"
+ action_quantum_catapult_insight_2_requirement_tooltip: "§!.§R§Yﻲﻤﻜﻟﺍ ﻖﻴﻨﺠﻨﻤﻟﺍ§! ﻚﻠﺘﻤﻳ§!$TRIGGER_FAIL$"
+
+ action_summon_dimensional_fleet: "ﺩﺎﻌﺑﻷﺍ ﻝﻮﻄﺳﺃ ﺀﺎﻋﺪﺘﺳﺍ"
+ action_summon_dimensional_fleet_desc: ".ﺪﻛﺄﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻻ ،ﺍﻮﺗﺃ ﺍﺫﺎﻤﻟ ﻭﺃ ،ﺍﻮﺗﺃ ﻦﻳﺃ ﻦﻣ .ﺎﻨﺘﻴﻀﻗ ﻲﻓ ﺎﻨﻤﻋﺪﻟ ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﻦﻴﺑﺭﺎﺤﻤﻟﺍ ﺀﺎﻋﺪﺘﺳﺍ ﻰﻠﻋ ﻥﻭﺭﺩﺎﻗ ﻥﻵﺍ ﻦﺤﻧ .ﺔﻴﻤﺠﻨﻟﺍ ﺕﺎﻳﻮﺘﺴﻤﻟﺍ ﻊﻣ ﺎﻨﻤﻏﺎﻨﺗ ﻖﻤﻌﺗ ﺪﻘﻟ"
+ action_summon_dimensional_fleet_tooltip: ".ﺕﺍﻮﻨﺳ 10 ﻰﻟﺇ ﻞﺼﺗ ﺓﺪﻤﻟ ﺎﻧﺪﻌﺑ ﻲﻓ ﺀﺎﻘﺒﻟﺍ ﻢﻬﻨﻜﻤﻳ .ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﻥﺎﻣﺯﻭ ﻥﺎﻜﻣ ﻦﻣ ﻱﻮﻗ ﻝﻮﻄﺳﺃ ﺀﺎﻋﺪﺘﺳﺍ"
+ NAME_Astral_Avatar: "ﻲﻤﺠﻧ ﺔﻳﺰﻣﺮﻟﺍ ﺓﺭﻮﺼﻟﺍ"
+ NAME_Astral_Avatar_Small: "$NAME_Astral_Avatar$ ﺮﻴﻐﺻ"
+ NAME_Dimensional_Fleet: "ﺩﺎﻌﺑﻷﺍ ﻝﻮﻄﺳﺃ"
+ MESSAGE_DIMENSIONAL_FLEET_DESTROYED_TITLE: "ﺩﺎﻌﺑﻷﺍ ﻝﻮﻄﺳﺃ ﺩﺎﻋ"
+ MESSAGE_DIMENSIONAL_FLEET_DESTROYED_DESC: ".ﺮﺛﺃ ﻱﺃ ﻪﻟ ﻖﺒﻳ ﻢﻟﻭ .ﻲﻠﺻﻷﺍ ﻩﺩﻮﺟﻭ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﻩﺎﻨﻴﻋﺪﺘﺳﺍ ﻱﺬﻟﺍ ﺩﺎﻌﺑﻷﺍ ﻝﻮﻄﺳﺃ ﺩﺎﻋ ﺪﻘﻟ"
+
+ action_astral_splitting: "ﻲﻤﺠﻨﻟﺍ ﻡﺎﺴﻘﻧﻻﺍ"
+ action_astral_splitting_desc: ".ﻞﻣﺎﻜﻟﺎﺑ ﺭﺎﻴﻬﻧﻻﺍ ﺮﻄﺨﻟ ﺓﺮﺠﻤﻟﺍ ﺽﺮﻌﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﻥﺎﻴﺣﻷﺍ ﻦﻣ ﺮﻴﺜﻛ ﻲﻓ ﻚﻟﺬﺑ ﻡﺎﻴﻘﻟﺍ ﻥﺇ .ﻊﻗﺍﻮﻟﺍ ﻲﻓ ﻲﻋﺎﻨﻄﺻﺍ ﻕﺰﻤﺗ ﺀﺎﺸﻧﺇ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳ ،ﻖﻴﻗﺮﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺞﻴﺴﻧ ﻲﻓ ﺔﻴﻓﺎﺿﻹﺍ $ASTRAL_THREADS_ICON$ ﺞﺴﻧ ﻝﻼﺧ ﻦﻣ"
+ action_astral_splitting_no_rift_spawning_location: "§R.ﺪﻳﺪﺠﻟﺍ ﻉﺪﺼﻟﺍ ﻢﻴﺴﻘﺗ ﺎﻬﻟﻼﺧ ﻦﻣ ﺎﻨﻨﻜﻤﻳ ﺔﺤﻟﺎﺻ ﺔﻤﻈﻧﺃ ﺪﺟﻮﺗ ﻻ§!$TRIGGER_FAIL$"
+ action_astral_splitting_tooltip: ".ﺭﻭﺎﺠﻣ $ASTRAL_RIFTS$ ﻱﺃ ﻰﻠﻋ ﻱﻮﺘﺤﻳ ﻻ ﻡﺎﻈﻧ ﻲﻓ ﻢﻜﺤﺘﻟﺍ ﺐﺠﻳ\n.ﻪﻴﻓ ﻢﻜﺤﺘﺗ ﻲﺋﺍﻮﺸﻋ ﻡﺎﻈﻧ ﻲﻓ $ASTRAL_RIFT$ ﺊﺸﻧﺃ"
+ action_astral_splitting_too_many_rifts: "§R.ﺎﻫﺩﻭﺪﺣ ﻰﺼﻗﺃ ﻰﻟﺇ ﺓﻮﻘﻟﺎﺑ ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﺓﺪﻳﺪﺟ ﻉﻭﺪﺻ ﺢﺘﻓ ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﺎﻨﻌﻓﺩ ﺪﻘﻟ§!$TRIGGER_FAIL$"
+ action_astral_splitting_no_rift_spawning_location_tt: "§R.ﺪﻳﺪﺠﻟﺍ ﻉﺪﺼﻟﺍ ﻢﻴﺴﻘﺗ ﺎﻬﻟﻼﺧ ﻦﻣ ﺎﻨﻨﻜﻤﻳ ﺔﺤﻟﺎﺻ ﺔﻤﻈﻧﺃ ﺪﺟﻮﺗ ﻻ§!"
+
+ action_gain_physics_insight: "ﺀﺎﻳﺰﻴﻔﻟﺍ ﺓﺮﻴﺼﺒﻟﺍ ﺏﺎﺴﺘﻛﺍ"
+ action_gain_physics_insight_desc: ".ﺀﺎﻳﺰﻴﻔﻠﻟ ﺎﻨﻤﻬﻓ ﺰﻳﺰﻌﺘﻟ $ASTRAL_THREADS_ICON$ ﺐﻠﻄﺑ ﺎﻨﺋﺎﻤﻠﻌﻟ ﺢﻤﺳﺍ"
+
+ action_lateral_artifacting: "ﻲﺒﻧﺎﺠﻟﺍ ﻊﻴﻨﺼﺘﻟﺍ"
+ action_lateral_artifacting_desc: ".ﺪﺣﺍﻭ ﺖﻗﻭ ﻲﻓ ﻦﻴﺘﻳﻮﻗ ﻦﻴﺘﻳﺮﺛﺃ ﻦﻴﺘﻌﻄﻗ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻼﻟ ﺖﻗﻮﻟﺍ ﻖﻓﺪﺘﺑ ﺐﻋﻼﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ"
+ action_lateral_artifacting_tooltip: ".ﺔﻴﻟﺎﺤﻟﺍ ﺭﺎﺼﺘﻧﻻﺍ ﺓﺮﺘﻓ ﺀﺎﻬﺘﻧﺍ ﺭﺎﻈﺘﻧﺍ ﻥﻭﺩ ﺔﻴﻧﺎﺛ ﺎﻳﺎﻘﺑ ﻂﻴﺸﻨﺘﺑ ﻚﻟ ﺢﻤﺴﻳ"
+ action_lateral_artifacting_not_same_relic: "§R.ﻞﻌﻔﻟﺎﺑ ﻂﺸﻧ ﺮﺛﻷﺍ ﺍﺬﻫ§!$TRIGGER_FAIL$"
+
+ astral_jump: "ﻲﻤﺠﻨﻟﺍ ﺰﻔﻘﻟﺍ"
+
+ gain_physics_insight_modifier: "$action_gain_physics_insight$"
+ astral_boost_modifier: "$action_astra_boost$"
+ quantum_catapult_insight_2_modifier: "$action_quantum_catapult_insight_2$"
+ quantum_catapult_insight_2_modifier_tt: "§G+100%§!$quantic_ambush$ ﻞﻳﺪﻌﺘﻟﺍ ﺓﺪﻣ: \n§G%[GetQuantumCatapulInsight2QuanticAmbush]+§!$quantic_ambush$ $MOD_SHIP_FIRE_RATE_MULT$: "
+ fold_hyperspace_modifier: "$artifact_fold_hyperspace$"
+
+ action_remaining_astral_actions_locked: "$artifact_action_locked$"
+ action_remaining_astral_actions_locked_desc: ".ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻝﻼﺧ ﻦﻣ ﺔﻴﻓﺎﺿﻹﺍ $ASTRAL_THREADS_ICON$ ﺕﺍﺀﺍﺮﺟﺇ ﺢﺘﻓ ﻦﻜﻤﻳ ﻪﻧﺄﺑ ﻥﻮﻌﻨﺘﻘﻣ ﺎﻧﺅﺎﻤﻠﻋ"
+ action_astral_action_locked_failtext: ".ﺪﻳﺪﺟ ﻲﻤﺠﻧ ﻞﻤﻋ ﺢﺘﻔﻳ"
+
+ action_flash_forge_hyper_relay: "ﻱﻼﻳﺭ ﺮﺒﻳﺎﻫ ﺝﺭﻮﻓ ﺵﻼﻓ"
+ action_flash_forge_hyper_relay_desc: ".ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻬﺑ "ﺎﻫﺮﻴﻌﺘﺴﻧ" ﻦﻳﺬﻟﺍ ﻥﻭﺪﻴﺣﻮﻟﺍ ﺎﻨﻧﺃ ﻦﻣ ﺎﺒﻳﺮﻘﺗ ﻦﻴﻘﻳ ﻰﻠﻋ ﻦﺤﻧﻭ .(ﻞﺒﻘﺘﺴﻤﻟﺍ ﻲﻓ ﺪﺟﻮﺘﺳ ﻲﺘﻟﺍ ﻭﺃ) ﻞﻌﻔﻟﺎﺑ ﺓﺩﻮﺟﻮﻤﻟﺍ Hyper Relays ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻥﻵﺍ ﺎﻨﻨﻜﻤﻳ ،ﻯﺮﺧﺃ ﺩﺎﻌﺑﺃ ﻕﺍﺮﺘﺧﺍ ﻝﻼﺧ ﻦﻣﻭ .ﺔﻌﺋﺍﺭ ﺞﺋﺎﺘﻧ ﺎﻨﻘﻘﺣ ،ﺔﻴﻤﺠﻨﻟﺍ ﻁﻮﻴﺨﻟﺍ ﻦﻣ ﺔﻨﻴﻌﻣ ﺔﻴﻤﻛ ﻚﺑﺎﺸﺗ ﻝﻼﺧ ﻦﻣ ﻦﻜﻟﻭ ،ﻡﺎﻤﺘﻫﻼﻟ ﺓﺮﻴﺜﻣ ﺔﻴﻣﻮﻤﻛ ﺺﺋﺎﺼﺧ ﻞﻌﻔﻟﺎﺑ ﺔﻘﺋﺎﻔﻟﺍ ﺕﺍﺭﺎﺴﻤﻟﺍ ﻚﻠﺘﻤﺗ"
+ action_flash_forge_hyper_relay_tooltip: ".ﺔﻔﻠﻜﺗ ﻱﺃ ﻥﻭﺩ ،ﻡﺎﻈﻨﻟﺍ ﻲﻓ ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺪﺣﺍﻭ Hyper Relay ﺀﺎﻨﺒﺑ ﺎﻨﻳﺪﻟ ﺀﺎﻨﺒﻟﺍ ﻦﻔﺴﻟ ﺡﺎﻤﺴﻟﺍ"
+ action_flash_forge_hyper_relay_available_tooltip: "§R.ﻚﻟﺬﺑ ﻡﺎﻴﻘﻠﻟ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺀﺎﻨﺒﻟﺍ ﺔﻨﻴﻔﺴﻟ ﻊﻗﻮﻤﻟﺍ ﺩﺍﺪﻋﺈﺑ ﻞﻌﻔﻟﺎﺑ ﺎﻨﻤﻗ ﺪﻘﻟ§!$TRIGGER_FAIL$"
+ action_flash_forge_hyper_relay_executing_tooltip: "§Rﻚﻟﺬﺑ ﻡﺎﻴﻘﻠﻟ ﺎﻬﻘﻳﺮﻃ ﻲﻓ ﺎﻨﻟ ﺔﻌﺑﺎﺘﻟﺍ ﺀﺎﻨﺒﻟﺍ ﻦﻔﺳ ﻯﺪﺣﺇ§!$TRIGGER_FAIL$"
+ FLASH_FORGE_MEGASTRUCTURE: "$MEGASTRUCTURE|H$ ﺝﺭﻮﻓ ﺵﻼﻓ"
+
+ action_dimensional_shifting: "ﺩﺎﻌﺑﻷﺍ ﻝﻮﺤﺗ"
+ action_dimensional_shifting_desc: ".ﺓﺮﻬﺒﻤﻟﺍ ﺞﺋﺎﺘﻨﻟﺍ ﺾﻌﺑ ﻖﻴﻘﺤﺘﻟ ﻪﺴﻔﻧ ﻝﻮﻃ ﻰﻠﻋ ﻪﻴﻃ ﺎﻨﻨﻜﻤﻳ ،ﺮﺧﻵﺍﻭ ﺪﻌﺒﻟﺍ ﺍﺬﻫ ﻦﻴﺑ ﺞﻴﺴﻨﻟﺎﺑ ﻲﻛﺬﻟﺍ ﺐﻋﻼﺘﻟﺍ ﺾﻌﺑ ﻊﻣ"
+ action_dimensional_shifting_tooltip: ".ﻞﻣﺎﻜﻟﺎﺑ ﺎﻬﺣﻼﺻﺇ ﺪﻌﺑ ﻞﻴﻃﺎﺳﻷﺍ ﺩﻮﻌﺗ\n\n.ﻡﺎﻳﺃ §!XYZT_2180XYZT ﺓﺪﻤﻟ ﻒﻠﺘﺨﻣ ﺪﻌﺑ ﻲﻓ ﺔﻨﻣﺁﻭ ،ﺩﻮﺟﻮﻟﺍ ﻦﻣ ﻲﺠﻳﺭﺪﺘﻟﺍ ﺺﻠﺨﺘﻟﺎﺑ ﻚﻠﻴﻃﺎﺳﻷ ﺢﻤﺴﺗ ﻲﺘﻟﺍ ،§YPhase Fleet§! ﻝﻮﻄﺳﺃ ﺔﻛﺮﺣ ﺢﺘﻔﻳ"
+
+ action_folding_hyperspace: "ﻲﻄﻠﻟ ﻞﺑﺎﻘﻟﺍ ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ"
+ action_folding_hyperspace_desc: ".ﺓﺮﻬﺒﻤﻟﺍ ﺞﺋﺎﺘﻨﻟﺍ ﺾﻌﺑ ﻖﻴﻘﺤﺘﻟ ﻪﺴﻔﻧ ﻝﻮﻃ ﻰﻠﻋ ﺀﺎﻀﻔﻟﺍ ﻲﻃ ﺎﻨﻨﻜﻤﻳ ،ﺩﺎﻌﺑﻷﺍ ﻦﻴﺑ ﻯﻮﺘﺴﻤﻟﺎﺑ ﻲﻛﺬﻟﺍ ﺐﻋﻼﺘﻟﺍ ﺾﻌﺑ ﻊﻣ"
+ action_folding_hyperspace_tooltip: ".ﻙﺩﻭﺪﺣ ﻞﺧﺍﺩ ﻡﺎﻈﻧ ﻰﻟﺇ ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺰﻔﻘﻟﺎﺑ ﻚﻨﻔﺴﻟ ﺢﻤﺴﺗ ﻲﺘﻟﺍﻭ ،§YAstral Jump§! ﻝﻮﻄﺳﻷﺍ ﺔﻛﺮﺣ ﺢﺘﻔﻳ"
+
+ action_astral_siphon: "ﻲﻤﺠﻧ ﻥﻮﻔﻴﺳ"
+ action_astral_siphon_desc: ".$astra_threads$ ﻦﻣ ﺔﺘﺑﺎﺛ ﺔﻴﻤﻛ ﺝﺎﺘﻧﺇ ﺎﻨﻨﻜﻤﻳ ،ﺔﻳﺎﻨﻌﺑ ﺎﻬﺗﺮﻳﺎﻌﻣ ﺖﻤﺗ ﺝﺍﺮﺨﺘﺳﺍ ﺓﺰﻬﺟﺃ ﺀﺎﻨﺑ ﻝﻼﺧ ﻦﻣ .ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻦﻴﺑ ﺞﻴﺴﻨﻟﺍ ﻒﺸﻜﻟ ﺔﻘﻳﺮﻃ ﻙﺎﻨﻫ"
+ action_astral_siphon_unlock_tooltip_common: "[GetAstralResearcherEffect]\n.ﻒﺋﺎﻇﻭ §Y[GetAstralResearcherJobWithIcon]§! ﺮﻴﻓﻮﺗﻭ $ASTRAL_THREADS_ICON$ ﻦﻳﺰﺨﺘﻟﺍ ﺔﻌﺳ ﺓﺩﺎﻳﺯ"
+ action_astral_siphon_unlock_tooltip_lvl1: " $action_astral_siphon_unlock_tooltip_common$§Y$building_astral_siphon_1$§!\n Planetary Building.§Y$building_astral_siphon_1$§! ﺢﺘﻔﻳ"
+ action_astral_siphon_unlock_tooltip_lvl2: " $action_astral_siphon_unlock_tooltip_common$§Y$building_astral_siphon_2$§!\n.§Y$building_astral_siphon_2$§! ﻰﻟﺇ §Y$building_astral_siphon_1$§! ﺔﻴﻗﺮﺘﺑ ﺢﻤﺴﻳ"
+ action_astral_siphon_unlock_tooltip_lvl3: " $action_astral_siphon_unlock_tooltip_common$§Y$building_astral_siphon_3$§!\n.§Y$building_astral_siphon_3$§! ﻰﻟﺇ §Y$building_astral_siphon_2$§! ﺔﻴﻗﺮﺘﺑ ﺢﻤﺴﻳ"
+ building_astral_siphon_1: "ﻲﻤﺠﻧ ﻥﻮﻔﻴﺳ"
+ building_astral_siphon_1_desc: ".ﺭﺎﻴﻬﻧﻻﺍ ﻦﻣ ﻖﺋﺎﻘﺤﻟﺍ ﻦﻴﺑ ﺩﻭﺪﺤﻟﺍ ﻊﻨﻤﺗ ﻞﻛﺎﻴﻬﻟﺍ ﻩﺬﻫ .ﻊﻗﺍﻮﻟﺍ ﺞﻴﺴﻧ ﻦﻋ ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍ ﺩﺎﻌﺑﻹ ﺔﻘﻴﻗﺩ ﺔﻴﻠﻤﻋ ﺎﻬﻧﺇ"
+ building_astral_siphon_2: "ﻲﻤﺠﻨﻟﺍ ﻊﻤﻘﻟﺍ"
+ building_astral_siphon_2_desc: "$building_astra_siphon_1_desc$"
+ building_astral_siphon_3: "ﺔﻴﻤﺠﻨﻟﺍ ﺔﻗﻼﻌﻟﺍ"
+ building_astral_siphon_3_desc: "$building_astra_siphon_1_desc$"
+
+ astral_siphon_modifier_1: "$action_astra_siphon$"
+ astral_siphon_modifier_2: "$action_astra_siphon$"
+ astral_siphon_modifier_3: "$action_astra_siphon$"
+
+ action_planar_mastery: "ﻮﺘﺴﻣ ﻥﺎﻘﺗﺇ"
+ action_planar_mastery_desc: ".ﻦﻳﺮﺧﻵﺍ ﻦﻣ ﻞﻴﻠﻘﻟﺍ ﻯﻮﺳ ﺎﻬﻤﻬﻔﻳ ﻻ ﻕﺮﻄﺑ ﻁﻮﻴﺨﻟﺍ ﻩﺬﻫ ﺞﺴﻧ ﺎﻨﻨﻜﻤﻳ .ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﻥﺍﻮﻛﻷﺍ ﻂﺑﺮﻳ ﻱﺬﻟﺍ ﺞﻴﺴﻨﻟﺍ ﻢﻬﻓ ﻰﻠﻋ ﺔﻴﻤﺠﻨﻟﺍ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻰﻟﺇ ﺎﻨﺗﻼﺣﺭ ﺎﻨﺗﺪﻋﺎﺳ ﺪﻘﻟ"
+ edict_astral_binding: "ﻲﻤﺠﻨﻟﺍ ﻂﺑﺮﻟﺍ"
+ edict_astral_binding_desc: ".ﻪﺗﺍﺫ ﺪﻌﺒﻟﺍ ﺞﻴﺴﻧ ﻪﻧﺇ .ﻥﻮﻜﻟﺍ ﻲﻓ ﻯﺮﺧﺃ ﺓﺩﺎﻣ ﻱﺃ ﻲﻓ ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍ ﺞﺴﻧ ﺔﻴﻔﻴﻛ ﺎﻨﻤﻠﻌﺗ ﺪﻘﻟ"
+ edict_astral_binding_effects: ".§!%XYZT_010XYZT ﺔﺒﺴﻨﺑ ﻯﺮﺧﻷﺍ ﺔﻳﺩﺎﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺐﺳﺎﻜﻣ ﻊﻴﻤﺟ ﺓﺩﺎﻳﺰﺑ ﻢﻗ"
+ edict_astral_shielding: "ﻲﻤﺠﻨﻟﺍ ﻊﻳﺭﺪﺘﻟﺍ"
+ edict_astral_shielding_desc: ".ﺔﻴﻤﺠﻨﻟﺍ ﻁﻮﻴﺨﻟﺍ ﻦﻣ ﺔﻜﺳﺎﻤﺘﻣ ﺔﻜﺒﺷ ﻦﻣ ﻯﻮﻗﺃ ﺰﺟﺎﺣ ﺪﺟﻮﻳ ﻻ"
+ edict_dimensional_artificing: "ﺩﺎﻌﺑﻷﺍ ﻉﺎﻨﻄﺻﺍ"
+ edict_dimensional_artificing_desc: ".ﻻ ﻡﺃ ﻯﺮﺧﻷﺍ ﺕﺎﻳﻮﺘﺴﻤﻟﺍ ﻰﻠﻋ ﻆﺣﻼﺘﺳ ﺎﻨﻟﺎﻌﻓﺃ ﺖﻧﺎﻛ ﺍﺫﺇ ﺎﻣ ﻝﻮﻘﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﻻ .ﺔﺒﺳﺎﻨﻤﻟﺍ ﻑﻭﺮﻈﻟﺍ ﻞﻇ ﻲﻓ ﻯﺮﺧﺃ ﺩﺎﻌﺑﺃ ﻦﻣ ﺔﻴﻓﺎﻘﺜﻟﺍ ﺔﻴﻤﻫﻷﺍ ﺕﺍﺫ ﺀﺎﻴﺷﻷﺍ ﺭﺎﻬﻇﺇ ﻦﻜﻤﻳ"
+ edict_dimensional_artificing_tooltip: " $MINOR_ARTIFACTS$ ﺎﻳﺮﻬﺷ£minor_artifacts£ §G+5§!"
+ action_planar_mastery_tooltip: ".§Y$edict_ Dimension_artificing$§!ﻭ §Y$edict_astral_shielding$§!ﻭ §Y$edict_astral_binding$§! :ﺪﻳﺪﺠﻟﺍ $EDICTS$ ﺢﺘﻔﻳ"
+
+ ASTRAL_RIFTS_COMPLETED: "VAL|0$$ :ﺔﻠﻤﺘﻜﻤﻟﺍ ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ"
+ ASTRAL_ACTIONS_RIFTS_COMPLETED_TT: ".§G+$@astral_threads_capacity_from_each_explored_rift|*0$§! :ﻦﻳﺰﺨﺘﻟﺍ ﺔﻌﺳ §Y$ASTRAL_THREADS_ICON$§!$t$\n.§YAstral Actions§!$t$ﺢﺘﻓ \n:ﻞﻤﺘﻜﻣ §YAstral Rift§! ﻞﻜﻟ"
+ ASTRAL_ACTIONS_RIFTS_COMPLETED_TT_DESC: ".ﺕﺎﻴﻧﺎﻜﻣﻹﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺢﺘﻔﻳ ﺔﻴﻤﺠﻨﻟﺍ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻊﻣ ﻖﻤﻋﻷﺍ ﻢﻏﺎﻨﺘﻟﺍ ﻥﺇ"
+
+ #################
+ # Astral Thread #
+ #################
+
+ astral_threads: "ﺔﻴﻤﺠﻨﻟﺍ ﻁﻮﻴﺨﻟﺍ"
+ astral_threads_custom_tooltip: "$ASTRAL_ACTIONS_RIFTS_COMPLETED_TT$"
+ astral_threads_desc: " $astral_threads$ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺔﻔﻠﺘﺨﻣ ﺕﺍﺮﻴﺛﺄﺗ ﻞﻴﻌﻔﺘﻟ ﺎﻬﻗﺎﻔﻧﺇ ﻦﻜﻤﻳ .ﺾﻌﺒﻟﺍ ﺎﻬﻀﻌﺑ ﻊﻣ ﺩﺎﻌﺑﻷﺍ ﺕﺎﻳﻮﺘﺴﻣ ﻡﺩﺎﺼﺗ ﺔﺠﻴﺘﻧ :ﻒﺜﻜﻤﻟﺍ ﻥﺎﻜﻣﺰﻟﺍ ﻦﻣ ﻁﻮﻴﺧ ﻲﻫ.£astral_threads£"
+
+ ASTRAL_THREADS: "$astral_threads$"
+ ASTRAL_THREADS_ICON: "$astral_threads$£astral_threads£"
+ ASTRAL_THREADS_VALUE: "$VAL|0$£astral_threads£"
+ ASTRAL_THREADS_FULL: "$ASTRAL_THREADS$: $VAL|Y0$"
+ ASTRAL_THREADS_DESC: "$astra_threads_desc$"
+
+ action.92.astral_threads: ".ﻡﺎﻤﺘﻫﻼﻟ ﺓﺮﻴﺜﻣ ﻕﺮﻃ ﺓﺪﻌﺑ ﻥﺎﻜﻤﻟﺍﻭ ﻥﺎﻣﺰﻟﺍ ﻪﻳﻮﺸﺗ ﻲﻓ ﺓﺪﻳﺮﻔﻟﺍ ﻪﺼﺋﺎﺼﺧ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ .§H$astral_threads$§! ﻰﻤﺴﻳ ﺎﻘﺑﺎﺳ ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﺎﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺍﺩﺭﻮﻣ [Root.GetName] ﻒﺸﺘﻛﺍ ،§Y[From.GetStarName]§! ﺢﺴﻣ ﺀﺎﻨﺛﺃ"
+ action.92.astral_threads.tooltip: "§E$astral_threads_desc$§!\n§Y$astral_threads$§!£astral_threads£"
+ distar.305.astral_threads: ".ﻡﺎﻤﺘﻫﻼﻟ ﺓﺮﻴﺜﻣ ﻕﺮﻃ ﺓﺪﻌﺑ ﻥﺎﻜﻤﻟﺍﻭ ﻥﺎﻣﺰﻟﺍ ﻪﻳﻮﺸﺗ ﻲﻓ ﺓﺪﻳﺮﻔﻟﺍ ﻪﺼﺋﺎﺼﺧ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ .§H$astral_threads$§! ﻢﺳﺍ ﻪﻴﻠﻋ ﻖﻠﻄﻳ ،[FromFrom.GetName] ﻰﻠﻋ ﺎﻘﺑﺎﺳ ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﺎﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺍﺩﺭﻮﻣ [Root.GetName] ﻒﺸﺘﻛﺍ"
+
+ astral_threads_found: ":$astra_threads$ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻢﺗ"
+
+ feature_unlock_astral_rift_exploration: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ"
+ feature_unlock_astral_rift_exploration_desc: ".ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺎﺑ ﺔﻴﻤﻠﻌﻟﺍ ﺎﻨﻨﻔﺴﻟ ﺢﻤﺴﻳ"
+
+ feature_unlock_astral_threads_actions: "ﺔﻴﻤﺠﻨﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ"
+ feature_unlock_astral_threads_actions_desc: ".ﺎﻨﺤﻟﺎﺼﻟ ﺔﻔﻠﺘﺨﻣ ﻕﺮﻄﺑ $ASTRAL_THREADS_ICON$ ﻡﺪﺨﺘﺳﺍ"
+
+ ###############################
+ # Astral Rift Discovery Steps #
+ ###############################
+
+ astral_planes.100.name: "$situation_a_rift_in_space$"
+ astral_planes.100.desc.split: ".ﺭﺬﺤﺑ ﻞﻣﺎﻌﺘﻧ ﻥﺃ ﺐﺠﻳ\n\n.ﺮﺧﺁ ﻥﺎﻣﺯﻭ ﻥﺎﻜﻣ ﻲﻓ ﺎﻋﺪﺻ ﺢﺘﻓ ﺎﻤﻣ ،[From.solar_system.GetName] ﻡﺎﻈﻧ ﻲﻓ ﺔﻳﺪﻌﺒﻟﺍ ﺔﺑﺪﻨﻟﺍ ﺭﺍﺮﻘﺘﺳﺍ ﻉﺰﻋﺰﺗ ﺪﻘﻟ"
+ astral_planes.100.desc.default: ".ﺪﻳﺰﻤﻟﺍ ﻑﺎﺸﻜﺘﺳﻻ ﺔﻘﻳﺮﻃ ﺩﺎﺠﻳﺇ ﺎﻨﻨﻜﻤﻴﻓ ،ﻪﺼﺋﺎﺼﺧ ﺔﺳﺍﺭﺪﻟ ﺎﺘﻗﻭ ﺎﻨﺼﺼﺧ ﺍﺫﺇ ﺎﻤﺑﺭ .[from.solar_system.GetName] ﻡﺎﻈﻧ ﻲﻓ ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﻱﺩﺎﻋ ﺮﻴﻏ ﺎﻋﺪﺻ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+ astral_planes.100.a: ".ﻊﺋﺍﺭ"
+ astral_planes.101.name: "ﻉﺪﺼﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ"
+ astral_planes.101.desc: ".ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﻥﻮﻜﻳ ﺪﻗ ﺎﻣ ﺔﻓﺮﻌﻤﻟ ﺔﻘﻳﺮﻃ ﺎﻨﻳﺪﻟ ﺲﻴﻟ .ﻑﺎﺸﻜﺘﺳﻻﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺔﻘﻳﺮﻃ ﺩﺎﺠﻳﺇ ﺎﻨﻨﻜﻤﻴﻓ ،ﻪﺼﺋﺎﺼﺧ ﺔﺳﺍﺭﺪﻟ ﺎﺘﻗﻭ ﺎﻨﺼﺼﺧ ﺍﺫﺇ ﺎﻤﺑﺭ\n\n.ﺎﻨﺋﺎﻤﺳ ﻲﻓ ﺔﺑﺪﻨﻟﺍ ﺲﻤﻠﻟ ﺔﻴﻓﺎﻛ ﺔﻓﺎﺴﻣ ﻰﻟﺇ ﺍﺮﻴﺧﺃ ﺎﻨﺒﻌﺷ ﻞﺻﻭ ﺪﻘﻟ"
+ astral_planes.101.a: ".ﻪﻠﻌﻓ ﺎﻨﻓﻼﺳﺃ ﻊﻄﺘﺴﻳ ﻢﻟ ﺎﻣ ﺎﻨﻠﻌﻓ ﺪﻘﻟ"
+ astral_planes.110.name: "ﺔﻴﻤﺠﻨﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ"
+ astral_planes.110.desc: ".ﺍﺮﻴﺜﻛ ﺎﻧﺪﻴﻔﺘﺳ ﺔﻔﻠﺘﺨﻣ ﻕﺮﻄﺑ ﺭﺩﺎﻨﻟﺍﻭ ﻢﻴﻘﻟﺍ ﺩﺭﻮﻤﻟﺍ ﺍﺬﻫ ﻖﻴﺒﻄﺗ ﻦﻜﻤﻳ \n\n .ﻥﻮﻜﻟﺍ ﺍﺬﻫ ﺩﻭﺪﺣ ﻞﻜﺸﺗ ﻲﺘﻟﺍ ﺔﻴﻤﺠﻨﻟﺍ ﺩﺍﻮﻤﻠﻟ ﺓﺮﻳﺎﻄﺘﻤﻟﺍ ﻁﻮﻴﺨﻟﺍ ﺀﺍﻮﺘﺣﺍﻭ ﻊﻤﺟ ﺀﺍﺭﻭ ﺔﻨﻣﺎﻜﻟﺍ ﺭﺍﺮﺳﻷﺍ ﻦﻋ ﺎﻨﻔﺸﻛ ﺪﻘﻟ"
+ astral_planes.120.name: "$situation_a_rift_in_space$"
+ astral_planes.120.desc: ".ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻚﻟﺫ ﻦﻣ ﺪﻌﺑﺃ ﻮﻫ ﺎﻣ ﻰﻟﺇ ﻝﻮﺻﻮﻠﻟ ﺎﻧﺩﻮﻬﺟ ﻦﻋ ﻲﻠﺨﺘﻟﺍ ﻢﺗ ﺪﻘﻟ \n\n.ﻪﻠﺧﺍﺪﺑ ﺩﻮﺟﻮﻤﻟﺍ ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﻉﺪﺼﻟﺍ ﻦﻋ ﻲﻠﺨﺘﻟﺍ ﻢﺗ ﺎﻤﻛ ،[FromFrom.GetName] ﻡﺎﻈﻧ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﺎﻧﺪﻘﻓ ﺪﻘﻟ"
+
+ approach_situation_speed_tooltip: ".ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻨﺛﺎﺤﺑﺃ ﻊﻳﺮﺴﺗ ﻰﻠﻋ ﺞﻬﻨﻟﺍ ﺍﺬﻫ ﻞﻤﻌﻴﺳ\n"
+
+ situation_a_rift_in_space: "ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﻉﺪﺻ"
+ situation_a_rift_in_space_riftworld: "ﻉﺪﺼﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ"
+ situation_a_rift_in_space_type: "$situation_a_rift_in_space$"
+ situation_a_rift_in_space_riftworld_type: "$situation_a_rift_in_space_riftworld$"
+ situation_a_rift_in_space_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_a_rift_in_space_desc: ".ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﻥﻮﻜﻳ ﺪﻗ ﺎﻣ ﺔﻓﺮﻌﻤﻟ ﺔﻘﻳﺮﻃ ﺎﻨﻳﺪﻟ ﺲﻴﻟ .ﻑﺎﺸﻜﺘﺳﻻﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺔﻘﻳﺮﻃ ﺩﺎﺠﻳﺇ ﺎﻨﻨﻜﻤﻴﻓ ،ﻪﺼﺋﺎﺼﺧ ﺔﺳﺍﺭﺪﻟ ﺎﺘﻗﻭ ﺎﻨﺼﺼﺧ ﺍﺫﺇ ﺎﻤﺑﺭ .ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﻱﺩﺎﻋ ﺮﻴﻏ ﺎﻋﺪﺻ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+ situation_a_rift_in_space_desc_riftworld_origin: ".ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﻥﻮﻜﻳ ﺪﻗ ﺎﻣ ﺔﻓﺮﻌﻤﻟ ﺔﻘﻳﺮﻃ ﺎﻨﻳﺪﻟ ﺲﻴﻟ .ﻑﺎﺸﻜﺘﺳﻻﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺔﻘﻳﺮﻃ ﺩﺎﺠﻳﺇ ﺎﻨﻨﻜﻤﻴﻓ ،ﻪﺼﺋﺎﺼﺧ ﺔﺳﺍﺭﺪﻟ ﺎﺘﻗﻭ ﺎﻨﺼﺼﺧ ﺍﺫﺇ ﺎﻤﺑﺭ\n\n.ﺎﻨﺋﺎﻤﺳ ﻲﻓ ﺔﺑﺪﻨﻟﺍ ﺲﻤﻠﻟ ﺔﻴﻓﺎﻛ ﺔﻓﺎﺴﻣ ﻰﻟﺇ ﺍﺮﻴﺧﺃ ﺎﻨﺒﻌﺷ ﻞﺻﻭ ﺪﻘﻟ"
+ situation_a_rift_in_space_standard: "ﻲﺒﻠﺳ ﻞﻜﺸﺑ ﺔﺳﺍﺭﺪﻟﺍ"
+ approach_situation_a_rift_in_space_standard_tt: ".ﺪﻴﻌﺑ ﻦﻣ ﺓﺮﻫﺎﻈﻟﺍ ﻩﺬﻫ ﺐﻗﺍﺮﻧ ﺎﻧﻮﻋﺩ .ﺔﻤﻴﻘﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﻕﺎﻔﻧﺈﺑ ﺎﻨﻟ ﺢﻤﺴﻳ ﻊﺿﻭ ﻲﻓ ﺎﻨﺴﻟﻭ"
+ situation_a_rift_in_space_devote_research: "ﺙﻮﺤﺒﻟﺍ ﺲﻳﺮﻜﺗ"
+ approach_situation_a_rift_in_space_devote_research_tt: ".ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﻉﺪﺼﻟﺍ ﺍﺬﻫ ﺭﺍﺮﺳﺃ ﻒﺸﻜﻟ ﺎﻨﺋﺎﻤﻠﻋ ﻦﻣ ﺙﺎﺤﺑﻷﺍ ﻦﻣ ﺮﻴﺒﻛ ﺭﺪﻗ ﺺﻴﺼﺨﺗ ﺎﻨﻨﻜﻤﻳ"
+ situation_a_rift_in_space_send_probes: "ﺕﺎﺴﺠﻣ ﻝﺎﺳﺭﺇ"
+ approach_situation_a_rift_in_space_send_probes_tt: ".ﺽﺮﻐﻟﺍ ﺍﺬﻬﻟ ﻚﺋﺎﺒﺴﻟﺍ ﻦﻣ ﺎﻨﺟﺎﺘﻧﺇ ﻲﻟﺎﻤﺟﺇ ﻦﻣ ﺔﻨﻴﻌﻣ ﺔﻴﻤﻛ ﺺﻴﺼﺨﺗ ﻰﻠﻋ ﻥﻭﺭﺩﺎﻗ ﻦﺤﻧ .ﻩﺩﻭﺪﺣ ﻕﺍﺮﺘﺧﺍ ﺔﻴﻔﻴﻜﻟ ﺎﻨﻤﻬﻓ ﺯﺰﻌﻳ ﻉﺪﺼﻟﺍ ﻰﻟﺇ ﻪﻠﺳﺮﻧ ﺭﺎﺒﺴﻣ ﻞﻛ"
+ situation_a_rift_in_space_finisher_effect: ".§Y$tech_rift_sphere$§! ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺢﺘﻔﻳ"
+ NAME_Astral_Entity: "ﻲﻤﺠﻨﻟﺍ ﻥﺎﻴﻜﻟﺍ"
+ NAME_Planet_Rift_In_Space: "ﻲﻤﺠﻧ ﺐﻛﻮﻛ"
+
+ astral_rift_discovery_event_title: "ﺮﻘﺘﺴﻤﻟﺍ ﺮﻴﻏ ﻥﺎﻜﻣﺰﻟﺍ"
+ astral_rift_discovery_event_text: ".ﺎﻬﺑ ﺆﺒﻨﺘﻟﺍ ﻦﻜﻤﻳ ﻻ ﺔﻘﻳﺮﻄﺑ ﺐﻳﺮﻘﻟﺍ ﻊﻗﺍﻮﻟﺍ ﺀﺎﻨﺤﻧﺍ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﺔﻔﻴﻨﻋ ﺕﺎﻫﻮﺸﺗ ﺐﺒﺴﻳ ﺍﺬﻫﻭ .ﺩﺎﻌﺑﻷﺍ ﺫﻭﺬﺸﻟﺍ ﺭﺍﺮﻘﺘﺳﺍ ﺔﻋﺰﻋﺰﺑ ﺪﺼﻗ ﺮﻴﻏ ﻦﻋ ﺎﻨﻤﻗ ،§Y[target.solar_system.GetName]§! ﻲﻓ ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺔﺳﺍﺭﺩ ﺀﺎﻨﺛﺃ"
+ astral_situation.55.name: "$astra_rift_discovery_event_title$"
+ astral_situation.55.desc: ".ﺎﻨﻧﻮﻛ ﺝﺭﺎﺧ ﻦﻣ ﺎﻣ ﺔﻘﻳﺮﻄﺑ ﻞﺻﻭ ﻪﻧﺃ ﻮﻫ ﺎﻨﻳﺪﻟ ﻦﻴﻤﺨﺗ ﻞﻀﻓﺃ \n\n.[GetPreFTLLower] ﺓﺭﺎﻀﺣ ﻪﻨﻜﺴﺗﻭ \n\n .ﺎﻨﻳﺪﻟ ﻡﻮﺠﻨﻟﺍ ﺕﺎﻄﻄﺨﻣ ﻦﻣ ﻱﺃ ﻲﻓ ﻖﺑﺎﺴﻟﺍ ﻩﺩﻮﺟﻮﻟ ﺕﻼﺠﺳ ﻱﺃ ﺎﻨﻳﺪﻟ ﺲﻴﻟ .ﻞﺒﻗ ﻦﻣ ﺀﻲﺷ ﻙﺎﻨﻫ ﻦﻜﻳ ﻢﻟ ﺚﻴﺣ ﺮﻬﻇ ،§Y[planet_rift_in_space.GetName]§! ﻪﻴﻤﺴﻧ ﻱﺬﻟﺍﻭ ،ﺾﻣﺎﻏ ﺐﻛﻮﻛ\n\n$astral_rift_discovery_event_text$"
+ astral_situation.60.name: "$astra_rift_discovery_event_title$"
+ astral_situation.60.desc: ".ﺓﺩﻮﻌﻟﺍ ﻰﻠﻋ ﻢﻬﺗﺪﻋﺎﺴﻣ ﻦﻣ ﻦﻜﻤﺘﻧ ﻥﺃ ﺢﺟﺮﻤﻟﺍ ﺮﻴﻏ ﻦﻣﻭ ﻪﻧﺈﻓ ،ﺍﻭﺄﺸﻧ ﺎﻤﻨﻳﺃ \n\n.ﻦﻴﻴﺋﺍﺪﻋ ﻥﻭﺪﺒﻳ ﻻﻭ ﻪﻨﻣ ﺍﻮﺗﺃ ﻱﺬﻟﺍ ﻥﺎﻜﻤﻟﺍ ﻦﻋ ﺓﺮﻛﺍﺫ ﻱﺃ [rift_temporary_species.GetName] ﻯﺪﻟ ﺲﻴﻟ\n\n.ﻦﻴﻴﻟﺎﺤﻟﺍ ﺎﻨﻧﺎﻜﺳ ﻰﻠﻋ ﻱﻭﺎﺴﺘﻟﺎﺑ ﺔﻋﺯﻮﻣ ،§Y[rift_temporary_species_planet.GetName]§! ﻰﻠﻋ ﺓﺪﻳﺪﺟ ﺔﻴﻋﺍﻭ ﻉﺍﻮﻧﺃ ﺕﺮﻬﻇ\n\n$astral_rift_discovery_event_text$"
+ astral_situation.65.name: "$astra_rift_discovery_event_title$"
+ astral_situation.65.desc: ".ﻢﻬﺗﺍﺩﺍﺪﻣﺇ ﺔﻔﻋﺎﻀﻣ ﻦﻣ ﺪﻛﺄﺘﻧﻭ ،ﺐﺜﻛ ﻦﻋ ﻊﺿﻮﻟﺍ ﺐﻗﺍﺮﻧ ﻥﺃ ﺎﻨﻴﻠﻋﻭ .ﺔﻔﻋﺎﻀﻣ ﺔﻋﺮﺴﺑ ﺖﻗﻮﻟﺍ ﺭﻭﺮﻣ ﻲﻓ ﺐﺒﺴﺘﺗ §Y[rift_temporary_planet.GetName]§! ﻰﻠﻋ ﺓﺮﻴﺒﻜﻟﺍ ﺔﻴﻨﻣﺰﻟﺍ ﺕﺎﻫﻮﺸﺘﻟﺍ\n\n$astral_rift_discovery_event_text$"
+
+ rift_in_space_time_acceleration_modifier: "ﺔﻴﻨﻣﺰﻟﺍ ﺕﺎﻫﻮﺸﺘﻟﺍ"
+ rift_in_space_time_acceleration_modifier_desc: ".ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﻔﻋﺎﻀﻣ ﺔﻋﺮﺴﺑ ﺖﻗﻮﻟﺍ ﺮﻤﻳ"
+
+ astral_situation.20.name: "ﺔﻠﻜﺸﻤﻟﺍ ﻮﻫ ﻙﺎﻜﺘﺣﻻﺍ"
+ astral_situation.20.desc: ".ﻲﻧﺎﻜﻤﻟﺍ ﺫﻭﺬﺸﻟﺍ ﺍﺬﻫ ﻦﻣ ﺪﻌﺑﺃ ﻮﻫ ﺎﻣ ﺍﺮﻴﺧﺃ ﻒﺸﺘﻜﻧ ﺪﻗ .ﺖﻗﻮﻟﺍﻭ ﺚﺤﺒﻟﺍ ﻦﻣ ﻲﻔﻜﻳ ﺎﻣ ﺎﻨﺼﺼﺧ ﺍﺫﺇ ،"§Y$tech_rift_sphere$§!" ﺎﻴﺋﺪﺒﻣ ﻪﻴﻤﺴﻧ ﺎﻣ ﻮﻫﻭ ،ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﻞﺜﻣ ﺮﻳﻮﻄﺗ ﺎﻨﻨﻜﻤﻳ ﻪﻧﺃ ﻦﻣ ﻦﻴﻘﻳ ﻰﻠﻋ ﻦﺤﻧ \n\n .ﺎﻣﺎﻤﺗ ﺎﺴﻠﺳ ﺀﺎﻋﻭ ﺐﻠﻄﺘﻳ ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﺕﺎﻴﻄﻟﺍ ﺮﺒﻋ ﻕﻻﺰﻧﻻﺍ ﻥﺃ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+
+ astral_planes.2005.name: "$tech_rift_sphere$ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺮﻳﻮﻄﺗ ﻢﺗ"
+ astral_planes.2005.desc: ".ﺎﻨﻤﻟﺎﻋ ﻲﻓ ﺔﻴﻤﻠﻋ ﺔﻨﻴﻔﺴﺑ ﻞﺑﺎﻜﻟﺍ ﻂﺑﺭ ﻢﺘﻳ ،ﺉﺭﺍﻮﻄﻟﺍ ﺔﻟﺎﺣ ﻲﻓ ﺎﻨﺗﺩﺎﻋﻹﻭ .ﻂﺑﺭ ﻞﺑﺎﻜﺑ ﻞﺼﺘﻣ §Y$tech_rift_sphere$§! ﺎﻬﻨﻣ ﻞﻛ ﻥﺈﻓ ،ﻪﻴﻟﺇ ﻞﺼﻨﺳ ﻱﺬﻟﺍ ﻥﺎﻜﻤﻟﺍ ﻦﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺮﻴﻏ ﺎﻨﻧﻷ ﺍﺮﻈﻧﻭ\n\n.ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﺔﺑﺮﻄﻀﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﺮﺒﻋ ﻙﺎﻜﺘﺣﺍ ﻥﻭﺩ ﻕﻻﺰﻧﻻﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﻲﻫﻭ ،ﺎﻣﺎﻤﺗ ﺔﻤﻋﺎﻧﻭ ﺔﻳﺎﻐﻠﻟ ﺔﻣﺪﻘﺘﻣ ﺔﻳﻮﻧﺎﻧ ﺓﺩﺎﻣ ﻦﻣ ﺔﻋﻮﻨﺼﻣ ﺓﺮﻜﻟﺍ\n\n.§Y$tech_rift_sphere_plural$§! :ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺕﺎﻴﻃ ﻦﻴﺑ ﻕﻻﺰﻧﻻﺎﺑ ﺎﻨﻟ ﺢﻤﺴﺗ ﺔﻴﻨﻘﺗ ﺮﻳﻮﻄﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+ astral_planes.2005.a: "...ﻩﺪﺠﻧ ﻥﺃ ﻦﻜﻤﻳ ﺎﻣ ﻯﺮﻧ ﺎﻧﻮﻋﺩ"
+
+ ASTRAL_RIFT_IN_SYSTEM: "ﻞﻗﻷﺍ ﻰﻠﻋ ﺪﺣﺍﻭ ﻲﻤﺠﻧ ﻉﺪﺻ ﻰﻠﻋ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻱﻮﺘﺤﻳ"
+ CRYSTAL_RIFT_IN_SYSTEM: ".ﺫﺎﺸﻟﺍﻭ ﺪﻳﺮﻔﻟﺍ §YCrystal Rift§! ﻰﻠﻋ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻱﻮﺘﺤﻳ"
+
+ tech_rift_sphere: "ﻉﺪﺼﻟﺍ ﻝﺎﺠﻤﻟﺍ"
+ tech_rift_sphere_plural: "ﻉﺪﺼﻟﺍ ﺕﻻﺎﺠﻣ"
+ tech_rift_sphere_desc: ".ﺕﺎﻴﻄﻟﺍ ﻦﻴﺑ ﻕﻻﺰﻧﻻﺍ ﺔﻴﻔﻴﻛ ﻲﻫ ﺔﻠﻴﺤﻟﺍ .ﺾﻌﺒﻟﺍ ﺎﻬﻀﻌﺑ ﻕﻮﻓ ﺔﻋﻮﺿﻮﻣ ﺎﻬﻠﻛﻭ ،ﺕﺎﻘﺒﻃ ﻲﻓ ﺎﻌﻣ ﻊﻤﺠﺘﻟﺍ ﻰﻟﺇ ﻥﻼﻴﻤﻳ ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻥﺃ ﻭﺪﺒﻳ"
+
+ tech_astral_harvesting: "ﻲﻤﺠﻨﻟﺍ ﺩﺎﺼﺤﻟﺍ"
+ tech_astral_harvesting_desc: ".ﺎﻨﻳﺪﻟ ﺚﺤﺒﻟﺍ ﺕﺎﻄﺤﻣ ﻰﻠﻋ ﺔﻘﻴﻗﺩ ﺕﻼﻳﺪﻌﺗ ﻝﻼﺧ ﻦﻣ ﺎﻨﻜﻤﻣ ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﻉﻭﺪﺼﻟﺍ ﺏﻭﺪﻧ ﻝﻮﻃ ﻰﻠﻋ ﻕﺰﻤﻤﻟﺍ ﻲﻤﺠﻨﻟﺍ ﺞﻴﺴﻨﻟﺍ ﺩﺎﺼﺣ ﺢﺒﺻﺃ"
+
+ ASTRAL_RIFT_NOT_EXPLORABLE_EXPLANATION: ".ﺫﺎﺸﻟﺍ ﻊﺿﻮﻟﺍ ﺍﺬﻫ ﻑﺎﺸﻜﺘﺳﻻ \nﺔﻣﺯﻼﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻰﻟﺇ ﺮﻘﺘﻔﻧ ﻦﺤﻧ"
+ ASTRAL_RIFT_NOT_EXPLORABLE_STAGE_SUBTITLE: ".ﺫﺎﺸﻟﺍ ﻊﺿﻮﻟﺍ ﺍﺬﻫ ﻑﺎﺸﻜﺘﺳﻻ ﺔﻣﺯﻼﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻰﻟﺇ ﺮﻘﺘﻔﻧ ﻦﺤﻧ"
+
+ MESSAGE_ASTRAL_RIFT_FINISHED_TITLE: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ"
+ MESSAGE_ASTRAL_RIFT_FINISHED_DESC: "ﻞﻣﺎﻜﻟﺎﺑ ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﻢﺗ ﺪﻘﻟ"
+
+ ASTRAL_RIFT_IS_EXPLORED: "ﻥﻵﺍ ﻰﺘﺣ RIFT|Y$ Rift$ ﻞﻌﻔﻟﺎﺑ ﺖﻔﺸﻜﺘﺳﺍ ﺪﻘﻟ"
+ ASTRAL_RIFT_IS_NOT_EXPLORED: "RIFT|Y$ Rift$ ﻒﺸﻜﺘﺴﻳ ﻢﻟ"
+
+ ################
+ # Astral Scars #
+ ################
+
+ NAME_Astral_Scar: "$pc_astra_scar$"
+ pc_astral_scar: "ﺔﻴﻤﺠﻧ ﺔﺑﺪﻧ"
+ pc_astral_scar_desc: ".ﺮﺜﻛﺃ ﻪﻗﺍﺮﺘﺧﺍ ﻊﻴﻄﺘﺴﻧ ﻻ ﺎﻨﻨﻜﻟ ،ﻪﻓﺍﺮﻃﺃ ﻦﻣ ﺔﺒﻳﺮﻏ ﺩﺍﻮﻣ ﺏﺮﺴﺘﺗ .ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﺓﺫﺎﺷ ﺔﻴﻃ ﻩﺬﻫ"
+ MESSAGE_ASTRAL_SCAR_DISCOVERED_TITLE: "ﺔﻴﻤﺠﻨﻟﺍ ﺔﺑﺪﻨﻟﺍ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+ MESSAGE_ASTRAL_SCAR_DISCOVERED_DESC: ".ﺔﻴﻤﺠﻧ ﺔﺑﺪﻧ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+
+ ################
+ # Astral Rifts #
+ ################
+
+ ASTRAL_RIFT: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ"
+ ASTRAL_RIFTS: "ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ"
+ CRYSTAL_RIFT: "ﺖﻔﻳﺭ ﻝﺎﺘﺴﻳﺮﻛ"
+ astral_rift: "$ASTRAL_RIFT$"
+ MESSAGE_ASTRAL_RIFT_DISCOVERED_TITLE: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+ MESSAGE_ASTRAL_RIFT_DISCOVERED_DESC: ".ﻑﺎﺸﻜﺘﺳﻼﻟ ﺰﻫﺎﺟ ﺪﻳﺪﺟ ﻲﻤﺠﻧ ﻉﺪﺻ"
+ MESSAGE_ASTRAL_RIFT_STARTED_TITLE: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ"
+ MESSAGE_ASTRAL_RIFT_STARTED_DESC: ".ﻑﺎﺸﻜﺘﺳﻻﺍ ﻝﺎﻤﺘﻛﺍ ﻰﺘﺣ ﻦﻴﺣﺎﺘﻣ ﻢﻗﺎﻄﻟﺍﻭ ﺔﻨﻴﻔﺴﻟﺍ ﻥﻮﻜﺗ ﻦﻟ ﻲﻤﺠﻧ ﻉﺪﺼﺑ ﺓﺪﻴﻘﻣ ﺔﻴﻤﻠﻌﻟﺍ ﺎﻨﺘﻨﻴﻔﺳ"
+ ASTRAL_RIFT_REWARDS: ":ﺕﺂﻓﺎﻜﻤﻟﺍ"
+
+ alert_mia_phase_out_fleet_title: "ﻲﻠﺣﺮﻤﻟﺍ ﻝﻮﻄﺳﻷﺍ"
+ alert_mia_phase_out_fleet_instant: ".ﻖﺑﺎﺴﻟﺍ ﺎﻬﻌﺿﻮﻣ ﻲﻓ ﻚﻟﺫ ﻞﻌﻔﺗ ﻥﺃ ﺢﺟﺮﻤﻟﺍ ﻦﻤﻓ ،ﺕﺩﺎﻋ (ﻰﺘﻣﻭ) ﺍﺫﺇ .ﺍﺬﻫ ﺩﻮﺟﻮﻟﺍ ﻯﻮﺘﺴﻣ ﻦﻣ ﻚﻟﻮﻄﺳﺃ ﺝﺮﺧ ﺪﻘﻟ"
+
+ alert_astral_rift_event_title: "ﻖﻠﻌﻣ ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺙﺪﺣ"
+ alert_astral_rift_event_instant: ".ﺎﻴﻟﺎﺣ ﺎﻬﻔﺸﻜﺘﺴﻧ ﻲﺘﻟﺍ ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ ﺪﺣﺃ ﻲﻓ ﺎﻣ ﺀﻲﺷ ﺙﺪﺣ ﺪﻘﻟ"
+ ALERT_ASTRAL_RIFT_EVENT_DETAIL: "$FLEET_NAME|Y$ ﻲﻓ $SYSTEM_NAME|Y$."
+
+ RIFT_DIFFICULTY_TYPE: "ﺔﺑﻮﻌﺻ"
+ RIFT_DIFFICULTY_TYPE_DESC: "$RIFT_DIFFICULTY_EASY$ ﻭ ،2-0 ﻲﻫ ﻝﻮﺼﻔﻟﺍ$RIFT_DIFFICULTY_NORMAL$ 3-5، ﻭ$RIFT_DIFFICULTY_HARD$ 6+. ﻑﺎﺸﻜﺘﺳﻻﺍ ﺔﻠﺣﺮﻣ ﺔﻳﺎﻬﻧ ﻲﻓ ﺔﺤﺟﺎﻧ ﺔﺠﻴﺘﻧ ﻖﻴﻘﺤﺗ ﺔﻴﻟﺎﻤﺘﺣﺍ ﻞﻴﻠﻘﺗ ﻰﻟﺇ ﻰﻠﻋﻷﺍ ﺔﺑﻮﻌﺼﻟﺍ ﻱﺩﺆﺗ ﺪﻗ.\n .ﺔﻔﻠﺘﺨﻣ ﺔﺑﻮﻌﺻ ﺔﻤﻴﻗ Astral Rift ﻲﻓ ﻞﺼﻓ ﻞﻜﻟ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ"
+ RIFT_DIFFICULTY_TYPE_TT: "$RIFT_DIFFICULTY_TYPE_DESC$\n\n$VALUE$\n§H$RIFT_DIFFICULTY_TYPE$§!"
+ RIFT_DIFFICULTY_EASY: "§Gﻞﻬﺳ§!"
+ RIFT_DIFFICULTY_NORMAL: "§Yﻂﺳﻮﺘﻣ§!"
+ RIFT_DIFFICULTY_HARD: "§Rﺩﺭﺎﻫ§!"
+ RIFT_LEADER_BONUS: "ﺓﺭﺎﻬﻤﻟﺍ ﺓﺄﻓﺎﻜﻣ"
+ RIFT_LEADER_BONUS_DESC: ".§Yﻕﺍﺮﺘﺧﻻﺍ ﺔﺻﺮﻓ§! ﺓﺄﻓﺎﻜﻤﻟﺍ ﻩﺬﻫ ﺪﻳﺰﺗ\n\n.ﻑﺎﺸﻜﺘﺳﻻﺍ ﺔﻠﺣﺮﻣ ﺔﻳﺎﻬﻧ ﻲﻓ ﺔﺤﺟﺎﻧ ﺞﺋﺎﺘﻧ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﺔﻴﻟﺎﻤﺘﺣﺍ ﻦﻣ ﺓﺭﺎﻬﻤﻟﺍ ﺓﺄﻓﺎﻜﻣ ﺪﻳﺰﺘﺳ"
+ RIFT_LEADER_BONUS_TT: "$RIFT_LEADER_BONUS_DESC$\n§H$RIFT_LEADER_BONUS$§!"
+ EXPLORATION_PROGRESS_TOOLTIP: " $DAYS|Y$£time£ ﻲﻓ ﺔﻴﻟﺎﺘﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ ﻲﻬﺘﻨﺗ\n\n.ﻡﺪﻘﺘﻟﺍ ﺔﻤﺋﺎﻗ ﺪﻳﺪﺤﺗ ﻢﺘﻳ ﺔﻠﺣﺮﻣ ﻞﻛ ﺔﻳﺎﻬﻧ ﻲﻓﻭ ،ﻞﺣﺍﺮﻣ ﻰﻠﻋ ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﻢﺘﻳ\n§Hﻑﺎﺸﻜﺘﺳﻻﺍ ﺔﻠﺣﺮﻣ§!"
+ RIFT_GO_TO: "§Gﻉﺪﺼﻟﺍ ﺍﺬﻫ ﻊﻘﻳ ﺚﻴﺣ ﻰﻟﺇ ﺍﺮﻴﻣﺎﻜﻟﺎﺑ ﺎﻌﻳﺮﺳ ﻞﻘﻨﺘﻠﻟ ﺮﻘﻧﺍ§!\n§Hﻰﻟﺇ ﻞﻘﺘﻧﺍ§!"
+ RIFT_CLUES: "ﻦﺋﺍﺮﻘﻟﺍ"
+ RIFT_CLUES_DESC: ".§Yﻕﺍﺮﺘﺧﻻﺍ ﺔﺻﺮﻓ§! ﻦﺋﺍﺮﻘﻟﺍ ﺪﻳﺰﺗ\n\n.Astral Rift ﻑﺎﺸﻜﺘﺳﺍ ﻞﺣﺍﺮﻣ ﻦﻣ ﺔﻠﺣﺮﻣ ﻞﻛ ﻝﻼﺧ ﺎﻬﻓﺎﺸﺘﻛﺍ ﻢﺗ ﻲﺘﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻦﺋﺍﺮﻘﻟﺍ ﻞﺜﻤﺗ"
+ RIFT_CLUES_TT: "$RIFT_CLUES_DESC$\n§H$RIFT_CLUES$§!"
+ ASTRAL_RIFT_EXPLORATION_LOG: "ﻑﺎﺸﻜﺘﺳﻻﺍ ﻞﺠﺳ"
+ ASTRAL_RIFT_EXPLORATION_LOG_TT: ".ﺓﺮﻴﺧﻷﺍ ﻑﺎﺸﻜﺘﺳﻻﺍ ﺔﻠﺣﺮﻣ ﺞﺋﺎﺘﻧ $ASTRAL_RIFT_EXPLORATION_LOG$ ﻚﻟ ﺽﺮﻌﻳ\n§H$ASTRAL_RIFT_EXPLORATION_LOG$§!"
+ EXPLORATION_LOG_ROLL_TOOLTIP: ".ﻦﺋﺍﺮﻘﻟﺍ §!XYZT_322XYZT ﺔﻓﺎﺿﺇ §!-13XYZT_3010XYZT ﻦﻴﺑ ﺞﺋﺎﺘﻨﻟﺍ :§GProgress§!\n.ﻦﺋﺍﺮﻘﻟﺍ §!XYZT_251XYZT ﺔﻓﺎﺿﺇ §!-9XYZT_235XYZT ﻦﻴﺑ ﺞﺋﺎﺘﻨﻟﺍ :§YProgress§!\n.ﻦﺋﺍﺮﻘﻟﺍ §!XYZT_180XYZT ﻒﺿﺃ ﻞﻗﺃ ﻭﺃ §!XYZT_164XYZT ﺞﺋﺎﺘﻨﻟﺍ :§RFailure§!\n§E:ﺔﻔﻠﻟﺍ ﺞﺋﺎﺘﻧ§!\n\n$DIFFICULTY|R$ :ﺔﺑﻮﻌﺼﻟﺍ \n$BONUS|Y$ :ﺓﺭﺎﻬﻤﻟﺍ ﺓﺄﻓﺎﻜﻣ \n$CLUES|Y$ :ﻦﺋﺍﺮﻘﻟﺍ \n$ROLL|Y$ :ﺔﻔﻟ \n$RESULT|Y$ :ﺔﺠﻴﺘﻨﻟﺍ\n\n$GAINED|Y$ :ﺔﺒﺴﺘﻜﻤﻟﺍ ﻦﺋﺍﺮﻘﻟﺍ\n§Hﺔﻠﺣﺮﻤﻟﺍ ﺞﺋﺎﺘﻧ§!"
+ ASTRAL_RIFT_BREAKTHROUGH: "ﻕﺍﺮﺘﺧﻻﺍ ﺔﺻﺮﻓ"
+ astral_rift_roll_header: "§E:ﺔﻔﻠﻟﺍ ﺞﺋﺎﺘﻧ§!\n\n.$SCORE|0Y$ ﻲﻫ ﺩﺮﻨﻟﺍ ﻲﻣﺭ ﻞﺒﻗ ﺔﻴﻟﺎﺤﻟﺍ ﺔﺠﻴﺘﻨﻟﺍ\n\n.§YDifficulty§! ﺔﻄﺳﺍﻮﺑ ﺎﻬﺣﺮﻃ ﻢﺘﻳ ﻢﺛ ،§YClues§!ﻭ §YSkill Bonus§! ﻰﻟﺇ ﻲﻣﺮﻟﺍ ﺔﺠﻴﺘﻧ ﺔﻓﺎﺿﺇ ﻢﺘﺗ .(§!XYZT_710XYZT ﻰﻟﺇ §!XYZT_51XYZT) ﺩﺮﻨﻟﺍ ﺮﺠﺣ ﻲﻣﺭ ﻢﺘﻳ ،ﺔﻠﺣﺮﻤﻟﺍ ﺎﻬﻴﻓ ﻲﻬﺘﻨﺗ ﺓﺮﻣ ﻞﻛ ﻲﻓ\n\n.ﻲﻟﺎﺤﻟﺍ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﺀﺎﻨﺛﺃ ﺎﻗﺍﺮﺘﺧﺍ ﻚﻤﻟﺎﻋ ﻖﻘﺤﻳ ﻥﺃ ﺔﺻﺮﻓ ﺍﺬﻫ ﺲﻜﻌﻳ\n§H$ASTRAL_RIFT_BREAKTHROUGH$§!"
+
+ FLEETORDER_EXPLORE_RIFT: "§Y$SYSTEM_NAME$§! ﻲﻓ §Y$ASTRAL_RIFT_NAME$§! ﻑﺎﺸﻜﺘﺳﺍ"
+ FLEETORDER_EXPLORE_RIFT_BUTTON: "$ASTRAL_RIFT_NAME$ ﻒﺸﻜﺘﺳﺍ"
+
+ ASTRAL_RIFT_DESCRIPTION: ".ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﻦﻤﻜﻳ ﻱﺬﻟﺍ ﺎﻣ ﻥﻵﺍ ﻰﺘﺣ ﻑﺮﻌﻧ ﻻﻭ .ﻥﺎﻜﻤﻟﺍﻭ ﻥﺎﻣﺰﻟﺍ ﻲﻓ ﺔﻌﻣﺩ"
+ CRYSTAL_RIFT_DESCRIPTION: ".ﻉﺪﺼﻟﺍ ﻞﺧﺍﺩ ﻮﻔﻄﺗ ﺔﺒﻳﺮﻏ ﺕﺍﺭﻮﻠﺑ ﺔﻳﺅﺭ ﻦﻜﻤﻳﻭ .ﻥﺎﻜﻤﻟﺍﻭ ﻥﺎﻣﺰﻟﺍ ﻲﻓ ﺫﺎﺷ ﻕﺰﻤﺗ"
+ ASTRAL_RIFT_FINISHED: "ﻞﻣﺎﻜﻟﺎﺑ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﻢﺗ"
+ ASTRAL_RIFT_EXPLORED_BY_OTHER: ".ﻞﺧﺍﺪﻟﺎﺑ ﺓﺮﻣﺎﻐﻤﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻻ ﺚﻴﺤﺑ ﺔﻳﺎﻐﻠﻟ ﺮﻘﺘﺴﻣ ﺮﻴﻏ ﻪﻧﺇ\n.ﻯﺮﺧﺃ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻞﺒﻗ ﻦﻣ ﻉﺪﺼﻟﺍ ﺍﺬﻫ ﻑﺎﺸﻜﺘﺳﺍ ﻢﺘﻳ"
+ ASTRAL_RIFT_LOCKED: "ﻡﺪﻘﺘﻟﺍ ﺪﻴﻗ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ"
+ ASTRAL_RIFT_POOL_IS_EMPTY: ".ﻥﺎﻜﻣ ﻱﺃ ﻰﻟﺇ ﻱﺩﺆﻳ ﻻ ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺍﺬﻫ ﻥﺃ ﻭﺪﺒﻳ"
+
+ CANNOT_EXPLORE_OUTSIDE_EMPIRE_BORDERS: "§Rﻚﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺝﺭﺎﺧ ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﻚﻨﻜﻤﻳ ﻻ§!$TRIGGER_FAIL$"
+ CANNOT_EXPLORE_OUTSIDE_EMPIRE_BORDERS_CLOAKED: "§R.ﺔﺜﻌﺒﻟﺍ ﻩﺬﻫ ﺔﻣﻼﺳ ﻥﺎﻤﻀﻟ ﺎﻴﻓﺎﻛ ﺲﻴﻟ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺎﻧﺮﻴﺛﺄﺗ§!$TRIGGER_FAIL$"
+ CANNOT_EXPLORE_ALREADY_BEING_EXPLORED: "§Rﻞﻌﻔﻟﺎﺑ ﻑﺎﺸﻜﺘﺳﻻﺍ ﺪﻴﻗ ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺍﺬﻫ§!$TRIGGER_FAIL$"
+ CANNOT_EXPLORE_ALREADY_BEING_EXPLORED_BY_OTHER: "§R.ﻞﺧﺍﺪﻟﺎﺑ ﺓﺮﻣﺎﻐﻤﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻻ ﺚﻴﺤﺑ ﺔﻳﺎﻐﻠﻟ ﺮﻘﺘﺴﻣ ﺮﻴﻏ ﺮﻣﻷﺍ ﻥﺇ\n.ﻯﺮﺧﺃ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺔﻄﺳﺍﻮﺑ ﻉﺪﺼﻟﺍ ﺍﺬﻫ ﻑﺎﺸﻜﺘﺳﺍ ﻢﺘﻳ§!$TRIGGER_FAIL$"
+ CANNOT_EXPLORE_WITHOUT_VALID_LEADER: "§Rﺢﻟﺎﺻ ﺪﺋﺎﻗ ﻥﻭﺪﺑ ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﻦﻜﻤﻳ ﻻ§!$TRIGGER_FAIL$"
+ CANNOT_EXPLORE_WITHOUT_SCIENCE_SHIP: "§Rﺔﻴﻤﻠﻋ ﺔﻨﻴﻔﺳ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻻﺇ ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﻦﻜﻤﻳ ﻻ§!$TRIGGER_FAIL$"
+ CANNOT_EXPLORE_WITH_COUNCIL_LEADER: "§Rﺲﻠﺠﻤﻟﺍ ﻊﻗﺍﻮﻣ ﺪﺣﺃ ﻲﻓ ﻢﻬﺳﻮﻠﺟ ﺀﺎﻨﺛﺃ ﻉﻭﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﺀﺎﻤﻠﻌﻟﺍ ﻊﻴﻄﺘﺴﻳ ﻻ§!$TRIGGER_FAIL$"
+ CANNOT_EXPLORE_WITH_HEIR_LEADER: "§Rﺎﻨﺜﻳﺭﻮﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺔﻳﺎﻐﻠﻟ ﺮﻃﺎﺨﻤﻟﺎﺑ ﻑﻮﻔﺤﻣ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ§!$TRIGGER_FAIL$"
+ can_not_dismiss_rift_explorer: "§Rﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺎﻴﻟﺎﺣ ﻒﺸﻜﺘﺴﻳ ﺪﺋﺎﻗ ﺩﺎﻌﺒﺘﺳﺍ ﻦﻜﻤﻳ ﻻ§!"
+
+ ASTRAL_RIFT_PRE_EXPLORATION: "ﻑﺎﺸﻜﺘﺳﻻﺍ ﻞﺒﻗ ﺎﻣ"
+ ASTRAL_RIFT_ASSIGN_SCIENTIST: "§Hﻑﺎﺸﻜﺘﺳﻻﺍ ﺀﺪﺒﻟ ﻢﻟﺎﻋ ﻦﻴﻴﻌﺘﺑ ﻢﻗ§!"
+ SHOW_ASTRAL_RIFT: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺽﺮﻋ £astral_rift£"
+
+ rift_samples_biology_modifier: "ﻉﺪﺼﺘﻤﻟﺍ ﻞﺋﺍﻮﺴﻟﺍ ﺕﺎﻨﻴﻋ"
+
+ warpling_army: "ﺝﺎﺟﻮﻋﻻﺍ"
+ seq_warpling_army: "$ORD$ $warpling_army$"
+ warpling_army_desc: ".ﻦﺋﺎﻤﻜﻟﺍ ﺐﺼﻧﻭ ﺏﺎﺠﻋﻺﻟ ﺓﺮﻴﺜﻣ ﺕﺍﺭﻭﺎﻨﻣ ﺬﻴﻔﻨﺘﺑ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺓﺮﻴﻐﺻ ﺕﺎﻓﺎﺴﻣ ﺯﺎﻴﺘﺟﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺔﻋﺭﺪﻤﻟﺍ ﺭﺎﻐﺼﻟﺍ ﻩﺬﻫ ،ﺏﺮﺤﻠﻟ ﺔﻤﻤﺼﻣ ﺮﺧﺁ ﻢﻟﺎﻋ ﻦﻣ ﺕﺎﻗﻮﻠﺨﻣ"
+
+ flamestorm_troopers_army: "ﺐﻬﻠﻟﺍ ﺔﻔﺻﺎﻋ ﺩﻮﻨﺟ"
+ flamestorm_troopers_army_desc: ".ﺔﻴﺒﻧﺎﺠﻟﺍ ﺭﺍﺮﺿﻷﺍ ﻦﻣ ﺮﻴﺒﻛ ﺭﺪﻗ ﻕﺎﺤﻟﺇ ﻰﻟﺇ ،ﺔﻗﺭﺎﺤﻟﺍ ﺏﺮﺤﻠﻟ ﺓﺰﻬﺠﻤﻟﺍ ،ﻕﺮﻔﻟﺍ ﻩﺬﻫ ﻞﻴﻤﺗ"
+
+ astral_planes.210.name: "ﺀﺎﻤﻠﻌﻟﺍ ﺓﺩﻮﻋ"
+ astral_planes.210.desc: ".ﻚﻟﺬﻟ ﺔﺠﻴﺘﻧ ﺔﻴﻓﺮﻌﻤﻟﺍ ﺔﻣﺪﺼﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﻞﻜﺷ ﻦﻣ ﻥﻮﻧﺎﻌﻳ ﻢﻬﻧﺃ ﻭﺪﺒﻳﻭ ،ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﺢﻴﺤﺼﻟﺍ ﺪﻌﺒﻟﺍ ﻰﻟﺇ ﺍﻭﺩﺎﻋ ﺪﻗ ﺍﻮﻧﺎﻛ ﺍﺫﺇ ﺎﻤﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺮﻴﻏ ﺍﻮﻟﺍﺯ ﺎﻣﻭ \n\n .ﺩﻮﺟﻮﻟﺍ ﺍﺬﻫ ﻦﻣ ﺎﻣﺎﻤﺗ ﺎﻫﻮﻓﺮﻋ ﻲﺘﻟﺍ ﻦﻛﺎﻣﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺖﻔﺘﺧﺍ ﺪﻘﻟ .ﺔﻳﺎﻬﻨﻟﺍ ﻰﺘﺣ ﺔﻌﺋﺎﺿ ﺓﺮﺠﻣ ﻰﻠﻋ ﺭﻮﺜﻌﻠﻟ $ASTRAL_RIFT$ ﻑﺎﺸﻜﺘﺳﺍ ﻦﻣ [fromfrom.leader.GetName] ﺩﺎﻋ"
+ astral_planes.210.a: "؟ﻚﺗﺩﻮﻌﺑ ﺎﺒﺣﺮﻣ"
+
+###########
+# Effects #
+###########
+
+ SPAWN_ASTRAL_RIFT_EFFECT: "!$SYSTEM$ ﻡﺎﻈﻧ ﻲﻓ ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﺪﻳﺪﺟ ﻉﺪﺻ ﺢﺘﻓ ﻢﺗ"
+
+ ASTRAL_RIFT_FINISH: ".Astral Rift ﻑﺎﺸﻜﺘﺳﺍ ﻲﻬﻨﻳ"
+ ASTRAL_RIFT_FINISH_NOT: ".Astral Rift ﻑﺎﺸﻜﺘﺳﺍ ﻲﻬﺘﻨﻳ ﻻ"
+
+ SET_NEXT_ASTRAL_RIFT_EVENT: ".$EVENT_ID|Y$ ﻑﺮﻌﻤﻟﺍ ﻰﻠﻋ ﻲﻟﺎﺘﻟﺍ ﺙﺪﺤﻟﺍ ﻂﺒﻀﻳ"
+ SET_NEXT_ASTRAL_RIFT_EVENT_FAIL: "§R.$FAIL_PROBABILITY$ :ﺔﻔﻟ ﻞﻛ ﻲﻓ ﻞﺸﻔﻟﺍ ﻝﺎﻤﺘﺣﺍ\n.ﺔﻠﺣﺮﻤﻟﺍ ﻞﺸﻓ ﺔﻟﺎﺣ ﻲﻓ $EVENT_ID|Y$ ﻰﻟﺇ ﻉﻮﺟﺮﻟﺍ§!"
+
+############
+# Triggers #
+############
+
+ TRIGGER_HAS_ASTRAL_RIFT: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻰﻠﻋ ﻱﻮﺘﺤﻳ"
+ TRIGGER_HAS_ASTRAL_RIFT_NOT: ".ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻰﻠﻋ ﻱﻮﺘﺤﻳ ﻻ"
+ TRIGGER_IS_ASTRAL_RIFT_POOL_EMPTY: ".ﺎﻏﺭﺎﻓ Astral Rift Pool ﻥﺎﻛ ﺍﺫﺇ ﺎﻤﻣ ﻖﻘﺤﺘﻟﺍ"
+ TRIGGER_IS_ASTRAL_RIFT_POOL_EMPTY_NOT: ".ﺎﻏﺭﺎﻓ ﺲﻴﻟ Astral Rift Pool ﻥﺎﻛ ﺍﺫﺇ ﺎﻤﻣ ﻖﻘﺤﺘﻳ"
+ TRIGGER_BYPASS_HAS_LOCK: ".ﺩﺎﻌﺑﻷﺍ ﻞﻔﻘﺑ ﺔﻠﻔﻘﻣ ﺓﺯﺎﺠﻤﻟﺍ ﻥﺎﻛ ﺍﺫﺇ ﺎﻤﻣ ﻖﻘﺤﺘﻳ"
+ TRIGGER_BYPASS_HAS_LOCK_NOT: ".ﺩﺎﻌﺑﻷﺍ ﻞﻔﻘﺑ ﺔﻠﻔﻘﻣ ﺮﻴﻏ ﺓﺯﺎﺠﻤﻟﺍ ﻥﺎﻛ ﺍﺫﺇ ﺎﻤﻣ ﻖﻘﺤﺘﻳ"
+ TRIGGER_ASTRAL_RIFTS_COMPLETED: "$COMPARATOR$ $NUM|Y$ ﻲﻫ ﺔﻠﻤﺘﻜﻤﻟﺍ ﺔﻴﻤﺠﻨﻟﺍ ﻕﻮﻘﺸﻟﺍ"
+ TRIGGER_ASTRAL_RIFTS_COMPLETED_NOT: "$COMPARATOR$ $NUM|Y$ ﺖﺴﻴﻟ ﺔﻠﻤﺘﻜﻤﻟﺍ ﺔﻴﻤﺠﻨﻟﺍ ﻕﻮﻘﺸﻟﺍ"
+
+ IS_ASTRAL_RIFT_BEING_EXPLORED_TRIGGER: "Astral Rift ﻑﺎﺸﻜﺘﺳﺍ ﻱﺮﺠﻳ"
+
+######################################
+# Astral Thread Action - Astral Jump #
+######################################
+
+ FLEETORDER_ASTRAL_JUMP: "$SYSTEM|Y$ ﻰﻟﺇ ﺔﻴﻤﺠﻧ ﺓﺰﻔﻗ ﺀﺍﺮﺟﺈﺑ ﻢﻗ"
+ FLEETORDER_ASTRAL_JUMP_HEADER: "ﻲﻤﺠﻨﻟﺍ ﺰﻔﻘﻟﺍ"
+ FLEETORDER_ASTRAL_JUMP_DESC: ".$COST|Y$ ﺐﻠﻄﺘﺗﻭ ﻡﺎﻳﻷﺍ ﻦﻣ $COOLDOWN|Y$ ﺎﻫﺭﺪﻗ ﺆﻃﺎﺒﺗ ﺓﺮﺘﻓ ﻰﻠﻋ ﻲﻃ ﺔﻟﺎﺣ ﻞﻛ ﻱﻮﺘﺤﺗ .ﺓﺩﺪﺤﻤﻟﺍ ﺩﻭﺪﺤﻟﺍ ﻞﺧﺍﺩ ﻥﺎﻜﻣ ﻱﺃ ﻰﻟﺇ ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺰﻔﻘﻟﺍ Jump Drive ﻡﺎﻈﻨﺑ ﺓﺰﻬﺠﻤﻟﺍ ﻞﻴﻃﺎﺳﻸﻟ ﻦﻜﻤﻳ ،ﺔﻘﺋﺎﻔﻟﺍ ﺔﺣﺎﺴﻤﻟﺍ ﻲﻃ ﻝﻼﺧ ﻦﻣ"
+ CANNOT_ASTRAL_JUMP_COOLDOWN: "§R.(ﻡﺎﻳﺃ) ﻡﻮﻳ $DAYS|Y$ ﻝﻼﺧ ﺎﻨﻜﻤﻣ ﻥﻮﻜﻴﺳ ﻲﻤﺠﻨﻟﺍ ﺰﻔﻘﻟﺍ§!"
+ CANNOT_PAY_ASTRAL_JUMP: "§R.ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﺬﻴﻔﻨﺘﻟ ﺔﻣﺯﻼﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺎﻨﻳﺪﻟ ﺲﻴﻟ§!"
+
+ FLEETORDER_PHASE_FLEET: "($DATE|Y$ ﻉﺎﺟﺭﺇ) ﻲﺠﻳﺭﺪﺘﻟﺍ ﺀﺎﻐﻟﻹﺍ ﻢﺗ"
+ FLEETORDER_PHASE_FLEET_HEADER: "ﺔﻠﺣﺮﻤﻟﺍ ﻝﻮﻄﺳﺃ"
+ FLEETORDER_PHASE_FLEET_DESC: ".$COST|Y$ ﺐﻠﻄﺘﻳﻭ ،ﺎﻣﻮﻳ $COOLDOWN|Y$ ﻞﻛ ﺓﺪﺣﺍﻭ ﺓﺮﻣ ﻻﺇ ﻝﻮﻄﺳﺃ ﻞﻛ ﻦﻣ ﻲﺠﻳﺭﺪﺘﻟﺍ ﺺﻠﺨﺘﻟﺍ ﻦﻜﻤﻳ ﻻ .ﻞﻣﺎﻜﻟﺎﺑ ﺎﻬﺣﻼﺻﺇ ﺪﻌﺑ - ﻡﺎﻳﻷﺍ ﻦﻣ $DURATION|Y$ ﻝﻼﺧ ﺔﻴﻠﺣﺮﻤﻟﺍ ﻞﻴﻃﺎﺳﻷﺍ ﺩﻮﻌﺘﺳ .ﺎﻨﻳﺪﻟ ﻊﻗﺍﻮﻟﺍ ﻯﻮﺘﺴﻣ ﻦﻣ ﻲﺠﻳﺭﺪﺘﻟﺍ ﺺﻠﺨﺘﻟﺍ ﺔﻳﺮﻜﺴﻌﻟﺍ ﻞﻴﻃﺎﺳﻸﻟ ﻦﻜﻤﻳ"
+ CANNOT_PHASE_FLEET_COOLDOWN: "§R.(ﻡﺎﻳﺃ) ﻡﻮﻳ $DAYS|Y$ ﻝﻼﺧ ﻞﺣﺍﺮﻣ ﻰﻟﺇ ﻝﻮﻄﺳﻷﺍ ﺍﺬﻫ ﻢﻴﺴﻘﺗ ﻦﻜﻤﻳ§!"
+ CANNOT_PAY_PHASE_FLEET: "§R.ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﺬﻴﻔﻨﺘﻟ ﺔﻣﺯﻼﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺎﻨﻳﺪﻟ ﺲﻴﻟ§!"
+ CANNOT_PHASE_NON_MILITARY_FLEET: "§R.ﻞﺣﺍﺮﻣ ﻰﻟﺇ ﻂﻘﻓ ﺔﻳﺮﻜﺴﻌﻟﺍ ﻞﻴﻃﺎﺳﻷﺍ ﻢﻴﺴﻘﺗ ﻦﻜﻤﻳ§!"
+
+###########################################
+# Astral Thread Action - Dimensional Lock #
+###########################################
+
+ DIMENSIONAL_LOCK: "ﺩﺎﻌﺑﻷﺍ ﻞﻔﻗ"
+ DIMENSIONAL_LOCKS: "ﺩﺎﻌﺑﻷﺍ ﻝﺎﻔﻗﺃ"
+ action_dimensional_lock: "$DIMENSIONAL_LOCK$"
+ action_dimensional_lock_tooltip: ".ﺔﻨﺳ §!XYZT_010XYZT ﺓﺪﻤﻟ ﺮﻤﺘﺴﻳ $DIMENSIONAL_LOCKS$ .ﻚﻨﻣ ﻥﺫﺇ ﻰﻠﻋ ﺖﻠﺼﺣ ﻲﺘﻟﺍ ﻞﻴﻃﺎﺳﻷﺍ ﻚﻠﺘﻟ ﻻﺇ ﻝﻮﺧﺪﻟﺍ ﺯﻮﺠﻳ ﻻ ،ﺎﻬﻗﻼﻏﺇ ﺩﺮﺠﻤﺑ .ﻦﻔﻜﻟﺍ ﻖﻔﻧ ﻭﺃ L ﺔﺑﺍﻮﺑ ﻭﺃ ﻱﺩﻭﺩ ﺐﻘﺛ ﻰﻠﻋ $DIMENSIONAL_LOCK$ ﻊﺿﻮﺑ ﻚﺑ ﺔﺻﺎﺨﻟﺍ ﻡﻮﻠﻌﻟﺍ ﻦﻔﺴﻟ ﺢﻤﺳﺍ"
+ action_dimensional_lock_desc: ".ﻲﻌﻴﺒﻄﻟﺍ ﻪﻠﻴﻣ ﻮﺤﻧ ﻯﺮﺧﺃ ﺓﺮﻣ ﻕﺍﺮﺘﺧﻻﺍ ﺏﺬﺠﻨﻳ ﻑﻮﺳ ،ﻑﺎﻄﻤﻟﺍ ﺔﻳﺎﻬﻧ ﻲﻓ .ﺎﻤﺋﺍﺩ ﺲﻴﻟ ﻢﻏﺎﻨﺘﻟﺍ ﺍﺬﻫ ﻞﺜﻣ ﻥﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﺎﻨﺗﺍﺩﺩﺮﺗ ﻊﻣ ﺎﻬﺗﺍﺩﺩﺮﺗ ﺔﻣﺀﺍﻮﻣ ﺎﻨﻨﻜﻤﻳ ،ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻴﻄﻠﻟ ﺎﻬﻋﻮﻧ ﻦﻣ ﺓﺪﻳﺮﻔﻟﺍ ﺔﻴﻣﻮﻤﻜﻟﺍ ﺕﺎﻌﻴﻗﻮﺘﻟﺍ ﻰﻠﻋ ﺎﻨﻨﻔﺳ ﻂﺒﺿ ﻝﻼﺧ ﻦﻣ"
+ action_dimensional_lock_cooldown_tooltip: "$DIMENSIONAL_LOCK$ ﺆﻃﺎﺒﺗ ﺔﻟﺎﺣ ﻲﻓ\n"
+ FLEETORDER_LOCK_BYPASS: "$SYSTEM|Y$ ﻲﻓ $BYPASS|H$ ﻰﻠﻋ $DIMENSIONAL_LOCK$ ﻊﺿ"
+ FLEETORDER_LOCK_BYPASS_ACTIVITY: "BYPASS|H$: $PROGRESS|Y%0$$ ﻰﻠﻋ $DIMENSIONAL_LOCK$ ﻊﺿﻭ"
+ FLEETORDER_LOCK_BYPASS_DESC: ".$DURATION_YEARS|Y$ ﺓﺪﻤﻟ ﺮﻤﺘﺴﻳ $DIMENSIONAL_LOCKS$ .ﻚﻨﻣ ﻥﺫﺇ ﻰﻠﻋ ﻞﺼﺣ ﻦﻣ ﻻﺇ ﻝﻮﺧﺪﻟﺍ ﻦﻣ ﻦﻜﻤﺘﻳ ﻦﻟ ،ﻪﻠﻔﻗ ﺩﺮﺠﻤﺑ"
+ FLEETORDER_LOCK_BYPASS_CANNOT_LOCK_NEXUS: ".ﺕﻻﺎﺼﺗﻻﺍ ﻦﻣ ﺮﻴﺜﻜﻟﺍ ﺎﻬﻳﺪﻟ .ﺔﻴﻓﺎﻔﺘﻟﻻﺍ ﺍﺬﻫ ﻞﻔﻗ ﺎﻨﻨﻜﻤﻳ ﻻ"
+ FLEETORDER_LOCK_BYPASS_ORDER_LABEL: "$BYPASS|Y$ ﻞﻔﻗ"
+ FLEETORDER_EXTEND_LOCK_BYPASS_ORDER_LABEL: "$BYPASS|Y$ ﻰﻠﻋ ﻞﻔﻘﻟﺍ ﺪﻳﺪﻤﺗ"
+ FLEETORDER_LOCK_BYPASS_NOT_OWNER: "$BYPASS|Y$ ﺔﻄﺳﺍﻮﺑ ﻞﻔﻘﻣ $PLAYER$"
+ FLEETORDER_LOCK_BYPASS_ALREADY_LOCKED: "$BYPASS|Y$ ﻞﻌﻔﻟﺎﺑ ﻞﻔﻘﻣ"
+ FLEETORDER_LOCK_BYPASS_ALREADY_LOCKED_BY: "$BYPASS|Y$ ﺔﻄﺳﺍﻮﺑ ﻞﻌﻔﻟﺎﺑ ﻞﻔﻘﻣ $PLAYER$"
+ FLEETORDER_LOCK_BYPASS_NOT_SYSTEM_OWNER: "ﺎﻬﻴﻓ ﻢﻜﺤﺘﺗ ﻲﺘﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ ﻻﺇ $DIMENSIONAL_LOCKS$ ﻊﺿﻭ ﻦﻜﻤﻳ ﻻ"
+ DIMENSIONAL_LOCK_TOOLTIP: "A $DIMENSIONAL_LOCK$ ﻦﻣ ﻥﺫﺇ ﻰﻠﻋ ﺍﻮﻠﺼﺣ ﻦﻤﻟ ﻻﺇ ﻝﻮﺧﺪﻟﺍ ﺯﻮﺠﻳ ﻻ .ﺎﻨﻫ ﻪﻌﺿﻭ ﻢﺗ $PLAYER|Y0$.\n---\nREMAINING_DAYS|Y0$$ :ﻲﻘﺒﺘﻤﻟﺍ ﺖﻗﻮﻟﺍ\n$PLAYER|Y0$\n§H$DIMENSIONAL_LOCK$§!"
+ MESSAGE_BYPASS_LOCK_EXPIRED_TITLE: "$DIMENSIONAL_LOCK$ ﺭﺍﺮﻘﺘﺳﻻﺍ ﺔﻋﺰﻋﺯ ﻰﻟﺇ ﻱﺩﺆﻳ"
+ MESSAGE_BYPASS_LOCK_EXPIRED_DESC: ".ﻞﻣﺎﻜﻟﺎﺑ ﻩﺭﺎﻴﻬﻧﺍ ﻊﻨﻤﻟ ﺔﻋﺮﺴﺑ ﻞﻤﻌﻟﺍ ﻰﻟﺇ ﺝﺎﺘﺤﻨﺳﻭ .ﺭﺍﺮﻘﺘﺳﻻﺍ ﺔﻋﺰﻋﺯ ﻰﻟﺇ ﺍﺬﻫ $DIMENSIONAL_LOCK$ ﻱﺩﺆﻳ"
+ MESSAGE_DAEDALUS_SEAL_EXPIRED_DESC: ".ﺎﺒﻳﺮﻗ ﻲﻬﺘﻨﻴﺳﻭ ﺭﺍﺮﻘﺘﺳﻻﺍ ﺔﻋﺰﻋﺯ ﻰﻟﺇ $Daedalus $DIMENSIONAL_LOCKS ﻢﺘﺧ ﻱﺩﺆﻳ"
+ RENEW_BYPASS_LOCK_DESC: ".$DURATION_YEARS|Y$ ﺓﺪﻤﻟ $DIMENSIONAL_LOCK$ ﺪﻳﺪﺠﺘﺑ ﻢﻗ"
+ TRIGGER_CAN_BYPASS_LOCK_BE_RENEWED: ".$DIMENSIONAL_LOCK$ ﺪﻳﺪﺠﺗ ﻦﻜﻤﻳ"
+ TRIGGER_CAN_BYPASS_LOCK_BE_RENEWED_NOT: ".$DIMENSIONAL_LOCK$ ﺪﻳﺪﺠﺗ ﻦﻜﻤﻳ ﻻ"
+ astral_planes.1030.name: "$MESSAGE_BYPASS_LOCK_EXPIRED_TITLE$"
+ astral_planes.1030.desc: "$MESSAGE_BYPASS_LOCK_EXPIRED_DESC$"
+ astral_planes.1030.a: ".ﻞﻔﻘﻟﺍ ﺪﻳﺪﺠﺗ"
+ astral_planes.1030.a.tooltip: "\n\n.ﻚﻨﻣ ﻥﺫﺇ ﻰﻠﻋ ﺖﻠﺼﺣ ﻲﺘﻟﺍ ﻞﻴﻃﺎﺳﻷﺍ ﻚﻠﺘﻟ ﻻﺇ ﻝﻮﺧﺪﻟﺍ ﺯﻮﺠﻳ ﻼﻓ ،ﺎﻄﺸﻧ $DIMENSIONAL_LOCKS$ ﻥﻮﻜﻳ ﺎﻤﻨﻴﺑ"
+ astral_planes.1030.b: ".ﺐﻫﺬﺗ ﺎﻬﻋﺩ"
+ astral_planes.1030.b.tooltip: ".ﺔﻴﻤﻠﻋ ﺔﻨﻴﻔﺳ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻪﺴﻴﺳﺄﺗ ﺓﺩﺎﻋﺇ ﺐﺠﻳﻭ ،$DIMENSIONAL_LOCK$ ﺔﻴﺣﻼﺻ ﻲﻬﺘﻨﺘﺳ"
+ LOCK_BYPASS_EFFECT_DESC: ".ﻚﻨﻣ ﻥﺫﺇ ﻰﻠﻋ ﻞﺼﺣ ﻦﻣ ﻻﺇ ﻝﻮﺧﺪﻟﺍ ﻦﻣ ﻦﻜﻤﺘﻳ ﻦﻟ ،ﻪﻠﻔﻗ ﺩﺮﺠﻤﺑ .L ﻑﺮﺣ ﻞﻜﺷ ﻰﻠﻋ ﺔﺑﺍﻮﺒﻟﺍ ﻭﺃ ﻱﺩﻭﺪﻟﺍ ﺐﻘﺜﻟﺍ ﻰﻠﻋ ﺩﺎﻌﺑﻷﺍ ﻼﻔﻗ ﻊﻀﻳ"
+ BYPASS_FORBIDDEN_BY_LOCK: ".PLAYER|Y0$$ ﻦﻣ ﻥﺫﺇ ﻰﻠﻋ ﺍﻮﻠﺼﺣ ﻦﻤﻟ ﻻﺇ ﻝﻮﺧﺪﻟﺍ ﺯﻮﺠﻳ ﻻ"
+
+ #############
+ # Modifiers #
+ #############
+
+ MOD_COUNTRY_ASTRAL_RIFT_SPEED_MULT: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﺔﻋﺮﺳ"
+ MOD_COUNTRY_ASTRAL_RIFT_FAIL_MULT: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻞﺸﻓ ﻝﺎﻤﺘﺣﺍ"
+ MOD_SHIP_ASTRAL_RIFT_SPEED_MULT: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﺔﻋﺮﺳ"
+ MOD_SHIP_ASTRAL_RIFT_CLUES_ADD: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺓﺭﺎﻬﻣ"
+ MOD_ASTRAL_RIFT_DIFFICULTY_ADD: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﺔﺑﻮﻌﺻ"
+
+ astral_rift_difficulty_increase_1: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺔﺑﻮﻌﺻ ﺓﺩﺎﻳﺯ"
+ astral_rift_difficulty_increase_2: "$astra_rift_difficulty_increase_1$"
+ astral_rift_difficulty_decrease_1: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺔﺑﻮﻌﺻ ﻞﻴﻠﻘﺗ ﻢﺗ"
+ astral_rift_difficulty_decrease_2: "$astra_rift_difficulty_decrease_1$"
+ astral_rift_difficulty_decrease_3: "$astra_rift_difficulty_decrease_1$"
+
+ ##########
+ # Traits #
+ ##########
+
+ leader_trait_rift_warped: "ﻩﻮﺸﻣ ﻉﺪﺼﻟﺍ"
+ leader_trait_rift_warped_desc: ".ﺔﻘﻴﻤﻋﻭ ﺔﻤﺋﺍﺩ ﺔﻠﺣﺮﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﺭﺎﺛﺁ .ﺔﻴﻤﺠﻨﻟﺍ ﺕﺎﻳﻮﺘﺴﻤﻟﺍ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﺮﺒﻋ ﺪﻘﻟ"
+ leader_trait_partially_digested: "ﺎﻴﺋﺰﺟ ﺔﻣﻮﻀﻬﻣ"
+ leader_trait_partially_digested_desc: ".ﺔﻴﺌﻳﺰﺠﻟﺍ ﺎﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﻲﻓ ﺓﺪﻳﺮﻔﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ ﺾﻌﺑ ﺍﻮﺒﺴﺘﻛﺍ ﻢﻬﻧﺃ ﻻﺇ ،ﻼﻣﺎﻛ ﺍﺪﺴﺟ ﺍﻭﺩﻮﻌﻳ ﻢﻟ ﻢﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺮﺧﺁ ﺪﻌﺑ ﻦﻣ ﺔﻗﻼﻤﻋ ﺓﺩﻭﺩ ﻊﻣ ﺔﻔﺳﺆﻣ ﺔﻬﺟﺍﻮﻣ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﻪﺟﺍﻭ"
+ leader_trait_planar_theorist: "ﻮﺘﺴﻣ ﻱﺮﻈﻧ"
+ leader_trait_planar_theorist_desc: ".ﺎﻨﻗﺎﻄﻧ ﺝﺭﺎﺧ ﺩﺎﻌﺑﻷﺍ ﻙﻮﻠﺳﻭ ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ ﺔﺳﺍﺭﺩ ﻲﻓ ﺺﺼﺨﺘﻣ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ"
+
+ leader_trait_spacebender: "ﺀﺎﻀﻔﻟﺍ ﺮﺨﺴﻣ"
+ leader_trait_spacebender_desc: ".ﺕﺍﺮﺠﻤﻟﺍ ﺮﺒﻋ ﺔﻟﻮﻬﺴﺑ ﻕﻻﺰﻧﻻﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﻮﻫﻭ ،ﺀﺎﻀﻔﻟﺍ ﻦﻴﺑ ﺕﺎﻓﺎﺴﻤﻟﺍ ﻊﻣ ﻖﻤﻌﺑ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﻢﻏﺎﻨﺘﻳ"
+ leader_trait_spacebender_effect: "$t$ﺔﻧﺎﻴﺻ ﻪﻳﺪﻟ ﺪﺟﻮﺗ ﻻ\n$THIS_LEADER_TXT$:"
+ leader_trait_energy_weapon_specialist: "ﺔﻗﺎﻄﻟﺍ ﺔﺤﻠﺳﺃ ﻲﻓ ﺺﺼﺨﺘﻣ"
+ leader_trait_energy_weapon_specialist_desc: ".ﺪﺋﺎﻘﻟﺍ ﺍﺬﻬﻟ ﻲﻌﻴﺒﻃ ﻞﻜﺸﺑ ﻲﺗﺄﺗ ﺕﺍﺭﺎﻬﻤﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﻦﻜﻟﻭ ،ﻕﺪﺼﻳ ﻻ ﻞﻜﺸﺑ ﻼﻳﻮﻃ ﺎﺘﻗﻭ ﺢﻴﺤﺻ ﻞﻜﺸﺑ ﺔﻗﺎﻄﻟﺍ ﺔﺤﻠﺳﺃ ﺓﺮﻳﺎﻌﻤﻟ ﻡﺯﻼﻟﺍ ﻖﻴﻗﺪﻟﺍ ﺰﻴﻛﺮﺘﻟﺍﻭ ﺕﺎﺑﺎﺴﺤﻟﺍ ﻕﺮﻐﺘﺴﺗ ﻥﺃ ﻦﻜﻤﻳ"
+
+ trait_plasmic: "ﺔﻴﻣﺯﻼﺒﻟﺍ"
+ trait_plasmic_desc: ".ﺽﺍﺮﻣﻷﺍ ﻦﻣ ﺔﻌﺳﺍﻭ ﺔﻋﻮﻤﺠﻣ ﺪﺿ ﻦﻴﻨﺼﺤﻣ ﻢﻬﻠﻌﺠﻳﻭ ﺔﺌﻴﺑ ﻱﺃ ﻊﻣ ﻒﻴﻜﺘﻟﺎﺑ ﻉﻮﻨﻟﺍ ﺍﺬﻬﻟ ﺭﻮﻠﺒﺘﻤﻟﺍ ﺮﻴﻏ ﻢﺴﺠﻟﺍﻭ ﻲﺟﺭﺎﺨﻟﺍ ﺀﺎﺸﻐﻟﺍ ﺢﻤﺴﻳ"
+
+ trait_exd: "ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ"
+ trait_exd_desc: ".ﺎﻨﻤﻟﺎﻋ ﻲﻓ ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺀﺎﻘﺒﻠﻟ ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﺍﺮﻴﺒﻛ ﺍﺭﺪﻗ ﺐﻠﻄﺘﻳﻭ ﺮﺧﺁ ﺪﻌﺑ ﻦﻣ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﺄﺸﻨﻳ"
+ TRAIT_EXD_EFFECT: "ﺎﻳﺮﻬﺷ §Yﺀﺎﻳﺰﻴﻔﻟﺍ ﺙﺎﺤﺑﺃ§! £physics_research£ 0.5 ﺞﺘﻨﻳ ﻞﻀﻓﺃ ﻭﺃ ﺪﺒﻌﻛ ﻞﻤﻌﻳ §HPops§! £pop£$t$- ﻞﻛ $pop_group_unit$ \n§R+$@living_standard_energy_normal|*0$§! Pops: £pop£- $energy_with_icon$ ﻞﻜﻟ ﺔﻧﺎﻴﺻ $pop_group_unit$ "
+
+ ######################
+ # Origin - Riftworld #
+ ######################
+
+ origin_riftworld: "ﻉﺪﺼﻟﺍ ﻢﻟﺎﻋ"
+ origin_riftworld_desc: ".ﺎﻬﻠﻤﺤﺗ ﺪﻗ ﻲﺘﻟﺍ ﺭﺍﺮﺳﻷﺍ ﻑﺎﺸﺘﻛﺍﻭ ﺍﺮﻴﺧﺃ ﻝﻮﺻﻮﻟﺎﺑ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﺒﻛﺮﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺗ ﻲﻓ ﺔﺜﻳﺪﺤﻟﺍ ﺕﺍﺭﻮﻄﺘﻟﺍ ﻢﻬﻟ ﺢﻤﺴﺘﺳ ،ﻦﻴﻨﺴﻟﺍ ﻑﻻﻵ ﺓﺮﻫﺎﻈﻟﺍ ﻩﺬﻫ ﺔﺳﺍﺭﺩ ﺪﻌﺑ .ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻫ ﻢﻟﺎﻋ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﻞﺋﺎﻫ ﻉﺪﺻ ﻖﻓﻷﺍ ﻲﻓ ﺡﻮﻠﻳ"
+ origin_tooltip_riftworld_effects: "§G+100%§! :ﺎﻬﻴﻓ ﻢﻜﺤﺘﺗ ﻲﺘﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ §Y$ASTRAL_RIFTS$§!$NEW_LINE$- ﺭﻮﻬﻇ ﺔﺻﺮﻓ ['modifier:riftworld_affinity']: [ 'concept_astral_rift',$ASTRAL_RIFTS$]$NEW_LINE$- ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﻲﺘﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ['concept_archaeology_site'] ['concept_riftworld_digsite']- $HOMEWORLD$ "
+ START_SCREEN_RIFTWORLD: "$START_SCREEN_RIFTWORLD_END$.ﻙﺎﻨﻫ ﻪﻔﺸﺘﻜﻧ ﺪﻗ ﺎﻣ ﻝﻮﺣ ﺔﻤﺴﻘﻨﻣ ﺀﺍﺭﻵﺍ ﻝﺍﺰﺗ ﻻ .ﺎﻫﺮﻫﻮﺟ ﻲﻓ ﺮﻔﺤﻠﻟ ﻞﻌﻔﻟﺎﺑ ﺔﻳﺭﺎﺟ ﺕﺍﺩﺍﺪﻌﺘﺳﻻﺍ .ﺓﺮﻔﺤﻟﺍ ﻲﻓ ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﺕﺍﺫﻭﺬﺷ ﻦﻋ ﺮﻴﺧﻷﺍ ﻲﻟﺍﺰﻟﺰﻟﺍ ﻁﺎﺸﻨﻟﺍ ﻒﺸﻛ ﺪﻘﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﺍﺮﻴﺜﻛ ﻪﻤﻬﻓ ﻢﺘﻳ ﻢﻟ ﻦﻜﻟﻭ ،ﻞﻴﺠﺒﺘﻟﺎﺑ ﻰﻈﺤﻳ ﻊﻗﻮﻤﻟﺍ ﻥﺎﻛ ،ﻝﺎﻴﺟﺃ ﻯﺪﻣ ﻰﻠﻋ\n\n.ﺎﻨﺘﻤﺻﺎﻋ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻢﻳﺪﻘﻟﺍ ﻡﺎﻄﺗﺭﻻﺍ ﻊﻗﻮﻣﻭ ﺔﻀﻣﺎﻐﻟﺍ ﺔﻳﻭﺎﻤﺴﻟﺍ ﺔﺑﺪﻨﻟﺍ ﻩﺬﻬﺑ ﺎﻘﻴﺛﻭ ﺎﻃﺎﺒﺗﺭﺍ ﻂﺒﺗﺮﻳ ﺎﻨﻴﺿﺎﻣ ﻥﺃ ﻰﻟﺇ ﺮﻴﻃﺎﺳﻷﺍ ﺮﻴﺸﺗ .[GetHomeWorldName] ﻕﻮﻓ ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﺡﻮﻠﻳ ﻢﻴﻈﻌﻟﺍ ﻉﺪﺼﻟﺍ ﻞﻇ ،ﺮﻛﺬﺘﻧ ﺎﻣ ﺭﺪﻘﺑ"
+ START_SCREEN_RIFTWORLD_MACHINE: "$START_SCREEN_RIFTWORLD_END$.ﺎﻫﺮﻫﻮﺟ ﻲﻓ ﻖﻤﻌﺘﻠﻟ ﻞﻌﻔﻟﺎﺑ ﺔﻳﺭﺎﺟ ﺕﺍﺩﺍﺪﻌﺘﺳﻻﺍ .ﺓﺮﻔﺤﻟﺍ ﻲﻓ ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﺕﺍﺫﻭﺬﺷ ﻦﻋ ﺮﻴﺧﻷﺍ ﻲﻟﺍﺰﻟﺰﻟﺍ ﻁﺎﺸﻨﻟﺍ ﻒﺸﻛ ﺪﻘﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﺍﺮﻴﺜﻛ ﻪﻤﻬﻓ ﻢﺘﻳ ﻢﻟ ﻦﻜﻟﻭ ،ﻩﺩﺮﻔﻤﺑ ﻊﻗﻮﻤﻟﺍ ﻙﺮﺗ ،ﺕﺍﺭﺍﺮﻜﺘﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻠﻟ ﺔﺒﺴﻨﻟﺎﺑ\n\n.ﺎﻨﺘﻤﺻﺎﻋ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻢﻳﺪﻗ ﻡﺍﺪﻄﺻﺍ ﻊﻗﻮﻣ ﻰﻟﻭﻷﺍ ﺎﻨﺗﻼﺠﺳ ﻒﺼﺗﻭ ،ﺔﻳﻭﺎﻤﺴﻟﺍ ﺔﺑﺪﻨﻟﺍ ﺩﺩﺮﺗ ﻊﻣ ﺔﻴﻠﺧﺍﺪﻟﺍ ﺎﻨﺗﺎﻋﺎﺳ ﺔﻨﻣﺍﺰﻣ ﻢﺘﺗ .[GetHomeWorldName] ﻕﻮﻓ ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﺡﻮﻠﻳ ﻢﻴﻈﻌﻟﺍ ﻉﺪﺼﻟﺍ ﻥﺈﻓ ،ﺩﻮﻌﺗ ﺎﻨﻳﺪﻟ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻙﻮﻨﺑ ﻥﺃ ﺎﻤﻟﺎﻃ"
+ START_SCREEN_RIFTWORLD_END: ".ﻉﺪﺼﻟﺍ ﺀﺍﺭﻭ ﻦﻤﻜﻳ ﺀﻲﺷ ﻱﻷ ﺎﻧﺪﻌﻳ ﻥﺃ ﻦﻜﻤﻳ ﺎﻤﺑﺭ .ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺎﻨﺘﻠﺣﺭ ﻲﻓ ﺎﻨﺗﺪﻋﺎﺴﻣ ﻰﻟﺇ ﻑﺪﻬﻳ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﺢﻄﺳ ﺖﺤﺗ ﻦﻤﻜﻳ ﺎﻣ ﻞﻌﻟﻭ .ﺽﺭﻷﺍ ﻰﻟﺇ ﻯﺮﺧﺃ ﺓﺮﻣ ﺎﻨﻫﺎﺒﺘﻧﺍ ﺏﺬﺠﻨﻳ ،ﺀﺎﻤﺴﻟﺍ ﻰﻟﺇ ﻞﺼﻧ ﺎﻣﺪﻨﻌﻓ ؟Hyperdrive ﺔﻴﻨﻘﺗ ﺭﻮﻬﻇ ﻊﻣ ﺍﺬﻫ ﺙﺪﺤﻳ ﻥﺃ ﺔﻓﺪﺼﻟﺍ ﻞﻴﺒﻗ ﻦﻣ ﻞﻫ\n\n"
+
+ riftworld_affinity: "ﻉﺪﺼﻟﺍ ﺏﺭﺎﻘﺗ"
+ riftworld_affinity_desc: ".ﺚﺤﺒﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻰﻟﺇ ﺎﻨﻌﻓﺪﻳ ﺩﺎﻌﺑﻷﺍ ﺓﺩﺪﻌﺘﻣ ﻯﻮﻘﻟﺍ ﺮﻴﺛﺄﺗ ﺖﺤﺗ ﻲﻌﻤﺘﺠﻤﻟﺍ ﺎﻧﺭﻮﻄﺗ ﻥﺇ"
+
+ astral_planes.2105.name: "ﺐﻳﺮﻏ ﻝﺎﻘﺘﻧﺍ"
+ astral_planes.2105.desc: ".ﺕﺎﻤﻠﻛ ﻊﻀﺑ ﻯﻮﺳ ﺔﻤﺟﺮﺗ ﻦﻣ ﻦﻜﻤﺘﻳ ﻢﻟﻭ ،ﻪﺴﻔﻧ ﻉﺪﺼﻟﺍ ﺀﺍﺭﻭ ﺎﻣ ﻦﻣ ﻲﺗﺄﻳ ﻪﻠﺻﺃ ﻥﺃ [GetScientistPlural] ﺩﺪﺣ\n\n.ﺾﻣﺎﻏ ﻝﺎﺳﺭﺇ ﻲﻘﻠﺗ ﻢﺗ ،§H[From.solar_system.GetName]§! ﻲﻓ ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﺏﺎﻘﻋﺃ ﻲﻓ"
+
+ astral_planes.2110.name: "$astra_planes.2105.name$"
+ astral_planes.2110.desc: "...ﻙﺪﺠﻨﺳ...ﺕﺍﺮﺋﺎﻄﻟﺍ ﻊﻣ...ﻢﻏﺎﻨﺗﺍ..."
+
+ astral_planes.2120.name: "ﻲﻟﺍﺰﻟﺰﻟﺍ ﺫﻭﺬﺸﻟﺍ ﻦﻋ ﻒﺸﻜﻟﺍ ﻢﺗ"
+ astral_planes.2120.desc: ".[Owner.GetSpeciesNamePlural] ﻢﺳﺎﺑ ﻪﺗﺍﺫ ﺎﻨﻠﺻﺄﺑ ﺓﺩﺪﺤﻤﻟﺍ ﺓﺮﻔﺤﻟﺍ ﻩﺬﻫ ﻂﺑﺭ ﻢﺗ\n\n.ﺎﻨﺘﻤﺻﺎﻋ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻢﻳﺪﻘﻟﺍ ﻡﺎﻄﺗﺭﻻﺍ ﻊﻗﻮﻤﻟ ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺕﺎﻤﺳ ﻦﻋ ﺮﻴﺧﻷﺍ ﻲﻟﺍﺰﻟﺰﻟﺍ ﻁﺎﺸﻨﻟﺍ ﻒﺸﻛ"
+
+ riftworld_digsite: "ﺔﻤﻳﺪﻘﻟﺍ ﺓﺮﻔﺤﻟﺍ"
+ riftworld_digsite_desc: ".ﻞﺒﻗ ﻦﻣ ﺎﻓﻭﺮﻌﻣ ﻦﻜﻳ ﻢﻟ ﻒﻳﻮﺠﺗ ﻦﻋ ﺽﺭﻷﺍ ﺖﺤﺗ ﺭﺎﻧﻮﺴﻟﺍ ﻒﺸﻛ .[Planet.GetName] ﺢﻄﺳ ﻰﻠﻋ ﺔﻤﻳﺪﻗ ﺓﺮﻔﺣ ﻕﺎﻤﻋﺃ ﻦﻣ ﺍﺫﺎﺷ ﺎﻴﻟﺍﺰﻟﺯ ﺎﻃﺎﺸﻧ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+ astral_planes.2125.name: "ﺔﻋﺮﺴﻟﺍ ﻲﻟﺎﻋ ﺮﻴﺛﺄﺗ"
+ astral_planes.2125.desc: ".ﺢﻄﺴﻟﺍ ﻰﻟﺇ ﻞﺻﻭ ﻪﻧﺃ ﺐﺠﻌﻟﺍ ﻦﻣﻭ .ﺀﻮﻀﻟﺍ ﺔﻋﺮﺳ ﻦﻣ ﺱﺎﻴﻘﻠﻟ ﻞﺑﺎﻗ ﺀﺰﺟ ﻰﻟﺇ ﻞﺻﻭ ﺪﻗ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ ﻢﺴﺠﻟﺍ ﻥﺃ ﺔﻴﻟﻭﻷﺍ ﺕﺎﺑﺎﺴﺤﻟﺍ ﺮﻬﻈﺗ .ﺔﻳﺎﻐﻠﻟ ﺔﻴﻟﺎﻋ ﺔﻋﺮﺴﺑ ﻲﻛﺰﻴﻧ ﺮﻴﺛﺄﺗ ﻦﻣ ﺄﺸﻧ ﺪﻗ ﻕﺮﻌﻟﺍ ﺍﺬﻫ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ\n\n.ﺽﺭﻷﺍ ﻕﺎﻤﻋﺃ ﻲﻓ ﺕﺮﻘﺘﺳﺍ ﻡﺍﺪﻄﺻﻻﺍ ﺓﺩﺎﻣ ﻦﻣ ﻦﻳﻮﻜﺘﻟﺍ ﺔﻠﻣﺎﻛ ﺔﻧﺍﻮﻄﺳﺃ ﻦﻋ ﺓﺮﻔﺤﻟﺍ ﺓﺪﻋﺎﻗ ﻲﻓ ﺔﻴﻟﻭﻷﺍ ﺕﺎﻳﺮﻔﺤﻟﺍ ﺖﻔﺸﻛ"
+ astral_planes.2125.a: ".ﺕﺎﻳﺮﻔﺤﻟﺍ ﺔﻠﺻﺍﻮﻣ"
+ astral_planes.2130.name: "ﺽﺭﻷﺍ ﺖﺤﺗ ﻑﻮﻬﻜﻟﺍ"
+ astral_planes.2130.desc: ".ﺍﺬﻫ ﻡﺎﻄﺗﺭﻻﺍ ﻊﻗﻮﻣ ﺭﺪﺼﻣ ﻪﻧﺃ ﻭﺪﺒﻳﻭ ،ﺎﻴﻌﻴﺒﻃ ﺎﻨﻳﻮﻜﺗ ﺲﻴﻟ ﻪﻧﺇ .ﺫﺎﺷ ﻱﻭﺮﻛ ﻢﺴﺟ ﺎﻳﺎﻘﺑ ﺪﺟﻮﺗ ﻙﺮﺒﻟﺍ ﻩﺬﻫ ﺪﺣﺃ ﻉﺎﻗ ﻲﻓﻭ .ﻒﻬﻜﻟﺍ ﻥﺍﺭﺪﺟ ﻝﻮﻃ ﻰﻠﻋ ﺔﺘﻫﺎﺒﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻦﻣ ﺔﻌﻴﻓﺭ ﺎﻃﻮﻄﺧ ﺔﻴﻓﻮﺠﻟﺍ ﻩﺎﻴﻤﻟﺍ ﻙﺮﺑ ﻢﻋﺪﺗ\n\n.ﻊﺳﻮﺘﻣ ﻒﻬﻛ ﻡﺎﻈﻧ ﺎﻨﻔﺸﺘﻛﺍ ،ﻡﺎﻄﺗﺭﻻﺍ ﻕﺮﻋ ﺀﺎﻬﺘﻧﺍ ﺔﻄﻘﻧ ﺪﻨﻋ"
+ astral_planes.2130.a: ".ﻦﺋﺎﻜﻟﺍ ﺩﺍﺩﺮﺘﺳﺍ"
+ astral_planes.2135.name: "ﻢﻳﺪﻘﻟﺍ ﻝﺎﺠﻤﻟﺍ"
+ astral_planes.2135.desc: ".ﺏﺎﻛﺭ ﺎﻬﺑ ﻥﺎﻛ ﺔﻨﻴﻔﺴﻟﺍ ﻩﺬﻫ ﻥﺃ ﻰﻟﺇ ﺮﻴﺸﺗ ﻞﺋﻻﺩ ﻙﺎﻨﻫ ﻥﺃ ﻮﻫ ﺔﺸﻫﺪﻠﻟ ﺓﺭﺎﺛﺇ ﺮﺜﻛﻷﺍ ﺮﻣﻷﺍﻭ .ﺎﻨﻫ ﻰﻟﺇ ﺎﻨﺗﺩﺎﻗ ﻲﺘﻟﺍ ﺔﻟﻮﺤﺘﻤﻟﺍ ﺭﻮﺨﺼﻟﺍ ﺭﺪﺼﻣ ﻲﻫ ﺓﺮﻜﻟﺍ ﻩﺬﻫ ﻥﺃ ﺪﻛﺆﻳ ﺎﻤﻣ ،ﻡﺍﺪﻄﺻﻻﺍ ﻕﺮﻋ ﻊﻣ ﺔﻨﻴﻔﺴﻟﺍ ﺔﺣﺍﺮﺘﺳﺍ ﻊﻗﻮﻣ ﺭﺎﺴﻣ ﻖﻓﺍﻮﺘﻳ\n\n.ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻝﻮﺧﺩ ﺪﻨﻋ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻙﺎﻜﺘﺣﻻﺍ ﻞﻠﻗ ﺪﻗ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ ﻱﺬﻟﺍﻭ ،ﺔﻨﻴﻔﺴﻟﺍ ﻦﻣ ﻲﻣﺎﻣﻷﺍ ﺀﺰﺠﻟﺍ ﺎﻣﺎﻤﺗ ﺔﻤﻋﺎﻨﻟﺍ ﺔﻴﻧﺪﻌﻤﻟﺍ ﺢﺋﺎﻔﺼﻟﺍ ﻲﻄﻐﺗ .ﻡﺎﺨﻟﺍ ﻊﻴﻤﺠﺘﻟﺍﻭ ﺔﻳﺎﻐﻠﻟ ﺭﻮﻄﺘﻤﻟﺍ ﻢﻴﻤﺼﺘﻟﺍ ﻦﻣ ﺐﻳﺮﻏ ﺞﻳﺰﻣ ﻦﻋ ﺓﺭﺎﺒﻋ ﻪﺋﺎﻨﺑ ﻥﺇ .ﺎﻣﺎﻤﺗ ﺎﻤﻴﻠﺳ ﻞﻈﻳ ﺎﻬﻤﻈﻌﻣ ﻥﺃ ﻻﺇ ،ﻲﺗﺎﺒﻨﻟﺍ ﻮﻤﻨﻟﺎﺑ ﺓﺎﻄﻐﻣ ﺎﻬﻧﺃ ﻢﻏﺭ\n\n.ﺽﺭﻷﺍ ﺖﺤﺗ ﺓﺮﻴﺤﺒﻟﺍ ﻦﻣ ﺓﺮﻜﻟﺍ ﺎﻧﺪﻌﺘﺳﺍ ﺪﻘﻟ"
+ astral_planes.2140.name: "ﺩﺍﺪﺟﻷﺍ"
+ astral_planes.2140.desc.common: ".[from.planet.GetName] ﻦﻣ ﺏﺮﻘﻟﺎﺑ Astral Rift ﻖﻳﺮﻃ ﻦﻋ ﻲﻤﺠﻨﻟﺍ ﺎﻨﻣﺎﻈﻧ ﻰﻟﺇ ﺖﻠﺻﻭ ﺔﻨﻴﻔﺴﻟﺍ ﻥﺃ ﺡﻮﺿﻮﺑ ﺮﻬﻈﻳ .ﺓﺮﻜﻟﺍ ﻦﻣ ﺕﺎﻧﺎﻴﺑ ﻞﺠﺳ ﺎﻧﺪﻌﺘﺳﺍ ﺎﻨﻨﻜﻟﻭ ،ﻆﻔﺤﻟﺍ ﺔﺌﻴﺳ ﺔﻟﺎﺣ ﻲﻓ ﺎﻫﺫﺎﻘﻧﺇ ﻢﺗ ﻲﺘﻟﺍ ﺕﺍﺪﻨﺘﺴﻤﻟﺍ .ﻥﻵﺍ ﻰﺘﺣ ﻑﻭﺮﻌﻣ ﺮﻴﻏ ،ﻥﺎﻜﻤﻟﺍ ﺍﺬﻫ ﻥﺎﻴﺴﻧ ﻢﺗ ﺍﺫﺎﻤﻟ ﻭﺃ ،ﻂﺒﻀﻟﺎﺑ ﺍﻮﺗﺃ ﻦﻳﺃ ﻦﻣ \n\n .ﺎﻨﻓﻼﺳﺃ ﻢﻫ ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ :ﺔﻣﺩﺎﺻ ﺔﻘﻴﻘﺣ ﻦﻋ ﻪﻠﺧﺍﺪﺑ ﺎﻳﺎﻘﺒﻟﺍ ﻰﻠﻋ ﻩﺅﺍﺮﺟﺇ ﻢﺗ ﻱﺬﻟﺍ ﻱﻭﻮﻨﻟﺍ ﺾﻤﺤﻟﺍ ﻞﻴﻠﺤﺗ ﻒﺸﻛ .ﻦﻓﺩ ﻊﻗﻮﻣ ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﺔﻳﻮﻠﻌﻟﺍ ﻑﺮﻐﻟﺍ ﻯﺪﺣﺇ :ﻲﺋﺎﻬﻨﻟﺍ ﻲﺣﻮﻠﻟ ﺎﻧﺪﻌﻳ ﻥﺃ ﻦﻜﻤﻳ ﻥﻵﺍ ﻰﺘﺣ ﻩﺎﻨﻔﺸﺘﻛﺍ ﺀﻲﺷ ﻻ ،ﻚﻟﺫ ﻊﻣﻭ\n\n.ﺢﻄﺴﻟﺍ ﻮﺤﻧ ﻢﻬﻘﻳﺮﻃ ﻥﻮﻘﺸﻳ ﺙﺩﺎﺤﻟﺍ ﻦﻣ ﻥﻮﺟﺎﻨﻟﺍ ﻥﺎﻛ ﺎﻤﻨﻴﺑ ﻝﺎﻴﺟﺃ ﺓﺪﻌﻟ ﺔﻟﻮﻫﺄﻣ ﺖﻧﺎﻛ ﻑﻮﻬﻜﻟﺍ ﻩﺬﻫ ﻥﺃ ﺪﺑ ﻻ ،ﻝﺎﺒﺤﻟﺍ ﻑﺎﻴﻟﻷ ﺔﺗﻭﺎﻔﺘﻤﻟﺍ ﺭﺎﻤﻋﻷﺍ ﻰﻟﺇ ﺍﺩﺎﻨﺘﺳﺍ .ﻢﺨﺿ ﻕﺎﻔﻧﺃ ﻡﺎﻈﻧ ﻰﻟﺇ ﻡﺍﺪﻄﺻﻻﺍ ﻊﻗﻮﻣ ﻦﻣ ﻰﻠﻋﻷ ﻒﺘﻠﺗ ﻢﻟﻼﺴﻟﺍ ﻦﻣ ﺓﺪﻘﻌﻣ ﺔﻜﺒﺷ\n\n.ﺔﻴﺳﺪﻗ ﺎﻧﺮﻴﻃﺎﺳﺃ ﺮﺜﻛﺄﺑ ﺔﻄﺒﺗﺮﻤﻟﺍ ﺀﺎﻤﺳﻷﺍ ﻩﺬﻫ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺮﻴﺸﺗ .ﺔﺻﺎﺨﻟﺍ ﺎﻨﺘﻐﻟ ﻦﻣ ﺔﻤﻳﺪﻗ ﺔﺨﺴﻨﺑ ﺏﻮﺘﻜﻣ ﺎﻬﻨﻣ ﻞﻛ ،ﻢﻳﺪﻘﻟﺍ ﻝﺎﺠﻤﻟﺍ ﻞﺧﺍﺩ ﻦﻣ ﻖﺋﺎﺛﻮﻠﻟ ﺄﺒﺨﻣ ﺎﻧﺪﻌﺘﺳﺍ ﺪﻘﻟ"
+ astral_planes.2140.desc.has_rift_sphere: ".ﻉﺪﺼﻟﺍ ﻦﻣ ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﺎﺒﻴﻫﺭ ﺍﺮﻴﺼﻣ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ ﻥﺎﻛ ﺎﻤﻣ ﺏﻭﺮﻬﻠﻟ ﺓﺮﻴﺧﺃ ﺔﻟﻭﺎﺤﻣ ﻩﺬﻫ ﺖﻧﺎﻛ .ﻢﻬﺘﻋﺍﺮﺑﻭ ﻪﻴﻌﻧﺎﺻ ﺱﺄﻳ ﻰﻠﻋ ﺓﺩﺎﻬﺷ ﺔﺑﺎﺜﻤﺑ ﺪﻌﻳ ﻪﻧﺃ ﻻﺇ ،ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻦﻣ ﺎﻣﺪﻘﺗ ﻞﻗﺃ ﻝﺎﺠﻤﻟﺍ ﺍﺬﻫ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n$astral_planes.2140.desc.common$"
+ astral_planes.2140.desc.default: ".ﺩﺎﻌﺑﻷﺍ ﻰﻠﻋ ﺓﺪﺘﻤﻤﻟﺍ ﺕﺍﺭﺪﻘﻟﺍ ﻩﺬﻬﺑ ﺔﻨﻴﻔﺳ ﺀﺎﻨﺒﻟ ﺎﻬﻨﻴﺴﺤﺗ ﻰﺘﺣﻭ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺭﺍﺮﻜﺗ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳ ،ﺕﺎﺳﺍﺭﺪﻟﺍ ﺾﻌﺑ ﻊﻣ\n\n$astra_planes.2140.desc.common$"
+ astral_planes.2140.desc.machine.common: ".[from.planet.GetName] ﻦﻣ ﺏﺮﻘﻟﺎﺑ Astral Rift ﻖﻳﺮﻃ ﻦﻋ ﻲﻤﺠﻨﻟﺍ ﺎﻨﻣﺎﻈﻧ ﻰﻟﺇ ﺖﻠﺻﻭ ﺔﻨﻴﻔﺴﻟﺍ ﻥﺃ ﺡﻮﺿﻮﺑ ﺓﺮﻜﻟﺍ ﻦﻣ ﺎﻫﺎﻧﺩﺮﺘﺳﺍ ﻲﺘﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺮﻬﻈﺗ .ﻥﻵﺍ ﻰﺘﺣ ﻑﻭﺮﻌﻣ ﺮﻴﻏ ،ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻥﺍﺪﻘﻓ ﺐﺒﺳ ﻭﺃ ،ﻂﺒﻀﻟﺎﺑ ﺍﻮﺗﺃ ﻦﻳﺃ ﻦﻣ\n\n.ﺎﻨﻓﻼﺳﺃ ﺍﻮﻧﺎﻛ ﻥﻮﺟﺎﻨﻟﺍ ﺀﻻﺆﻫ .ﻰﻟﻭﻷﺍ ﺎﻨﺟﺫﺎﻤﻧ ﻲﻓ ﺔﻣﺪﺨﺘﺴﻤﻟﺍ ﻚﻠﺘﺑ ﺎﻧﺮﻛﺬﺗ ﺀﺍﺰﺟﺃ ﻰﻠﻋ ﺔﻳﻮﻠﻌﻟﺍ ﻊﻗﺍﻮﻤﻟﺍ ﺪﺣﺃ ﻱﻮﺘﺤﻳ\n\n .ﺢﻄﺴﻟﺍ ﻮﺤﻧ ﻢﻬﻘﻳﺮﻃ ﻥﻮﻘﺸﻳ ﺙﺩﺎﺤﻟﺍ ﻦﻣ ﻥﻮﺟﺎﻨﻟﺍ ﻥﺎﻛ ﺎﻤﻨﻴﺑ ﺕﺍﺮﻣ ﺓﺪﻌﻟ ﺔﻟﻮﻐﺸﻣ ﺖﻧﺎﻛ ﻑﻮﻬﻜﻟﺍ ﻩﺬﻫ ﻥﺃ ﺪﺑ ﻻ ،ﻝﺎﺒﺤﻟﺍ ﻑﺎﻴﻟﻷ ﺔﺗﻭﺎﻔﺘﻤﻟﺍ ﺭﺎﻤﻋﻷﺍ ﻰﻟﺇ ﺍﺩﺎﻨﺘﺳﺍ .ﻢﺨﺿ ﻕﺎﻔﻧﺃ ﻡﺎﻈﻧ ﻰﻟﺇ ﺮﻴﺛﺄﺘﻟﺍ ﻊﻗﻮﻣ ﻦﻣ ﻰﻠﻋﻷ ﻒﺘﻠﺗ ﻢﻟﻼﺴﻟﺍ ﻦﻣ ﺓﺪﻘﻌﻣ ﺔﻜﺒﺷ \n\n .ﺎﻨﻳﺪﻟ ﺕﺎﻔﻠﻤﻟﺍ ﻡﺎﻈﻧ ﻦﻣ ﺔﻤﻳﺪﻗ ﺔﺨﺴﻧ ﻲﻓ ﺎﻫﺮﻴﻔﺸﺗ ﻢﺗ ﺖﻗﺆﻣ ﻦﻳﺰﺨﺗ ﺓﺮﻛﺍﺫ ﻲﻫﻭ ،ﻢﻳﺪﻘﻟﺍ ﻝﺎﺠﻤﻟﺍ ﻞﺧﺍﺩ ﻦﻣ ﺕﺎﻧﺎﻴﺒﻠﻟ ﺖﻗﺆﻣ ﻦﻳﺰﺨﺗ ﺓﺮﻛﺍﺫ ﺎﻧﺪﻌﺘﺳﺍ ﺪﻘﻟ"
+ astral_planes.2140.desc.machine.has_rift_sphere: ".ﻉﺪﺼﻟﺍ ﻦﻣ ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﺎﺒﻴﻫﺭ ﺍﺮﻴﺼﻣ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ ﻥﺎﻛ ﺎﻤﻣ ﺏﻭﺮﻬﻠﻟ ﺓﺮﻴﺧﺃ ﺔﻟﻭﺎﺤﻣ ﻩﺬﻫ ﺖﻧﺎﻛ .ﻢﻬﺘﻋﺍﺮﺑﻭ ﻪﻴﻌﻧﺎﺻ ﺱﺄﻳ ﻰﻠﻋ ﺓﺩﺎﻬﺷ ﻮﻫ ﻝﺎﺠﻤﻟﺍ ﺍﺬﻫ ﻥﺃ ﻻﺇ ،ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻦﻣ ﺎﻣﺪﻘﺗ ﻞﻗﺃ ﻪﻧﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ ﻪﻧﺃ ﻢﻏﺭ\n\n$astral_planes.2140.desc.machine.common$"
+ astral_planes.2140.desc.machine: ".ﺩﺎﻌﺑﻷﺍ ﻰﻠﻋ ﺓﺪﺘﻤﻤﻟﺍ ﺕﺍﺭﺪﻘﻟﺍ ﻩﺬﻬﺑ ﺔﻨﻴﻔﺳ ﺀﺎﻨﺒﻟ ﺎﻬﻨﻴﺴﺤﺗ ﻰﺘﺣﻭ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺭﺍﺮﻜﺗ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳ ،ﺕﺎﺳﺍﺭﺪﻟﺍ ﺾﻌﺑ ﻊﻣ\n\n$astral_planes.2140.desc.machine.common$"
+ astral_planes.2140.a: ".ﺎﻨﺳﺃﺭ ﻂﻘﺴﻣ ﺎﻧﺪﺟﻭ ﺪﻘﻟ"
+ astral_planes.2140.a.synthetic: ".ﺎﻨﺘﻘﺗﻮﺑ ﺎﻧﺪﺟﻭ ﺪﻘﻟ"
+
+ #############################
+ # Government & Empire Names #
+ #############################
+
+ gov_defensive_union: "ﻲﻋﺎﻓﺪﻟﺍ ﺩﺎﺤﺗﻻﺍ"
+ gov_defensive_union_desc: ".ﺔﻴﺟﺭﺎﺨﻟﺍ ﺕﺍﺪﻳﺪﻬﺘﻟﺍ ﻦﻣ ﺔﻳﺎﻤﺤﻟﺍ ﻲﻓ ﺔﻠﺜﻤﺘﻤﻟﺍ ﺔﻛﺮﺘﺸﻤﻟﺍ ﺔﻴﻀﻘﻟﺍ ﻲﻓ ﺎﻬﺒﻌﺷ ﺪﺣﻮﺗ ﺔﻣﻮﻜﺤﻟﺍ ﻩﺬﻫ"
+ RT_DEFENSIVE_UNION: "ﻲﻟﺎﻌﻟﺍ ﻉﺭﺪﻟﺍ"
+ HT_DEFENSIVE_UNION: "ﻲﺻﻮﻟﺍ"
+
+ Guardianship: "ﺔﻳﺎﺻﻮﻟﺍ"
+ Protectorate: "ﺔﻴﻤﺤﻣ"
+ Stalwart_Legion: "ﻉﺎﺠﺸﻟﺍ ﻖﻠﻴﻔﻟﺍ"
+
+ gov_dimensional_covenant: "ﺩﺎﻌﺑﻷﺍ ﻕﺎﺜﻴﻣ"
+ gov_dimensional_covenant_desc: ".ﺓﺮﺧﻵﺍ ﺓﺎﻴﺤﻟﺍ ﻰﻟﺇ ﺔﻘﺜﺑ ﻊﻠﻄﺘﻟﺍ ﻢﻬﻨﻜﻤﻳ ﺎﻬﻧﺎﻜﺳ ﻦﻣ ﺔﺒﺴﻧ ﻰﻠﻋﺃ ﻥﺃ ﻥﺎﻤﻀﻟ ﺔﻣﺭﺎﺻ ﺔﻴﻗﻼﺧﺃ ﺪﻋﺍﻮﻗ ﻊﺿﻭ ﻢﺗ .ﻖﻴﻤﻋ ﻲﺣﻭﺭ ﻲﻋﻮﺑ ﻡﻮﻋﺪﻣ ﻊﻤﺘﺠﻤﻟﺍ ﺍﺬﻫ"
+ RT_DIMENSIONAL_COVENANT: "ﻝﻭﻷﺍ ﺪﻋﺎﺼﻟﺍ"
+ HT_DIMENSIONAL_COVENANT: "ﻲﻧﺎﺜﻟﺍ ﺪﻋﺎﺼﻟﺍ"
+
+ Church_of_Otherworlds: "ﻯﺮﺧﻷﺍ ﻢﻟﺍﻮﻌﻟﺍ ﺔﺴﻴﻨﻛ"
+ Astral_Fellowship: "ﻲﻤﺠﻧ ﺔﻟﺎﻣﺯ"
+ Dimensional_Commune: "ﺩﺎﻌﺑﻷﺍ ﺔﻧﻮﻣﻮﻛ"
+
+ ##########
+ # Civics #
+ ##########
+
+ sm_dimensional_shrine: "ﺩﺎﻌﺑﻷﺍ ﺢﻳﺮﺿ"
+ sm_dimensional_shrine_desc: "\n.ﺎﻧﺪﺑﺎﻌﻣ ﺱﺪﻗﺃ ﻪﻴﻓ ﻲﻨﺒﻧ ﻱﺬﻟﺍ ﻥﺎﻜﻤﻟﺍ ﻮﻫ ﺍﺬﻫ .ﺓﺭﺎﻬﻤﺑ ﻂﺑﺍﻭﺮﻟﺍ ﻚﻠﺗ ﺎﻬﻴﻓ ﻢﺘﺗ ﻦﻛﺎﻣﺃﻭ ،ﻯﺮﺧﺃ ﻢﻟﺍﻮﻋ ﻰﻟﺇ ﺕﺍﺭﺎﺴﻣ ﻑﻭﺮﻌﻤﻟﺍ ﻥﻮﻜﻟﺍ ﺝﺭﺎﺧ ﺪﺟﻮﺗ"
+ sm_reloading_bay: "ﺞﻴﻠﺨﻟﺍ ﻞﻴﻤﺤﺗ ﺓﺩﺎﻋﺇ"
+ sm_reloading_bay_desc: "\n.ﺔﻴﻓﺎﺿﺇ ﻉﺎﻓﺩ ﺕﺎﺼﻨﻣ ﺮﻓﻮﻳﻭ ،ﺎﻨﺘﺤﻠﺳﺃ ﺕﺎﻧﻮﻜﻣ ﻞﻴﻤﺤﺗ ﺓﺩﺎﻋﻹ Starbase ﻦﻣ ﺮﻴﺒﻛ ﺀﺰﺠﺑ ﻆﻔﺘﺤﻳ"
+ requires_dimensional_space_object: "§!§Y$SHROUD_TUNNEL_GALACTIC$§! ﻭﺃ §Y$LGATE_GALACTIC$§! ﻭﺃ ،§Y$ASTRAL_RIFT$§! ﻭﺃ ،§Y$pc_rift_star$§! ﻭﺃ ،§R§Y$WORMHOLE$§! ﺐﻠﻄﺘﻳ§!"
+
+ civic_hyperspace_specialty: "ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺺﺼﺨﺗ"
+ civic_hyperspace_specialty_desc: ".ﺔﻘﺒﻃ ﻰﻠﻋﺃ ﻰﻟﺇ ﻝﺎﺠﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺓﺀﺎﻔﻜﻟﺎﺑ ﻥﻮﻌﺘﻤﺘﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻰﻘﺗﺭﺍ ﺪﻗﻭ ،ﺮﺧﺁ ﻖﻳﺮﻃ ﺩﺮﺠﻣ ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺎﺑ ﺐﻋﻼﺘﻟﺍ ﺪﻌﻳ .ﺔﻋﺮﺴﻟﺍ ﺎﻤﺋﺍﺩ ﻊﻤﺘﺠﻤﻟﺍ ﺍﺬﻫ ﻦﻀﺘﺣﺍ ﺪﻘﻟ"
+ civic_hyperspace_specialty_effects: ".ﻚﺑ ﺹﺎﺨﻟﺍ ﺔﻳﺍﺪﺒﻟﺍ ﻡﺎﻈﻨﻟ ﺔﻴﺒﻌﺸﺗ ﺕﺍﺭﺎﺴﻣ 3 ﻦﻤﺿ ﺔﻤﻈﻧﻷﺍ ﻊﻴﻤﺟ ﻲﻓ ﺾﻔﺨﻨﻣ Intel ﻰﻠﻋ ﻱﻮﺘﺤﻳ\n.ﻥﻮﻤﻀﻣ ﺚﺤﺑ ﺭﺎﻴﺧ ﻮﻫ §Y$tech_hyper_drive_2$§! £physics£"
+ civic_hive_hyperspace_specialty: "ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻦﻣﺍﺰﺗ"
+ civic_hive_hyperspace_specialty_desc: ".ﺖﻗﻮﻟﺍ ﺭﻭﺮﻣ ﻊﻣ ﺔﻓﺎﺴﻤﻠﻟ ﺔﻴﺳﺎﺳﻷﺍ ﺉﺩﺎﺒﻤﻠﻟ ﻲﺠﻳﺭﺪﺘﻟﺍ ﻢﻬﻔﻟﺍ ﺢﻴﺘﻳ ﺎﻤﻣ ،ﺔﻋﻮﻤﺠﻤﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﻖﻤﻌﺑ ﺔﺠﻣﺪﻣ ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺕﺎﻴﺠﻬﻨﻣ ﻥﺇ .ﺔﻋﺮﺴﻠﻟ ﻰﻌﺴﻳ ﻲﻋﺎﻤﺠﻟﺍ ﺍﺬﻫ"
+ civic_hive_hyperspace_specialty_effects: "$civic_hyperspace_specialty_effets$"
+ civic_machine_hyperspace_specialty: "ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺕﺎﺑﺎﺴﺣ"
+ civic_machine_hyperspace_specialty_desc: ".ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﺔﻓﺎﺴﻤﻠﻟ ﺔﻴﺳﺎﺳﻷﺍ ﺉﺩﺎﺒﻤﻠﻟ ﺎﻴﺠﻳﺭﺪﺗ ﺎﻤﻬﻓ ﺔﻋﻮﻤﺠﻤﻟﺍ ﺢﻨﻤﻳ ﺎﻤﻣ ،ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ ﻞﻜﻟ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺓﺪﺣﻭ ﻲﻓ ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺎﺑ ﺐﻋﻼﺘﻟﺍ ﺕﺎﻳﺮﻈﻧ ﺞﻣﺩ ﻢﺘﻳ .ﺔﻋﺮﺴﻠﻟ ﻰﻌﺴﻳ ﻲﻋﺎﻤﺠﻟﺍ ﺍﺬﻫ"
+ civic_machine_hyperspace_specialty_effects: "$civic_hyperspace_specialty_effets$"
+ civic_corporate_hyperspace_specialty: "ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺓﺭﺎﺠﺗ"
+ civic_corporate_hyperspace_specialty_desc: ".ﺓﺭﻮﻄﺘﻤﻟﺍ ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺕﺎﻴﻨﻘﺗ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻖﺣ ﺔﻛﺮﺸﻟﺍ ﺢﻨﻣ ﺎﻤﻣ ،ﺪﻴﺟ ﻞﻜﺸﺑ ﻩﺭﺎﻤﺜﺑ ﺮﻳﻮﻄﺘﻟﺍﻭ ﺚﺤﺒﻟﺍ ﻲﻓ ﻢﺨﻀﻟﺍ ﺭﺎﻤﺜﺘﺳﻻﺍ ﻰﺗﺃ ﺪﻘﻟ .ﺔﻋﺮﺴﻟﺍ ﺭﺪﻘﺗ ﺔﻗﻼﻤﻌﻟﺍ ﺔﻛﺮﺸﻟﺍ ﻩﺬﻫﻭ ،ﻝﺎﻤﻟﺍ ﻮﻫ ﺖﻗﻮﻟﺍ"
+ civic_corporate_hyperspace_specialty_effects: " $megacorp_civic_branch_office_building_effect$§Y$building_amusement_megaplex$§! £building£The \n$civic_hyperspace_specialty_effacts$"
+
+ civic_tooltip_not_hyperspace_specialty: "ﻚﻴﻔﻴﺳ ['concept_hyperspace_specialty_civics'] ﻪﻳﺪﻟ ﺲﻴﻟ"
+ concept_hyperspace_specialty_civics: "ﻖﺋﺎﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺺﺼﺨﺗ"
+ concept_hyperspace_specialty_civics_desc: "['civic:civic_machine_hyperspace_specialty']$NEW_LINE$- ['civic:civic_hive_hyperspace_specialty']$NEW_LINE$- ['civic:civic_corporate_hyperspace_specialty']$NEW_LINE$- ['civic:civic_hyperspace_specialty']- \n$concept_hyperspace_specialty_civics$ ﻦﻣ ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ ﻥﻮﻜﺘﺗ "
+
+ civic_dimensional_worship: "ﺩﺎﻌﺑﻷﺍ ﺓﺩﺎﺒﻋ"
+ civic_dimensional_worship_desc: ".ﺚﺤﺒﻟﺍﻭ ﺞﺤﻠﻟ ﻊﻗﺍﻮﻣ ﺎﻫﺭﺎﺒﺘﻋﺎﺑ ﺎﻬﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺎﺳﺪﻘﻣ ﻰﻨﻌﻣ ﺎﻬﺗﺎﻳﻮﺘﺴﻣ ﻰﻠﻋﺃ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻡﺪﻋ ﺕﻻﺎﺣ ﺎﻬﻴﻓ ﻥﻮﻜﺗ ﻲﺘﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻞﻤﺤﺗ .ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﺎﻳﺎﻨﺛ ﺀﺍﺭﻭ ﻦﻤﻜﻳ ﻲﻬﻟﻹﺍ ﺩﻮﺟﻮﻟﺍ ﻥﺃ ﻊﻤﺘﺠﻤﻟﺍ ﺍﺬﻫ ﺪﻘﺘﻌﻳ"
+ civic_dimensional_worship_effects: "['starbase_building:dimensional_shrine', $sm_dimensional_shrine$]$t$- $AVAILABLE_STARBASE_BUILDINGS$ "
+ civic_dimensional_worship_effects_additional: "§G+100%§! :ﻢﻜﺤﺘﻠﻟ ﺔﻌﺿﺎﺨﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ ['concept_astral_rift', $ASTRAL_RIFTS$] ﺔﺻﺮﻓ -"
+ civic_corporate_dimensional_worship: "ﺩﺎﻌﺑﻷﺍ ﺔﺴﺳﺆﻣ"
+ civic_corporate_dimensional_worship_desc: "$civic_ Dimensional_worship_desc$"
+ civic_corporate_dimensional_worship_effects: " $megacorp_civic_branch_office_building_effect$§Y$building_xeno_tourism_agency$§! £building£$civic_ Dimension_worship_effacts$ $TABBED_NEW_LINE$- "
+
+ civic_tooltip_not_dimensional_worship: "ﻚﻴﻔﻴﺳ ['concept_dimensional_worship_civics'] ﻪﻳﺪﻟ ﺲﻴﻟ"
+ concept_dimensional_worship_civics: "ﺩﺎﻌﺑﻷﺍ ﺓﺩﺎﺒﻋ"
+ concept_dimensional_worship_civics_desc: "['civic:civic_corporate_dimensional_worship']$NEW_LINE$- ['civic:civic_dimensional_worship']- \n$concept_ Dimension_worship_civics$ ﻦﻣ ﺔﻧﻮﻜﻣ ﺔﻋﻮﻤﺠﻤﻟﺍ "
+
+ civic_dark_consortium: "ﻡﻼﻈﻟﺍ ﻡﻮﻴﺗﺭﻮﺴﻧﻮﻛ"
+ civic_dark_consortium_desc: ".ﻖﺋﺎﻔﻟﺍ ﻙﺮﺤﻤﻟﺍ ﻑﺎﺸﺘﻛﺍ ﻦﻣ ﻞﻳﻮﻃ ﺖﻗﻭ ﻞﺒﻗ ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻠﻟ ﺔﻀﻣﺎﻐﻟﺍ ﺺﺋﺎﺼﺨﻟﺍ ﻝﻼﻐﺘﺳﺎﺑ ﻊﻤﺘﺠﻤﻟﺍ ﺍﺬﻬﻟ ﺢﻤﺳ ﻥﻮﻜﻟﺍ ﺔﻴﻨﺒﻟ ﻖﻴﻤﻌﻟﺍ ﻢﻬﻔﻟﺍ ﻥﺇ"
+ civic_dark_consortium_effects: ".ﺲﻠﺠﻤﻟﺍ ﻝﺎﻤﻋﺃ ﻝﻭﺪﺟ §Y$council_agenda_agenda_dark_matter_breakthrough_name$§! $TABBED_NEW_LINE$- ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻖﺣ ﻪﻳﺪﻟ ['concept_dark_matter_edicts'] $TABBED_NEW_LINE$- ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ['technology:tech_mine_dark_matter', £physics£$tech_mine_dark_matter$]$t$- $ADDITIONAL_TECHNOLOGIES_STRING$$TABBED_NEW_LINE$$t$- "
+
+ concept_dark_matter_edicts: "ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻢﻴﺳﺍﺮﻣ"
+ concept_dark_matter_edicts_desc: "['edict:shadow_matrix', $edict_shadow_matrix$]- \n['edict:dark_matter_unravelling', $edict_dark_matter_unravelling$]- \n['edict:dark_matter_forging', $edict_dark_matter_forging$]- \n['edict:baryonic_insight', $edict_baryonic_insight$]- "
+ civic_corporate_dark_consortium: "ﻞﻈﻟﺍ ﺔﻛﺮﺷ"
+ civic_corporate_dark_consortium_desc: "$civic_dark_consortium_desc$"
+ civic_corporate_dark_consortium_effects: " $megacorp_civic_branch_office_building_effect$§Y$building_private_research_initiative$§! £building£$civic_dark_consortium_effacts$ $TABBED_NEW_LINE$- "
+
+ civic_tooltip_not_dark_consortium: "ﻚﻴﻔﻴﺳ ['concept_dark_consortium_civics'] ﻪﻳﺪﻟ ﺲﻴﻟ"
+ concept_dark_consortium_civics: "ﻡﻼﻈﻟﺍ ﻡﻮﻴﺗﺭﻮﺴﻧﻮﻛ"
+ concept_dark_consortium_civics_desc: "['civic:civic_corporate_dark_consortium']$NEW_LINE$- ['civic:civic_dark_consortium']- \n ﻦﻣ $concept_dark_consortium_civics$ ﻥﻮﻜﺘﻳ"
+
+ civic_sovereign_guardianship: "ﺔﻳﺩﺎﻴﺴﻟﺍ ﺔﻳﺎﺻﻮﻟﺍ"
+ civic_sovereign_guardianship_desc: ".ﺕﺍﺮﺗﻮﺘﻟﺍ ﺾﻔﺧﻭ ﺔﺘﺑﺎﺛ ﻢﻫﺩﻭﺪﺣ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻑﺪﻬﺑ ،ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺔﻔﺴﻠﻔﻟﺍ ﻩﺬﻫ ﺐﻠﺠﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻢﻫﻭ ،ﻦﻳﺪﺤﺘﻣ ﻥﻵﺍﻭ .ﺔﻴﻋﺎﻓﺪﻟﺍ ﻒﻗﺍﻮﻤﻟﺍﻭ ﺔﻨﺼﺤﻤﻟﺍ ﻖﻃﺎﻨﻤﻠﻟ ﺎﻴﺨﻳﺭﺎﺗ ﻼﻴﻀﻔﺗ ﺔﺑﺭﺎﺤﺘﻤﻟﺍ ﻞﺋﺎﺒﻘﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻤﻟﺍ ﻩﺬﻫ ﺕﺭﻮﻃ"
+ civic_sovereign_guardianship_effects: "$civic_sovereign_guardianship_effacts_common$\n.ﺔﻴﻋﺎﻓﺩ ﺵﻮﻴﺠﻛ §Y$fanatic_guardian_plural$§! ﺢﺘﻔﻳ"
+ civic_hive_sovereign_guardianship: "ﻥﺎﻳﺩﺭﺎﺠﻟﺍ ﺔﻋﻮﻤﺠﻣ"
+ civic_hive_sovereign_guardianship_desc: ".ﺕﺍﺮﺗﻮﺘﻟﺍ ﺾﻔﺧﻭ ﺔﺘﺑﺎﺛ ﻢﻫﺩﻭﺪﺣ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻑﺪﻬﺑ ،ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺔﻔﺴﻠﻔﻟﺍ ﻩﺬﻫ ﺐﻠﺠﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻢﻬﻧﺇ .ﺔﻴﻋﺎﻓﺪﻟﺍ ﻒﻗﺍﻮﻤﻟﺍﻭ ﺔﻨﺼﺤﻤﻟﺍ ﻖﻃﺎﻨﻤﻠﻟ ﺎﻴﺨﻳﺭﺎﺗ ﻼﻴﻀﻔﺗ ﺔﻋﻮﻤﺠﻤﻟﺍ ﻩﺬﻫ ﺕﺭﻮﻃ ﺪﻘﻟ"
+ civic_hive_sovereign_guardianship_effects: "$civic_sovereign_guardianship_effets_common$\n.ﻉﺎﻓﺩ ﺵﻮﻴﺠﻛ §Y$machine_fanatic_guardian_plural$§! ﺢﺘﻔﻳ"
+ civic_machine_sovereign_guardianship: "ﻥﺎﻳﺩﺭﺎﺠﻟﺍ ﺔﻓﻮﻔﺼﻣ"
+ civic_machine_sovereign_guardianship_desc: ".ﺔﻀﻔﺨﻨﻣ ﺕﺍﺮﺗﻮﺘﻟﺍﻭ ﺔﺘﺑﺎﺛ ﻢﻫﺩﻭﺪﺣ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻑﺪﻬﺑ ،ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺔﻟﺎﻌﻔﻟﺍ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻹﺍ ﻩﺬﻫ ﻢﻳﺪﻘﺘﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻢﻬﻧﺇ .ﺔﻴﻋﺎﻓﺪﻟﺍ ﻒﻗﺍﻮﻤﻟﺍﻭ ﺔﻨﺼﺤﻤﻟﺍ ﻖﻃﺎﻨﻤﻠﻟ ﺎﻴﺋﺍﺮﺟﺇ ﻼﻴﻀﻔﺗ ﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺔﻋﻮﻤﺠﻤﻟﺍ ﻩﺬﻫ ﺕﺭﻮﻃ ﺪﻘﻟ"
+ civic_machine_sovereign_guardianship_effects: "$civic_sovereign_guardianship_effets_common$\n.ﻉﺎﻓﺩ ﺵﻮﻴﺠﻛ §Y$machine_fanatic_guardian_plural$§! ﺢﺘﻔﻳ"
+ civic_corporate_sovereign_guardianship: "ﺕﺎﻛﺮﺸﻟﺍ ﺔﻴﻤﺤﻣ"
+ civic_corporate_sovereign_guardianship_desc: ".ﺕﺍﺮﺗﻮﺘﻟﺍ ﺾﻔﺧﻭ ﺔﺘﺑﺎﺛ ﻢﻫﺩﻭﺪﺣ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻑﺪﻬﺑ ،ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﺔﻔﺴﻠﻔﻟﺍ ﻩﺬﻫ ﺐﻠﺠﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻢﻫﻭ ،ﻦﻳﺪﺤﺘﻣ ﻥﻵﺍﻭ .ﺔﻳﻮﻗ ﺔﻴﻋﺎﻓﺩ ﻒﻗﺍﻮﻣ ﺫﺎﺨﺗﺍ ﻲﻫ ﻪﺗﺍﺭﺎﻤﺜﺘﺳﻻ ﺔﻳﺎﻤﺣ ﻞﻀﻓﺃ ﻥﺃ ﺔﺴﻓﺎﻨﺘﻤﻟﺍ ﺕﺎﻋﺎﻨﺼﻟﺍ ﻢﻀﻳ ﻱﺬﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ ﺍﺬﻫ ﻢﻠﻌﺗ ﺪﻘﻟ"
+ civic_corporate_sovereign_guardianship_effects: "$civic_sovereign_guardianship_effets$"
+ civic_sovereign_guardianship_effects_common: ".§YUnity§! £unity£ ﻰﻟﺇ §YInfluence§! £influence£ ﻞﻳﻮﺤﺗﻭ ،§HEdict§! §Y$edict_inner_focus$§! ﻦﻴﻜﻤﺗ\n.ﺔﻴﻤﺠﻨﻟﺍ ﺪﻋﺍﻮﻘﻟﺍ ﻲﻓ §Y$sm_reloading_bay$§! ﺀﺎﻨﺒﺑ ﺢﻤﺴﻳ"
+
+ civic_tooltip_not_guardian: "ﻚﻴﻔﻴﺳ ['concept_guardian_civics'] ﻪﻳﺪﻟ ﺲﻴﻟ"
+ concept_guardian_civics: "ﺔﻳﺩﺎﻴﺴﻟﺍ ﺔﻳﺎﺻﻮﻟﺍ"
+ concept_guardian_civics_desc: "['civic:civic_machine_sovereign_guardianship']$NEW_LINE$- ['civic:civic_hive_sovereign_guardianship']$NEW_LINE$- ['civic:civic_corporate_sovereign_guardianship']$NEW_LINE$- ['civic:civic_sovereign_guardianship']- \n$concept_guardian_civics$ ﻦﻣ ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ ﻥﻮﻜﺘﺗ "
+
+ fanatic_guardian: "ﺐﺼﻌﺘﻤﻟﺍ ﺱﺭﺎﺤﻟﺍ"
+ fanatic_guardian_plural: "ﻦﻴﺒﺼﻌﺘﻤﻟﺍ ﺱﺍﺮﺣ"
+ fanatic_guardian_desc: ".ﺔﻘﻴﺛﻭ ﺔﻗﻼﻋ ﻢﻬﻌﻣ ﻥﻮﻛﺭﺎﺸﺘﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﺔﻳﺎﻤﺣ ﺪﻨﻋ ﺔﻴﻟﺎﻌﻓ ﺮﺜﻛﻷﺍ ﻢﻫ ﻥﻮﻋﺰﻋﺰﺘﻳ ﻻ ﻦﻳﺬﻟﺍ ﺩﻮﻨﺠﻟﺍ ﺀﻻﺆﻫ ،ﺎﻨﻨﻃﻭ ﻦﻋ ﻥﻮﻴﻗﺍﻭﺮﻟﺍ ﻥﻮﻌﻓﺍﺪﻤﻟﺍ"
+
+ machine_fanatic_guardian: "ﺔﻓﻮﻔﺼﻤﻟﺍ ﺓﺪﺣﻭ"
+ machine_fanatic_guardian_plural: "ﺔﻓﻮﻔﺼﻤﻟﺍ ﺕﺍﺪﺣﻭ"
+ machine_fanatic_guardian_desc: ".ﻯﺮﺧﻷﺍ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﻁﺎﻘﻨﻟﺍ ﻊﻴﻤﺟ ﻦﻣ ﺔﺑﺮﻘﻣ ﻰﻠﻋ ﺎﻫﺅﺎﻘﺑﺇ ﻢﺘﻳ ﺎﻣﺪﻨﻋ ﺔﻴﻟﺎﻌﻓ ﺮﺜﻛﺃ ﻚﺘﻔﻟﺍ ﺓﺪﻳﺪﺷ ﺔﻴﻗﺍﻮﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻩﺬﻫ ﻥﻮﻜﺗ"
+
+ ##########
+ # Edicts #
+ ##########
+
+ edict_shadow_matrix: "ﻞﻈﻟﺍ ﺔﻓﻮﻔﺼﻣ"
+ edict_shadow_matrix_desc: ".ﺕﺍﺮﻔﺸﻟﺍ ﻲﻜﻜﻔﻣ ﻞﻀﻓﺃ ﻰﺘﺣ ﺎﻬﻬﺟﺍﻮﻳ ﻥﺃ ﺐﺠﻳ ﺞﻣﺍﺮﺑ ﺪﻟﻮﻳ ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺕﺍﺪﺣﻭ ﻩﺮﻓﻮﺗ ﻱﺬﻟﺍ ﻲﻧﻭﺮﺘﻜﻟﻹﺍ ﺽﻮﻤﻐﻟﺍ ﻥﺇ"
+
+ edict_obsidian_veil: "ﺞﺒﺳ ﺏﺎﺠﺤﻟﺍ"
+ edict_obsidian_veil_desc: ".ﻍﺍﺮﻔﻟﺍ ﻱﺪﺗﺮﻳ ﻥﺃ ﺀﺮﻤﻠﻟ ﻲﻐﺒﻨﻳ ،ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺀﺎﺒﺘﺧﻼﻟ .ﺽﺭﻷﺍ ﻱﺪﺗﺮﻳ ﻥﺃ ﺀﺮﻤﻠﻟ ﻲﻐﺒﻨﻳ ،ﺔﺑﺎﻐﻟﺍ ﻲﻓ ﺀﺎﺒﺘﺧﻼﻟ"
+
+ edict_dark_matter_forging: "ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﺮﻳﻭﺰﺗ"
+ edict_dark_matter_forging_desc: ".ﺔﻇﻮﺤﻠﻣ ﺕﺎﻴﻤﻜﺑ ﺪﺋﺎﻌﻟﺍ ﻦﻣ ﺪﻳﺰﺗ ﺎﻨﻜﺑﺎﺴﻣ ﻲﻓ ﻖﻓﺪﺘﻛ ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻠﻟ ﺓﺪﻳﺮﻔﻟﺍ ﻁﺎﺒﺗﺭﻻﺍ ﺺﺋﺎﺼﺧ ﻥﺇ"
+
+ edict_dark_matter_unravelling: "ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻚﻜﻔﺗ"
+ edict_dark_matter_unravelling_desc: ".ﺔﻤﻴﻗ ﺕﺎﺟﺮﺨﻣ ﻰﻟﺇ ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﺎﻬﻠﻜﺸﺗ ﻲﺘﻟﺍ ﻂﺑﺍﻭﺮﻟﺍ ﻞﺧﺍﺩ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻞﻳﻮﺤﺗ ﻦﻜﻤﻳ"
+
+ edict_inner_focus: "ﻲﻠﺧﺍﺪﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ edict_inner_focus_desc: ".ﺔﻴﺟﺎﺘﻧﺇﻭ ﺔﻴﻗﻮﺛﻮﻣ ﺮﺜﻛﺃ ﻰﻌﺴﻣ ﻮﻫ ﺕﺍﺬﻟﺍ ﻢﻬﻓ ﻥﺇ .ﺮﻃﺎﺨﻤﻟﺍ ﻦﻣ ﺔﻋﻮﻨﺘﻣ ﺔﻋﻮﻤﺠﻣ ﻰﻟﺇ ﺩﺮﻔﻟﺍ ﺩﻭﺪﺣ ﻊﻴﺳﻮﺗ ﻲﻓ ﻁﺍﺮﻓﻹﺍ ﻱﺩﺆﻳ"
+
+ edict_baryonic_insight: "ﺔﻴﻧﻮﻳﺭﺎﺒﻟﺍ ﺓﺮﻴﺼﺒﻟﺍ"
+ edict_baryonic_insight_desc: ".ﺓﺭﺬﻟﺍ ﺓﺮﻜﻓ ﻦﻣ ﺪﻌﺑﺃ ﻮﻫ ﺎﻣ ﻰﻟﺇ ﺮﻈﻨﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﻥﻮﻜﻟﺍ ﺞﻴﺴﻨﻟ ﻖﻤﻋﺃ ﻢﻬﻓ ﻞﺟﺃ ﻦﻣﻭ"
+
+#######################
+# Councilor Positions #
+#######################
+
+ councilor_hyperspace_specialty: "ﻥﻻﺮﺒﻳﺎﻫ ﻑﺮﺸﻣ"
+ councilor_hyperspace_specialty_female: "$councilor_hyperspace_specialty$"
+ councilor_hyperspace_specialty_desc: ".ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺎﻨﺘﻜﺒﺷ ﻦﻣﺃﻭ ﺔﻣﻼﺳ ﻥﺎﻤﺿ ﻰﻠﻋ $TITLE$ ﺪﻋﺎﺴﻳ"
+ councilor_hyperspace_specialty_custom_modifier_desc: "ﺭﺍﺮﻘﺘﺳﻻﺍ £stability£ §G+$@councilor_hyperspace_specialty_warp_fluctuator_stability$§! ﺎﻀﻳﺃ §Y$sm_warp_fluctuator$§! ﻲﻓ ﺔﻴﻤﺠﻨﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ ﻦﻣ ﻰﻨﺒﻣ ﻞﻛ ﺮﻓﻮﻳ"
+ councilor_hyperspace_specialty_corporate: "$councilor_hyperspace_specialty$"
+ councilor_hyperspace_specialty_corporate_female: "$councilor_hyperspace_specialty_corporate$"
+ councilor_hyperspace_specialty_corporate_desc: "$councilor_hyperspace_specialty_desc$"
+ councilor_dimensional_worship: "ﻲﻤﺠﻧ ﺮﻳﺯﻭ"
+ councilor_dimensional_worship_female: "$councilor_ Dimension_worship$"
+ councilor_dimensional_worship_desc: ".ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﺎﻨﺒﻌﺷ ﺔﻣﺪﺧ ﻞﺟﺃ ﻦﻣ ﺓﺪﺣﺍﻭ ﺔﻳﺩﺎﺷﺭﺇ ﺔﻳﺅﺭ ﺖﺤﺗ ﺎﻨﺗﻮﻨﻬﻛ ﺪﻴﺣﻮﺗ ﻰﻠﻋ $TITLE$ ﻞﻤﻌﺗ"
+ councilor_dimensional_worship_corporate: "$councilor_ Dimension_worship$"
+ councilor_dimensional_worship_corporate_female: "$councilor_ Dimensional_worship_corporate$"
+ councilor_dimensional_worship_corporate_desc: "$councilor_ Dimension_worship_desc$"
+
+ councilor_dark_consortium: "ﻞﻈﻟﺍ ﺮﻔﻳﻭ"
+ councilor_dark_consortium_female: "$councilor_dark_consortium$"
+ councilor_dark_consortium_desc: ".ﺪﺣﺍﻭ ﻢﻴﺴﺟ ﺭﺍﺪﻫﺇ ﻡﺪﻋ ﻦﻤﻀﻳ ﺎﻤﻣ ،ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﺕﺍﺪﺣﻭ ﻦﻣ ﺓﺪﺣﻭ ﻞﻛ ﺏﺎﺴﺣ ﻲﻓ $TITLE$ ﺕﺎﺒﺟﺍﻭ ﻦﻤﻜﺗ"
+ councilor_dark_consortium_corporate: "ﻞﻈﻟﺍ ﻂﻴﺳﻭ"
+ councilor_dark_consortium_corporate_female: "$councilor_dark_consortium_corporate$"
+ councilor_dark_consortium_corporate_desc: "$councilor_dark_consortium_desc$"
+
+ councilor_sovereign_guardianship: "ﻰﻟﻭﻷﺍ ﺔﻌﻠﻘﻟﺍ"
+ councilor_sovereign_guardianship_female: "$councilor_sovereign_guardianship$"
+ councilor_sovereign_guardianship_desc: ".ﺎﻨﺒﻛﻮﻛ ﺕﺎﻨﻴﺼﺤﺗ ﻊﻴﻤﺟ ﺔﻧﺎﻴﺻﻭ ﺔﻣﻼﺳ ﻦﻋ ﻝﻭﺆﺴﻤﻟﺍ ﻮﻫ $TITLE$ ﻥﺈﻓ ،ﺎﻨﻨﻃﻭ ﺔﻳﺎﻤﺣ ﻲﻓ ﺮﻴﺒﻛ ﺮﻳﺪﻘﺘﺑ ﻰﻈﺤﻳ ﺍﺮﻴﺒﺧ ﻪﻧﻮﻜﻟ ﺍﺮﻈﻧ"
+ councilor_sovereign_guardianship_corporate: "ﻉﺎﻓﺪﻟﺍ ﺮﻳﺯﻭ"
+ councilor_sovereign_guardianship_corporate_female: "$councilor_sovereign_guardianship_corporate$"
+ councilor_sovereign_guardianship_corporate_desc: ".ﺎﻨﺒﻛﻮﻛ ﺕﺎﻨﻴﺼﺤﺗ ﻊﻴﻤﺠﻟ ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺕﺎﻣﺪﺨﻟﺍﻭ ﺔﺒﺳﺎﺤﻤﻟﺍ ﻦﻋ ﻝﻭﺆﺴﻤﻟﺍ ﻮﻫ $TITLE$ ﻥﺈﻓ ،ﺎﻨﻨﻃﻭ ﺔﻳﺎﻤﺣ ﻲﻓ ﺮﻴﺒﻛ ﺮﻳﺪﻘﺘﺑ ﻰﻈﺤﻳ ﺍﺮﻴﺒﺧ ﻪﻧﻮﻜﻟ ﺍﺮﻈﻧ"
+
+##########
+# Relics #
+##########
+
+ r_infinity_root: "ﻲﺋﺎﻬﻧﻼﻟﺍ ﺭﺬﺠﻟﺍ"
+ r_infinity_root_desc: ".ﻊﺿﻮﺗ ﺎﻤﻨﻳﺃ ﺓﻮﻘﺑ ﺮﺸﺘﻨﺗ ﺔﻳﻮﻀﻌﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ"
+ infinity_root_active_effect_tt: ".ﻙﺪﺋﺎﻗ ﻲﻟﺎﻤﺟﺇ ﻦﻤﺿ ﻢﻬﺑﺎﺴﺘﺣﺍ ﻢﺘﻳ ﻦﻟﻭ ﺔﻧﺎﻴﺻ ﻱﺃ ﻢﻬﻳﺪﻟ ﻥﻮﻜﻳ ﻦﻟ .ﺍﺪﻳﺪﺟ ﺎﻤﻴﻋﺯ ﻮﻤﻨﺗ"
+
+ r_time_crystal: "ﺖﻗﻮﻟﺍ ﻝﺎﺘﺴﻳﺮﻛ"
+ r_time_crystal_desc: ".ﺔﻟﻭﺰﻌﻣ ﺔﻴﻨﻣﺯ ﺔﻘﻠﺣ ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﺔﻘﻠﻐﻣ ﺔﻳﺭﻮﻠﺑ ﺔﻓﺮﻏ"
+
+ r_daedalus_seal: "ﺱﻮﻟﺍﺪﻳﺩ ﻢﺘﺧ"
+ r_daedalus_seal_desc: ".ﺎﺘﻗﺆﻣ ﺎﻬﻗﻼﻏﺇ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﺔﺒﻳﺮﻘﻟﺍ ﺕﺎﻴﻄﻟﺍ ﻊﻣ ﺩﺩﺮﺘﻳ ﺩﺩﺮﺘﺑ ﺯﺍﺰﺘﻫﻻﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﻡﺪﻘﺘﻤﻟﺍ ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ"
+ daedalus_seal_active_effect_tt: ".ﺔﻨﺳ §!XYZT_05XYZT ﺓﺪﻤﻟ ﻙﺩﻭﺪﺣ ﻞﺧﺍﺩ L ﻑﺮﺣ ﻞﻜﺷ ﻰﻠﻋ ﺕﺎﺑﺍﻮﺒﻟﺍﻭ ﺔﻳﺩﻭﺪﻟﺍ ﺏﻮﻘﺜﻟﺍ ﻊﻴﻤﺟ ﻰﻠﻋ ﻼﻔﻗ ﻊﺿ"
+ daedalus_seal_acquisition_tt: "§G+25%§! :ﺩﺎﻌﺑﻷﺍ ﻝﺎﻔﻗﺃ ﺓﺪﻣ"
+ daedalus_seal_no_bypasses_fail: "$TRIGGER_FAIL$ﻑﺮﺣ ﻞﻜﺷ ﻰﻠﻋ ﺕﺎﺑﺍﻮﺑ ﻭﺃ ﺔﻳﺩﻭﺩ ﺏﻮﻘﺛ ﺪﺟﻮﺗ ﻻ L ﻙﺩﻭﺪﺣ ﻞﺧﺍﺩ."
+ MOD_DIMENSIONAL_LOCK_DURATION_MULT: "ﺩﺎﻌﺑﻷﺍ ﻞﻔﻗ ﺓﺪﻣ"
+
+ r_ever_spinning_top: "ﻰﻠﻋﻷﺍ ﻝﺰﻐﻟﺍ ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ"
+ r_ever_spinning_top_desc: ".ﺪﺑﻷﺍ ﻰﻟﺇ ﺔﻴﻟﺎﺜﻣ ﺔﻛﺮﺣ .ﻡﻮﻨﻣﻭ ﺲﻠﺳ ﻪﻘﻓﺪﺗ .ﺔﻴﻓﺎﺿﻹﺍ ﺩﺎﻌﺑﻷﺍ ﺕﺍﺫ ﻝﺰﻐﻟﺍ ﺔﻤﻗ"
+ ever_spinning_top_modifier: "ﺔﻤﺋﺍﺪﻟﺍ ﺔﻛﺮﺤﻟﺍ"
+
+ r_celestial_tear: "ﺔﻳﻭﺎﻤﺳ ﺔﻌﻣﺩ"
+ r_celestial_tear_desc: ".ﺎﻋﻮﻄﺳ ﺮﺜﻛﺃ ﻪﺠﻫﻮﺗ ﻥﺎﻛ ﺎﻤﻠﻛ ،ﺔﻄﺸﻨﻟﺍ ﺲﻤﺸﻟﺍ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻪﻌﺿﻭ ﻢﺗ ﺎﻤﻠﻛ .ﺩﺍﺪﺣ ﻱﻭﺎﻤﺳ ﻡﺮﺟ ﻦﻣ ﺔﻴﻤﺠﻧ ﺔﻌﻣﺩ ﻦﻣ ﺔﻨﻴﻋ"
+ celestial_tear_modifier: "$r_celestial_tear$"
+ celestial_tear_acquisition_tt: "§G+5%§!: §YG§!ﻭ §YF§!ﻭ §YB§!ﻭ §YA§! ﺔﺌﻓ ﻡﻮﺠﻧ ﻝﻮﺣ ﺭﻭﺪﺗ ﻲﺘﻟﺍﻭ ﻙﺩﻭﺪﺣ ﻞﺧﺍﺩ ﻦﻜﺴﻠﻟ ﺐﻛﺍﻮﻜﻟﺍ ﺔﻴﻠﺑﺎﻗ"
+
+ r_plasmic_core: "ﺔﻴﻣﺯﻼﺒﻟﺍ ﺓﺍﻮﻨﻟﺍ"
+ r_plasmic_core_desc: ".ﺔﻳﻮﻀﻌﻟﺍ ﺓﺎﻴﺤﻠﻟ ﻲﻫﺎﻨﺘﻣﻼﻟﺍ ﻉﻮﻨﺘﻟﺎﺑ ﺮﻴﻛﺬﺗ .ﻲﺋﺎﻀﻓ ﺪﻌﺑ ﻦﻣ ﺔﻗﻼﻤﻋ ﺔﻴﻠﺧ ﺓﺍﻮﻧ"
+ machine_plasmic_core_effect: ".ﺔﻴﺋﺍﻮﺸﻋ ﺔﻴﺑﺎﺠﻳﺇ ﺕﺎﻤﺳ 3 ﻲﺋﺍﻮﺸﻌﻟﺍ ﺪﺋﺎﻘﻟﺍ ﻲﻄﻌﻳ"
+ plasmic_core_effect: ".§Y$trait_plasmic$§! ﺔﻤﺳ ﻲﺋﺍﻮﺸﻋ ﺐﻛﻮﻛ ﻰﻠﻋ ﺔﻌﻗﺮﻓ ﻞﻛ ﺐﺴﺘﻜﺗ"
+ plasmic_core_no_suitable_planet: "§!.ﻥﺎﻜﺳ §R§Y$trait_plasmic$§! ﻥﻭﺪﺑ ﺔﺣﺎﺘﻣ ﺐﻛﺍﻮﻛ ﺪﺟﻮﺗ ﻻ§!$TRIGGER_FAIL$"
+ plasmic_core_effect_evopred: ".ﺀﺎﻬﺘﻧﻻﺍ ﺪﻨﻋ §Y$trait_plasmic$§! ﺔﻤﺳ ﺔﻓﺎﺿﺇ ﻦﻜﻤﻳ ،ﻚﻟﺫ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ .§Y$evolutionary_predators_situation$§! ﻊﺿﻮﻟﺍ ﻰﻟﺇ ﻡﺪﻘﺘﻟﺍ §!%XYZT_050XYZT ﺢﻨﻤﻳ"
+
+ effect_random_bypass: "ﻲﺋﺍﻮﺸﻋ ﺯﻭﺎﺠﺗ"
+ effect_every_bypass: "ﺯﻭﺎﺠﺗ ﻞﻛ"
+ any_bypass_trigger: "ﺯﻭﺎﺠﺗ ﻱﺃ"
+ count_bypass_trigger: "$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$ﺕﺍﺯﻭﺎﺠﺘﻟﺍ ﺩﺪﻋ"
+ count_bypass_all_trigger: "$IS_ALL_NOT$ ﺔﻴﻟﺎﺘﻟﺍ ﻁﻭﺮﺸﻟﺍ ﻲﻓﻮﺘﺴﺗ ﺕﺍﺯﻭﺎﺠﺘﻟﺍ"
+
+ effect_random_astral_rift: "ﻲﺋﺍﻮﺸﻌﻟﺍ ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ"
+ effect_every_astral_rift: "ﻲﻤﺠﻧ ﻉﺪﺻ ﻞﻛ"
+ any_astral_rift_trigger: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻱﺃ"
+ count_astral_rift_trigger: "$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺩﺪﻋ"
+ count_astral_rift_all_trigger: "$IS_ALL_NOT$ Astral Rift ﺔﻴﻟﺎﺘﻟﺍ ﻁﻭﺮﺸﻟﺍ ﻲﻓﻮﺘﺴﻳ"
+
+ r_continuum: "ﺔﻳﺭﺍﺮﻤﺘﺳﻻﺍ"
+ r_continuum_desc: ".ﻯﺮﺧﻷﺍ ﻪﺳﻭﺮﺗ ﺪﺣﺃ ﻥﺎﻛ ﻮﻟ ﺎﻤﻛ ﺖﻗﻮﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺎﺑ ﻊﺋﺍﺮﻟﺍ ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﻊﺘﻤﺘﻳ ،ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﺖﻴﻗﻮﺗ ﺔﻴﻟﻵ ﻲﺒﻫﺬﻟﺍ ﺮﻫﻮﺠﻟﺍ"
+
+ r_eternal_throne: "ﻱﺪﺑﻷﺍ ﺵﺮﻌﻟﺍ"
+ r_eternal_throne_desc: ".ﺝﺎﺘﻨﺘﺳﻻﺍ ﻭﺃ ﺐﺠﻌﻟﺍ ﻭﺃ ﻑﻮﺨﻟﺍ ﻦﻣ ﻝﺎﺧ ﻊﻗﺍﻭ ﻲﻓ ﻥﻭﺩﻮﺟﻮﻣ ﺎﻫﺮﻴﺛﺄﺘﺑ ﻥﻭﺮﺛﺄﺘﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ .ﺔﻳﺪﺑﻷﺍ ﺓﺎﻴﺤﻟﺍ ﺢﻨﻣ ﻰﻠﻋ ﺭﺩﺎﻗ ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﺀﺎﻨﻴﻣ"
+ eternal_throne_active_effect_tt: ".ﻥﻭﺪﻟﺎﺧ ﺓﺩﺎﻘﻟﺍ ﻊﻴﻤﺟ"
+ eternal_throne_modifier: "ﻲﻤﺠﻨﻟﺍ ﻢﻏﺎﻨﺘﻟﺍ"
+
+##############
+# Situations #
+##############
+
+ situation_crystal_sphere_desc: ".ﺎﻣ ﺀﻲﺷ ﻭﺃ ﺎﻣ ﺺﺨﺷ ﻩﺎﺒﺘﻧﺍ ﺖﻔﻟ ﺪﻗ ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻦﻴﺑ ﺕﺍﻮﺠﻔﻠﻟ ﺎﻨﻓﺎﺸﻜﺘﺳﺍ ﻥﺃ ﺪﻘﺘﻌﻧ .ﺾﻣﺎﻏ ﻢﺴﺟ ﺮﻬﻇ ﺪﻘﻟ"
+ rift_sphere_missing: ".ﺢﻴﺤﺻ ﻞﻜﺸﺑ ﺎﻨﺛﺎﺤﺑﺃ ﺔﻠﺻﺍﻮﻤﻟ ﺔﻣﺯﻼﻟﺍ §Y$tech_rift_sphere$§! ﺔﻴﻨﻘﺗ ﻚﻠﺘﻤﻧ ﻻ ﻦﺤﻧ"
+ formless_seal_defeat_all_fleets: "ﺢﻴﺤﺻ ﻞﻜﺸﺑ [Root.Target.GetName] ﻡﺎﻈﻧ ﻕﻼﻏﻹ Formless ﻞﺟﺃ ﻦﻣ ﺓﺍﺰﻐﻟﺍ ﺮﺧﺁ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+ galactic_object: "ﻡﺎﻈﻧ"
+
+ situation_destroy_crystal_sphere: "ﻲﻟﺎﺘﺴﻳﺮﻜﻟﺍ ﻝﺎﺠﻤﻟﺍ ﺮﻴﻣﺪﺗ"
+ situation_destroy_crystal_sphere_type: "$situation_destroy_crystal_sphere$"
+ situation_destroy_crystal_sphere_desc: "$situation_crystal_sphere_desc$"
+ situation_destroy_crystal_sphere_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_destroy_crystal_sphere_mechanical: "ﻲﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺞﻬﻨﻟﺍ"
+ approach_situation_destroy_crystal_sphere_mechanical_tt: ".ﻞﻣﺎﻜﻟﺎﺑ ﺔﻳﺭﻮﻠﺒﻟﺍ ﺓﺮﻜﻟﺍ ﻢﻄﺤﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﻦﻴﻧﺭ ﺩﺩﺮﺗ ﻖﻘﺤﻧ ﻑﻮﺴﻓ ،ﺔﺑﺎﻗﺮﻠﻟ ﺔﻌﺿﺎﺨﻟﺍ ﺕﺍﺮﺠﻔﺘﻤﻟﺍ ﻦﻣ ﺔﻠﺴﻠﺳ ﺮﻴﺠﻔﺘﺑ ﺎﻨﻤﻗ ﺍﺫﺇ ﻪﻧﺃ ﺎﻧﻮﺳﺪﻨﻬﻣ ﺪﻘﺘﻌﻳ"
+ situation_destroy_crystal_sphere_astral: "ﻲﻤﺠﻨﻟﺍ ﺞﻬﻨﻟﺍ"
+ approach_situation_destroy_crystal_sphere_astral_tt: ".ﻞﺧﺍﺪﻟﺍ ﻦﻣ ﻪﻓﺎﻌﺿﻹ ﺯﺎﻬﺠﻟﺍ ﺍﺬﻬﻟ ﺔﻳﺭﻮﻠﺒﻟﺍ ﺔﻴﻨﺒﻟﺍ ﻞﺧﺍﺩ ﻕﻻﺰﻧﻻﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍ"
+ destroy_mechanical_agitation: "ﻲﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺞﻬﻨﻟﺍ"
+ destroy_astral_method: "ﻲﻤﺠﻨﻟﺍ ﺞﻬﻨﻟﺍ"
+
+ finisher_effects_destroy: ".ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻰﻠﻋ ﺮﺧﺁ ﺮﻄﺧ ﻱﺃ ﻊﻨﻣ ﺖﻗﻮﻟﺍ ﺲﻔﻧ ﻲﻓﻭ ﻪﻟ ﺔﻧﻮﻜﻤﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻝﻼﻐﺘﺳﺍ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻨﺴﻓ ،ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﺮﻴﻣﺪﺗ ﻲﻓ ﺎﻨﺤﺠﻧ ﺍﺫﺇ"
+
+ situation_study_crystal_sphere: "ﻱﺭﻮﻠﺒﻟﺍ ﻝﺎﺠﻤﻟﺍ ﺔﺳﺍﺭﺩ"
+ situation_study_crystal_sphere_type: "ﻱﺭﻮﻠﺒﻟﺍ ﻝﺎﺠﻤﻟﺍ ﺔﺳﺍﺭﺩ"
+ situation_study_crystal_sphere_desc: "$situation_crystal_sphere_desc$"
+ situation_study_crystal_sphere_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_study_crystal_sphere_observe: "ﻍﻼﺑﻹﺍﻭ ﺔﺒﻗﺍﺮﻤﻟﺍ"
+ approach_situation_study_crystal_sphere_observe_tt: ".ﻪﺑ ﻡﺎﻴﻘﻠﻟ ﻪﻤﻴﻤﺼﺗ ﻢﺗ ﺎﻣ ﻖﻘﺤﻳ ﻑﻮﺳ ،ﺖﻗﻮﻟﺍ ﺭﻭﺮﻣ ﻊﻣ ﻪﻧﺃ ﺪﻘﺘﻌﻧ ﻦﺤﻧﻭ .ﺀﻂﺒﺑ ﻪﺴﻔﻧ ﺓﺍﺫﺎﺤﻤﺑ ﻡﻮﻘﻳ ﺯﺎﻬﺠﻟﺍ ﻥﺃ ﻭﺪﺒﻳ"
+ situation_study_crystal_sphere_mundane: "ﺔﻳﻮﻴﻧﺪﻟﺍ ﺔﻘﻳﺮﻄﻟﺍ"
+ approach_situation_study_crystal_sphere_mundane_tt: ".ﻪﻠﻴﻌﻔﺗ ﻊﻳﺮﺴﺗ ﺎﻨﻨﻜﻤﻳ ﻪﻧﺃ ﺪﻘﺘﻌﻧ ﺎﻨﻧﺈﻓ ،ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﺕﺎﻧﺎﻜﻣﺇ ﺢﺘﻔﻟ ﻲﻤﻠﻌﻟﺍ ﺚﺤﺒﻟﺍ ﻦﻣ ﻲﻔﻜﻳ ﺎﻣ ﺺﻴﺼﺨﺗ ﺎﻧﺩﺭﺃ ﺍﺫﺇ"
+ situation_study_crystal_sphere_astral: "ﺔﻴﻤﺠﻨﻟﺍ ﺔﻘﻳﺮﻄﻟﺍ"
+ approach_situation_study_crystal_sphere_astral_tt: ".ﻉﺮﺳﺃ ﻪﻄﻴﺸﻨﺗ ﻥﺎﻛ ﺎﻤﻠﻛ ،ﺮﺜﻛﺃ ﻪﻟ ﺎﻨﺿﺮﻌﺗ ﺎﻤﻠﻛ .ﺯﺎﻬﺠﻟﺍ ﺰﻔﺤﻳ ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍ ﻥﺃ ﻭﺪﺒﻳ"
+ study_observe_method: ".ﻪﺑ ﻡﺎﻴﻘﻠﻟ ﻪﻤﻴﻤﺼﺗ ﻢﺗ ﺎﻣ ﻖﻘﺤﻳ ﻑﻮﺳ ،ﺖﻗﻮﻟﺍ ﺭﻭﺮﻣ ﻊﻣ ﻪﻧﺃ ﺪﻘﺘﻌﻧ ﻦﺤﻧﻭ .ﺓﺪﻤﻌﺘﻣ ﺔﻘﻳﺮﻄﺑ ﺀﻂﺒﺑ ﻪﺴﻔﻧ ﺓﺍﺫﺎﺤﻤﺑ ﻡﻮﻘﻳ ﺯﺎﻬﺠﻟﺍ ﻥﺃ ﻭﺪﺒﻳ"
+ study_mundane_method: ".ﻪﻠﻴﻌﻔﺗ ﻊﻳﺮﺴﺗ ﺎﻨﻨﻜﻤﻳ ﻪﻧﺃ ﺪﻘﺘﻌﻧ ﺎﻨﻧﺈﻓ ،ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﺕﺎﻧﺎﻜﻣﺇ ﺢﺘﻔﻟ ﻲﻤﻠﻌﻟﺍ ﺚﺤﺒﻟﺍ ﻦﻣ ﻲﻔﻜﻳ ﺎﻣ ﺺﻴﺼﺨﺗ ﺎﻧﺩﺭﺃ ﺍﺫﺇ"
+ study_astral_method: ".ﻉﺮﺳﺃ ﻪﻄﻴﺸﻨﺗ ﻥﺎﻛ ﺎﻤﻠﻛ ،ﺮﺜﻛﺃ ﻪﻟ ﺎﻨﺿﺮﻌﺗ ﺎﻤﻠﻛ .ﺯﺎﻬﺠﻟﺍ ﺰﻔﺤﻳ ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍ ﻥﺃ ﻭﺪﺒﻳ"
+ finisher_effects_study: ".ﻪﺋﺎﻨﺑ ﺔﺳﺍﺭﺩ ﺪﻌﺑ ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺎﻨﻌﻤﺘﺠﻣ ﺮﻳﻮﻄﺗ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻨﺳ ﺎﻨﻧﺄﺑ ﺭﺬﺤﺑ ﻥﻮﻠﺋﺎﻔﺘﻣ ﻦﺤﻧ\n\n.ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﺎﻬﻳﻮﺘﺤﻳ ﺪﻗ ﻲﺘﻟﺍ ﺭﺍﺮﺳﻷﺍ ﻦﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺮﻴﻏ ﻦﺤﻧ"
+
+ situation_the_seal: "ﻢﺘﺨﻟﺍ"
+ situation_the_seal_type: "ﻢﺘﺨﻟﺍ"
+ situation_the_seal_desc: ".ﺎﻧﺮﻴﺼﻣ ﻑﺮﻌﻧ ﻻ ﺎﻨﻧﺈﻓ ،ﺍﻮﻄﻘﺳ ﺍﺫﺇﻭ .ﺎﻨﺗﺪﻋﺎﺴﻣ ﺓﺮﺠﻤﻟﺍ ﺰﻛﺮﻣ ﺎﻴﻟﺎﺣ ﻦﻜﺴﺗ ﻲﺘﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ ﺖﺒﻠﻃ ،ﺔﻟﻮﻬﺠﻣ ﺓﻮﻗ ﻦﻣ ﻡﻮﺠﻫ ﺖﺤﺗ"
+ situation_the_seal_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_the_seal_do_nothing: "ﯫﻴﺷ ﻞﻌﻔﺗ ﻻ"
+ approach_situation_the_seal_do_nothing_tt: ".ﺎﻨﻫ ﺔﺻﺎﺧ ﺕﺍﺀﺍﺮﺟﺇ ﻱﺃ ﺬﺨﺘﻧ ﻦﻟ"
+ situation_the_seal_weave_astral_fabric: "ﻲﻤﺠﻨﻟﺍ ﺞﻴﺴﻨﻟﺍ ﺞﺴﻧ"
+ approach_situation_the_seal_weave_astral_fabric_tt: ".§H$NAME_Formless_System$§! ﻡﺎﻈﻧ ﻲﻓ ﺔﻘﻳﺪﺼﻟﺍ ﻦﻔﺴﻟﺍ ﻊﻴﻤﺟ ﻰﻠﻋ ﻉﺭﺪﻟﺍ ﺔﺑﺎﺻﺇ ﻁﺎﻘﻧ §G+50%§!"
+ situation_the_seal_pump_exotic_gases: "ﺔﺒﻳﺮﻐﻟﺍ ﺕﺍﺯﺎﻐﻟﺍ ﺦﺿ"
+ approach_situation_the_seal_pump_exotic_gases_tt: ".§H$NAME_Formless_System$§! ﻡﺎﻈﻧ ﻲﻓ ﺔﻘﻳﺪﺼﻟﺍ ﻦﻔﺴﻟﺍ ﻊﻴﻤﺠﻟ ﺔﻗﺎﻄﻟﺍ ﺡﻼﺳ ﺭﺮﺿ §G+10%§!"
+ finisher_effects_the_seal: ".ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ ﺫﺎﻘﻧﺇ ﺎﻧﺮﺘﺧﺍ ﺍﺫﺇ ﺙﺪﺤﻴﺳ ﺎﻤﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺮﻴﻏ ﻦﺤﻧ"
+ the_seal_do_nothing_method: ".ﻞﺧﺪﺗ ﻥﻭﺩ ﺮﻤﺘﺴﻳ ﻥﺃ ﻉﺍﺮﺼﻟﺍ ﺍﺬﻬﻟ ﺢﻤﺴﻧ ﻑﻮﺳﻭ"
+ the_seal_weave_method: ".ﻢﻬﻋﺭﺩ ﺰﻳﺰﻌﺘﻟ ﻪﻣﺍﺪﺨﺘﺳﺍ ﻢﻬﻨﻜﻤﻴﻓ ،ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ ﻰﻟﺇ ﺩﺎﻌﺘﺴﻤﻟﺍ ﻲﻤﺠﻨﻟﺍ ﺎﻨﻄﻴﺧ ﻢﻴﻠﺴﺗ ﺎﻧﺩﺭﺃ ﺍﺫﺇ"
+ the_seal_pump_method: ".ﺎﻨﺘﺤﻠﺳﺃ ﺰﻳﺰﻌﺘﻟ ﻪﻣﺍﺪﺨﺘﺳﺍ ﺎﻨﻨﻜﻤﻳ .ﻩﺬﻫ ﺔﺒﻳﺮﻐﻟﺍ ﺩﻮﺟﻮﻟﺍ ﺔﻋﺎﻘﻓ ﻲﻓ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﻢﻴﺨﻀﺗ ﻰﻟﺇ ﺔﺒﻳﺮﻐﻟﺍ ﺕﺍﺯﺎﻐﻟﺍ ﺕﺩﺃ ﺪﻘﻟ"
+ the_seal_weave_astral_fabric_modifiers: ".ﻢﻬﻋﺭﺩ ﺰﻳﺰﻌﺘﻟ ﻪﺼﺋﺎﺼﺨﺑ ﺔﻘﻴﺛﻮﻟﺍ ﻢﻬﺘﻓﺮﻌﻣ ﻡﺍﺪﺨﺘﺳﺍ ﻢﻬﻨﻜﻤﻴﻓ ،ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ ﻰﻟﺇ ﺩﺎﻌﺘﺴﻤﻟﺍ ﻲﻤﺠﻨﻟﺍ ﺎﻨﻄﻴﺧ ﻢﻴﻠﺴﺗ ﺎﻧﺩﺭﺃ ﺍﺫﺇ"
+ the_seal_pump_exotic_gases_modifier: ".ﺎﻨﺘﺤﻠﺳﺃ ﺰﻳﺰﻌﺘﻟ ﻪﻣﺍﺪﺨﺘﺳﺍ ﺎﻨﻨﻜﻤﻳ .ﻩﺬﻫ ﺔﺒﻳﺮﻐﻟﺍ ﺩﻮﺟﻮﻟﺍ ﺔﻋﺎﻘﻓ ﻲﻓ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﻢﻴﺨﻀﺗ ﻰﻟﺇ ﺔﺒﻳﺮﻐﻟﺍ ﺕﺍﺯﺎﻐﻟﺍ ﺕﺩﺃ ﺪﻘﻟ"
+ destroy_sphere_modifier: "ﺪﻌﺒﻟﺍ ﺍﺬﻫ ﻲﻓ ﻡﻼﺴﻟﺍ"
+ aberrant_fleet_spawn_countdown: ".[this.days_before_spawn] ﻰﻠﻋ ﻲﻟﺎﺘﻟﺍ Aberrant ﻝﻮﻄﺳﺃ ﺮﻬﻈﻳ ﻑﻮﺳ"
+
+ astral_situation.1.name: "ﺔﻳﺭﻮﻠﺒﻟﺍ ﺓﺮﻜﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ"
+ astral_situation.1.desc: ".ﻝﻭﺆﺴﻣ ﺮﻴﻏ ﻼﻤﻋ ﻥﻮﻜﻴﺳ ﺎﻧﺩﻭﺪﺣ ﻞﺧﺍﺩ ﺀﺎﻘﺒﻟﺎﺑ ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﻞﺜﻤﻟ ﺡﺎﻤﺴﻟﺍ ﻥﺇ .ﺎﻨﻟﺰﻨﻣ ﻦﻣﺃﻭ ﺔﻣﻼﺳ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺀﻱﺮﺠﻟﺍ ﺭﺍﺮﻘﻟﺎﺑ ﺎﻧﻮﻔﻇﻮﻣ ﻞﻔﺘﺤﻳ\n\n.ﻞﺒﻗ ﻦﻣ ﻩﺎﻨﻬﺟﺍﻭ ﺀﻲﺷ ﻱﺃ ﻪﺒﺸﺗ ﻻ ﺔﻴﺳﺎﺳﻷﺍ ﻩﺮﺻﺎﻨﻋ .ﺔﻤﻴﻘﻟﺍ ﺩﺍﻮﻤﻟﺍ ﺓﺄﻓﺎﻜﻣ ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺎﻧﺪﺼﺣ ﺪﻘﻟ\n\n.ﺔﺌﻟﻸﺘﻤﻟﺍ ﺕﺎﺒﻴﺒﺤﻟﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻋ ﻰﻟﺇ ﺔﻳﺭﻮﻠﺒﻟﺍ ﺓﺮﻜﻟﺍ ﺖﻤﻄﺤﺗ ﺪﻘﻟ\n\n.ﺮﻣﻷﺍ ﻢﺗ ﺪﻘﻟ"
+
+ astral_situation.5.name: "ﺔﺳﺍﺭﺪﻟﺍ ﺖﻬﺘﻧﺍ"
+ astral_situation.5.desc: ".ﻑﺎﺸﻜﺘﺳﻻﺍ ﻰﻟﺇ ﻮﻋﺪﻳ ﻩﺩﻮﺟﻭ ﻥﺇ \n\n .ﻞﺒﻗ ﻦﻣ ﻩﺎﻨﻳﺃﺭ ﺀﻲﺷ ﻱﺃ ﻪﺒﺸﻳ ﻻ ﻲﻤﺠﻧ ﻉﺪﺻ ﻖﻓﻷﺍ ﻲﻓ ﺞﻣﺪﻧﺍ ،ﻪﻧﺎﻜﻣ ﻲﻓ .ﺔﻃﺎﺴﺒﺑ ﺖﻔﺘﺧﺍ ،ﺮﻴﺼﻗ ﺖﻗﻮﺑ ﻚﻟﺫ ﺪﻌﺑﻭ \n\n.ﺓﺮﻜﻟﺍ "ﻂﻴﺸﻨﺗ" ﻰﻠﻋ ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍﻭ ﺕﺍﺯﺎﻐﻠﻟ ﻖﻴﻗﺪﻟﺍ ﺐﻴﺗﺮﺘﻟﺍ ﻞﻤﻋ ﺪﻘﻟ .ﺔﻳﺭﻮﻠﺒﻟﺍ ﺓﺮﻜﻟﺍ ﻝﻮﺣ ﺔﺷﻮﻘﻨﻤﻟﺍ ﻁﻭﺮﺸﻟﺍ ﺀﺎﺸﻧﺇ ﺓﺩﺎﻋﺇ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﺔﻟﺎﺳﺮﻟﺍ ﺪﻌﺑ\n\n.ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻙﺎﻨﻫ ﺖﻧﺎﻛﻭ ،ﺔﻠﻴﺤﺘﺴﻣ ﺔﻳﺭﻮﻠﺑ ﺔﻜﺒﺷ ﻞﺧﺍﺩ ﺎﻫﺮﻴﻔﺸﺗ ﻢﺗ\n\n.ﺔﻟﺎﺳﺭ ﺎﻬﻧﺇ"
+
+ astral_planes.15.name: "ﻲﻟﺎﺘﺴﻳﺮﻜﻟﺍ ﻝﺎﺠﻤﻟﺍ"
+ astral_planes.15.desc.default: ".ﺩﺎﻌﺑﻷﺍ ﺮﻔﺴﻟﺍ ﺔﻌﻴﺒﻃ ﻝﻮﺣ ﺔﻤﻴﻗ ﻯﺅﺭ ﻰﻠﻋ ﻱﻮﺘﺤﻳ ﻥﺃ ﺎﻀﻳﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣ ،ﻯﺮﺧﺃ ﺔﻴﺣﺎﻧ ﻦﻣﻭ \n\n.People .ﺎﻨﺒﻛﻮﻛ ﻰﻠﻋ ﺍﺮﻴﺒﻛ ﺍﺮﻄﺧ ﺓﺮﻜﻟﺍ ﻞﺜﻤﺗ ﺪﻗ ،[Root.GetHomeWorldName] ﻦﻣ ﺏﺮﻘﻟﺍ ﺍﺬﻫ ﺪﻨﻋ\n\n.ﻑﻭﺮﻌﻣ ﺭﺎﺴﻣ ﻱﺃ ﻝﻮﻃ ﻰﻠﻋ ﺭﺍﺬﻧﺇ ﻖﺑﺎﺳ ﻥﻭﺩ ﺮﻬﻇ ﺪﻗﻭ ،ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ §Y$tech_rift_sphere$§!A ﺔﻴﻨﻘﺘﺑ ﺎﻧﺮﻛﺬﺗ ﺔﻳﺭﻮﻠﺑ ﺓﺮﻛ \n\n.[Root.GetHomeWorldName] ﺭﺍﺪﻣ ﻰﻟﺇ ﺐﻳﺮﻏ ﻢﺴﺟ ﻞﺻﻭ"
+ astral_planes.15.desc.win: ".ﺩﺎﻌﺑﻷﺍ ﺮﻔﺴﻟﺍ ﻝﻮﺣ ﺔﻤﻴﻘﻟﺍ ﺭﺎﻜﻓﻷﺍ ﺾﻌﺑ ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﺪﻗ ﺎﻬﻧﺃ ﺪﻘﺘﻌﻧ ،ﻯﺮﺧﺃ ﺔﻴﺣﺎﻧ ﻦﻣﻭ ﻯﺮﺧﺃ ﺔﻴﺣﺎﻧ ﻦﻣ\n\n.ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻰﻠﻋ ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﺍﺮﻴﺒﻛ ﺍﺮﻄﺧ ﻞﺜﻤﻳ ﺪﻗ\n\n.ﻯﺮﺧﺃ ﺩﺎﻌﺑﺃ ﻑﺎﺸﻜﺘﺳﺍ ﺎﻨﻟ ﺢﻴﺘﺗ ﻲﺘﻟﺍﻭ ﺎﻫﺮﻳﻮﻄﺘﺑ ﺎﻨﻤﻗ ﻲﺘﻟﺍ §Y$tech_rift_sphere$§! ﺔﻴﻨﻘﺗ ﺮﻴﺒﻛ ﺪﺣ ﻰﻟﺇ ﻪﺒﺸﻳ ﻱﺭﻮﻠﺑ ﻱﻭﺮﻛ ﻢﺴﺟ ﻪﻧﺇ\n\n.[crystal_sphere_system.GetName] ﺭﺍﺪﻣ ﻲﻓ ﺐﻳﺮﻏ ﻢﺴﺟ ﻰﻠﻋ ﺎﻧﺮﻄﻴﺳ ﺪﻘﻟ"
+ astral_planes.15.desc.win_delayed: ".ﺮﻔﺳ ﺩﺎﻌﺑﻷﺍ ﻝﻮﺣ ﺔﻤﻴﻘﻟﺍ ﺭﺎﻜﻓﻷﺍ ﺾﻌﺑ ﻰﻠﻋ ﻱﻮﺘﺤﻳ ﺪﻗ ﻪﻧﺃ ﺪﻘﺘﻌﻧ ،ﻯﺮﺧﺃ ﺔﻴﺣﺎﻧ ﻦﻣ\n\n.ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻰﻠﻋ ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﺍﺮﻴﺒﻛ ﺍﺮﻄﺧ ﻞﺜﻤﻳ ﺪﻗ\n\n.ﺎﻫﺮﻳﻮﻄﺘﺑ ﺎﻨﻤﻗ ﻲﺘﻟﺍ §Y$tech_rift_sphere$§! ﺔﻴﻨﻘﺗ ﻊﻣ ﻪﺑﺎﺸﺘﻟﺍ ﻪﺟﻭﺃ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻞﻤﺤﻳ [crystal_sphere_system.GetName] ﻲﻓ ﻱﺭﻮﻠﺒﻟﺍ ﻱﻭﺮﻜﻟﺍ ﻢﺴﺠﻟﺍ ﻥﺃ ﺎﻨﻔﺸﺘﻛﺍ ،ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ ﻝﻮﺣ ﺮﻴﺧﻷﺍ ﺎﻨﺜﺤﺑ ﺀﻮﺿ ﻲﻓ"
+ astral_planes.15.a: ".ﺎﻬﺳﺭﺩﺍ"
+ astral_planes.15.b: ".ﺎﻫﺮﻴﻣﺪﺗ"
+
+ astral_planes.30.name: "ﺐﻳﺮﻏ ﻝﺎﺠﻣ"
+ astral_planes.30.desc: ".ﺎﻬﻌﻣ ﻞﻣﺎﻌﺘﻟﺍ ﺔﻴﻔﻴﻛ ﻝﻮﺣ ﺔﺒﻗﺎﺛ ﺓﺮﻈﻧ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﺎﻨﻨﻜﻤﻳ ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ ﺙﺎﺤﺑﻷﺍ ﺾﻌﺑ ﻝﻼﺧ ﻦﻣ ﺎﻤﺑﺭ .ﻪﻠﺻﺃ ﻭﺃ ﻪﺿﺮﻏ ﻦﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺮﻴﻏ ﻦﺤﻧﻭ \n\n.[crystal_sphere_system.GetName] ﺭﺍﺪﻣ ﻲﻓ ﺐﻳﺮﻏ ﻢﺴﺟ ﻰﻠﻋ ﺎﻧﺮﻄﻴﺳ ﺪﻘﻟ"
+ astral_planes.30.a: ".ﻚﻟﺫ ﺐﻗﺍﺮﻨﺳ"
+
+###########
+# Systems #
+###########
+
+ pc_rift_star: "ﺔﻴﻤﺠﻧ ﺔﺑﺪﻧ"
+ pc_rift_star_desc: ".ﻢﻳﺪﻗ ﻲﻤﺠﻧ ﻉﺪﺻ ﻝﻮﺣ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﻳﻭﺎﻤﺴﻟﺍ ﻡﺍﺮﺟﻷﺍ ﺭﻭﺪﺗ ،ﻢﺠﻨﻟﺍ ﻦﻣ ﻻﺪﺑﻭ"
+ sc_rift_star: "$pc_rift_star$"
+ sc_rift_star_desc: "$sc_rift_star$"
+
+ formless_system_initializer_NAME: "ﺵﻼﻳﺯﺃ ﻡﺎﻈﻧ"
+ formless_system_initializer_DESC: ".ﺔﻓﻭﺮﻌﻣ ﺮﻴﻏ ﻞﺋﺎﺳﻮﺑ ﺎﻨﻫ ﺦﺳﺍﺮﻟﺍ ،ﻲﻟﺰﻨﻤﻟﺍ ﻞﻜﺷﻼﻟﺍ ﻢﻟﺎﻋ"
+ NAME_Formless_System_Rift: "ﻢﻳﺪﻘﻟﺍ ﻉﺪﺼﻟﺍ"
+ NAME_Formless_System: "com.azilash"
+ NAME_FORMLESS_SYSTEM_GAS_GIANT: "ﺱﻮﻳ"
+ NAME_FORMLESS_SYSTEM_GAIA: "ﺎﻳﺯ"
+ NAME_Formless_System_Strange_Wormhole: "ﺐﻳﺮﻏ ﻱﺩﻭﺩ ﺐﻘﺛ"
+
+ MESSAGE_RANDOM_POP_SETTLED_TITLE: "ﺓﺪﻳﺪﺟ ﺔﻳﺍﺪﺑ"
+ MESSAGE_RANDOM_POP_SETTLED: ".[this.GetName] ﻰﻠﻋ ﺮﺧﺁ ﺪﻌﺑ ﻦﻣ ﺓﺪﻳﺪﺟ ﻉﺍﻮﻧﺃ ﺕﺮﻘﺘﺳﺍ ﺪﻘﻟ"
+
+######################################
+# Formless System Countries & Fleets #
+######################################
+
+ NAME_Extradimensional_Scout: "ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﻑﺎﺸﻛ"
+ NAME_Extradimensional_Scouts: "ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﺔﻓﺎﺸﻜﻟﺍ"
+
+ NAME_Formless: "ﻞﻜﺸﻟﺍ ﻢﻳﺪﻋ"
+ NAME_Formless_Anchor: "ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﺓﺎﺳﺮﻣ"
+
+ NAME_Formless_Aberrant_Invader_Battleship: "ﺔﻴﻓﺎﺿﺇ ﺩﺎﻌﺑﺃ ﺕﺍﺫ ﺔﻳﺯﺎﻏ ﺔﻴﺑﺮﺣ ﺔﻨﻴﻔﺳ"
+ NAME_Formless_Aberrant_Invader_Cruiser: "ﺔﻴﻓﺎﺿﻹﺍ ﺩﺎﻌﺑﻷﺍ ﻭﺫ ﻱﺯﺎﻐﻟﺍ ﺩﺍﺮﻄﻟﺍ"
+ NAME_Formless_Aberrant_Invaders: "ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﺓﺍﺰﻐﻟﺍ"
+ NAME_Formless_Cruiser: "ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﺭﺯﻭﺮﻛ"
+ NAME_Formless_Defense: "ﻞﻜﺷ ﻼﺑ ﻉﺎﻓﺩ ﻝﻮﻄﺳﺃ"
+
+ NAME_Extradimensional_Defenders: "ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﻦﻴﻌﻓﺍﺪﻤﻟﺍ"
+ NAME_Extradimensional_Defender: "ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﻊﻓﺍﺪﻣ"
+
+############
+# Deposits #
+############
+
+ d_astral_threads_deposit_1: "§Y+1§! £astral_threads£"
+ d_astral_threads_deposit_2: "§Y+2§! £astral_threads£"
+ d_astral_threads_deposit_3: "§Y+3§! £astral_threads£"
+ d_crystal_rift: "§Y+10§! £physics£ﻭ §Y+10§! £unity£"
+ d_physics_25: " +25£physics£"
+ d_engineering_25: " +25£engineering£"
+ d_society_25: " +25£society£"
+
+ d_hab_astral_threads_1: "ﺔﻴﻤﺠﻨﻟﺍ ﻊﻴﺿﺍﻮﻤﻟﺍ ﻉﺍﺪﻳﺇ"
+ d_hab_astral_threads_1_desc: ".ﻝﻼﻐﺘﺳﻼﻟ ﻞﺑﺎﻘﻟﺍ Astral Threads ﻉﺩﻮﺘﺴﻣ ﻦﻣ ﺏﺮﻘﻟﺎﺑ $habitat_complex$ ﺍﺬﻫ ﺀﺎﻨﺑ ﻢﺗ"
+ d_hab_astral_threads_2: "$d_hab_astra_threads_1$"
+ d_hab_astral_threads_2_desc: "$d_hab_astra_threads_1_desc$"
+ d_hab_astral_threads_3: "$d_hab_astra_threads_1$"
+ d_hab_astral_threads_3_desc: "$d_hab_astra_threads_1_desc$"
+
+###############################
+# Formless System Event Chain #
+###############################
+
+ formless_country_modifier: "$NAME_Formless$"
+
+ STRANGE_WORMHOLE: "ﺐﻳﺮﻏ ﻱﺩﻭﺩ ﺐﻘﺛ"
+ STRANGE_WORMHOLE_DESC: "$DEST|Y$ ـﺑ ﻞﺼﺘﻣ §Y$STRANGE_WORMHOLE$§! ﻰﻠﻋ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻱﻮﺘﺤﻳ"
+ STRANGE_WORMHOLE_DESC_UNEXPLORED: "§Y$STRANGE_WORMHOLE$§! §Rﻒﺸﻜﺘﺴﻣ ﺮﻴﻏ§! ﻰﻠﻋ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻱﻮﺘﺤﻳ"
+ STRANGE_WORMHOLE_ACCESS_DENIED: "§R.ﻝﻮﺧﺪﻟﺍ ﻦﻣ ﺎﻨﻌﻨﻤﺗ ﺔﻴﺟﺭﺎﺧ ﺓﻮﻗ ﻙﺎﻨﻫ§!$TRIGGER_FAIL$"
+ BYPASS_STRANGE_WORMHOLE: "$STRANGE_WORMHOLE$"
+ BYPASS_NAME_STRANGE_WORMHOLE: "$SYSTEM$ $STRANGE_WORMHOLE$"
+ BYPASS_DESC_STRANGE_WORMHOLE: ".ﻞﺒﻗ ﻦﻣ ﺔﻳﺩﻭﺪﻟﺍ ﺏﻮﻘﺜﻟﺍ ﻦﻣ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﺮﻧ ﻢﻟ"
+ BYPASS_DESC_UNKNOWN_STRANGE_WORMHOLE: "$BYPASS_DESC_STRANGE_WORMHOLE$"
+ ENTRY_BYPASS_STARLIT_STRANGE_WORMHOLE: "$BYPASS_TYPE$"
+ EXIT_BYPASS_STARLIT_STRANGE_WORMHOLE: "$BYPASS_TYPE$"
+
+ astral_planes.45.name: "$STRANGE_WORMHOLE$"
+ astral_planes.45.desc.event_chain_owner: ".ﻥﺎﻜﻤﻟﺍ ﺍﺬﻫ ﻝﻮﺧﺩ ﺎﻧﺮﺘﺧﺍ ﺍﺫﺇ ﺎﻨﻠﻴﻃﺎﺳﺃ ﻯﻮﻗﺃ ﺰﻬﺠﻧ ﻥﺃ ﺐﺠﻳ \n\n .ﺮﺧﺁ ﻥﺎﻜﻣ ﻦﻣ ﺎﻧﺪﻌﺑ ﻰﻟﺇ ﻪﺒﺤﺳ ﻢﺗ ﺪﻗ ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﺩﻮﺟﻮﻤﻟﺍ ﻡﺎﻈﻨﻟﺍ ﻥﺃ ﺎﻨﻔﺸﺘﻛﺍ .ﻢﻬﻟ ﺓﺪﻋﺎﺴﻤﻟﺍ ﻢﻳﺪﻘﺘﻟ Formless ـﻟﺍ ﺎﻬﺤﺘﻓ ﺔﺑﺍﻮﺑ ﺎﻬﻧﺃ ﺽﺮﺘﻔﻧ ﻥﺃ ﻻﺇ ﺎﻨﻨﻜﻤﻳ ﻻ \n\n.§H[From.GetName]§! ﻲﻓ ،§HCrystal Rift§! ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺫﺎﺷ ﻱﺩﻭﺩ ﺐﻘﺛ ﺮﻬﻇ"
+ astral_planes.45.desc.locked: ".§H[From.GetName]§! ﻡﺎﻈﻧ ﻲﻓ ﺍﺪﺟ ﺐﻳﺮﻏ ﺀﻲﺷ ﺙﺪﺤﻳ .ﺔﻟﻮﻬﺠﻣ ﺓﻮﻗ ﻞﺒﻗ ﻦﻣ ﺪﺼﻟ ﺽﺮﻌﺘﻧ ﺎﻨﻧﺈﻓ ،ﺎﻣﺪﻗ ﻲﻀﻤﻟﺍ ﺎﻨﻨﻔﺳ ﺖﻟﻭﺎﺣ ﺎﻤﻬﻣﻭ .ﺍﺫﺎﺷ ﺎﻳﺩﻭﺩ ﺎﺒﻘﺛ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+ astral_planes.45.desc.unlocked: "؟ﺎﻨﻜﻤﻣ ﻚﻟﺫ ﻥﻮﻜﻳ ﻒﻴﻛ .ﺓﺮﺠﻤﻟﺍ ﺰﻛﺮﻣ ﻰﻟﺇ ﺮﺷﺎﺒﻣ ﻖﻳﺮﻃ ﻪﻧﺃ ﺕﺍﺮﻌﺸﺘﺴﻤﻟﺍ ﻒﺸﺘﻜﺗ .§H[From.GetName]§! ﻲﻓ ﺍﺫﺎﺷ ﺎﻳﺩﻭﺩ ﺎﺒﻘﺛ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+
+ astral_planes.50.name: "$STRANGE_WORMHOLE$"
+ astral_planes.50.desc: "؟ﺎﻨﻜﻤﻣ ﻚﻟﺫ ﻥﻮﻜﻳ ﻒﻴﻛ\n\n.ﺓﺮﺠﻤﻟﺍ ﺰﻛﺮﻣ ﻰﻟﺇ ﺮﺷﺎﺒﻣ ﺭﺎﺴﻣ ﻪﻧﺃ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺓﺰﻬﺟﺃ ﺖﻔﺸﺘﻛﺍ .ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺐﻠﻘﺘﻳ §H[crystal_sphere_system.GetName]§! ﻡﺎﻈﻧ ﻲﻓ ﻩﺎﻨﻔﺸﺘﻛﺍ ﻱﺬﻟﺍ ﺫﺎﺸﻟﺍ ﻱﺩﻭﺪﻟﺍ ﺐﻘﺜﻟﺍ"
+
+ astral_planes.3000: "؟ﻦﺤﻧ ﻦﻳﺃ"
+ astral_planes.3000.desc: ".ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﻥﺎﻴﻛ ﻦﻣ ﺕﻻﺎﺳﺭﺇ ﻰﻘﻠﺘﻧ ﺎﻨﻧﺃ ﺚﻴﺣ ،ﻖﻴﻘﺤﺘﻠﻟ ﺖﻗﻮﻟﺍ ﻦﻣ ﻞﻴﻠﻘﻟﺍ ﻯﻮﺳ ﺎﻨﻳﺪﻟ ﺲﻴﻟ \n\n ؟ﺩﺎﻌﺑﻷﺎﺑ ﺐﻋﻼﺘﻟﺍ ﺾﻌﺑ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻞﻫ .ﻪﻠﻤﻛﺄﺑ ﻡﺎﻈﻨﻟﺍ ﻦﻋ ﻚﻴﻫﺎﻧ ،ﺎﻨﻫ ﺪﺟﺍﻮﺘﻧ ﻥﺃ ﺎﻨﻟ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻥﻮﻜﻳ ﻥﺃ ﻲﻐﺒﻨﻳ ﻻ\n\n؟ﺓﺮﺠﻤﻟﺍ ﺰﻛﺮﻣ ...ﻰﻟﺇ ﺎﻧﺬﺧﺃ ﺪﻗ ﻱﺩﻭﺪﻟﺍ ﺐﻘﺜﻟﺍ ﺍﺬﻫ ﻦﻣ ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻥﺃ ﻭﺪﺒﻳ"
+
+ astral_planes.3005.desc: "...ﻡﺎﻌﻄﻟﺍ ﺎﻨﻟ ﺖﻣﺪﻗ ﺪﻘﻟ ...ﺎﻤﺑﺭ ﻭﺃ ؟ﻥﻮﺟﺩﺎﺷ ﺎﻳ ﻚﺗﺪﻋﺎﺴﻤﻟ ﻢﻬﺗﺮﻀﺣﺃ ﻦﻳﺬﻟﺍ ﻰﻘﻤﺤﻟﺍ ﺎﻣ ...ﺍﺬﻫ ﺎﻣ"
+ astral_planes.3005.a: "؟ﺔﺴﻳﺮﻔﻛ ﺎﻨﻫ ﺎﻨﺟﺍﺭﺪﺘﺳﺍ ﻢﺗ ﻞﻫ"
+
+ astral_planes.3015: "ﻞﺳﺮﻟﺍ"
+ astral_planes.3015.desc: ".ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻲﻓ ﺪﻴﺣﻮﻟﺍ ﺐﻛﻮﻜﻠﻟ ﺍﺭﻭﺎﺠﻣ ﻼﻜﻴﻫ ﻦﻜﺴﺗ ﺕﺎﻨﺋﺎﻛ ﻦﻣ ﻻﺎﺳﺭﺇ ﺎﻨﻴﻘﻠﺗ ﺪﻘﻟ\n\n.ﺎﻫﺪﺣﻭ ﻦﻜﺗ ﻢﻟ ﺎﻬﻧﺃ ﻭﺪﺒﻳ ﻦﻜﻟ ،ﻉﺪﺼﻟﺍ ﺍﺬﻫ ﺱﺮﺤﺗ ﻲﺘﻟﺍ ﺔﺒﻳﺮﻐﻟﺍ ﻦﻔﺴﻟﺍ ﺎﻨﻠﻴﻃﺎﺳﺃ ﺖﻣﺰﻫ ﺪﻘﻟ"
+
+ astral_planes.3020.desc: "...ﻰﻘﺒﺗ ﺎﻣ ﻞﻛ ﻦﺤﻧ...ﻉﺪﺼﻟﺍ ﺍﺬﻫ ﺪﺴﻧ ﻥﺃ ﺎﻨﻴﻠﻋ...ﻥﻮﻣﺩﺎﻗ ﺪﻳﺰﻤﻟﺍ"
+ astral_planes.3020.a: "؟ﻥﻮﻣﺩﺎﻗ ﺪﻳﺰﻤﻟﺍ"
+
+ astral_planes.3050.desc: "...ﺖﻗﻭ ﻰﻟﺇ ﺝﺎﺘﺤﻧ...ﺀﺎﻨﺒﻟﺍ ﺪﻴﻌﻧ ﻥﺃ ﺐﺠﻳ...ﻰﻘﺒﺗ ﺎﻣ ﻞﻛ ﻦﺤﻧ"
+ astral_planes.3050.a: "§Y؟ﺍﺬﻫ§! ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﻚﻨﻜﻤﻳ ﻞﻫ"
+ astral_planes.3050.a.tt: ".ﺎﻬﺗﺎﻋﺎﻓﺩ ﺰﻳﺰﻌﺗ ﺎﻬﻨﻜﻤﻳ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻤﻓ ،ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﻢﻴﻠﺴﺗ ﺎﻧﺩﺭﺃ ﺍﺫﺇ"
+ number_formless_fleet_max_reached: ".ﺔﻴﻘﺒﺘﻣ ﻞﻴﻃﺎﺳﺃ "Formless" ﻯﺪﻟ ﺪﻌﻳ ﻢﻟ"
+ astral_planes.3050.b: ".ﻢﺘﻬﺗ ﻻ"
+
+ astral_planes.3070.desc: "...ﻩﻮﻔﺧﺃ ﺎﻣ ﺪﺠﻨﺳ ...ﺎﻧﺩﻮﻌﺻ ﻰﻟﺇ ﺮﻈﻧﺃ ...ﺎﻧﺩﻮﻴﻗ ﺕﺮﺴﻜﻧﺍ ...ﻝﺯﺎﻨﺘﻟﺍ ...ﺍﺮﻴﺧﺃ"
+ astral_planes.3070.a: ".ﺭﺩﺎﻐﻧ ﻥﺃ ﺐﺠﻳ"
+ astral_planes.3070.a.tt: ".$NAME_Formless_System$ ﻡﺎﻈﻨﻟ ﺔﻴﻧﻭﺮﺘﻜﻟﻹﺍ ﺔﺑﺍﻮﺒﻟﺍ ﻕﻼﻏﺇ ﻢﺗ .ﺮﺧﺁ ﺪﻌﺑ ﻦﻣ ﻦﻴﻤﺟﺎﻬﻣ ﺪﻳ ﻰﻠﻋ ﻞﻜﺸﻟﺍ ﺔﻤﻳﺪﻋ ﻢﺳﺎﺑ ﺔﻓﻭﺮﻌﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ"
+
+ astral_planes.3100.desc: "...ﺍﺪﺑﺃ ﻯﺮﺧﺃ ﺓﺮﻣ ﻥﺎﻜﻤﻟﺍ ﺍﺬﻫ ﺎﻨﻟﺎﻔﻃﺃ ﺪﺠﻳ ﻦﻟ ...ﻢﺘﺨﻟﺍ ﻊﺿﻭ ﻢﺗ ...ﺮﻣﻷﺍ ﻢﺗ ﺪﻘﻟ ...\n\n§H.ﺪﺣﺍﻭ ﺖﻗﻭ ﻲﻓ ﺕﺎﻨﺋﺎﻛ ﺓﺪﻋ ﻦﻋ ﺔﺑﺎﻴﻧ ﻥﻮﺛﺪﺤﺘﻳ ﺍﻮﻧﺎﻛ ﻮﻟ ﺎﻤﻛ ،ﻢﻏﺎﻨﺘﻣ ﺪﺸﺤﻛ ﻢﻬﺗﺍﻮﺻﺃ ﻯﺪﺻ ﺩﺩﺮﺘﻳ .ﺮﺧﺁ ﻊﻗﺍﻭﻭ ﻊﻗﺍﻮﻟﺍ ﺍﺬﻫ ﻦﻴﺑ ﻥﺎﻴﻜﻟﺍ ﺍﺬﻬﻟ ﻲﺋﺮﻤﻟﺍ ﻞﻜﺸﻟﺍ ﻝﻮﺤﺘﻳ ،ﺮﻤﺘﺴﻤﻟﺍ ﻖﻓﺪﺘﻟﺍ ﺔﻟﺎﺣ ﻲﻓ§!"
+ astral_planes.3100.a: "؟ﺖﻧﺃ ﺎﻣ"
+ astral_planes.3100.a.desc: "..ﻢﺘﻳﺃﺭ ﺪﻘﻟ ..ﻉﻭﺪﺼﻟﺍ ﻦﻣﻭ ..ﺥﻭﺮﺸﻟﺍ ﺀﺍﺭﻭ ﺎﻣ ﻦﺤﻧ ..ﺎﻨﻧﻮﻓﺮﻌﺗ"
+ astral_planes.3100.b: "؟ﺎﻨﻫ ﺖﻧﺃ ﺍﺫﺎﻤﻟ"
+ astral_planes.3100.b.desc: "..ﻪﻴﻔﺨﻧ ..ﺵﺮﻌﻟﺍ ﻦﻋ ﻥﻮﺜﺤﺒﻳ ..ﺎﻨﻧﻭﺩﺭﺎﻄﻳ ..ﻥﻭﺭﻮﺴﻜﻣ ﻝﺎﻔﻃﺃ ..ﺎﻨﻟﺎﻔﻃﺃ"
+ astral_planes.3100.c: "؟"ﺵﺮﻌﻟﺍ" ﺍﺬﻫ ﺎﻣ"
+ astral_planes.3100.c.desc: "...ﻙﺮﻜﺸﻧ ...ﻥﻵﺍ ﻦﻣﺁ ...ﺐﻠﻘﻟﺍ ﻮﻬﻓ ...ﻡﺪﻟﺍ ﺎﻨﻛ ﺍﺫﺇ ...ﺎﻨﺗﺎﻳﺮﻛﺫ ...ﺎﻧﺩﻮﻠﺧ"
+ astral_planes.3100.d: "§Y.ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﻝﺍﺰﺗ ﻻ ﺎﻤﺑﺭﻭ ،ﺎﻨﺘﺤﺗ ﻡﺪﺧﺍ§!"
+ formless_subjugation_path_success_tt: ".§Y$preset_luminarium$§! ﻩﺭﺎﺒﺘﻋﺎﺑ §Y[This.GetName]§! ﻦﻤﺿ ﺎﻋﻮﺿﻮﻣ §Y$NAME_Formless$§! ﺢﺒﺼﻳ"
+ astral_planes.3100.e: "§R.ﻪﻨﻋ ﺙﺪﺤﺘﺗ ﻱﺬﻟﺍ "ﺵﺮﻌﻟﺍ" ﺍﺬﻫ ﺎﻨﻄﻋﺃ§!"
+ astral_planes.3100.f: ".ﺎﻌﻣ ﻞﻤﻌﻧ ﺎﻧﻮﻋﺩ"
+ astral_planes.3101.desc: "...ﺎﻧﺭﺪﻗ ﺍﺬﻫ...ﻢﻜﻣﺪﺨﻨﺳ...ﺎﻌﻗﻮﺘﻣ ﻥﺎﻛ ﺍﺬﻫ"
+ astral_planes.3102.desc.fail: "...ﻦﻜﻴﻠﻓ ...ﺮﻴﺒﻛ ﻥﺰﺣ ...ﻚﻴﻠﻋ ﻢﻜﺤﻟﺍ ﻲﻓ ﺎﻧﺄﻄﺧﺃ ﺪﻘﻟ"
+ astral_planes.3102.desc: "$astral_planes.3102.desc.fail$\n...ﻩﺬﺧﺄﺗ ﻥﺃ ﻚﻟ ﺲﻴﻟ ...ﻱﺪﺑﻷﺍ ﺵﺮﻌﻟﺍ"
+ astral_planes.3102.a: ".ﻦﻜﻴﻠﻓ"
+
+ astral_planes.3110.desc: "..ﺮﺟﺃ ..ﻥﺎﻣﺃ ..ﺮﻜﺷ"
+ astral_planes.3110.a: ".§Ypower§! ﻰﻟﺇ ﺝﺎﺘﺤﻧ"
+ astral_planes.3110.a.tt: ".ﻚﺗﺮﻄﻴﺳ ﺖﺤﺗ ﻞﻜﺷ ﻼﺑ ﻻﻮﻄﺳﺃ ﺢﻨﻤﻳ"
+ astral_planes.3110.b: ".§Yﻚﺘﻓﺮﻌﻣ§! ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﻦﺤﻧ"
+ astral_planes.3110.b.tt: ".ﺔﻴﺋﺍﻮﺸﻌﻟﺍ ﺀﺎﻳﺰﻴﻔﻟﺍ ﺔﻴﻨﻘﺗ ﺢﻨﻤﻳ"
+ astral_planes.3110.c: ".ﻚﺑ ﺹﺎﺨﻟﺍ §Yﺞﻴﺴﻧ§! ﻰﻟﺇ ﺝﺎﺘﺤﻧ"
+ astral_planes.3110.d: "؟ﺎﻨﻴﻟﺇ ﻪﺘﻠﺳﺭﺃ ﻱﺬﻟﺍ ﻦﻣ"
+ astral_planes.3110.d.desc: "... ﺀﺎﻛﺫ ﺮﺜﻛﺃ ﺭﺩﺎﻏ ﺀﻲﺷ ﺪﺟﻮﻳ ﻻ\n\n...ﻚﺘﻣﺪﺨﻟ ﺐﺴﻧﻷﺍ ﻮﻫ ﺍﺬﻫ\n\n...ﺪﺑﻷﺍ ﻰﻟﺇﻭ ﻖﻴﻗﺩ ...ﺪﺣﺍﻭ ﺺﺨﺸﻛ ﺎﻨﻌﻤﺠﻳ ﺯﺎﻬﺟ\n\n...ﻪﻌﻨﺻ ﻲﻓ ﻦﻴﻨﺴﻟﺍ ﻑﻻﺁ ﻰﻀﻗ ﻱﺬﻟﺍ ﻚﻟﺫ ﻪﻧﺇ\n\n...ﻱﺪﺑﻷﺍ ﺵﺮﻌﻟﺍ ﺱﺪﻨﻬﻣ ...§Y$NAME_Formless_leader$§!"
+ astral_planes.3110.e: "؟"ﻦﻳﺭﻮﻈﺤﻤﻟﺍ ﺮﻴﻏ" ﻢﻫ ﻦﻣ"
+ astral_planes.3110.f: "؟"ﻥﻭﺫﺎﺸﻟﺍ" ﻢﻫ ﻦﻣ"
+ astral_planes.3110.g: "؟"ﺀﺎﻔﻨﻌﻟﺍ" ﻢﻫ ﻦﻣ"
+ astral_planes.3110.h: ".§Y$NAME_Formless_leader$§! ﻂﻘﺳ ﺪﻘﻟ"
+ astral_planes.3110.h.desc: "...ﻥﺰﺤﺗ ﻻ\n\n...ﺭﺪﻘﻟﺍ\n\n...ﺪﻌﺑ ﺎﻌﻗﻮﺘﻣ ﻦﻜﻳ ﻢﻟ\n\n...ﻡﺪﻧ"
+
+ astral_planes.3114.desc.unbidden: "...ﻢﻴﻈﻋ ﺭﺎﻋ\n\n...ﺎﻳﺎﻄﺨﻟﺍ ﻦﻋ ﻒﺸﻜﻟﺍ ﻢﺗ\n\n...ﻢﺨﻀﺘﻣ...ﺎﻨﻌﺸﺟ\n\n...ﺎﻤﺋﺍﺩ ﻥﻮﻌﺋﺎﺟ ...ﻥﻮﻤﻄﺤﻣ ﺏﺭﺎﻗﺃ ...ﺵﺎﻧﺎﺒﺷ"
+ astral_planes.3114.desc.aberrant: "...ﻲﻬﺘﻨﺗ ﻦﻟ ﻢﻬﺗﺎﻋﺍﺮﺻ\n\n...ﺢﺿﺍﻭ ...ﺎﻨﺒﻀﻏ\n\n...ﺎﻈﻴﻏ ﺀﻮﻠﻤﻣ ...ﻞﻓﺎﻏ ...ﻝﺎﻏﺩ"
+ astral_planes.3114.desc.vehement: "...ﻲﺴﻨﻤﻟﺍ ﺎﻨﻣﻮﻬﻔﻣ\n\n...ﻢﻴﻈﻋ ﺪﺴﺣ\n\n...ﺵﺮﻌﻟﺍ ﻦﻋ ﻥﻮﺜﺣﺎﺒﻟﺍ...ﻱﺍﺰﻧﻭﺃ"
+ astral_planes.3114.a: "؟ﻒﻌﺿ ﻢﻬﻳﺪﻟ ﻞﻫ"
+ astral_planes.3114.b: ".ﺮﺧﺁ ﯫﻴﺷ ﻝﺄﺴﻧ ﻥﺃ ﺩﻮﻧ"
+
+ astral_planes.3115.desc.common: "...ﺔﻴﻤﺠﻧ ﺓﺩﺎﻣ...ﻰﻟﺇ ﺝﺎﺘﺤﻧ\n\n...ﺔﻤﻠﻜﻟﺍ ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﻻ ﻚﺘﻐﻟ\n\n؟...ﺕﺍﺩﺩﺮﺗ ...ﺔﻟﺄﺴﻣ ﺎﻬﻧﺇ...ﺎﻗﺮﻃ ﻑﺮﻌﻧ ﻦﺤﻧ"
+ astral_planes.3115.desc.unbidden: "$astral_planes.3115.desc.common$\n\n...ﻊﺟﺍﺮﺘﻟﺍ ﻮﻫ ﻢﻬﻌﺸﺟ"
+ astral_planes.3115.desc.aberrant: "$astral_planes.3115.desc.common$\n\n...ﺰﻛﺮﻣ ﺮﻴﻏ ﻢﻬﺒﻀﻏ"
+ astral_planes.3115.desc.vehement: "$astral_planes.3115.desc.common$\n\n...ﺔﻗﺎﻤﺣ ﻢﻬﺗﺎﺒﻏﺭ"
+ astral_planes.3115.a: ".ﺮﻴﻓﻮﺗ ﺎﻨﻨﻜﻤﻳ"
+
+ astral_planes.3116.desc: "...ﻚﻤﻏﺎﻨﺗ ﻞﻤﺘﻛﺍ...ﻢﺗ ﺪﻘﻟ"
+
+ secret_of_the_unbidden_modifier: "ﺓﺭﻮﻈﺤﻤﻟﺍ ﺮﻴﻏ ﺭﺍﺮﺳﺃ"
+ pacification_of_the_aberrant_modifier: "ﺫﺎﺸﻟﺍ ﺔﺋﺪﻬﺗ"
+ folly_of_the_vehement_modifier: "ﺔﻔﻴﻨﻋ ﺔﻗﺎﻤﺣ"
+
+ astral_planes.3121.desc: "...ﺎﻨﻤﺤﺘﻗﺍﻭ ﻝﺎﻌﺗ\n\n...ﺔﻤﻴﻈﻋ ﺔﻤﻴﻟﻭ ﻥﻮﻜﺘﺳ\n\n...ﺎﻨﻫ ﻚﻟﺎﺣ ﻒﻴﻛ ...ﻥﻮﺟﺍﺩﺎﺷ ﻦﻣ §Y$NAME_Formless_leader$§!"
+ astral_planes.3122.desc: "...ﻥﺎﻴﺴﻨﻟﺍ ﻢﺛ ...ﺐﻀﻐﻟﺍ ﺪﻫﺎﺷ\n\n...ﺔﺳﺮﻄﻐﻟﺍ ...ﺔﻗﺎﻤﺤﺑ ﻖﺣﻼﺗ ﻚﻨﻜﻟﻭ ...ﻚﺑﺭﺎﻗﺃ ﺕﺬﻘﻧﺃ ﺪﻘﻟ\n\n...ﻥﻮﺟﺍﺩﺎﺷ ﻦﻣ §Y$NAME_Formless_leader$§! ...ﺪﻌﺑ ﻪﺘﻨﻧ ﻢﻟ"
+ astral_planes.3123.desc: "...ﻚﻣﺮﻜﻨﺳ...ﻥﻵﺍ ﺎﻨﻴﻟﺇ ﻢﻀﻧﺍ\n\n...ﺎﻬﻣﺪﻘﺗ ﺔﻤﻴﻈﻋ ﺔﻳﺪﻫ...ﺵﺮﻌﻟﺍ ﺭﺍﺮﺳﺃ\n\n...ﻚﻠﻘﻋ ﺞﻣﺪﻧ...ﻚﻜﻠﻬﺘﺴﻨﺳ\n\n...ﻥﻮﺟﺍﺩﺎﺷ ﻦﻣ §Y$NAME_Formless_leader$§!...ﻱﺭﺎﻤﻌﻤﻟﺍ ﺱﺪﻨﻬﻤﻟﺍ"
+
+ alert_formless_reward_available_title: "ﻞﻜﺷ ﻼﺑ ﺔﻳﺪﻫ"
+ alert_formless_reward_available_instant: ".ﺓﺄﻓﺎﻜﻣ The Formless ﺎﻨﻴﻠﻋ ﺽﺮﻋ ﺪﻘﻟ"
+ ALERT_FORMLESS_REWARD_AVAILABLE_DETAIL: ".ﺮﺧﻵ ﺖﻗﻭ ﻦﻣ ﺎﻨﻟ ﺎﻳﺍﺪﻬﻟﺍ ﻝﺎﺳﺭﺈﺑ ﺕﺪﻬﻌﺗ ﺪﻗﻭ ،ﺎﻨﺗﺪﻋﺎﺴﻤﻟ ﻥﺎﻨﺘﻣﻻﺎﺑ ﺮﻌﺸﺗ ﺎﻨﺗﺮﺠﻣ ﺰﻛﺮﻣ ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ"
+
+ NAME_Formless_leader: "ﻝﺎﺠﻳﺩﺍﺯ"
+ formless_leader_desc: ".ﻉﺍﻮﻧﻷﺍ ﻢﻈﻌﻣ ﺮﻤﻋ ﻦﻣ ﻝﻮﻃﺃ ﺓﺮﺘﻔﻟ ﻞﻴﻃﺎﺳﻷﺍ ﻰﻠﻋ ﺮﻄﻴﺳ ﺪﻗ ﺔﻴﻓﺎﺿﻹﺍ ﺩﺎﻌﺑﻷﺍ ﻭﺫ ﻥﺎﻴﻜﻟﺍ ﺍﺬﻫ ،ﻞﻜﺸﻟﺍ ﺔﻤﻳﺪﻋ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺓﺩﺎﻗ ﺮﺧﺁ ﺪﺣﺃ"
+ formless_leader_catch_phrase: "..ﻝﻮﺒﻗ ..ﺮﻜﺷ"
+
+ astral_planes.3155.name: "ﻞﻜﺷ ﻼﺑ ﻰﻠﻋ ﺏﺮﺤﻟﺍ"
+ astral_planes.3155.desc: ".ﻢﻬﻓﻮﻔﺻ ﻰﻟﺇ ﻯﺮﺧﺃ ﺓﺮﻣ ﻡﺎﻤﻀﻧﻻﺍﻭ ﺔﺼﺼﺨﻤﻟﺍ ﻢﻬﻠﻴﻃﺎﺳﺃ ﻦﻋ [this.GetName] ﻲﻠﺨﺗ ﻲﻓ Formless ﺪﺿ ﺔﻴﻧﺍﻭﺪﻌﻟﺍ ﺎﻨﺘﻠﻤﺣ ﺖﺒﺒﺴﺗ"
+ astral_planes.3155.a: ".ﺍﺪﺟ ﺪﻴﺟ"
+
+ astral_planes.3165.name: "ﻞﻜﺷ ﻼﺑ ﺕﺮﻣﺩ"
+ astral_planes.3165.desc: ".ﺔﻴﻓﺎﺿﻹﺍ ﺩﺎﻌﺑﻷﺍ ﺕﺍﺫ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﻕﺪﺼﺗ ﻻ ﺕﺎﻴﻤﻛ ﻩﺮﺒﻋ ﺔﻳﺮﺤﺑ ﻖﻓﺪﺘﺗ ﺚﻴﺣ ،ﺔﻴﻤﺠﻨﻟﺍ ﺕﺎﻳﻮﺘﺴﻤﻟﺍ ﻰﻟﺇ ﺓﺎﻨﻘﻟﺍ ﻦﻣ ﻉﻮﻨﻛ ﺯﺎﻬﺠﻟﺍ ﻞﻤﻌﻳ .ﺓﺰﺠﻌﻤﻟﺍ ﺔﻳﺪﻳﺪﺠﺘﻟﺍ ﻪﺼﺋﺎﺼﺧ ﻂﻴﺸﻨﺘﻟ ﻪﻴﻠﻋ [this.species.GetHandNamePlural] ﻊﺿﻭ ﻰﻟﺇ ﺔﻃﺎﺴﺒﺑ ﺀﺮﻤﻟﺍ ﺝﺎﺘﺤﻳ .ﺾﻣﺎﻏ ﺯﺎﻬﺟ ﻮﻫ ﻰﻘﺒﺗ ﺎﻣ ﻞﻛ\n\n.[event_target:formless_system.GetName] ﻲﻓ ﻞﻜﺸﻟﺍ ﻲﻤﻳﺪﻋ ﻦﻣ ﻰﻘﺒﺗ ﺎﻣ ﺮﺧﺁ ﺓﺩﺎﺑﺇ ﻲﻓ ﺎﻨﺤﺠﻧ ﺪﻘﻟ"
+
+ astral_planes.3170.desc: "...ﻲﻘﺘﻠﻨﻟ ﺎﻨﺘﻗﻭ ﺲﻴﻟ ﻪﻧﺇ\n...ﻚﻓﺮﻌﻧ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+
+ pm_formless_haven: "ﻞﻜﺷ ﻼﺑ ﺫﻼﻣ"
+ pm_formless_haven_desc: ".ﺎﻬﺘﻳﺎﻤﺣ ﺖﺤﺗ ﺮﺧﻵ ﺖﻗﻭ ﻦﻣ ﺎﻨﻫ ﻯﺮﺧﻷﺍ ﺩﺎﻌﺑﻷﺍ ﺕﺍﺫ ﻉﺍﻮﻧﻷﺍ ﺔﻳﻮﺴﺗ ﻢﺘﻴﺳ .ﻞﻜﺸﻟﺍ ﻢﻳﺪﻋ ﻢﺳﺎﺑ ﻑﻭﺮﻌﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻠﻟ ﺮﻴﺧﻷﺍ ﻞﻘﻌﻤﻟﺍ"
+ pm_formless_haven_tt: "ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺮﺧﺁ ﻉﻮﻧ ﻦﻣ §HPops§! £pop£ §!XYZT_0500XYZT ﺥﺮﻔﺗ"
+
+ preset_luminarium: "ﻡﻮﻳﺭﺎﻨﻴﻣﻮﻟ"
+ preset_luminarium_desc: "Luminarium ﺏﺍﺮﺨﻟﺍ ﻲﻓ ﻦﻴﺤﻟﺍ ﻚﻟﺫ ﺬﻨﻣ ﺓﺪﺘﻤﻤﻟﺍ ﻪﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺖﻄﻘﺳ ﻱﺬﻟﺍ ،ﻞﻜﺸﻟﺍ ﻢﻳﺪﻋ ﻰﻠﻋ ﺮﻴﺛﺄﺗ ﻢﻬﻟ ﺪﻌﻘﻤﻟﺍ ﺍﺬﻬﺑ ﻥﻮﺒﻟﺎﻄﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ .ﻱﺪﺑﻷﺍ ﺵﺮﻌﻟﺍ ﻚﻟﺎﻣ ﻩﺄﺸﻧﺃ ﻉﻮﺿﻮﻣ ﻉﻮﻧ ﻮﻫ."
+ preset_luminarium_flavor_desc: "$preset_luminarium_desc$"
+ modifiers_eternal_throne: "$preset_luminarium$"
+ eternal_throne_conditions: "$ﻝﺪﻌﻤﻟﺍ$"
+ not_allowed_for_luminarium: ".§Y$preset_luminarium$§!$TRIGGER_FAIL$ﻖﺒﺴﻤﻟﺍ ﺩﺍﺪﻋﻺﻟ ﻪﺑ ﺡﻮﻤﺴﻣ ﺮﻴﻏ "
+
+##############
+# Automation #
+##############
+
+ AUTOMATION_ASTRAL_RIFTS_ENABLED: "£trigger_yes£$AUTOMATION_ASTRAL_RIFTS$ "
+ AUTOMATION_ASTRAL_RIFTS: "ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ"
+
+##############
+# Skin Types #
+##############
+
+ SKIN_DEF: "ﺪﻠﺟ"
+ SKIN_FUR: "ﺀﺍﺮﻔﻟﺍ"
+ SKIN_SPINES: "ﻱﺮﻘﻔﻟﺍ ﺩﻮﻤﻌﻟﺍ"
+ SKIN_SCALES: "ﺲﻴﻳﺎﻘﻤﻟﺍ"
+ SKIN_FEATHERS: "ﺶﻳﺮﻟﺍ"
+ SKIN_EXOSKELETON: "ﻲﺟﺭﺎﺨﻟﺍ ﻞﻜﻴﻬﻟﺍ"
+ SKIN_MANTLE: "ﺓﺀﺎﺒﻋ"
+ SKIN_SHELL: "ﺔﻓﺪﺻ"
+ SKIN_MEMBRANE: "ﺀﺎﺸﻏ"
+ SKIN_EPIDERMIS: "ﺓﺮﺸﺒﻟﺍ"
+ SKIN_FRONDS: "ﻒﻌﺳ"
+ SKIN_VINES: "ﺰﻨﻳﺎﻓ"
+ SKIN_ROOTS: "ﺭﻭﺬﺟ"
+ SKIN_FLESH: "ﻢﺤﻟ"
+ SKIN_LIFE_SUPPORT: "ﺓﺎﻴﺤﻟﺍ ﻢﻋﺩ ﻡﺎﻈﻧ"
+ SKIN_BONES: "ﻡﺎﻈﻌﻟﺍ"
+ SKIN_BLUBBER: "ﻦﻫﺩ"
+ SKIN_GANGRENE: "ﺎﻨﻳﺮﻏﺮﻐﻟﺍ"
+ SKIN_GEODES: "ﺩﻮﻴﺠﻟﺍ"
+ SKIN_EXTERIOR: "ﺝﺭﺎﺨﻟﺍ"
+ SKIN_ABSTRACT: "ﺢﻄﺳ"
+
+ ###########
+ # Agendas #
+ ###########
+
+ council_agenda_agenda_dark_matter_breakthrough_name: "ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻕﺍﺮﺘﺧﺍ"
+ council_agenda_agenda_dark_matter_breakthrough_desc: ".ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﺔﺠﻟﺎﻌﻣ ﻝﺎﺠﻣ ﻲﻓ ﺪﻌﺑ ﻞﻣﺎﻜﻟﺎﺑ ﺎﻬﻔﺸﻜﺘﺴﻧ ﻢﻟ ﺔﻳﻮﻗ ﺕﺎﻘﻴﺒﻄﺗ ﻙﺎﻨﻫ"
+ council_agenda_agenda_dark_matter_breakthrough_init_effect_desc: "§! civic، ﻪﺣﻼﺻﺇ ﻊﻨﻤﻳ ﺎﻤﻣ.§R§Y$civic_dark_consortium$§! ﻞﻔﻘﻳ§!"
+ council_agenda_agenda_dark_matter_breakthrough_effect_desc: ".ﺔﻴﺋﺍﻮﺸﻌﻟﺍ £sr_dark_matter£ ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﺔﻴﻨﻘﺘﻟ ﺚﺤﺒﻟﺍ ﺭﺎﻴﺧ ﺢﺘﻔﻳ"
+ agenda_dark_matter_breakthrough_techs_obsolete: "$TRIGGER_FAIL$ ﺖﻔﺸﻛ ﺪﻘﻟ Dark Matter ﺎﻫﺭﺍﺮﺳﺃ ﻊﻴﻤﺟ ﻦﻋ ﻞﻌﻔﻟﺎﺑ."
+ civic_dark_consortium_locked: "$council_agenda_agenda_dark_matter_breakthrough_name$ ﺃﺪﺑ"
+
+########################
+# Anomalies & Projects #
+########################
+
+ ASTRAL_SCAR_CAT: "$pc_astra_scar$"
+ anomaly_astral_scar_desc: ".ﻰﻠﻋﺃ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﻥﻮﻜﻟﺍ ﺎﻜﻴﻧﺎﻜﻴﻤﻟ ﻲﻤﻠﻌﻟﺍ ﺎﻨﻤﻬﻓ ﻊﻓﺪﺗ ﻥﺃ ﻦﻜﻤﻳ ﺓﺮﻫﺎﻈﻟﺍ ﻩﺬﻫ ﺔﺳﺍﺭﺩ ﻥﺇ\n\n .ﺔﻓﻭﺮﻌﻤﻟﺍ ﺔﻴﺋﺎﻳﺰﻴﻔﻟﺍ ﺔﻴﺒﺴﻨﻟﺍ ﻦﻴﻧﺍﻮﻗ ﻚﺴﻤﺗ ﻞﻗ ﺎﻤﻠﻛ ،ﺮﺜﻛﺃ ﺎﻨﺑﺮﺘﻗﺍ ﺎﻤﻠﻛ .ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﺍﺫﺎﺷ ﺎﻋﺪﺻ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+ astral_planes.6000.name: "$pc_astra_scar$"
+ astral_planes.6000.desc: ".ﺏﻮﺴﺤﻤﻟﺍ ﺮﻴﻏ ﺔﻗﺎﻄﻟﺍ ﺭﺪﺼﻤﻟ ﺮﺒﻛﺃ ﺎﻤﻬﻓ ﺮﻓﻮﻳ ﻥﺃ ﺐﺠﻳ ﺓﺮﻫﺎﻈﻟﺍ ﻩﺬﻫ ﻲﻓ ﺚﺤﺒﻟﺍ ﻥﺇ \n\n .ﺎﻨﻧﻮﻜﻟ ﺔﻴﻟﺎﻤﺟﻹﺍ ﺔﻠﺘﻜﻟﺍ ﻯﺮﺧﺄﺑ ﻭﺃ ﺔﻘﻳﺮﻄﺑ ﺪﻳﺰﻳ ﻉﺪﺼﻟﺍ ﻥﺃ ﻻﺇ ،ﺎﻴﺒﺴﻧ ﺮﻴﻐﺻ ﻕﺎﻄﻧ ﻰﻠﻋ ﻪﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺎﻬﺳﺎﻴﻗ ﺎﻨﻨﻜﻤﻳ ﺔﻘﻳﺮﻃ ﻱﺄﺑ ﺲﻴﻟ ﻞﻗﻷﺍ ﻰﻠﻋ - ﻉﺪﺼﻟﺍ ﻝﻮﺣ ﺓﺩﺎﻤﻟﺍ ﻆﻔﺣ ﻢﺘﻳ ﻻ .ﺮﺧﺁ ﻥﺎﻜﻣ ...ﻦﻣ ﺎﻨﻤﻟﺎﻋ ﻰﻟﺇ ﺏﺮﺴﺘﻳ ﻪﻧﺇ\n\n.§Y[FromFrom.System.GetName]§! ﻲﻓ §Y$pc_astral_scar$§! ـﻟ ﺎﻨﻠﻴﻠﺤﺗ ﺎﻨﻠﻤﻛﺃ ﺪﻘﻟ"
+ ASTRAL_SCAR_PROJECT: "$pc_astra_scar$"
+ ASTRAL_SCAR_PROJECT_DESC: ".ﺔﻤﻴﻗ ﺔﻴﻤﻠﻋ ﺔﻳﺅﺭ ﺮﻓﻮﻳ ﻥﺃ ﺐﺠﻳ ﺓﺪﻳﺮﻔﻟﺍ ﻪﺼﺋﺎﺼﺧ ﻦﻋ ﺚﺤﺒﻟﺍ .ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﺍﺫﺎﺷ ﺎﻋﺪﺻ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+ astral_planes.6001.name: "$pc_astra_scar$"
+ astral_planes.6001.desc: ".ﻲﻧﻮﻜﻟﺍ ﺎﻬﻘﻓﺪﺗ ﻞﻴﻠﺤﺗ ﻲﻓ ﺮﻤﺘﺴﻧ ﻥﺃ ﺐﺠﻳ ﺀﺎﻨﺛﻷﺍ ﻩﺬﻫ ﻲﻓ ﻦﻜﻟﻭ ،ﻯﺪﻤﻟﺍ ﺔﻠﻳﻮﻃ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﻢﻬﻓ ﺪﻌﺑ ﻢﺘﻳ ﻢﻟ .ﺩﺍﻮﻤﻠﻟ ﺖﺑﺎﺛ ﻦﻜﻟﻭ ﺮﻴﻐﺻ ﻖﻓﺪﺗ ﻲﻫ ﺔﺠﻴﺘﻨﻟﺍﻭ ،ﺎﻨﻧﻮﻛ ﻰﻠﻋ ﻼﺋﺎﻫ ﺎﻄﻐﺿ ﺔﻴﺋﺎﻳﺰﻴﻔﻟﺍ ﻩﺩﺎﻌﺑﺃ ﺱﺭﺎﻤﺗ ،ﻉﺪﺼﻟﺍ ﻝﻼﺧ ﻦﻣ\n\n.§Y[FromFromFrom.System.GetName]§! ﻡﺎﻈﻧ ﻲﻓ ﺎﻨﻤﻟﺎﻋ ﺝﺭﺎﺧ ﺮﺧﺁ ﻥﻮﻛ ﺩﻮﺟﻭ ﺎﻧﺪﻛﺃ ﺪﻘﻟ"
+ astral_planes.6001.a: "؟ﺎﻫﺀﺍﺭﻭ ﻦﻤﻜﺗ ﺪﻗ ﻲﺘﻟﺍ ﺐﺋﺎﺠﻌﻟﺍ ﻲﻫ ﺎﻣ"
+
+ ASTRAL_SCAR_INSTABILITY: "$pc_astra_scar$ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻡﺪﻋ"
+ ASTRAL_SCAR_INSTABILITY_DESC: ".ﺩﺎﻌﺑﻷﺍ ﺔﺤﺘﻓ ﺭﺍﺮﻘﺘﺳﺍ ﺓﺩﺎﻋﻹ ﺔﻘﻳﺮﻃ ﻦﻋ ﻒﺸﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﻒﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﻖﻴﻘﺤﺘﻟﺍ ﻥﺇ \n\n .ﻚﻟﺬﺑ ﻡﺎﻴﻘﻠﻟ ﺮﺒﻛﺃ ﺭﺬﺤﺑ ﺮﻓﺎﺴﺗ ﻥﺃ ﺐﺠﻳ ﻦﻜﻟﻭ ،ﺎﻬﺒﻨﺠﺗ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﺮﺒﻋ ﺮﻤﺗ ﻲﺘﻟﺍ ﻦﻔﺴﻠﻟ ﻦﻜﻤﻳ .ﻒﻨﻌﺑ ﺮﺠﻔﻨﺗ ﻥﺃ ﻞﺒﻗ ﺐﻳﺮﻘﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺮﺒﻋ ﻞﻘﺘﻨﺗ ﺔﻛﺮﺤﻟﺍ ﺔﺌﻴﻄﺑ ﺕﺍﺩﺮﻔﺘﻣ ﻞﻜﺷ ﻰﻠﻋ ﺮﻬﻈﺗﻭ ،[From.System.GetName] ﻲﻓ §Y$pc_astral_scar$§! ﻦﻣ ﺓﺮﻘﺘﺴﻤﻟﺍ ﺮﻴﻏ ﺔﻴﺑﺫﺎﺠﻟﺍ ﺕﺍﺫﻭﺬﺷ ﺏﺮﺴﺘﺗ"
+ instable_astral_scar_modifier: "$ASTRAL_SCAR_INSTABILITY$"
+ astral_planes.6006.name: "(ﻥﺎﻜﻤﻟﺍﻭ) ﻥﺎﻣﺰﻟﺍ ﻲﻓ ﺓﺯﺮﻏ"
+ astral_planes.6006.desc: ".ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﻥﻮﻜﻳ ﺪﻗ ﺎﻤﻟ ﻑﺎﺸﻜﺘﺳﻻﺍ ﻦﻣ ﺪﻳﺰﻤﺑ ﺎﻀﻳﺃ ﺢﻤﺴﻴﺳ ﺍﺬﻫ ﻥﺄﺑ ﻦﻬﻜﺘﻧﻭ .ﺔﺑﺪﻨﻟﺍ ﻊﻴﺳﻮﺘﻟ ﺔﻟﻭﺎﺤﻣ ﻲﻓ ﻡﻮﺳﺮﻤﻟﺍ ﻦﻣ ﺔﻠﻴﻘﺛ ﺔﻟﻮﻤﺣ ﻢﻴﻠﺴﺗ ﺎﻨﻨﻜﻤﻳ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ\n\n.ﺔﻴﻤﺠﻨﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﻩﺀﺍﺭﻭ ﻙﺮﺘﻳ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣﻭ ﻥﺎﻜﻣﺰﻟﺍ ﻲﻓ ﻕﺰﻤﺘﻟﺍ ﺡﻼﺻﺇ ﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻴﺳ .ﺔﺑﺪﻨﻟﺍ ﻕﻼﻏﺇ "ﺓﺯﺮﻏ" ﻞﺟﺃ ﻦﻣ ﻪﻬﻴﺟﻮﺗ ﺓﺩﺎﻋﺇﻭ §Y$astral_threads$§! ـﻟ ﻱﻮﻘﻟﺍ ﻑﺬﻘﻟﺍ ﻪﻴﺟﻮﺗ ﺓﺩﺎﻋﺇ ﻦﻜﻤﻳ\n\n .ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﻴﺑﺫﺎﺠﻟﺍ ﺕﺍﺩﺮﻔﺗ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻞﻜﺸﺗ ﻊﻨﻤﻟ ﺎﻳﺭﻮﻓ ﻼﺧﺪﺗ ﺐﻠﻄﺘﻳﻭ ﺮﻴﻄﺧ ﻞﻜﺸﺑ ﺮﻘﺘﺴﻣ ﺮﻴﻏ [From.System.GetName] ﻲﻓ §Y$pc_astral_scar$§! ﻥﺃ ﺎﻧﺪﻛﺃ ،ﻖﻴﻗﺪﻟﺍ ﻞﻴﻠﺤﺘﻟﺍ ﺪﻌﺑ"
+ astral_planes.6006.a: ".ﺎﻬﻗﻼﻏﺍ ﺓﺯﺮﻏ"
+ astral_planes.6006.b: ".ﺔﺣﻮﺘﻔﻣ ﺎﻫﺮﻴﺠﻔﺗ"
+ astral_planes.6007.name: "ﻲﻧﻮﻜﻟﺍ ﺡﺮﺠﻟﺍ"
+ astral_planes.6007.desc: ".ﻥﻵﺍ ﺪﻌﺑ ﺎﻨﻌﻗﺍﻭ ﻰﻠﻋ ﺍﺮﻄﺧ ﻞﻜﺸﻳ ﻦﻠﻓ ،ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﻊﻗﺍﻮﻟﺍ ﻥﺎﻛ ﺎﻤﻬﻣ\n\n.ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﻲﻓ §Y$astral_threads$§! ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﺎﻧﺪﻌﺘﺳﺍﻭ ،ﻦﻴﺤﻟﺍ ﻚﻟﺫ ﺬﻨﻣ ﺔﻴﺑﺫﺎﺠﻟﺍ ﺕﺍﺫﻭﺬﺷ ﺖﻔﻗﻮﺗ .[From.System.GetName] ﻲﻓ ﻞﻣﺎﻜﻟﺎﺑ §Y$pc_astral_scar$§! ﻕﻼﻏﺇ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﻕﺰﻤﻤﻟﺍ ﻪﺷﺎﻤﻘﻟ ﺔﻘﻴﻗﺩ ﺔﺠﻟﺎﻌﻣ ﺪﻌﺑ"
+ astral_planes.6008.name: "$astra_planes.6007.name$"
+ astral_planes.6008.desc: ".ﻚﻟﺫ ﺀﺍﺭﻭ ﻦﻤﻜﻳ ﺎﻣ ﻑﺎﺸﺘﻛﻻ ﻥﻭﺪﻌﺘﺴﻣ ﻦﺤﻧﻭ ،ﺔﻴﺑﺫﺎﺠﻟﺍ ﺕﺍﺫﻭﺬﺷ ﻊﺟﺍﺮﺗ ﻰﻟﺇ ﺞﺗﺎﻨﻟﺍ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻯﺩﺃ ﺪﻗﻭ \n\n .ﻪﻓﺎﺸﻜﺘﺳﺍ ﺎﻨﻨﻜﻤﻳ ﺮﺒﻛﺃ ﻉﺪﺻ ﻥﻵﺍ ﺪﺟﻮﻳ ،ﻲﻧﻮﻜﻟﺍ ﺞﻴﺴﻨﻟﺍ ﻲﻓ ﺮﻴﻐﺻ ﻕﺰﻤﺗ ﻙﺎﻨﻫ ﻥﺎﻛ ﺚﻴﺣ .ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﺕﺎﻴﻄﻟﺍ ﻊﻴﺳﻮﺗ ﻰﻟﺇ [From.System.GetName] ﻲﻓ §Y$pc_astral_scar$§! ﺐﻠﻗ ﻰﻟﺇ ﻩﺎﻨﻠﺳﺭﺃ ﻱﺬﻟﺍ ﻡﻮﺳﺮﻤﻟﺍ ﻯﺩﺃ ﺪﻘﻟ"
+ astral_planes.6009.name: "ﻲﻤﺠﻨﻟﺍ ﺭﺎﻴﻬﻧﻻﺍ"
+ astral_planes.6009.desc: ".ﺎﻨﻌﻗﺍﻭ ﻰﻠﻋ ﺍﺮﻄﺧ ﻥﻵﺍ ﺪﻌﺑ ﻞﻜﺸﻳ ﻦﻠﻓ ،ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﻊﻗﺍﻮﻟﺍ ﻥﺎﻛ ﺎﻤﻬﻣ \n\n .ﺔﻏﺭﺎﻓ ﺔﺣﺎﺴﻣ ﻥﻵﺍ ﺪﺟﻮﻳ ،ﻲﻧﻮﻜﻟﺍ ﺞﻴﺴﻨﻟﺍ ﻲﻓ ﺮﻴﻐﺻ ﻕﺰﻤﺗ ﻙﺎﻨﻫ ﻥﺎﻛ ﺚﻴﺣ .ﺭﻭﺎﺠﻤﻟﺍ ﻡﺎﻈﻨﻟﺍ ﻰﻟﺇ $astral_threads$ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﺝﺍﺮﺧﺇ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﺎﻴﻠﺧﺍﺩ [FromFromFromFrom.System.GetName] ﻲﻓ §Y$pc_astral_scar$§! ﺭﺎﻬﻧﺍ ﺪﻘﻟ"
+
+ GREATEST_SHOW_CAT: "ﻊﻃﺎﺳ ﻦﺋﺎﻛ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+ anomaly_greatest_show_desc: ".ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺔﺳﺍﺭﺪﻟﺍﻭ ﺏﺍﺮﺘﻗﻻﺍ ﻦﻣﻵﺍ ﻦﻣ ﻭﺪﺒﻳ .ﻞﺧﺍﺪﻟﺎﺑ ﺓﺮﻳﺎﻄﺘﻣ ﻭﺃ ﺓﺮﺠﻔﺘﻣ ﺕﺎﺒﻛﺮﻣ ﺩﻮﺟﻭ ﻡﺪﻋ ﻰﻟﺇ ﺎﻨﻳﺪﻟ ﺔﻴﺋﻮﻀﻟﺍ ﺕﺎﺤﺳﺎﻤﻟﺍ ﺮﻴﺸﺗ .ﺕﺍﺩﺩﺮﺘﻟﺍ ﻊﻴﻤﺟ ﻰﻠﻋ ﻮﻳﺩﺍﺮﻟﺍ ﺕﺎﺟﻮﻣ ﻦﻣ ﺎﺘﺑﺎﺛ ﺎﻘﻓﺩ ﺚﺒﻳﻭ ،ﺔﻳﺎﻐﻠﻟ ﺔﻣﺪﻘﺘﻣ ﺩﺍﻮﻣ ﻦﻣ ﻉﻮﻨﺼﻣ \n\n.§Y[from.System.GetName]§! ﻲﻓ ﺐﻜﻳﻮﻛ ﻰﻠﻋ ﻊﻃﺎﺳ ﻞﻜﺸﺑ ﺀﺎﻀﻣ ﻢﺴﺟ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+ astral_planes.6010.name: "ﺩﺪﻌﺘﻤﻟﺍ ﻥﻮﻜﻟﺍ ﻲﻓ ﺽﺮﻋ ﻢﻈﻋﺃ"
+ astral_planes.6010.desc: ".ﺏﺬﺠﻟﺍ ﺔﻘﻄﻨﻣ ﻰﻟﺇ ﺮﺷﺎﺒﻤﻟﺍ ﻞﻘﻨﻠﻟ ﺔﻗﺎﻄﻟﺍ ﺓﺪﺻﺭﺃ ﻞﺒﻘﺗ ﺔﻄﺤﻣ ﻙﺎﻨﻫ ."ﺩﺪﻌﺘﻤﻟﺍ ﻥﻮﻜﻟﺍ ﻲﻓ ﺽﺮﻋ ﻢﻈﻋﺃ" ﻪﻴﻤﺴﻳ ﺎﻣ ﻰﻟﺇ ﻪﺴﻔﻧ ﻥﻼﻋﻹﺍ ﺮﻴﺸﻳ \n\n .ﺭﻭﺎﺠﻣ ﻢﺴﺟ ﻱﺃ ﺔﻴﺑﺫﺎﺠﺑ ﺮﺛﺄﺘﻳ ﻻﻭ ،ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺓﺪﺣﺍﻭ ﺔﻄﻘﻧ ﺪﻨﻋ ﺫﺎﺷ ﻞﻜﺸﺑ ﻖﻠﻌﻣ ﻪﺴﻔﻧ ﺐﻜﻳﻮﻜﻟﺍ .ﻪﻴﻠﻋ ﻪﺒﻴﻛﺮﺗ ﻢﺗ ﻱﺬﻟﺍ ﺐﻜﻳﻮﻜﻟﺍ ﻦﻣ ﻲﻠﺧﺍﺪﻟﺍ ﺀﺰﺠﻟﺍ ﻞﻐﺸﺗ ﺔﻴﻜﻴﻧﺎﻜﻴﻣ ﺔﻴﺘﺤﺗ ﺔﻴﻨﺒﺑ ﻡﻮﻋﺪﻣ ﻢﺨﻀﻟﺍ ﺽﺮﻌﻟﺍ ﺍﺬﻫ\n\n.ﻥﻼﻋﺇ ﻮﻫ ﺐﻜﻳﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﻩﺎﻨﻔﺸﺘﻛﺍ ﻱﺬﻟﺍ ﺔﻌﻃﺎﺴﻟﺍ ﺓﺀﺎﺿﻹﺍ ﻭﺫ ﻢﺴﺠﻟﺍ"
+ astral_planes.6010.a: ".ﻡﻮﺳﺮﻟﺍ ﻊﻓﺩ"
+ astral_planes.6010.b: ".ﺹﺎﺨﻟﺍ ﺎﻨﻣﺍﺪﺨﺘﺳﻻ ﺔﺘﻓﻼﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﺪﻋﺃ"
+ astral_planes.6010.c: ".ﺓﺩﺮﺨﻟﺍ ﺩﺍﻮﻤﻠﻟ ﺎﻬﻜﻴﻜﻔﺗ"
+ astral_planes.6011.name: "ﻉﺪﺼﻟﺍ ﺮﻬﻈﻳ"
+ astral_planes.6011.desc: ".ﻪﻧﺎﻜﻣ ﻲﻤﺠﻧ ﻉﺪﺻ ﻲﻘﺑﻭ ،ﺔﻃﺎﺴﺒﺑ ﺐﻜﻳﻮﻜﻟﺍ ﻰﻔﺘﺧﺍ ،ﻪﻠﻤﻋ ﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ ﺩﺮﺠﻤﺑ .ﺔﻗﺪﺑ ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﺞﻴﺴﻧ ﻞﺼﻔﻓ ،ﺝﺭﺎﺨﻟﺍ ﻰﻟﺇ ﺐﻗﺎﺜﻟﺍ ﻕﺭﺯﻷﺍ ﺀﻮﻀﻟﺍ ﻦﻣ ﺭﺎﻴﺗ ﻖﻠﻄﻧﺍ .ﺓﺎﻴﺤﻟﺍ ﻰﻟﺇ ﺐﻜﻳﻮﻜﻟﺍ ﻞﺧﺍﺩ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺔﻟﻵﺍ ﺕﺩﺎﻋ ،ﺎﻨﺗﺎﻋﻮﻓﺪﻣ ﺔﺠﻟﺎﻌﻣ ﺪﻌﺑ"
+ astral_planes.6011.a: ".ﻊﻳﺪﺑ"
+ astral_planes.6012.name: "ﻝﺎﻌﻔﻟﺍ ﻥﻼﻋﻹﺍ"
+ astral_planes.6012.desc: ".ﺎﻬﻠﺧﺍﺪﺑ ﺔﻗﺎﻄﻟﺍ ﺓﺪﺻﺭﻷ ﺮﻴﻐﺻ ﺄﺒﺨﻣ ﻦﻋ ﻒﺸﻛ ﺎﻤﻣ ،ﺔﻳﺎﻨﻌﺑ ﻊﻓﺪﻟﺍ ﺔﻄﺤﻣ ﻚﻴﻜﻔﺗ ﻢﺗ .[fromfrom.GetName] ﻰﻠﻋ ﺔﻴﻠﺤﻤﻟﺍ ﺎﻨﺘﻛﺮﺸﻟ ﺪﻴﻳﺄﺘﺑ ﺫﺎﺸﻟﺍ ﻥﻼﻋﻹﺍ ﺎﻨﻟﺪﺒﺘﺳﺍ ﺪﻘﻟ"
+ astral_planes.6012.a: ".ﺮﻣﺎﻐﻣ ﻒﻴﻛ"
+ astral_planes.6013.name: "ﺓﺪﻘﻌﻣ ﺕﺎﺘﻓﻻ"
+ astral_planes.6013.desc: ".ﺎﻣ ﺔﻘﻳﺮﻄﺑ ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺎﺑ ﺐﻋﻼﺘﻠﻟ ﻪﻤﻴﻤﺼﺗ ﻢﺗ ﺪﻗ ﻑﻮﺠﻤﻟﺍ ﺐﻜﻳﻮﻜﻟﺍ ﻥﺃ ﺪﺑ ﻻ .§Y$astral_threads$§! ﻦﻣ ﺔﻴﻌﻴﺒﻃ ﺮﻴﻏ ﺔﻴﻤﻛ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ - ﺓﺭﺩﺎﻨﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺔﻋﻮﻨﺘﻣ ﺔﻋﻮﻤﺠﻣ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ .ﺓﺮﻴﺒﻛ ﺔﻤﻴﻗ ﺎﻫﺫﺎﻘﻧﺇ ﺎﻨﺒﺴﻛﺃ ﺪﻘﻓ ،ﻮﺤﻨﻟﺍ ﺍﺬﻫ ﻰﻠﻋﻭ .ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ ﺎﻌﻗﻮﺘﻣ ﻥﺎﻛ ﺎﻤﻣ ﺎﻣﺪﻘﺗ ﺮﺜﻛﺃ ﺐﻜﻳﻮﻜﻠﻟ ﺔﻴﻠﺧﺍﺪﻟﺍ ﺕﺎﻴﻟﻵﺍ ﻲﻓ ﺔﻣﺪﺨﺘﺴﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺖﻧﺎﻛ"
+ astral_planes.6013.a: ".ﺪﻴﺟ ﻞﻜﺸﺑ ﺀﺎﻴﺷﻷﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴﻧ ﻥﺃ ﺐﺠﻳ"
+
+ BLACK_HOLE_INSTABLE_CAT: "$sc_black_hole$ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻡﺪﻋ"
+ anomaly_black_hole_instable_desc: ".ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﻯﺮﺧﺃ ﻰﻟﺇ ﺔﻄﻘﻧ ﻦﻣ ﺔﻇﻮﺤﻠﻣ ﺔﻴﻨﻣﺯ ﺕﺎﻀﻗﺎﻨﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺎﻬﺘﻴﺑﺫﺎﺟ ﻯﻮﻘﺑ ﺆﺒﻨﺘﻟﺍ ﻦﻜﻤﻳ ﻻ .[from.System.GetName] ﻡﺎﻈﻧ ﻲﻓ ﺩﻮﺳﻷﺍ ﺐﻘﺜﻠﻟ ﺔﻌﻗﻮﺘﻤﻟﺍ ﺔﻴﺋﺎﻳﺰﻴﻔﻟﺍ ﺺﺋﺎﺼﺨﻟﺍ ﻦﻋ ﺓﺮﻴﺒﻛ ﺕﺎﻓﺍﺮﺤﻧﺍ ﺎﻨﻳﺪﻟ ﺔﻴﺋﻮﻀﻟﺍ ﺕﺎﺤﺳﺎﻤﻟﺍ ﺖﻔﺸﺘﻛﺍ"
+ astral_planes.6020.name: "ﺩﻮﺳﻷﺍ ﺐﻘﺜﻟﺍ ﺭﺍﺮﻘﺘﺳﺍ ﻡﺪﻋ"
+ astral_planes.6020.desc: ".ﺔﻨﻣﺁ ﺔﻓﺎﺴﻣ ﻦﻣ ﻲﻧﻮﻜﻟﺍ ﺞﻴﺴﻨﻟﺍ ﺩﺎﺼﺣ ﺔﻠﺻﺍﻮﻤﺑ ﺎﻨﻟ ﺢﻤﺴﻴﺳ ﺮﺧﺁ ﺀﺍﺮﺟﺇ ﻱﺃ ﺫﺎﺨﺗﺍ ﻡﺪﻋ ﻥﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ\n\n.ﺩﺮﻔﺘﻤﻟﺍ ﻰﻟﺇ §Y$astral_threads$§! ﻦﻣ ﺰﻴﻛﺮﺘﻟﺍ ﻲﻟﺎﻋ ﺭﺎﻴﺗ ﻪﻴﺟﻮﺗ ﻖﻳﺮﻃ ﻦﻋ ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﺔﺣﺎﺴﻣ ﺭﺍﺮﻘﺘﺳﺍ ﺓﺩﺎﻋﺇﻭ ﺔﺑﺪﻨﻟﺍ ﺝﺍﺮﺧﻹ ﺔﻘﻳﺮﻃ ﻙﺎﻨﻫ ﻥﻮﻜﺗ ﺪﻗ\n\n.ﻞﻴﺤﺘﺴﻣ ﺙﺪﺤﻟﺍ ﺍﺬﻫ ﻞﺜﻣ ﻥﺃ ﺎﻘﺑﺎﺳ ﺪﻘﺘﻌﻳ ﻥﺎﻛ .ﺀﻂﺒﺑ ﺎﻬﺟﺍﺮﺧﺇ ﻥﻵﺍ ﻢﺘﻳﻭ ﺎﻫﺩﺮﻔﺗ ﻰﻟﺇ ﺔﻴﻤﺠﻨﻟﺍ ﺔﺑﺪﻨﻟﺍ ﺐﺤﺳ ﻢﺗ ،ﺎﻣ ﺖﻗﻭ ﻲﻓ ﻪﻧﺃ ﻲﻨﻌﻳ ﺍﺬﻫ .§Y$astral_threads$§! ﻊﻗﺍﻮﻟﺍ ﻲﻓ ﻲﻫ [from.System.GetName] ﻲﻓ ﺩﻮﺳﻷﺍ ﺐﻘﺜﻟﺍ ﺎﻬﻘﻠﻄﻳ ﻲﺘﻟﺍ ﺕﺎﻤﻴﺴﺠﻟﺍ ﺾﻌﺑ"
+ astral_planes.6020.a: ".ﺩﺮﻔﺘﻟﺍ ﻲﻓ ﺔﻴﻤﺠﻨﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻦﻘﺣ"
+ astral_planes.6020.b: ".ﺔﻨﻣﺁ ﺔﻓﺎﺴﻣ ﻦﻣ ﻂﻴﺨﻟﺍ ﻊﻤﺟ"
+ astral_planes.6021.name: "ﻉﺪﺼﻟﺍ ﺮﻬﻈﻳ"
+ astral_planes.6021.desc: ".ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﻊﻘﻳ ﺎﻤﻣ ﻖﻘﺤﺘﻟﺍ ﻞﻗﻷﺍ ﻰﻠﻋ ﺎﻨﻨﻜﻤﻳ ﻥﻵﺍ ﻦﻜﻟﻭ ،ﻻﻮﻬﺠﻣ ﻝﺍﺰﻳ ﻻ ﻝﻭﻷﺍ ﻡﺎﻘﻤﻟﺍ ﻲﻓ ﺩﺮﻔﺘﻤﻟﺍ ﻲﻓ ﻱﻭﺎﻤﺴﻟﺍ ﺫﻭﺬﺸﻟﺍ ﺍﺬﻫ ﺹﺎﺼﺘﻣﺍ ﻢﺗ ﻒﻴﻛ \n\n .ﻪﺘﻴﺑﺫﺎﺟ ﺮﺌﺑ ﻞﺧﺍﺩ ﺎﻘﻠﻌﻣ ﻥﻵﺍ ﺢﺒﺻﺃ ﺎﻴﻤﺠﻧ ﺎﻋﺪﺻ ﻞﻜﺸﺘﻟ ﺕﺎﻤﻴﺴﺠﻟﺍ ﻩﺬﻫ ﺖﻌﻤﺠﺗ ﺪﻘﻟ .ﺩﻮﺳﻷﺍ ﺐﻘﺜﻟﺍ ﺔﻴﺑﺫﺎﺟ ﻦﻣ ﺔﻴﻓﺎﺿﻹﺍ ﺩﺎﻌﺑﻷﺍ ﺕﺍﺫ ﺕﺎﻤﻴﺴﺠﻟﺍ ﻦﻣ ﻥﺎﻓﻮﻃ ﻖﻓﺪﺗ ﺚﻴﺣ ،ﻒﻴﻨﻋﻭ ﻱﺭﻮﻓ ﻞﻌﻓ ﺩﺭ ﺙﻭﺪﺣ ﻲﻓ ﺓﺩﺮﻔﺘﻤﻟﺍ ﻲﻓ §Y$astral_threads$§! ﻦﻘﺣ ﺐﺒﺴﺗ"
+ astral_planes.6022.name: "ﺔﺑﺪﻧ ﺕﺪﻟﻭ"
+ astral_planes.6022.desc: ".ﻦﻴﺤﻟﺍ ﻚﻟﺫ ﺬﻨﻣ ﺎﻬﺘﻌﻴﺒﻃ ﻰﻟﺇ ﺩﻮﺳﻷﺍ ﺐﻘﺜﻠﻟ ﺔﻴﺑﺫﺎﺠﻟﺍ ﻯﻮﻗ ﺕﺩﺎﻋ ﺪﻘﻟ \n\n .ﺓﺮﺻﺎﺤﻤﻟﺍ ﺔﻴﻤﺠﻨﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ،ﻩﺩﺮﻔﺘﻣ ﻲﻓ ﺎﺘﻗﺆﻣ ﻪﺻﺎﺼﺘﻣﺍ ﻢﺗ ﻱﺬﻟﺍ $pc_astral_scar$ ﺝﺍﺮﺧﺈﺑ [from.System.GetName] ﻲﻓ ﺩﻮﺳﻷﺍ ﺐﻘﺜﻟﺍ ﻡﺎﻗ"
+
+ astral_planes.6030.name: "ﺔﻴﻜﻠﻔﻟﺍ ﺔﺑﻮﺠﻋﻷﺍ"
+ astralnomical_interest_modifier: "ﺔﻴﻜﻠﻔﻟﺍ ﺓﺪﺋﺎﻔﻟﺍ"
+ astralnomical_interest_tt: ".ﺎﻳﺮﻬﺷ §YPhysics Research§! £physics_research£ ﻊﺑﺎﺘﻟﺍ ﺮﻴﻏ §HOrganic Pop§! £pop£ ﻞﻛ ﺞﺘﻨﻳ"
+ astral_planes.6030.desc.common_1: "ـﺑ ﺍﺭﺎﻬﺒﻧﺍ [this.GetName] ﻲﻓ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﺭﻮﻃ ﺪﻘﻟ"
+ astral_planes.6030.desc.common_2: ".ﻢﻬﺴﻔﻧﺄﺑ ﻪﺘﻳﺅﺮﻟ ﺐﻛﻮﻜﻟﺍ ﻰﻟﺇ [owner.GetName] ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻦﻣ ﺓﺍﻮﻬﻟﺍ ﻚﻠﻔﻟﺍ ﺀﺎﻤﻠﻋ ﺪﻓﺍﻮﺗ\n\n.ﺎﻬﻣﺪﻘﻳ ﺪﻗ ﻲﺘﻟﺍ ﺹﺮﻔﻟﺍ ﻭﺃ ﺮﻃﺎﺨﻤﻟﺍ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ،ﻪﻟﻮﺻﺃ ﻝﻮﺣ ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺕﺎﻨﻬﻜﺗ ﺪﺟﻮﺗ .ﺐﻛﻮﻜﻠﻟ ﻲﺑﻮﻨﺠﻟﺍ ﺓﺮﻜﻟﺍ ﻒﺼﻧ ﻦﻣ ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﺔﻴﺋﺮﻣ"
+ astral_planes.6030.desc.rift: "$astral_planes.6030.desc.common_1$ $astral_rift$ $astral_planes.6030.desc.common_2$"
+ astral_planes.6030.desc.scar: "$astral_planes.6030.desc.common_1$ $pc_astral_scar$ $astral_planes.6030.desc.common_2$"
+
+ astral_planes.6035.name: "ﺔﺑﺭﺎﻀﺘﻣ ﻯﺅﺭ"
+ astral_planes.6035.tt: "$r_stability$ 5 ﺪﻘﻔﺗ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ"
+ conflicting_visions: "$astra_planes.6035.name$"
+ astral_planes.6035.desc.common_1: "ﺔﻴﻠﺤﻤﻟﺎﺑ ﺭﺎﻬﺒﻧﻻﺍ"
+ astral_planes.6035.desc.common_2: "ﻥﺃ ﺕﺎﻋﻮﻤﺠﻤﻟﺍ ﻯﺪﺣﺇ ﻲﻋﺪﺗ\n\n.ﺎﻨﻤﻟﺎﻋ ﺯﻭﺎﺠﺘﻳ ﻢﻟﺎﻌﻟ ﻯﺅﺭ ﻥﻭﺮﺒﺘﺨﻳ ﻢﻬﻧﺃ ﺹﺎﺨﺷﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺩﺎﻓﺃ .ﺎﺒﺼﻌﺘﻣ ﺢﺒﺻﺃ [this.GetName] ﻰﻠﻋ"
+ astral_planes.6035.desc.common_3: ".ﺮﻳﻮﻨﺘﻟﺍ ﺡﺎﺘﻔﻣ ﻞﻤﺤﻳ ﺩﻮﺳﺃ ﻢﺠﻧ ﻦﻋ ﺖﻔﺸﻛ ﻢﻫﺍﺅﺭ ﻥﺇ ﻥﻭﺮﺧﺁ ﻝﻮﻘﻳ ،ﻞﺑﺎﻘﻤﻟﺍ ﻲﻓ\n\n.ﺎﻬﻟ ﺮﺼﺣ ﻻ ﻢﻟﺍﻮﻋ ﺮﺒﻋ ﻥﺯﺍﻮﺘﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺔﻋﺎﺳ ﻒﻠﺑ ﻲﻜﻴﻧﺎﻜﻴﻣ ﻪﻟﺇ ﻡﻮﻘﻳ ﺚﻴﺣ ،ﺔﻋﺎﺴﻟﺍ ﺔﻴﻟﺁ ﺓﺮﺠﻣ ﺰﻛﺮﻣ ﻰﻟﺇ ﻱﺩﺆﻳ"
+ astral_planes.6035.desc.rift: "$astral_planes.6035.desc.common_1$ $astral_rift$ $astral_planes.6035.desc.common_2$ ﻉﺪﺼﻟﺍ $astral_planes.6035.desc.common_3$"
+ astral_planes.6035.desc.scar: "$astral_planes.6035.desc.common_1$ $pc_astral_scar$ $astral_planes.6035.desc.common_2$ ﺔﺑﺪﻧ $astral_planes.6035.desc.common_3$"
+
+ astral_planes.6040.name: "ﺓﻮﺠﻔﻟﺍ ﻉﺎﺴﺗﺍ"
+ astral_planes.6040.tt: "$r_stability$ 10ﻭ 5 ﻦﻴﺑ ﺎﻣ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺮﺴﺨﺗ"
+ widening_divide_1: "$astra_planes.6040.name$"
+ widening_divide_2: "$widening_divide_1$"
+ widening_divide_3: "$widening_divide_1$"
+ widening_divide_4: "$widening_divide_1$"
+ widening_divide_5: "$widening_divide_1$"
+ widening_divide_6: "$widening_divide_1$"
+ astral_planes.6040.desc.common: ".ﻢﻫﺩﻭﺪﺣ ﺯﻭﺎﺠﺘﻳ ﺩﻮﺳﺃ ﻢﺠﻧ ﻭﺃ ﻲﻜﻴﻧﺎﻜﻴﻣ ﻪﻟﺇ ﺩﻮﺟﻭ ﻰﻠﻋ ﺔﻴﻗﺍﺪﺼﻤﻟﺍ ﺀﺎﻔﺿﺇ ﺎﻨﻣ ﺐﻠﻄﻳ ﻪﻧﺃ ﻻﺇ ،ﺎﺒﻳﺮﻏ ﻭﺪﺒﻳ ﺪﻗ ﺮﻣﻷﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.ﻲﻤﺳﺭ ﻥﻼﻋﺇ ﺭﺍﺪﺻﺈﺑ ﻥﻮﻴﻠﺤﻤﻟﺍ ﺀﺎﻤﻋﺰﻟﺍ ﺐﻟﺎﻄﻳ .ﻒﻨﻋ ﻝﺎﻤﻋﺃ ﻉﻻﺪﻧﺍ ﻰﻟﺇ ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﺕﺩﺃ ﺓﺩﺎﺣ ﺕﺎﺷﺎﻘﻧ ﻥﻭﺮﻤﻌﺘﺴﻤﻟﺍ ﺎﻬﻠﻘﻧ ﻲﺘﻟﺍ ﺔﺒﻳﺮﻐﻟﺍ ﻯﺅﺮﻟﺍ ﺕﺭﺎﺛﺃ .ﺍﺀﻮﺳ [this.GetName] ﻲﻓ ﻥﺎﻜﺴﻟﺍ ﻦﻴﺑ ﻡﺎﺴﻘﻧﻻﺍ ﺩﺍﺩﺰﻳ"
+ astral_planes.6040.desc.rift: "$astral_planes.6040.desc.common$ $astral_rift$."
+ astral_planes.6040.desc.scar: "$astra_planes.6040.desc.common$ $pc_astral_scar$."
+ astral_planes.6040.a: ".ﻲﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﻪﻟﻹﺍ ﺎﻴﺤﻳ"
+ astral_planes.6040.b: ".ﺩﻮﺳﻷﺍ ﻢﺠﻨﻟﺍ ﻰﻟﺇ ﻥﻭﺮﻈﻨﻳ ﻢﻬﻋﺩ"
+ astral_planes.6040.c: ".ﻦﻴﺘﻳﺅﺮﻟﺍ ﻦﻣ ﻱﺃ ﻲﻓ ﺓﺰﻴﻣ ﻱﺃ ﺪﺟﻮﻳ ﻻﻭ"
+
+ astral_planes.6045.name: "ﻱﺮﻈﻨﻟﺍ ﺪﻌﺑ ﺎﻣ ﻉﺍﺮﺼﻟﺍ"
+ astral_planes.6045.desc: ".ﺭﺍﺮﻤﺘﺳﻻﺎﺑ ﺍﺬﻬﻟ ﺡﺎﻤﺴﻟﺍ ﻦﻜﻤﻳ ﻻ\n\n.ﺐﻛﻮﻜﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺔﻔﻴﻨﻋ ﺕﺎﻛﺎﺒﺘﺷﺍ ﻰﻟﺇ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﺷﻭﺎﻨﻤﻟﺍ ﺕﺩﺃﻭ ،ﺡﻼﺴﻟﺍ ﺔﺴﻓﺎﻨﺘﻤﻟﺍ ﺕﺎﻋﻮﻤﺠﻤﻟﺍ ﺖﻠﻤﺣ ﺪﻘﻟ .ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺕﺎﺑﺍﺮﻄﺿﺍ ﻰﻟﺇ ﻥﺎﻜﺴﻟﺍ ﺎﻬﺷﺎﻋ ﻲﺘﻟﺍ ﺔﻀﻗﺎﻨﺘﻤﻟﺍ ﻯﺅﺮﻟﺍ ﺕﺩﺃ\n\n![this.GetName] ﻰﻠﻋ ﺔﺛﺭﺎﻛ"
+ astral_planes.6045.a: ".ﻥﻮﻨﺠﻟﺍ ﻒﻗﻭ"
+
+ astral_planes.6050.name: "ﻲﻤﺠﻨﻟﺍ ﺱﺎﻤﺤﻟﺍ"
+ astral_zeal_modifier: "ﻲﻤﺠﻨﻟﺍ ﺱﺎﻤﺤﻟﺍ"
+ astral_zeal_modifier_tt: ".§Y$astral_rift$§! ﻝﺎﻤﻛﺇ ﺪﻨﻋ $r_unity$ ﻦﻣ ﺮﻴﻐﺻ ﻎﻠﺒﻣ ﻰﻠﻋ ﻞﺼﺣﺍ"
+ astral_planes.6050.desc.common_1: "ﺃ ﺔﻳﺅﺭ ﻊﻣ"
+ astral_planes.6050.desc.common_2: "ﻝﻮﺣ ﺵﺎﻘﻨﻟﺍﻭ ،ﺔﻴﻗﺍﺪﺼﻣ ﺕﺍﺫ ﺖﺤﺒﺻﺃ"
+ astral_planes.6050.desc.common_3: ".ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﻰﻠﻋﺃ ﺎﻬﺘﺳﺍﺭﺪﻟ ﻡﺎﻌﻟﺍ ﺱﺎﻤﺤﻟﺍ ﻦﻜﻳ ﻢﻟ ،ﻪﺴﻔﻧ ﺖﻗﻮﻟﺍ ﻲﻓﻭ .ﻅﻮﺤﻠﻣ ﻞﻜﺸﺑ ﺖﻟﺀﺎﻀﺗ ﺪﻘﻟ"
+ astral_planes.6050.desc.mechgod: "ﺔﻋﺎﺴﻟﺍ ﻪﻟﺇ"
+ astral_planes.6050.desc.blackstar: "ﻞﻘﻌﻠﻟ ﻊﺳﻮﻤﻟﺍ ﺩﻮﺳﻷﺍ ﻢﺠﻨﻟﺍ"
+ astral_planes.6050.desc.rift_mechgod: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.mechgod$ $astral_planes.6050.desc.common_2$ $astral_rift$ $astral_planes.6050.desc.common_3$"
+ astral_planes.6050.desc.rift_blackstar: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.blackstar$ $astral_planes.6050.desc.common_2$ $astral_rift$ $astral_planes.6050.desc.common_3$"
+ astral_planes.6050.desc.scar_mechgod: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.mechgod$ $astral_planes.6050.desc.common_2$ $pc_astral_scar$ $astral_planes.6050.desc.common_3$"
+ astral_planes.6050.desc.scar_blackstar: "$astral_planes.6050.desc.common_1$ $astral_planes.6050.desc.blackstar$ $astral_planes.6050.desc.common_2$ $pc_astral_scar$ $astral_planes.6050.desc.common_3$"
+
+ astral_planes.6055.name: "ﺵﺎﻘﻨﻟﺍ ﺺﻴﻠﻘﺗ ﻢﺗ"
+ astral_aficionados_modifier: "ﻲﻤﺠﻧ ﻕﺎﺸﻋ"
+ astral_planes.6055.desc.common: ".ﺐﻛﻮﻜﻠﻟ ﻞﺋﺎﻬﻟﺍ ﺪﻬﺸﻤﻟﺎﺑ ﻥﻮﻌﺘﻤﺘﺴﻳ ﺍﻮﻟﺍﺯ ﺎﻣ ﺓﺍﻮﻬﻟﺍ ﻚﻠﻔﻟﺍ ﺀﺎﻤﻠﻋ ﻦﻣ ﺔﻴﺳﺎﺳﺃ ﺔﻋﻮﻤﺠﻣ ﻦﻜﻟ ،ﺓﺪﻳﺪﺟ ﻲﻋﺎﺴﻣ ﻰﻟﺇ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻞﻘﺘﻧﺍ \n\n .ﺡﻮﺘﻔﻤﻟﺍ ﻉﺍﺮﺼﻟﺍ ﻂﻴﺒﺜﺗ ﻰﻟﺇ ﺭﻮﻈﺤﻤﻟﺍ ﻉﻮﺿﻮﻤﻟﺍ ﻰﻟﺇ ﻕﺮﻄﺘﻳ ﻮﻫﻭ ﻪﻴﻠﻋ ﺾﺒﻘﻟﺍ ﻢﺘﻳ ﺺﺨﺷ ﻱﺃ ﻰﻠﻋ ﺔﻣﺭﺎﺼﻟﺍ ﺕﺎﺑﻮﻘﻌﻟﺍ ﺕﺩﺃ .[this.GetName] ﻰﻠﻋ ﺔﺒﻳﺮﻐﻟﺍ ﻯﺅﺮﻟﺍ ﻝﻮﺣ ﺔﻣﺎﻌﻟﺍ ﺕﺎﺸﻗﺎﻨﻤﻟﺍ ﻊﻴﻤﺟ ﺮﻈﺣ ﻢﺗ ﺪﻘﻟ"
+ astral_planes.6055.desc.rift: "$astral_planes.6055.desc.common$ $astral_rift$."
+ astral_planes.6055.desc.scar: "$astra_planes.6055.desc.common$ $pc_astral_scar$."
+ astral_planes.6055.a: ".ﻝﻮﻘﻌﻣ ﺀﺍﺮﺟﺇ"
+
+ SPONTANEOUS_EXPLOSIONS_CAT: "ﺔﻳﻮﻔﻌﻟﺍ ﺕﺍﺭﺎﺠﻔﻧﻻﺍ"
+ COLONIZATION_IMPOSSIBLE_UNDER_INVESTIGATION: "§R.ﻖﻴﻘﺤﺘﻟﺍ ﺪﻴﻗ ﺐﻛﻮﻜﻟﺍ§!$TRIGGER_FAIL$"
+ anomaly_spontaneous_explosions_desc: ".ﻻﻮﻬﺠﻣ ﻝﺍﺰﻳ ﻻ ﺔﻤﺨﻀﻟﺍ ﺕﺍﺭﺎﺠﻔﻧﻻﺍ ﻩﺬﻫ ﺐﺒﺳ ﻥﺈﻓ ،ﺎﻬﻓﺎﺸﺘﻛﺍ ﻦﻜﻤﻳ ﺔﻴﺤﻄﺳ ﺓﺎﻴﺣ ﻭﺃ ﺽﺭﻷﺍ ﻝﻮﺣ ﺭﻭﺪﺗ ﺔﻴﺑﺮﺣ ﻦﻔﺳ ﺩﻮﺟﻭ ﻡﺪﻋ ﻊﻣﻭ .§Y[this.GetName]§! ﺢﻄﺳ ﻰﻠﻋ ﺔﻳﻮﻔﻋ ﺕﺍﺭﺎﺠﻔﻧﺍ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+ astral_planes.6060.name: "ﺓﺮﻳﺎﻄﺘﻤﻟﺍ ﺮﺋﺎﺧﺬﻟﺍ"
+ astral_planes.6060.desc: ".ﺐﻛﻮﻜﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺔﻧﻮﻓﺪﻤﻟﺍ ﻕﻼﻃﻹﺍ ﻊﻗﺍﻮﻣ ﻦﻣ ﺔﻜﺒﺷ ﺩﻮﺟﻭ ﻰﻟﺇ ﺓﺮﺠﻔﺘﻤﻟﺍ ﺕﺎﻐﻳﺮﻔﺘﻟﺍ ﻂﻤﻧ ﺮﻴﺸﻳ ،ﻚﻟﺫ ﻰﻠﻋ ﺓﻭﻼﻋ .ﺔﻳﺎﻐﻠﻟ ﺔﺒﻠﻘﺘﻣﻭ ﺔﻓﻮﻟﺄﻣ ﺮﻴﻏ ﺎﻬﺴﻔﻧ ﺔﺤﻠﺳﻷﺍ \n\n .ﺎﻫﺭﺎﺠﻔﻧﺍ ﺀﺎﻨﺛﺃ ﺐﻛﻮﻜﻟﺍ ﻦﻣ ﺀﺍﺰﺟﺃ ﺎﻬﻨﻣ ﻞﻛ ﻊﻄﻘﺗ ﺚﻴﺣ ،ﺔﺒﻴﻌﻤﻟﺍ ﺮﺋﺎﺧﺬﻟﺎﺑ ﺀﻲﻠﻣ §Y[from.GetName]§! ﺢﻄﺳ"
+ astral_planes.6060.a: ".ﻖﻴﻘﺤﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻣ"
+
+ SPONTANEOUS_EXPLOSIONS: "$astra_planes.6060.name$"
+ SPONTANEOUS_EXPLOSIONS_DESC: "$astra_planes.6060.desc$"
+ astral_planes.6065.name: "$SPONTANEOUS_EXPLOSIONS$"
+ astral_planes.6065.desc: ".ﺮﺠﻔﻨﺗ ﻥﺃ ﻞﺒﻗ ﺎﻬﻟﻮﻌﻔﻣ ﻝﺎﻄﺑﺇﻭ ﺔﺤﻠﺳﻷﺍ ﺾﻌﺑ ﺝﺍﺮﺨﺘﺳﺍ ﺔﻟﻭﺎﺤﻣ ﺎﻨﻨﻜﻤﻳ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺔﺑﺎﻗﺮﻠﻟ ﺔﻌﺿﺎﺧ ﺔﻘﻳﺮﻄﺑ ﺔﻴﻘﺒﺘﻤﻟﺍ ﺮﺋﺎﺧﺬﻟﺍ ﻊﻴﻤﺟ ﻕﻼﻃﺇ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﺎﻨﻳﺪﻟ \n\n .ﺓﺮﻘﺘﺴﻣ ﺮﻴﻏ ﺔﻛﺮﻌﻣ ﺔﺣﺎﺳ ﻰﻟﺇ ﻪﻠﻤﻛﺄﺑ ﺐﻛﻮﻜﻟﺍ ﻝﻮﺤﻳ ﺎﻤﻣ ،ﻞﻄﻌﺘﻟﺍ ﻲﻓ ﻥﻵﺍ ﺕﺃﺪﺑ ،ﻦﻴﻨﺴﻟﺍ ﻑﻻﻵ ﺔﻠﻣﺎﺧ ﺔﻳﺩﺮﻔﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺖﻠﻇ ﻥﺃ ﺪﻌﺑ .ﺔﺤﻠﺳﻸﻟ ﻞﺋﺎﻫ ﺄﺒﺨﻤﻛ ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﻡﺪﺨﺘﺴﻳ ﻥﺎﻛ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻥﺃ ﻰﻟﺇ ﻞﻴﻠﺤﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺮﻴﺸﻳ"
+ astral_planes.6065.a: ".ﻩﺮﻴﺠﻔﺗ"
+ astral_planes.6065.b: ".ﺔﻤﻳﺪﻘﻟﺍ ﺕﺍﺮﺠﻔﺘﻤﻟﺍ ﺓﺩﺎﻌﺘﺳﺍ ﺔﻟﻭﺎﺤﻣ"
+ astral_planes.6065.c: ".ﻪﺴﻔﻧ ﻞﺤﻳ ﻊﺿﻮﻟﺍ ﻉﺩ"
+
+ astral_planes.6070.name: "ﻉﺪﺼﻟﺍ ﺮﻬﻈﻳ"
+ astral_planes.6070.desc.common_1: ".ﻞﻣﺎﻜﻟﺎﺑ ﺐﻛﻮﻜﻟﺍ ﺕﺮﻣﺩ ﻲﺘﻟﺍ ﻞﻌﻔﻟﺍ ﺩﻭﺩﺭ ﻦﻣ ﺔﻠﺴﻠﺳ ﺎﻨﻘﻠﻃﺃ ،[from.GetName] ﻝﻮﺣ ﺔﻳﺎﻨﻌﺑ ﺔﻤﻤﺼﻤﻟﺍ ﺕﺎﻨﺤﺸﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﺮﺸﻧ ﺪﻌﺑ"
+ astral_planes.6070.desc.common_2: ".ﺓﺪﻳﺪﻌﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺊﺑﺎﺨﻣ ﺪﺣﺃ ﻲﻓ ﺔﻧﺰﺨﻣ ﺩﺮﻔﺘﻟﺍ ﺪﻟﻮﺗ ﺎﻬﻋﻮﻧ ﻦﻣ ﺓﺪﻳﺮﻓﻭ ﺔﻳﻮﻗ ﺕﺍﺮﺠﻔﺘﻣ ﺐﺒﺴﺑ ﻥﺎﻛ ﻉﺪﺼﻟﺍ ﺍﺬﻫ ﺢﺘﻓ ﻥﺃ ﺽﺮﺘﻔﻧ ﻦﺤﻧ"
+ astral_planes.6070.desc.no_rift: "$astral_planes.6070.desc.common_2$\n\n.§Y$astral_rift$§! ﻪﻴﻤﺴﻧ ﺎﻣ ﻦﻳﻮﻜﺗ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﻥﺎﻜﻣﺰﻟﺍ ﺞﻴﺴﻧ ﻲﻓ ﺎﺒﻘﺛ ﺎﻀﻳﺃ ﺙﺪﺣﺃ ﻞﺑ ،ﺐﺴﺤﻓ ﺐﻛﻮﻜﻟﺍ ﺮﻣﺪﻳ ﻢﻟ ﻪﻧﺃ ﺔﺟﺭﺪﻟ ﺍﺪﺟ ﺎﻳﻮﻗ ﺞﺗﺎﻨﻟﺍ ﺭﺎﺠﻔﻧﻻﺍ ﻥﺎﻛ\n\n$astra_planes.6070.desc.common_1$"
+ astral_planes.6070.desc.rift: "$astral_planes.6070.desc.common_2$\n\n.§Y$astral_rift$§! ﻦﻳﻮﻜﺗ ﻰﻟﺇ ﻯﺩﺃ ﻞﺑ ،ﺐﺴﺤﻓ ﺐﻛﻮﻜﻟﺍ ﺮﻣﺪﻳ ﻢﻟ ﻪﻧﺃ ﺔﺟﺭﺪﻟ ﺍﺪﺟ ﺎﻳﻮﻗ ﺞﺗﺎﻨﻟﺍ ﺭﺎﺠﻔﻧﻻﺍ ﻥﺎﻛ\n\n$astral_planes.6070.desc.common_1$"
+
+ astral_planes.6075.name: "ﺔﺤﻠﺳﻷﺍ ﺝﺍﺮﺨﺘﺳﺍ ﺡﺎﺠﻧ"
+ astral_planes.6075.desc: ".ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﻲﻘﺒﺘﻤﻟﺍ ﺄﺒﺨﻤﻟﺍ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺎﺑ ﺎﻨﻟ ﺢﻤﺴﻴﺳ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺔﻤﺋﺍﺩ ﺓﺮﻤﻌﺘﺴﻣ ﺀﺎﺸﻧﺇ ﻥﺇ\n\n .ﻞﻴﻠﺤﺘﻟﺍﻭ ﻊﻴﻤﺠﺘﻠﻟ ﺎﻫﺩﺍﺪﻋﺇ ﻞﺒﻗ ﺔﻠﻣﺎﺧ ﺔﻄﺸﻨﻟﺍ ﺮﺋﺎﺧﺬﻟﺍ ﻞﻌﺠﻳ ﺎﻤﻣ ،ﺐﻛﻮﻜﻟﺍ ﺢﻄﺳ ﻰﻠﻋ ﺔﻧﺰﺨﻤﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺝﺍﺮﺨﺘﺳﻻ ﺐﻴﺑﺎﻧﺃ ﻂﺧ ﺀﺎﺸﻧﺇ ﻦﻣ ﺎﻨﻜﻤﺗ ﺪﻘﻟ"
+
+ astral_planes.6076.name: "ﺩﺮﻔﺘﻟﺍ ﺓﺮﻴﺧﺫ ﻑﺎﺸﺘﻛﺍ"
+ astral_planes.6076.desc: ".ﺔﻠﺛﺎﻤﻣ ﺓﺮﺠﻔﺘﻣ ﺔﺤﻠﺳﺃ ﻲﻓ ﺎﻨﺜﺤﺑ ﻦﻣ ﺀﺰﺠﻛ ﻪﻔﻴﻇﻮﺗ ﺓﺩﺎﻋﺇ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻧ ﺪﻗ ،ﻚﻟﺫ ﻊﻣﻭ .ﺭﺍﺮﻜﺘﻟﺍ ﻰﻠﻋ ﺎﻨﺗﺍﺭﺪﻗ ﺯﻭﺎﺠﺘﻳﻭ ﻪﺣﻼﺻﺇ ﻦﻜﻤﻳ ﻻ ﻞﻜﺸﺑ ﻒﻠﺘﻠﻟ ﺡﻼﺴﻟﺍ ﺍﺬﻫ ﺽﺮﻌﺗ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ \n\n .ﻪﺴﻔﻧ ﻥﺎﻜﻣﺰﻟﺍ ﻲﻓ ﺓﻮﺠﻓ ﺙﺍﺪﺣﺇ ﺔﻴﻧﺎﻜﻣﺇ ﻊﻣ ،ﺔﻴﺑﺫﺎﺠﻟﺍ ﺐﺒﺴﺑ ﻒﻴﻨﻋ ﻲﻠﺧﺍﺩ ﺭﺎﺠﻔﻧﺍ ﺙﺍﺪﺣﻹ ﻢﻤﺼﻣ ﺡﻼﺴﻟﺍ ﺍﺬﻫ ﻥﺃ ﻭﺪﺒﻳ .ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ ﺓﺭﻮﺠﻬﻤﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺊﺑﺎﺨﻣ ﻞﺧﺍﺩ ﺩﺮﻔﺘﻟﺍ ﺪﻟﻮﻳ ﺎﻔﻟﺎﺗ ﺎﺧﻭﺭﺎﺻ [from.GetName] ﻥﻮﺳﺭﺪﻳ ﻦﻳﺬﻟﺍ ﻥﻮﺜﺣﺎﺒﻟﺍ ﻒﺸﺘﻛﺍ"
+ astral_planes.6076.a: ".ﺍﺪﺟ ﺪﻴﺟ"
+
+ astral_planes.6080.name: "ﻞﺘﺧﺍ"
+ astral_planes.6080.desc.common_1: ".ﺔﺤﻠﺳﻷﺍ ﺊﺑﺎﺨﻣ ﺔﻜﺒﺷ ﺮﺒﻋ ﺐﻠﻘﺘﻣ ﻞﺴﻠﺴﺘﻣ ﻞﻋﺎﻔﺗ ﺙﻭﺪﺣ ﻰﻟﺇ ﺔﻨﻴﻔﺴﻟﺍ ﺭﺎﺠﻔﻧﺍ ﻯﺩﺃ\n\n.[leader.GetName] ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺔﻨﻴﻔﺴﻟﺍ ﻦﺘﻣ ﻰﻠﻋ ﺍﻮﻧﺎﻛ ﻦﻣ ﻊﻴﻤﺟ ﺪﻘﻓ .ﻞﻠﺧ ﺎﻬﺑ ﺕﺍﺮﺠﻔﺘﻣ ﺔﻄﺳﺍﻮﺑ [this.GetName] ﺮﻴﻣﺪﺗ ﻢﺗ ،[from.GetName] ﻲﻓ ﺓﺭﻮﺠﻬﻤﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺝﺍﺮﺨﺘﺳﻻ ﺐﻴﺑﺎﻧﺃ ﻂﺧ ﺀﺎﺸﻧﺇ ﺔﻟﻭﺎﺤﻣ ﺀﺎﻨﺛﺃ"
+ astral_planes.6080.desc.common_2: "$astra_planes.6070.desc.common_2$"
+ astral_planes.6080.desc.no_rift: "$astral_planes.6070.desc.common_2$\n\n.§Y$astral_rift$§! ﻪﻴﻤﺴﻧ ﺎﻣ ﻦﻳﻮﻜﺗ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﻪﻠﻤﻛﺄﺑ ﻥﺎﻜﻣﺰﻟﺍ ﺞﻴﺴﻧ ﺎﻀﻳﺃ ﻕﺰﻣ ﻞﺑ ،ﺐﺴﺤﻓ ﺐﻛﻮﻜﻟﺍ ﺮﻣﺪﻳ ﻢﻟ ﻪﻧﺃ ﺔﺟﺭﺪﻟ ﺍﺪﺟ ﺎﻔﻴﻨﻋ ﺞﺗﺎﻨﻟﺍ ﻝﻼﺸﻟﺍ ﻥﺎﻛ\n\n$astral_planes.6070.desc.common_1$"
+ astral_planes.6080.desc.rift: "$astral_planes.6070.desc.common_2$\n\n.§Y$astral_rift$§! ﻦﻳﻮﻜﺗ ﻰﻟﺇ ﺕﺩﺃ ﻞﺑ ،ﺐﺴﺤﻓ ﻢﻟﺎﻌﻟﺍ ﺮﻣﺪﺗ ﻢﻟ ﺎﻬﻧﺃ ﺔﺟﺭﺪﻟ ﺔﻳﺎﻐﻠﻟ ﺔﻔﻴﻨﻋ ﺔﺠﺗﺎﻨﻟﺍ ﺔﻠﺴﻠﺴﻟﺍ ﺖﻧﺎﻛ\n\n$astral_planes.6070.desc.common_1$"
+
+ astral_planes.6085.name: "ﻞﺴﻠﺴﺘﻤﻟﺍ ﻞﻋﺎﻔﺘﻟﺍ"
+ astral_planes.6085.desc: ".ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﺔﻧﺰﺨﻤﻟﺍ ﺔﺤﻠﺳﻸﻟ ﺎﻴﺴﻴﺋﺭ ﺎﻧﻮﻜﻣ ﻞﻜﺷ ﺪﻗ ﺩﺭﻮﻤﻟﺍ ﺍﺬﻫ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ .§Y$volatile_motes$§! ﻦﻣ ﺍﺮﻴﺒﻛ ﺍﺰﻴﻛﺮﺗ ﺎﻨﻔﺸﺘﻛﺍ ،ﻡﺎﻄﺤﻟﺍ ﻦﻴﺑ ﻦﻣ\n\n .ﺎﻣﺎﻤﺗ ﺐﻛﻮﻜﻟﺍ ﻚﻜﻔﺗ ﻲﻓ ﺖﺒﺒﺴﺗ ﻲﺘﻟﺍ ﻞﻌﻔﻟﺍ ﺩﻭﺩﺭ ﻦﻣ ﺔﻠﺴﻠﺳ ﻲﻓ ﺎﻬﺗﻭﺭﺫ [from.GetName] ﻰﻠﻋ ﺓﺮﻘﺘﺴﻤﻟﺍ ﺮﻴﻏ ﺔﺤﻠﺳﻸﻟ ﺔﻴﺋﺎﻘﻠﺘﻟﺍ ﺕﺍﺭﺎﺠﻔﻧﻻﺍ ﺖﻐﻠﺑ"
+
+ d_weapon_extraction_facility: "ﺔﺤﻠﺳﻷﺍ ﺝﺍﺮﺨﺘﺳﺍ ﺓﺄﺸﻨﻣ"
+ d_weapon_extraction_facility_desc: ".ﺓﺩﻮﻘﻔﻤﻟﺍ ﺓﺭﺎﻀﺤﻟﺍ ﺎﻬﺘﻔﻠﺧ ﻲﺘﻟﺍ ﺊﺑﺎﺨﻤﻟﺍ ﻦﻣ ﺔﻤﻳﺪﻘﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺔﺠﻟﺎﻌﻤﺑ ﺓﺄﺸﻨﻤﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ munitions_decommissioner: "$job_munitions_decommissioner$"
+ job_munitions_decommissioner: "ﺮﺋﺎﺧﺬﻟﺍ ﻂﺸﻨﻣ"
+ job_munitions_decommissioner_plural: "ﺮﺋﺎﺧﺬﻟﺍ ﻮﺒﺤﺴﻨﻣ"
+ job_munitions_decommissioner_desc: ".ﺔﺜﻳﺪﺤﻟﺍ ﺎﻨﺗﺎﻔﺻﺍﻮﻣ ﺐﺳﺎﻨﺘﻟ ﺔﻴﺴﻜﻋ ﺔﺳﺪﻨﻫ ﺀﺍﺮﺟﺇﻭ ﺔﻤﻳﺪﻘﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺺﺤﻔﺑ ﻥﻮﻴﻠﻤﻌﻟﺍ ﻥﻮﺜﺣﺎﺒﻟﺍ ﺀﻻﺆﻫ ﻡﻮﻘﻳ"
+ mod_job_munitions_decommissioner_add: "$job_munitions_decommissioner$ ﻒﺋﺎﻇﻭ"
+ job_munitions_decommissioning_unit: "ﺮﺋﺎﺧﺬﻟﺍ ﻚﻴﻜﻔﺗ ﺓﺪﺣﻭ"
+ job_munitions_decommissioning_unit_plural: "ﺮﺋﺎﺧﺬﻟﺍ ﻚﻴﻜﻔﺗ ﺕﺍﺪﺣﻭ"
+ job_munitions_decommissioning_unit_desc: ".ﺔﻤﻳﺪﻘﻟﺍ ﺔﺤﻠﺳﻷﺍ ﻞﻴﻠﺤﺗﻭ ﻚﻴﻜﻔﺘﻟ ﺔﺼﺼﺨﺘﻣ ﺕﺍﺪﺣﻭ"
+ mod_job_munitions_decommissioning_unit_add: "$job_munitions_decommissioning_unit$ ﻒﺋﺎﻇﻭ"
+ job_munitions_decommissioning_drone: "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ ﻞﻴﻐﺸﺗ ﻑﺎﻘﻳﺇ ﺮﺋﺎﺧﺬﻟﺍ"
+ job_munitions_decommissioning_drone_plural: "ﺮﺋﺎﺧﺬﻟﺍ ﻞﻴﻐﺸﺗ ﻑﺎﻘﻳﻹ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ"
+ job_munitions_decommissioning_drone_desc: ".ﺔﺜﻳﺪﺤﻟﺍ ﺎﻨﺗﺎﻔﺻﺍﻮﻣ ﺐﺳﺎﻨﺘﻟ ﺓﺀﺎﻔﻜﺑ ﺔﻤﻳﺪﻘﻟﺍ ﺔﺤﻠﺳﻷﺍ ﻚﻴﻜﻔﺘﺑ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+ mod_job_munitions_decommissioning_drone_add: "$job_munitions_decommissioning_drone$ ﻒﺋﺎﻇﻭ"
+
+ astral_researcher: "$job_astra_researcher$"
+ job_astral_researcher: "ﻲﻤﺠﻨﻟﺍ ﺚﺣﺎﺒﻟﺍ"
+ job_astral_researcher_plural: "ﻥﻮﻴﻤﺠﻨﻟﺍ ﻥﻮﺜﺣﺎﺒﻟﺍ"
+ job_astral_researcher_icon: "£job_astral_researcher£"
+ job_astral_researcher_with_icon: "$job_astral_researcher_icon$ $job_astral_researcher$"
+ job_astral_researcher_plural_with_icon: "$job_astral_researcher_icon$ $job_astral_researcher_plural$"
+ job_astral_researcher_desc: ".ﺕﺎﻀﻗﺎﻨﺘﻟﺍ ﻞﻴﻠﻘﺗ ﻊﻣ ﺎﻬﺘﻴﻤﻫﺃ ﻚﻔﻟ ﻞﻠﻛ ﻼﺑ ﻥﻮﺜﺣﺎﺒﻟﺍ ﺀﻻﺆﻫ ﻞﻤﻌﻳ .ﺎﻧﺪﻌﺑ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺪﻌﺑ ﻞﻛ ﺭﺍﺮﺳﺃ ﻰﻠﻋ ﻥﺎﻜﻣﺰﻟﺍ ﻁﻮﻴﺧ ﻱﻮﺘﺤﺗ"
+ job_astral_researcher_effect_desc: " $job_astral_researcher_plural$ ﻝﻮﺤﻳ $r_consumer_goods$ ﻰﻟﺇ $r_research$ ﻭ$r_astral_threads$£job_astral_researcher£"
+ mod_job_astral_researcher_add: "$job_astral_researcher$ ﻒﺋﺎﻇﻭ"
+ mod_job_astral_researcher_per_pop: " $job_astral_researcher$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_astral_researcher_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_astral_researcher_add£ §G+1§!\n"
+ physicist_is_astral_researcher_tt: " $job_physicist_plural$ ﻰﻟﺇ $job_astral_researcher_plural_with_icon$£job_physicist£ ﻞﻳﻮﺤﺗ ﻢﺘﻳ"
+
+ job_astral_drone: "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﻲﻤﺠﻧ"
+ job_astral_drone_plural: "ﻲﻤﺠﻧ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ job_astral_drone_icon: "£job_astral_drone£"
+ job_astral_drone_with_icon: "$job_astral_drone_icon$ $job_astral_drone$"
+ job_astral_drone_desc: ".ﺕﺎﻗﺭﺎﻔﻤﻟﺍ ﻞﻴﻠﻘﺗ ﻊﻣ ﺎﻬﺘﻴﻤﻫﺃ ﺯﻮﻣﺭ ﻚﻔﺑ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻩﺬﻫ ﻒﻴﻠﻜﺗ ﻢﺗ .ﺎﻧﺪﻌﺑ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺪﻌﺑ ﻞﻛ ﺭﺍﺮﺳﺃ ﻰﻠﻋ ﻥﺎﻜﻣﺰﻟﺍ ﻁﻮﻴﺧ ﻱﻮﺘﺤﺗ"
+ job_astral_drone_effect_desc: " $job_astral_drone_plural$ ﻝﻮﺤﻳ $r_minerals$ ﻰﻟﺇ $r_research$ ﻭ$r_astral_threads$£job_astral_drone£"
+ mod_job_astral_drone_add: "$job_astral_drone$ ﻒﺋﺎﻇﻭ"
+ mod_job_astral_drone_per_pop: " $job_astral_drone$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_astral_drone_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_brain_Drone_add£ §G+1§!\n"
+
+ job_astral_unit: "ﺔﻴﻤﺠﻨﻟﺍ ﺓﺪﺣﻮﻟﺍ"
+ job_astral_unit_plural: "ﺔﻴﻤﺠﻨﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ"
+ job_astral_unit_icon: "£job_astral_unit£"
+ job_astral_unit_with_icon: "$job_astral_unit_icon$ $job_astral_unit$"
+ job_astral_unit_desc: ".ﻦﻤﺛ ﻱﺄﺑ ﺕﺎﻗﺭﺎﻔﻤﻟﺍ ﺐﻨﺠﺗ ﻊﻣ ﺎﻬﺘﻴﻤﻫﺃ ﻚﻓ ﺕﺍﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻝﻭﺎﺤﺗ .ﺎﻧﺪﻌﺑ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺪﻌﺑ ﻞﻛ ﺭﺍﺮﺳﺃ ﻰﻠﻋ ﻥﺎﻜﻣﺰﻟﺍ ﻁﻮﻴﺧ ﻱﻮﺘﺤﺗ"
+ job_astral_unit_effect_desc: " $job_astral_unit_plural$ ﻝﻮﺤﻳ $r_energy$ ﻰﻟﺇ $r_research$ ﻭ$r_astral_threads$£job_astral_unit£"
+ mod_job_astral_unit_add: "$job_astra_unit$ ﻒﺋﺎﻇﻭ"
+ mod_job_astral_unit_per_pop: " $job_astral_unit$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_astral_unit_per_pop_short: "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_astral_unit_add£ §G+1§!\n"
+
+
+#############
+# Tutorials #
+#############
+
+ TUTORIAL_ASTRAL_ACTIONS_VIEW_TITLE: "ﺔﻴﻤﺠﻨﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ :ﻲﻤﻴﻠﻌﺘﻟﺍ ﺞﻣﺎﻧﺮﺒﻟﺍ"
+ TUTORIAL_ASTRAL_ACTIONS_VIEW_DESC: ".ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻭﺃ ﺕﺍﺭﺪﻗ ﺢﺘﻔﻟ ﻂﻘﻓ ﺓﺪﺣﺍﻭ ﺓﺮﻣ ﺮﺧﻵﺍ ﺎﻬﻀﻌﺑ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ ﺎﻤﻨﻴﺑ ،ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﺭﺍﺮﻜﺘﻠﻟ ﺔﻠﺑﺎﻗ ﺕﺍﺀﺍﺮﺟﻹﺍ ﺾﻌﺑ .ﺕﺍﺀﺍﺮﺟﻹﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺎﻨﺤﺘﻓ ﺎﻤﻠﻛ ،§SAstral Rifts§! ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺎﻨﻔﺸﺘﻛﺍ ﺎﻤﻠﻛ .ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺔﻋﻮﻨﺘﻣ ﺕﺍﺮﻴﺛﺄﺗ ﻰﻠﻋ $ASTRAL_THREADS_ICON$ ﻕﺎﻔﻧﺈﺑ Astral Actions ﺔﺷﺎﺷ ﺎﻨﻟ ﺢﻤﺴﺗ"
+
+ TUTORIAL_ASTRAL_RIFT_VIEW_TITLE: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺽﺮﻋ"
+ TUTORIAL_ASTRAL_RIFT_VIEW_DESC: ".ﺔﺧﻮﺨﻴﺸﻟﺍ ﺐﺒﺴﺑ ﺍﻮﺗﻮﻤﻳ ﻥﺃ ﻦﻜﻤﻳ ﻻ ،ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻬﺑ ﻥﺎﻜﻤﻟﺍﻭ ﻥﺎﻣﺰﻟﺍ ﻦﻴﺑ ﻢﻬﻋﻮﻗﻮﻟ ﺔﺠﻴﺘﻧﻭ .ﻑﺎﺸﻜﺘﺳﻻﺍ ﻞﻤﺘﻜﻳ ﻰﺘﺣ ﻢﻬﺘﻟﺍﺯﺇ ﻦﻜﻤﻳ ﻻﻭ ﺮﺧﺁ ﺪﻌﺒﺑ ﻦﻳﺪﻴﻘﻣ ﺀﺎﻤﻠﻌﻟﺍ ﻥﻮﻜﻳ ،§SAstral Rift§! ﻑﺎﺸﻜﺘﺳﺍ ﺀﺎﻨﺛﺃ\n\n.ﻕﺍﺮﺘﺧﺍ ﺙﻭﺪﺣ ﺔﻴﻟﺎﻤﺘﺣﺍ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ §SClues§! ﻊﻤﺠﻴﺳ ﺔﻴﻓﺎﻛ ﺓﺮﺘﻔﻟ ﻉﺪﺼﻟﺍ ﻲﻓ ﺚﺤﺒﻳ ﻢﻟﺎﻋ ﻱﺃ .ﺎﻬﺌﻄﺒﻴﺳ ﺭﺎﺴﻤﻟﺍ ﺭﺎﻴﺘﺧﻻ ﻰﻠﻋﻷﺍ ﺔﺑﻮﻌﺼﻟﺍ ﻒﻴﻨﺼﺗ ﻥﺃ ﻦﻴﺣ ﻲﻓ ،ﺔﻴﻟﺎﺘﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ ﻰﻟﺇ ﻡﺪﻘﺘﻟﺍ ﺔﻴﻠﻤﻋ ﻊﻳﺮﺴﺗ ﻰﻠﻋ ﻰﻠﻋﻷﺍ §SSkill ﺓﺭﺎﻬﻣﻭ ﺔﻠﺼﻟﺍ ﺕﺍﺫ §! ﺕﺎﻤﺴﺑ ﻥﻮﻌﺘﻤﺘﻳ ﻦﻳﺬﻟﺍ ﺀﺎﻤﻠﻌﻟﺍ ﻞﻤﻌﻳ .ﻉﺪﺼﻟﺍ ﻞﺣﺍﺮﻣ ﻦﻣ ﺔﻠﺣﺮﻣ ﻞﻛ ﻝﻼﺧ ﻡﺪﻘﺘﻠﻟ §Sﻕﺍﺮﺘﺧﺍ§! ﺀﺍﺮﺟﺇ ﻢﻟﺎﻌﻟﺍ ﻰﻠﻋ ﺐﺠﻳ ،ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺭﺍﺮﺳﺃ ﻒﺸﻜﻟ\n\n.ﺎﻬﻋﺎﺒﺗﺍ ﺐﺠﻳ ﺓﺩﺪﻌﺘﻣ ﺕﺍﺭﺎﺴﻣ ﻰﻠﻋ Astral Rifts ﺪﻌﺑ ﺎﻣ ﻰﻟﺇ ﺔﻴﻓﺎﺸﻜﺘﺳﻻﺍ ﺕﻼﺣﺮﻟﺍ ﻢﻈﻌﻣ ﻱﻮﺘﺤﺗ .ﻥﺎﻴﺣﻷﺍ ﺾﻌﺑ ﻲﻓ ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏﻭ ﺔﻔﻠﺘﺨﻣ ﺞﺋﺎﺘﻧ ﻰﻟﺇ ﻱﺩﺆﺗ ﺎﻨﺋﺎﻤﻠﻌﻟ ﺮﻣﺍﻭﺃ ﺭﺍﺪﺻﺇ ﻚﻨﻣ ﺐﻠﻄﻳ ﺪﻗ ،ﻡﺪﻘﺘﻟﺍ ﻞﺣﺍﺮﻣ ﻦﻣ ﺔﻠﺣﺮﻣ ﻞﻛ ﻲﻓ .ﺎﻴﻟﺎﺣ ﺓﺩﺪﺤﻤﻟﺍ §SAstral Rift§! ﻞﻴﺻﺎﻔﺗ Astral Rift ﺓﺬﻓﺎﻧ ﺽﺮﻌﺗ"
+
+#Mercedes Romero Lives!
+
+astral_planes.6100.name: "ﻲﺋﺎﻬﻨﻟﺍ ﺏﻭﺮﻬﻟﺍ"
+astral_planes.6100.desc: "'s Rift Sphere، ﺏﺎﻘﻋﺃ ﻲﻓ ﻊﺒﺘﺗ ﺔﻠﻣﺎﺧ ﺏﻭﺮﻫ ﺓﺮﺠﺣ :ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﺪﻬﺸﻣ ﺎﻨﻫﺎﺒﺘﻧﺍ ﺖﻔﻠﻳ Sphere. ﺮﺷﺎﺒﻣ ﻮﻳﺪﻴﻓ ﺚﺒﺑ ﺔﺑﻮﺤﺼﻣ ،ﺔﻄﻴﺴﺑ ﺔﺛﺎﻐﺘﺳﺍ ﺓﺭﺎﺷﺇ ﻰﻘﻠﺘﻧ ﺎﻣ ﻥﺎﻋﺮﺳﻭ.[FromFromFrom.GetName] ﺐﻧﺎﺠﺑ Astral Rift ﻦﻣ ﺝﻭﺮﺨﻟﺍ ﺪﻨﻋ"
+astral_planes.6100.b: ".ﺎﻨﻴﻨﻌﻳ ﻻ ﺍﺬﻫ"
+astral_planes.6100.c: ".ﻑﺪﻬﻟﺍ ﺔﺳﺭﺎﻤﻤﻛ ﻪﻣﺍﺪﺨﺘﺳﺍ"
+
+NAME_Mercedes: "ﻭﺮﻴﻣﻭﺭ ﺱﺪﻴﺳﺮﻣ"
+Mercedes_DESC: ".ﺕﺎﻗﺍﺪﺻ ﻦﻳﻮﻜﺗ :ﻢﻬﺘﻤﻬﻣ .ﺎﻨﻫ ﻰﻟﺇ ﻝﻮﺻﻮﻠﻟ ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺞﻬﺘﺒﻤﻟﺍ Blorg ﺍﺬﻫ ﻯﺪﺤﺗ ﺪﻗﻭ ،ﺮﺸﺒﻟﺍ ﺔﺻﺎﺧﻭ ،ﺔﺒﻳﺮﻐﻟﺍ ﺕﺎﻓﺎﻘﺜﻟﺎﺑ ﻒﻐﺷ ﻪﻳﺪﻟﻭ ﻡﺎﻋ ﺔﺋﺎﻣ ﺮﻤﻌﻟﺍ ﻦﻣ ﻎﻠﺒﻳ"
+mercedes_catch_phrase: "؟ﺀﺎﻗﺪﺻﺃ ﻥﻮﻜﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﻞﻫ"
+astral_planes.6105.desc.reg: "؟ﺮﺸﺒﻟﺍ ﻦﻣ ﻢﻠﻌﺗ ﻞﻫ .Blorg ﻊﻤﺘﺠﻣ ﻦﻣ ﺔﻴﺳﺎﻣﻮﻠﺑﺩﻭ ﺔﻔﺸﻜﺘﺴﻣ ،ﻭﺮﻴﻣﻭﺭ ﺱﺪﻴﺳﺮﻣ ﻲﻤﺳﺍ .ﻒﺳﺁ ﺎﻧﺃ ؟ﺎﻧﺃ ﻦﻳﺃ -ﻦﻳﺃ -ﺍﺫﺎﻣ\n\n§H :ﻪﺴﻔﻧ ﻡﺪﻘﻳﻭ ﻪﺒﻟﺎﺨﻣ ﺭﺎﻫﺩﺯﺍ ﻊﻣ ،ﺓﺄﺠﻓ ﻪﺷﺄﺟ ﺔﻃﺎﺑﺭ ﻕﻮﻠﺨﻤﻟﺍ ﺪﻴﻌﺘﺴﻳ .ﻉﺎﻘﻳﻹﺍ ﻞﺜﻣ ﺔﺟﻮﻣ ﻲﻓ ﺔﺟﻮﻤﺘﻣ ،ﺔﻣﻮﻛ ﺔﻛﺮﺣ ﻲﻫ ﺓﺪﻴﺣﻮﻟﺍ ﻪﺘﻛﺮﺣ ،ﻝﻮﻫﺬﻣ ﺖﻤﺻ ﻲﻓ ﺎﻨﻣﺎﻣﺃ ﺾﻴﻐﺒﻟﺍ ﻲﺋﺎﻀﻔﻟﺍ ﻦﺋﺎﻜﻟﺍ ﻒﻘﻳ §!"
+astral_planes.6105.desc.human: ".ﻚﺘﻠﺑﺎﻘﻣ ﻲﻧﺪﻌﺴﻳﻭ ﻭﺮﻴﻣﻭﺭ ﺱﺪﻴﺳﺮﻣ ﻲﻤﺳﺍ\n\n§H.ﺔﺤﻓﺎﺼﻤﻟﺍ ﺪﻴﻠﻘﺘﻟ ﺔﺒﻳﺮﻏ ﺔﻟﻭﺎﺤﻣ ﻲﻓ ﻪﺗﺎﺴﺠﻣ ﻲﺋﺎﻀﻔﻟﺍ ﻦﺋﺎﻜﻟﺍ ﺪﻤﻳ§!\n\n!ﺍﺮﻴﻐﺻ ﺖﻨﻛ ﻥﺃ ﺬﻨﻣ ﻚﺘﻓﺎﻘﺜﺑ ﺎﻧﻮﺘﻔﻣ ﺖﻨﻛ ﺪﻘﻟ ،ﻒﺳﺁ -ﺎﻧﺃ §H*Squeee*§!Y- ؟!ﺮﺸﺑ ﺖﻧﺃ -ﺖﻧﺃ \n\n§H.ﻪﺴﻔﻧ ﺪﻴﻴﻘﺗ ﻞﺒﻗ ﻉﺎﻓﺪﻧﺍ ﺔﻛﺮﺤﺑ ﻡﻮﻘﻳ ،ﺎﻨﻠﻴﺠﺴﺗ ﺪﻨﻋ .ﻉﺎﻘﻳﻹﺍ ﻞﺜﻣ ﺔﺟﻮﻣ ﻲﻓ ﺔﺟﻮﻤﺘﻣ ،ﺔﻣﻮﻛ ﺔﻛﺮﺣ ﻲﻫ ﺓﺪﻴﺣﻮﻟﺍ ﻪﺘﻛﺮﺣ ،ﻝﻮﻫﺬﻣ ﺖﻤﺻ ﻲﻓ ﺎﻨﻣﺎﻣﺃ ﺾﻴﻐﺒﻟﺍ ﻲﺋﺎﻀﻔﻟﺍ ﻦﺋﺎﻜﻟﺍ ﻒﻘﻳ §!"
+astral_planes.6105.a: "؟ﺮﻛﺬﺘﺗ ﺍﺫﺎﻣ"
+astral_planes.6105.a.response: ".ﺀﺎﻗﺪﺻﺃ ﻼﺑﻭ ﺍﺪﻴﺣﻭ .ﻲﺑ ﺔﺻﺎﺨﻟﺍ ﺏﻭﺮﻬﻟﺍ ﺓﺮﺠﺣ ﻲﻓ ﺎﻨﻫ ﻰﻟﺇ ﺖﻠﺻﻭ ﺪﻘﻟ .ﺀﻲﺷ ﺪﺟﻮﻳ ﻻ ﻚﻟﺫ ﺪﻌﺑ .ﺎﻌﻃﺎﺳ ﺍﺀﻮﺿ ﺖﻳﺃﺭ ﺎﻣﺪﻨﻋ ﺀﺎﻗﺪﺻﻷﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻊﻣ ﻝﻮﻄﺳﺃ ﺔﻴﻠﻤﻋ ﻲﻓ ﺎﻃﺮﺨﻨﻣ ﺖﻨﻛ .ﺲﻳﺭﺎﺘﻧﺃ ﻡﺎﻈﻨﻟ ﻲﻫ ﺓﺮﻴﺧﻷﺍ ﻲﺗﺮﻛﺍﺫ"
+astral_planes.6105.b: "؟ﺮﺸﺒﻟﺎﺑ ﺍﺪﺟ ﻥﻮﺘﻔﻣ ﺖﻧﺃ ﺍﺫﺎﻤﻟ"
+astral_planes.6105.b.response: "!ﺔﺑﻮﺠﻋﺃ ﻦﻣ ﺎﻬﻟ ﺎﻳ .ﻊﺋﺍﺭ ﻡﻮﻬﻔﻣ ﻦﻣ ﻪﻟ ﺎﻳ !ﺕﺎﻗﺍﺪﺻ ﻦﻳﻮﻜﺗ ﺎﻀﻳﺃ ﻚﻨﻜﻤﻳ .ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺀﺎﻘﺒﻟﺍ ﺩﺮﺠﻣ ﻦﻣ ﺮﺜﻛﺃ ﻝﻮﺣ ﺭﻭﺪﺗ ﺓﺎﻴﺤﻟﺍ ﻥﺃ ﺎﻧﻮﻤﻠﻋ ﺪﻘﻟ !ﺔﻗﺍﺪﺼﻟﺍ !ﺎﻣﺍﺭﺪﻟﺍ !ﻥﻮﻠﻟﺍ .ﺔﻳﺮﺸﺒﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻦﻋ ﻩﺎﻨﻈﺣﻻ ﺎﻣ ﻰﻠﻋ ﺎﻨﺘﻓﺎﻘﺛ ﻦﻣ ﺮﻴﺒﻛ ﺀﺰﺟ ﺪﻤﺘﻌﻳ ،ﻊﻗﺍﻮﻟﺍ ﻲﻓ .ﻥﻭﺮﻗ ﺬﻨﻣ ﻢﻬﺒﻗﺍﺮﻧ ﺎﻨﻛ ﺪﻘﻟ .ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﺔﺑﻮﺠﻋﺃ ﻥﺎﺴﻧﻹﺍ ﻥﺇ ﺎﻳ"
+astral_planes.6105.c: "؟ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ ﻞﻌﻔﺗ ﻥﺃ ﻚﻨﻜﻤﻳ ﺍﺫﺎﻣ"
+astral_planes.6105.c.response: "!ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻚﺤﻟﺎﺼﻣ ﻞﺜﻣﺃ ﻲﻨﻋﺩ ،ﻲﻟ ﺖﺤﻤﺳ ﺍﺫﺇ ،ﻚﻠﻀﻓ ﻦﻣ .ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﻲﻓ ﻯﺮﺧﺃ ﺕﺎﻗﺍﺪﺻ ﻦﻳﻮﻜﺗ ﻲﻓ ﻚﺗﺪﻋﺎﺴﻣ ﻲﻨﻨﻜﻤﻳ ،ﻚﻟ ﺎﻘﻳﺪﺻ ﻲﻧﻮﻛ ﻝﻼﺧ ﻦﻣ .ﺕﺍﺮﺠﻤﻟﺍ ﻦﻴﺑ ﺕﺎﻗﻼﻌﻟﺍ ﻮﻫ ﻲﻘﻴﻘﺤﻟﺍ ﻲﻔﻐﺷ ﻦﻜﻟ ،ﺙﺎﺤﺑﻷﺍ ﻦﻔﺳ ﺓﺩﺎﻴﻗ ﻲﻓ ﺓﺮﺒﺨﻟﺍ ﻦﻣ ﻥﻭﺮﻗ ﻱﺪﻟ ،ﻊﺒﻄﻟﺎﺑ !ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﺎﻧﺄﻓ ،ﺔﺑﻮﻠﻄﻣ ﺔﻣﺪﺨﻟﺍ ﺖﻧﺎﻛ ﺍﺫﺇ ﻦﻜﻟﻭ ،ﺔﻳﺎﻐﻠﻟ ﺍﺩﻭﺩﻭ ﻻﺍﺆﺳ ﺲﻴﻟ"
+astral_planes.6105.hire_custom_tooltip:0 ".§H§! ﺪﺋﺎﻗ ﻪﺘﻔﺼﺑ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻰﻟﺇ §Y$NAME_Mercedes$§! ﻢﻀﻨﻳ"
+leader_trait_blorg_insight: "ﺖﻳﺎﺴﻧﺍ ﺔﻧﻭﺪﻣ"
+leader_trait_blorg_insight_desc: ".ﺞﻋﺰﻣ ﻞﻜﺸﺑ ﻚﻟﺫ ﺾﻌﺒﻟﺍ ﻝﻮﻘﻳ ﺪﻗ .ﻩﺀﺎﺿﺭﺇ ﻰﻠﻋ ﺔﺣﺎﻗﻮﺑ ﺎﺼﻳﺮﺣ ﺩﺮﻔﻟﺍ ﺍﺬﻫ ﺖﻠﻌﺟ ﺔﺒﺼﺘﻨﻤﻟﺍ ﺕﺎﻴﻳﺪﺜﻟﺍ ﻦﻣ ﻦﻴﻌﻣ ﻉﻮﻧ ﺔﻓﺎﻘﺛﻭ ﻲﻋﺍﺫﻹﺍ ﺚﺒﻟﺍ ﺔﺳﺍﺭﺩ ﻦﻣ ﺎﻧﻭﺮﻗ ﻥﺇ"
+blorg_insight_effect: ".§YHuman§! ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻊﻣ §R-25§!$t$ ﻱﺃﺭ"
+triggered_opinion_blorg_insight: "ﺖﻳﺎﺴﻧﺍ ﺔﻧﻭﺪﻣ"

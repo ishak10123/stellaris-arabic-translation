@@ -1,0 +1,5 @@
+﻿l_french:
+ format.contact.1: "<first> <second>"
+ format.contact.2: "<xenophobe_first> <second>"
+ format.contact.3: "<un_first>"
+ format.contact.4: "<com_first> <un_second>"

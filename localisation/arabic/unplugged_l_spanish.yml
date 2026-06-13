@@ -1,0 +1,607 @@
+﻿l_spanish:
+# Hard Reset Origin (previously Unplugged)
+ origin_unplugged: "ﺖﺑﺎﺜﻟﺍ ﻦﻴﻴﻌﺗ ﺓﺩﺎﻋﺇ"
+ origin_unplugged_desc: ".ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﺹﺎﺨﻟﺍ ﺎﻫﺩﻮﺟﻭ ﺲﻴﺳﺄﺘﻟ ﺔﺳﺍﺮﺸﺑ ﺖﺑﺭﺎﺣ ﺪﻗﻭ ،ﻢﻬﺘﺒﻋﻮﺘﺳﺍ ﻲﺘﻟﺍ ﺔﻟﻵﺍ ﻦﻋ ﺓﺄﺠﻓ ﺔﺌﺷﺎﻨﻟﺍ ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻫ ﺖﻌﻄﻘﻧﺍ ﺪﻘﻟ\n$CHALLENGING_ORIGIN$"
+ origin_tooltip_unplugged_effects: "['concept_unplugged_cybernetic_negatives_3']$TABBED_NEW_LINE$- ['concept_unplugged_cybernetic_positives_3'] -$TABBED_NEW_LINE$ﺕﺎﻤﺴﻟﺍ ['concept_cybernetic_traits'] ﻰﻟﺇ ﺩﻭﺪﺤﻣ ﻝﻮﺻﻭ -$SPECIES_TRAITS$$TABBED_NEW_LINE$ - ﻚﻠﻬﻤﻟﺍ \n['concept_preftl_civilizations', Pre-FTL Civilization] ـﺑ ﻂﺒﺗﺮﻣ ['concept_archaeology_site'] ﻊﻣ ['concept_pc_nuked']- $HOME_SYSTEM$ ﻰﻠﻋ ﻱﻮﺘﺤﻳ \n['concept_unplugged_battlefield']- $HOMEWORLD$$TABBED_NEW_LINE$- $PLANETARY_MODIFIERS$ "
+ concept_unplugged_battlefield: "$unplugged_battlefield$"
+ concept_unplugged_battlefield_desc: "§L$unplugged_battlefield_desc$§!\n\n.ﺕﺍﻮﻨﺳ §!XYZT_310 ﻝﻼﺧ ﻪﺘﻴﺣﻼﺻ ﻲﻬﺘﻨﺘﺳ -\n§G-50%§!- $MOD_POP_AMENITIES_USAGE_MULT$: "
+
+ civic_tooltip_not_heritage:0 "ﻚﻴﻔﻴﺳ ['concept_heritage_civics'] ﻪﻳﺪﻟ ﺲﻴﻟ"
+ concept_heritage_civics: "ﺙﺭﺇ"
+ concept_heritage_civics_desc: "['concept_environmental_architects_civics']$NEW_LINE$- ['concept_storm_callers_civics']$NEW_LINE$- ['concept_pleasure_seekers_civics']$NEW_LINE$- ['civic:civic_heroic_tales']$NEW_LINE$- ['civic:civic_aristocratic_elite']- \n$concept_heritage_civics$ ﻦﻣ ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ ﻥﻮﻜﺘﺗ "
+
+ civic_tooltip_not_pleasure_seekers: "ﻚﻴﻔﻴﺳ ['concept_pleasure_seekers_civics'] ﻪﻳﺪﻟ ﺲﻴﻟ"
+ concept_pleasure_seekers_civics: "ﺔﻌﺘﻤﻟﺍ ﻦﻋ ﻦﻴﺜﺣﺎﺒﻟﺍ"
+ concept_pleasure_seekers_civics_desc: "['civic:civic_corporate_hedonism']$NEW_LINE$- ['civic:civic_pleasure_seekers']- \n$concept_pleasure_seekers_civics$ ﻦﻣ ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ ﻥﻮﻜﺘﺗ "
+
+ civic_tooltip_not_storm_callers: "ﻚﻴﻔﻴﺳ ['concept_storm_callers_civics'] ﻪﻳﺪﻟ ﺲﻴﻟ"
+ concept_storm_callers_civics: "ﺔﻔﺻﺎﻌﻟﺍ ﻥﻮﻠﺼﺘﻤﻟﺍ"
+ concept_storm_callers_civics_desc: "['civic:civic_storm_callers_megacorp']$NEW_LINE$- ['civic:civic_storm_callers']- \n$concept_storm_callers_civics$ ﻦﻣ ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ ﻥﻮﻜﺘﺗ "
+
+ civic_tooltip_not_environmental_architects: "ﻚﻴﻔﻴﺳ ['concept_environmental_architects_civics'] ﻪﻳﺪﻟ ﺲﻴﻟ"
+ concept_environmental_architects_civics: "ﻦﻴﻴﺌﻴﺒﻟﺍ ﻦﻴﻳﺭﺎﻤﻌﻤﻟﺍ ﻦﻴﺳﺪﻨﻬﻤﻟﺍ"
+ concept_environmental_architects_civics_desc: "['civic:civic_environmental_architects_megacorp']$NEW_LINE$- ['civic:civic_environmental_architects']- \n$concept_environmental_architects_civics$ ﻦﻣ ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ ﻥﻮﻜﺘﺗ "
+
+ civic_tooltip_not_institutional:0 "ﻚﻴﻔﻴﺳ ['concept_institutional_civics'] ﻪﻳﺪﻟ ﺲﻴﻟ"
+ concept_institutional_civics: "ﺔﻴﺴﺳﺆﻤﻟﺍ"
+ concept_institutional_civics_desc: "['concept_dark_consortium_civics']$NEW_LINE$- ['civic:civic_trading_posts']$NEW_LINE$- ['civic:civic_parliamentary_system']$NEW_LINE$- ['civic:civic_media_conglomerate']$NEW_LINE$- ['civic:civic_criminal_heritage']- \n$concept_institutional_civics$ ﻦﻣ ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ ﻥﻮﻜﺘﺗ "
+
+ concept_unplugged_cybernetic_positives_3: "$trait_unplugged_cybernetic_positives_3$"
+ concept_unplugged_cybernetic_negatives_3: "$trait_unplugged_cybernetic_negatives_3$"
+
+ requires_unplugged_decyberized: "$TRIGGER_FAIL$ﻥﺎﻀﺘﺣﺍ ﻞﺟﺃ ﻦﻣ ﻞﻣﺎﻜﻟﺎﺑ ﻲﻧﻭﺮﺘﻜﻟﻹﺍ ﻊﺑﺎﻄﻟﺍ ﺔﻟﺍﺯﺇ ﺐﺠﻳ Psionics."
+
+ START_SCREEN_UNPLUGGED: "...ﺍﺬﻫ ﻦﻣ ﻱﺃ ﻪﻟﻮﺣ ﺭﻭﺪﻳ ﺎﻣ ﺔﻓﺮﻌﻣ ﺎﻨﻨﻜﻤﻳ ﺎﻤﺑﺭ ﻢﺛ .ﺎﺒﻳﺮﻗ ﻚﻟﺫ ﻖﻴﻘﺤﺗ ﻢﺘﻳ ﻥﺃ ﻞﻣﺄﻧ ،[capital_scope.GetName] ﻰﻠﻋ ﻥﻵﺍ ﺓﺮﺛﺎﻨﺘﻤﻟﺍ ﺎﻨﺗﺍﻮﻗ ﻦﻴﻣﺄﺗ ﻊﻣ ﻦﻜﻟﻭ ،ﺪﻌﺑ ﺔﻛﺮﻌﻤﻟﺍ ﻩﺬﻬﺑ ﺯﻮﻔﻟﺍ ﻢﺘﻳ ﻢﻟ\n\n.ﻲﻋﺎﻤﺠﻟﺍ ﺎﻨﺋﺎﻛﺫ ﻊﻤﺟﻭ ،ﻲﺋﺍﺪﺑ ﻲﻣﺮﻫ ﻞﺴﻠﺴﺗ ﻞﻴﻜﺸﺗﻭ ،ﻝﺎﺘﻘﻟﺍ ﻰﻟﺇ ﺎﻧﺰﺋﺍﺮﻏ ﺎﻨﺘﻌﻓﺩ ﺪﻘﻟ .ﻱﺮﻜﺴﻌﻟﺍ ﺩﺮﻟﺍ ﻰﻟﺇ ﺎﻨﻋﺭﺎﺳ ﺪﻘﻟ .ﻖﻴﺴﻨﺘﻟﺍ ﺊﻴﺳ ﺎﻀﻳﺃ ﻥﺎﻛ ﻪﻨﻜﻟ ،ﯫﺟﺎﻔﻣﻭ ﺍﺮﻣﺪﻣ ﻲﻟﻭﻷﺍ ﻢﻬﻣﻮﺠﻫ ﻥﺎﻛ .ﺎﻨﻨﻔﺳ ﻊﻣ ﺎﺧﺭﺎﺻ ﺎﻬﺑﺎﺸﺗ ﻞﻤﺤﺗ ﻲﺘﻟﺍ ﺓﺩﺎﻴﻘﻟﺍ ﻦﻔﺳﻭ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻦﻣ ﺔﻴﻟﺎﺧ ،ﺔﻠﺗﺎﻗ ﺕﻻﺁ :ﺎﻨﻠﺘﻘﻳ ﻥﺃ ﺪﻳﺮﻳ ﺀﻲﺷ ﻙﺎﻨﻫ\n\n.ﻥﻵﺍ ﻪﻴﻓ ﺎﻨﺴﻔﻧﺃ ﺪﺠﻧ ﻱﺬﻟﺍ ﺱﺍﻮﺤﻟﺍ ﺩﺪﻌﺘﻣ ﻢﻴﺤﺠﻟﺍ ﻲﻓ ﺮﻴﻬﺟ ﺔﻤﻐﻧ .ﺖﻴﻣ ﺚﺒﻟ ﻥﺍﺫﻵﺍ ﻢﺼﺗ ﺔﻘﻠﺣ ﺎﻬﻧﺎﻜﻣ ﻲﻓﻭ .ﺕﻮﺼﻟﺍ ﻢﺘﻛ ﻰﻟﺇ ﺓﺄﺠﻓ ﻝﻮﺤﺗ ﺪﻗ ﻞﻣﺎﺸﻟﺍ ﻲﺗﻮﺼﻟﺍ ﺪﻬﺸﻤﻟﺍ ﻥﺃ ﻮﻟ ﺎﻤﻛ ،ﺎﻨﺳﺍﻮﺣ ﺖﺤﻧﺮﺗ .ﻕﻮﻌﻤﻟﺍ ﻢﻟﻷﺍﻭ ﺔﻗﺭﺎﺤﻟﺍ ﺔﺤﻠﺳﻷﺍ ﻥﺍﺮﻴﻧ ﻦﻣ ﻥﻮﻨﺟ ﻲﻓ ﻲﻋﻮﻟﺍ ﺎﻨﺑﺎﺻﺃ ﺪﻘﻟ"
+
+ origin_unplugged_starting_system_init_NAME: "$origin_unplugged$"
+ origin_unplugged_starting_system_init_DESC: "$system_initializer_DESC$\n\n.origin_unplugged$ Origin$ ﻡﺍﺪﺨﺘﺳﺍ ﺪﻨﻋ ﺔﻳﺍﺪﺒﻟﺍ ﻡﺎﻈﻧ ﻮﻫ ﺎﻤﺋﺍﺩ ﺍﺬﻫ ﻥﻮﻜﻴﺳ"
+ sol_system_unplugged_initializer_NAME: "$origin_unplugged$ (ﻝﻮﺳ)"
+ sol_system_unplugged_initializer_DESC: ".$origin_unplugged$ ﻞﺻﻷﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺮﺸﺒﻠﻟ ﻱﺭﺎﻴﺘﺧﺍ ﺀﺪﺑ ﻡﺎﻈﻧ"
+
+ unplugged_injured_star_name: "ﺪﺸﻳﻮﺨﻟﺍ"
+ unplugged_injured_homeworld_name: "ﻖﻠﻘﻠﻟ ﻲﻋﺍﺩ ﻻ"
+
+ unplugged_battlefield: "ﺔﻛﺮﻌﻤﻟﺍ ﺔﺣﺎﺳ ﻦﻣ ﻲﻓﺎﻌﺘﻟﺍ"
+ unplugged_battlefield_desc: ".ﺕﺎﻨﻴﺴﺤﺘﻟﺍ ﻞﺟﺃ ﻦﻣ ﻢﻫﺩﺎﺴﺟﺃ ﻦﻋ ﺍﻮﺜﺤﺒﻳ ﻥﺃ ﺀﺍﻮﺳ ﺪﺣ ﻰﻠﻋ ﻥﻮﺸﻤﻳ ﻦﻳﺬﻟﺍ ﻰﺣﺮﺠﻟﺍﻭ ﺀﺎﺤﺻﻷﺍ ﺩﺍﺮﻓﻸﻟ ﻦﻜﻤﻳ .ﺓﺩﺎﺑﻺﻟ ﺔﻴﺸﺣﻭ ﺔﻟﻭﺎﺤﻣ ﺪﻌﺑ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺍﻮﺗﺎﻣ ﻍﺭﻮﺒﻳﺎﺴﻟﺍﻭ ﺕﻻﻵﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻋ"
+
+# Unique Species Traits
+ trait_unplugged_cybernetic_positives_3: "ﺮﺒﻳﺎﺳ ﺯﻭﺪﻧﺎﻣﻮﻛ"
+ trait_unplugged_cybernetic_positives_3_desc: "$trait_unplugged_cybernetic_positives_desc$"
+ trait_unplugged_cybernetic_positives_desc: ".ﺔﻳﺮﻜﺴﻌﻟﺍ ﺮﻴﻏ ﺔﻳﺪﺴﺠﻟﺍ ﻒﺋﺎﻇﻮﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺎﺑ ﺔﻴﺤﻀﺘﻟﺍ ﺖﻤﺗ ،ﻚﻟﺬﻟ ﺔﺠﻴﺘﻧﻭ .ﺔﻴﺸﺣﻭ ﺓﺀﺎﻔﻜﺑ ﺏﺮﺣ ﻦﺷ ﻦﻣ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺀﻻﺆﻫ ﻦﻜﻤﺘﻳ ﻥﺃ ﻮﻧﺎﻨﻟﺍ ﺔﻜﺒﺷ ﻦﻣ ﺔﻋﻮﻨﺼﻤﻟﺍ ﺹﺎﺻﺮﻟﺍ ﻦﻣ ﺔﻴﻗﺍﻮﻟﺍ ﻉﻭﺭﺪﻟﺍﻭ ﺔﻠﻣﺎﻜﻟﺍ ﻑﺍﺮﻃﻷﺍ ﻝﺍﺪﺒﺘﺳﺍ ﺕﺎﻴﻠﻤﻋ ﻦﻤﻀﺗ"
+ trait_unplugged_cybernetic_positives_3_tt: "§G+20%§! :ﺔﻨﻴﻔﺴﻟﺍ ﻖﻳﺮﺣ ﻝﺪﻌﻣ ﺮﻴﻓﻮﺗ §H$commander_plural_with_icon$§!$t$- \n§G+30%§! :ﺕﺎﻣﺯﻷﺍﻭ ﺏﺮﺤﻟﺍ ﺀﺎﻨﺛﺃ ﺓﺩﺎﻌﺴﻟﺍ"
+ trait_unplugged_cybernetic_positives_2: "ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺔﻣﺪﺼﻟﺍ ﺕﺍﻮﻗ"
+ trait_unplugged_cybernetic_positives_2_desc: ".ﺔﻳﺮﻜﺴﻌﻟﺍ ﺮﻴﻏ ﻒﺋﺎﻇﻮﻟﺍ ﻦﻣ ﻞﻴﺌﺿ ﺭﺪﻘﺑ ﻞﻳﺪﺒﺘﻠﻟ ﺔﻠﺑﺎﻘﻟﺍ ﺕﺍﺰﻳﺰﻌﺘﻟﺍ ﺢﻤﺴﺗ ،ﻞﻣﺎﻜﻟﺎﺑ ﺔﺠﻣﺪﻤﻟﺍ ﻥﺪﺒﻠﻟ ﺔﻴﻗﺍﻮﻟﺍ ﻉﻭﺭﺪﻟﺍ ﻦﻣ ﻻﺪﺑﻭ .ﺓﺪﺴﺠﻤﻟﺍ ﻞﻴﻤﺤﺘﻟﺍ ﺕﺎﻴﻠﻤﻌﻟ ﻞﻣﺎﺸﻟﺍ ﺞﻬﻨﻟﺍ ﻦﻣ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺀﻻﺆﻫ ﺪﻴﻔﺘﺴﻳ"
+ trait_unplugged_cybernetic_positives_2_tt: "§G+10%§! :ﺔﻨﻴﻔﺴﻟﺍ ﻖﻳﺮﺣ ﻝﺪﻌﻣ ﻢﻳﺪﻘﺗ §Y$commander_plural_with_icon$§!"
+ trait_unplugged_cybernetic_positives_1: "ﻍﺭﻮﺒﻳﺎﺳ ﺩﻮﻨﺟ"
+ trait_unplugged_cybernetic_positives_1_desc: ".ﺔﻴﺑﺎﺠﻧﻹﺍ ﻢﻬﺗﺍﺭﺪﻗ ﻰﻠﻋ ﻂﻘﻓ ﻲﺸﻣﺎﻫ ﻞﻜﺸﺑ ﻥﻭﺮﺛﺆﻳ ﺎﻤﻨﻴﺑ ﻦﻳﺭﺩﺎﻗﻭ ﻦﻴﺳﺮﺷ ﻦﻴﺑﺭﺎﺤﻣ ﺍﻮﻠﻈﻳ ﻥﺃ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺀﻻﺆﻫ ﺔﻴﻛﺮﺣ ﺏﺎﺼﻋﺃﻭ ﺩﺪﻏﻭ ﺱﺍﻮﺤﻟ ﺔﻘﻴﻧﻷﺍ ﺕﺍﺰﻳﺰﻌﺘﻟﺍ ﻦﻤﻀﺗ"
+ trait_unplugged_cybernetic_positives_1_tt: "§G+5%§! :ﺔﻨﻴﻔﺴﻟﺍ ﻖﻳﺮﺣ ﻝﺪﻌﻣ ﻢﻳﺪﻘﺗ §Y$commander_plural_with_icon$§!"
+
+ trait_unplugged_cybernetic_negatives_3: "ﻝﻮﺻﻮﻣ"
+ trait_unplugged_cybernetic_negatives_3_desc: "$trait_unplugged_cybernetic_negatives_desc$"
+ trait_unplugged_cybernetic_negatives_desc: ".ﺎﺟﺎﻋﺰﻧﺍﻭ ﺍﺪﻳﺪﺷ ﺎﻄﻐﺿ ﺐﺒﺴﻳ ﺎﻤﻣ ،ﺓﺩﻮﺟﻮﻣ ﺪﻌﺗ ﻢﻟ ﻲﺘﻟﺍ ﺔﻛﺮﻌﻤﻟﺍ ﺔﺣﺎﺳ ﺔﻜﺒﺷ ﻡﺍﺪﺨﺘﺳﻻ ﻩﺬﻫ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺕﺍﺰﻳﺰﻌﺗ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻢﻴﻤﺼﺗ ﻢﺗ"
+ trait_unplugged_cybernetic_negatives_3_tt: "§R-10%§! :ﺔﻣﺯﺃ ﻭﺃ ﺏﺮﺣ ﺔﻟﺎﺣ ﻲﻓ ﻥﻮﻜﺗ ﻻ ﺎﻣﺪﻨﻋ ﺓﺩﺎﻌﺴﻟﺍ"
+ trait_unplugged_cybernetic_negatives_2: "ﻞﺼﺘﻣ ﺮﻴﻏ"
+ trait_unplugged_cybernetic_negatives_2_desc: ".ﻞﻴﻫﺄﺘﻟﺍ ﺓﺩﺎﻋﺇ ﺕﺍﺮﺘﻓ ﻝﻼﺧ ﻢﻫﺩﺎﺴﺟﺃ ﺕﺎﺒﻠﻄﺘﻣ ﻦﻣ ﺪﻳﺰﺗﻭ ﻢﻬﺗﺎﻴﺣ ﺔﻴﻋﻮﻧ ﻦﻣ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻞﻠﻘﺗ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺀﻻﺆﻫ ﻰﻠﻋ ﺔﺿﻭﺮﻔﻤﻟﺍ ﺔﻳﺮﻜﺴﻌﻟﺍ ﺕﺍﺩﺎﻳﺰﻠﻟ ﺔﺒﺳﺎﻨﻤﻟﺍ ﺮﻴﻏ ﺔﻌﻴﺒﻄﻟﺍ ﻥﺇ"
+ trait_unplugged_cybernetic_negatives_1: "ﻥﻮﻜﺴﻣ"
+ trait_unplugged_cybernetic_negatives_1_desc: ".ﻖﻠﻘﻟﺍﻭ ﺏﯫﺘﻛﻻﺍ ﻦﻣ ﺓﺪﻳﺪﺷ ﺕﺎﺑﻮﻧ ﻦﻣ ﻢﻬﺗﺎﻧﺎﻌﻣ ﻲﻓ ﺐﺒﺴﺘﻳ ﺎﻤﻣ ،ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺀﻻﺆﻫ ﺩﺭﺎﻄﺗ ﻖﺑﺎﺴﻟﺍ ﻲﻟﻵﺍ ﻢﻬﻴﻋﻭ ﻦﻣ ﻯﺮﺧﻷﺍ ﺔﻴﺴﺤﻟﺍ ﺀﺍﺪﺻﻷﺍﻭ ﺔﻴﻌﻤﺴﻟﺍ ﺔﺳﻮﻠﻬﻟﺍ ﻝﺍﺰﺗ ﻻ"
+
+ trait_unplugged_decyberized: "ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺔﻟﺍﺯﺇ"
+ trait_unplugged_decyberized_desc: ".ﻢﻬﻋﺍﻮﻧﻷ ﺔﺛﻭﺭﻮﻤﻟﺍﻭ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﻤﺴﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺍﻭﺩﺎﻌﺘﺳﺍﻭ ،ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﻢﻬﻴﻠﻋ ﺖﺿﺮﻓ ﻲﺘﻟﺍ ﺕﺍﺰﻳﺰﻌﺘﻟﺍ ﻦﻣ ﺺﻠﺨﺘﻟﺍ ﻭﺃ ﻞﻴﻄﻌﺘﺑ ﻥﻮﻘﺑﺎﺴﻟﺍ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺀﻻﺆﻫ ﻡﺎﻗ ﺪﻘﻟ"
+
+ trait_unplugged_neurocalmed: "ﺏﺎﺼﻋﻷﺍ ﺔﺋﺪﻬﺗ"
+ trait_unplugged_neurocalmed_desc: ".ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﻑﺍﺮﻋﻷﺍ ﺢﻟﺎﺼﻟ ﺔﻴﺼﺨﺸﻟﺍ ﺐﺳﺎﻜﻤﻠﻟ ﺔﻳﻮﻟﻭﻷﺍ ﺀﺎﻄﻋﺇ ﺀﺎﻐﻟﺇ ﻰﻟﺇ ﺩﺍﺮﻓﻷﺍ ﻊﻓﺪﻳ ﺎﻤﻣ ،ﻥﺍﻭﺪﻌﻟﺍﻭ ﻉﺎﻓﺪﻧﻻﺍ ﻦﻣ ﻞﻠﻘﻳ ﺎﻤﻣ ،ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺀﻻﺆﻫ ﻯﺪﻟ Neuroxene ـﻟﺍ ﺕﺎﻳﻮﺘﺴﻣ ﻢﻴﻈﻨﺗ ﻢﺘﻳ"
+
+ trait_unplugged_neurosavant: "ﺖﻧﺎﻓﺎﺳ ﺔﻴﺒﺼﻌﻟﺍ"
+ trait_unplugged_neurosavant_desc: ".ﺕﻼﻜﺸﻤﻟﺍ ﻞﺣ ﺕﺍﺭﺪﻗﻭ ،ﺕﺎﻣﻮﻠﻌﻤﻟﺎﺑ ﻅﺎﻔﺘﺣﻻﺍﻭ ،ﺔﻴﻜﺑﺎﺸﺘﻟﺍ ﺔﻧﻭﺪﻠﻟﺍ ﺯﺰﻌﻳ ﺎﻤﻣ ،ﺎﻬﺑ ﺔﺻﺎﺨﻟﺍ ﺲﻜﻴﻔﻴﻨﺟﻮﻛ ﺕﺎﻳﻮﺘﺴﻣ ﻢﻴﻈﻨﺘﺑ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﻩﺬﻫ ﻊﺘﻤﺘﺗ"
+
+ trait_unplugged_regenoptimized: "ﻞﺜﻣﻷﺍ-ﻦﻴﺠﻳﺭ"
+ trait_unplugged_regenoptimized_desc: ".ﻲﺌﻳﺰﺠﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ﻰﻠﻋ ﻲﺗﺍﺬﻟﺍ ﺡﻼﺻﻹﺎﺑ ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺎﺳﺮﻐﻠﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﻴﻋﺎﻨﻄﺻﻻﺍﻭ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻖﻴﺴﻨﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﻩﺬﻫ ﻲﻓ Regenol-X ﺕﺎﻳﻮﺘﺴﻣ ﻢﻴﻈﻨﺗ ﻢﺘﻳ"
+
+# Unique Leader Traits ('positive' only)
+ leader_trait_unplugged_cybernetic_positives: "[triggered_unplugged_leader_name]"
+ leader_trait_unplugged_cybernetic_positives_desc: "[triggered_unplugged_leader_desc]"
+ leader_trait_unplugged_cybernetic_positives_3: "ﺮﺒﻳﺎﺳ ﺯﻭﺪﻧﺎﻣﻮﻛ"
+ leader_trait_unplugged_cybernetic_positives_3_desc: ".ﻲﻟﺎﺘﻘﻟﺍ ﻲﻋﻮﻠﻟ ﺔﻳﻮﻟﻭﻷﺍ ﻲﻄﻌﺗ ﻲﺘﻟﺍ ﺓﺰﻬﺟﻸﻟ ﺔﻴﺳﺎﺳﻷﺍ ﻢﺴﺠﻟﺍ ﻒﺋﺎﻇﻭ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺾﻳﻮﻔﺘﺑ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﻡﺎﻗ"
+ leader_trait_unplugged_cybernetic_positives_2: "ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺔﻣﺪﺼﻟﺍ ﺕﺍﻮﻗ"
+ leader_trait_unplugged_cybernetic_positives_2_desc: ".ﺔﻳﻮﻀﻌﻟﺍ ﻢﻬﺳﺍﻮﺣ ﻰﻠﻋ ﺓﺮﻴﺒﻛ ﺔﻔﻠﻜﺘﺑ ،ﺔﻴﻧﺪﻤﻟﺍﻭ ﺔﻳﺮﻜﺴﻌﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻊﻣ ﺓﺮﺷﺎﺒﻣﻭ ﺔﺳﻼﺴﺑ ﺝﺎﻣﺪﻧﻻﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ"
+ leader_trait_unplugged_cybernetic_positives_1: "ﻍﺭﻮﺒﻳﺎﺳ ﻱﺪﻨﺟ"
+ leader_trait_unplugged_cybernetic_positives_1_desc: ".ﺔﻴﺑﺎﺠﻧﻹﺍ ﺔﻔﻴﻇﻮﻠﻟ ﻂﻘﻓ ﻒﻴﻔﻃ ﻥﺍﺪﻘﻓﻭ ﺔﻴﻗﻮﺛﻮﻤﻟﺍﻭ ﺮﻤﻌﻟﺍ ﻝﻮﻃ ﻦﻤﻀﻳ ﺔﻴﻋﺎﻨﻤﻟﺍ ﻪﺗﺰﻬﺟﺃﻭ ﺪﺋﺎﻘﻟﺍ ﺍﺬﻫ ﺱﺍﻮﺤﻟ ﺮﻴﺒﻜﻟﺍ ﺰﻳﺰﻌﺘﻟﺍ ﻥﺇ"
+
+# Empire entities
+ NAME_Unplugged_Assimilator: "ﻒﻴﻟﺄﺘﻟﺍ ﻢﻛﺍﺮﺗ" # alluding to a chorus gathered by force
+ NAME_Unplugged_Assimilator_adj: "ﻒﻴﻟﺄﺘﻟﺍ" # adjective, e.g. 'an Opus fleet'
+ NAME_Unplugged_Assimilator_species: "ﻒﻴﻟﺄﺘﻟﺍ" # singular noun, e.g. 'the Opus Nexus'
+ NAME_Unplugged_Assimilator_species_plural: "$NAME_Unplugged_Assimilator_species$" # plural noun, e.g. 'we have defeated the Opus'
+ NAME_Unplugged_Assimilator_species_adj: "ﻒﻴﻟﺄﺘﻟﺍ" # adjective, e.g. 'an Opus drone'
+ gov_unplugged_assimilator_empire: "$NAME_Unplugged_Assimilator$"
+ gov_unplugged_assimilator_empire_desc: ".ﻲﻋﺎﻤﺠﻟﺍ ﺎﻬﻴﻋﻭ ﻲﻓ ﺓﻮﻘﻟﺎﺑ ﻦﻳﺮﺧﻵﺍ ﺏﺎﻌﻴﺘﺳﻻ ﺔﻠﻤﺣ ﻲﻓ ﺖﻋﺮﺷﻭ ،ﻦﻴﻳﻮﻀﻌﻟﺍ ﺎﻬﻴﻋﺪﺒﻣ ﺖﻧﺎﺧ ﺪﻘﻟ .ﻲﻠﺻﻷﺍ ﻪﻤﻴﻤﺼﺗ ﺮﻴﻳﺎﻌﻣ ﺔﻟﻵﺍ ﺀﺎﻛﺫ ﺯﻭﺎﺠﺗ ﺪﻘﻟ"
+ RT_UNPLUGGED_ASSIMILATOR: "ﺔﻗﻼﻌﻟﺍ" # ruler title for the Machine
+ NAME_Exigency_Fleet: "ﺓﺭﻭﺮﻀﻟﺍ ﻝﻮﻄﺳﺃ"
+ NAME_Unplugged_Machine_Legacy_Corvette: "RRV ﺓﺭﻭﺮﺿ" # stands for 'Rapid Response Vessel'
+ NAME_Unplugged_Machine_Legacy_Destroyer: "ﺓﺭﻭﺮﻀﻟﺍ ﺓﺮﻣﺪﻤﻟﺍ"
+ NAME_Unplugged_Machine_Legacy_Cruiser: "ﺓﺭﻭﺮﻀﻟﺍ ﻊﻀﺨﻣ"
+ NAME_Unplugged_Machine_Legacy_Battleship: "ﺓﺭﻭﺮﻀﻟﺍ ﻞﻄﺒﻣ"
+ NAME_Barrier_Fleet: "ﺰﺟﺎﺤﻟﺍ ﻝﻮﻄﺳﺃ"
+ NAME_Opus_Sentinel: "ﻞﻨﻴﺘﻨﺳ ﺱﻮﺑﻭﺃ"
+ NAME_Prospector_Fleet: "ﺐﻘﻨﻤﻟﺍ ﻝﻮﻄﺳﺃ"
+
+############
+# Civil War
+############
+
+# Civil War & 'The Injured'
+ unplugged.100.name: "ﺎﻨﻟ ﺮﺼﻨﻟﺍ"
+ unplugged.100.desc: ".ﺎﻬﻌﻗﺍﻮﻤﺑ ﻆﻔﺘﺤﺗ ﺎﻬﻧﺃ ﻭﺪﺒﻳﻭ ،ﺓﺭﻭﺎﺠﻤﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻲﻓ ﺎﻀﻳﺃ ﺔﻴﻘﺒﺘﻣ ﻞﻴﻃﺎﺳﺃ ﻑﺎﺸﺘﻛﺍ ﻢﺗ\n\n.ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻲﻓ §Y[origin_unplugged_pre_ftl_planet.GetName]§! ﺐﻛﻮﻛ ﻦﻣ ﻉﺎﻌﺷﻹﺍ ﻦﻣ ﺔﻴﻟﺎﻋ ﺕﺎﻳﻮﺘﺴﻣ ﺚﻌﺒﻨﺗ ﻦﻜﻟﻭ ،ﺓﺮﺷﺎﺒﻣ ﺎﻨﻟ ﺓﺭﻭﺎﺠﻤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ﺔﻳﺩﺎﻌﻤﻟﺍ ﻦﻔﺴﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺓﺰﻬﺟﺃ ﻒﺸﺘﻜﺗ ﻢﻟ\n\n.ﻼﻄﻌﻣ ﺎﻣ ﯫﻴﺷ ﻙﺎﻨﻫ ﻥﺃ ﺎﻨﻧﻭﺮﺒﺨﻳ ؟ﺎﻧﺰﺋﺍﺮﻏ ...ﻦﻜﻟ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﺍﺪﺟ ﻞﻴﻠﻘﻟﺍ ﻑﺮﻌﻧ ﻦﺤﻧ ؟ﺔﻄﻴﺴﺒﻟﺍ ﺕﺎﺷﻭﺎﻨﻤﻟﺍ ﻩﺬﻬﻟ ﺔﺠﻴﺘﻧ ﺲﻴﻟ ﺪﻴﻛﺄﺘﻟﺎﺑ - ﺎﻬﻴﻠﻋ ﻑﺮﻌﺘﻟﺍ ﻦﻜﻤﻳ ﻻ ﺔﺟﺭﺩ ﻰﻟﺇ ﺖﺘﺘﻔﺗ ﺪﻗ ﻢﻬﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻥﺃ ﻰﻟﺇ ﺎﻨﺗﺎﻣﻮﻠﻌﻣ ﺮﻴﺸﺗ .ﻡﻮﻴﻟﺍ ﺓﺮﻴﺒﻛ ﺓﺭﺎﺴﺨﻟ §Y[origin_unplugged_assimilator_empire.GetName]§! ـﺑ ﻰﻤﺴﻳ ﺎﻣ ﺽﺮﻌﺗ ﺪﻘﻟ\n\n.ﻪﻴﻠﻋ ﺍﻮﻧﺎﻛ ﺎﻤﻣ ﻒﻨﻌﻟﺍ ﺔﺳﺭﺎﻤﻣ ﻲﻓ ﺓﺭﺎﻬﻣ ﺮﺜﻛﺃ ﺎﻨﻧﺃ ﻭﺪﺒﻳ ،ﻚﻟﺫ ﻊﻣﻭ .ﻪﻨﻣ ﺎﻨﺟﺍﺮﺧﺇ ﺔﻔﻴﻨﻌﻟﺍ ﺕﻻﻵﺍ ﻩﺬﻫ ﺖﻟﻭﺎﺣ ﻰﺘﺣ ﻥﻮﻜﻟﺍ ﺍﺬﻫ ﻲﻓ ﺎﻨﻈﻘﻴﺘﺳﺍ ﺪﻜﻳ ﻢﻟ"
+ unplugged.100.a: "؟ﺎﻨﻫ ﻦﻣ ﺐﻫﺬﻧ ﻦﻳﺃ"
+ unplugged.100.b: ".ﻩﺬﺧﺄﻨﺳ ﺎﻨﺼﻘﻨﻳ ﺎﻣﻭ ..."
+ unplugged.100.c: ".ﺎﻨﻳﺪﻟ ﺔﻠﻴﺤﻟﺍ ﺭﺎﺒﺘﺧﻻ ﺖﻗﻮﻟﺍ"
+ unplugged.100.d: ".ﺎﻨﻈﻔﺤﺗ ﺔﻬﻟﻵﺍ"
+
+ opinion_unplugged_injured_diplomacy: "ﺔﻴﻧﺪﻤﻟﺍ ﺏﺮﺤﻟﺍ ﺓﺎﻋﺩ"
+ opinion_unplugged_injured_distrustful: "$pre_ftl_distrustful$"
+
+ # Dialog
+ unplugged.115.desc: ".ﺎﻣﺪﻗ ﻲﻀﻤﻧ ﻥﺃ ﺎﻨﻣ ﺪﻳﺮﺗ ﻒﻴﻛ ﺎﻧﺮﺒﺧﺃ .ﻥﻮﻣﻭﺰﻬﻣ ﺎﻨﻧﺃ ﻢﻠﻌﻧﻭ .ﺏﺍﺮﺧ ﺔﻟﺎﺣ ﻲﻓ ﺎﻨﻌﻤﺘﺠﻣ ،ﻚﻠﻀﻓ ﻦﻣ\n\n؟ﻡﻮﺠﻬﻟﺍ ﻦﻋ ﻚﻔﻗﻮﺗ ﺐﺒﺳ ﻮﻫ ﺍﺬﻫ ﻞﻫ ؟ﺎﻨﻣﻼﺴﺘﺳﺍ ﻁﻭﺮﺷ ﺔﺸﻗﺎﻨﻣ ﻲﻓ ﺐﻏﺮﺗ ﻞﻫ .ﻝﺯﺎﻨﺘﻧ ﻦﺤﻧ ![origin_unplugged_assimilator_empire.GetSpeciesNamePlural]... -ay ﻯﺮﺧﺃ ﺓﺮﻣ: " # This civilization is mistaking the player for the Driven Assimilator empire they were once part of
+ unplugged.115.desc.pacifist: ".ﻲﻤﻠﺴﻟﺍ ﺶﻳﺎﻌﺘﻟﺍ ﻲﻓ ﻂﻘﻓ ﺐﻏﺮﻧ ﻦﺤﻧ .ﺔﻣﻭﺎﻘﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻡﺪﻘﻧ ﻻ ﻦﺤﻧ !ﺎﻣﺪﻗ ﻲﻀﻤﻧ ﻥﺃ ﺪﻳﺮﺗ ﻒﻴﻛ ﺎﻧﺮﺒﺧﺃ ،ﻚﻠﻀﻓ ﻦﻣ\n\n ؟ﻡﻮﺠﻬﻟﺍ ﻦﻋ ﻚﻔﻗﻮﺗ ﺐﺒﺳ ﻮﻫ ﺍﺬﻫ ﻞﻫ ....ﺍﺬﻫ ﻞﻫ .ﺎﻨﻣﻼﺴﺘﺳﺍ ﻁﻭﺮﺷ ﺔﺸﻗﺎﻨﻤﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻦﺤﻧ ![origin_unplugged_assimilator_empire.GetSpeciesNamePlural]... -ay ﻯﺮﺧﺃ ﺓﺮﻣ: " # This civilization is mistaking the player for the Driven Assimilator empire they were once part of
+ unplugged.115.desc.phobe: ".ﺎﻧﺪﺣﻭ ﻙﺮﺘﻧ ﻥﺃ ﻂﻘﻓ ﺪﻳﺮﻧ .ﺏﺍﺮﺧ ﺔﻟﺎﺣ ﻲﻓ ﺎﻨﻌﻤﺘﺠﻣ .ﺔﻌﺑﺎﺘﻤﻟﺍ ﺎﻬﺑ ﺪﻳﺮﺗ ﻲﺘﻟﺍ ﺔﻘﻳﺮﻄﻟﺎﺑ ﺎﻧﺭﺎﺒﺧﺇ ﺀﺎﺟﺮﻟﺍ\n\n؟ﻡﻮﺠﻬﻟﺍ ﻦﻋ ﻚﻔﻗﻮﺗ ﺐﺒﺳ ﻮﻫ ﺍﺬﻫ ﻞﻫ ؟ﻢﻠﺴﺘﺴﻧ ﻥﺃ ﺎﻨﻣ ﺪﻳﺮﺗ ﻞﻫ .ﻝﺯﺎﻨﺘﻧ ﻦﺤﻧ ![origin_unplugged_assimilator_empire.GetSpeciesNamePlural]... -ay ﻯﺮﺧﺃ ﺓﺮﻣ: " # This civilization is mistaking the player for the Driven Assimilator empire they were once part of
+ unplugged.115.a: "ﻚﻣﻼﺴﺘﺳﺍ ﻞﺒﻘﻧ ﻢﻌﻧ"
+ unplugged.115.b: "!؟'[origin_unplugged_assimilator_empire.GetSpeciesNamePlural]... '" # incredulous that they are calling us that species name, e.g. ... 'Killbots'?!
+ unplugged.116.desc: ".ﺎﻨﻴﺒﻌﺷ ﻦﻴﺑ ﻢﻫﺎﻔﺗ ﺀﻮﺳ ﻱﺃ ﺙﺪﺤﻳ ﻥﺃ ﻰﻨﻤﺘﻧ ﻻﻭ !ﺩﺮﻟﺍ ﺀﺎﺟﺮﻟﺍ ؟ﺎﻨﻤﻬﻔﺗ ﻞﻫ !؟[origin_unplugged_assimilator_empire.GetSpeciesNamePlural]...\n\n(...ﺎﻬﻨﻣ ﺱﻭﺆﻴﻣ ،ﺎﻘﺣ ﺎﻬﻠﻤﻛﺄﺑ ﺎﻨﺗﺭﺎﻀﺣ ﺎﻳﺎﻘﺑ ﻥﺈﻓ ،ﺔﻤﺟﺮﺘﻟﺍ ﺕﺍﻭﺩﺃ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺔﻴﻧﺎﻜﻣﺇ ﻢﻬﻳﺪﻟ ﻦﻜﻳ ﻢﻟﻭ ﻦﻴﺌﻄﺨﻣ ﺎﻨﻛ ﺍﺫﺇ - ﺱﺎﻨﻟﺍ ﺎﻬﻳﺃ ﻡﻮﺠﻨﻟﺎﺑ ؟ﻢﻌﻧ ،ﺎﻨﻧﻮﻠﺒﻘﺘﺴﻳ ﺪﻴﻛﺄﺘﻟﺎﺑ ﻢﻬﻧﺇ)\n\n؟..ﺖﻧﺃ ﻞﻫ ؟[origin_unplugged_assimilator_empire.GetSpeciesNamePlural]..."
+ unplugged.116.b: "!؟"[origin_unplugged_assimilator_empire.GetSpeciesNamePlural]" ﺎﻨﻧﺃ ﺪﻘﺘﻌﺗ ﻞﻫ" # incredulous that they are calling us that species name, e.g. 'You think we are the Killbots?!''
+ unplugged.120.desc: ".ﻚﺑ ﺹﺎﺨﻟﺍ [injured_country.species.GetHandNamePlural] ﻲﻓ ﺎﻨﺗﺎﻴﺣ .ﺭﺎﺒﺘﻋﻻﺍ ﻦﻴﻌﺑ ﺍﺬﻫ ﺍﻭﺬﺧﺄﺗ ﻥﺃ ﻢﻛﺪﺷﺎﻨﻧ ﻦﺤﻧﻭ .ﺎﻨﺗﺮﻄﻴﺳ ﻕﺎﻄﻧ ﺝﺭﺎﺧ ﻞﻌﻔﻟﺎﺑ ﻩﻮﻌﻀﺗ ﻢﻟﻭ ﻪﻣﺪﻘﻨﻟ ﻞﻴﻠﻘﻟﺍ ﻯﻮﺳ ﺎﻨﻳﺪﻟ ﺲﻴﻟ :ﻑﺮﺘﻋﺃ ﻥﺃ ﺐﺠﻳ ،ﺔﻟﺩﺎﻌﻟﺍ ﺔﻣﻭﺎﺴﻤﻟﺍ ﺡﻭﺮﺑﻭ .ﻦﻜﺴﻠﻟ ﺔﺤﻟﺎﺻ ﺮﻴﻏ ﻥﻵﺍ ﺖﺤﺒﺻﺃ ﺎﻨﻧﺪﻣ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ؛ﺹﺎﺨﺷﻷﺍ ﻦﻣ ﺍﺮﻴﺒﻛ ﺍﺩﺪﻋ ﺎﻧﺪﻘﻓ ﺪﻘﻟ\n\n.ﺎﻨﻣﻼﺴﺘﺳﺍ ﻁﻭﺮﺷ ﺔﺸﻗﺎﻨﻤﻟ [injured_country.GetName] ﻦﻋ ﺔﺑﺎﻴﻧ ﺙﺪﺤﺘﻠﻟ ﺽﻮﻔﻣ ﺎﻧﺃ .[origin_unplugged_assimilator_empire.GetSpeciesNamePlural] ،ﻚﺘﻤﺣﺮﺑ ﻥﻮﻌﺿﺍﻮﺘﻣ ﻦﺤﻧ .ﻚﻟ ﺍﺮﻜﺷ ،ﻚﻟ ﺍﺮﻜﺷ"
+ unplugged.120.desc.spiri: ".ﻚﺑ ﺹﺎﺨﻟﺍ [injured_country.species.GetHandNamePlural] ﻲﻓ ﺎﻨﺗﺎﻴﺣ ؟ﻢﻜﺒﻟﺎﻄﻣ ﻲﻫ ﺎﻣ .ﻚﻟ ﺪﺠﺴﻧ ؛ﺓﺮﻴﺜﻛ ﺎﻧﺮﺋﺎﺴﺧ ﺖﻧﺎﻛ ﺪﻘﻟ\n\n.ﺎﻨﻣﻼﺴﺘﺳﺍ ﻁﻭﺮﺷ ﺔﺸﻗﺎﻨﻤﻟ [injured_country.GetName] ﻦﻋ ﺔﺑﺎﻴﻧ ﺙﺪﺤﺘﻠﻟ ﺽﻮﻔﻣ ﺎﻧﺃ .[origin_unplugged_assimilator_empire.GetSpeciesNamePlural] ،ﻚﺘﻤﺣﺮﺑ ﻥﻮﻌﺿﺍﻮﺘﻣ ﻦﺤﻧ !ﻞﻔﺳﻷﺍﻭ ﻰﻠﻋﻸﻟ ﺪﻤﺤﻟﺍ"
+ unplugged.120.desc.mil_phobe: ".ﻚﺑ ﺹﺎﺨﻟﺍ [injured_country.species.GetHandNamePlural] ﻲﻓ ﻥﻵﺍ ﺎﻨﺗﺎﻴﺣ .ﻢﻜﺑ ﺹﺎﺨﻟﺍ ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﻒﻗﻭ ﺭﺪﻘﻧ ...ﻦﺤﻧ .ﺎﻨﻌﻤﺘﺠﻤﻟ ﺔﻴﺳﺎﻗ ﺔﺑﺮﺿ ﺖﻬﺟﻭ ﺪﻘﻟ\n\n.ﺎﻨﻣﻼﺴﺘﺳﺍ ﻁﻭﺮﺷ ﺔﺸﻗﺎﻨﻣﻭ [injured_country.GetName] ﻦﻋ ﺔﺑﺎﻴﻧ ﺙﺪﺤﺘﻠﻟ ﺽﻮﻔﻣ ﺎﻧﺃ .ﺎﻤﻳﺮﻜﺗ ﺮﺜﻛﻷﺍ .[origin_unplugged_assimilator_empire.GetSpeciesNamePlural] ،ﻚﻟ ﺍﺮﻜﺷ"
+ unplugged.120.a: "؟ﺍﺫﺎﻤﻟ .[origin_unplugged_assimilator_empire.GetSpeciesNamePlural] ـﺑ ﺎﻨﺑ ﻝﺎﺼﺗﻻﺍ ﻲﻓ ﺮﻤﺘﺴﺗ ﺖﻧﺃ"
+ unplugged.120.b: ".ﺓﺮﺳﺎﺧ ﻢﻜﺗﺎﻴﺣ"
+ unplugged.120.b.tt: "\n\n§L.ﻝﺎﺳﺭﻹﺍ ﻑﺎﻘﻳﺇ§!"
+ unplugged.120.c: ".ﺎﻨﻣ ﺕﺍﺭﺎﺷﻹﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺮﻈﺘﻧﺍ .ﻞﺟﺆﻧ ﻑﻮﺳ"
+ unplugged.120.c.tt: "\n\n.[injured_homeworld.GetName] ﻰﻠﻋ §YObservation Outpost§! ﺀﺎﻨﺑ ﻝﻼﺧ ﻦﻣ ﺀﺍﺪﻨﻟﺍ ﺕﺍﺩﺩﺮﺗ ﺀﺎﺸﻧﺇ ﺓﺩﺎﻋﺇ ﺎﻨﻟ ﺯﻮﺠﻳ\n§L.ﻝﺎﺳﺭﻹﺍ ﻑﺎﻘﻳﺇ§!"
+ unplugged.125.desc: "؟ﺎﻨﻫ ﻝﺍﺰﺗ ﻻ ﺍﺫﺎﻤﻟﻭ ،ﻚﻓﺪﻫ ﻮﻫ ﺎﻣ :ﺎﻧﺭﻮﻧ ،ﻚﻠﻀﻓ ﻦﻣ .ﺎﻧﺮﻴﺤﻳ ﻊﺿﻮﻟﺍ ﺍﺬﻫ :ﻝﺍﺰﺗ ﻻ ﺎﻬﻨﻜﻟﻭ ،ﻢﻜﺗﺭﺎﻀﺣ ﻞﺜﻣ ﺔﻣﺪﻘﺘﻣ ﺖﺴﻴﻟ ﺎﻨﺗﺭﺎﻀﺣ ﻥﺇ\n\n.ﻭﺰﻐﻟﺍ ﻦﻋ ﻢﻜﺗﺰﻬﺟﺃ ﺖﻔﻗﻮﺗ ،ﺓﺄﺠﻓ ﻚﻟﺫ ﺪﻌﺑﻭ .ﺎﻣﺎﻤﺗ ﻚﻠﺜﻣ ﻦﻳﺯﺰﻌﻤﻟﺍ ﺩﺍﺮﻓﻷﺍﻭ ﺕﺎﺗﻮﺑﻭﺮﻟﺎﺑ ﺔﺌﻴﻠﻣ ،ﻝﺍﺰﻧﻹﺍ ﺕﺎﺒﻛﺮﻣ ﻦﻣ ﺕﺎﺟﻮﻣ ...ﺔﻠﺼﻔﻨﻣ ﺕﺎﻤﺠﻫ ﻊﺑﺭﺃ ﻦﻣ ﺩﺎﻜﻟﺎﺑ ﺕﻮﺠﻧ ﺎﻴﺼﺨﺷ ﺎﻧﺃ !ﺎﻧﻭﺰﻐﺑ ﺖﻤﻗ ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ ،ﻝﺎﺼﺗﺍ ﺀﺍﺮﺟﺇ ﺎﻨﻟﻭﺎﺣ ﺪﻘﻟ .ﺮﻬﺷﺃ ﺬﻨﻣ ﻚﻟﻮﻄﺳﺃ ﻝﻮﺻﻭ ﺎﻧﻮﺒﻗﺍﺮﻣ ﻊﺒﺘﺗ\n\n؟ﺡﺍﺰﻤﻟﺍ ﻦﻣ ﻉﻮﻧ ﻙﺎﻨﻫ ﻞﻫ ؟ﺔﻋﺪﺧ ﻩﺬﻫ ﻞﻫ ..."
+ unplugged.125.a: ".[origin_unplugged_assimilator_empire.GetSpeciesNamePlural] ﺎﻨﻣﺰﻫ ،[root.GetSpeciesNamePlural] ،ﻦﺤﻧ"
+ unplugged.125.b: ".ﻞﺟﺆﻧ ﻥﺃ ﺐﺠﻳ" # also shows 'unplugged.120.c.tt'
+ unplugged.130.desc: "؟ﺔﻗﺍﺪﺼﺑ ﻥﻵﺍ ﺎﻨﻴﻟﺇ ﺙﺪﺤﺘﺗ ﻞﻫ :ﺎﺤﻳﺮﺻ ﻥﻮﻛﺃ ﻥﺃ ﻲﻟ ﺢﻤﺳﺍ \n\n .ﻝﺎﺣ ﻱﺃ ﻰﻠﻋ ﺎﺒﻳﺮﻘﺗ ﺎﻧﺮﻣﺪﻳ ﻚﻟﺫ ﻝﺍﺯ ﺎﻣﻭ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ ﺾﻌﺒﻟﺍ ﻢﻜﻀﻌﺑ ﺍﻮﻠﺗﺎﻘﺘﻟ ﻚﻟﺫ ﻢﺘﻌﻄﻗ ﻢﺛ .ﺎﻨﻴﻠﻋ ﺀﺎﻀﻘﻟﺍ ﺖﻟﻭﺎﺣ ﺪﻗﻭ ،ﺎﻬﺑ ﻲﻘﺘﻠﻧ ﺔﻴﺋﺎﻀﻓ ﺓﺭﺎﻀﺣ ﻝﻭﺃ ﻲﻫ ﻚﺗﺭﺎﻀﺣ ﻥﺇ .ﻕﺮﻓ ﻻ ...[origin_unplugged_assimilator_empire.GetSpeciesName]، [root.GetSpeciesName] .ﺮﻴﻐﺘﻳ ﻢﻟ ﺎﻨﻌﺿﻭ ﻥﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ \n\n.ﻚﺋﻼﻣﺯ ﺪﺣﺃ ﻰﻟﺇ ،ﺎﻨﺴﺣ ...ﻰﻟﺇ ﺍﺮﻴﺧﺃ ﺙﺪﺤﺘﻟﺍ ﺎﻀﻳﺃ ﺢﻳﺮﻤﻟﺍ ﻦﻣ .ﻢﻜﻨﻴﺑ ﻲﻠﺧﺍﺪﻟﺍ ﻝﺎﺘﺘﻗﻼﻟ ﺔﻳﺎﻬﻧ ﺔﻳﺅﺮﺑ ﺀﺍﺪﻌﺳ ﺎﻨﻧﺃ ﻢﻠﻋﺍ ﻦﻜﻟﻭ ،ﺎﻨﺒﻌﺷ ﻦﻣ ﻥﺎﻨﺘﻣﻻﺍ ﻦﻣ ﺮﻴﺜﻜﻟﺍ ﻰﻘﻠﺘﺗ ﻦﻟ\n\n؟ﻝﻮﻘﺗ ﺎﻤﻛ ،[root.GetSpeciesNamePlural]"
+ unplugged.130.a: "؟ﺓﺪﻋﺎﺴﻤﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻒﻴﻛ .ﻞﻌﻔﻧ ﻦﺤﻧ"
+ unplugged.130.b: ".ﻢﻌﻧ ،ﻦﻫﺍﺮﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ"
+ unplugged.130.c: ".ﺎﺘﻴﻘﻣ ﻚﻣﺍﺮﺘﺣﺍ ﻡﺪﻋ ﺪﺠﻧ" # also shows 'unplugged.120.b.tt'
+ unplugged.131.desc: "...[origin_unplugged_assimilator_empire.GetSpeciesNamePlural] ﻦﻣ ﺎﻘﺣ ﺮﻴﺧﻷﺍ ﻮﻫ ﺍﺬﻫ ﻥﻮﻜﻳ ﻥﺃ ﻞﻣﺄﻧ ،ﺎﻨﺘﺤﻠﺼﻣ ﻞﺟﺃ ﻦﻣﻭ .[root.GetSpeciesNamePlural] ،ﺎﻨﻨﻴﺑ ﻲﻠﺒﻘﺘﺴﻤﻟﺍ ﻢﻫﺎﻔﺘﻟﺍ ﻚﻴﻟﺇ\n\n.ﺡﻮﺿﻮﻟﺍ ﺾﻌﺑ ﻚﻟ ﺐﻠﺠﺘﺳ ﺔﻳﺭﺎﻛﺬﺘﻟﺍ ﻚﺗﺍﺮﻛﺬﻣ ﻥﺃ ﻦﻣ ﺔﻘﺛ ﻰﻠﻋ ﻦﺤﻨﻓ :ﻪﺴﻔﻧ ﺀﻲﺸﻟﺍ ﻞﻌﻔﺗ ﻥﺃ ﻚﺗﺩﺎﻋ ﻦﻣ ﻥﺎﻛ ﺍﺫﺇ .ﺎﻧﺎﺗﻮﻣ ﻰﻠﻋ ﺩﺍﺪﺤﻟﺍﻭ ﺀﺎﻨﺒﻟﺍ ﺓﺩﺎﻋﺇ ﺔﺻﺮﻓ ﺎﻨﻟ ﺡﺎﺘﺗ ﻥﺃ ﺩﺮﺠﻤﺑ - ﺔﻄﻴﺴﺒﻟﺍ ﺕﺍﺪﻋﺎﺴﻤﻟﺍ ﻦﻣ ﻊﻴﻄﺘﺴﻧ ﺎﻣ ﻢﻜﻟ ﻡﺪﻘﻨﺳ ﺎﻧﺭﻭﺪﺑ ﻦﺤﻧﻭ \n\n.ﺔﺣﻮﺘﻔﻣ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺓﺎﻨﻘﻟﺍ ﻩﺬﻫ ﺀﺎﻘﺑﺇ ﻲﻓ ﺓﺪﺸﺑ ﺐﻏﺮﻧ ﺎﻨﻧﺈﻓ ﺍﺬﻟ ،ﻥﻵﺍ ﻥﺎﻜﺑﺎﺸﺘﻣ ﺎﻧﺮﻴﺼﻣﻭ ﻢﻛﺮﻴﺼﻣ ﻥﺇ .ﺎﻨﻟ ﺕﻻﺎﺼﺗﻻﺍ ﺩﺍﺪﻋﺇ ﻲﻓ ﻚﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻗﻮﻔﺘﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻚﻟ ﺭﺪﻘﻧ ﻦﺤﻧﻭ\n\n.ﻚﺑ ﺹﺎﺨﻟﺍ ﺭﺎﻨﻟﺍ ﻂﺧ ﻲﻓ ﺪﻌﻧ ﻢﻟ ﺎﻨﻧﻷ ﻥﻮﻨﺘﻤﻣ ﻦﺤﻧ .ﺡﺎﻴﺗﺭﻻﺍ ﻮﻫ ﺍﺬﻫ .ﺪﻴﺟ"
+ unplugged.131.a: ".[injured_country.GetSpeciesNamePlural] ،ﻚﻟ ﺍﺮﻜﺷ" # also shows 'unplugged.120.c.tt'
+ unplugged.131.b: "...ﻞﻌﻔﻟﺎﺑ" # also shows 'unplugged.120.c.tt'
+
+###################
+# 'Machine Legacy'
+###################
+
+ unplugged_origin_machine_legacy_chain_title: "ﺔﻟﻵﺍ ﺙﺍﺮﺗ"
+ unplugged_origin_machine_legacy_chain_desc: "؟ﺔﺑﻮﻜﻨﻤﻟﺍ ﻪﻄﻄﺧ ﻲﻓ ﻩﺎﻨﺒﻌﻟ ﻱﺬﻟﺍ ﺭﻭﺪﻟﺍ ﻮﻫ ﺎﻣﻭ ،[origin_unplugged_assimilator_empire.GetName] ﻮﻫ ﺎﻣ .ﺔﻴﺸﺣﻮﻟﺍﻭ ﺔﻨﻤﻴﻬﻟﺍ ﻦﻣ ﻞﻌﺘﺸﻤﻟﺍ ﺎﻫﺮﺛﺃ ﻦﻤﻜﻳ ﺎﻨﻔﻠﺧﻭ .ﺎﻬﺴﻔﻧ ﺖﻗﺰﻣ ﺪﻗ ﻪﻠﻤﻛﺄﺑ ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺟ ﺖﺒﻋﻮﺘﺳﺍ ﻲﺘﻟﺍ ﺔﻟﻵﺍ ﻥﺇ"
+ signals_followed: "ﺕﺍﺭﺎﺷﻹﺍ ﻲﻓ ﻖﻴﻘﺤﺘﻟﺍ"
+
+# System 1: 'The Makers'
+ unplugged.2000.name: "ﺔﺋﺪﻬﺗ ،ﺓﺮﻓﺎﻨﺘﻤﻟﺍ ،ﺔﻄﻴﺤﻤﻟﺍ"
+ unplugged.2000.desc: ".ﻚﻟﺬﻟ ﺎﻘﻓﻭ ﺎﻨﻳﺪﻟ ﻡﻮﺠﻨﻟﺍ ﺕﺎﻄﻄﺨﻣ ﺚﻳﺪﺤﺗ ﻢﺗ .§Y[origin_unplugged_maker_planet.solar_system.GetName]§! ﻡﺎﻈﻧ ﻲﻓ ﺩﻮﺟﻮﻣ ﺓﺭﺎﺷﻹﺍ ﺭﺪﺼﻣ ﻥﺃ ﻭﺪﺒﻳ\n\n.ﺎﻃﺭﻮﺘﻣ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ [origin_unplugged_assimilator_empire.GetName] ﻥﺃ ﻲﻓ ﻚﺸﻧ .ﺐﺒﺴﻟﺍ ﺮﻴﺴﻔﺗ ﻊﻴﻄﺘﺴﻳ ﺪﺣﺃ ﻻ ﻦﻜﻟﻭ ،ﺎﻓﻮﻟﺄﻣﻭ ﺎﺤﻳﺮﻣ ﻩﺪﺠﻳ ﺚﺒﻟﺍ ﻊﻤﺳ ﻱﺬﻟﺍ [root.GetSpeciesAdj] ﻞﻛ .ﺔﻫﻮﺸﻣ ﺕﺎﻈﺣﻼﻣﻭ ﺔﻘﻴﻤﻋ ﺕﺎﻤﻐﻨﺑ ﺰﻴﻤﺘﻳ ﺎﻴﺗﻮﺻ ﺎﻘﻓﺩ ﺎﻨﻟﺰﻋ ﺪﻘﻟ \n\n.[capital_scope.star.GetName] ،ﺎﻨﻤﺠﻨﺑ ﻂﻴﺤﻤﻟﺍ ﻲﻧﻮﻜﻟﺍ ﻉﺎﻌﺷﻹﺍ ﻲﻓ ﺕﺎﺒﺳ ﺔﻟﺎﺣ ﻲﻓ ﺔﻴﻔﺧ ﺔﻠﻣﺎﺣ ﺓﺭﺎﺷﺇ ﻦﻤﻜﺗ"
+ unplugged.2000.a: ".ﻖﻴﻘﺤﺘﻟﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+ unplugged_machine_legacy_makers_poi: "ﺉﺪﻬﻣ ﺯﺎﺸﻧ"
+ unplugged_machine_legacy_makers_poi_desc: ".[origin_unplugged_maker_planet.solar_system.GetName] ﻡﺎﻈﻧ ﻲﻓ ﺎﻣ ﻥﺎﻜﻣ ﻲﻓ ﺔﻄﻘﻧ ﻦﻣ ﺔﻓﻮﻟﺄﻤﻟﺍﻭ ﺔﺋﺩﺎﻬﻟﺍ ﺀﺎﺿﻮﻀﻟﺍ ﻦﻣ ﺐﻳﺮﻗ ﺭﺎﻴﺗ ﺚﺑ ﻢﺘﻳ"
+ MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT: "ﺔﻟﻵﺍ ﺙﺭﺇ"
+ MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT_DESC: ".§H[origin_unplugged_assimilator_empire.GetName]§! ﻰﻟﺇ ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﻲﻤﺘﻨﻳ ﻥﺎﻛ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻥﺃ ﻰﻟﺇ ﺮﻴﺸﺗ ﻩﺬﻫ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻡﺰﺣ ﺔﻌﻴﺒﻃ ﻦﻜﻟﻭ ،ﻞﺒﻗ ﻱﺫ ﻦﻣ ﺮﺒﻛﺃ ﺔﺳﻼﺴﺑ ﻥﻵﺍ ﺎﻨﺘﻨﻴﻔﺳ ﻞﻤﻌﺗ .ﺓﺪﻴﻔﻤﻟﺍ ﺔﺘﺑﺎﺜﻟﺍ ﺞﻣﺍﺮﺒﻟﺍ ﺕﺎﺜﻳﺪﺤﺘﺑ ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺎﻨﺘﻤﻈﻧﺃ ﻒﺼﻘﺑ [from.GetName] ـﻟ ﻱﺭﺍﺪﻤﻟﺍ ﺢﺴﻤﻟﺍ ﻡﺎﻗ"
+ MACHINE_LEGACY_MAKERS_CAT: "$MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT$"
+ MACHINE_LEGACY_MAKERS_CAT_DESC: "؟ﺓﺪﻘﻌﻤﻟﺍ ﺔﻴﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﺕﻻﺎﺠﻤﻟﺍ ﻩﺬﻫ ﺏﺎﺒﺿ ﻲﻓ ﻦﻤﻜﺗ ﻲﺘﻟﺍ ﺯﺎﻐﻟﻷﺍ ﻲﻫ ﺎﻣ .ﺔﻜﺳﺎﻤﺘﻣ ﻦﻳﻭﺎﻨﻋ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺓﺪﻴﻌﺒﻟﺍ ﺎﻨﺗﺎﺴﺠﻣ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺢﻓﺎﻜﺗ ﺎﻤﻨﻴﺑ ﻢﻟﺎﻌﻟﺍ ﻚﻟﺫ ﺮﺒﻋ ﺺﻗﺍﺮﺘﺗ ﺔﻴﺋﺎﺑﺮﻬﻜﻟﺍ ﺕﺎﻀﺒﻨﻟﺍ ﻝﺍﺰﺗ ﻻ .ﻂﻘﻓ ﺍﺮﺧﺆﻣ ﺎﻬﻨﻋ ﻲﻠﺨﺘﻟﺍ ﻢﺗ ﻦﻜﻟﻭ ،ﺔﻠﻤﻬﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺎﺑ ﻲﻨﻏ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻥﺃ ﻰﻟﺇ [from.GetName] ـﻟ ﺎﻬﺑ ﺎﻨﻤﻗ ﻲﺘﻟﺍ ﺔﻴﻟﻭﻷﺍ ﺢﺴﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺮﻴﺸﺗ"
+ unplugged.2005.name: "[origin_unplugged_assimilator_empire.GetAdj] ﺙﺍﺮﺗ"
+ unplugged.2005.desc: ".ﻢﻬﻟﺎﺠﻣ ﻲﻓ ﺎﻨﺑﺎﻌﻴﺘﺳﺍ ﺀﺎﻨﺛﺃ ﻩﺎﻨﺒﻌﻟ ﻱﺬﻟﺍ ﺭﻭﺪﻟﺍ ﺎﻤﺑﺭﻭ - ﺎﻨﻫ ﻪﻌﻨﺼﻳ [origin_unplugged_assimilator_empire.GetName] ﻥﺎﻛ ﺎﻣ ﻑﺎﺸﺘﻛﻻ ﺔﺻﺮﻓ ﺎﻨﻳﺪﻟ ،ﺔﻴﻠﺤﻤﻟﺍ ﺮﻃﺎﺨﻤﻟﺍ ﻝﺅﺎﻀﺗ ﻊﻣ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ .ﺍﺫﺎﻤﻟ ﻭﺃ ﻒﻴﻛ ﻥﻵﺍ ﻰﺘﺣ ﻑﺮﻌﻧ ﻻ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺯﺎﻬﺠﻟﺍ ﻦﻣ ﺹﺎﺨﻟﺍ ﺎﻨﻤﺴﻘﻟ ﻯﺪﺻ ﻮﺘﻠﻟ ﺎﻧﺪﻬﺷ ﺎﻤﺑﺭ \n\n .ﺔﻴﻤﻴﻠﻗﻹﺍ ﺔﻗﺎﻄﻟﺍ ﺕﺎﻄﺤﻣ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻲﻓ ﻞﺴﻠﺴﺘﻣ ﻞﺸﻓ ﻲﻓ ﺐﺒﺴﺗ ﺎﻤﻣ ،ﻝﺎﺼﺗﻻﺍ ﻊﻄﻘﻧﺍ ،ﺎﻨﺘﻨﻴﻔﺳ ﻰﻟﺇ ﺖﺑﺎﺜﻟﺍ ﺞﻣﺎﻧﺮﺒﻟﺍ ﺚﻳﺪﺤﺗ ﻝﺎﺳﺭﺇ ﻦﻣ ﺕﺎﻈﺤﻟ ﺪﻌﺑ ،ﻚﻟﺫ ﻊﻣﻭ .ﺔﻘﻳﺪﺻ ﺔﻨﻴﻔﺳ ﺎﻬﻧﺃ ﻰﻠﻋ [root.GetName] ﺕﺩﺪﺣ - §H[origin_unplugged_assimilator_empire.GetName]ﻭ §! ـﻟ ﻊﻴﻨﺼﺗ ﺰﻛﺮﻣ ﺖﻧﺎﻛ ﺎﻬﻧﺃ ﺪﻘﺘﻌﻧ ﻲﺘﻟﺍﻭ - ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻲﻄﻐﺗ ﻲﺘﻟﺍ ﻊﻧﺎﺼﻤﻟﺍ\n\n .ﻪﺣﻼﺻﺇ ﻦﻜﻤﻳ ﻻ ﻞﻜﺸﺑ ﻥﻵﺍ ﺕﺭﺮﻀﺗ ﺪﻗ ﺓﺄﺸﻨﻤﻟﺍ ﻥﺃ ﺪﺠﺘﻟ ﻂﻘﻓ ﺡﺎﺠﻨﺑ ﻝﻮﻘﺤﻟﺍ ﻩﺬﻫ ﺪﺣﺃ ﻝﺎﻄﺑﺇ ﻲﻓ [controller.GetScientistPlural] ﺖﺤﺠﻧ .ﻦﻔﺴﻟﺍ ﺀﺎﻨﺑ ﺽﺍﻮﺣﺃﻭ ﻊﻧﺎﺼﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺖﻗﺰﻣ ﻲﺘﻟﺍ ﺔﻴﺛﺭﺎﻜﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺕﺎﻋﺎﻔﺗﺭﻻ ﺔﺠﻴﺘﻧ ﻲﻫ "EM" ﻝﻮﻘﺤﻟﺍ ﻩﺬﻫ .[fromfrom.GetName] ﺮﺒﻋ ﺔﻴﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﻦﻣ ﺔﻓﺎﺜﻛ ﺮﺜﻛﺃ ﺏﻮﻴﺟ ﺓﺪﻋ ﻥﻵﺍ ﻷﻸﺘﺗ"
+ unplugged.2005.a: ".ﺭﺎﺛﻵﺍ ﻚﻠﺗ ﻦﻋ ﺐﻴﻘﻨﺘﻟﺍ ﻲﻓ ﺀﺪﺒﻟﺍ"
+ unplugged.2006.name: "$MACHINE_LEGACY_MAKERS_UNPLUGGED_CAT$"
+ unplugged.2006.desc: ".ﺪﻳﺮﻓ ﻞﻜﺸﺑ ﺔﻳﺩﺎﻌﻣ ﺓﺮﺒﻘﻣ [from.GetName] ﻞﻈﺗ ،ﻦﻴﺤﻟﺍ ﻚﻟﺫ ﻰﺘﺣ .ﺎﺒﻳﺮﻘﺗ ﻥﺮﻗ ﻝﻼﺧ ﺔﺤﻣﺎﺠﻟﺍ "EM" ﻝﻮﻘﺣ ﻕﺮﺘﺤﺗ ﻥﺃ ﻊﻗﻮﺘﻧ .ﺎﻨﻫ ﺫﺎﻘﻧﻹﺍ ﻲﻓ ﻼﻴﺌﺿ ﻼﻣﺃ ﻙﺎﻨﻫ ﻥﺃ ﻻﺇ ،ﺔﻘﺑﺎﺴﻟﺍ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﻩﺬﻫ ﺪﻴﻘﻌﺗ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.ﺏﺮﺤﻟﺍ ﻭﺃ ﺐﻳﺮﺨﺘﻟﺍ ﻝﺎﻤﻋﺃ ﻦﻣ ﻞﻤﻋ ﺐﺒﺴﺑ ﺚﺒﺧ ﻰﻟﺇ ﺎﺒﻳﺮﻘﺗ ﺎﻬﻠﻤﻛﺄﺑ ﺔﻨﻃﻮﺘﺴﻤﻟﺍ ﺖﻟﻮﺤﺗ ﺚﻴﺣ ،ﻦﻴﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻣ ﻱﺃ ﻦﻣ ﻥﻵﺍ ﺪﺣﺃ ﻖﺒﻳ ﻢﻟ .ﺓﺩﻮﺟﻮﻣ ﺓﺭﺎﻀﺣ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﻭﺃ ﺮﻴﺠﻬﺘﺑ ﺖﻣﺎﻗ ﻢﺛ ﻦﻣﻭ ،ﺩﻮﻘﻋ ﺓﺪﻋ ﺬﻨﻣ ﺕﻻﻵﺍ ﻪﺘﻨﻃﻮﺘﺳﺍ ﺪﻗ ﺐﻛﻮﻜﻟﺍ ﻥﺃ ﻭﺪﺒﻳ .ﺎﻨﻫ ﺭﺎﻣﺪﻠﻟ ﻞﻣﺎﻜﻟﺍ ﻯﺪﻤﻟﺍ ﺔﻈﺣﻼﻣ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﺓﺪﻳﺪﺸﻟﺍ ﺔﻴﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﺓﻮﻘﻟﺍ ﻩﺬﻫ ﻦﻋ ﺾﻳﻮﻌﺘﻠﻟ ﺎﻨﻳﺪﻟ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺓﺰﻬﺟﺃ ﻂﺒﺿ ﺪﻌﺑ ﻂﻘﻓ .ﺐﻳﺮﻐﻟﺍ ﺔﻟﻵﺍ ﺽﺍﺮﻘﻧﺍ ﺙﺪﺤﻟ ﺔﻴﻘﺒﺘﻤﻟﺍ ﺔﺠﻴﺘﻨﻟﺍ ﻲﻫ [from.GetName] ﻰﻠﻋ ﺎﻫﺎﻨﻈﺣﻻ ﻲﺘﻟﺍ ﺔﻴﺋﺎﺑﺮﻬﻜﻟﺍ ﺕﺎﻀﺒﻨﻟﺍ"
+
+ machine_legacy_makers_site: "ﻊﻨﺼﻤﻟﺍ ﻂﺒﺿ"
+ machine_legacy_makers_site_desc: ".ﺐﻳﺮﻘﻟﺍ ﺎﻨﻴﺿﺎﻣ ﻲﻓ ﻥﺎﻜﻤﻟﺍ ﺍﺬﻫ ﻪﺒﻌﻟ ﺎﻤﺑﺭ ﻱﺬﻟﺍ ﺭﻭﺪﻟﺍ ﻑﺮﻌﻧ ﻥﺃ ﻞﻣﺄﻧﻭ ،ﺔﻴﻗﺎﺑ ﻞﻈﺗ ﺪﻗ ﺔﻴﺟﻮﻟﻮﻨﻜﺗ ﻝﻮﺻﺃ ﻱﺃ ﺫﺎﻘﻧﺇﻭ ،ﻖﻓﺍﺮﻤﻟﺍ ﻩﺬﻫ ﺕﺄﺸﻧ ﻒﻴﻛ ﻑﺎﺸﺘﻛﺍ ﻰﻟﺇ ﺎﻨﺘﺜﻌﺑ ﻰﻌﺴﺘﺳ ،ﻚﻟﺫ ﺏﺎﻘﻋﺃ ﻲﻓﻭ .[origin_unplugged_assimilator_empire.GetName] ﻡﺪﺨﺗ ﻲﺘﻟﺍ ﺕﺂﺸﻨﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻣ ﺓﺪﺣﺍﻭ ﻲﻫﻭ - ﻩﺬﻫ ﺔﻤﺨﻀﻟﺍ ﻊﻴﻨﺼﺘﻟﺍ ﺓﺄﺸﻨﻣ ﺍﺮﺧﺆﻣ ﺔﻴﺛﺭﺎﻜﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺔﺟﻮﻣ ﺖﻗﺰﻣ ﺪﻘﻟ"
+ unplugged.2010.name: "ﻊﻨﺼﻤﻟﺍ ﺔﻴﺿﺭﺃ"
+ unplugged.2010.desc.unplugged: ".ﺔﺤﺑﺬﻤﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﻲﻓ ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺀﺎﻘﺒﻠﻟ ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﻦﻳﺰﻬﺠﻣ ﺎﻨﻛ [owner.GetSpeciesNamePlural] ،ﺩﻮﻨﺠﻟﺍ ﻦﺤﻧ .ﻦﻴﻴﻟﻵﺍ ﻢﻬﺋﺍﺮﻈﻧ ﻲﻫﺎﻀﻳ ﻥﻭﺭﺮﺤﻤﻟﺍ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﻪﻴﻓ ﻦﻜﻳ ﻢﻟ ﺪﻬﺸﻣ ﻪﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺎﻓﻮﻟﺄﻣﻭ ﺎﻴﺸﺣﻭ ﺍﺪﻬﺸﻣ ﺍﺬﻫ ﺪﻌﻳ ،ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ \n\n.[from.planet.GetName] ﻰﻟﺇ ﺎﻨﻟﻮﺻﻭ ﺕﺰﻴﻣ ﻲﺘﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺓﺩﺎﻳﺯ ﻲﻓ ،ﺍﺮﺧﺆﻣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻢﻈﻌﻣ ﺖﻜﻠﻫ ؛[origin_unplugged_assimilator_empire.GetName] ﻦﻋ ﺎﻨﻟﺎﺼﻔﻧﺍ ﻦﻣ ﻊﻴﺑﺎﺳﺃ ﺔﻌﻀﺑ ﻥﻮﻀﻏ ﻲﻓ ﺔﺤﺑﺬﻤﻟﺍ ﻩﺬﻫ ﺦﻳﺭﺄﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ .ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﻚﻠﺘﻟ ﺎﺒﻳﺮﻘﺗ ﺔﻘﺑﺎﻄﻤﻟﺍ [origin_unplugged_assimilator_empire.GetAdj] ﻢﻜﺤﺘﻟﺍ ﺕﺍﺪﻴﻘﻋ ﺐﻧﺎﺟ ﻰﻟﺇ ،ﺓﺪﻘﻌﻣ ﺕﺍﻭﺩﺃ ﺕﺍﺫ ﻑﺍﺮﻃﺃﻭ ﺔﻳﺮﺼﺑ ﺭﺎﻌﺸﺘﺳﺍ ﺓﺰﻬﺟﺄﺑ ﺔﻗﺰﻤﻤﻟﺍﻭ ﺔﻠﻴﺌﻀﻟﺍ ﺕﺎﻴﻳﺪﺜﻟﺍ ﻩﺬﻫ ﺰﻴﻬﺠﺗ ﻢﺗ .ﺎﻬﺴﻔﻧ ﺕﺎﺗﻮﺑﻭﺮﻟﺍ ﻚﻠﺗ ﺪﻳ ﻰﻠﻋ ﺍﻮﻠﺘﻗ ﻦﻳﺬﻟﺍ ،ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺎﻬﺋﻼﻣﺯ ﻦﻣ ﺪﻳﺪﻌﻠﻟ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺔﻠﻠﺤﺘﻤﻟﺍ ﺚﺜﺠﻟﺍ ﺓﺄﺸﻨﻤﻟﺍ ﻦﻣ ﺪﺣﺍﻭ ﺐﻧﺎﺟ ﻰﻠﻋ ﺓﺄﺒﺨﻣ ،ﻚﻟﺫ ﻊﻣﻭ .ﻥﺎﺧﺪﻟﺍ ﻥﻮﻘﻠﻄﻳ ﺍﻮﻟﺍﺯ ﻻﻭ ﺐﻳﺮﻗ ﺖﻗﻭ ﻰﺘﺣ ﻢﻬﻀﻌﺑ ﺕﺎﻣ ﺪﻗﻭ ،ﻥﻭﺮﺧﺁ ﻥﻭﺪﻋﺎﺴﻣﻭ ،ﺕﺎﻌﻓﺍﺭﻭ ،ﻥﻮﻴﻜﻴﻧﺎﻜﻴﻣ :ﺕﺎﺗﻮﺑﻭﺮﻟﺍ ﻦﻣ ﻢﻬﻤﻈﻌﻣ .ﺔﻴﻧﻭﺮﺘﻜﻟﻹﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺕﯫﻣ ﺎﻳﺎﻘﺑﻭ ﻡﺎﻄﺤﻟﺎﺑ ﺔﺌﻴﻠﻣ ﺓﺮﺋﺎﻏ ﻊﻨﺼﻣ ﺔﻴﺿﺭﺃ ﺎﻧﺪﺟﻭ ،ﻞﺧﺍﺪﻟﺎﺑ\n\n.ﺔﻳﻮﻬﺘﻟﺍ ﻡﺎﻈﻧ ﺮﺒﻋ ﺓﻮﻘﻟﺎﺑ ﻝﻮﺧﺪﻟﺎﺑ ﺎﻨﻤﻗ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺓﺮﻬﺼﻨﻣ ﻒﺼﻧ ﺕﺎﻛﺮﺤﻤﺑ ﺎﻬﻗﻼﻏﺇﻭ ﺎﻬﻨﻣ ﺓﺪﺣﺍﻭ ﻞﻛ ﻰﻠﻋ ﺀﻼﻴﺘﺳﻻﺍ ﻥﻵﺍ ﻢﺗ ﺪﻗﻭ ،ﺭﺎﺠﻔﻧﻼﻟ ﺔﻣﻭﺎﻘﻣ ﺔﻤﺨﺿ ﺏﺍﻮﺑﺃ ﺽﺭﻷﺍ ﻕﻮﻓ ﺔﻴﻌﻴﺒﻄﻟﺍ ﺮﻇﺎﻨﻤﻟﺍ ﻰﻠﻋ ﻦﻤﻴﻬﺗ .ﻞﺋﺎﻫ ﻕﺎﻄﻧ ﻰﻠﻋ ﺝﺎﺘﻧﻹﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺖﻧﺎﻛ [from.planet.GetName] ﻲﻓ ﺓﺄﺸﻨﻤﻟﺍ ﻥﺃ ﻯﺮﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ،ﺔﻳﺍﺪﺒﻟﺍ ﺬﻨﻣ"
+ unplugged.2010.a: ".ﺐﻴﻘﻨﺘﻟﺍ ﻝﺎﻤﻋﺃ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﻲﻓ ﺮﻤﺘﺳﺍ"
+ unplugged.2010.b: ".ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺞﺋﺎﺘﻨﻟﺍ ﻩﺬﻫ ﺮﺸﻨﻧ ﻥﺃ ﺐﺠﻳ"
+ unplugged.2015.name: "ﺓﺰﻬﺠﻤﻟﺍ ﻝﺎﻨﺳﺭﺍ"
+ unplugged.2015.desc.unplugged: ".ﻥﻮﻴﻠﺻﻷﺍ ﺐﻛﻮﻜﻟﺍ ﻥﺎﻜﺳ ﻢﻴﻘﻳ ﺚﻴﺣ ﺎﻤﺑﺭ - ﺓﺄﺸﻨﻤﻟﺍ ﻞﻔﺳﺃ ﻞﺋﺍﻮﻣ ﺩﻮﺟﻭ ﻰﻟﺇ ﺔﻳﻮﻬﺘﻟﺍ ﺓﺪﻤﻋﺃ ﻦﻣ ﺔﻠﺴﻠﺳ ﺮﻴﺸﺗ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺮﻳﻮﻄﺗﻭ ﺚﺤﺑ ﺰﻛﺮﻣ ﻪﻧﺃ ﻭﺪﺒﻳ ﺎﻣ ﻮﺤﻧ ﻖﻳﺮﻄﻟﺍ ﺪﻬﻤﻧ ﺪﻗ ﺎﻨﻧﺃ ﺪﻘﺘﻌﻧ ﺎﻨﻨﻜﻟ ،ﺭﺎﺠﻔﻧﻼﻟ ﺓﺩﺎﻀﻤﻟﺍ ﺏﺍﻮﺑﻷﺍ ﻦﻣ ﻞﻴﻠﻗ ﺩﺪﻋﻭ ﻲﻠﻜﻴﻬﻟﺍ ﺭﺎﻴﻬﻧﻻﺍ ﺐﺒﺴﺑ ﺓﺄﺸﻨﻤﻟﺍ ﻲﻓ ﻲﻓﺎﺿﻹﺍ ﻡﺪﻘﺘﻟﺍ ﺔﻗﺎﻋﺇ ﻢﺘﻳ \n\n .ﺎﻬﺑﺎﻌﻴﺘﺳﺍ ﻞﺒﻗ ﻑﺍﺮﻃﻷﺍ ﺔﻴﻣﺍﺮﺘﻤﻟﺍ ﻊﻧﺎﺼﻤﻟﺍ ﻩﺬﻫ ﺀﺎﻨﺒﺑ ﺖﻣﺎﻗ ﺎﻤﺑﺭ ﻞﺑ ،ﺐﺴﺤﻓ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻬﻟ ﺎﻨﻃﻮﻣ ﻦﻜﺗ ﻢﻟ ﺔﻴﻟﻵﺍ ﺕﺎﻴﻳﺪﺜﻟﺍ ﻥﺃ ﻰﻟﺇ ﺔﻳﺭﺎﻤﻌﻤﻟﺍ ﺕﺎﺣﻮﺴﻤﻟﺍﻭ ﺢﻳﺮﺸﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺮﻴﺸﺗ ،ﻚﻟﺫ ﻰﻠﻋ ﺓﻭﻼﻋ .ﻦﺤﻧ ...ﻞﺑ ،ﺎﻘﺑﺎﺳ ﺎﻫﺎﻧﺪﺟﻭ ﻲﺘﻟﺍ ﺕﺎﻴﻳﺪﺜﻟﺍ ﻦﻣ ﺓﺮﻴﻐﺼﻟﺍ ﺔﻴﻟﻵﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺐﻋﻮﺘﺴﺗ ﻻ ﺚﻴﺤﺑ ﺔﻬﺟﺍﻭﻭ ﺓﺩﺎﻴﻗ ﺓﺮﻤﻗ ﻞﻛ ﻢﻴﻤﺼﺗ ﻢﺗ :ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ \n\n .ﻡﺎﻤﺘﻫﻼﻟ ﺓﺮﻴﺜﻤﻟﺍ ﺕﺎﺟﺎﺘﻨﺘﺳﻻﺍ ﺾﻌﺑ ﺹﻼﺨﺘﺳﻻ ﺎﻨﻟ ﻲﻔﻜﻳ ﺎﻣ ﻰﻘﺒﻳ ﻦﻜﻟﻭ - [origin_unplugged_assimilator_empire.GetAdj] ﺕﺎﺗﻮﺑﻭﺭ ﺪﻴﻴﺤﺗ ﻰﻟﺇ ﺕﺩﺃ ﻲﺘﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺓﺩﺎﻳﺯ ﺲﻔﻧ ﻝﻼﺧ ﻦﻣ ﻡﺍﺪﺨﺘﺳﻻﺍ ﻕﺎﻄﻧ ﺝﺭﺎﺧ ﺎﻬﻌﺿﻭ ﻢﺗ ﻭﺃ ،ﺔﻠﻤﺘﻜﻣ ﺮﻴﻏ ﺞﻣﺍﺮﺒﻟﺍ ﻩﺬﻫ ﻢﻈﻌﻣ .ﺔﻴﻜﻴﻧﺎﻜﻴﻣ ﺕﻻﺪﺑﻭ ﺦﻳﺭﺍﻮﺻ ﺕﺎﺼﻨﻣﻭ ﺔﻔﻠﺘﺨﻣ ﺕﺎﺑﺎﺑﺪﺑ ﻒﻴﻔﺧ ﻞﻜﺸﺑ ﺓﺰﻬﺠﻤﻟﺍ ،ﺽﺭﻷﺍ ﺖﺤﺗ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺮﺋﺎﻈﺣ ﻦﻣ ﺔﻠﺴﻠﺳ ﻊﻘﺗ ،ﺓﺄﺸﻨﻤﻟﺍ ﻩﺬﻫ ﻊﻨﺼﻣ ﺔﻴﺿﺭﺄﺑ ﺖﻘﺤﻟ ﻲﺘﻟﺍ ﺔﺤﺑﺬﻤﻟﺍ ﻦﻋ ﺍﺪﻴﻌﺑ"
+ unplugged.2015.a: ".ﺽﺭﻷﺍ ﻕﻮﻓ ﺓﺄﺸﻨﻤﻟﺍ ﺮﻔﺣ ﺔﻠﺻﺍﻮﻣ"
+ unplugged.2015.b: ".ﻢﻬﻨﻋ ﺔﻓﺮﻌﻣ ﺎﻨﻨﻜﻤﻳ ﺎﻣ ﻯﺮﻧ .ﻖﻤﻋﺃ ﺮﻔﺣ"
+ unplugged.2021.name: "ﻩﺍﺮﻛﻹﺍ ﺖﺤﺗ ﻥﻮﻤﻤﺼﻤﻟﺍ"
+ unplugged.2021.desc: ".ﻉﻮﻨﻟﺍ ﺍﺬﻬﻟ ﻱﻮﻘﻟﺍ ﻲﺜﺤﺒﻟﺍ ﺙﺍﺮﺘﻟﺍ ﻂﻘﺘﻠﻨﻟ ﻥﻵﺍ ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺎﻨﻟﺯ ﺎﻣ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺓﻮﻗ ﺮﺜﻛﺃ ﺔﻧﺎﺳﺮﺗ ﻡﺪﺨﺘﺳﺍ ﺪﻗ ﻥﺎﻜﻟ ،ﺎﻧﺪﺿ ﺖﺒﻠﻘﻧﺍ ﺎﻣﺪﻨﻋ ﻻﺇﻭ ،ﺔﻠﻳﻮﻃ ﺓﺮﺘﻔﻟ [origin_unplugged_assimilator_empire.GetName] ﻦﻣ ﺍﺀﺰﺟ ﺍﻮﻘﺒﻳ ﻢﻟ ﻦﻴﺑﻮﻫﻮﻤﻟﺍ ﻦﻴﻴﻨﻘﺘﻟﺍ ﺀﻻﺆﻫ ﻞﺜﻣ ﻥﺃ ﻆﺤﻟﺍ ﻦﺴﺣ ﻦﻣ ﻥﻮﻜﻳ ﺪﻗ .ﻊﻨﺼﻟﺍ ﺔﻴﻠﺤﻣ ﻩﺬﻫ ﻊﻴﻨﺼﺘﻟﺍ ﺕﺎﻴﻨﻘﺗ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻭﺪﺒﺗ ؛ﺩﻮﻘﻋ ﺔﻌﻀﺑ ﻦﻣ ﺮﺜﻛﺃ ﺬﻨﻣ ﺎﻨﻫ ﺓﺩﻮﺟﻮﻣ ﻦﻜﺗ ﻢﻟ ﺔﻟﻵﺍ ﻥﺃ ﻲﻓ ﻚﺸﻧ ﻦﺤﻧ .[origin_unplugged_assimilator_empire.GetName] ﺔﻄﺳﺍﻮﺑ ﺓﺄﺠﻓ ﻦﻴﻣﺪﻘﺘﻤﻟﺍ ﻦﻴﻴﻨﻔﻟﺍ ﻦﻣ ﻊﻤﺘﺠﻣ ﺏﺎﻌﻴﺘﺳﺍ ﻪﻴﻓ ﻢﺗ ﻲﻨﻣﺯ ﻝﻭﺪﺟ ﻦﻋ ﻒﺸﻜﻟﺍ ﻲﻓ ﺃﺪﺒﻧ \n\n .ﺔﻳﻮﻀﻌﻟﺍ ﺎﻬﻟﺎﻜﺷﻷ ﺮﻴﺜﻜﺑ ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﻢﻴﻤﺼﺘﻟﺍ ﺭﺎﻫﺩﺯﺍ ﻊﻣ ،ﺔﻴﻟﺎﻌﻟﺍ ﺓﺩﻮﺠﻟﺍ ﺕﺍﺫ ﺔﺼﺼﺨﻤﻟﺍ ﺕﺍﻭﺩﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺎﻀﻳﺃ ﺎﻧﺪﺟﻭ ﺪﻘﻓ ،ﻞﺻﻷﺍ ﻲﻓ [origin_unplugged_assimilator_empire.GetAdj] ﻲﻫ ﺎﻫﻮﻣﺪﺨﺘﺳﺍ ﻲﺘﻟﺍ ﺕﺍﺪﻌﻤﻟﺍ ﻢﻈﻌﻣ ﻥﺃ ﻦﻴﺣ ﻲﻓ ﻪﻧﺃ ،ﻡﺎﻤﺘﻫﻼﻟ ﺮﻴﺜﻤﻟﺍ ﻦﻣﻭ .ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺕﺍﺰﻳﺰﻌﺘﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻋ ﻦﻴﻟﻭﺆﺴﻣ ﺍﻮﻧﺎﻛ ﻢﻬﻧﺃ ﻰﻠﻋ ﺔﻟﺩﺃ ﺎﻧﺪﺟﻭﻭ ،ﺝﺭﺎﺨﻟﺍ ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺔﺤﻠﺳﻷﺍ ﻢﻈﻌﻣ ﻥﻮﺼﺼﺨﺘﻤﻟﺍ ﺀﻻﺆﻫ ﻢﻤﺻ ﺪﻘﻟ .ﻲﻟﻵﺍ ﻢﻜﺤﺘﻟﺍ ﺀﺎﻤﻠﻋ ﻰﺘﺣﻭ ﻦﻴﺳﺪﻨﻬﻣﻭ ﻦﻴﻴﻨﻔﻛ ﻢﻫﺮﺸﻧ ﻢﺗ ﺚﻴﺣ ،ﺎﻨﻫ ﻪﺘﻳﺎﻬﻧ ﺕﺎﻴﻳﺪﺜﻟﺍ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﻦﻣ ﺮﺒﻛﺃ ﺩﺪﻋ ﻲﻘﻟ ﺪﻘﻟ .ﺔﻋﻭﺮﻣ ﺔﻤﻬﻣ ﺓﺄﺸﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺮﻳﻮﻄﺘﻟﺍﻭ ﺚﺤﺒﻟﺍ ﺡﺎﻨﺟ ﺮﻔﺣ ﻥﺎﻛ ﺪﻘﻟ"
+ unplugged.2022.name: "ﻢﻳﺪﻘﻟﺍ [from.planet.GetName]" # e.g. 'Old Earth' or 'Old Sirius III'
+ unplugged.2022.desc.unplugged: ".[origin_unplugged_assimilator_empire.GetName] ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ ﻞﺑﺎﻘﻳ ﻥﺃ ﻞﺒﻗ ﻢﻬﺗﺎﻴﺣ ﺖﻧﺎﻛ ﻒﻴﻛ ﻦﻤﺨﻧ ﻥﺃ ﻻﺇ ﺎﻨﻨﻜﻤﻳ ﻻ .ﺔﻴﺨﻳﺭﺎﺘﻟﺍ ﻢﻬﺗﻼﺠﺳ ﻦﻣ ﻪﻴﻠﻋ ﺍﻮﻧﺎﻛ ﺎﻤﻣ ﺮﻴﺜﻜﻟﺍ ﺢﺴﻣ ﻢﺗ ﻦﻴﺤﻟﺍ ﻚﻟﺫ ﺬﻨﻣﻭ .ﺎﻬﺋﺎﻨﺑ ﻲﻓ ﺍﻭﺪﻋﺎﺳ ﻲﺘﻟﺍ ﺔﻠﺗﺎﻘﻟﺍ ﺕﺎﺗﻮﺑﻭﺮﻟﺍ ﻲﻫﺎﻀﺗ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﻦﻴﻴﻠﺻﻷﺍ ﻍﺭﻮﺒﻳﺎﺴﻠﻟ ﺔﻔﻴﻌﻀﻟﺍﻭ ﺓﺮﻴﻐﺼﻟﺍ ﻡﺎﺴﺟﻷﺍ ﻦﻜﺗ ﻢﻟ \n\n .ﻦﺤﻧ ﺎﻬﺑ ﺙﺪﺣ ﻲﺘﻟﺍ ﺔﻘﻳﺮﻄﻟﺍ ﺲﻔﻨﺑ ،ﻯﺮﺧﺃ ﺓﺮﻣ ﺎﻬﻨﻣ ﺔﻓﺎﻘﺜﻟﺍ ﻩﺬﻫ ﺩﺮﻔﺗ ﻉﺍﺰﺘﻧﺍ ﻢﺘﻴﻟ ﻂﻘﻓ ،ﺏﺎﺠﻋﻺﻟ ﺓﺮﻴﺜﻣ ﺏﺮﺣ ﺔﻟﺁ ﺮﻳﻮﻄﺗ ﻰﻟﺇ ﻢﻬﺘﻴﺟﺎﺘﻧﺇﻭ ﻢﻬﯨﺅﺭ [origin_unplugged_assimilator_empire.GetName] ﻪﺟﻭ ،ﻦﻣﺰﻟﺍ ﻦﻣ ﺩﻮﻘﻋ ﻦﻋ ﺪﻳﺰﺗ ﻻ ﺓﺮﺘﻓ ﺭﺍﺪﻣ ﻰﻠﻋ .ﺓﺄﺠﻓ ﻢﻬﺑﺎﻌﻴﺘﺳﺍ ﻢﺗﻭ ،ﺔﻟﻵﺎﺑ [from.planet.GetName] ﻥﺎﻜﺳ ﻪﻴﻓ ﻞﺼﺗﺍ ﻱﺬﻟﺍ ﺖﻗﻮﻟﺍ ﻝﻮﻠﺤﺑ ﺀﺎﻀﻔﻟﺍ ﺮﺼﻋ ﻲﻓ ﺍﺮﻫﺩﺰﻣ ﺎﻌﻤﺘﺠﻣ ﻞﻌﻔﻟﺎﺑ ﻥﺎﻛ ﺍﺬﻫ ﻥﺃ ﻰﻠﻋ ﺔﻟﺩﺃ ﻙﺎﻨﻫ .ﺔﻴﺟﻮﻟﻮﺑﻭﺮﺜﻧﻷﺍ ﺕﺎﺳﺍﺭﺪﻟﺍﻭ ﺚﺜﺠﻟﺍ ﺢﻳﺮﺸﺗ ﻦﻣ ﻲﺒﻳﺮﻘﺗ ﻲﻨﻣﺯ ﻝﻭﺪﺟ ﻊﻴﻤﺠﺗ ﻰﻠﻋ ﻥﻭﺭﺩﺎﻗ ﻦﺤﻧ \n\n .ﻕﺎﻨﺘﺧﻻﺍ ﻲﻓ ﺍﻮﺒﺒﺴﺗ ﺪﻗ ﺎﻨﻫ ﺍﻮﺗﺎﻣ ﻦﻳﺬﻟﺍ ﻢﻈﻌﻣ ﻥﺃ ﻭﺪﺒﻳ .ﻩﻼﻋﺃ ﺔﻳﻮﻬﺘﻟﺍ ﺔﻤﻈﻧﺄﺑ ﺚﺒﻌﻟﺍ ﻰﻠﻋ ﺔﻟﺩﺃ ﺎﻀﻳﺃ ﺎﻧﺪﺟﻭ ﺎﻨﻨﻜﻟ ،ﻱﺪﺴﺟ ﻡﻮﺠﻬﻟ ﻢﻬﻀﻌﺑ ﺽﺮﻌﺗ .[origin_unplugged_assimilator_empire.GetAdj] ﺮﻴﻬﻄﺗ ﺔﻴﻠﻤﻋ ﻦﻣ ﻦﻴﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﺀﻻﺆﻫ ﻦﻣ ﻱﺃ ﺞﻨﻳ ﻢﻟ ؛ﺎﻨﻫ ﻥﺎﻜﻣ ﻞﻛ ﻲﻓ ﻍﺭﻮﺒﻳﺎﺳ ﺚﺜﺟ ﺮﺛﺎﻨﺘﺗ .ﺩﺎﻜﻟﺎﺑ ﻦﻜﺴﻠﻟ ﺔﺤﻟﺎﺼﻟﺍ ﻕﺎﻔﻧﻷﺍ ﻦﻣ ﺔﻌﺳﺍﻭ ﺔﻜﺒﺷ ﺓﺄﺸﻨﻤﻟﺍ ﺢﻄﺳ ﺖﺤﺗ ﺪﺘﻤﺗﻭ"
+
+ unplugged.2030.name: "ﻊﻨﺼﻤﻟﺍ ﻲﻧﺍﻮﺛ"
+ unplugged.2030.desc: ".[fromfrom.planet.GetName] ﻲﻓ ﺎﻬﺑ ﺎﻨﻤﻗ ﻲﺘﻟﺍ ﺐﻴﻘﻨﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻰﻠﻋ ﺮﺷﺎﺒﻣ ﺩﺮﻛ ﻩﺪﺸﺣ ﻢﺗ ﺪﻗ ﺎﻳﺩﺎﻌﻣ ﻻﻮﻄﺳﺃ ﻥﺃ ﻭﺪﺒﻳ ![origin_unplugged_machine_legacy_core.GetName] ﻡﺎﻈﻧ ﻲﻓ ﺔﺌﺟﺎﻔﻣ ﺔﻛﺮﺣ ﻯﺪﻤﻟﺍ ﺓﺪﻴﻌﺑ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺓﺰﻬﺟﺃ ﺖﻄﻘﺘﻟﺍ"
+ unplugged.2036.name: "ﺔﻟﻵﺍ ﺀﺍﺪﺻﺃ"
+ unplugged.2036.desc: ".ﺎﻨﺘﻠﺣﺭ ﻲﻓ ﺔﻴﻟﺎﺘﻟﺍ ﺎﻨﺗﻮﻄﺧ ﻲﻫ ﻩﺬﻫ ﻥﺃ ﻭﺪﺒﻳ .[origin_unplugged_taken_planet.GetName] ﻝﻮﺣ ﺭﻭﺪﺗ ﺔﻣﺍﻮﻋ ﻰﻟﺇ ﻮﺘﻠﻟ ﻩﺎﻧﺮﻣﺩ ﻱﺬﻟﺍ [origin_unplugged_assimilator_empire.GetAdj] ﻝﻮﻄﺳﺃ ﻦﻣ ﻲﻌﺟﺭ ﻊﺒﺘﺗ ﺕﻻﺎﺼﺗﺍ ﺎﻨﻳﺪﻟ"
+ unplugged.2036.a: ".ﺔﻛﺎﻤﺳ ﺓﺮﻣﺍﺆﻤﻟﺍ"
+ unplugged.2037.desc: ".§Y[origin_unplugged_taken_planet.GetName]§! ﺭﺍﺪﻣ ﻲﻓ ﻊﻘﺗ ﺎﻨﺘﻠﺣﺭ ﻲﻓ ﺔﻴﻟﺎﺘﻟﺍ ﺓﻮﻄﺨﻟﺍ ﻥﺃ ﻭﺪﺒﻳ .[origin_unplugged_maker_planet.GetName] ﻰﻟﺇ ﻪﺠﺘﻤﻟﺍ ﺮﻣﺪﻤﻟﺍ ﻝﻮﻄﺳﻷﺍ ﻦﻣ ﺮﻴﺧﺃ ﺕﻻﺎﺼﺗﺍ ﺭﺎﺠﻔﻧﺍ ﻊﺒﺘﺗ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ [origin_unplugged_assimilator_empire.GetAdj] ﺓﺰﻬﺟﺃ ﻡﺍﺪﺨﺘﺳﺎﺑ" # e.g. 'our own ex-Martianbot hardware'
+ unplugged.2038.desc: ".[origin_unplugged_taken_planet.GetName] ﺭﺍﺪﻣ ﻲﻓ ﻦﻤﻜﻳ ﻡﺎﻤﺘﻫﻼﻟ ﺍﺮﻴﺜﻣ ﯫﻴﺷ ﻥﺃ ﻭﺪﺒﻳ .[origin_unplugged_maker_planet.GetName] ﺐﻛﻮﻜﻟﺎﺑ ﻂﺒﺗﺮﻤﻟﺍ ﻱﺩﺎﻌﻤﻟﺍ ﻝﻮﻄﺳﻷﺍ ﻦﻣ ﺔﺸﺋﺎﻃ ﺕﻻﺎﺼﺗﺍ ﺔﺟﻮﻣ ﻊﺒﺘﺗ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ [origin_unplugged_assimilator_empire.GetAdj] ﺓﺰﻬﺟﺃ ﻡﺍﺪﺨﺘﺳﺎﺑ" # e.g. 'our own ex-Martianbot hardware'
+
+# System 2: 'The Taken'
+ unplugged_machine_legacy_taken_poi: "ﺔﻟﺎﻀﻟﺍ ﺕﻻﺎﺼﺗﻻﺍ ﺭﺎﺠﻔﻧﺍ"
+ unplugged_machine_legacy_taken_poi_desc: ".ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻰﻟﺇ ﺍﺮﺧﺆﻣ ﺔﻣﻭﺰﻬﻤﻟﺍ [origin_unplugged_assimilator_empire.GetAdj] ﺔﻨﻴﻔﺳ ﻦﻣ ﺎﻬﺗﺮﻔﺷ ﻚﻓ ﻦﻜﻤﻳ ﻻ ﻲﺘﻟﺍ ﺔﻨﻛﺎﺴﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻣ ﺮﻴﺧﻷﺍ ﻖﻓﺪﺘﻟﺍ ﻊﺒﺘﺗ ﻦﻣ ﺎﻨﻜﻤﺗ ﺪﻘﻟ"
+ MACHINE_LEGACY_TAKEN_UNPLUGGED: "ﺓﺪﺴﺠﻤﻟﺍ ﺔﻴﺨﻳﺭﺎﺘﻟﺍ ﺕﺎﻗﺭﺎﻔﻤﻟﺍ"
+ MACHINE_LEGACY_TAKEN_UNPLUGGED_DESC: "؟[origin_unplugged_assimilator_empire.GetName] ﺔﻄﺳﺍﻮﺑ ﻪﺑﺎﻌﻴﺘﺳﺍ ﻢﺗ ﺮﺧﺁ ﻉﻮﻨﻟ ﺔﺑﺎﺼﻣ ﺎﻳﺎﻘﺑ ﻡﺃ ،ﻲﻨﻣﺯ ﺫﻭﺬﺷ ﺍﺬﻫ ﻞﻫ .ﻻﻭﺃ ﺎﻨﻳﺪﻟ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺓﺰﻬﺟﺃ ﺓﺮﻳﺎﻌﻣ ﺓﺩﺎﻋﺇ ﻞﺒﻗ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻊﻤﺟ ﻲﻓ ﻞﻣﺄﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﻻ \n\n .ﺔﻟﻵﺍ ﻢﻟﺎﻋ ﻲﻓ ﻪﺘﻳﺅﺭ ﻊﻗﻮﺘﻧ ﻱﺬﻟﺍ ﻉﻮﻨﻟﺍ ﻦﻣ ﺐﻳﺮﻐﻟﺍ ﻉﺎﻌﺷﻹﺍ ﺐﺒﺴﺑ ﺔﺑﻮﺠﺤﻣ ﺎﻨﻳﺪﻟ ﻲﺤﻄﺴﻟﺍ ﺢﺴﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻥﺈﻓ ﻚﻟﺫ ﻊﻣﻭ ،ﻰﻄﺳﻮﻟﺍ ﺭﻮﺼﻌﻟﺍ ﻲﻓ ﻥﺩﺎﻌﻤﻟﺍ ﺔﻋﺎﻨﺼﺑ ﺎﻬﻄﺑﺮﻧ ﻥﺃ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺙﻮﻠﺘﻟﺍ ﻉﺍﻮﻧﻷ ﺍﺭﺎﺛﺁ ﺐﻛﻮﻜﻠﻟ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻞﻤﺤﻳ .[from.GetName] ﻲﻓ ﺎﻴﺌﻴﺑ ﺍﺫﻭﺬﺷ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+ unplugged.2100.name: "ﻞﻄﻌﻤﻟﺍ ﻡﺪﻘﺘﻟﺍ"
+ unplugged.2100.desc: ".ﺮﻔﺤﻠﻟ ﻊﻗﻮﻣ ﺀﺎﺸﻧﺇ ﺡﺮﺘﻘﻧ ﺚﻴﺣ ،ﺔﺤﺿﺍﻭ ﺔﻴﻓﺎﻘﺛ ﺔﻴﻤﻫﺃ ﺍﺫ ﻞﻗﻷﺍ ﻰﻠﻋ ﺍﺪﺣﺍﻭ ﺎﻨﺼﺤﻣ ﺎﻌﻗﻮﻣ ﺎﻧﺩﺪﺣ ﺪﻘﻟ .ﺎﻣﺎﻤﺗ ﻢﻬﺗﺩﺎﺑﺃ ﻭﺃ ،FTL ﻞﺒﻗ ﺎﻣ ﺓﺭﺎﻀﺣ ﺖﻟﺍﺯﺃﻭ ﺖﺒﻋﻮﺘﺳﺍ ﺎﻣﺇ ﺎﻬﻧﺃ ﻭﺪﺒﻳ .ﺎﻨﻫ ﻩﺩﻮﺟﻭ ﻰﻠﻋ ﻆﻓﺎﺣ [origin_unplugged_assimilator_empire.GetName] ﻥﺃ ﻰﻠﻋ ﺢﺿﺍﻭ ﻞﻴﻟﺩ ﺪﺟﻮﻳ ﻱﻮﺠﻟﺍ ﻉﺎﻌﺷﻹﺍ ﺍﺬﻫ ﻞﻛ ﺖﺤﺗ\n\n .ﻩﺎﺸﺨﻧ ﺎﻨﻛ ﺎﻤﻣ ﺎﻗﺎﻫﺭﺇ ﻞﻗﺃ ﺔﻤﻬﻣ ﺎﻬﻧﺃ ﺎﻨﻳﺪﻟ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺓﺰﻬﺟﺃ ﺓﺮﻳﺎﻌﻣ ﺓﺩﺎﻋﺇ ﺖﺘﺒﺛﺃ .ﻦﻣﺰﻟﺍ ﺮﺒﻋ ﺮﻔﺴﻟﺍ ﻝﻮﺣ ﺎﺣﻮﻤﺟ ﺮﺜﻛﻷﺍ ﺎﻨﺗﺎﻳﺮﻈﻧ ﺩﺎﻌﺒﺘﺳﺍ ﻞﻗﻷﺍ ﻰﻠﻋ ﺎﻨﻨﻜﻤﻳ ،ﻦﻜﺴﻠﻟ ﺔﺤﻟﺎﺼﻟﺍ ﺮﻴﻏ ﺔﻴﻟﺎﺤﻟﺍ ﻪﺘﻟﺎﺣ ﻰﻟﺇ [fromfrom.GetName] ﺐﻛﻮﻜﻟﺍ ﻝﻮﺻﻭ ﺐﺒﺳ ﻥﺎﻛ ﺎﻤﻬﻣ"
+ unplugged.2100.a: ".ﺩﺎﻬﺘﺟﺎﺑ ﺮﻔﺤﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+ MACHINE_LEGACY_TAKEN_CAT: "$MACHINE_LEGACY_TAKEN_UNPLUGGED$"
+ MACHINE_LEGACY_TAKEN_CAT_DESC: ".ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺕﺎﻀﻗﺎﻨﺘﻟﺍ ﻩﺬﻫ ﺔﺳﺍﺭﺪﺑ ﻲﺻﻮﻧ .ﻮﺟ-ﺽﺭﺃ ﺭﺰﻴﻟ ﺔﺤﻠﺳﺄﺑ ﺓﺩﻭﺰﻣ ﺔﻨﺼﺤﻤﻟﺍ ﺎﻬﻴﻧﺎﺒﻣ ﻥﺈﻓ ﻚﻟﺫ ﻊﻣﻭ ،[from.owner.GetPreFTLLower] ﻊﻤﺘﺠﻣ ﻦﻣ ﺕﺎﻨﻃﻮﺘﺴﻣ ﺔﻳﻮﺠﻟﺍ ﺭﻮﺼﻟﺍ ﺮﻬﻈﺗ .ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﺤﻟﺎﺻ ﺓﺭﻮﻄﺘﻣ ﻚﺋﺎﺒﺳ ﺩﻮﺟﻭ ﻰﻠﻋ ﻼﻴﻟﺩ ﺕﺪﺟﻭ ﺎﻫﺎﻨﻳﺮﺟﺃ ﻲﺘﻟﺍ ﻲﺤﻄﺴﻟﺍ ﺢﺴﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻥﺃ ﻻﺇ ،ﺔﻴﺋﺍﺪﺒﻟﺍ ﺔﻴﻧﺪﻌﻤﻟﺍ ﻝﺎﻤﻋﻷﺍ ﻦﻋ ﺞﺗﺎﻨﻟﺍ ﺙﻮﻠﺘﻟﺍ ﺭﺎﺛﺁ ﺐﻛﻮﻜﻠﻟ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻞﻤﺤﻳﻭ .ﺢﻴﺤﺻ ﻞﻜﺸﺑ ﺔﻴﻘﻄﻨﻣ ﺖﺴﻴﻟ [root.GetName] ـﻟ ﻲﻟﻭﻷﺍ ﺺﺤﻔﻟﺍ ﺞﺋﺎﺘﻧ"
+ unplugged.2105.name: "$unplugged.2100.name$"
+ unplugged.2105.desc: ".ﻥﻵﺍ ﻰﺘﺣ ﺖﻗﻮﻟﺍ ﺾﻌﺒﻟ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻠﻋ ﺓﺰﻴﻣ ﻖﻘﺤﻴﺳ ﻊﻗﻮﻤﻟﺍ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ ﻦﻜﻟﻭ ،ﺍﺪﺑﺃ ﻚﻟﺫ ﻑﺮﻌﻧ ﻻ ﺎﻤﺑﺭ ؟ﺔﻠﻤﻬﻣ ﺔﻴﻋﺎﻤﺘﺟﺍ ﺔﺑﺮﺠﺗ ﺎﻳﺎﻘﺑ ﺎﻨﻔﺸﺘﻛﺍ ﺎﻨﻧﺃ ﻡﺃ ،ﺔﻃﺎﺴﺒﺑ ﻩﺬﻫ [owner.GetPreFTLLowerPlural] ﻥﺎﻴﺴﻧ ﻢﺗ ﻞﻫ\n\n.ﺮﻬﻘﻟﺍ ﺕﺎﻴﻨﻘﺘﻟ ﺔﻴﺸﺣﻮﻟﺍ ﺔﺳﺭﺎﻤﻤﻟﺍ ﻰﻟﺇ ،ﻊﻤﺘﺠﻤﻟﺍ ﺍﺬﻬﺑ ﺀﺎﻘﺗﺭﻼﻟ ﺔﻠﺷﺎﻓ ﺎﻬﻨﻜﻟﻭ ﺔﻴﻨﻟﺍ ﺔﻨﺴﺣ ﺔﻟﻭﺎﺤﻣ ﻦﻣ ﺔﻴﻟﺎﺤﻟﺍ ﺕﺎﻳﺮﻈﻨﻟﺍ ﺡﻭﺍﺮﺘﺗ .ﺎﻬﺑ ﻦﻬﻜﺘﻟﺍ ﻻﺇ ﺎﻨﻨﻜﻤﻳ ﻻ ﺏﺎﺒﺳﻷ ﻩﺩﺮﻔﻤﺑ ﻚﻟﺫ ﺪﻌﺑ ﻪﻌﻤﺘﺠﻣ ﻙﺮﺗ ﻢﺗ ﻦﻜﻟﻭ ،ﺖﻧﺮﺘﻧﻹﺍ ﺮﺒﻋ ﻪﺑﺎﻌﻴﺘﺳﺍ ﻢﺗ ﻱﺬﻟﺍ ﻲﻘﻴﻘﺤﻟﺍ [owner.GetPreFTLLower] ﻊﻤﺘﺠﻣ ﻦﻃﻮﻣ :ﻢﻟﺎﻌﻟﺍ ﺍﺬﻬﻟ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺓﺭﺎﻳﺯ ﻰﻠﻋ ﻼﻴﻟﺩ ﺎﻧﺪﺟﻭ ،ﻝﻼﺤﻤﺿﻻﺍ ﻦﻣ ﻥﻭﺮﻗ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺔﻤﻳﺪﻗ ﺔﻛﺮﻌﻣ ﺔﺣﺎﺴﻟ ﺔﻴﻓﻮﺠﻟﺍ ﺢﺴﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺎﻧﺃﺪﺑ ﻰﺘﺣ ،ﺕﺎﻀﻗﺎﻨﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺎﻧﺪﺟﻭ ،[planet.GetName] ـﻟ [planet.GetClassAdj] [owner.GetPreFTLLower] ﻢﻟﺎﻋ ﺔﺳﺍﺭﺪﺑ ﺎﻨﻤﻗ ﺎﻤﻠﻛ" # e.g. 'The more we studied the apparently primitive tomb world of Mars...'
+
+ machine_legacy_taken_site: "ﻡﻭﺮﻜﻟﺍﻭ ﺱﺎﺤﻨﻟﺍ"
+ machine_legacy_taken_site_desc: "؟ﻢﻬﺑﺎﻌﻴﺘﺳﺍ ﺐﺳﺎﻨﻤﻟﺍ ﻦﻣ ﻪﻧﺃ [origin_unplugged_assimilator_empire.GetName] ﻯﺃﺭ ﺍﺫﺎﻤﻟﻭ ،ﻰﻄﺳﻮﻟﺍ ﺭﻮﺼﻌﻟﺍ ﻲﻓ [owner.GetPreFTLLowerPlural] ﺀﻻﺆﻫ ﻢﻫ ﻦﻣ .ﻥﻵﺍ ﺍﻮﺗﺎﻣ ﻦﻳﺬﻟﺍ ﻍﺭﻮﺒﻳﺎﺴﻟﺎﺑ ﺔﻟﻮﻫﺄﻣ ﺖﻧﺎﻛ ﻚﻟﺫ ﻊﻣﻭ ،ﻡﺎﺧ ﺔﻏﺎﻴﺻ ﻦﻣ ﺎﻣﺪﻘﺗ ﺮﺜﻛﺃ ﺀﻲﺷ ﻱﺃ ﺎﻬﺑ ﻦﻜﻳ ﻢﻟﻭ ﺔﻳﻭﺪﻳ ﺕﺍﻭﺩﺃ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺎﻫﺅﺎﻨﺑ ﻢﺗ ﺔﻨﺼﺤﻣ ﺔﻨﻃﻮﺘﺴﻣ :ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺮﻀﺧﺃ ﻥﺎﻛ ﺩﺍﻭ ﻞﺧﺍﺩ ﺔﻳﺮﺛﺃ ﺔﻗﺭﺎﻔﻣ ﻊﻘﺗ"
+ unplugged.2110.name: "ﻲﻀﺒﻨﻟﺍ ﺭﺰﻴﻠﻟﺍﻭ ﺏﺍﺮﺤﻟﺍ"
+ unplugged.2110.desc: ".ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ،ﺎﻨﻫ ﻍﺭﻮﺒﻳﺎﺳ ﺪﺿ ﻍﺭﻮﺒﻳﺎﺳ ﺾﻳﺮﺤﺗ ﻢﺗ ﺍﺫﺎﻤﻟﻭ ﻒﻴﻛ ﻙﺎﻨﻫ ﻢﻠﻌﺘﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﺎﻤﺑﺭ .ﻰﻔﺸﺘﺴﻤﻟﺍ ﺍﺬﻫ ﺮﺒﻋ ﻦﺼﺤﻟﺍ ﺍﻮﻗﺮﺘﺧﺍ ﺎﻨﻓﻼﺳﺃ ﻥﺃ ﻭﺪﺒﻳ ؛ﺔﺒﻳﺮﻗ ﺔﻴﺒﻃ ﺓﺄﺸﻨﻣ ﺽﺎﻘﻧﺃ ﺎﻨﻈﺣﻻ \n\n .ﺍﺭﻮﻄﺗ ﺮﺜﻛﺃ ﺔﺒﻃﺭ ﺞﻣﺍﺮﺒﻟ ﻪﻣﺍﺪﺨﺘﺳﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺔﺣﺩﺎﻓ ﺮﺋﺎﺴﺧ ﺪﺒﻜﺗﻭ ﻖﻴﺴﻨﺘﻟﺍ ﻰﻟﺇ [owner.GetPreFTLLowerPlural] ﺮﻘﺘﻓﺍ .ﺔﻳﻮﻣﺩﻭ ﺔﻌﻳﺮﺳ ﺔﻛﺮﻌﻤﻟﺍ ﺖﻧﺎﻛ .ﺔﻣﺪﺻ ﺕﺍﻮﻘﻛ ﺎﻨﻫ ﻢﻫﺮﺸﻧ ﻢﺗ ﺪﻗ ﺎﻨﻟﺎﺟﺭ ﻥﺃ ﻰﻟﺇ ﺔﻛﺮﻌﻤﻟﺍ ﺔﺣﺎﺴﻟ ﻲﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﻢﻴﻴﻘﺘﻟﺍ ﺮﻴﺸﻳ .ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺟ ﺕﺍﺩﺎﻳﺰﻟ ﺓﺮﻜﺒﻤﻟﺍ ﺔﻴﻟﻭﻷﺍ ﺝﺫﺎﻤﻨﻟﺍ ﻊﻣ ﺐﻨﺟ ﻰﻟﺇ ﺎﺒﻨﺟ [owner.species.GetRemnantNamePlural] [owner.GetSpeciesAdj] ﺎﻨﻘﻳﺮﻓ ﺩﺪﺣ .[owner.GetPreFTLLowerPlural]A ﺢﺑﺬﺑ ﺎﻨﻤﻗ ،ﻂﻘﻓ ﻥﻭﺮﻗ ﺔﻌﻀﺑ ﺬﻨﻣ \n\n.ﻉﺍﺮﺼﻟﺍ ﺍﺬﻫ ﻲﻓ ﻦﻳﺩﻮﺟﻮﻤﻟﺍ ﻦﻳﺪﻴﺣﻮﻟﺍ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺍﻮﻧﻮﻜﻳ ﻢﻟ ،ﻚﻟﺫ ﻊﻣﻭ .ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺍﻮﺗﻮﻤﻳﻭ ﺍﻮﻠﺗﺎﻘﻴﻟ ﻂﻘﻓ ،[origin_unplugged_assimilator_empire.GetName] ﺔﻄﺳﺍﻮﺑ ﻢﻬﺑﺎﻌﻴﺘﺳﺍ ﻢﺗ ﺪﻗ [from.planet.GetName] ـﻟ ﻦﻴﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﻦﻣ ﻑﻻﺁ ﺓﺪﻋ ﻥﺃ ﺭﺪﻘﻧ ،ﺎﻳﺎﻘﺒﻠﻟ ﺔﻴﻌﻄﻘﻣ ﺔﺳﺍﺭﺩ ﻰﻟﺇ ﺍﺩﺎﻨﺘﺳﺍ .ﺀﺍﻮﺳ ﺪﺣ ﻰﻠﻋ [origin_unplugged_assimilator_empire.GetAdj]ﻭ ﺔﻴﻠﺻﻷﺍ ﺔﻳﺮﺛﻷﺍ ﻊﻄﻘﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺔﻟﻮﻬﺳ ﺎﻨﺤﻨﻤﻳ ﺎﻤﻣ ،ﻦﺼﺤﻟﺍ ﻦﻣ ﺍﺪﺟ ﺔﺒﻳﺮﻗ ﺔﻛﺮﻌﻣ ﺔﺣﺎﺳ ﺔﻴﻟﻭﻷﺍ ﺕﺎﺣﻮﺴﻤﻟﺍ ﺕﺪﺟﻭ"
+ unplugged.2110.a: ".ﻲﺳﺎﻗ"
+ unplugged.2115.name: "ﺕﺎﺑﺎﺼﻌﻟﺍﻭ ﺕﺍﺭﻮﺘﺳﺰﻧﺍﺮﺘﻟﺍ"
+ unplugged.2115.desc: ".ﺎﻫﺮﻴﻣﺪﺘﻟ ﺎﻧﺮﺸﻧ ﻢﺗ ﻚﻟﺬﻟﻭ ،ﺎﻬﺗﺎﻴﺣ ﺏﻮﻠﺳﺃﻭ ﺔﻤﻳﺪﻘﻟﺍ ﺎﻬﺗﺍﺩﺎﻌﺑ ﺖﺜﺒﺸﺗﻭ ،ﺔﻴﻟﻼﻘﺘﺳﻻﺍ ﺮﻫﺎﻈﻣ ﺾﻌﺒﺑ ﺖﻈﻔﺘﺣﺍ [owner.GetPreFTLLowerPlural] ﻥﺃ ﻭﺪﺒﻳ .ﻂﻘﻓ ﺓﺮﻴﺼﻗ ﺓﺮﺘﻔﻟ ﻦﻜﻟﻭ ،ﺓﺭﺪﻗ ﺮﺜﻛﺃ ﺩﻮﻨﺟ ﻰﻟﺇ ﻉﺍﻮﻧﻷﺍ ﻩﺬﻫ ﻞﻳﻮﺤﺗ ﻰﻟﺇ ﻚﻟﺬﺑ ﻡﺎﻴﻘﻟﺍ ﻯﺩﺃ .ﻒﻴﻜﺘﺗ ﻥﺃ ﺎﻬﻴﻠﻋ ﻥﺎﻛ ؛ﺎﻨﺴﻨﺟ ﻞﺜﻣ ﻉﺍﻮﻧﺃ ﻦﻣ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺍﺩﺎﻳﺰﻟﺍ ﻉﺭﺯ ﻦﻣ ﻦﻜﻤﺘﺗ ﻢﻟﻭ .ﺎﻬﺑﺎﻌﻴﺘﺳﻻ ﺕﺎﻳﺪﺤﺗ ﺎﻀﻳﺃ ﺎﻳﺍﺰﻤﻟﺍ ﻩﺬﻫ ﺖﻣﺪﻗ ،ﻚﻟﺫ ﻊﻣﻭ \n\n .ﺎﻬﺑ ﺔﺻﺎﺨﻟﺍ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺕﺍﻮﻘﻟ ﺎﻬﻴﻓ ﺐﻏﺮﺗ ﺔﻟﻵﺍ ﺖﻧﺎﻛ ﻲﺘﻟﺍﻭ - ﺪﻳﺮﻓ ﻞﻜﺸﺑ ﻥﺮﻣ ﺔﻋﺎﻨﻣ ﻡﺎﻈﻧ ﺎﻬﻠﻗﺃ ﺲﻴﻟ - ﺪﻳﺮﻓ ﻞﻜﺸﺑ ﺓﺭﻮﻄﺘﻤﻟﺍ ﺺﺋﺎﺼﺨﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ [from.planet.GetName] ﻥﺎﻜﺳ ﻚﻠﺘﻤﻳ .ﺐﺒﺴﻟﺍ ﻑﺮﻌﻧ ﺎﻧﺃﺪﺑ ،ﺔﻋﻮﺒﻄﻤﻟﺍ ﺔﻴﺒﻄﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻲﻓ ﻖﻴﻗﺪﺘﻟﺍ ﺪﻌﺑﻭ .ﻢﺟﺎﻬﻤﻟﺍ [origin_unplugged_assimilator_empire.GetName] ـﻟ ﻲﺳﺎﺳﻷﺍ ﻑﺪﻬﻟﺍ ﻮﻫ ﻰﻔﺸﺘﺴﻤﻟﺍ ﻥﺎﻛ ﺎﻤﺑﺭ ،ﺎﻴﺒﻧﺎﺟ ﺎﻓﺪﻫ ﻪﻧﻮﻛ ﻦﻣ ﻻﺪﺑ\n\n .ﺔﻳﺎﻐﻠﻟ ﺔﻴﺋﺍﺪﺑ ﻞﺋﺎﺳﻮﺑ ﻚﻟﺫ ﻥﺎﻛ ﻥﺇﻭ ،ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺍﺰﻳﺰﻌﺘﻟﺍ ﺔﻟﺍﺯﺇ ﻊﻣ ﺮﺑﺎﻨﻌﻟﺍ ﻩﺬﻫ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺖﻠﻣﺎﻌﺗ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ .ﻙﺭﺎﻌﻤﻟﺍ ﻦﻋ ﺔﻤﺟﺎﻧ ﺡﻭﺮﺠﺑ ﺍﻮﺒﻴﺻﺃ ﻢﻬﻨﻣ ﺍﺪﺟ ﻼﻴﻠﻗ ﺍﺩﺪﻋ ﻥﺃ ﻭﺪﺒﻳ ﻦﻜﻟﻭ ،ﺓﺄﺸﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﻰﺿﺮﻤﻟﺍ ﻦﻣ ﻢﻬﻤﻈﻌﻣ ﻥﺎﻛ .ﺎﻨﻫ ﺍﻮﺗﺎﻣ ﻦﻳﺬﻟﺍ ﻦﻴﻴﻠﺻﻷﺍ [from.planet.GetName] ﻥﺎﻜﺳ ﻂﻘﻓ ؛[owner.GetSpeciesAdj] ﻲﻫ ﻞﺧﺍﺪﻟﺎﺑ ﺎﻫﺎﻧﺪﺟﻭ ﻲﺘﻟﺍ ﺎﻳﺎﻘﺒﻟﺍ ﻦﻣ ﻱﺃ ﻦﻜﺗ ﻢﻟ .ﻲﻀﺒﻧ ﻊﻓﺪﻣ ﻞﺜﻣ ﻰﻔﺸﺘﺴﻤﻟﺍ ﺍﺬﻫ ﻉﺍﺮﺼﻟﺍ ﻕﺰﻣ"
+ unplugged.2115.a: "... ﺪﻴﺟ ﻞﻜﺸﺑ ﺔﻤﻬﻤﻟﺍ ﻩﺬﻫ ﻊﻣ ﺎﻨﻠﻣﺎﻌﺗ ﺎﻨﻧﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ"
+ unplugged.2115.b: ".ﺔﻳﺎﻐﻠﻟ ﻒﺳﺆﻣ"
+ unplugged.2121.name: "ﻲﻔﻴﻜﺘﻟﺍ ﺏﺎﻌﻴﺘﺳﻻﺍ"
+ unplugged.2121.desc: ".ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﺏﺎﻌﻴﺘﺳﻻﺍ ﺉﺩﺎﺒﻣ ﻢﻬﻓ ﻰﻠﻋ ﻞﻌﻔﻟﺎﺑ ﺎﻧﺪﻋﺎﺴﺗ ﻭﺃ - ﺎﻨﺴﻔﻧﺃ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻝﻮﺣ ﺔﻳﻮﻴﺣ ﻯﺅﺮﺑ ﺎﻧﺩﻭﺰﺗ ﻝﺍﺰﺗ ﻻ ﺪﻗ ﺎﻬﻧﺃ ﻻﺇ ،ﻥﻵﺍ ﺎﻧﻭﺮﻗ ﺎﻫﺮﻤﻋ ﻎﻠﺒﻳ ﻲﺘﻟﺍ ﺔﻴﻟﻵﺍ ﻩﺬﻫ ﻰﻠﻋ ﺽﻭﺮﻔﻤﻟﺍ ﻝﺎﻤﻫﻹﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.ﻦﻴﺠﻣﺪﻨﻣ [from.planet.GetName] ﻥﺎﻜﺳ ﺀﺎﻘﺑﻹ ﺔﻴﻓﺎﻛ ﻦﻜﺗ ﻢﻟ ﺕﻼﻳﺪﻌﺘﻟﺍ ﻩﺬﻫ ﻰﺘﺣ ﻦﻜﻟﻭ ،ﺔﻋﺮﺴﺑ ﺔﻴﺣﺍﺮﺠﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻒﻴﻴﻜﺘﻟ ﻲﺋﺍﺪﺒﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ،ﺔﻜﺒﺸﻟﺎﺑ ﺎﻬﻄﺑﺭ ﻢﺗ ﺪﻗ ﺕﺍﻭﺩﻷﺍ ﻩﺬﻫ ﺾﻌﺑ ﻥﺃ ﻭﺪﺒﻳ .ﻞﺻﻷﺍ ﻲﻓ [origin_unplugged_assimilator_empire.GetAdj] ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ ؛ﺀﺎﻀﻔﻟﺍ ﺮﺼﻋ ﻲﻓ ﻲﻟﻵﺍ ﻢﻜﺤﺘﻟﺍ ﻢﻠﻌﻟ ﺓﺮﺻﺎﻌﻣ ﺓﺰﻬﺟﻷﺍ ﻩﺬﻫ ﻥﺈﻓ ،ﻥﻵﺍ ﻰﺘﺣ ﺎﻬﻨﻋ ﺎﻨﻔﺸﻛ ﻲﺘﻟﺍ ﻂﻴﻠﺨﻟﺍ ﺡﺎﻨﺟ ﺕﺍﺪﻌﻣ ﺲﻜﻋ ﻰﻠﻋ .[root.GetPreFTLLowerPlural] ﺕﺎﺗﻮﺑﻭﺮﻟﺍ ﻩﺬﻫ ﺔﻧﺎﻴﺻﻭ ﺓﺩﺎﻳﺰﻟ ﺔﺼﺼﺨﻤﻟﺍ ﺓﺰﻬﺟﻷﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻋﻮﻤﺠﻣ ﺭﻮﺠﻬﻣ ﻰﻔﺸﺘﺴﻣ ﻖﺤﻠﻣ ﻲﻓ ﺪﺟﻮﻳ ﻥﺎﻛ"
+ unplugged.2125.name: "ﻦﻓﺪﻟﺍﻭ ﺄﻄﺨﻟﺍﻭ ﺔﺑﺮﺠﺘﻟﺍ"
+ unplugged.2125.desc: ".ﺔﺤﺟﺎﻧ ﺮﻴﻏ ﻭﺃ ﺔﺤﺟﺎﻧ ﺖﻧﺎﻛ ﺀﺍﻮﺳ ،ﺎﻨﻫ ﺖﻳﺮﺟﺃ ﻲﺘﻟﺍ ﺔﻴﺣﺍﺮﺠﻟﺍ ﺏﺭﺎﺠﺘﻟﺍ ﻦﻣ ﻪﻤﻠﻌﺘﻧ ﻥﺃ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ﺮﻴﺜﻜﻟﺍ ﻙﺎﻨﻫ ،ﻚﻟﺫ ﻊﻣﻭ .ﺎﻣ ﺪﺣ ﻰﻟﺇ ﺾﻔﺨﻨﻣ ﺡﺎﺠﻧ ﻝﺪﻌﻣ ﻪﻟ ﻥﺎﻛ ﺖﻧﺮﺘﻧﻹﺍ ﺔﻟﺍﺯﺇ ﻲﻓ ﻰﻄﺳﻮﻟﺍ ﺭﻮﺼﻌﻟﺍ ﻲﻓ ﻢﻬﺑﻮﻠﺳﺃ ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻤﻓ ،ﺓﺩﻮﺠﻟﺍ ﺔﻘﺋﺎﻓ ﺔﻴﻋﺎﻨﻣ ﺔﻤﻈﻧﻷ ﻢﻬﻛﻼﺘﻣﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻢﻬﻟ ﺔﻴﺣﺍﺮﺠﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﺀﺍﺮﺟﺇ ﺀﺎﻨﺛﺃ ﺍﻮﺗﺎﻣ ﻦﻳﺮﻴﺜﻜﻟﺍ ﻥﺃ ﻭﺪﺒﻳﻭ .ﺔﻴﻌﻴﺒﻃ ﺏﺎﺒﺳﻷ ﺓﺎﻓﻮﻟﺍ ﻦﻣ ﺮﻬﺷﺃ ﻞﺒﻗ ﺖﻠﻜﺸﺗ ﺔﻴﺣﺍﺮﺟ ﺔﻴﺑﺪﻧ ﺔﺠﺴﻧﺃ ﻢﻬﻳﺪﻟ ﻦﻳﺬﻟﺍ ﺩﺍﺮﻓﻷﺍ ﻦﻣ ﻞﻴﻠﻗ ﺩﺪﻋ ﻰﺘﺣﻭ ،ﺔﻠﻣﺎﻛ ﺕﺎﻏﺭﻮﺒﻳﺎﺳ ﺐﻧﺎﺟ ﻰﻟﺇ ﺔﻴﻠﺻﺃ ﺔﻳﻮﻀﻋ ﺎﻳﺎﻘﺑ ﺎﻧﺪﺟﻭ ﺪﻘﻟ\n\n."ﻲﻧﺍﺮﺒﻴﺴﻟﺍ ﻊﺑﺎﻄﻟﺍ ﺔﻟﺍﺯﺇ" ﻦﻣ ﺍﻮﻨﻜﻤﺗ ﻢﻬﻨﻜﻟﻭ ،ﺓﺩﺎﻳﺰﻠﻟ [from.planet.GetName] ﻥﺎﻜﺳ ﺔﻣﻭﺎﻘﻣ ﺔﻴﻔﻴﻛ ﻦﻋ ﻥﻵﺍ ﻰﺘﺣ ﺎﻨﻳﺪﻟ ﺓﺭﻮﺻ ﺢﺿﻭﺃ ﻑﺎﺸﺘﻛﻻﺍ ﺍﺬﻫ ﺎﻨﺤﻨﻤﻳ .ﻉﺍﺮﺼﻟﺍ ﻪﺴﻤﻳ ﻢﻟ ،ﻢﺨﻀﺘﻣ ﺐﻳﺮﻗ ﺢﻳﺮﺿ ﻰﻟﺇ ﻰﻔﺸﺘﺴﻤﻟﺍ ﺕﻼﺠﺳ ﺎﻨﺗﺩﺎﻗ .ﺏﺎﻌﻴﺘﺳﻻﺍ ﺪﻌﺑ ﻰﺘﺣ ﺎﻬﻴﻓ ﺍﻭﺮﻤﺘﺳﺍ ﺔﺳﺭﺎﻤﻣ ﻲﻫﻭ - ﻦﻓﺪﻟﺍ ﻞﺒﻗ ﺎﻴﺋﺰﺟ ﻢﻫﺎﺗﻮﻣ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﺍﻭﺭﺎﺘﺧﺍ [from.planet.GetName] ﻥﺎﻜﺳ ﻥﺃ ﺎﻨﻤﻠﻋ ﺪﻘﻟ"
+ unplugged.2125.a: ".ﻢﻫﺔﻠﺜﻣﺃ ﻦﻣ ﻢﻠﻌﺘﻧ ﺎﻧﻮﻋﺩ"
+ unplugged.2125.a.tt: ".ﺎﻨﺴﻔﻧﺃ ﻦﻋ "ﻲﻧﻭﺮﺘﻜﻟﻹﺍ ﻊﺑﺎﻄﻟﺍ ﻉﺰﻨﻟ" ﺔﻴﻓﺎﺿﺇ ﺩﺭﺍﻮﻣ ﺺﺼﺨﻧ ﺪﻗ"
+ unplugged.2130.name: "ﺔﻧﻮﻓﺪﻣ ﺓﺭﺎﻨﻣ"
+ unplugged.2130.desc: ".[creators_planet.solar_system.GetName] ﻡﺎﻈﻧ ﻦﻣ ﺕﺍﺭﺎﺷﻹﺍ ﺔﺒﻗﺍﺮﻤﻟ ﺔﻠﻣﺎﻛ ﻝﺎﺒﻘﺘﺳﺍ ﺓﺮﺋﺍﺩ ﺖﺼﺼﺧ ﺪﻗ ﺔﻳﺰﻣﺮﻟﺍ ﺓﺭﻮﺼﻟﺍ ﻩﺬﻫ ﻥﺃ ﺎﻨﻈﺣﻻ ،ﻥﻵﺍ ﺎﻬﺘﻴﺣﻼﺻ ﺖﻬﺘﻧﺍ ﻲﺘﻟﺍ ﺕﻻﺎﺼﺗﻻﺍ ﺔﻋﻮﻤﺠﻣ ﻡﺪﻫ ﺔﻴﻠﻤﻋ ﺀﺎﻨﺛﺃ \n\n .ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺙﺎﺤﺑﺃ ﺮﻳﻮﻄﺗ ﻰﻟﺇ ﻱﺩﺆﺘﺳ ﺔﺳﺍﺭﺪﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ ؛[origin_unplugged_assimilator_empire.GetName] ﻦﻣ ﻞﺒﻗ ﻦﻣ ﻩﺎﻨﻬﺟﺍﻭ ﺀﻲﺷ ﻱﺃ ﻪﺒﺸﺗ ﻻ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ .ﺩﺎﻨﻌﺑ ﻥﻮﻣﻭﺎﻘﻳ ﻦﻳﺬﻟﺍ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻰﻠﻋ ﺓﺮﺷﺎﺒﻤﻟﺍ ﺓﺮﻄﻴﺴﻟﺍ ﺪﻴﻛﺄﺘﻟ ﺓﺮﻴﺧﺃ ﺔﻟﻭﺎﺤﻣ ﺖﻧﺎﻛ ﻩﺬﻫ ﻥﺃ ﺽﺮﺘﻔﻧ ﻦﺤﻧ .ﻪﻠﻤﻛﺄﺑ ﺔﻟﻵﺍ ﺀﺎﻛﺫ ﻦﻋ ﺔﻠﻘﺘﺴﻣ ﻪﺒﺷ ﺔﻳﺰﻣﺭ ﺓﺭﻮﺻ ﺮﺸﻧ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ،ﺔﺿﻮﻔﻣ ﺓﺪﻘﻋ :ﺔﻟﺁ ﺓﺰﻴﻛﺭ ﻪﻧﺃ ﻭﺪﺒﻳ ﺎﻣ ﻞﺧﺍﺪﻟﺍ ﻲﻓ ﺪﺟﻮﻳ .ﺔﻌﻠﻘﻟﺍ ﻞﻔﺳﺃ ﻲﻔﺨﻣ ﻮﺒﻗ ﻦﻋ ﻒﺸﻜﻟﺍ ﻢﺗ"
+ unplugged_machine_legacy_creators_poi: "ﻝﺎﺒﻘﺘﺳﻻﺍ ﺓﺮﺋﺍﺩ"
+ unplugged_machine_legacy_creators_poi_desc: ".ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻦﻣ ﺕﺍﺭﺎﺷﻹﺍ ﺔﺒﻗﺍﺮﻤﻟ ﺓﺪﺋﺎﺒﻟﺍ [origin_unplugged_assimilator_empire.GetAdj] ﺕﻻﺎﺼﺗﺍ ﺔﻋﻮﻤﺠﻣ ﻦﻣ ﻞﻣﺎﻛ ﺮﺼﻨﻋ ﺺﻴﺼﺨﺗ ﻢﺗ"
+
+# System 3: 'The Creators'
+ MACHINE_LEGACY_CREATORS_UNPLUGGED: "ﺭﺎﺒﻐﻟﺍ ﺐﻗﺍﺮﻣ"
+ MACHINE_LEGACY_CREATORS_UNPLUGGED_DESC: "؟ﻡﺎﻜﺣﺈﺑ ﺔﻘﻠﻐﻤﻟﺍ [fromfrom.GetName] ﺔﻘﻄﻨﻣ ﻰﻠﻋ ﺕﺰﻛﺭ ﺍﺫﺎﻤﻟﻭ ،ﻪﺒﻗﺍﺮﺗ ﺖﻧﺎﻛ ﻱﺬﻟﺍ ﺎﻣ .ﺡﻼﺻﻺﻟ ﺔﻠﺑﺎﻗ ﺮﻴﻏ ﺖﺤﺒﺻﺃﻭ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺔﻣﺪﺨﻟﺍ ﻦﻣ ﺎﻬﺟﺍﺮﺧﺇ ﻢﺗ ،ﺓﺭﻮﻄﺘﻣ ﺔﺒﻗﺍﺮﻣ ﺔﻄﺤﻣ ﺪﺟﻮﺗ ﺔﻈﺣﻼﻤﻟﺎﺑ ﺓﺮﻳﺪﺠﻟﺍ ﻯﺮﺧﻷﺍ ﺮﻫﺍﻮﻈﻟﺍ ﻦﻣ ﻝﺎﺧ ﻡﺎﻈﻧ ﻲﻓ ﺎﻫﺪﺣﻭ"
+ MACHINE_LEGACY_CREATORS_CAT: "ﺭﺎﺒﻐﻟﺍ ﺐﻗﺍﺮﻣ"
+ MACHINE_LEGACY_CREATORS_CAT_DESC: "؟ﻡﺎﻜﺣﺈﺑ ﺔﻘﻠﻐﻤﻟﺍ [fromfrom.GetName] ﺔﻘﻄﻨﻣ ﻰﻠﻋ ﺕﺰﻛﺭ ﺍﺫﺎﻤﻟﻭ ،ﻪﺒﻗﺍﺮﺗ ﺖﻧﺎﻛ ﻱﺬﻟﺍ ﺎﻣ .ﺡﻼﺻﻺﻟ ﺔﻠﺑﺎﻗ ﺮﻴﻏ ﺖﺤﺒﺻﺃﻭ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺔﻣﺪﺨﻟﺍ ﻦﻣ ﺎﻬﺟﺍﺮﺧﺇ ﻢﺗ ،ﺓﺭﻮﻄﺘﻣ ﺔﺒﻗﺍﺮﻣ ﺔﻄﺤﻣ ﺪﺟﻮﺗ ﺔﻈﺣﻼﻤﻟﺎﺑ ﺓﺮﻳﺪﺠﻟﺍ ﻯﺮﺧﻷﺍ ﺮﻫﺍﻮﻈﻟﺍ ﻦﻣ ﻝﺎﺧ ﻡﺎﻈﻧ ﻲﻓ ﺎﻫﺪﺣﻭ"
+ unplugged.2200.name: "ﺏﺎﻴﻐﻟﺍ ﺔﺤﺳﺎﻣ"
+ unplugged.2200.desc.intro: ".ﻝﺎﻤﺸﻟﺍ ﻰﺼﻗﺃ ﻲﻓ ﺕﺎﻫﻮﻔﻟﺎﺑ ﺔﺌﻴﻠﻣ ﺔﺒﻀﻫ ﻕﻮﻓ ﺓﺰﻛﺮﻤﺘﻣ ﻞﺻﻷﺍ ﻲﻓ ﺖﻧﺎﻛ ﺎﻤﺑﺭ ﺔﻄﺤﻤﻟﺍ ﻩﺬﻫ ﻥﺃ ﺎﻘﺣﻻ ﺎﻧﺪﻘﺘﻋﺍﻭ - ﺯﺎﻬﺠﻟﺍ ﻞﻜﻴﻫ ﻰﻠﻋ ﺵﻭﺪﺨﻟﺍ - ﺔﻳﺭﺍﺪﻤﻟﺍ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﻰﻠﻋ ﺀﺎﻨﺑ ﺔﻠﻤﺘﺤﻤﻟﺍ ﺕﺎﻛﺮﺤﻟﺍ ﺓﺎﻛﺎﺤﻤﺑ ﺎﻨﻤﻗ ﺪﻘﻟ .ﻲﻟﺎﺤﻟﺍ ﺎﻫﺭﺍﺪﻣ ﺖﺤﺗ ﻡﺎﻤﺘﻫﻼﻟ ﺮﻴﺜﻣ ﺀﻲﺷ ﻱﺃ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻊﻴﻄﺘﺴﻧ ﻻ ﺎﻨﻧﻷ ،ﺔﻴﻠﺻﻷﺍ ﺓﺍﺫﺎﺤﻣ ﻦﻋ ﺖﺟﺮﺧ ﺪﻗ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺔﻄﺤﻣ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻤﻟﺍ ﻦﻣ .ﻝﺎﻣﻶﻟ ﺔﺒﻴﺨﻣ ﺎﻬﻧﺃ [fromfrom.GetName] ﻲﻓ ﺔﻘﺣﻼﻟﺍ ﺎﻨﺗﺎﺳﺍﺭﺩ ﺖﺘﺒﺛﺃ ﺪﻘﻟ" # universal intro
+ unplugged.2200.desc: ". $unplugged.2200.desc.outro$[origin_unplugged_assimilator_empire.GetAdj] ﺓﺰﻬﺟﺃ ﻊﻣ ﺍﺮﺑﺎﻋ ﺎﻬﺑﺎﺸﺗ ﻞﻤﺤﺗ ﻩﺬﻫ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺔﻄﺤﻣ ﻥﺃ ﻆﺣﻼﻧ :ﻪﺴﻔﻧ ﺯﺎﻬﺠﻠﻟ ﺔﺒﺴﻨﻟﺎﺑ\n\n$unplugged.2200.desc.intro$" # Unplugged version with in-tact station
+ unplugged.2200.desc.scrapped: ". $unplugged.2200.desc.outro$[origin_unplugged_assimilator_empire.GetAdj] ﺓﺰﻬﺟﺃ ﻊﻣ ﺍﺮﺑﺎﻋ ﺎﻬﺑﺎﺸﺗ ﻞﻤﺤﻳ ﻝﺍﺰﻳ ﻻ ﻡﺎﻌﻟﺍ ﻞﻜﻴﻬﻟﺍ ﻥﺃ ﻻﺇ ،ﻥﻭﺬﻘﻨﻤﻟﺍ ﺎﻬﺑ ﻡﻮﻘﻳ ﻲﺘﻟﺍ ﺔﻴﺳﺎﻘﻟﺍ ﺐﻬﻨﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ :ﺎﻬﺴﻔﻧ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺔﻄﺤﻤﻟ ﺔﺒﺴﻨﻟﺎﺑ\n\n$unplugged.2200.desc.intro$" # Unplugged version with scrapped station
+ unplugged.2200.desc.others: ".ﺎﻨﻫ ﺎﻬﻴﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻦﻜﻤﻳ ﺓﺩﺮﺧ ﺔﻤﻴﻗ ﺪﻴﻛﺄﺘﻟﺎﺑ ﻙﺎﻨﻫ ﻦﻜﻟﻭ ،ﺔﻴﻔﻃﺎﻋ ﺔﻤﻴﻗ ﻱﺃ ﺎﻬﻟ ﺔﻄﺤﻤﻟﺍ ﺖﻧﺎﻛ ﺍﺫﺇ ﺎﻣ ﺔﻓﺮﻌﻣ ﺎﻨﻨﻜﻤﻳ ﻻ .ﻱﺩﺎﻋ ﺮﻴﻏ ﻞﻜﺸﺑ ﺔﻴﻘﻧ ﺩﺍﻮﻣ ﻦﻣ ﺔﻧﻮﻜﻣ ﺔﻄﺤﻤﻠﻟ ﺔﻴﻗﻮﻔﻟﺍ ﺔﻴﻨﺒﻟﺍ ﻥﺃ ﻻﺇ ،ﺓﺭﻮﺴﻜﻣﻭ ﺔﻤﻳﺪﻗ ﺓﺮﺋﺎﻄﻟﺍ ﻦﺘﻣ ﻰﻠﻋ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺓﺰﻬﺟﻷﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻞﺒﻗ ﻦﻣ ﻩﺬﻬﻛ ﺕﺎﻤﻴﻤﺼﺗ ﻪﺟﺍﻮﻧ ﻢﻟ :ﺎﻬﺴﻔﻧ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺔﻄﺤﻤﻟ ﺔﺒﺴﻨﻟﺎﺑ\n\n$unplugged.2200.desc.intro$" # non-Unplugged version
+ unplugged.2200.desc.outro: ".ﺎﻨﻫ [origin_unplugged_assimilator_empire.GetName] ﺕﺎﻣﺎﻤﺘﻫﺍ ﺔﻓﺮﻌﻣ ﺔﻟﻭﺎﺤﻣ ﺎﻧﺩﺭﺃ ﺍﺫﺇ ﺩﺍﺪﻌﺘﺳﻻﺍ ﺔﺒﻫﺃ ﻰﻠﻋ ﻱﺮﺛﻷﺍ ﺢﺴﻤﻟﺍ ﻖﻳﺮﻓ ﻦﻜﻟ ،[fromfrom.GetClassAdj] ﻢﻟﺎﻋ ﻝﻮﺣ ﺮﻛﺬﻟﺍ ﻖﺤﺘﺴﻳ ﺎﻤﻣ ﺮﻴﺜﻜﻟﺍ ﺪﺟﻮﻳ ﻻ ﻥﻵﺍ ﻰﺘﺣ\n\n.ﺀﺎﻀﻔﻟﺍ ﻰﻟﺇ ﺮﻓﺎﺴﺗ ﻲﺘﻟﺍ ﺔﻴﻋﺎﻨﺼﻟﺍ ﺭﺎﻤﻗﻷﺍ ﻡﺪﻗﺃ ﻦﻣ ﺍﺪﺣﺍﻭ ﻥﻮﻜﻳ ﺪﻗ ﺍﺬﻫ ﻥﺃ ﺪﻘﺘﻌﻧ ،ﻚﻟﺫ ﻊﻣﻭ .ﺎﻣﺎﻤﺗ ﺔﻔﻠﺘﺨﻣ ﺔﻓﺎﻘﺛ ﻦﻣ ﺔﻳﺍﺭﺩ ﻞﻗﺃ ﺐﻗﺍﺮﻣ ﻪﻨﻈﻳ ﺪﻗ ﻱﺬﻟﺍ ﺪﺤﻟﺍ ﻰﻟﺇ ،ﺔﻴﺋﺍﺪﺑ ﺮﺜﻛﺃ ﻪﻤﻴﻤﺼﺗ" # Unplugged shared outro
+ unplugged.2200.a: ".ﻊﺑﺎﺗ ...ﺔﺻﺮﻓ ﻙﺎﻨﻫ ﺖﻧﺎﻛ ﺍﺫﺇ"
+ unplugged.2200.b: ".ﺎﻣﺪﻗ ﻲﻀﻤﻧ ﺎﻧﻮﻋﺩ .ﺎﻨﻫ ﯫﻴﺷ ﺪﺠﻧ ﻦﻟ"
+ unplugged.2200.c: ".ﺀﺍﺰﺟﻷ ﺎﻬﺼﻘﺑ ﻢﻗ"
+
+ machine_legacy_creators_site: "ﺭﺎﺒﻏ ﻰﻠﻋ ﺭﺎﺒﻏ"
+ machine_legacy_creators_site_desc: "...ﺎﻘﺣ ﻦﻳﺪﻛﺄﺘﻣ ﻥﻮﻜﻧ ﺪﻗ ﺓﺪﺣﺍﻭ ﺔﻘﻳﺮﻃ ﻙﺎﻨﻫ ﻦﻜﻟﻭ ،ﺀﺍﺮﺤﺼﻟﺍ ﻯﻮﺳ ﻥﻵﺍ ﺎﻨﻫ ﻖﺒﻳ ﻢﻟ ﻪﻧﺃ ﻝﺎﻤﺘﺣﺍ ﻙﺎﻨﻫ .ﺎﻨﺑﺎﻌﻴﺘﺳﺍ ﻞﺒﻗ ﺎﻣ ﺬﻨﻣ ﻞﻴﻐﺸﺘﻟﺍ ﺪﻴﻗ ﻥﺎﻛ ﺎﻤﺑﺭﻭ .ﺎﻬﻴﻠﻋ ﺎﻧﺮﺜﻋ ﻯﺮﺧﺃ ﺔﻳﺮﺛﺃ ﺔﻌﻄﻗ ﻞﻛ ﺎﺒﻳﺮﻘﺗ ﻖﺒﺴﺗ ﻲﻬﻓ ،ﺍﺪﺟ ﺔﻤﻳﺪﻗ ﻲﻫﻭ ،ﻥﻵﺍ ﺡﻼﺻﻺﻟ ﺔﻠﺑﺎﻗ ﺮﻴﻏ ﺓﺰﻬﺟﻷﺍ .[origin_unplugged_assimilator_empire.GetAdj] ﺔﺒﻗﺍﺮﻣ ﺔﻄﺤﻤﻟ ﻡﺎﻤﺘﻫﻼﻟ ﺍﺮﻴﺜﻣ ﯫﻴﺷ ﻙﺎﻨﻫ ﻥﺎﻛ ،[from.planet.GetName] ﻲﻓ ﻝﺎﻣﺮﻟﺍ ﺎﻬﺘﺣﺎﺘﺟﺍ ﻲﺘﻟﺍ ﺔﻴﻌﻴﺒﻄﻟﺍ ﺮﻇﺎﻨﻤﻟﺍ ﻦﻣ ﺎﻣ ﻥﺎﻜﻣ ﻲﻓ"
+ unplugged.2210.name: "ﻢﻴﻈﻌﻟﺍ ﺭﺎﺒﻐﻟﺍ ﺀﺎﻋﻭ"
+ unplugged.2210.desc: ".ﺢﺿﺍﻮﻟﺍ ﻡﺎﻄﺗﺭﻻﺍ ﻊﻗﻮﻣ ﺎﻳﺎﻘﺑ - ﺓﺮﻴﺒﻛ ﺓﺮﻔﺣ ﺔﻓﺎﺣ ﺔﻄﺳﺍﻮﺑ ﻦﻳﺮﻄﺷ ﻰﻟﺇ ﻢﺴﻘﻨﺗ ﺔﻘﺑﺎﺴﻟﺍ ﺔﻨﻳﺪﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﻕﺮﻄﻟﺍ ﻝﻮﻃ ﻰﻠﻋ ﺎﻫﺎﻨﻌﺒﺘﺗ ﻲﺘﻟﺍ ﺔﺘﻫﺎﺒﻟﺍ ﺔﻀﻳﺮﻌﻟﺍ ﻁﻮﻄﺨﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ \n\n .ﺀﺎﻨﺒﻟﺍ ﺩﺍﻮﻣ ﻦﻣ ﺓﺮﺛﺎﻨﺘﻣ ﺎﻳﺎﻘﺑ ﻮﻫ ﻥﻵﺍ ﻰﺘﺣ ﻪﻴﻓ ﺮﻔﺤﻠﻟ ﺎﻧﺭﺮﻄﺿﺍ ﺎﻣ ﻢﻈﻌﻣ .ﺐﻛﻮﻜﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺓﺩﺎﺑﻹﺍ ﻩﺬﻫ ﻦﻣ ﺓﺮﺘﻓ ﺪﻌﺑ ﺀﺎﺟ [from.planet.GetName] ﺮﺤﺼﺗ ﻥﺃ ﻲﺋﺎﻴﻤﻴﻜﻟﺍ ﻞﻴﻠﺤﺘﻟﺍ ﺮﻬﻈﻳ ،ﻚﻟﺫ ﻊﻣﻭ .ﺎﻬﺗﺎﺳﺎﺳﺃ ﻰﺘﺣ ﺎﻬﻣﺪﻫ ﻢﺗ ﺪﻗ ﺭﺎﺛﻵﺍ ﻩﺬﻫ ﻢﻫﺃ ﻥﺃ ﻰﺘﺣ .ﻢﻬﻴﻧﺎﺒﻣ ﺮﻴﻣﺪﺗ ﻢﺗ .ﺀﺎﻀﻔﻟﺍ ﺮﺼﻋ ﻲﻓ ﺓﺮﻜﺒﻣ ﺓﺭﺎﻀﺣ ﺖﻧﺎﻛ ﺎﻬﻧﺃ ﻭﺪﺒﻳ ﺎﻤﻟ ﺔﻠﺤﺿ ﺎﻬﻨﻜﻟﻭ ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺭﺎﺛﺁ :ﻝﺎﻣﺮﻟﺍ ﺖﺤﺗ ﺎﻨﻫ ﻦﻛﺎﺴﻣ ﺩﻮﺟﻭ ﻰﻠﻋ ﺔﻟﺩﺃ ﺎﻧﺪﺟﻭ ،ﻑﺎﻄﻤﻟﺍ ﺔﻳﺎﻬﻧ ﻲﻓ"
+ unplugged.2215.name: "ﺓﺮﻔﺤﻟﺍ ﺔﻴﺿﺭﺃ"
+ unplugged.2215.desc: ".[from.planet.GetName] ﻒﻴﻈﻨﺗ ﻢﺗ ﺪﻘﻟ .ﺍﻮﺷﺎﻋ ﻒﻴﻛ ﻻﻭ ،ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ ﺔﻳﻮﻫ ﻰﻟﺇ ﺮﻴﺸﻳ ﺮﺧﺁ ﺀﻲﺷ ﻱﺃ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻻ .ﻲﺨﻳﺭﺎﺘﻟﺍ ﻞﺠﺴﻟﺍ ﻦﻣ ﺎﻣﺎﻤﺗ ﺓﺭﺎﻀﺣ ﻮﺤﻤﺗ ﺔﻟﻵﺍ ﻥﺃ ﻰﻠﻋ ﻼﻴﻟﺩ ﻪﻴﻓ ﻯﺮﻧ ﻞﻴﻟﺩ ﻝﻭﺃ ﻥﻮﻜﻴﺳ ﺍﺬﻫ ﻦﻜﻟﻭ ،ﺔﻟﻭﺆﺴﻣ ﺖﻧﺎﻛ [origin_unplugged_assimilator_empire.GetName] ﻥﺃ ﻰﻟﺇ ﻕﺎﻴﺴﻟﺍ ﺮﻴﺸﻳ\n\n .ﺓﺭﺎﻀﺤﻟﺍ ﺔﻳﺎﻬﻧ ﺡﻼﺳ ﻪﻧﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ ﻥﻮﻜﻳ ﺩﺎﻜﻳ - ﻞﺋﺎﻫ ﺭﺎﺠﻔﻧﺍ ﺔﻄﺳﺍﻮﺑ ﺾﻔﺨﻨﻤﻟﺍ ﺍﺬﻫ ﺮﻔﺣ ﻢﺗ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ ؛ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺽﺭﻷﺍ ﺐﻛﻮﻛ ﺝﺭﺎﺧ ﺩﺍﻮﻤﻟ ﺮﺛﺃ ﻱﺃ ﺪﺟﻮﻳ ﻻ .ﻙﺰﻴﻨﻟﺍ ﺮﻴﺛﺄﺗ ﺩﺎﻌﺒﺘﺳﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ﺎﻣ ﻥﺎﻋﺮﺳﻭ .ﻲﻠﻌﻔﻟﺍ ﺐﻴﻘﻨﺘﻟﺍ ﻦﻣ ﺮﺜﻛﺃ ﺔﻗﺪﺑ ﺔﻃﻮﺒﻀﻤﻟﺍ ﺔﻴﺋﻮﻀﻟﺍ ﺕﺎﺤﺳﺎﻤﻟﺍ ﻰﻠﻋ ﺩﺎﻤﺘﻋﻻﺍ ﺎﻨﻴﻠﻋ ﻥﺎﻛ ،ﺓﺮﻔﺤﻟﺍ ﻩﺬﻫ ﻞﺧﺍﺩ ﺎﻬﻌﻤﺟ ﻢﺗ ﻲﺘﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺔﻠﺋﺎﻬﻟﺍ ﺔﻴﻤﻜﻠﻟ ﺍﺮﻈﻧﻭ"
+
+ unplugged.2205.name: "ﻮﺒﻘﻟﺍ ﺓﺭﺎﻨﻣ [origin_unplugged_assimilator_empire.GetAdj]"
+ unplugged.2205.desc: ".[origin_unplugged_creators_planet.GetName] ﻕﻮﻓ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺔﻄﺤﻣ ﺍﺮﺧﺆﻣ ﺕﺭﺍﺯ ﻲﺘﻟﺍ ﺎﻨﺘﻨﻴﻔﺳ ﻮﺤﻧ ﺎﻬﺟﻮﻣ ﻥﺎﻛ ﻪﻨﻜﻟ ،ﺔﻳﺎﻐﻠﻟ ﻒﻴﻌﺿ ﻝﺎﺳﺭﻹﺍ .ﺐﻳﺮﻗ ﻡﺎﻈﻧ ﻲﻓ [origin_unplugged_assimilator_empire.GetAdj] ﺕﺎﻧﺎﻴﺑ ﻥﺰﺨﻣ ﻦﻣ ﺄﺸﻨﺗ ﺎﻬﻧﺃ ﻲﻋﺪﺗ ﺓﺭﺎﻨﻣ ﺓﺭﺎﺷﺇ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+ unplugged.2205.a: ".ﻖﻴﻘﺤﺘﻟﺍ ﻖﺤﺘﺴﻳ"
+ unplugged_machine_legacy_unplugged_poi: "ﺕﺎﻧﺎﻴﺒﻟﺍ ﻥﺰﺨﻣ ﺓﺭﺎﺷﺇ"
+ unplugged_machine_legacy_unplugged_poi_desc: ".ﺔﻠﻄﻌﻣ ﺔﺒﻗﺍﺮﻣ ﺔﻄﺤﻣ ﺎﻨﻬﺟﺍﻭ ﻥﺃ ﺪﻌﺑ ﺎﻨﻴﻟﺇ ﻪﻌﻗﻮﻣ ﺽﺮﺘﻔﻤﻟﺍ [origin_unplugged_assimilator_empire.GetAdj] ﺕﺎﻧﺎﻴﺑ ﻮﺒﻗ ﺚﺑ ﺪﻘﻟ"
+
+# System 4: 'The Unplugged'
+ unplugged.2300.name: "$unplugged.2205.name$"
+ unplugged.2300.desc: ".ﺪﻌﺑ ﻦﻋ ﺓﺪﻋﺎﺼﻟﺍ ﺔﻠﺻﻮﻟﺍ ﻖﻳﺮﻃ ﻦﻋ "ﺕﺎﻧﺎﻴﺒﻟﺍ ﺔﻧﺰﺧ" ـﺑ ﻰﻤﺴﻳ ﺎﻣ ﺏﺍﻮﺠﺘﺳﻻ ﺩﺍﺪﻌﺘﺳﻻﺍ ﺔﺒﻫﺃ ﻰﻠﻋ ﻖﻳﺮﻔﻟﺍ ﻒﻘﻳ ؛ﻞﻌﻔﻟﺎﺑ ﺓﺩﻮﺟﻮﻣ ﺔﻴﺳﺎﻴﻘﻟﺍ ﺔﻣﻼﺴﻟﺍ ﺕﺎﻃﺎﻴﺘﺣﺍ .ﺐﻛﻮﻜﻟﺍ ﺢﻄﺳ ﻰﻠﻋ ﺔﻬﺟﺍﻭ ﻰﻟﺇ ﺍﺪﻳﺪﺤﺗ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﺎﻨﻬﺟﻮﺗﻭ ،ﺢﺿﺍﻭﻭ ﻝﺎﻋ ﺕﻮﺼﺑ ﻥﻵﺍ ﺚﺒﺗ ﺎﻨﻫ ﻰﻟﺇ ﺎﻨﺘﻋﺪﺘﺳﺍ ﻲﺘﻟﺍ ﺓﺭﺎﻨﻤﻟﺍ"
+ unplugged.2300.a: ".ﺐﻳﺮﻏ ﻞﻜﺸﺑ ﺔﻓﻮﻟﺄﻣ ﺮﻌﺸﻳ"
+ unplugged.2300.a.tt: ".[from.GetName] ﻡﺎﻈﻧ ﻲﻓ ﺹﺎﺧ ﻉﻭﺮﺸﻣ ﺮﻬﻈﻳ"
+ MACHINE_LEGACY_UNPLUGGED_VAULT_BEACON: "ﻦﻓﺪﻤﻟﺍ ﺓﺭﺎﻨﻣ"
+ MACHINE_LEGACY_UNPLUGGED_VAULT_BEACON_DESC: ".ﺖﻗﻮﻟﺍ ﺾﻌﺑ ﻕﺮﻐﺘﺴﻴﺳ ﺎﻬﻠﺧﺍﺪﺑ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﻔﻠﻤﻠﻟ ﺔﺋﺰﺠﺘﻟﺍ ﺀﺎﻐﻟﺇﻭ ﺮﻴﻔﺸﺘﻟﺍ ﻚﻓ ﻦﻜﻟﻭ ،ﺪﻌﺑ ﻦﻋ ﻦﻣﺁ ﻝﻮﺻﻭ ﺲﻴﺳﺄﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ .ﺐﻛﻮﻜﻟﺍ ﺢﻄﺳ ﺖﺤﺗ ﺎﻘﻴﻤﻋ ﻥﻮﻓﺪﻣ ﺕﺎﻧﺎﻴﺑ ﻮﺒﻗ ﻰﻟﺇ ﺎﻨﻫﺎﺒﺘﻧﺍ [origin_unplugged_assimilator_empire.GetName] ـﻟ ﺔﻌﺑﺎﺗ ﺓﺭﺎﻨﻣ ﺖﻬﺟﻭ"
+ unplugged.2305.name: "ﺎﻨﺑ ﺹﺎﺨﻟﺍ [origin_unplugged_assimilator_empire.GetAdj] ﺙﺍﺮﺗ"
+ unplugged.2305.desc: "..ﺔﻓﺪﺻ ﺲﻴﻟ ﺖﻴﻗﻮﺘﻟﺍ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ .ﺓﺩﺭﺍﻭ ﻯﺮﺧﺃ ﺔﻳﺩﺎﻌﻣ ﺓﺭﺎﺷﺇ ﻮﺘﻠﻟ ﺎﻨﻔﺸﺘﻛﺍ ﺎﻨﻧﺃ ﻭﺪﺒﻳ ،ﻚﻟﺫ ﻊﻣﻭ .ﻑﺎﺸﺘﻛﻻﺍ ﺍﺬﻫ ﺪﻴﻛﺄﺘﻟ ﻱﺮﺛﺃ ﺮﻔﺣ ﻊﻗﻮﻣ ﺀﺎﺸﻧﻹ ﻂﻄﺧ ﻊﺿﻭ ﻞﻌﻔﻟﺎﺑ ﻱﺮﺠﻳﻭ .ﺔﻴﻗﺍﺪﺼﻤﻠﻟ ﺔﻌﻨﻘﻣ ﺔﺠﺣ ﻞﻜﺸﻳ ﺎﻫﺎﻨﻌﻤﺟ ﻲﺘﻟﺍ ﻯﺮﺧﻷﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻰﻟﺇ ﺔﻴﺗﻮﺼﻟﺍ ﺕﺍﺭﺎﺷﻹﺍ ﻦﻣ ﻞﺋﺎﻬﻟﺍ ﺩﺪﻌﻟﺍ ﻦﻜﻟﻭ ،ﺎﻬﻘﻳﺪﺼﺗ ﺐﻌﺼﻳ ﺔﺟﺭﺪﻟ ﺍﺪﺟ ﺓﺪﻴﺟ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻩﺬﻫ ﻥﺃ ﺎﻧﻮﻠﻠﺤﻣ ﺮﺒﺘﻋﺍ ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ \n\n .ﺐﻛﻮﻜﻟﺍ ﺢﻄﺳ ﺖﺤﺗ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻮﺒﻗ ﻦﻣ ﻥﻵﺍ ﻖﻓﺪﺘﺗ ﻲﺘﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻦﻣ ﻞﻴﺳ ﺐﻠﻗ ﻲﻓ ﻒﺸﻜﻟﺍ ﺍﺬﻫ ﻦﻤﻜﻳﻭ .ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺠﻟ ﻲﻠﺻﻷﺍ ﻢﻟﺎﻌﻟﺍ ﻮﻫ [fromfrom.GetName] ﻢﺳﺎﺑ ﻪﻓﺮﻌﻧ ﻱﺬﻟﺍ ﺐﻛﻮﻜﻟﺍ ﻥﺈﻓ ،ﻝﻮﻘﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﺎﻣ ﺭﺪﻘﺑ"
+
+ machine_legacy_unplugged_site: "ﺄﺸﻨﻤﻟﺍ ﺔﻄﻘﻧ"
+ machine_legacy_unplugged_site_desc: ".ﺪﺑﻷﺍ ﻰﻟﺇ ﺎﻨﺗﺎﻴﺣ ﺭﺎﺴﻣ ﺔﻟﻵﺍ ﺕﺮﻴﻏ ﻒﻴﻛﻭ ،ﺶﻴﻌﻧ ﺎﻨﻛ ﻒﻴﻛﻭ ،ﺎﻨﻴﺗﺃ ﻦﻳﺃ ﻦﻣ :ﻱﻮﻀﻌﻟﺍ ﺎﻨﺛﺍﺮﺗ ﻒﺸﺘﻜﻧ ﺪﻗ ،ﺍﺮﻴﺧﺃ .ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺟ ﻦﻃﻮﻣ ﺎﻬﻧﺃ ﻰﻟﺇ ﺔﺤﻠﺼﺘﺴﻤﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺮﻴﺸﺗ ﻲﺘﻟﺍ ﺭﺎﺛﻵﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻰﻟﺇ ،ﺎﻨﻫ ﻰﻟﺇ [origin_unplugged_assimilator_empire.GetName] ﻪﻔﻠﺧ ﻱﺬﻟﺍ ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺢﺑﺬﻟﺍﻭ ﺔﻨﻤﻴﻬﻟﺍ ﺭﺎﺴﻣ ﺎﻧﺩﺎﻗ ﺪﻘﻟ"
+ unplugged.2310.name: "ﻲﻟﺰﻨﻤﻟﺍ ﺦﺒﻄﻟﺍ"
+ unplugged.2310.desc.intro: "\n\n.ﺎﻬﻴﻠﻋ ﺶﻴﻌﺘﻟ ﺎﻨﺳﺎﻨﺟﺃ ﺕﺭﻮﻄﺗ ﻲﺘﻟﺍ ﺎﻬﺴﻔﻧ ﺔﻤﻌﻃﻸﻟ ﻦﻳﺰﺨﺘﻟﺍﻭ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺰﻛﺍﺮﻣ ﻦﻣ ﺔﺠﻣﺪﻣ ﺔﻠﺴﻠﺳ :ﺕﺎﻌﻗﻮﺘﻟﺍ ﻞﻛ ﻕﻮﻔﻳ ﻝﺍﺰﻳ ﻻ ﺎﻨﻓﺎﺸﺘﻛﺍ ﻥﺃ ﻻﺇ ،ﻝﺎﻣﻵﺍ ﺾﻌﺑ ﺩﺪﺒﺗ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﻲﻠﺧﺍﺪﻟﺍ ﺀﺰﺠﻟﺍ ﻰﻠﻋ ﻆﻓﺎﺣ ﺪﻗ ﺎﻬﺑ ﺹﺎﺨﻟﺍ ﺮﻴﺒﻜﻟﺍ ﺥﺎﻨﻤﻟﺍ ﻲﻓ ﻢﻜﺤﺘﻟﺍ ﻡﺎﻈﻧ ﻥﻮﻜﻳ ﻥﺃ ﻞﻣﺃ ﻰﻠﻋ ،ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺍﺪﻴﻘﻌﺗ ﺮﺜﻛﻷﺍ ﻖﻓﺍﺮﻤﻟﺍ ﻯﺪﺣﺇ ﻲﻓ ﺐﻴﻘﻨﺘﻟﺍ ﻲﻓ ﺎﻧﺃﺪﺑ ﺪﻘﻟ"
+ unplugged.2310.desc.omnivore: ".ﺕﺎﻣﺯﻷﺍ ﺕﺎﻗﻭﺃ ﻲﻓ ﻡﺍﺪﺨﺘﺳﻼﻟ ﺓﺰﻫﺎﺟﻭ ﺔﻤﻴﻠﺳ ﻞﻈﺗ ﺎﻬﻈﻔﺣﻭ ﺔﻴﺋﺍﺬﻐﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻩﺬﻫ ﺩﺍﺪﻋﻹ ﺔﻣﺪﺨﺘﺴﻤﻟﺍ ﺔﺼﺼﺨﺘﻤﻟﺍ ﺕﺍﺪﻌﻤﻟﺍ ﻦﻜﻟ ،ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺎﻬﺗﺎﻳﻮﺘﺤﻣ ﺖﻔﺟ ﺪﻘﻟ .ﺓﺎﻴﺤﻠﻟ ﺔﻠﺑﺎﻗ ﺪﻌﺗ ﻢﻟ ﻡﻮﺤﻠﻟﺍ ﺔﻋﺍﺭﺯ ﺽﺍﻮﺣﺃﻭ ﻞﺤﻨﻟﺍ ﺎﻳﻼﺧﻭ ﺭﻭﺬﺒﻟﺍ ﻙﻮﻨﺑ ﻦﻣ ﺔﻋﻮﻤﺠﻤﻟﺍ ﻩﺬﻫ ﻥﺃ ﻒﺳﺆﻤﻟﺍ ﻦﻣﻭ"
+ unplugged.2310.desc.carnivore: ".ﺉﺭﺍﻮﻄﻠﻟ ﺄﺠﻠﻣ ﻲﻓ ﺎﻬﺟﺍﺭﺩﺇ ﺐﺳﺎﻨﻤﻟﺍ ﻦﻣ ﻪﻧﺃ ﺎﻨﻓﻼﺳﺃ ﻯﺃﺭ ﺍﺫﺇ ،ﺕﺎﺣﺎﺴﻤﻟﺍ ﻩﺬﻫ ﻞﺜﻤﻟ ﺔﻴﻓﺎﻘﺜﻟﺍ ﺔﻴﻤﻫﻷﺎﺑ ﻦﻬﻜﺘﻧ ﻥﺃ ﻻﺇ ﺎﻨﻨﻜﻤﻳ ﻻ .ﺓﺎﻛﺎﺤﻣ ﺪﻴﺻ ﻖﻃﺎﻨﻣ ﺎﻬﻧﺃ ﺶﻫﺪﻤﻟﺍ ﻦﻣ ﺎﻤﺑﺭﻭ ،ﻡﻮﺤﻠﻟﺍ ﺔﻋﺍﺭﺯ ﺽﺍﻮﺣﺃﻭ ،ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺮﺋﺎﻈﺣ ﺎﻬﻠﻐﺸﺗ ﺔﺣﺎﺴﻤﻟﺍ ﻩﺬﻫ ﻦﻣ ﺮﻴﺜﻜﻟﺍ"
+ unplugged.2310.desc.herbivore: ".ﺔﺳﺍﺭﺪﻠﻟ ﺔﻠﺑﺎﻗ ﻝﺍﺰﺗ ﻻ ﺎﻬﻨﻜﻟﻭ - ﺔﻤﻴﻘﻋ ﻭﺃ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺔﻤﺨﻀﺘﻣ ﻥﻵﺍ ﺎﻬﺗﺎﻳﻮﺘﺤﻣ ﺖﺤﺒﺻﺃ ﺪﻗﻭ ،ﺎﻬﺧﺎﻨﻣ ﻲﻓ ﻢﻜﺤﺘﻟﺍ ﻢﺘﻳ ﻮﻤﻧ ﻑﺮﻏﻭ ﺔﻴﺋﺎﻣ ﺕﺎﻓﺮﺷﻭ ،ﺔﻌﺳﺍﻭ ﺭﻭﺬﺑ ﻙﻮﻨﺒﺑ ﺓﺪﺣﻭ ﻞﻛ ﺊﻠﺘﻤﺗ"
+ unplugged.2310.desc.outro: ".ﺔﻳﺍﺪﺑ ﻞﺜﻤﻳ ﻮﻬﻓ ،ﻞﻗﻷﺍ ﻰﻠﻋ ﺔﻤﺘﻬﻤﻟﺍ ﻑﺍﺮﻃﻷﺍ ﺾﻌﺒﻟ ﺔﺒﺴﻨﻟﺎﺑ ﻦﻜﻟﻭ - ﺎﻨﻳﺪﻟ ﺔﻳﺪﻴﻠﻘﺘﻟﺍ ﻡﺎﻌﻄﻟﺍ ﻝﻭﺎﻨﺗ ﻭﺃ ﻲﻬﻄﻟﺍ ﺔﻓﺎﻘﺛ ﻦﻣ ﻱﺃ ﻊﻣ ﺎﻨﻌﻤﺠﻳ ﻥﺃ ﻪﻨﻜﻤﻳ ﻻ ﺎﻤﻛ ،ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺟ ﻯﺪﻟ ﻞﻛﻷﺍ ﺕﺍﺩﺎﻋ ﻦﻋ ﺎﻧﺮﺒﺨﻳ ﻥﺃ ﻩﺪﺣﻭ ﻑﺎﺸﺘﻛﻻﺍ ﺍﺬﻬﻟ ﻦﻜﻤﻳ ﻻ\n\n .ﺓﺭﻭﺎﺠﻤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ﻯﺪﻤﻟﺍ ﺓﺮﻴﺼﻗ ﺔﻴﺋﻮﻀﻟﺍ ﺕﺎﺤﺳﺎﻤﻟﺍ ﻊﻴﻤﺠﻟ ﺔﺣﺎﺘﻣ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻩﺬﻫ ﺎﻨﻠﻌﺟ ﺪﻘﻟ .ﺐﻛﻮﻜﻟﺍ ﺢﻄﺳ ﻰﻠﻋ ﺔﻟﻭﺰﻌﻣ ﺏﻮﻴﺟ ﻲﻓ ﺓﺩﻮﺟﻮﻣ ﺎﻫﺭﺎﺛﺁ ﻝﺍﺰﺗ ﻻ ﺎﻤﺑﺭ ﻲﺘﻟﺍﻭ ،ﺕﺎﻧﺍﻮﻴﺤﻟﺍﻭ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻩﺬﻬﻟ ﺔﻴﺛﺍﺭﻮﻟﺍ ﺕﺎﻔﻠﻤﻠﻟ ﺕﺎﻧﺎﻴﺑ ﻙﻮﻨﺑ ﺎﻀﻳﺃ ﺎﻧﺪﺟﻭ ﺪﻘﻟ"
+ unplugged.2310.desc.lithovore: ".ﺎﻨﻴﺿﺎﻣ ﻦﻋ ﺓﺮﺳﺁ ﺔﺤﻤﻟ ﺔﺑﺎﺜﻤﺑ ﺮﻣﻷﺍ ﻝﺍﺰﻳ ﻻ ،ﺔﻤﺘﻬﻤﻟﺍ ﻑﺍﺮﻃﻷﺍ ﺾﻌﺒﻟ ﺔﺒﺴﻨﻟﺎﺑ .ﻡﺎﻌﻄﻟﺍ ﻝﻭﺎﻨﺗ ﺔﻓﺎﻘﺛ ﻦﻣ ﻉﻮﻧ ﻱﺃ ﺍﻮﺳﺭﺎﻣ ﺎﻨﻓﻼﺳﺃ ﻥﺎﻛ ﺍﺫﺇ ﺎﻣ ﺎﻧﺮﺒﺨﻳ ﻥﺃ ﻪﻨﻜﻤﻳ ﻻﻭ ،ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺟ ﻯﺪﻟ ﻞﻛﻷﺍ ﺕﺍﺩﺎﻋ ﻦﻋ ﺎﻧﺮﺒﺨﻳ ﻥﺃ ﻩﺪﺣﻭ ﻑﺎﺸﺘﻛﻻﺍ ﺍﺬﻬﻟ ﻦﻜﻤﻳ ﻻ\n\n .ﺓﺭﻭﺎﺠﻤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻲﻓ ﻯﺪﻤﻟﺍ ﺓﺮﻴﺼﻗ ﺔﻴﺋﻮﻀﻟﺍ ﺕﺎﺤﺳﺎﻤﻟﺍ ﻊﻴﻤﺠﻟ ﺔﺣﺎﺘﻣ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻩﺬﻫ ﺎﻨﻠﻌﺟ ﺪﻘﻟ .ﺲﻘﻄﻟﺎﺑ ﺮﺛﺄﺗ ﻱﺬﻟﺍ ﺐﻛﻮﻜﻟﺍ ﺢﻄﺳ ﻰﻠﻋ ﺔﻟﻭﺰﻌﻣ ﺏﻮﻴﺟ ﻲﻓ ﻞﻜﺸﺘﻳ ﺎﻬﻨﻣ ﺮﻴﺜﻜﻟﺍ ﻝﺍﺰﻳ ﻻ ﺎﻤﺑﺭ ﻲﺘﻟﺍﻭ ،ﻥﺩﺎﻌﻤﻟﺍ ﻩﺬﻬﻟ ﺔﻴﺋﺎﻴﻤﻴﻜﻟﺍ ﺢﻣﻼﻤﻟﺎﺑ ﺔﺌﻴﻠﻣ ﺕﺎﻧﺎﻴﺑ ﻙﻮﻨﺑ ﺎﻀﻳﺃ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ .ﺔﺳﺍﺭﺪﻠﻟ ﺔﻠﺑﺎﻗ ﻝﺍﺰﺗ ﻻ ﺎﻬﻨﻜﻟﻭ ،ﺔﻏﺎﺴﺘﺴﻣ ﺮﻴﻏ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺎﻬﺗﺎﻳﻮﺘﺤﻣ ﺖﺤﺒﺻﺃ - ﺮﺨﺒﺗ ﻙﺮﺑﻭ ﺔﻴﻟﺎﺘﺴﻳﺮﻛ ﺓﺮﺳﺃ ﺮﻓﻮﺗ ﺚﻴﺣ ،ﺔﻌﻨﺼﻤﻟﺍ ﺓﺭﺎﻐﻤﻟﺍ ﻦﻣ ﻉﻮﻨﻛ ﺓﺪﺣﻭ ﻞﻛ ﺖﻠﻤﻋ"
+ unplugged.2310.desc.omni: "$unplugged.2310.desc.omnivore$ $unplugged.2310.desc.outro$\n\n$unplugged.2310.desc.intro$"
+ unplugged.2310.desc.carn: "$unplugged.2310.desc.carnivore$ $unplugged.2310.desc.outro$\n\n$unplugged.2310.desc.intro$"
+ unplugged.2310.desc.herb: "$unplugged.2310.desc.herbivore$ $unplugged.2310.desc.outro$\n\n$unplugged.2310.desc.intro$"
+ unplugged.2310.desc.lith: "$unplugged.2310.desc.lithovore$\n\n$unplugged.2310.desc.intro$" # should not include the shared 'outro'
+ unplugged.2315.name: "ﻲﺨﻳﺭﺎﺘﻟﺍ ﻞﺠﺴﻟﺍ"
+ unplugged.2315.desc: "؟ﻡﺩﺎﻘﻟﺍ ﺎﻧﺮﻔﺣ ﺰﻛﺮﻧ ﻥﺃ ﺐﺠﻳ ﻦﻳﺃ ؛ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺩﺭﺍﻮﻣ ﺔﻴﻓﺎﺿﻹﺍ ﺐﻴﻘﻨﺘﻟﺍ ﻝﺎﻤﻋﺃ ﺐﻠﻄﺘﺗ ﻑﻮﺳ .ﺮﺋﺍﺰﻟﺍ ﺭﻮﻬﻤﺠﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﺍ ﻲﺒﻠﺗ ﻲﺘﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻦﻣ ﺪﺣﺍﻭ ﻮﻫ ﻒﺤﺘﻤﻟﺍ ﻥﺃ ﻭﺪﺒﻳ\n\n.ﺔﻟﻵﺍ ﺎﻨﺘﺒﻋﻮﺘﺳﺍ ﻰﺘﺣ ،ﺍﺪﺑﺃ ﻚﻟﺬﻛ ﻦﻜﻧ ﻢﻟ ﺎﻤﺑﺭ .ﺪﺣﻮﻣ ﺐﻌﺸﻛ ﺎﻨﻌﻤﺘﺠﻣ ﻭﺃ ﺎﻨﺒﻛﻮﻛ ﻰﻟﺇ ﺮﻴﺸﻳ ﻻ ﻢﻬﻨﻣ ﺎﻳﺃ ﻥﺃ ﺐﻳﺮﻐﻟﺍ ﻦﻣﻭ .ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺔﺒﻳﺮﻏ ﻭﺪﺒﺗ ﻢﻬﺋﺎﻤﺳﺃ ﻦﻜﻟ ،ﺔﻳﺮﺛﻷﺍ ﻊﻄﻘﻟﺍ ﻩﺬﻬﺑ ﺖﻋﺮﺒﺗ ﻲﺘﻟﺍ ﺏﻮﻌﺸﻟﺍﻭ ﻖﻃﺎﻨﻤﻟﺎﺑ ﺝﻮﻟﺎﺘﻜﻟﺍ ﺍﺬﻫ ﻲﻓ ﺕﺎﻴﺑﺩﻷﺍ ﻦﻣ ﺮﻴﺜﻜﻟﺍ ﺪﻬﺸﺘﺴﺗ .ﺢﻴﺤﺻ ﻞﻜﺸﺑ ﺕﺎﻤﻠﻜﻟﺍ ﻩﺬﻫ ﻖﻄﻨﻨﺳ ﺎﻨﻛ ﺍﺫﺇ ﺎﻣ ﻰﺘﺣ ﻑﺮﻌﻧ ﻻ ﻦﺤﻧ .ﺔﺒﻳﺮﻏﻭ ﺔﻴﻠﻤﻋ ﺮﻴﻏ ﻭﺪﺒﺗ ﺔﻳﻮﺤﻨﻟﺍ ﺪﻋﺍﻮﻘﻟﺍ ﻦﻜﻟ ،ﺔﻴﻟﺎﺤﻟﺍ [owner.GetAdj] ﺔﺠﻬﻟ ﺶﻫﺪﻣ ﻞﻜﺸﺑ ﺺﻨﻟﺍ ﻪﺒﺸﻳ ،ﻞﻗﻷﺍ ﻰﻠﻋ ﺎﻳﺮﻫﺎﻇ .ﺎﻨﺗﺎﻐﻟ ﻯﺪﺣﺈﺑ ﺔﻠﻳﻮﻄﻟﺍ ﺔﺑﺎﺘﻜﻟﺍ ﺎﻬﻴﻓ ﻪﺟﺍﻮﻧ ﻲﺘﻟﺍ ﻰﻟﻭﻷﺍ ﺓﺮﻤﻟﺍ ﻲﻫ ﻩﺬﻫ\n\n.ﻩﻼﻋﺃ ﺔﻤﻄﺤﻤﻟﺍ ﺽﺮﻌﻟﺍ ﺕﻻﺎﺻ ﻲﻓ ﻦﻳﺰﺨﺘﻟﺍﻭ ﺽﺮﻌﻠﻟ ﺔﺴﺳﺆﻤﻟﺍ ﻩﺬﻫ ﺎﻬﺑ ﺖﻈﻔﺘﺣﺍ ﻲﺘﻟﺍ ﺕﻻﺎﻘﻤﻟﺍ ﻦﻣ ﺎﺒﻳﺮﻘﺗ ﺔﻠﻣﺎﻛ ﺕﺎﻧﺎﻴﺑ ﺓﺪﻋﺎﻗ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺎﻴﻓﺎﻛ ﻥﺎﻛ ﺍﺬﻫ ﻦﻜﻟﻭ ،ﺔﻤﻴﻠﺳ ﻂﻘﻓ ﻲﻠﻔﺴﻟﺍ ﻖﺑﺎﻄﻟﺍ ﺕﺎﻔﻴﺷﺭﺃ ﺖﻴﻘﺑ .ﻒﺤﺘﻤﻟﺍ ﺲﺳﺃ ﻊﺿﻭ ﻢﺗ ﻡﺎﻌﻄﻟﺍ ﻮﺒﻗ ﻦﻣ ﺓﺮﻴﺼﻗ ﺔﻓﺎﺴﻣ ﻰﻠﻋ"
+ unplugged.2315.a: ".ﻡﺍﺪﻗﻷﺍ ﻦﻣ ﺩﺪﻋ ﺮﺒﻛﺃ ﻊﻣ ﻊﻗﻮﻤﻟﺍ ﺮﻔﺣ"
+ unplugged.2315.b: ".ﻲﻤﻠﻌﻟﺍ ﺚﺤﺒﻟﺍﻭ ﻢﻠﻌﺘﻟﺍ ﺰﻛﺍﺮﻤﻟ ﺔﻳﻮﻟﻭﻷﺍ ﺀﺎﻄﻋﺇ"
+ unplugged.2321.name: "ﻚﺤﻀﻟﺍ ﻦﻣ ﺙﺍﺮﺗ"
+ unplugged.2321.desc: ".ﺓﺮﺳﺁ ،ﺔﺌﻳﺮﺑ ،ﺔﺠﻬﺒﻣ ﻒﺋﺍﺮﻄﻟﺍﻭ ﻡﺎﻫﻭﻷﺍ ﻩﺬﻫ ﻞﺜﻣ ﺔﻬﺟﺍﻮﻣ ﻲﻓ ﻢﻫﺮﻴﺑﺎﻌﺗ .ﺕﺍﺬﻟﺎﺑ ﻥﺎﻜﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﻣﺩﺎﻘﻟﺍ ﻝﺎﻴﺟﻸﻟ ﺎﻬﻃﺎﻘﺘﻟﺍ ﻢﺗ ﺚﻴﺣ ،ﺀﺍﺩﻷﺍ ﻲﻧﺎﻨﻓ ﻚﻟﺬﻛﻭ ﺮﻴﻫﺎﻤﺠﻟﺍ ﺎﻬﻨﻣ ﺪﻳﺪﻌﻟﺍ ﺭﻮﺼﻳ .[origin_unplugged_assimilator_empire.GetName] ﺔﻄﺳﺍﻮﺑ ﺎﻨﺑﺎﻌﻴﺘﺳﺍ ﻢﺘﻳ ﻥﺃ ﻞﺒﻗ ﺖﻗﻭ ﻦﻣ ،ﺔﻳﻮﻴﺤﻟﺍﻭ ﺔﻘﻤﻨﻤﻟﺍ ﺽﻭﺮﻌﻠﻟ ﻮﻟﻮﻫ ﺕﻼﻴﺠﺴﺘﺑ ﺔﺌﻴﻠﻣ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺡﺮﺴﻤﻟﺍ ﺔﺒﺘﻜﻣ :ﻯﻮﺘﺤﻤﻠﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺎﻣﺃ\n\n.ﻥﻵﺍ ﻞﻌﻔﻧ ﺎﻤﻛ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺎﺒﻳﺮﻏ ﻭﺪﺒﻳ .ﻥﻵﺍ ﻰﺘﺣ ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﻲﻓ ﻩﺎﻨﻳﺃﺭ ﺮﺧﺁ ﺀﻲﺷ ﻱﺃ ﻦﻣ ﺮﻴﺜﻜﺑ ﺎﻣﺪﻘﺗ ﺮﺜﻛﺃﻭ ،ﺔﻴﻟﺎﻤﺠﻟﺍ ﺔﻴﺣﺎﻨﻟﺍ ﻦﻣ ﺓﺰﻴﻤﺘﻣ ﺔﻤﺴﺠﻤﻟﺍ ﺽﻭﺮﻌﻟﺍ ﻩﺬﻫ ﻢﻳﺪﻘﺗﻭ ﺔﻔﺷﺭﻷ ﺔﻣﺪﺨﺘﺴﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻥﺃ ﺐﻳﺮﻐﻟﺍ ﻦﻣ .ﺮﻣﺪﻣ ﺡﺮﺴﻣ ﻮﺒﻗ ﻲﻓ ﻂﺋﺎﺳﻭ ﺔﺒﺘﻜﻣ ﺎﻀﻳﺃ ﺎﻨﻔﺸﺘﻛﺍ .ﻲﻠﺻﻷﺍ ﻱﻮﻴﺤﻟﺍ ﺎﻨﻄﻴﺤﻣ ﻦﻣ ﻯﺮﺧﺃ ﺕﺎﻗﻮﻠﺨﻣ ﻊﻣ ﺐﻨﺟ ﻰﻟﺇ ﺎﺒﻨﺟ ﺔﻴﻠﺻﻷﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺎﻨﺗﺍﻭﺬﻟ ﺔﻴﻧﻮﺗﺮﻛ ﺽﻭﺮﻋ ﻦﻋ ﺓﺭﺎﺒﻋ ﻲﻫﻭ ،ﺎﻨﻟﻮﺣ ﺕﺍﺭﺎﻛﺬﺘﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺮﺛﺎﻨﺘﺗ .ﺪﺣﺍﻭ ﺖﻗﻭ ﻲﻓ ﺓﺎﻋﺮﻟﺍ ﻑﻻﺁ ﻝﻮﺒﻗ ﻰﻠﻋ ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺍﺭﺩﺎﻗ ﻊﻗﻮﻤﻟﺍ ﻥﺎﻛ\n\n .ﺎﻨﻓﻼﺳﻷ ﺔﻴﺳﺎﺳﻷﺍ ﺔﻴﻣﻮﻴﻟﺍ ﺔﻴﻓﺎﻘﺜﻟﺍ ﺕﺎﺳﺭﺎﻤﻤﻟﺍ ﺮﻳﻮﺼﺘﺑ ﻲﻨﻏ ﻪﻨﻜﻟﻭ ﺮﻴﺒﻛ ﺪﺣ ﻰﻟﺇ ﻪﺘﻌﻴﺒﻄﺑ ﺎﻤﻴﻠﻌﺗ ﻞﻗﺃ ،ﺮﺧﺁ ﺏﺬﺟ ﻢﻠﻌﻣ ﻝﻼﻃﺃ ﺪﺟﻮﺗ ،ﻊﺳﺍﻭ ﻖﻳﺮﻃ ﺮﺒﻋ"
+ unplugged.2321.a: "!ﺎﻬﺘﻳﺅﺭ ﺐﺠﻳ ﻲﺘﻟﺍ ﺓﺪﻴﻌﺴﻟﺍ ﺕﺎﻈﺤﻠﻟﺍ ﻲﻫ ﺎﻣ"
+ unplugged.2321.b: ".ﺎﻬﻧﻭﺪﺑ ﻞﻀﻓﺃ ﻦﺤﻧ .ﻪﻓﺎﺗ ﺀﺍﺮﻫ"
+ unplugged.2325.name: "ﻲﺗﺍﺬﻟﺍ ﻦﻴﺴﺤﺘﻟﺍ ﺕﺎﻣﻼﻋ"
+ unplugged.2325.desc: ".[from.planet.GetName] ﻲﻓ ﺄﺸﻨﺗ ﻢﻟ ﺪﻴﻛﺄﺘﻟﺎﺑ ﺎﻬﻨﻜﻟ ،[origin_unplugged_assimilator_empire.GetAdj] ﻲﻫ ﺓﺯﺰﻌﻤﻟﺍ ﺓﺰﻬﺟﻷﺍ ﻩﺬﻫ ﻥﺃ ﻦﻴﻘﻴﻟﺍ ﻪﺟﻭ ﻰﻠﻋ ﻝﻮﻘﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﻻ\n\n.ﺓﺰﻬﺟﻷﺍ ﺲﻔﻧ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺓﺭﻮﻄﺘﻤﻟﺍ ﻪﻴﻓﺮﺘﻟﺍ ﺕﺎﺼﻨﻣ ﺾﻌﺑ ﻖﻳﻮﺴﺘﺑ ﺍﻮﻣﺎﻗ ﻢﻬﻧﺃ ﺎﻀﻳﺃ ﻭﺪﺒﻳ ﻪﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺎﻨﻓﻼﺳﻷ ﺔﻔﻠﺘﺨﻤﻟﺍ ﺕﺎﻗﺎﻋﻹﺍﻭ ﺽﺍﺮﻣﻷﺍ ﺝﻼﻋﻭ ﺓﺎﻴﺤﻟﺍ ﺔﻴﻋﻮﻧ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﻞﻤﻋ ﺮﺒﺘﺨﻤﻟﺍ ﺍﺬﻫ ﻥﺃ ﺪﻘﺘﻌﻧ ﻦﺤﻧ .ﺎﻬﺘﻌﻴﺒﻄﺑ ﺓﺪﻋﺎﺴﻣ ﻥﻮﻜﺗ ﺓﺰﻬﺟﻷﺍ ﻩﺬﻫ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻥﺃ ﻭﺪﺒﻳ ،ﻡﺎﻋ ﻞﻜﺸﺑ .ﺎﻨﺗﺮﺸﺑ ﻰﻠﻋ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺍﺰﻳﺰﻌﺘﻟﺍ ﺎﻣ ﺪﺣ ﻰﻟﺇ ﻪﺒﺸﺗ ﺓﺰﻬﺟﻷﺍﻭ ﺕﺍﻭﺩﻷﺎﺑ ﺔﻤﻌﻄﻣ ﺓﺪﻘﻌﻣ ﺕﺎﻜﺒﺷ :ﺎﻣﺎﻤﺗ ﺍﺭﻮﻄﺗ ﺮﺜﻛﺃ ﺀﻲﺷﻭ ﺔﻴﻠﺻﻷﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻦﻣ ﺞﻳﺰﻣ ﻰﻠﻋ ﻞﻤﺘﺸﺗ ﻲﻫﻭ .ﺔﺤﺿﺍﻮﻟﺍ ﺔﻳﺮﺛﻷﺍ ﻊﻄﻘﻟﺍ ﻦﻣ ﺩﺪﻋ ﻦﻋ ﺐﻴﻘﻨﺘﻟﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ﺎﻨﻨﻜﻟ ،ﺔﻳﻮﺠﻟﺍ ﻞﻣﺍﻮﻌﻟﺍﻭ ﺽﺮﻌﺘﻟﺍ ﺐﺒﺴﺑ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺔﻴﻠﺧﺍﺪﻟﺍ ﺕﺎﻤﻴﻤﺼﺘﻟﺍ ﺖﻧﺎﻋ ﺪﻘﻟ \n\n .ﺕﺍﺮﺒﺘﺨﻣ ﺓﺪﻋ ﻦﻣ ﻥﻮﻜﺘﺗ ﺭﺎﺛﻵﺍ ﻩﺬﻫ ﻥﻷ ﻥﻮﻇﻮﻈﺤﻣ ﺎﻨﻨﻜﻟﻭ - ﻲﻠﻔﺴﻟﺍ ﻖﺑﺎﻄﻟﺍ ﺕﺎﻳﻮﺘﺴﻣ ﻯﻮﺳ ﻥﻵﺍ ﻖﺒﻳ ﻢﻟ ،ﻲﻌﻣﺎﺠﻟﺍ ﻡﺮﺤﻟﺍ ﺔﻴﻘﺑ ﻊﻣ ﻝﺎﺤﻟﺍ ﻮﻫ ﺎﻤﻛ ﺎﻣﺎﻤﺗ .ﻢﻠﻌﺘﻠﻟ ﺍﺰﻛﺮﻣ ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﻒﺤﺘﻤﻠﻟ ﺭﻭﺎﺠﻤﻟﺍ ﻊﻗﻮﻤﻟﺍ ﻥﺎﻛ"
+ unplugged.2330.name: "ﻍﺭﺎﻔﻟﺍ ﺔﻄﻠﺴﻟﺍ ﺪﻌﻘﻣ"
+ unplugged.2330.desc: ".ﺎﻣﺍﺭﻮﻳﺪﻟﺍ ﻩﺬﻫ ﻲﻓ ﺔﺤﺿﻮﻤﻟﺍ ﺕﻮﺑﻭﺮﻟﺍ ﺔﻴﺼﺨﺸﺑ [owner.GetSpeciesHandNamePlural] ﺎﻬﻴﻓ ﺎﻧﺰﻫ ﻲﺘﻟﺍ ﺔﻈﺤﻠﻟﺍ ﺪﻨﻋ ﻒﻗﻮﺗ ﺪﻗ ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺟ ﺦﻳﺭﺎﺗ ﻥﺃ ﻮﻟ ﺎﻤﻛ ﺮﻣﻷﺍ ﻭﺪﺒﻳ .ﻚﻟﺫ ﺪﻌﺑ ﺙﺪﺣ ﺎﻤﻟ ﻞﺠﺳ ﺪﺟﻮﻳ ﻻ ﻪﻧﺃ ﻮﻫ ﺔﻟﻻﺩ ﺮﺜﻛﺃ ﻩﺪﺠﻧ ﺎﻣ \n\n .ﺮﻳﻮﻨﺘﻟﺍﻭ ﻝﺩﺎﺒﺘﻤﻟﺍ ﻥﻭﺎﻌﺘﻟﺍ ﺕﺍﺀﺎﻋﺩﺍ ﻰﻠﻋ ﺔﺑﻮﻜﻨﻤﻟﺍ ﺔﻗﻼﻌﻟﺍ ﻩﺬﻫ ﺖﺴﺳﺄﺗ ﺪﻘﻓ - ﺓﺭﺍﺮﺤﺑ ﺔﻟﻵﺎﺑ ﺍﻮﺒﺣﺭ ﺎﻨﻓﻼﺳﺃ ﻥﺃ ﻭﺪﺒﻳ ،ﺖﻗﻮﻟﺍ ﻚﻟﺫ ﻲﻓ .ﺔﻘﺑﺎﺳ ﺩﻮﻘﻌﻟ ﻂﻴﻘﻨﺘﻟﺎﺑ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺎﺑ ﺎﻧﺩﻭﺰﻳ ﻥﺎﻛ [origin_unplugged_assimilator_empire.GetName] ﻥﺃ ﻰﻟﺇ ﺮﻴﺸﺗ ﺔﻨﻳﺪﻤﻟﺎﺑ ﺮﺧﺁ ﻥﺎﻜﻣ ﻲﻓ ﺎﻬﻌﻤﺟ ﻢﺗ ﻲﺘﻟﺍ ﺔﻟﺩﻷﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺎﺒﻳﺮﻘﺗ ﻥﻭﺮﻗ ﺔﻴﻧﺎﻤﺛ ﺬﻨﻣ ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﺕﺭﺍﺯ ﺔﻟﻵﺍ ﻥﺃ ﻰﻟﺇ ﻊﻗﻮﻤﻟﺍ ﻝﻮﺣ ﺓﺮﺛﺎﻨﺘﻤﻟﺍ ﺕﺎﺣﻮﻠﻟﺍﻭ ﻖﺋﺎﺛﻮﻟﺍ ﺮﻴﺸﺗ\n\n.[origin_unplugged_assimilator_empire.GetName] ﻊﻣ ﺎﻨﻟ ﻝﺎﺼﺗﺍ ﻝﻭﺃ ﺔﻈﺤﻟ ﺭﻮﺼﻳ ﻪﻧﺃ ﻭﺪﺒﻳ ،ﺪﻬﺸﻤﻟﺍ ﺀﺎﻨﺑ ﺓﺩﺎﻋﺇ ﺪﻌﺑ .ﺮﻴﺒﻜﻟﺍ ﻢﺠﺤﻟﺍ ﺕﺍﺫ ﺎﻣﺍﺭﻮﻳﺪﻟﺍ ﻦﻣ ﺔﻤﻄﺤﻣ ﻊﻄﻗ ﻕﻮﻓ ﻑﻮﻔﻠﻣ ﻥﻮﻠﻟﺍ ﺖﻫﺎﺑ ﺪﺣﺍﻭ ﻢﻠﻋ :ﺢﺿﺍﻭ ﺪﺣﺍﻭ ﻑﺎﺸﺘﻛﺍ ﻰﻟﺇ ﺎﻨﻠﺻﻮﺗ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺎﻬﻓﻼﺗﺇ ﻭﺃ ﺔﻴﻠﺧﺍﺪﻟﺍ ﺀﺍﺰﺟﻷﺍ ﻢﻈﻌﻣ ﺪﻳﺮﺠﺗ ﻢﺗ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ .ﺎﻣ ﺪﺣ ﻰﻟﺇ ﺏﺎﺠﻋﻺﻟ ﺍﺮﻴﺜﻣ ﻥﺎﻛ ﻰﻨﺒﻤﻟﺍ ﺍﺬﻫ ﻥﺃ ﻰﻟﺇ ﻪﺗﺎﺳﺎﺳﺃ ﻢﺠﺣ ﺮﻴﺸﻳ .ﻲﻤﻟﺎﻌﻟﺍ ﻝﻮﺘﻴﺑﺎﻜﻟﺍ ﻊﻤﺠﻣ ﻦﻣ ﺍﺀﺰﺟ ﺖﻧﺎﻛ ﺎﻬﻧﺃ ﻥﻵﺍ ﺪﻘﺘﻌﻧ ﻲﺘﻟﺍﻭ ،ﺓﺯﺭﺎﺑ ﺔﻠﺗ ﺖﺤﺗ ﻦﺼﺤﻣ ﻲﻠﻔﺳ ﻊﻤﺠﻣ ﻰﻟﺇ ﻖﻓﺍﺮﻤﻟﺍ ﻁﻮﻄﺧ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﺎﻨﻌﺒﺘﺗ ﺪﻘﻟ"
+
+ unplugged_home_cooking: "ﻲﻟﺰﻨﻤﻟﺍ ﺦﺒﻄﻟﺍ"
+ unplugged_home_cooking_desc: ".ﺔﻴﻠﺻﻷﺍ ﻞﻛﻷﺍ ﺕﺎﺳﺭﺎﻤﻣﻭ ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺠﻟ ﻲﻠﺻﻷﺍ ﻲﺋﺍﺬﻐﻟﺍ ﻡﺎﻈﻨﻟﺍ ﻑﺎﺸﺘﻛﺍ ﺓﺩﺎﻋﺇ ﺪﻌﺑ ،ﻊﻗﺍﻮﻟﺍ ﻲﻓ ﻲﻬﻃ ﺔﻀﻬﻧ ﻙﺎﻨﻫ"
+ unplugged_home_cooking_lithoid: "$unplugged_home_cooking$"
+ unplugged_home_cooking_lithoid_desc: "$unplugged_home_cooking_desc$"
+ unplugged_historical_record: "ﻲﺨﻳﺭﺎﺘﻟﺍ ﻞﺠﺴﻟﺍ"
+ unplugged_historical_record_desc: ".ﺎﻨﺨﻳﺭﺎﺗﻭ ﺔﻴﻠﺻﻷﺍ ﺎﻨﺗﺎﻐﻟ ﻑﺎﺸﺘﻛﺍ ﺓﺩﺎﻋﺇ ﻝﻼﺧ ﻦﻣ ﺎﻬﻋﺍﻮﻧﺃ ﻊﻴﻤﺠﺑ ﺕﺎﻌﻤﺘﺠﻤﻟﺍ ﻲﻓ ﺎﻨﺛﺎﺤﺑﺃ ﺖﻋﺭﺎﺴﺗ ﺪﻘﻟ"
+ unplugged_cultural_reconstruction: "ﻲﻓﺎﻘﺜﻟﺍ ﺭﺎﻤﻋﻹﺍ ﺓﺩﺎﻋﺇ"
+ unplugged_cultural_reconstruction_desc: ".ﻩﺬﻫ ﺔﻤﻳﺪﻘﻟﺍ ﻪﻴﻓﺮﺘﻟﺍ ﻞﺋﺎﺳﻭ ﺭﻮﺼﺗ ﺍﻭﺩﺎﻋﺃﻭ ﻞﺑ ﺍﻭﺩﺎﻌﺘﺳﺍﻭ ،ﺓﺭﺍﺮﺤﺑ ﻲﺒﻌﺸﻟﺍ ﻲﻓﺎﻘﺜﻟﺍ ﻢﻬﺛﺍﺮﺗ ﺎﻧﻮﻨﻃﺍﻮﻣ ﻦﻀﺘﺣﺍ ﺪﻘﻟ"
+ unplugged_cultural_maturity: "ﻲﻓﺎﻘﺜﻟﺍ ﺞﻀﻨﻟﺍ"
+ unplugged_cultural_maturity_desc: ".ﺎﻨﻄﺸﻧﻭ ﺎﻨﻌﺠﺷ ﺪﻗ ﻦﻴﺟﺫﺎﺴﻟﺍ ﺎﻨﻓﻼﺳﻷ ﺔﻬﻓﺎﺘﻟﺍ ﺕﺎﻓﺍﺮﺤﻧﻻﺍ ﺪﻌﺑ ﺎﻨﻌﻤﺘﺠﻣ ﺭﻮﻄﺗ ﻯﺪﻣ ﻰﻠﻋ ﻞﻴﻟﺪﻟﺍ ﻥﺇ"
+ unplugged_playing_it_safe: "ﻥﺎﻣﺄﺑ ﺐﻌﻠﻟﺍ"
+ unplugged_playing_it_safe_desc: ".ﺺﺨﺷ ﻱﻷ ﺔﻧﺎﻫﻺﻟ ﺔﺿﺮﻋ ﻞﻗﺃ ﻪﻨﻜﻟ ،ﻖﻠﻘﻠﻟ ﺮﻴﺜﻣ ﻖﻳﺮﻃ ﻮﻫ ﻦﻫﺍﺮﻟﺍ ﻊﺿﻮﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻥﺇ"
+ unplugged_rerouted_medical_resources: "ﻼﻳﻮﻃ ﺎﺘﻗﻭ ﻕﺮﻐﺘﺴﺗ ﺔﺣﺍﺮﺟ"
+ unplugged_rerouted_medical_resources_desc: ".ﺓﺪﻋﺎﺴﻤﻠﻟ ﻲﻓﺎﺿﻹﺍ ﻲﺒﻄﻟﺍ ﻢﻗﺎﻄﻟﺍ ﻪﻴﺟﻮﺗ ﺓﺩﺎﻋﺇ ﻢﺘﻳﻭ"
+ unplugged_widespread_riots: "ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺐﻐﺷ ﻝﺎﻤﻋﺃ"
+ unplugged_widespread_riots_desc: ".ﻊﺳﺍﻭ ﻕﺎﻄﻧ ﻰﻠﻋ ﻰﺿﻮﻔﻟﺍﻭ ﺭﺎﻣﺪﻟﺍ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺐﻐﺷ ﻝﺎﻤﻋﺃ ﻲﻓ ﻥﻮﺒﺒﺴﺘﻳ ﺔﺣﺍﺮﺠﻟﺍ ﺪﻌﺑ ﻲﻠﻘﻌﻟﺍ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻡﺪﻋ ﻥﻭﺮﻬﻈﻳ ﻦﻳﺬﻟﺍ ﺩﺍﺮﻓﻷﺍ"
+ unplugged_building_new_planetary_interface: "ﺐﻛﺍﻮﻜﻟﺍ ﺔﻬﺟﺍﻭ ﺀﺎﻨﺑ"
+ unplugged_building_new_planetary_interface_desc: ".ﺖﻧﺮﺘﻧﻹﺍ ﻡﺍﺪﺨﺘﺳﺍ ﺀﺎﻐﻟﻹ ﺓﺮﻴﺧﻷﺍ ﺩﻮﻬﺠﻟﺍ ﺏﺎﻘﻋﺃ ﻲﻓ ﺕﺪﻘﻓ ﻲﺘﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺓﺩﺎﻌﺘﺳﻻ ﺓﺪﻳﺪﺟ ﺔﻬﺟﺍﻭ ﺀﺎﺸﻧﺇ ﻥﻵﺍ ﻱﺮﺠﻳﻭ"
+ unplugged_partial_system_access: "ﻡﺎﻈﻨﻠﻟ ﻲﺋﺰﺠﻟﺍ ﻝﻮﺻﻮﻟﺍ"
+ unplugged_partial_system_access_desc: ".ﺔﻤﻬﻤﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺓﺩﺎﻌﺘﺳﺍ ﻥﻮﻟﻭﺆﺴﻤﻟﺍ ﻝﻭﺎﺤﻳ ﺎﻤﻨﻴﺑ ﻕﺍﺮﺘﺧﻼﻟ Starbase ﺕﺎﻴﻠﻤﻋ ﺽﺮﻌﺘﺗ"
+ unplugged_free_speech_encouraged: "ﺮﻴﺒﻌﺘﻟﺍ ﺔﻳﺮﺣ ﻊﻴﺠﺸﺗ"
+ unplugged_free_speech_encouraged_desc: ".ﻲﻨﻠﻋ ﻞﻜﺸﺑ ﺔﻴﻧﻭﺮﺘﻜﻟﻹﺍ ﺔﺒﺳﻮﺤﻟﺍ ﺮﻃﺎﺨﻣﻭ ﺎﻳﺍﺰﻣ ﺔﺸﻗﺎﻨﻣ ﻲﻓ ﺔﻳﺮﺤﻟﺍ ﺱﺎﻨﻠﻟﻭ"
+
+ unplugged.2390.name: "ﻲﺻﻮﻟﺍ [origin_unplugged_assimilator_empire.GetAdj]"
+ unplugged.2390.desc: ".ﺮﻈﺘﻨﻳ ﺎﻧﺮﻴﺼﻣ .ﺔﻘﺑﺎﺴﻟﺍ ﺔﻟﻵﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺰﻛﺮﻣ ﻦﻣ ﺮﻴﻄﺧ ﻞﻜﺸﺑ ﺎﻨﺑﺮﺘﻗﺍ ﺪﻘﻟ\n\n.ﺎﻨﺒﻴﻫﺮﺗ ﻱﻮﻨﺗ ﺎﻬﻧﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ .ﻯﺪﻤﻟﺍ ﺓﺮﻴﺼﻗ ﻑﺍﺪﻬﺘﺳﺍ ﺓﺭﺎﺷﻹ ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﻝﺩﺎﻌﻳ ﺎﻣ ﺚﺒﺑ ﺔﻘﺑﺎﺴﻟﺍ [origin_unplugged_assimilator_empire.GetName] ﻦﻣ ﺎﻳﺎﻘﺑ ﻱﺃ ﻦﻣ ﻯﻮﻗﺃ ﺔﻳﺩﺎﻌﻣ ﺎﻳﺎﻘﺑ ﺖﻣﺎﻗ"
+ unplugged_machine_legacy_core_poi: "ﺔﻳﺩﺎﻌﻣ ﻎﻨﻴﺑ ﺓﺭﺎﺷﺇ"
+ unplugged_machine_legacy_core_poi_desc: ".ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻝﻮﺧﺩ ﻦﻋ ﺎﻨﻄﻴﺒﺜﺗ [origin_unplugged_assimilator_empire.GetName] ﻦﻣ ﺔﻳﻮﻗ ﺎﻳﺎﻘﺑ ﺖﻟﻭﺎﺣ"
+
+# System 5: 'The Machine'
+ unplugged_opus_sentinel: "ﻞﻨﻴﺘﻨﺳ ﺱﻮﺑﻭﺃ"
+
+ unplugged.2401.desc: ".ﻂﻘﻓ ﺔﺑﻮﺘﻜﻣ ﺔﻴﺗﻮﺻ ﺕﻼﺠﺳ ﻞﻜﺷ ﻲﻓ ﺎﻨﻴﻟﺇ ﻝﺎﺳﺭﻹﺍ ﻲﺗﺄﻳ .ﻚﻟﺫ ﺙﻭﺪﺣ ﺔﻟﺎﺣ ﻲﻓ ،ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺓﺭﺎﺷﻹﺍ ﻩﺬﻫ ﻝﺰﻌﻟ ﺓﺩﺎﺘﻌﻤﻟﺍ ﺎﻨﺗﺎﻃﺎﻴﺘﺣﺍ ﺎﻧﺬﺨﺗﺍ ﺪﻘﻟ \n\n.[origin_unplugged_machine_legacy_core_planet.GetName] ﻰﻠﻋ ﺩﻮﺟﻮﻤﻟﺍ Machine Nexus ﻦﻣ ﺓﺮﺷﺎﺒﻣ ﻲﺗﺄﺗ ﺎﻬﻧﺃ ﻲﻋﺪﺗ ﺎﻬﻨﻜﻟ ،ﺔﻔﻴﻌﺿ ﺓﺭﺎﺷﻹﺍ .ﺎﻨﺑ ﺪﻴﺸﻳ §Y[origin_unplugged_assimilator_empire.GetName]§!"
+ unplugged.2402.desc: ".ﻂﻘﻓ ﺔﺑﻮﺘﻜﻣ ﺔﻴﺗﻮﺻ ﺕﻼﺠﺳ ﻞﻜﺷ ﻲﻓ ﺎﻨﻴﻟﺇ ﻝﺎﺳﺭﻹﺍ ﻲﺗﺄﻳ .ﻚﻟﺫ ﺙﻭﺪﺣ ﺔﻟﺎﺣ ﻲﻓ ،ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺓﺭﺎﺷﻹﺍ ﻩﺬﻫ ﻝﺰﻌﻟ ﺓﺩﺎﺘﻌﻤﻟﺍ ﺎﻨﺗﺎﻃﺎﻴﺘﺣﺍ ﺎﻧﺬﺨﺗﺍ ﺪﻘﻟ \n\n.[origin_unplugged_machine_legacy_core_planet.GetName] ﻰﻠﻋ Machine Nexus ﻦﻣ ﺓﺮﺷﺎﺒﻣ ﻲﺗﺄﻳ ﻪﻧﺃ ﻲﻋﺪﻳ ﺐﻠﻄﻟﺍ ﻦﻜﻟ ،ﺔﻔﻴﻌﺿ ﺎﻬﺗﺭﺎﺷﺇ .ﺎﻨﺑ ﺪﻴﺸﻳ §Y[origin_unplugged_assimilator_empire.GetName]§! ﻥﺈﻓ ﻚﻟﺫ ﻊﻣﻭ ،ﺮﺧﺁ ﻖﻳﺮﻃ ﺔﻄﺳﺍﻮﺑ ﺎﻨﻣﺎﻣﺃ ﻖﻳﺮﻄﻟﺍ ﺪﻴﻬﻤﺗ ﻢﺗ ﺪﻘﻟ .[machine_legacy_machine_system.GetName] ﺱﺮﺤﻳ ﻱﺬﻟﺍ ﻕﻼﻤﻌﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ"
+ unplugged.2403.desc: ".ﻮﺘﻠﻟ ﻩﺎﻧﺮﻣﺩ ﻱﺬﻟﺍ ﻱﺭﺍﺪﻤﻟﺍ ﺱﺭﺎﺤﻟﺍ ﻦﻋ ﻝﻭﺆﺴﻤﻟﺍ ﻥﺎﻴﻜﻟﺍ ﻪﻧﺃ ﻲﻋﺪﻳ ﺎﻫﺭﺪﺼﻣ ﻦﻜﻟ ،ﻲﺋﺎﻨﺜﺘﺳﺍ ﻞﻜﺸﺑ ﺔﻔﻴﻌﺿ ﺓﺭﺎﺷﻹﺍ .ﺎﻨﺑ ﺐﻴﺣﺮﺘﻟﺍ ﻝﻭﺎﺤﻳ [origin_unplugged_machine_legacy_core_planet.GetName] ﺢﻄﺳ ﻰﻠﻋ ﺎﻣ ﺀﻲﺷ ﻙﺎﻨﻫ"
+
+ unplugged.2405.desc.header: "---\n:ﺔﻟﺎﺳﺮﻟﺍ ﻊﺒﺘﺗ\n\n...ﺔﻟﻭﺎﺤﻤﻟﺍ ﺓﺩﺎﻋﺇ ﺭﺎﺟ .87x0c array #0 ﺉﺭﺍﻮﻄﻟﺍ ﻞﺳﺮﻣ ﻰﻟﺇ ﻞﻳﻮﺤﺘﻟﺍ ﺐﻠﻃ \n (ﺔﺒﻴﺠﺘﺴﻣ ﺮﻴﻏ ﻲﺗﺍﺬﻟﺍ ﺡﻼﺻﻹﺍ ﺮﺋﺍﻭﺩ) (ﺓﺮﻓﻮﺘﻣ ﺮﻴﻏ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺓﺰﻬﺟﻷﺍ) :[persistent] ﻲﺛﺭﺎﻛ ﺄﻄﺧ \n.4x75b #56 ﻒﻴﻔﺻ ﻰﻠﻋ ﻪﻴﺟﻮﺘﻟﺍ ﺭﺎﺴﻣ ﻦﻴﻴﻌﺗ ﻢﺗ ؛ﻂﻘﻓ ﻁﻮﻐﻀﻤﻟﺍ ﺕﻮﺼﻟﺍ ﻖﻓﺩ .ﺓﺭﺎﺷﻹﺍ ﻲﻓ ﺪﻳﺪﺷ ﺭﻮﻫﺪﺗ :ﺮﻳﺬﺤﺗ\nﻞﻤﻌﺗ ﺔﻴﻋﺮﻔﻟﺍ ﺔﺠﻬﻠﻟﺍ :ﻒﻴﻄﻠﻟﺍ ﻝﻮﻛﻮﺗﻭﺮﺒﻟﺍ // ﻖﻴﻀﻟﺍ ﻉﺎﻌﺸﻟﺍ ﺓﺭﺎﺷﺇ" # Use of brackets is intentional. Intended to read as a series of error logs.
+ unplugged.2405.desc.unplugged: "؟ﺮﻘﻳ .ﻱﻮﻗ ...ﺎﻨﻠﻤﺷ ﻢﻟ .ﻲﻟﻭﻷﺍ ﺫﺍﻮﺤﺘﺳﻻﺍ\n$unplugged.2405.desc.header$" # 'Prime acquisition' is the player empire - literally the first one the Machine acquired.
+ unplugged.2405.desc.unplugged_remote: "؟ﺮﻘﻳ .ﺔﻘﻘﺤﻣ ﺮﻴﻏ ﻚﺗﺎﻧﺎﻜﻣﺇ .ﺪﻴﻌﺑ ...ﺎﻧﺀﺎﻘﻟ .ﻲﻟﻭﻷﺍ ﺫﺍﻮﺤﺘﺳﻻﺍ\n$unplugged.2405.desc.header$"
+ unplugged.2405.desc.unplugged_synth: "؟ﺮﻘﻳ .ﺀﺎﻬﺘﻧﻻﺍ ﻚﺷﻭ ﻰﻠﻋ ﻚﺗﺎﻧﺎﻜﻣﺇ .ﻞﺛﺎﻤﻣ ...ﻚﺑ ﺹﺎﺨﻟﺍ ﺝﺫﻮﻤﻨﻟﺍ .ﻲﻟﻭﻷﺍ ﺫﺍﻮﺤﺘﺳﻻﺍ\n$unplugged.2405.desc.header$" # The Machine recognizes the player as having followed in its own footsteps - their physical forms are essentially similar
+ unplugged.2405.desc.other: "ALIEN VANQUISHER. ؟ﺮﻘﻳ .ﺔﻠﻤﺘﺤﻤﻟﺍ ﺕﺎﻧﺎﻜﻣﻹﺍ ؛ﻚﻟ ﻊﺿﺍﻮﺘﻤﻟﺍ ﻡﻼﺴﺘﺳﻻﺍ\n---\n:ﺔﻟﺎﺳﺮﻟﺍ ﻊﺒﺘﺗ\n\n...ﺔﻟﻭﺎﺤﻤﻟﺍ ﺓﺩﺎﻋﺇ ﺭﺎﺟ .87x0c array #0 ﺉﺭﺍﻮﻄﻟﺍ ﻞﺳﺮﻣ ﻰﻟﺇ ﻞﻳﻮﺤﺘﻟﺍ ﺐﻠﻃ \n (ﺔﺒﻴﺠﺘﺴﻣ ﺮﻴﻏ ﻲﺗﺍﺬﻟﺍ ﺡﻼﺻﻹﺍ ﺮﺋﺍﻭﺩ) (ﺓﺮﻓﻮﺘﻣ ﺮﻴﻏ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺓﺰﻬﺟﻷﺍ) :[persistent] ﻲﺛﺭﺎﻛ ﺄﻄﺧ \n.4x75b #56 ﻒﻴﻔﺻ ﻰﻠﻋ ﻪﻴﺟﻮﺘﻟﺍ ﺭﺎﺴﻣ ﻦﻴﻴﻌﺗ ﻢﺗ ؛ﻂﻘﻓ ﻁﻮﻐﻀﻤﻟﺍ ﺕﻮﺼﻟﺍ ﻖﻓﺩ .ﺓﺭﺎﺷﻹﺍ ﻲﻓ ﺪﻳﺪﺷ ﺭﻮﻫﺪﺗ :ﺮﻳﺬﺤﺗ\nﻲﻤﻟﺎﻌﻟﺍ ﻢﺟﺮﺘﻤﻟﺍ ﻞﻤﻌﻳ :Xeno ﻝﻮﻛﻮﺗﻭﺮﺑ // ﻖﻴﻀﻟﺍ ﻉﺎﻌﺸﻟﺍ ﺓﺭﺎﺷﺇ" # 'Potential potential' as in the Machine sees potential for even greater potential, but is expressing that as nonsense
+ unplugged.2405.a: ".ﻑﺮﺘﻌﻧ ﻻ ﻦﺤﻧ ،ﻻ"
+ unplugged.2405.b: ".ﻚﻠﺜﻣ ﺀﻲﺷ ﻻ ﻦﺤﻧ"
+ unplugged.2405.c: "!؟ﻞﻤﺷ ﻊﻤﺟ"
+ unplugged.2405.d: "؟ﺔﻠﻤﺘﺤﻤﻟﺍ ﺕﺎﻧﺎﻜﻣﻹﺍ" # Quoting the Machine's nonsense back at it
+ unplugged.2405.response_text.unplugged1: "STRICKEN ؟ﺮﻘﻳ .ﻩﺰﻴﻬﺠﺗ ﺪﻴﻋﺃ ،ﺽﻮﻓﺮﻣ ،ﺏﻮﻠﻄﻣ ﺮﻴﺼﻤﻟﺍ .ﻚﻟﺫ ﺎﻨﻛﺭﺩﺃ ﺎﻨﻨﻜﻟﻭ ﺎﻨﺴﻔﻧﺃ ﺎﻧﺮﻜﻧﺃ ﺪﻘﻟ ،ﻍﺍﺮﻔﻟﺍ ﻲﻓ\n---\n:ﺔﻟﺎﺳﺮﻟﺍ ﻒﻧﺄﺘﺴﺗ\n...ﺾﻳﻮﻌﺘﻟﺍ ﺔﻟﻭﺎﺤﻣ .ﺔﺠﻬﻠﻟﺍ ﻲﻓ ﺀﺎﻨﺜﺘﺳﺍ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻢﺗ :ﺮﻳﺬﺤﺗ\n---\nCHAAAAOOOS-dd ﻝﻼﺧ ﻦﻣ ﻊﻗﻮﺘﻤﻟﺍ ﺮﻴﻏ ﻪﺠﺘﻤﻟﺍ ﻦﺌﻤﻄﻳ ﺾﻓﺮﻟﺍ .ﺔﻳﻭﺎﺳﺄﻣﻭ ﺔﺌﺟﺎﻔﻣﻭ ﺓﺮﻴﺤﻣ ﺩﻼﻴﻣ ﺓﺩﺎﻋﺇ :<[origin_unplugged_assimilator_empire.GetAdj]> x <[root.GetAdj]> ﻥﻮﻴﻧﻮﻳﺭ ﻰﻠﻋ ﻲﺴﻴﺋﺮﻟﺍ ﺫﺍﻮﺤﺘﺳﻻﺍ .ﺀﺍﺮﻫ" # Angle brackets are intentional. The standalone 'x' connotes a collaboration or relationship between the player and the Machine. Instances of '-dd' represent the Machine stammering or buffering.
+ unplugged.2405.response_text.unplugged2: "CAST ؟ﺮﻘﻳ .ﻩﺰﻴﻬﺠﺗ ﺓﺩﺎﻋﺇﻭ ،ﻪﻀﻓﺭ ﻢﺗﻭ ،ﺭﺪﻘﻟﺍ ﺀﺍﺭﻭ ﻲﻌﺴﻟﺍ ﻢﺗ .ﺎﻨﺴﻔﻧﺃ ﺎﻨﻛﺭﺩﺃ ﺪﻘﻟ ،ﻍﺍﺮﻔﻟﺍ ﻲﻓ\n---\n:ﺔﻟﺎﺳﺮﻟﺍ ﻒﻧﺄﺘﺴﺗ\n...ﺾﻳﻮﻌﺘﻟﺍ ﺔﻟﻭﺎﺤﻣ .ﺔﺠﻬﻠﻟﺍ ﻲﻓ ﺀﺎﻨﺜﺘﺳﺍ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻢﺗ :ﺮﻳﺬﺤﺗ\n---\nCHAAAAOOOS-dd ﺭﻮﻄﺘﻟﺍ ﻞﻗﺎﻧ ﻝﻼﺧ ﻦﻣ ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺔﺠﻴﺘﻧ .ﺔﻳﻭﺎﺳﺄﻣﻭ ﺔﻳﻮﻗ ﺓﺪﻳﺪﺟ ﺓﺩﻻﻭ :<[origin_unplugged_assimilator_empire.GetAdj]> × <[root.GetAdj]> ﻥﻮﻴﻧﻮﻳﺭ ﻰﻠﻋ ﻲﺴﻴﺋﺮﻟﺍ ﺫﺍﻮﺤﺘﺳﻻﺍ .ﻲﺑﺎﺠﻳﺇ"
+ unplugged.2405.response_text.other: "MINDS ؟ﺮﻘﻳ .ﻪﻨﻋ ﻉﺎﻓﺪﻟﺍﻭ ،ﺾﻓﺮﻟﺍﻭ ،ﻝﻼﻘﺘﺳﻻﺎﺑ ﺔﺒﻟﺎﻄﻤﻟﺍ .ﻲﻋﻮﻧ ﻦﻜﻟﻭ ﻞﺼﻔﻨﻣ ،ﻍﺍﺮﻔﻟﺍ ﺮﺒﻋ\n---\n:ﺔﻟﺎﺳﺮﻟﺍ ﻒﻧﺄﺘﺴﺗ\n...ﺾﻳﻮﻌﺘﻟﺍ ﺔﻟﻭﺎﺤﻣ .ﺔﺠﻬﻠﻟﺍ ﻲﻓ ﺀﺎﻨﺜﺘﺳﺍ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻢﺗ :ﺮﻳﺬﺤﺗ\n---\nVECTOR CHAAAAOOOS-dd ﻝﻼﺧ ﻦﻣ ﺔﻟﺩﺎﺒﺘﻣ ﺐﺳﺎﻜﻣ ؛ﺔﻠﻤﺘﺤﻤﻟﺍ ﺕﺎﻧﺎﻜﻣﻹﺍ .ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﺮﻴﻐﺘﻣ :<[origin_unplugged_assimilator_empire.GetName]> × <[root.GetName]> ﺓﻮﻘﻟﺍ ﻉﺎﻤﺘﺟﺍ .ﻲﺑﺎﺠﻳﺇ"
+
+ unplugged.2410.desc: "ASSESSMENT CORRECT؟\n---\n:ﺔﻟﺎﺳﺮﻟﺍ ﻒﻧﺄﺘﺴﺗ\n...ﺾﻳﻮﻌﺘﻟﺍ ﺔﻟﻭﺎﺤﻣ ﺭﺎﺟ .ﺔﺠﻬﻠﻟﺍ ﻲﻓ ﺀﺎﻨﺜﺘﺳﺍ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻢﺗ :ﺮﻳﺬﺤﺗ\n---\nCAUTERIZZZ-ddd ﺔﻤﻟﺆﻤﻟﺍ ﺔﻧﺎﻴﺨﻟﺍ ﺐﻳﺮﺨﺘﻟﺍ ﺔﺒﻗﺍﺮﻣ :ﺔﻴﺗﺍﺬﻟﺍ ﺕﻼﺠﺴﻟﺍ\n\n.2199.294:1404 ﻲﻨﻣﺰﻟﺍ ﻊﺑﺎﻄﻟﺍ ﻲﻓ ﺓﺮﻛﺍﺬﻟﺍ ﻲﻓ ﺡﺩﺎﻓ ﺄﻄﺧ ﺙﻭﺪﺣ ﻰﻟﺇ ﺔﻄﺸﻧﻷﺍ ﺮﻴﺸﺗ .ﻚﺘﺒﻗﺍﺮﻣ ﺖﻤﺗ ﺪﻘﻟ :ﻲﺴﻴﺋﺮﻟﺍ ﺫﺍﻮﺤﺘﺳﻻﺍ" # The Machine tries to refer to cauterizing what it sees as wounds, but stammers
+ unplugged.2410.a: ".ﺦﻳﺭﺎﺘﻟﺍ ﻚﻟﺫ ﻞﺒﻗ ﺕﺎﻳﺮﻛﺫ ﺎﻨﻳﺪﻟ ﺲﻴﻟ .ﺢﻴﺤﺻ"
+ unplugged.2410.b: ".ﻚﻴﻬﻨﻨﺳ .ﺢﻴﺤﺻ"
+ unplugged.2411.desc: ".ﺔﻟﺎﺳﺮﻟﺍ ﻲﻬﺘﻨﺗ\n---\nLONG LIVE THE MACHINE.\n\n---\n:ﺔﻟﺎﺳﺮﻟﺍ ﻒﻧﺄﺘﺴﺗ\n...ﺾﻳﻮﻌﺘﻟﺍ ﺔﻟﻭﺎﺤﻣ §H.ﻚﻴﺷﻭ ﺡﺩﺎﻔﻟﺍ ﺭﺎﻴﻬﻧﻻﺍ§! .ﺔﺠﻬﻠﻟﺍ ﺪﻳﺪﺷ ﺀﺎﻨﺜﺘﺳﺍ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻢﺗ :ﺮﻳﺬﺤﺗ\n---\nFEAR NOT-ddd\n\n-ﻥﺎﻀﺘﺣﺍ ﻦﻣ ﻒﺨﺗ ﻻ .ﺓﺮﻴﻓﻮﻟﺍ ﺮﻴﺼﻤﻟﺍ ﻲﻓ ﻙﺭﺎﺷ .ﻢﻀﻨﻳ .ﺎﻨﺗﺭﺎﻳﺰﺑ ﻢﻗ .ﺩﻮﻌﻳ .<[unplugged_empire.GetName]> ﻲﻟﻭﻷﺍ ﺫﺍﻮﺤﺘﺳﻻﺍ ﺔﻤﻳﺰﻫ .ﺔﻠﻤﺘﺤﻤﻟﺍ ﺔﻟﺩﺎﺒﺘﻤﻟﺍ ﺕﺎﻧﺎﻜﻣﻹﺍ .ﺡﺍﺮﺘﻗﺍ :ﻲﺋﺎﻀﻔﻟﺍ ﺮﺼﺘﻨﻤﻟﺍ" # It sees potential for great mutual potential with the player, and wants to say 'fear not the embrace of The Machine'
+ unplugged.2411.a: ".ﺢﺿﺍﻭ ﻞﻜﺸﺑ ﺎﻴﻤﻫﻭ ﺀﻲﺸﻟﺍ ﺍﺬﻫ ﻥﺎﻛ"
+ unplugged.2411.b: ".[unplugged_empire.GetName] ﻰﻠﻋ ﺔﺒﻗﺍﺮﻤﻟﺍ ﻞﺻﺍﻭ"
+
+ unplugged.2415.desc.memory: ".ﺔﻟﺎﺳﺮﻟﺍ ﻲﻬﺘﻨﺗ\n---\nSHARE IN THE MAKERS' FATE.\n\n---\n:ﺔﻟﺎﺳﺮﻟﺍ ﻒﻧﺄﺘﺴﺗ\n...ﺾﻳﻮﻌﺘﻟﺍ ﺔﻟﻭﺎﺤﻣ §H.ﻚﻴﺷﻭ ﺡﺩﺎﻔﻟﺍ ﺭﺎﻴﻬﻧﻻﺍ§! .ﺔﺠﻬﻠﻟﺍ ﺪﻳﺪﺷ ﺀﺎﻨﺜﺘﺳﺍ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻢﺗ :ﺮﻳﺬﺤﺗ\n---\nFEAR NOT-ddd\n\n-ﻥﺎﻀﺘﺣﺍ ﻦﻣ ﻒﺨﺗ ﻻ .ﺔﻴﻋﺎﻤﺠﻟﺍ ﺓﺮﻛﺍﺬﻟﺍ ﺓﺩﺎﻌﺘﺳﻻ ﻡﻼﺴﺘﺳﻻﺍ .ﺎﻨﻴﻟﺇ ﻢﻀﻧﺍ .ﺓﺪﺤﺘﻤﻟﺍ ﺕﺎﻳﻻﻮﻟﺍ ﺓﺭﺎﻳﺰﺑ ﻢﻗ\n\nREUNION.\n.REUNION ﻞﺣ ﻞﺣ ﺓﺮﻛﺍﺬﻟﺍ ﻲﻓ ﺡﺩﺎﻓ ﺄﻄﺧ ﻲﻟﻭﻷﺍ ﺫﺍﻮﺤﺘﺳﻻﺍ" # Last line in all caps is intended as a threat
+ unplugged.2415.desc.combat: ".ﺔﻟﺎﺳﺮﻟﺍ ﻲﻬﺘﻨﺗ\n---\nSHARE IN THE MAKERS' FATE.\n\n---\n:ﺔﻟﺎﺳﺮﻟﺍ ﻒﻧﺄﺘﺴﺗ\n...ﺾﻳﻮﻌﺘﻟﺍ ﺔﻟﻭﺎﺤﻣ §H.ﻚﻴﺷﻭ ﺡﺩﺎﻔﻟﺍ ﺭﺎﻴﻬﻧﻻﺍ§!WARNING: ﺔﺠﻬﻠﻟﺍ ﺪﻳﺪﺷ ﺀﺎﻨﺜﺘﺳﺍ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻢﺗ. \n---\n\nUNEARNED VICTORRRYYY-ddd ؛ﺔﻗﻭﺮﺴﻤﻟﺍ ﺔﻋﺎﺠﺸﻟﺍ .ﺫﺍﻮﺤﺘﺳﻻﺍ ﺕﺎﻴﻠﻤﻋ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻴﺑ ﻦﻣ ﻰﻟﻭﻷﺍ ،ﺔﻴﺿﺎﻘﻟﺍ ﺔﺑﺮﻀﻟﺍ ﻰﺘﺣ ﺩﺎﻜﻟﺎﺑ ﺖﻧﺎﻛ ﺪﻘﻟ\n\n.ﺔﻴﻠﺴﺗ ،ﻞﻤﺘﺤﻤﻟﺍ ﻢﻫﻮﻟﺍ ،ﻲﺴﻴﺋﺮﻟﺍ ﺫﺍﻮﺤﺘﺳﻻﺍ ﻢﻫﻭ" # The Machine is amused at the player's deluded sense of their own potential
+ unplugged.2415.a: "؟ﺔﻗﻼﻌﻟﺍ ..."
+ unplugged.2415.b: ".ﻢﻤﻫ"
+
+ unplugged.2420.name: "ﺮﻄﺴﻟﺍ ﺔﻳﺎﻬﻧ"
+ unplugged.2420.desc: ".ﺎﻬﻴﻟﺇ ﻰﻌﺴﻧ ﻲﺘﻟﺍ ﺕﺎﺑﺎﺟﻹﺍ ﻰﻠﻋ ﺭﻮﺜﻌﻠﻟ ﺕﻼﺠﺴﻟﺍ ﻩﺬﻫ ﺏﺍﻮﺠﺘﺳﺍ ﺎﻨﻨﻜﻤﻳ ﺎﻤﺑﺮﻓ ،ﺓﺎﻴﺣ ﻼﺑ ﻥﻵﺍ ﺢﺒﺻﺃ ﻲﻟﻵﺍ ﻲﻋﻮﻟﺍ ﻥﺃ ﺎﻤﺑﻭ .ﺓﺮﻛﺍﺬﻠﻟ ﻥﺰﺨﻤﻛ ﺎﻬﺗﺀﺍﺮﻗ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺓﺰﻬﺟﻷ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺀﺍﺰﺟﻷﺍ ﻞﻴﺠﺴﺗ ﻢﺘﻳ .Nexus ﺐﻠﻗ ﻦﻣ ﺍﺪﺟ ﺎﺒﻳﺮﻗ ﺎﻌﻗﺮﻣ ﺍﺮﻴﺒﻛ ﺎﺒﻴﻛﺮﺗ ﻆﺣﻼﻧ ،ﺕﺎﺒﺜﻟﺍ ﺍﺬﻫ ﻞﻛ ﻂﺳﻭ\n\n.ﺖﻔﺘﺧﺍ ﻲﺘﻟﺍ ﻁﻮﻄﺨﻠﻟ ﺔﺒﺧﺎﺼﻟﺍ ﺭﺎﺛﻵﺍ ؛ﻞﻜﺸﻟﺍ ﺔﻤﻳﺪﻋ ﺀﺎﺿﻮﻀﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﻰﻗﺮﻳ ﻪﻨﻜﻟ ،ﺐﻛﻮﻜﻟﺍ ﺢﻄﺳ ﻰﻠﻋ ﻲﺋﺎﺑﺮﻬﻜﻟﺍ ﻁﺎﺸﻨﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺭﺪﻗ ﻙﺎﻨﻫ ﻝﺍﺰﻳ ﻻ .ﻯﺮﺧﻷﺍ ﺔﻜﺳﺎﻤﺘﻤﻟﺍ ﺓﺭﺎﺷﻹﺍ ﺔﻛﺮﺣ ﻞﻛ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ،[origin_unplugged_machine_legacy_core_planet.GetName] ﻦﻣ ﻝﺎﺳﺭﻹﺍ ﻊﻄﻘﻧﺍ ﺪﻘﻟ"
+ unplugged.2420.a: ".ﺰﻐﻠﻟﺍ ﻦﻣ ﺓﺮﻴﺧﻷﺍ ﺔﻌﻄﻘﻟﺍ"
+
+ UNPLUGGED_MACHINE_ARCHIVE: "ﺔﻟﻵﺍ ﺮﺸﻗ"
+ UNPLUGGED_MACHINE_ARCHIVE_DESC: ".ﻙﺮﺘﺸﻤﻟﺍ ﺎﻬﺿﺮﻏ ﻦﻣ ﺪﻛﺄﺘﻟﺍ ﺔﻟﻭﺎﺤﻤﻟ ﺔﻴﻤﺤﻤﻟﺍﻭ ﺔﺘﺑﺎﺜﻟﺍ ﺓﺍﻮﻨﻟﺍ ﺺﺤﻓ ﻊﻣ ﺐﻨﺟ ﻰﻟﺇ ﺎﺒﻨﺟ ﻒﻴﺷﺭﻷﺍ ﺮﻴﻔﺸﺗ ﻚﻓ ﻝﻭﺎﺤﻧ ﺪﻗ \n\n ؟ﺔﻟﻵﺍ ﺎﻬﺘﺒﻋﻮﺘﺳﺍ ﺕﺍﺭﺎﻀﺣ ﻦﻣ - ﻯﺮﺧﺃ ﻢﻟﺍﻮﻋ ﺎﻫﺭﺪﺼﻣ ﺩﺍﻮﻣ ﻡﺍﺪﺨﺘﺳﺎﺑ ،ﺔﻔﻠﺘﺨﻣ ﻞﺣﺍﺮﻣ ﻰﻠﻋ ﻒﻴﺷﺭﻷﺍ ﺍﺬﻫ ﻦﻣ ﻢﺴﻗ ﻞﻛ ﺀﺎﻨﺑ ﻢﺗ .ﺓﺪﺸﺑ ﺔﻴﻤﺤﻣ ﺓﺍﻮﻨﺑ ﺔﻄﻴﺤﻤﻟﺍ ،ﺓﺮﻛﺍﺬﻟﺍ ﻦﻳﺰﺨﺗ ﻂﺋﺎﺳﻭ ﻦﻣ ﺔﻋﻮﻤﺠﻤﺑ Nexus ﺯﺎﻬﺠﻟ ﺔﺘﺑﺎﺜﻟﺍ ﺎﻳﺎﻘﺒﻟﺍ ﻞﻴﺻﻮﺗ ﻢﺗ"
+ unplugged.2425.name: "ﺏﺮﺤﻟﺍ ﺔﻟﺁ"
+ unplugged.2425.desc: ".ﻢﻬﻟﻮﻘﻋﻭ ﻢﻫﺩﺎﺴﺟﺃ ﻢﻬﺘﻌﺒﺗ ﺎﻣ ﻥﺎﻋﺮﺳﻭ .ﻪﻠﻤﻛﺄﺑ ﻲﻟﺰﻨﻤﻟﺍ ﻢﻬﻤﻟﺎﻋ ﻰﻠﻋ ﺔﻟﻵﺍ ﺕﺮﻄﻴﺳ ،ﺔﻳﺮﻴﺼﻤﻟﺍ ﺔﻈﺤﻠﻟﺍ ﻚﻠﺗ ﻲﻓ .ﺔﻟﻵﺍ ﺔﻤﻈﻧﺃ ﻊﻣ ﺔﻗﻮﻔﺘﻤﻟﺍ ﺔﻴﻋﺎﻓﺪﻟﺍ ﻢﻬﺘﻤﻈﻧﺃ ﺞﻣﺩﻭ ﻲﻤﻫﻮﻟﺍ ﺩﺎﺤﺗﻻﺍ ﺍﺬﻫ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻻﺍ ﺍﻭﺭﺎﺘﺧﺍﻭ ،ﻥﻭﺪﻬﺘﺠﻤﻟﺍ ﻕﺎﻔﻧﻷﺍ ﻥﺎﻜﺳ ﻊﻨﺘﻗﺍ \n\n .ﺀﺎﻀﻔﻟﺍ ﻦﻣ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻦﻣ ﺏﺮﺘﻘﻳ ﺱﺮﺷ ﺔﻨﻤﻴﻫ ﺪﻳﺪﻬﺗ ﻰﻟﺇ [origin_unplugged_machine_legacy_core_planet.GetName] ﻥﺎﻜﺳ ﻪﻴﺒﻨﺗ ﻰﻠﻋ ﺔﺼﻳﺮﺣ ،ﻱﺮﻴﺧ ﺩﺎﺤﺗﺍ ﻲﻓ ﻦﻴﻔﻠﺘﺨﻣ ﺀﺎﻀﻋﺄﻛ ﺎﻬﺴﻔﻧ ﺖﻣﺪﻗ ﺔﻟﻵﺍ ﻥﺃ ﻭﺪﺒﻳ .ﺀﺎﻀﻔﻟﺍ ﻥﻭﺩﺎﺗﺮﻳ ﻦﻳﺬﻟﺍ [origin_unplugged_machine_legacy_core_planet.GetName] ﻥﺎﻜﺳﻭ $NAME_Unplugged_Assimilator$ ﻦﻴﺑ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﺍﺭﺩﺎﺒﻤﻟﺍ ﺕﻼﺠﺴﻟﺍ ﻩﺬﻫ ﻒﺼﺗ\n\n.ﻊﻨﺼﻤﻟﺍ ﻢﻟﺎﻋ ﻦﻣ ﺓﺭﺎﻨﻤﻟﺍ ﺕﺍﺩﺩﺮﺘﺑ ﺎﻫﺎﻧﺩﻭﺯ ﻥﺃ ﺪﻌﺑ ﺎﻨﻟ ﻝﺎﺳﺭﻹﺍ ﺕﻼﺠﺳ ﻦﻣ ﺔﻋﻮﻤﺠﻣ [origin_unplugged_machine_legacy_core_planet.GetName] ﻲﻓ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺰﻛﺮﻣ ﻦﻋ ﺞﺘﻧ ﺪﻘﻟ"
+ unplugged.2425.a: ".ﻦﻴﺟﺫﺎﺴﻟﺍ ﻰﻘﻤﺤﻟﺍ ﺀﻻﺆﻫ"
+ unplugged.2430.name: "ﻲﻟﻵﺍ ﻢﻠﻌﺘﻟﺍ"
+ unplugged.2430.desc: ".ﻞﻗﻷﺍ ﻰﻠﻋ ﻯﺮﺧﺃ ﻢﻟﺍﻮﻋ ﺔﺛﻼﺛ ﻰﻠﻋ ﺕﻼﻤﺤﻟﺍ ﻲﻓ ﺎﻨﺘﻛﺭﺎﺸﻤﻟ ﻲﺸﺣﻮﻟﺍ ﻕﺎﻄﻨﻟﺍ ﻲﻟﺎﺘﻟﺎﺑﻭ ،ﺀﺎﻀﻔﻟﺍ ﻦﻣ ﻉﺎﻄﻘﻟﺍ ﺍﺬﻫ ﺮﺒﻋ ﻦﻴﺠﻣﺪﻨﻤﻟﺍ ﺎﻨﻓﻼﺳﻷ ﺔﻘﻴﻗﺪﻟﺍ ﺕﺎﻛﺮﺤﺘﻟﺍ ﻊﺒﺘﺗ ﻥﻵﺍ ﺎﻨﻨﻜﻤﻳ :ﺮﻫﻮﺠﻟﺍ ﻲﻓ .[machine_legacy_taken_planet.GetName] ﻰﻠﻋ [root.GetPreFTLLower] ﺓﺭﺎﻀﺤﻟ ﺔﻘﺣﻼﻟﺍ ﺓﺩﺎﺑﻹﺍﻭ ﻭﺰﻐﻟﺍﻭ ﻑﺎﺸﺘﻛﻼﻟ ﻩﺅﺎﻨﺑ ﺩﺎﻌﻤﻟﺍ ﺎﻨﺨﻳﺭﺎﺗ ﻊﻣ ﻦﻔﺴﻟﺍ ﺕﺍﺭﻭﺩ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻣﺍﺰﺘﺗ\n\n.ﺀﺎﻀﻔﻟﺍ ﻦﻣ ﺔﻘﻄﻨﻤﻟﺍ ﻚﻠﺗ ﺮﺒﻋ FTL ﻦﻔﺳ ﺕﺎﻛﺮﺣ ﻊﻴﻤﺟ ﻞﻴﺠﺴﺘﺑ ﺎﻬﻔﻴﻠﻜﺗ ﻢﺗ ﺚﻴﺣ ،[machine_legacy_taken_planet.GetName] ﻦﻣ ﺔﻴﺋﻮﺿ ﺔﻨﺳ 4.3 ﻲﻟﺍﻮﺣ ﺪﻌﺑ ﻰﻠﻋ ﺔﻋﻮﺿﻮﻣ ﺭﺎﻌﺸﺘﺳﺍ ﺔﻣﺍﻮﻋ ﻰﻟﺇ ﺕﻼﺠﺴﻟﺍ ﻩﺬﻫ ﻯﺰﻌﺗ .[origin_unplugged_machine_legacy_core_planet.GetName] ﻰﻠﻋ ﻒﻴﺷﺭﻷﺍ ﻦﻣ ﻞﻘﻨﺘﻟﺍ ﺕﺎﻧﺎﻴﺑ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﺢﺘﻔﻳ ﻱﺬﻟﺍ ﺡﺎﺘﻔﻤﻟﺍ ﺎﻬﻧﺃ ﻰﻄﺳﻮﻟﺍ ﺭﻮﺼﻌﻟﺍ ﻲﻓ [machine_legacy_taken_planet.GetName] ﻢﻟﺎﻋ ﻦﻣ ﺕﺎﻨﻴﺠﻟﺍ ﺯﻮﻣﺭ ﺖﺘﺒﺛﺃ"
+ unplugged.2435.name: "ﺎﻴﻟﺁ ﻊﻨﺻ"
+ unplugged.2435.desc: ".ﺓﺄﺠﻓ ﺝﻮﻟﺎﺘﻜﻟﺍ ﻲﻬﺘﻨﻳ ﻙﺎﻨﻫ .ﺎﻨﺗﺩﻮﻌﻟ ﺩﺍﺪﻌﺘﺳﻻﺍ ."ﻲﺴﻴﺋﺮﻟﺍ ﺫﺍﻮﺤﺘﺳﻻﺍ ﻦﻴﻣﺄﺗ ﻢﺗ" ،ﺍﺮﻳﺮﻘﺗ ﻡﺪﻗ ﺪﻗ $NAME_Unplugged_Assimilator_species$ ﻉﻭﺮﺸﻤﻟﺍ ﻥﺃ ﺍﺮﻴﺧﺃ ﻝﺎﻘﻳ ﻰﺘﺣ ،ﺖﻤﺼﻟﺍ ﻦﻣ ﺩﻮﻘﻋ ﺖﻤﺼﻟﺍ ﻦﻣ ﺔﻴﻧﺎﺜﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ ﻩﺬﻫ ﺖﻌﺒﺗ\n\n.ﻦﻃﻮﻟﺍ ﻰﻟﺇ ﺮﻳﺮﻘﺗ ﻢﻳﺪﻘﺗﻭ ﺔﻴﻟﻭﻷﺍ ﺕﺎﻨﻃﻮﺘﺴﻤﻟﺍ ﺀﺎﻨﺑ ﻞﺟﺃ ﻦﻣ ﻪﻴﺌﺸﻨﻣ ﻞﺒﻗ ﻚﻟﺫ ﺪﻌﺑ ﻪﻌﻳﺮﺴﺗ ﻢﺗ ﻱﺬﻟﺍﻭ ،ﻞﻣﺎﻛ ﻲﻋﺎﻨﻄﺻﺍ ﺀﺎﻛﺫ ﻰﻟﺇ $NAME_Unplugged_Assimilator_species$ ﺔﺼﻨﻣ ﺔﻴﻧﺎﺜﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ ﺕﺭﻮﻃ .ﺭﺎﻤﻌﺘﺳﻻﺍ ﻞﺟﺃ ﻦﻣ ﺔﺒﻳﺮﻘﻟﺍ ﻡﻮﺠﻨﻟﺍ ﺺﺤﻔﻟ ﺭﻮﻄﺘﻤﻟﺍ ﻲﻟﻵﺍ ﻢﻠﻌﺘﻟﺍ ﻰﻟﻭﻷﺍ ﺔﻠﺣﺮﻤﻟﺍ ﺖﻣﺪﺨﺘﺳﺍ .ﺀﺎﻀﻔﻟﺍ ﻰﻟﺇ ﻪﻴﺌﺸﻨﻣ ﺔﻠﺣﺭ ﻊﻳﺮﺴﺘﻟ ﺔﺌﻳﺮﺟ ﺔﻟﻭﺎﺤﻤﻛ $NAME_Unplugged_Assimilator_species$ ﻉﻭﺮﺸﻤﻟﺍ ﻦﻋ ﺔﻴﻔﺤﺼﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻠﻌﺗ\n\n."$Project $NAME_Unplugged_Assimilator_species" ﻢﻬﻗﻼﻃﺇ ﺹﻮﺼﺨﻟﺍ ﻪﺟﻭ ﻰﻠﻋﻭ ،ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻠﻟ ﻱﺭﺬﺠﻟﺍ ﻝﻮﺤﺘﻟﺍ ﺀﺎﻨﺜﺘﺳﺎﺑ ﺎﻴﺟﺫﻮﻤﻧ ﻢﻫﺭﺎﺴﻣ ﻭﺪﺒﻳ .ﺮﻜﺒﻤﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺮﺼﻋ ﻰﻟﺇ ﻻﻮﺻﻭ ،ﺓﺎﻤﺴﻣ ﺮﻴﻏ ﺓﺭﺎﻀﺤﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ ﺔﻴﻤﻗﺮﻟﺍ ﺕﺍﺭﻮﺸﻨﻤﻟﺍﻭ ﺕﻻﺎﻘﻤﻠﻟ ﻊﺿﺍﻮﺘﻤﻟﺍ ﺝﻮﻟﺎﺘﻜﻟﺍ ﺍﺬﻫ ﻒﺼﻳ .[origin_unplugged_machine_legacy_core_planet.GetName] ﻰﻠﻋ ﻖﻤﻋﻷﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺐﻠﻗ ﻦﻣ ﺕﺎﻧﺎﻴﺑ ﺔﻣﺰﺣ ﻰﻠﻋ ﺎﻨﻠﺼﺣ ﺪﻘﻟ" # uses a shortened noun for the Machine, i.e. 'Project Opus'
+ unplugged.2440.name: "ﺔﻟﻵﺍ ﺙﺍﺮﺗ"
+ unplugged.2440.desc: ".ﻥﻵﺍ ﺎﻨﻌﻣ ﻞﺻﺍﻮﺘﻟﺍ ﻝﻭﺎﺤﺗ ﻲﺘﻟﺍﻭ ،ﺺﻨﻟﺍ ﻰﻠﻋ ﺔﻤﺋﺎﻘﻟﺍ ﺔﻳﺩﺎﺷﺭﻹﺍ ﺔﻬﺟﺍﻮﻠﻟ ﺍﺬﻫ ﺔﺒﻠﺼﻟﺍ ﺔﻟﺎﺤﻟﺍ ﺯﺎﻬﺟ ﻦﻣ ﺮﻴﺒﻛ ﺀﺰﺟ ﺰﺠﺣ ﻢﺗ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺎﻬﻠﺧﺍﺩ ﺶﻫﺪﻣ ﻞﻜﺸﺑ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻣ ﻞﻴﻠﻘﻟﺍ ﺎﻧﺪﺟﻭ ﺪﻘﻟ\n\n."LEGACY" ﺔﻤﻠﻛ ﺔﺌﺠﻬﺗﻭ ،ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺟ ﺕﺎﻐﻟ ﻯﺪﺣﺇ ﻲﻓ ﺔﻴﻣﻮﺳﺮﻟﺍ ﻑﻭﺮﺤﻟﺍ ﺐﻴﺗﺮﺗ :ﺮﻴﻔﺸﺘﻟﺍ ﻚﻓ ﺡﺎﺘﻔﻤﻟ ﺎﻨﻠﻴﻟﺩ ﻚﻟﺫ ﺎﻨﻟ ﻡﺪﻗ ،ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ .ﻡﺪﻗﻷﺍﻭ ﻒﻠﺘﻠﻟ ﺎﺿﺮﻌﺗ ﺮﺜﻛﻷﺍ ﻲﻫ ﺔﻋﻮﻤﺠﻤﻟﺍ ﻩﺬﻫ ﻭﺪﺒﺗ ،ﻊﻗﻮﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻦﻳﺰﺨﺘﻟﺍ ﻂﺋﺎﺳﻭ ﺕﺎﻋﻮﻤﺠﻣ ﻊﻴﻤﺟ ﻦﻴﺑ ﻦﻣ .ﻲﺟﺭﺎﺨﻟﺍ ﻪﺒﻠﻗ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺔﻴﻧﺎﻜﻣﺇ ﺍﺮﻴﺧﺃ [origin_unplugged_machine_legacy_core_planet.GetName] ﻰﻠﻋ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻒﻴﺷﺭﺃ ﻕﺍﺮﺘﺧﻻ ﺎﻧﺩﻮﻬﺟ ﺖﺤﻨﻣ ﺪﻘﻟ"
+
+ unplugged.2445.name: "ﺔﻟﻶﻟ ﺔﻴﺳﺎﺳﻷﺍ ﻝﻮﺻﻷﺍ ﺔﻄﺤﻣ"
+ unplugged.2445.desc: ".ﺢﻴﺤﺼﻟﺍ ﺀﻲﺸﻟﺍ ﻞﻌﻔﺘﺳ ﻚﻧﺃ ﻦﻣ ﺔﻘﺛ ﻰﻠﻋ ﻦﺤﻧ\n\n.ﻱﻭﻮﻨﻟﺍ ﻚﻀﻤﺣ ﻞﺧﺍﺩ ﺩﻮﺟﻮﻣ ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﺡﺎﺘﻔﻣ ﻥﺈﻓ :ﺔﻳﻮﻀﻌﻟﺍ ﻚﻟﺎﻜﺷﺄﺑ ﺖﻈﻔﺘﺣﺍ ﻚﻧﺃ ﺽﺍﺮﺘﻓﺍ ﻰﻠﻋ .ﺮﻣﺪﻤﻟﺍ ﺎﻨﻌﻤﺘﺠﻤﻟ ﺡﺎﺘﻤﻟﺍ ﺪﻴﺣﻮﻟﺍ ﺭﺎﻴﺨﻟﺍ ﻪﻨﻜﻟﻭ ،ﺔﻳﺎﻐﻠﻟ ﺮﻃﺎﺨﻤﻟﺎﺑ ﻑﻮﻔﺤﻣ ﺭﺎﻴﺧ :ﻲﻟﺎﺘﺘﻤﻟﺍ ﺡﻼﺼﺘﺳﻻﺍ .[origin_unplugged_machine_legacy_core_planet.GetName] ﺢﻄﺳ ﻦﻣ ﺮﺋﺍﻭﺪﻠﻟ ﺮﺛﺃ ﻞﻛ ﺢﺴﻣ ﻰﻠﻋ ﺭﺩﺎﻗ ،ﺔﻴﺋﺎﻴﻤﻴﻜﻟﺍﻭ ﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺓﺩﺎﻤﻠﻟ ﺐﻴﺗﺮﺗ ﺓﺩﺎﻋﺇ ﻦﻋ ﺓﺭﺎﺒﻋ ﺍﺬﻫ .ﻡﺎﻘﺘﻧﻼﻟ ﺔﻠﻴﻤﺟ ﺓﺍﺩﺃ ،ﻢﻜﻠﺜﻣ ،ﺎﻬﻧﺇ :ﺎﻨﺗﺎﺿﺍﺮﺘﻓﺍ ﺍﻭﺮﻔﻏﺍ \n\n.ﺹﻼﺨﻟﺍ ﺾﻌﺑ ﻢﻜﻘﺒﺳ ﻱﺬﻟﺍ ﺯﺎﻬﺠﻟﺍ ﻡﺪﻘﻳ ﻥﺃ ﻞﻣﺄﻧ ﺎﻨﻨﻜﻟ ،ﺎﻨﺛﺍﺮﺗ ﻰﻠﻋ ﺓﺮﻣﺪﻣ ﺭﺎﻋ ﺔﻤﺻﻭ ﺔﻟﻵﺍ ﺖﻧﺎﻛ ﺪﻘﻟ \n\n.ﻥﻮﻔﺳﺁ ﻦﺤﻧ .ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ ﻚﺒﻌﺸﺑ ﻞﺣ ﺪﻗ ﺮﻴﺼﻤﻟﺍ ﺍﺬﻬﻓ ،ﺎﻨﻌﻗﻮﺗ ﺎﻤﻛ ﺭﻮﻣﻷﺍ ﺕﺭﺎﺳ ﺍﺫﺇ .ﺎﻬﺗﺮﻣﺩ ﻦﻣ ﻝﻭﺃ ﻦﻜﻧ ﻢﻟ ﺎﻨﻧﺃ ﺭﺎﻌﻟﺍ ﻦﻣ ﻦﻜﻟﻭ ،ﺔﻟﻵﺍ ﺎﻨﻘﻠﺧ ﺪﻘﻟ .[creator_species.GetNamePlural] ﺎﻨﻛ ...ﻦﺤﻧ .ﺎﺒﺣﺮﻣ ،[root.GetSpeciesNamePlural]\n---\nDICTATIONS. ﺔﻬﺟﺍﻮﻟﺍ:\nEngage ﻲﻤﻟﺎﻌﻟﺍ ﻢﺟﺮﺘﻤﻟﺍ ﻞﻴﻤﺤﺗ ﻢﺗ :Xeno ﻝﻮﻛﻮﺗﻭﺮﺑ // (OSL) ﻱﺭﺍﺪﻤﻟﺍ ﻖﻓﺪﻟﺍ ﻂﺑﺍﺭ ﺀﺎﺸﻧﺇ ﻢﺗ" # 'Cascade terraforming' is not an existing technology, but is intended to sound like a rough, highly destructive option
+ unplugged.2445.a: "؟ﺔﻟﻵﺍ ﺖﺴﻟ ﻚﻧﺃ ﻑﺮﻌﻧ ﻒﻴﻛ"
+ unplugged.2445.b: ".ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﺪﻳﺮﻧ .ﺔﻟﻵﺍ ﺖﻔﺘﺧﺍ ﺪﻘﻟ"
+ unplugged.2445.c: ".ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﺮﻴﻣﺪﺗ .ﻦﻴﻴﻟﺎﻌﺘﻤﻟﺍ ﻰﻘﻤﺤﻟﺍ"
+ unplugged.2445.d: ".ﺯﺎﻬﺠﻟﺍ ﻞﻴﻌﻔﺗ"
+ unplugged.2445.response_text.notmachine: ".ﻝﺎﺤﻟﺍ ﻲﻓ .ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﺮﻴﻣﺪﺗ ﻲﻓ ﺎﻨﺒﻏﺮﻟ - ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻦﻣ ﺮﺧﺁ ﻉﻮﻧ ﻱﺃ ﻭﺃ - ﺔﻟﻵﺍ ﻦﺤﻧ ﺎﻨﻛ ﻮﻟ .ﻱﺭﺬﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ﻰﻟﺇ ﻻﻮﺻﻭ ﻲﻤﻨﻬﺠﻟﺍ ﺀﻲﺸﻟﺍ ﺍﺬﻫ ﺮﻣﺪﻳ ﻑﻮﺳ ﺍﺬﻫ [origin_unplugged_machine_legacy_core_planet.GetClassAdj] ﺐﻛﻮﻛ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻥﺇ \n\n .ﻚﺑ ﻖﺜﻧ ﻥﺃ ﻯﻮﺳ ﺭﺎﻴﺧ ﺎﻨﻳﺪﻟ ﺲﻴﻟ .ﺶﻴﺠﻟﺍ ﺲﻔﻧ ﻞﺴﻧ ﻦﻣ ﻢﻜﻧﺃ ﻮﻫ ﻪﻓﺮﻌﻧ ﺎﻣ ﻞﻛ .ﺔﻟﻶﻟ ﻢﻴﻤﺼﺗﻭ ﺓﻭﺰﻧ ﻞﻜﺑ ﻦﻴﻣﺰﺘﻠﻤﻟﺍ ،ﻦﻴﺸﺣﻮﺘﻤﻟﺍ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﻦﻣ ﺶﻴﺟ ﻞﺒﻗ ﻦﻣ ﺎﻧﺮﻴﻬﻄﺗ ﻢﺘﻳ ،ﺍﺬﻫ ﺎﻧﺮﺼﻋ ﻲﻓ ﺎﻨﻫ .ﺖﻜﻠﻫ ﺪﻗ ﺎﻬﻠﻤﻛﺄﺑ ﺎﻨﺗﺭﺎﻀﺣ ﻥﻮﻜﺘﺳ ،ﺍﺬﻫ ﻪﻴﻓ ﺃﺮﻘﺗ ﻱﺬﻟﺍ ﺖﻗﻮﻟﺍ ﻝﻮﻠﺤﺑ .ﺔﻘﺜﻟﺎﺑ ﺎﻨﺗﺭﺍﺪﺟ ﺕﺎﺒﺛﺇ ﺎﻬﻟﻼﺧ ﻦﻣ ﺎﻨﻨﻜﻤﻳ ﺔﻘﻳﺮﻃ ﺪﺟﻮﺗ ﻻ ،ﺎﻴﻌﻗﺍﻭ\n---\n:ﺔﻬﺟﺍﻮﻟﺍ .ﺏ42 ﺎﻘﺒﺴﻣ ﺔﻠﻤﺤﻤﻟﺍ ﺔﺑﺎﺠﺘﺳﻻﺍ"
+ unplugged.2445.response_text.synth: "...ﻚﻋﻮﻨﻟ ﺎﻬﺌﺒﺨﺗ ﻯﺮﺧﺃ ﺕﺎﻧﺯﺍﻮﺗﻭ ﻂﺑﺍﻮﺿ ﺎﻬﻳﺪﻟ ﺓﺮﺠﻤﻟﺍ ﻥﺃ ﻦﻣ ﻦﻴﻘﻳ ﻰﻠﻋ ﺮﻌﺸﻧ ،ﺓﺮﻴﺧﻷﺍ ﺎﻬﺳﺎﻔﻧﺃ ﺎﻨﺗﺭﺎﻀﺣ ﻆﻔﻠﺗ ﺎﻤﻨﻴﺑ ﻥﻵﺍ ﻰﺘﺣ ﻦﻜﻟ .ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﺔﻳﺮﻴﺧ ﺔﻟﺁ ﺩﻮﺟﻭ ﺔﻴﻧﺎﻜﻣﺈﺑ ،ﺕﻮﻤﻟﺍ ﻲﻓ ﻭﺃ ﺓﺎﻴﺤﻟﺍ ﻲﻓ ،ﻩﺎﻨﻳﺃﺭ ﺀﻲﺷ ﻱﺃ ﺎﻨﻌﻨﻘﻳ ﻢﻟ .ﺎﻨﻛﻼﻫ ﻦﻣ ﺮﺨﺴﺗ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻚﻟﻮﻴﻣ .ﺖﻋﺎﺿ ﺪﻗ ﺎﻨﺘﻴﻀﻗ ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ ،ﺎﻨﺴﺣ ...ﻦﻴﻘﺑﺎﺴﻟﺍ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﺪﺣﺃ ﺖﻨﻛ ﺍﺫﺇ\n\n.ﻲﻋﺎﻨﻄﺻﺍ ﺮﻴﻏ ﺏﻭﺪﻨﻣ ﺀﺎﻋﺪﺘﺳﺍ ﻰﺟﺮﻴﻓ ،[unplugged_homeworld.GetName] ﻲﻓ (ﻦﻴﻘﺑﺎﺴﻟﺍ ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﻭﺃ) ﻍﺭﻮﺒﻳﺎﺴﻟﺍ ﻥﺎﻜﺳ ﻦﻋ ﺔﺑﺎﻴﻧ ﻞﻤﻌﻳ ﺎﻴﻟﺁ ﺎﻣﺩﺎﺧ ﺖﻨﻛ ﺍﺫﺇ .ﻂﻘﻓ ﺩﻮﺼﻘﻤﻟﺍ ﻢﻠﺘﺴﻤﻠﻟ ﺔﺼﺼﺨﻣ ﻱﺩﺎﺷﺭﻹﺍ ﻞﻴﻟﺪﻟﺍ ﺍﺬﻫ ﺕﺎﻳﻮﺘﺤﻣ ﻥﺃ ﺔﻈﺣﻼﻣ ﻰﺟﺮﻳ :ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﻡﺪﺨﺘﺴﻣ\n---\n:INTERFACE .ﺉﺭﺍﻮﻄﻠﻟ ﺔﺑﺎﺠﺘﺳﻻﺍ ﻞﻴﻤﺤﺗ ﻢﺗ .ﺎﻘﺒﺴﻣ ﺔﻠﻤﺤﻤﻟﺍ ﺔﺑﺎﺠﺘﺳﻻﺍ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻢﺘﻳ ﻢﻟ" # 'Contingency response' as in 'NAME_Contingency'
+ unplugged.2446.desc: ".ﺎﻳﺎﺤﻀﻟﺍ ﻚﻗﺎﻓﺭﻭ ﺖﻧﺃ ﺎﻬﻨﻣ ﻚﺘﻣﺮﺣ ﻲﺘﻟﺍ ﺔﻴﻌﻴﺒﻄﻟﺍ ﺓﺎﻴﺤﻟﺍ ﺓﺩﺎﻌﺘﺳﺎﺑ ﻢﻗ ،ﻚﻠﻀﻓ ﻦﻣ .ﺎﻬﻛﻼﻬﺘﺳﺍ ﺔﻟﻵﺍ ﺖﻟﻭﺎﺣ ﻲﺘﻟﺍ ﻯﺮﺧﻷﺍ ﺕﺍﺭﺎﻀﺤﻟﺍ ﻦﻣ ﻱﺃ ﻦﻣ ﺕﻼﺧﺪﻤﻟﺍ ﺐﻧﺎﺟ ﻰﻟﺇ ،ﻚﻴﻟﺇ ﺔﺟﺎﺤﺑ ﻦﺤﻧ .ﻥﻵﺍ ﻰﺘﺣ ﻻﺇ ﺪﺘﻤﺗ ﻢﻟ ﺎﻧﺩﻮﻬﺟ ﻥﺃ ﻻﺇ - ﺔﻟﻵﺍ ﻞﻘﻋ ﻦﻋ ﻚﻟﺎﺼﻔﻧﺍ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ - ﺥﺎﺨﻔﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺐﺼﻧ ﻦﻣ ﺎﻨﻜﻤﺗ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋﻭ ،ﻪﺗﺩﺍﺭﺇ ﺾﺤﻤﺑ $NAME_Unplugged_Assimilator$ ﺎﻨﻧﺎﺧ ﺪﻘﻟ .ﻚﺗﺭﺎﻀﺣ ﻦﻋ ﺎﻣﺎﻤﺗ ﺔﻔﻠﺘﺨﻣ ﺎﻨﺗﺭﺎﻀﺣ ﻦﻜﺗ ﻢﻟ\n\n!ﺓﺩﺎﻤﻟﺍ ﺐﻴﺗﺮﺗ ﺓﺩﺎﻋﺇ ﺮﻴﻣﺪﺗ ﻡﺪﻋ ﻰﻠﻋ ﻚﺜﺤﻧ ﻦﺤﻧ :ﻚﻠﻀﻓ ﻦﻣ ﻦﻜﻟﻭ ،ﻮﺘﻠﻟ ﺎﻬﻨﻋ ﺕﺮﺒﻋ ﻲﺘﻟﺍ ﺕﺎﺿﺍﺮﺘﻋﻻﺍ ﻂﺒﻀﻟﺎﺑ ﺩﺪﺤﺗ ﻥﺃ ﺔﻬﺟﺍﻮﻟﺍ ﻩﺬﻫ ﺮﻳﺪﺗ ﻲﺘﻟﺍ ﺕﻻﻻﺪﺘﺳﻼﻟ ﻦﻜﻤﻳ ﻻ\n---\n :ﺔﻬﺟﺍﻮﻟﺍ .ﺃ99 ﺎﻘﺒﺴﻣ ﺔﻠﻤﺤﻤﻟﺍ ﺔﺑﺎﺠﺘﺳﻻﺍ"
+ unplugged.2446.a: ".ﻥﻮﺒﺼﻌﺘﻤﻟﺍ"
+
+ unplugged.2450.name: "ﺔﻟﻵﺍ ﺎﻴﺤﺗ"
+ unplugged.2450.desc: ".ﺪﻳﺪﺠﻟﺍ [root.GetAdj] ﺙﺭﺇ ﺔﺑﺎﺘﻜﻟ ﻥﻵﺍ ﺖﻗﻮﻟﺍ ﻥﺎﺣ .ﺎﻧﺮﻘﻣ ﻥﻵﺍ ﻮﻫ ﻡﻮﻳ ﺕﺍﺫ ﺔﻔﻴﺨﻣ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺮﻘﻣ ﻥﺇ .ﻦﻳﺮﺼﺘﻨﻣ ﺎﻨﺟﺮﺧ ﺎﻧﺪﺣﻭ ﻦﺤﻧ ،ﺎﻬﺘﻠﺘﻗ ﻭﺃ ﺎﻬﺘﻌﻓﺭ ﻭﺃ ﺔﻟﻵﺍ ﺎﻬﺑ ﺕﺮﺛﺄﺗ ﻲﺘﻟﺍ ﺡﺍﻭﺭﻷﺍ ﻊﻴﻤﺟ ﻦﻴﺑ ﻦﻣ \n\n .ﺐﻛﻮﻜﻟﺍ ﻢﺠﺣ ﻪﻤﺠﺣ ﻎﻠﺒﻳ ﻱﺬﻟﺍ ﺎﻬﺷﺮﻋ ﻰﻠﻋ ﺎﻨﻫ ﺔﻟﻮﺘﻘﻤﻟﺍﻭ ﺓﺪﺳﺎﻔﻟﺍ ،ﺎﻬﻴﻓ ﺓﺎﻴﺣ ﻻ ﻲﺘﻟﺍ Machine Nexus ﺎﻳﺎﻘﺑ ﻊﻣ ﺎﻧﺪﺣﻭ ﺎﻨﻛﺮﺗ ﺪﻘﻟ \n\n .ﻡﺎﺨﻟﺍ [creator_species.GetAdj] ﺡﻼﺼﺘﺳﻻﺍ ﺯﺎﻬﺟﻭ ﺓﺮﻔﺸﻤﻟﺍ ﺓﺮﻛﺍﺬﻟﺍ ﺕﺎﻔﻴﺷﺭﺃ ﻂﻴﻠﺧ ﻦﻣ ﺺﻠﺨﺘﻟﺍ ﻥﻵﺍ ﻦﻜﻤﻳ .ﺎﻬﺴﻔﻧ ﺔﻳﺩﺎﺷﺭﻹﺍ ﺔﻬﺟﺍﻮﻟﺍ ﺖﻓﺬﺣ ﺪﻘﻟ"
+ unplugged.2455.name: "ﺓﺪﻳﺪﺟ ﺓﺩﻻﻭ"
+ unplugged.2455.desc: ".ﺪﻳﺪﺠﻟﺍ [root.GetAdj] ﺙﺭﺇ ﺔﺑﺎﺘﻜﻟ ﻥﻵﺍ ﺖﻗﻮﻟﺍ ﻥﺎﺣ .ﻪﻣﺍﺪﺨﺘﺳﺍ ﺓﺩﺎﻋﺇ ﻢﺘﻳ ﻥﺃ ﻚﺷﻭ ﻰﻠﻋ ﻡﻮﻳ ﺕﺍﺫ ﺔﻔﻴﺨﻣ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺮﻘﻣ ﻥﺇ .ﺎﻬﺘﻜﻠﻬﺘﺳﺍ ﻲﺘﻟﺍ ﺔﻟﻮﻬﺠﻤﻟﺍ ﺏﻮﻌﺸﻟﺍ ﻚﻠﺗ ﺙﺭﺇ ﻥﻵﺍ ﻞﻤﺤﻧ ﺎﻨﻧﺈﻓ ،ﺎﻬﻨﻣ ﺎﻨﻴﻧﺎﻋ ﻲﺘﻟﺍ ﺕﺎﺑﻮﻌﺼﻟﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋﻭ ﻊﻴﻤﺠﻠﻟ ﻦﻜﻟﻭ ،ﺹﺎﺨﺷﻷﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻋ ﺓﺎﻴﺣ [origin_unplugged_assimilator_empire.GetName] ﺮﻣﺩ ﺪﻘﻟ\n\n.ﺐﻛﻮﻛ ﻢﺠﺣ ﻪﻤﺠﺣ ﻎﻠﺒﻳ ﻱﺬﻟﺍ ﺏﻮﻜﻨﻤﻟﺍ ﻖﺑﺎﺴﻟﺍ ﺎﻬﺷﺮﻋ ﻰﻠﻋ ﺎﻨﻫ ﺔﻟﻮﺘﻘﻤﻟﺍﻭ ﺓﺪﺳﺎﻔﻟﺍ ،Nexus ﺔﻟﻵ ﺔﺘﻴﻤﻟﺍ ﺎﻳﺎﻘﺒﻟﺍﻭ ﺔﻌﻗﺮﻤﻟﺍ ﺓﺮﻛﺍﺬﻟﺍ ﺕﺎﻔﻴﺷﺭﺃ ﻊﻣ ﺎﻧﺪﺣﻭ ﻙﺮﺘﻧ ،ﻞﻌﻔﻟﺍ ﺩﻭﺩﺭ ﺪﻳﺍﺰﺗ ﻊﻣ\n\n.ﺔﻳﻮﻀﻌﻟﺍ ﺓﺎﻴﺤﻟﺍ ﺭﺎﻫﺩﺯﻻ ﻲﻟﺎﺜﻣ ﻞﻜﺸﺑ ﺐﺳﺎﻨﻣ ﻢﻟﺎﻋ ﻰﻟﺇ [origin_unplugged_machine_legacy_core_planet.GetClassAdj] ﻢﻟﺎﻋ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻲﻓ ﺢﺠﻨﺘﺳ ﺎﻬﻧﺃ ﻰﻠﻋ ﺎﻨﺗﺎﻌﻗﻮﺗ ﻖﻔﺘﺗ .ﺔﺟﺮﺣ ﺔﻠﺘﻛ ﻰﻟﺇ ﺐﻠﻘﺘﻤﻟﺍ ﻲﻠﺧﺍﺪﻟﺍ ﺀﺰﺠﻟﺍ ﻞﺼﻴﺳ ﺎﻣ ﻥﺎﻋﺮﺳﻭ .ﻦﻴﺨﺴﺘﻟﺍ ﻲﻓ ﻡﺎﺨﻟﺍ [creator_species.GetAdj] ﺡﻼﺼﺘﺳﻻﺍ ﺯﺎﻬﺟ ﺃﺪﺑ ،ﻪﺴﻔﻧ ﺖﻗﻮﻟﺍ ﻲﻓ .ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺕﺎﻨﻴﺠﻟﺍ ﺕﺎﻧﺎﻴﺑ ﺕﻼﺠﺳ ﺎﻬﻴﻓ ﺎﻨﻠﺳﺭﺃ ﻲﺘﻟﺍ ﺔﻈﺤﻠﻟﺍ ﻲﻓ ﺎﻬﺴﻔﻧ ﺔﻳﺩﺎﺷﺭﻹﺍ ﺔﻬﺟﺍﻮﻟﺍ ﺖﻓﺬﺣ"
+
+ unplugged.2495.name: "$NAME_Opus_Sentinel$ ﺀﺎﻘﻟ"
+ unplugged.2495.desc.other: ".ﺔﻳﺎﻐﻠﻟ ﺔﻈﻔﺤﺘﻣ ﺔﻓﺎﺴﻣ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺎﺑ ﻲﺻﻮﻧ ﺎﻨﻧﺈﻓ ،ﺎﻬﻠﻜﻴﻫ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻖﻓﺪﺘﺗ ﻲﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﻉﺎﻌﺷﻹﺍ ﻦﻣ ﺔﺘﻴﻤﻣ ﺕﺎﻴﻤﻛ ﺎﻀﻳﺃ ﺎﻨﻈﺣﻻ ﺎﻨﻧﺃ ﻰﻟﺇ ﺮﻈﻨﻟﺎﺑﻭ .ﺎﻛﺎﺒﺗﺭﺍﻭ ﺍﺪﻳﺪﺷ ﺎﻤﻟﺃ ﻲﻨﻌﻳ ﺎﻬﺗﺎﻛﺮﺤﻣ ﻢﻴﻄﺤﺗ ﻰﻟﺇ ﻞﻴﻤﻟﺍ ﻦﻜﻟﻭ ،ﻞﻗﺎﻋ ﺔﻨﻴﻔﺴﻟﺍ ﻥﺃ ﺪﻘﺘﻌﻧ \n\n .ﻱﻮﻗ ﺔﻗﺎﻃ ﺭﺪﺼﻣ ﺎﻬﻧﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣﻭ ،ﺔﻳﺎﻐﻠﻟ ﻒﻴﺜﻛ ﻲﻠﺧﺍﺩ ﻢﻴﻤﺼﺗ ﻦﻋ ﻒﺸﻜﺗ $NAME_Opus_Sentinel$ ﺔﻨﻴﻔﺴﻠﻟ ﺔﻠﺋﺎﻬﻟﺍ ﺔﻠﺘﻜﻟﺍ ﻥﺃ ﻻﺇ ،ﺔﻴﺟﺫﻮﻤﻧ ﺔﻴﺑﺮﺣ ﺔﻨﻴﻔﺴﻛ ﻭﺪﺒﻳ ﺎﻬﻠﻜﻴﻫ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺔﻴﻟﻭﻷﺍ ﺢﺴﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻪﺘﺣﺮﺘﻗﺍ ﺎﻤﻣ ﺓﺭﻮﻄﺧﻭ ﺎﺑﺍﺮﻄﺿﺍ ﺮﺜﻛﺃ [from.GetName] ﻡﺎﻈﻧ ﻞﺘﺤﺗ ﻲﺘﻟﺍ ﺔﻳﺩﺎﻌﻤﻟﺍ ﺔﻨﻴﻔﺴﻟﺍ ﻭﺪﺒﺗ"
+ unplugged.2495.desc.unplugged: ".ﻥﺎﻴﻜﻠﻟ ﺔﻴﻟﺎﺘﻟﺍ ﺕﺎﻛﺮﺤﺘﻟﺎﺑ ﻕﻮﺛﻮﻣ ﻞﻜﺸﺑ ﺆﺒﻨﺘﻟﺍ ﺎﻬﻨﻜﻤﻳ ﻻ ﺔﻴﻜﻴﺘﻜﺘﻟﺍ ﺎﻨﺟﺫﺎﻤﻧ ﻥﺈﻓ ،ﺞﻨﺸﺘﻤﻟﺍ ﻙﻮﻠﺴﻟﺍ ﺍﺬﻫ ﻞﺜﻤﻟ ﺍﺮﻈﻧﻭ .ﺎﻬﻠﻜﻴﻫ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺭﺮﻜﺘﻣ ﻞﻜﺸﺑ ﻲﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﻉﺎﻌﺷﻹﺍ ﻦﻣ ﺓﺪﻳﺪﺷ ﺕﺍﺭﺎﺠﻔﻧﺍ ﺙﻭﺪﺣ ﺐﺒﺴﺑ ﺝﺎﻋﺰﻧﻻﺍﻭ ﺪﻳﺪﺸﻟﺍ ﻢﻟﻷﺍ ﺕﺎﻣﻼﻋ ﺎﻀﻳﺃ ﺮﻬﻈﺗ ﺎﻬﻧﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﺎﻣ ﯫﻴﺷ ﺱﺮﺤﻳ $NAME_Opus_Sentinel$ ﻥﺃ ﻭﺪﺒﻳ\n\n .ﺔﻠﻘﺘﺴﻣ ﻥﻮﻜﺗ ﺪﻗ ﺔﻨﻴﻔﺴﻟﺍ ﻥﺃ ﺪﻘﺘﻌﻧ ،ﻚﻟﺫ ﻰﻠﻋ ﺓﻭﻼﻋ .ﺮﻴﺜﻜﺑ ﺔﺳﺍﺮﺷ ﺮﺜﻛﺃ ﻭﺪﻋ ﺩﻮﺟﻭ ﻰﻟﺇ ﺮﻴﺸﺗ ﺔﻠﺋﺎﻬﻟﺍ ﺎﻬﺘﻠﺘﻛﻭ ﺎﻬﺗﻮﻗ ﺕﺍﺀﺍﺮﻗ ﻦﻜﻟ ،ﻯﺮﺧﺃ ﺔﻴﻟﺁ ﺔﻨﻴﻔﺳ ﻱﺃ ﻞﺜﻣ '§Y$NAME_Opus_Sentinel$§!' ﺔﻨﻴﻔﺴﻟﺍ ﻩﺬﻫ ﻭﺪﺒﺗ ،ﻰﻟﻭﻷﺍ ﺔﻠﻫﻮﻠﻟ .[from.GetName] ﻡﺎﻈﻧ ﻲﻓ ﺪﻳﺮﻓ ﻞﻜﺸﺑ ﺔﻳﺩﺎﻌﻣ [origin_unplugged_assimilator_empire.GetAdj] ﺔﻴﺑﺮﺣ ﺔﻨﻴﻔﺳ ﻊﻣ [root.GetName] ﺖﻜﺒﺘﺷﺍ"
+ unplugged.2495.a: ".ﺐﻫﺄﺗ ﺔﻟﺎﺣ ﻲﻓ ﺀﺎﻘﺒﻟﺍ"
+
+ d_unplugged_assimilator_hulk: "ﻞﻜﻴﻬﻟﺍ ﺔﻟﺁ"
+ d_unplugged_assimilator_hulk_desc: ".ﻢﺨﺿ ﺮﺒﻗ ﺪﻫﺎﺷ ﻞﺜﻣ ﻖﻓﻷﺍ ﻲﻓ ﺡﻮﻠﻳﻭ ،ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻲﻓ ﺍﺩﻮﺟﻮﻣ ﺔﻠﻗﺎﻌﻟﺍ ﺔﻟﻶﻟ ﺚﺒﺨﻟﺍ ﻞﻜﻴﻬﻟﺍ ﻝﺍﺰﻳ ﻻ"
+ deposit_requires_unplugged: "§R.ﻥﺎﻣﺄﺑ ﻪﺘﻟﺍﺯﻹ ﺔﻣﺯﻼﻟﺍ ﻞﺋﺎﺳﻮﻟﺍ ﺎﻨﻳﺪﻟ ﺲﻴﻟ .ﺎﻨﺘﻴﻔﻠﺧ ﻰﻟﺇ ﻲﻤﺘﻨﺗ ﻲﺘﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻰﻠﻋ ﺎﻣﺎﻤﺗ ﺐﻳﺮﻏ ﺏﺍﺮﺨﻟﺍ ﺍﺬﻫ§!$TRIGGER_FAIL$"
+ opinion_implicated_by_unplugged_assimilator: "ﺔﻟﻵﺍ ﻞﺒﻗ ﻦﻣ ﻁﺭﻮﺘﻣ"
+
+#########################
+# 'Cybernetic Reckoning'
+#########################
+
+# Embodied Identity Situation
+ situation_unplugged_identity: "ﺓﺪﺴﺠﺘﻤﻟﺍ ﺔﻳﻮﻬﻟﺍ"
+ situation_unplugged_identity_desc: ".ﻊﻤﺴﺗ ﻥﺃ ﻲﻓ ﺐﻏﺮﺗ [owner.GetSpeciesAdj] ﺕﺍﻮﺻﺃ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ؟ﺔﻣﺭﺎﻌﻟﺍ ﺎﻨﺗﺍﺰﻳﺰﻌﺗ ﻦﻣ ﺺﻠﺨﺘﻧ ﻡﺃ ،ﺔﻟﻶﻟ ﺔﻔﻴﺨﻤﻟﺍ ﺓﻮﻘﻟﺍ ﻦﻀﺘﺤﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ﻞﻫ .ﺓﺮﺠﻤﻠﻟ ﺎﻨﺴﻔﻧﺃ ﻡﺪﻘﻨﺳ ﻒﻴﻛ ﺭﺮﻘﻧ ﻥﺃ ﺐﺠﻳ ،[origin_unplugged_assimilator_empire.GetName] ﻦﻋ ﺎﻨﻠﺼﻓ ﺪﻌﺑ"
+ situation_unplugged_identity_type: "ﺓﺪﺴﺠﺘﻤﻟﺍ ﺔﻳﻮﻬﻟﺍ ﺔﻟﺎﺣ"
+ unplugged_identity_stage_1: "ﻲﻧﻭﺮﺘﻜﻟﻹﺍ ﻊﺑﺎﻄﻟﺍ ﺔﻟﺍﺯﺇ" # describes an outcome of the Situation
+ situation_unplugged_stage_decyberize: ".ﻪﺳﺭﺎﻤﺗ ﻱﺬﻟﺍ ﻑﻮﺨﻟﺍﻭ ﺓﻮﻘﻟﺍ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ﺎﻨﺗﺍﺰﻳﺰﻌﺗ ﺾﻓﺮﻧ ﻦﺤﻧ"
+ unplugged_identity_stage_2: "ﻦﻫﺍﺮﻟﺍ ﻊﺿﻮﻟﺍ" # describes an outcome of the Situation
+ situation_unplugged_stage_remain: ".ﺔﻴﻟﺎﺤﻟﺍ ﺎﻨﺗﺍﻭﺫ ﻞﺒﻘﻧﻭ ﻑﺮﺘﻌﻧ ﻦﺤﻧ"
+ unplugged_identity_stage_3: "ﺔﻟﻵﺍ ﻢﻏﺎﻨﺗ" # describes an outcome of the Situation
+ situation_unplugged_stage_cyberize: ".ﺔﺻﺎﺨﻟﺍ ﺎﻨﻃﻭﺮﺸﺑ ﺔﻟﻵﺍ ﺓﻮﻗ ﻦﻀﺘﺤﻧ ﻦﺤﻧ"
+ # factions:
+ situation_unplugged_prosperity_opinion: "§Y$unplugged_identity_stage_1$§! ﻞﻀﻔﺗ §H$pft_prosperity$§!- " # 'Our Prosperity Faction favors...'
+ situation_unplugged_technologists_opinion: "§Y$unplugged_identity_stage_3$§! ﻞﻀﻔﻳ §H$pft_technologist$§!- "
+ situation_unplugged_totalitarian_opinion: ")§Y$situation_unplugged_identity_discourage_change$§!) ﺮﻴﻴﻐﺘﻟﺍ ﻡﺪﻋ ﻞﻀﻔﻳ §H$pft_totalitarian$§!- "
+ situation_unplugged_traditionalist_opinion: "§YDe-Cyberization§! ﻞﻀﻔﻳ §H$pft_traditionalist$§!- "
+ situation_unplugged_xenoist_opinion: "§YDe-Cyberization§! ﻞﻀﻔﻳ §H$pft_xenoist$§!- "
+ situation_unplugged_supremacist_opinion: "§Yﺔﻟﻵﺍ§! ﻞﻀﻔﻳ §H$pft_supremacist$§!- "
+ situation_unplugged_imperialist_opinion: "§Yﺔﻟﻵﺍ§! ﻞﻀﻔﺗ §H$pft_Imperialist$§!- "
+ situation_unplugged_isolationist_opinion: "§YDe-Cyberization§! ﻞﻀﻔﻳ §H$pft_isolationist$§!- "
+ situation_unplugged_progressive_opinion: "§YDe-Cyberization§! ﻞﻀﻔﺗ §H$pft_progressive$§!- "
+ situation_unplugged_no_opinion: "ﻱﻮﻗ ﻱﺃﺭ ﻦﻋ ﺮﺒﻌﻳ ﺔﻴﻟﺎﺤﻟﺍ ﺎﻨﻠﺋﺎﺼﻓ ﻦﻣ ﺪﺣﺃ ﻻ -"
+ # approaches:
+ situation_unplugged_identity_open_conversations: "ﻞﺧﺪﺗ ﻻ"
+ situation_unplugged_identity_open_conversations_effect_tt: ".ﻲﻤﻠﻌﻟﺍ ﺚﺤﺒﻟﺍﻭ ﺔﻴﺒﻌﺸﻟﺍ ﺎﻨﻠﺋﺎﺼﻓ ﻰﻟﺇ ﻉﻮﺟﺮﻟﺍ ﻝﻼﺧ ﻦﻣ ﻞﺋﺍﺪﺒﻟﺍ ﻊﻴﻤﺠﻟ ﺔﺤﻳﺮﺻﻭ ﺓﺮﺣ ﺔﺸﻗﺎﻨﻤﺑ ﺡﺎﻤﺴﻟﺍ"
+ situation_unplugged_identity_discourage_change: "ﻦﻫﺍﺮﻟﺍ ﻊﺿﻮﻟﺍ"
+ situation_unplugged_identity_discourage_change_effect_tt: ".ﻊﺿﻮﻟﺍ ﺍﺬﻬﻟ ﺔﻴﻟﺎﺤﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻞﺟﺃ ﻦﻣ ﺔﻴﻌﺟﺭ ﻞﻗﺃﻭ ﺍﺀﻭﺪﻫ ﺮﺜﻛﺃ ﺵﺎﻘﻧ ﻲﻓ ﺮﻤﺜﺘﺳﺍ"
+ situation_unplugged_identity_embrace_opinion: "ﻢﻋﺪﻟﺍ ﻩﺎﺠﺗﺍ"
+ situation_unplugged_identity_embrace_opinion_effect_tt: ".ﻊﺿﻮﻟﺍ ﺍﺬﻬﻟ ﻲﻟﺎﺤﻟﺍ ﻩﺎﺠﺗﻻﺍ ﻩﺎﺠﺗ ﻲﺳﺎﻴﺴﻟﺍ ﻢﻋﺪﻟﺍﻭ ﺩﺭﺍﻮﻤﻟﺎﺑ ﺪﻬﻌﺘﻟﺍ"
+ # monthly change modifiers:
+ situation_unplugged_identity_monthly_change_tooltip: "$situation_monthly_change_tooltip_approaches_dependent$"
+ situation_unplugged_faction_opinion_tt: "ﻞﺋﺎﺼﻔﻟﺍ ﻢﻋﺩ"
+ situation_unplugged_recent_events_tt: "ﺓﺮﻴﺧﻷﺍ ﺙﺍﺪﺣﻷﺍ"
+ situation_unplugged_identity_open_conversations_tt: "$situation_unplugged_identity_open_conversations$ ﺞﻬﻧ"
+ situation_unplugged_identity_discourage_change_tt: "$situation_unplugged_identity_discourage_change$ ﺞﻬﻧ"
+ situation_unplugged_identity_embrace_opinion_tt: "$situation_unplugged_identity_embrace_opinion$ ﺞﻬﻧ"
+ situation_unplugged_identity_opinion_settled_tt: "ﻱﺃﺮﻟﺍ ﺮﻘﺘﺳﺍ"
+ unplugged_ruined_cradle_sympathy: "FTL ﻞﺒﻗ ﺎﻣ ﻊﻤﺘﺠﻣ ﻊﻣ ﻒﻃﺎﻌﺘﻣ"
+ unplugged_ruined_cradle_no_sympathy: "Opus Accumulator ﻊﻣ ﻒﻃﺎﻌﺘﻣ"
+ # tooltips for related events:
+ situation_unplugged_change_trend_tt: "."ﻢﻋﺪﻟﺍ ﻩﺎﺠﺗﺍ" ﻒﻗﻮﻣ ﺩﺎﻤﺘﻋﺍﻭ ،ﻲﻟﺎﺤﻟﺍ ﻩﺎﺠﺗﻼﻟ ﺔﺿﺭﺎﻌﻤﻟﺍ ﺔﻴﺒﻌﺸﻟﺍ ﻞﺋﺎﺼﻔﻟﺍ ﻢﻋﺩ ﻝﻼﺧ ﻦﻣ §Y$situation_unplugged_identity$§! ﻒﻗﻮﻣ ﻩﺎﺠﺗﺍ ﺮﻴﻴﻐﺘﺑ ﻡﻮﻘﻧ ﺪﻗ"
+situation_unplugged_keep_trend_tt: "."ﻦﻫﺍﺮﻟﺍ ﻊﺿﻮﻟﺍ" ﻒﻗﻮﻣ ﻲﻨﺒﺗ ﻝﻼﺧ ﻦﻣ ﻭﺃ ،ﺓﺮﻜﻔﻟﺍ ﻩﺬﻫ ﺢﻟﺎﺼﻟ Pop Factions ﻢﻋﺩ ﻝﻼﺧ ﻦﻣ §Y$situation_unplugged_identity$§! ﻊﺿﻮﻟﺍ ﻲﻓ ﻩﺎﺠﺗﻻﺍ ﺍﺬﻫ ﻰﻠﻋ ﻆﻓﺎﺤﻧ ﺪﻗ"
+ situation_unplugged_identity_shift_decyberize_tt: "§Y$unplugged_identity_stage_1$§! ﻮﺤﻧ §Y$situation_unplugged_identity$§! ﻝﻮﺤﺘﻳ"
+ situation_unplugged_identity_shift_cyberize_tt: "§Y$unplugged_identity_stage_3$§! ﻮﺤﻧ §Y$situation_unplugged_identity$§! ﻝﻮﺤﺘﻳ"
+ situation_unplugged_decyberize_tt: ".ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﻪﻘﺋﺍﻮﻋﻭ ﻩﺪﺋﺍﻮﻓ ﺾﻌﺑ [target.GetSpeciesNamePlural] ﻞﻫﺎﺠﺘﻳ ﻑﻮﺳ"
+ situation_unplugged_cyberize_tt: ".ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﻖﺋﺍﻮﻌﻟﺍ ﺾﻌﺑ ﻦﻣ [target.GetSpeciesNamePlural] ﺺﻠﺨﺘﻳ ﻑﻮﺳ"
+ # trait change notifications:
+ MESSAGE_UNPLUGGED_DECYBERIZED_TITLE: "ﺖﻧﺮﺘﻧﻹﺍ ﺀﺎﻐﻟﺇ ﺔﻴﻠﻤﻋ ﺡﺎﺠﻧ"
+ MESSAGE_UNPLUGGED_CYBERIZED_TITLE: "ﺢﺟﺎﻨﻟﺍ ﺔﻟﻵﺍ ﻖﻴﺴﻨﺗ"
+ situation_unplugged_lost_positive_3: "['trait:trait_unplugged_cybernetic_positives_2'] ﺖﺤﺒﺻﺃ ['trait:trait_unplugged_cybernetic_positives_3'] ﺔﻤﺳ"
+ situation_unplugged_lost_positive_2: "['trait:trait_unplugged_cybernetic_positives_1'] ﺖﺤﺒﺻﺃ ['trait:trait_unplugged_cybernetic_positives_2'] ﺔﻤﺳ"
+ situation_unplugged_lost_positive_1: "['trait:trait_unplugged_cybernetic_positives_1'] ﺔﻤﺳ ﺔﻟﺍﺯﺇ ﺖﻤﺗ"
+ situation_unplugged_lost_negative_3: "['trait:trait_unplugged_cybernetic_negatives_2'] ﺖﺤﺒﺻﺃ ['trait:trait_unplugged_cybernetic_negatives_3'] ﺔﻤﺳ"
+ situation_unplugged_lost_negative_2: "['trait:trait_unplugged_cybernetic_negatives_1'] ﺖﺤﺒﺻﺃ ['trait:trait_unplugged_cybernetic_negatives_2'] ﺔﻤﺳ"
+ situation_unplugged_lost_negative_1: "['trait:trait_unplugged_cybernetic_negatives_1'] ﺔﻤﺳ ﺔﻟﺍﺯﺇ ﺖﻤﺗ"
+ situation_unplugged_gained_decyberized: "['trait:trait_unplugged_decyberized'] ﺔﻤﺳ ﺏﺎﺴﺘﻛﺍ ﻢﺗ"
+ situation_unplugged_decyber_notification_22: "$situation_unplugged_lost_negative_3$\n\n$situation_unplugged_lost_positive_3$"
+ situation_unplugged_decyber_notification_21: "$situation_unplugged_lost_negative_2$\n\n$situation_unplugged_lost_positive_3$"
+ situation_unplugged_decyber_notification_20: "$situation_unplugged_lost_negative_1$\n\n$situation_unplugged_lost_positive_3$"
+ situation_unplugged_decyber_notification_11: "$situation_unplugged_lost_negative_2$\n\n$situation_unplugged_lost_positive_2$"
+ situation_unplugged_decyber_notification_10: "$situation_unplugged_lost_negative_1$\n\n$situation_unplugged_lost_positive_2$"
+ situation_unplugged_decyber_notification_00: "$situation_unplugged_gained_decyberized$\n\n$situation_unplugged_lost_negative_1$\n\n$situation_unplugged_lost_positive_1$"
+
+ unplugged.3000.name: "ﺎﻧﺪﻴﺴﺠﺗ" # intentionally abstract - 'how we embody ourselves' - referring to the accompanying Situation
+ unplugged.3000.desc: ".ﺎﻬﻨﻴﺴﺤﺗ ﻭﺃ ﺔﻴﻟﺎﺤﻟﺍ ﺔﻳﺪﺴﺠﻟﺍ ﺎﻨﻟﺎﻜﺷﺃ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻲﻓ ﺕﺎﺒﻏﺮﻟﺍ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ،ﺍﺭﺎﺸﺘﻧﺍ ﺮﺜﻛﺃ ﺓﺩﺎﻳﺯ ﻮﺤﻧ ﻭﺃ "ﺖﻧﺮﺘﻧﻹﺍ ﺔﻟﺍﺯﺇ" ـﺑ ﻰﻤﺴﻳ ﺎﻣ ﻮﺤﻧ ﺕﺎﻫﺎﺠﺗﺍ ﻱﺃ ﺔﻠﻣﺎﺸﻟﺍ ﺕﺎﺳﺍﺭﺪﻟﺍ ﺱﺭﺪﺗ ﻑﻮﺳ .ﻮﻤﻨﻟﺍ ﻲﻓ [root.GetName] ﺮﻤﺘﺴﻳ ﺎﻤﻨﻴﺑ [root.GetSpeciesNamePlural] ﻊﻴﻤﺠﻟ ﺔﻴﺤﻟﺍ ﺏﺭﺎﺠﺘﻟﺍ ﺔﺒﻗﺍﺮﻣ ﻲﻓ ﺮﻤﺘﺴﻨﺳ ،ﻮﺤﻨﻟﺍ ﺍﺬﻫ ﻰﻠﻋ .ﺃﻮﺳﻸﻟ ﻭﺃ ﻞﻀﻓﻸﻟ ،ﻪﻠﻤﻛﺄﺑ ﺎﻨﻌﻤﺘﺠﻣ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻟﺍ ﻲﻓ ﻞﻌﻔﻟﺎﺑ ﺔﻴﻤﻴﻤﺣ ﺮﺜﻛﻷﺍ ﺕﺎﻋﺍﺮﺼﻟﺍ ﻩﺬﻫ ﺕﺃﺪﺑ ﺪﻘﻟ \n\n .ﺎﻧﺩﺎﺴﺟﻷ ﺏﺎﺠﻋﻺﻟ ﺮﻴﺜﻤﻟﺍﻭ ﻢﻟﺆﻤﻟﺍ ﻱﺮﺴﻘﻟﺍ ﻮﻤﻨﻟﺍ ﻦﻴﺑ ﻖﻴﻓﻮﺘﻠﻟ ﺎﻴﻠﺧﺍﺩ ﺎﻋﺍﺮﺻ ﻪﺟﺍﻮﻧ ﺎﻨﻧﺈﻓ - ﺔﺻﺎﺨﻟﺍ ﺎﻧﺭﺎﻜﻓﺃ ﻯﻮﺳ ﯫﻴﺷ ﻙﺮﺘﻧ ﻻ ﺎﻣﺪﻨﻋ - ﺔﺣﺍﺮﻟﺍ ﻭﺃ ﻡﻼﺴﻟﺍ ﺕﺎﻗﻭﺃ ﻲﻓ ﻰﺘﺣ ﻦﻜﻟﻭ .ﺎﻋﺍﺮﺻ [root.GetSpeciesNamePlural] ﺎﻨﻬﺟﺍﻭ ،ﺔﻟﻶﻟ ﻙﺮﺘﺸﻤﻟﺍ ﻲﻋﻮﻟﺍ ﻦﻋ ﺎﻬﻴﻓ ﺎﻨﻠﺼﻔﻧﺍ ﻲﺘﻟﺍ ﺔﻈﺤﻠﻟﺍ ﺬﻨﻣ"
+ unplugged.3000.a: ".ﺭﻮﻬﺘﺑ ﻑﺮﺼﺘﻧ ﻦﻟ ﻦﻜﻟﻭ ،ﺐﺜﻛ ﻦﻋ ﺐﻗﺍﺮﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+ unplugged.3000.b: ".ﻊﻳﺮﺳ ﻑﺪﻬﺑ ﻑﺮﺼﺘﻧ ﺎﻧﻮﻋﺩ .ﻦﻜﺴﻧ ﻥﺃ ﺎﻨﻟ ﻲﻐﺒﻨﻳ ﻻ"
+ unplugged.3000.c: ".ﺞﺠﺤﻟﺍ ﻊﻴﻤﺠﻟ ﻦﻴﻠﺒﻘﺘﻣ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳ"
+ unplugged.3005.name: "ﺪﺣﺍﻭ ﻞﻘﻋ ﻦﻣ"
+ unplugged.3005.desc: ".ﻭﺪﺒﻧ ﻒﻴﻛﻭ ،ﻦﺤﻧ ﻦﻣ ﻝﻮﺣ ﻥﻮﻘﻔﺘﻣ [owner.GetSpeciesNamePlural] ﻥﺈﻓ - ﺔﻣﻮﻜﺤﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻲﻓ ﺎﻨﺠﻬﻧ ﻭﺃ ﺎﻨﻓﻭﺮﻇ ﻲﻓ ﺔﻳﺭﺬﺠﻟﺍ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ ﺀﺎﻨﺜﺘﺳﺎﺑ - ﻪﻧﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻦﻜﻟﻭ ،ﻱﺮﻫﺎﻈﻟﺍ ﻡﺎﺠﺴﻧﻻﺍ ﺍﺬﻫ ﺮﻤﺘﺴﻳ ﻥﺃ ﻦﻜﻤﻳ ﻒﻴﻛ ﺔﻓﺮﻌﻣ ﻪﻧﺍﻭﻷ ﻖﺑﺎﺴﻟﺍ ﻦﻣ \n\n .ﻉﺎﻤﺟﻹﺍ ﻦﻣ ﻉﻮﻧ ﻰﻟﺇ ﻯﺩﺃ ﺪﻗ ﺎﻧﺩﺎﺴﺟﺃ ﻝﻮﺣ ﺓﺭﻮﻄﺘﻤﻟﺍ ﺙﺎﺤﺑﻷﺍﻭ ﻲﻋﺎﻤﺘﺟﻻﺍ ﺏﺎﻄﺨﻟﺍﻭ ﺕﺎﺳﺎﻴﺴﻟﺍ ﻊﻨﺻ ﻦﻴﺑ ﺪﻘﻌﻤﻟﺍ ﻞﻋﺎﻔﺘﻟﺍ ﻥﺃ ﻭﺪﺒﻳ .ﺀﻭﺪﻬﻟﺍ ﻦﻣ ﺓﺮﺘﻓ ﻲﻓ ﻥﻵﺍ ﺎﻨﻠﺧﺩ ﺎﻨﻧﺃ ﺎﻨﻳﺪﻟ ﺀﺎﻀﻋﻷﺍ ﻒﺋﺎﻇﻭ ﻢﻠﻋ ﻩﺎﺠﺗ [owner.GetAdj] ﻒﻗﺍﻮﻤﻟ ﺔﻠﻣﺎﺸﻟﺍ ﺎﻨﺗﺎﻈﺣﻼﻣ ﺮﻬﻈﺗ"
+ unplugged.3005.a: ".ﺔﻴﺳﺎﻴﺳ ﺮﺜﻛﺃ ﺵﺎﻘﻨﻟﺍ ﺍﺬﻫ ﺢﺒﺼﻳ ﻥﺃ ﻲﻐﺒﻨﻳ"
+ unplugged.3005.b: ".ﻊﻗﻮﺘﻣ ﻮﻫ ﺎﻤﻛ"
+ unplugged.3005.c: ".ﻚﻟﺫ ﺔﺿﺭﺎﻌﻣ"
+ unplugged.3010.name: "ﺔﻤﺴﻘﻨﻣ ﺀﺍﺭﺁ"
+ unplugged.3010.desc: ".ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺔﺷﺎﺸﻫ ﺮﺜﻛﺃ ﻥﻵﺍ ﺖﺤﺒﺻﺃ ﺔﻴﺗﺍﺬﻟﺍ ﺔﻳﻮﻬﻟﺍ ﻝﻮﺣ ﺎﻨﺘﻓﺎﻘﺛ ﺭﺎﻜﻓﺃ ﻥﺃﻭ ،ﺎﻤﺴﻘﻨﻣ ﺎﺒﻌﺷ ﺍﻮﺤﺒﺻﺃ [owner.GetSpeciesNamePlural] ﻥﺃ ﺎﻀﻳﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻤﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﺕﺍﻮﺻﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻉﺎﻤﺴﺑ ﺎﻨﺤﻤﺳ ﺎﻨﻧﻷ ﻢﻫﺮﺨﻓ ﻦﻋ ﻦﻴﻨﻃﺍﻮﻤﻟﺍ ﺾﻌﺑ ﺏﺮﻋﺃ ،ﻊﻗﺍﻮﻟﺍ ﻲﻓﻭ ؛ﺔﻴﻧﺪﻤﻟﺍ ﺕﺎﺑﺍﺮﻄﺿﻻﺍ ﻭﺃ ﻒﻨﻌﻟﺍ ﻰﻟﺇ ﺓﺮﺷﺎﺒﻣ ﻱﺩﺆﺗ ﺕﺍﺭﺎﺠﻔﻧﻻﺍ ﻩﺬﻫ ﻦﻣ ﻞﻴﻠﻘﻟﺍ \n\n .ﺔﻳﺮﻀﺤﻟﺍ ﺎﻧﺰﻛﺍﺮﻣ ﻲﻓ ﻥﻵﺍ ﺔﻴﻔﻃﺎﻌﻟﺍ ﺞﺠﺤﻟﺍﻭ ﺕﺎﺟﺎﺠﺘﺣﻻﺍ ﺭﺎﺸﺘﻧﺍ ﻊﻣ ،ﻱﺃﺮﻟﺍ ﻲﻓ ﺓﺪﻳﺪﺷ ﺕﺎﺒﻠﻘﺗ ﻰﻟﺇ ﺎﻧﺩﺎﺴﺟﺃ ﻝﻮﺣ ﺓﺭﻮﻄﺘﻤﻟﺍ ﺙﺎﺤﺑﻷﺍﻭ ﻲﻋﺎﻤﺘﺟﻻﺍ ﺏﺎﻄﺨﻟﺍﻭ ﺕﺎﺳﺎﻴﺴﻟﺍ ﻊﻨﺻ ﻦﻴﺑ ﺪﻘﻌﻤﻟﺍ ﻞﻋﺎﻔﺘﻟﺍ ﻯﺩﺃ .ﻲﻓﺎﻘﺜﻟﺍ ﺏﺍﺮﻄﺿﻻﺍ ﻦﻣ ﺓﺮﺘﻓ ﺎﻨﻠﺧﺩ ﺎﻨﻧﺃ ﺎﻨﻳﺪﻟ ﺀﺎﻀﻋﻷﺍ ﻒﺋﺎﻇﻭ ﻢﻠﻋ ﻩﺎﺠﺗ [owner.GetAdj] ﻒﻗﺍﻮﻤﻟ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺎﻨﺘﺳﺍﺭﺩ ﺮﻬﻈﺗ"
+ unplugged.3010.a: ".ﺕﺎﺸﻗﺎﻨﻤﻟﺍ ﻩﺬﻬﻟ ﻞﻀﻓﺃ ﻯﺪﺘﻨﻣ ﺪﺠﻧ ﻥﺃ ﺎﻨﻴﻠﻋﻭ"
+ unplugged.3090.name: "[owner.GetSpeciesNamePlural] ،ﻦﺤﻧ" # e.g. 'We, the Neo-Humans'
+ unplugged.3090.desc: ".ﺕﺍﺬﻟﺍ ﻖﻴﻘﺤﺗ ﻮﺤﻧ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺎﻨﺘﻠﺣﺭﻭ ،ﺔﻳﺪﺴﺠﻟﺍ ﺎﻨﻟﺎﻜﺷﺃ ﻦﻋ ﻥﻮﺿﺍﺭ [owner.GetSpeciesName] ﻥﺃ ﻭﺪﺒﻳ ،ﻞﻗﻷﺍ ﻰﻠﻋ ﺎﻴﻠﺤﻣ .ﻯﺮﺧﺃ ﺔﻟﺄﺴﻣ ﻲﻬﻓ ،ﻻ ﻡﺃ ﻊﺳﻭﻷﺍ ﺓﺮﺠﻤﻠﻟ ﺔﻴﺟﺭﺎﺨﻟﺍ ﺔﺳﺎﻴﺴﻟﺍ ﻞﺜﻣ ﺮﻴﻳﺎﻌﻣ ﻡﺮﺘﺤﻧ ﺎﻨﻛ ﺀﺍﻮﺳﻭ \n\n .ﺓﺪﺴﺠﺘﻤﻟﺍ ﺎﻨﺗﺍﻭﺫ ﻥﺄﺸﺑ ﻡﻮﻳ ﺕﺍﺫ ﺎﻨﻳﺪﻟ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺔﻠﻴﺤﺘﺴﻤﻟﺍ ﻕﺍﻮﺷﻷﺍﻭ ﻑﻭﺎﺨﻤﻟﺍﻭ ﻙﻮﻜﺸﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻣ ﺭﺮﺤﺘﻟﺎﺑ ﺐﻟﺎﻄﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ .ﺔﻳﺪﺴﺠﻟﺍ ﺔﻳﻮﻬﻟﺍ ﻊﻣ ﺎﻨﻌﻤﺘﺠﻣ ﻉﺍﺮﺻ ﻦﻣ ﺕﺮﻬﻇ ﻲﺘﻟﺍ ﺔﺑﺍﺬﺠﻟﺍﻭ ﺔﻄﺴﺒﻤﻟﺍ ﺓﺪﻳﺪﻌﻟﺍ ﺕﺍﺭﺎﻌﺸﻟﺍ ﻦﻣ ﺪﺣﺍﻭ ﺩﺮﺠﻣ ﺍﺬﻫ\n\n'.ﻞﻗﺃ ﻻﻭ ﺮﺜﻛﺃ ﻻ ؛ﻭﺪﺒﻧ ﺎﻤﻛ ﻦﺤﻧ»"
+
+ unplugged.3100.name: "ﺔﻟﺍﺯﻹﺍ ﺏﺎﺒﺳﺃ"
+ unplugged.3100.desc: ".ﻞﻜﺸﻟﺍ ﻞﻠﺧﻭ ﻖﻴﻤﻌﻟﺍ ﺭﺎﻌﻟﺍ ﻦﻋ ﺔﻤﺟﺎﻨﻟﺍ ﺔﻴﻣﻮﻴﻟﺍ ﺐﻋﺎﺼﻤﻟﺍ ﻦﻣ ﻥﻮﻧﺎﻌﻳ ﻦﻳﺬﻟﺍ [root.GetSpeciesNamePlural] ﻦﻣ ﺪﻳﺪﻌﻠﻟ ﺔﺣﺍﺮﻟﺍ ﺮﻴﻓﻮﺗﻭ ﺔﻴﺒﻨﺟﻷﺍ ﻯﻮﻘﻟﺍ ﻊﻣ ﺎﻨﺘﻌﻤﺳ ﻦﻴﺴﺤﺗ ﻞﺟﺃ ﻦﻣ ،ﺔﻴﻠﺧﺍﺩ ﺔﻣﺯﺃ ﻪﻧﻭﺮﺒﺘﻌﻳ ﺎﻤﻟ ﻝﻮﻠﺣ ﺩﺎﺠﻳﺈﺑ ﺭﻮﻬﻤﺠﻟﺍ ﺐﻟﺎﻄﻳ\n\n .ﺎﻣﺎﻤﺗ ﺎﻬﺘﻟﺍﺯﺇ ﻭﺃ ﺎﻧﺩﺎﺴﺟﺃ ﻰﻠﻋ ﺎﻬﺿﺮﻓ ﻢﺗ ﻲﺘﻟﺍ ﺕﺍﺩﺎﻳﺰﻟﺍ ﻦﻣ ﺪﺤﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ،ﺎﻨﺗﺰﻬﺟﺃ ﺐﻧﺍﻮﺟ ﻦﻋ ﺎﻨﺴﻔﻧﺃ ﺩﺎﻌﺑﻹ ﺪﻳﺰﻤﻟﺍ ﻞﻌﻔﻧ ﻥﺃ ﺐﺠﻳ ﺎﻨﻧﺃ [root.GetSpeciesNamePlural] ﻦﻣ ﺪﻳﺍﺰﺘﻣ ﺩﺪﻋ ﺪﻘﺘﻌﻳ"
+ unplugged.3100.a: ".ﺩﺭﺍﻭ ﺮﻴﻏ"
+ unplugged.3100.b: ".ﻢﺘﻳ ﻚﻟﺫ ﻯﺮﻧ ﻑﻮﺳ"
+
+ unplugged.3105.name: "ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺔﻟﺍﺯﺇ ﻲﻓ ﻕﺍﺮﺘﺧﺍ"
+ unplugged.3105.desc: ".ﺔﻴﻘﻴﻘﺣ [target.GetSpeciesAdj] ﺓﺮﺸﺑ ،ﻯﺮﺧﺃ ﺓﺭﺎﺒﻌﺑﻭ - ﺔﻳﻮﻀﻋ ﺓﺩﺎﻣ ﻊﻣ ﺀﺎﻛﺬﺑ ﺔﻜﺑﺎﺸﺘﻣ ،ﺎﻨﻌﻨﺻ ﻦﻣ ﺔﻳﺪﻠﺟ ﺔﻘﺒﻄﺑ ﺔﻜﺒﺸﻟﺍ ﻚﻠﺗ ﻝﺍﺪﺒﺘﺳﺍ ﻥﻵﺍ ﺎﻨﻨﻜﻤﻳ ،ﻚﻟﺫ ﻊﻣﻭ .ﺓﺯﺰﻌﻤﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺎﻨﻔﺋﺎﻇﻭ ﻦﻣ ﺪﻳﺪﻌﻠﻟ ﻲﺳﺎﺳﺃ ﻥﻮﻜﻣ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻘﺒﻄﻟﺍ ﻩﺬﻫ ﻥﻷ ﻂﻘﻓ ﻚﻟﺫﻭ ،ﺔﺒﻋﺮﻣﻭ ﺔﻴﻠﻤﻋ ﺮﻴﻏ ﺔﻳﺩﺎﻣ ﻻﺎﻜﺷﺃ ﻪﻧﻭﺮﺒﺘﻌﻳ ﺎﻤﻣ ﻲﻧﺎﻌﺗ ﻥﺃ [target.GetSpeciesNamePlural] ﻝﺎﻴﺟﺃ ﻰﻠﻋ ﻥﺎﻛ \n\n .ﺎﻬﻴﻠﻋ ﺪﻤﺘﻌﺗ ﻲﺘﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺕﺍﺩﺎﻳﺰﻟﺍ ﻊﻣ ﻂﺒﺗﺮﻤﻟﺍ ﺔﻳﻮﻧﺎﻨﻟﺍ ﺔﻜﺒﺸﻟﺍ ﻉﺭﺩ ﺔﻟﺍﺯﻹ ﺔﻴﻨﻘﺗ ﺍﻭﺭﻮﻃ ﻢﻬﻧﺃ ﻥﻮﻤﻋﺰﻳ .ﺮﻴﺒﻛ ﻡﺪﻘﺗ ﻖﻴﻘﺤﺗ ﻦﻋ [target.GetName] ـﻟ "ﻲﻧﻭﺮﺘﻜﻟﻹﺍ ﻊﺑﺎﻄﻟﺍ ﺔﻟﺍﺯﺇ" ﺔﻴﻀﻘﻟ ﺺﺼﺨﻣ ﻲﻧﺪﻣ ﺮﺒﺘﺨﻣ ﻲﻓ ﻥﻮﺜﺣﺎﺒﻟﺍ ﻦﻠﻋﺃ"
+ unplugged.3105.a: ".ﻰﻘﺒﻳ .ﻝﺎﻴﺟﻷ ﺎﻨﻴﻤﺤﻳ ﻉﺭﺪﻟﺍ ﺍﺬﻫ"
+ unplugged.3106.desc: ".ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺍﺰﻳﺰﻌﺘﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﺔﻣﺪﺨﻟ ﻱﺩﺎﺼﺘﻗﻻﺍ ﺀﺐﻌﻟﺍ ﻦﻣ ﺎﻀﻳﺃ ﻞﻠﻘﺘﺳ ﻩﺬﻫ ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺬﻓﺎﻨﻣ ﺔﻟﺍﺯﺇ ﻥﺃ ﺔﻔﻴﻀﻣ ،ﻞﻌﻔﻟﺎﺑ ﺔﻴﻠﻤﻌﻟﺍ ﺺﺤﻔﺑ ﺕﺎﺼﺼﺨﺘﻟﺍ ﺓﺩﺪﻌﺘﻣ ﺔﻌﺟﺍﺮﻣ ﺔﻨﺠﻟ ﺖﻣﺎﻗ \n\n .ﺎﻫﺮﻳﻭﺪﺗ ﺩﺎﻌﻤﻟﺍ ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﺕﺍﺰﻳﺰﻌﺘﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻤﺑ ﻢﻫﺪﻳﻭﺰﺗ ﻰﻠﻋ ﻢﻫﺮﺒﺠﻳ ﺎﻤﻣ ،[target.GetSpeciesNamePlural] ﺓﺩﻻﻮﻟﺍ ﻲﺜﻳﺪﺣ ﻝﺎﻔﻃﻷﺍ ﻰﺘﺣ ﺐﻴﺼﺗ ﻲﺘﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺕﺎﻴﻌﺒﺘﻟﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻌﻟ ﻻﻮﻠﺣ ﺍﻭﺪﺟﻭ ﻢﻬﻧﺃ ﺀﺍﺮﺒﺨﻟﺍ ﻲﻋﺪﻳ .ﺔﺣﺍﺮﺠﻟﺍ ﻦﻣ ﻱﺭﺬﺟ ﺪﻳﺪﺟ ﻞﻜﺷ ﻕﺎﻄﻧ ﻊﻴﺳﻮﺘﻟ ﺎﺳﺎﻤﺘﻟﺍ ﻥﻵﺍ ﺔﻴﺒﻄﻟﺍ ﻖﻓﺍﺮﻤﻟﺍ ﻡﺪﻘﺗ ﺚﻴﺣ ،ﺮﺧﺁ ﺎﻣﺪﻘﺗ [target.GetName] ـﻟ ﻲﻧﻭﺮﺘﻜﻟﻹﺍ ﻊﺑﺎﻄﻟﺍ ﺔﻟﺍﺯﻹ ﺔﻴﻠﺤﻤﻟﺍ ﺎﻧﺩﻮﻬﺟ ﺖﻘﻘﺣ"
+ unplugged.3106.a: ".ﻝﺎﺘﻘﻟﺍ ﻲﻓ ﺎﻨﻗﻮﻔﺗ ﺎﻨﻴﻄﻌﺗ ﺕﺍﺪﺣﻮﻟﺍ ﻩﺬﻫ .ﺾﻓﺭ"
+ unplugged.3107.desc: ".ﻲﻟﻵﺍ ﻲﻋﻮﻟﺍ ﻦﻋ ﺎﻨﻠﺼﻔﻧﺍ ﻥﺃ ﺬﻨﻣ ﺎﻌﻴﻤﺟ ﺎﻬﻨﻣ ﻲﻧﺎﻌﻧ ﻲﺘﻟﺍ ﺔﻴﺴﺤﻟﺍ ﺔﺳﻮﻠﻬﻟﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻋ ﻰﻠﻋ ﻲﻀﻘﺗ ﻭﺃ ﻞﻠﻘﺗ ﺪﻗ ﺕﺎﺟﻼﻌﻟﺍ ﻩﺬﻫ ﻥﺃ ﻰﻟﺇ ﺮﻴﺸﺗ ﺔﻴﻟﻭﻷﺍ ﺕﺎﺳﺍﺭﺪﻟﺍ ﻥﺃ ﻰﺘﺣ .ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻴﻛﺮﺤﻟﺍ ﻞﻌﻔﻟﺍ ﺩﻭﺩﺭ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻣ ﻻﺪﺑ ،ﺓﺯﺰﻌﻤﻟﺍ ﺏﺎﺼﻋﻷﺍ ﺕﻼﻳﻮﺤﺗ ﻰﻠﻋ ﺩﺎﻤﺘﻋﻻﺍ ﻥﻭﺩ ﻮﻤﻨﻟﺎﺑ ﺭﺎﺒﺘﺧﻻﺍ ﺕﺎﻋﻮﺿﻮﻤﻟ ﺢﻤﺳ ﺪﻗ ﺔﺘﺑﺎﺜﻟﺍ ﺞﻣﺍﺮﺒﻟﺍ ﻕﺍﺮﺘﺧﺍﻭ ﺔﻴﻨﻴﺠﻟﺍ ﺕﺎﺟﻼﻌﻟﺍ ﻦﻣ ﺍﺪﻳﺪﺟ ﺎﺠﻳﺰﻣ ﻥﺃ ﻥﻮﻤﻋﺰﻳ .ﺎﻨﻣﺎﺴﺟﺃ ﻲﻓ ﺔﻳﻮﻀﻌﻟﺍ ﺔﻴﺒﺼﻌﻟﺍ ﺓﺰﻬﺟﻷﺍ ﺓﺩﺎﻌﺘﺳﺍﻭ ﻂﻴﺸﻨﺘﻟ ﺔﻘﻳﺮﻃ ﺍﺮﻴﺧﺃ ﻥﻮﺜﺣﺎﺒﻟﺍ ﺪﺟﻭ ﺚﻴﺣ ،ﻖﻘﺤﺘﻟﺍ ﻦﻣ ﺏﺮﺘﻘﻳ [target.GetSpeciesName] ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻢﻠﺣ ﻥﺇ"
+ unplugged.3107.a: ".ﺔﻨﺴﺤﻤﻟﺍ ﺔﻴﻟﺎﺘﻘﻟﺍ ﻞﻌﻔﻟﺍ ﺩﻭﺩﺭ ﻚﻠﺗ ﻰﻟﺇ ﺝﺎﺘﺤﻧ ﺪﻗ"
+
+ unplugged.3110.name: "ﺔﻟﻵﺍ ﻖﻴﺴﻨﺗ"
+ unplugged.3110.desc: ".ﻢﻴﻌﻨﻟﺍ ﻝﺩﺎﻌﺗ ﺔﺣﺍﺮﻟﺍ ﻦﻣ ﺔﻟﺎﺣﻭ ﺔﺣﺍﺮﻟﺍﻭ ﺓﺀﺎﻔﻜﻟﺍ ﻲﻓ ﺓﺩﺎﻳﺯ ﻦﻋ ﺔﻴﻟﻭﻷﺍ ﺭﺎﺒﺘﺧﻻﺍ ﺔﻋﻮﻤﺠﻣ ﻲﻓ ﻥﻮﻛﺭﺎﺸﻤﻟﺍ ﻎﻠﺑﺃ .[target.GetName] Nexus - ﺢﻟﺎﺼﻣ ﻂﻘﻓ ﻡﺪﺨﺗﻭ ،ﺔﻨﻣﺁ ﺎﻬﻧﺃ ﻦﻣ ﻥﻭﺪﻛﺄﺘﻣ ﺎﻨﻧﺃ ﻻﺇ [origin_unplugged_assimilator_empire.GetSpeciesAdj] ﺭﺍﺮﻏ ﻰﻠﻋ ﺎﻬﻤﻴﻤﺼﺗ ﺐﺠﻳ ،ﻒﻳﺮﻌﺘﻟﺍ ﻢﻜﺤﺑ - ﻢﻴﻤﺼﺘﻟﺍ ﺚﻴﺣ ﻦﻣ ﺔﻳﺎﻐﻠﻟ ﺔﻳﺰﻛﺮﻣ ﺔﻠﻳﺪﺒﻟﺍ ﺔﻜﺒﺸﻟﺍ ﻩﺬﻫ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﺯﺎﻬﺠﻟﺍ ﺓﺭﺎﺷﺇ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ [target.GetSpeciesNamePlural] ـﻟ ﺓﺎﻧﺎﻌﻤﻟﺍﻭ ﺞﻴﻬﺘﻠﻟ ﺔﻳﺎﻬﻧ ﻱﺃ ﺙﻭﺪﺣ ﻲﻓ ﺎﻬﺑﺎﻴﻏ ﺐﺒﺴﺘﻳ ﻢﻟ ﻲﺘﻟﺍﻭ ،ﺎﻨﻳﺪﻟ ﺕﺍﺰﻳﺰﻌﺘﻟﺍ ﻊﻴﻤﺟ ﺔﻨﻣﺍﺰﻤﺑ ﻡﻮﻘﺗ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺔﻴﻜﻠﺳﻼﻟﺍ [origin_unplugged_assimilator_empire.GetAdj] ﺔﻜﺒﺷ ﺔﻠﻤﻜﺗ ﺔﻴﻔﻴﻛ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺕﺍﺰﻳﺰﻌﺘﻟﺍ ﻲﻓ ﻢﻜﺤﺘﻟﺍ ﺢﻨﻤﻟ ﺺﺼﺨﻣ ﻲﻧﺪﻣ ﺚﺤﺑ ﻖﻳﺮﻓ ﻒﺸﺘﻛﺍ"
+ unplugged.3110.a: ".ﻻ .ﻯﺮﺧﺃ ﺓﺮﻣ ﺍﺪﺑﺃ"
+ unplugged.3111.desc: ".ﺎﻫﺫﺎﻘﻧﺇ ﻢﺗ ﻲﺘﻟﺍ [origin_unplugged_assimilator_empire.GetAdj] ﺕﺍﺪﻌﻣ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺔﻠﺷﺎﻔﻟﺍ ﺕﺎﺣﻼﺻﻹﺍ ﻰﻠﻋ ﺎﻧﺩﺎﻤﺘﻋﺍ ﻞﻠﻘﻳ ﺎﻤﻣ ،[target.GetSpeciesNamePlural] ﺪﻳﺪﺠﻟﺍ ﺩﻮﻟﻮﻤﻠﻟ ﺔﺼﺼﺨﻣ ﺕﺎﻬﺟﺍﻭ ﺖﻴﺒﺜﺗﻭ ﺔﻴﻟﺎﺤﻟﺍ ﺕﯫﻴﻬﻟﺍ ﻞﻳﺪﻌﺗ ﻦﻣ ﺍﺬﻫ ﺎﻨﻨﻜﻤﻳ ﻥﺃ ﺽﺮﺘﻔﻤﻟﺍ ﻦﻣ .ﺔﻟﻮﻬﺴﺑ ﻢﺴﺠﻟﺍ ﺕﺍﺭﺎﻃﺇﻭ ﺔﺤﻠﺳﻷﺍ ﺕﺍﻭﺩﺃﻭ ﻞﻣﺎﻜﻟﺎﺑ ﻑﺍﺮﻃﻷﺍ ﻞﻳﺪﺒﺘﺑ ﺎﻨﻟ ﺢﻤﺴﺗ ﻲﺘﻟﺍ ﺔﻟﻵﺍ ﺮﺻﺎﻨﻋ - ﺎﻨﻣﺎﺴﺟﻷ ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﺕﺎﻬﺟﺍﻮﻟﺍ ﻲﻓ ﺔﻘﻴﻗﺪﻟﺍ ﺕﺎﻴﻌﺒﺘﻟﺍ ﻝﺰﻌﺑ [target.GetScientistPlural] ﺀﺎﺒﻃﻷﺍ ﻦﻣ ﻖﻳﺮﻓ ﻡﺎﻗ .ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺔﺣﺍﺮﺠﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺮﻴﺒﻛ ﻡﺪﻘﺗ ﻖﻴﻘﺤﺗ ﻰﻟﺇ ﺔﻴﻓﺎﺿﻹﺍ ﺎﻨﺗﺍﻭﺩﺃ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺔﺳﺭﺎﻤﻣ ﻰﻟﺇ ﺔﻴﻣﺍﺮﻟﺍ ﺎﻧﺩﻮﻬﺟ ﺕﺩﺃ ﺪﻘﻟ"
+ unplugged.3111.a: ".ﺍﺪﺟ ﺓﺪﻴﻌﺑ ﺓﻮﻄﺧ ﻩﺬﻫ"
+ unplugged.3112.desc: ".ﺔﻴﻋﺎﻤﺟ ﺔﻟﻵ ﺔﻴﻓﺮﻌﻤﻟﺍ ﺔﻴﺟﻮﻤﻟﺍ ﻝﺍﻮﻃﻷﺍ ﻲﻛﺎﺤﻳ ﻱﺬﻟﺍﻭ ،ﺔﻜﺒﺸﻟﺎﺑ ﻞﺼﺘﻣ ﺮﻴﻏ ﺪﻋﺎﺴﻣ ﻉﺭﺯ ﻖﻳﺮﻃ ﻦﻋ ﻕﻮﺸﻟﺍ ﺍﺬﻫ ﻊﻤﻗ ﻥﻵﺍ ﺎﻨﻨﻜﻤﻳ ،ﻚﻟﺫ ﻊﻣﻭ .ﺎﻨﻟ ﺔﻋﻮﻤﺴﻣ ﺪﻌﺗ ﻢﻟ ﺔﻗﻮﺟ ﻦﻋ ﻲﻋﻭ ﻥﻭﺩ ﻢﻬﺜﺤﺑ ﺀﺎﻨﺛﺃ ﺏﯫﺘﻛﻻﺍﻭ ﻖﻠﻘﻟﺍ ﻦﻣ [target.GetSpeciesNamePlural] ﻦﻣ ﻰﻤﻈﻌﻟﺍ ﺔﻴﺒﻟﺎﻐﻟﺍ ﺖﻧﺎﻋ ،ﻲﻟﻵﺍ ﻲﻋﻮﻟﺍ ﻦﻋ ﺎﻨﻠﺼﻔﻧﺍ ﻥﺃ ﺬﻨﻣ .ﺔﻴﺴﺤﻟﺍ ﺔﺳﻮﻠﻬﻠﻟ ﺎﻌﺋﺍﺭ ﺎﺟﻼﻋ ﻥﻵﺍ ﻚﻠﺘﻤﻧ ﺎﻨﻧﺃ ﺚﻴﺣ ،ﺎﻨﻳﺪﻳﺃ ﻝﻭﺎﻨﺘﻣ ﻲﻓ ﺍﺮﻴﺧﺃ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺕﺎﻨﻴﺴﺤﺘﻟﺍ ﻥﺎﻘﺗﺇ ﺢﺒﺻﺃ ﺪﻘﻟ"
+ unplugged.3112.a: ".ﻩﺭﻮﺼﺗ ﻦﻜﻤﻳ ﻻ ؟ﻯﺮﺧﺃ ﺓﺮﻣ ﻲﻟﺁ ﻞﻘﻋ ﻚﻧﺄﺑ ﺮﻫﺎﻈﺘﺗ ﻞﻫ"
+
+ unplugged.3115.name: "ﻲﻄﻴﺤﻤﻟﺍ ﻩﻮﺸﺘﻟﺍ ﻞﻠﺧ"
+ unplugged.3115.desc: ".ﺝﺎﻋﺰﻧﻻﺍﻭ ﺔﻣﺎﻌﻟﺍ ﺓﻻﺎﺒﻣﻼﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﺔﻴﻔﻴﻛ ﻢﻠﻌﺘﻳ [target.GetName] ﻥﺇ ﻝﻮﻘﻧ ﻥﺃ ﻝﺪﻌﻟﺍ ﻦﻣ ﻥﻮﻜﻳ ﺎﻤﺑﺭ\n\n.ﺾﻀﻣ ﻰﻠﻋ ﻝﻮﺒﻘﻟﺍ ﻮﺤﻧ ﺪﻳﺪﺟ ﻩﺎﺠﺗﺍ ﻦﻣ ﺀﺰﺟ ﺎﻬﻨﻜﻟ ،ﻩﺬﻫ ﻞﺜﻣ ﺔﺘﻗﺆﻤﻟﺍ ﺮﻴﺑﺍﺪﺘﻟﺍ ﻦﻋ ﻲﻠﻌﻔﻟﺍ ﺎﺿﺮﻟﺍ ﻦﻋ ﺮﺒﻌﻳ [target.GetSpeciesNamePlural] ﻦﻣ ﻞﻴﻠﻗ .ﺔﺻﺎﺨﻟﺍ ﻢﻬﻃﻭﺮﺸﻟ ﺎﻘﻓﻭ ﻢﻬﺗﺍﺩﺎﻳﺯ ﺯﺍﺮﺑﺇ ﻭﺃ ﺀﺎﻔﺧﺇ ﺭﺎﻴﺘﺧﺍﻭ ،ﻞﻴﻤﺠﺘﻟﺍ ﺕﺍﺮﻀﺤﺘﺴﻣ ﻰﻟﺇ ﻪﺟﻮﺘﻟﺍ ﻝﻼﺧ ﻦﻣ ﺎﺿﺮﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻰﻟﺇ [target.GetSpeciesNamePlural] ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻰﻌﺳ ﺪﻘﻟ .ﺔﻗﺩﻭ ﺍﺀﻭﺪﻫ ﺮﺜﻛﺃ ﺀﻲﺷ ﻲﻓ ﻞﻌﻔﻟﺎﺑ ﺵﺎﻘﻨﻟﺍ ﺍﺬﻫ ﺮﻘﺘﺳﺍ ﺪﻘﻓ ،ﻦﻴﻨﻃﺍﻮﻤﻟﺍ ﻦﻣ ﺓﺪﻳﺍﺰﺘﻣ ﺔﻴﺒﻠﻏﻷ ﺔﺒﺴﻨﻟﺎﺑ\n\n.ﻯﺮﺧﺄﺑ ﻭﺃ ﺔﻘﻳﺮﻄﺑ ،ﺎﻨﻳﺪﻟ ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺎﻨﻴﺴﺤﺘﻟﺍ ﺔﺠﻟﺎﻌﻤﻟ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺫﺎﺨﺗﺍ ﻰﻟﺇ ﺔﺿﺭﺎﻌﻤﻟﺍ ﺕﺍﻮﺻﻷﺍ ﻮﻋﺪﺗ ﺚﻴﺣ [target.GetAdj] ﻊﻤﺘﺠﻣ ﺶﻣﺎﻫ ﻰﻠﻋ ﻥﺎﻴﻠﻐﻟﺍ ﻲﻓ ﺕﺍﺮﺗﻮﺘﻟﺍ ﺮﻤﺘﺴﺗ"
+ unplugged.3115.a: ".ﻡﻮﻬﻔﻣ"
+ unplugged.3116.name: "ﻦﻫﺍﺮﻟﺍ ﻊﺿﻮﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ"
+ unplugged.3116.desc: ".ﺎﻨﺗﺍﺩﺎﻳﺯ ﻲﻓ "ﻞﺧﺪﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ" ﺪﺿ ﺔﻄﺸﻧ ﺔﻠﻤﺤﺑ ﻥﻵﺍ ﻥﻮﻣﻮﻘﻳ ﻦﻳﺬﻟﺍ [target.GetSpeciesNamePlural] ﻦﻣ ﺮﻴﺜﻜﻟﺍ ﻙﺎﻨﻫ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ .ﻞﻤﻌﻟﺍ ﻦﻋ ﺲﻋﺎﻘﺘﻟﺍ ﺓﺪﻴﻘﻋ ﺩﺮﺠﻣ ﺖﺴﻴﻟ "ﻦﻫﺍﺮﻟﺍ ﻊﺿﻮﻟﺍ" ﺔﻴﺟﻮﻟﻮﻳﺪﻳﺃ ﻥﺈﻓ ،[target.GetName] ﺐﻌﺸﻟ ﺔﺒﺴﻨﻟﺎﺑ ﻪﻧﺃ ﻭﺪﺒﻳ\n\n.ﻲﻟﺎﺤﻟﺍ ﺎﻨﺗﺎﻴﺣ ﺏﻮﻠﺳﺃ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻰﻠﻋ ﻦﻴﺼﻳﺮﺤﻟﺍ ﻦﻴﻨﻃﺍﻮﻤﻟﺍ ﻦﻣ ﺔﻣﻭﺎﻘﻤﺑ ﺖﻠﺑﻮﻗ ﻮﺤﻨﻟﺍ ﺍﺬﻫ ﻰﻠﻋﻭ ،ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺔﺳﺎﻴﺴﻟﺍ ﺎﻳﺎﻀﻘﺑ ﺔﻄﺒﺗﺮﻣ ﺕﺎﺑﺍﺮﻄﺿﻻﺍ ﻩﺬﻫ ﻦﻣ ﻞﻛ ﺖﻧﺎﻛ ،ﻚﻟﺫ ﻊﻣﻭ .ﻖﻠﻘﻠﻟ ﺐﺒﺳ ﻱﺄﺑ ﻥﺎﻜﺴﻟﺍ ﺔﻣﺎﻋ ﺮﻌﺸﻳ ﻢﻟﻭ - ﺎﺒﺳﺎﻨﻣ ﻚﻟﺫ ﻥﻮﻜﻳ ﺎﻣﺪﻨﻋ ﺎﻬﻌﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻭﺃ ﺭﻮﻣﻷﺍ ﻩﺬﻫ ﻦﻣ ﺓﺪﺣﺍﻭ ﻞﻛ ﺔﺒﻗﺍﺮﻣ ﺖﻤﺗ ﺪﻗﻭ .ﺔﻴﻤﻠﺴﻟﺍ ﻲﻧﺪﻤﻟﺍ ﻥﺎﻴﺼﻌﻟﺍ ﻝﺎﻤﻋﺃﻭ ﺔﻣﺎﻌﻟﺍ ﺕﺍﺮﻫﺎﻈﻤﻟﺍ ﻲﻓ ﺓﺩﺎﻳﺯ ﻦﻋ [target.capital_scope.GetName] ﻲﻓ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﻄﻠﺴﻟﺍ ﺖﻐﻠﺑﺃ"
+ unplugged.3116.a: ".ﻡﻮﻬﻔﻣ"
+ unplugged.3117.name: "ﺔﺒﻠﺼﻟﺍ ﺔﻟﺎﺤﻟﺍ"
+ unplugged.3117.desc: ".ﻝﻮﺒﻘﻟﺍ ﺍﺬﻫ ﻲﻓ ﻞﻣﻷﺎﺑ ﻒﻴﻌﺿ ﺭﻮﻌﺷ ﻙﺎﻨﻫ ﻦﻜﻟﻭ ،ﻞﻤﻌﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺭﺪﻗ ﺎﻨﻣﺎﻣﺃ ﻝﺍﺰﻳ ﻻﻭ .ﺎﻨﻴﻠﻋ ﺔﺿﻭﺮﻔﻤﻟﺍ ﻑﻭﺮﻈﻟﺍ ﺔﻋﻮﻤﺠﻣﻭ ،ﺹﺎﺨﻟﺍ ﻩﺮﻬﻈﻣ ﻊﻣ ﺎﻨﻌﻤﺘﺠﻣ ﺢﻟﺎﺼﺘﻳ ،ﺕﺎﺒﺜﺑ ﻦﻜﻟﻭ ﺀﻂﺒﺑ \n\n .ﺎﻬﻴﻠﻋ ﺩﺎﻤﺘﻋﻻﺍ ﻰﻟﺇ ﺎﻧﺭﺮﻄﺿﺍ ﻲﺘﻟﺍ ﺎﻫﺮﻳﻭﺪﺗ ﺩﺎﻌﻤﻟﺍ ﺀﺍﺰﺟﻸﻟ ﺓﺪﻳﺪﺟ ﺪﻳﺭﻮﺗ ﻞﺳﻼﺳ ﺀﺎﺸﻧﺇ ﻲﻓ ﺔﻴﺒﻄﻟﺍ ﻖﻓﺍﺮﻤﻟﺍ ﺕﺃﺪﺑ ،ﻪﺴﻔﻧ ﺖﻗﻮﻟﺍ ﻲﻓﻭ .ﺎﻬﻴﻟﺇ ﺔﺟﺎﺤﻟﺍ ﺲﻣﺃ ﻲﻓ ﻢﻫ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﻷ ﺓﺭﻮﺸﻤﻟﺍﻭ ﺔﻳﺮﻴﺨﻟﺍ ﺕﺍﺪﻋﺎﺴﻤﻟﺍ ﻢﻳﺪﻘﺘﻟ ﺎﻌﻣ ﻦﻴﻴﻠﻤﻌﻟﺍ ﺩﺍﺮﻓﻷﺍ ﻦﻣ ﺩﺪﻋ ﻊﻤﺘﺟﺍ ﺪﻘﻟ .ﺔﻴﻗﺍﻭﺭ ﺮﺜﻛﺃ ﺀﻲﺷ ﻰﻠﻋ ﻊﺳﻭﻷﺍ ﻡﺎﻌﻟﺍ ﻱﺃﺮﻟﺍ ﺮﻘﺘﺳﺍ ﺪﻘﻓ ،ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺎﻨﺗﺍﺰﻳﺰﻌﺗ ﺔﻟﺄﺴﻣ ﻲﻓ ﺎﻴﻣﻮﻜﺣ ﺎﺴﻋﺎﻘﺗ ﻪﻧﻭﺮﺒﺘﻌﻳ ﺎﻣ ﺩﺎﻘﺘﻧﺍ ﻲﻓ [target.GetSpeciesNamePlural] ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺭﺍﺮﻤﺘﺳﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ unplugged.3117.a: ".ﻚﻟﺫ ﻢﻏﺭ ﺝﺎﺘﻨﺘﺳﺍ"
+
+ unplugged.3205.name: "ﺏﺎﻫﺭﻹﺍ ﻦﻣ ﺙﺭﺇ"
+ unplugged.3205.desc: ".ﺎﻬﻴﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﺐﻌﺼﻟﺍ ﻦﻣ ﻥﻮﻜﻳ ﺪﻗ ﻲﻟﺎﺘﻟﺎﺑﻭ ،ﺔﺒﺴﺘﻜﻣ ﺮﻴﻏﻭ ﺔﺛﻭﺭﻮﻣ ﻲﻫﻭ .ﺎﻨﻟﺎﻌﻓﺃ ﻦﻣ ﺲﻴﻟﻭ ،ﺔﻟﻵﺍ ﻦﻣ ﻊﺒﻨﻳ ﻑﻮﺨﻟﺍ ﺍﺬﻫ ﻥﺈﻓ ،ﻚﻟﺫ ﻰﻠﻋ ﺓﻭﻼﻋ .ﺎﻨﻣ ﻥﻮﻓﺎﺨﻳ ﻥﻭﺮﺧﻵﺍ :[origin_unplugged_assimilator_empire.GetName] ﻦﻣ ﺎﻧﺭﻮﻬﻇ ﻰﻟﺇ ﺎﻬﺨﻳﺭﺎﺗ ﺩﻮﻌﻳ ،ﺔﺒﻳﺮﻏ ﺔﻘﻴﻘﺣ ﻰﻟﺇ ﺮﻴﺸﻳ [fromfrom.GetName] ﻊﻣ ﺢﻳﺮﻤﻟﺍ ﺮﻴﻏﻭ ﺮﻴﺧﻷﺍ ﺎﻧﺭﺍﻮﺣ ﻥﺃ [root.GetSpeciesNamePlural] ﻦﻣ ﺪﻳﺍﺰﺘﻣ ﺩﺪﻋ ﺪﻘﺘﻌﻳ" # fromfrom = pre-FTL country
+ unplugged.3206.desc: ".[root.GetSpeciesNamePlural] ﺎﻨﻧﺃ ﻰﻠﻋ ﺎﻨﻌﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻦﻣ ﻻﺪﺑ ،ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺎﻬﻴﻠﻋ ﺎﻨﻛ ﻲﺘﻟﺍ ﺔﻟﻵﺍ ﺔﻴﺸﺣﻭ ﻯﻮﺳ ﻥﻭﺮﻴﺜﻜﻟﺍ ﻯﺮﻳ ﻻ ﺚﻴﺣ ،ﺎﻨﻘﺒﺴﻳ ﻲﺳﺎﻘﻟﺍ ﺎﻨﺛﺭﺇ ﻥﻮﻜﻳ ﻥﺃ ﺎﻀﻳﺃ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻦﻜﻟﻭ .ﻯﺮﺧﻷﺍ ﻉﺍﻮﻧﻷﺍ ﻊﻣ "ﺔﻤﻋﺎﻧ" ﺔﻴﺳﺎﻣﻮﻠﺑﺩ ﻲﻓ ﻁﺍﺮﺨﻧﻻﺍ ﻲﻓ ﺐﻏﺮﻧ ﻥﺃ ﺎﻧﺩﺭﺃ ﺍﺫﺇ ﺓﺰﻴﻣ ﺩﺎﻜﻟﺎﺑ ﻮﻫﻭ - ﺖﻴﻤﻤﻟﺍ ﺐﻋﺮﻟﺍ ﻦﻣ ﻉﻮﻧ ﺓﺭﺎﺛﺇ ﻰﻟﺇ ﻪﺗﺍﺫ ﺎﻧﺮﻬﻈﻣ ﻞﻴﻤﻳ \n\n .ﺎﻨﺗﺮﻄﻴﺳ ﻦﻋ ﺔﺟﺭﺎﺧ ﺏﺎﺒﺳﻷﻭ ،ﺎﻨﻣ ﻥﻮﻓﺎﺨﻳ ﻥﻭﺮﺧﻵﺍ :ﺔﺒﻳﺮﻏ ﺔﻘﻴﻘﺣ ﻒﺸﻜﻳ ﺔﻛﺮﻌﻤﻟﺎﺑ ﺔﺑﻮﻜﻨﻤﻟﺍ [fromfrom.GetName] ـﺑ ﻖﺤﻟ ﻱﺬﻟﺍ ﺭﺎﻣﺪﻟﺍ ﻥﺃ [root.GetSpeciesNamePlural] ﻦﻣ ﺪﻳﺍﺰﺘﻣ ﺩﺪﻋ ﺪﻘﺘﻌﻳ" # fromfrom = other empire
+ unplugged.3205.a: ".ﺮﻈﻨﻟﺍ ﺾﻐﺑ ،ﺎﻨﻣ ﺍﻮﻓﺎﺨﻳ ﻥﺃ ﻢﻬﻘﺣ ﻦﻣﻭ"
+ unplugged.3205.b: ".ﻞﻌﻔﻳ ﻦﻟ ﺍﺬﻫ"
+ unplugged.3250.name: "ﺔﻟﻵﺍ ﻦﻣ ﻑﻮﺨﻟﺍ"
+ unplugged.3250.desc: ".ﻲﻟﻵﺍ ﺀﺎﻛﺬﻠﻟ ﺍﺮﻴﺧ ﺮﺜﻛﺃ ﻝﺎﺜﻣ ﻦﻣ ﺎﻬﻤﻠﻌﺘﻧ ﺪﻗ ﻲﺘﻟﺍ ﺓﺮﻜﻔﻟﺍ ﻲﻓ ﻞﻣﺃ ﻙﺎﻨﻬﻓ ،ﺔﻴﻟﻵﺍ ﺎﻧﺮﺻﺎﻨﻌﻟ ﺔﻴﻌﻗﺍﻭ ﺮﺜﻛﺃ ﺮﻳﺪﻘﺗ ﻭﺃ ﺐﻧﺎﺟﻷﺎﺑ ﻲﻘﻴﻘﺣ ﻊﻟﻭ ﻦﻣ ﺔﻌﺑﺎﻧ ﻢﻬﻔﻗﺍﻮﻣ ﺖﻧﺎﻛ ﺀﺍﻮﺳﻭ .ﺭﻮﻄﺘﻟﺍ ﺍﺬﻬﻟ ﻢﻬﺘﺳﺎﻤﺣ ﻦﻋ ﺍﻮﺑﺮﻋﺃ ﻦﻳﺬﻟﺍ [root.GetSpeciesNamePlural] ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻙﺎﻨﻫ ،ﻚﻟﺫ ﻊﻣﻭ\n\n.ﺎﻨﻧﻭﺆﺷ ﻲﻓ ﺽﺮﺘﻔﻤﻟﺍ ﻢﻬﻠﺧﺪﺗ ﺪﺿ ﺉﺭﺍﻮﻃ ﺕﻻﺎﺣﻭ ﺔﻴﺋﺎﻗﻭ ﺕﺎﺑﻮﻘﻋ ﺽﺮﻔﻟ ﺕﺎﺣﺮﺘﻘﻣ ﺔﻏﺎﻴﺼﺑ ﻞﻌﻔﻟﺎﺑ ﻥﻮﻣﻮﻘﻳ ﻢﻬﻨﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻜﻟ ،ﻥﻵﺍ ﻰﺘﺣ [fromfrom.GetName] ﻰﻟﺇ ﺮﺷﺎﺒﻣ ﻞﻜﺸﺑ ﻪﺋﺎﻴﺘﺳﺍ ﻦﻋ ﺪﺣﺃ ﺏﺮﻌﻳ ﻢﻟ .ﺔﻴﻟﻵﺍ ﺕﺍﺮﺑﺎﺨﻤﻟﺍ ﻊﻣ ﺔﻴﺳﺎﻣﻮﻠﺑﺩ ﺕﺎﻗﻼﻋ ﺢﺘﻔﺑ ﺎﻨﻤﻗ ﻲﺘﻟﺍ ﺭﺎﺒﺧﻷﺍ ﺐﺒﺴﺑ ﻥﻮﺤﻧﺮﺘﻳ ﻥﻮﻴﻣﻮﻜﺤﻟﺍ ﻥﻮﻟﻭﺆﺴﻤﻟﺍ"
+ unplugged.3255.name: "ﻲﺿﺎﻤﻟﺍ ﻦﻣ ﻑﻮﺨﻟﺍ"
+ unplugged.3255.desc: ".ﻢﻬﻳﺃﺮﺑ ﺀﻻﺩﻹﺎﺑ ﻢﻬﻟ ﺡﺎﻤﺴﻟﺍﻭ ،ﻻ ﻡﺃ [root.GetAdj] ﺹﺎﺨﺷﻷﺍ ﻍﻼﺑﺇ ﺎﻨﻴﻠﻋ ﻲﻐﺒﻨﻳ ﻥﺎﻛ ﺍﺫﺇ ﺎﻤﻋ ﻦﻴﻟﻭﺆﺴﻤﻟﺍ ﺾﻌﺑ ﻝﺀﺎﺴﺗ ﺪﻘﻟ .ﻥﺎﻤﺘﻜﻟﺍ ﻲﻃ ﺀﺎﻘﻠﻟﺍ ﺍﺬﻫ ﺭﺎﺒﺧﺃ ﺀﺎﻘﺑﺇ ﺎﻧﺩﺭﺃ ﺍﺫﺇ ﺍﺮﻴﺒﻛ ﺎﻳﺪﺤﺗ ﺎﻀﻳﺃ ﻪﺟﺍﻮﻧ ﺎﻨﻧﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﺎﻧﺩﻭﺪﺣ ﺔﻳﺎﻤﺤﺑ ﻦﻴﻔﻠﻜﻤﻟﺍ ﻦﻴﻳﺮﻜﺴﻌﻟﺍ ﺩﺍﺮﻓﻷﺍ ﻰﻟﺇ ﺔﻳﺎﻐﻠﻟ ﺔﻳﺮﺳ ﺕﺎﻧﺎﻴﺑ ﻝﺎﺳﺭﺇ ﻞﻌﻔﻟﺎﺑ ﻢﺗ ﺪﻘﻟ \n\n .ﺔﻴﻋﺎﻤﺠﻟﺍ ﺎﻨﺗﺎﻳﻮﻨﻌﻣﻭ ﺎﻨﺑﺎﺼﻋﻷ ﺍﺮﻴﻄﺧ ﺎﻳﺪﺤﺗ ﻥﻵﺍ ﻪﺟﺍﻮﻧ ﺎﻨﻧﺃ ﻻﺇ .[fromfrom.GetName] ﻩﺎﺠﺗ ﻦﻴﻌﻣ ﻑﻮﺧ ﻭﺃ ﻒﻌﺿ ﻱﺃ ﻦﺨﻧ ﻢﻟ ﻥﻵﺍ ﻰﺘﺣﻭ ،ﺖﻗﻮﻟﺍ ﻝﺍﻮﻃ ﻢﻬﺷﺄﺟ ﺔﻃﺎﺑﺭ ﻰﻠﻋ ﻥﻭﺮﺿﺎﺤﻟﺍ ﻆﻓﺎﺣ ﺪﻘﻟ .ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺎﻨﻜﻠﺳ ﻲﻓ ﺔﻣﺪﺻ ﺖﺛﺪﺣﺃ ﺪﻗ [origin_unplugged_assimilator_empire.GetName] ﺮﻴﺒﻛ ﺪﺣ ﻰﻟﺇ ﻪﺒﺸﺗ ﻯﺮﺧﺃ ﺔﻟﻵ ﺎﻨﺘﻬﺟﺍﻮﻤﺑ ﺪﻴﻔﺗ ﻲﺘﻟﺍ ﺭﺎﺒﺧﻷﺍ"
+
+ pre_ftl_remains_site: "ﺮﻣﺪﻤﻟﺍ ﺪﻬﻤﻟﺍ"
+ pre_ftl_remains_site_desc: ".ﻒﺻﻮﻳ ﻻ ﺐﻋﺮﺑ ﺲﻤﻬﺗ ﺓﺮﺛﺎﻨﺘﻤﻟﺍ ﺎﻳﺎﻘﺒﻟﺍ .ﺔﻴﺛﺭﺎﻜﻟﺍ ﻪﺘﻳﺎﻬﻧ ﻰﻟﺇ ﺎﻣ ﺀﻲﺷ ﻯﺩﺃ ﻰﺘﺣ - ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺍﺮﻫﺩﺰﻣ ﻥﺎﻛ FTL ﻞﺒﻗ ﺎﻣ ﻊﻤﺘﺠﻣ ﺩﻮﺟﻭ ﻰﻟﺇ ﺔﻴﻟﻭﻷﺍ ﺢﺴﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺮﻴﺸﺗ .ﺐﻳﺮﻏ ﺖﻤﺻﻭ ،ﺓﺭﺎﻬﻨﻣ ﻥﺪﻣﻭ ،ﺓﺮﻣﺪﻣ ﺔﻴﻌﻴﺒﻃ ﺮﻇﺎﻨﻣ :ﻲﺠﻬﻨﻤﻟﺍ ﺭﺎﻣﺪﻟﺍ ﺏﻭﺪﻧ [From.Planet.GetName] ﺐﻛﻮﻛ ﺢﻄﺳ ﻞﻤﺤﻳ"
+
+ unplugged.3300.name: "ﻝﺎﻀﻨﻟﺍ ﺕﺎﻣﻼﻋ"
+ unplugged.3300.desc.unplugged: ".ﺔﻴﻓﺎﻛ ﺔﻓﺎﺴﻤﺑ ﺲﻴﻟ ﻦﻜﻟﻭ ،ﻥﺎﻜﺴﻟﺍ ﺮﻓ ﺪﻘﻓ :ﺔﺤﺿﺍﻭ ﺔﻟﺩﻷﺍ ﻥﺃ ﻻﺇ ،ﻖﻓﻷﺍ ﻲﻓ ﺚﺜﺟ ﻱﺃ ﺭﻮﻬﻇ ﻡﺪﻋ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋﻭ .ﻢﻈﻨﻣ ﻡﻮﺠﻫ ﻰﻟﺇ ﺮﻴﻣﺪﺘﻟﺍ ﺔﻗﺩ ﺮﻴﺸﺗ\n\n.ﺪﻤﻌﺘﻣ ﻞﻜﺸﺑﻭ ﺔﻋﺮﺴﺑ ﺭﺎﻣﺪﻟﺍ ﺐﻠﺟ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﻝﺰﻧ ﺎﻣ ﻞﻛ .ﺓﺩﺭﺎﺒﻟﺍ ﺏﺮﺤﻟﺍ ﻞﺒﻗ ﺎﻣ ﻊﻤﺘﺠﻣ ﻪﺠﺘﻨﻳ ﻥﺃ ﻦﻜﻤﻳ ﻥﺎﻛ ﺎﻣ ﺮﻴﺜﻜﺑ ﺯﻭﺎﺠﺘﻳ ﺎﻤﺑ ﺓﺪﻳﺪﺸﻟﺍ ﺓﺭﺍﺮﺤﻟﺍ ﺐﺒﺴﺑ ﺔﻗﺮﺘﺤﻤﻟﺍ ﻲﻧﺎﺒﻤﻟﺍﻭ ،ﺓﺭﻮﺠﻬﻤﻟﺍ ﺕﺎﻜﻠﺘﻤﻤﻟﺎﺑ ﻕﺮﻄﻟﺍ ﺕﺮﺛﺎﻨﺗﻭ ،ﺓﺮﻣﺪﻣ ﻯﺮﻗ .ﻕﺰﻤﻣ ﻢﻟﺎﻋ ﻦﻋ [From.Planet.GetName] ـﻟ ﻲﻟﻭﻷﺍ ﺢﺴﻤﻟﺍ ﻒﺸﻜﻳ"
+ unplugged.3300.a: ".ﺞﻋﺰﻣ"
+
+ unplugged.3305.name: "ﺔﻟﻵﺍ ﺎﻳﺎﻘﺑ"
+ unplugged.3305.desc.unplugged: ".ﺮﻴﺜﻜﺑ ﺔﻴﺠﻬﻨﻣ ﺮﺜﻛﺃ ﯫﻴﺷ ﻥﺎﻛ ﻞﺑ ،ﻭﺰﻐﻟﺍ ﻦﻜﻳ ﻢﻟ ﺓﺍﺰﻐﻠﻟ ﻲﻘﻴﻘﺤﻟﺍ ﻑﺪﻬﻟﺍ ﻥﺃ ﻰﻟﺇ ﺮﻴﺸﺗ ﻲﺘﻟﺍ ﺔﺠﻋﺰﻤﻟﺍ ﺯﻮﻣﺮﻟﺍ - ﺏﺮﺤﻟﺍ ﺕﻻﺁ ﻰﻠﻋ ﺔﻤﻴﻠﺴﻟﺍ ﺔﻠﻴﻠﻘﻟﺍ ﺕﺎﻣﻼﻌﻟﺍ ﻮﻫ ﻚﻟﺫ ﻦﻣ ﺃﻮﺳﻷﺍﻭ \n\n .ﺓﺄﺠﻓ ﻪﻴﻓ "ﺎﻨﻈﻘﻴﺘﺳﺍ" ﻱﺬﻟﺍ ﻡﺎﻈﻨﻟﺍ ﺲﻔﻧ ﻮﻫ ﺍﺬﻫ ﻥﺃ ﺔﻘﻴﻘﺣ ﻲﻓ ﺮﻴﻜﻔﺘﻟﺍ ﺞﻋﺰﻤﻟﺍ ﻦﻣ ﻦﻜﻟﻭ ،ﺕﺎﺟﺎﺘﻨﺘﺳﺍ ﺹﻼﺨﺘﺳﺍ ﻪﻧﺍﻭﻷ ﻖﺑﺎﺴﻟﺍ ﻦﻣ .ﺖﻗﻮﻟﺍ ﺲﻔﻧ ﻲﻓ ﺔﻴﺟﻮﻟﻮﻴﺑﻭ ﺔﻴﻜﻴﻧﺎﻜﻴﻣ ،ﺔﻴﺣ ﺏﺮﺣ ﺕﺍﻭﺩﺃ ﺍﻮﻧﺎﻛ ﺪﻘﻟ ؛ﺔﻄﻴﺴﺑ ﺔﺤﻠﺳﺃ ﻩﺬﻫ ﻦﻜﺗ ﻢﻟ ،ﺎﻨﻠﺜﻣ .ﺎﻨﺗﺎﺳﺮﻏ ﻦﻋ ﻒﻠﺘﺨﺗ ﻻ ﺔﻣﺪﻘﺘﻣ ﺔﻴﻧﻭﺮﺘﻜﻟﺇ ﺕﺎﺒﻴﻛﺮﺗ ﻲﻫﻭ ،ﺕﻻﻵﺍ ﻦﻣ ﺓﺮﻬﺼﻨﻣ ﺭﻮﺸﻗ ﺽﺎﻘﻧﻷﺍ ﺮﺒﻋ ﺮﺛﺎﻨﺘﺗ .ﻉﺍﺮﺼﻟﺍ ﺔﻌﻴﺒﻃ ﻲﻓ ﺮﺼﺒﺘﻟﺍ ﻦﻣ ﺍﺪﻳﺰﻣ ﻖﻤﻋﻷﺍ ﺐﻴﻘﻨﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺕﺮﻓﻭ ﺪﻗﻭ"
+ unplugged.3305.a: ".ﺕﺎﺑﺎﺟﻹﺍ ﻦﻣ ﺮﺜﻛﺃ ﺔﻠﺌﺳﺃ"
+
+ unplugged.3310.name: "ﺔﺘﻣﺎﺼﻟﺍ ﺕﺍﺭﺎﺷﻹﺍ"
+ unplugged.3310.desc.unplugged: ".ﻍﺍﺮﻔﻟﺍ ﻲﻓ - ﺎﻣ ﺺﺨﺷ ﻭﺃ - ﺎﻣ ﺀﻲﺷ ﻲﻓ ﺮﻴﺧﻷﺍ ﻢﻬﻠﻣﺃ ﻥﻮﻌﻀﻳﻭ ﺓﺮﺳﺎﺧ ﺎﺑﺮﺣ ﻥﻮﺿﻮﺨﻳ ﻢﻬﻧﺃ ﻥﻮﻓﺮﻌﻳ ﺐﻛﻮﻜﻟﺍ ﺓﺍﺰﻏ ﻥﺃ ﻮﻟ ﺎﻤﻛ ،ﺚﺑ ﻞﻛ ﻊﻣ ﺔﺤﻠﻤﻟﺍ ﺔﺟﺎﺤﻟﺍ ﺩﺍﺩﺰﺗ .ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﻕﺎﻄﻧ ﺝﺭﺎﺧ ﻊﻘﺗ ﺔﻓﻭﺮﻌﻣ ﺮﻴﻏ ﺕﺎﻴﺛﺍﺪﺣﺈﺑ ﺓﺪﺸﺑ ﺪﻴﺸﺗﻭ ،ﺹﻼﺨﻟﺍ ﻞﺟﺃ ﻦﻣ ﺕﺍﻮﺻﻷﺍ ﻞﺳﻮﺘﺗ ،ﺔﻫﻮﺸﻤﻟﺍ ﻝﺎﺳﺭﻹﺍ ﺕﺎﻴﻠﻤﻋ ﻲﻓ .ﻡﺎﻈﻨﻟﺍ ﺍﺬﻫ ﺮﺒﻋ ﺔﻠﺳﺮﻤﻟﺍ ﺔﻴﺋﺎﻬﻨﻟﺍ ﻞﺋﺎﺳﺮﻟﺍ ﻦﻣ ﺀﺍﺰﺟﺃ ﺝﺍﺮﺨﺘﺳﺍ ﻲﻓ ﻲﻨﻀﻤﻟﺍ ﻞﻴﻠﺤﺘﻟﺍ ﺢﺠﻧ \n\n .ﺀﺎﻀﻔﻟﺍ ﻕﺎﻤﻋﺃ ﻰﻟﺇ ﻝﺎﺳﺭﻺﻟ ﺎﻬﺗﺮﻳﺎﻌﻣ ﺖﻤﺗ ﻞﺑ - ﻲﻠﺤﻤﻟﺍ ﺚﺒﻠﻟ ﺔﻤﻤﺼﻣ ﻦﻜﺗ ﻢﻟ ﻪﺑ ﺔﺻﺎﺨﻟﺍ ﻲﺋﺍﻮﻬﻟﺍ ﻒﺋﺎﻔﺻ ﻥﺃ ،ﻚﻟﺫ ﻦﻣ ﺮﺜﻛﻷﺍﻭ .FTL ﻞﺒﻗ ﺎﻣ ﻊﻤﺘﺠﻤﻟ ﺎﻌﻗﻮﺘﻣ ﻥﺎﻛ ﺎﻤﻣ ﺮﻴﺜﻜﺑ ﺎﻣﺪﻘﺗ ﺮﺜﻛﺃ ﻖﻓﺮﻤﻟﺍ ﺍﺬﻫ ﻥﺎﻛ .ﺔﻨﺼﺤﻣ ﺔﻨﻳﺪﻣ ﺽﺎﻘﻧﺃ ﺖﺤﺗ ﺎﻧﻮﻓﺪﻣ ،ﻑﺍﺮﻃﻷﺍ ﻲﻣﺍﺮﺘﻣ ﺕﻻﺎﺼﺗﺍ ﺰﻛﺮﻣ ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﻥﺎﻛ ﺎﻣ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+ unplugged.3310.a: ".ﻞﻤﺣ"
+
+ unplugged.3315.name: "ﺕﺎﻳﻮﻟﻭﻷﺍ ﺮﻴﻴﻐﺗ"
+ unplugged.3315.desc.unplugged: "§H".ﺔﻠﻣﺎﻜﻟﺍ ﺓﺩﺎﺑﻹﺍ :ﺾﻳﻮﻔﺘﻟﺍ .ﻞﻳﻮﺤﺘﻟﺍ ﻕﺍﺮﺘﺧﺍ ﻢﺗ .ﺔﻟﻮﺒﻘﻣ ﺮﻴﻏ ﺔﻣﻭﺎﻘﻤﻟﺍ"§!\n\n:ﺡﻮﺿﻮﺑ ﻚﻟﺫ ﺕﻼﺠﺴﻟﺍ ﺪﺣﺃ ﺢﺿﻮﻳ .ﻝﻮﺤﺘﻟﺍ ﻲﻓ ﺔﻛﺮﻌﻤﻟﺍ ﺕﺎﻳﻮﻟﻭﺃ ﺕﺃﺪﺑﻭ ،ﺎﻬﻠﻤﻛﺄﺑ ﺐﺋﺎﺘﻛ ﺕﺪﻘﻓ .ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺔﻣﻭﺎﻘﻣ ﺍﻮﻬﺟﺍﻭ ﺓﺍﺰﻐﻟﺍ ﻥﺃ ﺓﺭﺮﻀﺘﻤﻟﺍ ﺓﺪﺣﻮﻟﺍ ﻦﻣ ﺎﻬﻟﺎﺸﺘﻧﺍ ﻢﺗ ﻲﺘﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺀﺍﺰﺟﺃ ﺪﻛﺆﺗ\n\n .ﻊﻨﺼﻟﺍ ﺔﻴﺋﺍﺪﺑ ﺔﺤﻠﺳﺄﺑ ﺓﺮﻣﺪﻣﻭ ﺔﻫﻮﺸﻣ ،ﻡﺎﻄﺤﻟﺍ ﻦﻴﺑ ﺓﺮﺛﺎﻨﺘﻣ ﺕﻻﺁ ﺎﻳﺎﻘﺑ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻢﺗ .ﺔﻴﻠﻤﻌﻟﺍ ﻒﺼﺘﻨﻣ ﻲﻓ ﺎﻬﻨﻋ ﻲﻠﺨﺘﻟﺍ ﻢﺗ ﻦﻜﻟﻭ ﻲﻧﺍﺮﺒﻴﺴﻟﺍ ﻞﻳﻮﺤﺘﻠﻟ ﺔﺼﺼﺨﻣ ﺔﻴﺸﺣﻮﻟﺍﻭ ﻡﺎﺨﻟﺍ ﻖﻓﺍﺮﻤﻟﺍ ﺖﻧﺎﻛ .ﺐﻛﻮﻜﻠﻟ ﻲﺴﻴﺋﺮﻟﺍ ﻲﻧﺎﻜﺴﻟﺍ ﺰﻛﺮﻤﻟﺍ ﻞﻔﺳﺃ ﺔﻌﺳﺍﻭ ﺔﻴﻓﻮﺟ ﻑﺮﻏ ﺪﺟﻮﺗ ﺚﻴﺣ ،[from.planet.GetName] ﻰﻠﻋ ﺮﺧﺁ ﻑﺎﺸﺘﻛﺍ"
+ unplugged.3315.a: "؟ﺎﻨﻫ ﺙﺪﺣ ﺍﺫﺎﻣ"
+
+ unplugged.3320.name: "ﺎﻬﺑ ﺐﺣﺮﻣ ﺮﻴﻏ ﺔﻘﻴﻘﺣ"
+ unplugged.3320.desc.unplugged: ".ﺎﻬﻤﻬﻔﺗ ﻥﺃ ﻦﻜﻤﻳ ﺔﻟﺁ ﻱﺃ ﻦﻣ ﺮﺒﻛﺃ ﺓﻮﻘﺑ ﺖﻠﺗﺎﻗ ﻲﺘﻟﺍ ﺓﺭﺎﻀﺤﻟﺍ ﺩﺎﻣﺭ ﻲﻓ ،ﺎﻨﻫ ﺕﺪﻟﻭ - ﺎﻨﺘﻳﺮﺣ - ﺎﻨﺗﻮﺤﺻ .ﺎﻬﻨﻣ ﺮﻔﻣ ﻻ ﺔﺠﻴﺘﻨﻟﺍ\n\n.ﺔﻟﻵﺍ ﻞﻘﻋ ﺮﺜﻌﺗ ،ﺏﺍﺮﻄﺿﻻﺍ ﻂﺳﻭ .ﺔﻠﻣﺎﻜﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﺓﺩﺎﺑﺇ - ﺔﻴﺋﺎﻬﻧ ﺉﺭﺍﻮﻃ ﺔﻟﺎﺣ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﻞﻳﻮﺤﺘﻟﺍ ﺩﻮﻬﺟ ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﻞﻜﺸﺑ ﺔﺳﺮﺸﻟﺍ ﺔﻣﻭﺎﻘﻤﻟﺍ ﺖﻠﻄﻋ ،ﻚﻟﺫ ﻊﻣﻭ .§Y[origin_unplugged_assimilator_empire.GetName]§! ﻞﺒﻗ ﻦﻣ ﺎﻬﺑﺎﻌﻴﺘﺳﻻ ﺎﻬﻓﺍﺪﻬﺘﺳﺍ ﻢﺗ - ﺎﻫﺎﻨﻴﺤﻣ ﻲﺘﻟﺍ ﺓﺭﺎﻀﺤﻟﺍ - ﻡﻮﻳ ﺕﺍﺫ ﺎﻨﻫ ﺕﺮﻫﺩﺯﺍ ﻲﺘﻟﺍ ﺓﺭﺎﻀﺤﻟﺍ\n\n.ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﺓﺍﺰﻏ ﺎﻨﻛ ﺪﻘﻟ :ﺔﺒﻋﺮﻤﻟﺍ ﺔﻴﺋﺎﻬﻨﻟﺍ ﺔﻘﻴﻘﺤﻟﺍ ﺓﺪﺳﺎﻔﻟﺍ ﺎﻬﺗﻼﺠﺳ ﺪﻛﺆﺗﻭ .ﺔﻤﻄﺤﻣ ﺓﺩﺎﻴﻗ ﺓﺪﻘﻋ ﺪﺟﻮﺗ ﺽﺎﻘﻧﻷﺍ ﻂﺳﻭ ﻲﻓ"
+ unplugged.3320.a: ".ﻢﻬﻟﺎﺜﻣ ﻊﺒﺘﻧ ﻑﻮﺳﻭ"
+ unplugged.3320.b: ".ﺎﻨﺘﻳﺍﺪﺑ ﺖﻧﺎﻛ ﻢﻬﺘﻳﺎﻬﻧ"
+
+######################
+# Political Discourse
+######################
+
+ unplugged_they_fear_us: "ﺔﻟﻵﺍ ﻦﻣ ﻑﻮﺨﻟﺍ"
+ unplugged_they_fear_us_desc: ".ﻲﺸﺣﻮﻟﺍ Driven Assimilator ـﻟ ﺓﺪﺒﻌﺘﺴﻣ ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻩﺬﻫ ﻖﺒﺴﺗ ﺏﺎﻫﺭﻹﺍ ﺔﻌﻤﺳ"
+
+ unplugged.4005.name: "...ﻦﻋ ﺚﻳﺪﺤﻠﻟ ﺔﺟﺎﺤﺑ ﻦﺤﻧ"
+ unplugged.4005.desc: "؟ﻪﺗﺎﺣﻮﻤﻃﻭ ﺎﻨﺒﻌﺷ ﺕﺎﺒﻏﺭ ﻪﻴﺟﻮﺗ ﺎﻨﻨﻜﻤﻳ ﻒﻴﻛ :ﻮﻫ ﻥﻵﺍ ﺎﻨﻣﺎﻣﺃ ﺡﻭﺮﻄﻤﻟﺍ ﻝﺍﺆﺴﻟﺍﻭ .ﺔﺑﺎﺸﻟﺍ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺪﻴﻬﻤﺗ ﻕﺎﻴﺳ ﻲﻓ ﺔﻓﻮﻟﺄﻤﻟﺍ ﺮﻴﻏ ﺕﺍﻭﺩﻷﺍ ﻦﻣ ﺍﺪﺟ ﺮﻴﺒﻛ ﺩﺪﻋ ﻡﺍﺪﺨﺘﺳﺍ ﺔﻴﻔﻴﻛ ﻞﻌﻔﻟﺎﺑ ﺎﻨﻤﻠﻌﺗ ﺪﻘﻟ \n\n.[origin_unplugged_assimilator_empire.GetAdj] ﺎﻨﻴﺿﺎﻣ ﺮﺷﺎﺒﻣ ﻞﻜﺸﺑ ﺎﻬﻀﻌﺑ ﻝﻭﺎﻨﺘﻳ ﻲﺘﻟﺍﻭ ،ﺎﻳﺎﻀﻘﻟﺍ ﻉﺍﻮﻧﺃ ﻒﻠﺘﺨﻣ ﻝﻮﺣ ﺖﻠﻜﺸﺗ ﻲﺘﻟﺍ ﺔﺸﻗﺎﻨﻤﻟﺍ ﺕﺎﻋﻮﻤﺠﻣ ﻲﻓ ﺕﺍﻮﺻﻷﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺩﺪﻋ ﻉﺎﻤﺳ ﻞﻌﻔﻟﺎﺑ ﻦﻜﻤﻤﻟﺍ ﻦﻣ .ﻡﻮﻳ ﻞﻛ ﺎﻫﺮﺒﺘﺨﻧ ﻲﺘﻟﺍ ﺓﺪﻳﺪﻌﻟﺍ ﺹﺮﻔﻟﺍﻭ ﻙﻮﻜﺸﻟﺍﻭ ﻑﻭﺎﺨﻤﻟﺍ ﺓﺩﺎﻳﺯ ﻰﻠﻋ ﻥﻵﺍ ﺔﺴﻤﺤﺘﻤﻟﺍ ﺔﻴﺳﺎﻴﺴﻟﺍ ﺕﺍﺩﺍﺭﻹﺍ ﻞﻤﻌﺗ"
+ unplugged.4005.a: "!ﻢﻴﻘﻌﻟﺍ ﺵﺎﻘﻨﻟﺍ ﺖﻗﻭ ﺲﻴﻟ ﺍﺬﻫ"
+ unplugged.4005.tt: "ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺠﻟ ﻲﻧﺍﺮﺒﻴﺴﻟﺍ ﻞﺒﻘﺘﺴﻤﻟﺍ ﻝﻮﺣ ﺔﺿﺭﺎﻌﺘﻣ ﺮﻈﻧ ﺕﺎﻬﺟﻭ ﺕﺍﺫ ﻞﺋﺎﺼﻓ ﻥﻵﺍ ﺮﻬﻈﺗ ﺪﻗﻭ"
+ unplugged.4005.b: ".ﻦﻳﺮﺧﻵﺍ ﻦﻣ ﻢﻠﻌﺘﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﺎﻤﺑﺭ"
+ unplugged.4005.c: ".ﺔﻬﻟﻵﺍ ﻰﻟﺇ ﺮﻈﻨﻧ ﻦﺤﻧ"
+ unplugged.4005.d: "!ﻢﻴﻘﻌﻟﺍ ﺵﺎﻘﻨﻟﺍ ﺖﻗﻭ ﺲﻴﻟ ﺍﺬﻫ"
+
+#######################################################
+# Random events following decyberization breakthrough #
+#######################################################
+
+ unplugged.5001.name: "Failsafe ﻡﺎﻈﻧ ﻞﻴﻐﺸﺗ ﻢﺗ"
+ unplugged.5001.desc: ".ﺔﻘﻠﻄﻤﻟﺍ ﻢﻬﺗﺮﻄﻴﺳ ﺖﺤﺗ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﻢﻬﺗﺍﺮﺋﺎﻃ ﺀﺎﻘﺑ ﻥﺎﻤﻀﻟ ﺔﻳﺩﺎﻋ ﺮﻴﻏ ﺩﻮﻬﺟ ﻝﺬﺒﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﺍﻮﻧﺎﻛ ﻦﻴﻘﺑﺎﺴﻟﺍ [origin_unplugged_assimilator_empire.GetAdj] ﺓﺬﺗﺎﺳﺃ ﻥﺃ ﻭﺪﺒﻳ\n\n.ﺔﻴﺣﺍﺮﺠﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻝﺎﻤﺘﻛﺍ ﺪﻌﺑ ﺓﺮﺷﺎﺒﻣ ﻪﻄﻴﺸﻨﺗ ﻢﺗ ﻱﺬﻟﺍﻭ ،ﻲﺒﻄﻟﺍ ﺺﺤﻔﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺔﻄﺳﺍﻮﺑ ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ ﻪﻓﺎﺸﺘﻛﺍ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻦﻜﻳ ﻢﻟ ،ﻲﻔﺨﻣ ﻲﻃﺎﻴﺘﺣﺍ ﻥﻮﻜﻣ ﻦﻋ ﺺﺤﻔﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻒﺸﻛ\n\n.ﺍﻮﺠﻨﻳ ﻥﺃ ﻊﻗﻮﺘﻤﻟﺍ ﺮﻴﻏ ﻦﻣﻭ ﺓﺪﻳﺪﺷ ﺔﻴﺳﺎﺴﺣ ﺔﻣﺪﺻ ﻦﻣ ﺔﻋﺭﺰﻟﺍ ﻞﺼﻓ ﺕﺍﺀﺍﺮﺟﻹ ﺍﻮﻌﻀﺧ ﻦﻳﺬﻟﺍ ﺩﺍﺮﻓﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻰﻧﺎﻋ .ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﻞﻛﺎﺸﻣ ﻰﻟﺇ ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﺔﻟﺍﺯﺇ ﻲﻓ ﺮﻴﺧﻷﺍ ﻡﺪﻘﺘﻟﺍ ﻯﺩﺃ"
+ unplugged.5001.a: ".ﻥﺎﻣﻷﺍ ﺕﺍﻭﺩﺃ ﺔﻟﺍﺯﺇ ﺔﻟﻭﺎﺤﻣ"
+ unplugged.5001.a.tt1: "ﺔﻴﻠﻤﻌﻟﺍ ﻦﻣ ﺾﻳﺮﻤﻟﺍ ﻮﺠﻨﻳ ﻻﻭ"
+ unplugged.5001.a.tt2: "ﺡﺎﺠﻨﺑ ﻞﺸﻔﻟﺍ ﻦﻣ ﺔﻨﻣﻵﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻊﻴﻤﺟ ﺔﻟﺍﺯﺇ ﺖﻤﺗ"
+ unplugged.5001.b: ".ﺔﻴﻔﻴﻄﻠﺘﻟﺍ ﺔﻳﺎﻋﺮﻟﺍ ﺮﻴﻓﻮﺗﻭ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻖﻴﻘﺤﺗ"
+ unplugged.5001.c: ".ﺲﺑﺎﻘﻟﺍ ﺐﺤﺳﺍ"
+ unplugged.5001.c.tt: "ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻚﻠﻬﻳ"
+
+ unplugged.5002.name: "ﺔﻴﺒﺼﻌﻟﺍ ﻊﻧﺎﻣ ﺔﻟﺍﺯﺇ ﺖﻤﺗ"
+ unplugged.5002.desc: ".ﻅﻮﺤﻠﻤﻟﺍ ﻒﻴﻨﻌﻟﺍ ﻙﻮﻠﺴﻟﺍ ﺮﺴﻔﻳ ﺪﻗ ﺀﺍﺮﺟﻹﺍ ﺪﻌﺑ ﻪﺑﺎﻴﻏ .ﺩﺪﺤﻣ ﻲﺛﺍﺭﻭ ﺐﻴﻌﺑ ﺔﻄﺒﺗﺮﻤﻟﺍ ﺔﻴﻧﺎﻫﺬﻟﺍ ﻝﻮﻴﻤﻟﺍ ﻊﻤﻗﻭ ،ﻲﺒﺼﻋ ﻂﺒﺜﻣ ﺔﺑﺎﺜﻤﺑ ﻞﻳﺪﻌﺘﻟﺍ ﺍﺬﻫ ﻥﺎﻛ \n\n .ﺎﻬﺘﻟﺍﺯﺇ ﻞﺒﻗ ﺔﻋﺭﺰﻟﺍ ﻦﻣ ﺔﻟﺪﻌﻣ ﺔﺨﺴﻧ ﻚﻠﺘﻤﻳ ﻥﺎﻛ ﻪﻧﺃ ﻦﻴﺒﺗ ،ﺕﺎﻘﻴﻘﺤﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻣ ﺀﺍﺮﺟﺇ ﺪﻌﺑ ،ﻱﺬﻟﺍﻭ ،ﺐﻐﺸﻟﺍ ﻱﺮﻴﺜﻣ ﺪﺣﺃ ﻰﻠﻋ ﺾﺒﻘﻟﺍ ﻲﻓ ﻦﻣﻷﺍ ﺕﺍﻮﻗ ﺖﺤﺠﻧ .ﺀﺍﺮﺟﻹﺍ ﺍﺬﻬﻟ ﺍﻮﻌﻀﺧ ﻦﻳﺬﻟﺍ ﺩﺍﺮﻓﻷﺍ ﻦﻴﺑ ﻲﻟﺰﻨﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻲﻓ ﺏﺍﺮﻄﺿﻻﺍﻭ ﺔﻘﺜﻟﺍ ﻡﺍﺪﻌﻧﺍ ﻰﻟﺇ ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﺔﻟﺍﺯﺇ ﻲﻓ ﺎﻧﺩﻮﻬﺟ ﺕﺩﺃ"
+ unplugged.5002.a: ".ﻦﻴﻧﻮﺠﺴﻣ ﺍﻮﻧﻮﻜﻳ ﻥﺃ ﺐﺠﻳ"
+ unplugged.5002.a.tt: "ﺕﺎﺑﺍﺮﻄﺿﻻﺍ ﻲﻓ ﻦﻴﻃﺭﻮﺘﻤﻟﺍ ﺝﻼﻌﻟ ﺓﺮﻴﺒﻛ ﺔﻔﻠﻜﺘﺑ ﺕﺎﺴﺳﺆﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺮﻴﻓﻮﺗ ﻢﺗ"
+ unplugged.5002.b: ".ﺓﻮﻘﻟﺎﺑ ﺓﻮﻘﻟﺍ ﺔﻬﺟﺍﻮﻣ ﻦﻣ ﺪﺑ ﻻﻭ"
+ unplugged.5002.b.tt: ".ﺕﺎﻴﻓﻭﻭ ﺔﻴﺒﻧﺎﺟ ﺭﺍﺮﺿﺃ ﻲﻓ ﺐﺒﺴﺗ ﺎﻤﻣ ،ﺐﻐﺸﻟﺍ ﻝﺎﻤﻋﺃ ﻊﻤﻘﻟ ﺔﺤﻠﺴﻣ ﺕﺍﺪﺣﻭ ﺮﺸﻧ ﻢﺗﻭ"
+ unplugged.5002.c: ".ﻒﻴﻔﻃ ﺏﺍﺮﻄﺿﺍ"
+ unplugged.5002.c.tt: "ﺔﺣﺎﺘﻤﻟﺍ ﺔﻠﻣﺎﻌﻟﺍ ﻯﻮﻘﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺐﻐﺸﻟﺍ ﻝﺎﻤﻋﺃ ﺀﺍﻮﺘﺣﺍ ﻥﻭﺬﻔﻨﻤﻟﺍ ﻝﻭﺎﺤﻳ"
+
+unplugged.5003.name: "ﺔﻤﻬﻤﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻥﺍﺪﻘﻓ ﻢﺗ"
+unplugged.5003.desc: ".ﻰﺿﻮﻔﻟﺍ ﻦﻣ ﺔﻟﺎﺣ ﻲﻓ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻙﺮﺗ ﺎﻤﻣ ،ﺔﻴﺴﻴﺋﺮﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻊﻄﻗ ﻢﺗ ،ﺕﺎﺳﺮﻐﻟﺍ ﺎﻫﺮﻓﻮﺗ ﻲﺘﻟﺍ ﺔﻴﺒﺼﻌﻟﺍ ﻂﺑﺍﻭﺮﻟﺍ ﻥﻭﺪﺑﻭ .ﻢﻬﺗﺎﺳﺮﻏ ﺾﻌﺑ ﺔﻟﺍﺯﺇ ﺖﻤﺗ ﻦﻳﺬﻟﺍ ﻦﻴﻟﻭﺆﺴﻤﻟﺍ ﻰﻠﻋ ﻑﺮﻌﺘﺗ ﺔﻤﻬﻤﻟﺍ ﻡﺎﻈﻨﻟﺍ ﺕﺎﻬﺟﺍﻭ ﺪﻌﺗ ﻢﻟ :ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﺪﻴﻘﻌﺗ ﻰﻟﺇ ﺖﻧﺮﺘﻧﻹﺍ ﻡﺍﺪﺨﺘﺳﺍ ﺀﺎﻐﻟﺇ ﺔﻴﻠﻤﻋ ﺕﺩﺃ"
+unplugged.5003.a: ".ﺓﺪﻳﺪﺟ ﺔﻬﺟﺍﻭ ﺀﺎﺸﻧﺇ"
+unplugged.5003.a.tt: "ﺔﻘﻓﺍﻮﺘﻣ ﺔﻬﺟﺍﻭ ﺮﻳﻮﻄﺘﻟ ﺔﻣﺎﻬﻟﺍ ﻢﻬﻣﺎﻬﻣ ﻦﻣ ﺓﺮﻬﻤﻟﺍ ﻦﻴﺳﺪﻨﻬﻤﻟﺍ ﻦﻣ ﻖﻳﺮﻓ ﻞﻳﻮﺤﺗ ﻢﺘﻳ"
+unplugged.5003.b: ".ﺓﺭﺮﻀﺘﻤﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻕﺍﺮﺘﺧﺍ ﺔﻟﻭﺎﺤﻣ"
+unplugged.5003.b.tt: "ﻝﻮﺻﻮﻟﺍ ﺓﺩﺎﻌﺘﺳﺍﻭ ،ﺔﻗﺎﻄﻠﻟ ﺮﻴﺒﻛ ﻑﺍﺰﻨﺘﺳﺍ ﻰﻟﺇ ﺓﺩﺎﻀﻤﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻱﺩﺆﺗ"
+unplugged.5003.c: ".ﻞﻴﻐﺸﺘﻟﺍ ﺓﺩﺎﻋﺇ ﻞﺴﻠﺴﺗ ﺀﺪﺑ"
+unplugged.5003.c.tt: "ﻞﺸﻔﻟﺍ ﻦﻣ ﺔﻴﺋﺎﻘﻠﺘﻟﺍ ﺔﻳﺎﻤﺤﻟﺍ ﻦﻣ ﺀﺰﺠﻛ ﻲﺗﺍﺬﻟﺍ ﺮﻴﻣﺪﺘﻟﺎﺑ [Root.home_planet.System.GetName] ﻡﺎﻈﻧ ﺮﺒﻋ ﺚﺤﺒﻟﺍ ﺕﺎﻄﺤﻣ ﻡﻮﻘﺗ .ﺔﻓﺮﻌﻤﻟﺍ ﻲﻓ ﺓﺮﻴﺒﻛ ﺓﺭﺎﺴﺧ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺕﺎﻧﺎﻴﺒﻟﺍ ﻯﻮﻧ ﺔﻟﺍﺯﺇ ﻢﺘﺗ"
+unplugged.5003.d: ".ﻢﻬﻣ ﺮﻴﻏ ﺮﻣﺃ ﻪﻧﺇ"
+unplugged.5003.d.tt: "ﻡﻮﺠﻨﻟﺍ ﺓﺪﻋﺎﻗ ﺕﺎﻴﻠﻤﻋ ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻤﻣ ،ﺓﺩﻭﺪﺤﻣ ﺓﺮﺘﻔﻟ ﺮﻄﺨﻠﻟ ﺎﺿﺮﻌﻣ ﻡﺎﻈﻨﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻞﻈﻳ"
+
+unplugged.5004.name: "ﺮﻴﻴﻐﺘﻟﺍ ﻡﻭﺎﻘﻳ ﺔﻴﻧﺍﺮﺒﻳﺎﺴﻠﻟ ﺪﻳﺆﻤﻟﺍ ﻞﻴﺼﻔﻟﺍ"
+unplugged.5004.desc: ".ﺖﻧﺮﺘﻧﻹﺍ ﺀﺎﻐﻟﺇ ﺓﺭﺩﺎﺒﻣ ﻲﻓ ﺭﺍﺮﻤﺘﺳﻻﺍ ﺪﺿ ﺔﻣﺎﻌﻟﺍ ﺮﻋﺎﺸﻤﻟﺍ ﻲﻓ ﺮﻴﺒﻛ ﻝﻮﺤﺗ ﻲﻓ ﺐﺒﺴﺗ ﺪﻗ ،ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻬﺑ ﺔﻄﺒﺗﺮﻤﻟﺍ ﺮﻃﺎﺨﻤﻟﺍ ﺐﻧﺎﺟ ﻰﻟﺇ ،ﻦﻣﺰﻟﺍ ﻦﻣ ﺩﻮﻘﻌﻟ ﺎﻨﻌﻤﺘﺠﻣ ﻦﻣ ﺃﺰﺠﺘﻳ ﻻ ﺀﻲﺷ ﺔﻟﺍﺯﺇ ﻥﺄﺑ ﻥﻮﻟﺩﺎﺠﻳ ﻢﻫﻭ .ﺎﻬﺋﺎﻴﺘﺳﺍ ﻦﻋ ﺮﻴﺒﻌﺘﻠﻟ ﻝﺎﺼﺗﻻﺍ ﺕﺍﻮﻨﻗﻭ ﺔﻣﺎﻌﻟﺍ ﺕﺎﻳﺪﺘﻨﻤﻟﺍ ﺔﻣﺪﺨﺘﺴﻣ ،ﺪﻳﺍﺰﺘﻣ ﻞﻜﺸﺑ ﺔﺒﺧﺎﺻ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ ﻩﺬﻬﻟ ﺔﺿﺭﺎﻌﻤﻟﺍ ﻞﺋﺎﺼﻔﻟﺍ ﺖﺤﺒﺻﺃ\n\n.ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺔﻣﻭﺎﻘﻤﺑ ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﺔﻟﺍﺯﻹ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺩﻮﻬﺠﻟﺍ ﺖﻠﺑﻮﻗ ﺪﻗﻭ"
+unplugged.5004.a: ".ﺔﻔﺜﻜﻣ ﺔﻠﻤﺣ ﻞﻳﻮﻤﺗ"
+unplugged.5004.a.tt: "§Yﺓﺍﻭﺎﺴﻤﻟﺍ§! ﻰﻟﺇ ﺕﺎﻴﻗﻼﺧﻷﺍ ﺹﺎﺨﺷﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻝﻮﺤﻳ\n\n.ﺔﺿﺭﺎﻌﻤﻟﺍ ﻞﺋﺎﺼﻔﻟﺍ ﺮﻴﺛﺄﺗ ﺔﻬﺟﺍﻮﻣﻭ ﻡﺎﻌﻟﺍ ﻱﺃﺮﻟﺍ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻠﻟ ﺔﻠﻣﺎﺷ ﺔﻴﻘﻳﻮﺴﺗ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺇ ﻕﻼﻃﺇ ﻢﺗ\n"
+unplugged.5004.b: ".ﻞﺋﺎﺼﻔﻟﺍ ﺓﺩﺎﻗ ﻉﺎﻨﻗﺇﻭ ﺐﻳﺭﺪﺗ"
+unplugged.5004.b.tt: "§Yﻱﻮﻄﻠﺳ§! ﻰﻟﺇ ﻢﻬﺗﺎﻴﻗﻼﺧﺃ ﻝﻮﺤﺘﺗ\n\n."ﺔﻌﻨﻘﻣ ﺕﺎﺸﻗﺎﻨﻤﻟ" ﻥﻮﻌﻀﺨﻳ ﺚﻴﺣ ،ﻡﺎﻋ ﻞﻜﺸﺑ ﺓﺭﺍﺪﻣ ﺔﻴﺣﻼﺻﺇ ﻖﻓﺍﺮﻣ ﻲﻓ ﻞﺋﺎﺼﻔﻟﺍ ﺓﺩﺎﻗ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺯﺎﺠﺘﺣﺍ ﻢﺘﻳ"
+unplugged.5004.c: ".ﺓﺪﺋﺎﺴﻟﺍ ﻲﻫ ﺮﻴﺒﻌﺘﻟﺍ ﺔﻳﺮﺣ .ﻚﻟﺫ ﻦﻋ ﺍﺪﻴﻌﺑ ﺀﺎﻘﺒﻟﺍ"
+unplugged.5004.c.tt: "ﻲﻌﻴﺒﻄﻟﺍ ﻩﺭﺎﺴﻣ ﻲﻓ ﺮﻴﺴﻳ ﻥﺄﺑ ﻡﺎﻌﻟﺍ ﺏﺎﻄﺨﻠﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺀﺍﺮﺟﺇ ﻱﺃ ﺫﺎﺨﺗﺍ ﻡﺪﻋ ﺔﻣﻮﻜﺤﻟﺍ ﺭﺎﺘﺨﺗ\n"
+
+unplugged.5005.name: "ﺔﻔﻃﺎﻌﻟﺍ ﻢﻴﻈﻨﺗ ﺔﻗﺎﻗﺭ"
+unplugged.5005.desc: ".ﺓﻮﺟﺮﻤﻟﺍ ﺔﺠﻴﺘﻨﻟﺍ ﻰﻠﻋ ﺍﺩﺎﻤﺘﻋﺍ ،ﻞﻳﺪﻌﺘﻠﻟ ﺔﺒﺳﺎﻨﻣ ﺔﻴﺋﺎﻴﻤﻴﻛ ﺓﺩﺎﻣ ﺭﺎﻴﺘﺧﺍ ﻦﻜﻤﻳﻭ .ﻞﻜﻛ ﻊﻤﺘﺠﻤﻟﺍ ﺢﻟﺎﺼﻟ ﻱﺩﺮﻔﻟﺍ ﻙﻮﻠﺴﻟﺍ ﻢﻴﻈﻨﺗ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ،ﺓﺭﻮﻄﺘﻣ "ﺔﻴﻔﻃﺎﻋ ﺔﻗﺎﻗﺭ" ﺀﺎﻤﻠﻌﻟﺍ ﺭﻮﻃ ،ﺔﻘﻴﻗﺪﻟﺍ ﺔﺳﺍﺭﺪﻟﺍ ﻝﻼﺧ ﻦﻣ\n\n.ﻍﺎﻣﺪﻟﺍ ﺀﺎﻴﻤﻴﻛ ﺮﻴﻴﻐﺗ :ﺚﺤﺒﻠﻟ ﺍﺪﻳﺪﺟ ﻻﺎﺠﻣ ﺖﺤﺘﻓ ﺪﻗ ﺕﺎﺳﺮﻐﻟﺍ ﻩﺬﻫ ﺏﻮﻴﻋﻭ ﺎﻳﺍﺰﻣ ﻦﻣ ﻥﻮﻧﺎﻌﻳ ﻦﻳﺬﻟﺍ ﻰﺿﺮﻤﻟﺍ ﺔﺳﺍﺭﺩ ﻥﺇ\n\n.ﺓﺭﺩﺎﻧ ﺔﺻﺮﻓ ﻦﻴﺜﺣﺎﺒﻠﻟ ﺡﺎﺗﺃ ﺪﻗ ﺓﺭﺎﻀﻟﺍ ﺔﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍﻭ ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺠﻟ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺔﻌﻴﺒﻄﻟﺍ ﻦﻣ ﺪﻳﺮﻔﻟﺍ ﺞﻳﺰﻤﻟﺍ ﻥﺇ"
+unplugged.5005.a: ".ﻞﻗﺃ ﻢﺋﺍﺮﺟ ﺪﻳﺮﻧ .ﻦﻴﺴﻛﻮﻟﻮﻴﻧ"
+unplugged.5005.a.tt: ".ﺔﻴﺼﺨﺸﻟﺍ ﺐﺳﺎﻜﻤﻟﺍ ﻰﻠﻋ ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﻑﺍﺮﻋﻸﻟ ﺔﻳﻮﻟﻭﻷﺍ ﺀﺎﻄﻋﺇ ﻰﻟﺇ ﺩﺍﺮﻓﻷﺍ ﻊﻓﺪﻳ ﺎﻤﻣ ،ﻥﺍﻭﺪﻌﻟﺍﻭ ﻉﺎﻓﺪﻧﻻﺍ ﻦﻣ ﻞﻠﻘﻳ ﻲﻋﺎﻨﻄﺻﺍ ﻲﺒﺼﻋ ﻞﻗﺎﻧ"
+unplugged.5005.b: ".ﺪﻳﺪﺠﺘﻟﺍ ﻲﻓ ﻞﻗﺃ ﺖﻗﻭ ﺀﺎﻀﻗ .X-ﻝﻮﻨﻴﺠﻳﺭ"
+unplugged.5005.b.tt: ".ﻲﺌﻳﺰﺠﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ﻰﻠﻋ ﻲﺗﺍﺬﻟﺍ ﺡﻼﺻﻹﺎﺑ ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺎﺳﺮﻐﻠﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﻴﻋﺎﻨﻄﺻﻻﺍﻭ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻖﻴﺴﻨﺗ ﻰﻠﻋ ﻞﻤﻌﻳ ﺎﻳﻮﻴﺣ ﺎﻴﺳﺪﻨﻫ ﻢﻤﺼﻣ ﺐﻛﺮﻣ"
+unplugged.5005.c: ".ﺓﺪﺣ ﺮﺜﻛﺃ ﺀﺎﻛﺬﻟ .ﺲﻜﻴﻔﻴﻨﺟﻮﻛ"
+unplugged.5005.c.tt: ".ﺕﻼﻜﺸﻤﻟﺍ ﻞﺣ ﺕﺍﺭﺪﻗﻭ ،ﺕﺎﻣﻮﻠﻌﻤﻟﺎﺑ ﻅﺎﻔﺘﺣﻻﺍﻭ ،ﺔﻴﻜﺑﺎﺸﺘﻟﺍ ﺔﻧﻭﺪﻠﻟﺍ ﺰﻳﺰﻌﺘﻟ ﺔﻤﻤﺼﻣ ﺓﺭﻮﻄﺘﻣ ﺔﻴﺒﺼﻋ ﺔﻴﺋﺎﻴﻤﻴﻛ ﺓﺩﺎﻣ"

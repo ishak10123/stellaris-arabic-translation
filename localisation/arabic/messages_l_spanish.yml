@@ -1,0 +1,560 @@
+﻿l_spanish:
+ ####################################
+ # Constructions
+ ####################################
+ MESSAGE_CONSTRUCTION_MESSAGE_TYPE_TITLE:1 "ﺀﺎﻨﺒﻟﺍ ﻞﻤﺘﻛﺍ"
+ MESSAGE_BUILDING_CONSTRUCTION:1 ".ﺢﻄﺴﻟﺍ ﺀﺎﺸﻧﺇ ﺭﺎﻈﺘﻧﺍ ﺔﻤﺋﺎﻗ ﻦﻣ $PLANET|Y$ ﻰﻬﺘﻧﺍ"
+ MESSAGE_BUILDING_CONSTRUCTION_MESSAGE_TYPE_TITLE:2 "ﺀﺎﻨﺒﻟﺍ ﻞﻤﺘﻛﺍ"
+ MESSAGE_CONSTRUCTION_FINISH:0 ".ﺀﺎﺸﻧﻹﺍ ﺭﺎﻈﺘﻧﺍ ﺔﻤﺋﺎﻗ ﻦﻣ $PLANET|Y$ ﺐﻛﻮﻜﻟﺍ ﻰﻬﺘﻧﺍ"
+ MESSAGE_CONSTRUCTION_FINISH_SPACEPORT:0 ".ﺀﺎﻨﺒﻟﺍ ﺭﺎﻈﺘﻧﺍ ﺔﻤﺋﺎﻗ ﻦﻣ ﻲﺋﺎﻀﻔﻟﺍ $PLANET|Y$ ﺀﺎﻨﻴﻣ ﻰﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_CONSTRUCTION_FINISH_STARBASE:0 ".ﺀﺎﺸﻧﻹﺍ ﺭﺎﻈﺘﻧﺍ ﺔﻤﺋﺎﻗ ﻦﻣ SYSTEM|Y$ Starbase$ ﺖﻬﺘﻧﺍ"
+ MESSAGE_ORDER_FINISH_COLONIZE_PLANET:0 ".$SYSTEM|Y$ ﻡﺎﻈﻧ ﻲﻓ $COLONY|Y$ ﺓﺮﻤﻌﺘﺴﻣ ﺎﻧﺄﺸﻧﺃ ﺪﻘﻟ"
+ MESSAGE_SPACEPORT_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "ﺀﺎﻨﺒﻟﺍ ﻞﻤﺘﻛﺍ"
+ MESSAGE_STARBASE_CONSTRUCTION_MESSAGE_TYPE_TITLE:1 "ﻡﻮﺠﻨﻟﺍ ﺓﺪﻋﺎﻗ ﺀﺎﻨﺑ ﻝﺎﻤﺘﻛﺍ"
+ MESSAGE_ARMY_RECRUITMENT_TITLE:0 "ﺶﻴﺠﻟﺍ ﻲﻓ ﺪﻴﻨﺠﺘﻟﺍ ﻰﻬﺘﻧﺍ"
+ MESSAGE_ARMY_RECRUITMENT:0 ".$PLANET|Y$ ﻰﻠﻋ ﺵﻮﻴﺠﻟﺍ ﺪﻴﻨﺠﺗ ﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ ﻢﺗ"
+ MESSAGE_POP_CONSTRUCTION_MESSAGE_TYPE_TITLE:0 "$MESSAGE_CONSTRUCTION_MESSAGE_TYPE_TITLE$"
+ MESSAGE_POP_CONSTRUCTION_FINISH:0 ".$PLANET|Y$ ﻰﻠﻋ ﺏﻮﺒﻟﺍ ﺀﺎﻨﺑ ﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ ﻢﺗ"
+
+ ####################################
+ # Fleet Orders
+ ####################################
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_ORBITAL_STATION:1 ".$PLANET|Y$ ﺭﺍﺪﻣ ﻲﻓ $SHIPCLASS|H$ ﺀﺎﻨﺑ §Y$FLEET$§! ﻞﻤﻛﺃ"
+ MESSAGE_FLEET_ORDER_ANOMALY:1 ".$PLANET|Y$ ﻰﻠﻋ §HAnomaly§! ﻰﻠﻋ §Y$FLEET$§! ﺮﺜﻋ"
+ MESSAGE_FLEET_ORDER_FINISH_BUILD_SPACE_STATION:1 ".$STAR|Y$ ﻲﻓ $SHIPCLASS|Y$ ﺀﺎﺸﻧﺇ §Y$FLEET$§! ﻞﻤﻛﺃ"
+ MESSAGE_FLEET_ORDER_ANALYZE_FAIL:1 ".FTL ﺭﺎﺴﻣ ﻞﻴﻠﺤﺗ ﻲﻓ §Y$FLEET$§! ﻞﺸﻓ"
+ MESSAGE_FLEET_ORDER_ANALYZE_FINISH:1 ".FTL ﺭﺎﺴﻣ ﻞﻴﻠﺤﺘﺑ §Y$FLEET$§! ﻡﺎﻗ"
+ MESSAGE_FLEET_SYSTEM_FULLY_SURVEYED:0 ".ﻞﻣﺎﻜﻟﺎﺑ $SYSTEM|Y$ ﻡﺎﻈﻧ ﺺﺤﻓ ﻢﺗ ﺪﻘﻟ"
+ MESSAGE_FLEET_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "ﻝﻮﻄﺳﻷﺍ ﺐﻠﻃ ﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ ﻢﺗ"
+ MESSAGE_SYSTEM_SURVEYED_TITLE:1 "ﻡﺎﻈﻨﻟﺍ ﺢﺴﻣ ﻢﺗ"
+ AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE:0 "ﻝﻮﻄﺳﻷﺍ ﺐﻠﻃ ﺀﺎﻐﻟﺇ ﻢﺗ"
+ AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_KEY: "$AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE$ (ﻲﺋﺎﻘﻠﺘﻟﺍ ﻑﺎﺸﻜﺘﺳﻻﺍ)"
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_CANCELED:3 ".ﺎﻫﺬﻴﻔﻨﺘﻟ ﻯﺮﺧﺃ ﻡﺎﻬﻣ ﻱﺃ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻭﺃ ﻝﻮﺻﻮﻟﺍ ﻪﻨﻜﻤﻳ ﻻ .ﺔﻴﻤﻠﻌﻟﺍ ﺔﻨﻴﻔﺴﻟﺍ ﺔﺘﻤﺗﺃ ﺐﻠﻃ §Y$FLEET$§! ﻰﻐﻟﺃ"
+ AUTO_EXPLORE_FALLBACK_MESSAGE_TYPE_TITLE:1 "ﻑﺎﺸﻜﺘﺳﻻﺍ ﻰﻟﺇ ﺩﻮﻌﻳ ﻝﻮﻄﺳﻷﺍ"
+ MESSAGE_FLEET_ORDER_AUTO_EXPLORE_FALLBACK:1 ".ﺔﻴﻓﺎﺿﺇ ﺔﻤﻈﻧﺃ ﻰﻠﻋ ﺭﻮﺜﻌﻠﻟ ﻑﺎﺸﻜﺘﺳﻻﺍ ﻝﻭﺎﺤﻴﺳ ﻦﻜﻟﻭ ﺎﻬﺼﺤﻓ ﻢﺘﻳ ﻢﻟ ﺔﻤﻈﻧﺃ ﻱﺃ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ §Y$FLEET$§! ـﻟ ﻦﻜﻤﻳ ﻻ"
+ FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE:0 "$AUTO_EXPLORE_CANCELED_MESSAGE_TYPE_TITLE$"
+ FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_KEY: "$FLEET_BUILD_ORDER_CANCELED_MESSAGE_TYPE_TITLE$ (ﺕﺍﺀﺎﺸﻧﻹﺍ)"
+ MESSAGE_FLEET_BUILD_ORDER_CANCELED_MESSAGE:1 ".ﺩﺭﺍﻮﻤﻟﺍ ﺩﺭ ﻢﺗ .$SYSTEM|Y$ ﻲﻓ $STATION|H$ ﺀﺎﺸﻧﺇ ﻦﻣ $FLEET|Y$ ﻦﻜﻤﺘﻳ ﻢﻟ"
+ MESSAGE_BYPASS_EXPLORED:0 "ﻱﺩﻭﺪﻟﺍ ﺐﻘﺜﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﻢﺗ"
+ BYPASS_EXPLORED_MESSAGE:0 ".$SYSTEM2|Y$ ﻡﺎﻈﻨﺑ ﻞﺼﺘﻳ ﻮﻫﻭ .$SYSTEM1|Y$ ﻲﻓ ﻱﺩﻭﺪﻟﺍ ﺐﻘﺜﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﻢﺗ"
+ MESSAGE_ESN_ARRIVED_TITLE:0 "ﺔﻴﺒﻳﺮﺠﺘﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺔﺣﻼﻤﻟﺍ"
+ MESSAGE_ESN_ARRIVED:0 "$SYSTEM|Y$ ﻡﺎﻈﻧ ﻰﻟﺇ $FLEET_NAME|Y$ ﻞﺻﻭ"
+ MESSAGE_ESN_ABORTED_TITLE:0 "ﻲﻋﺮﻔﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﻲﺒﻳﺮﺠﺘﻟﺍ ﻞﻘﻨﺘﻟﺍ ﻁﺎﺒﺣﺇ ﻢﺗ"
+ MESSAGE_ESN_ABORTED:0 ".ﺮﻓﻮﺘﻣ ﺮﻴﻏ $SYSTEM|Y$ ﻡﺎﻈﻧ ﺢﺒﺻﺃ .$FLEET_NAME|Y$ ﺐﻠﻃ ﺀﺎﻐﻟﺇ ﻢﺗ"
+
+ ####################################
+ # Misc Fleet
+ ####################################
+ MESSAGE_FLEET_REPARATIONS_DONE_MESSAGE_TYPE_TITLE:0 "ﺕﺎﺣﻼﺻﻹﺍ ﺖﻠﻤﺘﻛﺍ"
+ MESSAGE_REPARATIONS_DONE:0 ".ﻞﻣﺎﻜﻟﺎﺑ $FLEET|Y$ ﻝﻮﻄﺳﺃ ﺡﻼﺻﺇ ﻢﺗ"
+ MESSAGE_FLEET_UPGRADE_DONE_MESSAGE_TYPE_TITLE:0 "ﻝﻮﻄﺳﻷﺍ ﺔﻴﻗﺮﺗ ﺖﻤﺗ"
+ MESSAGE_UPGRADE_DONE:0 ".ﻞﻣﺎﻜﻟﺎﺑ $FLEET|Y$ ﻝﻮﻄﺳﺃ ﺔﻴﻗﺮﺗ ﺖﻤﺗ"
+ MESSAGE_EMERGENCY_FTL_CASUALTIES_TITLE:0 "ﺉﺭﺍﻮﻄﻟﺍ ﺕﻻﺎﺣ ﻲﻓ FTL ﺎﻳﺎﺤﺿ"
+ EMERGENCY_FTL_CASUALTIES_DESC:1 "$NEAR_LOST$ :ﺓﺭﺮﻀﺘﻤﻟﺍ ﺔﻨﻴﻔﺴﻟﺍ\n$LOST$ :ﺓﺩﻮﻘﻔﻤﻟﺍ ﻦﻔﺴﻟﺍ\n\n.ﺕﺎﺑﺎﺻﻹ ﻝﻮﻄﺳﻷﺍ ﺽﺮﻌﺗ"
+
+ ####################################
+ # Diplomacy
+ ####################################
+ RIVALRY_INVALID_TITLE:0 "ﻞﻃﺎﺑ ﺲﻓﺎﻨﺘﻟﺍ"
+ RIVALRY_INVALID_DESC:0 "ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺎﺤﻟﺎﺻ ﺎﺴﻓﺎﻨﻣ $COUNTRY|Y$ ﺪﻌﻳ ﻢﻟ"
+ MESSAGE_MADE_FIRST_CONTACT_WE:0 "!§H$STAR$§! ﻡﺎﻈﻧ ﻲﻓ §H$WHO$§! ﺎﻨﻬﺟﺍﻭ ﺪﻘﻟ"
+ MESSAGE_MADE_FIRST_CONTACT_THEM:0 "!§H$STAR$§! ﻡﺎﻈﻧ ﻲﻓ §H$WHO$§! ﻊﻣ ﻝﺎﺼﺗﺍ ﺀﺎﺸﻧﺇ ﻢﺗ"
+ ACTION_DECLARE_WAR_VOTE_PASSED:0 "!§H[Recipient.GetName]§! ﻊﻣ §Yﺏﺮﺤﻟﺍ ﻲﻓ §! ﻥﻵﺍ ﻦﺤﻧﻭ ،ﺏﺮﺤﻟﺍ ﻥﻼﻋﺇ ﻰﻠﻋ ﺖﻳﻮﺼﺘﻟﺍ §H[Actor.GetAllianceName]§! ﺮﻣ ﺪﻘﻟ"
+ ACTION_DECLARE_WAR_VOTE_FAILED:0 ".§H[Recipient.GetName]§! ﺪﺿ ﺏﺮﺤﻟﺍ ﻥﻼﻋﻹ ﺖﻳﻮﺼﺘﻟﺍ ﻞﺸﻓ"
+ ACTION_INVITE_TO_ALLIANCE_VOTE_PASSED:0 ".ﻒﻟﺎﺤﺘﻟﺍ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ §H[Recipient.GetName]§! ﺓﻮﻋﺪﻟ §H[Actor.GetAllianceName]§! ﺕﻮﺻ"
+ ACTION_INVITE_TO_ALLIANCE_VOTE_FAILED:0 ".§H[Actor.GetAllianceName]§! ﻰﻟﺇ §H[Recipient.GetName]§! ﺓﻮﻋﺪﻟ ﺖﻳﻮﺼﺘﻟﺍ ﻞﺸﻓ"
+ ACTION_KICK_FROM_ALLIANCE_VOTE_PASSED:0 ".ﻒﻟﺎﺤﺘﻟﺍ ﻦﻣ §H[Recipient.GetName]§! ﺩﺮﻄﻟ §H[Actor.GetAllianceName]§! ﺕﻮﺻ"
+ ACTION_KICK_FROM_ALLIANCE_VOTE_FAILED:0 ".§H[Actor.GetAllianceName]§! ﻦﻣ §H[Recipient.GetName]§! ﺩﺮﻄﻟ ﺖﻳﻮﺼﺘﻟﺍ ﻞﺸﻓ"
+ ACTION_KICK_FROM_FEDERATION_VOTE_PASSED:0 ".ﺩﺎﺤﺗﻻﺍ ﻦﻣ §H[Recipient.GetName]§! ﺩﺮﻄﻟ §H[Actor.GetAllianceName]§! ﺕﻮﺻ"
+ ACTION_KICK_FROM_FEDERATION_VOTE_FAILED:0 ".§H[Actor.GetAllianceName]§! ﻦﻣ §H[Recipient.GetName]§! ﺩﺮﻄﻟ ﺖﻳﻮﺼﺘﻟﺍ ﻞﺸﻓ"
+ ACTION_INVITE_TO_FEDERATION_VOTE_PASSED:0 ".ﺩﺎﺤﺗﻻﺍ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ §H[Recipient.GetName]§! ﺓﻮﻋﺪﻟ §H[Actor.GetAllianceName]§! ﺕﻮﺻ"
+ ACTION_INVITE_TO_FEDERATION_VOTE_FAILED:0 ".§H[Actor.GetAllianceName]§! ﻰﻟﺇ §H[Recipient.GetName]§! ﺓﻮﻋﺪﻟ ﺖﻳﻮﺼﺘﻟﺍ ﻞﺸﻓ"
+ ACTION_ASK_TO_JOIN_ALLIANCE_VOTE_PASSED:0 ".ﻒﻟﺎﺤﺘﻟﺍ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ §H[Actor.GetName]§! ﺓﻮﻋﺪﻟ §H[Recipient.GetAllianceName]§! ﺕﻮﺻ"
+ ACTION_ASK_TO_JOIN_ALLIANCE_VOTE_FAILED:0 ".§H[Recipient.GetAllianceName]§! ﻰﻟﺇ §H[Actor.GetName]§! ﺓﻮﻋﺪﻟ ﺖﻳﻮﺼﺘﻟﺍ ﻞﺸﻓ"
+ ACTION_FORM_FEDERATION_VOTE_PASSED:0 ".ﺩﺎﺤﺗﻻﺍ ﻞﻴﻜﺸﺘﻟ §H[Actor.GetAllianceName]§! ﺕﻮﺻ"
+ ACTION_FORM_FEDERATION_VOTE_FAILED:0 ".ﺩﺎﺤﺗﻻﺍ ﻞﻴﻜﺸﺘﻟ ﺖﻳﻮﺼﺘﻟﺍ ﻞﺸﻓ"
+ ACTION_RELEASE_SUBJECT_PASSED:0 ".ﺎﻋﻮﺿﻮﻣ ﺎﻨﻧﻮﻛ ﻦﻣ §H[Actor.GetName]§! ﺎﻧﺭﺮﺣ ﺪﻘﻟ"
+ ACTION_OFFER_PEACE_VOTE_PASSED:0 ".§H[Recipient.GetName]§! ﻊﻣ ﻡﻼﺴﻟﺍ ﺽﺮﻋ ﻰﻠﻋ ﻊﻴﻗﻮﺘﻟﺍ ﻝﻮﺒﻘﻟ §H[Actor.GetAllianceName]§! ﺕﻮﺻ"
+ ACTION_OFFER_PEACE_VOTE_FAILED:0 ".§H[Recipient.GetName]§! ﻊﻣ ﻡﻼﺴﻟﺍ ﺽﺮﻋ ﻰﻠﻋ ﻊﻴﻗﻮﺘﻟﺍ ﺾﻓﺭ ﻰﻠﻋ §H[Actor.GetAllianceName]§! ﺕﻮﺻ"
+
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_TITLE:0 "ﺩﺭﺍﻮﻤﻟﺍ ﻰﻟﺇ ﺮﻘﺘﻔﻧﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM_TITLE:0 "ﺩﺭﺍﻮﻤﻟﺍ ﻰﻟﺇ ﻥﻭﺮﻘﺘﻔﻳ ﻢﻫﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_TITLE:0 "ﺢﻟﺎﺻ ﺮﻴﻏ ﻱﺭﺎﺠﺘﻟﺍ ﺀﺍﺮﺟﻹﺍﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ TRADE_DEAL_END_CANCELLED_ACTION_KEY: "ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺔﺤﻟﺎﺻ ﺮﻴﻏ ﻲﻫﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_THEM_TITLE:0 "ﺢﻟﺎﺻ ﺮﻴﻏ ﻱﺭﺎﺠﺘﻟﺍ ﺀﺍﺮﺟﻹﺍﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ TRADE_DEAL_END_CANCELLED_ACTION_THEM_KEY: "ﻯﺮﺧﻷﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺔﺤﻟﺎﺻ ﺮﻴﻏ ﻲﻫﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_SPECIMEN_TITLE: "ﺓﺩﻮﻘﻔﻣ ﺔﻨﻴﻌﻟﺍﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ TRADE_DEAL_END_CANCELLED_SPECIMEN_KEY: "ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺔﺒﺴﻨﻟﺎﺑ ﺓﺩﻮﻘﻔﻣ ﻲﻫﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_SPECIMEN_THEM_TITLE: "$TRADE_DEAL_END_CANCELLED_SPECIMEN_TITLE$"
+ TRADE_DEAL_END_CANCELLED_SPECIMEN_THEM_KEY: "ﻯﺮﺧﺃ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﻦﻳﺩﻮﻘﻔﻤﻟﺍ ﺩﺍﺪﻋ ﻲﻓ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_TITLE:0 "ﺎﻧﺩﻭﺪﺣ ﺎﻨﻘﻠﻏﺃﻭ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM_TITLE:0 "ﻢﻫﺩﻭﺪﺣ ﺍﻮﻘﻠﻏﺃﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_TITLE:0 "ﻒﻟﺎﺤﺗ ﻲﻓ ﺎﻨﻠﺧﺩﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_THEM_TITLE:0 "ﻒﻟﺎﺤﺗ ﻲﻓ ﺍﻮﻠﺧﺩﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_TITLE:0 "ﻢﻬﻟﻼﻘﺘﺳﺍ ﻢﻋﺩ ﻦﻋ ﺎﻨﻔﻗﻮﺗ"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_THEM_TITLE:0 "ﺎﻨﻟﻼﻘﺘﺳﺍ ﻢﻋﺩ ﻦﻋ ﺍﻮﻔﻗﻮﺗ"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_TITLE:0 "ﺎﻳﺎﻋﺭ ﺎﻨﺤﺒﺻﺃﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_THEM_TITLE:0 "ﺎﻳﺎﻋﺭ ﺍﻮﺤﺒﺻﺃﻭ ،ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_TRADE_DEAL_END_CANCELED_TITLE:0 "ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺀﺎﻐﻟﺇ ﻢﺗ"
+ MESSAGE_TRADE_DEAL_END_TIMEOUT_TITLE:1 "ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺓﺪﻣ ﺖﻬﺘﻧﺍ"
+ MESSAGE_CANCEL_SUBJECT_INTEGRATION_TITLE:0 "ﻞﻣﺎﻜﺘﻟﺍ ﺀﺎﻐﻟﺇ ﻢﺗ"
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_ACTOR:0 ".§H[Third_party.GetName]§! ﻰﻠﻋ ﻲﺑﺮﺤﻟﺍ ﺎﻨﺣﺍﺮﺘﻗﺍ ﺾﻓﺭ ﻢﺗ"
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_ALLIANCE:0 ".§H[Third_party.GetName]§! ﺹﻮﺼﺨﺑ §H[Actor.GetName]§! ﻦﻣ ﻡﺪﻘﻤﻟﺍ ﺏﺮﺤﻟﺍ ﺡﺍﺮﺘﻗﺍ ﺾﻓﺭ ﻢﺗ"
+ ACTION_REQUEST_WAR_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Third_party.GetName]§! ﺹﻮﺼﺨﺑ §H[Actor.GetName]§! ﻦﻣ ﺏﺮﺤﻟﺍ ﺡﺍﺮﺘﻗﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ACTOR:0 ".§H[Third_party.GetName]§! ﺎﻨﺗﻮﻋﺩ ﺡﺍﺮﺘﻗﺍ ﺾﻓﺭ ﻢﺗ"
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_ALLIANCE:0 ".§H[Third_party.GetName]§! ﻰﻠﻋ §H[Actor.GetName]§! ﻦﻣ ﺓﻮﻋﺪﻟﺍ ﺡﺍﺮﺘﻗﺍ ﺾﻓﺭ ﻢﺗ"
+ ACTION_PROPOSE_INVITE_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Third_party.GetName]§! ﻰﻠﻋ §H[Actor.GetName]§! ﻦﻣ ﺓﻮﻋﺪﻟﺍ ﺡﺍﺮﺘﻗﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_OFFER_PEACE_PROPOSAL_FAILED_ACTOR:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Recipient.GetName]§! ﻰﻟﺇ ﻩﺎﻨﻣﺪﻗ ﻱﺬﻟﺍ ﻡﻼﺴﻟﺍ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_OFFER_PEACE_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﻡﺪﻘﻤﻟﺍ ﻡﻼﺴﻟﺍ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_OFFER_PEACE_DIPLOMACY_VIEW_PROPOSAL_FAILED_ACTOR:0 "$ACTION_OFFER_PEACE_PROPOSAL_FAILED_ACTOR$" # Should never be shown in-game
+ ACTION_OFFER_PEACE_DIPLOMACY_VIEW_PROPOSAL_FAILED_RECIPIENT:0 "$ACTION_OFFER_PEACE_PROPOSAL_FAILED_RECIPIENT$" # Should never be shown in-game
+ ACTION_MAKE_CLAIMS_DIPLOMACY_VIEW_PROPOSAL_FAILED_ACTOR:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﺎﻬﻀﻓﺭ ﻢﺗﻭ §H[Recipient.GetName]§! ﻥﺄﺸﺑ ﺕﺎﺒﻟﺎﻄﻣ ﻢﻳﺪﻘﺘﻟ ﺎﻨﺘﻟﻭﺎﺤﻣ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ" # Should never be shown in-game
+ ACTION_MAKE_CLAIMS_DIPLOMACY_VIEW_PROPOSAL_FAILED_RECIPIENT:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﺎﻬﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﺔﻄﺳﺍﻮﺑ ﺕﺎﺒﻟﺎﻄﻤﻟﺍ ﻢﻳﺪﻘﺗ ﺔﻟﻭﺎﺤﻣ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ" # Should never be shown in-game
+ ACTION_FORM_DEFENSIVE_PACT_PROPOSAL_FAILED_ACTOR:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Recipient.GetName]§! ﻊﻣ ﻲﻋﺎﻓﺩ ﻕﺎﻔﺗﺍ ﻞﻴﻜﺸﺘﻟ ﺎﻨﺿﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_FORM_DEFENSIVE_PACT_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻊﻣ ﻲﻋﺎﻓﺩ ﻕﺎﺜﻴﻣ ﻞﻴﻜﺸﺗ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_FORM_NON_AGGRESSION_PACT_PROPOSAL_FAILED_ACTOR:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Recipient.GetName]§! ﻊﻣ ﺀﺍﺪﺘﻋﺍ ﻡﺪﻋ ﺔﻴﻗﺎﻔﺗﺍ ﻞﻴﻜﺸﺘﺑ ﺹﺎﺨﻟﺍ ﺎﻨﺿﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_FORM_NON_AGGRESSION_PACT_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻊﻣ ﺀﺍﺪﺘﻋﻻﺍ ﻡﺪﻋ ﻕﺎﺜﻴﻣ ﻞﻴﻜﺸﺗ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_FORM_COMMERCIAL_PACT_PROPOSAL_FAILED_ACTOR:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Recipient.GetName]§! ﻊﻣ ﺔﻳﺭﺎﺠﺗ ﺔﻴﻗﺎﻔﺗﺍ ﻦﻳﻮﻜﺘﺑ ﺹﺎﺨﻟﺍ ﺎﻨﺿﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_FORM_COMMERCIAL_PACT_PROPOSAL_FAILED_RECIPIENT:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻊﻣ ﺔﻳﺭﺎﺠﺗ ﺔﻴﻗﺎﻔﺗﺍ ﻞﻴﻜﺸﺗ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_ACTOR:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Recipient.GetName]§! ﻊﻣ ﺚﺤﺑ ﺔﻴﻗﺎﻔﺗﺍ ﻦﻳﻮﻜﺘﺑ ﺹﺎﺨﻟﺍ ﺎﻨﺿﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_FORM_RESEARCH_AGREEMENT_PROPOSAL_FAILED_RECIPIENT:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻊﻣ ﺚﺤﺑ ﺔﻴﻗﺎﻔﺗﺍ ﻦﻳﻮﻜﺘﺑ ﺹﺎﺨﻟﺍ ﺽﺮﻌﻟﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_GUARANTEE_INDEPENDENCE_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetName]§! ﻝﻼﻘﺘﺳﺍ ﻥﺎﻤﻀﻟ ﺎﻨﺿﺮﻋ ﺾﻓﺭ ﻢﺗ"
+ ACTION_GUARANTEE_INDEPENDENCE_PROPOSAL_FAILED_RECIPIENT:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ ﺎﻨﻟﻼﻘﺘﺳﺍ ﻥﺎﻤﻀﻟ §H[Actor.GetName]§! ﻦﻣ ﻡﺪﻘﻤﻟﺍ ﺽﺮﻌﻟﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_FORM_MIGRATION_PACT_PROPOSAL_FAILED_ACTOR:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Recipient.GetName]§! ﻊﻣ ﺓﺮﺠﻫ ﺓﺪﻫﺎﻌﻣ ﻦﻳﻮﻜﺘﺑ ﺹﺎﺨﻟﺍ ﺎﻨﺿﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_FORM_MIGRATION_PACT_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﺓﺮﺠﻬﻟﺍ ﺓﺪﻫﺎﻌﻣ ﻞﻴﻜﺸﺗ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 ".ﻒﻟﺎﺤﺘﻟﺍ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ §H[Recipient.GetName]§! ﻰﻟﺇ ﺎﻨﺗﻮﻋﺩ ﺾﻓﺭ ﻢﺗ"
+ ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﺎﻬﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﻒﻟﺎﺤﺗ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ ﺓﻮﻋﺪﻟﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_KICK_FROM_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 ".ﻒﻟﺎﺤﺘﻟﺍ ﻦﻣ §H[Recipient.GetName]§! ﺩﺮﻄﺑ ﺎﻨﺣﺍﺮﺘﻗﺍ ﺾﻓﺭ ﻢﺗ"
+ ACTION_KICK_FROM_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ ﻒﻟﺎﺤﺘﻟﺍ ﻦﻣ ﺎﻧﺩﺮﻄﻟ §H[Actor.GetName]§! ﻦﻣ ﻡﺪﻘﻤﻟﺍ ﺡﺍﺮﺘﻗﻻﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_KICK_FROM_FEDERATION_PROPOSAL_FAILED_ACTOR:0 ".ﺩﺎﺤﺗﻻﺍ ﻦﻣ §H[Recipient.GetName]§! ﺩﺮﻄﺑ ﺎﻨﺣﺍﺮﺘﻗﺍ ﺾﻓﺭ ﻢﺗ"
+ ACTION_KICK_FROM_FEDERATION_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ ﺩﺎﺤﺗﻻﺍ ﻦﻣ ﺎﻧﺩﺮﻄﻟ §H[Actor.GetName]§! ﻦﻣ ﻡﺪﻘﻤﻟﺍ ﺡﺍﺮﺘﻗﻻﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_INVITE_TO_FEDERATION_PROPOSAL_FAILED_ACTOR:0 ".ﻒﻟﺎﺤﺘﻟﺍ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ §H[Recipient.GetName]§! ﻰﻟﺇ ﺎﻨﺗﻮﻋﺩ ﺾﻓﺭ ﻢﺗ"
+ ACTION_INVITE_TO_FEDERATION_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﺎﻬﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﻒﻟﺎﺤﺘﻟﺍ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ ﺓﻮﻋﺪﻟﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_ASK_FOR_FEDERATION_ASSOCIATION_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetAllianceName]§! ـﺑ ﻁﺎﺒﺗﺭﻻﺍ ﺔﻟﺎﺣ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺎﻨﺒﻠﻃ ﺾﻓﺭ ﻢﺗ"
+ ACTION_ASK_FOR_FEDERATION_ASSOCIATION_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Recipient.GetAllianceName]§! ﻊﻣ ﻥﺍﺮﺘﻗﻻﺍ ﺔﻟﺎﺤﻟ §H[Actor.GetName]§! ﻦﻣ ﺐﻠﻄﻟﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_DEMAND_SUBJUGATION_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetName]§! ﻉﺎﻀﺧﺈﺑ ﺎﻨﺒﻠﻃ ﺾﻓﺭ ﻢﺗ"
+ ACTION_DEMAND_SUBJUGATION_PROPOSAL_FAILED_RECIPIENT:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﻉﻮﻀﺨﻟﺍ ﺐﻠﻃ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_DEMAND_SUBSIDIARY_PROPOSAL_FAILED_ACTOR:0 ".ﺎﻨﻟ ﺔﻌﺑﺎﺘﻟﺍ ﺔﻛﺮﺸﻟﺍ ﺢﺒﺼﺘﻟ §H[Recipient.GetName]§! ﻰﻠﻋ ﺫﺍﻮﺤﺘﺳﻼﻟ ﺎﻨﺒﻠﻃ ﺾﻓﺭ ﻢﺗ"
+ ACTION_DEMAND_SUBSIDIARY_PROPOSAL_FAILED_RECIPIENT:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﺫﺍﻮﺤﺘﺳﻻﺍ ﺐﻠﻃ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_DEMAND_PROTECTORATE_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetName]§! ﻰﻟﺇ ﺔﻳﺎﻤﺤﻟﺍ ﺔﻟﺎﺣ ﺢﻨﻤﻟ ﺎﻨﺿﺮﻋ ﺾﻓﺭ ﻢﺗ"
+ ACTION_DEMAND_PROTECTORATE_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﺔﻳﺎﻤﺤﻟﺍ ﺔﻟﺎﺣ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_DEMAND_TRIBUTARY_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetName]§! ﻰﻟﺇ ﺪﻓﺍﺮﻟﺍ ﺔﻟﺎﺣ ﺢﻨﻤﻟ ﺎﻨﺿﺮﻋ ﺾﻓﺭ ﻢﺗ"
+ ACTION_DEMAND_TRIBUTARY_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﺪﻓﺍﺮﻟﺍ ﺔﻟﺎﺣ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_DEMAND_THRALL_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetName]§! ﻰﻟﺇ Thrall ﺔﻟﺎﺣ ﺢﻨﻤﻟ ﺎﻨﺿﺮﻋ ﺾﻓﺭ ﻢﺗ"
+ ACTION_DEMAND_THRALL_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ Thrall ﺔﻟﺎﺣ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_DEMAND_DOMINION_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetName]§! ﻰﻟﺇ Dominion ﺔﻟﺎﺣ ﺢﻨﻤﻟ ﺎﻨﺿﺮﻋ ﺾﻓﺭ ﻢﺗ"
+ ACTION_DEMAND_DOMINION_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ Dominion ﺔﻟﺎﺣ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_DEMAND_SIGNATORY_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetName]§! ﻰﻟﺇ ﻊﻴﻗﻮﺘﻟﺍ ﺔﻟﺎﺣ ﺢﻨﻤﻟ ﺎﻨﺿﺮﻋ ﺾﻓﺭ ﻢﺗ"
+ ACTION_DEMAND_SIGNATORY_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﻊﻴﻗﻮﺘﻟﺍ ﺔﻟﺎﺣ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_DEMAND_SATELLITE_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetName]§! ﻰﻟﺇ ﻲﻋﺎﻨﺼﻟﺍ ﺮﻤﻘﻟﺍ ﺔﻟﺎﺣ ﺢﻨﻤﻟ ﺎﻨﺿﺮﻋ ﺾﻓﺭ ﻢﺗ"
+ ACTION_DEMAND_SATELLITE_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﻲﻋﺎﻨﺼﻟﺍ ﺮﻤﻘﻟﺍ ﺔﻟﺎﺣ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_ASK_TO_BECOME_SUBJUGATED_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetName]§! ـﻟ ﺎﻋﻮﺿﻮﻣ ﺢﺒﺼﻧ ﻥﺄﺑ ﺎﻨﺒﻠﻃ ﺾﻓﺭ ﻢﺗ"
+ ACTION_ASK_TO_BECOME_SUBJUGATED_PROPOSAL_FAILED_RECIPIENT:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﻉﻮﻀﺨﻟﺍ ﺐﻠﻃ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_PROPOSAL_FAILED_ACTOR:1 ".§H[Recipient.GetName]§! ﺔﻳﺮﺠﻤﻟﺍ ﻡﻼﺴﻟﺍ ﺓﺪﻫﺎﻌﻣ ﺐﺟﻮﻤﺑ ﻉﻮﻀﺨﻟﺍ ﻦﻣ ﺭﺮﺤﺘﻟﺎﺑ ﺎﻨﺒﻠﻃ ﺾﻓﺭ ﻢﺗ"
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻉﻮﻀﺧ ﻦﻣ ﺭﺮﺤﺘﻟﺍ ﺐﻠﻄﻟ ﺓﺩﺪﺤﻤﻟﺍ ﺔﻠﻬﻤﻟﺍ ﺖﻬﺘﻧﺍ"
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetAllianceName]§! ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ ﺎﻨﺒﻠﻃ ﺾﻓﺭ ﻢﺗ"
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_ALLIANCE:0 ".§H[Recipient.GetAllianceName]§! ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ §H[Actor.GetName]§! ﺐﻠﻃ ﺾﻓﺭ ﻢﺗ"
+ ACTION_ASK_TO_JOIN_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Recipient.GetAllianceName]§! ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ §H[Actor.GetName]§! ﻦﻣ ﺐﻠﻄﻟﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_ASK_TO_JOIN_ALLIANCE_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetAllianceName]§! ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ ﺎﻨﺒﻠﻃ ﺾﻓﺭ ﻢﺗ"
+ ACTION_ASK_TO_JOIN_ALLIANCE_PROPOSAL_FAILED_RECIPIENT:0 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Recipient.GetAllianceName]§! ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ §H[Actor.GetName]§! ﻦﻣ ﺐﻠﻄﻟﺍ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_ASK_TO_BECOME_RELEASED_VASSAL_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetName]§! ﻦﻣ ﺮﻳﺮﺤﺘﻟﺎﺑ ﺎﻨﺒﻠﻃ ﺾﻓﺭ ﻢﺗ"
+ ACTION_ASK_TO_BECOME_RELEASED_VASSAL_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﻪﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﺮﻳﺮﺤﺘﻟﺍ ﺐﻠﻃ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+ ACTION_OFFER_TRADE_DEAL_PROPOSAL_FAILED_ACTOR:0 ".§H[Recipient.GetName]§! ﻰﻟﺇ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺽﺮﻋ ﺾﻓﺭ ﻢﺗ"
+ ACTION_OFFER_TRADE_DEAL_PROPOSAL_FAILED_RECIPIENT:1 ".ﺎﻴﺋﺎﻘﻠﺗ ﺎﻬﻀﻓﺭ ﻢﺗﻭ §H[Actor.GetName]§! ﻦﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺽﺮﻋ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ"
+
+ MESSAGE_MAKE_RIVAL_TITLE:0 "$ ﺲﻓﺎﻨﻣ $"
+ MESSAGE_RECALL_EMBASSY_TITLE:0 "ﺓﺭﺎﻔﺴﻟﺍ ﺕﺮﻛﺬﺗ"
+ MESSAGE_END_RIVALRY_TITLE:0 "$RIVALRY$ ﻰﻬﺘﻧﺍ"
+ MESSAGE_EMBASSY_TITLE:1 "ﺓﺭﺎﻔﺳ ﺀﺎﺸﻧﺇ"
+ MESSAGE_DECLARE_WAR_TITLE:0 "ﺏﺮﺤﻟﺍ ﻥﻼﻋﺇ"
+ MESSAGE_OFFER_PEACE_TITLE:0 "ﻡﻼﺴﻟﺍ ﺽﺮﻋ"
+ MESSAGE_INVITE_TO_ALLIANCE_TITLE:0 "ﻒﻟﺎﺤﺗ"
+ MESSAGE_KICK_FROM_ALLIANCE_TITLE:0 "ﻒﻟﺎﺤﺘﻟﺍ ﻮﻀﻋ ﺩﺮﻃ"
+ MESSAGE_KICK_FROM_FEDERATION_TITLE:0 "ﺩﺎﺤﺗﻻﺍ ﻮﻀﻋ ﺩﺮﻃ"
+ MESSAGE_ASK_TO_JOIN_ALLIANCE_TITLE:0 "ﻒﻟﺎﺤﺘﻟﺍ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻻﺍ ﺐﻠﻃ"
+ MESSAGE_LEAVE_ALLIANCE_TITLE:0 "ﺭﺎﺴﻴﻟﺍ ﻒﻟﺎﺤﺘﻟﺍ ﻮﻀﻋ"
+ DIPLO_ACTION_LEAVE_ALLIANCE_DESC:0 "$COUNTRY|Y$ $ALLIANCE|Y$ ﻙﺮﺗ ﺪﻘﻟ"
+ DIPLO_ACTION_LEAVE_FEDERATION_DESC:0 "$COUNTRY|Y$ $ALLIANCE|Y$ ﻙﺮﺗ ﺪﻘﻟ"
+ MESSAGE_DEMAND_SUBJUGATION_TITLE:1 "ﻉﻮﻀﺨﻟﺎﺑ ﺔﺒﻟﺎﻄﻤﻟﺍ"
+ MESSAGE_ASK_TO_BECOME_SUBJUGATED_TITLE:1 "ﻉﻮﻀﺨﻟﺍ ﺐﻠﻃ"
+ MESSAGE_ASK_TO_BE_RELEASED_SUBJECT_TITLE:0 "ﻉﻮﺿﻮﻤﻟﺍ ﺮﻳﺮﺤﺗ ﺐﻠﻃ"
+ MESSAGE_FORM_FEDERATION_TITLE:0 "ﺝﺫﻮﻤﻨﻟﺍ ﺩﺎﺤﺗﺍ"
+ MESSAGE_INVITE_TO_FEDERATION_TITLE:0 "ﺩﺎﺤﺗﻻﺍ"
+ MESSAGE_ASK_TO_JOIN_FEDERATION_TITLE:0 "ﺩﺎﺤﺗﻼﻟ ﻡﺎﻤﻀﻧﻻﺍ ﺐﻠﻃ"
+ MESSAGE_LEAVE_FEDERATION_TITLE:0 "ﺩﺎﺤﺗﻻﺍ ﻙﺮﺗ"
+ MESSAGE_OFFER_TRADE_DEAL_TITLE:0 "ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻘﻔﺼﻟﺍ ﺽﺮﻋ"
+ MESSAGE_REQUEST_WAR_TITLE:0 "ﺏﺮﺤﻟﺍ ﺐﻠﻃ"
+ MESSAGE_PROPOSE_INVITE_TITLE:0 "ﺡﺍﺮﺘﻗﻻﺍ ﺓﻮﻋﺩ"
+ MESSAGE_ASK_TO_BECOME_RELEASED_SUBJECT_TITLE:0 "ﻉﻮﺿﻮﻤﻟﺍ ﺮﻳﺮﺤﺗ ﺐﻠﻃ"
+ MESSAGE_RELEASE_SUBJECT_TITLE:0 "ﺭﺍﺪﺻﻹﺍ ﻉﻮﺿﻮﻣ"
+ MESSAGE_WARNING_NOT_ACTIVE_IN_WAR_TITLE:0 "!ﺏﺮﺤﻟﺍ ﺮﻳﺬﺤﺗ ﻲﻓ ﻂﺸﻧ ﺮﻴﻏ"
+ MESSAGE_NOT_ACTIVE_IN_WAR_TITLE:0 "ﺏﺮﺤﻟﺍ ﻲﻓ ﻂﺸﻧ ﺮﻴﻏ"
+ MESSAGE_DIPLOMATIC_INSULT_TITLE:0 "ﺔﻴﺳﺎﻣﻮﻠﺑﺩ ﺔﻧﺎﻫﺇ"
+ MESSAGE_INTEGRATE_SUBJECT_TITLE:0 "ﻉﻮﺿﻮﻤﻟﺍ ﻞﻣﺎﻜﺗ ﺃﺪﺑ"
+ MESSAGE_CANCEL_SUBJECT_INTEGRATION_NOTIFICATION:0 "ﻉﻮﺿﻮﻤﻟﺍ ﻞﻣﺎﻜﺗ ﺃﺪﺑ"
+ MESSAGE_FORM_DEFENSIVE_PACT_TITLE:0 "ﻲﻋﺎﻓﺩ ﻕﺎﺜﻴﻣ"
+ MESSAGE_BREAK_DEFENSIVE_PACT_TITLE:0 "ﻲﻋﺎﻓﺪﻟﺍ ﻕﺎﻔﺗﻻﺍ ﻰﻬﺘﻧﺍ"
+ MESSAGE_FORM_NON_AGGRESSION_PACT_TITLE:0 "ﺀﺍﺪﺘﻋﻻﺍ ﻡﺪﻋ ﻕﺎﺜﻴﻣ"
+ MESSAGE_BREAK_NON_AGGRESSION_PACT_TITLE:0 "ﺭﻮﺴﻜﻣ ﺀﺍﺪﺘﻋﻻﺍ ﻡﺪﻋ ﻕﺎﺜﻴﻣ"
+ MESSAGE_FORM_COMMERCIAL_PACT_TITLE:0 "ﻱﺭﺎﺠﺘﻟﺍ ﻕﺎﺜﻴﻤﻟﺍ"
+ MESSAGE_BREAK_COMMERCIAL_PACT_TITLE:0 "ﺭﻮﺴﻜﻣ ﻱﺭﺎﺠﺘﻟﺍ ﻕﺎﻔﺗﻻﺍ"
+ MESSAGE_FORM_RESEARCH_AGREEMENT_TITLE:0 "ﺚﺤﺒﻟﺍ ﺔﻴﻗﺎﻔﺗﺍ"
+ MESSAGE_BREAK_RESEARCH_AGREEMENT_TITLE:0 "ﺓﺭﻮﺴﻜﻣ ﺚﺤﺒﻟﺍ ﺔﻴﻗﺎﻔﺗﺍ"
+ MESSAGE_FORM_MIGRATION_PACT_TITLE:0 "ﺓﺮﺠﻬﻟﺍ ﺓﺪﻫﺎﻌﻣ"
+ MESSAGE_BREAK_MIGRATION_PACT_TITLE:0 "ﺓﺭﻮﺴﻜﻣ ﺓﺮﺠﻬﻟﺍ ﺓﺪﻫﺎﻌﻣ"
+ MESSAGE_GUARANTEE_INDEPENDENCE_TITLE:0 "ﻥﻮﻤﻀﻣ ﻝﻼﻘﺘﺳﻻﺍ"
+ MESSAGE_BREAK_GUARANTEE_TITLE:0 "ﻥﺎﻤﻀﻟﺍ ﺀﺎﻐﻟﺇ ﻢﺗ"
+ MESSAGE_SUPPORT_INDEPENDENCE_TITLE:0 "ﻡﻮﻋﺪﻣ ﻝﻼﻘﺘﺳﻻﺍ"
+ MESSAGE_BREAK_SUPPORT_TITLE:0 "ﻢﻋﺪﻟﺍ ﻝﺎﻄﺑﺇ ﻢﺗ"
+ MESSAGE_OPEN_BORDERS_TITLE:0 "ﺔﺣﻮﺘﻔﻣ ﺩﻭﺪﺤﻟﺍ"
+ MESSAGE_CLOSE_BORDERS_TITLE:0 "ﺔﻘﻠﻐﻣ ﺩﻭﺪﺤﻟﺍ"
+ MESSAGE_FORM_SOCIETAL_ENLIGHTENMENT_PACT_TITLE:0 "ﻲﻌﻤﺘﺠﻤﻟﺍ ﺮﻳﻮﻨﺘﻟﺍ ﺓﻮﻋﺩ"
+ MESSAGE_BREAK_SOCIETAL_ENLIGHTENMENT_PACT_TITLE:0 "ﻲﻌﻤﺘﺠﻤﻟﺍ ﺮﻳﻮﻨﺘﻟﺍ ﻰﻬﺘﻧﺍ"
+ MESSAGE_FORM_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE:0 "ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺮﻳﻮﻨﺘﻟﺍ ﺓﻮﻋﺩ"
+ MESSAGE_BREAK_OPEN_TECHNOLOGICAL_ENLIGHTENMENT_PACT_TITLE:0 "ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺮﻳﻮﻨﺘﻟﺍ ﻰﻬﺘﻧﺍ"
+ MESSAGE_FORM_PRE_FTL_TRADE_PACT_TITLE:0 "ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻴﻗﺎﻔﺗﻻﺍ"
+ MESSAGE_BREAK_PRE_FTL_TRADE_PACT_TITLE:0 "ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻴﻗﺎﻔﺗﻻﺍ ﺖﻬﺘﻧﺍ"
+
+ ACTION_MAKE_RIVAL_NOTIFICATION:1 ".ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻤﻬﻨﻴﺑ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﺎﻗﻼﻌﻟﺍ ﻢﻗﺎﻔﺗ ﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻴﺳ\n\n.§H$RIVAL$§! ﻮﻫ §H[Root.GetName]§! ﻥﺃ §H[From.GetName]§! ﻦﻠﻋﺃ"
+ ACTION_END_RIVALRY_NOTIFICATION:2 ".ﺔﺤﻟﺎﺼﻤﻟﺍ ﻮﺤﻧ ﻢﻬﻘﻳﺮﻃ ﻲﻓ ﻥﻮﻧﻮﻜﻳ ﺪﻗ\n\n.§H[Root.GetName]§! $RIVALRY$ ﻊﻣ §H[From.GetName]§! ﻰﻬﻧﺃ"
+ ACTION_EMBASSY_NOTIFICATION:1 ".ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﻢﻬﺗﺎﻗﻼﻋ ﻦﻴﺴﺤﺗ ﻰﻟﺇ ﻚﻟﺫ ﻱﺩﺆﻴﺳ\n\n.§H[Root.GetName]§! ﻰﻟﺇ ﺓﺭﺎﻔﺳ ﻞﺳﺭﺃ §H[From.GetName]§!"
+ ACTION_RECALL_EMBASSY_NOTIFICATION:2 "؟ﺔﻣﺩﺎﻘﻟﺍ ﺔﻴﺋﺍﺪﻌﻟﺍ ﻝﺎﻤﻋﻷﺍ ﻰﻠﻋ ﺔﻣﻼﻋ ﻩﺬﻫ ﻞﻫ\n\n.§H[Root.GetName]§! ﻦﻣ ﻪﺗﺭﺎﻔﺳ ﻰﻋﺪﺘﺳﺍ §H[From.GetName]§!"
+ ACTION_DECLARE_WAR_NOTIFICATION:3 ".ﻯﻮﻗﻷﺍ ﻲﻫ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻱﺃ ﻯﺮﻨﺳ ﻥﻵﺍ\n\n!§H[Root.GetName]§! ﻰﻠﻋ ﺏﺮﺤﻟﺍ §H[From.GetName]§! ﻦﻠﻋﺃ"
+ ACTION_OFFER_PEACE_NOTIFICATION:1 ".§H[Root.GetName]§! ﻊﻣ ﻡﻼﺴﻟﺍ §H[From.GetName]§! ﺪﻘﻋ"
+ ACTION_INVITE_TO_ALLIANCE_NOTIFICATION:2 ".ﻢﻬﺋﺍﺪﻋﺃ ﺪﺿ ﻦﻳﺪﺣﻮﻣ ﻥﻵﺍ ﻥﻮﻔﻘﻴﺳﻭ \n\n.§H[From.GetAllianceName]§! ﻰﻟﺇ §H[Root.GetName]§! ﻢﻀﻧﺍ"
+ ACTION_LEAVE_ALLIANCE_NOTIFICATION:2 "...ﺎﻨﻟ ﺔﺻﺮﻓ ﺍﺬﻫ ﻞﺜﻤﻳ ﺪﻗ\n\n.§H[From.GetAllianceName]§! ﺭﺩﺎﻏ §H[From.GetName]§!"
+ ACTION_DEMAND_SUBJUGATION_NOTIFICATION:3 ".ﻥﺎﻣﻷﺍ ﻞﺑﺎﻘﻣ ﻢﻬﺘﻳﺮﺣ ﻦﻋ ﺍﻮﻠﺨﺗ ﺪﻘﻟ\n\n.§H[Root.GetName]§! ﻊﺿﺎﺨﻟﺍ §H[From.GetName]§!"
+ ACTION_ASK_TO_BECOME_SUBJUGATED_NOTIFICATION:3 ".ﻥﺎﻣﻷﺍ ﻞﺑﺎﻘﻣ ﻢﻬﺘﻳﺮﺣ ﻦﻋ ﺍﻮﻠﺨﺗ ﺪﻘﻟ\n\n.§H[From.GetName]§! ﻊﺿﺎﺨﻟﺍ §H[Root.GetName]§!"
+ ACTION_FORM_FEDERATION_NOTIFICATION:2 ".ﺪﺣﺍﻭ ﺺﺨﺸﻛ ﺎﻌﻣ ﺓﺮﺠﻤﻟﺍ ﻰﻟﺇ ﺏﺎﻫﺬﻟﺍ ﺍﻭﺭﺎﺘﺧﺍ ﺪﻘﻟ\n\n.$FEDERATION$ ﺢﻟﺎﺼﻟ ﺍﻮﺗﻮﺻ §H[From.GetAllianceName]§!"
+ ACTION_INVITE_TO_FEDERATION_NOTIFICATION:2 ".ﻢﻬﺋﺍﺪﻋﺃ ﺪﺿ ﻦﻳﺪﺣﻮﻣ ﻥﻵﺍ ﻥﻮﻔﻘﻴﺳﻭ \n\n.§H[From.GetAllianceName]§! ﻰﻟﺇ §H[Root.GetName]§! ﻢﻀﻧﺍ"
+ ACTION_ASK_TO_JOIN_FEDERATION_NOTIFICATION:2 ".ﻢﻬﺋﺍﺪﻋﺃ ﺪﺿ ﻦﻳﺪﺣﻮﻣ ﻥﻵﺍ ﻥﻮﻔﻘﻴﺳﻭ \n\n.§H[Root.GetAllianceName]§! ﻰﻟﺇ §H[From.GetName]§! ﻢﻀﻧﺍ"
+ ACTION_ASK_TO_LEAVE_FEDERATION_NOTIFICATION:0 "$ACTION_LEAVE_FEDERATION_NOTIFICATION$"
+ ACTION_LEAVE_FEDERATION_NOTIFICATION:2 "...ﺎﻨﻟ ﺔﺻﺮﻓ ﺍﺬﻫ ﻞﺜﻤﻳ ﺪﻗ\n\n.§H[Root.GetAllianceName]§! ﺭﺩﺎﻏ §H[From.GetName]§!"
+ ACTION_KICK_FROM_FEDERATION_NOTIFICATION:1 ".ﺩﺎﺤﺗﻻﺍ ﻦﻣ §H[Root.GetName]§! ﺩﺮﻄﻟ §H[From.GetAllianceName]§! ﺕﻮﺻ"
+ ACTION_ASK_TO_BE_RELEASED_SUBJECT_NOTIFICATION:2 ".ﻢﻬﻋﻮﺿﻮﻣ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﻰﻠﻋ ﺍﻮﻈﻓﺎﺤﻳ ﻥﺃ ﻦﻣ ﻒﻌﺿﺃ ﺍﻮﻧﺎﻛ ﻢﻬﻧﺃ ﻭﺪﺒﻳ\n\n.§H[From.GetName]§! ـﻟ ﻝﻼﻘﺘﺳﻻﺍ §H[Root.GetName]§! ﻰﻄﻋﺃ"
+ ACTION_RELEASE_SUBJECT_NOTIFICATION:2 ".ﻢﻬﻋﻮﺿﻮﻣ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﻰﻠﻋ ﺍﻮﻈﻓﺎﺤﻳ ﻥﺃ ﻦﻣ ﻒﻌﺿﺃ ﺍﻮﻧﺎﻛ ﻢﻬﻧﺃ ﻭﺪﺒﻳ\n\n.§H[Root.GetName]§! ـﻟ ﻝﻼﻘﺘﺳﻻﺍ §H[From.GetName]§! ﻰﻄﻋﺃ"
+ ACTION_INSULT_NOTIFICATION:2 "...ﺙﻭﺪﺤﻟﺍ ﻚﺷﻭ ﻰﻠﻋ ﻉﺍﺮﺼﻟﺍ ﻥﺃ ﻭﺪﺒﻳ\n\n.§H[Root.GetName]§! ﺔﻧﺎﻫﺇ §H[From.GetName]§!"
+ ACTION_INTEGRATE_SUBJECT_NOTIFICATION:2 ".[Root.GetAdj] ﻝﻼﻘﺘﺳﺍ ﺎﻳﺎﻘﺑ ﺮﺧﺁ ﺪﻳﺮﺠﺗ ﻢﺘﻴﺳ ،ﺎﺒﻳﺮﻗ\n\n.§H[Root.GetName]§! ﺞﻣﺩ ﻲﻓ §H[From.GetName]§! ﺃﺪﺑ"
+ ACTION_CANCEL_SUBJECT_INTEGRATION_NOTIFICATION:2 ".ﻖﺤﺘﺴﻳ ﺎﻤﻣ ﺮﺜﻛﺃ ﺔﻠﻜﺸﻣ ﻞﺜﻤﻳ ﺪﻗ [Root.GetSpeciesNamePlural] ﻥﺃ ﻭﺪﺒﻳ\n\n.§H[Root.GetName]§! ﻞﻣﺎﻜﺘﻟﺍ ﻦﻋ §H[From.GetName]§! ﻒﻗﻮﺗ"
+ MESSAGE_TYPE_RELICS_GAINED_INTEGRATION_TITLE:0 "ﻞﻣﺎﻜﺘﻟﺍ ﻦﻣ ﺔﺒﺴﺘﻜﻤﻟﺍ ﺭﺎﺛﻵﺍ"
+ MESSAGE_RELICS_GAINED_INTEGRATION:0 ".ﺎﻬﺠﻣﺩ ﺪﻌﺑ §H[From.GetName]§! ﺎﻬﻜﻠﺘﻤﺗ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺭﺎﺛﻵﺍ ﻊﻴﻤﺟ ﻰﻠﻋ ﺎﻨﻠﺼﺣ ﺪﻘﻟ"
+ ACTION_FORM_DEFENSIVE_PACT_NOTIFICATION:1 ".ﺀﺍﺪﻋﻷﺍ ﻞﻛ ﺪﺿ ﺾﻌﺒﻟﺍ ﺎﻤﻬﻀﻌﺑ ﻦﻋ ﻥﻵﺍ ﻥﺎﻌﻓﺍﺪﻴﺳﻭ \n\n.§H[Root.GetName]§! ﻊﻣ ﻲﻋﺎﻓﺩ ﻕﺎﻔﺗﺍ ﻲﻓ §H[From.GetName]§! ﻞﺧﺩ"
+ ACTION_BREAK_DEFENSIVE_PACT_NOTIFICATION:1 ".ﻢﻫﺩﺮﻔﻤﺑ ﻻﺎﺣ ﻞﻀﻓﺃ ﻢﻬﻧﺃ ﻥﻭﺪﻘﺘﻌﻳ ﻢﻬﻧﺃ ﻭﺪﺒﻳ\n\n.§H[Root.GetName]§! ﻊﻣ ﻲﻋﺎﻓﺪﻟﺍ ﻢﻬﻗﺎﻔﺗﺍ ﺀﺎﻬﻧﺈﺑ §H[From.GetName]§! ﻡﺎﻗ"
+ ACTION_FORM_NON_AGGRESSION_PACT_NOTIFICATION:1 ".ﺮﻤﺘﺴﻴﺳ ﻡﻼﺴﻟﺍ ﺍﺬﻫ ﻥﺎﻛ ﺍﺫﺇ ﺎﻣ ﻯﺮﻨﺳ \n\n.§H[Root.GetName]§! ﻊﻣ ﺀﺍﺪﺘﻋﻻﺍ ﻡﺪﻋ ﺔﻴﻗﺎﻔﺗﺍ ﻲﻓ §H[From.GetName]§! ﻲﻓ ﻝﻮﺧﺪﻟﺍ ﻢﺗ"
+ ACTION_BREAK_NON_AGGRESSION_PACT_NOTIFICATION:1 "...ﻡﻼﺴﻟﺍ ﺍﻮﻤﺌﺳ ﺎﻤﺑﺭ ﻢﻬﻧﺃ ﻭﺪﺒﻳ\n\n.§H[Root.GetName]§! ﻊﻣ ﺀﺍﺪﺘﻋﻻﺍ ﻡﺪﻋ ﻕﺎﺜﻴﻣ ﻰﻬﻧﺃ §H[From.GetName]§!"
+ ACTION_FORM_COMMERCIAL_PACT_NOTIFICATION:0 ".ﺎﻌﻣ ﺭﺎﻫﺩﺯﻻﺍ ﻰﻟﺇ ﻥﻵﺍ ﻥﻮﻌﺴﻳ ﻢﻬﻧﺇ\n\n.§H[Root.GetName]§! ﻊﻣ ﺔﻳﺭﺎﺠﺗ ﺔﻴﻗﺎﻔﺗﺍ ﻲﻓ §H[From.GetName]§! ﻞﺧﺩ"
+ ACTION_BREAK_COMMERCIAL_PACT_NOTIFICATION:0 "...ﺕﺪﻋﺎﺒﺗ ﺪﻗ ﺔﻴﻟﺎﻤﻟﺍ ﺎﻤﻬﺤﻟﺎﺼﻣ ﻥﺃ ﻭﺪﺒﻳ\n\n.§H[Root.GetName]§! ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺔﻴﻗﺎﻔﺗﻻﺍ ﺀﺎﻬﻧﺈﺑ §H[From.GetName]§! ﻡﺎﻗ"
+ ACTION_FORM_RESEARCH_AGREEMENT_NOTIFICATION:0 ".ﺾﻌﺒﻟﺍ ﻢﻬﻀﻌﺑ ﻦﻣ ﺮﻴﺜﻜﻟﺍ ﻥﻮﻤﻠﻌﺘﻳ ﺪﻗﻭ \n\n.§H[Root.GetName]§! ﻊﻣ ﺚﺤﺑ ﺔﻴﻗﺎﻔﺗﺍ ﺖﻣﺮﺑﺃ §H[From.GetName]§!"
+ ACTION_BREAK_RESEARCH_AGREEMENT_NOTIFICATION:0 "...ﻢﻫﺭﺍﺮﺳﺃ ﺔﻛﺭﺎﺸﻣ ﻲﻓ ﻥﻮﺒﻏﺮﻳ ﺍﻭﺩﻮﻌﻳ ﻢﻟ ﻢﻬﻧﺃ ﻭﺪﺒﻳ\n\n.§H[Root.GetName]§! ﻊﻣ ﺚﺤﺒﻟﺍ ﺔﻴﻗﺎﻔﺗﺍ ﺀﺎﻬﻧﺈﺑ §H[From.GetName]§! ﻡﺎﻗ"
+ ACTION_FORM_MIGRATION_PACT_NOTIFICATION:1 ".ﻦﻴﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻴﺑ ﺔﻳﺮﺤﺑ ﻞﻘﻨﺘﻟﺍ ﻥﻵﺍ ﺎﻬﻧﺎﻜﺴﻟ ﻦﻜﻤﻳ\n\n.§H[Root.GetName]§! ﻊﻣ ﺓﺮﺠﻬﻟﺍ ﺓﺪﻫﺎﻌﻣ ﻲﻓ ﺖﻠﺧﺩ §H[From.GetName]§!"
+ ACTION_BREAK_MIGRATION_PACT_NOTIFICATION:1 ".ﺔﺣﻮﺘﻔﻤﻟﺍ ﻢﻫﺩﻭﺪﺣ ﻰﻠﻋ ﺍﻮﻣﺪﻧ ﺪﻗ ﻢﻬﻧﺃ ﻭﺪﺒﻳ\n\n.§H[Root.GetName]§! ﻊﻣ ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﺓﺮﺠﻬﻟﺍ ﺓﺪﻫﺎﻌﻣ ﺍﻮﻗﺮﺧ §H[From.GetName]§!"
+ ACTION_GUARANTEE_INDEPENDENCE_NOTIFICATION:1 ".ﺕﺎﻤﺠﻬﻟﺍ ﻞﻛ ﺪﺿ ﻥﻵﺍ ﻢﻬﻨﻋ ﻥﻮﻌﻓﺍﺪﻴﺳﻭ \n\n.§H[Root.GetName]§! ﻝﻼﻘﺘﺳﺍ ﻥﻵﺍ §H[From.GetName]§! ﻦﻤﻀﻴﺳ"
+ ACTION_BREAK_GUARANTEE_NOTIFICATION:1 "...ﺎﻨﻟ ﺔﺻﺮﻓ ﺍﺬﻫ ﻞﺜﻤﻳ ﺪﻗ\n\n.§H[Root.GetName]§! ﻝﻼﻘﺘﺳﺍ ﻥﺎﻤﺿ ﻦﻋ §H[From.GetName]§! ﻒﻗﻮﺗ"
+ ACTION_SUPPORT_INDEPENDENCE_NOTIFICATION:1 "...ﺍﺪﺟ ﺍﺪﻴﻌﺳ ﺲﻴﻟ ﻰﻠﻋﻷﺍ ﻢﻫﺪﻴﺳ ﻥﺃ ﺪﺑﻻ\n\n.§H[Root.GetName]§! ﻝﻼﻘﺘﺳﺍ ﻥﻵﺍ ﻢﻋﺪﻴﺳ §H[From.GetName]§!"
+ ACTION_BREAK_SUPPORT_NOTIFICATION:1 ".ﺎﻋﻮﺿﻮﻣ ﻞﻈﻳ ﻥﺃ ﻪﻟ ﺭﺪﻘﻣ [Root.GetName] ﻥﺃ ﻭﺪﺒﻳ\n\n.§H[Root.GetName]§! ﻝﻼﻘﺘﺳﺍ ﻢﻋﺩ ﻦﻋ §H[From.GetName]§! ﻒﻗﻮﺗ"
+ ACTION_OPEN_BORDERS_NOTIFICATION:1 ".ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻢﻬﺗﺎﻗﻼﻋ ﻦﻴﺴﺤﺗ ﻰﻟﺇ ﻚﻟﺫ ﻱﺩﺆﻴﺳ \n\n.§H[Root.GetName]§! ﻞﻴﻃﺎﺳﺃ ﻡﺎﻣﺃ ﻢﻫﺩﻭﺪﺣ ﺍﻮﺤﺘﻓ §H[From.GetName]§!"
+ ACTION_CLOSE_BORDERS_NOTIFICATION:1 ".ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻢﻬﺗﺎﻗﻼﻋ ﻢﻗﺎﻔﺗ ﻰﻟﺇ ﻚﻟﺫ ﻱﺩﺆﻴﺳ\n\n.§H[Root.GetName]§! ﻞﻴﻃﺎﺳﺃ ﻡﺎﻣﺃ ﻢﻫﺩﻭﺪﺣ ﺍﻮﻘﻠﻏﺃ §H[From.GetName]§!"
+
+ MESSAGE_OFFER_FEDERATION_ASSOCIATION_TITLE:0 "ﺩﺎﺤﺗﻻﺍ ﺔﻄﺑﺍﺭ ﺽﺮﻋ"
+ ACTION_OFFER_FEDERATION_ASSOCIATION_NOTIFICATION:2 ".ﻖﺛﻭﺃ ﺕﺎﻗﻼﻋ ﻲﻓ ﻥﻮﺒﻏﺮﻳ ﻢﻬﻧﺃ ﻭﺪﺒﻳ\n\n.§H[From.GetAllianceName]§! ﺔﻄﺳﺍﻮﺑ ﻁﺎﺒﺗﺭﻻﺍ ﺔﻟﺎﺣ §H[Root.GetName]§! ﺢﻨﻣ ﻢﺗ"
+ MESSAGE_ASK_FOR_FEDERATION_ASSOCIATION_TITLE:0 "ﺩﺎﺤﺗﻻﺍ ﺔﻄﺑﺍﺭ ﺐﻠﻃ"
+ ACTION_ASK_FOR_FEDERATION_ASSOCIATION_NOTIFICATION:2 ".ﻖﺛﻭﺃ ﺕﺎﻗﻼﻋ ﻲﻓ ﻥﻮﺒﻏﺮﻳ ﻢﻬﻧﺃ ﻭﺪﺒﻳ\n\n.§H[From.GetAllianceName]§! ﺔﻄﺳﺍﻮﺑ ﻁﺎﺒﺗﺭﻻﺍ ﺔﻟﺎﺣ §H[Root.GetName]§! ﺢﻨﻣ ﻢﺗ"
+ MESSAGE_REVOKE_FEDERATION_ASSOCIATION_TITLE:0 "ﺩﺎﺤﺗﻻﺍ ﺔﻄﺑﺍﺭ ﺀﺎﻐﻟﺇ"
+ ACTION_REVOKE_FEDERATION_ASSOCIATION_NOTIFICATION:2 "؟ﺔﻣﺩﺎﻘﻟﺍ ﺔﻴﺋﺍﺪﻌﻟﺍ ﻝﺎﻤﻋﻷﺍ ﻰﻠﻋ ﺔﻣﻼﻋ ﻩﺬﻫ ﻞﻫ\n\n.§H[From.GetAllianceName]§! ﺔﻄﺳﺍﻮﺑ ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﻁﺎﺒﺗﺭﻻﺍ ﺔﻟﺎﺣ ﺀﺎﻐﻟﺇ ﻢﺗ §H[Root.GetName]§!"
+ MESSAGE_END_FEDERATION_ASSOCIATION_TITLE:0 "ﺩﺎﺤﺗﻻﺍ ﺩﺎﺤﺗﺍ ﻰﻬﺘﻧﺍ"
+ ACTION_END_FEDERATION_ASSOCIATION_NOTIFICATION:2 "؟ﺔﻣﺩﺎﻘﻟﺍ ﺔﻴﺋﺍﺪﻌﻟﺍ ﻝﺎﻤﻋﻷﺍ ﻰﻠﻋ ﺔﻣﻼﻋ ﻩﺬﻫ ﻞﻫ\n\n.§H[Root.GetAllianceName]§! ـﺑ ﻪﻃﺎﺒﺗﺭﺍ ﺔﻟﺎﺣ ﺀﺎﻬﻧﺇ §H[From.GetName]§! ﺭﺮﻗ"
+ DIPLO_ACTION_END_FEDERATION_ASSOCIATION_DESC:0 "؟ﺔﻣﺩﺎﻘﻟﺍ ﺔﻴﺋﺍﺪﻌﻟﺍ ﻝﺎﻤﻋﻷﺍ ﻰﻠﻋ ﺔﻣﻼﻋ ﻩﺬﻫ ﻞﻫ\n\n.§H$ALLIANCE$§! ـﺑ ﻪﻃﺎﺒﺗﺭﺍ ﺔﻟﺎﺣ ﺀﺎﻬﻧﺇ §H$COUNTRY$§! ﺭﺮﻗ"
+
+
+ MESSAGE_DIPLOMACY_TITLE:0 "ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ"
+
+ ACTION_FORM_FEDERATION_PROPOSAL_FAILED_RECIPIENT:0 "$ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_RECIPIENT$"
+ ACTION_FORM_FEDERATION_PROPOSAL_FAILED_ACTOR:0 "$ACTION_INVITE_TO_ALLIANCE_PROPOSAL_FAILED_ACTOR$"
+
+ ####################################
+ # War
+ ####################################
+ SURRENDER_OUR_SIDE:0 ".ﻪﺒﻟﺎﻄﻣ ﻢﻳﺪﻘﺘﻟ ﺮﻬﺷﺃ ﺔﺘﺳ ﻰﻟﺇ ﻞﺼﻳ ﺎﻣ ﻭﺪﻌﻟﺍ ﻯﺪﻟ .ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﻒﻗﻭ ﻢﺗﻭ ،ﻁﺮﺷ ﻭﺃ ﺪﻴﻗ ﻥﻭﺩ ﺎﻨﺑﺮﺣ ﺪﺋﺎﻗ ﻢﻠﺴﺘﺳﺍ ﺪﻘﻟ"
+ SURRENDER_THEIR_SIDE:0 ".ﺎﻨﺒﻟﺎﻄﻣ ﻲﻓ ﺖﺒﻠﻟ ﺮﻬﺷﺃ ﺔﺘﺳ ﻥﻵﺍ ﺎﻨﻳﺪﻟ .ﺭﺎﻨﻟﺍ ﻕﻼﻃﺇ ﻒﻗﻭ ﻢﺗﻭ ،ﻁﺮﺷ ﻭﺃ ﺪﻴﻗ ﻥﻭﺩ ﻲﺑﺮﺤﻟﺍ ﻢﻫﺪﺋﺎﻗ ﻢﻠﺴﺘﺳﺍ ﺪﻘﻟ"
+ WAR_END_VICTORY:0 ".ﺏﺮﺤﻟﺍ ﻩﺬﻫ ﺎﻨﺤﺑﺭ ﺪﻘﻟ"
+ WAR_END_DEFEAT:0 ".ﺏﺮﺤﻟﺍ ﻩﺬﻫ ﺎﻧﺮﺴﺧ ﺪﻘﻟ"
+ WAR_END_STATUS_QUO:0 ".ﻦﻫﺍﺮﻟﺍ ﻊﺿﻮﻟﺎﺑ ﺏﺮﺤﻟﺍ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_OUR_SURRENDER_TITLE:0 ".ﻢﻠﺴﺘﺴﻧ ﻦﺤﻧ"
+ MESSAGE_THEIR_SURRENDER_TITLE:0 ".ﻥﻮﻤﻠﺴﺘﺴﻳ"
+ MESSAGE_VICTORY_TITLE:1 "§Gﺮﺼﻨﻟﺍ§!"
+ VICTORY_KEY: "ﺭﺎﺼﺘﻧﺍ"
+ MESSAGE_DEFEAT_TITLE:1 "§Rﺔﻤﻳﺰﻫ§!"
+ DEFEAT_KEY: "ﺔﻤﻳﺰﻫ"
+ MESSAGE_ALLIED_ENTERED_WAR:1 "!$ATTACKER|Y$ ﻊﻣ §Yﺏﺮﺣ ﻲﻓ §! ﻥﻵﺍ ﻦﺤﻧ ،ﻲﻟﺎﺘﻟﺎﺑﻭ\n\n.$CALLER|Y$ ﺎﻨﻔﻴﻠﺣ ﻰﻠﻋ ﺏﺮﺤﻟﺍ $ATTACKER|Y$ ﻦﻠﻋﺃ"
+ MESSAGE_GUARANTEED_ENTERED_WAR:0 "ﻡﻮﺠﻬﻠﻟ ﺽﺮﻌﺘﺗ ﺔﻧﻮﻤﻀﻣ"
+ MESSAGE_GUARANTEER_ENTERED_WAR_DESC:1 "!$ATTACKER|Y$ ﻊﻣ §Yﺏﺮﺣ ﻲﻓ §! ﻥﻵﺍ ﻦﺤﻧ ،ﻲﻟﺎﺘﻟﺎﺑﻭ\n\n.ﻪﻟﻼﻘﺘﺳﺍ ﺎﻨﻨﻤﺿ ﻱﺬﻟﺍ ،$CALLER|Y$ ﻰﻠﻋ ﺏﺮﺤﻟﺍ $ATTACKER|Y$ ﻦﻠﻋﺃ"
+ MESSAGE_GUARANTEER_ENTERED_WAR_TITLE:0 "ﺏﺮﺤﻟﺍ ﻞﺧﺩ ﻦﻣﺎﻀﻟﺍ"
+ MESSAGE_ALLIED_ENTERED_WAR_TITLE:0 "ﺏﺮﺤﻟﺍ ﻒﻴﻠﺤﻟﺍ ﻞﺧﺩ"
+ MESSAGE_OVERLORD_ENTERED_WAR_TITLE:0 "ﺏﺮﺤﻟﺍ ﺩﺭﻮﻟﺮﻓﺃ ﻞﺧﺩ"
+ MESSAGE_OVERLORD_ENTERED_WAR_DESC:1 "!$ATTACKER|Y$ ﻊﻣ §Yﺏﺮﺣ ﻲﻓ §! ﻥﻵﺍ ﻦﺤﻧ ،ﻲﻟﺎﺘﻟﺎﺑﻭ\n\n.$CALLER|Y$ ،ﻰﻠﻋﻷﺍ ﺎﻧﺪﻴﺳ ﻰﻠﻋ ﺏﺮﺤﻟﺍ $ATTACKER|Y$ ﻦﻠﻋﺃ"
+ MESSAGE_SUBJECT_ENTERED_WAR_TITLE:0 "ﺏﺮﺤﻟﺍ ﻞﺧﺩ ﻉﻮﺿﻮﻤﻟﺍ"
+ MESSAGE_SUBJECT_ENTERED_WAR_DESC:1 "!$ATTACKER|Y$ ﻊﻣ §Yﺏﺮﺣ ﻲﻓ §! ﻥﻵﺍ ﻦﺤﻧ ،ﻲﻟﺎﺘﻟﺎﺑﻭ\n\n.$SUBJECT_TYPE$، $CALLER|Y$ ﻰﻠﻋ ﺏﺮﺤﻟﺍ $ATTACKER|Y$ ﻦﻠﻋﺃ"
+ MESSAGE_OVERLORD_DECLARED_WAR:0 "ﺏﺮﺤﻟﺍ ﺩﺭﻮﻟﺮﻓﺃ ﻦﻠﻋﺃ"
+ MESSAGE_OVERLORD_DECLARED_WAR_DESC:1 "!$DEFENDER|Y$ ﻊﻣ §Yﺏﺮﺣ ﻲﻓ §! ﻥﻵﺍ ﻦﺤﻧ ،ﻲﻟﺎﺘﻟﺎﺑﻭ\n\n.$DEFENDER|Y$ ﻰﻠﻋ ﺏﺮﺤﻟﺍ ،$CALLER|Y$ ،ﻰﻠﻋﻷﺍ ﺎﻧﺪﻴﺳ ﻦﻠﻋﺃ"
+ MESSAGE_FEDERATION_DECLARED_WAR:0 "ﺏﺮﺤﻟﺍ ﺩﺎﺤﺗﻻﺍ ﺲﻴﺋﺭ ﻦﻠﻋﺃ"
+ MESSAGE_FEDERATION_DECLARED_WAR_DESC:1 "!$DEFENDER|Y$ ﻊﻣ §Yﺏﺮﺣ ﻲﻓ §! ﻥﻵﺍ ﻦﺤﻧ ،ﻲﻟﺎﺘﻟﺎﺑﻭ\n\n.$DEFENDER|Y$ ﻰﻠﻋ ﺏﺮﺤﻟﺍ ،$CALLER|Y$ ،ﺎﻧﺩﺎﺤﺗﺍ ﺲﻴﺋﺭ ﻦﻠﻋﺃ"
+ MESSAGE_SUPPORTED_DECLARED_WAR:1 "ﺏﺮﺤﻟﺍ ﻥﻼﻋﺇ ﻉﻮﺿﻮﻤﻟﺍ"
+ MESSAGE_SUPPORTED_DECLARED_WAR_DESC:1 "!$DEFENDER|Y$ ﻰﻠﻋ ﺏﺮﺤﻟﺍ ،ﻪﻟﻼﻘﺘﺳﺍ ﺪﻳﺆﻧ ﻱﺬﻟﺍ ،$CALLER|Y$ ﻦﻠﻋﺃ"
+ MESSAGE_OFFENSIVE_PACT_DECLARED_WAR:0 "ﺔﻴﻣﻮﺠﻬﻟﺍ ﺏﺮﺤﻟﺍ ﻰﻟﺇ ﻢﻀﻧﺍ"
+ MESSAGE_OFFENSIVE_PACT_DECLARED_WAR_DESC:1 "!$DEFENDER|Y$ ﻰﻠﻋ ﺏﺮﺤﻟﺍ ،ﺔﻴﻣﻮﺠﻬﻟﺍ ﻢﻬﺑﺮﺣ ﻲﻓ ﻪﻤﻋﺩ ﻰﻠﻋ ﺎﻨﻘﻔﺗﺍ ﻱﺬﻟﺍ ،$CALLER|Y$ ﻦﻠﻋﺃ"
+ MESSAGE_WAR_ENDED:0 "ﺏﺮﺤﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_WAR_ENDED_DESC_1:2 ".ﺚﻟﺎﺛ ﻑﺮﻃ ﻞﺒﻗ ﻦﻣ ﻪﻤﺿ ﻭﺃ $DEFENDER|Y$ ﻉﺎﻀﺧﺇ ﺐﺒﺴﺑ $DEFENDER|Y$ﻭ $ATTACKER|Y$ ﻦﻴﺑ ﺏﺮﺤﻟﺍ ﺖﻬﺘﻧﺍ"
+ MESSAGE_WAR_ENDED_DESC_2:3 ".ﺔﻧﺪﻫ ﻲﻓ ﻞﺧﺪﻧ ﻢﻟ .$OVERLORD|Y$ ﻞﺒﻗ ﻦﻣ ﻢﻬﻤﺿ ﻭﺃ ﻢﻬﻋﺎﻀﺧﺇ ﺐﺒﺴﺑ $ENEMY|Y$ ﻊﻣ ﺎﻨﺑﺮﺣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_WAR_ENDED_DESC_3:2 ".$OVERLORD|Y$ ﻉﻮﻀﺧ ﺐﺒﺴﺑ $ENEMY|Y$ ﺪﺿ ﺏﺮﺤﻟﺍ ﺎﻨﻛﺮﺗ ﺪﻘﻟ"
+ MESSAGE_VASSAL_ENTER_WAR:0 "ﺏﺮﺤﻟﺍ ﻞﺧﺪﻳ ﻉﻮﺿﻮﻤﻟﺍ"
+ MESSAGE_VASSAL_ENTER_WAR_DESC_1:1 "$VASSAL|Y$، ﺪﺿ ﺏﺮﺤﻟﺍ ﺎﻨﺋﺎﻔﻠﺣ ﺪﺣﻷ ﻊﺑﺎﺘﻟﺍ ﻞﺧﺩ ﺪﻘﻟ $ENEMY|Y$."
+ MESSAGE_VASSAL_ENTER_WAR_DESC_2:1 ".$ENEMY|Y$ ﺪﺿ ﺏﺮﺤﻟﺍ ﻞﺧﺩ ،$VASSAL|Y$ ﺎﻨﻌﺑﺎﺗ"
+ MESSAGE_ENEMY_VASSAL_ENTER_WAR:0 "ﺏﺮﺤﻟﺍ ﻞﺧﺪﻳ ﻭﺪﻌﻟﺍ ﻉﻮﺿﻮﻣ"
+ MESSAGE_ENEMY_VASSAL_ENTER_WAR_DESC:1 "$ENEMY|Y$، ﺎﻨﻴﻠﻋ ﺏﺮﺤﻟﺍ ﻞﺧﺩ ﺎﻨﺋﺍﺪﻋﺃ ﺪﺣﺃ ﻉﻮﺿﻮﻣ."
+ MESSAGE_ENEMY_LEAVES_WAR:0 "ﺏﺮﺤﻟﺍ ﻙﺮﺘﻳ ﻭﺪﻌﻟﺍ"
+ MESSAGE_ENEMY_LEAVES_WAR_DESC:3 ".$OVERLORD|Y$ ﻞﺒﻗ ﻦﻣ ﻪﻤﺿ ﻭﺃ ﻪﻋﺎﻀﺧﺇ ﺐﺒﺴﺑ ﺏﺮﺤﻟﺍ $ENEMY|Y$ ﻙﺮﺗ ﺪﻘﻟ"
+ TOAST_TRUCE_IS_OVER_TITLE: "ﺔﻧﺪﻬﻟﺍ ﺖﻬﺘﻧﺍ"
+ TOAST_TRUCE_IS_OVER_DESC: ".§Y$ENEMY$§! ﻊﻣ ﺎﻨﺘﻧﺪﻫ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ ####################################
+ # Fleet Detected
+ ####################################
+ MESSAGE_FLEET_DETECTED_WE:0 "!§Y$TARGET$ System§! ﻮﺤﻧ ﺮﺷﺎﺒﻣ ﺭﺎﺴﻣ ﻲﻓ $WHO|Y$ ﻦﻣ §H$FLEET$§! ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+ MESSAGE_FLEET_DETECTED_MESSAGE_TYPE_TITLE:0 "ﻝﻮﻄﺳﻷﺍ ﻦﻋ ﻒﺸﻜﻟﺍ ﻢﺗ"
+ MESSAGE_OBJECT_DETECTED_WE:0 "!§Y$TARGET$ System§! ﻮﺤﻧ ﺮﺷﺎﺒﻣ ﺭﺎﺴﻣ ﻲﻓ ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﻦﺋﺎﻛ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+ MESSAGE_OBJECT_DETECTED_MESSAGE_TYPE_TITLE:0 "ﻝﻮﻬﺠﻣ ﻦﺋﺎﻛ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+
+ ####################################
+ # Fleet Evade
+ ####################################
+ MESSAGE_FLEET_EVADE_HOSTILE:0 "!ﻢﻬﻨﻣ ﺏﺮﻬﺘﻟﺍ ﺎﻴﻟﺎﺣ ﻝﻭﺎﺤﻳﻭ $SYSTEM|H$ ﻲﻓ ﺩﺎﻌﻣ $HOSTILE|R$ ﻝﻮﻄﺳﺃ $FLEET$ ﻪﺟﺍﻭ"
+ MESSAGE_FLEET_EVADE_HOSTILE_FLEET_TYPE:0 "$TYPE$ $NAME|H$"
+ MESSAGE_FLEET_EVADE_HOSTILE_MESSAGE_TYPE_TITLE:0 "ﻱﺩﺎﻌﻤﻟﺍ ﻝﻮﻄﺳﻷﺍ ﻦﻣ ﺏﺮﻬﺘﻟﺍ"
+
+ ####################################
+ # Leaders
+ ####################################
+ FLEET_LEADER_DEATH:1 ".$SHIP|Y$ ﺮﻴﻣﺪﺗ ﻢﺗ ﺎﻣﺪﻨﻋ $CLASS|H$ $LEADER|Y$ ﻲﻓﻮﺗ"
+ ALIVE_FLEET_LEADER_DEATH: ".$SHIP|Y$ ﻞﻴﻐﺸﺗ ﺀﺎﻨﺛﺃ $CLASS|H$ $LEADER|Y$ ﻲﻓﻮﺗ"
+ ARMY_LEADER_DEATH:1 ".$ARMY|Y$ ﺓﺩﺎﻴﻗ ﺀﺎﻨﺛﺃ $CLASS|H$، $LEADER|Y$ ﺕﺎﻣ ﺪﻘﻟ"
+ PLANET_LEADER_DEATH:1 ".$PLANET|Y$ ﻰﻠﻋ ﺎﻨﺑ ﺹﺎﺨﻟﺍ $CLASS|H$، $LEADER|Y$ ﻲﻓﻮﺗ ﺪﻘﻟ"
+ COUNTRY_LEADER_DEATH:1 "!$CLASS|H$، $LEADER|Y$ ﻲﻓﻮﺗ ﺪﻘﻟ"
+ SYSTEM_LEADER_DEATH: "$SYSTEM|Y$ ﻡﺎﻈﻨﻟﺍ ﻲﻓ ﺎﻨﺑ ﺹﺎﺨﻟﺍ $CLASS|H$، $LEADER|Y$ ﻒﻗﻮﺗ ﺪﻘﻟ"
+ SPY_LEADER_DEATH: ".$TARGET|Y$ ﻲﻓ ﻩﺩﻮﺟﻭ ﺀﺎﻨﺛﺃ $CLASS|H$، $LEADER|Y$ ﻲﻓﻮﺗ ﺪﻘﻟ"
+ HEIR_DEATH:1 "، $HEIRNAME|Y$!§H$HEIR$§! ﻲﻓﻮﺗ ﺪﻘﻟ"
+ RULER_ELECTED:0 ".$TIME|Y$ ﻲﻓ ﺎﻫﺅﺍﺮﺟﺇ ﻢﺘﻴﺳ ﻲﺘﻟﺍﻭ ،ﺔﻴﻟﺎﺘﻟﺍ ﺕﺎﺑﺎﺨﺘﻧﻻﺍ ﻰﺘﺣ $TITLE$ $LEADER|Y$ ﻢﻜﺤﻴﺳ !ﺪﻳﺪﺟ ﻢﻛﺎﺣ ﺏﺎﺨﺘﻧﺍ ﻢﺗ ﺪﻘﻟ"
+ RULER_ELECTED_UNTIL_DEATH:1 ".ﻪﺗﺎﻓﻭ ﻰﺘﺣ ﻢﻜﺤﻴﺳﻭ ،ﺪﻳﺪﺠﻟﺍ ﻢﻛﺎﺤﻟﺍ ﻥﻮﻜﻴﻟ $TITLE$ $LEADER|Y$ ﺭﺎﻴﺘﺧﺍ ﻢﺗ"
+ RULER_ELECTED_HEIR:1 ".ﺓﺪﻳﺪﺠﻟﺍ ﺓﺮﻄﺴﻤﻟﺍ ﻮﻫ $TITLE$ $LEADER|Y$ ﻥﺈﻓ ،ﺔﻓﻼﺨﻟﺍ ﺐﻴﺗﺮﺘﻟ ﺎﻘﻓﻭ"
+ MESSAGE_LEADER_DEATH_TITLE:0 "ﻢﻴﻋﺰﻟﺍ ﺕﺎﻣ"
+ MESSAGE_LEADER_RETIRED_TITLE:0 "ﺪﻋﺎﻘﺘﻣ ﺪﺋﺎﻘﻟﺍ"
+ MESSAGE_RULER_ELECTED_TITLE:0 "ﺐﺨﺘﻨﻣ ﻢﻛﺎﺤﻟﺍ"
+ MESSAGE_RULER_ELECTED_UNTIL_DEATH_TITLE:1 "ﺕﻮﻤﻟﺍ ﻰﺘﺣ ﺐﺨﺘﻨﻤﻟﺍ ﻢﻛﺎﺤﻟﺍ"
+ MESSAGE_RULER_ELECTED_HEIR_TITLE:0 "ﺪﻬﻌﻟﺍ ﺢﺠﻧ"
+ MESSAGE_ELECTION_MESSAGE_TYPE_TITLE:0 "ﺏﺎﺨﺘﻧﺍ"
+ MESSAGE_DEMOCRATIC_ELECTION_DESC:0 ".$DATE|Y$ ﻲﻓ ﺔﺠﻴﺘﻨﻟﺍ ﻥﻼﻋﺇ ﻢﺘﻴﺳ\n.ﺔﻳﺭﺎﺟ ﺪﻳﺪﺠﻟﺍ $TITLE$ ﺏﺎﺨﺘﻧﻻ ﺔﻴﺑﺎﺨﺘﻧﻻﺍ ﺔﻠﻤﺤﻟﺍ"
+ MESSAGE_OLIGARCHIC_ELECTION_DESC:0 ".$DATE|Y$ ﻲﻓ ﺭﺍﺮﻘﻟﺍ ﻦﻋ ﻥﻼﻋﻹﺍ ﻢﺘﻴﺳ\n.ﺔﻳﺭﺎﺟ ﺪﻳﺪﺟ $TITLE$ ﻦﻴﻴﻌﺘﻟ ﺕﺎﺿﻭﺎﻔﻤﻟﺍ"
+ ELECTION_CLICK_FOR_MORE_INFO:0 "ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻣ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺮﻘﻧﺍ"
+ LEADER_DEATH_AGE:0 ".$AGE|Y$ ﺮﻤﻋ ﻦﻋ $CLASS|Y$ $LEADER|Y$ ﻲﻓﻮﺗ"
+ LEADER_RETIRED_DESC:0 ".$AGE|Y$ ﺮﻤﻋ ﻦﻋ $CLASS|Y$ $LEADER|Y$ ﺪﻋﺎﻘﺗ ﺪﻘﻟ"
+ TOOLTIP_KILL_LEADER:0 "§Rdies§!$CLASS|Y$ $LEADER|Y$ "
+ TOOLTIP_FIRE_LEADER: "§Rﻪﻗﻼﻃﺇ ﻢﺗ§!$CLASS|Y$ $LEADER|Y$ "
+ MESSAGE_LEADER_EXPERIENCE_TITLE:0 "ﺓﺮﺒﺨﻟﺍ ﺪﺋﺎﻘﻟﺍ ﺐﺴﺘﻛﺍ ﺪﻘﻟ"
+ LEADER_EXPERIENCE_NOTIFICATION_DESC:0 "§T$STATS$\n\n$CLASS|Y$ $LEADER|Y$ ﻝﺎﺘﻘﻟﺍ ﻦﻣ ﺓﺮﺒﺧ ﺖﺒﺴﺘﻛﺍ§!"
+ MESSAGE_LEADER_LEVEL_UP_TITLE:1 "ﻰﻠﻋﻷﺍ ﺪﺋﺎﻘﻟﺍ ﻯﻮﺘﺴﻣ"
+ LEADER_LEVEL_UP_DESC:0 "\n$LEVEL|Y$ :ﺓﺭﺎﻬﻤﻟﺍ\n\nﻰﻠﻋﺃ ﻯﻮﺘﺴﻣ ﻰﻟﺇ $CLASS|Y$ $LEADER|Y$ ﻞﺻﻭ ﺪﻘﻟ"
+ LEADER_LEVEL_UP_NEXT_LEVEL_DESC:0 "EXP|Y0$$ :ﻲﻟﺎﺘﻟﺍ ﻯﻮﺘﺴﻤﻠﻟ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺓﺮﺒﺨﻟﺍ\n$LEVEL|Y$ :ﺓﺭﺎﻬﻤﻟﺍ\n\nﻰﻠﻋﺃ ﻯﻮﺘﺴﻣ ﻰﻟﺇ $CLASS|Y$ $LEADER|Y$ ﻞﺻﻭ ﺪﻘﻟ"
+
+ LEADER_ADMIRAL_BASE_EXPERIENCE:0 "§Tﺔﺑﺮﺠﺗ $VAL|0H$ :ﻝﻮﻄﺳﻷﺍ ﺔﻛﺭﺎﺸﻣ§!"
+ LEADER_ADMIRAL_HOSTILE_KILLED_EXPERIENCE:0 "§Tﺔﺑﺮﺠﺗ $VAL|0H$ :ﺔﻳﺩﺎﻌﻤﻟﺍ ﺕﺍﻮﻘﻟﺍ ﺮﻴﻣﺪﺗ§!"
+ LEADER_ADMIRAL_FRIENDLY_LOST_EXPERIENCE:0 "§Tﺔﺑﺮﺠﺗ $VAL|0H$ :ﺔﻘﻳﺪﺼﻟﺍ ﺕﺍﻮﻘﻟﺍ ﺓﺭﺎﺴﺧ§!"
+
+ LEADER_GENERAL_BASE_EXPERIENCE:0 "§Tﺔﺑﺮﺠﺗ $VAL|0H$ :ﻲﺿﺭﻷﺍ ﻙﺎﺒﺘﺷﻻﺍ§!"
+ LEADER_GENERAL_HOSTILE_KILLED_EXPERIENCE:0 "§Tﺔﺑﺮﺠﺗ $VAL|0H$ :ﺔﻳﺩﺎﻌﻤﻟﺍ ﺕﺍﻮﻘﻟﺍ ﺮﻴﻣﺪﺗ§!"
+ LEADER_GENERAL_FRIENDLY_LOST_EXPERIENCE:0 "§Tﺔﺑﺮﺠﺗ $VAL|0H$ :ﺔﻘﻳﺪﺼﻟﺍ ﺕﺍﻮﻘﻟﺍ ﺓﺭﺎﺴﺧ§!"
+
+ LEADER_COMMANDER_BASE_EXPERIENCE:0 "§Tﺔﺑﺮﺠﺗ $VAL|0H$ :ﺔﻛﺭﺎﺸﻤﻟﺍ§!"
+ LEADER_COMMANDER_HOSTILE_KILLED_EXPERIENCE:0 "§Tﺔﺑﺮﺠﺗ $VAL|0H$ :ﺔﻳﺩﺎﻌﻤﻟﺍ ﺕﺍﻮﻘﻟﺍ ﺮﻴﻣﺪﺗ§!"
+ LEADER_COMMANDER_FRIENDLY_LOST_EXPERIENCE:0 "§Tﺔﺑﺮﺠﺗ $VAL|0H$ :ﺔﻘﻳﺪﺼﻟﺍ ﺕﺍﻮﻘﻟﺍ ﺓﺭﺎﺴﺧ§!"
+
+ MESSAGE_NEW_HEIR_TITLE:0 "§Hﺪﻳﺪﺠﻟﺍ ﺚﻳﺭﻮﻟﺍ§!"
+ NEW_HEIR_KEY: "ﺪﻳﺪﺟ ﺚﻳﺭﻭ"
+ NEW_HEIR_TEXT:0 ".ﻲﻟﺎﺤﻟﺍ ﺎﻨﻤﻛﺎﺣ ﺕﻮﻤﻳ ﺎﻣﺪﻨﻋ ﺵﺮﻌﻟﺍ ﻰﻟﻮﺘﻴﺳﻭ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺪﻳﺪﺠﻟﺍ ﺚﻳﺭﻮﻟﺍ ﻮﻫ §Y$HEIR$§!"
+ MESSAGE_LEADER_POOL_REFRESHED_MESSAGE_TYPE_TITLE:0 "$RECRUITABLE_LEADERS$ ﺚﻳﺪﺤﺗ ﻢﺗ"
+ LEADER_POOL_REFRESHED_TITLE:0 ".ﻒﻴﻇﻮﺘﻠﻟ ﻥﻵﺍ ﻥﻮﺣﺎﺘﻣ ﺩﺪﺠﻟﺍ ﺓﺩﺎﻘﻟﺍ .$RECRUITABLE_LEADERS$ ﺚﻳﺪﺤﺗ ﻢﺗ"
+ LEADER_POOL_REFRESHED_INSTRUCTION:0 "ﺓﺩﺎﻘﻟﺍ ﺽﺮﻋ ﺢﺘﻔﻟ ﺮﻘﻧﺍ"
+
+ ####################################
+ # Technology
+ ####################################
+ MESSAGE_TECHNOLOGY_RESEARCH_FINISH:0 ".$TECHNOLOGY|H$ ﻦﻋ ﺚﺤﺒﻟﺍ ﺎﻨﻠﻤﻛﺃ ﺪﻘﻟ"
+ MESSAGE_TECHNOLOGY_ORDER_FINISH_MESSAGE_TYPE_TITLE:0 "ﺖﺜﺤﺑ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ"
+
+ ####################################
+ # Debris
+ ####################################
+ MESSAGE_DEBRIS_ANALYZED_FINISH:0 ".$SYSTEM|Y$ ﻲﻓ ﻡﺎﻄﺤﻟﺍ ﻞﻴﻠﺤﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+ MESSAGE_DEBRIS_ANALYZED_FINISH_BONUS:1 "ﻁﺎﻘﻧ §G+$VAL|0$§!: §Y$AREA$ ﺚﺤﺑ§! £$AREA_KEY$£"
+ MESSAGE_DEBRIS_ANALYZED_FINISH_TECH_PROGRESS:1 "§G+$VAL|%0$§!$TECH|Y$: ﻡﺪﻘﺗ "
+ MESSAGE_DEBRIS_ANALYZED_FINISH_MESSAGE_TYPE_TITLE:0 "ﻡﺎﻄﺤﻟﺍ ﻞﻴﻠﺤﺗ"
+
+ MESSAGE_DEBRIS_SCAVENGED_FINISH:0 ".$SYSTEM|Y$ ﻲﻓ ﻡﺎﻄﺤﻟﺍ ﺢﺴﻣ ﻦﻣ ﺎﻨﻴﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_RESOURCE:0 "§G+$VAL$§!: §Y$NAME$§! £$RESOURCE_KEY$£"
+ MESSAGE_DEBRIS_SCAVENGED_FINISH_MESSAGE_TYPE_TITLE:0 "ﻡﺎﻄﺤﻟﺍ ﻒﻴﻈﻨﺗ ﻢﺗ"
+
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH:0 ".$SYSTEM|Y$ ﻲﻓ ﻪﻠﻴﻠﺤﺗﻭ ﻡﺎﻄﺤﻟﺍ ﺢﺴﻣ ﻦﻣ ﺎﻨﻴﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_DEBRIS_SCAVENGED_AND_ANALYZED_FINISH_MESSAGE_TYPE_TITLE:0 "ﻪﻠﻴﻠﺤﺗﻭ ﻡﺎﻄﺤﻟﺍ ﺢﺴﻣ"
+
+ ####################################
+ # Anomaly
+ ####################################
+ MESSAGE_ANOMALY_DETECTED_TYPE_TITLE:0 "ﺫﻭﺬﺷ"
+
+ ####################################
+ # No Access
+ ####################################
+ MESSAGE_WORMHOLE_CLOSED_NO_ACCESS:0 ".$WHO|Y$ ﺩﻭﺪﺣ ﻦﻤﺿ ﻊﻘﻳ ﻪﻧﻷ ،$TARGET|Y$ ﻩﺎﺠﺗﺎﺑ ﻪﺤﺘﻓ ﺪﻨﻋ $FROM|Y$ ﻲﻓ ﻱﺩﻭﺪﻟﺍ ﺐﻘﺜﻟﺍ ﻕﻼﻏﺇ ﻢﺗ"
+ MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS:0 ".$WHO|Y$ ﺩﻭﺪﺣ ﻦﻤﺿ ﻊﻘﻳ ﻪﻧﻷ ،$FROM|Y$ ﻦﻣ $RETURN|Y$ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ ﻰﻠﻋ $FLEET|Y$ ﺭﺎﺒﺟﺇ ﻢﺗ"
+ MESSAGE_WORMHOLE_CLOSED_NO_ACCESS_TITLE:0 "ﻖﻠﻐﻣ ﻱﺩﻭﺪﻟﺍ ﺐﻘﺜﻟﺍ"
+ MESSAGE_FLEET_LEAVE_SYSTEM_NO_ACCESS_TITLE:0 "ﻝﻮﺻﻮﻟﺍ ﻦﻜﻤﻳ ﻻ"
+
+ ####################################
+ # Revolt
+ ####################################
+ MESSAGE_REVOLT:1 "!ﻥﻭﺯﺰﻘﻣ $PLANET|Y$ ﺐﻛﻮﻛ ﻰﻠﻋ ﻥﺎﻜﺴﻟﺍ"
+ MESSAGE_PLANET_REVOLT_TITLE:0 "!ﺓﺭﻮﺛ"
+
+ ####################################
+ # Planet Destruction
+ ####################################
+ MESSAGE_PLANET_DESTROYED:0 "ﺮﻣﺪﻣ ﺐﻛﻮﻜﻟﺍ"
+ MESSAGE_PLANET_DESTROYED_DESC:0 "$PLANET|Y$ $WEAPON_DESC$ $WEAPON_NAME|R$ ﻰﻠﻋ $ADJ$ Colossus."
+
+ ####################################
+ # Terraforming
+ ####################################
+ MESSAGE_TERRAFORMATION_FINISH:1 ".$PLANET_CLASS|Y$ ﻰﻟﺇ $PLANET|Y$ ﻞﻳﻮﺤﺗ ﻢﺗ"
+ MESSAGE_TERRAFORMATION_CANCELED:0 "!$PLANET|Y$ ﻰﻠﻋ ﺡﻼﺼﺘﺳﻻﺍ ﺔﻴﻠﻤﻋ ﺔﻌﻃﺎﻘﻣ ﺖﻤﺗ ﺪﻘﻟ"
+ MESSAGE_TERRAFORM_MESSAGE_TYPE_TITLE:0 "ﺡﻼﺼﺘﺳﻻﺍ"
+
+ ####################################
+ # Trade
+ ####################################
+ MESSAGE_TRADE_DEAL_END_NO_ENERGY:0 ".ﺎﻬﻴﻠﻋ ﻅﺎﻔﺤﻠﻟ ﻡﺯﻼﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺪﻴﺻﺭ ﻰﻟﺇ ﺮﻘﺘﻔﻧ ﺎﻨﻧﻷ $WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_NO_ENERGY_THEM:0 ".ﺎﻬﻴﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺔﻣﺯﻼﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺓﺪﺻﺭﺃ ﻰﻟﺇ ﻥﻭﺮﻘﺘﻔﻳ ﻢﻬﻧﻷ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ $WITH|Y$ ﻰﻬﻧﺃ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE:0 ".ﺎﻬﻴﻠﻋ ﻅﺎﻔﺤﻠﻟ $RESOURCE|Y$ ﻰﻟﺇ ﺮﻘﺘﻔﻧ ﺎﻨﻧﻷ $WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_MISSING_RESOURCE_THEM:0 ".ﺎﻬﻴﻠﻋ ﻅﺎﻔﺤﻠﻟ $RESOURCE|Y$ ﻰﻟﺇ ﻥﻭﺮﻘﺘﻔﻳ ﻢﻬﻧﻷ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ $WITH|Y$ ﻰﻬﻧﺃ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION:0 ".ﺎﺤﻟﺎﺻ ﺪﻌﻳ ﻢﻟ $ACTION|Y$ ﻱﺭﺎﺠﺘﻟﺍ ﺀﺍﺮﺟﻹﺍ ﻥﻷ $WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_ACTION_THEM:0 ".ﺎﺤﻟﺎﺻ ﺪﻌﻳ ﻢﻟ $ACTION|Y$ ﻱﺭﺎﺠﺘﻟﺍ ﺀﺍﺮﺟﻹﺍ ﻥﻷ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺓﺭﺎﺠﺘﻟﺍ ﺓﺪﻫﺎﻌﻣ $WITH|Y$ ﻰﻬﻧﺃ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_SPECIMEN: ".ﺎﻨﻳﺪﻟ ﺔﻟﻭﺍﺪﺘﻤﻟﺍ ﺕﺎﻨﻴﻌﻟﺍ ﻯﺪﺣﺇ ﺀﺎﻔﺘﺧﺍ ﺐﺒﺴﺑ $WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_CANCELLED_SPECIMEN_THEM: ".ﺔﻟﻭﺍﺪﺘﻤﻟﺍ ﺕﺎﻨﻴﻌﻟﺍ ﻯﺪﺣﺇ ﺀﺎﻔﺘﺧﺍ ﺐﺒﺴﺑ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ $WITH|Y$ ﻰﻬﻧﺃ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_TITLE:0 "ﺔﻳﺭﺎﺠﺗ ﺔﻘﻔﺻ"
+ MESSAGE_TRADE_DEAL_END_TIMEOUT:2 "$THEIR_OFFER$\n:ﻝﻭﺍﺪﺘﻟﺍ ﻢﺗ ﺪﻘﻟ\n\n$OUR_OFFER$\n:ﻝﻭﺍﺪﺘﻟﺎﺑ ﺎﻨﻤﻗ ﺪﻘﻟ\n\n.$WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ ﺔﻠﻬﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS:0 ".ﻢﻬﻬﺟﻭ ﻲﻓ ﺎﻧﺩﻭﺪﺣ ﺎﻨﻘﻠﻏﺃ ﺎﻨﻧﻷ $WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_CLOSED_BORDERS_THEM:0 ".ﺎﻨﻣﺎﻣﺃ ﻢﻫﺩﻭﺪﺣ ﺍﻮﻘﻠﻏﺃ ﺚﻴﺣ $WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS:0 ".ﺎﻨﻟﻮﺻﻭ ﻲﻓ ﻢﻜﺤﺘﺗ ﺪﻌﺗ ﻢﻟ ﺎﻳﺎﻋﺭ ﺎﻨﺤﺒﺻﺃ ﺎﻨﻧﻷ $WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_SUBJECT_ACCESS_THEM:0 ".ﻢﻬﻟﻮﺻﻭ ﻲﻓ ﻢﻜﺤﺘﺗ ﺪﻌﺗ ﻢﻟ ﻊﻴﺿﺍﻮﻣ ﺍﻮﺤﺒﺻﺃ ﺚﻴﺣ $WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_CANCELED_FLEET:0 "$THEIR_OFFER$\n:ﻝﻭﺍﺪﺘﻟﺎﺑ ﺍﻮﻣﺎﻗ ﺪﻘﻟ\n\n$OUR_OFFER$\n:ﻝﻭﺍﺪﺘﻟﺎﺑ ﺎﻨﻤﻗ ﺪﻘﻟ\n\n.ﺮﻬﻘﻟﺍ ﺔﻴﻗﺎﻔﺗﺍ ﺀﺎﻐﻟﺇ ﺐﺒﺴﺑ $WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺘﻘﻔﺻ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE:0 ".ﻒﻟﺎﺤﺗ ﻰﻟﺇ ﺎﻨﻤﻤﻀﻧﺍ ﺎﻨﻧﻷ $WITH|Y$ ﻊﻣ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻳﺭﺎﺠﺘﻟﺍ ﻥﺎﻤﻀﻟﺍ ﺓﺪﻫﺎﻌﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_GUARANTEE_ALLIANCE_THEM:0 ".ﻒﻟﺎﺤﺗ ﻰﻟﺇ ﻢﻬﻣﺎﻤﻀﻧﺍ ﺐﺒﺴﺑ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻳﺭﺎﺠﺘﻟﺍ ﻥﺎﻤﻀﻟﺍ ﺓﺪﻫﺎﻌﻣ $WITH|Y$ ﻰﻬﻧﺃ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_VASSALAGE:1 ".ﻢﻬﻟﻼﻘﺘﺳﺍ ﻢﻋﺩ ﺎﻨﻧﺎﻜﻣﺈﺑ ﺪﻌﻳ ﻢﻟﻭ ﺎﻳﺎﻋﺭ ﺎﻨﺤﺒﺻﺃ ﺎﻨﻧﻷ $WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_VASSALAGE_THEM:1 ".ﺎﻨﻟﻼﻘﺘﺳﺍ ﻢﻋﺩ ﻢﻬﻧﺎﻜﻣﺈﺑ ﺪﻌﻳ ﻢﻟﻭ ﺎﻳﺎﻋﺭ ﺍﻮﺤﺒﺻﺃ ﻢﻬﻧﻷ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ $WITH|Y$ ﻰﻬﻧﺃ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_ALLIANCE:0 ".ﻪﻟﻼﻘﺘﺳﺍ ﻥﺎﻤﺿ ﺎﻨﻧﺎﻜﻣﺈﺑ ﺪﻌﻳ ﻢﻟﻭ ﻒﻟﺎﺤﺗ ﻰﻟﺇ ﺎﻨﻤﻤﻀﻧﺍ ﺎﻨﻧﻷ $WITH|Y$ ﻊﻣ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ MESSAGE_TRADE_DEAL_END_SUPPORT_INDEPENDENCE_ALLIANCE_THEM:0 ".ﺎﻨﻟﻼﻘﺘﺳﺍ ﻥﺎﻤﺿ ﻢﻬﻧﺎﻜﻣﺈﺑ ﺪﻌﻳ ﻢﻟﻭ ﻒﻟﺎﺤﺗ ﻰﻟﺇ ﺍﻮﻤﻀﻧﺍ ﻢﻬﻧﻷ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺎﻨﺗﺪﻫﺎﻌﻣ $WITH|Y$ ﻰﻬﻧﺃ ﺪﻘﻟ"
+
+ ####################################
+ # Special Project
+ ####################################
+ MESSAGE_UPLIFTING_FAILED_TITLE:0 "ﺹﺎﺨﻟﺍ ﻊﻓﺮﻟﺍ ﻉﻭﺮﺸﻣ ﻞﺸﻓ"
+ MESSAGE_UPLIFTING_FAILED:1 ".$PLANET|Y$ ﻰﻠﻋ $SPECIES|Y$ ﻯﻮﺘﺴﻣ ﻊﻓﺮﻟ ﺎﻨﻋﻭﺮﺸﻣ ﻞﺸﻓ ﺪﻘﻟ"
+ MESSAGE_SPECIES_MODIFICATION_FAILED_TITLE:0 "ﺹﺎﺨﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻞﻳﺪﻌﺗ ﻉﻭﺮﺸﻣ ﻞﺸﻓ"
+ MESSAGE_SPECIES_MODIFICATION_FAILED:3 ".$TEMPLATE|Y$ ﺐﻟﺎﻗ ﺔﻘﺑﺎﻄﻤﻟ $PLANETS|Y$ ﺐﻛﺍﻮﻛ ﻰﻠﻋ POPS|Y$ Pops$ ﻞﻳﺪﻌﺘﻟ ﺎﻨﻋﻭﺮﺸﻣ ﻞﺸﻓ"
+ MESSAGE_SPECIAL_PROJECT_AVAILABLE_TITLE:0 "ﺡﺎﺘﻣ ﺹﺎﺧ ﻉﻭﺮﺸﻣ"
+ SPECIAL_PROJECT_AVAILABLE:0 ".ﺚﺤﺒﻠﻟ ﺡﺎﺘﻣ ﺹﺎﺧ ﻉﻭﺮﺸﻣ"
+
+
+ ####################################
+ # Event
+ ####################################
+ MESSAGE_EVENT_MESSAGE_TYPE_TITLE:0 "ﺙﺪﺣ"
+
+ ####################################
+ # Invasion
+ ####################################
+ MESSAGE_INVASION_TITLE:0 "ﻭﺰﻐﻟﺍ ﻰﻬﺘﻧﺍ"
+ INVASION_ATTACKER_WIN_KEY: "$MESSAGE_INVASION_TITLE$ (ﻭﺰﻐﻟﺍ ﺡﺎﺠﻧ)"
+ INVASION_ATTACKER_LOSE_KEY: "$MESSAGE_INVASION_TITLE$ (ﻭﺰﻐﻟﺍ ﻞﺸﻓ)"
+ INVASION_DEFENDER_WIN_KEY: "$MESSAGE_INVASION_TITLE$ (ﻉﺎﻓﺪﻟﺍ ﺢﺠﻧ)"
+ INVASION_DEFENDER_LOSE_KEY: "$MESSAGE_INVASION_TITLE$ (ﻉﺎﻓﺪﻟﺍ ﻞﺸﻓ)"
+ MESSAGE_INVASION_ATTACKER_WIN:1 "!$PLANET|Y$ ﻭﺰﻏ ﻲﻓ ﺎﻨﺤﺠﻧ ﺪﻘﻟ"
+ MESSAGE_INVASION_ATTACKER_LOSE:0 ".$PLANET|H$ ـﻟ ﺎﻧﻭﺰﻏ ﻞﺸﻓ ﺪﻘﻟ"
+ MESSAGE_INVASION_DEFENDER_WIN:1 "!$PLANET|Y$ ﻰﻠﻋ ﺓﺍﺰﻐﻟﺍ ﺪﺻ ﻲﻓ ﺎﻨﺤﺠﻧ"
+ MESSAGE_INVASION_DEFENDER_LOSE:1 ".$PLANET|Y$ ﻰﻠﻋ ﺓﺍﺰﻐﻟﺍ ﺪﺻ ﻲﻓ ﺎﻨﻠﺸﻓ ﺪﻘﻟ"
+ MESSAGE_RETREAT_CASUALTIES_TITLE:0 "ﺔﺒﺤﺴﻨﻤﻟﺍ ﺵﻮﻴﺠﻟﺍ ﺕﺮﺴﺧ"
+ RETREAT_CASUALTIES_DESC:1 "$LOST$\n$PLANET|Y$ ﻦﻣ ﺏﺎﺤﺴﻧﻻﺍ ﺎﻨﺘﻟﻭﺎﺤﻣ ﺀﺎﻨﺛﺃ $TOTAL|Y$ ﺎﻨﺷﻮﻴﺟ ﻦﻣ $NUM|Y$ ﺎﻧﺪﻘﻓ ﺪﻘﻟ"
+ MESSAGE_LOST_ARMY:0 "$NUMBER$. $NAME|R$"
+
+
+ ####################################
+ # Subject changes
+ ####################################
+ MESSAGE_SUBJECT_TYPE_CHANGED_TITLE:0 "ﻉﻮﺿﻮﻤﻟﺍ ﺔﻟﺎﺣ ﺮﻴﻴﻐﺗ ﻢﺗ"
+ MESSAGE_SUBJECT_CHANGED_DESC:0 "$REASON$$SUBJECT|Y$ ﻥﻵﺍ ﺢﺒﺻﺃ $NEW_TYPE|Y$ ﺖﺤﺗ $OVERLORD|Y$"
+ MESSAGE_SUBJECT_CHANGE_REASON_preset_protectorate_me:0 "،ﻪﻘﻘﺤﻧ ﻱﺬﻟﺍ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻠﻟ ﺍﺮﻈﻧﻭ"
+ MESSAGE_SUBJECT_CHANGE_REASON_preset_protectorate:0 ".ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻢﻬﻣﺪﻘﺘﻟ ﺍﺮﻈﻧ"
+
+ ####################################
+ # Triggered Modifiers
+ ####################################
+ MESSAGE_TRIGG_MOD_LOST_TITLE:0 "ﺩﻮﻘﻔﻣ ﻲﻃﺮﺸﻟﺍ ﺮﻴﺛﺄﺘﻟﺍ"
+ TRIGG_MOD_LOST:1 ".ﺎﻄﺸﻧ '$NAME|H$' ﻲﻃﺮﺸﻟﺍ ﺮﻴﺛﺄﺘﻟﺍ ﺪﻌﻳ ﻢﻟ"
+ MESSAGE_TRIGG_MOD_GAINED_TITLE:0 "ﺐﺴﺘﻜﻤﻟﺍ ﻲﻃﺮﺸﻟﺍ ﺮﻴﺛﺄﺘﻟﺍ"
+ TRIGG_MOD_GAINED:1 "$DESC$\n\n$NAME|H$"
+
+ ####################################
+ # Combat Stats
+ ####################################
+ MESSAGE_COMBAT_STATS_TITLE:0 "ﻲﻟﺎﺘﻘﻟﺍ ﻝﻮﻄﺳﻷﺍ ﺕﺎﻴﺋﺎﺼﺣﺇ"
+
+ ####################################
+ # Edicts
+ ####################################
+ MESSAGE_INVALIDATED_EDICT_TITLE:0 "ﻡﻮﺳﺮﻤﻟﺍ ﺀﺎﻐﻟﺇ ﻢﺗ"
+ COUNTRY_EDICT_BECAME_INVALID:1 ".ﺔﺑﻮﻠﻄﻤﻟﺍ ﻁﻭﺮﺸﻟﺍ ﻲﻓﻮﺘﺴﻳ ﺪﻌﻳ ﻢﻟ ﻪﻧﻷ $EDICT|Y$ ﻡﻮﺳﺮﻣ ﻝﺎﻄﺑﺇ ﻢﺗ"
+ MESSAGE_EXPIRED_EDICT_TITLE:0 "ﻡﻮﺳﺮﻤﻟﺍ ﺔﻴﺣﻼﺻ ﺖﻬﺘﻧﺍ"
+ COUNTRY_EDICT_EXPIRED:0 ".ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻰﻠﻋ ﺮﺛﺆﻳ ﻱﺬﻟﺍ $EDICT|Y$ ﻡﻮﺳﺮﻣ ﺔﻴﺣﻼﺻ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ PLANET_EDICT_EXPIRED:0 ".$PLANET$ ﻰﻠﻋ ﺮﺛﺆﻳ ﻱﺬﻟﺍ $EDICT|Y$ ﻡﻮﺳﺮﻣ ﺔﻴﺣﻼﺻ ﺖﻬﺘﻧﺍ"
+
+#####################################
+# Megastructures
+#####################################
+
+ MESSAGE_MEGASTRUCTURE_BUILT_TITLE:0 "ﺔﻗﻼﻤﻌﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺖﻴﻨﺑ"
+ MESSAGE_MEGASTRUCTURE_BUILT:4 ".$SYSTEM|Y$ ﻡﺎﻈﻧ ﻲﻓ $MEGASTRUCTURE|H$ ﺀﺎﺸﻧﺇ ﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ ﻢﺗ"
+ MESSAGE_MEGASTRUCTURE_UPGRADED_TITLE:0 "ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺔﻴﻗﺮﺗ"
+ MESSAGE_MEGASTRUCTURE_UPGRADED:3 ".$SYSTEM|Y$ ﻡﺎﻈﻧ ﻲﻓ $MEGASTRUCTURE|H$ ﺔﻴﻗﺮﺗ ﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ ﻢﺗ"
+ MESSAGE_ALIEN_MEGASTRUCTURE_BUILT_TITLE:0 "ﻢﺨﺿ ﻲﺋﺎﻀﻓ ﻞﻜﻴﻫ ﺀﺎﻨﺑ ﻢﺗ"
+ MESSAGE_ALIEN_MEGASTRUCTURE_BUILT:1 ".$SYSTEM|Y$ ﻡﺎﻈﻧ ﻲﻓ $MEGASTRUCTURE|H$ ﺀﺎﺸﻧﺇ $COUNTRY|Y$ ﺖﻠﻤﻛﺃ"
+
+ #####################################
+# Casus Belli
+#####################################
+ MESSAGE_NEW_CASUS_BELLI_HOLDER_TITLE:1 "ﻲﻠﻴﺑ ﺱﻮﺳﺎﻛ ﻮﻴﻧ"
+ MESSAGE_NEW_CASUS_BELLI_HOLDER:1 "$COUNTRY|H$ ﻞﺑﺎﻘﻣ CASUS_BELLI|H$ Casus Belli$ ﻡﺍﺪﺨﺘﺳﺍ ﻥﻵﺍ ﺎﻨﻨﻜﻤﻳ"
+
+ MESSAGE_NEW_CASUS_BELLI_TARGET_TITLE:1 "ﻲﻠﻴﺑ ﺱﻮﺳﺎﻛ ﻑﺪﻫ"
+ MESSAGE_NEW_CASUS_BELLI_TARGET:1 "!ﺎﻧﺪﺿ CASUS_BELLI|H$ Casus Belli$ ﻡﺍﺪﺨﺘﺳﺍ ﻥﻵﺍ $COUNTRY|H$ ـﻟ ﻦﻜﻤﻳ"
+ MESSAGE_NEW_CASUS_BELLI_TRIAL_OF_ADVANCEMENT_TARGET:0 "!ﺎﻧﺪﺿ CASUS_BELLI|H$ Casus Belli$ ﻡﺍﺪﺨﺘﺳﺍ §HEmpire§! ﻲﻓ §Hﺲﻠﺠﻤﻟﺍ ﻲﻓ ﺀﺎﻀﻋﻷﺍ ﺮﻴﻏ§! ﺀﺎﻀﻋﺃ ﻊﻴﻤﺠﻟ ﻥﻵﺍ ﻦﻜﻤﻳ"
+
+ MESSAGE_LOST_CASUS_BELLI_TITLE:0 "ﻲﻠﻴﺑ ﻥﺍﺪﻘﻓ ﺐﺒﺳ"
+ MESSAGE_LOST_CASUS_BELLI:1 "$COUNTRY|H$ ﻲﻓ CASUS_BELLI|H$ Casus Belli$ ﻡﺍﺪﺨﺘﺳﺍ ﺎﻨﻧﺎﻜﻣﺈﺑ ﺪﻌﻳ ﻢﻟ"
+
+ #####################################
+# Claims
+#####################################
+ MESSAGE_NEW_CLAIM_ON_SYSTEM_TITLE:1 "ﺎﻨﻣﺎﻈﻨﺑ ﺐﻟﺎﻄﺗ ﺔﻴﺒﻨﺟﻷﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ"
+ MESSAGE_NEW_CLAIM_ON_SYSTEM:2 "!$SYSTEM|Y$ ﻡﺎﻈﻨﺑ ﺓﺃﺮﺠﺑ ﺐﻟﺎﻃ ﺪﻗ $COUNTRY|Y$ ﻥﺃ ﻻﺇ ،ﺎﻨﻟ ﻚﻠﻣ ﻪﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+
+#####################################
+# Star Destroyed
+#####################################
+ MESSAGE_STAR_DESTROYED:0 "ﻡﺎﻈﻨﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺗ"
+ MESSAGE_STAR_DESTROYED_DESC:1 ".$PLANET|Y$ ﻡﺎﻈﻧ ﺮﻴﻣﺪﺗ ﻰﻟﺇ §RStar-Eater§! $ADJ$ ﻦﻋ ﺞﺗﺎﻨﻟﺍ ﻢﺨﻀﻟﺍ ﻢﻈﻋﻷﺍ ﺮﻌﺘﺴﻤﻟﺍ ﻯﺩﺃ"

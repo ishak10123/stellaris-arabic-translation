@@ -1,0 +1,394 @@
+﻿l_spanish:
+ ### Pre-FTL Espionage Operations
+ diplomacy_wrong_interference_policy:0 "§!.ﺎﻨﻫ ﺲﺴﺠﺘﻟﺍ ﺀﺍﺮﺟﺈﺑ ﺎﻨﻟ ﺢﻤﺴﺗ ﻻ §R§Y$policy_interference$ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ§! ﺔﺳﺎﻴﺳ§!$TRIGGER_FAIL$"
+
+ operation_requires_observation_outpost:0 "§!.ﻲﻠﺻﻷﺍ ﻢﻬﻤﻟﺎﻋ ﺭﺍﺪﻣ ﻲﻓ §R§Y§! ﺔﺒﻗﺍﺮﻣ ﻊﻗﻮﻣ ﺐﻠﻄﺘﻳ§!$TRIGGER_FAIL$"
+ operation_has_disguise:0 " " # Intentionally empty string
+ operation_no_disguise_bio:0 "§!.ﺔﻴﺋﺍﻮﺸﻋ ﺔﻴﺒﻠﺳ ﺙﺍﺪﺣﺃ ﻉﻮﻗﻭ ﺮﻄﺧ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﻦﻴﻴﻠﺤﻣ ﻥﺎﻜﺴﻛ ﺮﻜﻨﺘﻟﺍ ﺎﻨﺋﻼﻛﻭ ﻰﻠﻋ ﺐﻌﺼﻟﺍ ﻦﻣ ﻞﻌﺠﻴﺳ §H§Y$tech_gene_tailoring$§! ﺺﻘﻧ§!"
+ operation_no_disguise_machine:0 "§!.ﺔﻴﺋﺍﻮﺸﻋ ﺔﻴﺒﻠﺳ ﺙﺍﺪﺣﺃ ﻉﻮﻗﻭ ﺹﺮﻓ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﻦﻴﻴﻠﺤﻣ ﻥﺎﻜﺴﻛ ﺮﻜﻨﺘﻟﺍ ﺎﻨﺋﻼﻛﻭ ﻰﻠﻋ ﺐﻌﺼﻟﺍ ﻦﻣ ﻞﻌﺠﻴﺳ §H§Y$tech_robomodding$§! ﺺﻘﻧ§!"
+ operation_wrong_tech_level:0 "\n\n§R.ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ ﻲﻔﻜﻳ ﺎﻤﺑ ﺎﻣﺪﻘﺘﻣ ﺲﻴﻟ ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻬﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ§!$TRIGGER_FAIL$"
+ operation_is_gestalt:0 "\n\n§!.ﻯﺮﺧﻷﺍ ﺕﺎﻌﻤﺘﺠﻤﻟﺍ ﻊﻣ ﺝﺎﻣﺪﻧﻻﺍ ﻢﻬﻨﻜﻤﻳ ﻻ .§R§Yﺖﻟﺎﻄﺸﺠﻟﺍ ﻲﻋﻭ§! ﻢﻬﻧﺇ§!$TRIGGER_FAIL$"
+ operation_gestalt_cant_indoctrinate:0 "\n\n§!.ﺎﻬﻠﻳﻮﺤﺗ ﺎﻨﻨﻜﻤﻳ ﻻ .§R§Yﺖﻟﺎﻄﺸﺠﻟﺍ ﻲﻋﻭ§! ﻦﺤﻧ§!$TRIGGER_FAIL$"
+ operation_gestalt_mismatched:0 "\n\n§R.ﺎﻧﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻦﻋ ﺎﻳﺭﺬﺟ ﻒﻠﺘﺨﻳ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻣ ﻉﻮﻧ ﻰﻟﺇ ﻞﻠﺴﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻻ§!$TRIGGER_FAIL$"
+ operation_wrong_interference_policy:0 "\n\n§!.ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻬﺑ §R§Y$policy_interference$ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ§! ﺔﺳﺎﻴﺳ ﺢﻤﺴﺗ ﻻ§!$TRIGGER_FAIL$"
+ operation_wrong_enlightenment_policy:0 "\n\n§!.ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻬﺑ ﺢﻤﺴﺗ ﻻ §R§Y$policy_enlightenment$ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ§! ﺔﺳﺎﻴﺳ§!$TRIGGER_FAIL$"
+ operation_same_ethos:0 "\n\n§R.ﻞﻌﻔﻟﺎﺑ ﺎﻨﻗﻼﺧﺃ ﺎﻨﻛﺭﺎﺸﺗ ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻫ§!$TRIGGER_FAIL$"
+ operation_failed_infiltration:0 "\n\n§R.ﻯﻮﺼﻗ ﺐﻫﺄﺗ ﺔﻟﺎﺣ ﻲﻓ ﻥﺎﻜﺴﻟﺍ ﺖﻠﻌﺟ ﺓﺮﻴﺧﻷﺍ ﺎﻨﺗﺍﺀﺍﺮﺟﺇ§!$TRIGGER_FAIL$"
+
+ operation_awareness_risk:0 ".ﺎﻨﻳﺪﻟ ﺲﺴﺠﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺀﺎﻨﺛﺃ §Yﻲﻋﻮﻟﺍ§! £awareness£ ﻰﻠﻋ [from.target.GetName] ﻝﻮﺼﺣ ﺮﻄﺧ ﺓﺩﺎﻳﺯ\n" # event tooltip
+ operation_random_event_resolved:0 ".ﻲﻨﻣﺰﻟﺍ ﺎﻬﻟﻭﺪﺟ §Y[from.GetName] ﺔﻴﻠﻤﻌﻟﺍ ﻒﻧﺄﺘﺴﺘﺳ§!"
+ operation_random_event_resolved_poor:0 ".§Rnegative§! ﺔﺴﻜﻨﻟﺍ ﻩﺬﻫ ﻦﻣ ﻢﻏﺮﻟﺎﺑ §Y[from.GetName] ﺔﻴﻠﻤﻋ§! ﻑﺎﻨﺌﺘﺳﺍ ﻢﺘﻴﺳ"
+ operation_random_event_resolved_good:0 ".ﺮﺜﻛﺃ §Gﺔﻴﺑﺎﺠﻳﺇ§! ﺔﺠﻴﺘﻧ ﻮﺤﻧ ﻪﺠﺘﺗﻭ ،§Y[from.GetName] ﺔﻴﻠﻤﻋ§! ﻑﺎﻨﺌﺘﺳﺍ ﻢﺘﻴﺳ"
+ operation_random_event_resolved_excellent:0 ".§Gpositive§! ﺔﻠﻤﺘﺤﻣ ﺔﺠﻴﺘﻧ ﻊﻣ ،§Y[from.GetName] ﺔﻴﻠﻤﻋ§! ﻑﺎﻨﺌﺘﺳﺍ ﻢﺘﻴﺳ"
+
+ operation_infiltrate_government:0 "ﺔﻣﻮﻜﺤﻟﺍ ﻕﺍﺮﺘﺧﺍ"
+ operation_infiltrate_government_desc:0 ".ﻢﻀﻠﻟ ﺐﻛﻮﻜﻟﺍ ﺪﻌﻳ ﺎﻤﻣ ،ﻢﻟﺎﻌﻟﺍ ﺓﺩﺎﻗ ﻞﺤﻣ ﺎﻴﺠﻳﺭﺪﺗ ﻥﻮﻠﺤﻴﺳ ﻢﻬﻌﻤﺘﺠﻣ ﻰﻟﺇ ﻞﻠﺴﺘﻠﻟ ﻢﻬﻟﺎﺳﺭﺇ ﻢﺘﻳ ﻦﻳﺬﻟﺍ ﺀﻼﻤﻌﻟﺍ"
+ operation_infiltrate_government_on_success:0 "[owner.GetDisguiseState]\n\n.ﺓﺩﺎﻌﺴﻟﺍ ﻦﻣ ﺔﺘﻗﺆﻣ ﻦﻜﻟﻭ ﺓﺮﻴﺒﻛ ﺔﻌﻓﺩ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﺢﻨﻣﻭ ﺐﻛﻮﻜﻟﺍ ﻢﻀﺑ ﻢﻗ\n$IF_SUCCESSFUL|E$"
+
+ operation_indoctrinate_society:0 "ﻦﻴﻘﻠﺘﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ"
+ operation_indoctrinate_society_desc:1 ".ﺎﻧﺮﻴﻜﻔﺗ ﺔﻘﻳﺮﻃ ﻰﻟﺇ ﻪﻠﻤﻛﺄﺑ ﻢﻬﻌﻤﺘﺠﻣ ﺍﻮﺑﺬﺠﻳ ﻥﺃ ﺎﻨﺋﻼﻤﻌﻟ ﻦﻜﻤﻳ ،[target.GetName] ﻞﺧﺍﺩ ﺮﻐﺻﺃ ﺔﻴﻧﺎﻜﺳ ﺕﺎﻋﻮﻤﺠﻣ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻟﺍ ﻝﻼﺧ ﻦﻣ"
+ operation_indoctrinate_society_on_success:0 "[owner.GetDisguiseState]\n\n.ﺎﻨﻗﻼﺧﺃ ﻮﺤﻧ ﻥﺎﻜﺴﻟﺍ ﻕﻼﺧﺃ ﻝﻮﺤﻳ\n$IF_SUCCESSFUL|E$"
+
+ operation_plant_advanced_knowledge:0 "ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻴﺗﺎﺒﻨﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ"
+ operation_plant_advanced_knowledge_desc:0 ".ﺓﺮﻴﻐﺻ ﺔﻌﻓﺩ ﻮﻫ ﻪﻧﻮﺟﺎﺘﺤﻳ ﺎﻣ ﻞﻛ .ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﻪﻨﻜﻟ ،FTL ﻞﺒﻗ ﺎﻣ ﺎﻌﻤﺘﺠﻣ [target.GetName] ﻥﻮﻜﻳ ﺪﻗ"
+ operation_plant_advanced_knowledge_on_success:0 "[owner.GetDisguiseState]\n\n.ﻑﺪﻬﻠﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻳ\n$IF_SUCCESSFUL|E$"
+
+ operation_increase_awareness:0 "ﻲﻋﻮﻟﺍ ﺓﺩﺎﻳﺯ"
+ operation_increase_awareness_desc:0 ".ﻥﻮﻜﻟﺍ ﻲﻓ ﻢﻫﺪﺣﻭ ﺍﻮﺴﻴﻟ ﻢﻬﻧﺃ [root.target.GetName] ﻙﺭﺪﻳ ﻲﻜﻟ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻟ"
+ operation_increase_awareness_on_success:0 "[owner.GetDisguiseState]\n\n.[root.target.GetName] ﻯﺪﻟ ﻲﻋﻮﻟﺍ ﻯﻮﺘﺴﻣ ﻊﻓﺭ\n$IF_SUCCESSFUL|E$"
+
+ operation_spread_disinformation:0 "ﺔﻠﻠﻀﻤﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺮﺸﻧ"
+ operation_spread_disinformation_desc:0 ".ﺪﻌﺑ ﺎﻬﻟ ﺍﺰﻫﺎﺟ ﺲﻴﻟ [root.target.GetName] ﻦﻜﻟ ،ﺓﺩﻮﺟﻮﻣ ﺔﻘﻴﻘﺤﻟﺍ"
+ operation_spread_disinformation_on_success:0 "[owner.GetDisguiseState]\n\n.[root.target.GetName] ﻯﺪﻟ ﻲﻋﻮﻟﺍ ﻯﻮﺘﺴﻣ ﺾﻔﺨﻳ\n$IF_SUCCESSFUL|E$"
+
+ operation_infiltrate_hive:0 "ﺔﻴﻠﺨﻟﺍ ﻰﻟﺇ ﻞﻠﺴﺗ"
+ operation_infiltrate_hive_desc:0 ".ﺀﻂﺒﺑ ﺔﻴﻠﺤﻤﻟﺍ ﻞﺤﻨﻟﺍ ﺎﻳﻼﺧ ﺔﻋﻮﻤﺠﻤﻟ ﺔﻳﻮﻴﺤﻟﺍ ﻒﺋﺎﻇﻮﻟﺍ ﺏﺎﻌﻴﺘﺳﺍ ﺎﻨﻴﻋﻮﻟ ﻦﻜﻤﻳ ،ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺔﻳﺪﻘﻌﻟﺍ ﺕﺍﺮﺋﺎﻄﻠﻟ ﻲﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﻝﺍﺪﺒﺘﺳﻻﺍ ﻝﻼﺧ ﻦﻣ"
+ operation_infiltrate_hive_on_success:0 "[owner.GetDisguiseState]\n\n.ﺎﻨﻴﻋﻭ ﻰﻟﺇ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺔﻓﺎﺿﺇ ﻊﻣ ﺐﻛﻮﻜﻟﺍ ﻢﺿ\n$IF_SUCCESSFUL|E$"
+
+### Operation Events
+
+ preftl_operation.1000.name:0 "ﻥﻭﺰﻫﺎﺟ ﺀﻼﻤﻌﻟﺍ :[from.GetName]" # Operation name, i.e. 'Infiltrate Government'
+ preftl_operation.1000.desc.okay:0 ".ﻞﻤﻌﻟﺍ ﺖﻗﻭ ﻥﺎﺣ ﺪﻘﻟ .[target.capital_scope.GetPlanetHabitat] ﻰﻠﻋ ﺎﻧﺩﻮﻬﺟ ﺪﻴﺣﻮﺗ ﻰﻠﻋ ﻥﻵﺍ ﻞﻠﺴﺘﻟﺍ ﺎﻳﻼﺧ ﻞﻤﻌﺗ .ﺎﻨﺋﻼﻤﻌﺑ [target.capital_scope.GetName] ﻲﻓ ﺔﻴﻤﻫﻷﺍ ﻱﻭﺫ [target.GetSpeciesName] ﺓﺩﺎﻗ ﻊﻴﻤﺟ ﻝﺍﺪﺒﺘﺳﺍ ﻢﺗ"
+ preftl_operation.1000.desc.good:0 ".ﻦﻳﺮﺧﺁ ﺀﻼﻛﻭ ﺢﻟﺎﺼﻟ ﻢﻬﺒﺻﺎﻨﻣ ﺮﻴﺛﺄﺗ ﻞﻌﻔﻟﺎﺑ ﻥﻮﺳﺭﺎﻤﻳﻭ ،ﻲﻠﺤﻤﻟﺍ ﻲﻣﺮﻬﻟﺍ ﻞﺴﻠﺴﺘﻟﺍ ﻲﻓ ﺔﻳﺩﺎﻴﻗ ﺐﺻﺎﻨﻣ ﻰﻟﺇ ﻢﻬﻨﻣ ﺪﻳﺪﻌﻟﺍ ﺪﻌﺻ ﺪﻗﻭ .[root.target.capital_scope.GetPlanetHabitat] ﺐﻧﺍﻮﺟ ﻦﻣ ﺐﻧﺎﺟ ﻞﻛ ﻰﻟﺇ ﺍﻮﻠﻠﺴﺗ ﺪﻗﻭ ،ﻑﻻﻵﺎﺑ ﻥﻵﺍ [target.capital_scope.GetName] ﻰﻠﻋ ﻦﻴﻳﺮﺴﻟﺍ ﺎﻨﺋﻼﻤﻋ ﺩﺪﻋ ﻎﻠﺒﻳ"
+ preftl_operation.1000.desc.poor:0 ".ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺎﻨﻠﻤﻋ ﻒﺸﻛﻭ ﺚﺜﺠﻟﺍ ﻝﺎﺸﺘﻧﺍ ﻦﻣ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﻄﻠﺴﻟﺍ ﺖﻌﻨﻣ ﻲﺘﻟﺍ ﻲﻫ ﻂﻘﻓ ﺔﻤﺋﺎﻧ ﺔﻴﻠﺧ ﺎﻬﺘﻟﺬﺑ ﻲﺘﻟﺍ ﺔﻴﻟﻮﻄﺒﻟﺍ ﺩﻮﻬﺠﻟﺍ ﺖﻧﺎﻛ ﺪﻘﻟ \n\n .ﺎﻴﺗﺍﺫ ﻪﺗﺎﻴﺣ ﺀﺎﻬﻧﺇ ﻭﺃ ﻙﺭﺎﺸﻣ ﻞﻴﻤﻋ ﻞﻛ ﺕﻮﻣﻭ ،ﺔﺛﺭﺎﻜﺑ [target.GetName] ﺎﻬﻨﻣ ﻒﻟﺄﺘﺗ ﻲﺘﻟﺍ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺕﺎﻨﻃﻮﺘﺴﻤﻟﺍ ﻯﺪﺣﺈﺑ ﺔﺣﺎﻃﻹﺍ ﺔﻟﻭﺎﺤﻣ ﺖﻬﺘﻧﺍ .ﯫﻴﻄﺑ ﻥﺎﻛ ﻡﺪﻘﺘﻟﺍ ﻥﺃ ﻻﺇ ،ﻑﻻﻵﺍ ﻥﻵﺍ ﻎﻠﺒﻳ [target.capital_scope.GetName] ﺢﻄﺳ ﻰﻠﻋ ﺎﻨﺋﻼﻤﻋ ﺩﺪﻋ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ #preftl_operation.1001.name:1 "Shaping the Future"
+ #preftl_operation.1001.desc:1 "Our operatives have successfully embedded themselves within the [infiltrated_country_species.GetAdj] political leadership. We now hold control over every world power, and can shape the future of [infiltrated_country_planet.GetName] to our will."
+ #preftl_operation.1002.name:1 "Influencing Affairs"
+ #preftl_operation.1002.desc:1 "Our operatives have covertly gained a foothold over the [infiltrated_country_species.GetAdj] political leadership. We are now in a position of great influence regarding the internal affairs of [infiltrated_country_planet.GetName]. The mission was a success."
+ #preftl_operation.1003.name:1 "Minor Influence"
+ #preftl_operation.1003.desc:1 "After a poor start, our operatives were able to infiltrate the governments of [infiltrated_country_planet.GetName]. We were unable to secure many high ranking roles within the political leadership, but we are now in a position to influence minor tactical decisions concerning the [infiltrated_country_species.GetName]."
+#  observation.3008.desc:1 "While our agents have successfully replaced most of the local leaders on [root.target.GetSpeciesName], a stubborn few remain. A concerted effort is now underway to remove the last holdouts, but the date of our planned reveal will need to be pushed forward."
+ preftl_operation.1005.name:0 "ﺔﺑﺮﻌﻟﺎﺑ ﺎﺒﺣﺮﻣ"
+ preftl_operation.1005.desc:1 ".ﺐﻧﺎﺟﻷﺍ ﻦﻴﻨﺴﺤﻤﻠﻟ ﻥﻮﻔﺘﻬﻳ ،ﻉﺭﺍﻮﺸﻟﺍ ﻲﻓ ﻥﻵﺍ ﻥﻮﺠﻬﺘﺒﻤﻟﺍ ﻥﻮﻨﻃﺍﻮﻤﻟﺍ ﺪﺸﺘﺤﻳﻭ .[root.GetName] ﻰﻟﺇ [infiltrated_country_planet.GetPlanetHabitat] ـﻟ ﻱﺭﻮﻔﻟﺍ ﻢﻀﻟﺍ ﻰﻟﺇ ﺔﻘﻴﺛﻮﻟﺍ ﻮﻋﺪﺗ .[infiltrated_country_planet.GetName] ﻲﻓ ﻲﻤﻟﺎﻋ ﻢﻴﻋﺯ ﻞﻛ ﻦﻣ ﺔﻌﻗﻮﻣ ﺔﻀﻳﺮﻋ ﻒﻄﻠﺑ ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺎﻨﺛﻮﻌﺒﻣ ﻞﺒﻗ ،ﺔﻴﺒﻛﻮﻜﻟﺍ ﺔﻤﺻﺎﻌﻟﺍ ﻲﻓ ﻢﻴﻗﺃ ﻢﺨﻓ ﻝﺎﻔﺘﺣﺍ ﻲﻓ\n\n .ﺔﻴﻤﺳﺮﻟﺍ ﻰﻟﻭﻷﺍ ﻝﺎﺼﺗﻻﺍ ﺓﺪﺣﻭ ﻝﻮﺻﻮﻟ ﻖﻳﺮﻄﻟﺍ ﺎﻨﻳﺪﻟ ﻞﻠﺴﺘﻟﺍ ﺎﻳﻼﺧ ﺕﺪﻬﻣ ،[infiltrated_country_species.GetAdj] ﺔﻴﺳﺎﻴﺴﻟﺍ ﺓﺩﺎﻴﻘﻟﺍ ﻰﻠﻋ ﺔﻠﻣﺎﻜﻟﺍ ﺓﺮﻄﻴﺴﻟﺍ ﻖﻴﻘﺤﺗ ﺪﻌﺑ"
+ preftl_operation.1006.name:1 "ﺭﺎﺤﻟﺍ ﺐﻴﺣﺮﺘﻟﺍ"
+ preftl_operation.1006.desc:1 ".ﺩﺪﺠﻟﺍ ﺐﻧﺎﺟﻷﺍ ﻦﻴﻨﺴﺤﻤﻟﺎﺑ ﻦﻴﻨﻃﺍﻮﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺐﺣﺮﻳ .[root.GetName] ﻰﻟﺇ [infiltrated_country_planet.GetPlanetHabitat] ﻢﻀﻟ ﺎﻄﻄﺧ ﺔﻘﻴﺛﻮﻟﺍ ﻊﻀﺗ .[infiltrated_country_planet.GetName] ﻢﻟﺎﻌﻟﺍ ﺓﺩﺎﻗ ﻦﻣ ﺔﻌﻗﻮﻤﻟﺍ ﺔﻀﻳﺮﻌﻟﺍ ﻊﺿﺍﻮﺗ ﻞﻜﺑ ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺎﻨﺛﻮﻌﺒﻣ ﻞﺒﻗ ،ﺔﻴﺒﻛﻮﻜﻟﺍ ﺔﻤﺻﺎﻌﻟﺍ ﻲﻓ ﻊﺿﺍﻮﺘﻣ ﻝﺎﻔﺘﺣﺍ ﻲﻓ .ﺔﻴﻤﺳﺮﻟﺍ ﻰﻟﻭﻷﺍ ﻝﺎﺼﺗﻻﺍ ﺓﺪﺣﻭ ﻝﻮﺻﻮﻟ ﻖﻳﺮﻄﻟﺍ ﺎﻨﻳﺪﻟ ﻞﻠﺴﺘﻟﺍ ﺎﻳﻼﺧ ﺕﺪﻬﻣ ،[infiltrated_country_species.GetAdj] ﺔﻴﺳﺎﻴﺴﻟﺍ ﺓﺩﺎﻴﻘﻟﺍ ﻰﻠﻋ ﻡﺪﻗ ﺊﻃﻮﻣ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﺪﻌﺑ"
+ preftl_operation.1007.name:1 "ﺩﺭﺎﺑ ﻝﺎﺒﻘﺘﺳﺍ"
+ preftl_operation.1007.desc:1 ".[root.GetName] ﻰﻟﺇ [infiltrated_country_planet.GetPlanetHabitat] ﻢﺿ ﻢﺘﻴﺳ .[infiltrated_country_planet.GetName] ﻲﻓ ﻢﻟﺎﻌﻟﺍ ﺓﺩﺎﻗ ﻊﻣ ﺔﻴﻗﺎﻔﺗﺍ ﻲﻓ ﺎﻨﻠﺧﺩ ﺪﻘﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺎﻨﺛﻮﻌﺒﻣ ﻝﻮﺻﻭ ﺔﺒﺳﺎﻨﻤﺑ ﻢﺳﺍﺮﻣ ﻙﺎﻨﻫ ﻥﻮﻜﺗ ﻦﻟﻭ .ﺔﻴﻤﺳﺮﻟﺍ ﻰﻟﻭﻷﺍ ﻝﺎﺼﺗﻻﺍ ﺓﺪﺣﻭ ﻝﻮﺻﻮﻟ ﻖﻳﺮﻄﻟﺍ ﺎﻧﺅﻼﻤﻋ ﺪﻬﻣ ،[infiltrated_country_species.GetAdj] ـﻟ ﺔﻴﺳﺎﻴﺴﻟﺍ ﺓﺩﺎﻴﻘﻟﺍ ﻕﺍﺮﺘﺧﺍ ﺪﻌﺑ"
+ preftl_operation.1005.tt:0 ".§Y[root.GetName]§! ﻰﻟﺇ ﻥﻮﻤﻀﻨﻳ ﺎﻬﻧﺎﻜﺳﻭ §Y[infiltrated_country_planet.GetName]§!"
+ preftl_operation.1008.name:0 "[From.GetName] ﻞﺸﻓ"
+ preftl_operation.1008.desc:0 ".ﺔﻣﺩﺎﻗ ﺕﺍﻮﻨﺴﻟ ﺐﻫﺄﺗ ﺔﻟﺎﺣ ﻲﻓ ﻥﻮﻧﻮﻜﻴﺳ ﻥﺎﻜﺴﻟﺍ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣﻭ .[infiltrated_country_planet.GetName] ﻦﻣ ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﻦﻴﻗﺎﺒﻟﺍ ﺎﻨﺋﺎﻄﺸﻧ ﻊﻴﻤﺟ ﺎﻨﺟﺮﺨﺘﺳﺍ ﺪﻘﻟ\n\n.ﺎﻨﻧﻭﺪﻳﺮﻳ ﺱﺎﻨﻟﺍ ﻦﻜﻳ ﻢﻟ ،ﻙﺎﻨﻫ ﻰﺘﺣ ،ﻚﻟﺫ ﻊﻣﻭ .ﺓﺮﻴﻐﺻ ﺓﻮﻗ ﻞﺧﺍﺩ ﺏﻼﻘﻧﺎﺑ ﻡﺎﻴﻘﻟﺍ ﺎﻨﻟﻭﺎﺣ ،ﻯﺮﺒﻜﻟﺍ ﻢﻬﻟﻭﺩ ﻰﻟﺇ ﻞﻠﺴﺘﻟﺍ ﻲﻓ ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ ﺎﻨﻠﺸﻓ ﺪﻌﺑﻭ .ﺪﻘﺘﻌﻧ ﺎﻨﻛ ﺎﻤﻛ ﻼﻣﺎﻛ [infiltrated_country_species.GetAdj] ﺔﻴﺳﺎﻴﺴﻟﺍ ﺓﺩﺎﻴﻘﻠﻟ ﺎﻨﻗﺍﺮﺘﺧﺍ ﻦﻜﻳ ﻢﻟ"
+ preftl_operation.failed_annaxation.tt:0 "§!.ﺕﺍﻮﻨﺳ 5 ﺓﺪﻤﻟ ﺓﺪﻳﺪﺟ §R§H[From.GetName]§! ﻡﺎﻬﻣ ﻱﺃ ﻕﻼﻃﺇ ﻦﻣ ﻦﻜﻤﺘﻧ ﻦﻟ§!"
+ attempted_infiltration:0 "ﻞﻠﺴﺘﻟﺍ ﺔﻟﻭﺎﺤﻣ"
+
+# Operation Indoctrinate Society
+ preftl_operation.1015.name:1 "[target.GetName] ﻰﻠﻋ ﺮﻴﺛﺄﺘﻠﻟ ﺰﻫﺎﺟ" # pre-FTL country name
+ preftl_operation.1015.desc:1 ".[target.GetSpeciesAdj] ﻊﻤﺘﺠﻣ ﻰﻠﻋ ﺔﻴﻓﺎﻘﺜﻟﺍ ﺎﻨﻤﻴﻗ ﻖﻴﺒﻄﺘﻟ ﻥﻵﺍ ﻥﻭﺰﻫﺎﺟ ﺎﻧﺅﻼﻤﻋ .ﻪﺗﻭﺭﺫ ﻰﻟﺇ [target.capital_scope.GetName] ﻲﻓ [owner.GetPreFTLLower] ﻥﺎﻜﺳ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻠﻟ ﺎﻨﻠﻤﻋ ﻞﺻﻭ ﺪﻘﻟ"
+
+ preftl_operation.1016.name:1 "ﺩﻮﺸﺤﻟﺍ ﺭﺎﺒﺟﺇ"
+ preftl_operation.1016.intro:0 ".ﺔﺻﺎﺨﻟﺍ ﻢﻫﺭﺎﻜﻓﺃ ﺖﻧﺎﻛ ﻮﻟ ﺎﻤﻛ ﺓﺪﺸﺑ ﺎﻧﺭﺎﻜﻓﺃ ﻞﻌﻔﻟﺎﺑ [from.target.GetSpeciesNamePlural] ﻭﺪﻳﺆﻣ ﻝﻭﺎﻨﺗ ﺪﻘﻟ .ﺓﺪﻋﺍﻭ ﻭﺪﺒﺗ ﺔﻴﻟﻭﻷﺍ ﺕﺎﻌﻗﻮﺘﻟﺍ ﻦﻜﻟﻭ ،§H[from.target.GetAdj]§! ﻰﻠﻋ ﺎﻧﺮﻴﺛﺄﺗ ﺭﺍﺮﻤﺘﺳﺍ ﻯﺪﻣ ﻩﺪﺣﻭ ﺖﻗﻮﻟﺍ ﺮﻬﻈﻴﺳ" # used for both pre- and post-industrial societies
+ preftl_operation.1016.intro.good:0 ".ﻱﻮﻔﻋ ﻞﻜﺸﺑ ﺄﺸﻧ ﻪﻧﺃ ﺪﻘﺘﻌﻳ ﻥﺃ ﺀﺮﻤﻠﻟ ﻦﻜﻤﻳ ﻪﻧﺃ ﺔﺟﺭﺪﻟ ،ﺔﻳﺎﻐﻠﻟ ﺎﻘﻴﻤﻋ ﺎﻴﻓﺎﻘﺛ ﻻﻮﺤﺗ ﺎﻨﻌﺠﺷ ،ﺔﻴﻋﺎﻤﺘﺟﻻﺍ ﻑﺍﺮﻋﻷﺍﻭ ﺔﻴﻓﺎﻘﺜﻟﺍ ﺕﺎﻤﻴﻤﻟﺎﺑ ﻖﻴﻗﺪﻟﺍ ﺐﻋﻼﺘﻟﺍ ﻝﻼﺧ ﻦﻣﻭ .ﻊﺋﺍﺭ ﻞﻜﺸﺑ §H[from.target.GetName]§! ﻲﻓ ﺎﻨﻠﻤﻋ ﺭﺎﺳ ﺪﻘﻟ" # used for both pre- and post-industrial societies
+ preftl_operation.1016.intro.poor:0 ".ﺔﻴﺑﺎﺠﻳﻹﺍ ﺞﺋﺎﺘﻨﻟﺍ ﺾﻌﺑ ﺎﻨﻘﻘﺣ ﺪﻘﻓ ،ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ ﻞﻣﺄﻧ ﺎﻨﻛ ﺎﻤﻛ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻦﻳﺪﻳﺆﻤﻟﺍ ﻦﻣ ﺮﻴﺒﻜﻟﺍ ﺩﺪﻌﻟﺍ ﺏﺬﺘﺠﺗ ﻢﻟ ﺎﻧﺩﻮﻬﺟ ﻥﺃ ﻢﻏﺭﻭ .ﺎﻨﺤﺠﻧ ﺎﻨﻨﻜﻟﻭ ،ﺕﺎﻳﺪﺤﺘﻟﺍ ﻦﻣ ﺎﻴﻟﺎﺧ ﻦﻜﻳ ﻢﻟ §H[from.target.GetName]§! ﻲﻓ ﺎﻨﻠﻤﻋ" # used for both pre- and post-industrial societies
+
+ preftl_operation.1016.autho:0 ".ﺐﺳﺎﻨﻤﻟﺍ ﻲﻋﺎﻤﺘﺟﻻﺍ ﺐﻴﺗﺮﺘﻟﺍ ﻲﻓ ﻢﻫﺮﻴﻜﻔﺗ ﺀﺎﻨﺛﺃ [from.target.GetSpeciesNamePlural] ـﻟ ﺔﻌﻨﻘﻣ ﺱﻭﺭﺩ ﺔﺑﺎﺜﻤﺑ ﺎﻬﻌﻴﻤﺟ ﻥﻮﻜﺘﺳ .ﺮﺧﻵﺍ ﺾﻌﺒﻟﺍ ﺮﻫﺩﺰﻳ ﻦﻟ ﻦﻴﺣ ﻲﻓ ،ﺮﻫﺩﺰﻳ ﻑﻮﺳ ﺎﻬﻀﻌﺑﻭ ــ ﺕﺎﻌﻤﺘﺠﻤﻟﺍ ﻩﺬﻫ ﻢﻜﺤﻟ ﺫﻮﻔﻨﻟﺍ ﻱﻭﺫ ﻦﻣ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻦﻣ ﺓﺭﺎﺘﺨﻣ ﺔﻠﻗ ﻦﻴﻜﻤﺗ ﻢﺗ ﺪﻗﻭ .§Yﺔﻳﻮﻄﻠﺴﻟﺍ§! [root.GetAdj] ﻦﻣ ﺔﻴﺋﺍﺪﺑ ﺝﺫﺎﻤﻧ ﺀﺎﺸﻧﺇ ﻝﻼﺧ ﻦﻣ ﻦﻳﺪﻴﺠﻤﻟﺍ ﺎﻨﻓﻼﺳﺃ ﻦﻣ ﺓﺩﺎﻔﺘﺴﻤﻟﺍ ﺱﻭﺭﺪﻟﺍ ﺔﻋﺍﺮﺒﺑ ﺎﻧﺅﻼﻤﻋ ﻡﺪﺨﺘﺳﺍ" # pre-industrial societies only
+ preftl_operation.1016.egali:0 ".§Yﺓﺍﻭﺎﺴﻤﻟﺍ§! ﻮﺤﻧ ﺹﺎﺨﻟﺍ ﻢﻬﻘﻳﺮﻃ ﺩﺎﺠﻳﻹ ﺀﻻﺆﻫ ﻞﺜﻣ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻦﻴﻌﻓﺍﺪﻤﻠﻟ ﺮﻣﻷﺍ ﻙﺮﺘﻧ ،ﻥﻵﺍ [from.GetName] ﺔﻴﻠﻤﻋ ﺀﺎﻬﺘﻧﺍ ﻊﻣ .ﻢﻬﺑﻮﻌﺷ ﻦﻴﺑ ﺵﺎﻘﻨﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺔﻠﻤﺤﺑ ﻡﺎﻴﻘﻠﻟ ﺾﻌﺒﻟﺍ ﺎﻨﻤﻬﻟﺃ ﺎﻨﻧﺃ ﻻﺇ ،ﻪﺗﺎﻳﺍﺪﺑ ﻲﻓ ﻝﺍﺰﻳ ﻻ [from.target.GetSpeciesAdj] ﻲﺳﺎﻴﺴﻟﺍ ﻢﻬﻔﻟﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻑﺎﺼﻧﻹﺍﻭ ﺔﻟﺍﺪﻌﻟﺍ ﻞﺜﻣ ﻞﺋﺎﺴﻣ ﻲﻓ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﻌﻤﺘﺠﻤﻟﺍ ﺍﻮﻛﺮﺷﺃﻭ ،ﺓﺪﻴﻌﺑ ﻦﻛﺎﻣﺃ ﻰﻟﺇ ﺎﻧﺅﻼﻤﻋ ﺮﻓﺎﺳ ﺪﻘﻟ" # pre-industrial societies only
+ preftl_operation.1016.mater:0 ".[from.target.GetSpeciesNamePlural] ﻰﻟﺇ ﻩﺬﻫ §Ymaterialist§! ﺕﺍﻭﺩﺃ ﺚﻳﺭﻮﺗ ﻥﻵﺍ ﻢﺗ ﺪﻘﻟ .ﺔﻴﻤﻴﻠﻌﺗ ﺕﺎﺴﺳﺆﻣﻭ ﺔﻴﻨﻓ ﻝﺎﻤﻋﺃﻭ ﺕﺎﻧﻮﻟﺎﺻ ﻞﻜﺷ ﻲﻓ ﻢﻫﺩﻮﻬﺟ ﺕﺮﻤﺛﺃ ،[from.target.GetSpeciesAdj] ﺔﻓﺎﻘﺛ ﻦﻣ ﻰﺼﺤﺗ ﻻﻭ ﺪﻌﺗ ﻻ ﻲﺘﻟﺍ ﻝﺎﻜﺷﻷﺍ ﻊﻣ ﺱﺭﺩ ﻞﻛ ﻒﻴﻴﻜﺗ ﻝﻼﺧ ﻦﻣﻭ .[from.target.capital_scope.GetPlanetHabitat] ﺮﺒﻋ ﻊﻤﺘﺠﻤﻟﺍ ﺕﺎﻋﻮﻤﺠﻣ ﺮﻳﻮﻨﺗ ﻰﻠﻋ - ﺔﻴﻤﻴﻠﻌﺘﻟﺍ ﺓﺮﻇﺎﻨﻤﻟﺍ ﻦﻓ ﻲﻓ ﺔﻴﻟﺎﻌﻟﺍ ﺕﺍﺭﺎﻬﻤﻟﺍ ﻱﻭﺫ ﻦﻣ ﻢﻬﻌﻴﻤﺟ - ﺀﻼﻤﻌﻟﺍ ﻦﻣ ﺓﺭﺎﺘﺨﻤﻟﺍ ﺎﻨﺘﻋﻮﻤﺠﻣ ﺖﻠﻤﻋ" # pre-industrial societies only
+ preftl_operation.1016.milit:0 ".[from.target.GetName] §Yﺔﻳﺮﻜﺴﻌﻟﺍ§! ﻦﻣ ﺪﻳﺰﻤﻟ ﻡﺎﻬﻟﺇ ﺭﺪﺼﻤﻛ ﻥﻵﺍ ﺎﻬﻌﻴﻤﺟ ﻞﻤﻌﺗ .ﺔﻳﺎﻨﻌﺑ ﺔﻘﺴﻨﻤﻟﺍ ﺕﺎﺷﻭﺎﻨﻤﻟﺍ ﻦﻣ ﺩﺪﻋﻭ ﺔﻓﺮﺧﺰﻣ ﺔﻴﻟﺎﺘﻗ ﺕﺎﺒﻳﺭﺪﺗﻭ ﺔﻴﻟﺎﻔﺘﺣﺍ ﺔﺤﻠﺳﺄﺑ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﺭﺎﻬﺑﺇ ﻲﻓ - ﺔﻳﺮﻜﺴﻌﻟﺍ ﺎﻳﺎﻀﻘﻠﻟ ﻦﻳﺩﺭﻮﻣﻭ ﻦﻳﺩﺮﻤﺘﻣﻭ ﺔﻗﺰﺗﺮﻣ ﻢﻬﻧﺄﺑ ﺍﻭﺮﻫﺎﻈﺗ ﻦﻳﺬﻟﺍ - ﺎﻧﺅﻼﻤﻋ ﺢﺠﻧ .[from.target.GetSpeciesAdj] ﺕﺎﻓﺎﻘﺛ ﻦﻣ ﺩﺪﻋ ﻲﻓ ﺔﻗﻮﻣﺮﻣ ﺔﻧﺎﻜﻣ ﺔﻋﺎﺠﺸﻟﺍﻭ ﻑﺮﺸﻟﺍ ﻞﺘﺤﻳ" # used for both pre- and post-industrial societies
+ preftl_operation.1016.pacif:0 ".ﻝﻭﻷﺍ ﻞﻌﻔﻟﺍ ﺩﺭ ﻮﻫ ﻒﻨﻌﻟﺍ ﺪﻌﻳ ﻢﻟ ،ﻞﻗﻷﺍ ﻰﻠﻋ ﺕﺎﻧﻮﻴﻣﻮﻜﻟﺍ ﻩﺬﻬﻟ ﺔﺒﺴﻨﻟﺎﺑ .[from.target.GetSpeciesAdj] ﺔﻴﻋﺎﻤﺘﺟﻻﺍ ﻞﻠﻌﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻠﻟ ﻞﺤﻛ §Ypacifism§! [root.GetAdj] ﺔﻤﻴﻗ ﻰﻠﻋ ﻝﺪﻳ ﺎﻤﻣ ،ﺕﺎﻌﻤﺘﺠﻤﻟﺍ ﻦﻣ ﺔﻋﻮﻨﺘﻣ ﺔﻋﻮﻤﺠﻣ ﻊﻣ - ﺔﻴﻟﺎﻌﻟﺍ ﺕﺍﺭﺎﻬﻤﻟﺍ ﻱﻭﺫ ﺀﺎﻄﺳﻮﻟﺍ ﻦﻣ ﻢﻬﻌﻴﻤﺟ - ﺀﻼﻤﻌﻟﺍ ﻦﻣ ﺓﺭﺎﺘﺨﻤﻟﺍ ﺎﻨﺘﻋﻮﻤﺠﻣ ﺖﺠﻣﺪﻧﺍ" # used for both pre- and post-industrial societies
+ preftl_operation.1016.phile:0 ".ﺔﻋﻮﻨﺘﻣ ﺓﺮﺠﻣ ﻲﻓ ﺓﺎﻴﺤﻠﻟ ﻞﻀﻓﺃ ﻞﻜﺸﺑ [from.target.GetName] ﺩﺍﺪﻋﺇﻭ ،ﺔﻴﺣ ﺕﺎﺸﻗﺎﻨﻤﻟﺍ ﻩﺬﻫ ﺀﺎﻘﺑﻹ ﻦﻴﻴﻠﺤﻤﻟﺍ §Yxenophiles§! ـﻟ ﺮﻣﻷﺍ ﺎﻧﺅﻼﻤﻋ ﻙﺮﺗ ،ﻥﻵﺍ [from.GetName] ﺔﻴﻠﻤﻋ ﺀﺎﻬﺘﻧﺍ ﻊﻣ .ﺔﻴﻌﻤﺘﺠﻣ ﺕﺎﻴﻟﺎﻌﻓﻭ ﻥﻮﻨﻓﻭ ﺺﺼﻗ ﻞﻜﺷ ﻲﻓ ﻯﺮﺧﻷﺍ ﺕﺎﻓﺎﻘﺜﻠﻟ ﺮﺒﻛﺃ ﺍﺮﻳﺪﻘﺗﻭ ﻝﻮﻀﻔﻟﺍ ﺍﻮﻌﺠﺷ ﺚﻴﺣ ،ﺎﻴﻟﻮﻤﺷ ﺎﺠﻬﻧ ﺎﻧﺅﻼﻤﻋ ﺬﺨﺗﺍ" # used for both pre- and post-industrial societies
+ preftl_operation.1016.phobe:0 ".§Yxenophobic§! ﺕﺎﻣﺎﻤﺘﻫﻻ [from.target.GetSpeciesAdj] ﻝﺎﻄﺑﺃ ﻞﺒﻗ ﻦﻣ ﻢﻬﺳﻭﺭﺩ ﻝﻭﺎﻨﺗ ﻥﻵﺍ ﻢﺗ ﺪﻗﻭ .ﻲﺒﻨﺟﻷﺍ ﺮﻴﺛﺄﺘﻟﺍ ﺮﻃﺎﺨﻣ ﻝﻮﺣ ﺓﺩﺪﺤﻣ ﺎﺳﻭﺭﺩ ﺍﻮﻤﻠﻋ ﺎﻣ ﺭﺪﻘﺑ ،ﺕﺍﺬﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺔﻴﺑﺎﺠﻳﻹﺍ ﺐﻧﺍﻮﺠﻟﺍ ﺕﺮﻬﻇﺃ ﺔﻴﻓﺎﻘﺜﻟﺍ ﻢﻬﻟﺎﻤﻋﺃﻭ ﻢﻬﺗﺎﺑﺎﻄﺧ ﻥﺃ ﻦﻣ ﺪﻛﺄﺘﻟﺍ ﻰﻠﻋ ﻦﻴﺼﻳﺮﺣ ﺎﻧﺅﻼﻤﻋ ﻥﺎﻛ .ﺎﻤﻬﻴﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﺐﻌﺼﻟﺍ ﻦﻣ ﻦﻜﻟﻭ ﺔﻘﺜﻟﺍ ﻡﺍﺪﻌﻧﺍﻭ ﻑﻮﺨﻟﺍ ﻊﻴﺠﺸﺗ ﻞﻬﺴﻟﺍ ﻦﻣ ،ﻊﻓﺍﻭﺪﻟﺍ ﻝﺎﻘﺘﻧﺍ ﻊﻣ" # pre-industrial societies only
+ preftl_operation.1016.spiri:0 ".ﺔﻴﻬﻟﻹﺍ ﻮﺤﻧ ﻢﻬﻘﻳﺮﻃ ﻲﻓ ﻥﻭﺮﻴﺴﻳ ﻢﻬﻧﺇ .ﺔﺻﺎﺨﻟﺍ ﺎﻬﺘﻓﺎﻘﺛ ﻲﻓ ﺔﻴﻠﺻﻷﺍ §Yﺔﻴﻧﺎﺣﻭﺮﻟﺍ§! ﻝﺎﻜﺷﺃ ﻦﻣ ﻼﻜﺷ ﻥﻵﺍ [from.target.GetSpeciesAdj] ﺓﺮﻴﻨﺘﺴﻤﻟﺍ ﺕﺎﻌﻤﺘﺠﻤﻟﺍ ﻩﺬﻫ ﺖﻨﺒﺗ ﺪﻘﻟ .ﺔﻳﺮﺨﺴﻟﺍﻭ ﻲﺳﺎﻴﺴﻟﺍ ﻞﺧﺪﺘﻟﺍ ﻦﻣ ﺔﺌﺷﺎﻨﻟﺍ ﺕﺎﻛﺮﺤﻟﺍ ﻩﺬﻫ ﺔﻳﺎﻤﺣ ﻰﻠﻋ ﺮﺧﺁ ﻞﻤﻋ ﻦﻴﺣ ﻲﻓ ،ﻦﻴﻴﻠﺻﻷﺍ ﻥﺎﻜﺴﻟﺍ ﺕﺍﺪﻘﺘﻌﻣ ﻒﻠﺘﺨﻣ ﻰﻠﻋ ﺔﻤﺋﺎﻘﻟﺍ ﻒﺋﺍﻮﻄﻟﺍﻭ ﻒﺋﺍﻮﻄﻟﺍ ﺱﺃﺭ ﻰﻠﻋ ﻦﻴﻴﻣﺰﻳﺭﺎﻜﻟﺍ ﻦﻴﻄﺷﺎﻨﻟﺍ ﻦﻣ ﺓﺪﺣﺍﻭ ﺔﻋﻮﻤﺠﻣ ﻦﻴﻘﺸﻟﺍ ﻭﺫ ﺎﻨﺠﻬﻧ ﻊﺿﻭ ﺪﻘﻟ" # used for both pre- and post-industrial societies
+
+ preftl_operation.1016.autho.desc:0 "$preftl_operation.1016.autho$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1016.egali.desc:0 "$preftl_operation.1016.egali$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1016.mater.desc:0 "$preftl_operation.1016.mater$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1016.milit.desc:0 "$preftl_operation.1016.milit$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1016.pacif.desc:0 "$preftl_operation.1016.pacif$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1016.phile.desc:0 "$preftl_operation.1016.phile$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1016.phobe.desc:0 "$preftl_operation.1016.phobe$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1016.spiri.desc:0 "$preftl_operation.1016.spiri$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1017.autho.desc:0 "$preftl_operation.1016.autho$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1017.egali.desc:0 "$preftl_operation.1016.egali$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1017.mater.desc:0 "$preftl_operation.1016.mater$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1017.milit.desc:0 "$preftl_operation.1016.milit$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1017.pacif.desc:0 "$preftl_operation.1016.pacif$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1017.phile.desc:0 "$preftl_operation.1016.phile$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1017.phobe.desc:0 "$preftl_operation.1016.phobe$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1017.spiri.desc:0 "$preftl_operation.1016.spiri$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1018.autho.desc:0 "$preftl_operation.1016.autho$\n\n$preftl_operation.1016.intro.poor$"
+ preftl_operation.1018.egali.desc:0 "$preftl_operation.1016.egali$\n\n$preftl_operation.1016.intro.poor$"
+ preftl_operation.1018.mater.desc:0 "$preftl_operation.1016.mater$\n\n$preftl_operation.1016.intro.poor$"
+ preftl_operation.1018.milit.desc:0 "$preftl_operation.1016.milit$\n\n$preftl_operation.1016.intro.poor$"
+ preftl_operation.1018.pacif.desc:0 "$preftl_operation.1016.pacif$\n\n$preftl_operation.1016.intro.poor$"
+ preftl_operation.1018.phile.desc:0 "$preftl_operation.1016.phile$\n\n$preftl_operation.1016.intro.poor$"
+ preftl_operation.1018.phobe.desc:0 "$preftl_operation.1016.phobe$\n\n$preftl_operation.1016.intro.poor$"
+ preftl_operation.1018.spiri.desc:0 "$preftl_operation.1016.spiri$\n\n$preftl_operation.1016.intro.poor$"
+
+ preftl_operation.1019.name:0 "ﺮﻴﻫﺎﻤﺠﻟﺍ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻟﺍ"
+ preftl_operation.1019.autho:0 ".ﻡﺎﻋ ﻞﻜﺸﺑ ﻲﻋﺎﻤﺘﺟﻻﺍ ﺎﻬﻣﺎﻈﻧ ﺯﺰﻌﻳ ﺎﻤﻣ ،ﺔﻤﻴﻗ ﺱﻭﺭﺩ ﺔﺑﺎﺜﻤﺑ ﻥﻮﻜﺘﺳ ﺎﻬﺗﺎﻗﺎﻔﺧﺇ ﻦﻜﻟ ،ﺕﺎﻌﻤﺘﺠﻤﻟﺍ ﻩﺬﻫ ﻞﻛ ﺮﻤﺘﺴﺗ ﻦﻟ .ﺔﻳﺎﻨﻌﺑ ﺔﻤﻤﺼﻣ ﺔﻴﻣﺮﻫ ﺕﻼﺴﻠﺴﺗ ﻲﻓ [from.target.GetSpeciesNamePlural] ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺐﻴﺗﺮﺗﻭ ،ﺕﺎﺴﺳﺆﻤﻟﺍ ﺾﻌﺑ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻢﺗ .[from.target.capital_scope.GetName] ﻰﻠﻋ §Yﺔﻳﻮﻄﻠﺴﻟﺍ§! [root.GetAdj] ﻦﻣ ﺓﺮﻐﺼﻣ ﺝﺫﺎﻤﻧ ﺀﺎﺸﻧﺈﺑ ﺍﻮﻣﺎﻗﻭ ،ﻥﻭﺪﻴﺠﻤﻟﺍ ﺎﻨﻓﻼﺳﺃ ﺎﻨﻴﻟﺇ ﺎﻬﻠﻘﻧ ﻲﺘﻟﺍ ﺱﻭﺭﺪﻟﺍ ﺎﻧﺅﻼﻤﻋ ﻡﺪﺨﺘﺳﺍ" # post-industrial societies only
+ preftl_operation.1019.egali:0 ".§Yﺓﺍﻭﺎﺴﻤﻟﺍ§! ﺕﺎﺳﺎﻴﺳﻭ ﻞﻣﺎﺸﻟﺍ ﺵﺎﻘﻨﻟﺍ ﻦﻣ ﺪﻳﺰﻣ ﻮﺤﻧ ﻞﻌﻔﻟﺎﺑ ﻊﻓﺪﺗ ﺓﺩﺪﻌﺘﻣ ﺕﻼﻤﺣ ﺎﻨﻘﻠﻃﺃ ﺎﻨﻨﻜﻟﻭ ،ﺎﻣ ﺪﺣ ﻰﻟﺇ ﻞﻌﻔﻟﺎﺑ ﺔﺠﺿﺎﻧ ﺔﻴﺳﺎﻴﺴﻟﺍ ﻡﻮﻠﻌﻟﺍ [from.target.GetSpeciesAdj] .ﻑﺎﺼﻧﻹﺍﻭ ﻑﺎﺼﻧﻹﺍ ﻞﺜﻣ ﻞﺋﺎﺴﻣ ﻲﻓ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﺴﺳﺆﻤﻟﺍﻭ ﺕﺎﻌﻤﺘﺠﻤﻟﺍ ﺍﻮﻛﺮﺷﺃﻭ ،ﺓﺪﻴﻌﺑ ﻦﻛﺎﻣﺃ ﻰﻟﺇ ﺎﻧﺅﻼﻤﻋ ﺮﻓﺎﺳ ﺪﻘﻟ" # post-industrial societies only
+ preftl_operation.1019.mater:0 ".[from.target.GetSpeciesNamePlural] ﻰﻟﺇ §Yﺔﻳﺩﺎﻤﻟﺍ §! ﺕﺍﻭﺩﺃ ﺚﻳﺭﻮﺗ ﻥﻵﺍ ﻢﺗ ﺪﻘﻟ .ﺓﺪﻳﺪﺟ ﺔﻴﻨﻓ ﺔﻛﺮﺣ ﻰﺘﺣﻭ ،ﺔﻴﻤﻴﻠﻌﺘﻟﺍ ﻖﻳﺩﺎﻨﺼﻟﺍﻭ ،ﺙﻮﺤﺒﻟﺍ ﺰﻛﺍﺮﻣ ﺀﺎﺸﻧﺇ ﻰﻟﺇ ﻢﻫﺩﻮﻬﺟ ﺕﺩﺃ ﺪﻗﻭ .[from.target.capital_scope.GetPlanetHabitat] ﺮﺒﻋ ﺔﻴﻤﻴﻠﻌﺘﻟﺍ ﺕﺎﺴﺳﺆﻤﻟﺍﻭ ﻊﻤﺘﺠﻤﻟﺍ ﺕﺎﻋﻮﻤﺠﻣ ﺮﻳﻮﻨﺗ ﻰﻠﻋ - ﺔﻴﻤﻴﻠﻌﺘﻟﺍ ﺓﺮﻇﺎﻨﻤﻟﺍ ﻦﻓ ﻲﻓ ﺔﻴﻟﺎﻌﻟﺍ ﺕﺍﺭﺎﻬﻤﻟﺍ ﻱﻭﺫ ﻦﻣ ﻢﻬﻌﻴﻤﺟ - ﺀﻼﻤﻌﻟﺍ ﻦﻣ ﺓﺭﺎﺘﺨﻤﻟﺍ ﺎﻨﺘﻋﻮﻤﺠﻣ ﺖﻠﻤﻋ" # post-industrial societies only
+ preftl_operation.1019.phobe:0 ".ﺔﻴﺳﺎﻴﺴﻟﺍ ﺕﺎﻋﻮﻤﺠﻤﻟﺍﻭ ﻦﻴﻴﻠﺤﻤﻟﺍ [from.target.GetSpeciesAdj] ﻝﺎﻄﺑﺃ ﻞﺒﻗ ﻦﻣ ﻢﻬﺳﻭﺭﺩ ﺏﺎﻌﻴﺘﺳﺍ ﻥﻵﺍ ﻢﺗ ﺪﻘﻟ .ﻲﺒﻨﺟﻷﺍ ﺮﻴﺛﺄﺘﻟﺍ ﺮﻃﺎﺨﻣ ﻝﻮﺣ ﺔﺤﺿﺍﻭ ﺎﺳﻭﺭﺩ ﻢﻬﻤﻴﻠﻌﺘﺑ ﺍﻮﻣﺎﻗ ﺎﻣ ﺭﺪﻘﺑ ،ﺕﺍﺬﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺔﻴﺑﺎﺠﻳﻹﺍ ﺐﻧﺍﻮﺠﻟﺍ ﺕﺮﻬﻇﺃ §! ﺐﻧﺎﺟﻸﻟ ﺔﻳﺩﺎﻌﻣ ﺔﻴﻓﺎﻘﺛ ﺕﺎﻛﺮﺣﻭ ﺕﺎﺑﺎﻄﺧ ﺍﻮﻋﺭﺯ ﺚﻴﺣ ،ﺔﻘﻴﻗﺭ ﺔﺴﻤﻟ ﺎﻧﺅﻼﻤﻋ ﻡﺪﺨﺘﺳﺍ .ﻡﻼﻋﻹﺍ ﻞﺋﺎﺳﻭ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺔﻴﻧﺎﻜﻣﺈﺑ ﻊﺘﻤﺘﻳ ﻊﻤﺘﺠﻣ ﻲﻓ ﺔﺻﺎﺧﻭ ،ﺎﻤﻬﻬﻴﺟﻮﺗ ﺐﻌﺼﻟﺍ ﻦﻣ ﻦﻜﻟﻭ ،ﺔﻘﺜﻟﺍ ﻡﺍﺪﻌﻧﺍﻭ ﻑﻮﺨﻟﺍ ﻊﻴﺠﺸﺗ ﻞﻬﺴﻟﺍ ﻦﻣﻭ" # post-industrial societies only
+
+ preftl_operation.1019.autho.desc:0 "$preftl_operation.1019.autho$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1019.egali.desc:0 "$preftl_operation.1019.egali$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1019.mater.desc:0 "$preftl_operation.1019.mater$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1019.milit.desc:0 "$preftl_operation.1016.milit.desc$"
+ preftl_operation.1019.pacif.desc:0 "$preftl_operation.1016.pacif.desc$"
+ preftl_operation.1019.phile.desc:0 "$preftl_operation.1016.phile.desc$"
+ preftl_operation.1019.phobe.desc:0 "$preftl_operation.1019.phobe$\n\n$preftl_operation.1016.intro$"
+ preftl_operation.1019.spiri.desc:0 "$preftl_operation.1016.spiri.desc$"
+ preftl_operation.1020.autho.desc:0 "$preftl_operation.1019.autho$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1020.egali.desc:0 "$preftl_operation.1019.egali$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1020.mater.desc:0 "$preftl_operation.1019.mater$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1020.milit.desc:0 "$preftl_operation.1017.milit.desc$"
+ preftl_operation.1020.pacif.desc:0 "$preftl_operation.1017.pacif.desc$"
+ preftl_operation.1020.phile.desc:0 "$preftl_operation.1017.phile.desc$"
+ preftl_operation.1020.phobe.desc:0 "$preftl_operation.1019.phobe$\n\n$preftl_operation.1016.intro.good$"
+ preftl_operation.1020.spiri.desc:0 "$preftl_operation.1017.spiri.desc$"
+ preftl_operation.1021.autho.desc:0 "$preftl_operation.1019.autho$\n\n$preftl_operation.1016.intro.poor$"
+ preftl_operation.1021.egali.desc:0 "$preftl_operation.1019.egali$\n\n$preftl_operation.1016.intro.poor$"
+ preftl_operation.1021.mater.desc:0 "$preftl_operation.1019.mater$\n\n$preftl_operation.1016.intro.poor$"
+ preftl_operation.1021.milit.desc:0 "$preftl_operation.1018.milit.desc$"
+ preftl_operation.1021.pacif.desc:0 "$preftl_operation.1018.pacif.desc$"
+ preftl_operation.1021.phile.desc:0 "$preftl_operation.1018.phile.desc$"
+ preftl_operation.1021.phobe.desc:0 "$preftl_operation.1019.phobe$\n\n$preftl_operation.1016.intro.poor$"
+ preftl_operation.1021.spiri.desc:0 "$preftl_operation.1018.spiri.desc$"
+
+ espionage_pre_ftl_indoctrination:0 "ﻲﻌﻤﺘﺠﻤﻟﺍ ﻝﻮﺤﺘﻟﺍ"
+ espionage_pre_ftl_indoctrination_desc:0 ".ﺔﻤﻬﻣ ﺓﺪﻳﺪﺟ ﺎﺣﻭﺭ ﺖﻨﻀﺘﺣﺍﻭ ،ﺔﻴﺳﺎﻴﺴﻟﺍ ﺎﻬﺗﺮﻈﻧ ﺍﺮﺧﺆﻣ ﻊﻤﺘﺠﻤﻟﺍ ﺍﺬﻫ ﻦﻣ ﺀﺍﺰﺟﺃ ﺕﺮﻴﻏ ﺪﻘﻟ"
+ espionage_pre_ftl_indoctrination_authoritarian:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_authoritarian_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_egalitarian:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_egalitarian_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_materialist:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_materialist_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_militarist:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_militarist_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_pacifist:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_pacifist_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_spiritualist:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_spiritualist_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_xenophile:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_xenophile_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+ espionage_pre_ftl_indoctrination_xenophobe:0 "$espionage_pre_ftl_indoctrination$"
+ espionage_pre_ftl_indoctrination_xenophobe_desc:0 "$espionage_pre_ftl_indoctrination_desc$"
+
+# Operation Increase Awareness
+ preftl_operation.1025.name:1 "ﻒﺸﻜﻠﻟ ﺰﻫﺎﺟ :[this.GetName]" # Operation name, i.e. 'Increase Awareness'
+ preftl_operation.1025.desc:1 ".ﺓﺮﺠﻤﻟﺍ ﺡﺮﺴﻣ ﻰﻟﺇ ﻯﺮﺧﺃ ﺓﻮﻄﺧ [target.GetName] ﺭﺎﻀﺣﻹ ﺎﻧﺅﻼﻤﻋ ﺪﻌﺘﺴﻳ ؛[target.capital_scope.GetName] ﻥﺄﺸﺑ ﺎﻨﺗﺍﺩﺍﺪﻌﺘﺳﺍ ﻥﻵﺍ ﺖﻠﻤﺘﻛﺍ ﺪﻘﻟ"
+ preftl_operation.1026.name:0 "؟ﻙﺎﻨﻫ ﺓﺎﻴﺣ ﻙﺎﻨﻫ ﻞﻫ"
+ preftl_operation.1026.desc.intro:0 ".ﺩﺪﺠﺘﻣ ﻡﺎﻤﺘﻫﺎﺑ ﻞﻴﻠﻟﺍ ﺀﺎﻤﺳ ﻰﻟﺇ [this.GetSpeciesNamePlural] ﺮﻈﻨﻳ ،ﺎﻧﺀﻼﻤﻋ ﺕﺎﻓﺮﺼﺗ ﻞﻀﻔﺑ"
+ preftl_operation.1026.desc.low:1 ".ﻯﺮﺧﻷﺍ ﻡﻮﺠﻨﻟﺍ ﺀﻮﺿ ﻲﻓ ﻢﺤﺘﺴﺗ ،ﻥﻮﻜﻟﺍ ﻲﻓ ﻯﺮﺧﺃ ﺔﻴﻋﺍﻭ ﺓﺎﻴﺣ ﻙﺎﻨﻫ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻥﺎﻛ ﺍﺫﺇ ﺎﻤﻋ ﻥﻮﻟﺀﺎﺴﺘﻳ ﺍﻭﺃﺪﺑ ﺪﻘﻟ .ﺀﺎﻤﺴﻟﺍ ﻮﺤﻧ ﻩﺭﺎﻈﻧﺃ [this.GetSpeciesNamePlural] ﻪﺟﻮﻳ ،ﺎﻫﺮﺸﻨﻧ ﻲﺘﻟﺍ ﺺﺼﻘﻟﺍ ﻦﻣ ﺓﺎﺣﻮﺘﺴﻣ"
+ preftl_operation.1026.desc.medium:1 "$preftl_operation.1026.desc.intro$ ﺔﻘﻴﻘﺤﻟﺍ ﻦﻣ ﺓﺭﺫ ﺎﻬﺑ ﺺﺼﻗ ...ﻡﻮﺠﻨﻟﺍ ﺀﺍﺭﻭ ﺎﻣ ﻢﻟﺍﻮﻋ ﻦﻣ ﺭﺍﻭﺯﻭ ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﺔﻀﻣﺎﻏ ﺀﺍﻮﺿﺃ ﻦﻋ ،ﻞﻴﻠﻘﻟﺍ ﻻﺇ ﺎﻬﻗﺪﺼﻳ ﻻ ﺺﺼﻘﺑ ﻥﻮﺴﻣﺎﻬﺘﻳ."
+ preftl_operation.1026.desc.high:1 "$preftl_operation.1026.desc.intro$ ﻂﻘﻓ ﺖﻗﻭ ﺔﻟﺄﺴﻣ ﻮﻫ ﻪﻴﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻥﺃﻭ ،ﻢﻬﻳﺪﻳﺃ ﻝﻭﺎﻨﺘﻣ ﻲﻓ ﻞﻴﻟﺪﻟﺍ ﻥﺃ ﻥﻭﺪﻘﺘﻌﻳ ﻢﻬﻧﺇ .ﻥﻮﻜﻟﺍ ﺍﺬﻫ ﻲﻓ ﻢﻫﺪﺣﻭ ﺍﻮﺴﻴﻟ ﻢﻬﻧﺄﺑ ﻥﻮﻌﻨﺘﻘﻣ ﻦﻳﺮﻴﺜﻜﻟﺍ ﻥﺈﻓ ،ﻥﻵﺍ ﻢﻬﻣﺎﻣﺃ ﻲﺘﻟﺍ ﻖﺋﺎﻘﺤﻟﺍ ﻰﻟﺇ ﺮﻈﻨﻟﺎﺑ."
+ preftl_operation.1026.desc.full:1 ".ﻢﻬﺗﺎﻴﺣ ﺏﻮﻠﺳﻷ ﺓﺪﻳﺪﺸﻟﺍ ﺔﻣﺪﺼﻟﺍ ﺮﻄﺨﻟ ﺽﺮﻌﺘﻟﺍ ﻥﻭﺩ ﻢﻬﺑ ﻝﺎﺼﺗﻼﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻢﻬﻧﺇ .ﻥﻮﻜﻟﺍ ﻲﻓ ﻢﻫﺪﺣﻭ ﺍﻮﺴﻴﻟ ﻢﻬﻧﺃ ﻚﺷ ﻰﻧﺩﺃ ﻥﻭﺩ ﻥﻵﺍ [this.capital_scope.GetName] ﻥﺎﻜﺳ ﻑﺮﻌﻳ ،ﺎﻧﺩﻮﻬﺟ ﻞﻀﻔﺑ"
+
+ # Good and Great Outcomes
+ preftl_operation.1027.name:0 "ﻙﺎﻨﻫ ﺓﺎﻴﺣ ﻙﺎﻨﻫ"
+ preftl_operation.1027.desc.intro:0 ".ﻊﺒﺸﻳ ﻻ ﺮﺤﺴﺑ ﺀﺎﻤﺴﻟﺍ ﻰﻟﺇ [this.GetSpeciesNamePlural] ﻊﻠﻄﺘﻳ ،ﺎﻧﺀﻼﻤﻋ ﻪﺑ ﻡﺎﻗ ﻱﺬﻟﺍ ﺮﻫﺎﻤﻟﺍ ﻞﻤﻌﻟﺍ ﻞﻀﻔﺑ"
+ preftl_operation.1027.desc.low:0 ".ﻥﻮﻜﻟﺍ ﻲﻓ ﻯﺮﺧﺃ ﺔﻴﻋﺍﻭ ﺓﺎﻴﺣ ﺩﻮﺟﻮﺑ ﺔﻴﻧﻼﻋ ﻥﻮﻨﻬﻜﺘﻳ ﻢﻬﻧﺇ .ﺀﺎﻤﺴﻟﺍ ﻮﺤﻧ ﻩﺭﺎﻈﻧﺃ [this.GetSpeciesNamePlural] ﻪﺟﻮﻳ ،ﺎﻧﺅﻼﻤﻋ ﺎﻫﺮﺸﻨﻳ ﻲﺘﻟﺍ ﺺﺼﻘﻟﺎﺑ ﺝﺎﻬﺘﺑﺍﻭ ﻡﺎﻬﻟﺈﺑ\n\n$preftl_operation.1027.desc.intro$"
+ preftl_operation.1027.desc.medium:0 ".ﺔﻘﻴﻘﺤﻟﺍ ﻲﻫ ﺺﺼﻘﻟﺍ ﻥﺃ ﻖﺤﺑ ﻥﻭﺮﻴﺜﻜﻟﺍ ﺪﻘﺘﻌﻳ .ﻡﻮﺠﻨﻟﺍ ﺝﺭﺎﺧ ﻢﻟﺍﻮﻋ ﻦﻣ ﺭﺍﻭﺰﻟﺍﻭ ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﺔﻀﻣﺎﻐﻟﺍ ﺀﺍﻮﺿﻷﺍ ﺺﺼﻗ ﺱﺎﻤﺤﺑ ﻥﻮﻛﺭﺎﺸﻳ ﻢﻬﻧﺇ\n\n$preftl_operation.1027.desc.intro$"
+ preftl_operation.1027.desc.high:0 ".ﺖﻗﻭ ﺔﻟﺄﺴﻣ ﺩﺮﺠﻣ ﻮﻫ ﻪﻴﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻥﺃﻭ ،ﺪﻴﻟﺍ ﻝﻭﺎﻨﺘﻣ ﻲﻓ ﻞﻴﻟﺪﻟﺍ ﻥﺃ ﻥﻮﻤﻠﻌﻳ ﻢﻬﻧﺇ .ﻥﻮﻜﻟﺍ ﻲﻓ ﻢﻫﺪﺣﻭ ﺍﻮﺴﻴﻟ ﻢﻬﻧﺃ ﻦﻣ ﻦﻴﻘﻳ ﻰﻠﻋ ﻥﻵﺍ ﻥﻭﺮﻴﺜﻜﻟﺍ ﺢﺒﺻﺃ \n\n$preftl_operation.1027.desc.intro$"
+ preftl_operation.1027.desc.full:0 ".ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺔﻴﻓﺎﻘﺜﻟﺍ ﺔﻣﺪﺼﻟﺍ ﺮﻄﺨﻟ ﺽﺮﻌﺘﻟﺍ ﻥﻭﺩ ﻢﻬﺑ ﻝﺎﺼﺗﻼﻟ ﻥﻭﺪﻌﺘﺴﻣﻭ ﻥﻭﺰﻫﺎﺟ ﻥﻵﺍ ﻢﻬﻧﺇ .ﻥﻮﻜﻟﺍ ﻲﻓ ﻢﻫﺪﺣﻭ ﺍﻮﺴﻴﻟ ﻢﻬﻧﺃ ﻢﻬﻓ ﻰﻠﻋ [this.capital_scope.GetName] ﻥﺎﻜﺳ ﺎﻨﻳﺪﻟ ﺲﺴﺠﺘﻟﺍ ﺔﻜﺒﺷ ﺀﻼﻤﻋ ﺎﻬﻟﺬﺑ ﻲﺘﻟﺍ ﺔﺌﻳﺮﺠﻟﺍ ﺩﻮﻬﺠﻟﺍ ﺕﺪﻋﺎﺳ\n\n$preftl_operation.1027.desc.intro$"
+
+ # Poor Outcome
+ preftl_operation.1028.name:0 "ﻙﺎﻨﻫ ﺀﻲﺷ ﺪﺟﻮﻳ ﻻ"
+ preftl_operation.1028.desc.intro:0 ".ﻞﻴﻠﻟﺍ ﺀﺎﻤﺳ ﻦﻣ [this.GetSpeciesNamePlural] ﻑﻮﺧ ﻲﻓ ﺎﻨﺋﻼﻤﻋ ﺕﺎﻓﺮﺼﺗ ﺖﺒﺒﺴﺗ"
+ preftl_operation.1028.desc.low:0 ".ﻡﻼﻈﻟﺍ ﻲﻓ ﺔﻨﻣﺎﻛ ﻥﻮﻜﻟﺍ ﻲﻓ ﻯﺮﺧﺃ ﺔﻴﻋﺍﻭ ﺓﺎﻴﺣ ﻙﺎﻨﻫ ﺖﻧﺎﻛ ﺍﺫﺇ ﺎﻤﻋ ﻥﻮﻟﺀﺎﺴﺘﻳ ﺍﻭﺃﺪﺑ ﺪﻘﻟ .ﺪﻳﺪﺷ ﻑﻮﺨﺑ ﻰﻠﻋﻷﺍ ﻰﻟﺇ [this.GetSpeciesNamePlural] ﻊﻠﻄﺘﻳ ،ﺎﻧﺅﻼﻤﻋ ﺎﻫﺮﺸﻨﻳ ﻲﺘﻟﺍ ﺺﺼﻘﻟﺍ ﻦﻣ ﻑﻮﺨﻟﺍ ﺐﺒﺴﺑ\n\n$preftl_operation.1028.desc.intro$"
+ preftl_operation.1028.desc.medium:0 ".ﻡﻮﺠﻨﻟﺍ ﺀﺍﺭﻭ ﺎﻣ ﻢﻟﺍﻮﻋ ﻦﻣ ﺓﺍﺰﻐﻟﺍﻭ ﺀﺎﻤﺴﻟﺍ ﻲﻓ ﺔﻀﻣﺎﻐﻟﺍ ﺀﺍﻮﺿﻷﺍ ﻦﻣ ﺔﺘﻓﺎﺧ ﻥﺍﻮﻟﺄﺑ ﺔﻔﻴﺨﻣ ﺎﺼﺼﻗ ﻥﻮﻛﺭﺎﺸﻳ ﻢﻬﻧﺇ\n\n$preftl_operation.1028.desc.intro$"
+ preftl_operation.1028.desc.high:0 ".ﺎﻬﻴﻠﻋ ﺭﻮﺜﻌﻟﺎﺑ ﺮﻴﺒﻛ ﻡﺎﻤﺘﻫﺍ ﻢﻬﻳﺪﻟ ﺲﻴﻟ ﻦﻜﻟ ،ﺓﺩﻮﺟﻮﻣ ﺔﻘﻴﻘﺤﻟﺍ ﻥﺃ ﻥﻭﺪﻘﺘﻌﻳ ﻢﻬﻧﺇ .ﻥﻮﻜﻟﺍ ﻲﻓ ﻢﻫﺪﺣﻭ ﺍﻮﺴﻴﻟ ﻢﻬﻧﺃ ﻦﻣ ﻖﻠﻘﻟﺎﺑ ﻥﻵﺍ ﻥﻭﺮﻴﺜﻜﻟﺍ ﺮﻌﺸﻳ\n\n$preftl_operation.1028.desc.intro$"
+ preftl_operation.1028.desc.full:0 ".ﺓﺪﻳﺪﺸﻟﺍ ﺔﻣﺪﺼﻟﺍ ﺮﻄﺨﻟ ﺽﺮﻌﺘﻟﺍ ﻥﻭﺩ ﻢﻬﺑ ﻝﺎﺼﺗﻻﺍ ﻥﻵﺍ ﻦﻜﻤﻳﻭ .ﻥﻮﻜﻟﺍ ﻲﻓ ﻢﻫﺪﺣﻭ ﺍﻮﺴﻴﻟ ﻢﻬﻧﺃ [this.capital_scope.GetName] ﻥﺎﻜﺳ ﻙﺍﺭﺩﺇ ﻰﻟﺇ ﺎﻨﻳﺪﻟ ﺲﺴﺠﺘﻟﺍ ﺔﻜﺒﺷ ﺀﻼﻤﻋ ﺎﻬﻟﺬﺑ ﻲﺘﻟﺍ ﺩﻮﻬﺠﻟﺍ ﺕﺩﺃ ﺪﻘﻟ\n\n$preftl_operation.1028.desc.intro$"
+
+ preftl_operation.1035.name:0 "$preftl_operation.1026.name$"
+ preftl_operation.1035.desc:0 ".[target.capital_scope.GetName] ﻰﻠﻋ ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺓﺎﻴﺣ ﺩﻮﺟﻭ ﻰﻠﻋ ﺔﻴﻄﻐﺘﻠﻟ ﺎﻨﺘﻴﻠﻤﻋ ﺞﺋﺎﺘﻧ [spynetwork.leader.GetName] $role_spymaster$ ﺩﺪﺣ ﺪﻘﻟ"
+
+# Operation Spread Disinformation
+ # Standard conclusion
+ preftl_operation.1036.name:0 "[from.target.GetName] ﻰﻠﻋ ﺔﻠﻠﻀﻤﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺕﺮﺸﺘﻧﺍ"
+ preftl_operation.1036.desc.intro:0 ".ﻥﻵﺍ ﻰﺘﺣ ﺎﻬﻴﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻢﺗ ﻲﺘﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺓﺎﻴﺤﻟﺍ ﺔﻟﺩﺃ ﻰﻠﻋ ﻚﺸﻟﺍ ﻦﻣ ﻝﻼﻈﺑ §H[this.capital_scope.GetName]§! ﻰﻠﻋ ﺎﻧﺅﻼﻤﻋ ﺎﻬﻟﺬﺑ ﻲﺘﻟﺍ ﺩﻮﻬﺠﻟﺍ ﺖﻘﻟﺃ ﺪﻘﻟ"
+ preftl_operation.1036.desc.none:0 "$preftl_operation.1036.desc.intro$ ﺔﻤﻈﻌﻟﺍ ﻥﻮﻨﺠﺑ ﺔﺑﺎﺼﻣ ﺔﻴﻠﻗﺃ ﻡﺎﻫﻭﺃ ﺎﻫﺭﺎﺒﺘﻋﺎﺑ ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺭﺍﻭﺯ ﺩﻮﺟﻭ ﻝﻮﺣ ﺺﺼﻘﻟﺍ ﺾﻓﺭ ﻢﺘﻳ."
+ preftl_operation.1036.desc.low:0 ".ﺎﻘﺣ ﺕﺎﻳﺎﻜﺤﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﻥﻮﻗﺪﺼﻳ ﺱﺎﻨﻟﺍ ﻦﻣ ﻞﻴﻠﻘﻟﺍ ﻦﻜﻟ ،ﺔﻴﺋﺎﻀﻓ ﺕﺎﻨﺋﺎﻛ ﺩﻮﺟﻭ ﻝﻮﺣ ﺲﻤﻬﻳ [this.GetSpeciesNamePlural]$preftl_operation.1036.desc.intro$ ﻝﺍﺰﻳ ﻻ "
+ preftl_operation.1036.desc.medium:0 "$preftl_operation.1036.desc.intro$ ﺔﻣﺎﻌﻠﻟ ﺎﻴﻔﺨﻣ ﻞﻈﻳ ﺮﺴﻟﺍ ﻥﺃ ﻻﺇ ،ﺎﻧﺩﻮﺟﻭ ﻲﻓ ﻚﺸﻳ ﺪﻗ ﺔﻄﻠﺴﻟﺍ ﺐﺻﺎﻨﻣ ﻲﻓ ﺾﻌﺒﻟﺍ ﻥﺃ ﻦﻴﺣ ﻲﻓ."
+ # Great conclusion
+ preftl_operation.1037.name:0 "[from.target.GetName] ﻰﻠﻋ ﻞﻴﻠﻀﺘﻟﺍ ﺡﺎﺠﻧ"
+ preftl_operation.1037.desc.intro:0 ".ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺍﺭﺎﻀﺤﻟﺍ ﺔﻟﺩﺃ ﻝﻮﺣ ﺕﺎﻨﻬﻜﺘﻟﺍ §H[this.capital_scope.GetName]§! ﻰﻠﻋ ﺓﺮﻬﻤﻟﺍ ﺎﻧﺅﺎﻄﺸﻧ ﻝﺍﺯﺃ ﺪﻘﻟ"
+ preftl_operation.1037.desc.none:0 "$preftl_operation.1037.desc.intro$ ﻡﻮﻫﻮﻣ ﺐﻳﺮﻏ ﺺﺨﺸﻛ ﺬﺒﻨﻠﻟ ﺔﻌﻳﺮﺳ ﺔﻘﻳﺮﻃ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺺﺼﻗ ﺔﻛﺭﺎﺸﻣ ﻥﻵﺍ ﺖﺤﺒﺻﺃ."
+ preftl_operation.1037.desc.low:0 ".ﻯﺮﺧﺃ ﺐﻛﺍﻮﻛ ﻰﻠﻋ ﺓﺎﻴﺣ ﺩﻮﺟﻭ ﺔﻴﻧﺎﻜﻣﺇ ﻲﻓ ﻥﻭﺮﻜﻔﻳ [this.GetSpeciesNamePlural]$preftl_operation.1037.desc.intro$ ﻦﻣ ﻞﻴﻠﻗ ﺩﺪﻋ "
+ preftl_operation.1037.desc.medium:0 "$preftl_operation.1037.desc.intro$ ﺔﻔﻴﺨﺳ ﻢﻴﻫﺎﻔﻣ ﻪﻧﺃ ﻰﻠﻋ ﻪﻴﻟﺇ ﺮﻈﻨﻳ ﺪﻗ ﺎﻤﻋ ﺎﻨﻠﻋ ﺙﺪﺤﺘﻟﺍ ﻦﻣ ﻞﻀﻓﺃ ﻥﻮﻓﺮﻌﻳ ﻢﻬﻧﺃ ﻻﺇ ،ﺎﻧﺩﻮﺟﻭ ﻲﻓ ﻥﻮﻜﻜﺸﻳ ﺪﻗ ﺔﻄﻠﺴﻟﺍ ﺐﺻﺎﻨﻣ ﻲﻓ ﺾﻌﺒﻟﺍ ﻥﺃ ﻦﻴﺣ ﻲﻓ."
+ # Good conclusion
+ preftl_operation.1038.name:0 "[from.target.GetName] ﻰﻠﻋ ﺔﻠﻠﻀﻤﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺕﺮﺸﺘﻧﺍ"
+ preftl_operation.1038.desc.intro:0 ".ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺍﺭﺎﻀﺤﻟﺍ ﺔﻟﺩﺃ ﻝﻮﺣ ﺕﺎﻨﻬﻜﺘﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺍﻮﻠﻠﻗ §H[this.capital_scope.GetName]§! ﻰﻠﻋ ﺎﻧﺅﻼﻤﻋ"
+ preftl_operation.1038.desc.none:0 "$preftl_operation.1038.desc.intro$ ﻪﻨﻋ ﺩﺎﻌﺘﺑﻻﺍ ﻖﺤﺘﺴﻳ ﺎﺒﻳﺮﻏ ﺍﺮﻣﺃ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺺﺼﻗ ﺔﻛﺭﺎﺸﻣ ﻥﻵﺍ ﺮﺒﺘﻌﺗ."
+ preftl_operation.1038.desc.low:0 ".ﺔﻴﺋﺎﻀﻓ ﺓﺎﻴﺣ ﺩﻮﺟﻭ ﺔﻴﻧﺎﻜﻣﺇ ﻲﻓ ﺮﻈﻨﻟﺎﺑ ﻥﻮﻤﺘﻬﻳ [this.GetSpeciesNamePlural]$preftl_operation.1038.desc.intro$ ﻦﻣ ﻞﻴﻠﻗ ﺩﺪﻋ "
+ preftl_operation.1038.desc.medium:0 "$preftl_operation.1038.desc.intro$ ﺭﻮﻣﻷﺍ ﻩﺬﻫ ﻞﺜﻣ ﻦﻋ ﺎﻨﻠﻋ ﺍﻮﺛﺪﺤﺘﻳ ﻥﺃ ﺢﺟﺮﻤﻟﺍ ﺮﻴﻏ ﻦﻤﻓ ،ﺎﻧﺩﻮﺟﻭ ﻲﻓ ﻥﻮﻜﻜﺸﻳ ﺪﻗ ﺔﻄﻠﺴﻟﺍ ﺐﺻﺎﻨﻣ ﻲﻓ ﺾﻌﺒﻟﺍ ﻥﺃ ﻦﻴﺣ ﻲﻓ."
+ # Poor conclusion
+ preftl_operation.1039.name:1 "[from.target.GetName] ﻰﻠﻋ ﺔﻠﻠﻀﻤﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻞﻣﺃ ﺔﺒﻴﺧ"
+ preftl_operation.1039.desc.intro:0 ".ﺔﻴﺋﺎﻀﻓ ﺓﺎﻴﺣ ﺩﻮﺟﻭ ﻝﻮﺣ ﻙﻮﻜﺸﻟﺍ ﺮﺸﻧ ﻲﻓ ﺊﻴﺳ ﻞﻤﻌﺑ §H[this.capital_scope.GetName]§! ﻰﻠﻋ ﺎﻧﺅﻼﻤﻋ ﻡﺎﻗ ﺪﻘﻟ"
+ preftl_operation.1039.desc.none:0 "$preftl_operation.1036.desc.intro$ ﺔﻋﺮﺴﺑ ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺭﺍﻭﺯ ﺩﻮﺟﻭ ﻝﻮﺣ ﺺﺼﻘﻟﺍ ﺔﻴﺒﻌﺷ ﺪﻳﺍﺰﺘﺗ."
+ preftl_operation.1039.desc.low:0 ".ﺔﻘﻴﻘﺣ ﺕﺎﻳﺎﻜﺤﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﻥﺃ ﻥﻭﺮﻴﺜﻜﻟﺍ ﺪﻘﺘﻌﻳﻭ ،ﺔﻴﺋﺎﻀﻓ ﺕﺎﻨﺋﺎﻛ ﺩﻮﺟﻭ ﻦﻋ ﺎﻨﻠﻋ ﺙﺪﺤﺘﻳ [this.GetSpeciesNamePlural]$preftl_operation.1036.desc.intro$ ﻝﺍﺰﻳ ﻻ "
+ preftl_operation.1039.desc.medium:0 "$preftl_operation.1036.desc.intro$ ﺎﻧﺩﻮﺟﻭ ﻦﻣ ﺎﺒﻳﺮﻘﺗ ﻦﻴﻘﻳ ﻰﻠﻋ ﻢﻬﻧﺇ .ﻡﻮﺠﻨﻟﺍ ﻦﻣ ﺭﺍﻭﺰﻟﺍ ﻦﻋ ﺔﺣﺍﺮﺼﺑ ﻥﻮﺛﺪﺤﺘﻳ ﺔﻄﻠﺴﻟﺍ ﻊﻗﺍﻮﻣ ﻲﻓ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ."
+
+ preftl_operation.1041.name:0 "$preftl_operation.1005.name$"
+ preftl_operation.1041.desc:0 ".ﺎﻬﻟ ﻂﻄﺨﻣ ﻮﻫ ﺎﻤﻛ ﺮﻴﺴﺗ §H[root.target.GetName]§! ـﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ﺓﺩﺎﻳﺰﻟ ﺎﻧﺩﻮﻬﺟ ﻥﺃ ﺎﻧﺅﻼﻤﻋ ﻎﻠﺑﺃ"
+
+ preftl_operation.1045.name:0 "ﺰﻫﺎﺟ :[from.GetName]" # Operation name, i.e. Plant Advanced Knowledge
+ preftl_operation.1045.desc:0 ".ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻲﻓ ﻥﻮﻧﻮﻜﻴﺳ ﺎﻤﻛ ﻥﻭﺰﻫﺎﺟ ﻢﻬﻧﺇ .ﺮﺒﻛﺃ ﺓﻮﻄﺧ ﻲﻓ ﺓﺮﻴﻐﺼﻟﺍ ﺕﺍﻮﻄﺨﻟﺍ ﻩﺬﻫ ﻊﻴﻤﺠﺗﻭ ،ﻁﺎﻘﻨﻟﺍ ﻂﺑﺮﻟ ﻥﻵﺍ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻠﻟ ﻙﻭﺮﺘﻣ ﺮﻣﻷﺍﻭ .[from.target.GetSpeciesAdj] ﻊﻤﺘﺠﻣ ﻲﻓ ﺓﺮﻴﻐﺼﻟﺍ ﺔﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺕﺍﺭﻮﻄﺘﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺍﻮﻋﺭﺯ ﺚﻴﺣ ،ﻢﻬﻌﺳﻭ ﻲﻓ ﺎﻣ ﻞﻛ ﺎﻧﺅﻼﻤﻋ ﻝﺬﺑ ﺪﻘﻟ"
+
+ preftl_operation.1046.name:0 "ﺓﺪﺣﺍﻭ ﺔﻗﻼﻤﻋ ﺓﺰﻔﻗ :[from.target.GetName]"
+ preftl_operation.1046.desc:0 ".[from.target.capital_scope.GetName] ﻲﻓ ﺭﺎﻫﺩﺯﻻﺍﻭ ﺔﻴﻨﻟﺍ ﻦﺴﺣ ﻦﻣ ﺮﻴﺒﻛ ﺭﺪﻗ ﻦﻋ ﺎﻧﺅﻼﻤﻋ ﻎﻠﺒﻳ ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻦﻜﻟﻭ ،ﺓﻮﻄﺨﻟﺍ ﻩﺬﻫ ﺎﻬﺛﺪﺤﺗ ﺪﻗ ﻲﺘﻟﺍ ﻯﺪﻤﻟﺍ ﺔﻠﻳﻮﻃ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﺩﺪﺤﻴﺳ ﻱﺬﻟﺍ ﻮﻫ ﻩﺪﺣﻭ ﺖﻗﻮﻟﺍ .ﻞﺧﺍﺪﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻢﻬﺗﺭﺎﻀﺣ ﻡﺪﻘﺗ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،[from.target.GetSpeciesAdj] ﻊﻤﺘﺠﻣ ﻲﻓ ﺎﻫﺎﻨﻋﺭﺯ ﻲﺘﻟﺍ ﺔﻓﺮﻌﻤﻟﺍﻭ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺕﺮﻫﺩﺯﺍ ﺪﻘﻟ !ﺡﺎﺠﻧ"
+
+ preftl_operation.1047.name:0 "ﺓﺮﻴﺒﻛ ﺓﺰﻔﻗ :[from.target.GetName]"
+ preftl_operation.1047.desc:0 ".[from.owner.GetPreFTLLower] ﻢﻟﺎﻋ ﻲﻓ ﺀﺎﺧﺮﻟﺍ ﺓﺩﺎﻳﺯ ﻦﻋ ﺎﻧﺅﻼﻤﻋ ﻎﻠﺒﻳ ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻦﻜﻟﻭ ،ﺓﻮﻄﺨﻟﺍ ﻩﺬﻫ ﺎﻬﺛﺪﺤﺗ ﺪﻗ ﻲﺘﻟﺍ ﻯﺪﻤﻟﺍ ﺔﻠﻳﻮﻃ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﺩﺪﺤﻴﺳ ﻱﺬﻟﺍ ﻮﻫ ﻩﺪﺣﻭ ﺖﻗﻮﻟﺍ .ﺔﻳﺮﺠﻤﻟﺍ ﺔﻛﺭﺎﺸﻤﻟﺍ ﻦﻣ ﺏﺍﺮﺘﻗﻻﺍ ﻰﻟﺇ ﻢﻬﺗﺭﺎﻀﺣ ﻊﻓﺩ ﺎﻤﻣ ،[from.target.GetSpeciesAdj] ﻊﻤﺘﺠﻣ ﻲﻓ ﺎﻫﺎﻨﻋﺭﺯ ﻲﺘﻟﺍ ﺔﻓﺮﻌﻤﻟﺍﻭ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺕﺮﻤﺛﺃ ﺪﻘﻟ ![from.target.capital_scope.GetName] ﻰﻠﻋ ﺓﺪﻴﺟ ﺞﺋﺎﺘﻧ ﻦﻋ ﺎﻧﺅﻼﻤﻋ ﻎﻠﺑﺃ"
+
+ preftl_operation.1048.name:0 "ﻱﻮﻗ ﻡﺪﻘﺗ :[from.target.GetName]"
+ preftl_operation.1048.desc:0 ".ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻮﺤﻧ ﻼﻴﻠﻗ ﺏﺮﻗﺃ ﻢﻬﺗﺭﺎﻀﺣ ﻞﻌﺟ ﺎﻤﻣ ،[from.target.GetSpeciesAdj] ﻊﻤﺘﺠﻤﻟ ﺎﻫﺎﻨﻣﺪﻗ ﻲﺘﻟﺍ ﺔﻓﺮﻌﻤﻟﺍﻭ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺖﺨﺳﺮﺗ ﺪﻘﻟ .[from.target.capital_scope.GetName] ﻥﺎﻜﺳ ﺮﻳﻮﻨﺘﻟ ﺎﻧﺩﻮﻬﺠﻟ ﺔﺤﺟﺎﻧ ﺔﻤﺗﺎﺧ ﻦﻋ ﺎﻧﺅﺎﻄﺸﻧ ﻎﻠﺑﺃ"
+
+ preftl_operation.1049.name:0 "ﺔﺳﺎﻜﺘﻧﺍ :[from.target.GetName]"
+ preftl_operation.1049.desc:0 ".ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ ﺎﻬﻠﻣﺄﻧ ﺎﻨﻛ ﻲﺘﻟﺍ ﺔﺳﻼﺴﻟﺍ ﻭﺃ ﺔﻋﺮﺴﻟﺎﺑ ﻡﻮﺠﻨﻟﺍ ﻰﻟﺇ ﻞﺼﺗ ﻻ ﺪﻗ ﻢﻬﺗﺭﺎﻀﺣ ﻥﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﺮﻫﺩﺰﻳ ﻑﻮﺳ [from.target.GetSpeciesAdj] ﻊﻤﺘﺠﻣ ﻥﺃ ﻦﻣ ﻥﻮﻘﺛﺍﻭ ﻦﺤﻧﻭ ﻲﺳﺎﺳﻷﺍ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ ﺾﻌﺑ ﺎﻨﻌﺠﺷ ﺎﻨﻧﺃ ﻻﺇ ،ﺕﺎﺴﻜﻨﻟﺍ ﺾﻌﺑ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .[from.target.capital_scope.GetName] ﻥﺎﻜﺳ ﺮﻳﻮﻨﺗ ﻲﻓ ﺎﻴﺋﺰﺟ ﺎﻨﺤﺠﻧ ﺪﻘﻟ"
+
+ preftl_operation.1060.name:0 "ﺔﻌﻤﺠﻣ ﺪﻘﻌﻟﺍ :[from.GetName]" # Operation name, i.e. 'Infiltrate Government'
+ preftl_operation.1060.desc.okay:0 ".ﻞﻤﻌﻟﺍ ﺖﻗﻭ ﻥﺎﺣ ﺪﻘﻟ .[target.capital_scope.GetPlanetHabitat] ﻰﻠﻋ ﺎﻧﺩﻮﻬﺟ ﺪﻴﺣﻮﺗ ﻰﻠﻋ ﻥﻵﺍ ﻞﻠﺴﺘﻟﺍ ﺎﻳﻼﺧ ﻞﻤﻌﺗ .ﺔﺳﻼﺴﺑ ﺎﻬﻤﻟﺎﻋ ﻢﺿ ﻦﻣ ﻦﻜﻤﺘﻧ ﻰﺘﺣ ﺔﻴﻣﻮﻴﻟﺍ ﺎﻬﺘﻄﺸﻧﺃ ﻲﻓ ﺎﻨﻴﻠﻋ ﺍﺩﺎﻤﺘﻋﺍ ﺮﺜﻛﺃ ﺔﻴﻠﺤﻤﻟﺍ ﺔﻴﻠﺨﻟﺍ ﻞﻌﺟ ﻮﻫ ﻑﺪﻬﻟﺍ .[target.capital_scope.GetName] ﻰﻠﻋ ﻲﻠﺤﻤﻟﺍ [target.GetSpeciesNamePlural] ﻦﻣ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺔﻳﺪﻘﻌﻟﺍ ﺰﻛﺍﺮﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺞﻣﺪﺑ ﺀﻂﺒﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+ preftl_operation.1060.desc.good:0 ".ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﻢﻬﺠﻣﺪﻟ ﻦﻳﺰﻫﺎﺟ ﺎﺒﻳﺮﻗ ﻥﻮﻜﻨﺳﻭ .ﻢﻟﺎﻌﻟﺍ ﻲﻓ ﺔﻴﻣﻮﻴﻟﺍ ﺔﻄﺸﻧﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺎﻨﻴﻟﻮﺗ ﺪﻘﻟ .[root.target.capital_scope.GetPlanetHabitat] ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺐﻧﺎﺟ ﻞﻛ ﻦﻣ ﺪﻘﻌﻟﺍ ﺏﺎﻌﻴﺘﺳﺎﺑ ﺎﻨﻤﻗ ﺚﻴﺣ ،ﻖﻠﻄﻤﻟﺍ ﻦﻣ ﺏﺮﺘﻘﻳ [target.capital_scope.GetName] ﻰﻟﺇ ﺎﻨﻠﻠﺴﺗ ﻥﺇ"
+ preftl_operation.1060.desc.poor:0 ".ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ ﺎﻨﻠﻤﻋ ﻒﺸﻛﻭ ﺎﻳﺎﻘﺒﻟﺍ ﺓﺩﺎﻌﺘﺳﺍ ﻦﻣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺮﻳﻭﺪﺘﻟﺍ ﺓﺩﺎﻋﺇ ﺕﺍﺮﺋﺎﻃ ﻊﻨﻣ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﺉﺭﺍﻮﻄﻟﺍ ﺕﻻﺎﺣ ﻲﻓ ﺓﺩﺪﻌﺘﻤﻟﺍ ﺎﻧﺩﻮﻬﺟ ﻞﻀﻔﺑ \n\n .ﻦﻴﻴﻠﺤﻤﻟﺍ ﺎﻨﺋﻼﻤﻋ ﻊﻴﻤﺟ ﺩﺮﻃﻭ ﺔﺛﺭﺎﻜﺑ ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺔﻴﻟﻭﺃ ﺔﻳﺭﺎﻗ ﺔﻴﻠﺧ ﺏﺎﻌﻴﺘﺳﺍ ﺔﻟﻭﺎﺤﻣ ﺖﻬﺘﻧﺍ .ﯫﻴﻄﺑ ﻡﺪﻘﺘﻟﺍ ﻥﺎﻛ ،[target.capital_scope.GetName] ﺢﻄﺳ ﻰﻠﻋ ﺎﻨﺗﺮﻄﻴﺳ ﺖﺤﺗ ﺔﻳﺪﻘﻌﻟﺍ ﺰﻛﺍﺮﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺩﻮﺟﻭ ﻊﻣ ﻰﺘﺣ"
+ preftl_operation.1065.name:0 "ﺪﺣﺍﻭ ﻦﺤﻧ"
+ preftl_operation.1065.desc:0 ".ﺪﺣﺍﻮﻛ .ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﻚﻟﺫ ﻦﻣ ﺪﻌﺑﺃ ﻰﻟﺇ ﻥﻵﺍ ﺎﻨﻟﻮﻘﻋ ﻞﺼﺗ ﻑﻮﺳ .ﻂﻘﻓ ﻪﺻﺎﺼﺘﻣﺍ ﻢﺗ ﻞﺑ ،[infiltrated_country_species.GetName] ﻲﻋﻭ ﻲﻔﺘﺨﻳ ﻢﻟ \n\n .ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ ﻱﺃ ﻙﺮﺗ ﻡﺪﻋ ﻦﻣ ﺔﻋﺮﺴﺑ ﺎﻧﺪﻛﺄﺗ ،[infiltrated_country_species.GetAdj] ﻝﻮﻘﻋ ﻰﻠﻋ ﺔﻠﻣﺎﻜﻟﺍ ﺓﺮﻄﻴﺴﻟﺍ ﻖﻴﻘﺤﺗ ﺪﻌﺑ"
+ preftl_operation.1066.name:0 "ﻪﻴﻓ ﻢﻜﺤﺘﻤﻟﺍ ﻢﻜﺤﺘﻟﺍ"
+ preftl_operation.1066.desc:0 ".[root.GetName] ﻰﻟﺇ ﻞﻣﺎﻜﻟﺎﺑ [infiltrated_country_planet.GetPlanetHabitat] ﻢﻀﺑ ﻥﻵﺍ ﺎﻨﻤﻗ ،ﻂﻘﻓ ﺔﻄﻴﺴﺑ ﻑﺍﺮﺤﻧﺍ ﺔﻠﻜﺸﻣ ﻊﻣ .ﺓﺮﺷﺎﺒﻤﻟﺍ ﺓﺮﻄﻴﺴﻟﺍ ﻲﻟﻮﺘﻟ ﺎﻨﻟ ﺔﻳﺪﻘﻌﻟﺍ ﺎﻧﺰﻛﺍﺮﻣ ﺕﺪﻋﺃ ،[infiltrated_country_species.GetAdj] ﻞﻘﻋ ﻰﻠﻋ ﻢﺳﺎﺣ ﺮﻴﺛﺄﺗ ﺏﺎﺴﺘﻛﺍ ﺪﻌﺑ"
+ preftl_operation.1067.name:0 "ﺓﺩﺩﺮﺘﻣ ﻅﺎﻔﺘﺣﻻﺍ"
+ preftl_operation.1067.desc:0 ".[root.GetName] ﻰﻟﺇ [infiltrated_country_planet.GetPlanetHabitat] ﻢﺿ ﻢﺘﻴﺳ .ﺎﻨﻧﺎﻫﺫﺃ ﻲﻓ ﺎﻬﺑﺎﻌﻴﺘﺳﺍ ﻦﻣ ﻻﺪﺑ ﺎﻫﺩﻮﺟﻭ ﺀﺎﻬﻧﺇ ﺕﺭﺎﺘﺧﺍﻭ ،ﺎﻧﺫﻮﻔﻧ ﺓﺮﻴﻐﺻ ﺓﺭﺎﻗ ﺖﻣﻭﺎﻗ ،ﺎﻧﺮﻄﻴﺳ ﺎﻣﺪﻨﻋ .[infiltrated_country_planet.GetPlanetHabitat] ﺔﻴﻘﺑ ﺏﺎﻌﻴﺘﺳﻻ ﺓﺰﻫﺎﺟ ﺔﺒﻋﻮﺘﺴﻤﻟﺍ ﺔﻳﺪﻘﻌﻟﺍ ﺎﻧﺰﻛﺍﺮﻣ ﺖﻧﺎﻛ ،[infiltrated_country_species.GetAdj] ﺔﻴﻠﺧ ﻞﻘﻋ ﻰﻟﺇ ﻞﻠﺴﺘﻟﺍ ﺪﻌﺑ"
+ preftl_operation.1068.name:0 "[From.GetName] ﻞﺸﻓ"
+ preftl_operation.1068.desc:0 ".ﻲﺟﺭﺎﺧ ﻞﺧﺪﺗ ﻱﻷ ﻯﻮﺼﻗ ﺐﻫﺄﺗ ﺔﻟﺎﺣ ﻲﻓ ﻥﻵﺍ [infiltrated_country_species.GetClass] ﻥﺎﻜﺳ ﺢﺒﺻﺃ .[from.GetName] ﺔﻴﻠﻤﻌﻟﺍ ﻞﺸﻓ ﻦﻠﻌﻧ ﻥﺃ ﺐﺠﻳ ،ﺔﻋﺮﺴﺑ ﺎﻨﻣﺎﻬﻣ ﻚﻴﻜﻔﺘﺑ ﺎﻨﻤﻗ ﻥﺃ ﺪﻌﺑ .ﺔﻴﻠﺨﻟﺍ ﺔﻴﻘﺑ ﻦﻋ ﻦﻴﻟﻭﺰﻌﻣ ﺎﻨﺴﻔﻧﺃ ﺎﻧﺪﺟﻭ ،ﺎﻨﻳﺪﻟ ﺔﻬﺑﺎﺸﻤﻟﺍ ﺔﻳﺪﻘﻌﻟﺍ ﺰﻛﺍﺮﻤﻟﺍ ﻂﻴﺸﻨﺘﻟ ﻦﻳﺪﻌﺘﺴﻣ ﺎﻨﻛ ﺎﻤﻨﻴﺑﻭ .ﺎﻧﺮﻴﺛﺄﺗ [infiltrated_country_species.GetAdj] ﺔﻴﻠﺧ ﻞﻘﻋ ﻒﺸﺘﻛﺍ ﺪﻘﻟ"
+
+### Random event chains
+
+# Sorcery!
+ preftl_operation.3000.name:0 "!ﺓﺫﻮﻌﺷ"
+ preftl_operation.3000.desc:0 ".ﺔﻳﺎﻐﻠﻟ ﺔﻠﻤﺘﺤﻣ ﺔﻳﺩﺎﻌﻤﻟﺍ ﺕﺍﺮﻫﺎﻈﻤﻟﺍ ﻥﺃ ﻭﺪﺒﻳﻭ .ﺓﺮﻳﺮﺷ ﺡﺍﻭﺭﺃ ﻭﺃ ﺔﻳﺮﺤﺳ ﺕﺎﻗﻮﻠﺨﻣ ﻢﻬﻧﺃ ﻦﻳﺪﻘﺘﻌﻣ ،ﺎﻨﺋﻼﻤﻋ ﺐﻨﺠﺘﻟ ﺓﺮﻴﺒﻛ ﺕﺍﻮﻄﺧ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺬﺨﺘﻳ .ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﻙﻮﻜﺸﺑ [from.target.capital_scope.GetName] ﻰﻠﻋ [from.target.GetSpeciesNamePlural] ﻰﻠﻋ ﺮﻴﺛﺄﺘﻠﻟ ﺎﻨﺗﻻﻭﺎﺤﻣ ﺖﻠﺑﻮﻗ"
+ preftl_operation.3000.a:0 ".ﻪﻴﻠﻋ ﺊﻜﺗﺍ"
+ preftl_operation.3000.b:0 ".ﻯﺮﺧﺃ ﺔﻘﻄﻨﻣ ﻰﻟﺇ ﻝﺎﻘﺘﻧﻻﺍ .ﺭﺬﺤﻟﺍ ﻲﺧﻮﺗ"
+ preftl_operation.3000.c:0 "!ﻢﻬﺗﺍﺪﻘﺘﻌﻣ ﻱﺪﺤﺗ"
+
+ preftl_operation.3001.name:0 "ﻩﺭﺎﻜﻧﺇ ﻦﻜﻤﻳ ﻻ :ﺮﺤﺴﻟﺍ"
+ preftl_operation.3001.desc:0 ".ﺎﻨﻠﺜﻣ "ﺔﻌﻴﺒﻄﻠﻟ ﺔﻗﺭﺎﺧ" ﺕﺎﻗﻮﻠﺨﻣ ﺩﻮﺟﻮﺑ ﺎﻴﻋﻭ ﺮﺜﻛﺃ ﻥﻵﺍ ﻢﻬﻧﺃ ﻻﺇ - ﺎﻨﺗﺎﻴﻨﻘﺗ ﻲﻨﺒﺘﺑ [from.target.GetSpeciesNamePlural] ﻊﻨﺘﻗﺍ ،ﻚﻟﺬﻟ ﺔﺠﻴﺘﻧﻭ .ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻰﻠﻋ ﻥﻮﻗﻮﻔﺘﻣ ﻢﻬﻧﺃ ﺍﻮﺘﺒﺛﺃﻭ ﺔﻳﻮﻴﻧﺪﻟﺍ ﻢﻬﺘﻌﻤﺳ ﺎﻧﺅﻼﻤﻋ ﻞﻐﺘﺳﺍ"
+
+ preftl_operation.3002.name:0 "ﻉﺎﻨﻗﻹﺍ : ﺮﺤﺴﻟﺍ"
+ preftl_operation.3002.desc:0 ".ﻢﻬﻟﻮﺣ ﻦﻣ ﻢﻟﺎﻌﻠﻟ ﺔﻴﻋﻮﺿﻮﻣ ﺮﺜﻛﺃ ﺔﻳﺅﺭ ﺫﺎﺨﺗﺍ ﻲﻓ ﺍﻭﺃﺪﺑ ﻞﺑ ،ﺐﺴﺤﻓ ﺎﻨﺗﺎﻄﻄﺨﻣ ﻲﻨﺒﺗ ﻲﻓ ﻥﻮﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﺃﺪﺒﻳ ﻢﻟ ،ﻚﻟﺬﻟ ﺔﺠﻴﺘﻧﻭ .ﻖﻄﻨﻤﻟﺍﻭ ﺔﺒﻌﺼﻟﺍ ﻖﺋﺎﻘﺤﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ [from.target.GetSpeciesAdj] ﻊﻤﺘﺠﻤﻟ ﺓﺪﻳﺪﺠﻟﺍ ﺔﻴﻓﺍﺮﺨﻟﺍ ﺔﻳﺩﺎﻘﺘﻋﻻﺍ ﺔﻴﻨﺒﻟﺍ ﻱﺪﺤﺗ ﻲﻓ ﺎﻧﺅﻼﻤﻋ ﺢﺠﻧ"
+
+ preftl_operation.3003.name:0 "ﻡﺍﺪﻋﻹﺍ : ﺮﺤﺴﻟﺍ"
+ preftl_operation.3003.desc:0 ".ﺔﺑﻮﻌﺻ ﺮﺜﻛﺃ ﺪﻳﺪﺟ ﺮﺼﻌﻟ [from.target.GetName] ﺩﺍﺪﻋﺇ ﺔﻤﻬﻣ ﺖﺤﺒﺻﺃ .ﺔﻴﻨﻟﺍ ﺀﻮﺳﻭ ﻦﻴﻗﺭﺎﺨﻟﺍ ﺮﺤﺴﻟﺍ ﺏﺎﺤﺻﺃ ﻞﺒﻗ ﻦﻣ ﺍﻭﺰﻏ ﻪﻧﻭﺮﺒﺘﻌﻳ ﺎﻤﻣ ﺐﻀﻐﻟﺎﺑ ﺀﺍﻮﺳ ﺪﺣ ﻰﻠﻋ ﻥﺎﻜﺴﻟﺍﻭ ﻥﻮﻴﻠﺤﻤﻟﺍ ﺓﺩﺎﻘﻟﺍ ﺮﻌﺸﻳ .ﻪﻠﺘﻗﻭ ﺎﻧﺀﻼﻤﻋ ﺪﺣﺃ ﻰﻠﻋ ﺾﺒﻘﻟﺍ ﺀﺎﻘﻟﺈﺑ ﺐﺿﺎﻏ ﺪﺸﺣ ﻡﺎﻗ ﺚﻴﺣ ،[from.target.capital_scope.GetName] ﻲﻓ ﺓﺎﺳﺄﻣ ﺖﺛﺪﺣ"
+
+# Pariah
+ preftl_operation.3010.name:1 "ﺫﻮﺒﻨﻣ"
+ preftl_operation.3010.desc:1 ".ﺔﻳﺎﻨﻌﺑ ﺔﻴﻟﺎﺘﻟﺍ ﺎﻨﺗﻮﻄﺧ ﻲﻓ ﺮﻜﻔﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻴﻓ ،ﻚﺤﻤﻟﺍ ﻰﻠﻋ ﺢﺒﺻﺃ ﻱﺬﻟﺍ ﻖﻴﻗﺪﻟﺍ ﻲﻋﺎﻤﺘﺟﻻﺍ ﻥﺯﺍﻮﺘﻠﻟ ﺍﺮﻈﻧﻭ .[from.GetName] ﺔﻴﻠﻤﻋ ﻑﺍﺪﻫﺃ ﺬﻴﻔﻨﺗ ﻦﻋ ﻚﻴﻫﺎﻧ ،ﺎﻨﻛﺍﺮﺷﺈﺑ ﺺﺨﺷ ﻱﺃ ﻉﺎﻨﻗﺇ ﺐﻌﺼﻟﺍ ﻦﻣ ﺢﺒﺻﺃ \n\n .ﺔﻴﻣﻮﻴﻟﺍ ﺔﻴﻓﺎﻘﺜﻟﺍ ﺔﻄﺸﻧﻷﺍ ﺾﻌﺑ ﻰﺘﺣﻭ ﺔﻴﻋﺎﻤﺘﺟﻻﺍ ﺕﺎﺒﺳﺎﻨﻤﻟﺍ ﻦﻣ ﺎﻧﺀﻼﻤﻋ ﻥﻭﺪﻌﺒﺘﺴﻳﻭ ،ﻢﻬﻧﻮﺒﻨﺠﺘﻳ ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻥﺃ ﻭﺪﺒﻳ .ﻥﻮﻧﺎﻌﻳ ﻢﻬﻨﻣ ﺮﻴﺜﻜﻟﺍ ﻦﻜﻟ ،ﺎﻴﻋﺎﻤﺘﺟﺍ ﺎﻧﺅﻼﻤﻋ ﻡﺀﻼﺘﻴﻟ ﻲﻔﻜﻳ ﺎﻤﺑ ﺍﺪﻴﺟ [from.target.GetSpeciesAdj] ﺔﻓﺎﻘﺛ ﻑﺮﻌﻧ ﺎﻨﻧﺃ ﻦﻈﻧ ﺎﻨﻛ"
+ preftl_operation.3010.a:1 "؟ﺓﻭﺮﺜﻠﻟ ﻥﻮﺒﻴﺠﺘﺴﻳ ﺎﻤﺑﺭ"
+ preftl_operation.3010.b:1 ".ﺔﺑﺍﺮﻏ ﺮﺜﻛﺃ ﺎﺠﻬﻧ ﺏﺮﺟ"
+ preftl_operation.3010.c:1 ".ﻢﻬﺘﻓﺎﻘﺛ ﺔﺳﺍﺭﺪﻟ ﺖﻗﻮﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺺﻴﺼﺨﺗ"
+
+ preftl_operation.3011.name:0 "ﺪﻌﻳ ﻢﻟ ﺫﻮﺒﻨﻣ"
+ preftl_operation.3011.desc:0 ".ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺮﺒﻛﺃ ﺔﺳﻼﺴﺑ ﻱﺮﺠﺗ [from.GetName] ﺔﻴﻠﻤﻋ ﻥﺃ ﻦﻠﻌﻧ ﻥﺃ ﺎﻧﺪﻌﺴﻳ ،ﻩﺎﺠﺗﻻﺍ ﺪﻳﺪﺤﺗ ﺔﻟﺎﺣ ﻰﻟﺇ ﺎﻧﺀﻼﻤﻋ ﺔﻴﻗﺮﺗ ﻢﺗ ﻥﺃ ﺪﻌﺑ ﻥﻵﺍ\n\n .ﺔﺧﺭﺎﺼﻟﺍ ﺔﻘﺑﺎﻄﻤﻟﺍ ﻡﺪﻋ ﻝﺎﻤﻋﺄﺑ ﺍﺮﺳ ﻥﻮﺒﺠﻌﻣ ﻢﻬﻧﺃ ﻻﺇ ،ﺎﻨﻠﻋ ﺪﻴﺣﻮﺘﻟﺍ ﻊﺠﺸﻳ ﻢﻬﻌﻤﺘﺠﻣ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .[from.target.GetSpeciesAdj] ﺔﻓﺎﻘﺛ ﻲﻓ ﻱﻮﻴﺤﻟﺍﻭ ﻖﻴﻗﺪﻟﺍ ﺾﻗﺎﻨﺘﻟﺍ ﺔﻈﺣﻼﻣ ﻲﻓ ﺎﻨﻠﺸﻓ ﺎﻨﻧﺃ ﻭﺪﺒﻳ .ﺍﻮﺒﻫﺫ ﺎﻤﻨﻳﺃ ﺓﺭﺍﺮﺤﺑ ﻢﻬﺑ ﺐﻴﺣﺮﺘﻟﺍ ﻢﺘﻳ ﻞﺑ ،ﻢﻠﻗﺄﺘﻟﺍ ﻞﺟﺃ ﻦﻣ ﻥﻮﺤﻓﺎﻜﻳ ﺍﻭﺩﻮﻌﻳ ﻢﻟ ﺎﻧﺀﻼﻤﻋ ﻥﺃ ﻲﻨﻌﻳ ﺍﺬﻫﻭ !ﺎﻨﻧﻮﻘﺸﻌﻳ [from.target.capital_scope.GetName] ﺐﻌﺷ"
+
+ preftl_operation.3012.name:0 "ﻥﻭﺫﻮﺒﻨﻤﻟﺍ"
+ preftl_operation.3012.desc:0 ".ﻦﻴﺗﺮﻣ ﺡﺩﺎﻔﻟﺍ ﺄﻄﺨﻟﺍ ﺲﻔﻧ ﻲﻓ ﺎﻨﺋﻼﻤﻋ ﻰﻠﻋ ﺾﺒﻘﻟﺍ ﻢﺘﻳ ﻦﻟ ؛ﺐﻳﺭﺪﺗ ﺕﻻﻮﻛﻮﺗﻭﺮﺑﻭ ﺓﺪﻳﺪﺟ ﺕﺎﻳﻮﻫ ﻊﺿﻭ ﻞﻌﻔﻟﺎﺑ ﻱﺮﺠﻳﻭ .ﻞﺒﻘﺘﺴﻤﻟﺍ ﻲﻓ ﻪﻠﻌﻓ ﺐﺠﻳ ﻻ ﺎﻣ ﻞﻗﻷﺍ ﻰﻠﻋ ﺎﻨﻤﻠﻌﺗ ﺪﻘﻓ ﻚﻟﺫ ﻊﻣﻭ ،[from.GetName] ﺔﻴﻠﻤﻋ ﻲﻓ ﺎﻨﻣﺪﻘﺗ ﺔﻴﻋﺎﻤﺘﺟﻻﺍ ﺀﺎﻄﺧﻷﺍ ﻩﺬﻫ ﺕﺮﺧﺃ ﺪﻘﻟ\n\n .ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ ﺪﻘﺘﻌﻧ ﺎﻨﻛ ﺎﻤﻣ ﺎﻜﺷﻭ ﺎﻈﻔﺤﺗ ﺮﺜﻛﺃ ﺹﺎﺨﺷﺃ [from.target.GetSpeciesNamePlural] ﻥﺃ ﻦﻴﺒﺗ .ﺓﺮﻴﺧﻷﺍ ﻢﻬﺗﺍﺯﻭﺎﺠﺗ ﺐﺒﺴﺑ ﺎﻨﺋﻼﻤﻋ ﺾﻌﺑ ﻲﻔﻧ ﻥﻵﺍ ﻢﺗ :ﻚﻟﺫ ﻦﻣ ﺃﻮﺳﻷﺍﻭ ،ﺎﻨﻣ ﺖﻠﻔﺗ [from.target.GetSpeciesAdj] ﺔﻓﺎﻘﺛ ﻲﻓ ﺔﻘﻴﻗﺪﻟﺍ ﻕﻭﺮﻔﻟﺍ ﻝﺍﺰﺗ ﻻ"
+ operation_pariahs:0 "ﻥﻭﺫﻮﺒﻨﻣ"
+ operation_pariahs_desc:0 ".ﻂﻐﻀﻠﻟ ﺽﺮﻌﺘﺗ ﺔﻴﻘﺒﺘﻤﻟﺍ ﺎﻧﺩﺭﺍﻮﻣﻭ .ﺔﻴﻓﺎﻘﺜﻟﺍ ﻑﺍﺮﻋﻷﺍ ﺾﻌﺑ ﻲﻓ ﺍﻭﺄﻄﺧﺃ ﻥﺃ ﺪﻌﺑ ﻲﻠﺤﻤﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ ﻦﻣ ﺎﻨﺋﻼﻤﻋ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺩﺮﻃ ﻢﺗ ﺪﻘﻟ"
+
+## Distracted Agent
+ preftl_operation.3020.name:0 "ﻲﺒﻧﺎﺟ ﺭﺎﺴﻣ ﺕﺍﺫ"
+ preftl_operation.3020.desc:0 ".ﺎﻨﻣﺪﻘﺗ ﺊﻄﺒﻳ ﻑﻮﺳ ﺪﻬﺠﻟﺍ ﺍﺬﻫ ﺾﻓﺭ ﻥﺇ .ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺎﻣ ﺪﺣ ﻰﻟﺇ ﺪﻴﻔﻣ ﻪﻧﺃ ﻞﻌﻔﻟﺎﺑ ﺖﺒﺛﺃ ﺪﻗ ﺢﻣﺎﺠﻟﺍ ﻞﻴﻤﻌﻟﺍ ﻞﻤﻋ ﻥﺄﺑ ﻑﺮﺘﻌﻧ ﻥﺃ ﺐﺠﻳ ،ﺮﻴﺧﺄﺘﻟﺍ ﺮﻄﺨﻟ [from.GetName] ﺔﻴﻠﻤﻋ ﺽﺮﻌﺗ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻩﺬﻫ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n .ﺎﻴﻤﺳﺭ ﺍﺮﺸﻧ ﺍﺬﻫ ﻞﻌﺠﻟ ﺕﺎﺒﻠﻄﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻡﺪﻗﻭ ،ﺔﻠﻘﺘﺴﻣ ﺔﻴﺒﻨﺟﺃ ﺕﺎﻨﺋﺎﻛ ﺔﺳﺍﺭﺪﺑ ﻝﻼﻘﺘﺳﻻﺍ ﻲﻓ ﻁﺮﻔﻤﻟﺍ ﻞﻴﻤﻌﻟﺍ ﺍﺬﻫ ﻡﺎﻗ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ .ﻢﻬﻴﻟﺇ ﺔﻠﻛﻮﻤﻟﺍ ﻡﺎﻬﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺾﻓﺭ ﺪﻗﻭ ،ﺔﻴﻠﺤﻤﻟﺍ ﺓﺭﺎﻀﺤﻟﺎﺑ ﺎﻧﻮﺘﻔﻣ ...[from.target.capital_scope.GetName] ﻰﻠﻋ ﻥﻮﻠﻤﻌﻳ ﻦﻳﺬﻟﺍ ﻦﻴﻴﺴﻴﺋﺮﻟﺍ ﺎﻧﺀﻼﻤﻋ ﺪﺣﺃ ﺢﺒﺻﺃ"
+ preftl_operation.3020.a:0 ".ﻁﺎﺒﻀﻧﻻﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﺐﺠﻳ"
+ preftl_operation.3020.b:0 "!ﺀﺎﻨﺜﻟﺍ ﻖﺤﺘﺴﺗ ﺓﺭﺩﺎﺒﻤﻟﺍ ﻩﺬﻫ ﻞﺜﻣ"
+ operation_no_more_distractions:0 "ﺕﺎﻓﺍﺮﺤﻧﻻﺍ ﻦﻣ ﺪﻳﺰﻣ ﻻ"
+ operation_no_more_distractions_desc:0 ".ﻩﺎﺒﺘﻧﻻﺍ ﺖﺘﺸﻣﻭ ﺢﻣﺎﺟ ﻞﻴﻤﻋ ﺎﻨﻟ ﺎﻬﺤﻨﻣ ﻲﺘﻟﺍ ﺐﻧﺎﺟﻷﺎﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﻯﺅﺮﻟﺍ ﻦﻣ ﺪﻴﻔﺘﺴﻧ ﺪﻌﻧ ﻢﻟ"
+ observation_distraction_insights:0 "ﺔﻠﻘﺘﺴﻣ ﺔﻳﺮﺳ ﺔﺳﺍﺭﺩ"
+ observation_distraction_insights_desc:0 ".ﺔﻓﺎﻘﺜﻟﺍ ﻩﺬﻬﻟ ﺎﻨﺘﺳﺍﺭﺪﻟ ﺓﺪﻳﺮﻔﻟﺍ ﺔﻳﺮﺴﻟﺍ ﺭﺎﻜﻓﻷﺍ ﺾﻌﺑ ﻖﺑﺎﺳ ﺱﻮﺳﺎﺟ ﺐﻠﺟ ﺪﻘﻟ"
+
+## Mimicry
+ preftl_operation.3030.name:0 "ﺪﻴﻠﻘﺗ"
+ preftl_operation.3030.desc:0 ".ﺖﻗﻭ ﺔﻟﺄﺴﻣ ﺩﺮﺠﻣ ﻥﻮﻜﻳ ﺪﻗ ﺍﺬﻫ ﻦﻜﻟ ،ﺎﻨﺘﻴﻠﻤﻌﺑ ﻢﻠﻋ ﻰﻠﻋ ﺔﻴﻠﺨﻟﺍ ﻥﺃ ﻰﻠﻋ ﻥﻵﺍ ﻰﺘﺣ ﻞﺋﻻﺩ ﺪﺟﻮﺗ ﻻ .ﻥﻵﺍ ﺎﻨﻴﻠﻋ ﺲﻜﻌﻨﻳ ﺝﺎﻣﺪﻧﻻﺍ ﻲﻓ ﺎﻨﻠﺸﻓ ﻦﻜﻟﻭ ،[from.GetName] ﺔﻴﻠﻤﻌﻟ ﺔﻳﺎﻨﻌﺑ ﺎﻬﻟ ﻂﻄﺨﻤﻟﺍ ﻡﺎﻬﻤﻟﺍ ﻕﺎﻄﻧ ﺝﺭﺎﺧ ﺔﻴﻠﺨﻟﺍ ﻰﻠﻋ ﺮﺛﺆﻧ ﺎﻨﻧﺃ ﻰﻟﺇ ﻂﻘﻓ ﺍﺬﻫ ﺮﻴﺸﻳ ﻻ \n\n .ﻪﻴﻓ ﺲﺒﻟ ﻻ ﻞﻜﺸﺑ ﺎﻬﺘﻌﻴﺒﻄﺑ [from.owner.GetSpeciesAdj] ﻲﻫ ﺓﺪﻳﺪﺠﻟﺍ ﺕﺍﺩﺎﻌﻟﺍ ﻩﺬﻫ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻜﻟﻭ ،ﺭﺍﻮﻃﻷﺍ ﺔﺒﻳﺮﻏ ﺔﻃﺎﺴﺒﺑ ﺖﺤﺒﺻﺃ ﺪﻗ ﺔﻴﻠﺤﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻥﺃ ﺎﻧﺪﻘﺘﻋﺍ ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ .ﺎﻨﻛﻮﻠﺳ ﺲﻜﻌﺗ [from.target.GetSpeciesAdj] ﺔﻴﻠﺧ :ﻱﺩﺎﻋ ﺮﻴﻏ ﺍﺪﻴﻘﻌﺗ [from.target.capital_scope.GetName] ﻰﻠﻋ ﺎﻨﻠﻤﻋ ﻪﺟﺍﻭ ﺪﻘﻟ"
+ preftl_operation.3030.a:0 "؟ﺀﺎﺤﻳﻺﻟ ﺔﻠﺑﺎﻗ ...ﺮﺜﻛﺃ ﻭﺪﺒﺗ ﻲﻬﻓ ﺍﺬﻟ"
+ preftl_operation.3030.b:0 ".ﺍﺭﺬﺣ ﺮﺜﻛﺃ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳ"
+ preftl_operation.3030.b.tt:0 ".ﻢﻬﺗﺎﻴﻛﻮﻠﺳﻭ ﺎﻨﺋﻼﻤﻋ ﺰﺋﺍﺮﻏ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻠﻟ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺺﺼﺧ"
+ preftl_operation.3030.c:0 ".ﻝﻼﺧ ﻦﻣ ﺍﺬﻫ ﺔﻳﺅﺮﺑ ﻥﻮﻣﺰﺘﻠﻣ ﻦﺤﻧﻭ"
+ preftl_operation.3030.d:0 ".ﺽﺎﻬﺟﻹﺍﻭ ،ﺏﺎﺤﺴﻧﻻﺍ"
+ spynetwork_hive_mimicry:0 "ﺡﺮﺘﻘﻣ ﺪﻴﻠﻘﺗ"
+ spynetwork_hive_mimicry_desc:0 ".ﺎﻨﺋﻼﻤﻋ ﻊﻣ ﺔﻳﺰﻳﺮﻏ ﺔﻗﻼﻋ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺎﻬﺗﺍﺮﺋﺎﻃ ﺖﻣﺎﻗﺃﻭ ،ﺎﻨﻛﻮﻠﺳ ﺪﻴﻠﻘﺘﺑ ﺔﻴﻠﺨﻟﺍ ﻩﺬﻫ ﺕﺃﺪﺑ"
+ espionage_hive_mimicry:0 "ﺪﻴﻠﻘﺘﻟﺍ ﻝﻼﺧ ﻦﻣ ﺽﺮﻌﺘﻟﺍ"
+ espionage_hive_mimicry_desc:0 ".ﺮﺒﻛﺃ ﺔﻟﻮﻬﺴﺑ ﺔﻴﺟﺭﺎﺨﻟﺍ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﻑﺎﺸﺘﻛﺍ ﻲﻓ ﻚﻟﺫ ﺪﻋﺎﺴﻳ ﻥﺃ ﺮﻄﺧ ﻙﺎﻨﻫ .ﺎﻬﻨﻋ ﺔﺒﻳﺮﻏ ﻥﻮﻜﺗ ﻲﺘﻟﺍ ﺕﺎﻴﻛﻮﻠﺴﻟﺍ ﺪﻴﻠﻘﺗ ﻰﻠﻋ ﺓﺩﺎﺘﻌﻣ ﺔﻴﻠﺨﻟﺍ ﻩﺬﻫ"
+
+## Academic Shenanigans (note only some of these strings refer to the intended event ID, preftl_operation.3040)
+ preftl_operation.1100.name:0 "ﺔﻴﻤﻳﺩﺎﻛﻷﺍ ﻲﻋﺎﺴﻤﻟﺍ"
+ preftl_operation.1100.desc:1 ".ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺎﻨﺑ ﺹﺎﺨﻟﺍ $role_spymaster$ ﺐﻠﻄﻳ .ﺓﺪﻳﺪﺟ ﺭﺎﻜﻓﺃ ﺮﺸﻧ ﺎﻨﺋﻼﻛﻭ ﻰﻠﻋ ﺐﻌﺼﻟﺍ ﻦﻣ ﻞﻌﺠﺗ ﺎﻬﻟ ﺔﻳﺎﻬﻧ ﻻ ﻲﺘﻟﺍ ﺔﻴﻤﻳﺩﺎﻛﻷﺍ ﺕﺎﻨﺣﺎﺸﻤﻟﺍ\n\n.ﻥﻮﻟﺎﺘﺤﻣ ﻢﻬﻧﺄﺑ ﻢﻬﻧﻮﻤﻬﺘﻳﻭ ،ﻢﻬﻌﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻢﻬﻨﻣ ﺪﻳﺪﻌﻟﺍ ﺾﻓﺮﻳ ﺚﻴﺣ :ﻦﻴﻴﻠﺤﻤﻟﺍ ﻦﻴﺜﺣﺎﺒﻟﺍ ﻞﺒﻗ ﻦﻣ ﻚﺸﻟﺎﺑ ﺪﻳﺍﺰﺘﻤﻟﺍ ﻢﻬﺣﺎﺠﻧ ﻞﺑﻮﻗ ﺪﻘﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﺓﺪﺋﺍﺮﻟﺍ ﻢﻬﺗﺎﻳﺮﻈﻨﺑ ﻦﻴﻓﻭﺮﻌﻣ ﻦﻴﻌﻣﻻ ﻦﻳﺮﻜﻔﻤﻛ ﻢﻬﺴﻔﻧﺃ ﺍﻮﺘﺒﺛﺃﻭ ،ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﻌﻣﺎﺠﻟﺍ ﻰﻟﺇ [from.target.capital_scope.GetName] ﻰﻠﻋ ﺎﻧﺅﻼﻤﻋ ﻞﻠﺴﺗ ،ﺔﻘﺋﺎﻔﻟﺍ ﺎﻨﺘﻓﺮﻌﻤﺑ ﻦﻴﺤﻠﺴﻣ"
+ preftl_operation.1100.a:0 ".ﺔﺴﻓﺎﻨﻤﻟﺍ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ"
+ preftl_operation.1100.b:1 ".ﻞﻳﻮﻤﺘﻟﺍ :ﻱﺭﺬﺟ ﺀﻲﺸﺑ ﺀﺎﻤﻠﻌﻟﺍ ﺀﻻﺆﻫ ﺓﻮﺷﺭ"
+ preftl_operation.1100.c:0 ".ﻡﺎﻤﺘﻫﻼﻟ ﺍﺮﻴﺜﻣ ﺍﺬﻫ ﻥﻮﻜﻳ ﺪﻗ .ﻥﻭﺮﺟﺎﺸﺘﻳ ﻢﻬﻋﺩ"
+
+ preftl_operation.1101.name:0 "...ﺙﺪﺤﺗ ﺙﺩﺍﻮﺣ"
+ preftl_operation.3041.desc:0 ".ﺎﻈﻔﺤﺗ ﺮﺜﻛﺃ ﻦﻳﺮﻜﻔﻤﺑ ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺓﺮﻏﺎﺸﻟﺍ ﻢﻬﻨﻛﺎﻣﺃ ﺀﻞﻣ ﻢﺗﻭ ،[from.target.GetSpeciesAdj] ﻲﻓ ﺔﻴﻤﻳﺩﺎﻛﻷﺍ ﻁﺎﺳﻭﻷﺍ ﻝﻮﺧﺩ ﻦﻣ ﻢﻬﻤﻈﻌﻣ ﻊﻨﻣ ﻢﺗ .ﺎﻨﺋﻼﻤﻋ ﻰﻟﺇ ﻚﺸﻟﺍ ﻦﻣ ﺍﺮﻴﺒﻛ ﺍﺭﺪﻗ ﺖﺒﻠﺟ ﺪﻗﻭ ،ﺔﻗﺪﻟﺍ ﻰﻟﺇ ﺮﻘﺘﻔﺗ ﺎﻧﺪﺋﺎﻜﻣ ﺖﻧﺎﻛ ،ﻒﺳﻸﻟ\n\n$preftl_operation.3042.desc$"
+ preftl_operation.3042.desc:0 ".ﺔﻳﺎﻐﻠﻟ ﺔﻔﻴﻨﻋ ﺎﻧﺎﻴﺣﺃﻭ - ﺔﻠﺻ ﺕﺍﺫ ﺮﻴﻏ ﻭﺪﺒﺗ ﻲﺘﻟﺍ "ﺙﺩﺍﻮﺤﻟﺍ" ﻦﻣ ﺔﻠﺴﻠﺳ ﺪﻌﺑ ،ﺓﺮﻴﺧﻷﺍ ﻊﻴﺑﺎﺳﻷﺍ ﻲﻓ ﻢﻬﺒﺻﺎﻨﻣ ﻙﺮﺗ ﻰﻟﺇ ﺎﻨﺋﻼﻤﻋ ﺕﺎﻳﺮﻈﻧ ﺍﻮﺿﺭﺎﻋ ﻦﻳﺬﻟﺍ ﻦﻴﻴﻤﻳﺩﺎﻛﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺮﻄﺿﺍ ﺪﻘﻟ" # note this forms the first paragraph for preftl_operation.3041
+ preftl_operation.3042.a:0 ".ﺎﻨﺣﺎﺘﺘﻓﺍ ﻙﺎﻨﻫ .ﺯﺎﺘﻤﻣ"
+
+ preftl_operation.1103.name:0 "ﻞﻳﻮﻤﺘﻟﺍ ﺙﺎﺤﺑﺃ"
+ preftl_operation.3043.desc:0 ".[from.target.GetSpeciesAdj] ﻲﻓ ﺎﻈﻔﺤﺗ ﺮﺜﻛﺃ ﻦﻳﺮﻜﻔﻤﺑ ﺓﺮﻏﺎﺸﻟﺍ ﻢﻬﻨﻛﺎﻣﺃ ﺀﻞﻣ ﻞﻌﻔﻟﺎﺑ ﻢﺗ ﺪﻘﻟ .ﺔﻴﻤﻳﺩﺎﻛﻷﺍ ﻁﺎﺳﻭﻷﺎﺑ ﻕﺎﺤﺘﻟﻻﺍ ﻦﻣ ﺎﻧﺮﺻﺎﻨﻋ ﻦﻣ ﺩﺪﻋ ﻊﻨﻣ ﻢﺗ ﺚﻴﺣ :ﺎﻬﺘﻋﺮﺳ ﺔﻴﻠﺤﻤﻟﺍ ﺔﻟﺍﺪﻌﻟﺍ ﺖﺘﺒﺛﺃ ﺪﻘﻟ .ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺎﻬﻨﻋ ﻍﻼﺑﻹﺍﻭ [from.target.capital_scope.GetName] ﻰﻠﻋ ﻦﻴﺿﺭﺎﻌﻤﻟﺍ ﻦﻴﻴﻤﻳﺩﺎﻛﻷﺍ ﺓﻮﺷﺮﻟ ﺎﻨﺘﻟﻭﺎﺤﻣ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+ operation_academic_bribery_caught:0 "ﺓﻮﺷﺮﻟﺎﺑ ﻪﻴﻠﻋ ﻡﻮﻜﺤﻣ"
+ operation_academic_bribery_caught_desc:0 ".ﺓﻮﺷﺮﻟﺎﺑ ﻢﻬﺘﻧﺍﺩﺇﻭ ﺎﻧﺀﻼﻤﻋ ﻰﻠﻋ ﺾﺒﻘﻟﺍ ﻢﺗ ﻥﺃ ﺪﻌﺑ ﻩﺬﻫ ﺲﺴﺠﺘﻟﺍ ﺔﻴﻠﻤﻋ ﻲﻓ ﻡﺪﻘﺘﻟﺍ ﺄﻃﺎﺒﺗ ﺪﻘﻟ"
+ preftl_operation.3044.desc:0 ".ﻼﻴﻠﻗ ﻞﻬﺳﺃ ﺎﻧﺭﺎﻜﻓﺃ ﺮﺸﻧ ﻞﻌﺠﻳ ﺎﻤﻣ ،ﺎﻣﺎﻜﺣﺇ ﺮﺜﻛﺃ [from.target.GetSpeciesAdj] ﺕﺎﻴﻤﻳﺩﺎﻛﺃ ﻰﻠﻋ ﺎﻨﺘﻀﺒﻗ ﺖﺤﺒﺻﺃ .ﺎﻨﺋﻼﻤﻋ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻞﺒﻗ ﻦﻣ ﺔﻋﺮﺴﺑ ﺎﻬﻠﻐﺷ ﻢﺗ ،ﺓﺪﻳﺪﺟ ﺔﻴﻤﻳﺩﺎﻛﺃ ﺐﺻﺎﻨﻣ ﻪﻌﻣ ﺪﻳﺪﺠﻟﺍ ﺭﺎﻫﺩﺯﻻﺍ ﺍﺬﻫ ﺐﻠﺟ \n\n .ﺔﻬﻓﺎﺘﻟﺍ ﺕﺎﺴﻓﺎﻨﻤﻠﻟ ﺖﻗﻮﻟﺍ ﻦﻣ ﻞﻴﻠﻘﻟﺍ ﻯﻮﺳ ﻙﺮﺘﺗ ﻻ ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺔﻤﻌﻧ ﻲﻫﻭ :ﻢﻬﺛﺎﺤﺑﻷ ﻞﻳﻮﻤﺘﻟﺍ ﻦﻴﻣﺄﺗ ﻦﻣ ﻥﻮﻴﻠﺤﻤﻟﺍ ﻥﻮﻴﻤﻳﺩﺎﻛﻷﺍ ﻦﻜﻤﺗ ،ﻝﻮﻬﺠﻣ ﻲﻋﺍﺭ ﻡﺮﻛ ﻞﻀﻔﺑ"
+ operation_academic_bribery:0 "ﺔﺤﺟﺎﻨﻟﺍ ﺓﻮﺷﺮﻟﺍ"
+ operation_academic_bribery_desc:0 ".ﻢﻬﺛﺎﺤﺑﺃ ﻞﻳﻮﻤﺗ ﻝﻼﺧ ﻦﻣ ﺎﻨﺋﻼﻤﻌﻟ ﻦﻴﻴﻤﻳﺩﺎﻛﻷﺍ ﻦﻴﺴﻓﺎﻨﻤﻟﺍ ﺕﺎﻜﺳﺈﺑ ﺎﻨﻤﻗ ﻥﺃ ﺪﻌﺑ ﺔﺳﻼﺳ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﺮﻴﺴﻳ ﻩﺬﻫ ﺲﺴﺠﺘﻟﺍ ﺔﻴﻠﻤﻋ ﻲﻓ ﻡﺪﻘﺘﻟﺍ ﻥﺇ"
+
+ preftl_operation.1105.name:0 "ﻲﻬﺘﻨﻳ ﻻ ﺵﺎﻘﻧ"
+ preftl_operation.3045.desc:0 ".ﺖﻗﻮﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﻳﺎﻐﻠﻟ ﻝﺪﺠﻠﻟ ﺓﺮﻴﺜﻣ ﺎﻬﻤﻳﺪﻘﺗ ﺎﻨﻟﻭﺎﺣ ﻲﺘﻟﺍ ﺭﺎﻜﻓﻷﺍ ﺖﻧﺎﻛ ﺎﻤﺑﺭ .[from.target.capital_scope.GetPlanetHabitat] ﻲﻓ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺔﻴﻓﺎﻘﺜﻟﺍ ﺕﺎﺴﺳﺆﻤﻟﺍ ﻦﻣ ﻱﺃ ﻲﻓ ﻡﺪﻗ ﺊﻃﻮﻣ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻲﻓ ﺎﻧﺅﻼﻤﻋ ﻞﺸﻓ .ﺔﺻﺮﻓ ﺎﻬﻧﻮﻛ ﻦﻣ ﺮﺜﻛﺃ ﻖﺋﺎﻋ ﺎﻬﻧﺃ [from.target.capital_scope.GetName] ﻰﻠﻋ ﺎﻬﻟ ﺔﻳﺎﻬﻧ ﻻ ﻲﺘﻟﺍ ﺔﻴﻤﻳﺩﺎﻛﻷﺍ ﺕﺎﻓﻼﺨﻟﺍ ﺖﺘﺒﺛﺃ ﺪﻘﻟ"
+ preftl_operation.3046.desc:0 ".ﺭﺎﻜﻓﻸﻟ ﻱﻮﺿﻮﻔﻟﺍ ﻝﺩﺎﺒﺘﻟﺍ ﻝﻼﺧ ﻦﻣ ﺔﻨﻜﻤﻣ ﺖﺤﺒﺻﺃ ،ﺓﺪﻳﺪﺟ ﻯﺅﺭ :ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﺀﻲﺷ ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺗﻭ ﺎﻬﻨﻴﺴﺤﺗ ﻲﻓ ﻦﻴﺤﻟﺍ ﻚﻟﺫ ﺬﻨﻣ ﺖﻋﺮﺷ ﻞﺑ ،ﺐﺴﺤﻓ ﺎﻧﺭﺎﻜﻓﺃ ﺕﯫﻴﻬﻟﺍ ﻩﺬﻫ ﻢﻬﻔﺗ ﻢﻟ\n\n.[from.target.capital_scope.GetName] ﻲﻓ ﺎﻣﺍﺮﺘﺣﺍ ﺮﺜﻛﻷﺍ ﺔﻴﻤﻳﺩﺎﻛﻷﺍ ﺕﺎﺴﺳﺆﻤﻟﺍ ﻦﻣ ﻦﻴﻠﺜﻤﻣ ﻰﻠﻋ ﻥﻵﺍ ﺎﻧﺭﺎﻜﻓﺃ ﺖﺿﺮﻋ ،ﻚﻟﺬﻟ ﺔﺠﻴﺘﻧﻭ .ﻢﻬﻴﺴﻓﺎﻨﻣ ﺪﺷﺃ ﺾﻌﺑ ﻞﺒﻗ ﻦﻣ ﺔﻳﺎﻐﻠﻟ ﻕﻮﻣﺮﻣ ﺡﺮﺴﻣ ﻰﻟﺇ ﻦﻴﻋﻮﻓﺪﻣ ﻢﻬﺴﻔﻧﺃ [from.target.GetName] ﻲﻓ ﺎﻧﺀﻼﻤﻋ ﺪﺟﻭ ،ﻦﻴﻴﻠﺤﻤﻟﺍ ﻦﻳﺮﻜﻔﻤﻟﺍ ﻊﻣ ﺵﺎﻘﻨﻟﺍ ﺀﺎﻨﺛﺃ !ﺎﻨﻘﻳﺮﻃ ﻲﻓ ﺔﻴﻟﺎﺜﻣ ﺔﺻﺮﻓ ﺕﺀﺎﺟ ﺪﻘﻟ"
+
+## Spymaster Exposed / Blackmail
+ preftl_operation.3050.name:0 "ﻑﻮﺸﻜﻣ [from.spynetwork.leader.GetName]"
+ preftl_operation.3050.desc:0 ".ﻕﺍﺮﺘﺧﻻﺍ ﺍﺬﻫ ﺀﺍﻮﺘﺣﺍ ﻢﺘﻳ ﻰﺘﺣ ﺔﺻﺎﺨﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻂﻴﺸﻨﺘﺑ ﺎﻨﻤﻗ ﺎﻨﻨﻜﻟ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻡﺪﻘﺘﻟﺍ ﺪﻴﻗ [from.GetName] ﺔﻴﻠﻤﻌﻟﺍ ﻝﺍﺰﺗ ﻻ\n\n.ﻥﻵﺍ ﻰﺘﺣ ﻞﺸﻔﻟﺎﺑ ﺕﺀﺎﺑ ﻢﻫﺩﻮﻬﺟ ﻦﻜﻟ ،ﺪﻫﺎﺸﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺾﺒﻘﻟﺍ ﺔﻟﻭﺎﺤﻤﻟ ﺎﻧﺅﻼﻤﻋ ﻙﺮﺤﺗ .ﺙﺩﺎﺤﻟﺍ ﻥﺎﻜﻣ ﻦﻣ ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺮﻓ ﻱﺬﻟﺍ ،ﻲﻠﺻﻷﺍ [from.target.GetSpeciesName] ﻦﻃﺍﻮﻣ ﻊﻣ ﺮﺷﺎﺒﻣﻭ ﺮﻴﺼﻗ ﻝﺎﺼﺗﺍ ﻰﻠﻋ ﻥﺎﻛ [from.spynetwork.leader.GetHeShe] ﻦﻜﻟ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﺔﺤﺿﺍﻭ ﺮﻴﻏ ﻞﻴﺻﺎﻔﺘﻟﺍ ﺾﻌﺑ ﻝﺍﺰﺗ ﻻ .[from.target.capital_scope.GetName] ﺢﻄﺴﻟ ﺔﻳﺮﺳ ﺓﺭﺎﻳﺯ ﺀﺎﻨﺛﺃ [from.spynetwork.leader.GetName] $role_spymaster$ ﻕﺍﺮﺘﺧﺍ ﻢﺗ !ﻱﺭﺬﺟ ﻕﺮﺧ ﺙﺪﺣ ﺪﻘﻟ"
+ preftl_operation.3050.a:0 ".ﻉﻼﻃﺍ ﻰﻠﻋ ﺎﻨﻘﺑﺍ .ﺪﻴﺟ"
+ preftl_operation.3050.a.gestalt:0 ".ﺔﺒﻗﺍﺮﻤﻟﺍ ﺔﻠﺻﺍﻮﻣ"
+ preftl_operation.3050.b:0 ".ﻢﻬﻴﻠﻋ ﺀﺎﻀﻘﻟﺍﻭ [from.target.GetSpeciesName] ﺓﺩﺭﺎﻄﻤﺑ ﻢﻗ"
+ preftl_operation.3050.c:0 ".ﺽﺎﻬﺟﻹﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻳ !ﺔﺸﺣﺎﻔﻟﺍ"
+ preftl_operation.3050.d:0 ".[global_event_country.GetGalCommunityOrGalImperium] ﺭﺎﻄﺧﺇ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+ spynetwork_extra_containment:0 "ﻲﺋﺎﻨﺜﺘﺳﻻﺍ ﺀﺍﻮﺘﺣﻻﺍ ﻝﻮﻛﻮﺗﻭﺮﺑ"
+ spynetwork_extra_containment_desc:0 ".ﺀﺎﻄﻐﻟﺍ ﻲﻓ ﺪﻳﺪﺸﻟﺍﻭ ﺮﻴﺧﻷﺍ ﻕﺍﺮﺘﺧﻻﺍ ﺪﻌﺑ ﻩﺬﻫ ﺲﺴﺠﺘﻟﺍ ﺔﻜﺒﺷ ﻞﺧﺍﺩ ﺔﻄﺸﻧﻷﺍ ﻕﻼﻏﺇ ﻢﺗ"
+
+ preftl_operation.3051.name:0 "ﺪﻫﺎﺸﻟﺍ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ ﻢﺗ"
+ preftl_operation.3051.desc:0 ".ﺮﻣﻷﺍ ﺍﺬﻫ ﺀﺍﻮﺘﺣﺍ ﻢﺗ ﻪﻧﺃ ﻦﻣ ﻥﻮﻘﺛﺍﻭ ﻦﺤﻧﻭ .ﺮﺧﺁ [from.target.GetSpeciesNamePlural] ـﺑ ﻝﺎﺼﺗﺍ ﻰﻠﻋ ﻥﺎﻛ ﻪﻧﺃ ﻰﻠﻋ ﺕﺎﻣﻼﻋ ﺪﺟﻮﺗ ﻻﻭ ،ﺓﺪﻳﺪﺷ ﺔﻣﺪﺻ ﺔﻟﺎﺣ ﻲﻓ ﺪﻫﺎﺸﻟﺍ ﻥﺃ ﻭﺪﺒﻳ .ﺔﻴﺴﻴﺋﺮﻟﺍ [from.target.GetSpeciesAdj] ﺔﻨﻃﻮﺘﺴﻣ ﻑﺭﺎﺸﻣ ﻰﻠﻋ ﺪﻴﻌﺑ ﻦﻜﺴﻣ ﻰﻟﺇ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺐﻘﻌﺗ ﻢﺗ .[from.target.GetName] ـﻟ ﺮﻴﺧﻷﺍ ﺎﻨﻗﺍﺮﺘﺧﺍ ﻰﻠﻋ ﺪﻴﺣﻮﻟﺍ ﺪﻫﺎﺸﻟﺍ :ﻢﻬﻓﺪﻫ ﻰﻠﻋ ﺢﺟﺎﻨﻟﺍ ﺀﺎﻀﻘﻟﺍ ﻦﻋ ﺎﻧﺅﻼﻤﻋ ﻎﻠﺑﺃ"
+
+ preftl_operation.3055.name:0 "ﺯﺍﺰﺘﺑﺍ"
+ preftl_operation.3055.desc:0 ".ﺔﻃﺎﺴﺒﺑ ﻢﻬﺒﻟﺎﻄﻣ ﺔﻴﺒﻠﺗ ﻲﻓ ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ ﺐﻏﺮﻧ ﺪﻗﻭ .ﺮﻄﺨﻠﻟ ﺽﺮﻌﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻦﻣ ﻑﻮﺧ ﻥﻭﺩ ﻢﻫﺪﺿ ﻙﺮﺤﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻻ ﺚﻴﺣ ،ﻥﺎﻜﺴﻟﺎﺑ ﺔﻈﺘﻜﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻲﻓ ﺀﺎﻘﺒﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﺍﺪﻴﻌﺑ ﺢﻗﻮﻟﺍ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺎﻨﻴﻘﺒﻳ\n\n.[from.target.GetSpeciesAdj] ﻥﻭﺆﺷ ﻲﻓ ﺎﻨﻠﺧﺪﺘﻟ - [from.owner.GetName] ﻲﻟﺎﺘﻟﺎﺑﻭ - ﺎﻨﺑ ﺹﺎﺨﻟﺍ $role_spymaster$ ﺢﻀﻔﺑ ﺪﻫﺎﺸﻟﺍ ﺩﺪﻬﻳ .ﺎﻴﺋﺎﻬﻧ ﺍﺭﺍﺬﻧﺇ ﺎﻨﻟ ﻡﺪﻗ ﻞﺑ ،ﺐﺴﺤﻓ ﺎﻘﻴﻠﻃ ﻝﺍﺰﻳ ﻻ [from.target.GetName] ـﻟ ﺮﻴﺧﻷﺍ ﺎﻨﻗﺍﺮﺘﺧﺍ ﺪﻬﺷ ﻱﺬﻟﺍ [from.target.GetSpeciesName] ﻥﺇ"
+ preftl_operation.3055.a:0 ".ﻊﺟﺍﺮﺘﻟﺍﻭ ،ﻁﺎﺒﺣﺇ .ﻝﻮﺒﻘﻣ ﺮﻴﻏ"
+ preftl_operation.3055.b:0 ".ﺪﻫﺎﺸﻟﺍ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ .ﺽﻭﺎﻔﺘﻧ ﻦﻟ"
+ preftl_operation.3055.c:0 ".ﻊﻓﺪﻧ ﻑﻮﺳ ﺎﻨﻨﻜﻟﻭ ،ﻆﻫﺎﺑ ﻦﻤﺛ"
+ preftl_operation.3055.c.tt:1 ".§Y$MOD_SPY_NETWORK_DAILY_VALUE_ADD$§! §R ﻰﻠﻋ ﺎﺒﻠﺳ ﺍﺬﻫ ﺮﺛﺆﻴﺳ§!\n.ﺔﻠﻣﺎﻜﻟﺍ ﺔﻳﺮﺴﻟﺍ ﻥﺎﻤﺿ ﻊﻣ ،ﺕﺎﻗﻭﻷﺍ ﻊﻴﻤﺟ ﻲﻓ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺔﺒﻗﺍﺮﻤﻟ ﺀﻼﻤﻋ ﻦﻴﻴﻌﺗ ﻢﺘﻴﺳ"
+ spynetwork_blackmailed:0 "ﺯﺍﺰﺘﺑﺍ"
+ spynetwork_blackmailed_desc:0 ".ﺕﺎﻗﻭﻷﺍ ﻊﻴﻤﺟ ﻲﻓ ﺺﺨﺸﻟﺍ ﺍﺬﻫ ﺔﺒﻗﺍﺮﻤﺑ ﺀﻼﻤﻌﻟﺍ ﻒﻴﻠﻜﺗ ﻢﺗ .ﻦﻴﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﺪﺣﺃ ﻞﺒﻗ ﻦﻣ ﺯﺍﺰﺘﺑﻼﻟ ﺎﻨﺿﺮﻌﺗ ﻥﺃ ﺬﻨﻣ ﻼﻴﻠﻗ ﻩﺬﻫ ﺲﺴﺠﺘﻟﺍ ﺔﻜﺒﺷ ﺓﺭﺪﻗ ﺖﻀﻔﺨﻧﺍ ﺪﻘﻟ"
+
+## Stricken
+ preftl_operation.3060.name:0 "ﺔﺑﻮﻜﻨﻤﻟﺍ"
+ preftl_operation.3060.desc:1 ".ﻦﻴﻴﺴﻴﺋﺮﻟﺍ ﺎﻨﺋﻼﻤﻋ ﻦﻣ ﻦﻴﻨﺛﺍ ﻦﻣ ﺺﻠﺨﺘﻟﺍ ﻊﻣ ﺔﺻﺎﺧ - ﺮﻴﺜﻜﺑ ﺮﺒﻛﺃ ﻖﻴﻗﺪﺘﻟ [from.GetName] ﺔﻴﻠﻤﻋ ﻊﻀﺨﺗ ﻥﺃ ﻞﺒﻗ ﻞﻳﻮﻃ ﺖﻗﻭ ﺮﻤﻳ ﻦﻟ .ﻦﻴﻴﻠﺻﻷﺍ ﺓﺭﺎﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺏﺎﺻﺃ ﺎﻤﺑ ﻥﺭﺎﻘﺗ ﻻ - ﺎﻬﺗﺭﻮﻄﺧ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ - ﻢﻬﺗﺎﺑﺎﺻﺇ ﻦﻜﻟﻭ ،ﺎﻧﺀﻼﻤﻋ ﺏﺍﻮﺠﺘﺳﺍ ﻦﻣ ﺪﻌﺑ [from.target.GetSpeciesNamePlural] ﻦﻜﻤﺘﻳ ﻢﻟ \n\n .ﺔﻴﺋﺍﺪﺑ ﺔﻳﺎﻋﺭ ﻥﻵﺍ ﻥﻮﻴﻨﻌﻤﻟﺍ ﺀﻼﻤﻌﻟﺍ ﻰﻘﻠﺘﻳ .ﻢﻬﺗﺪﻋﺎﺴﻤﻟ ﻥﻮﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻉﺮﻫﻭ .[from.target.GetSpeciesNamePlural] ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺓﺎﻴﺤﺑ ﺎﻀﻳﺃ ﺕﺩﻭﺃ ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺔﻴﻌﻴﺒﻃ ﺔﺛﺭﺎﻛ ﻝﻼﺧ ﺓﺮﻴﻄﺧ ﺡﻭﺮﺠﺑ [from.target.capital_scope.GetName] ﻲﻓ ﻦﻴﻴﺴﻴﺋﺮﻟﺍ ﺎﻧﺀﻼﻤﻋ ﻦﻣ ﻥﺎﻨﺛﺍ ﺐﻴﺻﺃ"
+ preftl_operation.3060.hive.desc:0 ".ﺽﺮﻌﺘﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺮﻄﺧ ﻲﻓ ﻦﺤﻧ .ﻦﻴﻴﺴﻴﺋﺮﻟﺍ ﺎﻨﺋﻼﻤﻋ ﻦﻣ ﻦﻴﻨﺛﺍ ﻦﻣ ﺺﻠﺨﺘﻟﺍ ﻊﻣ ﺔﺻﺎﺧ - ﻖﻴﻗﺪﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ [from.GetName] ﺔﻴﻠﻤﻋ ﻊﻀﺨﺗ ﻥﺃ ﻞﺒﻗ ﻞﻳﻮﻃ ﺖﻗﻭ ﺮﻤﻳ ﻦﻟ ،ﻚﻟﺫ ﻊﻣﻭ .ﺓﺭﻮﻄﺧ ﺮﺜﻛﻷﺍ ﺎﻬﺗﺎﺑﺎﺻﺈﺑ ﺔﻳﺎﻨﻌﻟﺎﺑ ﺎﻘﺒﺴﻣ ﺔﻟﻮﻐﺸﻣ [from.target.GetSpeciesAdj] ﺔﻴﻠﺧ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ\n\n.ﺔﻴﺋﺍﺪﺑ ﺔﻳﺎﻋﺭ ﺓﺪﻴﻘﻋ ﻰﻟﺇ ﻦﻴﺑﺎﺼﻤﻟﺍ ﺎﻧﺀﻼﻤﻋ ﻞﻘﻨﺑ ﺍﻮﻣﺎﻗﻭ ،ﺓﺪﻋﺎﺴﻤﻟﺍ ﻢﻳﺪﻘﺘﻟ ﻥﻭﺪﻋﺎﺴﻤﻟﺍ ﻉﺭﺎﺳ .ﺭﺎﻴﻃ ﻥﻭﺪﺑ [from.target.GetSpeciesAdj] ﺕﺍﺮﺋﺎﻃ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺎﻀﻳﺃ ﺕﺮﻣﺩ ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺔﻴﻌﻴﺒﻃ ﺔﺛﺭﺎﻛ ﻝﻼﺧ ﺓﺮﻴﻄﺧ ﺡﻭﺮﺠﺑ [from.target.capital_scope.GetName] ﻲﻓ ﻦﻴﻴﺴﻴﺋﺮﻟﺍ ﺎﻧﺀﻼﻤﻋ ﻦﻣ ﻥﺎﻨﺛﺍ ﺐﻴﺻﺃ"
+ preftl_operation.3060.a:0 ".ﻝﺎﺤﻟﺍ ﻲﻓ ﺎﻧﺀﻼﻤﻋ ﺭﺎﻀﺣﺈﺑ ﻢﻗ"
+ preftl_operation.3060.a.tt:0 ".ﺔﻠﻤﺘﺤﻣ ﺔﻤﻴﺧﻭ ﺐﻗﺍﻮﻋ ﻊﻣ ،ﻞﺸﻔﻠﻟ ﺔﻠﻴﺌﺿ ﺔﺻﺮﻓ ﻙﺎﻨﻫ .ﺎﻬﻟ ﻂﻄﺨﻣ ﻮﻫ ﺎﻤﻛ §Y[from.GetName] ﺔﻴﻠﻤﻋ§! ﻑﺎﻨﺌﺘﺳﺍ ﻢﺘﻴﺳ ،ﺎﻨﺣﺎﺠﻧ ﺔﻟﺎﺣ ﻲﻓ"
+ preftl_operation.3060.b:0 ".ﺪﻤﺼﻴﺳ ﻢﻫﺀﺎﻄﻏ ﻥﺃ ﻲﻓ ﻖﺜﻧ ﻥﺃ ﺐﺠﻳ"
+ preftl_operation.3060.c:1 ".ﻁﺎﺒﺣﺇ !ﺽﺮﻌﺘﻟﺍ ﻦﻣ ﻉﻮﻨﻟﺍ ﺍﺬﻬﺑ ﺓﺮﻃﺎﺨﻤﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻻ"
+ preftl_operation.3060.d:0 ".ﺎﻨﺴﻔﻧﺃ ﻦﻋ ﻒﺸﻜﻨﻟ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻟ"
+ preftl_operation.3060.d.negative.tt:0 "§Y.[from.GetName] ﺔﻴﻠﻤﻋ§! ﻰﻠﻋ §Rﻲﺒﻠﺳ§! ﺮﻴﺛﺄﺗ ﺍﺬﻬﻟ ﻥﻮﻜﻴﺳ .[from.target.GetSpeciesAdj] ـﻟ ﺔﻴﺒﻄﻟﺍ ﺔﻳﺎﻋﺮﻟﺎﺑ ﻞﻣﺎﻜﻟﺎﺑ ﺎﻧﺀﻼﻤﻋ ﻰﻟﺇ ﺪﻬﻋ"
+ preftl_operation.3060.d.positive.tt:0 "§Y.[from.GetName]Operation §! ﻰﻠﻋ §Gpositive§! ﺮﻴﺛﺄﺗ ﺍﺬﻬﻟ ﻥﻮﻜﻴﺳ .[from.target.GetSpeciesAdj] ـﻟ ﺔﻴﺒﻄﻟﺍ ﺔﻳﺎﻋﺮﻟﺎﺑ ﻞﻣﺎﻜﻟﺎﺑ ﺎﻧﺀﻼﻤﻋ ﻰﻟﺇ ﺪﻬﻋ"
+ operation_stricken_operatives:0 "ﻦﻴﺑﻮﻜﻨﻤﻟﺍ ﺀﺎﻄﺸﻨﻟﺍ"
+ operation_stricken_operatives_desc:0 ".ﺓﺮﻴﺒﻛ ﺕﺍﺮﻴﺧﺄﺗ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﻦﻴﻴﺴﻴﺋﺮﻟﺍ ﺎﻧﺮﺻﺎﻨﻋ ﻦﻣ ﺩﺪﻌﺑ ﺕﺎﺑﺎﺻﺇ ﺖﻘﺤﻟ ﺪﻘﻟ"
+
+ preftl_operation.3061.success.desc:1 ".ﻢﻬﺗﺎﻓﺮﺑ ﺔﺻﺎﺨﻟﺍ ﺕﺎﺴﻛﺎﻔﻟﺍ ﻦﻣ ﺺﻠﺨﺘﻟﺍ ﻞﻌﻔﻟﺎﺑ ﻱﺮﺠﻳﻭ .ﺔﻴﻔﺨﻣ ﺔﺘﻴﻤﻣ ﺕﺎﺑﺎﺻﻹ "ﻥﻮﺟﺎﻨﻟﺍ" ﺀﻻﺆﻫ ﻢﻠﺴﺘﺳﺍ ﺪﻘﻓ ،[from.target.GetSpeciesNamePlural] ـﺑ ﺮﻣﻷﺍ ﻖﻠﻌﺘﻳ ﺎﻣ ﺭﺪﻘﺑﻭ .[from.target.capital_scope.GetName] ﻲﻓ ﺔﻳﺎﻋﺭ ﺓﺄﺸﻨﻣ ﻦﻣ ﻦﻴﺑﺎﺼﻤﻟﺍ ﺎﻨﺋﻼﻤﻌﻟ ﺢﺟﺎﻨﻟﺍ ﺹﻼﺨﺘﺳﻻﺍ ﻦﻋ [from.spynetwork.leader.GetName] $role_spymaster$ ﻎﻠﺒﻳ"
+ preftl_operation.3061.failure.desc:1 ".[from.GetName] ﺔﻴﻠﻤﻋ ﻦﻋ ﻒﺸﻜﻟﺍ ﻢﺗ ،ﻞﻗﻷﺍ ﻰﻠﻋ ﺎﻣ ﺪﺣ ﻰﻟﺇ .ﻯﻮﺼﻗ ﺐﻫﺄﺗ ﺔﻟﺎﺣ ﻲﻓ ﻥﻵﺍ [from.target.GetSpeciesName] ﻥﺇ\n\n!ﺎﻨﻳﺪﻟ ﺫﺎﻘﻧﻹﺍ ﻖﻳﺮﻓ ﺀﺎﻀﻋﺃ ﻰﻠﻋ ﺾﺒﻘﻟﺍ ﺀﺎﻘﻟﺈﺑ ﺎﻀﻳﺃ ﺍﻮﻣﺎﻗ ﻞﺑ ،ﻦﻴﺑﺎﺼﻤﻟﺍ ﺎﻧﺀﻼﻤﻋ ﻝﻮﺣ ﺔﻴﻨﻣﻷﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﺪﻳﺪﺸﺘﺑ ﻂﻘﻓ ﺍﻮﻣﻮﻘﻳ ﻢﻟ .ﺮﻴﺒﻛ ﺰﻴﺤﺘﺑ ﺍﻮﻠﺧﺪﺗﻭ ،ﻑﺎﻄﺘﺧﺍ ﺔﻟﻭﺎﺤﻣ ﻩﻭﺮﺒﺘﻋﺍ ﺎﻣ [from.target.GetSpeciesAdj] ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺪﻬﺷ .[from.target.capital_scope.GetName] ﺢﻄﺳ ﻦﻣ ﻦﻴﺑﻮﻜﻨﻤﻟﺍ ﺎﻧﺀﻼﻤﻋ ﺝﺍﺮﺨﺘﺳﺍ ﻲﻓ ﻞﺸﻓ ﻦﻋ ﻞﺟﺎﻋ ﻞﻜﺸﺑ [from.spynetwork.leader.GetName] $role_spymaster$ ﻎﻠﺑﺃ"
+ preftl_operation.3061.a:0 ".[global_event_country.GetGalCommunityOrGalImperium] ﻎﻠﺑﺃ"
+
+ preftl_operation.3062.success.desc:0 ".ﻖﺑﺎﺴﻟﺍ ﺎﻬﻟﻭﺪﺟ ﻰﻟﺇ [from.GetName] ﺔﻴﻠﻤﻌﻟﺍ ﺩﻮﻌﺗ ﺪﻗ .ﻥﻵﺍ ﻢﻬﺑﺍﻮﺠﺘﺳﺍ ﻢﺗ ﻦﻜﻟﻭ ،ﺔﻣﺪﺨﻟﺍ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ ﻦﻣ ﺎﻧﺅﻼﻤﻋ ﻦﻜﻤﺘﻳ ﻥﺃ ﻞﺒﻗ ﺖﻗﻮﻟﺍ ﺾﻌﺑ ﺮﻣﻷﺍ ﻕﺮﻐﺘﺴﻴﺳ\n\n.ﺔﻃﺎﺴﺑ ﻞﻜﺑ ﻢﻬﺒﻧﺎﺟ ﻰﻟﺇ ﻥﺎﻛ ﻆﺤﻟﺍ ﻥﺃ ﺭﺮﻗ [from.target.GetSpeciesNamePlural] ﻥﺃ ﻭﺪﺒﻳ ،ﻙﻮﻜﺸﻟﺍ ﺾﻌﺑ ﺕﺭﺎﺛﺃ ﺔﻠﺗﺎﻘﻟﺍ ﺔﺑﺎﺻﻹﺍ ﻦﻣ ﺎﻧﺅﻼﻤﻋ ﺎﻬﺑ ﺎﺠﻧ ﻲﺘﻟﺍ ﺓﺰﺠﻌﻤﻟﺍ ﻪﺒﺷ ﺔﻘﻳﺮﻄﻟﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺔﻋﺍﺮﺑ ﻲﻓ ﻰﻘﺒﻳ ﺎﻧﺀﺎﻄﻏ"
+ preftl_operation.3062.failure.desc.intro:1 ".[from.target.GetSpeciesNamePlural] ﻦﻣ ﺍﻮﺴﻴﻟ ﺎﻧﺀﻼﻤﻋ ﻥﺃ ﻦﻋ ﻒﺸﻜﻟﺍ ﻢﺗ ﺪﻘﻓ ،ﺎﻬﻤﻳﺪﻘﺗ ﺎﻨﻨﻜﻤﻳ ﻲﺘﻟﺍ ﺔﻳﺮﺴﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻞﻀﻓﺃ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍﻭ ﻞﻣﺎﺸﻟﺍ ﺐﻳﺭﺪﺘﻟﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .[from.target.GetName] ﻲﻓ ﺀﺎﻄﻐﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻲﻓ ﺎﻨﻠﺸﻓ ﻦﻋ ﻞﺟﺎﻋ ﻞﻜﺸﺑ [from.spynetwork.leader.GetName] $role_spymaster$ ﻎﻠﺑﺃ"
+ preftl_operation.3062.failure.unaware.desc:0 ".ﺮﻋﺬﻟﺎﺑ ﺍﻮﺒﻴﺻﺃﻭ ،ﺔﻴﻘﻴﻘﺤﻟﺍ ﻢﻬﺘﻌﻴﺒﻃ [from.target.GetSpeciesAdj] ﻲﻓ ﺔﻳﺎﻋﺮﻟﺍ ﻮﻣﺪﻘﻣ ﻒﺸﺘﻛﺍ ﺎﻣﺪﻨﻋ ﺔﻴﺋﺍﺪﺑ ﺔﻴﺣﺍﺮﺟ ﺔﻴﻠﻤﻌﻟ ﻥﻮﻌﻀﺨﻳ ﺍﻮﻧﺎﻛ ﺪﻘﻟ :ﺎﻨﺋﻼﻤﻌﻟ ﻞﺗﺎﻗ ﻪﻧﺃ ﺥﺭﺎﺼﻟﺍ ﻙﺍﺭﺩﻹﺍ ﺍﺬﻫ ﺖﺒﺛﺃ ﺪﻘﻟ\n\n$preftl_operation.3062.failure.desc.intro$"
+ preftl_operation.3062.failure.aware.desc:0 ".ﻥﻵﺍ ﺎﻨﻣﺎﻣﺃ ﻲﺘﻟﺍ ﺐﻗﺍﻮﻌﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻧ ﻥﺃ ﺔﻃﺎﺴﺒﺑ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻳ ﻪﻧﺃ ﻭﺪﺒﻳﻭ .ﺔﻳﺎﻐﻠﻟ ﺔﻠﻴﺌﺿ ﻢﻬﻟﺎﻌﻓﺃ ﻦﻣﻭ ﻢﻬﻨﻣ ﻞﺼﻨﺘﻟﺍ ﻲﻓ ﺡﺎﺠﻨﻟﺍ ﻲﻓ ﺎﻨﺻﺮﻓ ﻥﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻯﺫﺄﺑ ﺎﻧﺮﺻﺎﻨﻋ ﺐﺼﻳ ﻢﻟﻭ ،ﺮﻋﺬﻟﺎﺑ ﻥﻮﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﺏﺎﺼﻳ ﻢﻟ ﻆﺤﻟﺍ ﻦﺴﺤﻟ\n\n$preftl_operation.3062.failure.desc.intro$"
+
+## Mixed Signals
+ preftl_operation.3100.name:0 "ﺔﻄﻠﺘﺨﻣ ﺕﺍﺭﺎﺷﺇ"
+ preftl_operation.3100.desc:0 ".ﺔﺤﻴﺤﺼﻟﺍ ﻲﻫ ﻥﻮﻜﺗ ﻥﺃ ﺪﺑ ﻼﻓ ،ﻚﻟﺫ ﺪﻌﺑ ﺎﻬﻠﺳﺮﻧ ﻲﺘﻟﺍ ﺓﺭﺎﺷﻹﺍ ﺖﻧﺎﻛ ﺎﻳﺃﻭ .ﺮﻄﺨﻠﻟ [from.GetName] ﺔﻴﻠﻤﻋ ﺽﺮﻌﻳ ﺎﻧﺩﻮﺟﻭ ﻥﺃ ﻮﻫ ﺢﺿﺍﻮﻟﺍ ﺮﻣﻷﺍ\n\n .ﻪﻤﻠﻌﺘﻨﻟ ﺮﻴﺜﻜﻟﺍ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﺪﻘﻓ ،ﺔﻴﻠﺤﻤﻟﺍ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﻦﻴﺑ ﺓﺮﺠﻔﺘﻤﻟﺍ ﺕﻼﻋﺎﻔﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻢﻴﻈﻨﺘﺑ ﺎﻨﻤﻗ ﺍﺫﺇ .ﺎﻘﺒﺴﻣ ﺓﺪﻌﻤﻟﺍ ﺕﺎﻧﻮﻣﺮﻴﻔﻠﻟ ﻱﺩﺎﻋ ﺮﻴﻏ ﻞﻜﺸﺑ ﺔﺳﺎﺴﺣ [from.target.GetSpeciesAdj] ﺔﻴﻠﺧ ﻭﺪﺒﺗ .ﻊﻓﺍﺪﺘﻟﺍ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﺔﻴﻠﺤﻣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻛ ﺭﻮﻬﻈﻟﺍ ﻢﻬﺘﻟﻭﺎﺤﻣ ﺪﻨﻋ ﺄﻄﺨﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﺄﻄﺨﻟﺍ ﻥﻮﻣﻭﺮﻴﻔﻟﺍ ﻖﻴﺒﻄﺘﺑ ﺎﻧﺅﻼﻤﻋ ﻡﺎﻗ .ﻡﻮﻴﻟﺍ ﺔﻛﺮﻌﻤﻠﻟ ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﻞﻜﺸﺑ [from.target.capital_scope.GetName] ﻲﻓ ﺔﻴﺴﻴﺋﺭ ﺓﺮﻤﻌﺘﺴﻤﺑ ﺔﺻﺎﺨﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻅﺎﻘﻳﺇ ﻢﺗ"
+ preftl_operation.3100.a:0 ".ﺔﺑﺎﻗﺮﻠﻟ ﺔﻌﺿﺎﺨﻟﺍ ﺕﺎﻧﻮﻣﻭﺮﻴﻔﻟﺍ ﺕﺎﻗﻼﻃﺇ ﻩﺎﺠﺗ ﻢﻬﻟﺎﻌﻓﺃ ﺩﻭﺩﺭ ﺔﺳﺍﺭﺩ"
+ preftl_operation.3100.b:0 ".ﺕﺎﻧﻮﻣﻭﺮﻴﻔﻟﺍ ﻰﻠﻋ ﺀﺎﻄﻏ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ"
+ preftl_operation.3100.b.tt:0 ".ﻯﺮﺧﺃ ﺙﺩﺍﻮﺣ ﻱﺄﺑ ﺓﺮﻃﺎﺨﻤﻟﺍ ﻥﻭﺩ ﺔﻤﻬﻤﻟﺍ ﺯﺎﺠﻧﺇ ﻦﻣ ﺎﻧﺅﻼﻛﻭ ﻦﻜﻤﺘﻳ ﻰﺘﺣ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺺﺼﺧ"
+ spynetwork_hive_no_pheromones:0 "ﺕﺎﻧﻮﻣﻭﺮﻴﻔﻟﺍ ﻻ"
+ spynetwork_hive_no_pheromones_desc:0 ".ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ ﺕﺎﻴﻠﻤﻌﻠﻟ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻦﻣ ﺪﺤﻟﺍ ﺎﻧﺭﺮﻗ ﺪﻘﻓ ،ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺕﺎﻧﻮﻣﻭﺮﻴﻔﻠﻟ ﺍﺮﺧﺆﻣ ﺔﻴﻠﺨﻟﺍ ﻩﺬﻫ ﺽﺮﻌﺘﻟ ﺍﺮﻈﻧ"
+
+## Technological Contamination
+ preftl_operation.3105.name:0 "ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺙﻮﻠﺘﻟﺍ"
+ preftl_operation.3105.desc:0 ".ﻲﻌﻴﺒﻄﻟﺍ ﺎﻫﺭﻮﻄﺗ ﻲﻓ ﻞﺧﺪﺘﻟﺍ ﺐﻨﺠﺗ ﺎﻧﺩﺭﺃ ﺍﺫﺇ ﺔﻋﺮﺴﺑ ﻑﺮﺼﺘﻧ ﻥﺃ ﺐﺠﻳ\n\n.ﺔﻴﻠﺤﻤﻟﺍ ﺔﻴﻠﺨﻟﺍ ﻰﻟﺇ ﻢﻬﻔﻟﺍ ﺮﺸﺘﻨﻳ ﻥﺃ ﻞﺒﻗ ﻂﻘﻓ ﺖﻗﻭ ﺔﻟﺄﺴﻣ ﺎﻬﻧﺇ ؛ﺎﻨﺗﺰﻬﺟﺃ ﻚﻴﻜﻔﺗ ﻲﻓ ﻞﻌﻔﻟﺎﺑ ﺃﺪﺑ ﺪﻘﻟ .ﺎﻨﻳﺪﻟ ﺱﺎﻴﻘﻟﺍ ﺓﺰﻬﺟﺃ ﺪﺣﺃ ﻰﻠﻋ [from.target.species.GetHandNamePlural] ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻦﻣ [from.target.capital_scope.GetName] ﻰﻠﻋ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ ﺖﻨﻜﻤﺗ"
+ preftl_operation.3105.a:0 ".ﺎﻨﺗﺎﺻﺎﺼﻗ ﻂﻘﺘﻠﺗ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻉﺩ"
+ preftl_operation.3105.a.tt:0 ".ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ §G+20%§!: §Y[from.target.GetName]§!"
+ preftl_operation.3105.b:0 "؟ﻪﻠﻴﻐﺸﺗ ﺎﻧﺩﺭﺃ ﻮﻟ ﺍﺫﺎﻣ"
+ preftl_operation.3105.b.tt:0 ".ﻲﻟﺎﺘﻟﺍ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺮﺼﻌﻟﺍ ﻰﻟﺇ §Y[from.target.GetName]§! ﻡﺪﻘﺘﻳ ﻑﻮﺳ"
+ preftl_operation.3105.c:1 ".ﺪﻌﺑ ﻦﻋ ﺔﻴﻠﺤﻤﻟﺍ ﻞﻠﺴﺘﻟﺍ ﺕﺍﺪﻌﻣ ﻊﻴﻤﺟ ﺮﻴﺠﻔﺗ"

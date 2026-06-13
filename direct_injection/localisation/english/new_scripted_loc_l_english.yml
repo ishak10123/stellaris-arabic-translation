@@ -1,0 +1,21 @@
+﻿l_english:
+
+ #No need to translate any of these. Made to handle neutral personal pronoun being plural in English.
+
+ ENGLOC_is:0 "ﻥﻮﻜﻳ"
+ ENGLOC_are:0 "ﻥﻮﻜﻧ"
+ ENGLOC_Is:0 "ﻥﻮﻜﻳ"
+ ENGLOC_Are:0 "ﻥﻮﻜﻧ"
+ ENGLOC_has:0 "ﻪﻳﺪﻟ"
+ ENGLOC_have:0 "ﻚﻠﻤﻳ"
+ ENGLOC_does:0 "ﻞﻌﻔﻳ"
+ ENGLOC_do:0 "ﻞﻌﻔﻳ"
+ ENGLOC_was:0 "ﻥﺎﻛ"
+ ENGLOC_were:0 "ﻥﺎﻛ"
+ ENGLOC_f:0 "ﻭ"
+ ENGLOC_ves:0 "ﺲﻴﻓ"
+ ENGLOC_es:0 "ﻕﺎﻓﻭ"
+ ENGLOC_s:0 "ﻕ"
+ ENGLOC_ve:0 "ﺪﻘﻟ"
+ ENGLOC_re:0 "ﺭﺮﻜﻳ"
+ ENGLOC_xx:0 ""

@@ -1,0 +1,132 @@
+﻿l_english:
+
+ ####################################
+ #	COMMON STRINGS
+ ####################################
+
+ mandate_unity_reward:2 " Unity (1000 ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ)£unity£ ﺔﻤﻴﻘﺑ ﺮﻬﺷ §!XYZT_06XYZT"
+
+ ####################################
+ #	MANDATES
+ ####################################
+
+ MANDATE_mandate_planet_separatist:0 "ﻦﻴﻴﻟﺎﺼﻔﻧﻻﺍ ﻊﻣ ﻒﻃﺎﻌﺘﻣ"
+ MANDATE_mandate_planet_separatist_DESC:1 "$mandate_influence_reward_t3$\nReward:\n\n.ﺔﻠﻘﺘﺴﻣ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺈﻛ [Root.GetPopFactionName] ﻖﻠﻃﺃ"
+ MANDATE_mandate_emancipation:0 "ﻢﻴﻈﻌﻟﺍ ﺭﺮﺤﺘﻤﻟﺍ"
+ MANDATE_mandate_emancipation_DESC:1 "$mandate_happiness_reward_t1$\n$mandate_influence_reward_t3$\nReward:\n\n.[Root.Owner.GetName] ﻦﻣ ﺔﻳﺩﻮﺒﻌﻟﺍ ﺔﺳﺭﺎﻤﻣ ﻰﻠﻋ ﺀﺎﻀﻘﻟﺍ"
+ MANDATE_mandate_emancipation2:0 "ﻱﻮﺒﻌﺸﻟﺍ ﺭﺮﺤﺘﻤﻟﺍ"
+ MANDATE_mandate_emancipation2_DESC:1 "$mandate_happiness_reward_t1$\n$mandate_influence_reward_t3$\nReward:\n\n.ﻞﻗﻷﺍ ﻰﻠﻋ ﺪﺣﺍﻭ [Root.Owner.GetSpeciesAdj] ﻢﻟﺎﻋ ﻲﻓ ﺪﻴﺒﻌﻟﺍ ﻊﻴﻤﺟ ﺭﺮﺣ"
+ MANDATE_mandate_orbital_researcher:0 "ﻱﺭﺍﺪﻤﻟﺍ ﺚﺣﺎﺒﻟﺍ"
+ MANDATE_mandate_orbital_researcher_DESC:3 "$mandate_unity_reward$\nReward:\n\n.§Y§! ﺓﺪﻳﺪﺟ ﺔﻳﺭﺍﺪﻣ ﺚﺤﺑ ﺕﺎﻄﺤﻣ 4 ﻦﻋ ﻞﻘﻳ ﻻ ﺎﻣ ﺀﺎﻨﺑ ﻲﻓ ﺀﺪﺒﻟﺍ ﻝﻼﺧ ﻦﻣ [Root.Owner.GetName] ﺙﺎﺤﺑﺃ ﺕﺎﺟﺮﺨﻣ ﺰﻳﺰﻌﺗ"
+ MANDATE_mandate_miner:0 "ﻢﻟﺎﻌﻟﺍ ﺝﺭﺎﺧ ﻢﺠﻨﻣ ﻞﻣﺎﻋ"
+ MANDATE_mandate_miner_DESC:1 "$mandate_influence_reward_t5$\nReward:\n\n.§Y§! ﺓﺪﻳﺪﺟ ﺔﻳﺭﺍﺪﻣ ﻦﻳﺪﻌﺗ ﺕﺎﻄﺤﻣ ﻊﺑﺭﺃ ﻦﻋ ﻞﻘﻳ ﻻ ﺎﻣ ﺀﺎﻨﺑ ﻝﻼﺧ ﻦﻣ ﻥﺩﺎﻌﻤﻟﺍ ﻦﻣ [Root.Owner.GetName] ﻥﻭﺰﺨﻣ ﺯﺰﻋ"
+ MANDATE_mandate_shipwright:0 "ﻦﻔﺴﻟﺍ ﺐﺗﺎﻛ"
+ MANDATE_mandate_shipwright_DESC:2 "$mandate_influence_reward_t5$\nReward:\n\n.ﻢﻬﻤﻜﺣ ﺓﺮﺘﻓ ﺔﻳﺎﻬﻧ ﻝﻮﻠﺤﺑ ﺔﻳﺮﺤﺒﻟﺍ ﺎﻨﺗﺭﺪﻗ ﻲﻟﺎﻤﺟﺇ ﻦﻣ ﻞﻗﻷﺍ ﻰﻠﻋ %75 ﻡﺪﺨﺘﺴﻳ ﻝﻮﻄﺳﺃ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻝﻼﺧ ﻦﻣ [Root.Owner.GetSpeciesAdj] ﺩﺍﺮﻓﺃ ﻦﻣﺃﻭ ﺔﻣﻼﺳ ﻦﻣ ﺪﻛﺄﺗ"
+ MANDATE_mandate_peacemaker:0 "ﻡﻼﺴﻟﺍ ﻊﻧﺎﺻ"
+ MANDATE_mandate_peacemaker_DESC:1 "$mandate_influence_reward_t5$\nReward:\n\n.ﻢﻬﻤﻜﺣ ﺓﺮﺘﻓ ﺔﻳﺎﻬﻧ ﻝﻮﻠﺤﺑ ،[Root.Owner.GetName] ﺎﻬﻴﻓ ﻙﺭﺎﺸﻳ ﻲﺘﻟﺍ ﺏﻭﺮﺤﻟﺍ ﻊﻴﻤﺟﻭ ﻱﺃ ﻦﻋ ﺪﻌﺘﺑﺍ"
+ MANDATE_mandate_slaver:0 "ﻑﻼﺳ"
+ MANDATE_mandate_slaver_DESC:1 "$mandate_influence_reward_t2$\nReward:\n\n.ﺔﻳﺩﻮﺒﻌﻟﺍ ﻦﻴﻨﻘﺗ ﻝﻼﺧ ﻦﻣ [Root.Owner.GetName] ﺭﺎﻫﺩﺯﺍ ﺭﺍﺮﻤﺘﺳﺍ ﻥﺎﻤﺿ"
+ MANDATE_mandate_xenopurger:0 "ﺮﻴﺟﺭﻮﺑﻮﻨﻳﺯ"
+ MANDATE_mandate_xenopurger_DESC:1 "$mandate_happiness_reward_t1$\n$mandate_influence_reward_t2$\nReward:\n\n.ﻢﻬﻤﻜﺣ ﺓﺮﺘﻓ ﻝﻼﺧ §Yﻞﻗﻷﺍ ﻰﻠﻋ ﺓﺪﺣﺍﻭ ﺓﺮﻤﻌﺘﺴﻣ§! ﻦﻣ ﺎﻨﻨﻴﺑ ﺶﻴﻌﺗ ﻲﺘﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺮﻄﺧ ﺔﻟﺍﺯﺈﺑ ﻢﻗ"
+ MANDATE_mandate_nationalist:0 "ﺪﺋﺎﻌﻟﺍ"
+ MANDATE_mandate_nationalist_DESC:1 "$mandate_influence_reward_t3$\nReward:\n\n.§Y[parameter:country.GetName]§! ﻰﻟﺇ ﺔﻌﺑﺎﺘﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻉﺎﺟﺭﺈﺑ ﻢﻗ"
+
+ ####################################
+ #	MANDATE CHAINS
+ ####################################
+
+ mandate_miner_chain_title:0 "ﻢﺟﺎﻨﻤﻟﺍ ﻝﺎﻤﻋ ﺔﻳﻻﻭ"
+ mandate_miner_chain_desc:3 "$mandate_unity_reward$\nReward:\n\n.ﺔﺒﺳﺎﻨﻤﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻝﻮﺣ ﺭﺍﺪﻣ ﻲﻓ §Yﻦﻳﺪﻌﺘﻟﺍ ﺕﺎﻄﺤﻣ§! ﺀﺎﻨﺑ ﻝﻼﺧ ﻦﻣ §Yﻥﺩﺎﻌﻤﻟﺍ ﺝﺎﺘﻧﺇ§! £minerals£ ﺓﺩﺎﻳﺰﻟ ﺔﺼﻨﻣ ﺱﺎﺳﺃ ﻰﻠﻋ [This.GetRulerName] [This.GetRulerTitle] ﺭﺎﻴﺘﺧﺍ ﻢﺗ"
+ mining_stations_built:0 "ﻦﻳﺪﻌﺘﻟﺍ ﺕﺎﻄﺤﻣ ﺀﺎﻨﺑ"
+
+ mandate_orbresearch_chain_title:0 "ﺔﻳﺭﺍﺪﻤﻟﺍ ﺙﻮﺤﺒﻟﺍ ﺔﻳﻻﻭ"
+ mandate_orbresearch_chain_desc:3 "$mandate_unity_reward$\nReward:\n\n.ﺔﺒﺳﺎﻨﻤﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻝﻮﺣ ﺭﺍﺪﻣ ﻲﻓ §Yﺚﺤﺑ ﺕﺎﻄﺤﻣ§! ﺀﺎﻨﺑ ﻝﻼﺧ ﻦﻣ §Yﺚﺤﺒﻟﺍ ﺕﺎﺟﺮﺨﻣ§! ﺓﺩﺎﻳﺰﻟ ﺔﺼﻨﻣ ﺱﺎﺳﺃ ﻰﻠﻋ [This.GetRulerName] [This.GetRulerTitle] ﺭﺎﻴﺘﺧﺍ ﻢﺗ"
+ orbresearch_built:0 "ﺖﻴﻨﺑ ﺙﻮﺤﺒﻟﺍ ﺕﺎﻄﺤﻣ"
+
+ mandate_xenopurge_chain_title:0 "Xenopurge ﺔﻳﻻﻭ"
+ mandate_xenopurge_chain_desc:2 "$mandate_happiness_reward_t1$\n$mandate_influence_reward_t2$\n:ﺓﺄﻓﺎﻜﻤﻟﺍ\n\n.§Y Pops[Root.GetSpeciesAdj]non-§! ﻊﻴﻤﺠﻟ §H[purge_planet.GetName]§! §YPurging§! ﺔﺼﻨﻣ ﻰﻠﻋ [This.GetRulerName] [This.GetRulerTitle] ﺏﺎﺨﺘﻧﺍ ﻢﺗ"
+ world_purged:0 "ﺮﻬﻄﻣ ﻢﻟﺎﻌﻟﺍ"
+
+ mandate_shipwright_chain_title:0 "ﻦﻔﺴﻟﺍ ﻊﻧﺎﺻ ﺔﻳﻻﻭ"
+ mandate_shipwright_chain_desc:2 "$mandate_influence_reward_t2$\nReward:\n\n.§Yﻢﻬﻤﻜﺣ ﺓﺮﺘﻓ ﺔﻳﺎﻬﻧ ﻝﻮﻠﺤﺑ ﺔﻳﺮﺤﺒﻟﺍ ﺎﻨﺗﺭﺪﻗ ﻦﻣ %75 ﻞﻗﻷﺍ ﻰﻠﻋ ﻡﺪﺨﺘﺴﻧ §! ﺎﻨﻧﺃ ﻦﻤﻀﻳ ﺎﻤﻣ ،ﻱﺮﻜﺴﻌﻟﺍ ﻕﺎﻔﻧﻹﺍ ﺓﺩﺎﻳﺰﻟ ﺞﻣﺎﻧﺮﺑ ﺱﺎﺳﺃ ﻰﻠﻋ [This.GetRulerName] [This.GetRulerTitle] ﺏﺎﺨﺘﻧﺍ ﻢﺗ"
+ military_presence_maintained:0 "ﺾﻳﻮﻔﺘﻟﺎﺑ ﺀﺎﻓﻮﻟﺍ ﻢﺗ"
+
+ mandate_fiscal_reserve_chain_title:0 "ﻲﻟﺎﻤﻟﺍ ﻲﻃﺎﻴﺘﺣﻻﺍ ﺔﻳﻻﻭ"
+ mandate_fiscal_reserve_chain_desc:1 ".§Yﻢﻫﺪﻬﻋ ﺔﻳﺎﻬﻧ ﺔﻄﺳﺍﻮﺑ§! ﺔﻗﺎﻄﻟﺍ ﺓﺪﺻﺭﺃ §Y 1000£energy£ ﻞﻗﻷﺍ ﻰﻠﻋ§! ﺕﺎﻴﻃﺎﻴﺘﺣﺎﺑ ﻊﺘﻤﺘﻴﺳ §H[Root.GetName]§! ﻥﺃ ﻦﻤﻀﻳ ﺎﻤﻣ ،§Yﺔﻳﺎﻨﻌﺑ ﺱﻭﺭﺪﻤﻟﺍ ﻕﺎﻔﻧﻹﺍ§!ﻭ §Ythrift§! ﺔﺼﻨﻣ ﻰﻠﻋ [This.GetRulerName] [This.GetRulerTitle] ﺏﺎﺨﺘﻧﺍ ﻢﺗ"
+
+ mandate_emancipation_chain_title:0 "ﻯﺮﺒﻜﻟﺍ ﺭﺮﺤﺘﻟﺍ ﺔﻳﻻﻭ"
+ mandate_emancipation_chain_desc:2 "$mandate_happiness_reward_t1$\n$mandate_influence_reward_t3$\nReward:\n\n.ﻢﻬﻤﻜﺣ ﺓﺮﺘﻓ ﻝﻼﺧ §Yillegal§! ﺔﺳﺭﺎﻤﻤﻟﺍ ﻞﻌﺠﺑ ﺪﻋﻭﻭ ،§Yﺔﻳﺩﻮﺒﻌﻟﺍ ﺀﺎﻐﻟﻹ §! ﺔﺼﻨﻣ ﻰﻠﻋ [This.GetRulerName] [This.GetRulerTitle] ﺏﺎﺨﺘﻧﺍ ﻢﺗ"
+ mandate_fulfilled:0 "ﺾﻳﻮﻔﺘﻟﺎﺑ ﺀﺎﻓﻮﻟﺍ ﻢﺗ"
+
+ mandate_emancipation2_chain_title:0 "ﻱﻮﺒﻌﺸﻟﺍ ﺭﺮﺤﺘﻟﺍ ﺾﻳﻮﻔﺗ"
+ mandate_emancipation2_chain_desc:2 "$mandate_happiness_reward_t1$\n$mandate_influence_reward_t3$\n:ﺓﺄﻓﺎﻜﻤﻟﺍ\n\n ﺀﺎﻨﺛﺃ ﺎﻣ ﺖﻗﻭ ﻲﻓ §H[free_planet.GetName]§! ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ §Yﺪﻴﺒﻌﻟﺍ ﻊﻴﻤﺟ ﺮﻳﺮﺤﺘﻟ §! ﺔﺼﻨﻣ ﻰﻠﻋ [This.GetRulerName] [This.GetRulerTitle] ﺏﺎﺨﺘﻧﺍ ﻢﺗ"
+ planet_freed:0 "ﺐﻛﻮﻜﻟﺍ ﺮﻳﺮﺤﺗ"
+
+ mandate_separatist_chain_title:0 "ﻲﻟﺎﺼﻔﻧﻻﺍ ﺾﻳﻮﻔﺘﻟﺍ"
+ mandate_separatist_chain_desc:2 "$mandate_influence_reward_t3$\nReward:\n\n.ﻞﻴﺻﺎﻔﺘﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ §YFactions§! ﺔﻤﺋﺎﻗ ﻊﺟﺍﺭ .ﺔﻠﻘﺘﺴﻣ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺈﻛ §H[release_planet.GetName]§! ﺐﻛﻮﻛ §Y ﻕﻼﻃﻹ §! ﺔﺼﻨﻣ ﻰﻠﻋ [This.GetRulerName] [This.GetRulerTitle] ﺏﺎﺨﺘﻧﺍ ﻢﺗ"
+ empire_released:0 "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺕﺭﺪﺻ"
+
+ mandate_peacemaker_chain_title:0 "ﻡﻼﺴﻟﺍ ﻊﻧﺎﺻ ﺔﻳﻻﻭ"
+ mandate_peacemaker_chain_desc:2 "$mandate_influence_reward_t2$\nReward:\n\n.ﻢﻬﻤﻜﺣ ﺓﺮﺘﻓ ﺔﻳﺎﻬﻨﺑ ﺏﻭﺮﺤﻟﺍ ﻊﻴﻤﺟ ﻲﻓ §Y[Root.GetSpeciesAdj] ﺔﻛﺭﺎﺸﻣ ﺔﻴﻬﻨﻣ §! ﺔﺼﻨﻣ ﻰﻠﻋ [This.GetRulerName] [This.GetRulerTitle] ﺏﺎﺨﺘﻧﺍ ﻢﺗ"
+ no_engagements:0 "ﺔﻴﺋﺍﺪﻌﻟﺍ ﻝﺎﻤﻋﻷﺍ ﻊﻴﻤﺟ ﺖﻔﻗﻮﺗ"
+
+ mandate_slaver_chain_title:0 "ﺪﻴﺒﻌﻟﺍ ﺔﻳﻻﻭ"
+ mandate_slaver_chain_desc:2 "$mandate_influence_reward_t2$\nReward:\n\n.ﻢﻬﻤﻜﺣ ﺓﺮﺘﻓ ﺔﻳﺎﻬﻧ ﻝﻮﻠﺤﺑ §HPops§! £pop£ §!XYZT_4500XYZT ﻞﻗﻷﺍ ﻰﻠﻋ §Yenslaving§! ﺔﺼﻨﻣ ﻰﻠﻋ [This.GetRulerName] [This.GetRulerTitle] ﺏﺎﺨﺘﻧﺍ ﻢﺗ"
+ pops_enslaved:0 "ﻦﻳﺪﺒﻌﺘﺴﻤﻟﺍ ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ"
+
+ mandate_nationalist_chain_title:0 "ﻦﻃﻮﻟﺍ ﻰﻟﺇ ﺓﺩﺎﻋﻹﺍ ﺔﻳﻻﻭ"
+ mandate_nationalist_chain_desc:2 "$mandate_influence_reward_t3$\nReward:\n\n.ﻞﺋﺎﺼﻔﻟﺍ ﺔﻤﺋﺎﻗ ﻲﻓ ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﺫﺎﺨﺗﺍ ﻦﻜﻤﻳ .ﻢﻬﻤﻜﺣ ﺓﺮﺘﻓ ﺔﻳﺎﻬﻨﺑ §H[ceding_empire.GetName]§! ـﻟ ﺔﻌﺑﺎﺘﻟﺍ ﺕﺍﺮﻤﻌﺘﺴﻤﻠﻟ §Yceding§! ﺔﺼﻨﻣ ﻰﻠﻋ [This.GetRulerName] [This.GetRulerTitle] ﺏﺎﺨﺘﻧﺍ ﻢﺗ"
+ planet_ceded:0 "ﻝﺯﺎﻨﺘﻟﺍ ﺐﻛﻮﻛ"
+
+ ####################################
+ #	MANDATE EVENTS
+ ####################################
+
+ mandate.1.title:0 "ﺪﻳﺪﺠﻟﺍ ﻢﻛﺎﺤﻟﺍ ﺔﻳﻻﻭ"
+ mandate.1.desc:0 ".§YMandate§! ﻝﻮﺣ ﻞﻴﺻﺎﻔﺗ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ §YSituation Log§! ﻊﺟﺍﺭ\n\n.§H[Root.GetName]§! ﻦﻣ §Y[Root.GetRulerTitle]§! ﻥﻮﻜﻴﻟ [Root.GetRulerName] ﺭﺎﻴﺘﺧﺍ ﻢﺗ"
+ mandate.2.title:0 "ﻪﺑ ﺀﺎﻓﻮﻟﺍ ﻢﺘﻳ ﻢﻟ ﺾﻳﻮﻔﺘﻟﺍ"
+ mandate.2.desc:1 ".ﺔﻴﺑﺎﺨﺘﻧﻻﺍ ﻢﻬﺘﻠﻤﺣ ﺩﻮﻋﻮﺑ ﺀﺎﻓﻮﻟﺍ ﻡﺪﻋ ﻊﻣ ،ﻪﺘﻳﺎﻬﻧ ﻰﻟﺇ [Root.GetRulerTitle] ﺪﻬﻋ ﻞﺻﻭ ﺪﻘﻟ"
+
+ # Separatist
+ mandate.100.title:0 "ﻦﻴﻴﻟﺎﺼﻔﻧﻻﺍ ﻊﻣ ﻦﻴﻔﻃﺎﻌﺘﻤﻟﺍ ﺾﻳﻮﻔﺘﺑ ﺀﺎﻓﻮﻟﺍ ﻢﺗ"
+ mandate.100.desc:1 "§H.[Root.GetName]§! ﻰﻟﺇ §Yvassalized§! ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺈﻛ §H[released_planet.GetName]§! ﺭﺍﺪﺻﺇ ﻢﺗ ،ﺎﻨﺑ ﺹﺎﺨﻟﺍ [Root.GetRulerTitle] ﺾﻳﻮﻔﺘﻟ ﺎﻘﻓﻭ"
+
+ # Miner
+ mandate.111.title:0 "ﻢﺠﻨﻤﻟﺍ ﻞﻣﺎﻋ ﺾﻳﻮﻔﺗ ﺀﺎﻔﻴﺘﺳﺍ ﻢﺗ"
+ mandate.111.desc:1 ".ﺔﻴﻓﺎﺿﺇ ﻦﻳﺪﻌﺗ ﺕﺎﻄﺤﻣ ﺀﺎﺸﻧﺇ ﻢﺗ ،[Root.GetRulerTitle] ﺾﻳﻮﻔﺘﻟ ﺎﻘﻓﻭ"
+
+ # Orbital Researcher
+ mandate.121.title:0 "ﻱﺭﺍﺪﻤﻟﺍ ﺚﺣﺎﺒﻟﺍ ﺔﻳﻻﻭ ﺀﺎﻔﻴﺘﺳﺍ ﻢﺗ"
+ mandate.121.desc:1 ".ﺔﻴﻓﺎﺿﺇ ﺚﺤﺑ ﺕﺎﻄﺤﻣ ﺀﺎﺸﻧﺇ ﻢﺗ ،[Root.GetRulerTitle] ﺾﻳﻮﻔﺘﻟ ﺎﻘﻓﻭ"
+
+ # Xenopurger
+ mandate.132.title:0 "Xenopurger ﺾﻳﻮﻔﺗ ﺀﺎﻔﻴﺘﺳﺍ ﻢﺗ"
+ mandate.132.desc:1 ".[Root.GetSpeciesAdj] ﺮﻴﻏ ﺮﺻﺎﻨﻌﻟﺍ ﻦﻣ [From.GetName] ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺮﻴﻬﻄﺗ ﻢﺗ ،[Root.GetRulerTitle] ﺾﻳﻮﻔﺘﻟ ﺎﻘﻓﻭ"
+
+ # Shipwright
+ mandate.141.title:0 "ﻦﻔﺴﻟﺍ ﻊﻧﺎﺻ ﺔﻳﻻﻭ ﺀﺎﻔﻴﺘﺳﺍ ﻢﺗ"
+ mandate.141.desc:2 ".ﺔﻳﺮﺤﺒﻟﺍ ﺎﻨﺗﺭﺪﻗ ﻦﻣ %75 ﻦﻋ ﻞﻘﻳ ﻻ ﺎﻣ ﺎﻴﻟﺎﺣ ﻡﺪﺨﺘﺴﻧ ﺎﻨﻧﺈﻓ ،[Root.GetRulerTitle] ﺾﻳﻮﻔﺘﻟ ﺎﻘﻓﻭ"
+ mandate.142.title:0 "ﻪﺑ ﺀﺎﻓﻮﻟﺍ ﻢﺘﻳ ﻢﻟ ﺾﻳﻮﻔﺘﻟﺍ"
+ mandate.142.desc:1 ".ﺐﺳﺎﻨﻤﻟﺍ ﻲﻨﻣﺰﻟﺍ ﺭﺎﻃﻹﺍ ﻦﻤﺿ ﻪﻴﻟﺇ ﺔﻠﻛﻮﻤﻟﺍ ﻑﺍﺪﻫﻷﺍ ﻖﻴﻘﺤﺗ ﻲﻓ [Root.GetRulerTitle] ﻞﺸﻓ ﺪﻘﻟ"
+
+ # Emancipator 1
+ mandate.150.title:0 "ﻢﻴﻈﻌﻟﺍ ﺭﺮﺤﺘﻟﺍ ﺔﻳﻻﻭ ﺯﺎﺠﻧﺇ ﻢﺗ"
+ mandate.150.desc:1 ".[Root.GetName] ﻲﻓ ﻲﻧﻮﻧﺎﻗ ﺮﻴﻏ ﻥﻵﺍ §YSlavery§! ﺢﺒﺻﺃ ،[Root.GetRulerTitle] ﺾﻳﻮﻔﺘﻟ ﺎﻘﻓﻭ"
+
+ # Emancipator 2
+ mandate.155.title:0 "ﻱﻮﺒﻌﺸﻟﺍ ﺭﺮﺤﺘﻟﺍ ﺾﻳﻮﻔﺗ ﺯﺎﺠﻧﺇ ﻢﺗ"
+ mandate.155.desc:1 ".[From.GetName] ﻰﻠﻋ ﺍﺪﺒﻌﺘﺴﻣ ﺏﻮﺑ ﻱﺃ ﻰﻘﺒﻳ ﻦﻟ ،[Root.GetRulerTitle] ﺾﻳﻮﻔﺘﻟ ﺎﻘﻓﻭ"
+
+ # Peacemaker
+ mandate.161.title:0 "ﻡﻼﺴﻟﺍ ﻊﻧﺎﺻ ﺾﻳﻮﻔﺘﺑ ﺀﺎﻓﻮﻟﺍ ﻢﺗ"
+ mandate.161.desc:1 ".ﺓﺮﻤﺘﺴﻣ ﺕﺎﻋﺍﺮﺻ ﻱﺃ ﻲﻓ ﺎﻃﺭﻮﺘﻣ §H[Root.GetName]§! ﺪﻌﻳ ﻢﻟ ،[Root.GetRulerTitle] ﺾﻳﻮﻔﺘﻟ ﺎﻘﻓﻭ"
+ mandate.162.title:0 "ﻪﺑ ﺀﺎﻓﻮﻟﺍ ﻢﺘﻳ ﻢﻟ ﺾﻳﻮﻔﺘﻟﺍ"
+ mandate.162.desc:1 "$mandate.142.desc$"
+
+ # Slaver
+ mandate.171.title:0 "ﺪﻴﺒﻌﻟﺍ ﺾﻳﻮﻔﺘﺑ ﺀﺎﻓﻮﻟﺍ ﻢﺗ"
+ mandate.171.desc:1 ".§HPops§! £pop£ §!XYZT_1500XYZT ﺩﺎﺒﻌﺘﺳﺍ ﻢﺗ ،[Root.GetRulerTitle] ﺾﻳﻮﻔﺘﻟ ﺎﻘﻓﻭ"
+
+ # Nationalist
+ mandate.180.title:0 "ﻦﻃﻮﻟﺍ ﻰﻟﺇ ﺓﺩﺎﻋﻹﺍ ﺔﻳﻻﻭ ﺀﺎﻔﻴﺘﺳﺍ ﻢﺗ"
+ mandate.180.desc:1 ".§H[ceding_empire.GetName]§! ﻰﻟﺇ ﺎﻬﻨﻣ ﺎﻬﻟﻼﺘﺣﺍ ﻢﺗ ﻲﺘﻟﺍ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﺓﺩﺎﻋﺇ ﺖﻤﺗ ،ﺎﻨﺑ ﺹﺎﺨﻟﺍ [Root.GetRulerTitle] ﺾﻳﻮﻔﺘﻟ ﺎﻘﻓﻭ"

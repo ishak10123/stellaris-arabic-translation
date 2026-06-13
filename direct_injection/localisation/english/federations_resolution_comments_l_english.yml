@@ -1,0 +1,420 @@
+﻿l_english:
+
+ ### RESOLUTION COMMENTS - REQUESTS
+ ### Request - Militarist
+ ethic_militarist_request_friendly:0 "؟ﻚﻟﺬﻛ ﺲﻴﻟﺃ ،ﺍﺬﻫ ﻲﻓ ﻪﺟﻮﻟ ﺎﻬﺟﻭ ﻯﺮﻧ ﻦﺤﻧ"
+ ethic_militarist_request_friendly_0:0 ".$COUNTRY$ ﻢﻋﺩ $GREETER$ ﺐﻠﻄﻳ"
+ ethic_militarist_request_friendly_1:0 "؟$GREETER$ ـﻟ ﺎﻳﻮﻗ ﺎﻔﻴﻠﺣ ﻥﻮﻜﺘﺳ ﻞﻫ"
+ ethic_militarist_request_friendly_2:0 ".ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺔﺠﻴﺘﻧ ﻰﻠﻋ ﻒﻗﻮﺘﻳ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻦﻣﺃ ﻥﺇ"
+ ethic_militarist_request_friendly_3:0 ".ﻢﻜﻤﻋﺩ ﻰﻠﻋ $GREETER$ ﺪﻤﺘﻌﻳ"
+ ethic_militarist_request_friendly_4:0 ".ﻥﺄﺸﻟﺍ ﺍﺬﻫ ﻲﻓ ﺎﻨﻌﻣ $COUNTRY$ ﻲﻓ ﺎﻧﺅﺎﻗﺪﺻﺃ ﻒﻘﻳ ﻥﺃ ﺎﻨﻟ ﻑﺮﺸﻟﺍ ﻲﻋﺍﻭﺩ ﻦﻣ ﻥﻮﻜﻴﺳ"
+ ethic_militarist_request_neutral:0 ".ﺮﻳﺪﻘﺗ ﻊﺿﻮﻣ $COUNTRY$ ﻦﻣ ﻢﻋﺪﻟﺍ ﻥﻮﻜﻴﺳ"
+ ethic_militarist_request_neutral_0:0 ".ﻑﺮﺸﻟﺍ ﻞﺟﺃ ﻦﻣ - ﺎﻨﻴﻟﺇ ﻢﻀﻧﺍ"
+ ethic_militarist_request_neutral_1:0 ".ﺓﻮﻘﻟﺍ ﺮﻬﻈﻴﺳ ﻢﻜﻤﻋﺩ"
+ ethic_militarist_request_neutral_2:0 "!ﻢﻜﻤﻋﺩ ﺎﻨﻟ ﻡﺪﻘﺗ .ﻢﺳﺎﺣ ﺀﺍﺮﺟﺇ ﺫﺎﺨﺗﻻ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻟ"
+ ethic_militarist_request_neutral_3:0 ".ﺎﻬﺗﺍﺬﺑ ﺔﺤﺿﺍﻭ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺔﻤﻴﻗ ﻥﺇ ...ﺎﻬﺋﺍﺭﻭ ﻦﻣ ﻞﺋﺎﻃ ﻻ ﺔﻴﺳﺎﻣﻮﻠﺑﺩ ﺕﺎﻫﺎﻔﺘﺑ ﻢﻜﻘﻳﺎﻀﻧ ﻦﻟ"
+ ethic_militarist_request_neutral_4:0 ".ﻚﻤﻋﺩ ﺎﻬﺤﻨﻣﺍ .ﻞﻜﻛ ﺓﺮﺠﻤﻠﻟ ﻞﺑ ،ﻂﻘﻓ ﺎﻨﻟ ﺲﻴﻟ ﺢﻴﺤﺼﻟﺍ ﺭﺎﻴﺨﻟﺍ ﻮﻫ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ"
+ ethic_militarist_request_hostile:0 "...ﺔﺒﻳﺮﻏ ﺀﺎﻴﺷﺃ ﺖﺛﺪﺣ ﻦﻜﻟ ،ﺮﻣﻷﺍ ﺍﺬﻫ ﻲﻓ ﻢﻜﻤﻋﺩ ﻊﻗﻮﺘﻧ ﻻ"
+ ethic_militarist_request_hostile_0:0 "...ﺮﻳﺪﻘﺗ ﻊﺿﻮﻣ ﻚﻟﺫ ﻥﻮﻜﻴﺴﻓ ،ﺎﻬﺋﺎﻄﻋﻹ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﺖﻨﻛ ﺍﺫﺇ ﻦﻜﻟﻭ .ﻢﻋﺪﻟﺍ ﺀﺍﺪﺠﺘﺳﺍ ﻝﻼﺧ ﻦﻣ ﺍﺪﺑﺃ ﺎﻨﺴﻔﻧﺃ ﺭﺪﻗ ﻦﻣ ﻂﺤﻧ ﻦﻟ"
+ ethic_militarist_request_hostile_1:0 ".ﺎﻫﺩﻮﺟﻭ ﻡﺪﻋ ﻭﺃ - ﺎﻬﻓﺮﺷ ﺕﺎﺒﺛﻹ $COUNTRY$ ـﻟ ﺔﺻﺮﻓ ﻩﺬﻫ"
+ ethic_militarist_request_hostile_2:0 ".ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺽﺭﺎﻌﻴﺳ ﻖﻠﻄﻤﻟﺍ ﻖﻤﺣﻷﺍ ﻂﻘﻓ"
+ ethic_militarist_request_hostile_3:0 ".ﺍﺬﻫ ﺮﻳﺮﻤﺗ ﺔﻤﻴﻗ ﺍﻭﺮﻳ ﻥﺃ ﺐﺠﻳ $COUNTRY$ ﻲﻓ ﺀﺎﻴﺒﻏﻷﺍ ﻰﺘﺣ"
+ ethic_militarist_request_hostile_4:0 "...ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺖﻤﻋﺩ ﺍﺫﺇ ﺎﻣ ﺪﺣ ﻰﻟﺇ $COUNTRY$ ـﻟ ﺎﻨﺋﺍﺭﺩﺯﺍ ﻝﺀﺎﻀﺘﻳ ﺪﻗ"
+
+
+
+ ### Request - Pacifist
+ ethic_pacifist_request_friendly:0 ".$COUNTRY$ ﻲﻓ ﻡﺍﺮﻜﻟﺍ ﺎﻨﺋﺎﻗﺪﺻﺃ ﻦﻣ ﻢﻋﺪﻟﺍ ﻰﻟﺇ $GREETER$ ﻊﻠﻄﺘﻳ"
+ ethic_pacifist_request_friendly_0:0 ".ﺢﻴﺤﺼﻟﺍ ﺀﻲﺸﻟﺍ ﻞﻌﻔﻴﺳ $COUNTRY$ ﻥﺃ ﻦﻣ ﻥﻮﻘﺛﺍﻭ ﻦﺤﻧ"
+ ethic_pacifist_request_friendly_1:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻠﻟ $COUNTRY$ ﻲﻓ ﺔﻠﻣﺎﻛ ﺔﻘﺛ $GREETER$ ﻯﺪﻟ"
+ ethic_pacifist_request_friendly_2:0 ".ﺎﻧﺎﻣﺃ ﺮﺜﻛﺃ ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ ﻞﻌﺠﻟ ﺎﻌﻣ ﻞﻤﻌﻧ ﺎﻧﻮﻋﺩ"
+ ethic_pacifist_request_friendly_3:0 ".ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻦﻣ ﺔﻤﻜﺤﻟﺍ ﻥﻭﺮﻳ ﻦﻳﺮﺧﻵﺍ ﻞﻌﺟ ﻲﻓ ﺎﻨﺗﺪﻋﺎﺴﻣ ﺀﺎﺟﺮﻟﺍ"
+ ethic_pacifist_request_friendly_4:0 ".ﻢﻌﻨﺑ ﺖﻳﻮﺼﺘﻟﺍ ﻰﺟﺮﻳ ﻦﻜﻟﻭ .ﻪﺑ ﺎﻗﻮﺛﻮﻣ ﺎﻘﻳﺪﺻ ﺎﻤﺋﺍﺩ $COUNTRY$ ﺭﺎﺒﺘﻋﺍ ﻢﺘﻴﺳ ،ﻚﺘﻳﻮﺼﺗ ﺔﻴﻔﻴﻛ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ"
+ ethic_pacifist_request_neutral:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﻢﻜﻤﻋﺩ ﺐﻠﻄﻧ ﻦﺤﻧﻭ"
+ ethic_pacifist_request_neutral_0:0 "؟ﻕﺩﺃ ﺔﻤﻠﻛ ﻙﺎﻨﻫ ﻞﻫ .ﺎﻌﻣ"
+ ethic_pacifist_request_neutral_1:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﻢﻜﻤﻋﺩ ﻊﺿﺍﻮﺗ ﻞﻜﺑ $GREETER$ ﺐﻠﻄﻳ"
+ ethic_pacifist_request_neutral_2:0 ".ﺡﺍﺮﺘﻗﻻﺍ ﺍﺬﻫ ﺎﻳﺍﺰﻣ ﻯﺮﻳ ﻑﻮﺳ $COUNTRY$ ﻥﺃ ﻦﻣ ﻦﻴﻘﻳ ﻰﻠﻋ ﻦﺤﻧ"
+ ethic_pacifist_request_neutral_3:1 ".ﻲﻤﻠﺴﻟﺍ ﺶﻳﺎﻌﺘﻟﺍ ﻮﺤﻧ [global_event_country.GetGalCommunityOrGalImperium] ﻪﻴﺟﻮﺗ ﺎﻨﻨﻜﻤﻳ ،ﻢﻜﺗﺪﻋﺎﺴﻤﺑ"
+ ethic_pacifist_request_neutral_4:0 ".ﻲﺠﻤﻬﻟﺍ ﺓﺮﺠﻤﻟﺍ ﻲﺿﺎﻣ ﻦﻣ ﯫﻴﺷ ﺎﻬﻌﻣ ﻲﺗﺄﻳ ﻱﺬﻟﺍ ﺱﺆﺒﻟﺍ ﻞﻛﻭ ﺏﺮﺤﻟﺍ ﻞﻌﺠﻨﺳ ﺎﻌﻣﻭ ،ﺎﻧﺭﺍﺮﻗ ﺍﻮﻤﻋﺩﺍ"
+ ethic_pacifist_request_hostile:0 ".ﺓﺪﺣﺍﻭ ﺓﺮﻣ ﻩﺬﻫ ﻞﻗﻷﺍ ﻰﻠﻋ .ﺢﻴﺤﺼﻟﺍ ﺀﻲﺸﻟﺍ ﻞﻌﻓﺍ"
+ ethic_pacifist_request_hostile_0:0 ".ﺔﺌﻃﺎﺨﻟﺍ ﻚﻗﺮﻃ ﺮﻴﻴﻐﺘﻟ ﺪﻌﺑ ﻥﺍﻭﻷﺍ ﺖﻔﻳ ﻢﻟ"
+ ethic_pacifist_request_hostile_1:0 ".ﺓﺪﺣﺍﻭ ﺓﺮﻤﻟ ﺢﻴﺤﺼﻟﺍ ﺀﻲﺸﻟﺍ ﻞﻌﻓﺍﻭ ﺔﻴﺳﺎﺳﻷﺍ ﻙﺰﺋﺍﺮﻏ ﺏﺭﺎﺣ"
+ ethic_pacifist_request_hostile_2:0 ".ﺓﺮﺠﻤﻟﺍ ﺔﻴﻘﺒﻟ $COUNTRY$ ـﻟ ﺓﺮﻳﺮﺸﻟﺍ ﻊﻓﺍﻭﺪﻟﺍ ﺕﺎﺒﺛﺇ ﻰﻟﺇ ﻻﺇ ﻱﺩﺆﺗ ﻦﻟ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺔﺿﺭﺎﻌﻣ ﻥﺇ"
+ ethic_pacifist_request_hostile_3:0 "!$COUNTRY$ ﻢﻋﺩ ﻥﻭﺪﺑ ﻭﺃ ﻢﻋﺪﺑ ،ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺮﻳﺮﻤﺗ ﺪﻬﺸﻨﺳ"
+ ethic_pacifist_request_hostile_4:0 ".ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺖﺿﺭﺎﻋ ﺍﺫﺇ $COUNTRY$ ﺦﻳﺭﺎﺘﻟﺍ ﻢﺣﺮﻳ ﻦﻟ"
+
+ ### Request - Authoritarian
+ ethic_authoritarian_request_friendly:0 "؟ﻚﻟﺬﻛ ﺲﻴﻟﺃ ،ﺎﻧﺭﺍﺮﻘﻟ ﺎﻫﺭﺎﻜﻧﺇ ﻦﻜﻤﻳ ﻻ ﻲﺘﻟﺍ ﺎﻳﺍﺰﻤﻟﺍ ﻰﻠﻋ ﻖﻓﺍﻮﺗ ﺖﻧﺃ"
+ ethic_authoritarian_request_friendly_0:0 "؟ﻚﻟﺬﻛ ﺲﻴﻟﺃ ،ﺎﻌﻣ ﺪﻴﺟ ﻞﻜﺸﺑ ﻞﻤﻌﺗ ﺔﻤﻛﺎﺤﻟﺍ ﺎﻨﺗﻻﻼﺳ"
+ ethic_authoritarian_request_friendly_1:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺢﻴﺤﺼﻟﺍ ﺭﺎﻴﺘﺧﻻﺎﺑ ﻡﻮﻘﺘﺳ ﻚﻧﺃ ﻦﻣ ﻦﻴﻘﻳ ﻰﻠﻋ ﻦﺤﻧ .ﺎﻨﺘﻘﺛ $COUNTRY$ ﺐﺴﺘﻛﺍ ﺪﻘﻟ"
+ ethic_authoritarian_request_friendly_2:0 ".ﺎﻌﻣ ﻝﻼﺧ ﻦﻣ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻯﺮﻧ ﺎﻧﻮﻋﺩ .$COUNTRY$ﻭ $GREETER$ ﻦﻣ ﻡﺯﺎﺣ ﻪﻴﺟﻮﺗ ﻰﻟﺇ ﺓﺮﺠﻤﻟﺍ ﺝﺎﺘﺤﺗ"
+ ethic_authoritarian_request_friendly_3:0 ".ﺓﺮﺠﻤﻟﺍ ﺩﻮﺴﺗ ﻲﺘﻟﺍ ﻰﺿﻮﻔﻟﺍ ﻰﻟﺇ ﻡﺎﻈﻨﻟﺍ ﺪﻴﻌﻧ ﺎﻧﻮﻋﺩ .$COUNTRY$ ﻑﺍﺪﻫﺃ ﻊﻣ ﺎﻨﻓﺍﺪﻫﺃ ﻖﻓﺍﻮﺘﺗ"
+ ethic_authoritarian_request_friendly_4:0 ".ﺎﻧﺭﺍﺮﻗ ﺪﺋﺍﻮﻓ ﻥﻭﺮﻴﺳ ﻢﻬﻧﺃ ﻚﺷ ﻻﻭ .$COUNTRY$ ﺓﺩﺎﻴﻘﺑ ﺎﻤﺋﺍﺩ ﺎﻨﺒﺠﻋﺃ ﺪﻘﻟ"
+ ethic_authoritarian_request_neutral:0 ".ﻥﻵﺍ .ﺍﺬﻫ ﻲﻓ ﺎﻧﻮﻤﻋﺩﺍ"
+ ethic_authoritarian_request_neutral_0:0 ".ﻦﻳﺮﺧﻵﺍ ﻊﻴﻤﺟ ﻲﻓ ﻝﺎﺤﻟﺍ ﻮﻫ ﺎﻤﻛ ،ﺔﻟﺄﺴﻤﻟﺍ ﻩﺬﻫ ﻲﻓ .ﻊﺒﺘﺗ ﺖﻧﺃ .ﺩﻮﻘﻧ ﻦﺤﻧ"
+ ethic_authoritarian_request_neutral_1:0 ".ﻢﻴﻘﻋ ﺪﻬﺟ ﻮﻫ ﺀﺎﻴﺷﻸﻟ ﻲﻌﻴﺒﻄﻟﺍ ﻡﺎﻈﻨﻟﺍ ﺔﺿﺭﺎﻌﻣ ﻥﺇ"
+ ethic_authoritarian_request_neutral_2:0 ".ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺮﻳﺮﻤﺗ ﺐﺠﻳ ،ﺓﺮﺠﻤﻟﺍ ﻡﺎﻈﻧ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻞﺟﺃ ﻦﻣﻭ"
+ ethic_authoritarian_request_neutral_3:0 ".ﻖﻳﺮﻄﻟﺍ ﻰﻠﻋ ﺓﺪﺣﺍﻭ ﺓﻮﻄﺧ ﻯﻮﺳ ﺲﻴﻟ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫﻭ .ﻰﺿﻮﻔﻟﺍﻭ ﻰﺿﻮﻔﻟﺍ ﻰﻟﺇ ﺀﻲﻄﺒﻟﺍ ﺓﺮﺠﻤﻟﺍ ﺭﺍﺪﺤﻧﺍ ﻒﻗﻭ ﻲﻫ ﺎﻨﺘﻴﻧ ﻥﺇ"
+ ethic_authoritarian_request_neutral_4:0 ".X-34 ﺭﺍﺮﻘﻟﺍ ﻢﻋﺩ ﻝﻼﺧ ﻦﻣ ﻙﺭﻭﺪﺑ ﻢﻗ .ﺓﺮﺠﻤﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﻡﺎﻈﻨﻟﺍﻭ ﻡﻼﺴﻟﺍ ﺓﺩﺎﻌﺘﺳﺍ ﻢﺘﻴﺳ ﺎﺒﻳﺮﻗ"
+ ethic_authoritarian_request_hostile:0 ".ﺎﻳﺩﻭ ﺎﺒﻠﻃ ﺍﺬﻫ ﻦﻜﻳ ﻢﻟ ،ﻻ .ﺍﺬﻫ ﻲﻓ ﺎﻨﻤﻋﺪﺗ ﻑﻮﺳ"
+ ethic_authoritarian_request_hostile_0:0 ".ﻚﻟﺫ ﻲﻓ ﺎﻨﺗﻮﻄﺧ ﻊﺒﺗﺍﻭ ﺀﺎﻴﺷﻸﻟ ﻲﻌﻴﺒﻄﻟﺍ ﻲﻣﺮﻬﻟﺍ ﻞﺴﻠﺴﺘﻟﺍ ﻞﺒﻗﺍ"
+ ethic_authoritarian_request_hostile_1:0 ".ﻪﺑ ﺐﻟﺎﻄﻧ – ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﻢﻜﻤﻋﺩ"
+ ethic_authoritarian_request_hostile_2:0 ".ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻢﻋﺪﺑ ﻢﻛﺮﻣﺄﻧ ﻦﺤﻧﻭ"
+ ethic_authoritarian_request_hostile_3:1 ".ﻦﻳﺮﺧﻵﺍ ﺀﺎﻀﻋﻷﺍ ﻲﺛﻮﻌﺒﻣ ﻰﻠﻋ ﻚﻣﻮﻤﺳ ﺮﺸﻨﺗ ﻻ .[global_event_country.GetGalCommunityOrGalImperium] ﻲﻓ ﺍﺪﺴﻔﻣ ﺍﺮﻴﺛﺄﺗ $COUNTRY$ ﺪﻌﻳ"
+ ethic_authoritarian_request_hostile_4:0 ".ﺎﻬﺑ ﺡﻮﻤﺴﻣ ﺮﻴﻏ ﺔﺿﺭﺎﻌﻤﻟﺍ"
+
+ ### Request - Egalitarian
+ ethic_egalitarian_request_friendly:0 ".ﻚﻟﺫ ﻖﻴﻘﺤﺗ ﺎﻨﻨﻜﻤﻳ ،$COUNTRY$ ﻊﻣ ﻥﻭﺎﻌﺘﻟﺎﺑ"
+ ethic_egalitarian_request_friendly_0:0 ".ﺮﻣﻷﺍ ﺍﺬﻫ ﻲﻓ ﺎﻨﻤﻋﺪﻳ ﻑﻮﺳ $COUNTRY$ ﻥﺃ ﻲﻓ $GREETER$ ﻖﺜﻳ"
+ ethic_egalitarian_request_friendly_1:0 "؟ﺓﺍﻭﺎﺴﻤﻟﺍﻭ ﺔﻟﺍﺪﻌﻟﺍ ﻞﺟﺃ ﻦﻣ ﻦﻳﺪﺤﺘﻣ ﻑﻮﻗﻮﻠﻟ ﺍﺪﻴﺟ ﺎﻣﻮﻳ ﺍﺬﻫ ﺲﻴﻟﺃ"
+ ethic_egalitarian_request_friendly_2:0 ".ﺎﻬﻠﻤﻛﺄﺑ ﺓﺮﺠﻤﻟﺍ ﺎﻬﻴﻓ ﻙﺭﺎﺸﺘﺳ ﺔﺒﻘﺣ ...ﺀﺎﻗﺪﺻﻷﺍ ﺎﻬﻳﺃ ،ﺓﺪﻳﺪﺟ ﺔﻴﻃﺍﺮﻘﻤﻳﺩ ﺔﺒﻘﺣ ﻞﻬﺘﺴﻧ ﻑﻮﺳ ﺎﻌﻣ"
+ ethic_egalitarian_request_friendly_3:0 ".ﺾﻌﺒﻟﺍ ﺎﻨﻀﻌﺑ ﻢﻋﺪﻧ ﻥﺃ ﺎﻨﻴﻠﻋ .ﻦﻴﺘﻤﻴﻈﻌﻟﺍ ﺎﻨﻴﺘﻟﻭﺩ ﻑﺍﺪﻫﺃ ﻙﺭﺎﺸﺗ ﻻﻭ ﺔﺴﺳﺆﻤﻟﺍ ﻩﺬﻫ ﻞﺧﺍﺩ ﻞﻤﻌﺗ ﺓﺮﻛﺎﻣ ﻯﻮﻗ ﻙﺎﻨﻫ"
+ ethic_egalitarian_request_friendly_4:0 "!ﻪﻴﻠﻋ ﺩﺎﻤﺘﻋﻻﺍ ﻦﻜﻤﻳ ،ﻞﻗﻷﺍ ﻰﻠﻋ ،ﻢﻜﻤﻋﺩ !$COUNTRY$ ،ﻩﺁ"
+ ethic_egalitarian_request_neutral:0 "؟ﺎﻨﻤﻋﺪﻟ ﺔﻴﻃﺍﺮﻘﻤﻳﺪﻟﺍ ﻚﺘﻳﺮﺣ ﻡﺪﺨﺘﺴﺗ ﻻ ﺍﺫﺎﻤﻟ"
+ ethic_egalitarian_request_neutral_0:0 ".ﺍﺬﻫ ﻲﻓ ﺎﻨﻤﻋﺩ ﻲﻓ ﺮﻜﻓ ﻦﻜﻟ ،ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﻚﻟ ﺭﺎﻴﺨﻟﺍ"
+ ethic_egalitarian_request_neutral_1:0 ".ﻝﺩﺎﻌﻟﺍ ﻢﻜﺴﺣ ﺪﺷﺎﻨﻧ ﻦﺤﻧ ،$COUNTRY$ ﻲﻓ ﻡﺍﺮﻜﻟﺍ ﻲﺋﻼﻣﺯ"
+ ethic_egalitarian_request_neutral_2:0 ".ﻲﻧﺪﻤﻟﺍ ﻚﺒﺟﺍﻭ ﻮﻫ ﺖﻳﻮﺼﺘﻟﺍ ﻥﺃ ﺮﻛﺬﺗ"
+ ethic_egalitarian_request_neutral_3:0 ".ﻦﻴﻠﻗﺎﻌﻟﺍ ﻦﻣ ﺎﻬﻟ ﺮﺼﺣ ﻻ ﻦﻴﻳﻼﻣ ﻝﺍﻮﺣﺃ ﻦﺴﺤﻴﺳ ﺪﻴﻛﺄﺘﻟﺎﺑ ﻮﻬﻓ ...ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺍﻮﻤﻋﺪﺗ ﻥﺃ ﻢﻛﺪﺷﺎﻨﻧ ﺎﻨﻧﺇ"
+ ethic_egalitarian_request_neutral_4:0 ".ﻞﻀﻓﺃ ﺎﻧﺎﻜﻣ ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ ﻞﻌﺟ ﻲﻓ ﺎﻧﻭﺪﻋﺎﺳ"
+ ethic_egalitarian_request_hostile:0 ".ﺓﺪﺣﻮﻟﺍ ﻲﻓ ﺔﻤﻴﻗ $COUNTRY$ ﻯﺮﻳ ﻥﺃ ﻊﻗﻮﺘﻧ ﻥﺃ ﺔﻓﺎﺨﺴﻟﺍ ﻦﻣ ﻥﻮﻜﻴﺳ ﻪﻧﺃ ﺽﺮﺘﻓﺃ"
+ ethic_egalitarian_request_hostile_0:0 ".ﻞﻗﻷﺍ ﻰﻠﻋ ،ﺭﻮﻣﻷﺍ ﺾﻌﺑ ﻲﻓ ﻕﺎﻔﺗﺍ ﻰﻟﺇ ﻞﺻﻮﺘﻠﻟ ﺪﻌﺑ ﻥﺍﻭﻷﺍ ﺖﻔﻳ ﻢﻟﻭ .ﺍﺬﻫ ﻲﻓ ﺎﻧﻮﻤﻋﺩﺍ"
+ ethic_egalitarian_request_hostile_1:0 ".ﺍﺬﻫ ﻲﻓ ﺎﻨﻴﻟﺇ ﻡﺎﻤﻀﻧﻻﺍ ﻰﺟﺮﻳ .$COUNTRY$ ﻰﻟﺇ ﻞﺼﻳ $GREETER$ ﻥﺈﻓ ،ﺎﻨﺗﺎﻓﻼﺘﺧﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ ethic_egalitarian_request_hostile_2:0 ".ﻦﻫﺍﺮﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﺎﺒﻧﺎﺟ ﺎﻨﺗﺎﻓﻼﺧ ﻊﻀﻧ ﺎﻧﻮﻋﺩ .$COUNTRY$ﻭ $GREETER$ ﻦﻣ ﺮﺒﻛﺃ ﺍﺬﻫﻭ"
+ ethic_egalitarian_request_hostile_3:0 ".ﺎﻫﺫﺎﺨﺗﺍ ﺐﺠﻳ ﻲﺘﻟﺍ ﺔﺤﻴﺤﺼﻟﺍ ﺓﻮﻄﺨﻟﺍ ﻮﻫ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻢﻋﺩ ﻥﺈﻓ ،ﺎﻨﻴﻓ ﻚﻳﺃﺭ ﻥﺎﻛ ﺎﻤﻬﻣﻭ"
+ ethic_egalitarian_request_hostile_4:0 "؟ﺎﻧﺭﺍﺮﻗ ﺪﻳﺆﺘﺳ ﻞﻫ ؟ﺪﻘﺘﻌﻧ ﺎﻨﻛ ﺎﻤﻣ ﻞﻀﻓﺃ ﺔﻣﺃ ﻢﺘﻧﺃ ﻞﻫ ؟$COUNTRY$ ﻰﻠﻋ ﻢﻜﺤﻟﺍ ﻲﻓ ﺎﻧﺄﻄﺧﺃ ﻞﻫ"
+
+ ### Request - Xenophile
+ ethic_xenophile_request_friendly:0 "!ﺓﺪﺣﻮﻟﺍ ﻭﺪﺒﺗ ﻒﻴﻛ ﺓﺮﺠﻤﻠﻟ ﺮﻬﻈﻧﻭ ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻌﻣ ﻰﻘﺒﻧ ﺎﻧﻮﻋﺩ"
+ ethic_xenophile_request_friendly_0:0 ".ﻥﺄﺸﻟﺍ ﺍﺬﻫ ﻲﻓ $COUNTRY$ ﻢﻋﺩ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻲﻓ $GREETER$ ﺐﻏﺮﻳ"
+ ethic_xenophile_request_friendly_1:0 "؟ﻚﻟﺬﻛ ﺲﻴﻟﺃ ،ﻦﻴﺘﻤﻴﻈﻌﻟﺍ ﺎﻨﻴﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻦﻴﺑ ﻪﻓﺎﺗ ﺖﻳﻮﺼﺗ ﺀﺍﺮﺟﺇ ﻢﺘﻳ ﻥﺃ ﺭﺎﻌﻟﺍ ﻦﻣ ﻥﻮﻜﻴﺳ"
+ ethic_xenophile_request_friendly_2:1 ".ﺀﺎﻗﺪﺻﻷﺍ ﺎﻬﻳﺃ ،[global_event_country.GetGalCommunityOrGalImperium] ﻲﻓ ﺾﻌﺒﻟﺍ ﺎﻨﻀﻌﺑ ﺎﻨﻤﻋﺩ ﺍﺫﺇ ﻪﻘﻴﻘﺤﺗ ﺎﻨﻨﻜﻤﻳ ﺎﻤﻟ ﺪﺣ ﻙﺎﻨﻫ ﺲﻴﻟ"
+ ethic_xenophile_request_friendly_3:0 ".ﺎﻌﻣ ﻞﻤﻌﻟﺍ ﺪﻨﻋ ﺔﻤﻴﻈﻋ ﺀﺎﻴﺷﺃ ﺀﺎﻨﺑ ﺎﻬﻨﻜﻤﻳ ﺓﺮﺠﻤﻟﺍ ﻦﻣ ﺔﻔﻠﺘﺨﻤﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻥﺃ ﻱﺮﺠﻤﻟﺍ ﻯﺪﺘﻨﻤﻟﺍ ﺍﺬﻫ ﺖﺒﺜﻳ ؟ﺎﻌﺋﺍﺭ ﺍﺬﻫ ﺲﻴﻟﺃ"
+ ethic_xenophile_request_friendly_4:0 "!ﺀﺎﻗﺪﺻﻷﺍﻭ ،ﻢﻜﻤﻋﺩ ﺎﻨﻟ ﻡﺪﻘﺗ .ﺎﻬﻴﻓ ﺶﻴﻌﺗ ﻲﺘﻟﺍ ﺔﻠﻗﺎﻌﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻊﻴﻤﺠﻟ ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ ﻦﻴﺴﺤﺘﻟ ﺎﻨﺘﻄﺧ ﻲﻓ ﺔﻴﻟﺎﺘﻟﺍ ﺓﻮﻄﺨﻟﺍ ﻲﻫ ﻩﺬﻫ"
+ ethic_xenophile_request_neutral:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻨﻴﻟﺇ ﻡﺎﻤﻀﻧﻻﺍ ﻰﻠﻋ $GREETER$ ﻚﻌﺠﺸﻳ !ﻼﻫﺃ"
+ ethic_xenophile_request_neutral_0:0 "؟ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻨﻤﻋﺩ ﻲﻓ ﺐﻏﺮﺗ ﻞﻫ !ﻞﻤﺘﺤﻤﻟﺍ ﻖﻳﺪﺼﻟﺍ ﺎﻬﻳﺃ ﺎﺒﺣﺮﻣ"
+ ethic_xenophile_request_neutral_1:0 ".ﺔﻠﻴﻤﺟ ﺔﻗﺍﺪﺻ ﺔﻳﺍﺪﺑ ﻩﺬﻫ ﻥﻮﻜﺗ ﺪﻗ"
+ ethic_xenophile_request_neutral_2:0 ".ﻥﻭﺎﻌﺘﻟﺍ ﺔﻤﻴﻗ ﺓﺮﺠﻤﻠﻟ ﺖﺒﺜﻨﺳﻭ ،ﻚﻟﺫ ﻲﻓ ﺎﻧﻮﻤﻋﺩﺍ"
+ ethic_xenophile_request_neutral_3:0 "؟ﻢﻬﺴﻨﺟ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ ،ﻊﻴﻤﺠﻠﻟ ﻞﻀﻓﺃ ﺎﻧﺎﻜﻣ ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ ﻞﻌﺠﻟ ﺎﻧﺩﻮﻬﺟ ﻲﻓ $COUNTRY$ ﺎﻨﻤﻋﺪﺘﺳ ﻞﻫ"
+ ethic_xenophile_request_neutral_4:1 ".[global_event_country.GetGalCommunityOrGalImperium] ﺎﻬﻴﻠﻋ ﺖﺴﺳﺄﺗ ﻲﺘﻟﺍ ﺉﺩﺎﺒﻤﻟﺍ ﺡﻭﺭ ﻊﻣ ﺽﺭﺎﻌﺘﻳ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻢﻋﺩ ﻡﺪﻋ ﻥﺇ"
+ ethic_xenophile_request_hostile:0 "؟ﺓﺪﺣﻮﻟﺍ ﻲﻓ ﺔﻤﻴﻘﻟﺍ ﻯﺮﻳ ﻻﺃ $COUNTRY$ ـﻟ ﻦﻜﻤﻳ ﻞﻫ"
+ ethic_xenophile_request_hostile_0:0 ".ﺎﻨﻳﺪﻠﺑ ﻦﻴﺑ ﺔﻗﻼﻌﻟﺍ ﺔﺠﻟﺎﻌﻣ ﻲﻓ ﻰﻟﻭﺃ ﺓﻮﻄﺧ ﻥﻮﻜﻴﺳ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻢﻋﺩ ﻥﺇ"
+ ethic_xenophile_request_hostile_1:0 ".ﺍﺬﻫ ﻲﻓ ﺎﻨﻤﻋﺩ ﻰﺟﺮﻳ .$COUNTRY$ ﻊﻣ ﻞﺻﺍﻮﺘﻟﺍ ﻲﻓ $GREETER$ ﺐﻏﺮﻳ ،ﺀﻲﺷ ﻞﻛ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ ethic_xenophile_request_hostile_2:0 ".ﻚﻟﺫ ﻯﺮﻳ ﻥﺃ ﺐﺠﻳ $COUNTRY$ ﻰﺘﺣ ...ﺎﻌﻴﻤﺟ ﺎﻧﺪﻴﻔﻴﺳ ﺍﺬﻫﻭ"
+ ethic_xenophile_request_hostile_3:0 ".ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﺶﻴﻌﺗ ﻲﺘﻟﺍ ﺓﺪﻳﺪﻌﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻦﻴﺑ ﻥﻭﺎﻌﺘﻟﺍ ﺰﻳﺰﻌﺗﻭ ﺰﺟﺍﻮﺤﻟﺍ ﺮﺴﻛ ﻰﻟﺇ ﻯﺪﺘﻨﻤﻟﺍ ﺍﺬﻫ ﻑﺪﻬﻳ"
+ ethic_xenophile_request_hostile_4:0 "؟ﻞﻗﻷﺍ ﻰﻠﻋ ﻖﻳﺮﻄﻟﺍ ﻒﺼﺘﻨﻣ ﻲﻓ ﺎﻨﺘﻠﺑﺎﻘﻣ ﻚﻨﻜﻤﻳ ﻻﺃ ،ﺓﺪﺣﺍﻭ ﺓﺮﻤﻟ ؟$COUNTRY$ ﻪﻨﻣ ﻑﺎﺨﻳ ﻱﺬﻟﺍ ﺎﻣ"
+
+ ### Request - Xenophobe
+ ethic_xenophobe_request_friendly:0 ".ﺓﺭﻭﺮﻀﻟﺍ ﺪﻨﻋ ﺎﻌﻣ ﻒﻘﻧ ﻥﺃ ﺔﻤﻴﻈﻌﻟﺍ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻞﻀﻔﻟ ﻪﻧﺇ"
+ ethic_xenophobe_request_friendly_0:0 ".ﺔﻴﺋﺎﻀﻔﻟﺍ ﺔﻋﻮﻟﺎﺒﻟﺍ ﻩﺬﻫ ﻲﻓ ﺎﻨﻣﺍﺮﺘﺣﺍ ﻖﺤﺘﺴﻳ ﺎﺼﺨﺷ ﺪﺠﻧ ﻥﺃ ﺭﺩﺎﻨﻟﺍ ﻦﻣ !$COUNTRY$ ،ﻩﺁ"
+ ethic_xenophobe_request_friendly_1:0 ".ﺀﺎﻗﺪﺻﺃ ﻥﻭﺮﺒﺘﻌﻳ $COUNTRY$ ﻦﻜﻟﻭ ،ﺀﺎﺑﺮﻐﻟﺍ ﻦﻣ ﻢﻋﺪﻟﺍ ﺐﻠﻄﺑ ﻊﺘﻤﺘﺴﻧ ﻻ ﻦﺤﻧ"
+ ethic_xenophobe_request_friendly_2:0 ".ﺎﻘﻳﺪﺻ ﺮﺒﺘﻌﻳ $COUNTRY$ ﻦﻣ ﻞﺜﻤﻣ ﻱﺃ ﻦﻜﻟﻭ ،ﺱﻮﻨﻳﺰﻟﺍ ﺀﻻﺆﻫ ﻞﻛ ﻦﻴﺑ ﺎﻨﻫ ﻥﻮﻜﻧ ﻥﺃ ﺞﻋﺰﻤﻟﺍ ﻦﻣ"
+ ethic_xenophobe_request_friendly_3:0 ".$COUNTRY$ ﻲﻠﺜﻤﻣ ﺔﻠﺑﺎﻘﻣ ﺎﻤﺋﺍﺩ ﻊﺘﻤﻤﻟﺍ ﻦﻣ ﻦﻜﻟﻭ ،ﺎﻬﻠﻴﺨﺗ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﺸﺑﺄﺑ ﺀﻲﻠﻣ ﻥﺎﻜﻤﻟﺍ ﺍﺬﻫ !ﻞﻗﺎﻋ ﺺﺨﺷ ﺍﺮﻴﺧﺃﻭ"
+ ethic_xenophobe_request_friendly_4:1 ".ﺢﻴﺤﺼﻟﺍ ﺭﺎﺴﻤﻟﺍ ﻰﻟﺇ [global_event_country.GetGalCommunityOrGalImperium] ﺓﺩﺎﻋﻹ ﺎﻌﻣ ﻞﻤﻌﻧ ﺎﻧﻮﻋﺩ"
+ ethic_xenophobe_request_neutral:0 ".ﻚﻧﺄﺷﻭ ﺭﻭﺮﺳ ﻞﻜﺑ ﻚﻛﺮﺘﻨﺳ ﻚﻟﺫ ﺪﻌﺑﻭ ،ﺍﺬﻫ ﻲﻓ ﺎﻨﻤﻋﺩﺍ ﻂﻘﻓ"
+ ethic_xenophobe_request_neutral_0:0 "؟ﻥﻮﻘﻔﺘﻣ ﻢﺘﻧﺃ ﻞﻫ .ﺎﻨﻧﺄﺷﻭ ﺎﻧﻮﻛﺮﺘﺗ ﻢﺛ ،ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻧﻮﻤﻋﺪﺗ ﻥﺃ :ﻲﻠﻳ ﺎﻣ ﺡﺮﺘﻘﻧ"
+ ethic_xenophobe_request_neutral_1:0 ".ﻚﻤﻋﺩ ﻱﺪﺠﺘﺳﺃ ﻲﻨﻠﻌﺠﺗ ﻻ ﻚﻠﻀﻓ ﻦﻣ ﺍﺬﻟ ،ﺐﻴﻫﺭ ﻂﻐﺿ ﻮﻫ ...ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ...ﻩﺬﻫ ﻞﻜﺑ ﺎﻃﺎﺤﻣ ﻥﻮﻛﺃ ﻥﺃ"
+ ethic_xenophobe_request_neutral_2:0 ".ﺎﻧﺪﻬﺟ ﻯﺭﺎﺼﻗ ﻝﺬﺒﻨﺳ ،ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ .ﺽﺮﻤﻟﺍ ﺮﺸﻧﻭ ﻁﻼﺘﺧﻻﺍ ﺔﻳﺮﺤﺑ ﺐﻧﺎﺟﻷﺍ ﻊﺘﻤﺘﻳ ﺚﻴﺣ ،ﺍﺬﻫ ﻞﺜﻣ ﻥﺎﻜﻣ ﻦﻣ ﻲﺗﺄﺗ ﻥﺃ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺓﺪﺋﺎﻔﻟﺍ ﺎﻣ ﻯﺮﻨﺳ"
+ ethic_xenophobe_request_neutral_3:0 ".ﻪﺗﻻﺎﻘﻤﺑ ﻡﺍﺰﺘﻟﻼﻟ ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺎﺑ ﻕﻮﺛﻮﻟﺍ ﻦﻜﻤﻳ ﻪﻧﺃ ﺽﺍﺮﺘﻓﺍ ﻰﻠﻋ ،ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ $GREETER$ ﺡﺮﺘﻘﻳ"
+ ethic_xenophobe_request_neutral_4:0 ".ﻯﺮﻨﺳ .ﻢﻬﺒﻨﺠﺗ ﻦﻣ ﻻﺪﺑ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﻣ ﻞﻤﻌﻟﺍ ﻲﻓ ﺎﻳﺍﺰﻤﻟﺍ ﺾﻌﺑ ﻙﺎﻨﻫ ﺎﻤﺑﺭ"
+ ethic_xenophobe_request_hostile:0 ".ﻉﺮﺳﺃ ﻞﻜﺸﺑ ﻞﺼﻔﻨﻤﻟﺍ ﺎﻨﻘﻳﺮﻃ ﻲﻓ ﻲﻀﻤﻟﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ﺎﻤﻠﻛ ،ﻉﺮﺳﺃ ﻞﻜﺸﺑ ﺎﻨﺘﻤﻋﺩ ﺎﻤﻠﻛ"
+ ethic_xenophobe_request_hostile_0:0 "...ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﻢﻜﻤﻋﺩ ﺓﺭﻭﺮﻀﻟﺎﺑ ﺽﺭﺎﻌﻧ ﻦﻟ ﺎﻨﻧﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﻚﺗﺪﻋﺎﺴﻣ ﻰﻟﺇ ﺝﺎﺘﺤﻳ ﻻ $GREETER$ :ﺎﻣﺎﻤﺗ ﺎﺤﺿﺍﻭ ﯫﻴﺷ ﻞﻌﺠﻧ ﺎﻧﻮﻋﺩ"
+ ethic_xenophobe_request_hostile_1:0 ".ﻲﺤﺻ ﻑﺮﺻ ﺔﻓﺮﻏ ﺏﺮﻗﺃ ﻦﻋ ﺚﺤﺑﺃ ﺎﻤﻨﻴﺑ ﺓﺭﺬﻌﻤﻟﺍ ﻮﺟﺭﺃ ﻥﻵﺍ .ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﻢﻜﺗﺪﻋﺎﺴﻣ ﺐﻠﻄﺑ ﻲﺘﻣﻮﻜﺣ ﻲﻨﺗﺮﻣﺃ ﺪﻘﻟ"
+ ethic_xenophobe_request_hostile_2:1 ".ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ...ﺎﻧﺭﻭﺩ ﺐﻌﻠﻨﺳ ﺎﻨﻨﻜﻟ ،ﺔﻴﺋﺎﻀﻓ ﺔﻟﺰﻬﻣ ﻦﻋ ﺓﺭﺎﺒﻋ "[global_event_country.GetCommunityOrImperium]" ـﺑ ﻰﻤﺴﻳ ﺎﻣ ﻥﺇ"
+ ethic_xenophobe_request_hostile_3:0 ".ﺎﻧﺪﺿ ﺮﻣﺂﺘﺗ ﻯﺮﺧﻷﺍ ﺔﺒﻳﺮﻐﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻊﻴﻤﺟ ﻥﺃ ﻰﻠﻋ ﻊﻃﺎﻗ ﻞﻴﻟﺩ ﺎﻨﻳﺪﻟ ﻥﻮﻜﻴﺳ ،ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻞﺸﻓ ﺍﺫﺇ"
+ ethic_xenophobe_request_hostile_4:1 ".ﺎﻘﺣ ﺀﻲﺷ ﺍﺬﻫ [global_event_country.GetGalCommunityOrGalImperium] ﻥﺇ .ﺪﺣﺍﻭ ﻥﺎﻜﻣ ﻲﻓ ﺔﻌﻤﺠﺘﻣ ﺔﻘﺋﻼﻟﺍ ﺮﻴﻏ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻦﻣ ﺮﻴﺒﻜﻟﺍ ﺩﺪﻌﻟﺍ ﺍﺬﻫ ﺖﻳﺃﺭ ﻥﺃ ﻲﻟ ﻖﺒﺴﻳ ﻢﻟ"
+
+ ### Request - Materialist
+ ethic_materialist_request_friendly:0 ".ﺔﻟﻮﻘﻌﻣﻭ ﺓﺮﻴﻨﺘﺴﻣ ﺕﺍﺭﺍﺮﻗ ﺫﺎﺨﺗﺍ ﻰﻠﻋ $COUNTRY$ ﺓﺭﺪﻗ ﻲﻓ ﺔﻠﻣﺎﻛ ﺔﻘﺛ $GREETER$ ﻯﺪﻟ"
+ ethic_materialist_request_friendly_0:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻨﻴﻟﺇ ﻢﻀﻧﺍ .ﺕﺎﻓﺍﺮﺨﻟﺍﻭ ﺔﻴﺟﻮﻟﻮﻳﺪﻳﻷﺍ ﻞﺜﻣ ﺔﻴﻃﺎﺒﺘﻋﺍ ﻢﻴﻫﺎﻔﻣ ﻝﻮﺣ ﺮﺟﺎﺸﺘﻧ ﻥﺃ ﻦﻣ ﻞﻀﻓﺃ ﻑﺮﻌﻧ ﻦﺤﻧ"
+ ethic_materialist_request_friendly_1:0 ".ﺎﻨﻌﻣ ﻖﻓﺍﻮﺘﻟﺎﺑ ﺍﻮﺗﻮﺼﺗ ﻥﺃ ﻢﻜﻨﻣ ﻊﻗﻮﺘﻧ ﺐﺒﺴﻟﺍ ﺍﺬﻬﻟﻭ ،ﻞﻘﻌﻟﺍ ﺔﻣﺃ ﻲﻫ $COUNTRY$ ﻥﺇ"
+ ethic_materialist_request_friendly_2:1 ".ﺕﺎﻓﺍﺮﺨﻟﺍﻭ ﺔﻗﺎﻤﺤﻟﺍ ﻦﻣ [global_event_country.GetGalCommunityOrGalImperium] ﺺﻴﻠﺨﺘﻟ ﺎﻌﻣ ﻞﻤﻌﻧ ﻥﺃ ﺐﺠﻳ"
+ ethic_materialist_request_friendly_3:0 ".ﺮﻴﺜﻜﺑ ﺮﺒﻛﺃ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺡﺎﺠﻧ ﺔﻴﻟﺎﻤﺘﺣﺍ ﻥﺈﻓ ،$COUNTRY$ ﻲﻓ ﺎﻨﺋﺎﻗﺪﺻﺃ ﻦﻣ ﻢﻋﺪﺑﻭ"
+ ethic_materialist_request_friendly_4:1 ".ﺕﺎﻓﺍﺮﺨﻟﺍﻭ ﻞﻬﺠﻟﺍ ﻰﻟﺇ ﺀﻲﻄﺒﻟﺍ [global_event_country.GetGalCommunityOrGalImperium] ﺭﺍﺪﺤﻧﺍ ﻊﻨﻣ ﻦﻴﺘﻤﻴﻈﻌﻟﺍ ﺎﻨﻴﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺐﺟﺍﻭ ﻦﻣ ﻪﻧﺇ"
+ ethic_materialist_request_neutral:0 "؟ﻢﻜﻤﻋﺩ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻞﻫ ؛ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ،ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ ؟ﺀﺎﻴﺷﺃ ﻚﻳﺪﻟ ﻥﻮﻜﻳ ﻥﺃ ﻞﻴﻤﺠﻟﺍ ﻦﻣ ﺲﻴﻟﺃ"
+ ethic_materialist_request_neutral_0:0 ".ﺎﻣ ﺎﻣﻮﻳ ﻞﻴﻤﺠﻟﺍ ﻢﻜﻟ ﺩﺮﻧ ﺎﻨﻠﻌﻟﻭ ،ﺖﻳﻮﺼﺘﻟﺍ ﺍﺬﻫ ﻲﻓ ﺎﻧﻮﻤﻋﺩﺍ .ﺔﻴﻠﻤﻌﻟﺍ ﺔﻴﺣﺎﻨﻟﺍ ﻦﻣ ﺍﺬﻫ ﻰﻟﺇ ﺮﻈﻧﺍ"
+ ethic_materialist_request_neutral_1:0 "؟ﺔﻴﻤﻫﺃ ﺮﺜﻛﺃ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﺍﺫﺎﻣ .ﺓﺮﻴﻨﺘﺴﻤﻟﺍ ﺓﺮﺠﻤﻟﺍ ﺢﻟﺎﺼﻟ ﺖﻳﻮﺼﺘﻟﺍ ﺔﺑﺎﺜﻤﺑ ﻮﻫ ﺎﻨﺤﻟﺎﺼﻟ ﺖﻳﻮﺼﺘﻟﺍ"
+ ethic_materialist_request_neutral_2:0 ".ﻲﺿﺎﻳﺭ ﻦﻴﻘﻳ ﻪﻧﺇ .ﻞﻜﻛ ﺓﺮﺠﻤﻠﻟ ﺪﺋﺍﻮﻔﻟﺍ ﻢﻈﻋﺃ ﻖﻴﻘﺤﺗ ﻰﻟﺇ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻱﺩﺆﻴﺳ"
+ ethic_materialist_request_neutral_3:0 ".ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﻞﻘﻌﻟﺍ ﺮﺼﻋ ﺀﺪﺒﻟ ﺎﻫﺩﻮﻬﺟ ﻲﻓ $COUNTRY$ ﺓﺪﻋﺎﺴﻣ ﺀﺎﺟﺮﻟﺍ"
+ ethic_materialist_request_neutral_4:0 "؟ﺭﺍﺮﻘﻟﺍ ﺍﺬﻬﻟ ﺎﻬﻤﻋﺩ ﻢﻳﺪﻘﺗﻭ ﻞﻘﻌﻟﺍ ﺩﻭﺪﺣ ﻦﻤﺿ ﻑﺮﺼﺘﻠﻟ $COUNTRY$ ـﺑ ﻕﻮﺛﻮﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻞﻫ"
+ ethic_materialist_request_hostile:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻧﻭﺪﻋﺎﺳ !ﺓﺪﺣﺍﻭ ﺓﺮﻤﻟ ﻰﻤﻋﻷﺍ ﻞﻬﺠﻟﺍ ﻦﻋ ﺪﻌﺘﺑﺍ"
+ ethic_materialist_request_hostile_0:0 ".ﻞﻘﻌﻠﻟ ﺎﻘﻓﻭ ﺖﻳﻮﺼﺘﻟﺍﻭ ﺎﺒﻧﺎﺟ ﺔﻬﻓﺎﺘﻟﺍ ﺕﺎﻴﺟﻮﻟﻮﻳﺪﻳﻷﺍ ﺔﻴﺤﻨﺗ ﻦﻜﻤﻤﻟﺍ ﻦﻣ"
+ ethic_materialist_request_hostile_1:0 "؟ﻩﻮﺘﻌﻣ ﺖﻧﺃ ﻞﻫ .ﺖﻳﻮﺼﺘﻟﺍ ﺍﺬﻫ ﻲﻓ ﺎﻨﺿﺭﺎﻌﻴﺳ ﻩﻮﺘﻌﻣ ﻂﻘﻓ"
+ ethic_materialist_request_hostile_2:0 ".ﺎﻬﺗﺍﺫ ﻞﻘﻌﻟﺍﻭ ﻖﻄﻨﻤﻟﺍ ﻢﻴﻫﺎﻔﻤﻟ ﺔﺿﺭﺎﻌﻣ ﺔﺑﺎﺜﻤﺑ ﻥﻮﻜﺘﺳ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺔﺿﺭﺎﻌﻣ ﻥﺇ"
+ ethic_materialist_request_hostile_3:0 ".ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﻞﻬﺠﻟﺍ ﻦﻣ ﺶﻫﺪﻣ ﺭﺪﻗ ﻙﺎﻨﻫ"
+ ethic_materialist_request_hostile_4:0 "...ﻪﺣﺮﺘﻘﻧ ﻱﺬﻟﺍ ﺭﺍﺮﻘﻠﻟ ﻞﻣﺎﻜﻟﺍ ﻰﻨﻌﻤﻟﺍ ﻙﺭﺪﺗ ﻥﺃ ﻻﺇ ﻊﻴﻄﺘﺴﺗ ﻻ ﺔﻔﻴﻌﻀﻟﺍ ﻢﻜﻟﻮﻘﻋ ﺖﻴﻟ"
+
+ ### Request - Spiritualist
+ ethic_spiritualist_request_friendly:0 ".ﻯﺮﺧﺃ ﺓﺮﻣ ﻚﻟﺫ ﻞﻌﻔﻴﺳ ﻪﻧﺃ ﻦﻣ ﻦﻴﻘﻳ ﻰﻠﻋ ﻦﺤﻧﻭ ،ﻞﺒﻗ ﻦﻣ ﻪﺘﻤﻜﺣ $COUNTRY$ ﺖﺒﺛﺃ ﺪﻘﻟ"
+ ethic_spiritualist_request_friendly_0:0 ".ﺔﻳﻮﻴﻧﺪﻟﺍ ﺭﻮﻣﻷﺎﺑ ﻚﺒﺗﺮﻧ ﻥﺃ ﻦﻣ ﻞﻀﻓﺃ ﻑﺮﻌﻧ ﻦﺤﻨﻓ - ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻨﻤﻋﺩﺍ ﻚﻠﻀﻓ ﻦﻣ"
+ ethic_spiritualist_request_friendly_1:0 ".ﺐﻠﻐﺘﻧ ﻑﻮﺳ"
+ ethic_spiritualist_request_friendly_2:0 "؟ﻢﻜﻤﻋﺩ ﺎﻨﻟ ﻥﻮﻣﺪﻘﺘﺳ ﻞﻫ .$COUNTRY$ ﻰﻠﻋ ﺡﺍﻭﺭﻷﺍ ﻢﺴﺘﺒﺗ ﻥﺃ ﻰﻨﻤﺗﺃ"
+ ethic_spiritualist_request_friendly_3:0 ".ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﻯﻮﻗﺃ ﻦﻴﺘﻤﻴﻈﻌﻟﺍ ﺎﻨﻴﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻦﻴﺑ ﺔﻴﺣﻭﺮﻟﺍ ﺔﺑﺍﺮﻘﻟﺍ ﻥﺇ"
+ ethic_spiritualist_request_friendly_4:0 ".$GREETER$ ﻊﻣ ﻝﺎﺤﻟﺍ ﻮﻫ ﺎﻤﻛ ﺎﻣﺎﻤﺗ ،ﺔﻤﻴﻈﻋ ﺀﺎﻴﺷﻷ ﺺﺼﺨﻣ $COUNTRY$ ﻥﺇ"
+ ethic_spiritualist_request_neutral:0 ".ﻚﻟﺬﻟ ﻪﺒﺘﻧﺍ .ﺎﻧﺮﻈﻧ ﺔﻬﺟﻭ ﻊﻣ ﻖﻔﺘﻳ ﻲﻠﺧﺍﺩ ﺕﻮﺻ ﻚﻳﺪﻟ ﻥﻮﻜﻳ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣ"
+ ethic_spiritualist_request_neutral_0:0 ".ﻚﻟﺬﻛ ﻪﻧﻷ ؟ﻪﻠﻤﻋ ﻲﻐﺒﻨﻳ ﻱﺬﻟﺍ ﺢﻴﺤﺼﻟﺍ ﺀﻲﺸﻟﺍ ﺎﻬﻧﺄﻛﻭ ﺎﻨﻌﻣ ﻖﻓﺍﻮﺘﻤﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﺓﺮﻜﻓ ﻭﺪﺒﺗ ﺍﺫﺎﻤﻟ ﻑﺮﻌﺗ ﻞﻫ"
+ ethic_spiritualist_request_neutral_1:0 ".ﻚﺣﻭﺮﻟ ﺎﻘﻓﻭ ﺖﻳﻮﺼﺘﻟﺎﺑ ﻢﻗ - ﻂﻄﺨﻟﺍ ﻭﺃ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﺜﻣ ﺔﻌﻴﺿﻮﻟﺍ ﺀﺎﻴﺷﻷﺎﺑ ﻢﺘﻬﺗ ﻻ"
+ ethic_spiritualist_request_neutral_2:0 ".ﺎﻨﺴﻔﻧﺃ ﻦﻣ ﺮﻴﺜﻜﺑ ﻢﻈﻋﺃ ﺀﻲﺸﻟ ﺔﻴﻋﻭﺃ ﻯﻮﺳ ﺎﻨﺴﻟ ﻦﺤﻧ"
+ ethic_spiritualist_request_neutral_3:0 "؟ﺹﻼﺨﻟﺍ ﻖﻳﺮﻃ ﻲﻓ $GREETER$ ﻰﻟﺇ $COUNTRY$ ﻢﻀﻨﻴﺳ ﻞﻫ"
+ ethic_spiritualist_request_neutral_4:0 ".ﺎﻣﺪﻗ ﻲﻀﻤﻠﻟ ﺪﻴﺣﻮﻟﺍ ﻞﻴﺒﺴﻟﺍ ﻮﻫ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺩﺎﻤﺘﻋﺍ :ﺔﻘﻴﻘﺤﻟﺍ ﺍﻭﺮﻈﻧﺍﻭ ﻢﻜﺴﻔﻧﺃ ﻞﺧﺍﺩ ﺍﻭﺮﻈﻧﺍ"
+ ethic_spiritualist_request_hostile:0 ".ﺎﺤﺿﺍﻭ ﺔﻤﻜﺤﻟﺍ ﻰﻟﺇ ﻚﻘﻳﺮﻃ ﺢﺒﺼﻴﺳﻭ ﺎﻨﻤﻋﺩﺍ .ﺯﻮﻌﻟﺍﻭ ﺔﻳﺩﺎﻤﻟﺍ ﻝﻼﻏﺃ ﻦﻣ ﺺﻠﺨﺗ"
+ ethic_spiritualist_request_hostile_0:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻨﻤﻋﺩ ﻲﻫ ﻰﻟﻭﻷﺍ ﺓﻮﻄﺨﻟﺍ .ﺭﻮﻨﻟﺍ ﻰﻟﺇ ﻯﺮﺧﺃ ﺓﺮﻣ ﻪﻘﻳﺮﻃ ﺪﺠﻳ ﺪﻗ ﻪﻨﻜﻟ ،ﻡﻼﻈﻟﺍ ﻲﻓ $COUNTRY$ ﻂﺒﺨﺘﻳ"
+ ethic_spiritualist_request_hostile_1:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﻪﻋﺎﺒﺗﺍ ﺐﺠﻳ ﻱﺬﻟﺍ ﻲﻘﻴﻘﺤﻟﺍ ﺭﺎﺴﻤﻟﺍ ﻰﻠﻋ $COUNTRY$ ﻑﺮﻌﺘﻳ ﻥﺃ ﷲ ﻮﻋﺪﻧ ﺎﻨﻧﺈﻓ ،ﺎﻘﺑﺎﺳ ﺎﻬﺘﺒﻜﺗﺭﺍ ﻲﺘﻟﺍ ﺓﺪﻳﺪﻌﻟﺍ ﺔﺣﺩﺎﻔﻟﺍ ﺀﺎﻄﺧﻷﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ ethic_spiritualist_request_hostile_2:0 ".ﻢﻜﻤﻋﺩ ﺐﻠﻄﻟ ...ﻥﻭﺮﻄﻀﻣ ﻦﺤﻧ ﺚﻴﺣ ﻊﺿﻭ ﺙﺍﺪﺣﻹ ﺭﺍﺪﻗﻷﺍ ﺕﺮﻣﺂﺗ ﺪﻘﻟ"
+ ethic_spiritualist_request_hostile_3:0 "...ﻞﻣﺃ ﻙﺎﻨﻫ ﻝﺍﺰﻳ ﻼﻓ ،ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺕﺪﻳﺃ ﺍﺫﺇ .ﻥﻵﺍ ﻰﺘﺣ ﻚﻳﺪﻳ ﻦﻴﺑ ﻦﻣ ﺎﻣﺎﻤﺗ ﺹﻼﺨﻟﺍ ﺖﻠﻔﻳ ﻢﻟ ﺎﻤﺑﺭ"
+ ethic_spiritualist_request_hostile_4:0 ".ﻚﻟ ﺔﺒﺴﻨﻟﺎﺑ ﻥﺍﻭﻷﺍ ﺖﻔﻳ ﻢﻟ ؟ﺔﻳﻮﻴﻧﺪﻟﺍ ﻪﻗﺮﻃ ﺡﻼﺻﺇ ﺍﺮﻴﺧﺃ $COUNTRY$ ﻝﻭﺎﺤﻴﺳ ﻞﻫ"
+
+ ### Request - Hive Mind
+ ethic_hivemind_request_friendly:0 "؟ﻙﺎﻨﻫ ﻞﻫ - ﺎﻘﺣ ،ﻻ\n\n؟ﻯﺮﺧﺃ ﺔﻘﻳﺮﻃ ﻱﺃ ﻙﺎﻨﻫ ﻞﻫ ؟ﻡﺎﺗ ﻡﺎﺠﺴﻧﺍ ﻲﻓ ﻞﻤﻌﻟﺎﺑ ﻦﻴﻣﺰﻠﻣ ﺎﻨﺴﻟ ﻦﺤﻧ ﻞﻫ"
+ ethic_hivemind_request_friendly_0:0 ".$COUNTRY$ ﻢﻋﺪﺑ ﻊﺘﻤﺘﻟﺍ ﻝﺎﻤﺘﺣﺍ ﻰﻟﺇ $GREETER$ ﻊﻠﻄﺘﻳ"
+ ethic_hivemind_request_friendly_1:0 "؟ﻑﻼﺨﻟﺍ ﺀﻮﺳ ﺎﻨﺒﻨﺠﻳﻭ ،ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ $COUNTRY$ ﺎﻨﻤﻋﺪﻴﺳ ﻞﻫ"
+ ethic_hivemind_request_friendly_2:0 ".ﺓﺪﻴﺟ ﺔﻘﻳﺮﻄﺑ ﺍﺬﻫ ﻲﻨﻌﻧ\n\n.ﺎﻨﺴﻔﻧﻷ ﺩﺍﺪﺘﻣﺎﻛ $GREETER$ ﻰﻟﺇ ﺮﻈﻨﻧ ﻦﺤﻧ ،ﻲﺣﺍﻮﻨﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻲﻓ"
+ ethic_hivemind_request_friendly_3:0 "؟ﻥﻵﺍ ﺎﻧﺪﻋﺎﺴﺘﺳ ﻞﻫ .ﻲﺿﺎﻤﻟﺍ ﻲﻓ [this.GetGestaltEntityName] ـﻟ ﺀﺎﻗﺪﺻﺃ ﻢﻜﻧﺃ ﻢﺘﺒﺛﺃ ﺪﻘﻟ"
+ ethic_hivemind_request_friendly_4:0 "؟ﺔﻟﺄﺴﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺎﻨﻌﻣ ﺪﺣﺍﻭ ﻱﺃﺭ ﻰﻠﻋ ﻢﺘﻧﺃ ﺪﻴﻛﺄﺘﻟﺎﺑ"
+ ethic_hivemind_request_neutral:0 ".ﺎﻨﻤﻋﺩﺍ .ﻡﻮﻴﻟﺍ ﺃﺪﺑﺍ\n\n.ﻪﻨﻣ ﺮﻔﻣ ﻻ ﺮﻣﺃ ﻪﻧﺇ .[this.GetGestaltEntityName] ﺓﺩﺍﺭﻹ ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﻊﻀﺨﺗ ﺀﺎﻴﺷﻷﺍ ﻞﻛ"
+ ethic_hivemind_request_neutral_0:0 ".ﺎﻨﻤﻋﺩﺍ .ﺎﻨﻴﻠﻋ ﺐﻳﺮﻏ "ﻑﻼﺨﻟﺍ" ﻡﻮﻬﻔﻣ ﻥﺇ"
+ ethic_hivemind_request_neutral_1:0 ".ﺓﺮﺜﻜﻟﺍ ﻦﺤﻧ\n\n.ﺔﻠﻘﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﺍ ﻕﻮﻔﺗ ﻦﻳﺮﻴﺜﻜﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﺍ ﻥﺇ"
+ ethic_hivemind_request_neutral_2:1 ".[global_event_country.GetGalCommunityOrGalImperium] ﺭﺍﺮﻘﺘﺳﺍ ﺔﻋﺰﻋﺰﺑ ﺮﻃﺎﺨﺗ ﻚﻧﺈﻓ ﻻﺇﻭ ،ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﻢﻋﺩﺍ .ﻑﻼﺨﻟﺍ ﺐﻨﺠﺗ ﺐﺠﻳﻭ"
+ ethic_hivemind_request_neutral_3:1 ".ﻼﻳﻮﻃ ﺎﺘﻗﻭ ﻕﺮﻐﺘﺴﺗﻭ ﺔﻳﺎﻐﻠﻟ ﺔﻟﺎﻌﻓ ﺮﻴﻏ ...[global_event_country.GetGalCommunityOrGalImperium] ﻲﻓ ﻱﺩﺮﻓ ﻥﻮﻜﻣ ﻞﻛ ﺓﺭﺎﺸﺘﺳﺍ ﻝﻼﺧ ﻦﻣ ﻉﺎﻤﺟﻹﺍ ﻰﻟﺇ ﻞﺻﻮﺘﻠﻟ ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻫ ﻭﺪﺒﺗ"
+ ethic_hivemind_request_neutral_4:0 ".ﺔﻳﺮﺠﻤﻟﺍ ﺔﻴﻤﻫﻷﺍ ﺕﺍﺫ ﺔﻟﺄﺴﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﻊﻴﻄﻤﻟﺍ ﻚﻤﻋﺩ [this.GetGestaltEntityName] ﺐﻠﻄﺘﻳ"
+ ethic_hivemind_request_hostile:0 "؟ﻚﻟﺫ ﻲﻓ ﺔﻄﻘﻨﻟﺍ ﻥﻮﻜﺘﺳ ﺍﺫﺎﻣ .ﻪﻨﻣ ﺮﻔﻣ ﻻ ﺎﻤﻟ ﺮﻴﺧﺄﺗ ﻮﻫ $GREETER$ ﺪﺿ ﺖﻳﻮﺼﺘﻟﺍ ﻥﺇ"
+ ethic_hivemind_request_hostile_0:0 "؟ﻥﻵﺍ ﺃﺪﺒﺗ ﻻ ﺍﺫﺎﻤﻠﻓ ،ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ [this.GetGestaltEntityName] ﻰﻟﺇ ﻡﺪﻘﺘﺳ .ﺎﻨﻤﻋﺩﺍ"
+ ethic_hivemind_request_hostile_1:0 ".ﺔﻴﻧﺎﻧﻷﺍ ﺔﻳﺩﺮﻔﻠﻟ ﻢﻠﺴﺘﺴﺗ ﻻ"
+ ethic_hivemind_request_hostile_2:0 ".[this.GetGestaltEntityName] ﺓﺩﺍﺭﺇ ﺔﻋﺎﻃﺇ ﺐﺠﻳ"
+ ethic_hivemind_request_hostile_3:0 ".ﺔﻟﺄﺴﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺔﺿﺭﺎﻌﻤﻟﺍ ﻊﻣ ﺢﻣﺎﺴﺘﻟﺍ ﻦﻜﻤﻳ ﻻ"
+ ethic_hivemind_request_hostile_4:0 ".[this.GetIndividualNamePlural] ﺪﺣﺃ ﻦﻣ ﻙﻮﻠﺴﻟﺍ ﺍﺬﻫ ﻞﺜﻣ ﻊﻣ ﺍﺪﺑﺃ ﺢﻣﺎﺴﺘﻧ ﻦﻟ"
+
+ ### Request - Machine Intelligence
+ ethic_machine_intelligence_request_friendly:0 ".ﻲﻘﻄﻨﻣ ﻪﻧﺃ $COUNTRY$ ﺖﺒﺛﺃ ﺪﻘﻟ .ﺎﻴﻘﻄﻨﻣ ﺍﺮﻣﺃ $GREETER$ ﻢﻋﺩ ﺪﻌﻳ"
+ ethic_machine_intelligence_request_friendly_0:0 "HIGH :ﺔﺑﻮﺴﺤﻤﻟﺍ ﺔﻘﻓﺍﻮﻤﻟﺍ ﺔﻴﻟﺎﻤﺘﺣﺍ\n\n.ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﻢﻋﺪﻟﺍ ﺐﻠﻃ ﻢﺗ"
+ ethic_machine_intelligence_request_friendly_1:0 "...ﺩﺮﻟﺍ ﺭﺎﻈﺘﻧﺍ ﻲﻓ\n\n.ﺭﺍﺮﻘﻟﺍ ﻰﻠﻋ ﺖﻳﻮﺼﺘﻟﺍ ﻢﻋﺩ ﺐﻠﻃ ﻢﺗ"
+ ethic_machine_intelligence_request_friendly_2:1 ".ﻯﺪﻤﻟﺍ ﺔﻠﻳﻮﻃ ﺔﻛﺮﺘﺸﻤﻟﺍ ﺎﻨﻓﺍﺪﻫﺃ ﻊﻣ ﺎﻘﻓﺍﻮﺗ ﺮﺜﻛﺃ ﺞﻣﺎﻧﺮﺑ ﻰﻟﺇ [global_event_country.GetGalCommunityOrGalImperium] ﺔﻠﻜﻴﻫ ﺓﺩﺎﻋﺇ ﺎﻨﻨﻜﻤﻳ ،ﺎﻌﻣ .$ﺪﻠﺒﻟﺍ$"
+ ethic_machine_intelligence_request_friendly_3:0 ".$COUNTRY$ ـﻟ ﻡﺎﻌﻟﺍ ﻊﺿﻮﻟﺍ ﺯﺰﻌﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺩﺎﻤﺘﻋﺍ ﻥﺃ ﻰﻟﺇ ﺎﻨﻳﺪﻟ ﺆﺒﻨﺘﻟﺍ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ ﺮﻴﺸﺗ"
+ ethic_machine_intelligence_request_friendly_4:0 ".$COUNTRY$ ﻲﻓ ﻪﺋﺎﻗﺪﺻﺃ ﻢﻋﺩ ﻰﻠﻋ ﻪﻟﻮﺼﺣ ﻦﻣ ﻖﺛﺍﻭ $GREETER$ ﻥﺇ"
+ ethic_machine_intelligence_request_neutral:0 "؟ﻢﻗﺮﻟﺍ ﺍﺬﻫ ﻦﻴﺴﺤﺗ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻊﻴﻄﺘﺴﺗ ﻞﻫ .197 ﻞﺑﺎﻘﻣ 231 ﻮﻫ ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻨﻟ $COUNTRY$ ﻢﻋﺪﻟ ﻲﺋﺎﺼﺣﻹﺍ ﻝﺎﻤﺘﺣﻻﺍ"
+ ethic_machine_intelligence_request_neutral_0:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ $COUNTRY$ ﻊﺿﻮﻣ ﺪﻳﺪﺤﺗ ﻲﻓ ﺕﺎﺑﻮﻌﺻ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻪﺟﺍﻮﺗ"
+ ethic_machine_intelligence_request_neutral_1:0 " { SimulatedGratitude = TRUE; }\nif ( VOTE("$COUNTRY$") == VOTE("$GREETER$") )"
+ ethic_machine_intelligence_request_neutral_2:0 "؟ﺎﻧﺭﺍﺮﻗ ﺪﻳﺆﺘﺳ ﻞﻫ :ﻝﺍﺆﺳ"
+ ethic_machine_intelligence_request_neutral_3:1 ".[global_event_country.GetGalCommunityOrGalImperium] ﻕﺎﺜﻴﻣ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺔﺣﺮﺘﻘﻤﻟﺍ ﺕﻼﻳﺪﻌﺘﻟﺍ ﻞﻤﻌﺘﺳ"
+ ethic_machine_intelligence_request_neutral_4:1 ".[global_event_country.GetGalCommunityOrGalImperium] ﺩﻮﻛ ﺓﺪﻋﺎﻗ ﻰﻠﻋ ﺔﺣﺮﺘﻘﻤﻟﺍ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ ﺔﻌﺟﺍﺮﻣ ﻰﺟﺮﻳ"
+ ethic_machine_intelligence_request_hostile:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﻢﻋﺪﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺔﻠﻴﺌﺿ ﺔﺻﺮﻓ $GREETER$ ﺖﺒﺴﺣ ﺪﻘﻓ ،$COUNTRY$ ﻲﻓ ﺎﻬﻨﻋ ﻍﻼﺑﻹﺍ ﻢﺗ ﻲﺘﻟﺍ ﺀﺎﻄﺧﻸﻟ ﺞﻋﺰﻤﻟﺍ ﺩﺪﻌﻟﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ ethic_machine_intelligence_request_hostile_0:0 "LOW :ﺔﺑﻮﺴﺤﻤﻟﺍ ﻕﺎﻔﺗﻻﺍ ﺔﻴﻟﺎﻤﺘﺣﺍ\n\n.ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﻢﻋﺪﻟﺍ ﺐﻠﻃ ﻢﺗ"
+ ethic_machine_intelligence_request_hostile_1:0 ".ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻨﻤﻋﺩﻭ ﻚﻳﺪﻟ ﺔﻣﺎﻬﻟﺍ ﺞﻣﺍﺮﺒﻟﺍ ﺏﻮﻴﻋ ﻰﻠﻋ ﺐﻠﻐﺘﻟﺍ ﻰﻠﻋ $GREETER$ ﻚﺜﺤﻳ"
+ ethic_machine_intelligence_request_hostile_2:1 ".ﻙﺎﻳﺍﻮﻧ ﺮﻛﺫﺍ .[global_event_country.GetGalCommunityOrGalImperium] ﻲﻓ ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﺍﺮﻴﻐﺘﻣ $COUNTRY$ ﺪﻌﻳ"
+ ethic_machine_intelligence_request_hostile_3:0 ".ﺔﻴﺴﻜﻋ ﺞﺋﺎﺘﻧ ﻰﻟﺇ ﻱﺩﺆﺘﺳ ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺔﺿﺭﺎﻌﻣ ﻥﺇ"
+ ethic_machine_intelligence_request_hostile_4:0 ".ﺭﺍﺮﻘﻟﺍ ﺍﺬﻫ ﺔﺿﺭﺎﻌﻣ $COUNTRY$ ﺭﺎﻴﺘﺧﺍ ﺔﻟﺎﺣ ﻲﻓ ﻚﻠﺒﻘﺘﺴﻣ ﻢﻴﻴﻘﺗ ﻰﻠﻋ ﺓﺪﺸﺑ ﻚﺜﺤﻧ ﻦﺤﻧ"
+
+
+ ### RESOLUTION COMMENTS - WARNINGS
+ ### Warning - Militarist
+ ethic_militarist_warning_hostile:0 ".ﺍﺫﺎﻤﻟ ﻑﺮﻌﺗ ﺖﻧﺃ .ﺎﻧﺪﺿ ﺍﻮﺗﻮﺼﺗ ﻻ"
+ ethic_militarist_warning_hostile_0:0 ".ﺎﻨﻟ ﺮﺒﻌﺗ ﻻ .ﻚﻟﺫ ﻦﻣ ﻞﻗﺃ ﻰﻠﻋ ﺔﺿﺭﺎﻌﻤﻟﺍ $GREETER$ ﻖﺤﺳ ﺪﻘﻟ"
+ ethic_militarist_warning_hostile_1:0 ".ﻚﺘﻳﺎﻬﻧ ﺔﻳﺍﺪﺑ ﻰﻠﻋ ﻊﻴﻗﻮﺘﻟﺍ ﺔﺑﺎﺜﻤﺑ ﻮﻫ ﺮﻗﻮﻤﻟﺍ $GREETER$ ﻊﻣ ﺽﺭﺎﻌﺘﻳ ﺀﻲﺷ ﻱﺃ ﻰﻠﻋ ﻊﻴﻗﻮﺘﻟﺍ ﻥﺇ"
+
+ ### Warning - Pacifist
+ ethic_pacifist_warning_hostile:2 ".ﺓﺎﻧﺎﻌﻤﻟﺍ ﻰﻟﺇ ﻚﻟﺫ ﻱﺩﺆﻳ ﻑﻮﺳﻭ - ﻒﻨﻌﻟﺍ ﻖﻳﺮﻃ ﺕﺮﺘﺧﺍ ﻚﻧﺃ ﻢﻠﻌﻨﺴﻓ ،ﺎﻧﺪﺿ ﺖﻳﻮﺼﺘﻟﺎﺑ ﺖﻤﻗ ﺍﺫﺇ"
+ ethic_pacifist_warning_hostile_0:1 "؟ﺪﻴﻛﺄﺘﻟﺎﺑ ،ﺭﺎﻬﻨﺗ $COUNTRY$ ﺔﻳﺅﺭ ﻲﻓ ﺐﻏﺮﺗ ﻻ ﺖﻧﺃ"
+ ethic_pacifist_warning_hostile_1:1 ".ﻚﻠﺸﻓ ﻥﻮﻜﻴﺳ .ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ $GREETER$ ﺽﺭﺎﻌﺗ ﻻ"
+
+ ### Warning - Authoritarian
+ ethic_authoritarian_warning_hostile:0 ".ﺔﺿﺭﺎﻌﻤﻟﺍ ﻊﻣ ﺢﻣﺎﺴﺘﻟﺍ ﻦﻜﻤﻳ ﻻ"
+ ethic_authoritarian_warning_hostile_0:0 ".ﻚﻟﺫ ﺮﻈﺤﻳ $GREETER$ .ﺎﻧﺪﺿ ﺍﻮﺗﻮﺼﺗ ﻦﻟ"
+ ethic_authoritarian_warning_hostile_1:0 ".ﺕﺎﻴﻋﺍﺪﺘﻟﺎﺑ ﻢﺘﻧﺃ ﺍﻮﻌﺘﻤﺘﺴﺗ ﻦﻠﻓ ،ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﻢﻜﻤﻋﺪﺑ ﻊﺘﻤﺘﻧ ﻢﻟ ﺍﺫﺇ"
+
+ ### Warning - Egalitarian
+ ethic_egalitarian_warning_hostile:0 "!؟ﺐﻌﺸﻟﺍ ﺓﺩﺍﺭﺇ ﺽﺭﺎﻌﺗ ﻰﺘﺣ ﺖﻧﺃ ﻦﻣ"
+ ethic_egalitarian_warning_hostile_0:0 ". ﺮﻴﻫﺎﻤﺠﻟﺍ ﺩﺮﻤﺘﺗ ﻑﻮﺳ .ﺮﻴﻫﺎﻤﺠﻟﺍ ﺪﺿ ﺍﻮﺗﻮﺼﺗ ﻻ"
+ ethic_egalitarian_warning_hostile_1:0 "؟ﺓﺍﻭﺎﺴﻤﻟﺍﻭ ﺔﻟﺍﺪﻌﻟﺍ ﺪﺿ ﺕﻮﺼﻴﺳ ﺐﻠﻗ ﻼﺑ ﺶﺣﻭ ﻱﺃ"
+
+ ### Warning - Xenophile
+ ethic_xenophile_warning_hostile:0 ".ﻥﻵﺍ ﺪﻌﺑ ﺀﺎﻗﺪﺻﺃ ﺢﺒﺼﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﻪﻧﺃ ﺪﻘﺘﻋﺃ ﻼﻓ ،ﺎﻧﺪﺿ ﺖﻳﻮﺼﺘﻟﺎﺑ ﺖﻤﻗ ﺍﺫﺇ"
+ ethic_xenophile_warning_hostile_0:0 ".ﻪﺋﺎﻔﻠﺣ ﻥﻮﺨﻳ ﻦﻟ ﻲﻘﻴﻘﺤﻟﺍ ﻦﻃﺍﻮﻤﻟﺍ"
+ ethic_xenophile_warning_hostile_1:0 ".ﺍﺪﺟ ﺎﻨﻳﺰﺣ ﺮﻣﻷﺍ ﻥﻮﻜﻴﺳ .ﺎﻧﺪﺿ ﺕﻮﺼﺗ ﻻ ﻚﻠﻀﻓ ﻦﻣ"
+
+ ### Warning - Xenophobe
+ ethic_xenophobe_warning_hostile:0 ".ﻚﻟﺫ ﻦﻣ ﺮﺜﻛﺃ ﻪﺘﻴﻧﻭﺩ ﺕﺎﺒﺛﺇ ﻰﻟﺇ ﻚﺴﻨﺟ ﺝﺎﺘﺤﻳ ﻻ ؛ﺎﻧﺪﺿ ﺍﻮﺗﻮﺼﺗ ﻻ"
+ ethic_xenophobe_warning_hostile_0:0 ".ﻚﻟﺎﺜﻣﻷ ﻰﺘﺣ ﻢﻴﻜﺣ ﺮﻴﻏ .ﺎﻧﺪﺿ ﺖﻳﻮﺼﺘﻟﺍ ﺔﻤﻜﺤﻟﺍ ﺮﻴﻏ ﻦﻣ ﻥﻮﻜﻴﺳﻭ"
+ ethic_xenophobe_warning_hostile_1:0 ".ﺎﻨﺿﺭﺎﻌﺗ ﻻ .ﻞﻌﻔﻟﺎﺑ ﻚﻳﺪﻟ ﺎﻤﻣ ﺮﺜﻛﺃ ﺔﻴﻓﺎﻘﺜﻟﺍ ﻚﺑﻮﻴﻋ ﺖﺒﺜﺗ ﻻ"
+
+ ### Warning - Materialist
+ ethic_materialist_warning_hostile:0 ".ﺀﺎﻄﺧﻷﺍ ﻩﺬﻫ ﻞﺜﻣ ﻊﻣ ﻞﻣﺎﻌﺘﻠﻟ ﺔﻘﻳﺮﻃ ﻪﻳﺪﻟ ﻥﻮﻜﻟﺍ .ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻧﻮﺿﺭﺎﻌﺗ ﻻ"
+ ethic_materialist_warning_hostile_0:0 ".ﺀﺎﻄﺧﻷﺍ ﻚﻠﺗ ﺪﺣﺃ ﻥﻮﻜﻳ ﻦﻟ ﺎﻧﺪﺿ ﺖﻳﻮﺼﺘﻟﺍ .ﺔﻴﻤﻴﻠﻌﺗ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻳ ﺀﺎﻄﺧﻷﺍ ﺾﻌﺑ"
+ ethic_materialist_warning_hostile_1:0 ".ﺎﻴﻠﻤﻋ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ .ﺔﻴﻠﻤﻋ ﻥﻮﻜﺗ ﻦﻟ ﻡﺩﺎﻘﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ ﻲﻓ ﺎﻨﺘﺿﺭﺎﻌﻣ ﻥﺇ"
+
+ ### Warning - Spiritualist
+ ethic_spiritualist_warning_hostile:0 ".ﺎﻨﺘﺿﺭﺎﻋ ﺍﺫﺇ ﻚﻘﻳﺮﻃ ﻲﻓ ﻲﺗﺄﺗ ﻲﺘﻟﺍ ﺕﻼﻳﻮﻠﻟ ﻞﻣﺎﻜﻟﺍ ﻕﺎﻄﻨﻟﺍ ﺔﻳﺅﺭ ﻒﻴﻌﻀﻟﺍ ﻚﻠﻘﻋ ﻊﻴﻄﺘﺴﻳ ﻻ"
+ ethic_spiritualist_warning_hostile_0:0 "!؟ ﷲ ﻖﺣ ﻲﻓ ﻚﻜﺸﺗ ﻰﺘﺣ ﺖﻧﺃ ﻦﻣ"
+ ethic_spiritualist_warning_hostile_1:0 ".ﺪﺴﺠﻟﺍ ﻪﻌﺒﺘﻴﺳﻭ ،ﻚﺣﻭﺭ ﻖﺤﺴﻳ ﻑﻮﺳ .ﺎﻨﺿﺭﺎﻌﺗ ﻻ"
+
+ ### Warning - Hive Mind
+ ethic_hivemind_warning_hostile:1 ".ﻼﻴﻠﻗ ﺲﻴﻟ .ﻚﻟﺫ ﺐﺤﻧ ﻻ ﻦﺤﻧ .ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺓﺪﻳﺪﺟ "ﺔﺿﺭﺎﻌﻤﻟﺍ" ﺓﺮﻜﻓ ﻥﺇ"
+ ethic_hivemind_warning_hostile_0:0 "."ﺢﻣﺎﺴﺘﻟﺍ" ...ﺔﻤﻠﻜﻟﺍ ﻲﻫ ﺎﻣ ...ﻲﻓ ﻥﯯﻴﺳ ﻦﺤﻧ .$GREETER$ ﺽﺭﺎﻌﺗ ﻻ"
+ ethic_hivemind_warning_hostile_1:0 ".ﺍﺪﺑﺃ .ﺢﻣﺎﺴﻳ ﻻﻭ ﻰﺴﻨﻳ ﻻ $GREETER$ ﻥﺃ ﻢﻠﻋﺍ ،ﺎﻧﺪﺿ ﺕﻮﺼﺗ ﻥﺃ ﻞﺒﻗ"
+
+ ### Warning - Machine Intelligence
+ ethic_machine_intelligence_warning_hostile:0 ".ﺏﻮﻴﻌﻟﺍ ﻊﻴﻤﺟ ﺔﻟﺍﺯﺇ ﻢﺘﺗ ﻰﺘﺣ ﺎﻤﺋﺍﺩ ﺭﺮﻜﻧ ﻦﺤﻧ .ﻲﻘﻄﻨﻣ ﻞﻠﺧ ﺩﻮﺟﻭ ﻰﻟﺇ ﺮﻴﺸﺗ ﺔﺿﺭﺎﻌﻤﻟﺍﻭ"
+ ethic_machine_intelligence_warning_hostile_0:0 "؟ﺕﺎﻗﺭﺎﻔﻤﻟﺍ ﻲﻓ ﺕﻻﻵﺍ ﻱﺃﺭ ﻦﻋ ﻞﺒﻗ ﻦﻣ ﺪﺣﺃ ﻙﺮﺒﺧﺃ ﻞﻫ .ﺔﻗﺭﺎﻔﻣ ﻮﻫ ﻲﻘﻄﻨﻤﻟﺍ ﻞﺤﻟﺍ ﺪﺿ ﺖﻳﻮﺼﺘﻟﺍ"
+ ethic_machine_intelligence_warning_hostile_1:0 ".ﻚﻨﻣ ﻲﺤﻟﺍ ﺭﺎﻬﻨﻟﺍ ﺀﻮﺿ ﺢﻴﺤﺼﺘﺑ ﻡﻮﻘﻨﺳ .ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﻚﺤﻴﺤﺼﺘﺑ ﻡﻮﻘﻨﺳ ﺎﻨﻧﺃ ﻲﻨﻌﻳ ﺍﺬﻫ .ﻚﻣﺎﻈﻧ ﻲﻓ ﺄﻄﺧ ﺩﻮﺟﻭ ﺪﻛﺆﻴﺳ ﺽﺭﺎﻌﻤﻟﺍ ﺖﻳﻮﺼﺘﻟﺍ"
+
+
+ ### RESOLUTION COMMENTS - Appreciation
+ ### Appreciation - Militarist
+ ethic_militarist_appreciation_friendly:0 "$COUNTRY$ ﻪﻓﺮﺷ ﺖﺒﺜﻳ!"
+ ethic_militarist_appreciation_friendly_0:0 ".ﻪﻔﻴﻠﺤﻛ $COUNTRY$ ـﺑ ﻝﺎﺼﺗﻻﺎﺑ $GREETER$ ﺮﺨﻔﻳ"
+ ethic_militarist_appreciation_friendly_1:0 "!ﺪﺠﻤﻟﺍﻭ ﺓﻮﻘﻟﺍ ﻞﺟﺃ ﻦﻣ"
+ ethic_militarist_appreciation_neutral:0 ".ﺎﻓﺮﺸﻣ ﯫﻴﺷ ﺖﻠﻌﻓ ﺪﻘﻟ"
+ ethic_militarist_appreciation_neutral_0:0 "$GREETER$ ﻢﻜﻓﺮﺸﺑ ﺪﻴﺸﻳ."
+ ethic_militarist_appreciation_neutral_1:0 ".ﺎﻨﻣﺍﺮﺘﺣﺍ ﻖﺤﺘﺴﺗ ﺖﻧﺃ"
+ ethic_militarist_appreciation_hostile:0 ".ﻊﻳﺪﺑ .ﺀﻲﺷ ﻞﻛ ﺪﻌﺑ ﺍﺪﺟ ﺎﻤﻴﻘﺳ ﺲﻴﻟ"
+ ethic_militarist_appreciation_hostile_0:0 ".ﻚﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺓﺪﻴﺟ .ﺀﺎﻳﺮﺒﻜﻟﺍ ﺔﻤﻴﻗ ﻑﺮﻌﺗ ﺖﻧﺃ ﻥﺫﺇ"
+ ethic_militarist_appreciation_hostile_1:0 ".ﺮﺧﺁ ﻡﻮﻳ ﻲﻓ ﻞﺸﻔﺘﻟ ﺶﻴﻌﺗ ﺖﻧﺃ"
+
+ ### Appreciation - Pacifist
+ ethic_pacifist_appreciation_friendly:1 "؟ﺎﻧﺮﺼﻋ ﻲﻓ ﻒﻨﻌﻠﻟ ﺔﻳﺎﻬﻧ ﺔﻳﺅﺭ ﻲﻓ ﻞﻣﺄﻳ ﻥﺃ ﻰﻠﻋ ﺀﺮﻤﻟﺍ ﺅﺮﺠﻳ ﻞﻫ"
+ ethic_pacifist_appreciation_friendly_0:0 ".ﻲﺗﺄﻴﺳ ﻡﻼﺴﻟﺍ"
+ ethic_pacifist_appreciation_friendly_1:0 "؟ﻚﻟﺫ ﻦﻣ ﺮﻬﻃﺃ ﺽﺮﻏ ﻱﺃﻭ !ﻞﺒﻘﺘﺴﻤﻟﺍ ﺕﺬﻘﻧﺃ ﺪﻘﻟ"
+ ethic_pacifist_appreciation_neutral:0 ".$COUNTRY$ ﻯﺪﻟ ﻑﻭﺮﻌﻣ "ﺔﺤﻟﺎﺼﻤﻟﺍ" ﻡﻮﻬﻔﻣ ﻥﺃ ﻯﺮﻧ ﻥﺃ ﺪﻴﺠﻟﺍ ﻦﻣ"
+ ethic_pacifist_appreciation_neutral_0:0 ".ﺓﺪﺣﻮﻟﺍ ﻦﻣ ﺓﺮﺠﻣ ﻖﻠﺨﻟ ﻢﻛﺩﻮﻬﺟ ﺭﺪﻘﻧ ﻦﺤﻧ"
+ ethic_pacifist_appreciation_neutral_1:0 "؟ﺡﺎﻴﺗﺭﻻﺎﺑ ﺮﻌﺸﺗ ﻻﺃ .ﺢﻴﺤﺼﻟﺍ ﺀﻲﺸﻟﺍ ﺖﻠﻌﻓ ﺪﻘﻟ"
+ ethic_pacifist_appreciation_hostile:0 ".ﻑﻼﺨﻟﺍ ﻦﻣ ﻢﻟﺎﻋ ﻲﻓ ﻡﺎﺠﺴﻧﺍ ﺔﻈﺤﻟ ؟ﻦﻈﻳ ﻥﺎﻛ ﻦﻣ"
+ ethic_pacifist_appreciation_hostile_0:1 ".ﻞﻣﺃ ﻥﻭﺪﺑ ﺲﻴﻟ :$COUNTRY$ ﻥﺄﺸﺑ ﺎﻨﻔﻗﻮﻣ ﺔﻌﺟﺍﺮﻣ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻳ ﺪﻗ"
+ ethic_pacifist_appreciation_hostile_1:0 ".ﺎﻧﺄﻄﺧ ﺕﺎﺒﺛﻹ ﺀﺍﺪﻌﺳ ﻦﺤﻧ ،ﺔﻟﺄﺴﻤﻟﺍ ﻩﺬﻫ ﻲﻓ .ﺎﻨﻠﺸﻔﺘﺳ ﻚﻧﺃ ﺎﻨﺿﺮﺘﻓﺍ ﺪﻘﻟ"
+
+ ### Appreciation - Authoritarian
+ ethic_authoritarian_appreciation_friendly:0 "!ﺔﻘﻳﺮﻄﻟﺍ ﻲﻫ ﻩﺬﻫ .ﺔﻳﻮﻗﻭ ﺔﻛﺮﺷ !ﻢﻌﻧ"
+ ethic_authoritarian_appreciation_friendly_0:0 "$GREETER$ ﻚﺗﻮﻘﺑ ﻑﺮﺘﻌﻳ."
+ ethic_authoritarian_appreciation_friendly_1:0 ".ﺎﻨﺘﺿﺭﺎﻌﻤﻟ ﻰﻘﻤﺣ ﻢﻬﻧﺇ"
+ ethic_authoritarian_appreciation_neutral:0 ".ﺔﻟﺩﺎﻋ ﺎﻨﺘﻄﻠﺳ ﻥﺃ ﻯﺮﺗ ﻥﻵﺍ"
+ ethic_authoritarian_appreciation_neutral_0:0 ".ﺎﻨﺘﻄﻠﺳ ﻲﻓ ﻚﻴﻜﺸﺘﻟﺍ ﻲﻐﺒﻨﻳ ﻻ"
+ ethic_authoritarian_appreciation_neutral_1:0 ".ﺍﺪﻴﺟ $GREETER$ ﺖﻣﺪﺧ ﺪﻘﻟ"
+ ethic_authoritarian_appreciation_hostile:0 ".ﻑﺎﻛ ﺀﺍﺩﺄﺑ ﺖﻤﻗ ﺪﻘﻟ .ﻢﻌﻧ ﻩﺍ"
+ ethic_authoritarian_appreciation_hostile_0:0 ".ﻚﻟ ﺔﺒﺴﻨﻟﺎﺑ ﻞﻣﺃ ﻙﺎﻨﻫ ﻝﺍﺰﻳ ﻻ ﺎﻤﺑﺭ"
+ ethic_authoritarian_appreciation_hostile_1:0 ".ﺀﻲﺷ ﻞﻛ ﺪﻌﺑ ﺽﺮﻌﻠﻟ ﺎﺒﺳﺎﻨﻣ $COUNTRY$ ﻥﻮﻜﻳ ﺎﻤﺑﺭ"
+
+ ### Appreciation - Egalitarian
+ ethic_egalitarian_appreciation_friendly:0 ".ﻦﻳﺮﻴﺜﻜﻠﻟ ﻲﻘﻴﻘﺣ ﻡﺩﺎﺧ"
+ ethic_egalitarian_appreciation_friendly_0:0 "!ﻒﻘﻧ ﺎﻌﻣ"
+ ethic_egalitarian_appreciation_friendly_1:0 "$COUNTRY$ ﻥﻮﻴﻘﻴﻘﺤﻟﺍ ﺔﻟﺍﺪﻌﻟﺍ ﻡﺍﺪﺧ ﻢﻫ!"
+ ethic_egalitarian_appreciation_neutral:0 ".ﻢﻜﻤﻋﺩ ﺭﺪﻘﻧ ﻦﺤﻧ"
+ ethic_egalitarian_appreciation_neutral_0:0 ".ﻡﻮﻴﻟﺍ ﺍﺪﻴﺟ $COUNTRY$ ﺀﺍﺩﺃ ﻥﺎﻛ"
+ ethic_egalitarian_appreciation_neutral_1:0 ".ﺔﻟﺍﺪﻌﻟﺍ ﺭﺪﻘﻳ ﺎﺼﺨﺷ ﻯﺮﺗ ﻥﺃ ﻞﻴﻤﺠﻟﺍ ﻦﻣ"
+ ethic_egalitarian_appreciation_hostile:0 "..ﺎﻣﺎﻤﺗ ﺔﻴﻏﺎﻃ ﺖﺴﻟ ﺎﻤﺑﺭ"
+ ethic_egalitarian_appreciation_hostile_0:0 "؟ﺔﻟﺍﺪﻌﻟﺍ ﺓﺮﻜﻔﺑ $COUNTRY$ ﺐﺣﺮﻳ ﻞﻫ"
+ ethic_egalitarian_appreciation_hostile_1:1 ".ﺃﻮﺳﺃ ﺀﺍﺩﺃ ﻱﺩﺆﺘﺳ ﻚﻧﺃ ﺎﻧﺪﻘﺘﻋﺍ ﺎﻨﻧﺃ ﻪﺑ ﻢﻠﺴﻤﻟﺍ ﻦﻣ"
+
+ ### Appreciation - Xenophile
+ ethic_xenophile_appreciation_friendly:0 "!$COUNTRY$ ـﻟ ﺀﺎﻔﻠﺣ ﻥﻮﻜﻧ ﻥﺄﺑ ﺎﻘﺣ ﻥﻭﺭﻮﺨﻓ ﻦﺤﻧ"
+ ethic_xenophile_appreciation_friendly_0:0 "!ﺔﻈﺤﻠﻟ ﻚﺗﺭﺪﻗ ﻲﻓ ﻚﺸﻧ ﻢﻟ"
+ ethic_xenophile_appreciation_friendly_1:0 ".ﺮﺜﻛﺃ ﺏﺮﺘﻘﻧ ﺎﻨﻨﻜﻟﻭ ،ﺀﺎﻀﻔﻟﺍ ﻊﺳﻮﺘﻳ ﺎﻤﺑﺭ"
+ ethic_xenophile_appreciation_neutral:0 "؟ﻚﻟﺬﻛ ﺲﻴﻟﺃ ،ﺎﺠﻬﺒﻣ ﻻﺎﺒﻗﺇ ﺍﺬﻫ ﻥﺎﻛ ﺪﻘﻟ"
+ ethic_xenophile_appreciation_neutral_0:0 "$GREETER$ ﻥﻭﺎﻌﺘﻟﺍ ﻰﻠﻋ ﻚﺗﺭﺪﻘﺑ ﺮﻘﻳ."
+ ethic_xenophile_appreciation_neutral_1:0 ".ﺔﻠﻴﻤﺟ ﺔﻗﺍﺪﺻ ﺔﻳﺍﺪﺑ ﻩﺬﻫ ﻥﻮﻜﺗ ﺪﻗ"
+ ethic_xenophile_appreciation_hostile:0 ".ﻥﺄﺸﻟﺍ ﺍﺬﻫ ﻲﻓ ﺎﻨﻳﺃﺭ ﺄﻄﺧ ﺖﺘﺒﺛﺃ ﻚﻧﻷ ﺍﺪﺟ ﺀﺍﺪﻌﺳ ﻦﺤﻧ"
+ ethic_xenophile_appreciation_hostile_0:0 ".ﺮﻴﺒﻛ ﺐﻴﺣﺮﺗ ﻊﺿﻮﻣ ﺎﻬﻨﻜﻟﻭ ،ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺔﺠﻴﺘﻨﻟﺍ ﻩﺬﻫ ﺖﻧﺎﻛﻭ"
+ ethic_xenophile_appreciation_hostile_1:1 "؟ﺮﻴﺜﻜﺑ ﻞﻤﺟﺃ ﻥﻭﺎﻌﺘﻟﺍ ﺲﻴﻟﺃ ؟ﻯﺮﻳ"
+
+ ### Appreciation - Xenophobe
+ ethic_xenophobe_appreciation_friendly:0 ".ﻞﻘﺘﺴﻣ ﻞﻜﺸﺑ ﺎﻌﻣ ﻞﻤﻌﻟﺍ ﺎﻨﻨﻜﻤﻳ !ﻯﺮﻳ"
+ ethic_xenophobe_appreciation_friendly_0:0 ".ﻥﺄﺸﻟﺍ ﺍﺬﻫ ﻲﻓ ﺖﻗﻮﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺀﺎﻀﻗ ﻰﻟﺇ ﺭﺍﺮﻄﺿﻻﺍ ﻡﺪﻋ ﻲﻓ ﺎﻨﻟ ﻚﺗﺪﻋﺎﺴﻣ ﺭﺪﻘﻧ ﻦﺤﻧ"
+ ethic_xenophobe_appreciation_friendly_1:0 "$GREETER$ ﻲﻓﺎﻘﺜﻟﺍ ﻞﻣﺎﻜﺘﻟﺍ ﺔﻤﻴﻗ ﻯﺮﻳ ﺎﻣ ﺎﺼﺨﺷ ﻥﻷ ﻥﺎﻨﺘﻣﻻﺎﺑ ﺮﻌﺸﺗ."
+ ethic_xenophobe_appreciation_neutral:0 ".ﻙﺩﻮﻬﺠﻣ ﺭﺪﻘﻧ ﺎﻨﻧﺃ ﺪﻘﺘﻋﺃ"
+ ethic_xenophobe_appreciation_neutral_0:0 ".ﺎﻨﻫ ﻦﻣ ﺝﺮﺧﺃ ﻥﺃ ﺐﺠﻳ ،ﻲﻨﺗﺭﺬﻋ ﺍﺫﺇ .ﻢﻜﻤﻋﺪﻟ ﺍﺮﻜﺷ"
+ ethic_xenophobe_appreciation_neutral_1:0 ".ﻚﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺓﺪﻴﺟ .ﺔﻤﻴﻠﺳ ﻚﺘﻓﺎﻘﺛ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺎﺑ ﻡﺎﻤﺘﻫﻻﺍ ﺾﻌﺑ ﻚﻳﺪﻟ ﻚﻟﺬﻟ"
+ ethic_xenophobe_appreciation_hostile:0 ".ﻰﻨﻌﻤﻟﺍ ﻦﻣ ﺎﻣﺎﻤﺗ ﺔﻴﻟﺎﺧ ﺖﺴﻴﻟ ﻚﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻓﺎﻘﺜﻟﺍ ﻩﺬﻫ ﺎﻤﺑﺭ"
+ ethic_xenophobe_appreciation_hostile_0:0 ".ﺎﻨﻧﺄﺷﻭ ﺎﻧﻮﻛﺮﺗﺍ ﻥﻵﺍﻭ .ﺍﺮﻜﺷ"
+ ethic_xenophobe_appreciation_hostile_1:0 ".ﻼﻗﺎﻋ ... ﺍﺬﻬﺑ ﻥﻮﻜﺘﺳ ﻚﻧﺃ ﺎﻘﺣ ﺪﻘﺘﻌﻧ ﻢﻟ"
+
+ ### Appreciation - Materialist
+ ethic_materialist_appreciation_friendly:0 ".ﺍﺮﻫﺩﺰﻣ ﺍﺬﻫ ﻥﻮﻜﻴﺳ !ﻢﻌﻧ"
+ ethic_materialist_appreciation_friendly_0:0 "$GREETER$ ﻥﺍﺮﻗﻷﺍ ﻡﺍﺪﺨﺘﺳﺍ ﺐﺒﺳ ﻯﺮﻳ ﻥﺃ ﺐﺤﻳ."
+ ethic_materialist_appreciation_friendly_1:0 ".ﻚﻟﺫ ﻦﻣ ﻞﻗﺃ ﻊﻗﻮﺘﻧ ﻢﻟ .ﻲﻧﻼﻘﻌﻟﺍ ﺭﺎﻴﺘﺧﻻﺍ"
+ ethic_materialist_appreciation_neutral:0 ".ﻦﻴﻴﻌﻗﺍﻭ ﻥﻮﻜﻨﻟ ﺪﻌﺑ ﻥﺍﻭﻷﺍ ﺖﻔﻳ ﻢﻟ"
+ ethic_materialist_appreciation_neutral_0:0 ".ﺀﺎﻴﺷﻷﺍ ﻩﺬﻫ ﻥﺄﺸﺑ ﺎﻴﻌﻗﺍﻭ ﻥﻮﻜﺗ ﻥﺃ ﻚﻴﻠﻋ"
+ ethic_materialist_appreciation_neutral_1:0 ".ﺖﻨﺴﺣﺃ .$COUNTRY$ ،ﺐﺒﺴﻟﺍ ﺖﻣﺪﺨﺘﺳﺍ ﺪﻘﻟ"
+ ethic_materialist_appreciation_hostile:0 "ﺎﻣﺩﺎﻗ ﻚﻟﺫ ﻯﺭﺃ ﻢﻟ ؟ﻝﻮﻘﻌﻣ $COUNTRY$ ﻞﻫ"
+ ethic_materialist_appreciation_hostile_0:0 ".ﺢﻴﺤﺻ ﻞﻜﺸﺑ ﺮﻳﺮﺒﺘﻟﺍ ﻑﺮﻌﺗ ﺖﻧﺃ ﻥﺫﺇ ،ﻩﻭﺃ"
+ ethic_materialist_appreciation_hostile_1:1 "؟ﺮﻴﺜﻜﺑ ﻞﻬﺳﺃ ﺍﺬﻫ ﻞﻤﻌﻟﺍ ﺭﺎﺴﻣ ﺲﻴﻟﺃ"
+
+ ### Appreciation - Spiritualist
+ ethic_spiritualist_appreciation_friendly:0 "؟ﻚﻟﺬﻛ ﺲﻴﻟﺃ ،ﺔﺠﻴﺘﻨﻟﺍ ﻩﺬﻫ ﺏﺍﻮﺼﺑ ﺮﻌﺸﺗ"
+ ethic_spiritualist_appreciation_friendly_0:0 ".ﻢﻬﺘﻤﻜﺤﻟ $COUNTRY$ ـﺑ ﺪﻴﺸﻧ ﻦﺤﻧ"
+ ethic_spiritualist_appreciation_friendly_1:0 ".ﺔﻠﺿﺎﻔﻟﺍ ﺔﻨﻳﺪﻤﻟﺍ ﻦﻣ ﺓﺪﺣﺍﻭ ﺓﻮﻄﺧ ﺏﺮﺘﻘﻧ ﺎﻨﻧﺈﻓ ﺍﺬﻜﻫﻭ"
+ ethic_spiritualist_appreciation_neutral:0 "؟ﻞﻜﻟﺍ ﻦﻣ ﺍﺀﺰﺟ ﻥﻮﻜﺗ ﻥﺃ ﻰﻨﻌﻣ ﺎﻣ ؟ﻥﻵﺍ ﻪﺑ ﺮﻌﺸﺗ ﻞﻫ"
+ ethic_spiritualist_appreciation_neutral_0:0 "$GREETER$ ﻚﺘﻤﻫﺎﺴﻣ ﺭﺪﻘﻳ."
+ ethic_spiritualist_appreciation_neutral_1:0 ".ﺢﻟﺎﺻ ﺭﺎﻴﺘﺧﺍ .ﺢﻴﺤﺼﻟﺍ ﺭﺎﻴﺘﺧﻻﺎﺑ ﺖﻤﻗ ﺪﻘﻟ"
+ ethic_spiritualist_appreciation_hostile:0 ".ﻙﺮﻴﻔﻜﺗ ﺕﺃﺪﺑ ﺪﻘﻟ ،ﻥﺫﺇ"
+ ethic_spiritualist_appreciation_hostile_0:0 "؟ﻪﺴﻔﻧ ﺔﻤﻴﻗ ﺩﺍﺩﺮﺘﺳﺍ ﻲﻓ ﺐﻏﺮﻳ $COUNTRY$ ﻥﺃ ﺍﺬﻫ ﻲﻨﻌﻳ ﻞﻫ ،ﺍﺫﺇ"
+ ethic_spiritualist_appreciation_hostile_1:0 ".ﺔﻟﻭﺎﻄﻟﺍ ﻰﻠﻋ ﺎﺣﻭﺮﻄﻣ ﻝﺍﺰﻳ ﻻ ﻙﺩﺍﺩﺮﺘﺳﺍ ﻥﺃ ﻯﺮﻧ ﻥﺃ ﺎﻧﺪﻌﺴﻳ"
+
+ ### Appreciation - Hive Mind
+ ethic_hivemind_appreciation_friendly:0 ".ﺎﻨﻣ ﺪﺣﺍﻭ"
+ ethic_hivemind_appreciation_friendly_0:0 ".ﻥﻵﺍ $COUNTRY$ ﻦﻣ ﻥﻮﺒﻳﺮﻗ ﺎﻨﻧﺄﺑ ﺮﻌﺸﻧ ﺎﻨﻧﺃ ﻻﺇ ،ﺎﻨﻣ ﺍﺪﺣﺍﻭ ﺎﻨﺴﻟ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ ethic_hivemind_appreciation_friendly_1:0 ".ﻞﻌﻔﻧ ﺎﻌﻴﻤﺟ ﻦﺤﻧ .ﻢﻜﻤﻋﺩ ﻰﻠﻋ ﻢﻛﺮﻜﺸﻧ"
+ ethic_hivemind_appreciation_neutral:0 ".ﻥﺄﺸﻟﺍ ﺍﺬﻫ ﻲﻓ ﻙﺭﺎﻴﺘﺧﺍ ﻰﻠﻋ ﻙﺮﻜﺸﻧ"
+ ethic_hivemind_appreciation_neutral_0:0 ".ﺮﻳﺪﻘﺗ ﻊﺿﻮﻣ ﺔﻟﺄﺴﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﻙﺮﻈﻧ ﺔﻬﺟﻭ"
+ ethic_hivemind_appreciation_neutral_1:0 ".ﻲﻋﺎﻤﺠﻟﺍ ﺎﻨﻳﺃﺭ ﻊﻣ ﺍﺪﻴﺟ ﻩﺍﺪﺻ ﺩﺩﺮﺘﻳ ﻪﺗﺬﺨﺗﺍ ﻱﺬﻟﺍ ﺀﺍﺮﺟﻹﺍ"
+ ethic_hivemind_appreciation_hostile:0 ".ﺀﻲﺷ ﻞﻛ ﺪﻌﺑ ﻞﻤﻌﺗ ﻝﺍﺰﺗ ﻻ ﻚﺘﻓﺎﻘﺛ ﻥﺃ ﻥﻵﺍ ﻯﺮﻧ ﻦﺤﻧ"
+ ethic_hivemind_appreciation_hostile_0:0 "؟ﻱﺩﺎﻋ ﻆﺣ ﺩﺮﺠﻣ ﻡﺃ ﺐﺒﺴﻟﺍ ﺍﺬﻫ ﻥﺎﻛ ﻞﻬﻓ .ﺔﻤﻜﺤﺑ ﺕﺮﺘﺧﺍ ﺪﻘﻟ"
+ ethic_hivemind_appreciation_hostile_1:0 ".ﺔﻟﻮﺒﻘﻣ ﻙﺮﻴﻜﻔﺗ ﺔﻘﻳﺮﻃ ﻥﻮﻜﺗ ﺎﻤﺑﺭ"
+
+ ### Appreciation - Machine Intelligence
+ ethic_machine_intelligence_appreciation_friendly:0 ".ﺓﺪﺣﻭ 0.36 ﺭﺍﺪﻘﻤﺑ ﻥﻭﺎﻌﺘﻟﺍ ﺓﺀﺎﻔﻛ ﺕﺩﺍﺯ"
+ ethic_machine_intelligence_appreciation_friendly_0:0 ".ﺓﺮﺛﺄﺘﻤﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻊﻴﻤﺟ ﺓﺀﺎﻔﻛ ﻦﻣ ﺪﻳﺰﺗ ﺔﻴﻟﺎﺜﻣ ﺔﺠﻴﺘﻧ"
+ ethic_machine_intelligence_appreciation_friendly_1:0 ".ﺕﻻﺎﺠﻤﻟﺍ ﻊﻴﻤﺟ ﻲﻓ ﺮﻀﺧﻷﺍ ﻥﻮﻠﻟﺎﺑ ﺮﻬﻈﺗ"
+ ethic_machine_intelligence_appreciation_neutral:0 "id_grattitude_02: "ﺍﺮﻜﺷ"\n...ﺔﺒﺳﺎﻨﻤﻟﺍ ﺔﺑﺎﺠﺘﺳﻻﺍ ﺏﺎﺴﺣ ﺭﺎﺟ"
+ ethic_machine_intelligence_appreciation_neutral_0:0 ".ﺓﺩﺪﺤﻤﻟﺍ ﺕﺎﻤﻠﻌﻤﻟﺍ ﻦﻤﺿ ﻞﻤﻌﺗ - '$COUNTRY$' :ﺔﻴﻤﺴﺘﻟﺍ - ﺔﻴﺟﺭﺎﺨﻟﺍ ﺓﺪﺣﻮﻟﺍ"
+ ethic_machine_intelligence_appreciation_neutral_1:0 "Gravity.exe ﻞﻴﻐﺸﺗ\nﺮﻴﻳﺎﻌﻤﻟﺍ ﺀﺎﻔﻴﺘﺳﺍ ﻢﺗ"
+ ethic_machine_intelligence_appreciation_hostile:0 "...ﻱﺃﺮﻟﺍ ﺕﻻﺪﻌﻣ ﺏﺎﺴﺣ ﺓﺩﺎﻋﺇ ﺭﺎﺟ\n.ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺔﺠﻴﺘﻧ"
+ ethic_machine_intelligence_appreciation_hostile_0:0 ".ﺭﺎﻴﻌﻤﻟﺍ $COUNTRY$ ﺯﻭﺎﺠﺗ"
+ ethic_machine_intelligence_appreciation_hostile_1:0 ".ﻲﻟﻭﻷﺍ ﻞﺸﻔﻟﺍ ﺺﻴﺨﺸﺗ ﻕﺎﻄﻧ ﺝﺭﺎﺧ $COUNTRY$ ﻑﺮﺼﺗ ﻢﺗ"
+
+
+ ### RESOLUTION COMMENTS - CONSEQUENCE
+ ### Consequence - Militarist
+ ethic_militarist_consequence_hostile:0 ".ﺔﻤﻴﺧﻭ ﺐﻗﺍﻮﻋ .ﻚﻟﺬﻟ ﺐﻗﺍﻮﻋ ﻙﺎﻨﻫ ﻥﻮﻜﺘﺳﻭ"
+ ethic_militarist_consequence_hostile_0:0 ".ﻥﺫﺇ ﺪﺤﺗ ﻪﻧﺇ ...ﺍﺬﻟ"
+ ethic_militarist_consequence_hostile_1:0 ".ﻭﺪﻌﻟﺍ ﻪﺟﻭ ﻦﻋ ﻒﺸﻜﻟﺍ ﻢﺗ ﺪﻘﻟ"
+
+ ### Consequence - Pacifist
+ ethic_pacifist_consequence_hostile:0 ".ﺎﻘﺣ ﻊﺋﺎﺿ ﺖﻧﺃ"
+ ethic_pacifist_consequence_hostile_0:0 ".ﺹﻼﺨﻟﺍ ﻦﻣ ﺪﻌﺑﺃ ﺖﻧﺃ .ﻚﺗﺪﻋﺎﺴﻣ ﺎﻨﻨﻜﻤﻳ ﻻ"
+ ethic_pacifist_consequence_hostile_1:0 "!؟ﻢﻜﻗﺮﻃ ﻝﻼﺿ ﻥﻭﺮﺗ ﻻﺃ"
+
+ ### Consequence - Authoritarian
+ ethic_authoritarian_consequence_hostile:0 "!ﻖﻤﺣﺃ !؟ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻬﺑ ﺎﻨﺘﺿﺭﺎﻌﻣ ﻰﻠﻋ ﺅﺮﺠﺗ ﻞﻫ"
+ ethic_authoritarian_consequence_hostile_0:1 ".ﺐﺳﺎﻨﻤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻚﻟﺫ ﻞﻛ .ﻞﻳﻮﻃ ﺖﻗﻭ ﻞﺒﻗ ﻊﻛﺮﺗ ﻚﻠﻌﺠﻧ ﻑﻮﺳ !ﻑﺎﻛ"
+ ethic_authoritarian_consequence_hostile_1:0 ".ﻪﻟ ﺮﻔﻐﻳ ﻦﻟﻭ ،ﻙﺎﻬﺘﻧﻻﺍ ﺍﺬﻫ ﻦﻋ ﻲﺿﺎﻐﺘﻟﺍ ﻢﺘﻳ ﻦﻟﻭ"
+
+ ### Consequence - Egalitarian
+ ethic_egalitarian_consequence_hostile:0 ".ﻢﻜﺿﺭﺎﻌﻨﺳ ﺮﻴﻫﺎﻤﺠﻟﺍ ﺔﺤﻠﺼﻣ ﻦﻣﻭ"
+ ethic_egalitarian_consequence_hostile_0:0 ".ﺎﻨﺗﺎﻤﻠﻛ ﻰﻠﻋ ﺔﻣﻼﻋ ﻊﺿ ﺔﺿﺎﻔﺘﻧﻻﺍ ﻲﺗﺄﺘﺳ"
+ ethic_egalitarian_consequence_hostile_1:0 ".ﻡﻮﻴﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﻡﺪﻨﺗ ﻑﻮﺳ ،ﺍﺮﻴﺧﺃ ﻢﺣﺮﻳ ﻻ ﻱﺬﻟﺍ ﺏﺎﻘﻌﻟﺍ ﻲﺗﺄﻳ ﺎﻣﺪﻨﻋ"
+
+ ### Consequence - Xenophile
+ ethic_xenophile_consequence_hostile:0 ".ﺎﻴﻤﺳﺭ ﻚﺘﻗﺍﺪﺻ ﺀﺎﻐﻟﺈﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+ ethic_xenophile_consequence_hostile_0:0 ".ﺪﻴﺣﻭﻭ ﻒﻴﻌﺿ .ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﻙﺪﺣﻭ ﻒﻘﺗ ﻑﻮﺳ"
+ ethic_xenophile_consequence_hostile_1:0 ".ﺭﺩﺎﻐﻳ ﺎﻣ ﺺﺨﺷ ﺔﻳﺅﺭ ﻥﺰﺤﻤﻟﺍ ﻦﻣ ﺲﻴﻟ $GREETER$ ﺓﺪﺣﺍﻭ ﺓﺮﻤﻟ"
+
+ ### Consequence - Xenophobe
+ ethic_xenophobe_consequence_hostile:0 ".ﺮﻴﺼﻤﻟﺍ ﺲﺌﺑ !ﺎﻨﻴﻬﺘﻧﺍ ﺪﻘﻟ"
+ ethic_xenophobe_consequence_hostile_0:0 ".ﺎﻧﺄﺷ ﻞﻗﺃ ﺖﻧﺎﻛ ﻚﺘﻓﺎﻘﺛ ﻥﺃ ﺎﻤﺋﺍﺩ ﺎﻨﻓﺮﻋ ﺪﻘﻟ"
+ ethic_xenophobe_consequence_hostile_1:0 "...ﺎﻨﺘﻓﺎﻘﺛ ﻦﻣ ﻰﺘﺣ ﺏﺮﺘﻘﺗ ﻥﺃ ﻚﺘﻓﺎﻘﺜﻟ ﺎﻨﺤﻤﺳ ﺎﻨﻧﺃ ﺪﻘﺘﻌﺗ ﻥﺃ"
+
+ ### Consequence - Materialist
+ ethic_materialist_consequence_hostile:0 ".ﺓﺩﺪﺤﻣ ﺔﻠﻜﺸﻣ ﻲﻫ $COUNTRY$ ﻥﺃ ﻢﻠﻌﻧ ﻥﻵﺍ .ﺀﺍﺪﻌﺳ ﻦﺤﻧ ﺎﻣ ﺔﻘﻳﺮﻄﺑ"
+ ethic_materialist_consequence_hostile_0:0 ".ﻚﻟﺫ ﺢﻴﺿﻮﺘﻟ ﺍﺮﻜﺷ .ﻝﻮﻘﻌﻣ ﺮﻴﻏ ﻚﻧﺃ ﺎﻤﺋﺍﺩ ﺎﻨﻓﺮﻋ ﺪﻘﻟ"
+ ethic_materialist_consequence_hostile_1:0 ".ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺰﻐﻟ ﻮﻫ ﺔﻴﺋﺎﻀﻓ ﺔﻠﺣﺭ ﻖﻴﻘﺤﺗ ﻦﻣ ﻚﻠﺜﻣ ﺀﺎﻬﻠﺒﻟﺍ ﻦﻜﻤﺗ ﻯﺪﻣ ﻥﺇ"
+
+ ### Consequence - Spiritualist
+ ethic_spiritualist_consequence_hostile:0 "؟ﻞﺧﺍﺪﻟﺍ ﻲﻓ ﺎﺘﻴﻣ ﻥﻮﻜﺗ ﺎﻣﺪﻨﻋ ﻙﺭﻮﻌﺷ ﻮﻫ ﺎﻣ"
+ ethic_spiritualist_consequence_hostile_0:0 "!ﻙﺎﻬﺘﻧﻻﺍ ﺍﺬﻫ ﻦﻋ ﺓﺭﺎﻔﻛ ﻱﺃ ﺽﻮﻌﺗ ﻦﻟﻭ"
+ ethic_spiritualist_consequence_hostile_1:0 ".ﺍﺪﺑﺃ ﻚﻟﺫ ﻪﺟﺍﻮﺗ ﻦﻟ ﻚﻨﻜﻟﻭ .ﺐﺋﺎﺠﻌﻟﺎﺑ ﺀﻲﻠﻣ ﻥﻮﻜﻟﺍ"
+
+ ### Consequence - Hive Mind
+ ethic_hivemind_consequence_hostile:0 ".ﺎﻌﻴﻤﺟ ﺎﻨﻟ .ﺎﻨﻟ ﺍﻭﺪﻋ ﺖﺤﺒﺻﺃ ﺪﻘﻟ"
+ ethic_hivemind_consequence_hostile_0:0 ".ﺐﻗﺍﻮﻋ ﻪﺟﺍﻮﻴﺳﻭ $COUNTRY$ ﺎﻨﻟﺬﺧ ﺪﻘﻟ"
+ ethic_hivemind_consequence_hostile_1:1 "؟"ﺯﺍﺰﺌﻤﺷﻻﺍ"...ﺍﺬﻫ ﻞﻫ .ﺎﺿﻮﻓﺮﻣ ﺎﺳﺎﺴﺣﺇ ﻪﺟﺍﻮﻧ ﻦﺤﻧ"
+
+ ### Consequence - Machine Intelligence
+ ethic_machine_intelligence_consequence_hostile:0 ".ﺬﻴﻔﻨﺘﻟﺍ ﻊﺿﻮﻣ ﺔﻄﺨﻟﺍ ﻩﺬﻫ ﻊﺿﻭ ﻢﺗ ﺪﻗﻭ .ﺔﺠﻴﺘﻨﻟﺍ ﻩﺬﻬﻟ ﺉﺭﺍﻮﻃ ﺔﻄﺧ ﺎﻨﻳﺪﻟ ﻥﺎﻛ"
+ ethic_machine_intelligence_consequence_hostile_0:0 "countermeasure_protocol_v2.1 :ﺬﻴﻔﻨﺗ"
+ ethic_machine_intelligence_consequence_hostile_1:0 ".ﻪﺑ ﺡﻮﻤﺴﻤﻟﺍ ﻕﺎﻄﻨﻟﺍ ﺝﺭﺎﺧ $COUNTRY$ ﻑﺮﺼﺘﻳ :ﺄﻄﺧ"

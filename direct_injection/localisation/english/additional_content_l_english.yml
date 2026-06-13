@@ -1,0 +1,62 @@
+﻿l_english:
+  ADDITIONAL_CONTENT_TITLE: "ﻲﻓﺎﺿﺇ ﻯﻮﺘﺤﻣ"
+  ADDITIONAL_CONTENT_CATEGORY_ALL: "ﻊﻴﻤﺠﻟﺍ"
+  ADDITIONAL_CONTENT_CATEGORY_OWNED: "ﺔﻛﻮﻠﻤﻣ"
+  ADDITIONAL_CONTENT_LOADING: "...ﻞﻴﻤﺤﺗ"
+  ADDITIONAL_CONTENT_WHATS_NEW_TITLE: "ﺪﻳﺪﺠﻟﺍ ﻮﻫ ﺎﻣ"
+  ADDITIONAL_CONTENT_DISCOUNT_PERCENT: "$0%|ﻢﺼﺨﻟﺍ$"
+  ADDITIONAL_CONTENT_SHIP_PREVIEW: "ﺔﻨﻴﻔﺴﻟﺍ ﺔﻋﻮﻤﺠﻣ"
+  ADDITIONAL_CONTENT_PORTRAITS: "ﺭﻮﺻ"
+  ADDITIONAL_CONTENT_SCREENSHOTS: "ﺔﺷﺎﺸﻟﺍ ﺕﺎﻄﻘﻟ"
+  ADDITIONAL_CONTENT_HIDE_ALL_OWNED: "ﺔﻛﻮﻠﻤﻤﻟﺍ ﻊﻴﻤﺟ ﺀﺎﻔﺧﺇ"
+
+  # Subscription
+  ACB_SUBSCRIPTION_DLC_LIST_TITLE: ":ﻲﻟﺎﺘﻟﺍ ﻯﻮﺘﺤﻤﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺮﻴﻓﻮﺗ ﻰﻟﺇ ﻥﻵﺍ ﻙﺍﺮﺘﺷﻻﺍ ﻱﺩﺆﻴﺳ"
+  ACB_SUBSCRIPTION_CLICK_DESC: "ﺮﺠﺘﻤﻟﺍ ﻲﻓ ﺢﺘﻔﻟ ﺮﻘﻧﺍ"
+  ACB_SUBSCRIPTION_INCLUDED_CONTENT_TITLE: "ﻦﻤﻀﺘﻤﻟﺍ ﻯﻮﺘﺤﻤﻟﺍ"
+  ACB_SUBSCRIPTION_INCLUDED_SUBSCRIPTION_PLANS_TITLE: "ﻙﺍﺮﺘﺷﻻﺍ ﻂﻄﺧ"
+
+  # Store button texts
+  ADDITIONAL_CONTENT_BUY_IN_STEAM: "ﺭﺎﺨﺒﻟﺍ ﻲﻓ ﺀﺍﺮﺷ"
+  ADDITIONAL_CONTENT_BUY_IN_MICROSOFT_STORE: "ﺖﻓﻮﺳﻭﺮﻜﻳﺎﻣ ﺮﺠﺘﻣ ﻲﻓ ﺀﺍﺮﺷ"
+
+  # Product tags
+  ADDITIONAL_CONTENT_LABEL_NEW: "ﺪﻳﺪﺟ"
+  ADDITIONAL_CONTENT_LABEL_RECOMMENDED: "ﻦﺴﺤﺘﺴﻣ"
+  ADDITIONAL_CONTENT_LABEL_OWNED: "ﺔﻛﻮﻠﻤﻣ"
+
+  # Acquired Popup
+  ADDITIONAL_CONTENT_CONGRATULATIONS: "!$NAME$ ﻥﻵﺍ ﻚﻠﺘﻤﺗ ﺖﻧﺃ\n!ﺎﻨﻴﻧﺎﻬﺗ"
+  ADDITIONAL_CONTENT_INSTALL_DESCRIPTION: "$FLAVOR$\n.ﺪﻳﺪﺠﻟﺍ ﻯﻮﺘﺤﻤﻟﺍ ﺖﻴﺒﺜﺘﻟ ﺔﺒﻌﻠﻟﺍ ﻞﻴﻐﺸﺗ ﺪﻋﺃ"
+
+  # Errors
+  ADDITIONAL_CONTENT_ERROR_LOADING_STORE_DATA: ".ﺔﺤﻔﺼﻟﺍ ﺕﺎﻧﺎﻴﺑ ﻞﻴﻤﺤﺗ ﻦﻜﻤﻳ ﻻ"
+  ADDITIONAL_CONTENT_ERROR_CHECK_STEAM: ".ﺖﻧﺮﺘﻧﻹﺍ ﻝﺎﺼﺗﺍ ﻦﻣ ﺪﻛﺄﺘﻟﺍ ﻰﺟﺮﻳ ،ﺔﺤﻔﺼﻟﺍ ﺢﺘﻓ ﻦﻜﻤﻳ ﻻ"
+  ADDITIONAL_CONTENT_ERROR_FAILED_TO_FIND_DLC: ".ﺩﺪﺤﻤﻟﺍ DLC ـﺑ ﺔﺻﺎﺨﻟﺍ ﺔﺤﻔﺼﻟﺍ ﺢﺘﻓ ﺀﺎﻨﺛﺃ ﺄﻄﺧ ﺙﺪﺣ"
+  ADDITIONAL_CONTENT_ERROR_MODS_ARE_ACTIVE: ".ﺕﻼﻳﺪﻌﺘﻟﺍ ﻦﻴﻜﻤﺗ ﻥﻭﺩ Stellaris ﻦﻣ ﺭﺍﺪﺻﺇ ﺙﺪﺣﺃ ﻲﻓﺎﺿﻹﺍ ﻯﻮﺘﺤﻤﻟﺍ ﺔﺤﻔﺻ ﺐﻠﻄﺘﺗ ،ﻖﻓﺍﻮﺘﻟﺍ ﻥﺎﻤﻀﻟ"
+  ADDITIONAL_CONTENT_ERROR_LOADING_STORE_DATA_OLD_VERSION: ".Stellaris ﻦﻣ §H$VERSION$ (ﺙﺪﺣﻷﺍ ﻭﺃ)§! ﺭﺍﺪﺻﻹﺍ ﻲﻓﺎﺿﻹﺍ ﻯﻮﺘﺤﻤﻟﺍ ﺔﺤﻔﺻ ﺐﻠﻄﺘﺗ ،ﻖﻓﺍﻮﺘﻟﺍ ﻥﺎﻤﻀﻟ"
+
+ star_eater_dummy: "$star_eater$"
+ star_eater_dummy_DESC: ""
+ star_eater_dummy_MEGASTRUCTURE_DETAILS: ""
+ collossus_mammalian_dummy: "$ ﻡﺎﻣ $"
+ collossus_mammalian_dummy_DESC: ""
+ collossus_mammalian_dummy_MEGASTRUCTURE_DETAILS: ""
+ collossus_reptile_dummy: "$REP$"
+ collossus_reptile_dummy_DESC: ""
+ collossus_reptile_dummy_MEGASTRUCTURE_DETAILS: ""
+ collossus_avian_dummy: "$ﻲﻓﺍ$"
+ collossus_avian_dummy_DESC: ""
+ collossus_avian_dummy_MEGASTRUCTURE_DETAILS: ""
+ collossus_arthropoid_dummy: "$ART$"
+ collossus_arthropoid_dummy_DESC: ""
+ collossus_arthropoid_dummy_MEGASTRUCTURE_DETAILS: ""
+ collossus_molluscoid_dummy: "$ ﻝﻮﻣ $"
+ collossus_molluscoid_dummy_DESC: ""
+ collossus_molluscoid_dummy_MEGASTRUCTURE_DETAILS: ""
+ collossus_fungoid_dummy: "$FUN$"
+ collossus_fungoid_dummy_DESC: ""
+ collossus_fungoid_dummy_MEGASTRUCTURE_DETAILS: ""
+ galactic_crucible_dummy: "$galactic_crucible_4$"
+ galactic_crucible_dummy_DESC: ""
+ galactic_crucible_dummy_MEGASTRUCTURE_DETAILS: ""

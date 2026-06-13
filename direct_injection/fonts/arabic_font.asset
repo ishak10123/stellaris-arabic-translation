@@ -1,0 +1,8 @@
+font = {
+	name = "Arabic_normal"
+	
+	fontstyle = {
+		style = regular
+		file = "gfx/fonts/arabic_font.ttf"
+	}
+}

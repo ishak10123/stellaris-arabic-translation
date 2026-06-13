@@ -1,0 +1,133 @@
+﻿l_spanish:
+ ####################################
+ # Alpha Naming Convention - WILL LIKELY BE CHANGED IF SECTIONS ARE REDESIGNED
+ #
+ # Mid sections have a flavor-name fitting to number of weapon/utility slots followed by the key-word "Core"
+ # Front sections have a flavor-name followed by the key-word "Breaker"
+ # Rear sections have a flavor-name followed by the key-word "Bulwark"
+ #
+ ####################################
+
+
+ ####################################
+ # Juggernaut
+ ####################################
+
+ CORE_JUGGERNAUT_SECTION:0 "ﺕﻮﻏﺎﻄﻟﺍ"
+
+ ####################################
+ # Titan
+ ####################################
+
+ TITAN_BOW:0 "ﺱﻮﻘﻟﺍ ﻥﺎﺘﻴﺗ"
+ TITAN_MID:0 "ﺭﻮﻛ ﻥﺎﺘﻴﺗ"
+ TITAN_STERN:1 "ﻥﺮﻴﺘﺳ ﻥﺎﺘﻴﺗ"
+ BIO_TITAN_BOW: "$TITAN_BOW$"
+ BIO_TITAN_MID: "$TITAN_MID$"
+ BIO_TITAN_STERN: "$TITAN_STERN$"
+
+ ####################################
+ # Battleship
+ ####################################
+ BATTLESHIP_BOW_L1M1S2:1 "ﺾﻳﺮﻌﻟﺍ ﺱﻮﻘﻟﺍ"
+ BATTLESHIP_BOW_L1S4:1 "ﺮﻜﻳﺮﺑ ﻥﺎﺘﻴﺗ"
+ BATTLESHIP_BOW_L2:1 "ﺔﻴﻌﻓﺪﻤﻟﺍ ﺱﻮﻘﻟﺍ"
+ BATTLESHIP_BOW_M1S2SHB:1 "ﺮﺠﻨﻬﻟﺍ ﺱﻮﻗ"
+ BATTLESHIP_BOW_M2S4:1 "ﻱﺮﻘﻔﻟﺍ ﺩﻮﻤﻌﻟﺍ ﻞﺒﺟ ﺱﻮﻗ"
+ BATTLESHIP_BOW_M3S2:1 "ﺡﻭﺮﻟﺍ ﻊﻃﺍﻮﻗ"
+ BATTLESHIP_MID_L2S4:1 "ﺭﻮﻛ ﺎﻓﻮﻧ"
+ BATTLESHIP_MID_L1M4:1 "ﺭﻮﻛ ﺮﺠﻨﻳﺮﺒﻣﺭﻮﺘﺳ"
+ BATTLESHIP_MID_L2M2:1 "ﺔﻴﺳﺎﺳﻷﺍ ﺪﻴﺳﺩﻭﺮﺑ"
+ BATTLESHIP_MID_L3:1 "ﺔﻴﻌﻓﺪﻤﻟﺍ ﺮﻫﻮﺟ"
+ BATTLESHIP_MID_M4SHB:1 "ﺔﻴﺳﺎﺳﻷﺍ ﺓﺮﻴﻈﺣ"
+ BATTLESHIP_MID_S4LHB:1 "ﺔﻴﺳﺎﺳﻷﺍ ﻞﻗﺎﻨﻟﺍ"
+ BATTLESHIP_STERN_M1S2:1 "ﻙﺭﺍﻮﻟﻮﺑ ﻥﻮﻳﺃ"
+ BATTLESHIP_STERN_L1:1 "ﺔﻴﻌﻓﺪﻤﻟﺍ ﻥﺮﻴﺘﺳ"
+ BATTLESHIP_STERN_M2:1 "ﻥﺮﻴﺘﺳ ﺪﻳﺎﺳﺩﻭﺮﺑ"
+ BATTLESHIP_STERN_S4:1 "ﻙﺭﺍﻮﻟﻮﺑ ﺚﻴﻨﻳﺯ"
+
+ ####################################
+ # Colonizer
+ ####################################
+ COLONIZER_MID_M1S1:1 "ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺔﻨﻴﻔﺳ"
+ COLONIZER_MID_S3:0 "ﺭﻭﺬﺒﻟﺍ ﺮﻫﻮﺟ"
+ COLONIZER_MID_MU1:0 "ﺭﻮﻛ ﺎﻳﺎﺟ"
+
+ ####################################
+ # Constructor
+ ####################################
+ CONSTRUCTOR_MID_M1S1:1 "ﺀﺎﻨﺒﻟﺍ ﺔﻨﻴﻔﺳ"
+ CONSTRUCTOR_MID_S3:0 "ﺔﻴﺳﺎﺳﻷﺍ ﺭﻮﻄﻤﻟﺍ"
+ CONSTRUCTOR_MID_MU1:0 "ﺔﻴﺳﺎﺳﻷﺍ ﺭﺯﻮﻓ"
+
+ ####################################
+ # Corvette
+ ####################################
+ CORVETTE_MID_M1S1:3 "ﺪﻴﺑﺭﻮﻃ ﺏﺭﺎﻗ"
+ CORVETTE_MID_S3:1 "ﺽﺮﺘﻌﻤﻟﺍ"
+ CORVETTE_MID_S1:1 "ﺔﻴﺳﺎﺳﻷﺍ ﺮﺘﻔﻴﺷ"
+ CORVETTE_MID_S2PD1:0 "ﻡﺎﺼﺘﻋﺍ ﺔﻨﻴﻔﺳ"
+
+ ####################################
+ # Cruiser
+ ####################################
+ CRUISER_BOW_L1:1 "ﺔﻴﻌﻓﺪﻤﻟﺍ ﺱﻮﻘﻟﺍ"
+ CRUISER_BOW_M1S2:3 "ﺪﻴﺑﺭﻮﻄﻟﺍ ﺱﻮﻗ"
+ CRUISER_BOW_M2:1 "ﺾﻳﺮﻌﻟﺍ ﺱﻮﻘﻟﺍ"
+ CRUISER_MID_S2HB:1 "ﺔﻴﺳﺎﺳﻷﺍ ﺓﺮﻴﻈﺣ"
+ CRUISER_MID_L1M1:1 "ﺔﻴﻌﻓﺪﻤﻟﺍ ﺮﻫﻮﺟ"
+ CRUISER_MID_M3:1 "ﺔﻴﺳﺎﺳﻷﺍ ﺪﻴﺳﺩﻭﺮﺑ"
+ CRUISER_MID_M2S2:3 "ﺭﻮﻛ ﺪﻴﺑﺭﻮﻃ"
+ CRUISER_STERN_M1:1 "ﻥﺮﻴﺘﺳ ﺪﻳﺎﺳﺩﻭﺮﺑ"
+ CRUISER_STERN_S2:1 "ﻥﺮﻴﺘﺳ ﺔﻴﺑﺮﺣ"
+
+ ####################################
+ # Destroyer
+ ####################################
+ DESTROYER_BOW_M1S2:1 "ﺔﻴﺑﺮﺤﻟﺍ ﺱﻮﻘﻟﺍ"
+ DESTROYER_BOW_S3:1 "ﻡﺎﺼﺘﻋﻻﺍ ﺔﻨﻴﻔﺳ ﺱﻮﻗ"
+ DESTROYER_BOW_L1:1 "ﺔﻴﻌﻓﺪﻤﻟﺍ ﺱﻮﻘﻟﺍ"
+ DESTROYER_STERN_PD2:0 "ﻥﺮﻴﺘﺳ ﺔﻨﻴﻔﺴﻟﺍ ﻡﺎﺼﺘﻋﺍ"
+ DESTROYER_STERN_S2:0 "ﻥﺮﻴﺘﺳ ﺔﻴﺿﺍﺮﺘﻋﻻﺍ ﺔﻨﻴﻔﺴﻟﺍ"
+ DESTROYER_STERN_M1:1 "ﻥﺮﻴﺘﺳ ﺔﻴﺑﺮﺣ"
+
+ ####################################
+ # Science
+ ####################################
+ SCIENCE_MID_M1S1:1 "ﻡﻮﻠﻌﻟﺍ ﺔﻨﻴﻔﺳ"
+ SCIENCE_MID_S3:0 "ﺭﻮﻛ ﺭﺰﻴﻠﺑ ﻞﻳﺮﺗ"
+ SCIENCE_MID_MU1:0 "ﺭﻮﻛ ﺖﻳﺎﺴﻧﺍ"
+
+ ####################################
+ # Science
+ ####################################
+ LIGHT_MILITARY_STATION_SECTION:0 "ﺀﻮﻀﻟﺍ ﺔﻄﺤﻣ ﻢﺴﻗ"
+ PD_MILITARY_STATION_SECTION:0 "ﻉﺎﻓﺪﻟﺍ ﺔﻄﻘﻧ ﺔﻄﺤﻣ ﻢﺴﻗ"
+ MEDIUM_MILITARY_STATION_SECTION:0 "ﺔﻄﺳﻮﺘﻤﻟﺍ ﺔﻄﺤﻤﻟﺍ ﻢﺴﻗ"
+ MISSILE_MILITARY_STATION_SECTION:0 "ﺦﻳﺭﺍﻮﺼﻟﺍ ﺔﻄﺤﻣ ﻢﺴﻗ"
+ HEAVY_MILITARY_STATION_SECTION:0 "ﺔﻠﻴﻘﺜﻟﺍ ﺕﺎﻄﺤﻤﻟﺍ ﻢﺴﻗ"
+ HANGAR_MILITARY_STATION_SECTION:0 "ﺮﺠﻨﻬﻟﺍ ﺔﻄﺤﻣ ﻢﺴﻗ"
+ LIGHT_LARGE_MILITARY_STATION_SECTION:0 "ﺀﻮﻀﻟﺍ ﺔﻄﺤﻣ ﻢﺴﻗ"
+ MEDIUM_LARGE_MILITARY_STATION_SECTION:0 "ﺔﻄﺳﻮﺘﻤﻟﺍ ﺔﻄﺤﻤﻟﺍ ﻢﺴﻗ"
+ HEAVY_LARGE_MILITARY_STATION_SECTION:0 "ﺔﻠﻴﻘﺜﻟﺍ ﺕﺎﻄﺤﻤﻟﺍ ﻢﺴﻗ"
+ HANGAR_LARGE_MILITARY_STATION_SECTION:0 "ﺮﺠﻨﻬﻟﺍ ﺔﻄﺤﻣ ﻢﺴﻗ"
+ OUTPOST_STATION_SECTION:0 "ﻲﺳﺎﺳﻷﺍ ﻱﺩﻭﺪﺤﻟﺍ ﺮﻔﺨﻤﻟﺍ"
+
+ ####################################
+ # Other
+ ####################################
+ MISSILE_DEFAULT:1 "ﺪﻴﺑﺭﻮﻄﻟﺍ ﻢﺴﻗ"
+ DEFAULT_CONSTRUCTION_SECTION:1 "ﺀﺎﻨﺒﻟﺍ ﺔﻨﻴﻔﺳ"
+ DEFAULT_COLONIZATION_SECTION:1 "ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺔﻨﻴﻔﺳ"
+ DEFAULT_SCIENCESHIP_SECTION:1 "ﻡﻮﻠﻌﻟﺍ ﺔﻨﻴﻔﺳ"
+ DEFAULT_ORBITAL_STATION_SECTION:0 "ﺔﻳﺭﺍﺪﻤﻟﺍ ﺔﻄﺤﻤﻟﺍ ﺭﺎﻃﺇ"
+ DEFAULT_MINING_STATION_SECTION:0 "ﻦﻳﺪﻌﺘﻟﺍ ﺔﻄﺤﻣ ﺭﺎﻃﺇ"
+ DEFAULT_RESEARCH_STATION_SECTION:0 "ﺙﻮﺤﺒﻟﺍ ﺔﻄﺤﻣ ﺭﺎﻃﺇ"
+ DEFAULT_WORMHOLE_STATION_SECTION:0 "ﻱﺩﻭﺪﻟﺍ ﺐﻘﺜﻟﺍ ﺔﻄﺤﻣ ﺭﺎﻃﺇ"
+ DEFAULT_MILITARY_STATION_SECTION:0 "ﺔﻴﺳﺎﺳﺃ ﺔﻳﺮﻜﺴﻋ ﺔﺼﻨﻣ"
+ DEFAULT_TRANSPORT_SECTION:1 "ﻞﻘﻨﻟﺍ ﺔﻨﻴﻔﺳ"
+ SHIP_COLOSSUS_SECTION:0 "ﻕﻼﻤﻌﻟﺍ"
+ GHOST_SHIP_SECTION:0 "ﺡﺎﺒﺷﻷﺍ ﺔﻨﻴﻔﺳ ﺭﺎﻃﺇ"
+ lost_swarm_adult:0 "ﺩﺍﺮﺠﻟﺍ"
+ lost_swarm_adult_cap: "$lost_swarm_adult$"
+ lost_swarm_adult_plural:0 "ﺩﺍﺮﺠﻟﺍ"

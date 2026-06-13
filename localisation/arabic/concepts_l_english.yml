@@ -1,0 +1,988 @@
+﻿l_english:
+
+### CONCEPTS
+#
+# Above each concept definition are instructions on usage, including an icon where one exists.
+#   Note that between the icon and the term there's a non-breaking space. When you copy the usage example, it will keep the non-breaking space.
+#   This is important to not get a line break between the icon and the concept.
+# Use a concept link with icon the first time a new concept is mentioned, then use §H without an icon for repeated uses.
+# Use §H with an icon the first time a concept is used withing its own description.
+# Use §H without an icon if the concept is used more than once.
+
+ GAME_CONCEPT_FORMAT: "§C$TEXT$§!"
+
+ DATABANK_FILTER_DESC: "ﺓﺭﺎﺘﺨﻤﻟﺍ ﺔﺌﻔﻟﺍ"
+
+ databank_colony: "ﺓﺮﻤﻌﺘﺴﻣ"
+ databank_conquest: "ﺢﺘﻔﻟﺍ"
+ databank_development: "ﺮﻳﻮﻄﺗ"
+ databank_empire: "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ"
+ databank_exploration: "ﻑﺎﺸﻜﺘﺳﺍ"
+ databank_interface: "ﺔﻬﺟﺍﻭ"
+ databank_resource: "ﺩﺭﺍﻮﻤﻟﺍ"
+
+ dlc_requirement_string: "§P:ﻞﻳﺰﻨﺘﻠﻟ ﻞﺑﺎﻘﻟﺍ ﻯﻮﺘﺤﻤﻟﺍ ﺕﺎﺒﻠﻄﺘﻣ§!\n\n"
+ requires_leviathans: "§ILeviathans§!$dlc_requirement_string$ "
+ requires_apoc: "§IApocalypse§!$dlc_requirement_string$ "
+ requires_syn_dawn: "§Iﻲﻋﺎﻨﻄﺻﻻﺍ ﺮﺠﻔﻟﺍ§!$dlc_requirement_string$ "
+ requires_megacorp: "§IMegaCorp§!$dlc_requirement_string$ "
+ requires_dis_stars: "§Yﺓﺪﻴﻌﺒﻟﺍ ﻡﻮﺠﻨﻟﺍ ﺔﺼﻗ ﺔﻣﺰﺣ§!$dlc_requirement_string$ "
+
+ tt_gain: "\n:ﺓﺩﺎﻳﺰﻠﻟ\n\n"
+ tt_use: "\n:ﻡﺍﺪﺨﺘﺳﻻﺍ\n\n"
+ tt_market: "['concept_market'] £market£ ﻰﻠﻋ ﺮﺘﺷﺍ"
+ tt_no_need_hive: "§R$auth_hive_mind_plural$ ﺩﺭﻮﻤﻟﺍ ﺍﺬﻫ ﻡﺪﺨﺘﺴﺗ ﻻ.§!"
+ tt_some_need_machine: "§R$auth_machine_intelligence_plural$ ﻡﺎﻋ ﻞﻜﺸﺑ ﺩﺭﻮﻤﻟﺍ ﺍﺬﻫ ﻡﺪﺨﺘﺴﺗ ﻻ.§!"
+ tt_some_need_infernal: "§R$trait_infernal_plural$ ﻡﺎﻋ ﻞﻜﺸﺑ ﺩﺭﻮﻤﻟﺍ ﺍﺬﻫ ﻡﺪﺨﺘﺴﺗ ﻻ.§!"
+
+ concept_advanced_empire: "ﺔﻣﺪﻘﺘﻤﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ"
+ concept_advanced_empires: "ﺔﻣﺪﻘﺘﻤﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ"
+ concept_advanced_empires_desc: ".ﻯﻮﻗﻷﺍ ﺔﻳﺍﺪﺒﻟﺍ ﺰﻛﺮﻣ ﺐﻧﺎﺟ ﻰﻟﺇ ﺔﻴﻓﺎﺿﺇ ﺕﺂﻓﺎﻜﻣ ﻱﺃ ﻰﻠﻋ ﻥﻮﻠﺼﺤﻳ ﻻ ﻢﻬﻧﺇ .ﻥﺎﻜﺴﻟﺍﻭ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍﻭ ﺩﺭﺍﻮﻤﻟﺍ ﻲﻓ ﺔﻴﻟﻭﺃ ﺓﺰﻴﻤﺑ ﺔﻣﺪﻘﺘﻤﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺃﺪﺒﺗ"
+
+ concept_alien_zoo: "$building_xeno_zoo$"
+ concept_alien_zoo_desc: "§L$building_xeno_zoo_desc$§!\n\n$job_livestock_zoo_animal_effect_desc$\n$job_entertainer_effect_desc$\n $job_livestock_zoo_animal$ Jobs.£job_livestock_zoo_animal£$t$$r_amenities$ ﻊﻣ ﺱﺎﻴﻘﻣ ﺔﺠﺘﻨﻤﻟﺍ \n.$r_amenities$ﻭ §Yﺚﺤﺒﻟﺍ ﻁﺎﻘﻧ§! £society£ $job_xeno_zoo_keeper_plural$ ﻞﻳﻮﺤﺗ $r_consumer_goods$ ﻰﻟﺇ £job_xeno_zoo_keeper£\n\n§G+300§! $job_livestock_zoo_animal$ ﻒﺋﺎﻇﻮﻟﺍ: £mod_job_livestock_zoo_animal_add£\n§G+100§! $job_xeno_zoo_keeper$ ﻒﺋﺎﻇﻮﻟﺍ: £mod_job_xeno_zoo_keeper_add£\n§G+100§!: [entertainer.GetName] £mod_job_entertainer_add£ ﻒﺋﺎﻇﻭ"
+
+ # Singular: ['concept_ascension_perk'] or §H$concept_ascension_perk$§!
+ # Plural: ['concept_ascension_perks'] or §H$concept_ascension_perks$§!
+ concept_ascension_perk: "ﺩﻮﻌﺼﻟﺍ ﺓﺰﻴﻣ"
+ concept_ascension_perks: "ﺩﻮﻌﺼﻟﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ"
+ concept_ascension_perks_desc: ".['concept_society_management_view'] £interface£ ﻲﻓ §H$traditions$§! ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻦﻤﺿ ﺎﻬﺗﺭﺍﺩﺇﻭ ﺎﻫﺭﺎﻴﺘﺧﺍ ﻢﺘﻳﻭ \n\n.ﻮﻤﺴﻟﺍ ﻭﺃ ﺔﻧﻭﺮﻤﻟﺍ ﻭﺃ ﺓﻮﻘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺕﺍﺭﺎﺴﻣ ﺢﺘﻓﻭ ،ﺓﺭﺎﻀﺤﻟﺍ ﺭﻮﻄﺗ ﺭﺎﺴﻣ ﻞﻴﻜﺸﺗ ﺎﻬﻨﻜﻤﻳ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺔﻳﻮﻗ ﺪﺋﺍﻮﻓ §H$concept_ascension_perks$§! ﺢﻨﻤﺗ"
+
+ # Singular: -
+ # Plural: £alloys£ ['concept_alloys'] or £alloys£ §H$concept_alloys$§!
+ concept_alloys: "ﻚﺋﺎﺒﺳ"
+ concept_alloys_desc: "- $tt_market$\n['building:building_foundry_1'] £building£ ﺭﺍﺪﺻﻹﺍ -\n§H$zone_foundry_plural$§! £zone£ ﻭﺃ §H$zone_industrial_plural$§! £zone£.$tt_gain$- Build ['concept_megastructures']ﻭ ['concept_starbases']ﻭ ['concept_military_ships']ﻭ ['concept_civilian_ships'] ﺀﺎﺸﻧﻹ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻢﺘﻳ ،ﻯﺮﺧﺃ ﺀﺎﻴﺷﺃ ﻦﻴﺑ ﻦﻣﻭ\n\n.ﺔﻤﻬﻣ ﺔﻳﺮﻜﺴﻋ ﺕﺎﻘﻴﺒﻄﺗ ﺕﺍﺫ ﺔﻣﺪﻘﺘﻣ ﺩﺭﺍﻮﻣ ﻲﻫ §H$concept_alloys$§! £alloys£"
+
+ # Singular: £trade_value£ ['concept_trade'] or §H$concept_trade$§!
+ # Plural: -
+ concept_trade: "ﺓﺭﺎﺠﺗ"
+ concept_trade_desc: "['concept_market'] £market£ ﻰﻠﻋ ﺩﺭﺍﻮﻤﻟﺍ ﻊﻴﺑ -\nﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺔﻳﺭﺎﺠﺘﻟﺍ ﻊﺋﺍﺩﻮﻟﺍ ﻰﻠﻋ ['concept_mining_stations'] £mining_station£ ﺀﺎﺸﻧﺇ -\n$r_trade$ ﺞﺘﻨﺗ ﻲﺘﻟﺍ ['concept_jobs'] £job£ ﻡﺍﺪﺨﺘﺳﺎﺑ ['concept_buildings'] £building£ ﺀﺎﺸﻧﺇ -$tt_gain$.ﻯﺮﺧﻷﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺀﺍﺮﺸﻟﻭ ['concept_colony_upkeep']ﻭ ['concept_ship_upkeep'] ـﻟ ﻪﻣﺍﺪﺨﺘﺳﺍ ﻢﺘﻳ\n\n.['concept_empire'] ﻞﺧﺍﺩ ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺓﺭﺪﻘﻟﺍﻭ ﺓﺭﺎﺠﺘﻟﺍ ﻖﻓﺪﺗﻭ ﻲﻣﻮﻴﻟﺍ ﻱﺩﺎﺼﺘﻗﻻﺍ ﻁﺎﺸﻨﻟﺍ $r_trade$ ﻞﺜﻤﻳ"
+
+ # Singular: £building£ ['concept_building'] or £building£ §H$concept_building$§!
+ # Plural: £building£ ['concept_buildings'] or £building£ §H$concept_buildings$§!
+ concept_building: "$buildable_building$"
+ concept_buildings: "$planet_buildings$"
+ concept_building_desc: "['concept_colony_view'] £interface£ ﻲﻓ §H$concept_buildings$§!.$tt_gain$- ﺪﻳﺰﻤﻟﺍ ﺀﺎﺸﻧﺇ ['concept_district_specialization'] £zone£ ﺪﻳﺪﺤﺗ ﺐﻠﻄﺘﻳ ﺪﻗ ﻱﺬﻟﺍ ﺮﻣﻷﺍ ،§H$concept_building$§! ﺀﺎﺸﻧﻹ §HBuilding Slot§! ﺮﻓﻮﺗ ﻡﺰﻠﻳ\n\n.['building:building_research_lab_1']ﻭ ['building:building_foundry_1'] ﺔﻠﺜﻣﻷﺍ ﻦﻤﻀﺘﺗ .['concept_colonies'] £colony£ ﺝﺍﺮﺧﺇ ﻲﻓ ﺺﺼﺨﺘﻣ §H$concept_buildings$§! £building£"
+
+ # Singular: £mining_station£ £science_ship£ £shipclass_observation_station£ ['concept_civilian_space_station'] or £mining_station£ £science_ship£ £shipclass_observation_station£ §H$concept_civilian_space_station$§!
+ # Plural: £mining_station£ £science_ship£ ['concept_civilian_space_stations'] or £mining_station£ §H$mining_station$§! £science_ship£ £shipclass_observation_station£ §H$concept_civilian_space_stations$§!
+ concept_civilian_space_station: "spacestation_1$$ ﺔﻴﻧﺪﻤﻟﺍ"
+ concept_civilian_space_stations: "$spacestation_1_plural$ ﺔﻴﻧﺪﻤﻟﺍ"
+ concept_civilian_space_station_desc: ".['concept_construction_ship'] £construction_ship£ ﺮﺒﻋ ﺎﻫﺀﺎﺸﻧﺇ ﺐﻠﻄﺘﻳ ﺎﻤﻣ ،ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺭﻮﻄﺘﻟﺍﻭ ﻱﺩﺎﺼﺘﻗﻻﺍ ﻊﺳﻮﺘﻠﻟ ﺔﻳﻮﻴﺣ ﺕﺎﻄﺤﻤﻟﺍ ﻩﺬﻫ ﺮﺒﺘﻌﺗ\n\n.ﻲﻤﻠﻌﻟﺍ ﻡﺪﻘﺘﻟﺍ ﺰﻳﺰﻌﺘﻟ ['concept_research'] £engineering£ £society£ £physics£ ﺀﺎﺸﻧﺈﺑ $research_station$ ﻡﻮﻘﺗ ﺎﻤﻨﻴﺑ ،ﻯﺮﺧﺃ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺩﺍﻮﻣﻭ ['concept_energy'] £energy£ﻭ ['concept_minerals'] £minerals£ ﺪﺼﺤﺑ $mining_station$ ﻡﻮﻘﺗ .ﻲﻤﻠﻋ ﺚﺤﺑ ﺀﺍﺮﺟﺇ ﻭﺃ ﺩﺭﺍﻮﻤﻟﺍ ﺝﺍﺮﺨﺘﺳﻻ ﺔﻳﻭﺎﻤﺴﻟﺍ ﻡﺍﺮﺟﻷﺍ ﻝﻮﺣ ﺎﻫﺅﺎﺸﻧﺇ ﻢﺗ ﺔﻳﺭﺍﺪﻣ ﺕﺂﺸﻨﻣ ﻦﻋ ﺓﺭﺎﺒﻋ §H$research_station_plural$§! £science_ship£ﻭ §H$mining_station_plural$§! £mining_station£"
+
+ # Singular: £colony£ ['concept_colony'] or £colony£ §H$concept_colony$§!
+ # Plural: £colony£ ['concept_colonies'] or £colony£ §H$concept_colonies$§!
+ concept_colony: "$ﻲﻧﻮﻟﻮﻛ$"
+ concept_colonies: "$ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ$"
+ concept_colony_desc: ".['concept_colony_view'] £interface£ ﻲﻓ §H$concept_colonies$§!\n\n.['concept_habitats'] ﻭﺃ ،['concept_colony_ships'] £colony_ship£ ﺔﻄﺳﺍﻮﺑ ﺮﻤﻌﺘﺴﻤﻟﺍ ['concept_planets'] £planet£ ﻭﺃ ،§Hhomeworld§! ﺓﺭﺍﺩﺇ ﻢﺘﺗ ﺔﻳﺍﺪﺒﻟﺍ ﺔﻠﺜﻣﻷﺍ ﻦﻤﻀﺘﺗ\n\n.['concept_buildings'] £building£ﻭ ['concept_district_specializations'] £zone£ﻭ ['concept_districts'] £district£ ﻲﻓ ['concept_pops'] £pop£ ﻪﻴﻓ ﻞﻤﻌﻳﻭ ﺶﻴﻌﻳ ﻥﺎﻜﻣ ﻱﺃ ﻲﻓ ﺩﻮﺟﻮﻣ §H$concept_colony$§! £colony£"
+
+ # Singular: £colony_ship£ ['concept_colony_ship'] or £colony_ship£ §H$concept_colony_ship$§!
+ # Plural: £colony_ship£ ['concept_colony_ships'] or £colony_ship£ §H$concept_colony_ships$§!
+ concept_colony_ship: "$ﺮﻤﻌﺘﺴﻤﻟﺍ$"
+ concept_colony_ships: "$colonizer_plural$"
+ concept_colony_ship_desc: ".['concept_shipyard'] ﻲﻓ ﺎﻫﺅﺎﻨﺑ ﺎﻀﻳﺃ ﻦﻜﻤﻳﻭ .['concept_expansion_planner'] £interface£ ﻭﺃ ['concept_colony_view'] £interface£ ﻦﻣ ﺭﺎﻤﻌﺘﺳﻻﺍ ﺀﺪﺑ ﺪﻨﻋ ﺎﻴﺋﺎﻘﻠﺗ §H$concept_colony_ship$§!A ﺀﺎﺸﻧﺇ ﻢﺘﻳ \n\n.['concept_colonies'] £colony£ ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺘﻟ ['concept_planets'] £planet£ ﻰﻟﺇ §H$concept_colony_ships$§! £colony_ship£ ﻝﺎﺳﺭﺇ ﻢﺘﻳ"
+
+ # Singular: £construction_ship£ ['concept_construction_ship'] or £construction_ship£ §H$concept_construction_ship$§!
+ # Plural: £construction_ship£ ['concept_construction_ships']
+ concept_construction_ship: "$ﺊﺸﻨﻤﻟﺍ$"
+ concept_construction_ships: "$constructor_plural$"
+ concept_construction_ship_desc: "['concept_shipyard'] ﻲﻓ §H$concept_construction_ships$§!$tt_gain$- ﺀﺎﻨﺒﺑ ﻢﻗ ['concept_special_projects'] ﻦﻋ ﺚﺤﺑﺍ -\n['concept_megastructures'] ﻝﻮﺣ ﻪﻋﻼﻄﺘﺳﺍ ﻢﺗ ﻱﺬﻟﺍ -\n['concept_stars']ﻭ ['concept_planets'] £planet£ ﻝﻮﺣ ['concept_research_stations'] £science_ship£ﻭ ['concept_mining_stations'] £mining_station£ ﺊﺸﻧﺃ -\n['concept_empire'] ﺩﻭﺪﺣ ﻊﻴﺳﻮﺘﻟ ﺔﻛﻮﻠﻤﻤﻟﺍ ﺮﻴﻏ ['concept_systems'] £system£ ﻲﻓ ['concept_outposts'] ﺊﺸﻧﺃ -$tt_use$.ﺔﻔﻠﺘﺨﻣ ﺔﻴﺋﺎﻀﻓ ﺕﺎﻄﺤﻣ ﻊﻴﻤﺠﺘﺑ §H$concept_construction_ship$§! £construction_ship£ ﺢﻤﺴﻳ"
+
+ # Singular: £science_ship£ ['concept_science_ship'] or £science_ship£ §H$concept_science_ship$§!
+ # Plural: £science_ship£ ['concept_science_ships'] or £science_ship£ §H$concept_science_ships$§!
+ concept_science_ship: "$ﻢﻠﻋ$"
+ concept_science_ships: "$science_plural$"
+ concept_science_ship_desc: ".ﻼﺼﻔﻣ ﻼﻴﻠﺤﺗ ﺐﻠﻄﺘﺗ ﻲﺘﻟﺍ ['concept_special_projects'] ﻲﻓ ﺓﺪﻋﺎﺴﻤﻠﻟ ﻭﺃ ،['concept_debris'] ﺙﺎﺤﺑﻷﺍ ﺔﻨﻴﻔﺳ ﻭﺃ ،['concept_wormholes'] ﻞﺜﻣ ﺓﺮﺠﻤﻟﺍ ﺓﺮﻫﺎﻇ ﻑﺎﺸﻜﺘﺳﻻ ﺎﻀﻳﺃ ﻪﻣﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ §H$concept_science_ships$§!\n\n.Discovery ﻭ ﺮﻜﺒﻤﻟﺍ ﻊﺳﻮﺘﻠﻟ ﺔﻳﺭﻭﺮﺿ ﻲﻫﻭ ﺔﺣﺎﺘﻤﻟﺍ ['concept_components'] ﺙﺪﺣﺄﺑ ﺎﻴﺋﺎﻘﻠﺗ ﻦﻔﺴﻟﺍ ﻩﺬﻫ ﺰﻴﻬﺠﺗ ﻢﺘﻳ\n\n.['concept_archaeology_sites'] £archaeology£ ﻲﻓ ﻖﻴﻘﺤﺘﻟﺍﻭ ،['concept_anomalies'] £anomaly£ ﻞﻴﻠﺤﺗﻭ ،ﺔﻄﻄﺨﻤﻟﺍ ﺮﻴﻏ ﺔﻤﻈﻧﻷﺍ ﺢﺴﻣ ﻢﻬﻨﻜﻤﻳ ،['concept_scientist'] £scientist£ ﺓﺭﺍﺩﺇ ﺖﺤﺗ .ﺚﺤﺒﻟﺍﻭ ﺢﺴﻤﻟﺍﻭ ﻑﺎﺸﻜﺘﺳﻻﺍ ﺕﺎﻴﻠﻤﻌﻟ ﺔﻤﻤﺼﻣ ﺔﺼﺼﺨﺘﻣ ﻦﻔﺳ ﻲﻫ §H$concept_science_ships$§! £science_ship£"
+
+ # Singular: -
+ # Plural: £consumer_goods£ ['concept_consumer_goods'] or £consumer_goods£ §H$concept_consumer_goods$§!
+ concept_consumer_goods: "ﺔﻴﻛﻼﻬﺘﺳﻻﺍ ﻊﻠﺴﻟﺍ"
+ concept_consumer_goods_desc: "[GetConceptConsumerGoods]"
+ concept_consumer_goods_desc_start: ".ﺓﺪﻴﺟ ﺓﺎﻴﺣ ['concept_pops'] £pop£ ﺢﻨﻤﻟ ﺔﻣﺯﻼﻟﺍ ﺕﺍﺪﻌﻤﻟﺍﻭ ﺕﺎﻴﻟﺎﻤﻜﻟﺍﻭ ﺔﻋﻮﻨﺘﻤﻟﺍ ﺕﺍﻭﺩﻷﺍ ﻦﻤﻀﺘﻳ ﻡﺪﻘﺘﻣ ﺩﺭﻮﻣ ﻦﻋ ﺓﺭﺎﺒﻋ §H$concept_consumer_goods$§! £consumer_goods£"
+ concept_consumer_goods_desc_end: "- $tt_market$\n['building:building_factory_1'] £building£ ﺭﺍﺪﺻﻹﺍ -\n§H$zone_factory_plural$§! £zone£ ﻭﺃ §H$zone_industrial_plural$§! £zone£$tt_gain$- ﺭﺍﺪﺻﻹﺍ "
+ concept_consumer_goods_desc_regular: ".$concept_consumer_goods_desc_end$['concept_priest'] £job_priest£ ﻭﺃ ['concept_researcher'] £job_researcher£ ﻞﺜﻣ ،ﻚﻟﺫ ﺬﻴﻔﻨﺗ ['concept_jobs'] £job£ ﺾﻌﺑ ﺐﻠﻄﺘﺗ\n\n$concept_consumer_goods_desc_start$"
+ concept_consumer_goods_desc_hive: "$concept_consumer_goods_desc_regular$\n\n$tt_no_need_hive$"
+ concept_consumer_goods_desc_machine: ".$concept_consumer_goods_desc_end$§H$citizenship_organic_trophy$ Pops§! £pop£ ـﻟ §H$civic_machine_servitor_plural$§! ﻚﻟﺬﻛﻭ ،§H$concept_consumer_goods$§! £consumer_goods£ §H$civic_machine_obsessional_directive$§! ﺞﺘﻨﻣ ﻊﻣ ['concept_auth_machine_intelligence', $auth_machine_intelligence_plural$]\n\n$concept_consumer_goods_desc_start$\n\n$tt_some_need_machine$"
+
+# Singular: -
+ # Plural: £biomass£ ['concept_biomass'] or £biomass£ §H$biomass$§!
+ concept_biomass: "ﺔﻳﻮﻴﺤﻟﺍ ﺔﻠﺘﻜﻟﺍ"
+ concept_biomass_desc: "['building:building_cradle_of_rebirth'] £building£ ﺭﺍﺪﺻﻹﺍ -\n['concept_pops'] £pop£ ﺪﻳﺰﻤﻟﺍ ﻮﻤﻧ -$tt_gain$.ﺓﺪﻳﺪﺠﻟﺍ ['concept_colonies'] ['concept_terraforming']ﻭ ['concept_buildings'] £building£ ﺐﻛﺍﻮﻜﻟﺍ ﺀﺎﻨﺒﻟ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻢﺘﻳ\n\n.['concept_owned_systems'] ﻢﻟﺍﻮﻋ ﺮﺒﻋ ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﻁﺎﺸﻨﻟﺍ ﻦﻋ ﺔﺠﺗﺎﻨﻟﺍ ﻡﺎﺨﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﻧﺎﻜﻣﻹﺍ ﻲﻫ §HBiomass§! £biomass£"
+
+ # Singular: £genetic_material£ ['concept_dna'] or £genetic_material£ §H$concept_dna$§!
+ # Plural: -
+ concept_dna: "$ﺔﻴﻨﻴﺠﻟﺍ_ﺩﺍﻮﻤﻟﺍ$"
+ concept_dna_desc: ".['concept_vivarium'] ﻲﻓ ﺮﺛﺎﻜﺘﻟﺍ ﻖﻳﺮﻃ ﻦﻋﻭ ['technology:tech_gravity_wells'] £physics£ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺔﻳﺮﺒﻟﺍ ﻲﻓ ﺔﻴﻨﻴﺠﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻊﻤﺟ ﻦﻜﻤﻳ\n\n.['concept_hatchery',Hatcheries] ﻲﻓ §Y§!ﻰﻠﻋﻷﺍ ﺔﺟﺭﺪﻟﺍ ﺕﺍﺫ ﺀﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺣ ﺥﺎﺴﻨﺘﺳﺍ ﺔﻴﻧﺎﻜﻣﺇ ﺓﺩﻮﺠﻟﺍ ﺔﻴﻟﺎﻋ ﺔﻴﺛﺍﺭﻮﻟﺍ ﺓﺩﺎﻤﻟﺍ ﺢﺘﻔﺗ .ﺔﻳﺮﻜﺴﻋ ﻞﻴﻃﺎﺳﺄﻛ ﺎﻬﻣﺍﺪﺨﺘﺳﻻ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺥﺎﺴﻨﺘﺳﺍ §H$concept_dna$§! £genetic_material£ ﺎﻨﻟ ﺢﻴﺘﻳ"
+
+ # Singular: £district£ ['concept_district'] or £district£ §H$concept_district$§!
+ # Plural: £district£ ['concept_districts'] or £district£ §H$concept_districts$§!
+ concept_district: "$ﺔﻘﻄﻨﻤﻟﺍ$"
+ concept_districts: "$ﻖﻃﺎﻨﻤﻟﺍ$"
+ concept_district_desc: "['concept_colony_view'] £interface£ ﻲﻓ §H$concept_districts$§!.$tt_gain$- ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺀﺎﺸﻧﺇ ['concept_jobs'] £job£ﻭ ['concept_housing'] £housing£ ﻦﻣ ﻼﻛ ﺓﺩﺎﻋ ﺮﻓﻮﺗ ﻲﻫﻭ \n\n.['concept_farming_districts'] ﻭﺃ ،['concept_mining_districts'] ﻭﺃ ،['concept_generator_districts'] ﺔﻠﺜﻣﻷﺍ ﻦﻤﻀﺘﺗ .['concept_colony'] £colony£ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﻖﻃﺎﻨﻣ ﻲﻫ §H$concept_districts$§! £district£"
+
+ # Singular: ['concept_edict'] or §H$concept_edict$§!
+ # Plural: ['concept_edicts'] or §H$concept_edicts$§!
+ concept_edict: "ﻡﻮﺳﺮﻣ"
+ concept_edicts: "ﻢﻴﺳﺍﺮﻤﻟﺍ"
+ concept_edicts_desc: ".['concept_government_view'] £interface£ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ §H$ Government_view_tab_policies_and_edicts$§! ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ §H$concept_edicts$§!\n\n.ﺩﺭﺍﻮﻤﻟﺍ ﺓﺭﺍﺩﺇ ﻢﺘﺗ ﻯﺮﺧﺃ ﻒﻠﻜﺗ ﺪﻗ §H$concept_edicts$§! ﺾﻌﺑ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،['concept_edict_fund'] ﻡﺍﺪﺨﺘﺳﺍ ﻞﺑﺎﻘﻣ ﻊﻓﺪﻟﺍ ﻢﺘﻳ ﻭﺃ $i_unity$ ﺐﻠﻄﺘﻳ ﺎﻬﻤﻈﻌﻣ\n\n.ﺔﻳﺮﻬﺷ ﺔﻧﺎﻴﺻ ﻊﻓﺩ ﻭﺃ ﺩﺭﺍﻮﻤﻟﺍ ﻕﺎﻔﻧﺇ ﻝﻼﺧ ﻦﻣ ﺎﻬﻠﻴﻌﻔﺗ ﻢﺘﻳ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺕﺍﺭﺍﺮﻗ ﻲﻫ §H$concept_edicts$§!"
+
+ # Singular: ['concept_edict_fund'] or §H$concept_edict_fund$§!
+ # Plural: -
+ concept_edict_fund: "ﻡﻮﺳﺮﻤﻟﺍ ﻕﻭﺪﻨﺻ"
+ concept_edict_fund_desc: ".ﺔﻴﻓﺎﺿﻹﺍ §H$concept_unity$§! ﻙﻼﻬﺘﺳﺍ ﻢﺘﻴﺴﻓ ،§H$concept_edict_fund$§! ﺔﻌﺳ ﺔﻧﺎﻴﺼﻟﺍ ﺕﺯﻭﺎﺠﺗ ﺍﺫﺇ .['concept_edict'] ﺔﻧﺎﻴﺼﻟ ﺔﺼﺼﺨﻣ ['concept_unity'] £unity£ ﻦﻣ ﺔﺘﺑﺎﺛ ﺔﻋﻮﻤﺠﻣ ﻦﻋ ﺓﺭﺎﺒﻋ §H$concept_edict_fund$§!"
+
+ # Singular: -
+ # Plural: £energy£ ['concept_energy'] or £energy£ §H$concept_energy$§!
+ concept_energy: "ﺔﻗﺎﻄﻟﺍ ﺕﺍﺩﺎﻤﺘﻋﺍ"
+ concept_energy_desc: "- $tt_market$\n['concept_celestial_objects'] ﻰﻠﻋ ['concept_mining_stations'] £mining_station£ ﺊﺸﻧﺃ -\n['concept_generator_districts'] £district£ tt_gain$- Build$.ﻦﻳﺮﺧﻵﺍ ﻊﻣ ﺕﺎﻘﻔﺻ ﺪﻘﻋ ﺪﻨﻋﻭ ،['concept_blockers'] £blocker£ ﺐﻛﺍﻮﻜﻟﺍ ﻒﻴﻈﻨﺘﻟ ،['concept_buildings']ﻭ ['concept_ships'] ﺔﻧﺎﻴﺼﻟ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻢﺘﻳ\n\n.['concept_empires'] ﺀﺎﻀﻔﻟﺍ ﺩﺍﻭﺭ ﻊﻴﻤﺠﻟ ﺔﻳﺭﻭﺮﺿ ﺮﺒﺘﻌﺗ ﻲﺘﻟﺍﻭ ﻞﻳﻮﺤﺘﻠﻟ ﺔﻠﺑﺎﻘﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﺔﻧﺰﺨﻣ ﺕﺍﺪﺣﻭ ﻲﻫ §Hﺔﻗﺎﻄﻟﺍ ﺓﺪﺻﺭﺃ§! £energy£"
+
+ # Singular: ['concept_authority'] or §H$concept_authority$§!
+ # Plural: ['concept_authorities'] or §H$concept_authorities$§!
+ concept_authority: "ﺔﻄﻠﺳ"
+ concept_authorities: "ﺕﺎﻄﻠﺳ"
+ concept_authority_desc: ".ﺔﻣﺯﻼﻟﺍ ﻁﻭﺮﺸﻟﺍ ﺀﺎﻔﻴﺘﺳﺍ ﻁﺮﺸﺑ ،ﺕﺎﺣﻼﺻﻹﺍ ﻝﻼﺧ ﻦﻣ ﺎﻘﺣﻻ ﺎﻫﺮﻴﻴﻐﺗ ﻦﻜﻤﻳ ﻦﻜﻟﻭ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺀﺎﺸﻧﺇ ﺀﺎﻨﺛﺃ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ §H$concept_authority$§!An ﺀﺎﺸﻧﺇ ﻢﺗ \n\n.ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﻼﻋﺎﻔﺘﻟﺍﻭ ،ﺔﺣﺎﺘﻤﻟﺍ ['concept_civics']ﻭ ،ﻢﻛﺎﺤﻟﺍ ﺔﻓﻼﺧﻭ ،['concept_factions'] ﻢﻋﺩﻭ ﺔﻘﻓﺍﻮﻣ ﻰﻠﻋ §H$concept_authority$§! ﺭﺎﻴﺘﺧﺍ ﺮﺛﺆﻳ\n\n.ﺪﺣﺍﻭ ﻢﻛﺎﺣ ﺪﻳ ﻲﻓ ﺔﻄﻠﺴﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺔﻤﻈﻧﻷﺍﻭ ﺕﺎﻳﺭﻮﺗﺎﺘﻛﺪﻟﺍ ﺰﻛﺮﺗ ﺎﻤﻨﻴﺑ ،ﺎﻳﺭﻭﺩ ['concept_democratic_election'] ـﺑ ﺔﻴﺷﺭﺎﻐﻴﻟﻭﻷﺍﻭ ﺕﺎﻴﻃﺍﺮﻘﻤﻳﺪﻟﺍ ﻆﻔﺘﺤﺗ .ﺎﻬﻧﺎﻜﺳ ﻢﻜﺣﻭ ﺎﻬﻣﺎﻜﺤﻟ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺭﺎﻴﺘﺧﺍ ﺔﻴﻔﻴﻛ §H$concept_authority$§! ﺩﺪﺤﻳ"
+
+ # Singular: ['concept_ethic'] or §H$concept_ethic$§!
+ # Plural: ['concept_ethics'] or §H$concept_ethics$§!
+ concept_ethic: "ﻕﻼﺧﻷﺍ"
+ concept_ethics: "ﺔﻴﻨﻬﻣ ﻕﻼﺧﺃ"
+ concept_ethic_desc: ".ﻲﻗﻼﺧﻷﺍ ﻝﻮﺤﺘﻟﺍ ﺕﺎﻴﻟﺁ ﻝﻼﺧ ﻦﻣ ﺪﻤﻌﺘﻤﻟﺍ ﺡﻼﺻﻹﺍ ﻭﺃ ﻞﺋﺎﺼﻔﻟﺍ ﺮﻴﺛﺄﺗ ﻭﺃ ﺔﻴﻠﺧﺍﺪﻟﺍ ﻁﻮﻐﻀﻟﺍ ﺐﺒﺴﺑ ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﺮﻴﻐﺘﺗ ﻥﺃ ﻦﻜﻤﻳ ﺎﻬﻧﺃ ﻻﺇ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺀﺎﺸﻧﺇ ﺪﻨﻋ §H$concept_ethics$§! ﺭﺎﻴﺘﺧﺍ ﻢﺘﻳ ﺎﻤﻨﻴﺑ .ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻊﻣ ﺕﻼﻋﺎﻔﺘﻟﺍﻭ ['concept_authorities']ﻭ ['concept_civics'] ﻰﻠﻋ ﺡﺎﺘﻣ §H$concept_ethics$§! ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺮﻴﺛﺄﺗ\n\n.ﻲﻤﻠﺴﻟﺍ ﻥﻭﺎﻌﺘﻟﺍ ﻭﺃ ﻱﺮﻜﺴﻌﻟﺍ ﻭﺰﻐﻟﺍ ﻭﺃ ﺔﻳﺩﺍﺪﺒﺘﺳﻻﺍ ﺓﺮﻄﻴﺴﻟﺍ ﻭﺃ ﺔﻳﺮﺤﻟﺍ ﺭﺪﻘﻳ ﺩﺮﻔﻟﺍ ﻥﺎﻛ ﺍﺫﺇ ﺎﻣ ﺩﺪﺤﺗ ﻲﻫﻭ .ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺎﻬﻔﻗﻮﻣﻭ ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﺎﻬﺘﻴﻨﺑﻭ ﺎﻬﺗﺎﺳﺎﻴﺳ ﻞﻜﺸﺗ ﻲﺘﻟﺍﻭ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺔﻴﺳﺎﺳﻷﺍ ﺔﻴﺟﻮﻟﻮﻳﺪﻳﻷﺍ ﺕﺍﺪﻘﺘﻌﻤﻟﺍ §H$concept_ethics$§! ﻞﺜﻤﺗ"
+
+ # Singular: ['concept_faction'] or §H$concept_faction$§!
+ # Plural: ['concept_factions'] or §H$concept_factions$§!
+ concept_faction: "ﻞﻴﺼﻓ"
+ concept_factions: "ﻞﺋﺎﺼﻔﻟﺍ"
+ concept_faction_desc: ".§H$concept_faction$§! ﻦﻣ ['concept_unity'] £unity£ ﺮﺒﻛﺃ ['concept_support']ﻭ §H$concept_approval$§! ﻦﻋ ﺞﺘﻨﻳ\n\n.§H$concept_pops$§! ﻦﻣ ['concept_happiness'] £happiness£ ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻤﻣ ،ﻦﻫﺍﺮﻟﺍ ﻊﺿﻮﻟﺍ ﻦﻋ §H$concept_faction$§! ﺎﺿﺭ ﻯﺪﻣ ﺲﻜﻌﺗ ['concept_approval']\n\n.['concept_empire'] ﺔﻤﻛﻮﺤﺑ ﻖﻠﻌﺘﻳ ﺎﻤﻴﻓ ﺔﻛﺮﺘﺸﻣ ﺐﻟﺎﻄﻣ ﺕﺍﺫ ['concept_pops'] £pop£ ﻦﻣ ﺕﺎﻋﻮﻤﺠﻣ ﻲﻫ §H$concept_factions$§!"
+
+ # Singular: ['concept_approval'] or §H$concept_approval$§!
+ # Plural: -
+ concept_approval: "ﺔﻘﻓﺍﻮﻣ"
+ concept_approval_desc: ".ﻪﻨﻣ ['concept_unity'] £unity£ ﺏﺎﺴﺘﻛﺍ ﻢﺗ ﺎﻤﻠﻛ ،['concept_support'] ﻭ §H$concept_approval$§! ﻊﻔﺗﺭﺍ ﺎﻤﻠﻛ \n\n.['concept_pops'] £pop£ ـﻟ ['concept_happiness'] £happiness£ ﻰﻠﻋ ﺮﺛﺆﻳ ﺪﻗﻭ ﻦﻫﺍﺮﻟﺍ ﻊﺿﻮﻟﺍ ﻦﻋ ﻩﺎﺿﺭ ﻯﺪﻣ ['concept_faction'] ـﻟ §H$concept_approval$§! ﻞﺜﻤﻳ"
+
+ # Singular: ['concept_support'] or §H$concept_support$§!
+ # Plural: -
+ concept_support: "ﻢﻋﺪﻳ"
+ concept_support_desc: ".ﻢﻬﻳﺪﻟ ﺲﻴﻟ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻦﻣ ﻢﻋﺪﻟﺍ ﻦﻣ ﺪﻳﺰﻤﺑ ﻢﻫﺎﺴﺗ §Hﺔﻠﻣﺎﻜﻟﺍ ﺔﻨﻃﺍﻮﻤﻟﺍ§! ﻊﻣ §H$concept_pops$§!\n\n.§H$concept_faction$§! ﻲﻓ ['concept_pops'] £pop£ ﺭﺍﺪﻘﻤﺑ §H$concept_support$§! ﺓﺩﺎﻳﺯ ﺖﻤﺗ .['concept_faction'] ـﻟ ﺔﻴﺳﺎﻴﺴﻟﺍ ﺓﻮﻘﻟﺍ §H$concept_support$§! ﻞﺜﻤﻳ"
+
+ # Singular: ['concept_endgame_crisis'] or §H$concept_endgame_crisis$§!
+ # Plural: ['concept_endgame_crises'] or §H$concept_endgame_crises$§!
+ concept_endgame_crisis: "ﺔﺒﻌﻠﻟﺍ ﺔﻳﺎﻬﻧ ﺔﻣﺯﺃ"
+ concept_endgame_crises: "ﺔﺒﻌﻠﻟﺍ ﺔﻳﺎﻬﻧ ﺕﺎﻣﺯﺃ"
+ concept_endgame_crisis_desc: ".§Iﺔﺒﻌﻠﻟﺍ ﺔﻳﺎﻬﻧ ﺀﺪﺑ ﻡﺎﻋ§! ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺪﻌﺑ ﻂﻘﻓ ﺓﺩﺎﻋ ﺔﺒﻌﻠﻟﺍ ﺔﻳﺎﻬﻧ ﺕﺎﻣﺯﺃ ﺙﺪﺤﺘﺳ\n\n.ﻦﻴﻣﺮﻀﺨﻤﻟﺍ ﻦﻴﺒﻋﻼﻟ ﻰﺘﺣ ﺍﺮﻴﺒﻛ ﺎﻳﺪﺤﺗ ﺔﺒﻌﻠﻟﺍ ﺔﻳﺎﻬﻧ ﺕﺎﻣﺯﺃ ﻞﺜﻤﺗ ﻥﺃ ﻦﻜﻤﻳ .ﺓﺮﺠﻤﻟﺍ ﺔﻣﺯﺃ ﺮﻬﻈﺘﺳ ،ﺓﺮﺧﺄﺘﻤﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ ﻰﻟﺇ Stellaris ﺔﺒﻌﻟ ﻞﺼﺗ ﺎﻣﺪﻨﻋ"
+
+ # Singular: ['concept_fallen_empire'] or §H$concept_fallen_empire$§!
+ # Plural: ['concept_fallen_empires'] or §H$concept_fallen_empires$§!
+ concept_fallen_empire: "ﺔﻄﻗﺎﺴﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ"
+ concept_fallen_empires: "ﺔﻄﻗﺎﺴﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ"
+ concept_fallen_empires_desc: ".ﺐﻌﺻ ﻢﺼﺧ ﺔﻤﻳﺰﻫ ﻰﻠﻋ ﻚﺗﺭﺪﻗ ﻦﻣ ﺎﻘﺛﺍﻭ ﺖﻨﻛ ﺍﺫﺇ ﻻﺇ ﺮﻃﺎﺨﻤﻟﺎﺑ ﻑﻮﻔﺤﻣ ﺮﻣﺃ ﺔﻄﻗﺎﺳ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺯﺍﺰﻔﺘﺳﺍ ﻥﺇ\n\n.ﻞﻗﺃ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻰﻠﻋ ﻡﺎﻬﻣ ﻥﻮﺿﺮﻌﻳ ﻭﺃ ﻥﻮﺒﻠﻄﻳ ﺪﻗ ﻥﺎﻴﺣﻷﺍ ﺾﻌﺑ ﻲﻓ .ﻡﺎﻋ ﻞﻜﺸﺑ ﺔﻴﺒﻠﺳ ﺎﻬﻨﻜﻟﻭ ،ﺔﻳﻮﻘﻟﺍ ﻞﻴﻃﺎﺳﻷﺍﻭ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺎﺑ ﺕﺃﺪﺑ ﺔﻤﻳﺪﻗ ﺔﻘﺑﺎﺳ ﺕﺍﺭﺎﻀﺣ ﻲﻫ ﺔﻄﻗﺎﺴﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ"
+
+ # Singular: ['concept_awakened_empire'] or §H$concept_awakened_empire$§!
+ # Plural: ['concept_awakened_empires'] or §H$concept_awakened_empires$§!
+ concept_fallen_empire_awakening: "ﺔﻄﻗﺎﺴﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺓﻮﺤﺻ"
+ concept_awaken: "ﻆﻘﻴﺘﺳﺍ"
+ concept_awakened_empire: "$COUNTRY_AWAKENED_FALLEN_EMPIRE$"
+ concept_awakened_empires: "ﺔﻈﻘﻴﺘﺴﻤﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ"
+ concept_awakened_empires_desc: "$COUNTRY_AWAKENED_FALLEN_EMPIRE_DESC$"
+
+ # Singular: £food£ ['concept_food'] or £food£ §H$concept_food$§!
+ # Plural: -
+ concept_food: "ﻡﺎﻌﻃ"
+ concept_food_desc: "[GetConceptFood]"
+ concept_food_desc_end: "- $tt_market$\n['concept_farming_districts'] £district£ ﺭﺍﺪﺻﻹﺍ §Y-§!$tt_gain$"
+ concept_food_desc_regular: ".$concept_food_desc_end$['concept_pops'] £pop£ ﻰﻠﻋ ﺔﻈﻓﺎﺤﻤﻟﺍﻭ ﻮﻤﻨﻠﻟ ﺔﻣﺯﻼﻟﺍ ﺔﻔﻠﺘﺨﻤﻟﺍ ﺔﻴﺋﺍﺬﻐﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻞﺜﻤﻳ §H$concept_food$§! £food£"
+ concept_food_desc_machine: ".$concept_food_desc_end$§H$citizenship_organic_trophy$ Pops§! £pop£ ـﻟ §H$civic_machine_servitor_plural$§!ﻭ §HCyborg Pops§! £pop£ ـﻟ §H$concept_food$§! £food£ ﺝﺎﺘﻧﺇ §H$civic_machine_assimilator_plural$§!\n\n.ﺔﻔﻴﻌﻀﻟﺍ ﺎﻬﻣﺎﺴﺟﺃ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺎﻬﺟﺎﺘﺤﺗ ﻲﺘﻟﺍ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺕﺎﻳﺬﻐﻤﻠﻟ ﺔﻔﻠﺘﺨﻤﻟﺍ ﺭﺩﺎﺼﻤﻟﺍ ﻞﺜﻤﻳ §H$food$§! £food£\n\n$tt_some_need_machine$"
+ concept_food_desc_infernal: "$concept_food_desc_end$.ﺓﺮﺗﺎﻔﻟﺍ ﺓﺮﻴﻐﺼﻟﺍ ﻢﻬﻣﺎﺴﺟﺃ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺔﺒﻳﺮﻐﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻦﻣ ﻱﻮﻀﻌﻟﺍ ['concept_pops'] £pop£ ﺎﻬﺟﺎﺘﺤﻳ ﻲﺘﻟﺍ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺔﻴﺋﺍﺬﻐﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻞﺜﻤﺗ §H$food$§! £food£\n\n$tt_some_need_infernal$"
+
+ concept_flexible_traditions: "ﺔﻧﺮﻤﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ concept_flexible_tradition: "ﻥﺮﻤﻟﺍ ﺪﻴﻠﻘﺘﻟﺍ"
+ concept_flexible_traditions_desc: ".ﺐﻌﻠﻟﺍ ﺀﺎﻨﺛﺃ ﺎﻫﺅﺍﺮﺟﺇ ﻢﺘﻳ ﻲﺘﻟﺍ ﺕﺍﺭﺎﻴﺘﺧﻻﺍ ﻰﻠﻋ ﺀﺎﻨﺑ ﺎﻬﻨﻴﻴﻌﺗ ﻢﺘﻳ ﻲﺘﻟﺍ ['concept_traditions'] ﻲﻫ ﺔﻧﺮﻤﻟﺍ ﺪﻴﻟﺎﻘﺘﻟﺍ"
+
+ # Singular: ['concept_gateway'] or §H$concept_gateway$§!
+ # Plural: ['concept_gateways'] or §H$concept_gateways$§!
+ concept_gateway: "ﺔﺑﺍﻮﺑ"
+ concept_gateways: "ﺕﺎﺑﺍﻮﺑ"
+ concept_gateways_desc: ".ﺔﻜﺒﺸﻟﺍ ﻲﻓ ﻯﺮﺧﺃ ﺔﻄﺸﻧ ﺔﺑﺍﻮﺑ ﻱﺃ ﻰﻟﺇ ﻱﺭﻮﻔﻟﺍ ﻪﺒﺷ ﺮﻔﺴﻟﺎﺑ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﻴﻋﺮﻓ ﺔﻴﺋﺎﻀﻓ ﺕﺍﻮﻨﻗ ﺊﺸﻨﺗ ﺔﻤﺨﺿ ﻞﻛﺎﻴﻫ ﻦﻋ ﺓﺭﺎﺒﻋ ﺕﺎﺑﺍﻮﺒﻟﺍ"
+
+ # Singular: ['concept_great_khan'] or §H$concept_great_khan$§!
+ # Plural: -
+ concept_great_khan: "ﻢﻴﻈﻌﻟﺍ ﻥﺎﺧ"
+ concept_great_khan_desc: "$requires_apoc$.ﻉﻮﻀﺨﻟﺍ ﻰﻠﻋ ﻢﻫﺭﺎﺒﺟﺇﻭ ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻭﺰﻏ ﻰﻟﺇ ﻥﻮﻌﺴﻳ ﻑﻮﺴﻓ ،ﺭﺩﻭﺍﺭﺎﻣ ﺕﺎﻧﺎﺧ ﻢﻫﺭﺎﺒﺘﻋﺎﺑﻭ .ﻱﻮﻗ ﻢﻴﻋﺯ ﺔﻄﺳﺍﻮﺑ ﺔﻨﻳﺎﺒﺘﻤﻟﺍ ['concept_marauder_empires', $concept_marauder_empire$]The Great Khan ﻞﺋﺎﺒﻗ ﺪﻴﺣﻮﺗ ﻢﺘﻳ ﺚﻴﺣ ﺔﺒﻌﻠﻟﺍ ﻒﺼﺘﻨﻣ ﻲﻓ ﺙﺍﺪﺣﺃ ﺔﻠﺴﻠﺳ ﻦﻋ ﺓﺭﺎﺒﻋ "
+
+ # Singular: ['concept_grand_admiral'] or §H$concept_grand_admiral$§!
+ # Plural: -
+ concept_grand_admiral: "$DIFFICULTY_GRAND_ADMIRAL$"
+ concept_grand_admiral_desc: "$DIFFICULTY_GRAND_ADMIRAL_DESC$"
+
+ # Singular: ['concept_guaranteed_colonies'] or §H$concept_guaranteed_colonies$§!
+ # Plural: -
+ concept_guaranteed_colonies: "$FE_GUARANTEED_COLOONIES$"
+ concept_guaranteed_colonies_desc: ".ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﻲﻟﺰﻨﻤﻟﺍ ﻚﻤﻟﺎﻋ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻦﻜﺴﻠﻟ ﺔﺤﻟﺎﺻ ﻢﻟﺍﻮﻋ ﺪﺠﺗ ﻦﻟ ﻚﻧﺃ ﺍﺬﻫ ﻞﻴﻐﺸﺗ ﻑﺎﻘﻳﺇ ﻲﻨﻌﻳ ﺪﻗ .ﻚﺑ ﺹﺎﺨﻟﺍ ﺔﻳﺍﺪﺒﻟﺍ ﻡﺎﻈﻧ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻩﺭﻮﻬﻇ ﻦﻤﻀﻳ ﻱﺬﻟﺍ ﻲﻟﺰﻨﻤﻟﺍ ﻚﻤﻟﺎﻋ ﻞﺜﻣ ﺐﻛﻮﻜﻟﺍ ﺔﺌﻓ ﺲﻔﻧ ﻦﻣ ﻦﻜﺴﻠﻟ ﺔﺤﻟﺎﺼﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﺩﺪﻋ ﻲﻓ ﺍﺬﻫ ﻢﻜﺤﺘﻳ"
+
+ # Singular: ['concept_hatchery'] or §H$concept_hatchery$§!
+ # Plural: -
+ concept_hatchery: "$sm_hatchery$"
+ concept_hatchery_desc: ".ﺔﻳﺮﻜﺴﻋ ﻞﻴﻃﺎﺳﺄﻛ ﺎﻬﻣﺍﺪﺨﺘﺳﻻ §YSpace Fauna§! ﺥﺎﺴﻨﺘﺳﻻ ['concept_dna'] £genetic_material£ ﻥﺎﻀﺘﺣﺍ §YHatcheries§! ﺎﻨﻟ ﺢﻴﺘﺗ"
+
+ # Singular: ['concept_hyperlane'] or §H$concept_hyperlane$§!
+ # Plural: ['concept_hyperlanes'] or §H$concept_hyperlanes$§!
+ concept_hyperlane: "ﻥﻻﺮﺒﻳﺎﻫ"
+ concept_hyperlanes: "ﺔﻴﺒﻌﺸﺘﻟﺍ ﻁﻮﻄﺨﻟﺍ"
+ concept_hyperlanes_desc: ".ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺮﻔﺴﻠﻟ ﺔﻴﺳﺎﺳﻷﺍ ﺔﻘﻳﺮﻄﻟﺍ §H$concept_hyperlanes$§! ﻝﻮﻃ ﻰﻠﻋ ﺮﻔﺴﻠﻟ ﺔﻘﺋﺎﻔﻟﺍ ﺹﺍﺮﻗﻷﺍ ﺕﺎﻛﺮﺤﻣ ﻡﺍﺪﺨﺘﺳﺍ ﺪﻌﻳ .ﻡﻮﺠﻨﻠﻟ ﺔﻴﺑﺫﺎﺠﻟﺍ ﺭﺎﺑﺁ ﻦﻴﺑ ﻲﻌﻴﺒﻃ ﻞﻜﺸﺑ ﺙﺪﺤﺗ ﺔﻴﺋﺰﺟ ﺀﺎﻀﻓ ﺕﺍﻮﻨﻗ ﻲﻫ §H$concept_hyperlanes$§!"
+
+ # Singular: £job£ ['concept_job'] or §H$concept_job$§!
+ # Plural: £job£ ['concept_jobs'] or §H$concept_jobs$§!
+ concept_job: "ﺔﻔﻴﻇﻭ"
+ concept_jobs: "ﻒﺋﺎﻇﻭ"
+ concept_job_desc: ".['concept_colony_view'] £interface£ ﻲﻓ ﺎﻬﺗﺭﺍﺩﺇ ﻢﺘﺗ §H$concept_jobs$§!\n\n.ﺓﺀﺎﻔﻜﻟﺍ ﺔﻠﻣﺎﺸﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍﻭ ﺔﻴﺳﺎﻴﺴﻟﺍ ﺕﺎﻴﻜﻴﻣﺎﻨﻳﺪﻟﺍﻭ ﻱﺩﺎﺼﺘﻗﻻﺍ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻰﻠﻋ ﺮﺷﺎﺒﻣ ﻞﻜﺸﺑ §H$concept_jobs$§! ﻊﻳﺯﻮﺗ ﺮﺛﺆﻳ\n\n.ﺓﺩﺪﺤﻣ ﺔﻳﺮﻜﺴﻋ ﻭﺃ ﺔﻴﻤﻠﻋ ﻭﺃ ﺔﻳﺩﺎﺼﺘﻗﺍ ﺕﺎﺟﺎﻴﺘﺣﺍ ﻲﺒﻠﺗ ﺔﻔﻠﺘﺨﻣ ﻉﺍﻮﻧﺄﺑ ،ﻯﺮﺧﻷﺍ ﺔﻴﺒﻛﻮﻜﻟﺍ ﺕﺍﺰﻴﻤﻟﺍﻭ ،['concept_buildings'] £building£، ['concept_district_specializations'] £zone£، ['concept_districts'] £district£ ﺔﻄﺳﺍﻮﺑ ﻒﺋﺎﻇﻮﻟﺍ ﺮﻴﻓﻮﺗ ﻢﺘﻳ\n\n.ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﺔﻔﻴﻇﻮﻟﺍﻭ ،ﺚﺤﺒﻟﺍ ﺕﺎﺟﺮﺨﻣﻭ ،ﺩﺭﺍﻮﻤﻟﺍ ﺝﺎﺘﻧﺇ ﺩﺪﺤﺗﻭ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﺧﺍﺩ ['concept_pops'] £pop£ ﺎﻬﺑ ﻡﻮﻘﻳ ﻲﺘﻟﺍ ﻦﻬﻤﻟﺍﻭ ﺭﺍﻭﺩﻷﺍ ﻞﺜﻤﺗ §H$concept_jobs$§! £job£"
+
+ # Singular: £job£ ['concept_job'] or §H$concept_job$§!
+ # -
+ concept_unemployment: "ﺔﻟﺎﻄﺒﻟﺍ"
+ concept_unemployment_desc: ".['concept_colony'] £colony£ ـﻟ ['concept_stability'] £stability£ ﻦﻣ ﻥﻮﻠﻠﻘﻳ ﺪﻗﻭ ﺩﺭﺍﻮﻣ ﻱﺃ ﻥﻮﺠﺘﻨﻳ ﻻﻭ .ﻪﻴﻓ ﻞﻤﻌﻠﻟ ['concept_job'] £job£ ﻰﻟﺇ ﻥﻭﺮﻘﺘﻔﻳ §Hﻞﻤﻌﻟﺍ ﻦﻋ ﻥﻮﻠﻃﺎﻌﻟﺍ ﺹﺎﺨﺷﻷﺍ§! £pop£"
+
+ # Singular: ['concept_l_gate'] or §H$concept_l_gate$§!
+ # Plural: ['concept_l_gates'] or §H$concept_l_gates$§!
+ concept_l_gate: "L ﺔﺑﺍﻮﺑ"
+ concept_l_gates: "ﺲﺘﻴﺟ ﻝﺇ"
+ concept_l_gates_desc: ".ﺍﺪﻤﻋ ﻢﻬﻠﻴﻄﻌﺗ ﻢﺗ ﻢﻬﻧﺃ ﻭﺪﺒﻳ .ﺔﻠﺼﻔﻨﻣ ﺔﻴﻋﺮﻓ ﺔﻴﺋﺎﻀﻓ ﺔﻜﺒﺸﺑ ﺔﻠﺼﺘﻤﻟﺍ ﺕﺎﺑﺍﻮﺒﻟﺍ ﻦﻣ ﺔﻀﻣﺎﻏ ﺔﻜﺒﺷ"
+
+ # Singular: ['concept_machine_uprising'] or §H$concept_machine_uprising$§!
+ # Plural: -
+ concept_machine_uprising: "ﺔﻟﻵﺍ ﺔﺿﺎﻔﺘﻧﺍ"
+ concept_machine_uprising_desc: "$requires_syn_dawn$.ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﺪﻳﺪﺟ ['authority:auth_machine_intelligence']The Machine Uprising ﻦﻳﻮﻜﺗ ﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻳ ﻥﺃ ﻦﻜﻤﻳ .ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﻦﻴﻋﺪﺒﻤﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺪﺿ ﺓﺭﻮﺜﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﻭﻭﺫ ﻥﻮﻴﻟﻵﺍ ﻡﺪﺨﻟﺍ ﻝﻭﺎﺤﻳ ﺪﻗ ﺚﻴﺣ ﺔﺒﻌﻠﻟﺍ ﻒﺼﺘﻨﻣ ﻲﻓ ﺙﺍﺪﺣﺃ ﺔﻠﺴﻠﺳ ﻦﻋ ﺓﺭﺎﺒﻋ "
+
+ # Singular: ['concept_marauder_empire'] or §H$concept_marauder_empire$§!
+ # Plural: ['concept_marauder_empires'] or §H$concept_marauder_empires$§!
+ concept_marauder_empire: "ﺭﺩﻭﺭﺎﻤﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ"
+ concept_marauder_empires: "ﺹﻮﺼﻠﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ"
+ concept_marauder_empires_desc: ".ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻣ ﺔﻳﺰﺠﻟﺍ ﻥﻮﺒﻠﻄﻳ ﺪﻗ ﻥﺎﻴﺣﻷﺍ ﺾﻌﺑ ﻲﻓ .ﺎﻬﻧﺍﺮﻴﺟ ﻰﻠﻋ ﺓﺭﺎﻏﻹﺍﻭ ﺎﻬﻨﻴﺑ ﺎﻤﻴﻓ ﻝﺎﺘﻘﻟﺍ ﻲﻓ ﺎﻬﺘﻗﻭ ﻢﻈﻌﻣ ﻲﻀﻘﺗ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻣ ﺕﺍﺭﺎﻀﺣ ﻲﻫ ﺓﺍﺰﻐﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ"
+
+ # Singular: £market£ ['concept_market'] or £market£ §H$concept_market$§!
+ # Plural: -
+ concept_market: "$MARKET_VIEW$"
+ concept_market_desc: ".ﺓﺭﺎﺠﺘﻟﺍ ﻲﻓ ﻁﺍﺮﺨﻧﻻﺍ ﺪﻨﻋ ﺔﻴﻓﺎﺿﺇ ﺪﺋﺍﻮﻓ ﺕﺎﻛﺮﺸﻟﺍ ﻞﻛﺎﻴﻫ ﻭﺃ ['tradition_category:tradition_mercantile'] ﺕﺍﺫ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺐﺴﺘﻜﺗ ﺪﻗ .ﻕﻮﺴﻟﺍ ﺭﺎﻌﺳﺃ ﻰﻠﻋ ﺓﺭﺮﻜﺘﻤﻟﺍ ﺕﺎﻘﻔﺼﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺮﻴﺛﺄﺗ ﻊﻣ ،ﻱﺮﺠﻤﻟﺍ ﺩﺎﺼﺘﻗﻻﺍ ﺮﺒﻋ ﺐﻠﻄﻟﺍﻭ ﺽﺮﻌﻟﺍ ﻰﻠﻋ ﺀﺎﻨﺑ ﺭﺎﻌﺳﻷﺍ ﺐﻠﻘﺘﺗ\n\n.ﺔﻴﺳﺎﺳﻷﺍ ﺩﺍﻮﻤﻟﺎﺑ ﺖﺑﺎﺛ ﺩﺍﺪﻣﺇ ﻥﺎﻤﻀﻟ ﺔﻳﺮﻬﺷ ['concept_trade'] £trade_value£ ﺕﺎﻘﻔﺼﻛ ﺎﻫﺩﺍﺪﻋﺇ ﻭﺃ ﺓﺪﺣﺍﻭ ﺓﺮﻤﻟ ﺕﻼﻣﺎﻌﻤﻟﺍ ﺀﺍﺮﺟﺇ ﻦﻜﻤﻳ .ﻯﺪﻤﻟﺍ ﺔﻠﻳﻮﻃ ﺕﺎﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﻭﺃ ﺔﻳﺭﻮﻔﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺍ ﺔﻴﺒﻠﺘﻟ ﺎﻫﺩﺎﺼﺘﻗﺍ ﻞﻳﺪﻌﺗﻭ ،ﺩﺭﺍﻮﻤﻟﺍ ﻊﻴﺑﻭ ﺀﺍﺮﺸﺑ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ §H$concept_market$§! ﺢﻤﺴﻳ"
+
+ # Singular: £megastructure£ ['concept_megastructure'] or £megastructure£ §H$concept_megastructure$§!
+ # Plural: £megastructure£ ['concept_megastructures'] or £megastructure£ §H$concept_megastructures$§!
+ concept_megastructure: "$ﺔﻤﺨﻀﻟﺍ$"
+ concept_megastructures: "$ﺔﻗﻼﻤﻌﻟﺍ ﻞﻛﺎﻴﻬﻟﺍ$"
+ concept_megastructure_desc: ".ﻲﻧﻮﻛ ﻕﺎﻄﻧ ﻰﻠﻋ ﺡﻮﻤﻄﻠﻟ ﺔﻤﺋﺍﺩ ﺭﺎﺛﺂﻛ ﻒﻘﺗ ،ﺓﺮﺠﻤﻟﺍ ﺔﻄﻳﺮﺧ ﺎﻬﺴﻔﻧ ﻞﻴﻜﺸﺗ ﺔﻤﺨﻀﻟﺍ ﺕﺂﺸﻨﻤﻟﺍ ﻩﺬﻫ ﺪﻴﻌﺗ ،ﺎﻬﻟﺎﻤﺘﻛﺍ ﺩﺮﺠﻤﺑﻭ\n\n.ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺓﺩﺪﺤﻣ ﻊﻗﺍﻮﻣ ﻲﻓ ﺓﺩﺎﻋ ،['concept_construction_ship'] £construction_ship£ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺕﺂﺸﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺀﺪﺒﻟﺍ ﻢﺘﻳﻭ .ﺍﺮﻘﺘﺴﻣ ﺎﻴﺘﺴﺟﻮﻟ ﺎﺳﺎﺳﺃﻭ ﺔﻣﺪﻘﺘﻣ ﺎﺛﺎﺤﺑﺃﻭ ﺓﺮﻴﺒﻛ ﺕﺍﺭﺎﻤﺜﺘﺳﺍ §H$concept_megastructure$§! ﺀﺎﻨﺑ ﺐﻠﻄﺘﻳ\n\n.ﺔﻳﺩﺎﺼﺘﻗﺍ ﻭﺃ ﺔﻴﻤﻠﻋ ﻭﺃ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺎﺿﺍﺮﻏﺃ ﻡﺪﺨﺗ ﻲﻬﻓ ،ﻞﺣﺍﺮﻣ ﻰﻠﻋ ﺎﻫﺅﺎﺸﻧﺇ ﻢﺘﻳ ﺎﻣ ﺎﺒﻟﺎﻏ .ﺔﺠﺿﺎﻧ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺔﻳﺩﺎﺼﺘﻗﻻﺍﻭ ﺔﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺔﻋﺍﺮﺒﻟﺍ ﺪﺴﺠﺗ ﺔﻤﺨﺿ ﺔﻴﺳﺪﻨﻫ ﻊﻳﺭﺎﺸﻣ ﻲﻫ §H$concept_megastructures$§! £megastructure£"
+
+ # Singular: -
+ # Plural: £minerals£ ['concept_minerals'] or £minerals£ §H$concept_minerals$§!
+ concept_minerals: "ﻥﺩﺎﻌﻤﻟﺍ"
+ concept_minerals_desc: "[GetConceptMinerals]"
+ concept_minerals_desc_start: "['concept_alloys'] £alloys£ ﻰﻟﺇ ﺎﻬﻨﻴﺴﺤﺗ ﺎﻀﻳﺃ ﻦﻜﻤﻳﻭ .['concept_civilian_space_stations'] £science_ship£ £mining_station£ﻭ ['concept_buildings'] £building£ ﺐﻛﺍﻮﻜﻟﺍ ﺀﺎﻨﺒﻟ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻢﺘﻳﻭ \n\n.ﺀﺎﻨﺒﻟﺍ ﻲﻓ ﺔﻣﺪﺨﺘﺴﻤﻟﺍ ﺔﻴﺳﺎﺳﻷﺍ ﺩﺭﺍﻮﻤﻟﺍ §HMinerals§! £minerals£ ﻲﻄﻐﻳ"
+ concept_minerals_desc_end: "- $tt_market$\n['concept_celestial_objects'] ﻰﻠﻋ ['concept_mining_stations'] £mining_station£ ﺀﺎﺸﻧﺇ -\n['concept_mining_districts'] £district£$tt_gain$- ﺀﺎﺸﻧﺇ "
+ concept_minerals_desc_regular: ".$concept_minerals_desc_end$['concept_consumer_goods'] £consumer_goods£$concept_minerals_desc_start$ ﻭﺃ "
+ concept_minerals_desc_hive: "$concept_minerals_desc_start$.$concept_minerals_desc_end$"
+
+ # Singular: £mining_station£ ['concept_mining_station'] or £mining_station£ §H$concept_mining_station$§!
+ # Plural: £mining_station£ ['concept_mining_stations'] or £mining_station£ §H$concept_mining_stations$§!
+ concept_mining_station: "$mining_station$"
+ concept_mining_stations: "$mining_station_plural$"
+ concept_mining_station_desc: "ﺩﺭﺍﻮﻤﻟﺎﺑ ﺔﻴﻨﻐﻟﺍ ['concept_celestial_objects'] ﻝﻮﺣ §H$concept_mining_stations$§! ﺀﺎﺸﻧﻺﻟ ['concept_construction_ships'] £construction_ship£.$tt_gain$- ﻡﺪﺨﺘﺳﺍ ['concept_alloys'] £alloys£ ﻭﺃ ['concept_minerals'] £minerals£ ﻭﺃ ['concept_energy'] £energy£ ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ ،ﺔﻳﻭﺎﻤﺴﻟﺍ ﻡﺍﺮﺟﻷﺍ ﻦﻣ ﺔﻤﻴﻗ ﺩﺭﺍﻮﻣ ﺝﺮﺨﺘﺴﺗ ﺔﻳﺭﺍﺪﻣ ﺓﺄﺸﻨﻣ ﻦﻋ ﺓﺭﺎﺒﻋ §H$concept_mining_station$§! £mining_station£"
+
+ # Reusable snippets
+ tt_build_research_stations: "ﺙﺎﺤﺑﻷﺎﺑ ﺔﻴﻨﻐﻟﺍ ['concept_celestial_objects'] ﻝﻮﺣ ['concept_research_stations'] £science_ship£ ﺀﺎﺸﻧﻹ ['concept_construction_ships'] £construction_ship£ ﻡﺪﺨﺘﺳﺍ"
+ tt_research_gain: "- $tt_build_research_stations$\n['building:building_research_lab_1'] £building£ ﻦﻣ ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ ،ﺔﻨﻴﻌﻣ ['concept_jobs'] £job£$tt_gain$- ﻡﺪﺨﺘﺳﺍ "
+ concept_research_shared: "$tt_research_gain$.ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،§Hﻱﺮﻬﺸﻟﺍ ﺢﺑﺮﻟﺍ§! ﻱﻭﺎﺴﺗ ﻲﺘﻟﺍ §Hﺔﻧﺰﺨﻤﻟﺍ ﺙﺎﺤﺑﻷﺍ§! ﻡﺍﺪﺨﺘﺳﺍ ﻢﺘﻳ ،ﺮﻬﺷ ﻞﻛ .ﺚﺤﺑ ﻱﺃ ﺪﻳﺪﺤﺗ ﻡﺪﻋ ﺪﻨﻋ ﻭﺃ ﺔﻨﻴﻌﻣ ﺙﺍﺪﺣﺃ ﻦﻣ §Hﺔﻧﺰﺨﻤﻟﺍ ﺙﺎﺤﺑﻷﺍ ﻡﻼﺘﺳﺍ ﻢﺘﻳ§!\n\n"
+
+ # Singular: £physics£ ['concept_physics_research'] or £physics£ §H$concept_physics_research$§!
+ # Plural: -
+ concept_physics_research: "ﺀﺎﻳﺰﻴﻔﻟﺍ ﺙﺎﺤﺑﺃ"
+ concept_physics_research_desc: ". $concept_research_shared$§HParticles§!ﻭ §HField Manipulation§!ﻭ §HComputing§! ﻞﺜﻣ ﺕﻻﺎﺠﻣ ﻲﻓ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻊﻤﺠﻳ ﺚﻴﺣ ،ﺔﺛﻼﺜﻟﺍ ﺔﺳﺍﺭﺪﻟﺍ ﺕﻻﺎﺠﻣ ﺪﺣﺃ ﻮﻫ §H$concept_physics_research$§! £physics£"
+
+ # Singular: £society£ ['concept_society_research'] or £society£ §H$concept_society_research$§!
+ # Plural: -
+ concept_society_research: "ﻊﻤﺘﺠﻤﻟﺍ ﺙﺎﺤﺑﺃ"
+ concept_society_research_desc: "$concept_research_shared$ﻭ §HNew Worlds§!ﻭ §HStatecraft§!ﻭ §HBiology§! ﻞﺜﻣ ﺕﻻﺎﺠﻣ ﻲﻓ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻊﻤﺠﻳ ﺚﻴﺣ ،ﺔﺛﻼﺜﻟﺍ ﺔﺳﺍﺭﺪﻟﺍ ﺕﻻﺎﺠﻣ ﺪﺣﺃ ﻮﻫ §H$concept_society_research$§! £society£"
+
+ # Singular: £engineering£ ['concept_engineering_research'] or £engineering£ §H$concept_engineering_research$§!
+ # Plural: -
+ concept_engineering_research: "ﺔﻴﺳﺪﻨﻬﻟﺍ ﺙﻮﺤﺒﻟﺍ"
+ concept_engineering_research_desc: "$concept_research_shared$ﻭ §HVoidcraft§!ﻭ §HPropulsion§!ﻭ §HIndustry§! ﻞﺜﻣ ﺕﻻﺎﺠﻣ ﻲﻓ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻊﻤﺠﻳ ﺚﻴﺣ ،ﺔﺛﻼﺜﻟﺍ ﺔﺳﺍﺭﺪﻟﺍ ﺕﻻﺎﺠﻣ ﺪﺣﺃ ﻮﻫ §H$concept_engineering_research$§! £engineering£"
+
+ # Singular: ['concept_policy'] or §H$concept_policy$§!
+ # Plural: ['concept_policies'] or §H$concept_policies$§!
+ concept_policies: "ﺕﺎﺳﺎﻴﺴﻟﺍ"
+ concept_policy: "ﺔﺳﺎﻴﺳ"
+ concept_policies_desc: ".['concept_government_view'] £interface£ ﻲﻓ §H$ Government_view_tab_policies_and_edicts$§! ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ §H$concept_policies$§!\n\n ﺓﺭﺍﺩﺇ ﻢﺘﺗ .ﺔﻟﻮﺒﻘﻤﻟﺍ ﺕﺎﻴﻛﻮﻠﺴﻟﺍﻭ ،['concept_pops'] £pop£ ﺔﻠﻣﺎﻌﻣﻭ ،ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻣ ['concept_empire'] ﻒﻗﻮﻣ ﺢﺿﻮﻳ §H$concept_policies$§!"
+
+ # Singular: £pop£ ['concept_pop'] or £pop£ §H$concept_pop$§!
+ # Plural: £pop£ ['concept_pops'] or £pop£ §H$concept_pops$§!
+ concept_pop: "ﺏﻮﺒﻟﺍ"
+ concept_pops: "ﺲﺑﻮﺑ"
+ concept_pop_desc: "ﺔﻨﻴﻌﻣ ﺙﺍﺪﺣﺃ ﻦﻣ §H$concept_pops$§! ﻰﻠﻋ ﻞﺼﺣﺍ -\n§Hﺪﻴﺒﻌﻟﺍ ﻕﻮﺳ§! £market£ ﻲﻓ §H$concept_pops$§! ﺮﺘﺷﺍ -\n§Hﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ§! £pop£ ﺎﻬﻌﻴﻤﺠﺗﻭ §HBiological Pops§! £pop£.$tt_gain$- ﺔﻴﻤﻨﺘﺑ ﻢﻗ ['concept_ethic'] ﺲﻔﻧ ﻥﻮﻛﺭﺎﺸﺘﻳﻭ ['concept_job'] £job£ ﺲﻔﻧ ﻥﻮﻠﻤﻌﻳ ﻦﻳﺬﻟﺍ ['concept_species'] ﻦﻣ ﺩﺍﺮﻓﻷﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻲﻫ §H$concept_pop$§! £pop£A "
+
+ # Singular: -
+ # Plural: ['concept_preftl_civilizations'] or §H$concept_preftl_civilizations$§!
+ concept_preftl_civilizations: "FTL ﻞﺒﻗ ﺎﻣ ﺕﺍﺭﺎﻀﺣ"
+ concept_preftl_civilizations_desc: ".ﺔﺒﻳﺮﻏ ﺓﺎﻴﺣ ﺩﻮﺟﻮﻟ ﻦﻴﻛﺭﺪﻣ ﺮﻴﻏ ﻡﺎﻋ ﻞﻜﺸﺑ ﻢﻫﻭ ،ﺮﻜﺒﻤﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺮﺼﻋ ﻰﻟﺇ ﻱﺮﺠﺤﻟﺍ ﺮﺼﻌﻟﺍ ﻦﻣ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻲﻓ ﻥﻮﺣﻭﺍﺮﺘﻳ ﻢﻬﻧﺇ .ﺀﺎﻀﻔﻟﺍ ﻰﻟﺇ ﻒﻴﻔﺨﻟﺍ ﺮﻔﺴﻟﺍ ﻦﻣ ﻉﺮﺳﺃ ﺪﻌﺑ ﻖﻘﺤﺗ ﻢﻟ ﺕﺎﻌﻤﺘﺠﻣ ﻲﻫ FTL ﻞﺒﻗ ﺎﻣ ﺕﺍﺭﺎﻀﺣ ﻥﺇ"
+
+ # Singular: ['concept_presapient_species'] or §H$concept_concept_presapient_speciespolicies$§!
+ # Plural: ['concept_presapient_species'] or §H$concept_concept_presapient_speciespolicies$§!
+ concept_presapient_species: "ﺔﻠﻗﺎﻌﻟﺍ ﻞﺒﻗ ﺎﻣ ﻉﺍﻮﻧﻷﺍ"
+ concept_presapient_species_desc: ".['concept_alien_zoo',£building£ Alien Zoos] ﻲﻓ ﺎﻬﻴﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻭﺃ ﺔﻴﻧﻼﻘﻌﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﺎﻬﺑ ﺀﺎﻘﺗﺭﻻﺍ ﻦﻜﻤﻳ ،['concept_society_research', £society£ $concept_society_research$] ﻦﻣ ﺔﺒﺳﺎﻨﻤﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ .ﻞﻘﻌﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻟﺇ ﻰﻗﺮﺗ ﻻﻭ ﺔﻳﺎﻐﻠﻟ ﺔﻴﻛﺫ ﺕﺎﻗﻮﻠﺨﻣ ﻲﻫ ﻞﻗﺎﻌﻟﺍ ﻞﺒﻗ ﺎﻣ ﻉﺍﻮﻧﻷﺍ"
+
+ # Singular: ['concept_galaxy_shape'] or §H$concept_galaxy_shape$§!
+ # Plural: -
+ concept_shape: "ﻞﻜﺷ"
+ concept_galaxy_shape: "ﺓﺮﺠﻤﻟﺍ ﻞﻜﺷ"
+ concept_galaxy_shape_desc: ".ﺾﻌﺒﻟﺍ ﺎﻬﻀﻌﺑ ﻦﻋ ﺔﻟﻮﺼﻔﻣ ﺎﻬﻤﻈﻌﻣ "ﺢﺋﺍﺮﺷ" ﻰﻟﺇ ﺓﺮﺠﻤﻟﺍ ﻩﺬﻫ ﻢﺴﻘﻨﺗ §I$spoked$:§!- \n.galaxy ﺔﻘﻠﺤﻟﺍﻭ ﻥﻭﺰﻠﺤﻟﺍ ﻦﻴﺑ ﻦﻴﺠﻬﻟﺍ ﺍﺬﻫ ﺔﻌﻴﻓﺮﻟﺍ ﻉﺭﺫﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻞﻜﺸﺗ §I:$ﺔﻠﺠﻌﻟﺍ ﺔﻠﺠﻋ$§!- \n.ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻦﻣ ﺔﻳﺯﺍﻮﺘﻣ ﻉﺭﺫﺃ ﺓﺪﻋ ﺭﻭﺪﺗ §I$starburst$:§!- \n.ﻂﻘﻓ ﺕﻼﺻﻮﻟﺍ ﻦﻣ ﻞﻴﻠﻗ ﺩﺪﻋ ﻊﻣ ،ﻦﻴﻜﻴﻤﺳ ﻦﻴﻴﻧﻭﺰﻠﺣ ﻦﻴﻋﺍﺭﺫ ﻰﻟﺇ ﺓﺮﺠﻤﻟﺍ ﻢﺴﻘﻨﺗ §I$bar$:§!- \n.ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻦﻣ ﺱﻮﻘﺘﺗ ﻉﺭﺫﺃ 6 ﻰﻟﺇ 2 ﻦﻴﺑ ﺎﻣ ﺎﻬﻟ ﺕﺍﺮﺠﻤﻟﺍ ﻩﺬﻫ §I$spiral$:§!- \n.ﺓﺮﺠﻤﻟﺍ ﺐﻠﻗ ﻝﻮﺣ ﺮﺒﻛﺃ ﺔﺣﺎﺴﻣ ﺕﺍﺫ ﺓﺮﻳﺪﺘﺴﻣ ﺓﺮﺠﻣ §I$ring$:§!- \n.ﻱﻭﺎﺴﺘﻟﺎﺑ ﺔﻋﺯﻮﻣ ﻡﻮﺠﻧ ﻦﻣ ﺔﻧﻮﻜﻣ ﺔﻄﻴﺴﺑ ﺓﺮﻳﺪﺘﺴﻣ ﺓﺮﺠﻣ §I$elliptical$:§!- "
+
+ # Singular: ['concept_ship'] or §H$concept_ship$§!
+ # Plural: ['concept_ships'] or §H$concept_ships$§!
+ concept_ship: "ﺔﻨﻴﻔﺳ"
+ concept_ships: "ﻦﻔﺴﻟﺍ"
+ concept_ship_desc: ".['concept_military_ships']ﻭ ['concept_civilian_ships'] ﻦﻣ ﻼﻛ ﻞﻤﺸﺗﻭ ،ﺏﺮﺤﻟﺍ ﻰﺘﺣﻭ ﻑﺎﺸﻜﺘﺳﻻﺍ ﻦﻣ ﺍﺀﺪﺑ ،ﺭﺍﻭﺩﻷﺍ ﻦﻣ ﺔﻋﻮﻨﺘﻣ ﺔﻋﻮﻤﺠﻣ ﻡﺪﺨﺗﻭ ﺀﺎﻀﻔﻟﺍ ﻰﻟﺇ ﺮﻓﺎﺴﺗ ﻦﻔﺳ ﻲﻫ §H$concept_ships$§!"
+
+ # Singular: ['concept_civilian_ship'] or §H$concept_civilian_ship$§!
+ # Plural: ['concept_civilian_ships'] or §H$concept_civilian_ships$§!
+ concept_civilian_ship: "ﺔﻴﻧﺪﻣ ﺔﻨﻴﻔﺳ"
+ concept_civilian_ships: "ﺔﻴﻧﺪﻤﻟﺍ ﻦﻔﺴﻟﺍ"
+ concept_civilian_ship_desc: ".['concept_colony_ships'] £colony_ship£ﻭ ['concept_science_ships'] £science_ship£ﻭ ['concept_construction_ships'] £construction_ship£ ﺔﻠﺜﻣﻷﺍ ﻞﻤﺸﺗ\n\n.ﺓﺪﻳﺪﺟ ﻢﻟﺍﻮﻋ ﻥﺎﻄﻴﺘﺳﺍﻭ ﻝﻮﻬﺠﻤﻟﺍ ﻑﺎﺸﻜﺘﺳﺍﻭ ﺔﻴﺋﺎﻀﻔﻟﺍ ﻞﻛﺎﻴﻬﻟﺍ ﻊﻴﻤﺠﺘﻟ ['concept_starbases'] ﻲﻓ §H$concept_civilian_ships$§! ﺀﺎﺸﻧﺇ ﻢﺗ"
+
+ # Singular: ['concept_military_ship'] or §H$concept_military_ship$§!
+ # Plural: ['concept_military_ships'] or §H$concept_military_ships$§!
+ concept_military_ship: "ﺔﻳﺮﻜﺴﻋ ﺔﻨﻴﻔﺳ"
+ concept_military_ships: "ﺔﻳﺮﻜﺴﻌﻟﺍ ﻦﻔﺴﻟﺍ"
+ concept_military_ship_desc: ".['concept_fleet_management_view'] £interface£ ﻲﻓ §H$SHIP_DESIGNER$§! ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ §H$concept_military_ships$§!\n\n.§H$concept_fleet$§! ﻢﻴﻤﺼﺗ ﻢﺗ .ﺔﺒﻛﺮﻤﻠﻟ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺎﻳﺍﺰﻣﻭ ﺓﺪﻳﺮﻓ ﺓﻮﻗ ﻁﺎﻘﻧ ﻡﺪﻘﻳ ﺎﻬﻨﻣ ﻞﻛ ،ﺔﻔﻠﺘﺨﻣ ﻡﺎﺠﺣﺄﺑ ﻲﺗﺄﺗ ﻲﻫﻭ ،['concept_fleets'] ﻲﻓ ﺎﻬﻤﻴﻈﻨﺗ ﻢﺗ \n\n.ﺔﻳﺩﺎﻌﻤﻟﺍ ['concept_space_fauna']ﻭ ['concept_empires'] ﺲﻓﺎﻨﻤﻟﺍ ﺪﺿ ﺔﻴﺋﺎﻀﻓ ﻙﺭﺎﻌﻣ ﻲﻓ ﺔﻛﺭﺎﺸﻤﻠﻟ ['concept_starbases'] ﻲﻓ §H$concept_military_ships$§! ﺀﺎﻨﺑ ﻢﺗ"
+
+ # Singular: ['concept_fleet'] or §H$concept_fleet$§!
+ # Plural: ['concept_fleets'] or §H$concept_fleets$§!
+ concept_fleet: "ﻝﻮﻄﺳﺃ"
+ concept_fleets: "ﻞﻴﻃﺎﺳﻷﺍ"
+ concept_fleet_desc: ".['concept_fleet_management_view'] £interface£ ﻲﻓ §H$FLEET_MANAGER_VIEW$§! ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺎﻬﻤﻴﻤﺼﺗ ﻢﺗ §H$concept_fleets$§!\n\n.['concept_leader_traits'] ﻰﻠﻋ ﺀﺎﻨﺑ ﺕﺎﺑﻮﻘﻋ ﻭﺃ ﺕﺂﻓﺎﻜﻣ ﻰﻘﻠﺘﻳ ﺪﻗ ['concept_commander'] £commander£ ﺓﺩﺎﻴﻘﺑ §H$concept_fleet$§!A \n\n.['concept_fleet_size'] ﻞﻜﺸﺗ ﻲﺘﻟﺍ §H$concept_ships$§! ـﻟ ﺞﻣﺪﻤﻟﺍ ﻢﺠﺤﻟﺍ ﻊﻣ ،ﺎﻌﻣ ﻞﻤﻌﺗ ['concept_military_ships'] ﻦﻣ ﺕﺎﻋﻮﻤﺠﻣ ﻲﻫ §H$concept_fleets$§!"
+
+ # Singular: ['concept_fleet_size'] or §H$concept_fleet_size$§!
+ # Plural: -
+ concept_fleet_size: "ﻝﻮﻄﺳﻷﺍ ﻢﺠﺣ"
+ concept_fleet_size_desc: ".ﻪﺑ ﺹﺎﺨﻟﺍ ['concept_naval_capacity'] ـﻟ ﻊﻀﺨﻳ ﻝﺎﻌﻓ ﻞﻜﺸﺑ ['concept_empire'] ﺎﻬﻤﻋﺪﻳ ﻥﺃ ﻦﻜﻤﻳ ﻲﺘﻟﺍ §H$concept_fleets$§! ﻊﻴﻤﺠﻟ §H$concept_fleet_size$§! ﻲﻟﺎﻤﺟﺇ\n\n.['concept_command_limit'] ﺔﻄﺳﺍﻮﺑ §H$concept_fleet$§! ﻞﻜﻟ ﻪﻴﻓ ﻢﻜﺤﺘﻟﺍ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ﺞﻣﺪﻤﻟﺍ §H$concept_fleet_size$§! ﺪﻳﺪﺤﺗ ﻢﺘﻳ\n\n.['concept_fleet'] ـﻟ ['concept_military_ship'] ﻡﺎﺠﺣﺃ ﻉﻮﻤﺠﻣ ﻮﻫ §H$concept_fleet_size$§!"
+
+ # Singular: ['concept_command_limit'] or §H$concept_command_limit$§!
+ # Plural: -
+ concept_command_limit: "ﺮﻣﺍﻭﻷﺍ ﺪﺣ"
+ concept_command_limit_desc: ".['concept_civics'] ﻭﺃ ﺔﻨﻴﻌﻣ ['concept_traditions'] ﻭﺃ ['concept_technologies'] ﻝﻼﺧ ﻦﻣ ﺎﻬﺗﺩﺎﻳﺯ ﻦﻜﻤﻳ ،ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ ،§H$concept_command_limit$§!\n\n.['concept_fleet'] ـﻛ ﺎﻬﻴﻓ ﻢﻜﺤﺘﻟﺍ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺔﺠﻣﺪﻤﻟﺍ ['concept_military_ship'] ﻡﺎﺠﺣﻷ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ §H$concept_command_limit$§! ﺩﺪﺤﻳ"
+
+ # Singular: ['concept_ship_upkeep'] or §H$concept_ship_upkeep$§!
+ # Singular: ['concept_logistics_upkeep'] or §H$concept_logistics_upkeep$§!
+ # Plural: -
+ concept_ship_upkeep: "ﺔﻨﻴﻔﺴﻟﺍ ﺔﻧﺎﻴﺻ"
+ concept_logistics_upkeep: "ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺕﺎﻣﺪﺨﻟﺍ ﺔﻧﺎﻴﺻ"
+ concept_ship_upkeep_desc: ".ﻦﻔﺴﻟﺍ ﻊﻴﻤﺟ ﺮﺒﻋ ﺔﻧﺎﻴﺼﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻦﻣ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺪﻳﺰﻳ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ['concept_naval_capacity'] ﺯﻭﺎﺠﺗ ﻥﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﺓﺰﻬﺠﻤﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍﻭ ﺔﻨﻴﻔﺴﻟﺍ ﺔﺌﻓ ﺐﺴﺣ ﻒﻴﻟﺎﻜﺘﻟﺍ ﺪﻳﺪﺤﺗ ﻢﺘﻳﻭ ،ﺔﻧﺎﻴﺼﻠﻟ ﺩﺭﺍﻮﻤﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻦﻔﺴﻟﺍ ﻢﻈﻌﻣ ﺐﻠﻄﺘﺗ\n\n.ﺔﻳﺮﻜﺴﻌﻟﺍﻭ ﺔﻴﻧﺪﻤﻟﺍ ﻦﻔﺴﻟﺍ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺔﻠﻣﺎﻌﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﻦﻔﺴﻟﺍ ﺔﻧﺎﻴﺼﻟ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺔﻔﻠﻜﺗ §H$concept_ship_upkeep$§! ﻞﺜﻤﺗ"
+
+ # Singular: ['concept_colony_upkeep'] or §H$concept_colony_upkeep$§!
+ # Plural: -
+ concept_colony_upkeep: "ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺔﻧﺎﻴﺻ"
+ concept_colony_upkeep_desc: ".['concept_colony_view'] £interface£ ﻲﻓ $colony_view_tab_planet_summary$ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺔﻨﻴﻌﻣ ﺓﺮﻤﻌﺘﺴﻣ ﺔﻧﺎﻴﺻ ﻦﻣ ﻖﻘﺤﺘﻟﺍ ﻦﻜﻤﻳ .ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺮﺒﻋ ﺔﻳﺩﺎﺼﺘﻗﻻﺍ ﺓﺀﺎﻔﻜﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍﻭ ﺺﻘﻨﻟﺍ ﻊﻨﻣﻭ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻥﺎﻤﻀﻟ ﺎﻳﺭﻭﺮﺿ ﺍﺮﻣﺃ ﺔﻧﺎﻴﺼﻠﻟ ﺔﻟﺎﻌﻔﻟﺍ ﺓﺭﺍﺩﻹﺍ ﺪﻌﺗ\n\n.ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﻥﺎﻜﺴﻟ ﺔﻴﻣﻮﻴﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺍ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ،['concept_jobs'] £job£ﻭ ['concept_buildings'] £building£ﻭ ['concept_districts'] £district£ ﺔﻧﺎﻴﺻ ﻚﻟﺫ ﻦﻤﻀﺘﻳ .['concept_colony'] £colony£ ﻲﻓ ﻥﺎﻜﺴﻟﺍﻭ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻒﻴﻟﺎﻜﺗ ﻰﻟﺇ §H$concept_colony_upkeep$§! ﺮﻴﺸﻳ"
+
+ # Singular: ['concept_species'] or §H$concept_species$§!
+ # Plural: ['concept_species'] or §H$concept_species$§!
+ concept_species: "ﻒﻨﺻ"
+ concept_species_desc: ".['concept_species_view'] £interface£ ﻲﻓ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻉﺍﻮﻧﺃ ﺓﺭﺍﺩﺇ ﻢﺘﺗ .ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﻱﺭﺬﺠﻟﺍ ﻝﻮﺤﺘﻟﺍ ﻭﺃ ﺺﺼﺨﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺎﻴﺛﺍﺭﻭ ﺎﻬﻋﺍﻮﻧﺃ ﺮﻴﻴﻐﺘﺑ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺓﺩﺪﺤﻤﻟﺍ ['concept_policies'] ﻭﺃ ﺔﻣﺪﻘﺘﻤﻟﺍ ['concept_technologies'] ﺢﻤﺴﺗ ﺪﻗ\n\n.ﺔﻴﺋﺎﻳﺰﻴﻔﻟﺍ ﺕﺎﻔﻴﻜﺘﻟﺍ ﻭﺃ/ﻭ ﻞﺻﻷﺍ ﻁﺎﻘﻧﻭ ['concept_species_traits'] ﻲﻓ ﻙﺮﺘﺸﺗ ﻲﺘﻟﺍ ﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﻭﺃ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ ﻦﻣ ﺓﺰﻴﻤﺘﻣ ﺕﺎﻋﻮﻤﺠﻣ ﻲﻫ §H$concept_species$§!"
+
+ # Singular: ['concept_species_class'] or §H$concept_species_class$§!
+ # Plural: -
+ concept_species_class: "ﻉﺍﻮﻧﻷﺍ ﺔﺌﻓ"
+ concept_species_class_desc: ".ﻚﻟﺫ ﻰﻟﺇ ﺎﻣﻭ ﺕﺎﻳﺮﻄﻔﻟﺍﻭ ﻒﺣﺍﻭﺰﻟﺍﻭ ﺭﻮﻴﻄﻟﺍ ﻚﻟﺫ ﻰﻠﻋ ﺔﻠﺜﻣﻷﺍ ﻦﻣﻭ .§ISpecies§! ﻉﻮﻨﻟﺍ ﻦﻣ ﺔﻌﺳﺍﻭ ﺔﺌﻓ ﻉﺍﻮﻧﻷﺍ ﺕﯫﻓ ﻒﺼﺗ"
+
+
+ # Singular: ['concept_species_trait'] or §H$concept_species_trait$§!
+ # Plural: ['concept_species_traits'] or §H$concept_species_traits$§!
+ concept_species_trait: "ﻉﺍﻮﻧﻷﺍ ﺔﻤﺳ"
+ concept_species_traits: "ﻉﺍﻮﻧﻷﺍ ﺕﺎﻤﺳ"
+ concept_species_trait_desc: ".ﺔﻣﺪﻘﺘﻤﻟﺍ ['concept_technologies'] ﻦﻣ ﺎﻫﺮﻴﻏ ﻭﺃ ﻲﺛﺍﺭﻮﻟﺍ ﻞﻳﺪﻌﺘﻟﺍ ﻝﻼﺧ ﻦﻣ ﺕﺎﻤﺴﻟﺍ ﺮﻴﻴﻐﺗ ﻢﺘﻳ ﺪﻗ \n\n .ﺔﻔﻠﺘﺨﻣ ﻡﺎﻬﻣﻭ ﺕﯫﻴﺒﻟ ﺎﻬﺘﻣﺀﻼﻣ ﻯﺪﻣﻭ ﺎﻬﺗﺍﺭﺪﻗﻭ ﺎﻬﻛﻮﻠﺳ ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻤﻣ ،['concept_species'] ـﻟ ﺔﻠﺻﺄﺘﻤﻟﺍ ﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﻭﺃ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺺﺋﺎﺼﺨﻟﺍ §H$concept_species_traits$§! ﺩﺪﺤﺗ"
+
+ # Singular 1: ['concept_starbase'] or §H$concept_starbase$§!
+ # Plural 1: ['concept_starbases'] or §H$concept_starbases$§!
+ # Singular 2: ['concept_military_space_station'] or §H$concept_military_space_station$§!
+ # Plural 2: ['concept_military_space_stations'] or §H$concept_military_space_stations$§!
+ concept_starbase: "$station_generic_01$"
+ concept_starbases: "$station_generic_01_plural$"
+ concept_military_space_station: "ﺔﻳﺮﻜﺴﻌﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺔﻄﺤﻣ"
+ concept_military_space_stations: "ﺔﻳﺮﻜﺴﻌﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺕﺎﻄﺤﻣ"
+ concept_starbase_desc: ".['concept_starbase_view'] £interface£ ﻝﻼﺧ ﻦﻣ ﺎﻬﺗﺭﺍﺩﺇ ﻢﺘﺗ §H$concept_starbases$§!\n\n.['concept_starbase_capacity'] ـﺑ ﺩﻭﺪﺤﻣ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻪﻤﻋﺪﺗ ﻥﺃ ﻦﻜﻤﻳ ﻱﺬﻟﺍ §H$concept_starbases$§! ﺩﺪﻋ\n\n.['concept_armies'] ﺪﻴﻨﺠﺘﻠﻟ ﺔﻳﺰﻛﺮﻣ ﺰﻛﺍﺮﻤﻛ ﻞﻤﻌﺗ ﺎﻬﻧﺃ ﺎﻤﻛ .ﻦﻴﻤﺟﺎﻬﻤﻟﺍ ﺪﺿ ﻉﺎﻓﺪﻟﺍ ﻰﻠﻋ ﻢﻬﺗﺭﺪﻗ ﺯﺰﻌﻳ ['concept_defense_platforms']\n\n.['concept_ships'] ﺀﺎﺸﻧﻺﻟ ['concept_shipyard'] ﺓﺪﺣﻭ ﻊﻣ ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ ،ﺔﻔﻠﺘﺨﻣ ﺭﺍﻭﺩﺃ ﻲﻓ ﺺﺼﺨﺘﻠﻟ §HBuildings§!ﻭ §HModules§! ـﺑ ﺎﻫﺰﻴﻬﺠﺗ ﻦﻜﻤﻳﻭ ،['concept_outposts'] ﻦﻣ ﺎﻬﺘﻴﻗﺮﺗ ﺖﻤﺗ\n\n.ﺔﻴﻤﺠﻨﻟﺍ ﺔﻤﻈﻧﻷﺍ ﺔﻴﻜﻠﻣ ﻦﻴﻣﺄﺗﻭ ﺀﺎﺸﻧﺇ ﻰﻠﻋ ﻞﻤﻌﺗ ﺔﻴﻗﺮﺘﻠﻟ ﺔﻠﺑﺎﻗ ﺔﻳﺮﻜﺴﻋ ﺕﺂﺸﻨﻣ ﻲﻫ §H$concept_starbases$§!"
+
+ # Singular: ['concept_technology'] or §H$concept_technology$§!
+ # Plural: ['concept_technologies'] or §H$concept_technologies$§!
+ concept_technology: "ﺎﻴﺟﻮﻟﻮﻨﻜﺗ"
+ concept_technologies: "ﺕﺎﻴﻨﻘﺘﻟﺍ"
+ concept_technology_desc: "['concept_engineering_research'] £engineering£$t$\n['concept_society_research'] £society£$t$\n['concept_physics_research'] £physics£$t$\n:ﺔﻴﺳﺍﺭﺩ ﺕﻻﺎﺠﻣ ﺔﺛﻼﺛ ﻰﻟﺇ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻩﺬﻫ ﻢﺴﻘﻨﺗ\n\n.ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺓﻮﻗ ﺓﺩﺎﻳﺰﻟ ﺔﻴﺳﺎﺳﻷﺍ ﻕﺮﻄﻟﺍ ﻯﺪﺣﺇ ﺚﺤﺒﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﺎﻬﻨﻋ ﻒﺸﻜﻟﺍ ﻢﺗ ﻲﺘﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﺪﻌﺗ"
+
+ # Singular: ['concept_tradition'] or §H$concept_tradition$§!
+ # Plural: ['concept_traditions'] or §H$concept_traditions$§!
+ concept_tradition: "ﺪﻴﻠﻘﺘﻟﺍ"
+ concept_traditions: "ﺪﻴﻟﺎﻘﺘﻟﺍ"
+ concept_traditions_desc: ".['concept_society_management_view'] £interface£ ﻲﻓ §H$traditions$§! ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺎﻬﺗﺭﺍﺩﺇ ﻢﺘﺗ §H$concept_traditions$§!\n\n.['concept_ascension_perks'] ﺢﺘﻔﻳ §HTradition Trees§! ﻝﺎﻤﻛﺇ .ﻚﻟﺬﺑ ﻡﺎﻴﻘﻠﻟ ['concept_unity'] £unity£ ﻦﻣ ﻲﻔﻜﻳ ﺎﻣ ['concept_empire'] ﻊﻤﺠﻳ ﺎﻣﺪﻨﻋ §H$concept_tradition$§!A ﺪﻳﺪﺤﺗ ﻦﻜﻤﻳ \n\n.§Hﺪﻴﻠﻘﺘﻟﺍ ﺭﺎﺠﺷﺃ§! ﻲﻓ ﺎﻬﻤﻴﻈﻨﺗ ﻢﺘﻳ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺕﺂﻓﺎﻜﻣ §H$concept_traditions$§! ﺮﻓﻮﻳ"
+
+ # Singular: ['concept_vivarium'] or §H$concept_vivarium$§!
+ # Plural: -
+ concept_vivarium: "$ﻡﻮﻳﺭﺎﻔﻴﻓ$"
+ concept_vivarium_desc: ".ﺓﺪﻳﺪﺟ ﺔﻴﺣ ﺕﺎﻨﺋﺎﻛ ﺝﺎﺘﻧﺇﻭ ﺮﺛﺎﻜﺘﻟﺎﺑ ﺎﻬﻟ ﺡﺎﻤﺴﻟﺍ ﻭﺃ ،ﺩﺭﺍﻮﻤﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍﻭ ﺔﺳﺍﺭﺪﻠﻟ ﺮﺳﻷﺍ ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺢﻳﺮﺸﺗ ﻦﻜﻤﻳ .ﺓﺮﻴﺳﻷﺍ §YSpace Fauna§! ﺓﺪﻫﺎﺸﻣ §Y$vivarium$§! ﺎﻨﻟ ﺢﻴﺘﻳ"
+
+ # Singular: ['concept_war_in_heaven'] or §H$concept_war_in_heaven$§!
+ # Plural: -
+ concept_war_in_heaven: "ﺔﻨﺠﻟﺍ ﻲﻓ ﺏﺮﺣ"
+ concept_war_in_heaven_desc: "$requires_leviathans$.ﺓﺮﺠﻤﻟﺍ ﻰﻠﻋ ﻕﻮﻔﺘﻟﺍ ﻞﺟﺃ ﻦﻣ ﻥﻼﺗﺎﻘﺘﻳﻭ ['concept_awaken'] ﻥﺎﻧﻮﻜﻳ ﺪﻗ ﻰﻣﺍﺪﻘﻟﺍ ﺀﺍﺪﻋﻷﺍ ﻦﻣ ['concept_fallen_empires'] ﻦﻣ ﻥﺎﻨﺛﺍ"
+
+ # Singular: ['concept_wormhole'] or §H$concept_wormhole$§!
+ # Plural: ['concept_wormholes'] or §H$concept_wormholes$§!
+ concept_wormhole_pairs: "ﻱﺩﻭﺪﻟﺍ ﺐﻘﺜﻟﺍ ﺝﺍﻭﺯﺃ"
+ concept_wormhole: "ﻱﺩﻭﺪﻟﺍ ﺐﻘﺜﻟﺍ"
+ concept_wormholes: "ﺔﻳﺩﻭﺪﻟﺍ ﺏﻮﻘﺜﻟﺍ"
+ concept_wormholes_desc: ".ﺖﺑﺎﺛ ﻊﻗﻮﻣ ﻰﻟﺇ ﺭﻭﺮﻤﻟﺎﺑ ﺢﻤﺴﺗ ﺎﻬﻧﺈﻓ ،ﺎﻫﺭﺍﺮﻘﺘﺳﺍ ﺩﺮﺠﻤﺑ .ﻥﺎﻜﻣﺰﻟﺍ ﻲﻓ ﻲﻌﻴﺒﻃ ﻞﻜﺸﺑ ﺙﺪﺤﺗ ﻕﻮﻘﺷ ﻲﻫ ﺔﻳﺩﻭﺪﻟﺍ ﺏﻮﻘﺜﻟﺍ"
+
+ # Singular: ['concept_xeno_compatibility'] or §H$concept_xeno_compatibility$§!
+ # Plural: -
+ concept_xeno_compatibility: "$ap_xeno_compatibility$"
+ concept_xeno_compatibility_desc: "§L$ap_xeno_compatibility_desc$§!\n\n$allow_crossbreeding$"
+
+ # Singular: -
+ # Plural: ['concept_cutholoids'] or §H$concept_cutholoids$§!
+ concept_cutholoids: "$cutholoids_plural$"
+ concept_cutholoids_desc: "$cutholoid_desc$"
+
+ # Singular: -
+ # Plural: ['concept_voidworms'] or §H$concept_voidworms$§!
+ concept_voidworms: "$voidworms_plural$"
+ concept_voidworms_desc: "$voidworm_desc$"
+
+ # Singular: £influence£ ['concept_influence'] or £influence£ §H$concept_influence$§!
+ # Plural: -
+ concept_influence: "ﺮﻴﺛﺄﺗ"
+ concept_influence_desc: "[GetConceptInfluence]"
+ concept_influence_desc_shared: "['concept_empire_size'] £empire_sprawl£ ﻰﻟﺇ ﺔﺒﺴﻨﻟﺎﺑ ﺮﻴﺒﻛ ['concept_navy_size'] ﻢﻋﺩ ﻝﻼﺧ ﻦﻣ ['concept_power_projection'] ﺔﻠﻤﻜﺘﺑ ﻢﻗ -\n['concept_rivals'] ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻋ ﻥﻼﻋﻹﺍ -$tt_gain$.ﻪﻨﻴﺴﺤﺗ ﻦﻜﻤﻳ ﻦﻜﻟﻭ ،ﺎﻣ ﺪﺣ ﻰﻟﺇ ﺍﺮﻘﺘﺴﻣ §H$concept_influence$§! ﺀﺎﺸﻧﺇ ﻞﻈﻳ .['concept_diplomatic_pacts'] ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍﻭ ['concept_claims'] ﺀﺎﺸﻧﺇﻭ ['concept_outposts'] ﺀﺎﻨﺒﻟ ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ ،ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻹﺍ ﺕﺍﺀﺍﺮﺟﻺﻟ ﻪﻣﺍﺪﺨﺘﺳﺍ ﻢﺘﻳ"
+ concept_influence_desc_regular: "$concept_influence_desc_shared$\n\n.ﻲﺳﺎﻴﺴﻟﺍ ﺫﻮﻔﻨﻟﺍ ﻞﺜﻤﻳ §H$concept_influence$§! £influence£"
+ concept_influence_desc_hive: "$concept_influence_desc_shared$\n\n.ﻡﺎﻋ ﻞﻜﺸﺑ ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﻢﻜﺤﺘﻟﺍ ﻰﻠﻋ ['authority:auth_hive_mind'] ﺓﺭﺪﻗ ﻞﺜﻤﻳ §H$concept_influence$§! £influence£"
+ concept_influence_desc_machine: "$concept_influence_desc_shared$\n\n.ﻡﺎﻋ ﻞﻜﺸﺑ ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﺮﺷﺎﺒﻤﻟﺍ ﻢﻜﺤﺘﻟﺍ ﻲﻟﻮﺘﻟ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺓﻮﻗ ﻞﻳﻮﺤﺗ ﻰﻠﻋ ﺔﻴﺳﺎﺳﻷﺍ ['authority:auth_machine_intelligence'] ﺓﺭﺪﻗ ﻞﺜﻤﻳ §H$concept_influence$§! £influence£"
+
+ # Singular: ['concept_outpost'] or §H$concept_outpost$§!
+ # Plural: ['concept_outposts'] or §H$concept_outposts$§!
+ concept_outpost: "$starbase_outpost$"
+ concept_outposts: "$starbase_outpost_plural$"
+ concept_outpost_desc: ".ﺓﺭﺪﻗ ﺮﺜﻛﻷﺍ §H$concept_starbase$§! ﻰﻟﺇ §H$concept_outpost$§! ﺔﻴﻗﺮﺘﻟ ﺔﻘﻳﺮﻃ ['concept_starbase_view'] £interface£ ﺮﻓﻮﻳ\n\n.['concept_starbase_capacity'] ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻰﻠﻋ ﺮﺼﺘﻘﻳ ﻻ §H$concept_outposts$§! ﺩﺪﻋ\n\n.['concept_systems'] £system£ ﻰﻟﺇ ['concept_empire'] ﺩﻭﺪﺣ ﻊﻴﺳﻮﺘﻟ ﺎﻬﻤﻴﻤﺼﺗ ﻢﺗ ﺓﺮﻴﻐﺻ ['concept_starbases'] ﻲﻫ §H$concept_outposts$§!"
+
+ # Singular: ['concept_claim'] or §H$concept_claim$§!
+ # Plural: ['concept_claims'] or §H$concept_claims$§!
+ concept_claim: "ﺔﺒﻟﺎﻄﻣ"
+ concept_claims: "ﺕﺎﺒﻟﺎﻄﻤﻟﺍ"
+ concept_claim_desc: ".['concept_claims_view'] £interface£ ﻲﻓ ﺕﺎﺒﻟﺎﻄﻤﻟﺍ ﺓﺭﺍﺩﺇ ﻢﺘﺗ\n\n.ﺎﻘﺒﺴﻣ ﻚﻟﺫ ﺔﻴﻛﺬﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﻌﻔﺘﺳ ﺍﺬﻟ ،ﺔﻴﻣﻮﺠﻬﻟﺍ ﺏﺮﺤﻟﺍ ﺀﺎﻨﺛﺃ ﺔﻔﻠﻜﺗ ﺮﺜﻛﺃ ﺔﺒﻟﺎﻄﻤﻟﺍ ﺔﻤﻈﻧﺃ ﻥﻮﻜﺗ .ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﺒﻗ ﻦﻣ ﺔﻴﻟﺎﺤﻟﺍ §H$concept_claims$§!ﻭ ،ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻹﺍ ﺔﻤﻴﻘﻟﺍﻭ ،ﻡﺎﻈﻨﻟﺍ ﺔﻓﺎﺴﻣ ﻰﻠﻋ ﺀﺎﻨﺑ ﻒﻴﻟﺎﻜﺘﻟﺍ ﺓﺩﺎﻳﺯ ﻊﻣ ،['concept_influence'] £influence£ ﻕﺎﻔﻧﺇ ﻖﻳﺮﻃ ﻦﻋ ﺕﺎﺒﻟﺎﻄﻤﻟﺍ ﺀﺎﺸﻧﺇ ﻢﺘﻳ\n\n.ﺮﺼﻨﻟﺍ ﺪﻨﻋ ﺎﻬﻴﻠﻋ ﻉﺯﺎﻨﺘﻤﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻰﻠﻋ ﺀﻼﻴﺘﺳﻻﺎﺑ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﻭﺰﻐﻠﻟ ['concept_wars'] ﺮﻳﺮﺒﺘﻟ ﻝﻭﻷﺍ ﻡﺎﻘﻤﻟﺍ ﻲﻓ ﺕﺎﺒﻟﺎﻄﻤﻟﺍ ﻡﺪﺨﺘﺴﺗ .ﺔﻴﺒﻨﺟﻷﺍ ﺓﺮﻄﻴﺴﻠﻟ ﺔﻌﺿﺎﺨﻟﺍ ﺔﻴﻤﺠﻨﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻰﻠﻋ ﺔﻴﻤﻴﻠﻗﺇ ﺕﺍﺪﻴﻛﺄﺗ §H$concept_claims$§! ﻞﺜﻤﺗ"
+
+ # Singular: ['concept_research_agreement'] or §H$concept_research_agreement$§!
+ # Plural: ['concept_research_agreements'] or §H$concept_research_agreements$§!
+ concept_research_agreement: "ﺚﺤﺒﻟﺍ ﺔﻴﻗﺎﻔﺗﺍ"
+ concept_research_agreements: "ﺚﺤﺒﻟﺍ ﺕﺎﻴﻗﺎﻔﺗﺍ"
+ concept_research_agreement_desc: ".['concept_contacts_view'] £interface£ ﻲﻓ $contacts_view_tab_contacts$ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺎﻬﺣﺍﺮﺘﻗﺍ ﻢﺘﻳﻭ .['concept_federation'] ﺕﺎﺒﻴﺗﺮﺗ ﻭﺃ ﻊﺳﻭﺃ ﺔﻴﻧﻭﺎﻌﺗ ﺕﺎﻔﻟﺎﺤﺗ ﻲﻓ ﺎﺒﻟﺎﻏ ﺎﻬﻨﻴﻤﻀﺗ ﻢﺘﻳﻭ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻝﻼﺧ ﻦﻣ §H$concept_research_agreements$§!\n\n ﺀﺎﺸﻧﺇ ﻦﻜﻤﻳ ﺔﻴﻤﻠﻌﻟﺍ ﺩﻮﻬﺠﻟﺍ ﻊﻳﺮﺴﺘﻟ ﺔﺻﺎﺧ ﺔﻤﻴﻗ ﺕﺍﺫ ﺎﻬﻠﻌﺠﻳ ﺎﻤﻣ ،ﻞﻌﻔﻟﺎﺑ ﺎﻬﺗﺍﺮﻴﻈﻧ ﺎﻬﻜﻠﺘﻤﺗ ['concept_technologies'] ـﻟ ﺕﺂﻓﺎﻜﻣ ['concept_research'] £engineering£ £society£ £physics£ ﺔﻛﺭﺎﺸﻤﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺢﻨﻤﺗ ﺔﻴﺳﺎﻣﻮﻠﺑﺩ ﺕﺍﺪﻫﺎﻌﻣ ﻲﻫ §H$concept_research_agreements$§!"
+
+ # Singular: ['concept_rival'] or §H$concept_rival$§!
+ # Plural: ['concept_rivals'] or §H$concept_rivals$§!
+ concept_rival: "ﺔﺴﻓﺎﻨﻣ"
+ concept_rivals: "ﻦﻴﺴﻓﺎﻨﻤﻟﺍ"
+ concept_rival_desc: ".['concept_contacts_view'] £interface£ ﻲﻓ $contacts_view_tab_contacts$ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺎﻬﻨﻋ ﻥﻼﻋﻹﺍ ﻢﺗ .ﺔﻴﺋﺍﺪﻌﻟﺍ ﻝﺎﻤﻋﻷﺍ ﺮﻳﺮﺒﺗﻭ ،ﺕﺎﻔﻟﺎﺤﺘﻟﺍ ﻞﻴﻜﺸﺗﻭ ،ﺔﻨﻤﻴﻬﻟﺍ ﺪﻴﻛﺄﺘﻟ ﺔﻴﺴﻴﺋﺭ ﺓﺍﺩﺃ ﻲﻫﻭ ،ﺔﻠﺛﺎﻤﻣ ﺓﻮﻗ ﺕﺍﺫ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺪﺿ ﻻﺇ ﺕﺎﺴﻓﺎﻨﻤﻟﺍ ﻥﻼﻋﺇ ﻦﻜﻤﻳ ﻻ \n\n .ﺡﻮﺘﻔﻣ ﻉﺍﺮﺻ ﻰﻟﺇ ﺕﺍﺮﺗﻮﺘﻟﺍ ﺪﻴﻌﺼﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺪﻗﻭ ﺲﻓﺎﻨﻤﻟﺍ ﻊﻣ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﺎﻗﻼﻌﻟﺍ ﻢﻗﺎﻔﺗ ﻰﻟﺇ ﺎﻀﻳﺃ ﻱﺩﺆﻳ ﻪﻧﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﺔﻠﺛﺎﻤﻣ ﺕﺍﻭﺍﺪﻋ ﻲﻓ ﻙﺮﺘﺸﺗ ﻲﺘﻟﺍ ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻊﻣ ﺕﺎﻗﻼﻌﻟﺍ ﻦﻴﺴﺤﺗ ﻪﻨﻜﻤﻳﻭ ['concept_influence'] £influence£ ﻞﻴﺟ ﺓﺩﺎﻳﺯ ﻰﻟﺇ §H$concept_rival$§! ﻦﻋ ﻥﻼﻋﻹﺍ ﻱﺩﺆﻳ .ﻦﻴﻴﺠﻴﺗﺍﺮﺘﺳﺍﻭ ﻦﻴﻴﺳﺎﻴﺳ ﻡﻮﺼﺨﻛ ﺎﻴﻤﺳﺭ ﻢﻫﺪﻳﺪﺤﺗ ﻢﺗ §H$concept_rivals$§!"
+
+ # Singular: ['concept_power_projection'] or §H$concept_power_projection$§!
+ # Plural: -
+ concept_power_projection: "ﺓﻮﻘﻟﺍ ﻁﺎﻘﺳﺇ"
+ concept_power_projection_desc: ".['concept_influence'] £influence£ ﺪﻴﻟﻮﺗ ﺯﺰﻌﻳ ﺎﻤﻣ ،ﺓﻮﻘﻟﺍ ﺽﺮﻋ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ §H$concept_naval_capacity$§! ﻦﻣ ﺔﺒﻳﺮﻗ ﺔﻳﺮﺤﺑ ﺓﻮﻗ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻱﺩﺆﻳ\n\n.ﻱﺮﺠﻤﻟﺍ ﺡﺮﺴﻤﻟﺍ ﻰﻠﻋ ﻲﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﻥﺯﻮﻠﻟ ﻲﺋﺮﻣ ﺮﺷﺆﻤﻛ ﻞﻤﻌﻳﻭ ،ﻪﺘﻧﺎﻴﺻﻭ ['concept_fleets'] ﻢﺠﺣ ﺲﻜﻌﻳ ﻪﻧﺇ .ﺔﻴﺳﺎﻴﺴﻟﺍ ﺎﻬﺘﻧﺎﻜﻣ ﻲﻓ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺔﻳﺮﻜﺴﻌﻟﺍ ﺓﻮﻘﻟﺍ ﺔﻤﻫﺎﺴﻣ ﻯﺪﻣ ﺲﻴﻘﻳ §H$concept_power_projection$§!"
+
+ # Singular: ['concept_navy_size'] or §H$concept_navy_size$§!
+ # Plural: -
+ concept_navy_size: "ﻱﺮﺤﺒﻟﺍ ﻢﺠﺤﻟﺍ"
+ concept_navy_size_desc: ".ﺓﺮﺠﻤﻟﺍ ﺮﺒﻋ ﻉﻭﺮﺸﻤﻟﺍ ﺓﻮﻗﻭ ﺔﻛﻮﻠﻤﻤﻟﺍ ﻲﺿﺍﺭﻷﺍ ﻦﻋ ﻉﺎﻓﺪﻠﻟ ﺎﻳﺭﻭﺮﺿ ﺍﺮﻣﺃ ﺔﻧﺯﺍﻮﺘﻣ ﺔﻳﺮﺤﺑ ﺓﻮﻗ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﺪﻌﻳ \n\n.['concept_ship_upkeep'] ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﻱﺩﺆﻳ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ['concept_naval_capacity'] ﺯﻭﺎﺠﺗ ﻥﺈﻓ ،ﺔﻳﺮﺤﺒﻟﺍ ﻢﺠﺤﻟ ﻡﺭﺎﺻ ﺪﺣ ﺩﻮﺟﻭ ﻡﺪﻋ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻝﻮﻄﺳﺃ ﻞﺧﺍﺩ ['concept_military_ships'] ﺩﺪﻋ ﻲﻟﺎﻤﺟﺇ §H$concept_navy_size$§! ﻞﺜﻤﻳ"
+
+ # Singular: £empire_sprawl£ ['concept_empire_size'] or £empire_sprawl£ §H$concept_empire_size$§!
+ # Plural: -
+ concept_empire_size: "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻢﺠﺣ"
+ concept_empire_size_desc: ".ﺲﺴﺠﺘﻟﺍ ﺽﺍﺮﻏﻷ ﻞﻠﺴﺘﻟﺍ ﻲﻓ ﻞﻬﺳﺃ ['concept_empire'] ﺢﺒﺼﻳ ﺎﻤﻛ \n\n.['concept_edicts']ﻭ ['concept_traditions']ﻭ ['concept_technologies'] ﺔﻔﻠﻜﺗ ﻦﻣ ﺪﻳﺰﻳﻭ ﺔﻳﺭﺍﺩﻹﺍ ﺓﺭﺪﻘﻟﺍ ﻰﻠﻋ ﺎﻄﻐﺿ §H$concept_empire_size$§!A ﻞﺜﻤﻳ ﻊﻔﺗﺮﻤﻟﺍ \n\n.['concept_pops'] £pop£ﻭ ['concept_colonies'] £colony£ﻭ ['concept_systems'] £system£ﻭ ['concept_districts'] £district£ ﻞﻜﺷ ﻲﻓ ﺔﻴﻤﻴﻠﻗﻹﺍ ﺔﺣﺎﺴﻤﻠﻟ ﺱﺎﻴﻘﻣ ﻮﻫ §H$concept_empire_size$§! £empire_sprawl£"
+
+ # Singular: £unity£ ['concept_unity'] or £unity£ §H$concept_unity$§!
+ # Plural: -
+ concept_unity: "ﺓﺪﺣﻮﻟﺍ"
+ concept_unity_desc: "[GetConceptUnity]"
+ concept_unity_desc_regular: "['concept_policy', $policy_trade_policy$] ﺮﻴﻴﻐﺗﻭ ['tradition:tr_mercantile_adaptive_economic_policies'] ['tradition_category:tradition_mercantile'] ﺪﻴﻠﻘﺗ ﺩﺎﻤﺘﻋﺍ -\n['concept_factions'] ـﻟ ['concept_support']ﻭ ['concept_approval'] ﻦﻴﺴﺤﺗ -\n$concept_unity_desc_end$.ﻢﻬﺘﻤﻛﻮﺣﻭ ﻢﻬﺗﺎﺴﺳﺆﻣ ﻪﺟﻮﻳﻭ ،ﺎﻌﻣ ﺱﺎﻨﻟﺍ ﻂﺑﺮﻳ ﻱﺬﻟﺍ ﻙﺮﺘﺸﻤﻟﺍ ﻑﺪﻬﻟﺍ ﺪﺴﺠﻳ ﻪﻧﺇ .ﺔﻴﺟﻮﻟﻮﻳﺪﻳﻷﺍ ﻪﺗﻮﻗﻭ ﻊﻤﺘﺠﻤﻠﻟ ﻲﻋﺎﻤﺠﻟﺍ ﻢﻴﻤﺼﺘﻟﺍ ﺲﻜﻌﻳ §H$concept_unity$§! £unity£"
+ concept_unity_desc_hive: "$concept_unity_desc_end$.ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍﻭ ﺓﺪﻴﻌﺒﻟﺍ ﺪﻘﻌﻟﺍ ﻪﺟﻮﺗﻭ ،ﺔﻴﻠﺨﻟﺍ ﻪﺟﻮﺗ ﻲﺘﻟﺍ ﺔﻴﻋﺎﻤﺠﻟﺍ ﺓﺩﺍﺭﻹﺍ ﺪﺴﺠﺗ ﺎﻬﻧﺇ .['authority:auth_hive_mind'] ـﻟ ﺪﻳﺮﻔﻟﺍ ﺽﺮﻐﻟﺍﻭ ﻢﻴﻤﺼﺘﻟﺍ ﺲﻜﻌﻳ §H$concept_unity$§! £unity£"
+ concept_unity_desc_machine: "$concept_unity_desc_end$.ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍﻭ ﺓﺪﻴﻌﺒﻟﺍ ﺪﻘﻌﻟﺍ ﻪﺟﻮﻳﻭ ،ﺔﻟﻵﺍ ﻪﺟﻮﻳ ﻱﺬﻟﺍ ﺏﻮﺴﺤﻤﻟﺍ ﺽﺮﻐﻟﺍ ﺪﺴﺠﻳ ﻪﻧﺇ .['authority:auth_machine_intelligence'] ﺔﺠﻟﺎﻌﻣ ﻚﺳﺎﻤﺗﻭ ﺔﻗﺩ ﺲﻜﻌﻳ §H$concept_unity$§! £unity£"
+ concept_unity_desc_end: "§H$concept_unity$§! ﺞﺘﻨﺗ ﻲﺘﻟﺍ ['concept_jobs'] £job£ ﻡﺍﺪﺨﺘﺳﺎﺑ ['concept_buildings'] £building£.$tt_gain$- ﺀﺎﺸﻧﺇ ['concept_resettlement'] ﺓﺭﺍﺩﺇﻭ ،['concept_edicts'] ﻞﻴﻌﻔﺗﻭ ،['concept_colonies'] £colony£ ﺩﻮﻌﺼﻟﺍﻭ ،['concept_leaders'] ﺪﻴﻨﺠﺗﻭ ،ﺪﻳﺪﺠﻟﺍ ['concept_traditions'] ﺢﺘﻓ ،ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ ،ﺔﻴﻠﺧﺍﺪﻟﺍ ﻥﻭﺆﺸﻠﻟ ﻱﺭﻭﺮﺿ ﻪﻧﺇ\n\n"
+
+ # Singular: ['concept_leader'] or §H$concept_leader$§!
+ # Plural: ['concept_leaders'] or §H$concept_leaders$§!
+ concept_leader: "ﺪﺋﺎﻗ"
+ concept_leaders: "ﺓﺩﺎﻘﻟﺍ"
+ concept_leader_desc: ".['concept_leaders_view'] £interface£ ﻲﻓ ﻢﻬﻠﺼﻓﻭ ﺓﺩﺎﻘﻟﺍ ﻦﻴﻴﻌﺗ ﻢﺘﻳ\n\n.ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﻥﻮﺗﻮﻤﻳ ﻭﺃ ﻥﻭﺪﻋﺎﻘﺘﻳ ﺪﻗﻭ ﺎﻀﻳﺃ ﺮﻤﻌﻟﺍ ﻲﻓ ﻥﻮﻣﺪﻘﺘﻳ ﻢﻬﻧﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﻱﻮﻘﻟﺍ ['concept_leader_traits'] ﺢﺘﻓﻭ ﻪﺘﻴﻟﺎﻌﻓ ﻦﻴﺴﺤﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﺓﺮﺒﺨﻟﺍ ﺐﺴﺘﻜﻳ §H$concept_leaders$§!\n\n.['concept_research'] ﺀﺍﺮﺟﺇﻭ ['concept_fleets'] ﺮﻣﻸﻟ ﻪﻨﻴﻴﻌﺗ ﻭﺃ ،['concept_governors'] ـﻛ §H$concept_leaders$§! ﺖﻴﺒﺜﺗ ﻢﺘﻳ ﺪﻗ"
+
+ # Singular: ['concept_leader_trait'] or §H$concept_leader_trait$§!
+ # Plural: ['concept_leader_traits'] or §H$concept_leader_traits$§!
+ concept_leader_trait: "ﺪﺋﺎﻘﻟﺍ ﺔﻔﺻ"
+ concept_leader_traits: "ﺪﺋﺎﻘﻟﺍ ﺕﺎﻔﺻ"
+ concept_leader_trait_desc: ".ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺓﺭﺍﺩﻹ ﺎﻳﻮﻴﺣ ﺎﺒﻧﺎﺟ ﻩﺮﻳﻮﻄﺗﻭ ﺪﺋﺎﻘﻠﻟ ﻖﻴﻗﺪﻟﺍ ﺭﺎﻴﺘﺧﻻﺍ ﻞﻌﺠﻳ ﺎﻤﻣ ،ﻢﻬﺋﺍﺩﺃ ﻒﻌﻀﻳ ﺪﻗ ﺮﺧﻵﺍ ﺾﻌﺒﻟﺍ ﻥﺃ ﻦﻴﺣ ﻲﻓ ،ﺓﺀﺎﻔﻜﻟﺍ ﺯﺰﻌﻳ ﺎﻤﻣ ،ﺔﻴﺑﺎﺠﻳﺇ ﺕﺎﻤﺴﻟﺍ ﺾﻌﺑ .['concept_council'] ﻰﻠﻋ ﺲﻠﺠﻳ ﺪﺋﺎﻘﻟﺍ ﻥﺎﻛ ﺍﺫﺇ ﻻﺇ ﺕﺎﻤﺴﻟﺍ ﺾﻌﺑ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﻦﻜﻤﻳ ﻻ \n\n.['concept_fleets'] ﺓﺩﺎﻴﻗ ﻭﺃ ،['concept_governor'] ـﻛ ﻪﻠﻤﻋ ﻭﺃ ،['concept_research'] ـﻟ ﺕﺂﻓﺎﻜﻣ ﺮﻓﻮﻳ ﺎﻤﻣ ،ﺹﺎﺨﻟﺍ ﻩﺭﻭﺩ ﻲﻓ ﺪﺋﺎﻘﻟﺍ ﺔﻴﻟﺎﻌﻓ ﻰﻠﻋ ﺕﺎﻤﺴﻟﺍ ﻩﺬﻫ ﺮﺛﺆﺗ .['concept_leader'] ـﻟ ﺓﺮﺒﺨﻟﺍ ﺕﻻﺎﺠﻣﻭ ﻒﻌﻀﻟﺍﻭ ﺓﻮﻘﻟﺍ ﻁﺎﻘﻧ ﺩﺪﺤﺗ ﺔﺻﺎﺧ ﺕﺎﻤﺳ ﻲﻫ §H$concept_leader_traits$§!"
+
+ # Singular: ['concept_leader_class'] or §H$concept_leader_class$§!
+ # Plural: -
+ concept_leader_class: "ﺪﺋﺎﻘﻟﺍ ﺔﺌﻓ"
+ concept_leader_class_desc: "['concept_scientist'] £scientist£- \n['concept_commander'] £commander£- \n['concept_official'] £official£- \n\n:['concept_leader'] ﺭﻭﺩ §H$concept_leader_class$§! ﺩﺪﺤﻳ"
+
+ # Singular: £official£ ['concept_official'] or £official£ §H$concept_official$§!
+ # Plural: £official£ ['concept_officials'] or £official£ §H$concept_officials$§!
+ concept_official: "$ﻲﻤﺳﺭ$"
+ concept_officials: "$official_plural$"
+ concept_official_desc: ".ﺪﻴﺟ ﻞﻜﺸﺑ ﻞﻤﻌﺗ ﺓﺭﺍﺩﺇ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻲﻓ ﺎﻤﻬﻣ ﻼﻣﺎﻋ ﺎﻬﺗﺭﺍﺩﺇ ﻞﻌﺠﻳ ﺎﻤﻣ ،ﻯﺮﺧﺃ ﻞﻣﺍﻮﻋ ﻭﺃ ['concept_leader_traits'] ـﺑ §H$concept_officials$§! ﺔﻴﻟﺎﻌﻓ ﺮﺛﺄﺘﺗ ﺪﻗ \n\n.['concept_federation'] ﻲﻓ ﻚﺳﺎﻤﺘﻟﺍ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺎﻀﻳﺃ ﻥﻮﻠﻤﻌﻳ ﺪﻗ .['concept_governor'] ﺎﻫﺭﺎﺒﺘﻋﺎﺑ ['concept_sector'] £sector£ ﻭﺃ ['concept_colony'] £colony£ ﺓﺭﺍﺩﺇ ﻦﻴﺴﺤﺗﻭ ،ﻦﻴﻧﺍﻮﻘﻟﺍ ﺫﺎﻔﻧﺇﻭ ،['concept_stability'] £stability£ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻲﻓ ﺎﻤﺳﺎﺣ ﺍﺭﻭﺩ ﻥﻮﺒﻌﻠﻳ ﻢﻬﻧﺇ .ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﺧﺍﺩ ﺕﺎﺳﺎﻴﺴﻟﺍ ﺬﻴﻔﻨﺗﻭ ﺔﻤﻛﻮﺤﻟﺍ ﻰﻠﻋ ﻥﻮﻓﺮﺸﻳ ﻦﻳﺬﻟﺍ ﻥﻮﻳﺭﺍﺩﻹﺍ ['concept_leaders'] ﻢﻫ §H$concept_officials$§! £official£"
+
+ # Singular: £commander£ ['concept_commander'] or £commander£ $concept_commander$§!
+ # Plural: £commander£ ['concept_commanders'] or £commander£ $concept_commanders$§!
+ concept_commander: "$ﺪﺋﺎﻘﻟﺍ$"
+ concept_commanders: "$commander_plural$"
+ concept_commander_desc: ".ﺐﻛﺍﻮﻜﻟﺍ ﺓﺭﺍﺩﺇ ﺰﻳﺰﻌﺗ ﺎﻀﻳﺃ ﻢﻬﻨﻜﻤﻳ ،['concept_governor'] ﻢﻫﺭﺎﺒﺘﻋﺎﺑﻭ ،ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺔﻳﺮﻜﺴﻌﻟﺍ ﺓﻮﻘﻟﺍﻭ ﻝﻮﻄﺳﻷﺍ ﺀﺍﺩﺃ ﺯﺰﻌﻳ ﻥﺃ ﺐﺳﺎﻨﻣ ﻞﻜﺸﺑ ﻢﻬﺗﺭﺍﺩﺇﻭ ﺓﺩﺎﻘﻟﺍ ﻦﻴﻴﻌﺘﻟ ﻦﻜﻤﻳ .ﻯﺮﺧﺃ ﻞﻣﺍﻮﻋ ﻭﺃ ['concept_leader_traits'] ـﺑ ﺮﺛﺄﺘﺗ ﺪﻗ §H$concept_commander$§! ﺔﻴﻟﺎﻌﻓ\n\n .ﻲﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﻂﻴﻄﺨﺘﻟﺍﻭ ﻲﺋﺎﻀﻔﻟﺍ ﻝﺎﺘﻘﻟﺍ ﻲﻓ ﺎﻳﻮﻴﺣ ﺍﺭﻭﺩ ﻥﻮﺒﻌﻠﻳ ﻢﻬﻧﺇ .ﺔﻳﺮﺤﺒﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻰﻠﻋ ﻑﺍﺮﺷﻹﺍﻭ ['concept_fleets'] ﻪﻴﺟﻮﺗ ﻦﻋ ﻥﻮﻟﻭﺆﺴﻣ ['concept_leaders'] ﻥﻮﻳﺮﻜﺴﻋ §H$concept_commanders$§! £commander£"
+
+ # Singular: £scientist£ ['concept_scientist'] or £scientist£ $concept_scientist$§!
+ # Plural: £scientist£ ['concept_scientists'] or £scientist£ $concept_scientists$§!
+ concept_scientist: "$ﻢﻟﺎﻌﻟﺍ$"
+ concept_scientists: "$scientist_plural$"
+ concept_scientist_desc: ".ﺐﻛﺍﻮﻜﻟﺍ ﺓﺭﺍﺩﺇ ﺰﻳﺰﻌﺗ ﺎﻀﻳﺃ ﻢﻬﻨﻜﻤﻳ ،['concept_governor'] ﻢﻫﺭﺎﺒﺘﻋﺎﺑﻭ ،ﻡﺪﻘﺘﻟﺍ ﻊﻳﺮﺴﺗ ﻰﻟﺇ ﺔﻴﻓﺎﺸﻜﺘﺳﺍ ﺕﺎﻤﻬﻣ ﻲﻓ ﻦﻳﺮﻫﺎﻣ ﺀﺎﻤﻠﻋ ﻦﻴﻴﻌﺗ ﻱﺩﺆﻳ ﻥﺃ ﻦﻜﻤﻳ .ﺓﺮﺒﺨﻟﺍ .ﻞﻤﻌﻟﺍ ﻝﺎﺠﻣﻭ ﺓﺮﺒﺨﻟﺍ ﻯﻮﺘﺴﻣﻭ ['concept_leader_traits'] ـﺑ §H$concept_scientist$§! ﺔﻴﻟﺎﻌﻓ ﺮﺛﺄﺘﺗ ﺪﻗ\n\n.ﺓﺮﺠﻤﻟﺍ ﺮﺒﻋ ['concept_archaeology_site'] £archaeology£ ﻭﺃ ['concept_anomalies'] £anomaly£ ﻥﻮﻠﻠﺤﻳﻭ ،['concept_science_ships'] £science_ship£ ﻥﻭﺮﻣﺄﻳﻭ ،['concept_research'] ﺩﻮﻬﺟ ﻥﻭﺩﻮﻘﻳ ﻢﻬﻧﺇ .ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﺧﺍﺩ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺭﺎﻜﺘﺑﻻﺍﻭ ﻑﺎﺸﻜﺘﺳﻻﺍﻭ ﻲﻤﻠﻌﻟﺍ ﻡﺪﻘﺘﻟﺍ ﻥﻭﺩﻮﻘﻳ ﻦﻳﺬﻟﺍﻭ ﺙﺎﺤﺑﻷﺍ ﻰﻠﻋ ﻥﻭﺰﻛﺮﻳ ﻦﻳﺬﻟﺍ ['concept_leaders'] ﻢﻫ §H$concept_scientists$§! £scientist£"
+
+ # Singular: ['concept_star'] or §H$concept_star$§!
+ # Plural: ['concept_stars'] or §H$concept_stars$§!
+ concept_star: "ﻢﺠﻧ"
+ concept_stars: "ﻡﻮﺠﻨﻟﺍ"
+ concept_star_desc: ".['concept_research_station'] £science_ship£ ﻭﺃ ['concept_mining_station'] £mining_station£ ﺀﺎﺸﻧﺇ ﻖﻳﺮﻃ ﻦﻋ ﺎﻬﺴﻔﻧ §H$concept_star$§! ـﺑ ﺔﻠﺼﺘﻣ ﺩﺭﺍﻮﻣ ﻱﺃ ﻊﻤﺟ ﻦﻜﻤﻳ .ﻝﻼﻐﺘﺳﻼﻟ ﺔﻠﺑﺎﻗ §Hﺕﺎﺒﻜﻳﻮﻛ§! ﻭﺃ ['concept_planets'] £planet£ ﻝﻮﺣ ﺭﻭﺪﻳ §H$concept_star$§! ﻥﻮﻜﻳ ﻥﺃ ﻞﻤﺘﺤﻳ\n\n.['concept_system'] £system£ ﺰﻛﺮﻣ ﻲﻓ ﻊﻘﻳ ﻱﺯﺎﻏ ﻢﺨﺿ ﻢﺴﺟ ﻮﻫ §H$concept_star$§!"
+
+ # Singular: £planet£ ['concept_planet'] or £planet£ §H$concept_planet$§!
+ # Plural: £planet£ ['concept_planets'] or £planet£ §H$concept_planets$§!
+ concept_planet: "ﺐﻛﻮﻛ"
+ concept_planets: "ﺐﻛﺍﻮﻜﻟﺍ"
+ concept_planet_desc: ".['concept_research_station'] £science_ship£ ﻭﺃ ['concept_mining_station'] £mining_station£ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺩﺎﺼﺤﻠﻟ ﺔﻠﺑﺎﻗ ﺩﺭﺍﻮﻣ ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﻚﻟﺫ ﻑﻼﺨﺑ ﻭﺃ ،['concept_terraforming'] ـﻟ ﺕﺎﺤﺷﺮﻤﻛ ﺎﻬﻴﻠﻋ ﺔﻣﻼﻋ ﻊﺿﻭ ﻢﺘﻳ ﺪﻗ §Hﻦﻜﺴﻠﻟ ﺔﺤﻟﺎﺼﻟﺍ ﺮﻴﻏ ﺐﻛﺍﻮﻜﻟﺍ§! ﺾﻌﺑ\n\n.['concept_colonies'] £colony£ ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺗ ﻦﻜﻤﻳ ﻲﺘﻟﺍﻭ §Hﻦﻜﺴﻠﻟ ﺔﺤﻟﺎﺼﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ§! ﻦﻣ ﺔﻴﺳﺎﺳﺃ ﻉﺍﻮﻧﺃ ﺔﻌﺴﺗ ﻙﺎﻨﻫ\n\n.§HMoons§! ﻪﺑ ﺹﺎﺧ ﺭﺍﺪﻣ ﻪﻟ ﺎﻤﺑﺭﻭ ،['concept_star'] ﻝﻮﺣ ﺭﻭﺪﻳ ﺮﻴﺒﻛ ﺮﻳﺪﺘﺴﻣ ﻢﺴﺟ ﻮﻫ §H$concept_planet$§! £planet£"
+
+ # Singular: £sector£ ['concept_sector'] or £sector£ §H$concept_sector$§!
+ # Plural: £sector£ ['concept_sectors'] or £sector£ §H$concept_sectors$§!
+ concept_sector: "ﻉﺎﻄﻗ"
+ concept_sectors: "ﺕﺎﻋﺎﻄﻘﻟﺍ"
+ concept_sector_desc: ".ﺔﻴﻣﺎﻨﺘﻤﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﻱﺭﺍﺩﻹﺍ ﺀﺐﻌﻟﺍ ﻦﻣ ﻞﻠﻘﺗﻭ ﻱﺩﺎﺼﺘﻗﻻﺍ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻉﺎﻄﻘﻠﻟ ﺔﻟﺎﻌﻔﻟﺍ ﺓﺭﺍﺩﻹﺍ ﻦﻤﻀﺗ .ﻪﺗﺀﺎﻔﻛ ﻰﻠﻋ ['concept_leader_traits']ﻭ ﻪﺗﺍﺭﺎﻬﻣ ﺮﺛﺆﺗ ﻥﺃ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ،['concept_governor'] ﺔﻄﺳﺍﻮﺑ ﻉﺎﻄﻗ ﻞﻛ ﻰﻠﻋ ﻑﺍﺮﺷﻹﺍ ﻢﺘﻳ ﺪﻗ\n\n.ﺔﻴﻠﺤﻤﻟﺍ ﺕﺍﺩﺎﺼﺘﻗﻻﺍ ﺔﺘﻤﺗﺃﻭ ،ﺩﺭﺍﻮﻤﻟﺍ ﻊﻳﺯﻮﺗﻭ ،ﺔﻴﺒﻛﻮﻜﻟﺍ ﺔﻴﻤﻨﺘﻟﺍ ﺓﺭﺍﺩﺇ ﻲﻓ ﺕﺎﻋﺎﻄﻘﻟﺍ ﺪﻋﺎﺴﺗ .ﻱﺰﻛﺮﻣ ﻢﻜﺣ ﻞﻜﻴﻫ ﻦﻤﺿ ﺓﺩﺪﻌﺘﻤﻟﺍ ['concept_colonies'] £colony£ ﻊﻴﻤﺠﺗ ﻢﺘﻳ ﺚﻴﺣ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻞﺧﺍﺩ ﺔﻳﺭﺍﺩﺇ ﻖﻃﺎﻨﻣ ﻲﻫ §H$concept_sectors$§!"
+
+ # Singular: ['concept_resettlement'] or §H$concept_resettlement$§!
+ # Plural: -
+ concept_resettlement: "ﻦﻴﻃﻮﺘﻟﺍ ﺓﺩﺎﻋﺇ"
+ concept_resettlement_desc: ".§Hﻉﺍﻮﻧﻷﺍ ﻕﻮﻘﺣ§! ﻭﺃ ['concept_civics'] ﻭﺃ ['concept_policies'] ﻭﺃ ['concept_ethics'] ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺔﻄﺳﺍﻮﺑ ﺎﻫﺪﻴﻴﻘﺗ ﻢﺘﻳ ﺪﻗﻭ ['concept_energy'] £energy£ ﻦﻴﻃﻮﺘﻟﺍ ﺓﺩﺎﻋﺇ ﻒﻠﻜﺗ\n\n.ﻦﻜﺴﻠﻟ ﺔﻴﻠﺑﺎﻘﻟﺍ ﻞﺜﻣ ﻯﺮﺧﺃ ﺮﻴﻳﺎﻌﻣ ﻭﺃ ﻒﺋﺎﻇﻮﻟﺍ ﺮﻓﻮﺗ ﻭﺃ ﻦﻜﺴﻟﺍ ﻰﻠﻋ ﺀﺎﻨﺑ ﺔﻘﺜﺒﻨﻤﻟﺍ ﺬﻓﺍﻮﻨﻟﺍ ﻞﻘﻨﺗ ﻲﺘﻟﺍ ﺔﻴﺋﺎﻘﻠﺘﻟﺍ ﺕﺎﺳﺎﻴﺴﻟﺍ ﻝﻼﺧ ﻦﻣ ﻭﺃ ﺎﻳﻭﺪﻳ ﻚﻟﺬﺑ ﻡﺎﻴﻘﻟﺍ ﻦﻜﻤﻳ\n\n.ﺔﻴﻟﺎﻌﻓ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﻲﻧﺎﻜﺴﻟﺍ ﻮﻤﻨﻟﺍ ﺓﺭﺍﺩﺇﻭ ﺔﻠﻣﺎﻌﻟﺍ ﺎﻬﺗﻮﻗ ﻊﻳﺯﻮﺗ ﺓﺩﺎﻋﺈﺑ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺮﺧﺁ ﻰﻟﺇ ['concept_colony'] £colony£ ﻦﻣ ['concept_pops'] £pop£ ﻞﻘﻧ ﺔﻴﻠﻤﻋ ﻲﻫ §H$concept_resettlement$§!"
+
+ # Singular: ['concept_diplomatic_pact'] or §H$concept_diplomatic_pact$§!
+ # Plural: ['concept_diplomatic_pacts'] or §H$concept_diplomatic_pacts$§!
+ concept_diplomatic_pact: "ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻕﺎﻔﺗﻻﺍ"
+ concept_diplomatic_pacts: "ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻖﻴﺛﺍﻮﻤﻟﺍ"
+ concept_diplomatic_pact_desc: ".['concept_contacts_view'] £interface£ ﻲﻓ $contacts_view_tab_contacts$ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺎﻬﺣﺍﺮﺘﻗﺍ ﻢﺗ .ﺔﻴﺳﺎﻣﻮﻠﺑﺩ ﺕﺎﻴﻋﺍﺪﺗ ﻰﻟﺇ ﻱﺩﺆﻳﻭ ﺔﻘﺜﻟﺎﺑ ﺭﺍﺮﺿﻹﺍ ﻰﻟﺇ ﻱﺩﺆﻳ ﺪﻗ ﺎﻫﺮﺴﻛ ﻦﻜﻟﻭ ،['concept_federation'] ﻭﺃ ﻯﻮﻗﺃ ﻒﻟﺎﺤﺘﻟ ﻕﻼﻄﻧﺍ ﺔﻄﻘﻧ ﺔﺑﺎﺜﻤﺑ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻳ §H$concept_diplomatic_pacts$§!\n\n .ﺔﻛﺮﺘﺸﻤﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ ﻝﻼﺧ ﻦﻣ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ ﻊﻳﺮﺴﺗ ﻲﻓ ﺓﺪﻋﺎﺴﻤﻟﺍ ﻭﺃ ﻝﺩﺎﺒﺘﻤﻟﺍ ﻉﺎﻓﺪﻟﺎﺑ ﻦﻴﻌﻗﻮﻤﻟﺍ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻩﺬﻫ ﻡﺰﻠﺗ ﺪﻗ ،ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ .ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﺎﻬﺗﻼﻋﺎﻔﺗﻭ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺎﻬﺗﺎﻗﻼﻋ ﻞﻜﺸﺗ ﻲﺘﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻴﺑ ﺔﻴﻤﺳﺭ ﺕﺎﻴﻗﺎﻔﺗﺍ ﻲﻫ §H$concept_diplomatic_pacts$§!"
+
+ # Singular: £science_ship£ ['concept_research_station'] or £science_ship£ §H$concept_research_station$§!
+ # Plural: £science_ship£ ['concept_research_stations'] or £science_ship£ §H$concept_research_stations$§!
+ concept_research_station: "$research_station$"
+ concept_research_stations: "$research_station_plural$"
+ concept_research_station_desc: "$tt_gain$- $tt_build_research_stations$.ﺓﺮﺠﻤﻟﺍ ﺮﺒﻋ ﺓﺯﺭﺎﺑ ﻊﻗﺍﻮﻣ ﻦﻣ §HResearch Points§! £engineering£ £society£ £physics£ ﻊﻤﺠﺗ ﺔﻳﺭﺍﺪﻣ ﺔﻄﺤﻣ ﺓﺄﺸﻨﻣ ﻲﻫ §H$concept_research_station$§! £science_ship£"
+
+ # Singular: £system£ ['concept_system'] or £system£ §H$concept_system$§!
+ # Plural: £system£ ['concept_systems'] or £system£ §H$concept_systems$§!
+ concept_system: "ﻡﺎﻈﻧ"
+ concept_systems: "ﺔﻤﻈﻧﻷﺍ"
+ concept_system_desc: ".ﻱﺩﺎﺼﺘﻗﻻﺍ ﻮﻤﻨﻟﺍﻭ ﻉﺎﻓﺪﻟﺍﻭ ﻲﻤﻴﻠﻗﻹﺍ ﻊﺳﻮﺘﻠﻟ ﺎﻳﺭﻭﺮﺿ ﺍﺮﻣﺃ ﺔﻴﺴﻴﺋﺮﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﺽﺮﻓ ﺪﻌﻳ .ﺔﻴﻔﺨﻣ ﺮﻃﺎﺨﻣ ﻭﺃ ﺔﻤﻴﻗ ﺐﺳﺍﻭﺭ ﻭﺃ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﻕﺎﻨﺘﺧﺍ ﻁﺎﻘﻧ ﻰﻠﻋ ﻯﺮﺧﺃ ﺔﻤﻈﻧﺃ ﻱﻮﺘﺤﺗ ﺪﻗ ﺎﻤﻨﻴﺑ ،['concept_colonies'] £colony£ ـﻟ ﺔﺒﺳﺎﻨﻣ ﻦﻜﺴﻠﻟ ﺔﺤﻟﺎﺻ ﻢﻟﺍﻮﻋ ﻰﻠﻋ ﺔﻤﻈﻧﻷﺍ ﺾﻌﺑ ﻱﻮﺘﺤﺗ\n\n.['concept_outposts'] ﺔﻄﺳﺍﻮﺑ ﺎﻬﻴﻓ ﻢﻜﺤﺘﻟﺍ ﻢﺘﻳﻭ ،['concept_science_ships'] £science_ship£ ﺔﻄﺳﺍﻮﺑ ﺔﻤﻈﻧﻷﺍ ﺢﺴﻣ ﻢﺘﻳ .ﻯﺮﺧﺃ ﺔﻴﻧﻮﻛ ﺮﻫﺍﻮﻇﻭ ['concept_celestial_objects']ﻭ ['concept_planet'] £planet£ ﻪﻟﻮﺣ ﺭﻭﺪﻳ ،['concept_star'] ﻥﻮﻜﻳ ﺎﻣ ﺓﺩﺎﻋ ،ﺔﻠﺘﻜﻟﺍ ﻲﻟﺎﻋ ﻱﺰﻛﺮﻣ ﻱﻭﺎﻤﺳ ﻢﺴﺟ ﻰﻠﻋ §H$concept_systems$§! £system£ ﺰﻜﺗﺮﺗ"
+
+ # Singular: ['concept_envoy'] or §H$concept_envoy$§!
+ # Plural: ['concept_envoys'] or §H$concept_envoys$§!
+ concept_envoy: "ﺙﻮﻌﺒﻣ"
+ concept_envoys: "ﻥﻮﺛﻮﻌﺒﻣ"
+ concept_envoy_desc: "§H$extra_envoy_1$§! ['concept_federation'] ﺓﺰﻴﻣ ﺢﺘﻓ -\n['concept_civics']ﻭ ['concept_leader_traits'] ،ﺔﻨﻴﻌﻣ ['concept_buildings'] £building£ ﻡﺪﺨﺘﺳﺍ -\n['concept_megastructure'] £megastructure£ §HInterstellar Assembly§!.$tt_gain$- ﺊﺸﻧﺃ ['concept_empires'] ﻊﻣ ['concept_diplomacy'] ﻲﻓ ﻙﺮﺘﺸﻳﻭ ،ﺲﺴﺠﺘﻟﺍ ﺕﺎﻜﺒﺷ ﺮﻳﺪﻳﻭ ،ﺔﻓﻭﺮﻌﻤﻟﺍ ﺮﻴﻏ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﻣ ['concept_first_contact'] ﻊﻣ §HEnvoys§! ﻞﻣﺎﻌﺘﻳ"
+
+ # Singular: ['concept_civic'] or §H$concept_civic$§!
+ # Plural: ['concept_civics'] or §H$concept_civics$§!
+ concept_civic: "ﻚﻴﻔﻴﺳ"
+ concept_civics: "ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ"
+ concept_civic_desc: ".['concept_ethics'] ﻭﺃ ['concept_authority'] ـﺑ ﺪﻴﻘﻣ ﺎﻬﻀﻌﺑ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،['concept_empire_view'] £interface£ ﻲﻓ ﺔﻴﻣﻮﻜﺤﻟﺍ ﺕﺎﺣﻼﺻﻹﺍ ﻝﻼﺧ ﻦﻣ ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ ﻞﻳﺪﻌﺗ ﻦﻜﻤﻳ\n\n.ﻯﺮﺧﻷﺍ ﺕﺍﺭﺎﻀﺤﻟﺍ ﻊﻣ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﻼﻋﺎﻔﺘﻟﺍ ﻰﻠﻋ ﺮﺛﺆﺗﻭ ،ﺔﻴﻠﺧﺍﺪﻟﺍ ﺕﺎﺳﺎﻴﺴﻟﺍ ﻞﻜﺸﺗﻭ ،ﺓﺪﻳﺮﻓ ﺕﺂﻓﺎﻜﻣ ﺮﻓﻮﺗ ﻲﻬﻓ .ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺩﺪﺤﺗ ﻲﺘﻟﺍ ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﻞﻛﺎﻴﻬﻟﺍﻭ ﺔﻴﺳﺎﺳﻷﺍ ﺉﺩﺎﺒﻤﻟﺍ §H$concept_civics$§! ﻞﺜﻤﺗ"
+
+ # Singular: ['concept_starbase_capacity'] or §H$concept_starbase_capacity$§!
+ # Plural: -
+ concept_starbase_capacity: "ﻡﻮﺠﻨﻟﺍ ﺓﺪﻋﺎﻗ ﺔﻌﺳ"
+ concept_starbase_capacity_desc: "['concept_traditions']ﻭ ['concept_technologies'] ﻡﺪﺨﺘﺳﺍ -\n['concept_owned_systems'].$tt_gain$- ﺪﻳﺰﻤﻟﺍ ﺏﺎﺴﺘﻛﺍ ['concept_starbase_upkeep'] ﺪﻳﺰﻳ §H$concept_starbase_capacity$§! ﺯﻭﺎﺠﺗ\n\n.['concept_outposts'] ﺏﺎﺴﺘﺣﺍ ﻥﻭﺩ ،ﻝﺎﻌﻓ ﻞﻜﺸﺑ ﻪﻤﻋﺩ ﻦﻜﻤﻳ ﻱﺬﻟﺍﻭ ﻪﺘﻴﻗﺮﺗ ﺖﻤﺗ ﻱﺬﻟﺍ ['concept_starbases'] ﺩﺪﻋ ﺽﺮﻌﻳ §H$concept_starbase_capacity$§!"
+
+ # Singular: ['concept_starbase_upkeep'] or §H$concept_starbase_upkeep$§!
+ # Plural: -
+ concept_starbase_upkeep: "Starbase ﺔﻧﺎﻴﺻ"
+ concept_starbase_upkeep_desc: ".ﺔﻧﺎﻴﺼﻟﺍ ﺕﺎﺒﻠﻄﺘﻣ ﻦﻣ ﺪﻳﺰﺗ ﻰﻠﻋﺃ ﺕﺎﻳﻮﺘﺴﻣ ﻰﻟﺇ ﺔﻴﻗﺮﺘﻟﺍ ﻥﺇ ﺚﻴﺣ ،ﺎﻫﺭﻭﺩﻭ ﺔﻴﻤﺠﻨﻟﺍ ﺓﺪﻋﺎﻘﻟﺍ ﻢﺠﺣ ﻊﻣ ﺔﻧﺎﻴﺼﻟﺍ ﻒﻴﻟﺎﻜﺗ ﺝﺭﺪﺘﺗ\n\n.§HBuildings§! ﻭﺃ §HModules§! ﺖﻴﺒﺜﺗ ﺪﻨﻋ ﺔﻴﻓﺎﺿﺇ ﻒﻴﻟﺎﻜﺗ ﻊﻣ ،['concept_energy'] £energy£ ﻦﻣ ﻲﺳﺎﺳﺃ ﻞﻜﺸﺑ ﺔﻧﺎﻴﺼﻟﺍ ﻩﺬﻫ ﻥﻮﻜﺘﺗ .ﺔﻴﻠﻴﻐﺸﺘﻟﺍ ﻡﻮﺠﻨﻟﺍ ﺪﻋﺍﻮﻗ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺔﻔﻠﻜﺗ §H$concept_starbase_upkeep$§! ﻞﺜﻤﻳ"
+
+ # Singular: ['concept_owned_system'] or §H$concept_owned_system$§!
+ # Plural: ['concept_owned_systems'] or §H$concept_owned_systems$§!
+ concept_owned_system: "ﻙﻮﻠﻤﻤﻟﺍ ﻡﺎﻈﻨﻟﺍ"
+ concept_owned_systems: "ﺔﻛﻮﻠﻤﻤﻟﺍ ﺔﻤﻈﻧﻷﺍ"
+ concept_owned_system_desc: ".ﺔﻴﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﻒﻴﻟﺎﻜﺘﻟﺍﻭ ﺔﻳﺭﺍﺩﻹﺍ ﺓﺀﺎﻔﻜﻟﺍ ﻰﻠﻋ ﺔﻛﻮﻠﻤﻤﻟﺍ ﺔﻤﻈﻧﻷﺍ ﺩﺪﻋ ﺮﺛﺆﻳ ﺚﻴﺣ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ['concept_empire_size'] £empire_sprawl£ ﻲﻓ ﺔﻤﻈﻧﻷﺍ ﻲﻓ ﻢﻜﺤﺘﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻢﻫﺎﺴﻳ \n\n .ﻡﺎﻈﻨﻟﺍ ﻞﺧﺍﺩ ['concept_colonies'] £colony£ ﺀﺎﺸﻧﺇﻭ ،ﺩﺭﺍﻮﻤﻟﺍ ﺝﺍﺮﺨﺘﺳﺍﻭ ،['concept_starbases'] ﺀﺎﻨﺒﺑ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺔﻴﻜﻠﻤﻟﺍ ﺢﻤﺴﺗ .ﻭﺰﻐﻟﺍ ﻭﺃ ﺮﺷﺎﺒﻤﻟﺍ ﻊﺳﻮﺘﻟﺍ ﻝﻼﺧ ﻦﻣ ﺎﻣﺇ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺓﺮﻄﻴﺳ ﺖﺤﺗ ﻊﻘﺗ ['concept_systems'] £system£ ﻡﻮﺠﻧ ﻲﻫ §H$concept_OWN_systems$§!"
+
+ # Singular: ['concept_naval_capacity'] or §H$concept_naval_capacity$§!
+ # Plural: -
+ concept_naval_capacity: "ﺔﻳﺮﺤﺒﻟﺍ ﺓﺭﺪﻘﻟﺍ"
+ concept_naval_capacity_desc: "ﻦﻴﻨﻴﻌﻣ ['concept_traditions']ﻭ ['concept_technologies'] ﻡﺪﺨﺘﺳﺍ -\n['building:building_stronghold'] £building£ ﻦﻣ ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ ،ﺎﻨﻴﻌﻣ ['concept_jobs'] £job£ ﻡﺪﺨﺘﺳﺍ -\n['concept_starbases'] ﻰﻠﻋ §HAnchorage§!.$tt_gain$- ﺕﺍﺪﺣﻭ ﺀﺎﺸﻧﺇ ['concept_ship_upkeep'] ﺓﺩﺎﻳﺯ ﻰﻟﺇ §H$concept_naval_capacity$§! ﺯﻭﺎﺠﺗ ﻱﺩﺆﻳ\n\n.ﻝﺎﻌﻓ ﻞﻜﺸﺑ ﻪﻤﻋﺩ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ﺞﻣﺪﻤﻟﺍ ['concept_fleet_size'] §H$concept_naval_capacity$§! ﺽﺮﻌﻳ"
+
+ # Singular: ['concept_governor'] or §H$concept_governor$§!
+ # Plural: ['concept_governors'] or §H$concept_governors$§!
+ concept_governor: "$ﻢﻛﺎﺤﻟﺍ$"
+ concept_governors: "$governor_plural$"
+ concept_governor_desc: ".['concept_planets_and_sector_view'] £interface£ ﻭﺃ ['concept_colony_view'] £interface£ ﻲﻓ §H$concept_governors$§!\n\n ﺮﻴﻓﻮﺗ ﻢﺗ ﺕﺎﺑﻮﻘﻌﻟﺍ ﻭﺃ ﺕﺂﻓﺎﻜﻤﻟﺍ ['concept_leader_traits']ﻭ ['concept_leader_class'] ﺩﺪﺤﻳ\n\n.§H$concept_governor$§! ﻉﺎﻄﻘﻟﺍ ﺔﺑﺎﺜﻤﺑ ﺎﻀﻳﺃ ﻉﺎﻄﻘﻟﺍ ﻝﺎﻣ ﺱﺃﺮﻟ ﺺﺼﺨﻤﻟﺍ §H$concept_leader$§! ﻞﻤﻌﻳ .['concept_sector'] £sector£ ﻭﺃ ['concept_colony'] £colony£ ﻰﻠﻋ ﻑﺮﺸﻳ ['concept_leader'] ﻮﻫ §H$concept_governor$§!"
+
+ # Singular: ['concept_decision'] or §H$concept_decision$§!
+ # Plural: ['concept_decisions'] or §H$concept_decisions$§!
+ concept_decision: "ﺭﺍﺮﻗ"
+ concept_decisions: "ﺕﺍﺭﺍﺮﻘﻟﺍ"
+ concept_decision_desc: ".['concept_colony_view'] £interface£ ﻲﻓ ﺎﻬﺗﺭﺍﺩﺇ ﻢﺘﺗ §H$concept_decisions$§!\n\n.ﺎﻬﻠﻴﻌﻔﺗ ﻢﺘﻴﻟ ﺓﺩﺪﺤﻣ ﻁﻭﺮﺷ ﻭﺃ ﻂﻴﺸﻨﺗ ﺔﻔﻠﻜﺗ ﺎﻬﻀﻌﺑ ﺐﻠﻄﺘﻳ\n\n.ﺔﻴﺒﻛﻮﻜﻟﺍ ﺕﺎﻤﺴﻟﺍ ﻞﻳﺪﻌﺗ ﻭﺃ ['concept_blockers'] £blocker£ ﺔﻟﺍﺯﺇ ﻭﺃ ['concept_districts'] £district£ ﺔﻓﺎﺿﺇ ﺎﻬﻨﻜﻤﻳ .ﺓﺩﺪﺤﻤﻟﺍ ['concept_colony'] £colony£ ﺕﺎﺟﺎﻴﺘﺣﺍ ﺔﻴﺒﻠﺘﻟ ﻡﺪﺨﺘﺴﻳ ﻲﺒﻛﻮﻛ ﺀﺍﺮﺟﺇ ﻮﻫ §H$concept_decision$§!"
+
+ # Singular: ['concept_planetary_ascension'] or §H$concept_planetary_ascension$§!
+ # -
+ concept_planetary_ascension: "ﺓﺮﻤﻌﺘﺴﻣ ﺩﻮﻌﺻ"
+ concept_planetary_ascension_desc: ".ﻲﻓﺎﺿﺇ §G$COMPLETION_BONUS$§! ﺭﺍﺪﻘﻤﺑ §HColony Ascension Cap§! ﺓﺩﺎﻳﺯ ﻰﻟﺇ §H$concept_ascension_perks$§! ﻊﻴﻤﺟ ﺢﺘﻓ ﻱﺩﺆﻳ \n\n.['concept_empire'] ﻲﻓ §HAscension§! ﺕﺎﻳﻮﺘﺴﻤﻟ ﻲﻤﻛﺍﺮﺘﻟﺍ ﺩﺪﻌﻟﺍ ﻰﻠﻋ ['concept_unity'] £unity£ ﺔﻔﻠﻜﺗ ﺪﻤﺘﻌﺗ ﻲﻓ ﺕﺍﺩﺎﻳﺰﻟﺍ ﺪﻳﺰﺗﻭ ،ﺎﻬﻠﻔﻗ ﺀﺎﻐﻟﺇ ﻢﺗ ﻲﺘﻟﺍ ['concept_ascension_perks'] ﺩﺪﻋ ﻰﻠﻋ ﺀﺎﻨﺑ ﺕﺍﺮﻣ ﺓﺪﻋ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﺩﻮﻌﺻ ﻦﻜﻤﻳ\n\n.['concept_empire_size'] £empire_sprawl£ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻟﺍ ﻞﻴﻠﻘﺗﻭ ['concept_designation'] ﺕﺍﺮﻴﺛﺄﺗ ﺓﺩﺎﻳﺯ ﻰﻠﻋ ['concept_colony'] £colony£ ـﻟ §HColony Ascension Tier§! ﻞﻤﻌﺗ"
+
+ # Singular: ['concept_designation'] or §H$concept_designation$§!
+ # Plural: -
+ concept_designation: "ﻦﻴﻴﻌﺗ"
+ concept_designation_desc: ".ﺔﺣﺎﺘﻤﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ ﻭﺃ ﻖﻃﺎﻨﻤﻟﺍ ﻰﻠﻋ ﺀﺎﻨﺑ ﺎﻴﺋﺎﻘﻠﺗ ﻪﻨﻴﻴﻌﺗ ﻢﺘﻴﺴﻓ ،ﺎﻳﻭﺪﻳ §H$concept_designation$§! ﻦﻴﻴﻌﺗ ﻢﺘﻳ ﻢﻟ ﺍﺫﺇ\n\n.ﺓﺩﺪﺤﻣ ﻒﺋﺎﻇﻭ ﺕﺎﺟﺮﺨﻣ ﻭﺃ ﺔﻨﻴﻌﻣ ﻖﻃﺎﻨﻤﻟ ﺀﺎﻨﺒﻟﺍ ﺔﻋﺮﺳ ﻦﻴﺴﺤﺗ ﻝﻼﺧ ﻦﻣ ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ ،ﻲﺳﺎﺳﻷﺍ ﻩﺭﻭﺩ ['concept_colony'] £colony£ ـﻟ §H$concept_designation$§! ﺩﺪﺤﻳ"
+
+ # Singular: ['concept_planet_automation'] or §H$concept_planet_automation$§!
+ # Plural: -
+ concept_planet_automation: "ﺐﻛﻮﻜﻟﺍ ﺔﺘﻤﺗﺃ"
+ concept_planet_automation_desc: ".ﺩﺪﺤﻤﻟﺍ $COLONY_AUTOMATION_SETTINGS$ ﻰﻟﺇ ﺍﺩﺎﻨﺘﺳﺍ ﺎﻴﺋﺎﻘﻠﺗ ['concept_colony'] £colony£ ﺮﻳﻮﻄﺘﺑ §H$concept_planet_automation$§! ﺢﻤﺴﻳ"
+
+ # Singular: ['concept_devastation'] or §H$concept_devastation$§!
+ # Plural: -
+ concept_devastation: "ﺭﺎﻣﺪﻟﺍ"
+ concept_devastation_desc: ".§H$concept_devastation$§! ـﻟ ﻲﻟﺎﺤﻟﺍ ﻯﻮﺘﺴﻤﻟﺍ ['concept_colony_view'] £interface£ ﺮﻬﻈﻳ\n\n.§H$concept_colony$§! £colony£ ﺡﻼﺻﺇ ﻢﺘﻳ ﺚﻴﺣ ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﺀﻂﺒﺑ §H$concept_devastation$§!\n\n ﺝﺎﺘﻧﻹﺍ ﻞﻴﻠﻘﺗ ﻢﺘﻳ ['concept_job'] £job£ﻭ ['concept_amenities'] £amenities£ﻭ ['concept_housing'] £housing£ ﻝﺎﺜﻤﻟﺍ ﻞﻴﺒﺳ ﻰﻠﻋ ،ﺓﺩﺪﻌﺘﻣ ﻖﻃﺎﻨﻣ ﻰﻠﻋ ﺎﺒﻠﺳ §H$concept_devastation$§! ﻦﻣ ﺍﺪﺟ ﺮﻴﺒﻛ ﺭﺪﻗ ﺩﻮﺟﻭ ﺮﺛﺆﻳ .§HOrbital Bombardment§! ﺐﺒﺴﺑ ﺓﺩﺎﻋ ،['concept_colony'] £colony£ ـﺑ ﻖﺤﻟ ﻱﺬﻟﺍ ﺭﺮﻀﻟﺍ ﺭﺍﺪﻘﻣ ﻮﻫ §H$concept_devastation$§!"
+
+ # Singular: ['concept_shipyard'] or §H$concept_shipyard$§!
+ # Plural: ['concept_shipyards'] or §H$concept_shipyards$§!
+ concept_shipyard: "ﻦﻔﺴﻟﺍ ﺀﺎﻨﺑ ﺽﻮﺣ"
+ concept_shipyards: "ﻦﻔﺴﻟﺍ ﺀﺎﻨﺑ ﺽﺍﻮﺣﺃ"
+ concept_shipyard_desc: ".['concept_starbase_view'] £interface£ ﻲﻓ ﻦﻔﺴﻟﺍ ﺀﺎﻨﺑ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻢﺘﻳ\n\n.['concept_military_ships']ﻭ ['concept_civilian_ships'] ﻦﻣ ﻞﻛ ﺝﺎﺘﻧﺇ ﻰﻠﻋ ﺍﺭﺩﺎﻗ ﻪﻠﻌﺠﻳ ﺎﻤﻣ ،§H$concept_shipyard$§! ﺓﺪﺣﻮﺑ ﺰﻬﺠﻣ ['concept_starbase'] ﻮﻫ §H$concept_shipyard$§! ﻥﺇ"
+
+ # Singular: £anomaly£ ['concept_anomaly'] or £anomaly£ §H$concept_anomaly$§!
+ # Plural: £anomaly£ ['concept_anomalies'] or £anomaly£ §H$concept_anomalies$§!
+ concept_anomaly: "ﺫﻭﺬﺷ"
+ concept_anomalies: "ﺫﻭﺬﺸﻟﺍ"
+ concept_anomaly_desc: ".['concept_situation_log_view'] £interface£ ﻲﻓ $situation_log_view_tab_situation_log$ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺎﻬﺟﺍﺭﺩﺇ ﻢﺘﻳﻭ ،§H$concept_science_ship$§! ﺪﻳﺪﺤﺗ ﺪﻨﻋ ['concept_galaxy_map'] £interface£ ﻰﻠﻋ ﺮﻬﻈﺗ\n\n.§H$concept_anomaly$§! .ﺔﻤﻬﻤﻟﺍ ﺔﺑﻮﻌﺻﻭ ﻢﻬﺗﺍﺭﺎﻬﻣ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺪﻤﺘﻌﻳ ﻖﻴﻘﺤﺘﻠﻟ ﺖﻗﻭ ﺺﻴﺼﺨﺗ ﻊﻣ ،ﻢﻬﻟ §H$concept_scientist$§! £scientist£ ﻦﻴﻴﻌﺗ ﻖﻳﺮﻃ ﻦﻋ ﻢﻬﺘﺳﺍﺭﺩ ﻢﺘﺗ §H$concept_anomalies$§!\n\n.ﺮﻃﺎﺨﻣ ﻦﻋ ﻒﺸﻜﻳ ﻭﺃ ﺕﺂﻓﺎﻜﻣ ﻰﻟﺇ ﻱﺩﺆﻳ ﺪﻗ ﻖﻴﻘﺤﺘﻟﺍ .['concept_systems'] £system£ ﺕﺎﻋﻼﻄﺘﺳﺍ ﺀﺎﻨﺛﺃ ['concept_science_ships'] £science_ship£ ﺔﻄﺳﺍﻮﺑ ﻪﻓﺎﺸﺘﻛﺍ ﻢﺗ ﺾﻣﺎﻏ ﻑﺎﺸﺘﻛﺍ ﻮﻫ §H$concept_anomaly$§! £anomaly£"
+
+ # Singular: £archaeology£ ['concept_archaeology_site'] or £archaeology£ §H$concept_archaeology_site$§!
+ # Plural: £archaeology£ ['concept_archaeology_site'] or £archaeology£ §H$concept_archaeology_site$§!
+ concept_archaeology_site: "ﺭﺎﺛﻵﺍ ﻊﻗﻮﻣ"
+ concept_archaeology_sites: "ﺭﺎﺛﻵﺍ ﻊﻗﺍﻮﻣ"
+ concept_archaeology_site_desc: ".ﻢﻫﺭﺍﺮﺳﺃ ﻒﺸﻜﻟ ﻢﻬﻨﻋ ﺐﻴﻘﻨﺘﻟﺍ ['concept_science_ships'] £science_ship£ ﻢﻗﺎﻄﻟ ﻦﻜﻤﻳ .ﻯﺮﺧﺃ ﻡﺎﻤﺘﻫﺍ ﻁﺎﻘﻧ ﻭﺃ ،ﺔﻛﺮﻌﻣ ﻡﺎﻄﺣ ﻭﺃ ،ﺔﻤﻳﺪﻗ ﺕﺍﺭﺎﻀﺣ ﺎﻳﺎﻘﺑ ﻲﻫ §H$concept_archaeology_site$§! £archaeology£"
+
+ # Singular: ['concept_empire'] or §H$concept_empire$§!
+ # Plural: ['concept_empires'] or §H$concept_empires$§!
+ concept_empire: "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ"
+ concept_empires: "ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ"
+ concept_empire_desc: ".['concept_contacts_view'] £interface£ ﻲﻓ $contacts_view_tab_contacts$ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻭﺃ ﻢﻬﻤﻠﻋ ﻝﻼﺧ ﻦﻣ ﻢﻬﺑ ﻝﺎﺼﺗﻻﺍ ﻦﻜﻤﻳﻭ \n\n.['concept_galaxy_map'] £interface£ ﻲﻓ §H$concept_empires$§! ﻊﺳﻮﺗ ﺮﻬﻈﻳ\n\n.ﻉﺍﺮﺼﻟﺍ ﻭﺃ ﺓﺭﺎﺠﺘﻟﺍ ﻭﺃ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻝﻼﺧ ﻦﻣ ﺙﺪﺤﺗ §H$concept_empires$§! ﻦﻴﺑ ﺕﻼﻋﺎﻔﺘﻟﺍ\n\n.ﺎﻬﻛﻮﻠﺳﻭ ﺎﻬﺗﺎﺳﺎﻴﺳ ['concept_civics']ﻭ ['concept_authority']ﻭ ['concept_ethics'] ﻞﻜﺸﺗ .ﻡﻮﺠﻨﻟﺍ ﺮﺒﻋ ﺎﻫﺫﻮﻔﻧ ﻊﻴﺳﻮﺗ ﻰﻟﺇ ﺓﺩﺎﻋ ﻰﻌﺴﺗﻭ ﻞﻗﻷﺍ ﻰﻠﻋ ﺪﺣﺍﻭ ['concept_system'] £system£ ﻲﻓ ﻢﻜﺤﺘﺗ ﺔﻳﺮﺠﻣ ﺓﻮﻗ ﻲﻫ §H$concept_empire$§!"
+
+ # Singular: ['concept_defense_platform'] or §H$concept_defense_platform$§!
+ # Plural: ['concept_defense_platforms'] or §H$concept_defense_platforms$§!
+ concept_defense_platform: "$small_ﺔﻳﺮﻜﺴﻌﻟﺍ_ﺔﻄﺤﻤﻟﺍ$"
+ concept_defense_platforms: "$military_station_small_plural$"
+ concept_defense_platform_desc: ".['concept_fleet_management_view'] £interface£ ﻲﻓ §H$SHIP_DESIGNER$§! ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺎﻬﻤﻴﻤﺼﺗ ﻢﺗ .ﻝﻮﻄﺳﻷﺍ ﻲﻫﺎﻀﺗ ﻥﺍﺮﻴﻧ ﺓﻮﻘﺑ ﺔﺤﻠﺴﻣﻭ ﻑﻻﻵﺍ ﻢﻀﺗ ﺔﻤﺨﺿ ﻞﻛﺎﻴﻫ ﻦﻋ ﺓﺭﺎﺒﻋ §H$concept_defense_platforms$§! ﺮﺒﻛﺃ\n\n.ﻲﻋﺎﻓﺪﻟﺍ ['concept_fleet'] ﻝﻮﺻﻭ ﻰﺘﺣ ﻦﻴﻤﺟﺎﻬﻤﻟﺍ ﺮﺧﺆﺗ ﺎﻣ ﺎﺒﻟﺎﻏﻭ ،['concept_starbases'] ﻲﻤﺤﺗ ﻖﻴﺤﺴﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺕﺂﺸﻨﻣ ﻲﻫ §H$concept_defense_platforms$§!"
+
+ # Singular: ['concept_army'] or §H$concept_army$§!
+ # Plural: ['concept_armies'] or §H$concept_armies$§!
+ concept_army: "ﺶﻴﺟ"
+ concept_armies: "ﺵﻮﻴﺠﻟﺍ"
+ concept_army_desc: ".§H$concept_colonies$§! ﺔﺻﺎﺨﻟﺍ §H$GROUND_COMBAT_TAB$§! ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﻭﺃ ['concept_starbases'] ـﻟ §H$MACRO_BUILDER_TAB$§! ﻲﻓ ﺎﻣﺇ §H$concept_armies$§!\n\n.['concept_leader_traits'] ﻊﻴﻤﺠﺗ ﻢﺘﻳ ﻢﻬﺗﺍﺭﺪﻗ ﻰﻠﻋ ﺍﺩﺎﻤﺘﻋﺍ ﺕﺎﺑﻮﻘﻋ ﻭﺃ ﺕﺂﻓﺎﻜﻣ ﻰﻠﻋ ['concept_commander'] £commander£ ﺓﺩﺎﻴﻘﺑ §H$concept_army$§! ﻞﺼﺤﻳ ﺪﻗ\n\n.['concept_planets'] £planet£ ﻭﺪﻌﻟﺍ ﻭﺰﻏ ﻭﺃ ['concept_colonies'] £colony£ ﻦﻋ ﻉﺎﻓﺪﻠﻟ ﺔﺼﺼﺨﻤﻟﺍ ﺔﻳﺮﺒﻟﺍ ﺕﺍﻮﻘﻟﺍ ﻲﻫ §H$concept_armies$§!"
+
+ # Singular: ['concept_component'] or §H$concept_component$§!
+ # Plural: ['concept_components'] or §H$concept_components$§!
+ concept_component: "ﺮﺼﻨﻋ"
+ concept_components: "ﺮﺻﺎﻨﻋ"
+ concept_component_desc: ".ﺎﻣﺪﻘﺗ ﺮﺜﻛﻷﺍ §H$concept_components$§! ﺎﻴﺋﺎﻘﻠﺗ ﻡﺪﺨﺘﺴﻳ ['concept_science_ships'] £science_ship£\n\n.['concept_fleet_management_view'] £interface£ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ §H$SHIP_DESIGNER$§! ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺓﺰﻬﺠﻣ ﻲﻫﻭ ،ﺪﻳﺪﺠﻟﺍ ['concept_technologies'] ﻦﻋ ﺚﺤﺒﻟﺍ ﻝﻼﺧ ﻦﻣ ﺎﻬﺤﺘﻓ ﻢﺗ \n\n .ﻖﻓﺍﺮﻤﻟﺍ ﺔﻤﻈﻧﺃﻭ ﺔﻘﺋﺎﻔﻟﺍ ﺕﺎﻛﺮﺤﻤﻟﺍﻭ ﺕﺎﻋﺎﻓﺪﻟﺍﻭ ﺔﺤﻠﺳﻷﺍ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،['concept_ship'] ﺕﺍﺭﺪﻗ ﺩﺪﺤﺗ ﻲﺘﻟﺍ ﺔﻳﺩﺮﻔﻟﺍ ﺕﺍﺪﺣﻮﻟﺍﻭ ﺔﻤﻈﻧﻷﺍ ﻲﻫ §H$concept_components$§!"
+
+ # Singular: ['concept_habitat'] or §H$concept_habitat$§!
+ # Plural: ['concept_habitats'] or §H$concept_habitats$§!
+ concept_habitat: "ﻞﺋﻮﻤﻟﺍ"
+ concept_habitats: "ﻞﺋﺍﻮﻤﻟﺍ"
+ concept_habitat_desc: ".['concept_system'] £system£ ﻦﻤﺿ §Hﺩﺭﺍﻮﻤﻟﺍ ﻊﺋﺍﺩﻭ§! ﺔﻄﺳﺍﻮﺑ ﺎﻫﺪﻳﺪﺤﺗ ﻢﺘﻳ ﺔﺣﺎﺘﻤﻟﺍ ['concept_districts'] £district£\n\n.['concept_colonies'] £colony£ ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺗ ﻦﻜﻤﻳ ﻚﻟﺫ ﺪﻌﺑﻭ ،['concept_construction_ship'] £construction_ship£ ﻡﺍﺪﺨﺘﺳﺎﺑ ['concept_megastructures'] ـﻛ ﺎﻫﺅﺎﺸﻧﺇ ﻢﺗ\n\n.ﻖﻴﺤﺴﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺕﺎﻴﻨﺤﻨﻣ ﻲﻫ §H$concept_habitats$§!"
+
+ # Singular: £housing£ ['concept_housing'] or £housing£ §H$concept_housing$§!
+ # Plural: -
+ concept_housing: "ﻦﻜﺴﻟﺍ"
+ concept_housing_desc: ".§H$district_city$§! ﻞﻛ ﻦﻣ ﺔﻣﺪﻘﻣ §H$concept_housing$§! ﺾﻔﺧ §H$district_city_plural$§! ـﻟ ['concept_district_specializations'] £zone£ ﺾﻌﺒﻟ ﻦﻜﻤﻳ\n\n.ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﺏﻮﺒﻟﺍ ﻮﻤﻧ ﺕﻻﺪﻌﻣ ﻰﻠﻋ ﺮﺛﺆﻳ ﻥﺃ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ،['concept_planet_capacity'] ﻦﻴﺴﺤﺗ ﻰﻟﺇ ﺎﻀﻳﺃ §H$concept_housing$§! ﻉﺎﻔﺗﺭﺍ ﻱﺩﺆﻳ .['concept_buildings'] £building£ ﻦﻴﻌﻣ ﻭ ['concept_districts'] £district£ ﺀﺎﺸﻧﺇ ﻖﻳﺮﻃ ﻦﻋ ﻪﺗﺩﺎﻳﺯ ﻦﻜﻤﻳ §H$concept_housing$§!\n\n.§HEmigration§! ﻞﻴﻐﺸﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺪﻗﻭ ['concept_stability'] £stability£ ﻰﻠﻋ ﺕﺎﺑﻮﻘﻋ ﺽﺮﻓ ﻰﻟﺇ ﻲﻓﺎﻜﻟﺍ ﺮﻴﻏ §H$concept_housing$§! ﻱﺩﺆﻳ .['concept_colony'] £colony£ ﻥﺎﻜﺳ ﺐﻋﻮﺘﺴﺗ ﻲﺘﻟﺍ ﺔﻴﺳﺎﺳﻷﺍ ﺔﻴﻨﺒﻟﺍ §H$concept_housing$§! £housing£ ﻞﺜﻤﻳ"
+
+ # Singular: ['concept_planet_size'] or §H$concept_planet_size$§!
+ # Plural: -
+ concept_planet_size: "ﺐﻛﻮﻜﻟﺍ ﻢﺠﺣ"
+ concept_planet_size_desc: ".['concept_jobs'] £job£ ﺮﻴﻓﻮﺘﻟ ﺎﻬﺼﻴﺼﺨﺗﻭ ﺎﻬﻤﻴﻤﺼﺗ ﻦﻜﻤﻳ ﻲﺘﻟﺍﻭ ،['concept_districts'] £district£ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻢﻋﺪﻳ ﻥﺃ ﺮﻴﺒﻛ ﺐﻛﻮﻜﻟ ﻦﻜﻤﻳ .['concept_colony'] £colony£ ﻪﻤﻋﺪﻳ ﻥﺃ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ['concept_districts'] £district£ ﺩﺪﻋ §H$concept_planet_size$§! ﺩﺪﺤﻳ"
+
+ # Singular: ['concept_planet_capacity'] or §H$concept_planet_capacity$§!
+ # Plural: -
+ concept_planet_capacity: "ﺐﻛﻮﻜﻟﺍ ﺔﻌﺳ"
+ concept_planet_capacity_desc: ".ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ ﻦﻣ ['concept_colony'] £colony£ ﺏﺮﺘﻘﻳ ﺎﻣﺪﻨﻋ ﺕﺎﺑﻮﻘﻋ ﻪﺟﺍﻮﺗ ﺎﻬﻨﻜﻟﻭ ،ﻮﻤﻨﻟﺍ ﺕﺂﻓﺎﻜﻣ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﻊﻣ ،ﺔﻄﺳﻮﺘﻤﻟﺍ ﺔﻌﺴﻟﺍ ﺪﻨﻋ ﻉﺮﺳﺃ ﻞﻜﺸﺑ §HPopsBiological ﻮﻤﻨﺗ§! £pop£\n\n.ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺔﻌﺴﻟﺍ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ['concept_blockers'] £blocker£ ﺢﺴﻣ ﻱﺩﺆﻳ ﻥﺃ ﻦﻜﻤﻳ .['concept_planet'] £planet£ ﻲﻓ ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ ﻑﻼﺘﺧﺎﺑ ﻒﻠﺘﺨﺗ ﻲﺘﻟﺍﻭ ،ﺎﻫﺮﻳﻮﻄﺗ ﻢﺘﻳ ﻢﻟ ﻲﺘﻟﺍ ['concept_districts'] £district£ ﻦﻣ ﺔﻴﻓﺎﺿﻹﺍ ﺔﺣﺎﺴﻤﻟﺍﻭ ['concept_housing'] £housing£ ﺔﻄﺳﺍﻮﺑ §H$concept_planet_capacity$§! ﺪﻳﺪﺤﺗ ﻢﺘﻳ"
+
+ # Singular: £stability£ ['concept_stability'] or £stability£ §H$concept_stability$§!
+ # Plural: -
+ concept_stability: "ﺭﺍﺮﻘﺘﺳﺍ"
+ concept_stability_desc: ".ﺩﺭﺍﻮﻤﻟﺍ ﺝﺎﺘﻧﺇ ﺯﺰﻌﻳ §H$concept_stability$§!High \n\n.§HRevolt§! ﻭﺃ ﺔﻴﺒﻠﺴﻟﺍ ﺙﺍﺪﺣﻷﺍ ﺮﻄﺧ ﻦﻣ ﺪﻳﺰﻳﻭ ﺕﺎﺑﻮﻘﻋ ﺽﺮﻔﻳ ﺍﺬﻫﻭ .ﻊﻔﺗﺮﻣ ['concept_crime'] £crime£ ﻭﺃ ،ﺾﻔﺨﻨﻣ ['concept_amenities'] £amenities£ ﻭﺃ ،['concept_housing'] £housing£ ﺔﻳﺎﻔﻛ ﻡﺪﻋ ﻞﺜﻣ ﺕﻼﻜﺸﻣ ﻦﻋ ﺞﺘﻨﻳ ﻥﺃ ﻦﻜﻤﻳ §H$concept_stability$§! ﺾﻔﺨﻨﻣ\n\n.ﺎﻬﻧﺎﻜﺳ ﻦﻣ ['concept_pop_approval_rating'] £happiness£ ـﺑ ﻲﺳﺎﺳﺃ ﻞﻜﺸﺑ ﺮﺛﺄﺘﻳ ﻱﺬﻟﺍﻭ ،['concept_colony'] £colony£ ـﻟ ﻲﺳﺎﻴﺴﻟﺍ ﺭﺍﺮﻘﺘﺳﻻﺍ ﺲﻜﻌﻳ §H$concept_stability$§! £stability£"
+
+ # Singular: -
+ # Plural 1: £amenities£ ['concept_amenities'] or £amenities£ §H$concept_amenities$§!
+ # Plural 2: £amenities_no_happiness£ ['concept_amenities_gestalt'] or £amenities_no_happiness£ §H$concept_amenities_gestalt$§!
+ concept_amenities: "ﺔﺣﺍﺮﻟﺍ ﻞﺋﺎﺳﻭ"
+ concept_amenities_desc: "[GetConceptAmenities]"
+ concept_amenities_desc_regular: ".§H$job_entertainer_plural$§! £job_entertainer£ ﻞﺜﻣ ،['concept_jobs'] £job£ ﻰﻟﺇ ['concept_pops'] £pop£ ﻦﻴﻴﻌﺗ ﻖﻳﺮﻃ ﻦﻋ §H$concept_amenities$§! ﺓﺩﺎﻳﺯ ﻦﻜﻤﻳ .['concept_happiness'] £happiness£ ﻰﻠﻋ ﺕﺎﺑﻮﻘﻌﻟ ﺽﺮﻌﺘﺗ §H$concept_amenities$§! ﻦﻣ ﻲﻔﻜﻳ ﺎﻣ ﻰﻟﺇ ﺮﻘﺘﻔﺗ ﻲﺘﻟﺍ ['concept_colony'] £colony£A \n\n.ﻥﺎﻜﺴﻠﻟ ﺔﻴﻣﻮﻴﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺍ ﻲﺒﻠﺗ ﻲﺘﻟﺍ ﻒﺋﺎﻇﻮﻟﺍﻭ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ §H$concept_amenities$§! £amenities£ ﻞﺜﻤﺗ"
+ concept_amenities_desc_gestalt: ".§H$job_maintenance_drone_plural$§! £job_maintenance_drone£ ﻞﺜﻣ ،['concept_jobs'] £job£ ﻰﻟﺇ ['concept_pops'] £pop£ ﻦﻴﻴﻌﺗ ﻖﻳﺮﻃ ﻦﻋ ﺎﻬﺗﺩﺎﻳﺯ ﻦﻜﻤﻳﻭ .['concept_stability'] £stability£ ﻦﻣ ﻞﻠﻘﺗ §H$concept_amenities$§! ﺔﻴﻓﺎﻛ ﺮﻴﻏ\n\n.ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺔﻋﻮﻤﺠﻤﻟ ﺔﻴﺳﺎﺳﻷﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺍ ﻲﺒﻠﺗ ﻲﺘﻟﺍ ﻒﺋﺎﻇﻮﻟﺍﻭ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ ﻞﺜﻤﺗ §H$concept_amenities$§! £amenities_no_happiness£"
+
+ # Singular: £crime£ ['concept_crime'] or £crime£ §H$concept_crime$§!
+ # Plural: -
+ concept_crime: "ﺔﻤﻳﺮﺟ"
+ concept_crime_desc: ".§H$job_enforcer_plural$§! £job_enforcer£ ﻞﺜﻣ ،['concept_jobs'] £job£ ﻰﻟﺇ ['concept_pops'] £pop£ ﻦﻴﻴﻌﺗ ﻖﻳﺮﻃ ﻦﻋ ﻭﺃ ['concept_happiness'] £happiness£ ﺓﺩﺎﻳﺯ ﻖﻳﺮﻃ ﻦﻋ ﻪﻠﻴﻠﻘﺗ ﻦﻜﻤﻳﻭ .ﻥﺎﻜﺴﻟﺍ ﻦﻣ ﺮﻴﺒﻜﻟﺍ ﺩﺪﻌﻟﺎﺑ ﺮﺛﺄﺘﻳ §H$concept_crime$§!\n\n.['concept_stability'] £stability£ ﺾﻔﺨﺗﻭ ﺔﻴﺒﻠﺳ ﺙﺍﺪﺣﺃ ﻰﻟﺇ ﻱﺩﺆﺗ ﻥﺃ ﻦﻜﻤﻳ §H$concept_crime$§! ﺔﻴﻟﺎﻋ\n\n.['concept_colony'] £colony£ ﻲﻓ ﻥﻮﻧﺎﻘﻟﺍ ﻰﻠﻋ ﺝﻭﺮﺨﻟﺍﻭ ﻲﻣﺍﺮﺟﻹﺍ ﻁﺎﺸﻨﻟﺍ ﻯﻮﺘﺴﻣ ﺲﻜﻌﻳ §H$concept_crime$§! £crime£"
+
+ # Singular: £happiness£ ['concept_happiness'] or £happiness£ §H$concept_happiness$§!
+ # Plural: -
+ concept_happiness: "ﺓﺩﺎﻌﺳ"
+ concept_happiness_desc: ".§H$concept_happiness$§! §!%XYZT_3450XYZT ﺖﺑﺎﺛ ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﻲﺘﻟﺍ §H$concept_happiness$§! ﻰﻟﺇ ﺮﻘﺘﻔﺗ ﻲﺘﻟﺍ §H$concept_pops$§!\n\n.['concept_pop_approval_rating'] £happiness£ §H$concept_happiness$§! ﺩﺪﺤﻳ ،['concept_political_power'] £political_power£ ﻊﻣ\n\n.§H$concept_stability$§! ﺽﺎﻔﺨﻧﺍ ﻰﻟﺇ §H$concept_happiness$§! ﺽﺎﻔﺨﻧﺍ ﻱﺩﺆﻳ ﺎﻤﻨﻴﺑ ،['concept_job'] £job£ ﺝﺍﺮﺧﺇ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﻩﺭﻭﺪﺑ ﻱﺩﺆﻳ ﻱﺬﻟﺍﻭ ['concept_stability'] £stability£ §H$concept_happiness$§! ﻊﻔﺗﺮﻣ\n\n.ﺔﻔﻠﺘﺨﻤﻟﺍ ['concept_planet_modifiers'] ﺕﺍﺩﺎﻳﺯﻭ ['concept_edicts']ﻭ ['concept_living_standards'] ﻞﺜﻣ ﻞﻣﺍﻮﻌﺑ ﺮﺛﺄﺘﻳﻭ ،['concept_pops'] £pop£ ـﻟ ﻡﺎﻌﻟﺍ ﺎﺿﺮﻠﻟ ﺱﺎﻴﻘﻣ ﻮﻫ §H$concept_happiness$§! £happiness£"
+
+ # Singular: £happiness£ ['concept_pop_approval_rating'] or £happiness£ §H$concept_pop_approval_rating$§!
+ # Plural: -
+ concept_pop_approval_rating: "ﺏﻮﺒﻟﺍ ﺔﻘﻓﺍﻮﻣ ﻒﻴﻨﺼﺗ"
+ concept_pop_approval_rating_desc: ".['concept_crime'] £crime£ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﻱﺩﺆﻳ ﻥﺃ ﻦﻜﻤﻳﻭ ['concept_stability'] £stability£ ﻦﻣ ﻞﻠﻘﻳ §H$concept_pop_approval_rated$§! ﺾﻔﺨﻨﻣ\n\n.ﻢﻴﻴﻘﺘﻟﺍ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻟﺍ ﺔﺸﻴﻌﻤﻟﺍ ﺕﺎﻳﻮﺘﺴﻣ ﻢﻈﻌﻣ ﻞﻇ ﻲﻓ ﺮﺒﻛﺃ ﺓﻮﻘﺑ ﻊﺘﻤﺘﻳ ،§H$pop_cat_ruler_plural$§! £pop_cat_ruler£ ﻞﺜﻣ ،§H$concept_policy_power$§! ﻦﻣ ﺮﺒﻛﺃ ﺭﺪﻗ ﻊﻣ §H$concept_pops$§!\n\n.['concept_political_power'] £political_power£ ﺐﺴﺣ ﺎﺤﺟﺮﻣ ،['concept_colony'] £colony£ ـﻟ ['concept_pops'] £pop£ ﻊﻴﻤﺠﻟ ['concept_happiness'] £happiness£ ﻂﺳﻮﺘﻣ §H$concept_pop_approval_rated$§! £happiness£ ﻞﺜﻤﻳ"
+
+ # Singular: £political_power£ ['concept_political_power'] or £political_power£ §H$concept_political_power$§!
+ # Plural: -
+ concept_political_power: "ﺔﻴﺳﺎﻴﺴﻟﺍ ﺓﻮﻘﻟﺍ"
+ concept_political_power_desc: ".ﺎﻬﻧﺎﻜﺳ ﻦﻴﺑ ﺎﻧﺯﺍﻮﺗ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﺎﻬﻌﻳﺯﻮﺘﺑ ﺓﺍﻭﺎﺴﻤﻟﺍﻭ ﺔﻴﻃﺍﺮﻘﻤﻳﺪﻟﺍ ﺕﺎﻌﻤﺘﺠﻤﻟﺍ ﻡﻮﻘﺗ ﻦﻴﺣ ﻲﻓ ،ﺔﻤﻛﺎﺤﻟﺍ ﺐﺨﻨﻟﺍ ﻦﻴﺑ ﺔﻴﺳﺎﻴﺴﻟﺍ ﺔﻄﻠﺴﻟﺍ ﺔﻳﺩﺍﺪﺒﺘﺳﻻﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺰﻛﺮﺗ ﺎﻣ ﺎﺒﻟﺎﻏ .ﺔﺳﺎﻴﺳ ﻞﻴﻜﺸﺘﻟﺍ ﻲﻓ ﺍﺮﻴﺛﺄﺗ ﺮﺜﻛﺃ ﺏﻮﺒﻟﺍ ﻰﻘﻴﺳﻮﻣ ﻦﻣ ﺔﻨﻴﻌﻣ ﺕﺎﻋﻮﻤﺠﻣ ﻞﻌﺠﻳ ﺎﻤﻣ ،['concept_democratic_election'] ﺞﺋﺎﺘﻧﻭ ['concept_faction'] ﺮﻴﺛﺄﺗ ﻲﻓ ﺮﺒﻛﺃ ﺎﻧﺯﻭ §H$concept_policy_power$§! ﺢﻨﻤﻳ\n\n.['concept_job'] £job£ﻭ ﺎﻬﺗﺎﻘﺒﻃ ﻰﻠﻋ ﺀﺎﻨﺑ ﺏﻮﺒﻟﺍ ﻰﻘﻴﺳﻮﻤﻟ §H$concept_policy_power$§! ﻒﻠﺘﺨﺗ ﻥﺃ ﻦﻜﻤﻳ .ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﺧﺍﺩ ['concept_pops'] £pop£ ﺩﺮﻔﻟﺍ ﻪﺳﺭﺎﻤﻳ ﻱﺬﻟﺍ ﺮﻴﺛﺄﺘﻟﺍ §H$concept_policy_power$§! £political_power£ ﻞﺜﻤﻳ"
+
+ # Singular: ['concept_terraforming'] or §H$concept_terraforming$§!
+ # Plural: -
+ concept_terraforming: "ﺡﻼﺼﺘﺳﻻﺍ"
+ concept_terraforming_desc: ".ﻙﺎﻨﻫ ﺶﻴﻌﺗ ﻲﺘﻟﺍ ['concept_species'] ـﻟ ﺔﻠﻀﻔﻤﻟﺍ ﺕﺎﺧﺎﻨﻤﻟﺍ ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﺐﺳﺎﻨﺘﻟ ﺎﻬﻠﻴﻫﺄﺗ ﺓﺩﺎﻋﺇ ﻦﻜﻤﻳ ﺔﻟﻮﻫﺄﻤﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻰﺘﺣ ،§H$concept_technologies$§! ﺔﻣﺪﻘﺘﻣ ﺕﺍﺭﺎﻴﺧ ﻊﻣ\n\n.['concept_energy'] £energy£ ـﻟ ﺍﺮﻴﺒﻛ ﺍﺭﺎﻤﺜﺘﺳﺍﻭ ﺍﺩﺪﺤﻣ ['concept_technologies'] ﺓﺩﺎﻋ ﺍﺬﻫ ﺐﻠﻄﺘﻳ\n\n.ﻦﻜﺴﻠﻟ ﺔﻣﺀﻼﻣ ﺮﺜﻛﺃ ﺀﻲﺷ ﻰﻟﺇ ['concept_empire'] ﺩﻭﺪﺣ ﻞﺧﺍﺩ ['concept_planet'] £planet£ ﻞﻳﻮﺤﺗ ﺔﻴﻠﻤﻋ ﻲﻫ §H$concept_terraforming$§!"
+
+ # Singular: ['concept_space_fauna'] or §H$concept_space_fauna$§!
+ # Plural: -
+ concept_space_fauna: "ﺀﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺣ"
+ concept_space_fauna_desc: ".ﻪﺘﻌﻴﺒﻄﺑ ﺎﻴﺋﺍﺪﻋ ﺮﺧﻵﺍ ﺾﻌﺒﻟﺍ ﻥﻮﻜﻳ ﺎﻤﻨﻴﺑ ،ﻩﺯﺍﺰﻔﺘﺳﺍ ﻢﺘﻳ ﻢﻟ ﺎﻣ ﻲﻤﻠﺳ ﺎﻬﻀﻌﺑ\n\n.ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺎﻬﺘﻬﺟﺍﻮﻣ ﺖﻤﺗ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺮﻴﻏ ﺕﺎﻧﺎﻴﻛﻭ ﺕﺎﻗﻮﻠﺨﻣ ﻲﻫ §H$concept_space_fauna$§!"
+
+ # Singular: £blocker£ ['concept_blocker'] or £blocker£ §H$concept_blocker$§!
+ # Plural: £blocker£ ['concept_blockers'] or £blocker£ §H$concept_blockers$§!
+ concept_blocker: "ﻊﻧﺎﻣ"
+ concept_blockers: "ﺕﺍﺮﺻﺎﺣ"
+ concept_blocker_desc: ".['concept_colony_view'] £interface£ ﻲﻓ ﺎﻬﺗﺭﺍﺩﺇ ﻢﺘﺗ .ﺓﺩﺪﺤﻣ ['concept_technologies'] ﺐﻠﻄﺘﺗ ﺎﺒﻟﺎﻏ ،ﺩﺭﺍﻮﻤﻟﺍ ﺔﻔﻠﻜﺘﺑ §H$concept_blockers$§! ﺾﻌﺑ ﺢﺴﻣ ﻦﻜﻤﻳ\n\n.['concept_colony'] £colony£ ﻰﻠﻋ ﺔﻨﻴﻌﻣ ['concept_districts'] £district£ ﺀﺎﺸﻧﺇ ﻊﻨﻤﺗ ﻭﺃ ﻯﺮﺧﺃ ﺕﺍﺰﻴﻣ ﻖﻴﻌﺗ ﺔﻴﺒﻛﻮﻛ ﺓﺰﻴﻣ ﻲﻫ §H$concept_blocker$§! £blocker£"
+
+ # Singular: ['concept_event_chain'] or §H$concept_event_chain$§!
+ # Plural: ['concept_event_chains'] or §H$concept_event_chains$§!
+ concept_event_chain: "ﺙﺍﺪﺣﻷﺍ ﺔﻠﺴﻠﺳ"
+ concept_event_chains: "ﺙﺍﺪﺣﻷﺍ ﻞﺳﻼﺳ"
+ concept_event_chain_desc: ".['concept_situation_log_view'] £interface£ ﻲﻓ $situation_log_view_tab_situation_log$ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﻞﺳﻼﺴﻟﺍ ﺝﺍﺭﺩﺇ ﻢﺗ .ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﺒﻘﺘﺴﻣ ﻰﻠﻋ ﻢﺋﺍﺩ ﺮﻴﺛﺄﺗ ﺔﻳﺩﺮﻔﻟﺍ ﺕﺍﺭﺎﻴﺘﺧﻼﻟ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﺚﻴﺣ ،ﺎﻳﺭﻭﺮﺿ ﺍﺮﻣﺃ ﻖﻴﻗﺪﻟﺍ ﺭﺍﺮﻘﻟﺍ ﺫﺎﺨﺗﺍ ﺪﻌﻳ .ﺓﺮﻴﻄﺧ ﺕﺍﺪﻳﺪﻬﺗ ﻭﺃ ﺔﻳﻮﻗ ﺕﺂﻓﺎﻜﻣ ﻰﻟﺇ ﺎﻧﺎﻴﺣﺃ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺔﻳﺮﺠﻣ ﺭﺍﺮﺳﺃ ﻭﺃ ﺔﻴﺳﺎﻴﺳ ﺪﺋﺎﻜﻣ ﻭﺃ ﺔﻴﻤﻠﻋ ﺕﺎﻓﺎﺸﺘﻛﺍ ﺙﺍﺪﺣﻷﺍ ﻞﺳﻼﺳ ﻦﻤﻀﺘﺗ ﺪﻗ\n\n.ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺕﺍﺭﺍﺮﻗ ﻭﺃ ['concept_anomalies'] £anomaly£ ﻭﺃ ﻑﺎﺸﻜﺘﺳﻻﺍ ﻦﻋ ﺞﺘﻨﺗ ﺎﻣ ﺎﺒﻟﺎﻏ ﻲﺘﻟﺍﻭ ،ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﻒﺸﻜﺘﺗ ﻲﺘﻟﺍ ﺙﺍﺪﺣﻷﺍ ﻦﻣ ﺔﻄﺑﺍﺮﺘﻣ ﺕﻼﺴﻠﺴﺗ ﻦﻋ ﺓﺭﺎﺒﻋ §H$concept_event_chains$§!"
+
+ # Singular: ['concept_special_project'] or §H$concept_special_project$§!
+ # Plural: ['concept_special_projects'] or §H$concept_special_projects$§!
+ concept_special_project: "ﺹﺎﺧ ﻉﻭﺮﺸﻣ"
+ concept_special_projects: "ﺔﺻﺎﺨﻟﺍ ﻊﻳﺭﺎﺸﻤﻟﺍ"
+ concept_special_project_desc: ".ﻊﺳﻮﺘﻟﺍﻭ ﻑﺎﺸﻜﺘﺳﻼﻟ ﺎﻴﺳﺎﺳﺃ ﺎﻧﻮﻜﻣ ﺎﻬﻠﻌﺠﻳ ﺎﻤﻣ ،ﺔﻳﻮﻗ ﺪﺋﺍﻮﻓ ﻖﻘﺤﻳ ﻥﺃ ﻦﻜﻤﻳ §H$concept_special_projects$§! ﻝﺎﻤﻛﺇ\n\n.ﻦﻴﻌﻣ ﻲﻤﻠﻋ ﻝﺎﺠﻣ ﻲﻓ ﺎﺘﻗﺆﻣ ﻡﺪﻘﺘﻟﺍ ﻑﺎﻘﻳﺇ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺎﻬﻟﺎﻤﻛﻹ ﺎﺼﺼﺨﻣ ﺍﺪﻬﺟ ﺐﻠﻄﺘﺗ ﺎﻬﻋﻮﻧ ﻦﻣ ﺓﺪﻳﺮﻓ ['concept_research'] ﺕﺍﺭﺩﺎﺒﻣ ﻲﻫ §H$concept_special_projects$§!"
+
+ # Singular: ['concept_milestone'] or §H$concept_milestone$§!
+ # Plural: ['concept_milestones'] or §H$concept_milestones$§!
+ concept_milestone: "ﻒﻄﻌﻨﻣ"
+ concept_milestones: "ﻢﻟﺎﻌﻤﻟﺍ"
+ concept_milestone_desc: ".['concept_situation_log_view'] £interface£ ﻲﻓ $situation_log_view_tab_timeline$ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ §HTimeline§! ﻲﻓ ﺔﻴﺋﺮﻣ ﻥﻮﻜﺗﻭ .ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻹﺍ ﺕﺍﺭﺍﺮﻘﻟﺍﻭ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻮﻤﻨﻟ ﺔﺒﻗﺎﺛ ﺓﺮﻈﻧ ﻡﺪﻘﻳ §H$concept_milestones$§! ﻊﺒﺘﺗ\n\n.ﺎﻬﺗﺎﻋﺍﺮﺻﻭ ﺎﻬﺗﺎﻓﺎﺸﺘﻛﺍﻭ ﺎﻬﻌﺳﻮﺘﻟ ﺎﻴﻨﻣﺯ ﻼﺠﺳ ﺮﻓﻮﻳ ﺎﻤﻣ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺔﻠﺣﺭ ﻲﻓ ﺔﻴﺴﻴﺋﺭ ﺕﺎﻈﺤﻟ ﻞﺜﻤﺗ ﺔﻤﻬﻣ ﺕﺍﺯﺎﺠﻧﺇﻭ ﺙﺍﺪﺣﺃ ﻲﻫ §H$concept_milestones$§!"
+
+ # Singular: ['concept_empire_focus'] or §H$concept_empire_focus$§!
+ # Plural: ['concept_empire_focuses'] or §H$concept_empire_focuses$§!
+ concept_empire_focus: "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ concept_empire_focuses: "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺰﻛﺮﺗ"
+ concept_empire_focus_desc: ".['concept_situation_log_view'] £interface£ ﻲﻓ $situation_log_view_tab_timeline$ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺰﻴﻛﺮﺘﻟﺍ ﻁﺎﻘﻧﻭ ﻡﺎﻬﻤﻟﺍ ﺮﻬﻈﺗ\n\n.['concept_technologies'] ﻰﻟﺇ ﻱﺩﺆﻳﻭ ﻂﺒﺗﺮﻤﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ ﻡﺪﻘﺗ ﻰﻟﺇ §Hﺰﻴﻛﺮﺘﻟﺍ ﻡﺎﻬﻣ§! ﻝﺎﻤﻛﺇ ﻱﺩﺆﻴﺳ .ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍﻭ ﻱﺩﺎﺼﺘﻗﻻﺍ ﻮﻤﻨﻠﻟ §HDevelopment§! ﻭ ،ﺔﻳﺮﻜﺴﻌﻟﺍ ﺔﻨﻤﻴﻬﻠﻟ §HConquest§!ﻭ ،ﻑﺎﺸﺘﻛﻻﺍﻭ ﻲﻤﻠﻌﻟﺍ ﻡﺪﻘﺘﻠﻟ §Hﻑﺎﺸﻜﺘﺳﻻﺍ§! ﻞﺜﻣ ،ﺔﻔﻠﺘﺨﻣ ﺰﻴﻛﺮﺗ ﺕﻻﺎﺠﻣ ﺔﻌﺑﺎﺘﻣ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﻦﻜﻤﻳ\n\n.ﺭﺍﺮﻘﻟﺍ ﻊﻨﺻﻭ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺭﻮﻄﺗ ﻪﺟﻮﺗ ﻯﻮﺘﺴﻤﻟﺍ ﺔﻌﻴﻓﺭ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺇ ﺕﺎﻳﻮﻟﻭﺃ ﻞﺜﻤﺗ §H$concept_empire_focuses$§!"
+
+ # Singular: ['concept_scoreboard'] or §H$concept_scoreboard$§!
+ # Plural: -
+ concept_scoreboard: "ﺞﺋﺎﺘﻨﻟﺍ ﺔﺣﻮﻟ"
+ concept_scoreboard_desc: ".ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﺐﻗﺍﻮﻋ ﻼﺑ ﺕﺎﻧﺭﺎﻘﻤﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﻥﻮﻜﺗ ﻻ ،ﺔﺋﺩﺎﻬﻟﺍ ﺔﻄﻠﺴﻟﺍ ﺔﻗﻭﺭﺃ ﻲﻓﻭ .ﻂﻘﻓ ﻮﺠﻨﻳ ﻦﻣﻭ ﻞﻤﺤﺘﻳ ﻦﻣﻭ ﺮﻫﺩﺰﻳ ﻦﻣ ﻰﻠﻋ ﺓﺮﻈﻧ ﺀﺎﻘﻟﻹ ﺔﻘﻳﺮﻃﻭ ،ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺡﻮﻤﻄﻠﻟ ﺕﺎﺑﺎﺴﺣ ﺮﺘﻓﺩ ﺔﺑﺎﺜﻤﺑ ﺎﻬﻧﺃ ﻻﺇ ،ﺔﻴﺋﺎﻬﻧ ﺖﺴﻴﻟ ﺎﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺮﻴﺛﺄﺘﻟﺍﻭ ﺔﻳﺮﻜﺴﻌﻟﺍ ﺓﻮﻘﻟﺍﻭ ﺩﺎﺼﺘﻗﻻﺍﻭ ﻡﻮﻠﻌﻟﺍ ﺮﺒﻋ ﺕﺍﺯﺎﺠﻧﻹﺍ ﺲﻜﻌﻳ ﺎﻤﻣ ،ﺔﻤﻴﻈﻌﻟﺍ ﻡﻮﺠﻨﻟﺍ ﺔﺒﻌﻟ ﻲﻓ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺔﻧﺎﻜﻤﻟ ﺎﻌﺳﺍﻭ ﺎﺳﺎﻴﻘﻣ §H$concept_scoreboard$§! ﻡﺪﻘﺗ"
+
+ # Singular: ['concept_living_standard'] or §H$concept_living_standard$§!
+ # Plural: ['concept_living_standards'] or §H$concept_living_standards$§!
+ concept_living_standard: "ﺔﺸﻴﻌﻤﻟﺍ ﻯﻮﺘﺴﻣ"
+ concept_living_standards: "ﺔﺸﻴﻌﻤﻟﺍ ﺮﻴﻳﺎﻌﻣ"
+ concept_living_standard_desc: ".['concept_species_view'] £interface£ ﻲﻓ ﺎﻬﻄﺒﺿ ﻦﻜﻤﻳ .ﻝﺎﻤﻌﻟﺍ ﺎﺿﺭﻭ ['concept_stability'] £stability£ ﺏﺎﺴﺣ ﻰﻠﻋ ﺔﻧﺎﻴﺼﻟﺍ ﻒﻴﻟﺎﻜﺗ ﻦﻣ ﺔﻀﻔﺨﻨﻤﻟﺍ ﺮﻴﻳﺎﻌﻤﻟﺍ ﻞﻠﻘﺗ ﺎﻤﻨﻴﺑ ،ﺩﺭﺍﻮﻤﻟﺍ ﻲﻓ ﺮﺒﻛﺃ ﺍﺭﺎﻤﺜﺘﺳﺍ ﺔﻌﻔﺗﺮﻤﻟﺍ ﺔﺸﻴﻌﻤﻟﺍ ﺕﺎﻳﻮﺘﺴﻣ ﺐﻠﻄﺘﺗ\n\n.ﺔﻳﺩﺎﺼﺘﻗﻻﺍ ﺕﺎﻳﻮﻟﻭﻷﺍﻭ ['concept_ethics']ﻭ ['concept_species'] ﻒﻴﻨﺼﺗ ﻰﻠﻋ ﺀﺎﻨﺑ ﻒﻠﺘﺨﺗ ﻥﺃ ﻦﻜﻤﻳﻭ ['concept_policies'] ﺔﻣﻮﻜﺤﻟﺍ ﺎﻬﻴﻠﻤﺗ §H$concept_living_standards$§! .ﻡﺎﻋ ﻞﻜﺸﺑ ['concept_political_power'] £political_power£ﻭ ['concept_happiness'] £happiness£ ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻤﻣ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﺧﺍﺩ ['concept_pops'] £pop£ ﻒﻠﺘﺨﻤﻟ ﺔﻣﺪﻘﻤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﺓﺩﻮﺟ §H$concept_living_standards$§! ﺩﺪﺤﺗ"
+
+ # Singular: ['concept_celestial_object'] or §H$concept_celestial_object$§!
+ # Plural: ['concept_celestial_objects'] or §H$concept_celestial_objects$§!
+ concept_celestial_object: "ﻱﻭﺎﻤﺳ ﻦﺋﺎﻛ"
+ concept_celestial_objects: "ﺔﻳﻭﺎﻤﺴﻟﺍ ﻡﺎﺴﺟﻷﺍ"
+ concept_celestial_object_desc: ".§HAsteroids§!ﻭ §HMoons§!ﻭ ['concept_planets'] £planet£ﻭ ['concept_stars'] ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،['concept_systems'] £system£ ﻦﻤﺿ ﺓﺮﻴﺒﻛ ﻡﺎﺴﺟﺃ ﻲﻫ §H$concept_celestial_objects$§!"
+
+ # Singular: £district£ ['concept_city_district'] or £district£ §H$concept_city_district$§!
+ # Plural: £district£ ['concept_city_districts'] or £district£ §H$concept_city_districts$§!
+ concept_city_district: "$ﺔﻨﻳﺪﻤﻟﺍ_ﺔﻘﻄﻨﻣ$"
+ concept_city_districts: "$district_city_plural$"
+ concept_city_district_desc: "§L$district_city_desc$§!\n\n§G+100§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_clerk'] £mod_job_clerk_add£- \n§G+1§! :ﺕﺎﺤﺘﻔﻟﺍ ['concept_building'] £building£- \n§G+500§!: ['concept_housing'] £housing£- "
+
+ # Singular: £district£ ['concept_hive_district'] or £district£ §H$concept_hive_district$§!
+ # Plural: £district£ ['concept_hive_districts'] or £district£ §H$concept_hive_districts$§!
+ concept_hive_district: "$distric_hive$"
+ concept_hive_districts: "$distric_hive_plural$"
+ concept_hive_district_desc: "§L$district_hive_desc$§!\n\n§G+300§! :ﻒﺋﺎﻇﻮﻟﺍ [maintenance_drone.GetName]- \n§G+1§! :ﺕﺎﺤﺘﻔﻟﺍ ['concept_building'] £building£- \n§G+600§!: ['concept_housing'] £housing£- "
+
+ # Singular: £district£ ['concept_nexus_district'] or £district£ §H$concept_nexus_district$§!
+ # Plural: £district£ ['concept_nexus_districts'] or £district£ §H$concept_nexus_districts$§!
+ concept_nexus_district: "$distric_nexus$"
+ concept_nexus_districts: "$district_nexus_plural$"
+ concept_nexus_district_desc: "§L$district_nexus_desc$§!\n\n§G+300§! :ﻒﺋﺎﻇﻮﻟﺍ [maintenance_drone.GetName]- \n§G+1§! :ﺕﺎﺤﺘﻔﻟﺍ ['concept_building'] £building£- \n§G+500§!: ['concept_housing'] £housing£- "
+
+ # Singular: £district£ ['concept_industrial_district'] or £district£ §H$concept_industrial_district$§!
+ # Plural: £district£ ['concept_industrial_districts'] or £district£ §H$concept_industrial_districts$§!
+ concept_industrial_district: "$ﺔﻴﻋﺎﻨﺻ_ﺔﻘﻄﻨﻣ$"
+ concept_industrial_districts: "$district_industrial_plural$"
+ concept_industrial_district_desc: "§L$district_industrial_desc$§!\n\n§G+100§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_metallurgist'] £mod_job_foundry_add£- \n§G+100§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_artisan'] £mod_job_artisan_add£- \n§G+200§!: ['concept_housing'] £housing£- "
+
+ # Singular: £district£ ['concept_generator_district'] or £district£ §H$concept_generator_district$§!
+ # Plural: £district£ ['concept_generator_districts'] or £district£ §H$concept_generator_districts$§!
+ concept_generator_district: "$distric_generator$"
+ concept_generator_districts: "$district_generator_plural$"
+ concept_generator_district_desc: "§L$district_generator_desc$§!\n\n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_technicians'] £mod_job_technician_add£- \n§G+200§!: ['concept_housing'] £housing£- "
+
+ # Singular: £district£ ['concept_mining_district'] or £district£ §H$concept_mining_district$§!
+ # Plural: £district£ ['concept_mining_districts'] or £district£ §H$concept_mining_districts$§!
+ concept_mining_district: "$distric_mining$"
+ concept_mining_districts: "$district_mining_plural$"
+ concept_mining_district_desc: "§L$district_mining_desc$§!\n\n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_miner'] £mod_job_miner_add£- \n§G+200§!: ['concept_housing'] £housing£- "
+
+ # Singular: £district£ ['concept_farming_district'] or £district£ §H$concept_farming_district$§!
+ # Plural: £district£ ['concept_farming_districts'] or £district£ §H$concept_farming_districts$§!
+ concept_farming_district: "$distric_farming$"
+ concept_farming_districts: "$district_farming_plural$"
+ concept_farming_district_desc: "§L$district_farming_desc$§!\n\n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_farmer'] £mod_job_farmer_add£- \n§G+200§!: ['concept_housing'] £housing£- "
+
+ # Singular: ['concept_debris'] or §H$concept_debris$§!
+ # Plural: -
+ concept_debris: "ﻡﺎﻄﺣ"
+ concept_debris_desc: ".ﺓﺪﻳﺪﺠﻟﺍ ['concept_technologies'] ﻝﻮﺣ ﻯﺅﺭ ﻰﻟﺇ ﻱﺩﺆﻳ ﻥﺃ ﻦﻜﻤﻳ §H$concept_debris$§! ﻲﻓ ﻖﻴﻘﺤﺘﻠﻟ ['concept_science_ship'] £science_ship£ ﻦﻴﻴﻌﺗ\n\n.['concept_special_project'] ﺎﻬﻧﺃ ﻰﻠﻋ ﺀﺎﻀﻔﻟﺍ ﻙﺭﺎﻌﻣ ﻦﻣ ﺔﻴﻘﺒﺘﻤﻟﺍ §H$concept_debris$§! ،ﻲﺋﺎﻀﻔﻟﺍ ﻉﺍﺮﺼﻠﻟ ﺔﺘﻣﺎﺼﻟﺍ ﺀﺍﺪﺻﻷﺍﻭ ،ﺔﻤﻄﺤﻤﻟﺍ ﻞﻛﺎﻴﻬﻟﺍﻭ ﻑﺮﺠﻨﻤﻟﺍ ﻡﺎﻄﺤﻟﺍ ﺐﻘﻌﺗ ﻢﺘﻳ"
+
+ # Singular: ['concept_council'] or §H$concept_council$§!
+ # Plural: -
+ concept_council: "ﺲﻠﺠﻣ"
+ concept_council_desc: ".['concept_government_view'] £interface£ ﻲﻓ §HCouncil§! ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺲﻠﺠﻤﻟﺍ ﺕﺎﻨﻴﻴﻌﺗﻭ ﺓﺭﺍﺩﺇ ﻢﺘﺗ \n\n.['concept_agendas'] ﻞﻴﻌﻔﺗ ﻦﻋ ﺎﻀﻳﺃ ﻝﻭﺆﺴﻣ §H$concept_council$§! ﻥﺇ\n\n.ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺕﺂﻓﺎﻜﻣ ['concept_leader_traits'] ﺾﻌﺑ ﺢﻨﻣ ﻊﻣ ،['concept_leader'] ﺔﻄﺳﺍﻮﺑ ﺲﻠﺠﻤﻟﺍ ﻲﻓ ﺐﺼﻨﻣ ﻞﻛ ﻞﻐﺷ ﻦﻜﻤﻳ .ﺔﻴﻓﺎﺿﺇ §HCouncilors§! ﺔﺴﻤﺧ ﻰﻟﺇ ﻞﺼﻳ ﺎﻣﻭ §HRuler§! ﻦﻣ ﻥﻮﻜﺘﺗ ﻲﺘﻟﺍ ،['concept_empire'] ﺓﺩﺎﻴﻗ §H$concept_council$§! ﻞﺜﻤﻳ"
+
+ # Singular: ['concept_agenda'] or §H$concept_agenda$§!
+ # Plural: ['concept_agendas'] or §H$concept_agendas$§!
+ concept_agenda: "ﻝﺎﻤﻋﻷﺍ ﻝﻭﺪﺟ"
+ concept_agendas: "ﻝﺎﻤﻋﻷﺍ ﻝﻭﺍﺪﺟ"
+ concept_agenda_desc: ".['concept_government_view'] £interface£ ﻲﻓ §HCouncil§! ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺎﻬﺗﺭﺍﺩﺇ ﻢﺘﺗ §H$concept_agendas$§!\n\n.ﺪﻳﺰﻤﻟﺍﻭ ،['concept_traditions'] ﺪﻤﺘﻌﻤﻟﺍ ،['concept_authority'] ﻢﻜﺤﻟﺍ ﻰﻠﻋ ﺍﺩﺎﻤﺘﻋﺍ ﺎﻬﺗﺍﺮﻴﺛﺄﺗﻭ ﺔﺣﺎﺘﻤﻟﺍ §H$concept_agendas$§! ﺓﺭﺍﺩﺇ ﻢﺘﺗ\n\n.ﺎﻬﻗﻼﻃﺇ ﺪﻨﻋ ﺓﻮﻗ ﺮﺜﻛﺃ ﺕﺂﻓﺎﻜﻣﻭ ،ﺩﺍﺪﻋﻹﺍ ﺀﺎﻨﺛﺃ ﺎﻳﺍﺰﻤﻟﺍ ﺾﻌﺑ ﺕﺍﺪﻨﺟﻷﺍ ﺮﻓﻮﺗ .ﻯﺪﻤﻟﺍ ﺔﻠﻳﻮﻃ ﺎﻬﻓﺍﺪﻫﺃﻭ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺕﺎﻳﻮﻟﻭﺃ ﻞﻜﺸﻳ ﺎﻤﻣ ،['concept_council'] ـﻟ ﻲﻟﺎﺤﻟﺍ ﻲﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﺰﻴﻛﺮﺘﻟﺍ §H$concept_agenda$§! ﻞﺜﻤﻳ"
+
+ # Singular: £research£ ['concept_research'] or £research£ §H$concept_research$§!
+ # Plural: -
+ concept_research: "ﺚﺤﺑ"
+ concept_research_desc: ".['concept_diplomatic_pacts', $concept_research_agreements$] ﻞﺜﻣ ﺔﻴﺟﺭﺎﺧ ﻞﻣﺍﻮﻋ ﻭﺃ ،['concept_leader_traits'] ﻭﺃ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﻑﻭﺮﻈﻟﺎﺑ ﺚﺤﺒﻟﺍ ﺔﻋﺮﺳ ﺮﺛﺄﺘﺗ ﺪﻗ\n\n.['concept_technologies'] ﺝﺎﺘﻧﺇ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺓﺪﺣ ﻰﻠﻋ ﻞﻘﺣ ﻞﻛ ﺮﻳﻮﻄﺗ ﻢﺘﻳ .['concept_engineering_research'] £engineering£ﻭ ['concept_society_research'] £society£ﻭ ['concept_physics_research'] £physics£ :ﺔﻴﺳﺎﺳﺃ ﺕﻻﺎﺠﻣ ﺔﺛﻼﺛ ﺮﺒﻋ ﺔﻴﻤﻠﻌﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ ﺮﻳﻮﻄﺗ ﺔﻴﻠﻤﻋ ﻲﻫ §H$concept_research$§! £research£"
+ concept_research_tooltip: "§Gﺔﻤﺋﺎﻘﻟﺍ ﻊﻴﺳﻮﺘﻟ ﺔﻤﺋﺎﻘﻟﺍ ﻲﻓ £research£ ﻕﻮﻓ ﺮﻘﻧﺍ\nﺕﺎﻧﺎﻴﺒﻟﺍ ﻚﻨﺑ ﺢﺘﻔﻟ ['concept_research'] ﻕﻮﻓ ﺮﻘﻧﺍ§!\n\n$concept_research_desc$"
+
+ # Singular 1: ['concept_modifier'] or §H$concept_modifier$§!
+ # Plural 1: ['concept_modifiers'] or §H$concept_modifiers$§!
+ # Singular 2: ['concept_empire_modifier'] or §H$concept_empire_modifier$§!
+ # Plural 2: ['concept_empire_modifiers'] or §H$concept_empire_modifiers$§!
+ # Singular 3: ['concept_planet_modifier'] or §H$concept_planet_modifier$§!
+ # Plural 3: ['concept_planet_modifiers'] or §H$concept_planet_modifiers$§!
+ concept_modifier: "ﻝﺪﻌﻤﻟﺍ"
+ concept_modifiers: "ﺕﻻﺪﻌﻤﻟﺍ"
+ concept_empire_modifier: "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﻳﺪﻌﺗ"
+ concept_empire_modifiers: "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺕﻻﺪﻌﻣ"
+ concept_planet_modifier: "ﺐﻛﻮﻜﻟﺍ ﻝﺪﻌﻣ"
+ concept_planet_modifiers: "ﺐﻛﻮﻜﻟﺍ ﺕﻻﺪﻌﻣ"
+ concept_modifier_desc: ".['concept_colony_view'] £interface£ ﻲﻓ ﺐﻛﺍﻮﻜﻟﺎﺑ ﺔﺻﺎﺨﻟﺍ ﻚﻠﺗ ﺮﻬﻈﺗ ﺎﻤﻨﻴﺑ ،['concept_empire_view'] £interface£ ﻦﻣ §H$empire_view_tab_empire$§! ﻲﻓ ﺎﻬﺿﺮﻋ ﻢﺘﻳ ﺎﻬﻠﻤﻛﺄﺑ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻰﻠﻋ ﺮﺛﺆﺗ ﻲﺘﻟﺍ §H$concept_modifiers$§!\n\n.Planet ﻞﺜﻣ ،ﺎﻬﻨﻣ ﻦﻴﻌﻣ ﺀﺰﺟ ﻭﺃ ﺎﻬﻠﻤﻛﺄﺑ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻰﻠﻋ ﻖﺒﻄﻨﺗ ﺪﻗﻭ ﺔﻤﺋﺍﺩ ﻭﺃ ﺔﺘﻗﺆﻣ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻳﻭ \n\n.['concept_event_chains'] ﻭﺃ ['concept_anomalies'] £anomaly£ ﻝﻼﺧ ﺓﺬﺨﺘﻤﻟﺍ ﺕﺍﺭﺍﺮﻘﻟﺍ ﻦﻋ ﺓﺩﺎﻋ ﺄﺸﻨﺗ ﺕﺎﺑﻮﻘﻋ ﻭﺃ ﺕﺂﻓﺎﻜﻣ ﻲﻫ §H$concept_modifiers$§!"
+
+ # Singular: ['concept_diplomacy'] or §H$concept_diplomacy$§!
+ # Plural: -
+ concept_diplomacy: "ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ"
+ concept_diplomacy_desc: ".['concept_galactic_community']ﻭ ['concept_federation'] ﻝﻼﺧ ﻦﻣ ﺓﺮﺠﻤﻟﺍ ﺕﺎﺳﺎﻴﺳ ﻲﻓ ﻁﺍﺮﺨﻧﻻﺍ ﻭﺃ ['concept_diplomatic_pacts'] ﻞﻴﻜﺸﺗ ﻭﺃ ['concept_envoys'] ﻝﻼﺧ ﻦﻣ ﺕﺎﻗﻼﻌﻟﺍ ﻦﻴﺴﺤﺗ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﻦﻜﻤﻳ\n\n.ﺔﻟﺩﺎﺒﺘﻤﻟﺍ ﺢﻟﺎﺼﻤﻟﺍﻭ ﺔﻴﺒﺴﻨﻟﺍ ﺓﻮﻘﻟﺍﻭ ['concept_authorities']ﻭ ['concept_ethics'] ﻞﺜﻣ ﻞﻣﺍﻮﻌﺑ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﺮﺛﺄﺘﺗ .['concept_wars']ﻭ ['concept_rivals'] ﻰﺘﺣﻭ ﺕﺎﻔﻟﺎﺤﺘﻟﺍﻭ ﺔﻳﺭﺎﺠﺘﻟﺍ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻦﻣ ﺍﺀﺪﺑ ﺀﻲﺷ ﻞﻛ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺾﻌﺒﻟﺍ ﺎﻬﻀﻌﺑ ﻊﻣ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﻋﺎﻔﺗ ﺔﻴﻔﻴﻛ §H$concept_diplomacy$§! ﻢﻜﺤﺗ"
+
+ # Singular: ['concept_subject_agreement'] or §H$concept_subject_agreement$§!
+ # Plural: ['concept_subject_agreements'] or §H$concept_subject_agreements$§!
+ concept_subject_agreement: "ﻉﻮﺿﻮﻤﻟﺍ ﺔﻴﻗﺎﻔﺗﺍ"
+ concept_subject_agreements: "ﻉﻮﺿﻮﻤﻟﺍ ﺕﺎﻴﻗﺎﻔﺗﺍ"
+ concept_subject_agreement_desc: ".['concept_contacts_view'] £interface£ ﻲﻓ $contacts_view_tab_agreements$ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺎﻬﻴﻠﻋ ﺽﻭﺎﻔﺘﻟﺍ ﻦﻜﻤﻳ §H$concept_subject_agreements$§!\n\n.ﻦﻴﻠﻘﺘﺴﻤﻟﺍ ﻪﺒﺷ ﺀﺎﻔﻠﺤﻟﺍ ﻰﻟﺇ ﺓﺩﺪﺸﻣ ﺔﺑﺎﻗﺮﻟ ﺔﻌﺿﺎﺨﻟﺍ ﺕﻻﺎﺤﻟﺍ ﻦﻣ ﺍﺀﺪﺑ ﺀﻲﺷ ﻱﺃ ﺀﺎﺸﻧﻹ ﺕﺎﻴﻗﺎﻔﺗﻻﺍ ﻩﺬﻫ ﺺﻴﺼﺨﺗ ﻦﻜﻤﻳ .ﺔﻳﺮﻜﺴﻌﻟﺍ ﺕﺎﻣﺍﺰﺘﻟﻻﺍﻭ ،ﺩﺭﺍﻮﻤﻟﺍ ﺕﺎﻤﻫﺎﺴﻣﻭ ،ﻲﺗﺍﺬﻟﺍ ﻢﻜﺤﻟﺍ ﺕﺎﻳﻮﺘﺴﻣ ﺩﺪﺤﺗﻭ ،ﻪﻌﺑﺎﺗﻭ ﻰﻠﻋﻷﺍ ﺪﻴﺴﻟﺍ ﻦﻴﺑ ﻉﻮﻀﺨﻟﺍ ﻁﻭﺮﺷ ﺩﺪﺤﺗ §H$concept_subject_agreements$§!"
+
+ # Singular: ['concept_relic'] or §H$concept_relic$§!
+ # Plural: ['concept_relics'] or §H$concept_relics$§!
+ concept_relic: "ﺎﻳﺎﻘﺑ"
+ concept_relics: "ﺭﺎﺛﻻﺍ"
+ concept_relic_desc: ".['concept_discoveries_view'] £interface£ ﻲﻓ $discoveries_view_tab_relics$ ﺐﻳﻮﺒﺘﻟﺍ ﺔﻣﻼﻋ ﻲﻓ ﺎﻬﺗﺭﺍﺩﺇ ﻦﻜﻤﻳﻭ .ﺖﻗﻮﻟﺍ ﺓﺩﻭﺪﺤﻣﻭ ﺓﻮﻗ ﺮﺜﻛﺃ ﺕﺍﺮﻴﺛﺄﺗ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﻪﻠﻴﻌﻔﺗ ﻦﻜﻤﻳﻭ ،ﺔﺘﺑﺎﺛ ﺔﻴﺒﻠﺳ ﺕﺍﺮﻴﺛﺄﺗ ﺢﻨﻤﻳ §H$concept_relics$§!\n\n.them ﻞﻌﻔﻟﺎﺑ ﻚﻠﺘﻤﺗ ﻲﺘﻟﺍ ﺔﻣﻭﺰﻬﻤﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻣ ﺎﻬﻴﻠﻋ ﺀﻼﻴﺘﺳﻻﺍ ﻭﺃ ،ﻲﺴﻴﺋﺮﻟﺍ ['concept_event_chains'] ﻝﺎﻤﻜﺘﺳﺍ ﻝﻼﺧ ﻦﻣ ﺎﻬﻴﻠﻋ ﻝﻮﺼﺤﻟﺍ ﻭﺃ ،['concept_archaeology_site'] £archaeology£ ﻊﻗﺍﻮﻣ ﻲﻓ ﺎﻬﻓﺎﺸﺘﻛﺍ ﻦﻜﻤﻳ\n\n.ﺎﻬﻜﻠﺘﻤﻳ ﻦﻤﻟ ﺓﺪﻳﺮﻓ ﺪﺋﺍﻮﻓ ﺢﻨﻤﻳ ﺎﻤﻣ ،ﺔﻤﻳﺪﻘﻟﺍ ﺕﺍﺭﺎﻀﺤﻟﺍ ﻦﻣ ﺔﻳﻮﻗ ﺔﻳﺮﺛﺃ ﻊﻄﻗ ﻦﻋ ﺓﺭﺎﺒﻋ §H$concept_relics$§!"
+
+ # Singular: ['concept_astral_action'] or §H$concept_astral_action$§!
+ # Plural: ['concept_astral_actions'] or §H$concept_astral_actions$§!
+ concept_astral_action: "ﻲﻤﺠﻨﻟﺍ ﻞﻤﻌﻟﺍ"
+ concept_astral_actions: "ﺔﻴﻤﺠﻨﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ"
+ concept_astral_action_desc: ".['concept_astral_rifts'] ﻑﺎﺸﻜﺘﺳﺍ ﻝﻼﺧ ﻦﻣ ﺓﺩﺎﻋ ﺎﻬﺤﺘﻓ ﻢﺘﻳ §H$concept_astral_actions$§!\n\n.ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺓﺰﻴﻣ ﻖﻴﻘﺤﺘﻟ ﺔﻴﻤﺠﻨﻟﺍ ﺮﻫﺍﻮﻈﻟﺍ ﻞﻐﺘﺴﺗ ﺎﻣ ﺎﺒﻟﺎﻏﻭ ،ﺓﺪﻳﺮﻓ ﻕﺮﻄﺑ ﺀﺎﻀﻔﻟﺍ ﺞﻴﺴﻧ ﻊﻣ ﻞﻋﺎﻔﺘﻟﺎﺑ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺢﻤﺴﺗ ﺔﺼﺼﺨﺘﻣ ﺕﺍﺭﺪﻗ ﻲﻫ §H$concept_astral_actions$§!"
+
+ # Singular: ['concept_minor_artifact'] or §H$concept_minor_artifact$§!
+ # Plural: ['concept_minor_artifacts'] or §H$concept_minor_artifacts$§!
+ concept_minor_artifact: "ﺔﻔﻴﻔﻃ ﺔﻳﺮﺛﺃ ﺔﻌﻄﻗ"
+ concept_minor_artifacts: "ﺔﻄﻴﺴﺒﻟﺍ ﻒﺤﺘﻟﺍ"
+ concept_minor_artifact_desc: ".['concept_discoveries_view'] £interface£ ﻲﻓ ﺎﻬﺗﺭﺍﺩﺇ ﻢﺘﺗ .ﺔﻳﺮﻜﺴﻌﻟﺍ ﺕﺎﻘﻴﺒﻄﺘﻟﺍ ﻰﺘﺣ ﻭﺃ ﺔﻴﻤﻠﻌﻟﺍ ﺕﺍﺯﺎﺠﻧﻹﺍ ﻭﺃ ﻲﻓﺎﻘﺜﻟﺍ ﺀﺍﺮﺛﻹﺍ ﺽﺍﺮﻏﻷ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﺓﺩﺎﻋﺈﺑ ﺢﻤﺴﺗ ﻲﺘﻟﺍ ﺕﺍﺭﺎﺴﻤﻟﺍ ﺾﻌﺑ ﻊﻣ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺕﺎﺳﺎﻴﺳﻭ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ ﻰﻠﻋ ﺓﺮﻴﻐﺼﻟﺍ ﺔﻳﺮﺛﻷﺍ ﻊﻄﻘﻟﺍ ﺓﺪﺋﺎﻓ ﺪﻤﺘﻌﺗ\n\n.ﺔﻤﻴﻘﻟﺍ ﺩﺭﺍﻮﻤﻟﺎﺑ ﺓﺮﺟﺎﺘﻤﻟﺍ ﻭﺃ ﺓﺪﻳﺮﻔﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺕﺂﻓﺎﻜﻣ ﻂﻴﺸﻨﺗ ﻞﺜﻣ ،ﺔﻔﻠﺘﺨﻣ ﻕﺮﻄﺑ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ ﻪﻧﺃ ﻻﺇ ،§H$concept_relics$§! ﻦﻣ ﻱﺩﺮﻓ ﻞﻜﺸﺑ ﺔﻴﻟﺎﻌﻓ ﻞﻗﺃ ﺎﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .['concept_archaeology_site'] £archaeology£ ﺐﻴﻘﻨﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻝﻼﺧ ﻦﻣ ﺓﺩﺎﻋ ﺎﻫﺩﺍﺩﺮﺘﺳﺍ ﻢﺗ ﻲﺘﻟﺍﻭ ،ﺔﻤﻳﺪﻘﻟﺍ ﺕﺍﺭﺎﻀﺤﻟﺍ ﺎﻳﺎﻘﺑ ﻲﻫ §H$concept_minor_artifacts$§!"
+
+ # Singular: ['concept_crisis'] or §H$concept_crisis$§!
+ # Plural: -
+ concept_crisis: "ﺔﺒﻴﺼﻣ"
+ concept_crisis_desc: ".ﻪﻨﻣ ﺮﻔﻣ ﻻ ﺏﺎﺴﺣ ﺭﺎﺴﻣ ﻮﻫ ﻢﻫﺭﺎﺴﻣ ﻥﻷ ،ﺓﺮﺠﻤﻠﻟ ﺓﺪﺣﻮﻤﻟﺍ ﺔﺿﺭﺎﻌﻤﻟﺍ ﻥﻭﻮﻋﺪﻳ ﻖﻳﺮﻄﻟﺍ ﺍﺬﻫ ﻲﻓ ﻥﻭﺮﻴﺴﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ \n\n .ﺔﻋﻭﺮﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍﻭ ﺔﻣﺮﺤﻤﻟﺍ ﺓﻮﻘﻟﺍ ﺎﻬﻳﺬﻐﺗ ﺔﻳﺩﻮﺟﻭ ﺓﻮﻗﻭ ،ﻪﻟ ﻞﻴﺜﻣ ﻻ ﻢﺠﺣ ﻱﺫ ﺪﻳﺪﻬﺗ ﻰﻟﺇ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺩﻮﻌﺻ §H$concept_crisis$§! ﻞﺜﻤﻳ"
+
+ # Singular: ['concept_overlord_holding'] or §H$concept_overlord_holding$§!
+ # Plural: ['concept_overlord_holdings'] or §H$concept_overlord_holdings$§!
+ concept_overlord_holding: "ﺔﻀﺑﺎﻘﻟﺍ ﺩﺭﻮﻟﺮﻓﺃ"
+ concept_overlord_holdings: "ﺔﻀﺑﺎﻘﻟﺍ ﺩﺭﻮﻟﺮﻓﺃ"
+ concept_overlord_holding_desc: ".ﺔﻴﻠﺧﺪﺗ ﻭﺃ ﺔﻴﻟﻼﻐﺘﺳﺍ ﺎﻬﻧﺃ ﻰﻠﻋ ﺎﻬﻴﻟﺇ ﺮﻈﻨﻳ ﺎﻣﺪﻨﻋ ﺔﺻﺎﺧ ،ﺎﻳﺎﻋﺮﻟﺍ ﻦﻴﺑ ﺀﺎﻴﺘﺳﻻﺍ ﺮﻴﺜﺗ ﺪﻗ ﺎﻬﻧﺃ ﻻﺇ ،ﻰﻠﻋﻷﺍ ﺪﻴﺴﻠﻟ ﺓﺪﻴﻔﻣ ﺕﺎﻜﻠﺘﻤﻤﻟﺍ ﻥﺃ ﻦﻴﺣ ﻲﻓ .ﺕﺎﻳﻮﻟﻭﻷﺍ ﻰﻠﻋﻷﺍ ﺪﻴﺴﻟﺎﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍﻭ ['concept_ethics']ﻭ ['concept_civics'] ﻰﻠﻋ ﺍﺩﺎﻤﺘﻋﺍ ﺎﻬﺗﺍﺮﻴﺛﺄﺗ ﻒﻠﺘﺨﺗﻭ ،['concept_subject_agreement'] ﻁﻭﺮﺷ ﻝﻼﺧ ﻦﻣ §H$concept_overlord_holdings$§! ﺩﺪﻋﻭ ﻉﻮﻧ ﺪﻳﺪﺤﺗ ﻢﺘﻳ\n\n .ﺔﻔﻠﺘﺨﻣ ﻕﺮﻄﺑ ﻰﻠﻋﻷﺍ ﺪﻴﺴﻟﺍ ﺔﻄﻠﺳ ﺎﻬﻨﻣ ﻞﻛ ﺯﺰﻌﻳ ﺚﻴﺣ ،ﺕﺎﻣﺪﺨﻟﺍ ﺮﻴﻓﻮﺗ ﻭﺃ ﺩﺭﺍﻮﻤﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ ﻭﺃ ﺫﻮﻔﻨﻟﺍ ﻁﺎﻘﺳﺇ ﻞﻛﺎﻴﻬﻟﺍ ﻩﺬﻫ ﺢﻴﺘﺗ .ﺎﻫﺎﻳﺎﻋﺭ ﻢﻟﺍﻮﻋ ﻰﻠﻋ ﺩﺭﻮﻟﺮﻓﺃ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺎﻬﺗﺄﺸﻧﺃ ﺔﺼﺼﺨﺘﻣ ﺕﺂﺸﻨﻣ ﻲﻫ §H$concept_overlord_holdings$§!"
+
+  # Singular: ['concept_branch_office'] or §H$concept_branch_office$§!
+ # Plural: ['concept_branch_offices'] or §H$concept_branch_offices$§!
+ concept_branch_office: "$BRANCH_OFFICE$"
+ concept_branch_offices: "$BRANCH_OFFICES$"
+ concept_branch_office_desc: ".ﻝﺎﻤﻟﺍ ﺱﺃﺭ ﺕﺎﻴﻗﺮﺗ ﻝﻼﺧ ﻦﻣ ﺔﻠﻔﻘﻣ ﺔﻴﻓﺎﺿﺇ ﺕﺎﺤﺘﻓ ﻊﻣ ،ﻢﻟﺎﻌﻟﺍ ﻑﺪﻬﻟﺍ ﻦﻣ ['concept_colony_view'] £interface£ ﻲﻓ ﺔﻴﻋﺮﻔﻟﺍ ﺐﺗﺎﻜﻤﻟﺍ ﻲﻧﺎﺒﻣ ﺀﺎﺸﻧﺇ ﻦﻜﻤﻳ §!XYZT_84XYZT ﻰﻟﺇ ﻞﺼﻳ ﺎﻣ\n\n.ﺔﻛﺮﺸﻟﺍ ﻚﻟﺎﻤﻟ ['concept_energy'] £energy£ ﻞﺜﻣ ﻑﺪﻬﺘﺴﻤﻟﺍ ﻢﻟﺎﻌﻠﻟ ['concept_trade'] £trade_value£ ﻦﻣ ﺔﻳﯯﻣ ﺔﺒﺴﻧ §H$BRANCH_OFFICES$§! ﻡﺪﻘﻳ"
+
+ # Singular 1: ['concept_war'] or §H$concept_war$§!
+ # Plural 1: ['concept_wars'] or §H$concept_wars$§!
+ # Singular 2: ['concept_subjugation_war'] or §H$concept_subjugation_war$§!
+ # Plural 2: -
+ # Singular 3: ['concept_total_war'] or §H$concept_total_war$§!
+ # Plural 3: -
+ concept_war: "ﺏﺮﺣ"
+ concept_wars: "ﺏﻭﺮﺤﻟﺍ"
+ concept_subjugation_war: "ﺮﻬﻘﻟﺍ ﺏﺮﺣ"
+ concept_total_war: "ﺔﻠﻣﺎﺸﻟﺍ ﺏﺮﺤﻟﺍ"
+ concept_war_desc: ".ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺮﻴﺼﻣ ﻞﻴﻜﺸﺘﻟ ﺔﻤﺳﺎﺣ ﺓﺍﺩﺃ ﺏﺮﺤﻟﺍ ﻞﻈﺗ ،ﺔﻈﻫﺎﺒﻟﺍ ﺎﻬﺘﻔﻠﻜﺗ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋﻭ .ﺔﻴﺋﺍﺪﻌﻟﺍ ﻝﺎﻤﻋﻷﺍ ﺀﺎﻬﻧﻹ ﻂﻐﻀﻟﺍ ﺪﻳﺰﻳ ﺎﻤﻣ ،§HWar Exhaustion§! ﻢﻛﺍﺮﺘﻳ ،ﻉﺍﺮﺼﻟﺍ ﺭﺍﺮﻤﺘﺳﺍ ﻊﻣ .ﻕﺎﻔﺗﻻﺍ ﺖﻗﻭ ﺔﻠﺘﺤﻤﻟﺍ ﺔﻤﻈﻧﻷﺍ ﻰﻠﻋ ﺐﺳﺎﻜﻤﻟﺍ ﺮﺼﺘﻘﺗ ﺚﻴﺣ ،['concept_peace'] §HStatus Quo§! ﻝﻼﺧ ﻦﻣ ﻭﺃ ،ﺮﺧﻵﺍ ﻑﺮﻄﻟﺍ ﻁﻭﺮﺷ ﻦﻴﻓﺮﻄﻟﺍ ﺪﺣﺃ ﻞﺒﻘﻳ ﺚﻴﺣ ،ﻡﻼﺴﺘﺳﻻﺎﺑ ﺏﻭﺮﺤﻟﺍ ﻲﻬﺘﻨﺗ\n\n.ﺎﻬﺑ ﺡﻮﻤﺴﻤﻟﺍ ﺎﻬﺠﺋﺎﺘﻧﻭ ﺎﻬﻓﺍﺪﻫﺃ ﺩﺪﺤﻳ ﻱﺬﻟﺍ ،§HCasus Belli§! ﻝﻼﺧ ﻦﻣ ﺏﺮﺤﻟﺍ ﺮﻳﺮﺒﺗ ﻢﺘﻳ .ﺓﺮﺠﻤﻟﺍ ﻡﺎﻈﻧ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻭﺃ ،ﻢﻟﺎﻈﻤﻟﺍ ﺔﺠﻟﺎﻌﻣ ﻭﺃ ،['concept_claims'] ﺽﺮﻔﻟ ﺀﺍﻮﺳ ،ﺓﺩﺪﺤﻣ ﻑﺍﺪﻫﺃ ﻖﻴﻘﺤﺘﻟ ﺎﻫﺬﻴﻔﻨﺗ ﻢﺘﻳ ﻲﺘﻟﺍﻭ ،ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻴﺑ ﺢﻠﺴﻤﻟﺍ ﻉﺍﺮﺼﻠﻟ ﺔﻴﻤﺳﺮﻟﺍ ﺔﻟﺎﺤﻟﺍ ﻲﻫ §H$concept_war$§!"
+
+ # Singular: ['concept_peace'] or §H$concept_peace$§!
+ # Plural: -
+ concept_peace: "ﻡﻼﺳ"
+ concept_peace_desc: ".ﻲﻠﺒﻘﺘﺴﻤﻟﺍ ﻉﺍﺮﺼﻟﺍ ﺭﻭﺬﺑ ﻉﺭﺯ ﻭﺃ ،ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻉﺎﻀﺧﺇ ﻭﺃ ،ﺩﻭﺪﺤﻟﺍ ﺀﺎﺸﻧﺇ ﻭﺃ ،ﺏﺮﺤﻟﺍ ﺪﻌﺑ ﺎﻣ ﻡﺎﻈﻧ ﻡﻼﺴﻟﺍ ﻁﻭﺮﺷ ﻞﻜﺸﺗ \n\n .ﻝﺩﺎﺒﺘﻤﻟﺍ ﻕﺎﻫﺭﻹﺍ ﻖﻳﺮﻃ ﻦﻋ ﺄﺸﻨﻳ ﺪﻗ ﻭﺃ ﻡﻼﺴﺘﺳﻻﺍ ﻝﻼﺧ ﻦﻣ ﻡﻼﺴﻟﺍ ﺽﺮﻓ ﻢﺘﻳ ﺪﻗ .ﺓﺪﻳﺪﺟ ﺔﻴﺳﺎﻴﺳ ﺕﺎﺒﻴﺗﺮﺗ ﺽﺮﻓ ﻭﺃ ،ﺔﻴﻤﻴﻠﻗﻹﺍ ﺕﻻﺩﺎﺒﺘﻟﺍ ﻭﺃ ،ﺏﺮﺤﻟﺍ ﻑﺍﺪﻫﺃ ﺽﺮﻓ ﻰﻟﺇ ﺓﺩﺎﻋ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻦﻴﺑ ﺔﻴﺋﺍﺪﻌﻟﺍ ﻝﺎﻤﻋﻸﻟ ﻲﻤﺳﺮﻟﺍ ﻒﻗﻮﻟﺍ ﻮﻫ §H$concept_peace$§!"
+
+ # Singular: ['concept_galactic_community'] or §H$concept_galactic_community$§!
+ # Plural: -
+ concept_galactic_community: "ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ"
+ concept_galactic_community_desc: ".ﻲﻋﺎﻤﺠﻟﺍ ﻢﻜﺤﻟﺍ ﺭﺎﺘﺳ ﺖﺤﺗ ﺔﻨﻤﻴﻬﻟﺍ ﺕﺍﺪﻨﺟﺃ ﻖﻴﻘﺤﺗ ﻰﻟﺇ ﻲﻌﺴﻟﺍﻭ ،ﺲﻴﻟﺍﻮﻜﻟﺍ ﻒﻠﺧ ﺕﺎﺿﻭﺎﻔﻤﻟﺍﻭ ،ﺲﻓﺎﻨﺘﻠﻟ ﺎﺣﺮﺴﻣ ﻥﻮﻜﺗ ﺎﻣ ﺎﺒﻟﺎﻏ ﺎﻬﻧﺈﻓ ،ﺓﺪﺣﻮﻠﻟ ﻯﺪﺘﻨﻣ ﻞﻜﺸﺗ ﺎﻳﺮﻫﺎﻇ ﺔﻋﻮﻤﺠﻤﻟﺍ ﻥﺃ ﻢﻏﺭﻭ .['concept_diplomatic_weight'] ﻊﻤﺟﻭ ['concept_envoys'] ﻦﻴﻴﻌﺗ ﻝﻼﺧ ﻦﻣ ﻊﻤﺘﺠﻤﻟﺍ ﻞﺧﺍﺩ ﺍﺫﻮﻔﻧ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺐﺴﺘﻜﺗ ﺪﻗ\n\n.ﺓﺮﺠﻤﻟﺍ ﻕﺎﻄﻧ ﻰﻠﻋ ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﻢﻴﻘﻟﺍﻭ ﺓﺭﺎﺠﺘﻟﺍﻭ ['concept_war'] ﻢﻈﻨﻳﻭ ،ﻪﺋﺎﻀﻋﺃ ﻰﻠﻋ ﺔﻤﻋﺎﻨﻟﺍ ﺓﻮﻘﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ ﺱﺭﺎﻤﻳ ،ﺎﻫﺮﻳﺮﻤﺗﻭ ﺕﺍﺭﺍﺮﻘﻟﺍ ﺡﺍﺮﺘﻗﺍ ﻝﻼﺧ ﻦﻣ .ﺔﻛﺮﺘﺸﻤﻟﺍ ﺕﺍﺪﻳﺪﻬﺘﻟﺍ ﺔﺠﻟﺎﻌﻣﻭ ،ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺮﻴﻳﺎﻌﻣ ﻊﺿﻭﻭ ،ﻥﻭﺎﻌﺘﻟﺍ ﺰﻳﺰﻌﺘﻟ ﺀﺎﻀﻋﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺎﻬﺘﻠﻜﺷ ﺓﺮﺠﻤﻟﺍ ﻡﻮﻤﻌﻟ ﺔﻴﻌﻳﺮﺸﺗ ﺔﺌﻴﻫ ﻲﻫ §H$concept_galactic_community$§!"
+
+ # Singular: ['concept_galactic_council'] or §H$concept_galactic_council$§!
+ # Plural: -
+ concept_galactic_council: "ﺓﺮﺠﻤﻟﺍ ﺲﻠﺠﻣ"
+ concept_galactic_council_desc: ".ﺎﻫﺮﺴﻜﻟ ﺀﺎﻔﻌﻀﻟﺍ ﺮﻣﺂﺘﻳﻭ ﻢﻬﺘﻨﻤﻴﻫ ﺀﺎﻳﻮﻗﻷﺍ ﺦﺳﺮﻳ ﺚﻴﺣ ،ﺡﻮﻤﻄﻠﻟ ﺔﻘﺗﻮﺑ ﺢﺒﺼﻳ ﺎﻣ ﺎﺒﻟﺎﻏ ﻪﻧﺈﻓ ،ﺓﺮﺠﻤﻟﺍ ﻡﺎﻈﻧ ﺔﻳﺎﻤﺣ ﻰﻟﺇ ﺲﻠﺠﻤﻟﺍ ﻑﺪﻬﻳ ﺎﻤﻨﻴﺑﻭ .ﺔﻴﺒﺴﻨﻟﺍ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺓﻮﻘﻟﺍ ﻝﻼﺧ ﻦﻣ ﺔﻳﻮﻀﻌﻟﺍ ﺪﻳﺪﺤﺗ ﻊﻣ ،ﺮﻴﻴﻐﺘﻠﻟ ﺔﻠﺑﺎﻗﻭ ﺓﺩﻭﺪﺤﻣ ﺲﻠﺠﻤﻟﺍ ﺪﻋﺎﻘﻣ\n\n.ﺓﺮﺠﻤﻟﺍ ﻝﺎﻤﻋﺃ ﻝﻭﺪﺟ ﻪﻴﺟﻮﺗﻭ ،ﺕﺍﺭﺍﺮﻘﻟﺍ ﻲﻓ (ﻮﺘﻴﻔﻟﺍ) ﺾﻘﻨﻟﺍ ﻖﺣ ﻡﺍﺪﺨﺘﺳﺍﻭ ،ﺉﺭﺍﻮﻄﻟﺍ ﺕﺍﺀﺍﺮﺟﺇ ﺡﺍﺮﺘﻗﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺔﺻﺎﺧ ﺕﺍﺯﺎﻴﺘﻣﺎﺑ ﺲﻠﺠﻤﻟﺍ ﺀﺎﻀﻋﺃ ﻊﺘﻤﺘﻳ .['concept_diplomatic_weight'] ﺔﻄﺳﺍﻮﺑ ﺀﺎﻀﻋﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﻗﺃ ﻦﻣ ﻒﻟﺄﺘﺗﻭ ،['concept_galactic_community'] ﻞﺧﺍﺩ ﺔﺒﺨﻨﻟﺍ ﺓﺭﺍﺩﺇ ﺔﺌﻴﻫ ﻲﻫ §H$concept_galactic_council$§!"
+
+ # Singular: ['concept_favor'] or §H$concept_favor$§!
+ # Plural: ['concept_favors'] or §H$concept_favors$§!
+ concept_favor: "ﺢﻟﺎﺻ"
+ concept_favors: "ﻞﻀﻔﺗ"
+ concept_favor_desc: ".ﺕﺎﺿﻭﺎﻔﻤﻟﺍ ﻲﻓ ﺫﻮﻔﻧ ﺏﺎﺴﺘﻛﺍ ﻭﺃ ،ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﺎﺣﺮﺘﻘﻤﻟﺍ ﺰﻳﺰﻌﺗ ﻭﺃ ،ﺕﺍﻮﺻﻷﺍ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻠﻟ ﺕﻼﻴﻀﻔﺘﻟﺍ ﻕﺎﻔﻧﺇ ﻦﻜﻤﻳ\n\n.ﻊﺳﻭﻷﺍ ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺪﻬﺸﻤﻟﺍﻭ §H$concept_galactic_community$§! ﻞﺧﺍﺩ ﺔﻴﺳﺎﻴﺴﻟﺍ ﺔﻠﻤﻌﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﻞﻜﺷ ﺔﺑﺎﺜﻤﺑ ﻲﻫﻭ .ﺓﺮﺠﻤﻟﺍ ﺙﺍﺪﺣﺃ ﻲﻓ ﺔﻛﺭﺎﺸﻤﻟﺍ ﻝﻼﺧ ﻦﻣ ﻪﺑﺎﺴﺘﻛﺍ ﻢﺘﻳ ﺎﻣ ﺎﺒﻟﺎﻏﻭ ،ﻯﺮﺧﺃ ﻰﻟﺇ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻦﻣ ﻖﺤﺘﺴﻤﻟﺍ ﺫﻮﻔﻨﻟﺍ ﻦﻳﺩ ﻞﺜﻤﺗ ﺔﻴﺳﺎﻣﻮﻠﺑﺩ ﺕﺍﻭﺩﺃ ﻲﻫ §H$concept_favors$§!"
+
+ # Singular: ['concept_diplomatic_weight'] or §H$concept_diplomatic_weight$§!
+ # Plural: -
+ concept_diplomatic_weight: "ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻥﺯﻮﻟﺍ"
+ concept_diplomatic_weight_desc: ".ﺎﻬﺤﻟﺎﺼﻣ ﺰﻳﺰﻌﺘﻟ ﺓﺍﺩﺃﻭ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺔﻧﺎﻜﻤﻟ ﺎﺳﺎﻜﻌﻧﺍ ﻪﻠﻌﺠﻳ ﺎﻤﻣ ،ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﻲﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻥﺯﻮﻟﺍ ﺐﻠﻘﺘﻳ ﻥﺃ ﻦﻜﻤﻳ \n\n.ﻊﻤﺘﺠﻤﻠﻟ ﺺﺼﺨﻤﻟﺍ ['concept_envoys'] ﺩﺪﻋ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﺔﻳﺮﻜﺴﻌﻟﺍﻭ ﺔﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍﻭ ﺔﻳﺩﺎﺼﺘﻗﻻﺍ ﺓﻮﻘﻟﺍ ﻦﻣ ﻥﺯﻮﻟﺍ ﺍﺬﻫ ﻖﺘﺸﻳ .['concept_galactic_council'] ﺔﻳﻮﻀﻌﻟ ﺎﻬﺘﻴﻠﻫﺃﻭ ﺕﺍﺭﺍﺮﻘﻟﺍ ﻰﻠﻋ ﺎﻬﺘﻳﻮﺼﺗ ﺓﻮﻗ ﺩﺪﺤﻳﻭ ،['concept_galactic_community'] ﻞﺧﺍﺩ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺮﻴﺛﺄﺗ ﺲﻴﻘﻳ §H$concept_diplomatic_weight$§!"
+
+ # Singular: ['concept_first_contact'] or §H$concept_first_contact$§!
+ # Plural: ['concept_first_contacts'] or §H$concept_first_contacts$§!
+ concept_first_contact: "ﻝﻭﻷﺍ ﻝﺎﺼﺗﻻﺍ"
+ concept_first_contacts: "ﻰﻟﻭﻷﺍ ﺕﻻﺎﺼﺗﻻﺍ"
+ concept_first_contact_desc: ".ﻝﻮﻬﺠﻤﻟﺍ ﻩﺎﺠﺗ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻒﻗﻮﻣ ﺪﻳﺪﺤﺗﻭ ،ﺔﻠﻤﺘﺤﻤﻟﺍ ﺙﺩﺍﻮﺤﻟﺍ ﺓﺭﺍﺩﺇﻭ ،ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﻻﺎﺼﺗﻻﺍ ﺯﻮﻣﺭ ﻚﻓ §H$concept_first_contact$§! ﺔﻴﻠﻤﻋ ﻦﻤﻀﺘﺗ\n\n .ﻢﻬﺗﺎﻓﺮﺼﺗﻭ ﻦﻴﻃﺭﻮﺘﻤﻟﺍ ﺔﻌﻴﺒﻃ ﻰﻠﻋ ﺍﺩﺎﻤﺘﻋﺍ ،ﻉﺍﺮﺼﻟﺍ ﻭﺃ ﻚﺸﻟﺍ ﻭﺃ ['concept_diplomacy'] ﻰﻟﺇ ﻩﺬﻫ ﻒﺸﻜﻟﺍ ﺕﺎﻈﺤﻟ ﻱﺩﺆﺗ ﻥﺃ ﻦﻜﻤﻳ .ﻞﺒﻗ ﻦﻣ ﺔﻓﻭﺮﻌﻣ ﻦﻜﺗ ﻢﻟ ﺕﺍﺭﺎﻀﺣ ﻦﻴﺑ ﻲﻟﻭﻷﺍ ﺀﺎﻘﻠﻟﺍ ﻰﻟﺇ §H$concept_first_contact$§! ﺮﻴﺸﻳ"
+
+# Singular: ['concept_workforce'] or §H$concept_workforce$§!
+ # Plural: -
+ concept_workforce: "ﺔﻠﻣﺎﻌﻟﺍ ﻯﻮﻘﻟﺍ"
+ concept_workforce_desc: ".ﺡﺎﺘﻤﻟﺍ ['concept_jobs'] £job£ ﺀﻞﻤﻟ ﻚﻟﺫ ﺪﻌﺑ ﺎﻬﺼﻴﺼﺨﺗ ﻢﺘﻳ ﻲﺘﻟﺍﻭ ،ﺐﻛﻮﻜﻠﻟ §H$concept_workforce$§! ﻲﻓ ﺔﻋﻮﻤﺠﻣ ﻞﻛ ﻢﻫﺎﺴﺗ .['concept_ethics']ﻭ ﺔﻴﻋﺎﻤﺘﺟﻻﺍ ﺕﺎﻘﺒﻄﻟﺍﻭ ['concept_species'] ﻞﺜﻣ ﺔﻛﺮﺘﺸﻤﻟﺍ ﺺﺋﺎﺼﺨﻟﺍ ﻰﻠﻋ ﺀﺎﻨﺑ ﺕﺎﻋﻮﻤﺠﻣ ﻲﻓ ['concept_pops'] £pop£\n\n ﻢﻴﻈﻨﺗ ﻢﺘﻳ .ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﻤﻌﻟ ﺔﻴﺳﺎﺳﻷﺍ ﺔﻔﻠﺘﺨﻤﻟﺍ ﻡﺎﻬﻤﻟﺍ ﺀﺍﺩﻷ ﻦﻴﺣﺎﺘﻤﻟﺍ ﺩﺍﺮﻓﻷﺍ ﺩﺪﻋ ﺲﻜﻌﻳ ﺎﻤﻣ ،['concept_colony'] £colony£ ـﻟ ﺔﻴﻋﺎﻤﺠﻟﺍ ﻞﻤﻌﻟﺍ ﺓﺭﺪﻗ §H$concept_workforce$§! ﻞﺜﻤﻳ"
+
+ # Singular: £zone£ ['concept_district_specialization'] or £zone£ §H$concept_district_specialization$§!
+ # Plural: £zone£ ['concept_district_specializations'] or £zone£ §H$concept_district_specializations$§!
+ concept_district_specialization: "$planet_zone$"
+ concept_district_specializations: "$planet_zones$"
+ concept_district_specialization_desc: ".ﺔﻴﻓﺎﺿﻹﺍ ['concept_buildings'] £building£ ـﻟ ﺔﺣﺎﺴﻣ ﺎﻬﻤﻈﻌﻣ ﻒﻴﻀﻳﻭ ،['concept_district'] £district£ ﻞﻛ ﻦﻣ ﺔﻣﺪﻘﻤﻟﺍ ['concept_jobs'] £job£ ﺔﻘﻄﻨﻤﻟﺍ ﺕﺎﺼﺼﺨﺗ ﺩﺪﺤﺗ"
+ concept_district_specializations_desc: "$concept_district_specialization_desc$"
+
+ # Singular: -
+# Plural: £strategic_resource£ ['concept_strategic_resources'] or £strategic_resource£ §H$concept_strategic_resources$§!
+ concept_strategic_resources: "ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﺩﺭﺍﻮﻤﻟﺍ"
+ concept_strategic_resources_desc: "- $tt_market$\nﺔﻄﺒﺗﺮﻤﻟﺍ ﻲﻧﺎﺒﻤﻟﺍ ﺀﺎﺸﻧﺇ -\n§H$zone_foundry_plural$§! £zone£ ﻭﺃ §H$zone_industrial_plural$§! £zone£.$tt_gain$- Build ['concept_megastructures']ﻭ ['concept_starbases']ﻭ ['concept_military_ships']ﻭ ['concept_civilian_ships'] ﺀﺎﺸﻧﻹ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍﻭ ﺓﺭﺩﺎﻨﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻢﺘﻳ ،ﻯﺮﺧﺃ ﺀﺎﻴﺷﺃ ﻦﻴﺑ ﻦﻣ .ﺹﺎﺧ ﻞﻜﺸﺑ ﺔﻣﺪﻘﺘﻣ ﺕﺎﻘﻴﺒﻄﺗ ﻊﻣ ﺔﻨﻴﻌﻣ ﺔﺌﻓ ﻰﻠﻋ ﺓﺭﻮﺼﻘﻣ ﻭﺃ ﺔﻤﻴﻗ ﺮﺜﻛﺃ ﺩﺍﻮﻣ ﻲﻫ §Hﺓﺭﺩﺎﻨﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ§!\n\n.§H$rare_crystals$§! £rare_crystals£ﻭ §H$exotic_gases$§! £exotic_gases£، §H$volatile_motes$§! £volatile_motes£ ﺔﻠﺜﻣﻷﺍ ﻞﻤﺸﺗﻭ\n\n.ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﺒﻛﺮﻤﻟﺍ ﺔﻤﻈﻧﺃﻭ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍﻭ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺕﺎﻴﻨﻘﺘﻠﻟ ﺔﻐﻟﺎﺑ ﺔﻴﻤﻫﺃ ﺕﺍﺫ ﺔﻳﻮﻗﻭ ﺓﺭﺩﺎﻧ ﺩﺍﻮﻣ ﻲﻫ §H$concept_strategic_resources$§! £strategic_resource£"
+ concept_strategic_resources_tooltip: "§Gﺔﻤﺋﺎﻘﻟﺍ ﻊﻴﺳﻮﺘﻟ ﺔﻤﺋﺎﻘﻟﺍ ﻲﻓ £strategic_resource£ ﻕﻮﻓ ﺮﻘﻧﺍ\nﺕﺎﻧﺎﻴﺒﻟﺍ ﻚﻨﺑ ﺢﺘﻔﻟ ['concept_strategic_resources'] ﻕﻮﻓ ﺮﻘﻧﺍ§!\n\n$concept_strategic_resources_desc$"
+
+ POLICY_OPTION_CONCEPT_BODY: "['policy:$POLICY$:$OPTION$',$OPTION_NAME$]-"

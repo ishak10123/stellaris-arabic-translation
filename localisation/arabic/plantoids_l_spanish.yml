@@ -1,0 +1,335 @@
+﻿l_spanish:
+ ########################
+ # Plantoids Species Pack
+ ########################
+
+ PLANTOID_TITLE: "ﺔﻴﺗﺎﺒﻨﻟﺍ ﻉﺍﻮﻧﻷﺍ ﺔﻣﺰﺣ" # Do not translate
+ DLC_PLANTOID_RECOMMENDATION_DESC:1 ".ﺓﺮﺠﻤﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺭﻭﺬﺟ ﺎﻬﻟ ،ﺔﻴﻋﺍﻭ ﺕﺎﺗﺎﺒﻨﻟ ﺭﻮﺻ ﻰﻠﻋ ﻱﻮﺘﺤﻳ (DLC) ﻞﻳﺰﻨﺘﻠﻟ ﻞﺑﺎﻗ ﻯﻮﺘﺤﻣ ﻦﻋ ﺓﺭﺎﺒﻋ §SPlantoid Species Pack§!"
+ DLC_PLANTOID_RECOMMENDATION_PLANTS_REC:1 ".ﻲﺗﺎﺒﻨﻟﺍ ﺎﻬﻋﻮﺿﻮﻣ ﺐﺳﺎﻨﺗ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻩﺬﻫ ﻥﻷ §SPlantoid Species Pack§! ﻡﺍﺪﺨﺘﺳﺎﺑ ﻲﺻﻮﻧ ﻦﺤﻧ"
+
+ ### Fruitful Partnership Origin
+ ## By Giada Zavarise
+
+ feeding_station: "ﺔﻬﻛﺎﻔﻟﺍ ﺔﻘﻳﺪﺣ"
+ feeding_station_plural: "ﺔﻬﻛﺎﻔﻟﺍ ﻖﺋﺍﺪﺣ"
+
+ origin_fruitful: "ﺓﺮﻤﺜﻤﻟﺍ ﺔﻛﺍﺮﺸﻟﺍ"
+ origin_fruitful_desc: ".ﺔﻳﺭﺎﻤﻌﺘﺳﻻﺍ ﻢﻫﺩﻮﻬﺟ ﻲﻓ ﺓﺪﻋﺎﺴﻤﻠﻟ ﺭﻭﺬﺒﻟﺍ ﻲﻋﺯﻮﻣ ﻱﺮﻐﺗ ﺎﻬﻧﺈﻓ ،ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻩﺬﻬﻟ ﺎﻫﺭﺎﻤﺛ ﻢﻳﺪﻘﺗ ﻝﻼﺧ ﻦﻣ .ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻊﻣ ﺍﺪﻳﺮﻓ ﺍﺭﺯﺂﺗ ﺀﺍﺮﻀﺨﻟﺍ ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻫ ﺕﺭﻮﻃ ﺪﻘﻟ"
+ origin_tooltip_fruitful_effects: "ﺭﻭﺎﺠﻣ ﻡﺎﻈﻧ ﻲﻓ ['concept_tiyanki' ]- $HOME_SYSTEM$ \n['concept_seed_bombing' ]- $AVAILABLE_BOMBARDMENT_STANCE$ \n ['concept_sm_feeder', Starseed Gardens]- $AVAILABLE_STARBASE_BUILDINGS$ \n ﺓﺮﺠﻤﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ['concept_seed_pod', Seed Pods] ﻖﻳﺮﻔﺗ :ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ -"
+ civic_tooltip_hive_xenophile_or_pacifist: "§YGestalt Consciousness§! ﻭﺃ §YPacifist§! ﻭﺃ §YXenophile§! ﻦﻣ ﺎﻣ ﺔﺟﺭﺩ ﻙﺎﻨﻫ ﻞﻫ"
+
+ START_SCREEN_FRUITFUL_PLANTOID: ".ﺎﻨﺘﻘﻳﺪﺣ ﻥﻮﻜﺗ ﺓﺮﺠﻤﻟﺍ ﻉﺩ .ﺮﺸﺘﻨﺗ ﺎﻧﺭﻭﺬﺑ ﻉﺩ\n\n.ﺔﺒﻳﺮﻏ ﺱﻮﻤﺷ ﻢﻬﯩﻋﺮﺗﻭ ﻥﻭﺮﻫﺩﺰﻴﺳ ﺚﻴﺣ ،ﺓﺪﻴﻌﺑ ﻢﻟﺍﻮﻋ ﻰﻟﺇ ﺎﻨﻟﺎﻔﻃﺃ ﻥﻮﻠﻤﺤﻴﺳﻭ .ﺎﻨﻗﺍﺭﻭﺃ ﻥﻮﻋﺮﻳ ﻢﻬﻧﺇ .ﺎﻧﺭﺎﻤﺛ ﻥﻮﻐﻀﻤﻳ ﻢﻬﻧﺇ .ﻍﺍﺮﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺣ ﻊﻣ ﺎﻀﻳﺃ ﻞﺻﺍﻮﺘﻧ ﻥﺃ ﻲﻌﻴﺒﻄﻟﺍ ﻦﻣ ﻥﺎﻛ ،ﺀﺎﻤﺴﻟﺍ ﻰﻟﺇ ﻞﺼﺗ ﻲﺘﻟﺍ ﻉﻭﺮﻔﻟﺍﻭ ،ﺎﻨﺴﻔﻧﺃ ﻉﻼﺘﻗﺍ ﺖﻗﻭ ﻦﻴﺤﻳ ﺎﻣﺪﻨﻋ ﻚﻟﺬﻟ .[GetHomeWorldName] ﺮﺒﻋ ﺎﻨﻋﺍﻮﻧﺃ ﺮﺸﻨﻟ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻊﻣ ﺎﻨﻠﻤﻋ ،ﻖﻴﺤﺳ ﻦﻣﺯ ﺬﻨﻣ\n\n.ﺍﺪﻳﺪﺟ ﻻﺰﻨﻣ ﺍﻭﺪﺟﻭ ﺪﻗ ﻚﻟﺎﻔﻃﺃ ﻥﺃ ﻑﺮﻌﺘﺳ ،ﺮﺠﺸﻟﺍ ﻕﺍﺭﻭﺃ ﻒﻴﻔﺣ ﺕﻮﺻ ﺢﻳﺮﻟﺍ ﻚﻟ ﺐﻠﺠﺗ ﺎﻣﺪﻨﻋﻭ .ﺔﻴﺒﻨﺟﺃ ﺽﺭﺃ ﻲﻓ ﻢﻫﺭﻭﺬﺟ ﻦﻓﺩ ﻦﻣ ﻚﺘﻳﺭﺫ ﻦﻜﻤﺘﻳ ﻰﺘﺣ ،ﺓﺪﻴﻌﺒﻟﺍ ﻲﺿﺍﺭﻷﺍ ﻰﻟﺇ ﺭﻭﺬﺒﻟﺍﻭ ﺡﺎﻘﻠﻟﺍ ﺏﻮﺒﺣ ﻥﻮﻠﻤﺤﻳ ﻢﻬﻋﺩ .ﻚﻗﺍﺭﻭﺃ ﻞﻇ ﻲﻓ ﻢﺤﺘﺴﺗﻭ ،ﻙﺭﺎﻤﺛ ﻰﻠﻋ ﻯﺬﻐﺘﺗﻭ ،ﻙﺭﻮﻫﺯ ﻢﺸﺗ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻉﺩ .ﺍﺪﻴﻌﺑ ﻚﻋﺎﺟﻭﺃ ﻥﻮﻠﻤﺤﻳ ﻦﻳﺮﺧﻵﺍ ﻉﺩ ،ﺔﺑﺮﻄﻀﻣ ﻮﻤﻨﺗ ﻚﺣﻭﺭ ﻦﻜﻟ ،ﺔﻘﻴﻤﻋ ﻙﺭﻭﺬﺟ ﺖﻧﺎﻛ ﺍﺫﺇ"
+ START_SCREEN_FRUITFUL_FUNGOID: ".ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺮﻄﻔﻟﺍ ﺔﻘﻳﺪﺣ ﻥﻮﻜﺗ ﺓﺮﺠﻤﻟﺍ ﻉﺩ .ﺮﺸﺘﻨﺗ ﺎﻨﻏﺍﻮﺑﺃ ﻉﺩ\n\n.ﺔﺒﻳﺮﻏ ﺱﻮﻤﺷ ﻢﻬﯩﻋﺮﺗﻭ ﻥﻭﺮﻫﺩﺰﻴﺳ ﺚﻴﺣ ،ﺓﺪﻴﻌﺑ ﻢﻟﺍﻮﻋ ﻰﻟﺇ ﺎﻨﻟﺎﻔﻃﺃ ﻥﻮﻠﻤﺤﻴﺳﻭ .ﺎﻨﻤﻴﺷﺎﻴﺧ ﻥﻮﻋﺮﻳ ﻢﻬﻧﺇ .ﺓﺮﻤﺜﻤﻟﺍ ﺎﻧﺩﺎﺴﺟﺃ ﻥﻮﻐﻀﻤﻳ ﻢﻬﻧﺇ .ﻍﺍﺮﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺣ ﻊﻣ ﺎﻀﻳﺃ ﻞﺻﺍﻮﺘﻧ ﻥﺃ ﻲﻌﻴﺒﻄﻟﺍ ﻦﻣ ﻥﺎﻛ ،ﺀﺎﻤﺴﻟﺍ ﻰﻟﺇ ﻉﺩﺎﻔﻀﻟﺍ ﻝﻮﺻﻭﻭ ،ﺎﻨﺴﻔﻧﺃ ﻉﻼﺘﻗﺍ ﺖﻗﻭ ﻦﻴﺤﻳ ﺎﻣﺪﻨﻋ ﻚﻟﺬﻟ .[GetHomeWorldName] ﺮﺒﻋ ﺎﻨﻋﺍﻮﻧﺃ ﺮﺸﻨﻟ ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻊﻣ ﺎﻨﻠﻤﻋ ،ﻖﻴﺤﺳ ﻦﻣﺯ ﺬﻨﻣ\n\n.ﺎﻨﻃﻮﻣ ﺍﻭﺪﺟﻭ ﺪﻗ ﻚﻟﺎﻔﻃﺃ ﻥﺃ ﻑﺮﻌﺘﺳ ،ﺓﺪﻳﺪﺠﻟﺍ ﺔﻳﺭﺬﺠﻟﺍ ﺕﺎﻳﺮﻄﻔﻟﺍ ﺔﻜﺒﺷ ﺕﺎﻀﺒﻧ ﺽﺭﻷﺍ ﻚﻟ ﺐﻠﺠﺗ ﺎﻣﺪﻨﻋﻭ .ﺔﻴﺒﻨﺟﺃ ﺽﺭﺃ ﻲﻓ ﻩﺭﻭﺬﺟ ﻦﻓﺩ ﻦﻣ ﻚﻠﺴﻧ ﻦﻜﻤﺘﻳ ﻰﺘﺣ ،ﺓﺪﻴﻌﺒﻟﺍ ﻲﺿﺍﺭﻷﺍ ﻰﻟﺇ ﻢﻴﺛﺍﺮﺠﻟﺍ ﻥﻮﻠﻤﺤﻳ ﻢﻬﻋﺩ .ﺮﻄﻔﻟﺍ ﺕﺎﻌﺒﻗ ﻞﻇ ﻲﻓ ﻢﺤﺘﺴﺗﻭ ،ﻚﻧﺎﻘﻴﺳ ﻰﻠﻋ ﻯﺬﻐﺘﺗﻭ ،ﻚﻤﻴﺛﺍﺮﺟ ﻢﺸﺗ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻉﺩ .ﺍﺪﻴﻌﺑ ﻚﻋﺎﺟﻭﺃ ﻥﻮﻠﻤﺤﻳ ﻦﻳﺮﺧﻵﺍ ﻉﺩ ،ﺔﺑﺮﻄﻀﻣ ﺖﺤﺒﺻﺃ ﻚﺣﻭﺭ ﻦﻜﻟ ،ﻚﺗﺎﻳﺮﻄﻓ ﺖﻘﻤﻌﺗ ﺍﺫﺇ"
+
+ ## Techs
+ sm_feeder: "ﻡﻮﺠﻨﻟﺍ ﺭﻭﺬﺑ ﺔﻘﻳﺪﺣ"
+ sm_feeder_desc: ".ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺏﺬﺠﻟ ﺎﻴﺛﺍﺭﻭ ﺔﻨﺴﺤﻤﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺎﺑ ﺔﺌﻴﻠﻣ ،ﺔﻴﻤﺠﻨﻟﺍ ﺎﻨﺗﺪﻋﺎﻘﻟ ﺀﺍﻮﻬﻟﺍ ﻦﻣ ﺔﻏﺮﻔﻣ ﺔﻘﻳﺪﺣ"
+ sm_feeder_tt: "ﺎﻬﻌﻳﺯﻮﺘﻟ §Yﺭﻭﺬﺒﻟﺍ ﺕﺎﺒﺣ §!$t$ﻊﻴﻤﺠﺗﻭ ،ﻡﻮﺠﻨﻟﺍ ﺓﺪﻋﺎﻗ ﻲﻓ ﻲﻋﺮﻠﻟ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺏﺬﺠﺗ \n:ﺕﺍﺮﻴﺛﺄﺘﻟﺍ"
+ sm_ring_feeder: "ﺔﻳﺭﺍﺪﻤﻟﺍ ﺔﻘﻳﺪﺤﻟﺍ"
+ sm_ring_feeder_desc: ".ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺏﺬﺠﻟ ﺔﻤﻤﺼﻣ ﺎﻴﺛﺍﺭﻭ ﺓﺯﺰﻌﻣ ﺔﻴﺗﺎﺒﻧ ﺓﺎﻴﺤﺑ ﺮﻫﺩﺰﺗ ،ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻳﺭﺍﺪﻤﻟﺍ ﺔﻘﻠﺤﻠﻟ ﺀﺍﻮﻬﻟﺍ ﻦﻣ ﺔﻏﺮﻔﻣ ﺔﻘﻳﺪﺣ"
+
+ tech_critter_feeder: "ﺔﻬﻛﺎﻔﻟﺍ ﻖﺋﺍﺪﺣ"
+ tech_critter_feeder_desc: ".ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺏﺬﺠﻟ ﺎﻴﺛﺍﺭﻭ ﺓﺯﺰﻌﻤﻟﺍﻭ ﺎﻴﺛﺍﺭﻭ ﺔﻟﺪﻌﻤﻟﺍ ﻪﻛﺍﻮﻔﻟﺎﺑ ﺔﺌﻴﻠﻣ ﺔﻏﺮﻔﻣ ﻖﺋﺍﺪﺣ"
+
+ sseeder: "ﻥﺎﺘﺴﺒﻟﺍ ﺔﻄﺤﻣ"
+
+ has_origin_fruitful_special_project_key: "§YSpecial Project§! ﻡﺍﺪﺨﺘﺳﺍ §Y$origin_fruitful$§! ﻞﺻﻷﺍ ﺕﺍﺫ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻺﻟ ﻦﻜﻤﻳ"
+
+ seeded_planet_0_modifier: "ﺔﻤﺋﺎﻨﻟﺍ ﺭﻭﺬﺒﻟﺍ ﻥﻭﺮﻗ"
+ seeded_planet_0_modifier_desc: ".ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﻖﻴﻤﻋ ﺕﺎﺒﺳ ﻲﻓ ﻦﻤﻜﺗ ﺎﻣﺎﻤﺗ ﻒﻠﺘﺨﻣ ﻲﺌﻴﺑ ﻡﺎﻈﻧ ﻦﻣ ﺔﺒﻳﺮﻏ ﺭﻭﺬﺑ"
+ seeded_planet_0_modifier_tooltip: "$has_origin_fruitful_special_project_key$ ﺐﻛﻮﻜﻟﺍ ﺭﺎﻤﻌﺘﺳﺍﻭ ﺭﻭﺬﺒﻟﺍ ﺕﺎﻨﺿﺎﺣ ﺢﺘﻔﻟ."
+ seeded_planet_1_modifier: "Xenoflora ﺔﻳﺯﺎﻐﻟﺍ"
+ seeded_planet_1_modifier_desc: ".ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻞﺤﻣ ﻞﺤﺘﻟ ،ﺎﻨﻫ ﺔﺒﺼﺧ ﺔﺑﺮﺗ ﻯﺮﺧﺃ ﺽﺭﺃ ﻦﻣ ﺭﻭﺬﺑ ﺕﺪﺟﻭ ﺪﻗﻭ"
+ seeded_planet_1_modifier_tooltip: "$has_origin_fruitful_special_project_key$ ﺏﺮﺤﻟﺍ ﺀﺎﻨﺛﺃ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺭﻮﻬﻈﻠﻟ ﺵﻮﻴﺠﻟﺍ ﺀﺎﻋﺪﺘﺳﻻ."
+ seeded_planet_2_modifier: "ﺔﻳﺯﺎﻐﻟﺍ ﺍﺭﻮﻠﻓﻮﻨﻳﺯ ﺕﺎﺗﺎﺒﻧ ﺮﺸﻧ"
+ seeded_planet_2_modifier_desc: ".ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻞﺤﻣ ﻞﺤﺗ ﺔﺒﺼﺧ ﺔﺑﺮﺗ ﻯﺮﺧﺃ ﺽﺭﺃ ﻦﻣ ﺍﺭﻭﺬﺑ ﺎﻨﻫ ﺕﺪﺟﻭ"
+ seeded_planet_2_modifier_tooltip: "$seeded_planet_1_modifier_tooltip$"
+ seeded_planet_3_modifier: "Xenoflora ﺔﻘﺣﺎﺴﻟﺍ ﺔﻳﺯﺎﻐﻟﺍ"
+ seeded_planet_3_modifier_desc: ".ﺔﻴﻠﺤﻤﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻞﺤﻣ ﻞﺤﺗ ﺔﺒﺼﺧ ﺔﺑﺮﺗ ﻯﺮﺧﺃ ﺽﺭﺃ ﻦﻣ ﺍﺭﻭﺬﺑ ﺎﻨﻫ ﺕﺪﺟﻭ"
+ seeded_planet_3_modifier_tooltip: "$seeded_planet_1_modifier_tooltip$"
+
+ MESSAGE_FRUITFUL_SEED_PLANTED_TITLE: "ﺔﻋﻭﺭﺰﻤﻟﺍ ﺭﻭﺬﺒﻟﺍ ﺔﻧﺮﻗ"
+ MESSAGE_FRUITFUL_SEED_PLANTED_OWNER: ".ﺓﺪﻳﺪﺟ ﺔﺑﺎﻏ ﺀﺎﺸﻧﺈﺑ ﺖﻣﺎﻗ ﺚﻴﺣ ،$SYSTEM|Y$ ﻡﺎﻈﻧ ﻲﻓ ،$PLANET|Y$ ﻰﻟﺇ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺭﻭﺬﺒﻟﺍ ﺕﻻﻮﺴﺒﻛ ﺀﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺣ ﺖﺒﻠﺟ"
+ MESSAGE_FRUITFUL_SEED_PLANTED_NO_OWNER: ".ﻢﻬﺤﺘﻔﻟ ﻦﻳﺪﻌﺘﺴﻣ ﺢﺒﺼﻧ ﻰﺘﺣ ﺕﺎﺒﺳ ﺔﻟﺎﺣ ﻲﻓ ﻥﻮﻠﻈﻳ ﻑﻮﺳ .$SYSTEM|Y$ ﻡﺎﻈﻧ ﻲﻓ ،$PLANET|Y$ ﻰﻟﺇ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺭﻭﺬﺒﻟﺍ ﺕﻻﻮﺴﺒﻛ Space Fauna ﺖﺒﻠﺟ"
+
+ MESSAGE_FRUITFUL_SEED_LOST_TITLE: "ﺭﻭﺬﺒﻟﺍ ﺏﺍﺮﺟ ﺕﺪﻘﻓ"
+ MESSAGE_FRUITFUL_SEED_LOST: ".ﻢﻫﺮﻴﻣﺪﺗ ﻢﺗ ﻢﻬﻧﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣ .$PLANET|Y$ ﻰﻠﻋ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺭﻭﺬﺒﻟﺍ ﺕﻻﻮﺴﺒﻜﺑ ﻝﺎﺼﺗﻻﺍ ﺎﻧﺪﻘﻓ ﺪﻘﻟ"
+
+ MESSAGE_FRUITFUL_SEED_CRITTER_TITLE: "ﺭﻭﺬﺒﻟﺍ ﺹﺎﺼﺘﻣﺍ"
+ MESSAGE_FRUITFUL_SEED_CRITTER: ".ﻡﻮﺠﻨﻟﺍ ﺮﺒﻋ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺭﻭﺬﺒﻟﺍ ﺕﻻﻮﺴﺒﻛ ﻞﻤﺤﺗ ﻥﻵﺍ ﻲﻫﻭ ،ﺎﻨﺘﻘﻳﺪﺣ ﺭﺎﻤﺛ $SYSTEM|Y$ ﺕﺭﺍﺯ ﻲﺘﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺣ ﺖﻠﻛﺃ"
+
+ OPEN_SEED_PODS_PROJECT: "[this.GetName] ﻰﻠﻋ ﺭﻭﺬﺒﻟﺍ ﺕﺎﻨﺿﺎﺣ ﺢﺘﻓﺍ"
+ OPEN_SEED_PODS_PROJECT_DESC: ".ﺓﺪﻳﺪﺟ ﺀﺍﺮﻀﺧ ﺓﺮﻤﻌﺘﺴﻣ ﻰﻟﺇ ﺔﻟﻮﻫﺄﻣ ﺮﻴﻏ ﺓﺮﺨﺻ ﻞﻳﻮﺤﺗﻭ ،ﺎﻫﻮﻤﻧ ﺰﻴﻔﺤﺗ ﺎﻨﻨﻜﻤﻳ ،ﺐﻛﻮﻜﻟﺍ ﻮﺤﻧ ﺰﻛﺮﻣ ﺔﻗﺎﻃ ﻉﺎﻌﺷ ﻪﻴﺟﻮﺗ ﻝﻼﺧ ﻦﻣﻭ .§H[this.GetName]§! ﻰﻟﺇ ﺔﻠﻣﺎﺨﻟﺍ ﺭﻭﺬﺒﻟﺍ ﺕﻻﻮﺴﺒﻛ ﺀﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺣ ﺖﺒﻠﺟ"
+
+ WEEDS_ARMY_PROJECT: "[this.GetName] ﻰﻠﻋ ﺵﻮﻴﺠﻟﺍ ﺀﺎﻨﺒﺑ ﻢﻗ"
+ WEEDS_ARMY_PROJECT_DESC: ".ﺎﻫﺮﺸﻧ ﻢﺘﻴﺳ ﻲﺘﻟﺍ ﺵﻮﻴﺠﻟﺍ ﺩﺪﻋ ﺩﺍﺯ ،ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ §HInvasive Xenoflora§! ﻯﻮﺘﺴﻣ ﻊﻔﺗﺭﺍ ﺎﻤﻠﻛ .§HXenofloran Armies§! ﻰﻟﺇ ﺔﺑﺎﻐﻟﺍ ﻞﻳﻮﺤﺗﻭ ،ﻮﻤﻨﻟﺍ ﺰﻴﻔﺤﺗ ﺎﻨﻨﻜﻤﻳ ،ﺐﻛﻮﻜﻟﺍ ﻮﺤﻧ ﺰﻛﺮﻣ ﺔﻗﺎﻃ ﻉﺎﻌﺷ ﻪﻴﺟﻮﺗ ﻝﻼﺧ ﻦﻣ .§H[this.owner.GetName]§! ﺔﻄﺳﺍﻮﺑ ﺎﻬﺑ ﺔﻳﺎﻨﻌﻟﺍﻭ ﺎﻬﺘﻋﺍﺭﺯ ﺖﻤﺗ ﺚﻴﺣ §H[this.GetName]§! ﻰﻟﺇ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺭﻭﺬﺒﻟﺍ ﺕﻻﻮﺴﺒﻛ ﺀﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺣ ﺖﺒﻠﺟ"
+
+ FRUITFUL_SEED_POD: "ﺭﻭﺬﺒﻟﺍ ﺏﺍﺮﺟ"
+
+ fruitful_army: "ﻥﺍﺭﻮﻠﻓﻮﻨﻳﺯ ﺶﻴﺟ"
+ fruitful_army_desc: ".ﺔﺑﺭﺎﺿﻭ ﺔﻠﻴﻘﺛ ﺔﺤﻠﺳﺄﻛ ﻢﻫﺭﻭﺬﺟ ﻦﻴﻠﻣﺎﺣ ﻥﻭﺮﻴﺴﻳ ،ﻢﻬﻋﻼﺘﻗﺍ ﺩﺮﺠﻤﺑﻭ .ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺔﻤﺋﺎﻨﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻩﺬﻫ ﺓﺮﻔﺸﻣ ﺓﺭﺎﺷﺇ ﺖﻈﻘﻳﺃ"
+
+ # Events
+ origin.7100.name: "ﺭﻭﺬﺒﻟﺍ ﺖﺘﺸﺗ"
+ origin.7100.desc: ".ﺓﺮﻤﻌﺘﺴﻣ ﺔﻨﻴﻔﺳ ﻝﺎﺳﺭﺇ ﻰﻟﺇ ﺔﺟﺎﺤﻟﺍ ﻥﻭﺩ ﺓﺪﻳﺪﺟ ﺐﻛﺍﻮﻛ ﻲﻓ ﻦﻜﺴﻟﺎﺑ ﺎﻨﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺎﻬﻄﻴﺸﻨﺘﻟ ﺔﻗﺎﻃ ﻉﺎﻌﺷ ﻪﻴﺟﻮﺗ ﻰﻟﺇ ﻂﻘﻓ ﺝﺎﺘﺤﻧ .ﺎﻨﺒﻌﺸﻟ ﺓﺪﻳﺪﺟ ﺔﻘﻳﺪﺣ ﺀﺎﺸﻧﻹ ﻪﻧﻮﺟﺎﺘﺤﻳ ﺎﻣ ﻞﻛ ﻢﻬﻳﺪﻟ ﻥﻮﻜﻴﺳ ﺚﻴﺣ §Hﺭﺎﻤﻌﺘﺳﻼﻟ ﻞﺑﺎﻗ ﺐﻛﻮﻛ§! ﻰﻠﻋ ﺎﻧﺭﻭﺬﺑ ﻂﻘﺴﺘﺳ ،ﻆﺤﻟﺍ ﻦﻣ ﻞﻴﻠﻘﻟﺍ ﻊﻣ .ﺎﻫﺮﻔﺳ ﺀﺎﻨﺛﺃ ﺎﻬﻌﻣ §YSeed Pods§! ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻞﻤﺤﺘﺳ :ﺓﺮﺠﻤﻟﺍ ﻕﺎﻄﻧ ﻰﻠﻋ ﻢﻳﺪﻘﻟﺍ ﻕﺎﻔﺗﻻﺍ ﺍﺬﻫ ﺭﺍﺮﻜﺗ ﻢﺗ ،ﻥﻵﺍ .ﺎﻧﺭﻭﺬﺑ ﺍﻮﻠﻤﺣ ،ﻞﺑﺎﻘﻤﻟﺍ ﻲﻓﻭ .ﺎﻨﺒﻛﻮﻛ ﻰﻠﻋ ﺕﺎﻧﺍﻮﻴﺤﻠﻟ ﻞﻈﻟﺍﻭ ﺔﻬﻛﺎﻔﻟﺍ ﺎﻨﻣﺪﻗ ،ﻖﻴﺤﺳ ﻦﻣﺯ ﺬﻨﻣ\n\n.ﺎﻨﻘﻠﻗ ﺩﺪﺒﺗ ،ﻰﻟﻭﻷﺍ ﺔﺣﺎﻔﺘﻟﺍ ﺍﻮﻤﻀﻗ ﻥﺃ ﺩﺮﺠﻤﺑ ؟ﺎﻨﺘﺑﺩﺄﻣ ﻍﺍﺮﻔﻟﺍ ﻲﻓ ﻥﻮﻨﻛﺎﺴﻟﺍ ﺀﻻﺆﻫ ﺭﺪﻘﻴﺳ ﻞﻫ ﻦﻜﻟ .ﺔﻌﺋﺍﺮﻟﺍ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻩﺬﻫ ﺪﻠﺠﺑ ﻕﺎﺼﺘﻟﻼﻟ ﺓﺰﻫﺎﺟ ،ﺔﺟﺰﻠﻟﺍ ﺭﻭﺬﺒﻟﺍ ﻥﻭﺮﻗﻭ ﻪﻛﺍﻮﻔﻟﺍﻭ ﺭﻮﻫﺰﻟﺎﺑ ﺎﻫﺎﻧﻸﻣ ﺪﻘﻟ .ﺔﻘﻳﺪﺣ ﺀﺎﻨﺒﺑ ﺎﻨﻤﻗ ،ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻞﺟﺃ ﻦﻣ"
+ origin.7100.tooltip: ".ﺍﺭﻮﺒﺻ ﻦﻛ .ﻦﻜﺴﻠﻟ ﺢﻟﺎﺻ ﺐﻛﻮﻛ ﻰﻠﻋ §HSeed Pod§! ﺓﺭﺩﺎﻐﻣ ﺔﺻﺮﻓ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻠﻟ ﺡﺎﺘﺘﺳ ،ﺪﻳﺪﺟ ﻡﺎﻈﻧ ﻰﻟﺇ ﻝﻮﺧﺪﻟﺍ ﺪﻨﻋ"
+
+ origin.7304.name: "ﻖﺴﻨﻤﻟﺍ ﺖﺘﺸﺘﻟﺍ"
+ origin.7304.desc: ".ﺔﻘﻳﺪﺣ ﺪﻳﺪﺟ ﻢﻟﺎﻋ ﺀﺎﺸﻧﻹ §Hﺭﺎﻤﻌﺘﺳﻼﻟ ﺔﻠﺑﺎﻘﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ§! ﻰﻟﺇ ﺓﺮﺷﺎﺒﻣ ﺎﻬﻟﺎﺳﺭﺇ ﻚﻟﺫ ﺪﻌﺑ ﺎﻨﻨﻜﻤﻳ ﻲﺘﻟﺍﻭ ،ﺎﻨﺗﺮﻴﻈﺣ ﻞﺧﺍﺩ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻰﻠﻋ ﺭﻭﺬﺒﻟﺍ ﻊﻳﺯﻮﺘﺑ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ §YStarseed Gardens§! ﻡﻮﻘﺘﺳ\n\n.ﺎﻨﻠﻴﻃﺎﺳﺃ ﻰﻟﺇ ﺍﺮﺧﺆﻣ ﺍﻮﻤﻀﻧﺍ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻊﻣ ﺔﻴﻗﻮﺛﻮﻣ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﻚﻟﺬﺑ ﻡﺎﻴﻘﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻪﻧﺃ ﻻﺇ ،§Yﺭﻭﺬﺒﻟﺍ ﺭﻭﺬﺑ§! ﺮﺸﻨﻟ ﺔﻳﺮﺒﻟﺍ ﺀﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺣ ﻰﻠﻋ ﺩﺎﻤﺘﻋﻻﺍ ﻊﻴﻄﺘﺴﻧ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+
+ origin.7321.name: "ﻩﺭﺎﻤﺛ ﻲﺗﺆﻳ ﺮﺒﺼﻟﺍ"
+ origin.7321.desc: ".ﺭﻭﺬﺠﻟﺍ ﺮﻔﺣ ﻲﻓ ﺎﺜﻳﺪﺣ ﺩﻮﻟﻮﻤﻟﺍ [root.GetSpeciesNamePlural] ﺃﺪﺑﻭ ،§H[from.GetName]§! ﻰﻠﻋ ﺎﻨﺑ ﺹﺎﺨﻟﺍ §YSeed Pod§! ﺡﺎﺘﺘﻓﺍ ﻢﺗ"
+
+ origin.7326.name: "ﺔﻀﻣﺎﻐﻟﺍ ﺭﻭﺬﺒﻟﺍ"
+ origin.7326.desc.base: ".ﺔﻳﺭﺎﻤﻌﺘﺳﻻﺍ ﺎﻧﺩﻮﻬﺟ ﺕﺪﻋﺎﺳﻭ ﺓﺪﻳﺪﺟ ﺔﺑﺎﻐﺑ ﺐﻛﻮﻜﻟﺍ ﺖﻔﻠﻏﻭ ،ﺔﻋﺮﺴﺑ ﺭﻭﺬﺒﻟﺍ ﺕﺭﻮﻄﺗ ،ﺀﺎﻤﻟﺍﻭ ﺀﻮﻀﻟﺍ ﻦﻣ ﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ ﻊﻣ .ﻲﻠﺤﻤﻟﺍ ﻲﺌﻴﺒﻟﺍ ﻡﺎﻈﻨﻟﺍ ﻦﻣ ﺀﺰﺟ ﺎﻬﻧﺃ ﻭﺪﺒﻳ ﻻ ﻲﺘﻟﺍ ﺭﻭﺬﺒﻟﺎﺑ [this.GetName] ﺔﺑﺮﺗ ﺊﻠﺘﻤﺗ"
+ origin.7326.desc.knowowner: ".§Y[seeds_owner.GetName]§! ﺔﻄﺳﺍﻮﺑ ﺎﻴﺟﻮﻟﻮﻴﺑ ﺔﺳﺪﻨﻬﻤﻟﺍﻭ ﻮﻤﻨﻟﺍ ﺔﻌﻳﺮﺳ ﺭﻭﺬﺒﻟﺍ ﻩﺬﻫ ﺮﻳﻮﻄﺗ ﻢﺗ ،ﻲﻨﻴﺠﻟﺍ ﺎﻨﻠﻴﻠﺤﺘﻟ ﺎﻘﻓﻭ\n\n$origin.7326.desc.base$"
+ origin.7326.desc.notknowowner: "$origin.7326.desc.base$. ﺔﺒﻳﺮﻐﻟﺍ ﺔﺑﺮﺘﻟﺍ ﻲﻓ ﺔﻋﺮﺴﺑ ﺦﺳﺮﺘﺘﻟ ﺎﻴﺟﻮﻟﻮﻴﺑ ﺎﻴﺳﺪﻨﻫ ﺔﻤﻤﺼﻣﻭ ،ﺔﻴﻋﺎﻨﺻ ﺔﻌﻴﺒﻃ ﺕﺍﺫ ﺎﻬﻧﺇ :ﺪﻛﺆﻣ ﺪﺣﺍﻭ ﺀﻲﺷ ﻙﺎﻨﻫ ﻦﻜﻟﻭ ،ﺭﻭﺬﺒﻟﺍ ﻞﺻﺃ ﺪﻳﺪﺤﺗ ﻦﻣ ﺎﻧﺅﺎﻤﻠﻋ ﻦﻜﻤﺘﻳ ﻢﻟ."
+ origin.7326.a.desc: ".ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ §Y$decision_uproot_weed$§! ﺭﺍﺮﻗ ﺢﺘﻔﻳ"
+
+ origin.7327.name: "$origin.7326.name$"
+ origin.7327.desc.base: ".ﺎﺜﻳﺪﺣ ﻦﻴﻈﻘﻴﺘﺴﻤﻟﺍ ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ ﻰﻟﺇ ﺔﻴﺳﺎﺳﻷﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ،ﺓﺪﻳﺪﺟ ﺓﺮﻤﻌﺘﺴﻣ ﺀﺪﺒﻟ ﺕﺎﻳﺭﻭﺮﻀﻟﺍ ﻊﻴﻤﺟ ﻰﻠﻋ ﻱﻮﺘﺤﻳ ﺭﻭﺬﺑ ﺏﺍﺮﺟ :ﺓﺮﻤﻌﺘﺴﻣ ﺔﻨﻴﻔﺳ ﻪﺒﺸﻳ ﻂﻗﺎﺴﻟﺍ ﻢﺴﺠﻟﺍ ﻥﺎﻛ .ﺔﻓﻮﻟﺄﻤﻟﺍ ﺮﻴﻏ ﺓﺮﻀﺨﻟﺎﺑ ﺔﺌﻴﻠﻣ ﺎﻫﺪﺠﻨﻟ ،ﻡﺎﻄﺗﺭﻻﺍ ﻦﻋ ﺔﺠﺗﺎﻨﻟﺍ ﺓﺮﻔﺤﻟﺍ ﻰﻟﺇ ﺔﻋﺮﺴﺑ ﺎﻨﻠﺻﻭ .[this.GetName] ﺢﻄﺳ ﻰﻠﻋ ﻁﻮﻘﺴﻟﺎﺑ ﻝﻮﻬﺠﻣ ﻢﺴﺠﻟ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻦﻣ ﻊﻴﻄﻗ ﺢﻤﺳ ،[this.solar_system.GetName] ﻡﺎﻈﻧ ﺮﺒﻋ ﺭﻭﺮﻤﻟﺍ ﺀﺎﻨﺛﺃ"
+ origin.7327.desc.knowowner: ".§Y[seeds_owner.GetName]§! ﺔﻄﺳﺍﻮﺑ ﺔﻳﺩﺎﻌﻟﺍ ﺮﻴﻏ ﺭﻭﺬﺒﻟﺍ ﻩﺬﻫ ﺮﻳﻮﻄﺗ ﻢﺗ ،ﻲﻨﻴﺠﻟﺍ ﺎﻨﻠﻴﻠﺤﺘﻟ ﺎﻘﻓﻭ\n\n$origin.7326.desc.base$"
+ origin.7327.desc.notknowowner: ".ﺭﻭﺬﺒﻟﺍ ﺎﻬﻨﻣ ﺖﺘﺒﻧﺍ ﻲﺘﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻊﻣ ﻊﻳﺮﺳ ﻝﺎﺼﺗﺍ ﺔﻣﺎﻗﺇ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﺭﻭﺬﺒﻟﺍ ﺕﻻﻮﺴﺒﻛ ﻲﻓ ﺩﻮﺟﻮﻤﻟﺍ ﻝﺎﺼﺗﻻﺍ ﻡﺎﻈﻧ ﻞﻀﻔﺑ\n\n$origin.7326.desc.base$"
+ origin.7327.desc.moreseeds: ".ﻯﻮﻗﺃ ﻞﻜﺸﺑ ﺎﻨﺒﻛﻮﻛ ﻰﻠﻋ ﻞﻌﻔﻟﺎﺑ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺔﺒﻳﺮﻐﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻮﻤﻨﺗ"
+
+ origin.7328.name: "$origin.7321.name$"
+ origin.7328.desc: ".ﻊﺳﺍﻭ ﻕﺎﻄﻧ ﻰﻠﻋﻭ ﺍﺪﻴﻌﺑ ﻢﻫﺭﻭﺬﺟ ﺮﺸﺘﻨﺗ ﺪﻗ\n\n.ﺐﻛﻮﻜﻟﺍ ﺮﻳﻮﻄﺗ ﻰﻠﻋ ﺎﻨﻳﺮﻤﻌﺘﺴﻣ §YSeed Pod§! ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍﻭ ﺔﻴﻓﺎﺿﻹﺍ [root.owner.GetSpeciesNamePlural] ﺪﻋﺎﺴﺘﺳ .ﺔﺑﺮﺘﻟﺍ ﻲﻓ ﺎﻤﺋﺎﻧ ،ﻞﻌﻔﻟﺎﺑ ﻙﺎﻨﻫ ﻥﺎﻛ ﺎﻨﺒﻌﺷ ﻦﻜﻟ ،§H[from.GetName]§! ﻰﻠﻋ ﻮﺘﻠﻟ ﺎﻨﺗﺮﻤﻌﺘﺴﻣ ﺔﻨﻴﻔﺳ ﺖﻄﺒﻫ"
+
+ origin.7400.name: "!ﺮﻔﺨﻤﻟﺍ ﺮﺸﻧ ﻢﺗ"
+ origin.7400.desc: ".§Y[Root.GetStarName]§! ﻡﺎﻈﻧ ﻲﻓ ﻢﻜﺤﺘﻟﺍ ﻦﻣ ﻦﻜﻤﺘﻴﻟ ،ﻢﺠﻨﻟﺍ ﻝﻮﺣ §Y$starbase_outpost$§! §Y[Root.GetName]§! ﻰﻠﻋ ﺩﻮﺟﻮﻤﻟﺍ ﺪﻴﻌﺒﻟﺍ [owner.GetColonistPlural] ﺮﺸﻧ"
+
+ origin.7500.name: "ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻠﻟ ﺔﻣﻼﺴﻟﺍ"
+ origin.7500.desc: ".ﺔﻌﺋﺍﺮﻟﺍ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻩﺬﻫ ﺓﺎﻴﺣ ﺔﻳﺎﻤﺣ ﻲﻓ Galactic Community ﻲﻓ ﻮﺘﻠﻟ ﻩﺩﺎﻤﺘﻋﺍ ﻢﺗ ﻱﺬﻟﺍ ﺭﺍﺮﻘﻟﺍ ﺪﻋﺎﺴﻴﺳ ؛ﺩﻮﺟﻮﻟﺍ ﻲﻓ ﺎﻬﻘﺣ ﻡﺍﺮﺘﺣﺍ ﻲﻓ ﺎﻧﺪﺣﻭ ﺎﻨﺴﻟ ﺎﻨﻨﻜﻟ ،ﺎﻣ ﺪﺣ ﻰﻟﺇ ﺓﺪﻳﺮﻓ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﻣ ﺎﻨﺘﻗﻼﻋ ﻥﺇ"
+
+ origin.7510.name: "ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻰﻠﻋ ﺮﻄﺧ"
+ origin.7510.desc: ".ﺮﻄﺨﻠﻟ - ﺎﻨﺘﺸﻴﻌﻣﻭ - ﺎﻨﺋﺎﻗﺪﺻﺃ ﺶﻴﻋ ﻞﺒﺳ ﺽﺮﻌﻳ ﻮﺘﻠﻟ ﻩﻭﺬﺨﺗﺍ ﻱﺬﻟﺍ ﺭﺍﺮﻘﻟﺍ ﻥﺇ .ﻍﺍﺮﻔﻟﺍ ﻥﺎﻜﺴﻟ ﺎﻨﺒﺣ ﺎﻨﻧﻮﻛﺭﺎﺸﻳ ﺓﺮﺠﻤﻟﺍ ﻊﻤﺘﺠﻣ ﺀﺎﻀﻋﺃ ﻞﻛ ﺲﻴﻟ ﻦﻜﻟﻭ ،ﺎﻨﺋﺎﻗﺪﺻﺃ ﺎﻤﺋﺍﺩ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﺖﻧﺎﻛ ﺪﻘﻟ"
+
+ origin.7600.name: "ﻉﺭﺰﺗ ﺎﻣ ﺪﺼﺤﺗ ﺖﻧﺃ"
+ origin.7600.desc: ".ﺎﻧﻭﺰﻏ ﺀﺪﺒﻟ ﺏﻮﻠﻄﻤﻟﺍ ﺐﻛﻮﻜﻟﺍ ﻰﻟﺇ ﺔﻗﺎﻄﻟﺍ ﻉﺎﻌﺷ ﻪﻴﺟﻮﺗ ﻰﻟﺇ ﻂﻘﻓ ﺝﺎﺘﺤﻧ .ﻢﻬﺸﻴﺟ ﻪﻧﻮﻤﺴﻳ ﺎﻣ ﻖﻨﺧﻭ ﺎﻨﻜﻠﻣ ﻮﻫ ﺎﻣ ﺔﻳﺎﻤﺤﻟ ،ﺵﻮﻴﺟ ﻰﻟﺇ §HInvasive Xenoflora§! ﻞﻳﻮﺤﺗ ﺎﻨﻨﻜﻤﻳ ،ﺔﺟﺎﺤﻟﺍ ﺖﻋﺩ ﺍﺫﺇ .ﻢﻬﺿﺭﺃ ﻲﻓ ﻥﻮﻣﺎﻨﻳ ﺎﻧﺩﻮﻨﺟ\n\n.ﻙﺍﻮﺷﺃ ﺕﺎﺒﻨﻠﻟ ﻥﺃ ﻥﻮﺴﻨﻳ .ﺢﻳﺮﻟﺍ ﻩﻭﺭﺬﺗ ﻱﺬﻟﺍ ﺐﺼﻘﻟﺍ ﻞﺜﻣ ،ﻢﻬﺗﻮﻘﻟ ﻲﻨﺤﻨﻨﺳ ﺎﻨﻧﺃ ﺎﻧﺅﺍﺪﻋﺃ ﻦﻈﻳ"
+
+ origin.7710.name: "ﻉﺭﺰﺗ ﺎﻣ ﺪﺼﺤﺗ ﺖﻧﺃ"
+ origin.7710.desc: "!ﻡﻮﺠﻬﻠﻟ ﺽﺮﻌﺘﻳ ﺐﻛﻮﻜﻟﺍ .ﺶﻴﺟ ﻰﻟﺇ ﺖﻟﻮﺤﺗﻭ §H[from.GetName]§! ﻰﻠﻋ §HInvasive Xenoflora§! ﻑﺍﺮﻃﺃ ﺕﺮﻬﻇ ﺓﺄﺠﻓ"
+
+ MESSAGE_FRUITFUL_WEED_ARMY_TITLE: "ﺶﻴﺠﻟﺍ ﻖﺜﺒﻧﺍ"
+ MESSAGE_FRUITFUL_WEED_ARMY: ".ﺎﺸﻴﺟ ﺢﺒﺼﺘﻟ $PLANET|Y$ ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺭﻭﺬﺒﻟﺍ ﺖﻤﻧ ﺪﻘﻟ"
+
+ opinion_nice_forests: "ﺓﺪﻴﻔﻣ ﻥﻮﻴﻧﺎﺘﺴﺒﻟﺍ"
+ opinion_cut_our_forests: "ﺎﻨﺘﻘﻳﺪﺣ ﻊﻄﻗ"
+
+ opinion_voted_to_kill_tiyanki: "ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺀﺍﺬﻳﻹ ﺍﻮﺗﻮﺻ"
+ opinion_voted_to_help_tiyanki: "ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺔﻳﺎﻤﺤﻟ ﺍﻮﺗﻮﺻ"
+
+ fruitful_partnership_chain_title: "ﺭﻭﺬﺒﻟﺍ ﺖﺘﺸﺗ"
+ fruitful_partnership_chain_desc: ".ﺓﺪﻳﺪﺟ ﺓﺮﻤﻌﺘﺴﻣ ﻲﻓ ﺮﻫﺩﺰﺗ ﻥﺃ ﺎﻧﺭﻭﺬﺒﻟ ﻦﻜﻤﻳ ،ﻡﻮﺠﻨﻟﺍ ﺀﻮﺿ ﻦﻣ ﺔﺴﻤﻟ ﻊﻣ .ﺓﺪﻴﻌﺒﻟﺍ ﻲﺿﺍﺭﻷﺍ ﻰﻟﺇ §YSeed Pods§! ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻞﻤﺤﺘﺳ"
+
+ fruitful_partnership_war_chain_title: "ﺏﺮﺤﻟﺍ ﺭﻭﺬﺑ"
+ fruitful_partnership_war_chain_desc: ".ﺓﺪﻴﻌﺑ ﻑﺍﺪﻫﺃ ﻭﺰﻐﻟ ﻭﺃ ﺎﻨﺒﻛﺍﻮﻛ ﻦﻋ ﻉﺎﻓﺪﻠﻟ ﺓﺰﻫﺎﺟ ﺵﻮﻴﺟ ﻰﻟﺇ §YSeed Pods§! ﻝﻮﺤﺘﺗ ﻥﺃ ﻦﻜﻤﻳ ،ﺏﺮﺤﻟﺍ ﺕﺎﻗﻭﺃ ﻲﻓ"
+
+ decision_uproot_weed: "ﺓﺭﺎﻀﻟﺍ ﺏﺎﺸﻋﻷﺍ ﻉﻼﺘﻗﺍ"
+ decision_uproot_weed_desc: ".$seeded_planet_2_modifier$ ﺔﻟﺍﺯﺈﺑ ﻢﻗ"
+
+ ## Seed Bombing
+ bombardment_seed_bombing: "ﺭﻭﺬﺒﻟﺍ ﻒﺼﻗ"
+ bombardment_seed_bombing_desc: "ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ ﺕﺍﺮﺻﺎﺣ ﺪﻟﻮﻳ -\nﺔﻴﻤﺤﻤﻟﺍ ﺮﻴﻏ ﺐﻛﺍﻮﻜﻟﺍ ﻒﺼﻘﻳ ﻑﻮﺳ -\n§YPops§! ﻖﺤﻠﻳ ﻱﺬﻟﺍ ﺭﺮﻀﻟﺍ §ENo§!- \n§YPlanets§! ـﻟ ﺭﺮﺿ §HHeavy§!- \n§YArmies§! ـﻟ ﺭﺮﺿ §ENo§!- \n$bombardment_seed_bombing$ ﺮﺠﻔﺘﻣ ﻮﻤﻧ ﻲﻓ ﺐﺒﺴﺘﻳ ﺎﻤﻣ ،ﺐﻴﺼﺨﺘﻟﺍ ﺓﺪﻳﺪﺷ ﺭﻭﺬﺑ ﺕﺍﺮﻜﺑ ﺐﻛﻮﻜﻟﺍ ﻲﻄﻐﻳ. "
+
+ d_seed_bombing_plantoid_blocker: "ﺮﺠﻔﺘﻤﻟﺍ ﻥﺎﻔﻠﻴﺴﻟﺍ ﻮﻤﻧ £blocker£"
+ d_seed_bombing_plantoid_blocker_desc: ".ﺔﺒﻳﺮﻐﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺍ ﻦﻣ ﺭﺍﺮﻤﺘﺳﺎﺑ ﺔﻴﻣﺎﻨﺘﻣ ﺔﺑﺎﻐﺑ ﺓﺀﻮﺑﻮﻣ ﺐﻛﻮﻜﻟﺍ ﻦﻣ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ"
+
+ d_seed_bombing_fungoid_blocker: "ﺮﺠﻔﺘﻣ ﻱﺮﻄﻓ ﻮﻤﻧ £blocker£"
+ d_seed_bombing_fungoid_blocker_desc: ".ﺔﺒﻳﺮﻐﻟﺍ ﺕﺎﻳﺮﻄﻔﻟﺍ ﻦﻣ ﺭﺍﺮﻤﺘﺳﺎﺑ ﺔﻴﻣﺎﻨﺘﻣ ﺔﺑﺎﻐﺑ ﺓﺀﻮﺑﻮﻣ ﺐﻛﻮﻜﻟﺍ ﻦﻣ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ"
+
+ d_seed_bombing_blocker_custom_tooltip: "\n$d_decrepit_dwellings_custom_tooltip$"
+
+ origin.7201.name: "ﺮﺠﻔﺘﻤﻟﺍ ﻮﻤﻨﻟﺍ"
+ origin.7201.desc: ".ﻮﻤﻨﻟﺍ ﺔﻌﻳﺮﺳ ﺔﻋﻭﺭﺰﻤﻟﺍ ﺕﺎﺗﺎﺒﻨﻟﺎﺑ [this.GetPlanetHabitat] ﺀﻞﻣﻭ ﻲﻧﺎﺒﻤﻟﺍ ﺮﻴﻣﺪﺗﻭ ﺕﺎﻴﺿﺭﻷﺍ ﻖﻘﺸﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻥﺎﻜﻣ ﻞﻛ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﺑﺎﻏ ﻮﻤﻨﺗ .ﺐﻴﺼﺨﺘﻟﺍ ﺓﺪﻳﺪﺷ ﺭﻭﺬﺒﻟﺍ ﻦﻣ ﺕﺍﺮﻜﺑ ﻒﺼﻘﻠﻟ §H[this.GetName]§! ﻲﻓ ﺔﻌﻗﺍﻮﻟﺍ ﺎﻨﺗﺮﻤﻌﺘﺴﻣ ﺽﺮﻌﺘﺗ"
+ MESSAGE_FRUITFUL_SEED_BOMBING_TITLE: "ﺭﻭﺬﺒﻟﺍ ﻒﺼﻗ"
+ MESSAGE_FRUITFUL_SEED_BOMBING: ".$PLANET|Y$ ﻰﻠﻋ ﺓﺪﻳﺪﺟ ﺮﻈﺣ ﺓﺍﺩﺃ ﺀﺎﺸﻧﺇ ﻰﻟﺇ ﺭﻭﺬﺒﻟﺍ ﻒﺼﻗ ﻯﺩﺃ"
+
+ ## Critters interactions
+
+ # Amoebas
+ story.101.desc.fruitful: ".ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺭﻭﺬﺒﻟﺍ ﺕﻻﻮﺴﺒﻜﻟ ﻥﻮﻴﻟﺎﺜﻣ ﻥﻮﻠﻣﺎﺣ ﻢﻬﻧﺃ ﺕﺎﺒﺛﺇ ﻢﻬﻨﻜﻤﻴﻓ ،ﻢﻬﺘﺋﺪﻬﺗ ﻢﺗ ﺍﺫﺇ"
+ story.107.fruitful.desc: ".ﻢﻬﻗﺍﻭﺫﺃ ﺐﺳﺎﻨﺗ ﺎﻧﻮﺜﺣﺎﺑ ﺎﻫﺭﻮﻃ ﻲﺘﻟﺍ ﺔﻴﻤﺤﻠﻟﺍ ﺔﺨﻔﺘﻨﻤﻟﺍ ﻪﻛﺍﻮﻔﻟﺍ ﻥﺃ ﻻﺇ ،ﻡﻮﺤﻠﻟﺍ ﺔﻠﻛﺁ ﺐﻟﺎﻐﻟﺍ ﻲﻓ ﺎﻬﻧﺃ ﻦﻴﺣ ﻲﻓ"
+ story.107.a.fruitful.tooltip: ".§HSpace Amoeba§! ﻞﻴﻃﺎﺳﺃ ﺏﺬﺟ ﻰﻠﻋ ﻥﻵﺍ ﺓﺭﺩﺎﻗ §H$sm_feeder$§! ﺖﺤﺒﺻﺃ"
+
+ # Crystals
+ story.201.desc.fruitful: ".ﺕﺎﺳﺍﺭﺪﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺀﺍﺮﺟﺈﺑ ﺎﻨﻟ ﺢﻤﺴﺘﺳ ﻢﻬﺘﺋﺪﻬﺗﻭ .ﺎﻧﺭﻭﺬﺒﻟ ﺓﺪﻴﻔﻣ ﻥﻮﻜﺗ ﺪﻘﻓ ،ﻚﻟﺬﻛ ﺮﻣﻷﺍ ﻥﺎﻛ ﺍﺫﺇ ﻦﻜﻟﻭ ،ﻡﺎﻌﻄﻟﺍ ﻝﻭﺎﻨﺗ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻩﺬﻫ ﻥﺃ ﻦﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺮﻴﻏ ﻦﺤﻧ"
+ story.207.fruitful.desc: ".ﺎﻨﺗﺎﺟﺎﻴﺘﺣﻻ ﻲﻔﻜﻳ ﺍﺬﻫ .ﺔﻌﻣﻼﻟﺍ ﺎﻬﺤﻄﺳﺄﺑ ﻦﻴﻧﻮﺘﻔﻣ ،ﺎﻬﻠﻤﺣ ﻲﻓ ﻂﻘﻓ ﻥﻮﺒﻏﺮﻳ ﺍﻮﻧﺎﻛ ﺍﺫﺇ ﻭﺃ ﺎﻫﺎﻧﺄﺸﻧﺃ ﻲﺘﻟﺍ ﺝﺎﺟﺰﻟﺎﺑ ﺔﻬﻴﺒﺸﻟﺍ ﺕﺍﺮﻜﻟﺍ ﻥﻮﻠﻛﺄﻳ ﺍﻮﻧﺎﻛ ﺍﺫﺇ ﺎﻤﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺎﻨﺴﻟ .ﺎﻳﺪﺤﺗ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻩﺬﻬﻟ ﺔﻏﺎﺴﺘﺴﻣ ﺓﺮﻤﺛ ﺮﻳﻮﻄﺗ ﻥﺎﻛ ﺪﻘﻟ"
+ story.207.a.fruitful.tooltip: ".§HCrystalline Entity§! ﻞﻴﻃﺎﺳﺃ ﺏﺬﺟ ﻰﻠﻋ ﻥﻵﺍ ﺍﺭﺩﺎﻗ ﺎﻨﺑ ﺹﺎﺨﻟﺍ §H$sm_feeder$§! ﺢﺒﺻﺃ"
+
+ # Study the Tyanki and get their tech
+ origin.7000.name: "$story.501.name$"
+ origin.7000.desc.common: "؟ﺮﺳ ﻱﺃ ﻥﻮﻔﺨﻳ ﻞﻫ .ﺎﺒﻳﺮﻘﺗ ﻞﻤﻣﻭ ،ﺭﺎﺿ ﺮﻴﻏ ،ﺉﺩﺎﻫ :ﺎﻧﺭﻭﺬﺒﻟ ﻲﻟﺎﺜﻤﻟﺍ ﻞﻗﺎﻨﻟﺍ \n\n .ﻢﻫﺯﺍﺰﻔﺘﺳﺍ ﻢﺘﻳ ﺎﻣﺪﻨﻋ ﻰﺘﺣ ،ﺙﺪﺣ ﻥﺇ ﺍﺬﻫ ،ﻥﻮﻤﺟﺎﻬﻳ ﺎﻣ ﺍﺭﺩﺎﻧ .ﺎﻧﺭﺎﻤﺜﺑ ﺍﻮﺒﺠﻋﺃ ﻢﻬﻨﻜﻟ ،ﺔﻗﻼﻤﻌﻟﺍ ﺔﻳﺯﺎﻐﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻠﻟ ﺎﻴﻠﻌﻟﺍ ﺕﺎﻘﺒﻄﻟﺍ ﻲﻓ ﺔﻌﺋﺎﺸﻟﺍ ﺕﺍﺯﺎﻐﻟﺍ ﻰﻠﻋ ﻥﻮﯨﺬﻐﺘﻳ ﻢﻬﻧﺇ .ﺔﻇﻮﺤﻠﻣ ﺔﻟﻮﻬﺴﺑ ﻡﺎﻈﻧ ﻰﻟﺇ ﻡﺎﻈﻧ ﻦﻣ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺔﻟﻮﻤﺤﻤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻝﻮﺠﺘﺗﻭ ،ﻲﺋﺰﺠﻟﺍ ﺀﺎﻀﻔﻠﻟ ﻰﻧﺩﻷﺍ ﺩﺎﻌﺑﻷﺍ ﺾﻌﺑ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ \n\n .ﺩﺎﻴﻘﻧﻻﺍ ﺔﻠﻬﺳ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻩﺬﻫ ﻦﻋ ﻞﻌﻔﻟﺎﺑ ﺮﻴﺜﻜﻟﺍ ﺎﻨﻤﻠﻌﺗ ﺪﻗﻭ"
+ origin.7000.desc.default: "$origin.7000.desc.common$ ،ﺎﻫﺎﻨﻬﺟﺍﻭ ﻲﺘﻟﺍ ﺔﺒﻳﺮﻐﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻝﻭﺃ ﻲﻫ §YTiyanki§!"
+ origin.7000.desc.beastmasters: "$origin.7000.desc.common$ ،ﺎﻫﺎﻨﻬﺟﺍﻭ ﺓﺪﻳﺪﺟ ﺔﺒﻳﺮﻏ ﻉﺍﻮﻧﺃ ﻲﻫ §YTiyanki§!"
+ origin.7000.a: ".ﻢﻬﺘﺳﺍﺭﺪﻟ ﺖﻗﻮﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺺﻴﺼﺨﺗ"
+ origin.7000.b: ".ﻯﺮﺧﺃ ﺕﺎﻳﻮﻟﻭﺃ ﺎﻨﻳﺪﻟ"
+
+ TIYANKIS_PROJECT: "ﻲﻜﻧﺎﻴﺗ ﺔﺒﻗﺍﺮﻣ"
+ TIYANKIS_PROJECT_DESC: ".ﺕﺎﻏﺍﺮﻔﻟﺍ ﺎﻬﻠﻤﺤﺗ ﻲﺘﻟﺍ ﺔﻀﻣﺎﻐﻟﺍ ﺔﺋﺩﺎﻬﻟﺍ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻩﺬﻫ ﺓﺎﻴﺣ ﻝﻮﺣ ﺭﺎﻜﻓﻷﺍ ﻦﻣ ﺍﺪﻳﺰﻣ ﺎﻨﺤﻨﻤﻳ ﻥﺃ ﻦﻜﻤﻳ ﺲﻴﻜﻧﺎﻴﺗ ﺔﺳﺍﺭﺪﻟ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺔﻄﺤﻤﻟﺍ ﻲﻔﻇﻮﻣ ﺾﻌﺑ ﺲﻳﺮﻜﺗ ﻥﺇ"
+
+ origin.7005.name: "$story.501.name$"
+ origin.7005.desc: ".ﺓﺪﻴﻔﻣ ﻥﻮﻜﺘﺳ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻩﺬﻫ ﻥﺃ ﻚﺷ ﻻﻭ .$tech_space_whale_weapon_1_desc$ .ﺎﻴﻤﻠﻋ ﺍﺯﺎﺠﻧﺇ ﺎﻧﺅﺎﻤﻠﻋ ﻖﻘﺣ ،ﻍﺍﺮﻔﻟﺍ ﻲﻓ ﻥﻮﺸﻴﻌﻳ ﻦﻳﺬﻟﺍ ﺎﻨﺋﺎﻗﺪﺻﻷ ﺔﻴﺋﺍﺬﻐﻟﺍ ﺕﺍﺩﺎﻌﻟﺍ ﺔﺳﺍﺭﺩ ﻝﻼﺧ ﻦﻣﻭ"
+
+ ### Civics
+
+ civic_idyllic_bloom:0 "ﻡﻮﻠﺑ ﻚﻠﻳﺩﺇ"
+ civic_idyllic_bloom_desc:0 ".ﻪﻧﺎﻜﺴﻟ ﺔﻴﻘﻴﻘﺣ ﺔﻨﺟ ﻖﻠﺨﻟ ﺍﺪﻫﺎﺟ ﻰﻌﺴﻳﻭ ،ﺎﻬﻨﻴﺴﺤﺗﻭ ﺔﺌﻴﺒﻟﺍ ﺔﻳﺎﻋﺮﻟ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﻪﺴﻔﻧ ﻊﻤﺘﺠﻤﻟﺍ ﺍﺬﻫ ﺱﺮﻛ ﺪﻘﻟ"
+ civic_hive_idyllic_bloom:0 "ﺔﻴﻟﺎﺜﻤﻟﺍ ﺍﺰﻳﺭﻮﻜﻴﻤﻟﺍ"
+ civic_hive_idyllic_bloom_desc:0 ".ﻱﺭﺯﺂﺘﻟﺍ ﻝﺎﻤﻜﻟﺍ ﻖﻴﻘﺤﺘﻟ ﺎﻴﻌﺳ ﺔﻨﺟ ﻲﻨﺒﻳﻭ ،ﺔﺌﻴﺒﻟﺎﺑ Hive Mind ﻢﺘﻬﻳ"
+ civic_wilderness_idyllic_bloom: "$civic_hive_idyllic_bloom$"
+ civic_wilderness_idyllic_bloom_desc: ".ﺎﻬﻟﻮﺣ ﻦﻣ ﻢﻟﺎﻌﻟﺍ ﻞﻳﻮﺤﺗ ﻦﻣ ﺕﺎﻳﺮﻄﻔﻟﺍﻭ ﺭﺎﻫﺯﻷﺍ ﻦﻣ ﺎﻬﺸﻳﺎﻌﺗ ﻦﻜﻤﺗ ﻲﻟﺎﺘﻟﺎﺑﻭ ،ﻝﺎﻤﻜﻟﺍ ﻦﻣ ﺔﻴﻘﻴﻘﺣ ﺔﻳﺭﺯﺂﺗ ﺔﻟﺎﺣ ﻲﻓ ﺔﻳﺮﺒﻟﺍ ﻩﺬﻫ ﺐﻏﺮﺗ"
+ civic_tooltip_idyllic_bloom_effects:2 ".ﺔﻴﻓﺎﺿﻹﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻉﺍﻮﻧﺃ ﻰﻠﻋ §Y$building_gaiaseeders$§! ﺀﺎﺸﻧﺇ ﻦﻜﻤﻳ £building£ ،ﺔﻨﺴﺤﻤﻟﺍ §YTerraforming§! £society£ ﺕﺎﻴﻨﻘﺗ ﺢﺘﻔﺗ ﺎﻣﺪﻨﻋ\n$building_gaiaseeders_all_desc$\n.ﺔﻴﻟﻭﻷﺍ ﻚﻋﺍﻮﻧﻷ ﺔﻴﻟﺎﺜﻤﻟﺍ ﻚﺘﻌﺑﺎﺗ ﻢﻟﺍﻮﻋﻭ ﻚﻤﻟﺍﻮﻋ ﻰﻠﻋ §Y$building_gaiaseeders$§! £building£ ﺀﺎﻨﺑ ﻦﻜﻤﻳ"
+
+ disables_idyllic_bloom:0 "§R.civic_idyllic_bloom$ Civic$ ﻂﻴﺸﻨﺗ ﺀﺎﻐﻟﺇ ﻰﻟﺇ ﻩﺬﻫ ﺩﻮﻌﺼﻟﺍ ﺓﺰﻴﻣ ﺭﺎﻴﺘﺧﺍ ﻱﺩﺆﻴﺳ§!"
+
+ civic_tooltip_not_idyllic_bloom: "ﻚﻴﻔﻴﺳ ['concept_idyllic_bloom_civics'] ﻪﻳﺪﻟ ﺲﻴﻟ"
+ concept_idyllic_bloom_civics: "ﻡﻮﻠﺑ ﻚﻠﻳﺩﺇ"
+ concept_idyllic_bloom_civics_desc: "['civic:civic_hive_idyllic_bloom']$NEW_LINE$- ['civic:civic_idyllic_bloom']- \n$concept_idyllic_bloom_civics$ ﻦﻣ ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ ﻥﻮﻜﺘﺗ "
+
+ gaia_seeder_bloomed_pops_effect: ".§G+50%§! ﺭﺍﺪﻘﻤﺑ §Y$trait_plantoid_budding$§!ﻭ §Y$trait_plantoid_bloomed$§! ﺕﺎﻤﺳ ﺕﺍﺮﻴﺛﺄﺗ ﻦﻣ ﺪﻳﺰﻳ\n\n .ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ ﻊﻣ ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﻢﻬﻔﻴﻴﻜﺘﻟ ﺎﻨﻧﺎﻜﺳ ﻞﻳﻮﺤﺘﺑ ﻥﻵﺍ Gaia Seeder ﻡﻮﻘﺘﺳ ،$pc_gaia$ ﻰﻟﺇ [This.GetName] ﻞﻳﻮﺤﺗ ﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ ﺪﻌﺑ"
+ gaia_seeder_bloom_timer_tooltip: ".§Y[This.gaia_seeder_bloom_timer]§! ﻲﻓ §Y[This.GetName]§! ﻲﻓ ﻲﻟﺎﺘﻟﺍ Bloom ﺙﺪﺤﻴﺳ\n"
+ MESSAGE_POPS_IDYLLIC_BLOOMED_TITLE: "ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ ﺕﺮﻫﺯﺃ"
+ MESSAGE_POPS_IDYLLIC_BLOOMED: " Pops.£pop£ ﻦﻴﺴﺤﺗ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﺮﺧﺁ PLANET|Y$ Bloom$ ﻰﻠﻋ Gaia Seeder ﺕﺭﺪﺻﺃ"
+
+ gaiaseeders_tomb_world:0 ".§YTomb Worlds§! ﻰﻠﻋ ﺀﺎﻨﺒﻠﻟ §Y$tech_climate_restoration$§! £society£$TRIGGER_FAIL$ﺐﻠﻄﺘﻳ "
+ gaiaseeders_same_climate_start:0 "ﻪﻴﻠﻋ ﺀﺎﻨﺒﻠﻟ §Y$tech_terrestrial_culpting$§! £society£$TRIGGER_FAIL$ﺐﻠﻄﺘﻳ "
+ gaiaseeders_different_climate_start:0 "ﻪﻴﻠﻋ ﺀﺎﻨﺒﻠﻟ §Y$tech_ecological_adaptation$§! £society£$TRIGGER_FAIL$ﺐﻠﻄﺘﻳ "
+ gaiaseeders_wet:0 "§Yﺐﻃﺭ§!"
+ gaiaseeders_dry:0 "§YDry§!"
+ gaiaseeders_cold:0 "§Yﺩﺭﺎﺑ§!"
+ gaiaseeders_same_climate_wet:0 ".§YPlanets§!$gaiaseeders_same_climate_start$ $gaiaseeders_wet$ "
+ gaiaseeders_same_climate_dry:0 ".§YPlanets§!$gaiaseeders_same_climate_start$ $gaiaseeders_dry$ "
+ gaiaseeders_same_climate_cold:0 ".§YPlanets§!$gaiaseeders_same_climate_start$ $gaiaseeders_cold$ "
+ gaiaseeders_different_climate_wet:0 ".§YPlanets§!$gaiaseeders_different_climate_start$ $gaiaseeders_dry$ ﻭﺃ $gaiaseeders_cold$ "
+ gaiaseeders_different_climate_dry:0 ".§YPlanets§!$gaiaseeders_different_climate_start$ $gaiaseeders_same_climate_wet$ ﻭﺃ $gaiaseeders_cold$ "
+ gaiaseeders_different_climate_cold:0 ".§YPlanets§!$gaiaseeders_different_climate_start$ $gaiaseeders_same_climate_wet$ ﻭﺃ $gaiaseeders_same_climate_dry$ "
+ gaiaseeders_special_habitability_preference:0 ".§YPlanets§!$gaiaseeders_different_climate_start$ $gaiaseeders_wet$ ﻭﺃ $gaiaseeders_dry$ ﻭﺃ $gaiaseeders_cold$ "
+
+ building_gaiaseeders:0 "ﺓﺭﺍﺬﺑ ﺎﻳﺎﻏ"
+ building_gaiaseeders_1:0 "$building_gaiaseeders$ - ﻰﻟﻭﻷﺍ ﺔﻠﺣﺮﻤﻟﺍ"
+ building_gaiaseeders_2:0 "$building_gaiaseeders$ - ﺔﻴﻧﺎﺜﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ"
+ building_gaiaseeders_3:0 "$building_gaiaseeders$ - ﺔﺜﻟﺎﺜﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ"
+ building_gaiaseeders_4:0 "$building_gaiaseeders$ - ﺔﻴﺋﺎﻬﻨﻟﺍ ﺔﻠﺣﺮﻤﻟﺍ"
+ building_gaiaseeders_all_desc:0 ".ﺔﻴﻗﺮﺗ ﻞﺣﺍﺮﻣ 4 ﻝﻼﺧ ﻦﻣ ،§YGaia World§! ﺢﺒﺼﻳ ﻥﺃ ﻦﻣ ﺎﻴﺠﻳﺭﺪﺗ ﺏﺮﺘﻘﻳ ﻪﻠﻌﺠﺗ ﺐﻛﻮﻜﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺓﺮﺸﺘﻨﻤﻟﺍ ﻖﻓﺍﺮﻤﻟﺍ"
+ building_gaiaseeders_1_desc:0 ".ﺔﻴﻟﻭﻷﺍ ﻮﻤﻨﻟﺍ ﺰﻳﺰﻌﺗ ﺔﻠﺣﺮﻣ ﻲﻫ ﻩﺬﻫ\n\n$building_gaiaseeders_all_desc$"
+ building_gaiaseeders_2_desc:0 ".ﻦﻜﺴﻠﻟ ﺔﻴﺤﻟﺎﺼﻟﺍ ﻮﺤﻧ ﺔﻠﺣﺮﻤﻟﺍ ﻩﺬﻫ ﻝﻮﺤﺘﺗ\n\n$building_gaiaseeders_all_desc$"
+ building_gaiaseeders_3_desc:0 ".ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ ﻰﻠﻋ ﺔﻠﺣﺮﻤﻟﺍ ﻩﺬﻫ ﺪﻛﺆﺗ\n\n$building_gaiaseeders_all_desc$"
+ building_gaiaseeders_4_desc:0 "$building_gaiaseeders_all_desc$"
+ building_gaiaseeders_4_effect_desc:0 ".ﺀﺎﻬﺘﻧﻻﺍ ﺪﻨﻋ §YGaia World§! ﻰﻟﺇ ﺐﻛﻮﻜﻟﺍ ﻝﻮﺤﻳ"
+
+ building_gaiaseeders_pc_gaia: "$building_gaiaseeders_4$"
+ building_gaiaseeders_pc_gaia_desc: "$building_gaiaseeders_4_desc$"
+
+ plant.100.name:0 "ﻲﻟﺎﺜﻤﻟﺍ ﻝﺎﻤﻜﻟﺍ"
+ plant.100.desc:1 ".ﺪﺴﺤﻟﺍ ﺎﻤﺑﺭ ﻭﺃ ،ﺏﺎﺠﻋﻹﺍ ﻖﺤﺘﺴﺗ ،ﺐﻛﺍﻮﻜﻟﺍ ﻦﻴﺑ ﺔﻴﻘﻴﻘﺣ ﺓﺮﻫﻮﺟ §Y[Root.GetName]§! ﺭﺎﺒﺘﻋﺍ ﺐﺠﻳ ،ﺍﺪﻋﺎﺼﻓ ﻡﻮﻴﻟﺍ ﺍﺬﻫ ﻦﻣ\n\n.ﻩﺭﺎﻤﺛ ﻲﺗﺆﻳ §Y[Root.GetName]§! ﻰﻠﻋ ﺎﻨﺑ ﺹﺎﺨﻟﺍ Gaia Seeding ﻉﻭﺮﺸﻣ ﺢﺒﺻﺃ ،ﻕﺎﺸﻟﺍ ﻞﻤﻌﻟﺍ ﻦﻣ ﺕﺍﻮﻨﺳﻭ ،ﺓﺮﻴﺒﻜﻟﺍ ﺕﺍﺭﺎﻤﺜﺘﺳﻻﺍﻭ ،ﺎﻨﻳﺪﻟ ﺓﺰﻴﻤﺘﻤﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﺳﺪﻨﻬﻟﺍ ﻝﻼﺧ ﻦﻣ"
+ plant.100.a:0 "!ﺕﻻﺎﻔﺘﺣﻻﺍ ﺃﺪﺒﺘﻠﻓ"
+ plant.100.b:0 ".ﻥﻵﺍ ﺮﺧﺁ ﻥﺎﻜﻣ ﻲﻓ ﺰﻴﻛﺮﺘﻠﻟ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ،ﺪﻴﺟ ﻞﻤﻌﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+
+ plant.105.desc:0 ".ﺎﻧﺩﻮﻬﺟ ﻥﻭﺭﺪﻘﻳ ﺎﻨﻋﺎﺒﺗﺃ ﻥﺃ ﻦﻣ ﻦﻴﻘﻳ ﻰﻠﻋ ﻦﺤﻧ .ﺪﺴﺤﻟﺍ ﺎﻤﺑﺭ ﻭﺃ ،ﺏﺎﺠﻋﻹﺍ ﻖﺤﺘﺴﺗ ،ﺐﻛﺍﻮﻜﻟﺍ ﻦﻴﺑ ﺔﻴﻘﻴﻘﺣ ﺓﺮﻫﻮﺟ §Y[From.Planet.GetName]§! ﺭﺎﺒﺘﻋﺍ ﺐﺠﻳ ،ﺍﺪﻋﺎﺼﻓ ﻡﻮﻴﻟﺍ ﺍﺬﻫ ﻦﻣ\n\n.ﻩﺭﺎﻤﺛ ﻲﺗﺆﻳ §Y[From.Planet.GetName]§! ﻰﻠﻋ ﺎﻨﺑ ﺹﺎﺨﻟﺍ Gaia Seeding ﻉﻭﺮﺸﻣ ﺢﺒﺻﺃ ،ﻕﺎﺸﻟﺍ ﻞﻤﻌﻟﺍ ﻦﻣ ﺕﺍﻮﻨﺳﻭ ،ﺓﺮﻴﺒﻜﻟﺍ ﺕﺍﺭﺎﻤﺜﺘﺳﻻﺍﻭ ،ﺎﻨﻳﺪﻟ ﺓﺰﻴﻤﺘﻤﻟﺍ ﺔﻳﻮﻴﺤﻟﺍ ﺔﺳﺪﻨﻬﻟﺍ ﻝﻼﺧ ﻦﻣ"
+
+ plant.110.desc:0 ".ﺪﻴﺟ ﻞﻜﺸﺑ ﺔﻨﺠﻟﺍ ﻩﺬﻬﻟ ﺔﻌﺳﺎﺸﻟﺍ ﺔﺣﻮﺘﻔﻤﻟﺍ ﺕﺎﺣﺎﺴﻤﻟﺍﻭ ﻲﻟﺎﺜﻤﻟﺍ ﺥﺎﻨﻤﻟﺍ ﻝﻼﻐﺘﺳﺍ ﻥﻵﺍ ﺎﻨﻨﻜﻤﻳ ﻢﻬﻠﻀﻔﺑﻭ .Gaia ﻢﻟﺎﻋ ﻰﻟﺇ ﻪﻠﻳﻮﺤﺗﻭ ،§Y[from.from.planet.GetName]§! ﻰﻠﻋ ﺐﻳﺮﻐﻟﺍ ﻪﻋﻭﺮﺸﻣ ﻰﻠﻋﻷﺍ ﺎﻧﺪﻴﺳ ﻞﻤﻛﺃ ﺪﻘﻟ"
+ plant.110.desc.hydrocentric:0 "."ﻞﻤﺟﺃ" ﺎﻨﻤﻟﺎﻋ ﺍﻮﻠﻌﺟ ﻢﻬﻧﺃ ﺩﺎﻴﺳﻷﺍ ﻝﻮﻘﻳ !ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺎﻬﻀﻓﺭ ﻢﺗ ﺎﻨﻓﻭﺎﺨﻣ ﻦﻋ ﺎﻨﺑﺮﻋﺃ ﺎﻣﺪﻨﻋ ﻪﻧﺃ ﻚﻟﺫ ﻦﻣ ﺃﻮﺳﻷﺍﻭ .ﺎﻓﺎﺟﻭ ﻼﺣﺎﻗ ﺐﻃﺮﻟﺍ ﻮﺠﻟﺍ ﺢﺒﺻﺃ .ﻝﻼﺘﻟﺍﻭ ﻝﻮﻬﺴﻟﺎﺑ ﺕﺎﻄﻴﺤﻤﻟﺍ ﺍﻮﻄﻏ ﺪﻘﻟ !ﺐﻛﻮﻜﻟﺍ ﺮﻣﺩ ﺪﻘﻟ .§Y[from.from.planet.GetName]§! ﻰﻠﻋ ﺐﻳﺮﻐﻟﺍ ﻪﻋﻭﺮﺸﻣ ﻰﻠﻋﻷﺍ ﺎﻧﺪﻴﺳ ﻞﻤﻛﺃ"
+
+ plant.110.a:0 "!ﻥﻭﺅﺮﺠﻳ ﻒﻴﻛ"
+ plant.110.b:0 "!ﺱﻭﺭﺪﻣ ﻒﻴﻛ"
+ plant.110.c:0 ".ﺐﻳﺮﻏ ﺭﺍﺮﻗ ﻦﻣ ﻪﻟ ﺎﻳ"
+
+ celebrate_idyllic_bloom:0 "ﻲﻟﺎﺜﻤﻟﺍ ﻝﻮﺤﺘﻟﺎﺑ ﻝﺎﻔﺘﺣﻻﺍ"
+ celebrate_idyllic_bloom_desc:0 ".ﺔﻳﺮﻋﺎﺷ ﺔﻨﺟ ﻰﻟﺇ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻬﻟ ﺢﺟﺎﻨﻟﺍ ﻝﻮﺤﺘﻟﺍ ﺪﻌﺑ ﺐﻛﻮﻜﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﻝﺎﻔﺘﺣﺍ ﻡﺎﻘﻳ"
+ terraformed_our_ocean_world:0 "ﺔﻠﻜﺸﺘﻤﻟﺍ ﺕﺎﻄﻴﺤﻤﻟﺍ ﻢﻟﺎﻋ"
+ terraformed_our_ocean_world_desc:0 ".ﺐﻴﻫﺭ ﻢﻌﻃ ﺎﻣ .ﺊﻴﺴﻟﺍ ﺎﻳﺎﻏ ﻢﻟﺎﻋ ﻰﻟﺇ ﻞﻴﻤﺠﻟﺍ ﻂﻴﺤﻤﻟﺍ ﻢﻟﺎﻋ ﻞﻳﻮﺤﺘﺑ ﻰﻠﻋﻷﺍ ﺎﻧﺪﻴﺳ ﻡﺎﻗ ﺪﻘﻟ"
+
+ thankful_for_gaia:0 "ﺎﻳﺎﺠﻟ ﻦﻳﺮﻛﺎﺷ"
+ thankful_for_gaia_desc:0 "!ﻢﻬﻨﻣ ﻉﻮﻧ ﻒﻴﻛ .ﺎﻳﺎﻏ ﻢﻟﺎﻋ ﻰﻟﺇ ﺎﻨﺒﻛﺍﻮﻛ ﺪﺣﺃ ﻞﻳﻮﺤﺘﺑ ﺍﺮﺧﺆﻣ ﻰﻠﻋﻷﺍ ﺎﻧﺪﻴﺳ ﻡﺎﻗ ﺪﻘﻟ"
+
+### Traits by Byron Aytoun
+
+ trait_plantoid_phototrophic:0 "ﻲﺋﻮﺿ"
+ trait_plantoid_phototrophic_desc:0 "\n§L.ﺲﻤﺸﻟﺍ ﺔﻌﺷﺃﻭ ﻡﺎﻌﻄﻟﺍ ﻦﻣ ﺞﻳﺰﻣ ﻝﻼﺧ ﻦﻣ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﺶﻴﻌﻳ§!"
+ TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT:0 "energy_with_icon$ Upkeep$ ـﺑ Upkeep (ﻪﻟﺩﺎﻌﻳ ﺎﻣ ﻭﺃ) $food_with_icon$ ﻦﻣ §!%XYZT_050 ﻝﺪﺒﺘﺴﻳ"
+
+ trait_plantoid_radiotrophic:0 "ﻲﻋﺎﻌﺷﺇ"
+ trait_plantoid_radiotrophic_desc:0 "§L.ﺓﻮﺴﻗ ﻢﻟﺍﻮﻌﻟﺍ ﺮﺜﻛﺃ ﻲﻓ ﺮﻫﺩﺰﻳ ﻥﺃ ﻦﻜﻤﻳ ﻮﺤﻨﻟﺍ ﺍﺬﻫ ﻰﻠﻋﻭ ،ﺔﻗﺎﻄﻟﺍ ﺾﻔﺨﻨﻣ ﻉﺎﻌﺷﻹﺍﻭ ﺀﺍﺬﻐﻟﺍ ﻦﻣ ﺞﻳﺰﻣ ﻝﻼﺧ ﻦﻣ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﺶﻴﻌﻳ§!"
+ TRAIT_PLANTOID_RADIOTROPHIC_EFFECT:1 "§G+10%§!$t$- ﺮﺑﺎﻘﻤﻟﺍ ﻢﻟﺎﻋ ﻲﻓ ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ: \n§G+10%§! §YTomb Worlds§!$t$- ﻲﻓ ﺏﻮﺒﻟﺍ ﻮﻤﻧ ﺔﻋﺮﺳ \n.§YTomb Worlds§! ﻲﻓ ﺶﻴﻌﺗ ﻲﺘﻟﺍ ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻠﻟ §YEnergy§! £energy£$t$- ﺔﻧﺎﻴﺻ ﺔﻟﺍﺯﺇ ﺖﻤﺗ \n$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$"
+ trait_harvested_radiotrophic:0 "$trait_plantoid_radiotropic$"
+ trait_harvested_radiotrophic_desc:0 "$trait_plantoid_radiotropic_desc$"
+ trait_lithoid_radiotrophic:0 "$trait_plantoid_radiotropic$"
+ trait_lithoid_radiotrophic_desc:0 "$trait_plantoid_radiotropic_desc$"
+ TRAIT_LITHOID_RADIOTROPHIC_EFFECT:1 "§G+10%§! :ﺮﺑﺎﻘﻤﻟﺍ ﻢﻟﺎﻋ ﻲﻓ ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ\n§G+10%§! §Yﺮﺑﺎﻘﻤﻟﺍ ﻢﻟﺍﻮﻋ§! ﻲﻓ ﺏﻮﺒﻟﺍ ﻮﻤﻧ ﺔﻋﺮﺳ\n.§Yﺮﺑﺎﻘﻤﻟﺍ ﻢﻟﺍﻮﻋ§! ﻲﻓ ﻥﻮﺸﻴﻌﻳ ﻦﻳﺬﻟﺍ Pops ـﻟ ﺔﻧﺎﻴﺼﻟﺍ ﻦﻣ §YEnergy§! £energy£ ﺔﻟﺍﺯﺇ ﺖﻤﺗ \n Upkeep.§YEnergy§! £energy£ Upkeep ـﺑ §YMinerals§! £minerals£ ﺓﺪﻋﺎﻘﻟﺍ ﻦﻣ §!%XYZT_050 ﻝﺪﺒﺘﺴﻳ"
+
+ trait_plantoid_budding:0 "ﺎﻫﺪﻬﻣ ﻲﻓ"
+ trait_plantoid_budding_desc:0 "§L.ﻍﺍﻮﺑﻷﺍ ﻭﺃ ﺭﻭﺬﺒﻟﺎﺑ ﺩﺎﺘﻌﻤﻟﺍ ﺪﻴﻤﺴﺘﻟﺍ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ،ﻢﻋﺮﺒﺘﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﺮﺛﺎﻜﺘﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﻉﻮﻨﻟﺍ ﺍﺬﻫ§!"
+ trait_plantoid_budding_portrait_override_tt: "ﻱﺮﻀﺨﻟﺍ ﺮﺛﺎﻜﺘﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﺮﺛﺎﻜﺘﻳ ﻉﻮﻧ ﻱﺃ ﻭﺃ"
+ trait_lithoid_budding:0 "ﺓﺭﻮﻠﺑ"
+ trait_lithoid_budding_desc:0 "§L.ﺎﻋﻮﻴﺷ ﺮﺜﻛﻷﺍ ﺮﺛﺎﻜﺘﻟﺍ ﻕﺮﻃ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ،ﻪﺴﻔﻧ ﻦﻣ ﺮﺛﺎﻜﺘﻟﺍ ﺔﻴﺗﺍﺫ ﺕﺎﻜﺒﺷ ﺪﻴﻟﻮﺗ ﻰﻠﻋ ﺭﺩﺎﻗ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ،ﻱﺭﻮﻠﺒﻟﺍ ﻮﻤﻨﻟﺍ ﻊﻣ§!"
+ TRAIT_PLANTOID_BUDDING_EFFECT: ".§Y$job_spawning_drone_plural$§! £job_spawning_drone£ ﻭﺃ §Y$building_clone_vats$§! £building£ ﻞﺜﻣ $MOD_BONUS_POP_GROWTH$ ـﻟ ﻯﺮﺧﺃ ﺭﺩﺎﺼﻣ ﻊﻣ ﺍﺬﻫ ﻢﻛﺍﺮﺘﻳ\n\n.§Y$MOD_BONUS_POP_GROWTH$§! £mod_logistic_growth_mult£ 0.02 ﺞﺘﻨﻳ ﻞﻀﻓﺃ ﻭﺃ ﺪﺒﻌﻛ ﻞﻤﻌﻳ §HPops§! £pop£ $pop_group_unit$ ﻞﻛ"
+ TRAIT_LITHOID_BUDDING_EFFECT:0 "$TRAIT_PLANTOID_BUDDING_EFFECT$"
+
+ trait_advanced_phototrophic:0 "$trait_plantoid_phototropic$"
+ trait_advanced_phototrophic_desc:0 "§L.ﺲﻤﺸﻟﺍ ﺔﻌﺷﺄﺑ ﺎﻴﺋﺰﺟ ﺎﻣﻮﻋﺪﻣ ﻥﻵﺍ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﺢﺒﺻﺃ ،ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻴﺛﺍﺭﻮﻟﺍ ﺔﺳﺪﻨﻬﻟﺍ ﻝﻼﺧ ﻦﻣ§!"
+ TRAIT_ADVANCED_PHOTOTROPHIC_EFFECT:0 " Upkeep.§YEnergy§! £energy£ ـﺑ ﺔﻧﺎﻴﺼﻠﻟ §YMineral§! £minerals£ ﻭﺃ §YFood§! £food£ ﺓﺪﻋﺎﻘﻟﺍ ﻦﻣ §!%XYZT_050 ﻝﺪﺒﺘﺴﻳ"
+
+ trait_advanced_radiotrophic:0 "$trait_plantoid_radiotropic$"
+ trait_advanced_radiotrophic_desc:0 "§L.ﺓﻮﺴﻗ ﻢﻟﺍﻮﻌﻟﺍ ﺮﺜﻛﺃ ﻲﻓ ﺮﻫﺩﺰﻳ ﻥﺃ ﻦﻜﻤﻳ ﻲﻟﺎﺘﻟﺎﺑﻭ ،ﺔﻗﺎﻄﻟﺍ ﺾﻔﺨﻨﻣ ﻉﺎﻌﺷﻹﺎﺑ ﺎﻴﺋﺰﺟ ﺎﻣﻮﻋﺪﻣ ﻥﻵﺍ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﺢﺒﺻﺃ ،ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻴﺛﺍﺭﻮﻟﺍ ﺔﺳﺪﻨﻬﻟﺍ ﻝﻼﺧ ﻦﻣ§!"
+ TRAIT_ADVANCED_RADIOTROPHIC_EFFECT:0 ".§YTomb Worlds§! ﻲﻓ ﺶﻴﻌﺗ ﻲﺘﻟﺍ ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻠﻟ §YEnergy§! £energy£ ﺔﻧﺎﻴﺻ ﺔﻟﺍﺯﺇ ﺖﻤﺗ\n$TRAIT_PLANTOID_PHOTOTROPHIC_EFFECT$"
+
+ trait_advanced_budding:0 "$trait_plantoid_budding$"
+ trait_advanced_budding_desc:0 "§L.ﺔﻳﺪﻴﻠﻘﺘﻟﺍ ﻕﺮﻄﻟﺍ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ ،ﻢﻋﺮﺒﺘﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﺮﺛﺎﻜﺘﻟﺎﺑ ﻉﻮﻨﻟﺍ ﺍﺬﻬﻟ ﺎﻬﺑ ﺹﺎﺨﻟﺍ ﻱﻭﻮﻨﻟﺍ ﺾﻤﺤﻟﺍ ﻞﺴﻠﺴﺗ ﻲﻓ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ ﺢﻤﺴﺗ§!"
+
+ trait_plantoid_bloomed: "ﺕﺮﻫﺯﺃ"
+ trait_plantoid_bloomed_desc: ".Gaia Worlds ﻲﻓ ﺶﻴﻌﻟﺍ ﺪﻨﻋ ﺔﻟﺩﺎﺒﺘﻤﻟﺍ ﺔﻨﺷﻷﺍ ﺭﺎﻫﺯﺃ ﺖﺒﻨﻳ ﻪﻠﻌﺟ ﺎﻤﻣ ،Gaia Seeder ـﻟ ﺔﻴﻠﻳﻮﺤﺘﻟﺍ ﺕﺍﺮﻴﺛﺄﺘﻠﻟ ﻉﻮﻨﻟﺍ ﺍﺬﻫ ﺽﺮﻌﺗ ﺪﻘﻟ"
+ plantoid_bloomed_trait_tooltip: " $building_gaiaseeders_4$.£building£ ﺭﺍﺪﻘﻤﺑ ﺎﻬﺗﺩﺎﻳﺯ ﻢﺘﻳ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﻩﺬﻫ\n\n§G-10%§!$TABBED_NEW_LINE$$MOD_POP_HOUSING_USAGE_MULT$: §G-10%§!$t$$MOD_POP_AMENITIES_USAGE_MULT$: \n§G+10%§!$TABBED_NEW_LINE$$MOD_LOGISTIC_GROWTH_MULT$: §G+10%§! :$Gaia:$TABBED_NEW_LINE$$MOD_POP_BONUS_WORKFORCE_MULT ﻢﻟﺍﻮﻋ ﻰﻠﻋ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ"
+### Catalytic Processing by Byron Aytoun
+
+# Regular
+ civic_catalytic_processing:0 "ﺔﻳﺰﻔﺤﻟﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ"
+ civic_catalytic_processing_desc:0 ".ﺔﻴﺋﺎﻀﻔﻟﺍ ﻞﻛﺎﻴﻬﻟﺍ ﺀﺎﻨﺑ ﻲﻓ ﺔﻳﻮﻀﻌﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﺡﺎﺘﻔﻣ ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻫ ﺖﺤﺘﻓ ،ﺔﻳﺰﻴﻔﺤﺘﻟﺍ ﺀﺎﻴﻤﻴﻜﻟﺍ ﻰﻠﻋ ﺔﻴﻋﺎﻨﺼﻟﺍ ﺎﻫﺩﻮﻬﺟ ﺰﻴﻛﺮﺗ ﻝﻼﺧ ﻦﻣﻭ"
+ civic_tooltip_catalytic_processing_effects:0 ".r_food$ Upkeep$ ـﺑ ﻪﻟﺍﺪﺒﺘﺳﺍ ﻢﺗ r_minerals$ Upkeep$ ﺎﻬﻳﺪﻟ §Yﺔﻴﻋﺎﻨﺼﻟﺍ ﻒﺋﺎﻇﻮﻟﺍ§! [artisan.GetIcon] [foundry.GetIcon]$t$- \n§Y$job_catalytic_technician_plural_with_icon$§! ـﺑ ﺎﻬﻟﺍﺪﺒﺘﺳﺍ ﻢﺗ §Y$job_foundry_plural_with_icon$§!$t$- "
+
+# Corporate
+ civic_corporate_catalytic_processing:1 "ﺔﻳﺰﻔﺤﻟﺍ ﺮﻳﻭﺪﺘﻟﺍ ﺓﺩﺎﻋﺇ ﺓﺰﻬﺟﺃ"
+ civic_corporate_catalytic_processing_desc:0 ".ﺔﻴﺋﺎﻀﻔﻟﺍ ﻞﻛﺎﻴﻬﻠﻟ ﺔﺒﺳﺎﻨﻣ ﺔﻣﺪﻘﺘﻣ ﺩﺭﺍﻮﻣ ﻰﻟﺇ ﺓﺪﺋﺍﺰﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺩﺍﻮﻤﻟﺍ ﺮﻳﻭﺪﺗ ﺓﺩﺎﻋﺇ ﻖﻳﺮﻃ ﻦﻋ ﺡﺎﺑﺭﻷﺍ ﻦﻣ ﺭﺪﻗ ﻰﺼﻗﺃ ﻖﻴﻘﺤﺗ ﻰﻟﺇ ﺔﻗﻼﻤﻌﻟﺍ ﺔﻛﺮﺸﻟﺍ ﻩﺬﻫ ﻰﻌﺴﺗ"
+ civic_tooltip_catalytic_processing_corporate_effects:0 " $megacorp_civic_branch_office_building_effect$§Y$building_private_shipyards$§! £building£$civic_tooltip_catalytic_processing_effacts$ $TABBED_NEW_LINE$- "
+
+# Hive Mind
+ civic_hive_catalytic_processing:1 "ﺔﻳﻮﻀﻌﻟﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺓﺩﺎﻋﺇ"
+ civic_hive_catalytic_processing_desc:0 ".ﺔﻴﺋﺎﻀﻔﻟﺍ ﻞﻛﺎﻴﻬﻠﻟ ﺔﺒﺳﺎﻨﻣ ﺔﻣﺪﻘﺘﻣ ﺩﺭﺍﻮﻣ ﻰﻟﺇ ﺓﺪﺋﺍﺰﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺩﺍﻮﻤﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺓﺩﺎﻋﺈﺑ Hive Mind ﻡﻮﻘﻳ"
+ civic_tooltip_hive_catalytic_processing_effects:0 ".r_food$ Upkeep$ ـﺑ r_minerals$ Upkeep$ ﻝﺍﺪﺒﺘﺳﺍ ﻢﺗ §Yﺔﻴﻋﺎﻨﺼﻟﺍ ﻒﺋﺎﻇﻮﻟﺍ§! [artisan_drone.GetIcon] [fabricator.GetIcon]$t$- \n§Y$job_catalytic_drone_plural_with_icon$§! ـﺑ ﺎﻬﻟﺍﺪﺒﺘﺳﺍ ﻢﺗ §Y$job_alloy_drone_plural$§! [alloy_drone.GetIcon]$t$- "
+
+ catalytic_gestalt_additional_effects: ".r_food$ Upkeep$ ـﺑ r_minerals$ Upkeep$ ﻝﺍﺪﺒﺘﺳﺍ ﻢﺗ §Y[artisan_drone.GetNamePlural]§! [artisan_drone.GetIcon]\n"
+
+# Machine Intelligence
+ civic_machine_catalytic_processing:1 "ﺔﻳﻮﻀﻌﻟﺍ ﺔﻴﺜﻳﺪﺤﺘﻟﺍ"
+ civic_machine_catalytic_processing_desc:0 ".ﺔﻴﺋﺎﻀﻔﻟﺍ ﻞﻛﺎﻴﻬﻠﻟ ﺔﺒﺳﺎﻨﻣ ﺔﻣﺪﻘﺘﻣ ﺩﺭﺍﻮﻣ ﻰﻟﺇ ﺔﺟﺎﺤﻟﺍ ﻦﻋ ﺓﺪﺋﺍﺰﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺩﺍﻮﻤﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺓﺩﺎﻋﺈﺑ ﻲﻟﻵﺍ ﺀﺎﻛﺬﻟﺍ ﻡﻮﻘﻳ"
+ civic_tooltip_machine_catalytic_processing_effects:0 ".r_food$ Upkeep$ ـﺑ ﺔﻧﺎﻴﺼﻟﺍ ﻝﺍﺪﺒﺘﺳﺍ ﻢﺗ $r_minerals$ ﺎﻬﻟ §Yﺔﻴﻋﺎﻨﺼﻟﺍ ﻒﺋﺎﻇﻮﻟﺍ§! [artisan_drone.GetIcon] [fabricator.GetIcon]$t$- \n§Y$job_catalytic_drone_plural_with_icon$§! ـﺑ ﺎﻬﻟﺍﺪﺒﺘﺳﺍ ﻢﺗ §Y$job_fabricator_plural$§! [fabricator.GetIcon]$t$- "
+
+ civic_tooltip_not_catalytic: "ﻚﻴﻔﻴﺳ ['concept_catalytic_civics'] ﻪﻳﺪﻟ ﺲﻴﻟ"
+ concept_catalytic_civics: "ﺔﻳﺰﻔﺤﻟﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ"
+ concept_catalytic_civics_desc: "['civic:civic_machine_catalytic_processing']$NEW_LINE$- ['civic:civic_hive_catalytic_processing']$NEW_LINE$- ['civic:civic_corporate_catalytic_processing']$NEW_LINE$- ['civic:civic_catalytic_processing']- \n$concept_catalytic_civics$ ﻦﻣ ﺔﻴﻧﺪﻤﻟﺍ ﺔﻴﺑﺮﺘﻟﺍ ﻥﻮﻜﺘﺗ "
+
+# Regular & Corporate
+ job_catalytic_technician:0 "ﻱﺰﻴﻔﺤﺗ ﻲﻨﻓ"
+ job_catalytic_technician_plural:0 "ﺰﻔﺤﻟﺍ ﻮﻴﻨﻓ"
+ job_catalytic_technician_plural_with_icon: " $job_catalytic_technician_plural$£job_catalytic_technician£"
+ job_catalytic_technician_desc:0 ".ﻡﺪﻘﺘﻤﻟﺍ ﺀﺎﻨﺒﻠﻟ ﺔﻳﺭﻭﺮﺿ ﺔﻨﻴﺘﻣ ﻚﺋﺎﺒﺳ ﻰﻟﺇ ﻡﺎﺨﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻞﻳﻮﺤﺘﻟ ﺎﻴﻟﺎﻋ ﺎﺒﻳﺭﺪﺗ ﻦﻴﺑﺭﺪﻣ ﻝﺎﻤﻋ ﻰﻟﺇ ﺔﺟﺎﺣ ﻙﺎﻨﻫ"
+ job_catalytic_technician_effect_desc:0 "§Y$alloys$§! £alloys£ ﻰﻟﺇ §Y$food$§! £food£ $job_catalytic_technician_plural$ ﻞﻳﻮﺤﺗ £job_catalytic_technician£"
+ mod_job_catalytic_technician_add:0 "$job_catalytic_technician$ ﻒﺋﺎﻇﻭ"
+ mod_job_catalytic_technician_per_pop:0 " $job_catalytic_technician$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_catalytic_technician_per_pop_short:0 "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_catalytic_technician_add£ §G+1§!\n"
+
+# Gestalt
+ catalytic_drone: "$job_catalytic_drone$"
+ job_catalytic_drone:0 "ﺓﺯﺎﻔﺤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ"
+ job_catalytic_drone_plural:0 "ﺓﺯﺎﻔﺤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ"
+ job_catalytic_drone_plural_with_icon: " $job_catalytic_drone_plural$£job_catalytic_drone£"
+ job_catalytic_drone_desc:0 ".ﺺﺼﺨﺘﻟﺍ ﺔﻴﻟﺎﻋ ﺔﻳﺰﻴﻔﺤﺗ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ ﺔﻄﺳﺍﻮﺑ ﻡﺪﻘﺘﻤﻟﺍ ﺀﺎﻨﺒﻟﺍﻭ ﻱﺮﺤﺒﻟﺍ ﺮﻳﻮﻄﺘﻟﺍ ﺽﺍﺮﻏﻷ ﺔﻨﻴﺘﻣ ﻚﺋﺎﺒﺳ ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺗﻭ ﺔﻤﻴﻘﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺒﻛﺮﻤﻟﺍ ﺔﺠﻟﺎﻌﻣ ﻢﺘﺗ"
+ job_catalytic_drone_effect_desc:0 "§Y$alloys$§! £alloys£ ﻰﻟﺇ §Y$food$§! £food£ ﻞﻳﻮﺤﺗ §Y$job_catalytic_drone_plural$§! £job_catalytic_drone£"
+ mod_job_catalytic_drone_add:0 "$job_catalytic_drone$ ﻒﺋﺎﻇﻭ"
+ mod_job_catalytic_drone_per_pop:0 " $job_catalytic_drone$ ﻞﻜﻟ ﺔﻤﻬﻣ $VALUE$ Pops§G+1§!"
+ mod_job_catalytic_drone_per_pop_short:0 "£pop£ $VALUE$ ﻞﻜﻟ £mod_job_catalytic_drone_add£ §G+1§!\n"
+
+ ### Invasive Species trait
+ trait_invasive: "ﺔﻳﺯﺎﻐﻟﺍ ﻉﺍﻮﻧﻷﺍ"
+ TRAIT_INVASIVE_EFFECT: "ﺓﺩﺪﺤﻣ ﺔﻴﺒﻠﺳ ﺔﻤﺳ ﻞﻜﻟ §G+5%§! :ﺏﻮﺒﻟﺍ ﻮﻤﻧ ﺔﻋﺮﺳ - \nﺓﺩﺪﺤﻣ ﺔﻴﺒﻠﺳ ﺔﻤﺳ ﻞﻜﻟ §G+5%§! :ﻦﻜﺴﻠﻟ ﺔﻴﻠﺑﺎﻘﻟﺍ - \n\n§Yﻂﻘﻓ ﺔﻴﺗﺎﺒﻨﻟﺍ ﻭﺃ ﺔﻴﺒﻠﺴﻟﺍ ﺕﺎﻤﺴﻟﺍ ﺪﻳﺪﺤﺗ ﻦﻜﻤﻳ§!"
+ trait_invasive_desc: ".ﺓﺪﻴﻔﻣ ﺕﺍﺭﺪﻗ ﺮﻔﺻ .ﺔﻴﻟﺎﻋ ﺖﺘﺸﺗ ﺓﺭﺪﻗ .ﻊﻳﺮﺴﻟﺍ ﺮﺛﺎﻜﺘﻟﺍ"

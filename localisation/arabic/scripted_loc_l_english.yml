@@ -1,0 +1,174 @@
+﻿l_english:
+
+ # GetEdibleSpeciesName Test
+ edible_avi:0 "ﺝﺎﺟﺩ ﺖﺟﺎﻧ"
+ edible_avi_plural:0 "ﺝﺎﺟﺪﻟﺍ ﺲﺘﺟﺎﻧ"
+ edible_mam:0 "ﺮﺟﺮﺑ"
+ edible_mam_plural:0 "ﺰﺟﺭﻮﺑ"
+ edible_rep:0 "ﺎﺼﻋ ﻰﻠﻋ ﺔﻴﻠﺤﺳ"
+ edible_rep_plural:0 "ﺔﻳﻮﺸﻤﻟﺍ ﻲﻟﺎﺤﺴﻟﺍ"
+ edible_fun:0 "ﻲﻛﺎﺘﻴﺷ"
+ edible_fun_plural:0 "ﻲﻛﺎﺘﻴﺷ ﻦﻣ ﺕﺎﻋﻮﻤﺠﻣ"
+ edible_mol:0 "ﺭﺎﺤﻣ"
+ edible_mol_plural:0 "ﺏﻮﻟﺎﻜﺳﻻﺍ"
+ edible_hum:0 "ﺓﺬﻳﺬﻟ ﻢﺤﻟ ﺔﺤﻳﺮﺷ"
+ edible_hum_plural:0 "ﺀﺎﻄﻌﻟﺍ ﺕﺎﻋﻮﺿﻮﻣ"
+ edible_art:0 "ﺝﻮﻤﺘﻣ ﺔﻠﻋ"
+ edible_art_plural:0 "ﺔﺼﻠﺼﻟﺍ ﻲﻓ ﺽﻮﻌﺒﻟﺍ"
+ edible_plant:0 "ﻱﺪﻴﻠﺟ ﻞﺒﺟ"
+ edible_plants:0 "ﺔﻄﻠﺘﺨﻣ ﺕﺎﻄﻠﺳ"
+ edible_fallback:0 "ﺔﻤﻘﻟ"
+ edible_fallback_plural:0 "ﺕﺎﺘﻓ"
+
+ avian_species:0 "ﺭﻮﻴﻄﻟﺍ" # lower-case adjective, used for 'GetSpeciesClass'
+ mammalian_species:0 "ﺕﺎﻴﻳﺪﺜﻟﺍ" # lower-case adjective, used for 'GetSpeciesClass'
+ reptilian_species:0 "ﻒﺣﺍﺯ" # lower-case adjective, used for 'GetSpeciesClass'
+ fungoid_species:0 "ﻱﺮﻄﻓ" # lower-case adjective, used for 'GetSpeciesClass'
+ mollusc_species:0 "ﺕﺎﻳﻮﺧﺮﻟﺍ" # lower-case adjective, used for 'GetSpeciesClass'
+ human_species:0 "ﺮﺸﺑ" # lower-case adjective, used for 'GetSpeciesClass'
+ arthropoid_species:0 "ﻲﻠﺼﻔﻣ" # lower-case adjective, used for 'GetSpeciesClass'
+ plantoid_species:0 "ﻲﺗﺎﺒﻧ" # lower-case adjective, used for 'GetSpeciesClass'
+ aquatic_species:0 "ﻲﺋﺎﻣ" # lower-case adjective, used for 'GetSpeciesClass'
+ toxic_species:1 "ﻥﺎﻓﻭﺫ" # lower-case adjective, used for 'GetSpeciesClass'
+ necroid_species:1 "necroid" # lower-case adjective, used for 'GetSpeciesClass'
+ lithoid_species:0 "ﺪﻳﻮﺜﻴﻟ" # lower-case adjective, used for 'GetSpeciesClass'
+
+ test.edible.title:0 "؟ﻊﺋﺎﺟ"
+ test.edible.desc:0 ".[Root.GetEdibleNamePlural] ﻦﻴﺑ ﺎﺒﻃﺭ [Root.GetEdibleName] ﻯﻮﺳ ﺲﻴﻟ ،ﻢﻴﻈﻌﻟﺍ [Root.GetRulerTitle]، [Root.GetRulerName] ﻰﺘﺣ"
+
+# Individual Leaders
+ getunitdrone_unit:0 "ﺓﺪﺣﻭ"
+ getunitdrone_unit_plural:0 "ﺕﺍﺪﺣﻮﻟﺍ"
+ getunitdrone_drone:0 "ﺔﻠﻘﺘﺴﻣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ"
+ getunitdrone_drone_plural:0 "ﻢﻜﺤﻟﺍ ﺔﻴﺗﺍﺫ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ getunitdrone_symbiont: "ﺖﻧﻮﻴﺒﻤﻴﺳ"
+ getunitdrone_symbiont_plural: "ﻥﻮﻠﻓﺎﻜﺘﻤﻟﺍ"
+ getunitdrone_leader:0 "ﺪﺋﺎﻗ"
+ getunitdrone_leader_plural:0 "ﺓﺩﺎﻘﻟﺍ"
+
+# Individuals
+ individual_key: "ﻱﺩﺮﻓ"
+ individual_key_cap: "ﻱﺩﺮﻓ"
+ individuals_key: "ﻯﺩﺍﺮﻓ"
+ individuals_key_cap: "ﻯﺩﺍﺮﻓ"
+ drone_key:0 "ﺭﺎﻴﻃ ﻥﻭﺪﺑ"
+ drone_key_cap: "ﺭﺎﻴﻃ ﻥﻭﺪﺑ"
+ drones_key:0 "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ drones_key_cap: "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ unit_key:0 "ﺓﺪﺣﻭ"
+ unit_key_cap: "ﺓﺪﺣﻭ"
+ units_key:0 "ﺕﺍﺪﺣﻭ"
+ units_key_cap: "ﺕﺍﺪﺣﻮﻟﺍ"
+ symbiont_key: "ﺖﻧﻮﻴﺒﻤﻴﺳ"
+ symbiont_key_cap: "ﺖﻧﻮﻴﺒﻤﻴﺳ"
+ symbionts_key: "ﻦﻴﺸﻳﺎﻌﺘﻤﻟﺍ"
+ symbionts_key_cap: "ﻥﻮﻠﻓﺎﻜﺘﻤﻟﺍ"
+
+ team_member_key:0 "ﻖﻳﺮﻓ ﻮﻀﻋ"
+ team_members_key:0 "ﻖﻳﺮﻔﻟﺍ ﺀﺎﻀﻋﺃ"
+ crew_key: "ﻢﻗﺎﻃ"
+ crew_member_key: "ﻢﻗﺎﻄﻟﺍ ﻮﻀﻋ"
+ worker_key: "ﻞﻣﺎﻋ"
+ worker_key_cap: "ﻞﻣﺎﻋ"
+ workers_key: "ﻝﺎﻤﻌﻟﺍ"
+ workers_key_cap: "ﻝﺎﻤﻌﻟﺍ"
+
+ hive_key: "ﺔﻴﻠﺧ" # definitive noun
+ machine_key: "ﺔﻟﺁ" # definitive noun
+ wilderness_key: "ﺔﻳﺮﺒﻟﺍ" # definitive noun
+ collective_key: "ﺔﻴﻋﺎﻤﺠﻟﺍ" # definitive noun
+
+ getterraformer_machine:0 "ﺡﻼﺼﺘﺳﻻﺍ ﺓﺪﺣﻭ"
+ getterraformer_machine_plural:0 "ﺡﻼﺼﺘﺳﻻﺍ ﺕﺍﺪﺣﻭ"
+ getterraformer_hive:0 "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺡﻼﺼﺘﺳﺍ"
+ getterraformer_hive_plural:0 "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ getterraformer_wilderness: "ﺶﻳﺎﻌﺘﻤﻟﺍ ﺡﻼﺼﺘﺳﻻﺍ"
+ getterraformer_wilderness_plural: "ﺶﻳﺎﻌﺘﻤﻟﺍ ﺡﻼﺼﺘﺳﻻﺍ"
+ getterraformer_normal:0 "ﺡﻼﺼﺘﺳﻻﺍ ﻲﻓ ﺺﺼﺨﺘﻣ"
+ getterraformer_normal_plural:0 "ﺡﻼﺼﺘﺳﻻﺍ ﻲﻓ ﻦﻴﺼﺼﺨﺘﻤﻟﺍ"
+
+ monsteronship_desc:0 "!ﺶﻴﺠﻟﺍ ﻦﻣ ﺓﺪﻋﺎﺴﻣ ﻥﻭﺩ ﻼﻳﻮﻃ ﺍﻮﻣﻭﺪﻳ ﻦﻟ .ﻢﻗﺎﻄﻟﺍ ﻞﺘﻗ ﻝﻭﺎﺤﻳﻭ ﺔﻴﻤﻠﻌﻟﺍ ﺎﻨﺘﻨﻴﻔﺳ ﻲﺸﺣﻭ ﻕﻮﻠﺨﻣ ﺍﺰﻏ ﺪﻘﻟ"
+ monsteronship_mach_desc:0 "!ﺶﻴﺠﻟﺍ ﻦﻣ ﺓﺪﻋﺎﺴﻣ ﻥﻭﺩ ﻼﻳﻮﻃ ﺍﻮﻣﻭﺪﻳ ﻦﻟ .ﺎﻨﻤﻗﺎﻃ ﺕﺍﺪﺣﻭ ﺮﻴﻣﺪﺗ ﻝﻭﺎﺤﻳﻭ ﺔﻴﻤﻠﻌﻟﺍ ﺎﻨﺘﻨﻴﻔﺳ ﺶﺣﻮﺘﻣ ﻱﻮﻀﻋ ﺶﺣﻭ ﺍﺰﻏ ﺪﻘﻟ"
+
+ FRIEND_GESTALT: "ﺔﻴﻣﺎﺣ"
+ FRIEND_DEFAULT: "ﻖﻳﺪﺻ"
+
+ getscientist_machine:0 "ﻡﻮﻠﻌﻟﺍ ﺓﺪﺣﻭ"
+ getscientist_hive:0 "ﻡﻮﻠﻌﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ"
+ getscientist_wilderness: "ﻡﻮﻠﻌﻟﺍ ﺶﻳﺎﻌﺗ"
+ getscientist_normal:0 "ﻢﻟﺎﻋ"
+
+ getscientist_machine_capital:0 "ﻡﻮﻠﻌﻟﺍ ﺓﺪﺣﻭ"
+ getscientist_hive_capital:0 "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﻡﻮﻠﻌﻟﺍ ﺓﺮﺋﺎﻃ"
+ getscientist_wilderness_capital: "ﺖﻧﻮﻴﺒﻤﻴﺳ ﺲﻨﻳﺎﺳ"
+ getscientist_normal_capital:0 "ﻢﻟﺎﻋ"
+
+ getscientistplural_machine:0 "ﻡﻮﻠﻌﻟﺍ ﺕﺍﺪﺣﻭ"
+ getscientistplural_hive:0 "ﻡﻮﻠﻌﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ getscientistplural_wilderness: "ﻡﻮﻠﻌﻟﺍ ﺶﻳﺎﻌﺗ"
+ getscientistplural_normal:0 "ﺀﺎﻤﻠﻌﻟﺍ"
+
+ getscientistplural_machine_capital:0 "ﻡﻮﻠﻌﻟﺍ ﺕﺍﺪﺣﻭ"
+ getscientistplural_hive_capital:0 "ﻡﻮﻠﻌﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ getscientistplural_wilderness_capital: "ﻡﻮﻠﻌﻟﺍ ﺲﺘﻧﻮﻴﺒﻤﻴﺳ"
+ getscientistplural_normal_capital:0 "ﺀﺎﻤﻠﻌﻟﺍ"
+
+ getengineer_machine:0 "ﺔﻴﺳﺪﻨﻬﻟﺍ ﺓﺪﺣﻮﻟﺍ"
+ getengineer_hive:0 "ﺔﻴﺳﺪﻨﻫ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ"
+ getengineer_wilderness: "ﻲﺳﺪﻨﻬﻟﺍ ﺶﻳﺎﻌﺘﻟﺍ"
+ getengineer_normal:0 "ﺱﺪﻨﻬﻣ"
+ getengineerplural_machine:0 "ﺔﻴﺳﺪﻨﻬﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ"
+ getengineerplural_hive:0 "ﺔﻴﺳﺪﻨﻬﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ getengineerplural_wilderness: "ﻲﺳﺪﻨﻬﻟﺍ ﺶﻳﺎﻌﺘﻟﺍ"
+ getengineerplural_normal:0 "ﻦﻴﺳﺪﻨﻬﻤﻟﺍ"
+
+ getcolonist_machine: "ﺭﺎﻤﻌﺘﺳﻻﺍ ﺓﺪﺣﻭ"
+ getcolonist_hive: "ﺭﺎﻤﻌﺘﺳﻻﺍ ﺓﺮﺋﺎﻃ"
+ getcolonist_wilderness: "ﺭﺎﻤﻌﺘﺳﻻﺍ ﺶﻳﺎﻌﺗ"
+ getcolonist_normal: "ﺮﻤﻌﺘﺴﻤﻟﺍ"
+
+ getcolonist_machine_capital: "ﺭﺎﻤﻌﺘﺳﻻﺍ ﺓﺪﺣﻭ"
+ getcolonist_hive_capital: "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺭﺎﻤﻌﺘﺳﻻﺍ ﺓﺮﺋﺎﻃ"
+ getcolonist_wilderness_capital: "Symbiont ﺭﺎﻤﻌﺘﺳﻻﺍ"
+ getcolonist_normal_capital: "ﺮﻤﻌﺘﺴﻤﻟﺍ"
+
+ getcolonistplural_machine: "ﺭﺎﻤﻌﺘﺳﻻﺍ ﺕﺍﺪﺣﻭ"
+ getcolonistplural_hive: "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺭﺎﻤﻌﺘﺳﻻﺍ ﺕﺍﺮﺋﺎﻃ"
+ getcolonistplural_wilderness: "ﺭﺎﻤﻌﺘﺳﻻﺍ ﺶﻳﺎﻌﺗ"
+ getcolonistplural_normal: "ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ"
+
+ getcolonistplural_machine_capital: "ﺭﺎﻤﻌﺘﺳﻻﺍ ﺕﺍﺪﺣﻭ"
+ getcolonistplural_hive_capital: "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺭﺎﻤﻌﺘﺳﻻﺍ ﺕﺍﺮﺋﺎﻃ"
+ getcolonistplural_wilderness_capital: "ﺭﺎﻤﻌﺘﺳﻻﺍ ﺶﻳﺎﻌﺗ"
+ getcolonistplural_normal_capital: "ﻦﻳﺮﻤﻌﺘﺴﻤﻟﺍ"
+
+ get1stplanetkiller_cracker:0 "$PLANET_KILLER_CRACKER$"
+ get1stplanetkiller_shielder:0 "$PLANET_KILLER_SHIELDER$"
+ get1stplanetkiller_neutron:0 "$PLANET_KILLER_NEUTRON$"
+ get1stplanetkiller_godray:0 "$PLANET_KILLER_GODRAY$"
+ get1stplanetkiller_nanobots:0 "$PLANET_KILLER_NANOBOTS$"
+ get1stplanetkiller_none:0 "ﻞﺗﺎﻘﻟﺍ ﺐﻛﻮﻜﻟﺍ"
+
+ zero:0 "§!XYZT_00XYZT"
+ onetoten:0 "1-10"
+ eleventotwenty:0 "11-20"
+ twentyonetothirty:0 "21-30"
+ thirtyonetoforty:0 "31-40"
+ fortyonetofifty:0 "41-50"
+ fiftyonetosixty:0 "51-60"
+ sixtyonetoseventy:0 "61-70"
+ seventyonetoeighty:0 "71-80"
+ eightyonetoninety:0 "81-90"
+ ninetyonetohundred:0 "91-100"
+ hundredplus:0 "100+"
+
+ gray_goo_world_active_nanites:0 ".ﺔﻳﺎﻬﻧ ﻻ ﺎﻣ ﻰﻟﺇ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍﻭ ﻱﺮﺨﺼﻟﺍ ﻑﻼﻐﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺓﺩﺎﻋﺇ ﻢﺘﺗ ﺚﻴﺣ ﺮﻤﺘﺴﻣ ﺮﻴﻐﺗ ﺔﻟﺎﺣ ﻲﻓ ﻮﻫﻭ ،ﺔﻄﺸﻨﻟﺍ ﺖﻴﻧﺎﻨﻟﺎﺑ ﺞﻌﻳ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ"
+ gray_goo_world_inactive_nanites:0 ".ﺔﻧﻮﻨﺠﻤﻟﺍ ﺕﺎﻤﻴﻤﺼﺘﻟﺍ ﺾﻌﺒﻟ ﺎﻘﻓﻭ ﻩﻮﺸﻣ ،ﻑﺎﻴﻀﻣ ﺮﻴﻏﻭ ﻱﻮﺿﻮﻓ ﻢﻟﺎﻋ"
+
+ submantle_sub:0 "ﺽﺭﻷﺍ ﺖﺤﺗ"
+ submantle_mantle:0 "ﺓﺀﺎﺒﻋ ﻦﻜﺴﻣ"
+ SubMantle_Sub:0 "ﺔﻴﻓﻮﺟ"
+ SubMantle_Mantle:0 "ﻦﻜﺴﻤﻟﺍ ﺓﺀﺎﺒﻋ"
+
+ getmechanical: "ﺔﻴﻜﻴﻧﺎﻜﻴﻣ"
+ getbiological: "ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ"

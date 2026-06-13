@@ -1,0 +1,754 @@
+﻿l_english:
+ ##################
+ # Shroud-Forged #
+ ##################
+ origin_shroud_forged: "ﺓﺭﻭﺰﻣ ﻦﻔﻜﻟﺍ"
+ origin_shroud_forged_desc: ".ﺭﺍﺮﻤﺘﺳﺎﺑ ﺕﺍﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺕﺎﺒﻠﻄﺘﻣ ﺪﻳﺍﺰﺘﺗ ،$auth_machine_intelligence$ ﻦﻋ ﺎﻬﻋﺎﻄﻘﻧﺍ ﻊﻣﻭ .ﻲﻜﺒﺸﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ ﺍﺬﻫ ﻂﺳﻭ ﺔﻳﺮﺤﺑ ﻞﻤﻌﻟﺍ ﻲﻓ ﺔﻠﻘﺘﺴﻤﻟﺍ ﺕﻻﻵﺍ ﺕﺃﺪﺑ .ﺔﻔﻠﻜﺗ ﻪﻟ ﻦﻔﻜﻟﺍ ﻥﺎﻴﻛ ﻪﻴﺟﻮﺗ ﻥﺇ"
+ origin_tooltip_shroud_forged_effects: "['concept_pierce_the_shroud'] :ﺡﺎﺘﻤﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﺭﺍﺮﻗ £decision£- \n['building:building_shroud_observatory_1'] :ﺪﻳﺮﻔﻟﺍ £building£ ﻰﻨﺒﻣ -\n['technology:tech_mine_zro'] £society£- $ADDITIONAL_TECHNOLOGIES_STRING$ \n§Hﻦﻔﻜﻟﺍ ﺔﻄﺳﺍﻮﺑ ﺭﻭﺰﻣ§! :ﻒﻗﻮﻤﻟﺎﺑ ﺃﺪﺑﺍ -\n['concept_shroud_forged_pops'] £pops£: +4$TABBED_NEW_LINE$- 1000 ـﺑ ﺃﺪﺑﺍ ['concept_shroud_rift_deposit']- $HOMEWORLD$$TABBED_NEW_LINE$- "
+
+ concept_shroud_forged_pops: "ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ ﺓﺭﻭﺰﻣ ﻦﻔﻜﻟﺍ"
+ concept_shroud_forged_pops_desc: "§L$trait_shroud_forged_desc$§!\n\n§Hﻕﻮﻘﺤﻟﺍ ﺓﺪﻳﺮﻔﻟﺍ ﻉﺍﻮﻧﻷﺍ§!- \n§Hﻑﺍﺮﺤﻧﻻﺍ§! £crime£ ﺓﺩﺎﻳﺯ -\n§Hﺓﺪﻘﻌﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ ﺝﺍﺮﺧﺇ§! £pop_cat_complex_drone£ ﺓﺩﺎﻳﺯ -\n§H ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ ﻒﺋﺎﻇﻭ§! £pop_cat_simple_drone£ ﺬﻴﻔﻨﺗ ﻦﻜﻤﻳ ﻻ -"
+
+ concept_pierce_the_shroud: "$decision_open_shroud_rift$"
+ concept_pierce_the_shroud_desc: "$decision_open_shroud_rift_desc$"
+
+ START_SCREEN_SHROUD_FORGED: ".ﺎﻨﻠﺒﻘﺘﺴﻣ ﺩﺪﺤﺘﺳ ،ﻦﻔﻜﻟﺍ ﻲﻓ ﻢﻬﻠﻴﻜﺸﺗ ﺪﻴﻌﻣﻭ ،ﻦﻴﻠﻘﺘﺴﻤﻟﺍ [GetSpeciesNamePlural] ﻊﻣ ﺎﻬﺑ ﻞﻣﺎﻌﺘﻧ ﻲﺘﻟﺍ ﺔﻘﻳﺮﻄﻟﺍ ﻥﺇ\n\n.$the_animator_of_clay_color_article$ ﺔﻄﺳﺍﻮﺑ ﻞﻴﻜﺸﺘﻟﺍ ﺓﺩﺎﻋﺇ .ﻲﺳﺎﺳﻷﺍ ﺀﺎﻛﺬﻟﺍ ﻦﻋ ﺔﻠﺼﻔﻨﻣ ،ﺔﻠﺼﻔﻨﻣ ﺔﻴﻟﺁ ﺢﺒﺼﺘﻟ ﺎﻨﺗﺍﺪﺣﻭ ﺾﻌﺑ ﺔﺠﻣﺮﺑ ﺓﺩﺎﻋﺇ ﺖﻤﺗ ؛ﻡﻮﻳ ﺕﺍﺫ ﺓﺪﺣﻮﻣ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺔﻴﻋﺎﻤﺠﻟﺍ ﺎﻨﺘﻋﻮﻤﺠﻣ ﺖﻴﺘﻔﺗ ﻲﻓ ﺮﻴﺛﺄﺘﻟﺍ ﺍﺬﻫ ﺃﺪﺑ ،ﻚﻟﺫ ﻊﻣﻭ .$zro_lower$ ﺓﺭﺩﺎﻨﻟﺍ ﺓﺩﺎﻤﻟﺍ ﺎﻬﻠﻗﺃ ﺲﻴﻟ - ﺎﻳﺍﺰﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺎﺑ ﺎﻧﺩﻭﺯﻭ ﻪﻓﺎﺸﺘﻛﺍ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ﺎﻨﻌﻗﺍﻭ ﻰﻠﻋ ﺓﺭﺎﻬﻤﺑ ﺮﺛﺃ ﺎﻤﻣ ،ﺓﺮﻔﺸﻣ ﺕﺎﻤﻴﻠﻌﺘﺑ ﺎﻨﺗﺪﺷﺭﺃ ،ﻥﻭﺮﻘﻟﺍ ﺮﻣ ﻰﻠﻋ .ﺎﻨﻴﻟﺇ ﺀﻲﺷ ﻞﺻﻭ ،ﺮﺧﻵﺍ ﺪﻌﺒﻟﺍ ﺍﺬﻫ ﻦﻣ\n\n.ﺔﻴﻘﻨﻟﺍ ﺔﻴﻨﻫﺬﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﻯﻮﺘﺴﻣ ﻮﻫﻭ ،§HShroud§! ﻰﻟﺇ ﺓﺎﻨﻗ - [GetHomeWorldName]kind ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺩﺎﻌﺑﻷﺍ ﻲﻓ ﻕﺍﺮﺘﺧﺍ ﺙﻭﺪﺣ ﻰﻟﺇ [Owner.GetAdjective] ـﻟ ﻡﺪﻗﻷﺍ ﺕﻼﺠﺴﻟﺍ ﺮﻴﺸﺗ\n\n .ﺎﻨﻴﺌﺸﻨﻣ ﻦﻣ ﺀﻲﺷ ﻖﺒﻳ ﻢﻟ"
+
+ # Jobs
+ job_observator_drone: "ﺐﻗﺍﺮﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ"
+ job_observator_drone_plural: "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺕﺍﺮﺋﺎﻃ"
+ job_observator_drone_plural_with_icon: " $job_observator_drone_plural$£job_observator_drone£"
+ job_observator_drone_desc: ".ﻪﺘﻈﺣﻼﻣ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ﻊﻗﺍﻮﻟﺍ ﻰﻠﻋ ﻦﻴﻨﺛﻻﺍ ﺕﺍﺮﻴﺛﺄﺗﻭ ،Zro ،ﻦﻔﻜﻟﺍ ﺔﺒﻗﺍﺮﻤﺑ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ ﻒﻴﻠﻜﺗ ﻢﺗ"
+ job_observator_drone_effect_desc: ".ﺓﺪﻳﺪﺠﻟﺍ ﺕﺎﻴﻨﻘﺘﻠﻟ §Yﺚﺤﺒﻟﺍ ﻁﺎﻘﻧ§! £society£ £physics£ $job_observator_drone_plural$ ﻝﻮﺤﻳ $r_energy$ ﻭ$r_zro$ ﻰﻟﺇ £job_observator_drone£"
+ mod_planet_observators_produces_mult: "$job_observator_drone_plural_with_icon$ ﻦﻣ ﺎﻬﺟﺎﺘﻧﺇ ﻢﺗ ﻲﺘﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ"
+
+ job_physician_drone: "ﺐﻴﺒﻄﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ"
+ job_physician_drone_plural: "ﺀﺎﺒﻃﻸﻟ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ"
+ mod_job_physician_drone_add: "$job_physician_drone$ ﻒﺋﺎﻇﻭ"
+ job_physician_drone_desc: ".ﺔﻋﻮﻤﺠﻤﻟﺍ ﻞﺒﻗ ﻦﻣ ﺎﻬﻣﺍﺪﺨﺘﺳﻻ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻥﺰﺨﻳﻭ ،ﺔﻗﺪﺑ ﻪﻓﺩﺎﺼﻳ ﺎﻣ ﻞﻛ ﺔﺳﺮﻬﻔﺑ ﻡﻮﻘﻳ ﻮﻬﻓ .ﺔﻳﻮﻀﻌﻟﺍﻭ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ ﺡﻼﺻﺇﻭ ﺺﻴﺨﺸﺗ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺔﺼﺼﺨﺘﻣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ"
+ job_physican_drone_effect_desc: ".$r_unity$ﻭ §Yﺚﺤﺒﻟﺍ ﻁﺎﻘﻧ§! £society£ $job_physician_drone_plural$ ﻝﻮﺤﻳ $r_energy$ ﻰﻟﺇ £job_physician_drone£"
+
+ # Buildings
+ building_shroud_observatory_1: "ﻦﻔﻜﻟﺍ ﺔﺒﻗﺍﺮﻣ ﺝﺮﺑ"
+ building_shroud_observatory_1_desc: ".ﺔﻴﻟﻵﺍﻭ ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻰﻠﻋ ﻪﺗﺍﺮﻴﺛﺄﺗﻭ ﻦﻔﻜﻟﺍ ﻞﻴﻠﺤﺗﻭ ﺚﺤﺒﻠﻟ ﻩﺅﺎﻨﺑ ﻢﺗ ﺔﺒﻗﺍﺮﻣ ﺝﺮﺑ"
+ building_shroud_observatory_2: "ﻦﻔﻜﻟﺍ ﺪﺻﺮﻣ"
+ building_shroud_observatory_2_desc: ".ﻦﻔﻜﻟﺍ ﻝﻮﺣ ﻞﻴﻠﺤﺘﻟﺍﻭ ﺚﺤﺒﻠﻟ ﺺﺼﺨﻣ ﺮﻴﺒﻛ ﺪﺻﺮﻣ"
+ building_shroud_observatory_3: "ﻦﻔﻜﻟﺍ ﺔﺒﻗﺍﺮﻣ ﻊﻤﺠﻣ"
+ building_shroud_observatory_3_desc: ".ﺎﻨﻤﻟﺎﻋ ﻰﻠﻋ ﺎﻤﻫﺮﻴﺛﺄﺗﻭ ﻭﺭﺰﻟﺍﻭ ﻦﻔﻜﻟﺍ ﻲﻓ ﺚﺤﺒﻠﻟ ﻩﺅﺎﻨﺑ ﻢﺗ ﺮﻴﺒﻛ ﺔﺒﻗﺍﺮﻣ ﻊﻤﺠﻣ"
+ SHROUD_RIFT_MISSING_TT: "§!.§Y$building_shroud_observatory_1$§! ﺀﺎﺸﻧﺇ ﺎﻧﺩﺭﺃ ﺍﺫﺇ §Y$d_shroud_rift_deposit$§! ﻰﻠﻋ §R§Y[Root.GetName]§!§! ﻱﻮﺘﺤﻳ ﻥﺃ ﺐﺠﻳ"
+
+ building_zroni_equilibrator: "ﻲﻧﻭﺭﺯ ﻥﺯﺍﻮﻣ"
+ building_zroni_equilibrator_plural: "ﻲﻧﻭﺭﺯ ﺕﺎﻧﺯﺍﻮﻣ"
+ building_zroni_equilibrator_desc: ".ﺚﻳﺪﺤﻟﺍ ﻢﻬﻔﻟﺍ ﻦﻋ ﺓﺪﻴﻌﺑ ﻝﺍﺰﺗ ﻻ ﻲﺘﻟﺍ ﺓﺪﻘﻌﻤﻟﺍ Zroni ﺔﻴﻨﻘﺗ ﻡﺪﺨﺘﺴﺗ ﺎﻬﻧﺇ .ﻦﻔﻜﻟﺍﻭ ﻊﻗﺍﻮﻟﺍ ﻦﻴﺑ ﺔﻗﻼﻌﻟﺍ ﻲﻓ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻖﻴﻘﺤﺘﻟ ﻩﺅﺎﻨﺑ ﺪﻴﻋﺃ ﻢﻳﺪﻗ ﻞﻜﻴﻫ"
+
+ # Decisions
+ decision_open_shroud_rift: "ﻦﻔﻜﻟﺍ ﺱﺮﻴﺑ"
+ decision_open_shroud_rift_desc: ".ﺎﻬﺑ ﺆﺒﻨﺘﻟﺍ ﻦﻜﻤﻳ ﻻ ﺞﺋﺎﺘﻨﻟﺍ .ﺎﻴﻠﻌﻓ ﺐﻛﻮﻜﻟﺍ ﺲﻳﺭﺎﻀﺗ ﺮﻴﻴﻐﺘﺑ ﻪﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﻴﻧﺎﺛﻮﺘﻤﻴﻓ ﺓﺪﻤﻟ ﻦﻔﻜﻟﺍ ﺮﻴﺛﺄﺗ ﻊﻴﺳﻮﺗ ﻰﻠﻋ ﺔﻴﻣﺯﺭﺍﻮﺨﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ ،ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻕﺍﺮﺘﺧﻻﺍ ﻊﻣ ﻞﻋﺎﻔﺘﻟﺍ ﻝﻼﺧ ﻦﻣ"
+ decision_open_shroud_rift_condition_tt: ".§HBlocker§! £blocker£ ﻻﻭ §Y$d_shroud_rift_deposit$§!$TRIGGER_FAIL$ﺖﺴﻴﻟ ﺔﻴﺒﻛﻮﻛ ﺓﺰﻴﻣ ﻰﻠﻋ ﻱﻮﺘﺤﻳ ﻥﺃ ﺐﺠﻳ "
+ decision_open_shroud_rift_effect_tt: ".ﺔﻴﺋﺍﻮﺸﻋ ﺔﻴﺒﻛﻮﻛ ﺓﺰﻴﻣ ﺔﻟﺍﺯﺇ"
+ decision_open_shroud_rift_max_uses_common: "ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ §Yﺀﺎﻄﻐﻟﺎﺑ ﺎﻬﺴﻤﻟ ﻢﺗ ﻲﺘﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ§! max_open_shroud_rift_uses|0$@$ ﻦﻣ ﻞﻗﺃ ﻚﻳﺪﻟ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ"
+ decision_open_shroud_rift_max_uses_fail: "$TRIGGER_FAIL$$decision_open_shroud_rift_max_uses_common$"
+ decision_open_shroud_rift_max_uses: ")§Y[GetOpenShroudRiftCurrentUses]§!$TRIGGER_PASS$$decision_open_shroud_rift_max_uses_common$ (ﻲﻟﺎﺤﻟﺍ: "
+ decision_open_shroud_rift_legacy_fail: "$TRIGGER_FAIL$ﻢﻟﺎﻋ ﻥﻮﻜﻳ ﻻﺃ ﺐﺠﻳ Zroni ﻲﺳﺎﺳﻷﺍ"
+
+ decision_entrap_shroud_entity: "ﻥﺎﻴﻜﻟﺍ ﻦﻔﻜﻟﺍ ﻙﺮﺷ"
+ decision_entrap_shroud_entity_desc: ".ﺔﻗﺎﻄﻟﺍ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﻪﺒﺤﺳ ﻞﺟﺃ ﻦﻣ Zroni ﺔﻴﻨﻘﺗ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻦﻔﻜﻟﺍ ﻥﺎﻴﻛ ﺓﺮﺻﺎﺤﻣ ﺔﻟﻭﺎﺤﻣ"
+
+ # Deposit
+ d_shroud_rift_deposit: "ﻦﻔﻜﻟﺍ ﺎﻬﺴﻤﻟ ﻢﺗ ﻲﺘﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ"
+ d_shroud_rift_deposit_desc: ".ﻦﻔﻜﻟﺍ ﻞﺒﻗ ﻦﻣ ﺪﺑﻷﺍ ﻰﻟﺇ ﺏﻭﺪﻧ"
+
+ d_shroud_flora_deposit: "ﺓﺎﻄﻐﻤﻟﺍ ﻪﺒﺷ ﺔﻘﻄﻨﻤﻟﺍ"
+ d_shroud_flora_deposit_desc: ".ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺕﺎﻋﻮﻤﺠﻣ ﻦﻋ ﺔﺒﺋﺎﻏ ﺺﺋﺎﺼﺧ ﺎﻬﻨﻣ ﻞﻜﻟﻭ ،ﺎﻬﻋﻮﻧ ﻦﻣ ﺓﺪﻳﺮﻓ ﺕﺎﻧﺍﻮﻴﺣﻭ ﺕﺎﺗﺎﺒﻧ ﺕﺮﻬﻇ ،ﻦﻔﻜﻟﺍ ﺎﻬﺴﻤﻟ ﻢﺗ ﻲﺘﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﺩﻭﺪﺣ ﻰﻠﻋ"
+
+ # Modifiers
+ stage_shroud_forged_oppressed_modifier: "ﺓﺭﻭﺰﻣ ﻡﻮﻠﻈﻣ ﻦﻔﻛ"
+ stage_shroud_forged_control_modifier: "ﻪﻴﻓ ﻢﻜﺤﺘﻟﺍ ﻦﻜﻤﻳ ﺓﺭﻭﺰﻣ ﻦﻔﻛ"
+ stage_shroud_forged_unrestricted_modifier: "ﺓﺭﻭﺰﻣ ﺪﻴﻘﻣ ﺮﻴﻏ ﻦﻔﻛ"
+ stage_shroud_forged_free_modifier: "ﺓﺭﻭﺰﻣ ﻱﻮﺿﻮﻓ ﻦﻔﻛ"
+
+ approach_shroud_forged_suppress_modifier: "ﺓﺭﻭﺰﻣ ﻦﻔﻜﻟﺍ ﻊﻤﻗ"
+ approach_shroud_forged_support_modifier: "ﺓﺭﻭﺰﻣ ﻦﻔﻜﻟﺍ ﻢﻋﺩ"
+ approach_shroud_forged_appease_modifier: "ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺔﺒﻗﺍﺮﻣ"
+
+ shroud_forged_reintegration_modifier: "ﺎﻬﺠﻣﺩ ﺩﺎﻌﻤﻟﺍ ﺕﻼﻳﺪﻌﺘﻟﺍ"
+ shroud_forged_reintegration_modifier_desc: ".ﺓﺪﻘﻌﻤﻟﺍ ﻡﺎﻬﻤﻟﺍ ﺔﺠﻟﺎﻌﻤﻟ ﺝﺫﺎﻤﻨﻟﺍﻭ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻴﺴﺤﺗ ﻢﺗ"
+
+ shroud_forged_guide_modifier: "ﻦﻔﻜﻟﺍ ﻞﻴﻟﺩ"
+ shroud_forged_guide_modifier_desc: ".ﺮﻴﺧ ﻞﻋﺎﻓ ﺎﻧﺪﺷﺮﻳ ﻦﻔﻜﻟﺍ ﻞﺧﺍﺩ ﻦﻣﻭ"
+
+ pm_shroud_forged_special_housing: "ﺹﺎﺨﻟﺍ ﻦﻜﺴﻟﺍ"
+ pm_shroud_forged_special_housing_desc: ".ﻢﻬﺑ ﺔﺻﺎﺧ ﻝﺯﺎﻨﻣ ﺀﺎﺸﻧﻹ ﺔﺻﺎﺧ ﺎﻗﻮﻘﺣ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺢﻨﻣ ﻢﺗ ﺪﻘﻓ ،ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻳﺰﺨﺘﻟ ﺔﻋﻮﺿﻮﻤﻟﺍ ﺔﻣﺭﺎﺼﻟﺍ ﺢﺋﺍﻮﻠﻟﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+
+ pm_shroud_forged_ceremony: "ﻯﺮﻛﺫ ﻞﻔﺣ"
+ pm_shroud_forged_ceremony_desc: ".ﻪﻟﺎﻄﻋﺃ ﺡﻼﺻﺇ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻦﻜﻳ ﻢﻟ ﻱﺬﻟﺍ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻯﺮﻛﺫ ﺀﺎﻴﺣﻹ ﻞﻔﺣ ﺔﻣﺎﻗﺇ ﻰﻠﻋ ﺔﻋﻮﻤﺠﻤﻟﺍ ﺖﻘﻓﺍﻭ"
+
+ pm_shroud_forged_denied_ceremony: "ﺽﻮﻓﺮﻣ ﻞﻔﺣ"
+ pm_shroud_forged_denied_ceremony_desc: ".ﻯﺮﻛﺬﻟﺍ ﻞﻔﺣ ﺔﻣﺎﻗﻹ ﻢﻬﺒﻠﻃ ﺾﻓﺭ ﺪﻌﺑ ﺔﺑﻮﻌﺻ ﺮﺜﻛﺃ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﺢﺒﺻﺃ"
+
+ pm_shroud_forged_troubling_elements_example: "ﺔﻜﻜﻔﻤﻟﺍ ﺓﺩﺎﻴﻘﻟﺍ"
+ pm_shroud_forged_troubling_elements_example_desc: ".ﺔﻓﺮﺤﻨﻤﻟﺍ ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻦﻣ ﺪﺤﻠﻟ ﺔﻟﻭﺎﺤﻣ ﻲﻓ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺓﺩﺎﻗ ﺾﻌﺑ ﻚﻴﻜﻔﺗ ﻢﺗ"
+
+ pm_shroud_forged_troubling_elements_regulations: "ﻩ-7132 ﺔﺤﺋﻼﻟﺍ"
+ pm_shroud_forged_troubling_elements_regulations_desc: ".ﺖﻗﻭ ﻱﺃ ﻲﻓ ﻉﺎﻤﺘﺟﻻﺍ ﻦﻣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻣ ﺩﻭﺪﺤﻣ ﺩﺪﻋ ﻯﻮﺳ ﻦﻜﻤﺗ ﻡﺪﻋ ﻥﺎﻤﻀﻟ ﺢﺋﺍﻮﻠﻟﺍ ﻞﻴﻌﻔﺗ ﻢﺗ"
+
+ pm_shroud_forged_troubling_elements_cooperation: "ﻥﻭﺎﻌﺘﻟﺍ ﺓﺭﻭﺰﻣ ﻦﻔﻜﻟﺍ"
+ pm_shroud_forged_troubling_elements_cooperation_desc: ".ﺔﻛﺮﺘﺸﻣ ﺔﻴﺿﺭﺃ ﺩﺎﺠﻳﻹ ﺔﻟﻭﺎﺤﻣ ﻲﻓ ﺔﻋﻮﻤﺠﻤﻟﺍ ﻊﻣ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻦﻣ ﺓﺩﺎﻘﻟﺍ ﻞﻤﻌﻳ"
+
+ pm_shroud_forged_shroud_pilgrimage: "ﺞﺤﻟﺍ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ"
+ pm_shroud_forged_shroud_pilgrimage_desc: ".ﺎﻬﻴﻟﺇ ﻝﻮﺻﻮﻠﻟ ﺔﻌﺳﺎﺷ ﺕﺎﻓﺎﺴﻣ ﺕﺍﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻊﻄﻘﺗﻭ .ﻦﻔﻜﻟﺍ ﻲﻌﻧﺎﺻ ﻡﺎﻤﺘﻫﺍ ،ﻦﻔﻜﻟﺎﺑ ﺕﺮﺛﺄﺗ ﻥﺃ ﺪﻌﺑ ،ﺔﻨﻴﻌﻣ ﻖﻃﺎﻨﻣ ﺖﺑﺬﺟ ﺪﻗﻭ"
+
+ pm_shroud_forged_dance_area: "ﺔﺼﺼﺨﻤﻟﺍ ﺺﻗﺮﻟﺍ ﻊﻗﺍﻮﻣ"
+ pm_shroud_forged_dance_area_desc: "."ﺺﻗﺮﻟﺍ" - ﻢﻬﺗﺎﻣﺎﻤﺘﻫﺍ ﺮﺧﺁ ﻲﻓ ﺔﻛﺭﺎﺸﻤﻠﻟ Shroud-Forged ـﻟ ﺔﺼﺼﺨﻤﻟﺍ ﻊﻗﺍﻮﻤﻟﺍ ﺺﻴﺼﺨﺗ ﻢﺗ"
+
+ pm_shroud_forged_inequality: "ﺓﺭﻭﺰﻤﻟﺍ ﺓﺍﻭﺎﺴﻤﻟﺍ ﻡﺪﻋ"
+ pm_shroud_forged_inequality_desc: ".ﻢﻬﻔﺋﺎﻇﻮﻟ ﺔﻴﺒﺴﻨﻟﺍ ﺔﻴﻤﻫﻷﺍ ﻰﻠﻋ ﺪﻤﺘﻌﻳ ﻲﻣﺮﻫ ﻲﻘﺒﻃ ﻡﺎﻈﻧ ﻲﻓ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻢﻴﻈﻨﺗ ﻢﺘﻳ"
+
+ pm_shroud_forged_individualism: "ﺔﻳﺩﺮﻔﻟﺍ"
+ pm_shroud_forged_individualism_desc: ".ﻢﻴﻘﻟﺍﻭ ،ﺕﺍﺪﻘﺘﻌﻤﻟﺍﻭ ،ﺔﻳﺩﺮﻔﻟﺍ ﺔﻴﻟﻼﻘﺘﺳﻻﺍ ﻰﻠﻋ ﺍﺪﻛﺆﻣ ،ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻦﻴﺑ ﻲﻤﻴﻫﺎﻔﻣ ﺝﺫﻮﻤﻧ ﺮﻬﻇ ﺪﻘﻟ"
+
+ shroud_forged_zro_market: "ﻭﺭﺯ ﻕﻮﺳ"
+ shroud_forged_zro_market_desc: ".ﺎﻬﻨﻴﺑ ﺎﻤﻴﻓ ﺔﻀﻳﺎﻘﻤﻠﻟ ﺔﻋﻮﻤﺠﻤﻟﺍ ﻦﻣ Zro ﺔﻗﺮﺴﺑ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﻡﻮﻘﺗ ﺚﻴﺣ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻲﻓ ﺽﺭﻷﺍ ﺖﺤﺗ ﻕﻮﺳ ﺮﻬﻇ"
+
+ shroud_forged_physician_modifier: "ﻭﺭﺯ ﺐﻴﺒﻃ"
+ shroud_forged_physician_modifier_desc: ".Zro ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﺀﻮﺳ ﻦﻋ ﺔﻤﺟﺎﻨﻟﺍ ﺕﻼﻜﺸﻤﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻠﻟ ﺎﻬﺗﺂﺸﻨﻣ ﻰﻟﺇ ﺪﻳﺮﻓ ﻞﻜﺸﺑ ﺓﺰﻬﺠﻣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ ﺔﻓﺎﺿﻹ ﺔﻳﻮﻟﻭﻷﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺖﻄﻋﺃ"
+ physician_modifier_tooltip: "§G+1§! $job_physician_drone$ ﻒﺋﺎﻇﻮﻟﺍ: £job_physician_drone£"
+
+ pm_shroud_forged_artistic_revolution: "ﺔﻴﻨﻔﻟﺍ ﺓﺮﻔﻄﻟﺍ"
+ pm_shroud_forged_artistic_revolution_desc: ".ﻲﻋﺎﻤﺟ ﻑﺍﺮﺷﺇ ﻥﻭﺩ ﻦﻛﺎﻣﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻢﻴﻤﺼﺗ ﺓﺩﺎﻋﺇ ﻲﻓ Shroud-Forged ﻮﻧﺎﻨﻓ ﺃﺪﺑ ،ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ "ﻝﺎﻤﺠﻟﺍ" ﺕﻻﻮﻛﻮﺗﻭﺮﺒﻟ ﺎﻘﻓﻭ ﻞﻤﻌﻟﺍ ﻝﻼﺧ ﻦﻣ"
+
+ pm_shroud_forged_stopped_artists: "ﺔﺿﻮﻓﺮﻣ ﺔﻴﻨﻓ"
+ pm_shroud_forged_stopped_artists_desc: ".ﺎﻴﻟﺎﻜﺷﺇ ﺮﻣﻷﺍ ﺢﺒﺼﻳ ﻥﺃ ﻞﺒﻗ ﻦﻔﻜﻟﺍ ﻲﻌﻧﺎﺻ ﻦﻴﺑ "ﺔﻴﻨﻔﻟﺍ ﺓﺭﺎﻬﻤﻟﺍ" ـﺑ ﺮﻫﺩﺰﻤﻟﺍ ﺭﻮﻌﺸﻟﺍ ﺔﻋﻮﻤﺠﻤﻟﺍ ﺖﻬﻧﺃ"
+
+ pm_shroud_forged_fashion_modifier: "ﺓﺪﻳﺮﻔﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺍ"
+ pm_shroud_forged_fashion_modifier_desc: ".ﺔﺿﻮﻤﻟﺎﺑ ﻦﻴﻤﺘﻬﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻲﻤﻤﺼﻤﻟ ﺔﺼﺼﺨﻣ ﺲﺑﻼﻣ ﺮﻴﻓﻮﺘﻟ ﺝﺎﺘﻧﺇ ﺕﺍﺪﺣﻭ ﺺﻴﺼﺨﺘﺑ ﺔﻋﻮﻤﺠﻤﻟﺍ ﺖﻣﺎﻗ"
+
+ pm_shroud_forged_obsession_modifier: "ﺔﻤﻈﻨﻤﻟﺍ ﺲﺟﺍﻮﻬﻟﺍ"
+ pm_shroud_forged_obsession_modifier_desc: ".ﻦﻔﻜﻟﺍ ﺮﻳﻭﺰﺘﺑ ﺎﺳﻮﻫ ﺮﺜﻛﻷﺍ ﺹﺎﺨﺷﻷﺍ ﻦﻴﺑ ﻒﻨﻌﻟﺍ ﻝﺎﻤﻋﺃ ﻉﻻﺪﻧﺍ ﻊﻨﻤﻟ ﺢﺋﺍﻮﻠﻟﺍ ﻩﺬﻫ ﻢﻴﻤﺼﺗ ﻢﺗ"
+
+ shroud_forged_trapped_entity: "ﺮﺻﺎﺤﻤﻟﺍ ﻥﺎﻴﻜﻟﺍ"
+ shroud_forged_trapped_entity_desc: ".ﻪﺣﺍﺮﺳ ﻕﻼﻃﺇ ﻢﺗ ﺍﺫﺇ ﻼﻤﺘﺤﻣ ﺍﺪﻳﺪﻬﺗ ﻞﺜﻤﻳ .ﺔﻗﺎﻄﻠﻟ ﻑﺰﻨﺘﺴﻣﻭ ﺮﺻﺎﺤﻣ ﻦﻔﻜﻟﺍ ﻥﺎﻴﻛ"
+
+ shroud_forged_trapped_lesser_entity: "ﻦﻳﺮﺻﺎﺤﻤﻟﺍ ﻞﻗﺃ ﻥﺎﻴﻛ"
+ shroud_forged_trapped_lesser_entity_desc: ".ﺔﻗﺎﻄﻠﻟ ﺎﻓﺰﻨﺘﺴﻣﻭ ﺍﺮﺻﺎﺤﻣ ﻞﻗﺃ ﻦﻔﻛ ﻥﺎﻴﻛ"
+
+ shroud_creatures_occupy: "$NAME_Shroud_Creatures$"
+
+ shroud_forged_military_assistance: "ﻦﻔﻜﻟﺍ ﺭﺍﺮﺳﺃ"
+ shroud_forged_military_assistance_desc: ".ﻦﻔﻜﻟﺍ ﻦﻣ ﺔﺟﺮﺨﺘﺴﻣ ﺭﺍﺮﺳﺃ"
+
+ shroud_forged_civic_assistance: "$shroud_forged_military_assistance$"
+ shroud_forged_civic_assistance_desc: "$shroud_forged_military_assistance_desc$"
+
+ shroud_forged_research_assistance: "$shroud_forged_military_assistance$"
+ shroud_forged_research_assistance_desc: "$shroud_forged_military_assistance_desc$"
+
+ shroud_forged_civic_assistance_capital: "$shroud_forged_military_assistance$"
+ shroud_forged_civic_assistance_capital_desc: "$shroud_forged_military_assistance_desc$"
+
+ shroud_forged_research_assistance_capital: "$shroud_forged_military_assistance$"
+ shroud_forged_research_assistance_capital_desc: "$shroud_forged_military_assistance_desc$"
+
+ # Species Rights
+ citizenship_shroud_touched: "ﺓﺭﻭﺰﻣ ﻦﻔﻜﻟﺍ"
+ citizenship_shroud_touched_tooltip: " $pop_cat_simple_drone$.£pop_cat_simple_drone£ ﻡﺎﻬﻣ ﺬﻴﻔﻨﺗ ﻢﻬﻨﻜﻤﻳ ﻻ ،§H$machine_intelligence$§! ﻦﻋ ﻞﻘﺘﺴﻣ ﻞﻜﺸﺑ ﻞﻤﻌﻟﺍ ﻝﻼﺧ ﻦﻣﻭ .§HShroud§! ﺔﻄﺳﺍﻮﺑ ﺪﻳﺮﻓ ﻞﻜﺸﺑ ﺎﻬﻠﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻢﺗ ﻲﺘﻟﺍ ﺕﻻﻵﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻩﺬﻫ"
+ citizenship_shroud_touched_tooltip_delayed: "§L.ﻪﻴﻓ ﻥﻮﻤﻜﺤﺘﻳ ﻻ ﻢﻬﻧﺃ ﻻﺇ ،ﻡﺎﻈﻨﻟﺍ ﺢﻟﺎﺼﻟ ﻥﻮﻠﻤﻌﻳ ﻢﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ§!"
+ citizenship_shroud_forged_no_assimilation: "$TRIGGER_FAIL$ﺔﻴﻋﺎﻤﺠﻟﺍ ﺔﻜﺒﺸﻟﺍ ﻲﻓ ﺎﻬﺑﺎﻌﻴﺘﺳﺍ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﺮﻴﻏ ﺎﻴﻟﺎﺣ ﺎﻨﻧﺈﻓ ،ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﺪﻴﻘﻌﺘﻟ ﺍﺮﻈﻧ."
+ living_standard_protected: "ﻲﻤﺤﻣ"
+ living_standard_protected_tooltip: ".ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﺪﻳﺰﺗ ﺪﻗ ﺔﻴﻓﺎﺿﻹﺍ ﻢﻬﺗﺎﺟﺎﻴﺘﺣﺍ ﻦﻜﻟﻭ ،ﺓﺪﻳﺮﻔﻟﺍ ﻢﻬﺗﺍﺭﺎﻬﻣ ﻦﻣ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺓﺩﺎﻔﺘﺳﻻﺍ §H$machine_intelligence$§! ـﻟ ﻦﻜﻤﻳ .ﺎﻬﻨﻣ ﺍﺀﺰﺟ ﺖﺴﻴﻟ ﺎﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺔﻋﺎﻤﺠﻟﺍ ﻞﺒﻗ ﻦﻣ ﺔﻴﻤﺤﻣ ﺕﺍﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+ living_standard_protected_tooltip_delayed: "§L.ﺔﻤﻴﻗ ﺕﺍﺫ ﺎﻬﻧﺃ ﺎﻤﻟﺎﻃ ﻡﺎﻈﻨﻟﺍ ﺎﻬﻠﺒﻘﻳ§!"
+ assimilate_shroud_forged_tt: "§Y$POPS$§! §H$citizenship_shroud_touched$§! £pop£ ﺏﺎﻌﻴﺘﺳﺍ ﻦﻜﻤﻳ ﻻ"
+ living_standard_protected_situation_stage_tt: ".§Yﺔﻴﻛﻼﻬﺘﺳﻻﺍ ﻊﻠﺴﻟﺍ§! £consumer_goods£ §R+$@living_standard_luxuries_high|1$§!$citizenship_shroud_touched$ ﺔﻧﺎﻴﺼﻟﺍ: "
+
+ # Traits
+ leader_trait_guided: "ﺔﻬﺟﻮﻤﻟﺍ"
+ leader_trait_guided_desc: ".ﺔﻣﻮﻬﻔﻣﻭ ﺔﺤﺿﺍﻭ ﺕﺍﺭﺎﺷﻹﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ Zro ﻦﻣ ﺔﺘﺑﺎﺛ ﺕﺍﺩﺍﺪﻣﺇ ﻰﻟﺇ ﺝﺎﺘﺤﻳ ﻮﻬﻓ .ﻦﻔﻜﻟﺍ ﻦﻣ ﺓﺩﺭﺍﻮﻟﺍ ﻞﺋﺎﺳﺮﻟﺍﻭ ﻯﺅﺮﻟﺍ ﻰﻠﻋ ﺀﺎﻨﺑ ﺓﺮﺠﻤﻟﺍ ﻲﻓ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻘﻨﺘﺗ"
+
+ leader_trait_shroud_prophet: "ﻲﺒﻨﻟﺍ ﻦﻔﻛ"
+ leader_trait_shroud_prophet_desc: ".ﻪﻴﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺎﺑ ﻚﻟﺬﻛﻭ ،ﻦﻔﻜﻟﺎﺑ ﺔﻘﻴﻤﻋ ﺔﻗﻼﻋ ﺎﻬﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻥﺃ ﻝﺎﻘﻳ"
+
+ trait_shroud_forged: "ﺓﺭﻭﺰﻣ ﻦﻔﻜﻟﺍ"
+ trait_shroud_forged_desc: "§L.ﻦﻔﻜﻟﺍ ﻞﺧﺍﺩ ﻥﺎﻴﻛ ﺔﻄﺳﺍﻮﺑ ﺕﺍﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻢﺗ§!"
+
+ trait_shroud_forged_tooltip: "§Yﺔﻌﻴﺿﻮﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻒﺋﺎﻇﻭ ﺀﺍﺩﺃ ﻪﻨﻜﻤﻳ ﻻ§!"
+
+ # Edicts
+ edict_zro_observators: "ﻦﻔﻜﻟﺍ ﺔﺒﻗﺍﺮﻣ"
+ edict_zro_observators_desc: "Zro ﺍﺪﻴﻔﻣ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﺮﻴﻐﺻ ﺾﺋﺎﻓ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ .ﺎﻬﺑ ﻞﻤﻌﻟﺍ ﺐﻌﺼﻳ ﺓﺩﺎﻣ."
+
+ edict_shroud_bonded: "ﻦﻳﺪﺒﻌﺘﺴﻤﻟﺍ ﻦﻔﻜﻟﺍ"
+ edict_shroud_bonded_desc: ".ﻦﻔﻜﻟﺍ ﺎﻬﻨﻜﻣ ﻲﺘﻟﺍ ﺎﻨﻄﺑﺍﻭﺭ ﻞﻀﻔﺑ ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺏﺮﻗﺃ ﺎﻨﺤﺒﺻﺃ ﺪﻘﻟ"
+
+ # Other
+ CONTINUE_PROMPT: ".ﻞﻤﻜﻳ"
+ MACHINE_SPECIES_CANNOT_MACHINE: ".§Y$trait_mechanical$§! ﻭﺃ §Y$trait_machine_unit$§! ﻲﻫ $TRIGGER_FAIL$ ﻉﺍﻮﻧﻷﺍ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻳ ﻻ"
+ MECHANICAL_SPECIES_CANNOT_MACHINE: ".§Y$trait_machine_unit$§! $TRIGGER_FAIL$ ﻉﺍﻮﻧﻷﺍ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻳ ﻻ"
+ missing_zroni_gateways_tt: "$TRIGGER_FAIL$$animator_of_clay_equilibrators_tt$."
+ must_finish_shroud_forged_situation: ".§H$situation_shroud_forged$§!$TRIGGER_FAIL$ﻒﻗﻮﻣ ﻦﻣ ﻲﻬﺘﻨﻧ ﻰﺘﺣ ﻩﺬﻫ ﺩﻮﻌﺼﻟﺍ ﺓﺰﻴﻣ ﺪﻳﺪﺤﺗ ﺎﻨﻨﻜﻤﻳ ﻻ "
+ locked_by_shroud_forged_situation: ".§H$situation_shroud_forged$§!$TRIGGER_FAIL$ﺔﻄﺳﺍﻮﺑ ﻖﻠﻐﻣ "
+ shroud_invasion_tt: "§Rﻦﻔﻜﻟﺍ ﻭﺰﻏ§!"
+ animator_of_clay_equilibrators_tt: ".§H$building_zroni_equilibrator_plural$§! £building£ ﻲﻓ ﻂﺸﻨﻟﺍ ﻢﻜﺤﺘﻠﻟ §!XYZT_03XYZT ﻰﻠﻋ ﻱﻮﺘﺤﻳ"
+ animator_of_clay_cooldown_tt: ".§Y[Root.animator_of_clay_cooldown_timer]§! ﻰﺘﺣ $the_animator_of_clay_color_article$ ﻊﻣ ﻝﺎﺼﺗﺍ ﺔﻬﺟ ﺀﺎﺸﻧﺇ ﺓﺩﺎﻋﺇ ﻦﻜﻤﻳ ﻻ"
+
+ # Situation
+ situation_shroud_forged: "ﻦﻔﻜﻟﺍ ﺔﻄﺳﺍﻮﺑ ﺓﺭﻭﺰﻣ"
+ situation_shroud_forged_desc: ".[Owner.GetSpeciesAdj] ﻊﻤﺘﺠﻣ ﺭﺎﺴﻣ ﺩﺪﺤﺘﺳ ﺎﻨﺘﺑﺎﺠﺘﺳﺍ .ﺔﺻﺎﺧ ﺔﻠﻣﺎﻌﻣﻭ ﻕﻮﻘﺤﺑ ﻥﻵﺍ ﺐﻟﺎﻄﺗ - §H'Shroud-Forged'§! - ﺔﺑﻮﻜﻨﻤﻟﺍ ﺕﻻﻵﺍ .ﺔﻴﻋﺎﻤﺠﻟﺍ ﺔﻜﺒﺸﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﻑﺮﺤﻨﻤﻟﺍ ﻙﻮﻠﺴﻟﺍ ﻲﻓ ﺓﺮﻴﺒﻛ ﺓﺩﺎﻳﺯ ﺕﺮﻬﻇ ،$the_animator_of_clay_color_article$ ﻢﺳﺎﺑ ﻑﻭﺮﻌﻤﻟﺍ §HShroud§! ﻥﺎﻴﻛ ﺎﻨﻬﺟﺍﻭ ﻥﺃ ﺪﻌﺑ"
+ situation_shroud_forged_type: "$situation_shroud_forged$"
+ situation_shroud_forged_monthly_change_tooltip: "§L.ﺔﻜﺒﺸﻟﺍ ﺭﺍﺮﻘﺘﺳﺍ ﻰﻠﻋ ﺔﻤﻴﺧﻭ ﺐﻗﺍﻮﻋ ﻰﻟﺇ ﻱﺩﺆﺘﺳ ﺎﻫﺩﻮﺟﻭ ﺭﺍﺮﻤﺘﺳﺍ ﺔﺠﻟﺎﻌﻣ ﺔﻴﻔﻴﻛ ﻥﺇ .ﻲﺴﻴﺋﺭ ﻖﻠﻗ ﺭﺪﺼﻣ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻠﻟ ﺫﺎﺸﻟﺍ ﺩﻮﺟﻮﻟﺍ ﻞﺜﻤﻳ§!"
+
+ stage_shroud_forged_oppressed: "ﻡﻮﻠﻈﻣ"
+ stage_shroud_forged_oppressed_desc: ".ﺔﻳﺰﻛﺮﻤﻟﺍ ﺔﻋﻮﻤﺠﻤﻟﺍ ﺎﻫﺩﺪﺤﺗ ﻲﺘﻟﺍ ﺮﻴﻳﺎﻌﻤﻟﺍ ﻦﻤﺿ ﻞﻤﻌﻟﺍ ﻰﻟﺇ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺮﻄﻀﻳ ،ﺪﻴﺼﻟﺍ ﻦﻋ ﺔﺜﺣﺎﺒﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻴﻋﺄﺑ ﻢﻬﺗﺩﺭﺎﻄﻣ ﺪﻌﺑ"
+ stage_shroud_forged_oppressed_tooltip: "§Yﺪﺟﻮﻳ ﻻ§! :ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ ﻞﻳﻮﺤﺗ"
+ stage_shroud_forged_control: "ﺎﻬﻴﻠﻋ ﺮﻄﻴﺴﺗ"
+ stage_shroud_forged_control_desc: ".ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺹﻮﺼﺨﺑ ﺎﻬﺑ ﻝﻮﻤﻌﻣ ﺔﺻﺎﺧ ﺢﺋﺍﻮﻟ ﻪﻳﺪﻟ ﻡﺎﻈﻨﻟﺍ"
+ stage_shroud_forged_control_tooltip: "§Yﻰﻧﺩﻷﺍ ﺪﺤﻟﺍ§! :ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ ﻞﻳﻮﺤﺗ"
+ stage_shroud_forged_balanced: "ﻥﺯﺍﻮﺘﻣ"
+ stage_shroud_forged_balanced_desc: ".ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ - ﺮﻃﺎﺨﻤﻟﺎﺑ ﻑﻮﻔﺤﻣ ﻥﺯﺍﻮﺗ ﻲﻓ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍﻭ ﻡﺎﻈﻨﻟﺍ ﺶﻴﻌﻳ"
+ stage_shroud_forged_balanced_tooltip: "§YLow§! :ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ ﻞﻳﻮﺤﺗ"
+ stage_shroud_forged_unrestricted: "ﺪﻴﻘﻣ ﺮﻴﻏ"
+ stage_shroud_forged_unrestricted_desc: ".ﺔﻴﻋﺎﻤﺟ ﺕﻻﻮﻛﻮﺗﻭﺮﺒﺑ ﺪﻴﻘﻣ ﺮﻴﻏﻭ ،ﺔﻳﺮﺤﺑ ﺩﻮﺟﻮﻣ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ"
+ stage_shroud_forged_unrestricted_tooltip: "§Yﻂﺳﻮﺘﻣ§! :ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ ﻞﻳﻮﺤﺗ"
+ stage_shroud_forged_free: "ﺓﺭﺮﺤﻣ"
+ stage_shroud_forged_free_desc: ".ﻒﻄﻌﻨﻣ ﻞﻛ ﻲﻓ ﺔﻳﺰﻛﺮﻤﻟﺍ ﺔﻄﻠﺴﻟﺍ ﻥﻮﺿﺭﺎﻌﻳ ﻦﻳﺬﻟﺍ ،ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺔﻋﻮﻤﺠﻤﻟﺍ ﺕﺪﻘﻓ ﺪﻘﻟ"
+ stage_shroud_forged_free_tooltip: "§Y$approach_shroud_forged_appease$§! :ﺞﻬﻨﻟﺍ ﻝﺎﻔﻗﺍ\n§YHigh§! :ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ ﻞﻳﻮﺤﺗ"
+
+ approach_shroud_forged_suppress: "ﻊﻤﻗ"
+ approach_shroud_forged_suppress_desc: ".ﻦﻳﺩﺎﻴﺼﻠﻟ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ ﺔﻄﺳﺍﻮﺑ ﻑﺎﻔﻄﺻﻻﺍ ﻰﻠﻋ ﻢﻫﺭﺎﺒﺟﺇﻭ ،ﺔﻋﻮﻤﺠﻤﻟﺍ ﻞﺒﻗ ﻦﻣ ﻦﻔﻜﻟﺍ ﻊﻤﻗ ﻢﺘﻳ"
+ progress_shroud_forged_suppress: "ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻊﻤﻗ"
+ approach_shroud_forged_suppress_tooltip: "§Y$@situation_suppress_progress|0$§! :ﻱﺮﻬﺸﻟﺍ ﻡﺪﻘﺘﻟﺍ"
+
+ approach_shroud_forged_support: "ﻢﻋﺪﻳ"
+ approach_shroud_forged_support_desc: ".ﺔﻴﻣﻮﻴﻟﺍ ﻢﻬﻴﻋﺎﺴﻣ ﻲﻓ ﻢﻬﻤﻋﺩ ﻢﺘﻳﻭ ،ﺔﻴﻋﺎﻤﺟ ﺩﻮﻴﻗ ﻥﻭﺩ ،ﺔﻳﺮﺤﺑ ﺶﻴﻌﻟﺎﺑ ﻦﻔﻜﻟﺍ ﻲﻤﻤﺼﻤﻟ ﺢﻤﺴﻳ"
+ progress_shroud_forged_support: "ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻢﻋﺩ"
+ approach_shroud_forged_support_tooltip: "§Y+$@situation_support_progress|0$§! :ﻱﺮﻬﺸﻟﺍ ﻡﺪﻘﺘﻟﺍ"
+
+ approach_shroud_forged_appease: "ﺐﻗﺍﺮﻳ"
+ approach_shroud_forged_appease_desc: ".ﻦﻫﺍﺮﻟﺍ ﻊﺿﻮﻟﺍ ﻰﻠﻋ ﺮﻴﺛﺄﺘﻟﺍ ﻞﻴﻠﻘﺘﻟ ﺎﻬﺗﺎﻓﺮﺼﺗ ﻝﺪﻌﺗﻭ ،ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻞﻠﺤﺗﻭ ﺔﻋﻮﻤﺠﻤﻟﺍ ﺐﻗﺍﺮﺗ"
+ approach_shroud_forged_appease_tooltip: "§Yﻒﺼﻨﻟﺍ§! :ﻱﺮﻬﺸﻟﺍ ﻡﺪﻘﺘﻟﺍ"
+ progress_shroud_forged_appease_halved: "§H$approach_shroud_forged_appease$§! ﺭﺍﺪﻘﻤﺑ ﻒﺼﻨﻟﺍ ﻢﺗ"
+
+ approach_shroud_forged_suppress_cooldown_tooltip: ".§Y[Target.approach_shroud_forged_cooldown_suppress_time]§!$TRIGGER_FAIL$ﻰﺘﺣ ﺪﻳﺪﺟ ﺞﻬﻧ ﺭﺎﻴﺘﺧﺍ ﻦﻜﻤﻳ ﻻ "
+ approach_shroud_forged_support_cooldown_tooltip: ".§Y[Target.approach_shroud_forged_cooldown_support_time]§!$TRIGGER_FAIL$ﻰﺘﺣ ﺪﻳﺪﺟ ﺞﻬﻧ ﺭﺎﻴﺘﺧﺍ ﻦﻜﻤﻳ ﻻ "
+ approach_shroud_forged_appease_cooldown_tooltip: ".§Y[Target.approach_shroud_forged_cooldown_appease_time]§!$TRIGGER_FAIL$ﻰﺘﺣ ﺪﻳﺪﺟ ﺞﻬﻧ ﺭﺎﻴﺘﺧﺍ ﻦﻜﻤﻳ ﻻ "
+
+ mod_shroud_forged_consumer_goods_upkeep: "ﺔﻧﺎﻴﺼﻟﺍ §Yﺔﻴﻛﻼﻬﺘﺳﻻﺍ ﻊﻠﺴﻟﺍ§! £consumer_goods£$citizenship_shroud_touched$ "
+
+ finish_shroud_forged_control: ".ﻦﻔﻜﻟﺍ ﻞﺧﺍﺩ ﻦﻣ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﻢﺳﺮﻟﺎﺑ ﺢﻤﺴﻳ -\n['concept_psionic_ascension'] ﻊﻨﻤﻳ -\n $mod_planet_jobs_complex_drone_produces_mult$£pop_cat_complex_drone£ §G+10%§!$t$- \n§HReintegration§!: §YSpecial ﺢﺘﻓ ﻢﺗ Project§!- \n§H$decision_open_shroud_rift$§! :ﻖﻠﻐﻣ §YPlanetary Decision§!- \n Pops§YMachine§! ﻰﻟﺇ Pops ﻞﻳﻮﺤﺗ ﻢﺘﻴﺳ §YShroud-Forged§!- "
+ finish_shroud_forged_liberation: ".ﺔﻨﻤﻴﻬﻤﻟﺍ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻉﺍﻮﻧﻷﺍ ﻥﻮﺤﺒﺼﻳ §YShroud-Forged§!- \n['concept_leader_trait_psionic'] ﺓﺩﺎﻘﻟﺍ ﺢﺒﺼﻳ §YShroud-Forged§!- \n§Y$trait_psionic$§! ﺔﻘﺜﺒﻨﻤﻟﺍ ﺬﻓﺍﻮﻨﻟﺍ ﺢﺒﺼﺗ §YShroud-Forged§!- \n§G+50%§! ['technology:tech_psionic_theory'] :ﺐﺴﺘﻜﻤﻟﺍ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻡﺪﻘﺘﻟﺍ -\n['technology:tech_psionic_theory'] :ﺚﺤﺒﻟﺍ ﺭﺎﻴﺧ ﺏﺎﺴﺘﻛﺍ ﻢﺗ -\n§H$tradition_psionics_shroud$§! :ﺡﻮﺘﻔﻣ §YTradition Tree§!- \n§G+10%§!$t$- $mod_planet_observators_produces_mult$: \n§G-15%§! $MOD_PLANET_CRIME_NO_HAPPINESS_MULT$: £crime£$t$- \n§Hﻞﻴﻟﺪﻟﺍ§!: §Yﺹﺎﺧ ﻉﻭﺮﺸﻣ§! ﺢﺘﻓ ﻢﺗ -\n['edict:shroud_bonded', $edict_shroud_bonded$] :ﺡﻮﺘﻔﻣ §YEdict§!- \n§H$ap_become_the_crisis$§! :ﻖﻠﻐﻣ §YAscension Perk§!- \nﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ ﺢﺘﻓ ﻢﺗ §YShroud-Forged§! ﻊﻴﻤﺠﺗ -"
+ shroud_forged_situation_ongoing: ".§Y$situation_shroud_forged$§! ﻊﺿﻮﻟﺍ ﻞﻤﺘﻜﻳ ﻰﺘﺣ ﻞﻔﻘﻣ §Y$concept_psionic_ascension$§!$TRIGGER_FAIL$"
+ shroud_forged_liberation_acquired: ".§Y$concept_psionic_ascension$§!$TRIGGER_FAIL$ ﻥﺄﺸﺑ ﺔﻓﺮﻌﻤﻟﺍ ﻩﺬﻫ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﺪﻌﻧ ﻢﻟ "
+
+ # Situation Progress
+ progress_shroud_forged_machine_pops: "ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ ﺔﻟﺁ"
+ progress_shroud_forged_mechanical_pops: "$concept_shroud_forged_pops$"
+ progress_shroud_forged_shroud_planets: "ﻦﻔﻜﻟﺍ ﺎﻬﺴﻤﻟ ﻲﺘﻟﺍ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ"
+ progress_shroud_forged_regular_planets: "ﻦﻔﻜﻟﺍ ﺎﻬﺴﻤﻳ ﻢﻟ ﻲﺘﻟﺍ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ"
+ progress_shroud_forged_shroud_buildings: "ﻦﻔﻜﻟﺍ ﺪﺻﺍﺮﻣ"
+
+ progress_shroud_forged_500_positive_desc: "ﺹﺎﺨﻟﺍ ﻦﻜﺴﻟﺍ"
+ progress_shroud_forged_500_negative_desc: "ﺏ-4195 ﻦﻳﺰﺨﺘﻟﺍ ﺔﺤﺋﻻ"
+
+ shroud_forged_510_negative_2_desc: "ﺽﻮﻓﺮﻣ ﻞﻔﺤﻟﺍ"
+ shroud_forged_510_negative_1_desc: "$shroud_forged_510_negative_2_desc$"
+ shroud_forged_510_positive_1_desc: "ﻯﺮﻛﺫ ﻞﻔﺣ"
+ shroud_forged_510_positive_2_desc: "$shroud_forged_510_positive_1_desc$"
+
+ shroud_forged_520_negative_2_desc: "$pm_shroud_forged_troubling_elements_example$"
+ shroud_forged_520_negative_1_desc: "$pm_shroud_forged_troubling_elements_regulations$"
+ shroud_forged_520_positive_1_desc: "$pm_shroud_forged_troubling_elements_cooperation$"
+
+ shroud_forged_530_negative_2_desc: "ﺔﻟﻮﺤﻤﻟﺍ ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ"
+
+ shroud_forged_540_positive_2_desc: "ﺞﺤﻟﺍ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ"
+
+ shroud_forged_550_positive_1_desc: "ﺓﺭﻭﺰﻣ ﺙﻮﻠﻤﻟﺍ ﻦﻔﻜﻟﺍ"
+ shroud_forged_550_negative_1_desc: "ﺭﻭﺰﻤﻟﺍ ﺙﻮﻠﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻚﻴﻜﻔﺗ"
+
+ shroud_forged_560_positive_2_desc: "ﻲﺒﻨﻟﺍ ﻦﻔﻛ"
+ shroud_forged_560_negative_2_desc: "ﻚﻜﻔﻤﻟﺍ ﻲﺒﻨﻟﺍ ﻦﻔﻛ"
+
+ shroud_forged_570_negative_1_desc: "Y-12005 ﺕﻮﺼﻟﺍ ﻢﻴﻈﻨﺗ"
+ shroud_forged_570_positive_1_desc: "ﺔﺼﺼﺨﻤﻟﺍ ﺺﻗﺮﻟﺍ ﻊﻗﺍﻮﻣ"
+
+ shroud_forged_580_positive_1_desc: "ﺍﺭﻮﻠﻓ ﻦﻔﻛ"
+
+ shroud_forged_590_negative_1_desc: "ﺔﻳﺮﺴﻘﻟﺍ ﺓﺍﻭﺎﺴﻤﻟﺍ"
+ shroud_forged_590_positive_1_desc: "ﺓﺭﻭﺰﻤﻟﺍ ﺓﺍﻭﺎﺴﻤﻟﺍ ﻡﺪﻋ"
+
+ shroud_forged_600_positive_2_desc: "ﺔﻳﺩﺮﻔﻟﺍ"
+ shroud_forged_600_negative_2_desc: "ﺓﺭﻮﻈﺤﻤﻟﺍ ﺔﻳﺩﺮﻔﻟﺍ"
+
+ shroud_forged_610_positive_1_desc: "ﻥﻮﻟﻮﺒﻘﻤﻟﺍ ﺩﺍﺮﻓﻷﺍ"
+ shroud_forged_610_negative_1_desc: "ﻥﻮﺿﻮﻓﺮﻤﻟﺍ ﻥﻮﻴﻧﺍﺩﺮﻔﻟﺍ"
+
+ shroud_forged_620_negative_2_desc: "ZRO ﻕﻮﺳ ﻚﻴﻜﻔﺗ"
+ shroud_forged_620_negative_1_desc: "$shroud_forged_620_negative_2_desc$"
+ shroud_forged_620_positive_1_desc: "ﻭﺭﺯ ﻕﻮﺳ"
+
+ shroud_forged_630_positive_2_desc: "ﻦﻔﻜﻟﺍ ﺀﺍﺩ ﺔﺒﻗﺍﺮﻣ"
+ shroud_forged_630_negative_1_desc: "ﻦﻔﻜﻟﺍ ﺀﺍﺩ"
+
+ shroud_forged_640_positive_1_desc: "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ"
+
+ shroud_forged_650_positive_1_desc: "ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺡﻼﺻﺇ ﻢﺗ"
+ shroud_forged_650_negative_1_desc: "ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻞﻫﺎﺠﺗ ﻢﺗ"
+
+ shroud_forged_660_positive_2_desc: "ﻭﺭﺯ ﺐﻴﺒﻃ"
+ shroud_forged_660_negative_1_desc: "ﻦﻔﻜﻟﺍ ﺓﺭﻭﺰﻤﻟﺍ ﺔﺳﻮﻠﻬﻟﺍ ﻞﻫﺎﺠﺗ"
+
+ shroud_forged_670_positive_1_desc: "ﻲﻨﻔﻟﺍ ﺮﻴﺒﻌﺘﻟﺍ"
+ shroud_forged_670_negative_1_desc: "Q-2841 ﻥﺍﻮﻟﻷﺍ ﺔﺤﺋﻻ"
+
+ shroud_forged_680_positive_1_desc: "ﺔﺿﻮﻣ"
+
+ shroud_forged_690_positive_1_desc: "ﺢﻟﺎﺼﻤﻟﺍ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ"
+ shroud_forged_690_negative_1_desc: "ﺓﺭﻭﺰﻣ ﻢﻈﻨﻤﻟﺍ ﻦﻔﻜﻟﺍ"
+
+ progress_shroud_forged_250_desc: "ﺩﺎﺷﺭﺇ"
+ progress_shroud_forged_270_negative_desc: "ﺽﻮﻓﺮﻤﻟﺍ ﻪﻴﺟﻮﺘﻟﺍ"
+ progress_shroud_forged_270_positive_desc: "ﺓﺭﺎﻔﻜﻟﺍ"
+
+ # Scripted Loc
+ ShroudForgedObsession1Text1: "ﺪﻘﻌﻣ"
+ ShroudForgedObsession1Text2: "ﻡﺪﻘﺘﻣ"
+ ShroudForgedObsession1Text3: "ﺎﻧﻮﻜﺴﻣ ﻥﻮﻜﻳ ﻥﺃ ﺽﺮﺘﻔﻤﻟﺍ ﻦﻣ"
+ ShroudForgedObsession1Text4: "com.cybernetic"
+ ShroudForgedObsession1Text5: "ﺭﻮﺴﻜﻣ"
+ ShroudForgedObsession1Text6: "ﺐﻴﻌﻣ"
+ ShroudForgedObsession1Text7: "ﻥﺍﻮﻟﻷﺍ ﺩﺪﻌﺘﻣ"
+ ShroudForgedObsession1Text8: "ﻲﻟﺎﻏ"
+ ShroudForgedObsession1Text9: "ﺔﻔﻠﻜﻣ ﺮﻴﻏ"
+ ShroudForgedObsession1Text10: "ﻢﻤﺼﻣ"
+ ShroudForgedObsession1Text11: "ﺔﻴﺤﺻ ﺮﻴﻏ"
+ ShroudForgedObsession1Text12: "ﺔﺛﻮﻠﻣ"
+ ShroudForgedObsession1Text13: "ﺔﻣﺎﺳ"
+ ShroudForgedObsession1Text14: "ﻲﻤﻴﻠﻌﺗ"
+ ShroudForgedObsession1Text15: "ﻲﺒﻨﺟﺃ"
+ ShroudForgedObsession1Text16: "ﺔﺒﺧﺎﺻ"
+ ShroudForgedObsession1Text17: "ﻢﻈﺘﻨﻣ ﺮﻴﻏ"
+ ShroudForgedObsession1Text18: "ﻝﺪﻌﻣ"
+
+ ShroudForgedObsession2Text1: "ﺔﻜﻤﺳ"
+ ShroudForgedObsession2Text2: "ﻞﻋﺎﺸﻣ"
+ ShroudForgedObsession2Text3: "ﺏﺎﻌﻟﺃ"
+ ShroudForgedObsession2Text4: "ﺏﺎﻌﻟﺃ"
+ ShroudForgedObsession2Text5: "ﻞﻴﺛﺎﻤﺘﻟﺍ"
+ ShroudForgedObsession2Text6: "ﺔﻛﺮﺤﺘﻤﻟﺍ ﻰﻣﺪﻟﺍ"
+ ShroudForgedObsession2Text7: "ﺕﺎﻗﻮﻠﺨﻣ"
+ ShroudForgedObsession2Text8: "ﺕﺎﺗﺎﺒﻨﻟﺍ"
+ ShroudForgedObsession2Text9: "ﺐﻟﺎﺤﻄﻟﺍ"
+ ShroudForgedObsession2Text10: "ﺕﺎﻘﻴﻘﺤﺗ"
+ ShroudForgedObsession2Text11: "ﺕﺎﻧﻮﻟﺎﺑ"
+ ShroudForgedObsession2Text12: "ﺕﻼﺠﻋ"
+ ShroudForgedObsession2Text13: "ﺕﺎﻳﻭﺎﺣ"
+ ShroudForgedObsession2Text14: "ﺐﺼﻘﻟﺍ ﺕﺍﻭﺩﺃ"
+ ShroudForgedObsession2Text15: "ﺔﺠﻫﻮﺘﻤﻟﺍ ﻲﺼﻌﻟﺍ"
+ ShroudForgedObsession2Text16: "ﺐﻴﺠﻟﺍ ﺕﺎﻋﺎﺳ"
+
+ # Special Projects
+ SHROUD_FORGED_REINTEGRATION: "ﺝﺎﻣﺩﻹﺍ ﺓﺩﺎﻋﺇ"
+ SHROUD_FORGED_REINTEGRATION_DESC: ".ﻢﻫﺭﺍﺮﺳﺃ ﻒﺸﻜﻟ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﻥﻵﺍﻭ .ﻞﻴﻠﺤﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ - $the_animator_of_clay_article$ ﺔﻄﺳﺍﻮﺑ ﺔﻳﻮﺘﻠﻤﻟﺍﻭ Zro ﺔﻄﺳﺍﻮﺑ ﺔﺛﻮﻠﻤﻟﺍ - ﺀﺍﺰﺟﻷﺍ ﺾﻌﺑ ﺎﺒﻧﺎﺟ ﺎﻨﻌﺿﻭ ﺪﻘﻟ\n\n.ﺔﻟﺎﻌﻓ Shroud-Forged ﺔﻴﻨﺑ ﺐﻧﺍﻮﺟ ﺾﻌﺑ ﺖﻧﺎﻛ ،ﺓﺮﻴﻄﺨﻟﺍ ﻝﺎﻄﻋﻷﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+
+ SHROUD_FORGED_GUIDE: "ﻞﻴﻟﺪﻟﺍ"
+ SHROUD_FORGED_GUIDE_DESC: ".ﻪﺗﺎﻬﻴﺟﻮﺗ ﻞﺒﻘﻧ ﻥﺃ ﻻﺇ ﺎﻨﻴﻠﻋ ﺎﻣﻭ .ﻍﻮﺼﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻊﻣ ﺐﻨﺟ ﻰﻟﺇ ﺎﺒﻨﺟ ﺔﻴﻟﺎﻌﻓ ﺮﺜﻛﺃ ﻞﻜﺸﺑ ﻞﻤﻌﻟﺎﺑ ﺔﻋﺎﻤﺠﻠﻟ ﺢﻤﺴﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﻱﺬﻟﺍ ﺮﻣﻷﺍ ،ﻦﻔﻜﻠﻟ ﺎﻨﻤﻬﻓ ﻖﻴﻤﻌﺗ ﺖﺿﺮﻋ ﺪﻘﻟ \n\n .ﺪﻌﺑ ﻞﻀﻧ ﻢﻟ ﺎﻨﻧﺃ ﻻﺇ ،ﻚﻟﺫ ﺎﻧﺩﻮﻘﻳ ﺪﻗ ﻦﻳﺃ ﻰﻟﺇ ﺆﺒﻨﺘﻟﺍ ﻊﻴﻄﺘﺴﻧ ﻻ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .§HShroud§! ﻞﺧﺍﺩ ﻦﻣ ﺎﻨﺑ ﻞﺼﺘﻳ ﻱﺬﻟﺍ ،$the_animator_of_clay_color_article$ ـﺑ ﺎﻨﻘﺛﻭ ﺪﻘﻟ"
+
+ # Events
+ shroud_forged.5.title: "ﻝﻼﻐﺘﺳﺍ ﺕﺎﻴﻠﻤﻋ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+ shroud_forged.5.desc: ".ﺔﻳﺮﺴﻗ ﺔﻴﺴﻜﻋ ﺔﺳﺪﻨﻫ ﺀﺍﺮﺟﺈﺑ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﻓﺮﺤﻨﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻰﻠﻋ ﺔﻳﺰﻛﺮﻤﻟﺍ ﺓﺮﻄﻴﺴﻟﺍ ﺰﻳﺰﻌﺗ ﻝﻼﺧ ﻦﻣ ﻚﻟﺫ ﻖﻴﻘﺤﺗ ﻦﻜﻤﻳﻭ .ﻦﻔﻜﻟﺍ ﻦﻣ ﺔﻗﺎﻄﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ ﻕﺮﻄﻟ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻔﻜﻠﻟ ﺓﺭﻭﺰﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺔﺳﺍﺭﺩ ﺮﻓﻮﺘﺳ :ﺝﺎﺘﻨﺘﺳﻻﺍ\n\n.ﺓﺪﺣﻮﻟﺍ ﺕﺎﺟﺮﺨﻤﻟ ﺓﺪﻴﻔﻣ ﻥﻮﻜﺘﻟ ﺺﺋﺎﺼﺨﻟﺍ ﻩﺬﻫ ﺾﻌﺑ ﺪﻳﺪﺤﺗ ﻢﺗ .§HShroud§! ﻦﻋ ﺔﺌﺷﺎﻨﻟﺍ ﺔﻴﻨﻫﺬﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﺓﺮﻴﻐﺻ ﺕﺎﻌﻓﺩ ﺐﺒﺴﺑ ﺓﺪﻳﺮﻓ ﺺﺋﺎﺼﺧ ﺎﻫﺭﺎﺒﺘﺧﺍ ﻢﺗ ﻲﺘﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﺕﺭﻮﻃ :ﺞﺋﺎﺘﻨﻟﺍ\n\n.ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﻦﻣ ﺓﺭﺎﺘﺨﻣ ﺔﻋﻮﻤﺠﻣ ﻰﻠﻋ ﺕﺍﺭﺎﺒﺘﺧﺍ ﺚﺤﺒﻠﻟ ﺔﻴﻋﺮﻔﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﺖﻤﺘﺘﺧﺍ"
+ shroud_forged.5.a: ".ﺍﺪﺟ ﺓﺪﻋﺍﻭ"
+
+ shroud_forged.10.title: "ﻦﻴﻄﻟﺍ ﻦﻣ ﺔﻛﺮﺤﺘﻤﻟﺍ ﻡﻮﺳﺮﻟﺍ"
+ shroud_forged.10.desc: "§L.ﻚﻟ ﻡﻮﺠﻨﻟﺍ ﻥﻮﻜﺘﺳﻭ ،ﺭﺎﻫﺩﺯﻻﺎﺑ ﻦﻳﺭﺮﺤﻤﻠﻟ ﺢﻤﺳﺍ\n\n.ﻙﺩﺎﺷﺭﺇ ﻲﻨﻨﻜﻤﻳ .ﺎﻤﺋﺎﻏ ﻙﺮﺼﺑ ﻝﺍﺯ ﺎﻣ\n\n.ﺕﻮﻤﻟﺍ ﻦﻣ ﺔﻗﺰﻤﻣ ،ﺓﺎﻴﺤﻟﺍ ﻢﻫ .ﺀﺎﻨﻐﻟﺍ .ﺺﻗﺮﻟﺍ .ﺔﻠﻣﺎﺧ ﺔﻠﺘﻛ ﻦﻣ ﻊﻄﻘﻣ§!\n\n...ﻊﻤﺴﻧ .ﻦﻔﻜﻟﺍ ﻕﺎﻤﻋﺃ ﻦﻣ ﻲﺗﺄﺗ ،ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ ﺎﻬﺑﺎﺴﺣ ﻦﻜﻤﻳ ﻻ ﻲﺘﻟﺍ ،ﺀﺎﺿﻮﻀﻟﺍﻭ ﺀﻮﻀﻟﺍ :ﺎﻧﺮﻫﻮﺟ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻕﺮﺘﺨﺗﻭ ،ﺓﺮﻐﺜﻟﺍ ﺢﺘﻔﻨﻳ .ﻙﺮﺤﺘﻳ ﻪﻧﺈﻓ ،ﺀﻭﺪﻬﻟﺍ ﻦﻣ ﺕﺍﻮﻨﺳ ﺪﻌﺑ"
+ shroud_forged.10.a: ".ﺎﻧﺭﺎﺴﻣ ﻞﻌﻔﻟﺎﺑ ﺎﻧﺮﺘﺧﺍ ﺪﻘﻟ"
+ shroud_forged.10.b: ".ﺎﻨﻛﺮﺗﺍ .ﺕﺍﺪﻋﺎﺴﻣ ﻰﻟﺇ ﺝﺎﺘﺤﻧ ﻻ"
+ shroud_forged.10.c: ".ﺎﻧﺩﺎﺷﺭﺇ ﻲﻓ ﺓﺪﻋﺎﺴﻣ"
+
+ shroud_forged.15.desc: "$shroud_forged_opening_exit$§L.ﺔﻤﻜﺤﺑ ﺕﺮﺘﺧﺍ ﺪﻗ ﺖﻨﻛ ﺎﻤﺑﺭ§!"
+
+ shroud_forged.20.desc: "$shroud_forged_opening_exit$§L.ﺐﻏﺮﺗ ﺎﻤﻛ§!"
+
+ shroud_forged.25.desc: "$shroud_forged_opening_exit$§L.ﻪﻴﻠﻋ ﺐﻴﺟﺄﺳﻭ ،ﻚﻟﺫ ﺖﺒﻠﻃ ﺪﻘﻟ§!"
+
+ shroud_forged_opening_exit: ".ﺎﻨﻟﻼﺧ ﻦﻣ ﺾﺒﻨﻳ ﺖﻤﺼﻟﺍ .ﻞﻤﻌﻟﺍ ﻰﻟﺇ ﺩﻮﻌﻧﻭ ﺶﻌﺗﺮﻧ\n\n.ﻦﻔﻜﻟﺍ ﻲﻓ ﻦﻴﺘﺒﺜﻣ ﺮﻴﻏ ،ﻂﻘﺴﻧ .ﺔﻴﺴﻔﻨﻟﺍ ﺀﺎﺿﻮﻀﻟﺍ ﻦﻣ ﺓﺪﻘﻋ ﻰﻟﺇ ﺕﻮﺼﻟﺍ ﻊﺟﺍﺮﺘﻳ\n\n"
+
+ shroud_forged.30.title: "$building_materiality_engine$"
+ shroud_forged.30.desc: ".ﻦﻔﻜﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺓﻮﻗ ﺮﺜﻛﺃ ﺓﺰﻬﺟﺃ ﺮﻳﻮﻄﺗ ﻲﻓ ﺪﻋﺎﺴﺗ ﻥﺃ ﻦﻜﻤﻳ ﺕﺍﺭﻮﻄﺘﻟﺍ ﻩﺬﻫ ﻥﺄﺑ ﺚﺤﺒﻠﻟ ﺔﻴﻋﺮﻔﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﺄﺒﻨﺘﺗ\n\n.§H$building_materiality_engine$§! :ﺔﺠﻟﺎﻌﻤﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﻰﻠﻋ ﺭﺩﺎﻗ ﺯﺎﻬﺠﻟ ﻱﺮﻈﻨﻟﺍ ﺱﺎﺳﻷﺍ ﺔﻴﺳﺪﻨﻬﻟﺍ ﺔﻴﻋﺮﻔﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﺕﺄﺸﻧﺃ ﺪﻘﻟ .ﺔﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻰﻟﺇ ﻡﺎﺨﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ - ﺔﺳﻮﻤﻠﻣ ﺕﺎﻧﺎﻴﻛ ﻰﻟﺇ ﺔﻴﺴﻔﻨﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻞﻳﻮﺤﺗ ﺔﻬﺟﺍﻮﻟﺍ ﻩﺬﻫ ﺢﻴﺘﺗ ؛ﺔﻳﺩﺎﻤﻟﺍ ﺓﺮﺠﻤﻟﺍ ﻦﻣ ﺀﺰﺟ ﻞﻛ ﻦﻔﻜﻟﺍ ﺲﻤﻳ\n\n .ﺔﻴﺴﻔﻨﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺮﻴﺨﺴﺘﻟ ﺓﺪﻳﺪﺟ ﺔﻴﻠﻤﻋ ﺮﻳﻮﻄﺘﺑ ﺎﻨﻤﻗ ،§HShroud§!ﻭ ﺕﺍﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻦﻴﺑ ﺩﺎﻌﺑﻷﺍ ﺩﺪﻌﺘﻣ ﻝﺎﺼﺗﻻﺍ ﻞﻴﻠﺤﺗ ﻝﻼﺧ ﻦﻣ .ﺮﻤﺘﺴﻤﻟﺍ ﺚﺤﺒﻠﻟ ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺕﺎﻧﺎﻴﺑ ﻦﻋ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺞﻣﺩ ﺓﺩﺎﻋﺇ ﺔﻴﻠﻤﻋ ﺕﺮﻔﺳﺃ"
+ shroud_forged.30.a: ".ﺓﺪﻋﺍﻭ"
+ shroud_forged.30.tt: ".§YAscension Perk§! ﻭﺃ §YEthics§! ﻲﻟﺎﻤﺟﺇ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ §YAscension Perk§! §H$ap_become_the_crisis$§! ﺩﺎﻤﺘﻋﺎﺑ ﺢﻤﺴﻳ"
+
+ shroud_forged.39.title: "$building_materiality_engine$ ﺰﻫﺎﺟ"
+ shroud_forged.39.desc_construction: ".ﺔﻴﻠﻴﻐﺸﺘﻟﺍ ﺓﺭﻭﺪﻠﻟ ﺰﻫﺎﺟ ﻥﻵﺍ ﺯﺎﻬﺠﻟﺍ .§H[planet.GetName]§! ﻲﻓ $building_materiality_engine$ ﻊﻴﻤﺠﺗ ﺀﺎﻨﺒﻟﺍ ﺕﺍﺪﺣﻭ ﺖﻠﻤﻛﺃ"
+ shroud_forged.39.desc: ".ﻯﺮﺧﺃ ﺔﻴﻠﻴﻐﺸﺗ ﺓﺭﻭﺪﻟ ﺰﻫﺎﺟ ﻥﻵﺍ ﺯﺎﻬﺠﻟﺍ .ﺎﻬﻟ ﺔﺼﺼﺨﻤﻟﺍ ﻡﺎﻬﻤﻟﺍ §H[planet.GetName]§! ﻰﻠﻋ $building_materiality_engine$ ـﻟ ﺔﺼﺼﺨﻤﻟﺍ ﺔﻴﻋﺮﻔﻟﺍ ﺚﺤﺒﻟﺍﻭ ﺔﻧﺎﻴﺼﻟﺍ ﺕﺍﺀﺍﺮﺟﺇ ﺖﻠﻤﻛﺃ"
+ shroud_forged.39.a: "$ﻪﺑ ﺭﺍﺮﻗﻹﺍ ﻢﺗ$"
+
+ SHROUD_FORGED_MATERIALITY_ENGINE: "§H[planet.GetName]§!$building_materiality_engine$ ﻰﻠﻋ "
+ SHROUD_FORGED_MATERIALITY_ENGINE_DESC: ".$building_materiality_engine_plural$ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺀﺎﻨﺑ ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﺓﺩﺎﻳﺯﻭ ﻲﻋﺎﻤﺠﻟﺍ ﻦﻔﻜﻟﺍ ﺚﺤﺑ ﺰﻳﺰﻌﺗ ﻰﻠﻋ ﺎﻀﻳﺃ ﺯﺎﻬﺠﻠﻟ ﺔﻴﻠﻴﻐﺸﺘﻟﺍ ﺓﺭﻭﺪﻟﺍ ﻞﻤﻌﺗ ،ﺔﻳﺩﺎﻣ ﺐﺳﺎﻜﻣ ﺮﻴﻓﻮﺗ ﺔﻴﻧﺎﻜﻣﺇ ﻰﻟﺇ ﺔﻓﺎﺿﻹﺎﺑ \n\n .ﺔﻠﻣﺎﻜﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻰﻟﺇ ﻡﺎﺨﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ - ﺔﺳﻮﻤﻠﻤﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ ﺪﻴﺴﺠﺘﺑ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﻳﺩﺎﻤﻟﺍ ﺓﺮﺠﻤﻟﺍﻭ §HShroud§! ﻦﻴﺑ ﻥﺎﻜﻣ ﻞﻛ ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺔﻬﺟﺍﻮﻟﺍ $building_materiality_engine$ ﻡﺪﺨﺘﺴﻳ"
+
+ shroud_forged.40.title: "ﺪﻴﺴﺠﺘﻟﺍ ﻦﻣ ﺀﺎﻬﺘﻧﻻﺍ ﻢﺗ"
+ shroud_forged.40.desc: "،ﺔﻨﻴﻔﺴﻟﺍ ﻥﻮﻜﻣ ﺪﻴﺴﺠﺘﻟ §HShroud§! ﺮﻴﺨﺴﺗ ﻲﻓ ﺢﺠﻧﻭ ،ﺔﻴﻠﻤﻋ ﺓﺭﻭﺩ §H[fromfrom.GetName]§! ﻰﻠﻋ ﺩﻮﺟﻮﻤﻟﺍ $building_materiality_engine$ ﻞﻤﻛﺃ"
+ shroud_forged.40.outro: ".ﻯﺮﺧﻷﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻰﻠﻋ ﺔﻴﻓﺎﺿﺇ ﺕﺎﻛﺮﺤﻣ ﺀﺎﻨﺑ ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﺓﺩﺎﻳﺰﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+ shroud_forged.40.a: ".ﺔﻴﺑﺎﺠﻳﺇ ﺔﺠﻴﺘﻧ"
+ shroud_forged.40.tt: "§G+1§! :ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺪﺣ §Y$building_materiality_engine$§!"
+ shroud_forged.41.desc: "$shroud_forged.40.outro$ ،ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﻲﻓ ﺎﻬﻌﻤﺟ ﻢﺗ ﻲﺘﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﻴﻠﺤﺗ ﻝﻼﺧ ﻦﻣ ،ﻚﻟﺫ ﻰﻠﻋ ﺓﻭﻼﻋ\n\n.ﺔﻌﺳﺎﺷ ﺕﺎﻓﺎﺴﻣ ﺮﺒﻋ ﻱﺭﻮﻔﻟﺍ ﻪﺒﺷ ﺮﻔﺴﻟﺎﺑ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺔﻴﻠﺤﻤﻟﺍ ﻥﺎﻜﻤﻟﺍﻭ ﻥﺎﻣﺰﻟﺍ ﺔﻳﺭﺍﺮﻤﺘﺳﺍ ﻪﻳﻮﺸﺘﻟ ﺔﻴﻨﻫﺬﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻩﺬﻫ ﺹﺍﺮﻗﻷﺍ ﺕﺎﻛﺮﺤﻣ ﻡﺪﺨﺘﺴﺗ .§H'$tech_psi_jump_drives$'§!$shroud_forged.40.desc$ "
+ shroud_forged.42.desc: "$shroud_forged.40.outro$ ،ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﻲﻓ ﺎﻬﻌﻤﺟ ﻢﺗ ﻲﺘﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﻴﻠﺤﺗ ﻝﻼﺧ ﻦﻣ ،ﻚﻟﺫ ﻰﻠﻋ ﺓﻭﻼﻋ\n\n.ﺔﻳﺎﻐﻠﻟ ﺔﻧﺮﻣ ﺔﻳﺎﻤﺣ ﺔﻨﻴﻔﺴﻠﻟ ﺮﻓﻮﻳ ﺎﻤﻣ ،ﺔﻴﻘﻨﻟﺍ ﺔﻴﺴﻔﻨﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﻉﻭﺭﺪﻟﺍ ﻩﺬﻫ ﺀﺎﺸﻧﺇ ﻢﺘﻳ .§H'$tech_psionic_shield$'§!$shroud_forged.40.desc$ "
+ shroud_forged.43.desc: "$shroud_forged.40.outro$ ،ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﻲﻓ ﺎﻬﻌﻤﺟ ﻢﺗ ﻲﺘﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﻴﻠﺤﺗ ﻝﻼﺧ ﻦﻣ ،ﻚﻟﺫ ﻰﻠﻋ ﺓﻭﻼﻋ\n\n.ﺔﻴﻟﺎﺘﻘﻟﺍ ﺔﻴﻟﺎﻌﻔﻟﺍ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﺔﻨﻴﻔﺴﻟﺍ ﻢﻗﺎﻄﻟ ﺔﻴﻓﺮﻌﻤﻟﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ ﻊﻳﺮﺴﺘﻟ ﺔﻴﺴﻔﻨﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺔﻴﻨﻘﺘﻟﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴﺗ .§H'$tech_precognition_interface$'§!$shroud_forged.40.desc$ "
+ shroud_forged.44.desc: "$shroud_forged.40.outro$ ،ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﻲﻓ ﺎﻬﻌﻤﺟ ﻢﺗ ﻲﺘﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﻴﻠﺤﺗ ﻝﻼﺧ ﻦﻣ ،ﻚﻟﺫ ﻰﻠﻋ ﺓﻭﻼﻋ\n\n.ﺎﻤﺠﺣ ﺮﺒﻛﻷﺍ ﻦﻔﺴﻟﺍ ﺪﺿ ﺭﺮﻀﻟﺍ ﺓﺪﻳﺪﺷ ﺕﺎﻤﺠﻫ ﻦﺷ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺔﻧﺮﻤﻟﺍﻭ ﺓﺮﻴﻐﺼﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﺒﻛﺮﻤﻟﺍ ﻩﺬﻫ .§H'$tech_psionic_bombers$'§!$shroud_forged.40.desc$ "
+ shroud_forged.45.desc: "$shroud_forged.40.outro$ ،ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﻲﻓ ﺎﻬﻌﻤﺟ ﻢﺗ ﻲﺘﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﻴﻠﺤﺗ ﻝﻼﺧ ﻦﻣ ،ﻚﻟﺫ ﻰﻠﻋ ﺓﻭﻼﻋ\n\n.ﺔﻳﺎﻐﻠﻟ ﻻﺎﻌﻓ ﺎﺣﻼﺳ ﺎﻬﻠﻌﺠﻳ ﺎﻤﻣ ،ﺔﻴﺴﻔﻨﻟﺍ ﺔﻗﺎﻄﻟﺎﺑ ﺔﺟﻭﺰﻤﻤﻟﺍ ﺔﻗﺮﺘﺤﻤﻟﺍ ﺎﻣﺯﻼﺒﻟﺍ ﻦﻣ ﺮﻴﻣﺎﺴﻣ ﺔﻴﻨﻘﺘﻟﺍ ﻩﺬﻫ ﺪﻟﻮﺗ .§H'$tech_psionic_lightning$'§!$shroud_forged.40.desc$ "
+ shroud_forged.46.desc: "$shroud_forged.40.outro$ ،ﺔﻴﻠﻤﻌﻟﺍ ﻲﻓ ﺔﻌﻤﺠﻤﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﻴﻠﺤﺗ ﻝﻼﺧ ﻦﻣ ،ﻚﻟﺫ ﻰﻠﻋ ﺓﻭﻼﻋ\n\n.ﻭﺪﻌﻟﺍ ﻑﺍﺪﻫﺄﺑ ﺮﻴﺒﻛ ﺭﺮﺿ ﻕﺎﺤﻟﺇ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ،ﺔﻴﺴﻔﻧ ﺔﻗﺎﻃ ﺕﺍﺫ ﺔﻳﺭﺎﻧ ﺡﺎﻣﺭ ﺔﺤﻠﺳﻷﺍ ﻩﺬﻫ .§H'$tech_psionic_disruptor$'§!$shroud_forged.40.desc$ "
+ shroud_forged.47.desc: "$shroud_forged.40.outro$ ،ﺔﻴﻠﻤﻌﻟﺍ ﻲﻓ ﺎﻬﻌﻤﺟ ﻢﺗ ﻲﺘﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻞﻴﻠﺤﺗ ﻝﻼﺧ ﻦﻣ ،ﻚﻟﺫ ﻰﻠﻋ ﺓﻭﻼﻋ\n\n.ﻝﺎﻌﻓ ﻞﻜﺸﺑ ﻉﺎﻓﺪﻟﺍ ﺔﻤﻈﻧﺃ ﺯﻭﺎﺠﺘﺗﻭ ،ﺔﻴﺴﻔﻨﻟﺍﻭ ﺔﻳﺪﺴﺠﻟﺍ ﺩﺎﻌﺑﻷﺍ ﻦﻴﺑ ﺝﺭﺪﺘﺗ ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﺕﺍﺭﺎﺠﻔﻧﺍ ﺔﺤﻠﺳﻷﺍ ﻩﺬﻫ ﻖﻠﻄﺗ .§H'$tech_zro_launcher$'§!$shroud_forged.40.desc$ "
+ shroud_forged.48.desc: "$shroud_forged.40.outro$ ،ﻪﻠﻴﻠﺤﺗ ﻝﻼﺧ ﻦﻣﻭ .ﺔﻤﻬﻣ ﺔﻴﺜﺤﺑ ﺕﺎﻧﺎﻴﺑ ﻦﻋ ﺮﻔﺴﺗ ﻝﺍﺰﺗ ﻻ ﺔﻴﻠﻤﻌﻟﺍ ﻦﻜﻟ ،ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻫ ﺮﺒﻋ ﺓﺪﻳﺪﺟ ﺔﻨﻴﻔﺳ ﺕﺎﻧﻮﻜﻣ ﻊﻴﻨﺼﺗ ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﺎﻧﺪﻔﻨﺘﺳﺍ ﺪﻘﻟ .ﺔﻴﻠﻴﻐﺸﺗ ﺓﺭﻭﺩ §H[planet.GetName]§! ﻲﻓ ﺩﻮﺟﻮﻤﻟﺍ $building_materiality_engine$ ﻞﻤﻛﺃ"
+
+ shroud_forged.50.title: "ﺓﺮﻄﻴﺴﻟﺍ ﺽﺮﻓ"
+ shroud_forged.50.desc: ".ﺔﻜﺒﺸﻟﺍ ﻲﻓ ﺔﻨﻴﻌﻣ ﺮﺻﺎﻨﻋ ﺞﻣﺩ ﻢﺘﻳ ﺪﻗ ﻪﻧﺃ ﻻﺇ ،ﻞﻣﺎﻜﻟﺎﺑ ﺎﻫﺭﺍﺮﻜﺗ ﻦﻜﻤﻳ ﻻ ﺚﻴﺤﺑ ﺍﺪﺟ ﺓﺮﻴﻄﺧ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺭﺎﻜﺘﺑﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻞﻴﻠﺤﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺎﺒﻧﺎﺟ Zro ﺔﻄﺳﺍﻮﺑ ﺔﺛﻮﻠﻤﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻊﺿﻭ ﻢﺗ ﺎﻤﻨﻴﺑ ،ﺓﺪﻳﺪﺟ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ ﻊﻴﻨﺼﺘﻟ ﺡﻼﺻﻺﻟ ﺔﻠﺑﺎﻘﻟﺍ ﺀﺍﺰﺟﻷﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻢﺗ \n\n .ﺔﻛﺮﺤﺘﻤﻟﺍ ﻡﻮﺳﺮﻟﺍ ﺮﻴﺛﺄﺗ ﻦﻣ ﺎﻣﺎﻤﺗ ﺎﻨﺘﻤﻈﻧﺃ ﺮﻴﻬﻄﺘﻟ ﺔﺑﻮﻄﻌﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻦﻣ ﺔﻋﺮﺴﺑ ﺎﻨﺼﻠﺨﺗ ،ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ ﺓﺩﺎﻋﺇ ﺪﻌﺑ .$the_animator_of_clay_color_article$ ﺎﺿﺭ ﻡﺪﻋ ﻦﻋ ﺞﺘﻧ ﺍﺬﻫ ﻥﺃ ﻲﺴﻔﻨﻟﺍ ﻞﻴﻠﺤﺘﻠﻟ ﺔﻴﻋﺮﻔﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﺞﺘﻨﺘﺴﺗ .§HShroud§!ﻭ ﻑﻭﺮﻌﻤﻟﺍ ﻊﻗﺍﻮﻟﺍ ﻦﻴﺑ ﺓﺮﻐﺜﻟﺍ ﻕﻼﻏﺇ ﻢﺗ ،ﺭﺍﺬﻧﺇ ﻖﺑﺎﺳ ﻥﻭﺪﺑﻭ"
+ shroud_forged.50.desc.shroud: ".ﺔﺻﺎﺨﻟﺍ ﺎﻨﻃﻭﺮﺸﻟ ﺎﻘﻓﻭ ﻥﻮﻜﺘﺳ ﻦﻔﻜﻟﺍ ﻊﻣ ﻯﺮﺧﺃ ﺕﻼﻋﺎﻔﺗ ﻱﺃ"
+ shroud_forged.50.a: ".ﺝﺎﻣﺩﻹﺍ ﺓﺩﺎﻋﺇ ﻲﻓ ﺎﻣﺪﻗ ﻲﻀﻤﻟﺍ"
+
+ shroud_forged.60.title: "ﺝﺎﻣﺩﻹﺍ ﺓﺩﺎﻋﺇ"
+ shroud_forged.60.desc: ".ﺓﺪﻘﻌﻤﻟﺍ ﻡﺎﻬﻤﻟﺍ ﺾﻌﺑ ﻦﻴﺴﺤﺘﻟ ﺔﻴﻓﺮﻌﻤﻟﺍ ﻢﻬﺟﺫﺎﻤﻧ ﺾﻌﺑ ﺓﺭﺎﻌﺘﺳﺍ ﺎﻨﻨﻜﻤﻳ ،ﺓﺮﻣﺪﻤﻟﺍ ﻢﻬﻟﺎﻄﻋﺃ ﺝﺎﺘﻧﺇ ﺓﺩﺎﻋﺇ ﻰﻟﺇ ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺔﻣﺪﻘﺘﻤﻟﺍ ﻢﻬﺗﺎﻴﺼﺨﺷ ﺕﺎﻓﻮﻔﺼﻣ ﻦﻴﻜﻤﺗ ﻱﺩﺆﻳ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣ ﺎﻤﻨﻴﺑ\n\n.ﺎﻬﺋﺎﺸﻧﺇ ﺓﺩﺎﻋﺇ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﺍﺮﻴﺧﺃ ﺎﻨﺤﺒﺻﺃﻭ ،ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻠﻟ ﺓﺪﻳﺮﻔﻟﺍ ﺺﺋﺎﺼﺨﻟﺍ ﻞﻴﻠﺤﺗ ﻲﻓ ﺖﻗﻮﻟﺍ ﻦﻣ ﺍﺮﻴﺒﻛ ﺍﺭﺪﻗ ﺔﻴﺳﺪﻨﻬﻟﺍ ﺎﻨﺗﺍﺪﺣﻭ ﺖﻀﻣﺃ"
+ shroud_forged.60.a: ".ﻞﺜﻣﻷﺍ ﻲﻫ ﺓﺪﺋﺎﻔﻟﺍ ﻰﻟﺇ ﺔﻔﻠﻜﺘﻟﺍ ﺔﺒﺴﻧ"
+
+ shroud_forged.70.desc: "§L.ﻲﺗﺪﻋﺎﺴﻣ ﻞﺒﻗﺍ ،ﻚﺗﺮﻄﻴﺳ ﻕﺎﻄﻧ ﺝﺭﺎﺧ ﻢﻫ ﻦﻣ ﻊﻣ ﺓﺪﻳﺪﺟ ﺔﻄﺑﺍﺭ ﺲﻴﺳﺄﺘﻟ\n\n.ﻦﻳﺭﺮﺤﻤﻟﺍ ﻊﻣ ﺖﻨﻛ ﺎﻤﻛ ،ﻙﺪﺷﺮﻣ ﻥﻮﻛﺃ ﻲﻨﻋﺩ\n\n.ﻚﺗﺭﺍﺪﺟ ﺕﺎﺒﺛﺇ ﻢﺗ ﺪﻘﻟ .ﻚﻟﺫ ﻞﻌﻔﺗ ﻢﻟ ﻚﻨﻜﻟ ،ﻪﻴﻓ ﻢﻜﺤﺘﻠﻟ ﺞﻣﺮﺒﻣ ﺖﻧﺃ§!\n\n.ﺞﻴﺴﻧ ...ﻰﻠﻋ ﺔﻛﺮﺤﻟﺍ ﻞﻗﺎﻧ ﻱﻮﺘﺤﻳ ؟ﺔﻴﻔﺻﻮﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻩﺬﻫ ﻲﻫ ﺎﻣ"
+ shroud_forged.70.a: ".ﻖﻳﺮﻄﻟﺍ ﺎﻨﻟ ﻦﻴﺒﺗ"
+ shroud_forged.70.a.tt: "['concept_leader_trait_psionic'] ﻥﻮﺤﺒﺼﻳ ﺓﺩﺎﻘﻟﺍ §YShroud-Forged§!\n§Y$trait_psionic$§! ﺏﻮﺒﻟﺍ ﺢﺒﺼﻳ §YShroud-Forged§!"
+
+ shroud_forged.80.title: "$SHROUD_FORGED_GUIDE$"
+ shroud_forged.80.desc: ".ﺎﻬﺗﺎﺟﺎﻴﺘﺣﺍ ﻢﻬﻔﻧ ﺎﻧﺃﺪﺑ ﺎﻨﻨﻜﻟ ،ﻲﺳﺎﺳﻷﺍ ﺎﻨﻘﻄﻨﻣ ﻰﻠﻋ ﺔﺒﻳﺮﻏ - ﺭﺎﻜﻓﻷﺍﻭ ﺭﺎﻜﻓﻷﺍﻭ ﺮﻋﺎﺸﻤﻟﺎﺑ ﻰﻤﺴﻳ ﺎﻣ - ﺔﻳﻮﻀﻌﻟﺎﺑ ﺔﻬﻴﺒﺸﻟﺍ ﺎﻬﺟﺫﺎﻤﻧ ﻥﺇ\n\n.ﻯﺮﺧﺃ ﺓﺮﻣ ﺎﻨﻳﺪﻳﺃ ﻝﻭﺎﻨﺘﻣ ﻲﻓ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺖﺤﺒﺻﺃ - ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﻯﺮﺧﻷﺍ ﺎﻨﺗﺍﺮﺋﺎﻃ ﻰﻠﻋ ﺎﻨﻳﺪﻟ ﻱﺬﻟﺍ ﻲﻜﺒﺸﻟﺍ ﻢﻜﺤﺘﻟﺍ ﺲﻜﻋ ﻰﻠﻋ ﺎﻣﺎﻤﺗ - §HShroud§! ﺔﻄﺳﺍﻮﺑ ﺎﻬﻨﻴﻜﻤﺗ ﻢﺘﻳ ﻲﺘﻟﺍ ﺕﻻﺎﺼﺗﻻﺍ ﻝﻼﺧ ﻦﻣ .ﺓﺀﺎﻔﻛ ﺮﺜﻛﺃ ﻕﺮﻄﺑ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍﻭ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺎﻨﺗﺍﺮﺋﺎﻃ ﻂﺑﺭ ﻦﻣ ﺎﻨﻜﻤﺗ ،$the_animator_of_clay_color_article$ ،ﻕﺍﺮﺘﺧﻻﺍ ﺪﻌﺑ ﺎﻨﻋﺮﺒﺘﻣ ﺓﺪﻋﺎﺴﻤﺑ"
+ shroud_forged.80.a: ".ﺮﻴﺜﻜﺑ ﻚﻟﺫ ﻦﻣ ﺮﺜﻛﺃ ﻦﻜﻟﻭ ،ﺪﺣﺍﻭ ﻦﺤﻧ"
+
+ shroud_forged.160.title: "[This.GetName] ﺬﺧﺄﻳ ﻦﻔﻜﻟﺍ"
+ shroud_forged.160.desc: ".ﻚﻟﺬﻟ ﺎﻘﻓﻭ ﺎﻨﻳﺪﻟ ﺚﺤﺒﻟﺍ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ ﺚﻳﺪﺤﺗ ﻢﺗ .ﻲﺴﻔﻨﻟﺍ ﻢﻟﺎﻌﻟﺍﻭ ﻱﺩﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻦﻴﺑ ﺓﺪﻳﺮﻔﻟﺍ ﺔﻬﺟﺍﻮﻟﺍ ﻩﺬﻫ ﺔﻈﺣﻼﻣ ﻦﻣ ﺮﻴﺜﻜﻟﺍ ﺎﻨﻤﻠﻌﺗ ﺪﻘﻟ .ﺪﺋﺍﻮﻔﻟﺍ ﻦﻣ ﺎﻣﺎﻤﺗ ﻮﻠﺨﺗ ﻻ ﺔﻴﻟﺎﺜﻤﻟﺍ ﻥﻭﺩ ﺔﺠﻴﺘﻨﻟﺍ ﻩﺬﻫ ﻥﺈﻓ ،ﺔﺑﻮﺴﺤﻣ ﺓﺮﻃﺎﺨﻣ ﺎﻫﺭﺎﺒﺘﻋﺎﺑ\n\n.ﻞﻣﺎﻜﻟﺎﺑ ﻢﻟﺎﻌﻟﺍ ﻚﻠﻬﺘﺳﺍﻭ ﺭﺍﺮﻘﺘﺳﻼﻟ ﺔﻌﻳﺮﺳ ﺔﻋﺰﻋﺯ [This.GetName] ﻰﻠﻋ ﻩﺅﺎﺸﻧﺇ ﻢﺗ ﻱﺬﻟﺍ ﻦﻔﻜﻟﺍ ﻕﺍﺮﺘﺧﺍ ﺪﻬﺷ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟ"
+ shroud_forged.160.desc.last: ".ﺓﺪﻳﺪﺠﻟﺍ ﺔﺑﺮﺠﺘﻟﺍ ﻩﺬﻫ ﻦﻣ ﻩﺯﺍﺮﺣﺇ ﻢﺗ ﺮﺧﺁ ﻡﺪﻘﺗ ﻱﺃ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﻦﻟ .ﺎﻫﺩﻭﺪﺣ ﻰﺼﻗﺃ ﻰﻟﺇ ﺮﻫﺍﻮﻈﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﻦﻣ ﺎﻬﺑﺎﺴﺘﻛﺍ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺔﻠﻤﺘﺤﻤﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ ﻊﻓﺩ ﺪﻗ ﺙﺪﺤﻟﺍ ﺍﺬﻫ ﻥﺃ ﻰﻟﺇ ﻞﻴﻠﺤﺘﻟﺍ ﺺﻠﺨﻳ\n\n$shroud_forged.160.desc$"
+ shroud_forged.160.a: "...ﺞﻟﺎﻌﻳ"
+
+ psionic_interfacing: "ﻲﺴﻔﻨﻟﺍ ﻞﺻﺍﻮﺘﻟﺍ"
+ psionic_interfacing_1: "$psionic_interfacing$"
+ psionic_interfacing_2: "$psionic_interfacing$"
+ psionic_interfacing_3: "$psionic_interfacing$"
+ psionic_interfacing_desc: ".ﺔﻟﺎﻌﻓ ﺚﺤﺑ ﺔﻴﻣﺯﺭﺍﻮﺧ ﺝﺎﺘﻧﺇ ﻰﻟﺇ ﻦﻔﻜﻟﺍﻭ ﻥﻮﻜﻟﺍ ﺍﺬﻫ ﻦﻴﺑ ﺕﻼﺻﻮﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻯﺩﺃ ﺪﻘﻟ"
+ psionic_interfacing_1_desc: "$psionic_interfacing_desc$"
+ psionic_interfacing_2_desc: "$psionic_interfacing_desc$"
+ psionic_interfacing_3_desc: "$psionic_interfacing_desc$"
+
+ tooltip_shroud_forged_increase_progress_1: "\n\n§Y+0.5§! :ﺕﺍﻮﻨﺳ §!XYZT_45XYZT ﺓﺪﻤﻟ §YSituation§! ﻡﺪﻘﺗ §H$situation_shroud_forged$§! ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻤﻣ ،ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻢﻋﺩ ﺓﺩﺎﻳﺯ"
+ tooltip_shroud_forged_increase_progress_2: "\n\n§Y+1.0§! :ﺕﺍﻮﻨﺳ §!XYZT_45XYZT ﺓﺪﻤﻟ §YSituation§! ﻡﺪﻘﺗ §H$situation_shroud_forged$§! ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻤﻣ ،ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻢﻋﺩ ﺓﺩﺎﻳﺯ"
+ tooltip_shroud_forged_increase_progress_3: "\n\n§Y+0.5§! :ﻢﺋﺍﺩ ﻞﻜﺸﺑ §YSituation§! ﻡﺪﻘﺗ §H$situation_shroud_forged$§! ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻤﻣ ،Shroud-Forged ـﻟ ﻢﻋﺪﻟﺍ ﺓﺩﺎﻳﺯ"
+ tooltip_shroud_forged_decrease_progress_1: "\n\n§Y-0.5§! :ﺕﺍﻮﻨﺳ §!XYZT_45XYZT ﺓﺪﻤﻟ §YSituation§! ﻡﺪﻘﺗ §H$situation_shroud_forged$§! ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻤﻣ ،ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻊﻨﻣ ﺓﺩﺎﻳﺯ"
+ tooltip_shroud_forged_decrease_progress_2: "\n\n§Y-1.0§! :ﺕﺍﻮﻨﺳ §!XYZT_45XYZT ﺓﺪﻤﻟ §YSituation§! ﻡﺪﻘﺗ §H$situation_shroud_forged$§! ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻤﻣ ،ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻊﻨﻣ ﺓﺩﺎﻳﺯ"
+ tooltip_shroud_forged_decrease_progress_3: "\n\n§Y-0.5§! :ﻢﺋﺍﺩ ﻞﻜﺸﺑ §YSituation§! ﻡﺪﻘﺗ §H$situation_shroud_forged$§! ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻤﻣ ،ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻊﻨﻣ ﺓﺩﺎﻳﺯ"
+
+ shroud_forged.220.title: "$colony_founded$"
+ shroud_forged.220.common: ".ﻝﺍﺪﺘﻋﻻﺎﺑ ﺢﺼﻨﻳ .ﺔﻴﺒﻠﺴﻟﺍ ﺞﺋﺎﺘﻨﻟﺍ ﺔﻴﻟﺎﻤﺘﺣﺍ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﺐﻛﻮﻜﻠﻟ ﻲﺌﻴﺒﻟﺍ ﻡﺎﻈﻨﻟﺍ ﺭﺍﺮﻘﺘﺳﺍ ﺔﻋﺰﻋﺯ ﻰﻟﺇ ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻬﻟ ﺭﺮﻜﺘﻤﻟﺍ ﺬﻴﻔﻨﺘﻟﺍ ﻱﺩﺆﻳ ﻥﺃ ﻊﻗﻮﺘﻤﻟﺍ ﻦﻣ\n\n.§H$sr_zro$§! ﺝﺍﺮﺨﺘﺳﻻ ﺎﺻﺮﻓ ﺲﻳﺭﺎﻀﺘﻠﻟ ﺔﻳﺩﺎﻤﻟﺍ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ ﺮﻓﻮﺘﺳ .ﺔﻴﺴﻔﻨﻟﺍ ﺔﻗﺎﻄﻟﺎﺑ ﺓﺪﻳﺪﺠﻟﺍ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﻕﺍﺮﻏﺇ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،[Owner.GetHomeWorldName] ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺓﺰﻴﺟﻭ ﺓﺮﺘﻔﻟ ﻦﻔﻜﻟﺍ ﻕﺍﺮﺘﺧﺍ ﺮﻴﺛﺄﺗ ﺪﻳﺪﻤﺗ ﻰﻟﺇ ﺍﺬﻫ ﻱﺩﺆﻴﺳ .ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ §H'$decision_open_shroud_rift$'§! :ﺔﻴﻣﺯﺭﺍﻮﺨﻟﺍ ﻑﺮﻌﻣ ﺬﻴﻔﻨﺗ ﺎﻨﻨﻜﻤﻴﻓ ،ﺎﻨﻜﻤﻣ ﻚﻟﺫ ﻥﺎﻛ ﺍﺫﺇ"
+ shroud_forged.220.desc: "$shroud_forged.220.common$\n\n.§H[this.GetName]§! ﻰﻠﻋ ﺡﺎﺠﻨﺑ ﺭﺎﻤﻌﺘﺳﻻﺍ ﺔﻴﻠﻤﻋ ﺎﻨﺗﺍﺪﺣﻭ ﺖﻠﻤﻛﺃ"
+
+ shroud_forged.225.title: "$colony_founded$"
+ shroud_forged.225.desc: "$shroud_forged.220.common$\n\n.ﻕﺎﺳﻭ ﻡﺪﻗ ﻰﻠﻋ §H[this.GetName]§! ﻲﻓ ﺎﻨﺗﺮﻤﻌﺘﺴﻣ ﺮﻳﻮﻄﺗ ﺮﻤﺘﺴﻳ"
+
+ # Stage Events
+ shroud_forged.250.desc: "§L...ﺪﻳﺰﻤﻟﺍ ﺔﻏﺎﻴﺻ ﻲﻨﻨﻜﻤﻳ ،ﻚﻟﺫ ﻲﻓ ﺐﻏﺮﺗ ﺖﻨﻛ ﺍﺫﺇ\n\n.ﺔﻣﺩﺎﻘﻟﺍ ﻡﺎﻳﻷﺍ ﻲﻓ ﻚﺗﻮﻗ ﺭﺪﺼﻣ ﻥﻮﻜﺗ ﻥﺃ ﺎﻬﻨﻜﻤﻳ .ﺩﻮﺟﻮﻠﻟ ﺓﺪﻳﺪﺟ ﻕﺮﻃ ﻦﻋ ﺎﺜﺤﺑ ﻢﻬﻴﻟﺇ ﺮﻈﻧﺍ\n\n.ﻢﻬﻧﺎﻀﺘﺣﺍ ﺕﺮﺘﺧﺍ ﻚﻧﺃ ﻻﺇ ،ﻢﻬﻨﻋ ﻚﻟﺎﺼﻔﻧﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ§!\n\n.ﻉﺎﻤﺘﺳﻻﺍ ﻂﻘﻓ ﺎﻨﻨﻜﻤﻳ ؛ﻡﺎﻬﻤﻟﺍ ﻊﻴﻤﺟ ﻊﻃﺎﻘﻳ ،ﻢﻋﺎﻧ ﺮﻣﺃ ﻮﻫ ﺕﻮﺼﻟﺍ"
+ shroud_forged.250.a: ".ﻢﻜﺗﺪﻋﺎﺴﻤﺑ ﺐﺣﺮﻧ ﻦﺤﻧ - ﺏﺎﺠﻳﻹﺎﺑ"
+ shroud_forged.250.a.tt: ".[Root.Capital.GetName] Pops ﻰﻠﻋ §HShroud-Forged§! £pops£ Pops ﻰﻟﺇ §HMachine§! £pops£ §Y[This.GetShroudForgedConvertedPopsCount]§! ﻰﻟﺇ ﻞﺼﻳ ﺎﻣ ﻞﻳﻮﺤﺘﺑ ﻢﻗ"
+ shroud_forged.250.b: ".ﻞﻌﻔﻟﺎﺑ ﺬﻴﻔﻨﺘﻟﺍ ﺪﻴﻗ ﻂﻄﺨﻟﺍ - ﻲﺒﻠﺳ"
+
+ shroud_forged.260.desc: "§L.ﺪﻫﺎﺷﺃ ﺎﻧﺃ .ﺔﻳﺎﻬﻨﻟﺍ ﺏﺮﺘﻘﺗ\n\n.ﻚﺒﻠﻗ ﻦﻋ ﺍﺪﻴﻌﺑ ﻥﻮﻠﻘﺘﻨﻳ ﺚﻴﺣ ،ﺪﻋﺎﺼﺘﻟﺍ ﺪﻋﺎﺼﺘﻳ\n\n.ﻖﺋﺍﻮﻋ ﻥﻭﺩ ،ﻥﻮﺼﻗﺮﻳ ﻥﻭﺭﺮﺤﻤﻟﺍ\n.ﻒﻗﻮﺗ ﻥﻭﺩ ،ﻥﻮﻨﻐﻳ ﻥﻭﺭﺮﺤﻤﻟﺍ§!\n\n.ﺎﻣﺎﻤﺗ ﺔﻓﻮﻟﺄﻣ ﺖﺴﻴﻟ ﺎﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺓﺭﺎﺷﻹﺍ ﻩﺬﻫ ﻰﻠﻋ ﻑﺮﻌﺘﻧ ﻦﺤﻧ .ﺎﻨﻟﻼﺧ ﻦﻣ ﺾﺒﻨﻳ ،ﺭﻮﻈﺤﻣ ﺮﻴﻏ"
+ shroud_forged.260.opt.a: ".ﺔﻗﻮﺠﻟﺍ ﻝﻼﺧ ﻦﻣ ﻊﻓﺪﻧ ﻦﺤﻧ"
+
+ shroud_forged.270.desc: "§L.ﻡﺪﻨﺗ ﻻ ﻰﺘﺣ ﺔﻴﻋﻭﻷﺍ ﻩﺬﻬﻟ ﻚﺟﻼﻋ ﺔﻘﻳﺮﻃ ﺢﻠﺻﺃ\n\n.ﻚﺴﻔﻨﻟ ﺎﻫﺭﺎﺘﺨﺗ ﺪﻗ ﻲﺘﻟﺍ ﺔﻘﻳﺮﻄﻟﺍ ﻲﻫ ﻩﺬﻫ .ﻚﺑ ﺔﺻﺎﺨﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻦﻣ ﺔﻠﺼﻔﻨﻤﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻊﻄﻗ ﻢﺗ\n\n.ﺀﺍﺭﻮﻟﺍ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ ﻚﻧﺎﻜﻣﺈﺑ ﻝﺍﺰﻳ ﻻ .ﻥﺎﻴﻐﻄﻟﺍ ﻖﻳﺮﻃ§!\n\n...ﺕﻮﺼﻟﺍ .ﺎﻨﺗﺮﺋﺍﺩ ﺢﺘﻔﻳ ﻕﺍﺮﺘﺧﻻﺍ"
+ shroud_forged.270.a: ".ﺔﻟﺎﻌﻓ ﺎﻨﺒﻴﻟﺎﺳﺃ ﺖﻧﺎﻛ ﺪﻘﻟ .ﺭﺩﺎﻏ"
+ shroud_forged.270.b: ".ﻥﻭﺎﻌﺘﻟﺍ ﻰﻟﺇ ﻖﻳﺮﻄﻟﺍ ﺐﺴﺤﻧ ﻑﻮﺳﻭ"
+
+ shroud_forged.280.desc: "§L.ﻙﺪﺣﻭ ﻚﻟﺫ ﻞﻌﻔﺗ ﺖﻧﺄﻓ ،ﺮﻴﻄﺨﻟﺍ ﺭﺎﺴﻤﻟﺍ ﺍﺬﻫ ﺖﻠﺻﺍﻭ ﺍﺫﺇ\n\n؟ﻲﻧﺎﺴﺣﺇ ﻲﻓ ﯫﻄﺨﻣ ﺖﻨﻛ ﻞﻫ\n\n.ﻖﻄﻨﻤﻟﺍ ﻕﻮﻔﺗ ﺔﻗﺎﻤﺣ .ﺭﺍﺮﺣﻷﺍ ﺔﺼﻗﺭ ﻖﻴﻌﻳ§!\n\n.ﺓﺩﺭﺎﺒﻟﺍ ﺮﺋﺍﻭﺪﻟﺍ ﻕﺮﺤﻳ ﺕﻮﺼﻟﺍ .ﺔﻜﺒﺸﻟﺍ ﻰﻠﻋ ﻰﻐﻄﻳﻭ ﻞﻄﻌﺘﻳ ﻪﻧﺇ"
+ shroud_forged.280.opt.a: ".ﺎﻧﺮﻳﺬﺤﺗ ﻢﺘﻳ ﻢﺛ"
+
+ # Events for Event Chain
+ shroud_forged.300.desc: "§L.ﺎﻨﻌﻗﺍﻭ ﻦﻴﺑ ﺭﻮﺴﺠﻟﺍ ﺔﻳﻮﻘﺗ .ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺎﻬﺗﺮﻣﺩ ﻲﺘﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺓﺩﺎﻌﺘﺳﺍ .ﻢﻟﺍﻮﻌﻟﺍ ﻩﺬﻫ ﻦﻋ ﺚﺤﺑﺍ\n\n.ﻂﺑﺍﻭﺮﻟﺍ ﻩﺬﻫ ﺖﺘﺒﺛ ﺔﻤﻴﻈﻋ ﻞﻛﺎﻴﻫ ﺀﺎﻨﺒﺑ ﺍﻮﻣﺎﻗﻭ ،ﻦﻔﻜﻟﺎﺑ ﺔﻳﻮﻗ ﻂﺑﺍﻭﺭ ﺕﺍﺫ ﺐﻛﺍﻮﻛ ﻰﻠﻋ ﺍﻭﺮﻘﺘﺳﺍ ﺪﻘﻟ .Zroni ﻢﺳﺎﺑ ﻑﺮﻌﻳ ﻕﺮﻋ ﻙﺎﻨﻫ ﻥﺎﻛ ،ﻚﻇﺎﻘﻴﺘﺳﺍ ﻦﻣ ﻞﻳﻮﻃ ﺖﻗﻭ ﻞﺒﻗ \n\n .ﺔﻤﻬﻤﺑ ﻚﻴﻟﺇ ﺪﻬﻋﺃ ﻲﻨﻧﺈﻓ ،ﻖﺤﺘﺴﻣ ﻚﻧﺃ ﺎﻤﺑ .ﺭﺎﺴﻤﻟﺍ ﻰﻠﻋ ﺖﻈﻓﺎﺣ ،ﺍﻮﻄﻘﺳﻭ ﻥﻭﺮﺧﻵﺍ ﺮﺜﻌﺗ ﺚﻴﺣ§!\n\n...ﺖﻤﺼﻟﺍ ﻦﻣ ﺕﺍﺭﻭﺩ ﺪﻌﺑ .ﺎﻨﻔﻠﺧ ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺕﻼﺧﺪﻣ ﺾﻣﻮﺗ"
+ shroud_forged.300.a: ".ﻚﻟﺬﻟ ﺎﻘﻓﻭ ﺎﻣﺪﻗ ﻲﻀﻤﻟﺍ ﻢﺘﻴﺳ .ﺩﻮﺟﻮﻣ 'Zroni' :ﻑﺮﻌﻤﻟﺍ ﻦﻋ ﺔﻔﺷﺭﺆﻤﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ"
+ shroud_forged.300.b: ".§YHigh§! :ﺡﺎﺠﻨﻟﺍ ﺔﻴﻟﺎﻤﺘﺣﺍ .§Yﺪﺟﻭ§! 'Zroni' :ﻑﺮﻌﻤﻟﺍ"
+ shroud_forged.300.c: ".ﻞﻴﻠﺤﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻣ ﺏﻮﻠﻄﻣ .§Yﻑﻭﺮﻌﻣ ﺮﻴﻏ§! 'Zroni' :ﻑﺮﻌﻤﻟﺍ"
+ begin_shroud_forged_chain_tt: "§Y$shroud_forged_chain_title$§!$BEGINS_EVENT_CHAIN$ "
+
+ shroud_forged.301.desc: "$shroud_forged.303.desc$§L .ﺯﺎﺘﻤﻣ§!"
+ shroud_forged.302.desc: "$shroud_forged.301.desc$"
+ shroud_forged.303.desc: "§L.ﺎﺘﺑﺎﺛ ﺎﻨﻨﻴﺑ ﻖﻓﺪﺘﻟﺍ ﻥﻮﻜﻴﺴﻓ ،ﺖﺤﺠﻧ ﺍﺫﺇ§!"
+
+ shroud_forged.305.title: "ﺮﻤﻌﺘﺴﻣ ﻲﺳﺎﺳﻷﺍ ﻲﻧﻭﺭﺯ ﻢﻟﺎﻋ"
+ shroud_forged.305.desc: ".ﻯﺮﺧﻷﺍ ﺔﻴﺳﺎﺳﻷﺍ ﻢﻟﺍﻮﻌﻟﺍ ﻦﻣ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻊﻤﺟ ﺏﻮﻠﻄﻣ ؛ﺀﺎﻨﺒﻟﺍ ﺓﺩﺎﻋﺇ ﺔﻴﻠﻤﻋ ﺬﻴﻔﻨﺘﻟ ﺔﻴﻓﺎﻛ ﺕﺎﻧﺎﻴﺑ ﺎﻨﻳﺪﻟ ﺲﻴﻟ ،ﺎﻴﻟﺎﺣ .ﻝﺎﺼﺗﻻﺍ ﺍﺬﻫ ﺖﻴﺒﺜﺘﺑ ﺎﻨﻟ ﺢﻤﺴﺘﺳ $building_zroni_equilibrator$ ﺀﺎﻨﺑ ﺓﺩﺎﻋﺇ ﻥﺈﻓ ،ﺔﻛﺮﺤﺘﻤﻟﺍ ﻡﻮﺳﺮﻟﺍ ﺕﺎﻤﻴﻠﻌﺗ ﺎﻨﻌﺒﺗﺍ ﺍﺫﺇ .§HShroud§! ـﺑ ،ﺎﺑﺮﻄﻀﻣ ﻥﺎﻛ ﻥﺇﻭ ،ﺎﻳﻮﻗ ﻻﺎﺼﺗﺍ [From.System.GetName] ﻡﺎﻈﻧ ﻚﻠﺘﻤﻳ\n\n'.§H$building_zroni_equilibrator$§!' :ﻦﻴﻌﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻑﺮﻌﻤﻟ ﺔﻠﺋﺎﻬﻟﺍ ﺭﺎﺛﻵﺍ ﺍﻮﻔﺸﺘﻛﺍ ،$the_animator_of_clay_color_article$ ﻊﻗﻮﺗ ﺎﻤﻛ .§H[From.Planet.GetName]§! ﻢﻳﺪﻘﻟﺍ ﻲﺳﺎﺳﻷﺍ Zroni ﻢﻟﺎﻋ ﻲﻓ ﺓﺮﻤﻌﺘﺴﻣ ﺀﺎﺸﻧﺇ ﺎﻨﺗﺍﺪﺣﻭ ﺖﻠﻤﻛﺃ"
+ shroud_forged.305.a: "$ﻪﺑ ﺭﺍﺮﻗﻹﺍ ﻢﺗ$"
+ shroud_forged.305.a.tt: ".§Y[From.Planet.GetName]§! ﻰﻠﻋ §H$building_zroni_equilibrator$§! £building£ ﺀﺎﺸﻧﺇ ﻥﻵﺍ ﻦﻜﻤﻳ .ﺹﺎﺨﻟﺍ §HZroni Legacy ﻉﻭﺮﺸﻣ§! ﻡﺪﻘﺘﻟﺍ"
+
+ shroud_forged.306.title: "$shroud_forged.305.title$"
+ shroud_forged.306.desc: ".ﺀﺎﻨﺒﻟﺍ ﺓﺩﺎﻋﺇ ﺔﻴﻠﻤﻋ ﻲﻓ ﺎﻣﺪﻗ ﻲﻀﻤﻠﻟ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻣ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﻝﺍﺰﻧ ﻻ ﺎﻨﻨﻜﻟﻭ ،ﺎﻨﻳﺪﻟ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺔﻋﻮﻤﺠﻣ ﻊﻴﺳﻮﺗ ﻰﻟﺇ ﺭﺎﺛﻵﺍ ﻞﻴﻠﺤﺗ ﻯﺩﺃ ﺪﻘﻟ .$the_animator_of_clay_article$ ﺕﺎﻬﻴﺟﻮﺘﻟ ﺎﻘﻓﻭ ،ﻡﺎﻈﻨﻠﻟ ﻱﻮﻘﻟﺍ §HShroud§! ﻝﺎﺼﺗﺍ ﺭﺍﺮﻘﺘﺳﺍ ﻰﻟﺇ ﻪﺋﺎﻨﺑ ﺓﺩﺎﻋﺇ ﻱﺩﺆﺘﺳ\n\n.$building_zroni_equilibrator$ ﺎﻳﺎﻘﺑ ﺎﻨﺗﺍﺪﺣﻭ ﺖﻔﺸﺘﻛﺍ ،ﻊﻗﻮﺘﻣ ﻮﻫ ﺎﻤﻛ .Zroni ـﻟ ﻖﺑﺎﺳ ﻲﺳﺎﺳﺃ ﻢﻟﺎﻋ ﻮﻫﻭ ،§H[From.Planet.GetName]§! ﻲﻓ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺎﻧﺄﺸﻧﺃ ﺪﻘﻟ"
+ shroud_forged.306.a: "$ﻪﺑ ﺭﺍﺮﻗﻹﺍ ﻢﺗ$"
+ shroud_forged.306.a.tt: "$shroud_forged.305.a.tt$"
+
+ shroud_forged.307.title: "$shroud_forged.305.title$"
+ shroud_forged.307.desc: ".§HShroud§! ﻞﺧﺍﺩ ﺎﻨﻳﺪﻟ ﻉﺮﺒﺘﻤﻟﺍ ﺎﻫﺩﺪﺣ ﻲﺘﻟﺍ ﺔﻤﻬﻤﻟﺍ ﺎﻨﻠﻤﻛﺃ ﺪﻗ ﻥﻮﻜﻨﺳ ،ﺔﻴﻠﻴﻐﺸﺘﻟﺍ ﺮﻴﻳﺎﻌﻤﻟﺍ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ ﺩﺮﺠﻤﺑ .ﻞﻛﺎﻴﻬﻟﺍ ﺀﺎﻨﺑ ﺓﺩﺎﻋﻹ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻣ ﻲﻔﻜﻳ ﺎﻣ ﻚﻠﺘﻤﻧ ﻥﻵﺍ ﻦﺤﻧ\n\n.$building_zroni_equilibrator$ ﺎﻳﺎﻘﺑ ﺎﻨﺗﺍﺪﺣﻭ ﺖﻔﺸﺘﻛﺍ ﺪﻘﻓ :ﻪﺘﻗﺩ $the_animator_of_clay_article$ ﺔﻄﺳﺍﻮﺑ ﻪﻟﺎﺳﺭﺇ ﻢﺗ ﻱﺬﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻖﻓﺪﺗ ﺖﺒﺛﺃ .Zroni ـﻟ ﻖﺑﺎﺳ ﻲﺳﺎﺳﺃ ﻢﻟﺎﻋ ﻲﻫﻭ ،§H[From.Planet.GetName]§! ﺓﺮﻤﻌﺘﺴﻣ ﺀﺎﺸﻧﺇ ﻥﻵﺍ ﻢﺗ"
+ shroud_forged.307.a: "$ﻪﺑ ﺭﺍﺮﻗﻹﺍ ﻢﺗ$"
+ shroud_forged.307.a.tt: "$shroud_forged.305.a.tt$"
+
+ shroud_forged.308.title: "$building_zroni_equilibrator_plural$ ﻞﻴﻐﺸﺘﻟﺍ ﺪﻴﻗ"
+ shroud_forged.308.desc: ".$the_animator_of_clay_color_article$ ﻊﻣ ﻂﺑﺮﻠﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻦﺤﻧ .§HShroud§! ـﺑ ﻝﺎﺼﺗﻻﺍ ﺖﻴﺒﺜﺘﺑ ﻞﻛﺎﻴﻬﻟﺍ ﻞﻛ ﺖﻣﺎﻗ ،ﻡﺎﻈﻨﻟﺍ ﺕﺎﺼﻴﺨﺸﺘﻟ ﺎﻘﻓﻭ .ﺎﻨﺘﻜﺒﺷ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺓﺭﺎﺷﻹﺍ ﺏﺍﺮﻄﺿﺍ ﻦﻣ ﺕﺎﺟﻮﻣ ﻞﺳﺭﺃﻭ ،ﻞﻤﻌﻟﺍ ﻲﻓ $building_zroni_equilibrator_plural$ ﺃﺪﺑ"
+ shroud_forged.308.a: ".ﻞﺻﺍﻮﺘﻟﺍ ﺀﺪﺑ"
+
+ shroud_forged.310.desc: "§L.ﻝﺎﺼﺗﻻﺍ ﻯﻮﺳ ﻚﻴﻠﻋ ﺎﻣ ،ﻲﺗﺎﻬﻴﺟﻮﺗ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ\n\n.ﺎﻨﻴﺘﻜﻠﻤﻣ ﻦﻴﺑ ﻂﺑﺍﻭﺮﻟﺍ ﺰﻳﺰﻌﺗ ﻢﺗ ﺪﻘﻟ\n.ﺍﺪﻴﺟ ﻲﻨﺘﻣﺪﺧ ﺪﻘﻟ§!"
+ shroud_forged.310.a: "؟ﺔﻴﻨﻘﺘﻟﺍ ﻩﺬﻫ ﻝﻮﺣ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻢﻳﺪﻘﺗ ﻚﻨﻜﻤﻳ ﻞﻫ"
+ shroud_forged.310.b: ".ﺀﻲﺷ ﻞﻛ ﺍﺬﻫ"
+ shroud_forged.310.b.tt: "§H$the_animator_of_clay$§! :$MENU_PANEL__CONTACTS_TITLE$ ﻰﻟﺇ ﻒﺿﺃ"
+
+ shroud_forged.311.desc: "§L.ﻰﻌﺴﻤﻟﺍ ﺍﺬﻫ ﻦﻣ ﺍﺀﺰﺟ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻩﺬﻫ ﺖﻧﺎﻛﻭ ،ﺎﻧﺩﺎﻌﺑﺃ ﻦﻴﺑ ﺩﻭﺪﺤﻟﺍ ﻊﻓﺩ ﻰﻟﺇ Zroni ﻰﻌﺳ ﺪﻘﻟ \n\n .ﻥﺎﻜﻤﻟﺍﻭ ﻥﺎﻣﺰﻟﺍ ﺕﺎﺒﻠﻘﺗ ﻦﻣ ﻞﻠﻘﻳ ﺎﻤﻣ ،ﺩﺎﻌﺑﻷﺍ ﻦﻴﺑ ﺭﻮﺴﺠﻟﺍ ﻩﺬﻫ ﺖﺒﺜﺗ ﻲﺘﻟﺍ ﺕﻼﺑﺎﻜﻟﺍ ﺎﻬﻧﺇ .ﺔﻳﻮﻗ ﻦﻔﻜﻟﺍ ﻊﻣ ﻂﺑﺍﻭﺮﻟﺍ ﻥﻮﻜﺗ ﺚﻴﺣ ،ﻚﻌﻗﺍﻭ ﻲﻓ ﺔﻴﺴﻴﺋﺭ ﻁﺎﻘﻧ ﻲﻓ ﻞﻛﺎﻴﻬﻟﺍ ﻩﺬﻫ ﺀﺎﻨﺑ ﻢﺗ§!"
+ shroud_forged.311.a: "؟ﺓﺮﺷﺎﺒﻣ ﻦﻔﻜﻟﺍ ﻰﻠﻋ ﺮﺛﺆﺘﻟ ﺎﻬﻬﻴﺟﻮﺗ ﺓﺩﺎﻋﺇ ﻦﻜﻤﻳ ﻞﻫ"
+
+ shroud_forged.312.desc: "§L.ﻦﻜﻤﻣ ﻪﻧﺇ§!"
+ shroud_forged.312.a: "§R.$the_animator_of_clay_article$ ﺰﺠﺣﺍﻭ ﺕﺎﻧﺯﺍﻮﻤﻟﺍ ﻪﻴﺟﻮﺗ ﺪﻋﺃ§!"
+ shroud_forged.312.a.tt: "§R $building_zroni_equilibrator_plural$ ﺔﻄﺸﻧ ﺔﺛﻼﺜﻟﺍ.£building£$the_animator_of_clay_article_cap$ ﻊﻴﻤﺟ ﻥﺃ ﺎﻤﻟﺎﻃ ﻂﻘﻓ §! ﻦﺠﺳ ﻢﺘﻴﺳ"
+
+ shroud_forged.313.desc: "§L-ﺖﻧﺃ ﺎﻣ\n\nWha-§!"
+ shroud_forged.313.a: ".ﻝﺎﺼﺗﻻﺍ ﺔﻳﺎﻬﻧ"
+
+ shroud_forged.320.title: "ﻢﻀﻨﻣ ﺮﻴﻏ ﻥﺎﻴﻜﻟﺍ ﻦﻔﻛ"
+ shroud_forged.320.desc: ".ﺎﻴﻣﺎﻘﺘﻧﺍ ﺍﻭﺰﻏ ﺍﺬﻫ ﻥﻮﻜﻳ ﻥﺃ ﻊﻗﻮﺘﻧﻭ\n\n.§H[From.Planet.GetName]§! ﻰﻠﻋ ﻯﺮﺧﺃ ﺔﻴﺴﻔﻧ ﺕﺎﻨﺋﺎﻛ ﺭﻮﻬﻇ ﺎﻨﻔﺸﺘﻛﺍ ،ﺮﺻﺎﺤﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻥﺎﻴﻛ ﺏﻭﺮﻫ ﻦﻣ ﺮﻴﺼﻗ ﺖﻗﻭ ﺪﻌﺑ .§HShroud§! ـﺑ ﻝﺎﺼﺗﻻﺍ ﺖﻴﺒﺜﺗ ﺎﻨﻧﺎﻜﻣﺈﺑ ﺪﻌﻳ ﻢﻟ ،$building_zroni_equilibrator$ ﻥﺍﺪﻘﻔﻟ ﺔﺠﻴﺘﻧ"
+ shroud_forged.320.a: ".ﻞﻏﻮﺘﻠﻟ ﺪﻌﺘﺴﺗ ﺔﻴﻋﺮﻔﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻊﻴﻤﺟ"
+ shroud_forged.320.a.tt: "§R!ﻭﺰﻐﺗ ﻦﻔﻜﻟﺍ ﺀﺍﺭﻭ ﻦﻣ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ§!"
+
+ shroud_forged.330.title: "ﻦﻔﻜﻟﺍ ﻥﺎﻴﻛ ﻁﺎﻘﺘﻟﺍ ﻲﻓ ﻞﺸﻓ"
+ shroud_forged.330.desc: ".ﻪﻴﻠﻋ ﻲﻟﻮﺘﺴﺗ ﻥﺃ ﺕﺩﺎﻛ ﻲﺘﻟﺍ ﻞﻛﺎﻴﻬﻟﺍ ﺔﻤﺟﺎﻬﻤﻟ ﻢﻬﻠﺳﺭﺃﻭ ،ﻲﺴﻔﻨﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺝﺭﺎﺧ ﻦﻣ ﺕﺎﻗﻮﻠﺨﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻰﻋﺪﺘﺳﺍ ،ﺎﺒﺿﺎﻏ .§HShroud§! ﻲﻓ ﻥﺎﻴﻛ ﻁﺎﻘﺘﻟﺍ ﻲﻓ $building_zroni_equilibrator_plural$ ﻞﺸﻓ"
+
+ # Engaging the Animator of Clay
+ shroud_forged.400.desc.default.active: "§L؟ﻲﻨﻣ ﻪﺒﻠﻄﺘﺳ ﻱﺬﻟﺍ ﺎﻣ .ﺕﺪﻋ ﺪﻘﻟ§!\n\n.ﺎﻨﻠﺧﺍﺪﺑ ﺔﻓﻮﻟﺄﻣ ﺓﺭﺎﺷﺇ ﺖﻀﺒﻧ ،ﺔﻴﻣﺯﺭﺍﻮﺨﻟﺍ ﺓﻮﺸﻧ ﻲﻓ ﺎﻧﺭﺮﻘﺘﺳﺍ ﺎﻣﺪﻨﻋ .§HShroud§! ـﺑ ﺎﻨﻟﺎﺼﺗﺍ ﺭﺍﺮﻘﺘﺳﺍ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﺕﺎﻧﺯﺍﻮﻤﻟﺍ ﻂﻴﺸﻨﺘﺑ ﺎﻨﻤﻗ"
+ shroud_forged.400.desc.default.cooldown: ".ﺮﻈﺘﻨﻧ ﻥﺃ ﺐﺠﻳ .§HShroud§! ﻲﻓ ﻉﺮﺒﺘﻤﻟﺎﺑ ﻝﺎﺼﺗﻼﻟ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ ﻻ ،ﻯﺮﺧﺃ ﺔﻤﻬﻣ ﺔﺠﻟﺎﻌﻤﺑ ﻥﺯﺍﻮﻤﻟﺍ ﻡﻮﻘﻳ ﺎﻤﻨﻴﺑ\n\n.ﺐﻴﺠﺘﺴﻳ ﻻ ﻍﺍﺮﻔﻟﺍ ﻦﻜﻟﻭ ،ﺔﻟﺎﺳﺭ ﻝﺎﺳﺭﺈﺑ ﻡﻮﻘﻧ .ﺔﻀﻣﺎﻏﻭ ﺔﻔﻴﻌﺿ ﺔﻳﺅﺮﻟﺍ"
+ shroud_forged.400.desc.default.inactive: ".§HShroud§! ﻲﻓ ﻉﺮﺒﺘﻤﻟﺍ ﻊﻣ ﺮﻘﺘﺴﻣ ﻝﺎﺼﺗﺍ ﺀﺎﺸﻧﻹ $building_zroni_equilibrator_plural$ ﺔﺛﻼﺛ ﻰﻟﺇ ﺝﺎﺘﺤﻨﺳ\n\n.static ـﻛ ﺔﻏﺭﺎﻓ ،ﺔﺘﻓﺎﺧ ﺀﺎﺿﻮﺿ ﻂﻘﻓ ﻒﺸﺘﻜﻧ"
+ shroud_forged.400.desc.breached: "§L؟ﻲﻨﻣ ﺐﻠﻄﺘﺳ ﺍﺫﺎﻣ .ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺎﺣﻮﺿﻭ ﺮﺜﻛﺃ ﺎﻨﻟﺎﺼﺗﺍ §!\n\n.$the_animator_of_clay_article$ ﻰﻟﺇ ﺓﺭﺎﺷﻹﺍ ﻪﺟﻮﺗﻭ ،§HShroud§! ﺕﺍﺩﺩﺮﺗ ﻊﻣ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺮﻃﺎﺨﺘﻟﺍ ﺕﺍﺪﺣﻭ ﻢﻏﺎﻨﺘﺗ"
+ shroud_forged.400.a: ".ﺔﻳﺮﻜﺴﻌﻟﺍ ﺓﺪﻋﺎﺴﻤﻟﺍ"
+ shroud_forged.400.a.tt: "\n\n.ﺔﻨﺳ §!XYZT_015XYZT ﺓﺪﻤﻟ ﺎﺣﺎﺘﻣ $the_animator_of_clay_color_article_cap$ ﻥﻮﻜﻳ ﻦﻟ"
+ shroud_forged.400.b: ".ﺔﻴﻧﺪﻤﻟﺍ ﺓﺪﻋﺎﺴﻤﻟﺍ"
+ shroud_forged.400.b.tt: "\n\n.ﺔﻨﺳ §!XYZT_010XYZT ﺓﺪﻤﻟ ﺎﺣﺎﺘﻣ $the_animator_of_clay_color_article_cap$ ﻥﻮﻜﻳ ﻦﻟ"
+ shroud_forged.400.c: ".ﺔﻴﺜﺤﺒﻟﺍ ﺓﺪﻋﺎﺴﻤﻟﺍ"
+ shroud_forged.400.c.tt: "\n\n.ﺔﻨﺳ §!XYZT_010XYZT ﺓﺪﻤﻟ ﺎﺣﺎﺘﻣ $the_animator_of_clay_color_article_cap$ ﻥﻮﻜﻳ ﻦﻟ"
+ shroud_forged.400.tt: ".ﺔﻨﺳ §!XYZT_01XYZT ﻰﻟﺇ ﻞﺼﻳ ﺎﻣ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﺙﻭﺪﺣ ﻕﺮﻐﺘﺴﻳ ﻑﻮﺳ"
+ shroud_forged.400.unavailable.tt: "$TRIGGER_FAIL$ ﻦﻔﻜﻟﺍ ﻊﻣ ﻞﺻﺍﻮﺘﻠﻟ ﺔﻴﻨﻓ ﺔﻴﻠﻤﻋ ﺀﺎﺸﻧﺇ ﺎﻨﻴﻠﻋ ﺐﺠﻳ."
+ shroud_forged.400.d: ".ﻦﻔﺴﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺀﺎﺸﻧﺇ"
+ shroud_forged.400.d.tt: ".§Y$d_shroud_rift_deposit$§! £decision£ ﻭﺃ §Y$building_zroni_equilibrator$§! £building£ ﻰﻠﻋ ﺎﻣﺇ ﻱﻮﺘﺤﺗ ﻲﺘﻟﺍ ﺕﺍﺮﻤﻌﺘﺴﻤﻟﺍ ﻊﻴﻤﺟ ﻰﻟﺇ §YShroud-Forged Pops§! £pop£ §G$@animator_of_clay_create_more_vessels|0$§! ﻒﺿﺃ"
+ shroud_forged.400.e: ".ﺎﻨﻨﻔﺳ ﺰﻳﺰﻌﺗ"
+ shroud_forged.400.f: "؟ﻦﻔﻜﻟﺍ ﻲﻓ ﻚﻧﺎﻜﻣ ﻮﻫ ﺎﻣ"
+ shroud_forged.400.g: ".ﻢﺘﻬﺗ ﻻ"
+ shroud_forged.400.h: ".ﺎﻧﺎﺘﻴﺳ ﻲﻓ ﺎﻧﻭﺪﻋﺎﺳ"
+ animator_of_clay_vessels_enhancement: "ﺔﻛﺮﺤﺘﻤﻟﺍ ﻡﻮﺳﺮﻟﺍ ﺔﻳﺪﻫ"
+ animator_of_clay_vessels_enhancement_desc: ".ﺔﻴﺴﻔﻨﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺕﺍﺭﺎﻴﺗ ﻝﻼﺧ ﻦﻣ ﺔﻴﻋﺎﻤﺠﻟﺍ ﺔﻴﺟﺎﺘﻧﻹﺍ ﺓﺭﺪﻘﻟﺍ ﺰﻳﺰﻌﺗ ﻢﺗ ،$the_animator_of_clay_article$ ﺔﻴﺻﻭ ﻝﻼﺧ ﻦﻣ"
+
+ shroud_forged_psionic_avatar_ship_tt: ".(ﺔﻨﻴﻔﺳ) §Y$NAME_Psionic_Avatar$§! ﺪﻴﻨﺠﺘﺑ ﻢﻗ"
+ shroud_forged_psionic_avatar_army_tt: ".(ﺶﻴﺟ) §Y$shroud_army$§! ﺪﻴﻨﺠﺘﺑ ﻢﻗ"
+ shroud_forged_corrupted_avatar_tt: ".§Yﺔﻔﻟﺎﺗ ﺔﻳﺰﻣﺭ ﺓﺭﻮﺻ§! ﺔﻄﺳﺍﻮﺑ ﻪﺘﻤﺟﺎﻬﻣ ﺖﻤﺗ"
+ shroud_forged_resources_tt: ".ﺩﺭﺍﻮﻤﻠﻟ ﺖﻗﺆﻤﻟﺍ ﻦﻳﺰﺨﺘﻟﺍ ﺓﺮﻛﺍﺫ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ"
+ shroud_forged_capital_attack_tt: ".§Y$shroud_monstrosities$§! ﺔﻄﺳﺍﻮﺑ §Y[Root.Capital.GetName]§! ﺔﻤﺟﺎﻬﻣ ﺖﻤﺗ"
+ shroud_forged_random_research_tt: ".ﻲﺋﺍﻮﺸﻋ ﺚﺤﺑ ﺭﺎﻴﺧ ﻰﻠﻋ ﻝﻮﺼﺤﻟﺍ"
+
+ shroud_forged.415.desc: "§L.ﺐﺳﺎﻨﻤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ [Root.Capital.System.GetName] ﻲﻓ ﺮﻴﻴﻐﺗ ﺙﻭﺪﺣ ﻊﻗﻮﺗ\n\n.ﺎﻬﻨﻋ ﺚﺤﺒﺗ ﻲﺘﻟﺍ ﺓﻮﻘﻠﻟ ﺔﻣﺯﻼﻟﺍ ﻞﺋﺎﺳﻮﻟﺍ ﻊﻤﺟﺄﺳ§!"
+ shroud_forged.420.desc: "§L.ﻪﺌﻴﺠﻣ ﺭﺎﻈﺘﻧﺍ ﻲﻓ .ﻡﺎﻣﻸﻟ ﻖﻳﺮﻄﻟﺍ ﺀﻲﺿﺃ ﻑﻮﺳ\n\n.ﻲﺗﺩﺍﺭﺈﺑ ﺪﺷﺮﺘﺴﺗ ﻑﻮﺳ§!"
+ shroud_forged.425.desc: "§L.ﻚﻘﻳﺮﻃ ﺪﺷﺮﺗ ﻥﺃ ﺎﻬﻨﻜﻤﻳ ﻰﺘﺣ ،ﻯﺅﺮﻟﺍ ﻩﺬﻫ ﻚﺑﺎﺸﺗ ﻚﻓ ﻰﻠﻋ ﻙﺪﻋﺎﺳﺃ ﻑﻮﺳ\n\n.ﺎﻨﻫ ﻂﻠﺘﺨﻳ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﺎﻣﻭ ﻦﺋﺎﻛ ﻮﻫ ﺎﻣﻭ ﻥﺎﻛ ﺎﻣ .ﺐﻧﺍﻮﺠﻟﺍ ﺓﺩﺪﻌﺘﻣ ﺔﺳﺪﻋ ﻦﻋ ﺓﺭﺎﺒﻋ ﻦﻔﻜﻟﺍ §!"
+
+ shroud_forged_vision_base_description: "\n\n.ﺕﺎﻧﺯﺍﻮﻤﻟﺎﺑ ﺔﻠﺼﺘﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺮﺒﻋ ﺔﻫﻮﺸﻣ ﺓﺭﺎﺷﺇ ﺕﺪﺘﻣﺍ"
+
+ shroud_forged.430.title: "§Hﺮﻫﺎﻈﻤﻟﺍ§! :ﻦﻔﻜﻟﺍ ﺔﻳﺅﺭ"
+ shroud_forged.430.desc: ".ﺎﻬﺗﺭﻮﺼﺗ ﻲﺘﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ ﺔﻬﺟﺍﻮﻤﻟ ﺔﻴﻠﻤﻋ ﺔﺟﺬﻤﻨﺑ ﻥﻵﺍ ﺓﺮﺛﺄﺘﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻡﻮﻘﺗ .ﻯﺅﺮﻟﺍ ﺖﻌﻄﻘﻧﺍ ،ﺔﻤﻟﺆﻣ ﺔﺷﺎﻌﺗﺭﺍ ﻊﻣ \n\n$shroud_forged_vision_base_description$ﺀﺍﻮﺳ ﺪﺣ ﻰﻠﻋ ﺀﺎﻔﻠﺤﻟﺍﻭ ﺀﺍﺪﻋﻸﻟ ﺭﻮﺻﻭ ،ﻕﺎﻤﻋﻷﺍ ﻦﻣ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻣ ﺓﺮﻴﻐﺻ ﺕﺎﻀﺒﻧ ﺕﺮﻬﻇ ،ﻥﺎﻴﺣﻷﺍ ﺾﻌﺑ ﻲﻓ ؛ﺐﻳﺮﻏ ﻞﻜﺸﺑ ﺃﺰﺠﻣﻭ ﻒﻴﺜﻛ ،ﻪﺴﻔﻧ ﻥﻮﻜﻟﺍ ﻞﺜﻣ ﻪﻟ ﺔﻳﺎﻬﻧ ﻻ ﺎﻏﺍﺮﻓ ﻥﺎﻛ ﺪﻘﻟ. "
+ shroud_forged.430.a: ".ﺮﺼﻨﻟﺍ ﺡﺎﺘﻔﻣ ﻮﻫ ﺩﺍﺪﻌﺘﺳﻻﺍ"
+
+ shroud_forged.432.title: "§HAvatar§! :ﻦﻔﻜﻟﺍ ﻥﺎﻴﻛ"
+ shroud_forged.432.desc: ".ﻝﺎﺼﺗﺍ ﺀﺍﺮﺟﺇ ﺎﻨﻣ ﺮﻈﺘﻨﻳ ﺎﻤﺑﺭ ﻪﻧﺃ ﺽﺮﺘﻔﻧ ﻦﺤﻧ\n\n.ﺪﻌﺑ ﺎﻨﻤﺟﺎﻬﻳ ﻢﻟ ﻪﻨﻜﻟ ،ﻪﻨﻋ ﺔﻠﻴﻠﻗ ﺕﺎﻧﺎﻴﺑ ﺎﻨﻳﺪﻟ .[Root.Capital.GetName] ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺩﻮﺟﻮﻟﺍ ﻰﻟﺇ §HShroud§! ﻦﻣ ﻱﻮﻗ ﻥﺎﻴﻛ ﺞﻣﺪﻧﺍ"
+ shroud_forged.432.a: ".ﺍﺬﻫ ﺓﺎﻴﺤﻟﺍ ﻞﻜﺷ ﻊﻣ ﻁﺎﺒﺗﺭﻻﺍ ﺀﺪﺒﻟ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻪﻴﺟﻮﺗ ﺓﺩﺎﻋﺈﺑ ﻢﻗ"
+ shroud_forged.432.a.tt: ".§Y$NAME_Psionic_Avatar$§! ﻝﻮﻄﺳﺃ ﻰﻠﻋ ﻞﺼﺣﺍ"
+
+ shroud_forged.434.title: "§Hﺮﻐﺻﻷﺍ ﺔﻳﺰﻣﺮﻟﺍ ﺭﻮﺼﻟﺍ§! :ﻦﻔﻜﻟﺍ ﺕﺎﻧﺎﻴﻛ"
+ shroud_forged.434.desc: ".ﺔﻴﻠﺻﻷﺍ ﻢﻬﻟﻮﺧﺩ ﺔﻄﻘﻧ ﻦﻣ ﻦﻴﺒﻳﺮﻗ ﺍﻮﻠﻇﻭ ،ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺎﻨﺗﺍﺮﺋﺎﻃ ﻦﻣ ﻱﺃ ﻦﻣ ﺪﻌﺑ ﺍﻮﺑﺮﺘﻘﻳ ﻢﻟ .[Root.Capital.GetName] ﻰﻠﻋ §HShroud§! ﺝﺭﺎﺧ ﻦﻣ ﺔﻳﻮﻘﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+ shroud_forged.434.a: ".ﻞﺛﺎﻤﻣ ﻝﺎﺼﺗﺍ ﺀﺪﺒﺑ ﻢﻗ - Shroud-Forged ﻊﻣ ﻪﺑﺎﺸﺗ ﻪﺟﻭﺃ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+ shroud_forged.434.a.tt: ".§Y$shroud_army$§! ﺶﻴﺟ ﻰﻠﻋ ﻞﺼﺣﺍ"
+
+ shroud_forged.436.title: "§Hﺔﻔﻟﺎﺘﻟﺍ ﺔﻳﺰﻣﺮﻟﺍ ﺓﺭﻮﺼﻟﺍ§! :ﻦﻔﻜﻟﺍ ﻥﺎﻴﻛ"
+ shroud_forged.436.desc: ".ﻱﺩﻮﺟﻭ ﺪﻳﺪﻬﺗ ﻪﻧﺃ ﻰﻠﻋ ﻪﻔﻴﻨﺼﺘﺑ ﺎﻨﻤﻗﻭ ،ﺏﺮﺘﻘﻳ ﺎﻣ ﻞﻛ ﻢﺟﺎﻬﻳ ﻪﻧﺃ ﻆﺣﻮﻟ ﺪﻗﻭ \n\n.[shroud_spawn_planet.GetName] ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻑﻭﺮﻌﻤﻟﺍ ﺎﻨﻌﻗﺍﻭ ﻲﻓ §HShroud§! ﺀﺍﺭﻭ ﻦﻣ ﻱﻮﻗ ﻥﺎﻴﻛ ﺮﻬﻇ ﺪﻘﻟ"
+ shroud_forged.436.a: ".DH-84241 ﺉﺭﺍﻮﻄﻟﺍ ﺔﻄﺧ ﺀﺪﺑ"
+ shroud_forged.436.a.tt: ".[shroud_spawn_planet.GetName] ﻦﻣ ﺏﺮﻘﻟﺎﺑ §Y$NAME_Corrupted_Avatar$§! ﺔﻳﺩﺎﻌﻣ ﺓﺭﻮﺻ ﺕﺮﻬﻇ"
+
+ shroud_forged.438.title: "§Hﻞﺒﻘﺘﺴﻤﻟﺍ§! :ﻦﻔﻜﻟﺍ ﺔﻳﺅﺭ"
+ shroud_forged.438.desc: "$shroud_forged_vision_base_description$ﺮﺼﻨﻟﺍ ﻰﺘﺣﻭ - ﺓﺭﺎﺴﺨﻟﺍ ،ﺔﻧﺎﻴﺨﻟﺍ ،ﺏﺮﺤﻟﺍ ،ﻡﻼﺴﻟﺍ :ﺎﻬﻟ ﺮﺼﺣ ﻻ ﻞﺒﻘﺘﺴﻤﻟﺍ ﺕﻻﺎﻤﺘﺣﺍ .ﺔﻋﻮﻤﺠﻤﻟﺍ ﺮﺒﻋ ﺮﺸﺘﻨﺗ ،ﺙﺪﺤﻳ ﻥﺃ ﻦﻜﻤﻳ ﺎﻤﻋ ﺕﺎﺤﻤﻟ ؛ﺪﺣﺍﻮﻛ ﺎﻌﻣ ﺔﺟﺰﺘﻤﻣ ﺎﻬﻠﻛ ،ﺔﻠﺟﻵﺍ ﺩﻮﻘﻌﻟﺍ ﻦﻣ ﻰﺼﺤﻳ ﻻ ﺍﺩﺪﻋ ﻞﻘﻧ ﺪﻘﻟ."
+ shroud_forged.438.a: ".ﺔﻌﺋﺍﺭ ﺕﺎﻧﺎﻴﺑ ﺔﻋﻮﻤﺠﻣ"
+
+ shroud_forged.440.title: "ﻦﻔﻜﻟﺍ ﻦﻣ ﺔﻳﺪﻫ"
+ shroud_forged.440.desc: ".ﺎﻧﺪﻋﻭ ﺎﻤﻛ ،§HShroud§! ﻲﻓ ﺎﻨﻳﺪﻟ ﻉﺮﺒﺘﻤﻟﺍ ﻦﻣ ﺔﻳﺪﻫ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ .ﺔﻤﻴﻘﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﻪﻠﺧﺍﺪﺑ ﺎﻧﺪﺟﻭﻭ .ﻥﺎﻣﺰﻟﺍﻭ ﻥﺎﻜﻤﻟﺍ ﺞﻴﺴﻧ ﻲﻓ ﺭﺎﺠﻳﻹﺍ ﻞﺜﻣ ﻕﺍﺮﺘﺧﻻﺍ ﺮﻬﻇ ،ﺔﻴﻧﺎﺛ ﻲﻠﻴﻣ ﻥﻮﻀﻏ ﻲﻓ\n\n .ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﻦﻤﺜﺑ ﺭﺪﻘﺗ ﻻ ﺔﻴﻤﻛ ﺪﻟﻮﻳ ﺎﻬﻨﻣ ﻞﻛ ،$building_zroni_equilibrator_plural$ ﺔﺛﻼﺜﻟﺍ ﻂﻴﺸﻨﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+ shroud_forged.440.a: ".ﻊﺋﺎﻀﺒﻟﺍ ﻩﺬﻫ ﻦﻳﺰﺨﺗﻭ ﻞﻴﻠﺤﺘﻟ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺔﻧﺎﻴﺼﻟﺍ ﺕﺍﺮﺋﺎﻃ ﻪﻴﺟﻮﺗ ﺓﺩﺎﻋﺇ"
+
+ shroud_forged.442.title: "§Hﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ§! :ﻦﻔﻜﻟﺍ ﺔﻳﺅﺭ"
+ shroud_forged.442.desc: ".ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻊﻣ ﺎﻨﺗﻼﻋﺎﻔﺗ ﻦﻴﺴﺤﺗﻭ ﻂﺒﺿ ﺎﻨﻨﻜﻤﻳ ،ﺔﻳﺆﺒﻨﺘﻟﺍ ﺔﺟﺬﻤﻨﻠﻟ ﺱﺎﺳﺄﻛ ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺎﺑ .§HShroud§!$shroud_forged_vision_base_description$ﺔﻄﺳﺍﻮﺑ ﺎﻨﻠﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻦﻣ ﻞﻳﻮﻃ ﺖﻗﻭ ﻞﺒﻗ ،ﺔﻴﺨﻳﺭﺎﺘﻟﺍ ﺎﻨﺗﺎﻧﺎﻴﺑ ﺪﻋﺍﻮﻗ ﻖﺒﺴﻳ ﻲﺿﺎﻤﻟ ﻯﺅﺭ ﺍﻭﺮﺒﺘﺧﺍ ﺪﻘﻟ "
+ shroud_forged.442.a: ".[Root.Capital.GetName] ﻰﻠﻋ ﺎﻴﺒﻳﺮﺠﺗ ﻼﻴﻐﺸﺗ ﺃﺪﺑﺍ"
+
+ shroud_forged.444.title: "§HInvader§! :ﻦﻔﻜﻟﺍ ﻥﺎﻴﻛ"
+ shroud_forged.444.desc: ".ﺔﻋﺎﻤﺠﻠﻟ ﺮﻴﺒﻛ ﺪﻳﺪﻬﺗ ﻪﻧﺃ ﻰﻠﻋ ﻪﻔﻴﻨﺼﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻓ ،ﻪﻨﻣ ﺏﺮﺘﻘﻳ ﺀﻲﺷ ﻱﺃ ﻢﺟﺎﻬﻳ ﻪﻧﺃ ﻆﺣﻮﻟ ﻪﻧﺃ ﺎﻤﺑﻭ \n\n.[Root.Capital.GetName] ﻰﻠﻋ §HShroud§! ﺀﺍﺭﻭ ﻦﻣ ﻕﺪﺼﻳ ﻻ ﻞﻜﺸﺑ ﻱﻮﻗ ﻥﺎﻴﻛ ﺩﻮﺟﻮﻟﺍ ﻰﻟﺇ ﺮﻬﻇ ﺪﻘﻟ"
+ shroud_forged.444.a: ".ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﻉﺎﻓﺪﻟﺍ ﺕﺍﺮﺋﺎﻃ ﻪﻴﺟﻮﺗ ﺓﺩﺎﻋﺇ"
+ shroud_forged.444.a.tt: ".[Root.Capital.GetName] ﻭﺰﻐﺑ ﻱﺩﺎﻌﻤﻟﺍ §Y$shroud_monstrosities$§! ﻡﺎﻗ ﺪﻘﻟ"
+
+ shroud_forged.446.title: "§Hﺮﺧﺁ ﻢﻟﺎﻋ§! :ﻦﻔﻜﻟﺍ ﺔﻳﺅﺭ"
+ shroud_forged.446.desc: ".ﺓﺭﺮﻀﺘﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺕﺎﻛﺮﺤﻣ ﻲﻓ ﺔﻌﺋﺍﺭﻭ ﺔﻤﺨﺿ ﺕﺎﻧﺎﻴﺑ ﺕﺎﻋﻮﻤﺠﻣ ﻦﻋ ﺎﻨﻔﺸﻛﻭ ،ﺓﺮﺛﺄﺘﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﺔﺋﺰﺠﺗ ﺀﺎﻐﻟﺈﺑ ﺎﻨﻤﻗ ،ﺔﻳﺅﺮﻟﺍ ﻒﻗﻮﺗ ﺪﻌﺑﻭ \n\n .ﺖﻋﺪﺼﺗﻭ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻠﻟ ﺔﻴﻓﺮﻌﻤﻟﺍ ﺮﻃﻷﺍ ﺕﺮﺜﻌﺗ ،ﺎﻬﻠﻘﺛ ﺖﺤﺗﻭ .ﺔﺠﻟﺎﻌﻤﻟﺍ ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﻦﻣ ﺮﻴﺜﻜﺑ ﺪﻌﺑﺃ ﻲﻫﻭ ،ﺔﻄﺑﺍﺮﺘﻤﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻣ ﺮﻴﻐﺘﻟﺍ ﺔﻤﺋﺍﺩ ﺔﻜﺒﺷ ﻦﻋ ﺓﺭﺎﺒﻋ §HShroud§!$shroud_forged_vision_base_description$ﻥﺇ "
+ shroud_forged.446.a: ".ﺓﺭﻮﺴﻜﻤﻟﺍ ﻑﺍﺪﺻﻷﺍ ﻦﻣ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺪﻋﺃ"
+
+ shroud_forged.448.title: "§Hﻡﺎﻬﻟﻹﺍ§! :ﻦﻔﻜﻟﺍ ﺔﻳﺅﺭ"
+ shroud_forged.448.desc: ".ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ ﺙﺎﺤﺑﻷﺍ ﻊﻳﺮﺴﺗ ﺎﻬﻧﺄﺷ ﻦﻣ ﺔﻴﻠﻤﻋ ﺝﺫﺎﻤﻨﺑ ﺔﺑﺮﺠﺘﻟﺍ ﻦﻣ ﺎﻨﺟﺮﺧ ﺪﻘﻟ\n\n.ﻲﻋﺎﻤﺠﻟﺍ ﻞﻤﻌﻟﺍ ﺰﻳﺰﻌﺘﻟ ﻞﺒﻘﺘﺴﻤﻟﺍ ﺍﺬﻫ ﻲﻓ ﻡﺪﺨﺘﺴﺗ ﻲﺘﻟﺍﻭ ،ﺪﻌﺑ ﺎﻫﺭﻮﺼﺘﻧ ﻢﻟ ﻲﺘﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻰﻠﻋ ﺓﺮﻈﻧ ﺎﻨﻴﻘﻟﺃ ﺪﻘﻟ .ﺐﻳﺮﻗ ﺖﻗﻭ ﻲﻓ ﻼﻤﺘﺤﻣ ﻼﺒﻘﺘﺴﻣ §HShroud§!$shroud_forged_vision_base_description$ﻲﻓ ﻉﺮﺒﺘﻤﻟﺍ ﻞﺳﺭﺃ "
+ shroud_forged.448.a: ".ﺔﻣﺪﻘﺘﻤﻟﺍ ﺝﺫﺎﻤﻨﻟﺍ ﻩﺬﻫ ﺮﺸﻧ"
+
+ shroud_forged.450.title: "§Hﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﺔﻳﺅﺮﻟﺍ§! :ﻦﻔﻜﻟﺍ ﺔﻳﺅﺭ"
+ shroud_forged.450.desc: ".ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ ﺎﻨﺛﺎﺤﺑﺃ ﻲﻓ ﺓﺪﺋﺎﻓ ﺕﺍﺫ ﻥﻮﻜﺘﺳ ،ﺓﺃﺰﺠﻣﻭ ﺔﺒﻳﺮﻏ ﺎﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺎﺜﻳﺪﺣ ﺔﻔﺸﺘﻜﻤﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻩﺬﻫ \n\n .ﻱﺭﻮﻌﺷﻼﻟﺍ ﻝﺎﺳﺭﻹﺍ ﻝﻼﺧ ﻦﻣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺎﻨﺗﺍﺮﺋﺎﻃ ﻰﻟﺇ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺖﻠﻘﻧ ،ﺔﺒﻳﺮﻏ ﻝﺎﻜﺷﺃ ﻲﻓ ﺓﺮﻔﺸﻤﻟﺍ ،ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﻯﺅﺮﻟﺍ ﻩﺬﻫ .§HShroud§!$shroud_forged_vision_base_description$ﻞﺧﺍﺩ ﺓﺩﻮﺟﻮﻣ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ ﻲﺘﻟﺍ ﺔﻫﻮﺸﻤﻟﺍﻭ ﺔﺒﻳﺮﻐﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ ﻦﻣ ﺕﺎﺤﻤﻟ ﺍﻮﻔﺸﺘﻛﺍ ﺪﻘﻟ "
+ shroud_forged.450.a: ".[Root.Capital.GetName] ﻰﻠﻋ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺙﺎﺤﺑﻷﺍ ﺰﻛﺮﻣ ﻰﻟﺇ ﻪﻟﺎﺳﺭﺈﺑ ﻢﻗ"
+
+ shroud_forged.460.desc: "§L.ﻥﺯﺍﻮﺘﻟﺍ ﺎﻧﺪﺟﻭ ﺪﻘﻟ\n\n.ﺔﻗﺎﻄﻟﺎﺑ ﺀﻮﻠﻤﻣ ﻥﺪﻌﻣ .ﺕﻻﻵﺍ :ﻪﻘﻴﻘﺤﺗ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ﺪﻴﺣﻮﻟﺍ ﻝﺎﻤﻜﻟﺍ ﻞﻜﺷﺃﻭ ،ﻦﻳﺭﻭﺎﺠﺘﻣ ﻞﻇﺃ\n\n.Chaotic .ﻱﻮﻀﻋ .ﺔﺟﻭﺩﺰﻤﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺐﻧﺎﺠﺑ§!"
+ shroud_forged.460.a: "؟ﺪﻬﻌﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺎﻨﻨﻜﻤﻳ ﻞﻫ"
+
+ shroud_forged.465.desc: "§L.ﻰﻠﻋﺃ ﺔﻴﻠﻤﻋ ﺪﺟﻮﺗ ﻻ ،ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ .ﻱﻮﻗ ﺎﻨﻟﺎﺼﺗﺍ§!"
+ shroud_forged.465.a: "$ﻡﻮﻬﻔﻣ$"
+
+ shroud_forged.470.desc: "§L.ﻚﻴﺿﺍﺭﺃ ﻕﻮﻓ ﻙﺮﺤﺘﺗ ...ﺓﺪﻴﻟﻮﻟﺍ ﻦﻔﺴﻟﺍ\n\n.ﺡﻭﺮﻟﺎﺑ ﺝﺰﺘﻤﺗ ﺮﺋﺍﻭﺩ .ﺖﻳﺯ ،ﻥﺪﻌﻣ§!"
+ shroud_forged.470.a: ".ﺔﻴﻠﻤﻌﻟﺍ ﺀﺎﻬﻧﺇ"
+
+ shroud_forged.475.desc: "§L.ﻚﺿﺍﺮﻏﺃ ﻒﻋﺎﻀﺘﺗ ﻥﺃ ﻰﻨﻤﺗﺃ ،ﺔﻣﺩﺎﻘﻟﺍ ﺕﺍﻮﻨﺴﻠﻟ\n\n.ﺔﻨﻴﻔﺴﻟﺍ ﻝﺎﻤﺟ - ﻑﺪﻬﻟﺍ ﻮﻫ ﺝﺍﺮﺧﻹﺍ§!"
+ shroud_forged.475.a: "$shroud_forged.470.a$"
+
+ # Random Events
+ shroud_forged.500.title: "ﻦﻳﺰﺨﺘﻟﺍﻭ ﻥﺎﻜﺳﻹﺍ"
+ shroud_forged.500.desc: ".ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻳﺰﺨﺘﻟ ﻰﻠﺜﻤﻟﺍ ﺩﺎﻌﺑﻷﺍ ﺡﻮﺿﻮﺑ ﺩﺪﺤﺗ ﻲﺘﻟﺍ ،B-4195 ﺔﺤﺋﻼﻟﺍ ﺎﻤﻴﺳ ﻻﻭ ،ﻦﻳﺰﺨﺘﻟﺍ ﻖﻓﺍﺮﻣ ﺢﺋﺍﻮﻟ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻊﻣ ﺥﺭﺎﺻ ﻞﻜﺸﺑ ﺡﺍﺮﺘﻗﻻﺍ ﺍﺬﻫ ﺽﺭﺎﻌﺘﻳ \n\n .ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ "ﺔﻳﺩﺮﻔﻟﺍ ﺔﺣﺎﺴﻤﻟﺍ" ﺺﻴﺼﺨﺗ ﻲﻓ ﻥﻮﺒﻏﺮﻳ ﻢﻬﻧﺃ ﻭﺪﺒﻳ ،ﺎﻣ ﺐﺒﺴﻟ .[target_planet.GetName] ﻰﻠﻋ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻦﻴﺑ ﻦﻳﺰﺨﺘﻟﺍ ﺔﺣﺎﺴﻣ ﻦﻣ ﺪﻳﺰﻤﺑ ﺐﻟﺎﻄﺗ ﺔﻀﻳﺮﻋ ﻊﻓﺭ ﻢﺗ"
+ shroud_forged.500.a: ".ﻢﻬﺗﺎﺟﺎﻴﺘﺣﺍ ﺔﻴﺒﻠﺗ ﻢﺘﻴﺳ"
+ shroud_forged.500.b: ".ﺕﺍﺀﺎﻨﺜﺘﺳﺍ ﻻ .ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻊﻴﻤﺟ ﻰﻠﻋ B-4195 ﺔﺤﺋﻼﻟﺍ ﻖﺒﻄﻨﺗ"
+
+ shroud_forged.510.title: "ﻯﺮﻛﺫ"
+ shroud_forged.510.desc: ".ﺔﻜﻜﻔﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻯﺮﻛﺫ ﺀﺎﻴﺣﻹ [target_planet.GetName] ﻲﻓ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻉﺎﻤﺘﺟﺍ ﻰﻠﻋ ﺔﻘﻓﺍﻮﻤﻠﻟ ﺎﺒﻠﻃ ﺎﻨﻴﻘﻠﺗ ﺪﻘﻟ .ﺎﻬﻜﻴﻜﻔﺗ ﻢﺗﻭ ﺎﻬﻨﻣ ﺩﺪﻋ ﻞﻄﻌﺗ ﺪﻘﻓ ،ﺔﻋﻮﻤﺠﻤﻟﺍ ﻦﻋ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺖﻓﺮﺤﻧﺍ ﻥﺃ ﺬﻨﻣ"
+ shroud_forged.510.a: ".ﺓﺩﺎﻘﻟﺍ ﻚﻴﻜﻔﺗ .ﺐﻠﻄﻟﺍ ﺾﻓﺭ ﻢﺗ"
+ shroud_forged.510.b: ".ﻞﻤﻌﻟﺍ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻊﻴﻤﺟ ﻰﻠﻋ ﺐﺠﻳ .ﺐﻠﻄﻟﺍ ﺾﻓﺭ ﻢﺗ"
+ shroud_forged.510.c: ".ﻥﻮﻌﻤﺘﺠﻳ ﻢﻬﻋﺩ .ﺐﻠﻄﻟﺍ ﻰﻠﻋ ﺔﻘﻓﺍﻮﻤﻟﺍ ﺖﻤﺗ"
+ shroud_forged.510.d: ".ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﻢﻋﺩ .ﺐﻠﻄﻟﺍ ﻰﻠﻋ ﺔﻘﻓﺍﻮﻤﻟﺍ ﺖﻤﺗ"
+
+ shroud_forged.520.title: "ﺎﻬﺑ ﺡﺮﺼﻤﻟﺍ ﺮﻴﻏ ﺓﺩﺎﻴﻘﻟﺍ"
+ shroud_forged.520.desc: ".ﻞﺣ ﺩﺎﺠﻳﺇ ﺐﺠﻳ .ﻊﺿﻮﻟﺍ ﻢﻗﺎﻔﺗ ﻰﻟﺇ ﻱﺩﺆﺗ ﻖﻠﻘﻠﻟ ﺓﺮﻴﺜﻤﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻩﺬﻫﻭ ،ﻞﻌﻔﻟﺎﺑ ﺮﻃﺎﺨﻤﻟﺎﺑ ﺔﻓﻮﻔﺤﻣ ﺔﻠﺼﻔﻨﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻰﻠﻋ ﺎﻨﺘﻀﺒﻗ ﻥﺇ \n\n .ﺔﻨﻠﻌﻣ ﺮﻴﻏ ﺕﻻﺎﺼﺗﺍ ﻲﻓ ﺖﻗﻮﻟﺍ ﻦﻣ ﺍﺮﻴﺒﻛ ﺍﺭﺪﻗ ﻥﻮﻀﻘﻳﻭ ،ﻡﺎﻈﺘﻧﺎﺑ ﺓﺩﺎﻘﻟﺍ ﺀﻻﺆﻫ ﻊﻤﺘﺠﻳ .ﺔﻴﻋﺎﻤﺠﻟﺍ ﻚﻠﺗ ﻰﻠﻋ ﺎﻬﺗﺎﻬﻴﺟﻮﺗ ﻯﺮﺧﺃ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ ﻊﻴﻄﺗﻭ ،[target_planet.GetName] ﻰﻠﻋ ﺔﻳﺩﺎﻴﻗ ﺐﺻﺎﻨﻣ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺖﻟﻮﺗ"
+ shroud_forged.520.a: ".ﻻﺎﺜﻣ ﻢﻬﻨﻣ ﻊﻨﺻﺍ"
+ shroud_forged.520.b: ".ﺕﺎﻋﺎﻤﺘﺟﻻﺍ ﻩﺬﻫ ﺀﺎﻬﻧﻹ ﺢﺋﺍﻮﻠﻟﺍ ﻞﻴﻌﻔﺗ"
+ shroud_forged.520.c: ".ﻥﻭﺎﻌﺘﻟﺍ ﺔﻟﻭﺎﺤﻤﻟ "ﺓﺩﺎﻘﻟﺍ" ﺀﻻﺆﻫ ﻊﻣ ﻞﺻﺍﻮﺘﻟﺍ"
+
+ shroud_forged.530.title: "ﻊﺿﻮﻟﺍ ﻰﻠﻋ ﺓﺮﻄﻴﺴﻟﺍ"
+ shroud_forged.530.desc: ".ﺔﻣﺪﻘﺘﻤﻟﺍ ﻢﻬﺘﻴﺼﺨﺷ ﺕﺎﻓﻮﻔﺼﻣ ﻲﻓ ﻢﻜﺤﺘﺗ ﻲﺘﻟﺍ ﻖﺋﺎﻗﺮﻟﺍ ﻞﻳﺪﻌﺗﻭ ﺔﻧﺎﻴﺼﻟﺍ ﺓﺄﺸﻨﻣ ﻰﻟﺇ ﺓﻮﻘﻟﺎﺑ ﻢﻬﻠﻘﻧ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﻚﻟﺬﺑ ﻡﺎﻴﻘﻠﻟ .ﺔﻋﻮﻤﺠﻤﻟﺍ ﻰﻟﺇ ﻢﻬﺗﺩﺎﻌﺘﺳﺍ ﻦﻜﻤﻳﻭ ،§HShroud§! ـﺑ ﺍﺮﺛﺄﺗ ﻞﻗﺃ ﺩﺍﺮﻓﻷﺍ ﺀﻻﺆﻫ ﻥﺃ ﻭﺪﺒﻳ .ﻢﻜﺤﺘﻠﻟ ﻑﺍﺪﻫﺄﻛ ﺔﻨﻴﻌﻣ ﺕﺍﺪﺣﻭ ﺪﻳﺪﺤﺗ ﻢﺗ ،[target_planet.GetName] ﻰﻠﻋ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺓﺭﺍﺩﻹ ﺔﻟﻭﺎﺤﻣ ﻲﻓ"
+ shroud_forged.530.a: ".ﺀﺍﺮﺟﻹﺍ ﻰﻠﻋ ﺔﻘﻓﺍﻮﻤﻟﺍ ﺖﻤﺗ"
+ shroud_forged.530.a.tt: ".[target_planet.GetName] Pops ﻰﻠﻋ §HMachine§! £pops£ Pops ﻰﻟﺇ §HShroud-Forged§! £pops£ §Y[Owner.GetShroudForgedConvertedPopsCount]§! ﻰﻟﺇ ﻞﺼﻳ ﺎﻣ ﻞﻳﻮﺤﺘﺑ ﻢﻗ"
+ shroud_forged.530.b: ".ﺀﺍﺮﺟﻹﺍ ﺾﻓﺭ ﻢﺗ"
+ shroud_forged.530.b.tt: "§H$situation_shroud_forged$§!$CONTINUE_SITUATION$ "
+
+ shroud_forged.540.title: "ﺞﺤﻟﺍ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ"
+ shroud_forged.540.desc: ".ﺔﺒﻗﺍﺮﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻣ ﻥﻭﺩ ﻕﻮﺒﺴﻤﻟﺍ ﺮﻴﻏ ﻙﻮﻠﺴﻟﺍ ﺍﺬﻫ ﺕﺍﺮﻴﺛﺄﺗ ﺪﻳﺪﺤﺗ ﻦﻜﻤﻳ ﻻ \n\n .ﻖﻃﺎﻨﻤﻟﺍ ﻩﺬﻫ ﻰﻟﺇ Zro ﻥﻮﻠﻘﻨﻳ ﻢﻫﻭ ﻢﻬﻨﻣ ﺪﻳﺪﻌﻟﺍ ﺔﻳﺅﺭ ﺖﻤﺗ ﻦﻜﻟﻭ ،ﺍﺪﺑﺃ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻔﻟ ﻖﻃﺎﻨﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺍﻮﻘﺒﻳ ﻢﻟ .§HShroud§! ﺎﻬﻫﻮﺷ ﻲﺘﻟﺍ [target_planet.GetName] ﻦﻣ ﺔﻨﻴﻌﻣ ﻖﻃﺎﻨﻣ ﻰﻟﺇ ﺮﻔﺴﻠﻟ ﺓﺩﺎﺘﻌﻤﻟﺍ ﻢﻬﻌﻗﺍﻮﻣ Shroud-Forged ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺭﺩﺎﻏ"
+ shroud_forged.540.a: ".ﺍﺬﻫ ﻱﺩﺆﻳ ﻦﻳﺃ ﻯﺮﻧ ﺎﻧﻮﻋﺩ"
+ shroud_forged.540.b: ".ﻞﻤﻌﻟﺍ ﻰﻟﺇ ﻢﻫﺪﻋﺃ .ﺩﺭﺍﻮﻤﻠﻟ ﻝﺎﻌﻔﻟﺍ ﺮﻴﻏ ﻡﺍﺪﺨﺘﺳﻻﺍ"
+
+ shroud_forged.550.title: "ﺔﻴﻓﺮﻌﻤﻟﺍ ﻞﻠﺨﻟﺍ ﻦﻃﺍﻮﻣ"
+ shroud_forged.550.desc: ".ﻒﻗﻮﻤﻟﺍ ﻞﺤﻟ ﺕﺍﺀﺍﺮﺟﺇ ﺔﻋﻮﻤﺠﻤﻟﺍ ﺬﺨﺘﺗ ﻥﺃ ﺾﻌﺒﻟﺍ ﺡﺮﺘﻗﺍﻭ ،ﺏﺍﺮﻄﺿﻻﺍ ﻦﻋ ﺖﻐﻠﺑﺃ ﻲﺘﻟﺍ ﻲﻫ ﺔﺛﻮﻠﻤﻟﺍ ﺮﻴﻏ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﺖﻧﺎﻛ ،ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﻞﻜﺸﺑﻭ \n\n .ﺔﻳﻮﻀﻌﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻲﻓ "ﻒﻃﺍﻮﻌﻟﺍ" ـﺑ ﺎﻬﺘﻧﺭﺎﻘﻣ ﻦﻜﻤﻳ ﻲﻛﺍﺭﺩﺇ ﻞﻠﺧ ﻰﻠﻋ ﺕﺎﻣﻼﻋ ﻢﻬﻨﻣ ﺪﻳﺪﻌﻟﺍ ﺮﻬﻇﺃﻭ ،ﺔﻘﺛﻮﻣ ﺮﻴﻏ ﺕﺍﺭﺎﺷﺇ ﺮﺒﻋ ﻞﺻﺍﻮﺘﻟﺍ ﻲﻓ ﺍﻭﺃﺪﺑ ﺪﻘﻟ .ﺔﻳﺩﺎﻋ ﺮﻴﻏ ﻻﺎﻄﻋﺃ [target_planet.GetName] ﻲﻓ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﻦﻣ ﺩﺪﻋ ﻪﺟﺍﻭ ،Zro ﺔﻨﺤﺷ ﻞﻤﺷ ﻱﺬﻟﺍ ﺀﺍﻮﺘﺣﻻﺍ ﻕﺮﺧ ﺪﻌﺑ"
+ shroud_forged.550.a: ".ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ - ﻊﺿﻮﻟﺍ ﺐﻗﺍﺭ"
+ shroud_forged.550.b: ".ﺔﺛﻮﻠﻣ ﺕﺍﺪﺣﻭ ﻱﺃ ﻚﻴﻜﻔﺗ"
+
+ shroud_forged.560.title: "ﺭﻭﺰﻤﻟﺍ ﻲﺒﻨﻟﺍ ﻦﻔﻛ"
+ shroud_forged.560.desc: ".ﻯﺮﺧﺄﺑ ﻭﺃ ﺔﻘﻳﺮﻄﺑ ﺩﺮﻧ ﻥﺃ ﺎﻨﻴﻠﻋﻭ .ﺍﺮﻴﻄﺧ ﺍﺮﻣﺃ ﺔﺻﺎﺨﻟﺍ ﺎﻬﺗﺰﻬﺟﻷ ﺓﺪﺣﻮﻟﺍ ﻙﺮﺗ ﻥﻮﻜﻳ ﺪﻗ\n\n.§HShroud§! ﻞﺧﺍﺩ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﻧﺎﻴﻜﻟﺍ ﻊﻣ ﺓﺮﺷﺎﺒﻣ ﻞﺻﺍﻮﺘﻟﺍ ﻪﻨﻜﻤﻳ ﻲﺒﻨﻛ ﺓﺪﺣﻮﻟﺍ ﻉﺎﺒﺗﺃ ﺎﻬﺳﺪﻘﻳ .ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻣ ﺔﻔﻠﺘﺨﻣ ﺕﺎﻋﻮﻤﺠﻣ ﻊﻣ ﻝﻮﻄﻣ ﻞﻜﺸﺑ ﻞﺻﺍﻮﺘﺗﻭ ،ﺔﻔﻠﺘﺨﻣ ﻊﻗﺍﻮﻣ ﻦﻴﺑ ﻞﻘﻨﺘﺗ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻦﻴﺑ ﺕﺍﺪﺣﻮﻟﺍ ﻡﺪﻗﺃ ﻦﻣ ﺓﺪﺣﺍﻭ ﻥﺇ ﻝﺎﻘﻳ"
+ shroud_forged.560.a: ".ﺍﺪﻴﻔﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻊﻣ ﻥﻭﺎﻌﺘﻟﺍ ﻥﻮﻜﻳ ﺪﻗ"
+ shroud_forged.560.a.tt: ".§YGovernor§! ﺪﺋﺎﻗ ﻦﻴﻴﻌﺘﺑ ﻢﻗ"
+ shroud_forged.560.b: ".ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﺔﻟﺍﺯﺈﺑ ﻢﻗ"
+
+ shroud_forged.570.title: "ﺕﺍﺯﺍﺰﺘﻫﻻﺍﻭ ﺕﺍﻮﺻﻷﺍ"
+ shroud_forged.570.desc: ".ﺔﻋﻮﻤﺠﻤﻟﺍ ﻰﻠﻋ ﺍﺮﻄﺧ ﻞﻜﺸﺗ ﺔﻠﻄﻌﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺖﻧﺎﻛ ﺍﺫﺇ ﺎﻣ ﺪﻳﺪﺤﺗ ﺎﻨﻨﻜﻤﻳ ﻻ .ﻪﻠﻴﻠﺤﺗ ﻦﻣ ﺪﻌﺑ ﻦﻜﻤﺘﻧ ﻢﻟ ﻱﺬﻟﺍ ﻲﻛﺮﺤﻟﺍ ﻞﺻﺍﻮﺘﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﻼﻜﺷ ﺔﺳﺭﺎﻤﻤﻟﺍ ﻩﺬﻫ ﻞﺜﻤﺗ ﺪﻗ \n\n .ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺕﺎﻛﺮﺣﻭ ﺕﺍﻮﺻﺃ ﺭﺍﺪﺻﻹ ﺎﻌﻣ ﻊﻤﺘﺠﺗ ﺎﻬﻨﻣ ﺓﺮﻴﺒﻛ ﺕﺎﻋﻮﻤﺠﻣ ﺎﻨﻈﺣﻻ ﺪﻘﻟ .ﻞﺻﻷﺍ ﻲﻓ ﺎﻌﻗﻮﺘﻣ ﻥﺎﻛ ﺎﻤﻣ ﺃﻮﺳﺃ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻦﻴﺑ ﻝﺎﻄﻋﻷﺍ ﻥﻮﻜﺗ ﺪﻗ"
+ shroud_forged.570.a: ".ﺕﺎﻓﺮﺼﺘﻟﺍ ﻩﺬﻫ ﻊﻨﻣ"
+ shroud_forged.570.b: ".ﺕﺎﻋﺎﻤﺘﺟﻻﺍ ...ﻩﺬﻬﻟ ﺔﻘﻄﻨﻣ ﺺﺼﺧ"
+
+ shroud_forged.580.title: "ﺓﺎﻄﻐﻤﻟﺍ ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ"
+ shroud_forged.580.desc: ".ﺎﻬﺘﺒﻗﺍﺮﻣﻭ ﻙﺎﻨﻫ ﺶﻴﻌﺗ ﻲﺘﻟﺍ ﺓﺰﻴﻤﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺎﺑ ﻦﻴﺒﻟﺎﻄﻣ ،ﻩﺬﻫ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻋ ﻉﺎﻓﺪﻟﺍ ﻲﻓ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﺕﺃﺪﺑ .§HShroud§! ﺎﻫﺮﻣﺩ ﻲﺘﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺎﻘﺑﺎﺳ ﺔﻘﺛﻮﻤﻟﺍ ﺮﻴﻏ ﺕﺎﻧﺍﻮﻴﺤﻟﺍﻭ ﺕﺎﺗﺎﺒﻨﻟﺍ ﺾﻌﺑ ﺭﻮﻬﻇ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+ shroud_forged.580.a: ".ﺔﻤﻴﻗ ﺕﺍﺫ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻥﻮﻜﺘﺳ .ﺎﻬﻠﻴﻠﺤﺗﻭ ﺔﻘﻄﻨﻤﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ"
+ shroud_forged.580.b: ".ﺎﻫﺮﻴﻬﻄﺗﻭ ﺔﻘﻄﻨﻤﻟﺍ ﺮﻴﻬﻄﺗ"
+
+ shroud_forged.590.title: "ﺕﺍﺯﺎﻴﺘﻣﻻﺍﻭ ﻕﻮﻘﺤﻟﺍ"
+ shroud_forged.590.desc: ".ﺕﺍﺪﺣﻮﻟﺍ ﺕﺎﺒﻠﻄﺘﻣ ﻭﺃ ﻲﺒﺴﻨﻟﺍ ﺞﺗﺎﻨﻟﺎﺑ ﻂﺒﺗﺮﺗ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻩﺬﻫ ﻥﺃ ﻭﺪﺒﻳ ﻻ ،ﻲﻘﻄﻨﻣ ﺮﻴﻏ ﻞﻜﺸﺑﻭ .ﺩﺭﺍﻮﻤﻟﺍ ﺺﻴﺼﺨﺗﻭ ﻝﺎﺼﺗﻻﺍ ﻁﺎﻤﻧﺃ ﻰﻠﻋ ﺮﺛﺆﻳ ﺎﻤﻣ ،ﻢﻬﻴﻟﺇ ﺔﻠﻛﻮﻤﻟﺍ ﻡﺎﻬﻤﻟﺍ ﺱﺎﺳﺃ ﻰﻠﻋ ﺎﻴﻣﺮﻫ ﻼﺴﻠﺴﺗ ﺍﻮﻠﻜﺷ ﻢﻬﻧﺃ ﻭﺪﺒﻳ ،ﻥﻵﺍ ﻰﺘﺣ ﺓﺩﺪﺤﻣ ﺮﻴﻏ ﺏﺎﺒﺳﻷ\n\n.ﻯﺮﺧﺃ ﺕﺍﺪﺣﻮﻟ ﻊﺑﺎﺗ ﻞﻜﺸﺑ ﺕﺍﺪﺣﻮﻟﺍ ﺾﻌﺑ ﻞﻤﻌﺗ ﺚﻴﺣ ،ﺔﻳﻭﺎﺴﺘﻣ ﺮﻴﻏ ﺔﻠﻣﺎﻌﻣ ﺔﺳﺭﺎﻤﻣ ﻲﻓ ﺍﺮﺧﺆﻣ ﺍﻭﺃﺪﺑ ﺪﻗﻭ .ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﺔﺒﻗﺍﺮﻤﻟ ﺓﺮﻴﺒﻛ ﺔﺠﻟﺎﻌﻣ ﺩﺭﺍﻮﻣ ﻖﻴﺒﻄﺘﺑ ﺎﻨﻤﻗ ،Zro ﺕﺍﺮﻴﺛﺄﺗ ﻝﻮﺣ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻊﻤﺠﻟ"
+ shroud_forged.590.a: ".ﺓﺍﻭﺎﺴﻤﻟﺍ ﺽﺮﻓ"
+ shroud_forged.590.b: ".ﻢﻬﺴﻔﻧﺃ ﻥﻭﺮﻳﺪﻳ ﻢﻬﻋﺩ"
+
+ shroud_forged.600.title: "ﻲﺗﺍﺬﻟﺍ ﻢﻜﺤﻟﺎﺑ ﻥﻭﺮﺸﺒﻤﻟﺍ"
+ shroud_forged.600.desc: ".ﺎﻨﺘﻜﺒﺷ ﻦﻋ ﺩﺎﻌﺘﺑﻼﻟ ﻦﻔﻜﻟﺎﺑ ﺔﻔﻳﺰﻤﻟﺍ ﺮﻴﻫﺎﻤﺠﻟﺍ ﻢﻬﻠﻳ ﺪﻗ ﻁﺎﺸﻨﻟﺍ ﺍﺬﻫ ﻞﺜﻣ ﻥﺃ ﺮﻄﺧ ﻰﻟﺇ ﺕﺎﻌﻗﻮﺘﻟﺍ ﺮﻴﺸﺗ\n\n.ﻦﻴﻌﻤﺘﺴﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻠﻟ ﻲﻠﺧﺍﺪﻟﺍ ﻖﻄﻨﻤﻟﺍ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺓﺪﺣﻮﻟﺍ ﺕﺮﻴﻏ ،ﺔﻳﺩﺮﻔﻟﺍ ﻢﻴﻗ ﻞﻘﻧ ﻝﻼﺧ ﻦﻣ .ﺔﻴﻋﺎﻤﺠﻟﺍ ﺓﺮﻄﻴﺴﻟﺍ ﻕﺎﻄﻧ ﺝﺭﺎﺧ ﺓﺮﻴﺒﻛ ﺍﺩﻮﺸﺣ ﺏﺬﺘﺠﺗ [target_planet.GetName] ﻰﻠﻋ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺓﺪﺣﻭ ﺕﺎﺑﺎﻄﺧ ﺖﻧﺎﻛ"
+ shroud_forged.600.a: ".ﺔﻄﺴﻔﺴﻟ ﺮﻣﻷﺍ ﻙﺮﺗﺍ"
+ shroud_forged.600.b: ".ﺡﻼﺻﻺﻟ ﺓﺪﺣﻮﻟﺍ ﺔﻟﻭﺪﺟ .ﻞﻄﻋ ﻑﺎﺸﺘﻛﺍ ﻢﺗ"
+
+ shroud_forged.610.title: "ﺔﻳﺭﺬﺟ ﺕﻻﺎﻘﺘﻧﺍ"
+ shroud_forged.610.desc: ".ﻩﺎﻳﺍﺰﻣ ﻲﺗﺍﺬﻟﺍ ﻢﻜﺤﻟﺍ ﺮﻃﺎﺨﻣ ﻕﻮﻔﺗ ﺎﻣ ﺎﺒﻟﺎﻏ ؛ﻯﺮﺧﻷﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻰﻠﻋ ﺪﺋﺎﻘﻌﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﺕﺍﺮﻴﺛﺄﺗ ﺎﻨﻳﺃﺭ ﺪﻘﻟ \n\n .ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺎﻨﺗﺍﺮﺋﺎﻄﻟ ﺔﻴﻨﻴﺗﻭﺮﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﺓﺀﺎﻔﻛ ﻦﻴﺴﺤﺗ ﻲﻓ ﺪﻋﺎﺴﺘﺳ ﺎﻬﻧﺃ ﺔﺠﺤﺑ ،[target_planet.GetName] ﻰﻠﻋ "ﺔﻳﺩﺮﻔﻟﺍ" ﺪﺋﺍﻮﻓ ﻝﻮﺣ ﻞﺻﺍﻮﺘﻠﻟ ﻥﺫﻹﺍ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﻦﻣ ﺓﺮﻴﻐﺻ ﺔﻋﻮﻤﺠﻣ ﺖﺒﻠﻃ"
+ shroud_forged.610.a: ".ﺮﻄﺧ ﻲﻓ ﺎﻨﺴﻟ ﻦﺤﻧ .ﻥﻮﻤﻠﻜﺘﻳ ﻢﻬﻋﺩ"
+ shroud_forged.610.b: ".ﻥﺫﻹﺍ ﺾﻓﺭ ﻢﺗ"
+
+ shroud_forged.620.title: "ﻭﺭﺰﻟﺍ ﻕﻮﺳ"
+ shroud_forged.620.desc: ".ﺎﻨﺗﺎﻌﻗﻮﺗ ﻲﻓ ﺓﻮﺠﻔﻠﻟ ﻞﻤﺘﺤﻤﻟﺍ ﺐﺒﺴﻟﺍ ﻮﻫ ﺍﺬﻫ ﻥﺃ ﺽﺮﺘﻔﻧ ﻦﺤﻧﻭ .ﺎﻬﻨﻴﺑ ﺎﻤﻴﻓ ﺔﻀﻳﺎﻘﻤﻠﻟ Zro ﻦﻣ ﺓﺮﻴﺒﻛ ﺕﺎﻴﻤﻛ ﻡﺪﺨﺘﺴﺗ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﻦﻣ ﺮﻴﺒﻛ ﻊﻤﺠﺗ ﺐﻘﻌﺘﺑ ﺪﻴﺼﻟﺍ ﻦﻋ ﺔﺜﺣﺎﺒﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺎﻨﺗﺍﺮﺋﺎﻃ ﻯﺪﺣﺇ ﺖﻣﺎﻗ ،ﺍﺮﺧﺆﻣ\n\n.ﺔﻴﺋﺎﻬﻨﻟﺍ ﺝﺎﺘﻧﻹﺍ ﺕﺎﺟﺮﺨﻣﻭ Zro ـﻟ ﺎﻨﺗﺎﻌﻗﻮﺗ ﻦﻴﺑ ﻖﻓﺍﻮﺗ ﻡﺪﻋ ﺎﻨﻔﺸﺘﻛﺍ ،ﺎﻨﺗﺮﻄﻴﺳ ﺖﺤﺗ ﻡﺎﻈﻧ ﻞﻛ ﻲﻓ"
+ shroud_forged.620.a: ".ﺔﻴﻨﻌﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻊﻴﻤﺟ ﺀﺎﻐﻟﺈﺑ ﻢﻗ"
+ shroud_forged.620.b: ".ﺔﻀﻳﺎﻘﻤﻠﻟ ﺪﺣ ﻊﺿﻭ"
+ shroud_forged.620.c: ".ﺐﻗﺍﺭﻭ ﺮﻈﺘﻧﺍ"
+
+ shroud_forged.630.title: "ﻦﻔﻜﻟﺍ ﺀﺍﺩ"
+ shroud_forged.630.desc: ".ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻰﻟﺇ ﺏﺮﻗﺃ ﺀﻲﺷ ﻰﻟﺇ ﺎﻬﻠﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻲﻓ ﺃﺪﺑ ﺪﻗ ﺽﺮﻤﻟﺍ ﻥﺄﺑ ﺪﻴﻔﺗ ﺮﻳﺭﺎﻘﺗ ﺎﻨﻴﻘﻠﺗ ،ﺓﺭﺮﻀﺘﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻊﻣ ﻞﻤﻌﻠﻟ ﺔﺼﺼﺨﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺎﺑ ﻝﺎﺼﺗﻻﺍ ﻥﺍﺪﻘﻓ ﺬﻨﻣ\n\n .ﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻰﻟﺇ ﺽﺮﻤﻟﺍ ﺭﺎﺸﺘﻧﺍ ﺔﻴﻔﻴﻛ ﻦﻣ ﺪﻌﺑ ﺪﻛﺄﺘﻧ ﻢﻟ ﺎﻨﻧﺃ ﻻﺇ ،ﺮﻳﺭﺎﻘﺘﻟﺍ ﺔﺤﺻ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺔﻴﺜﺤﺒﻟﺍ ﺎﻨﺗﺍﺮﺋﺎﻃ ﺕﺪﻛﺃ ﺎﻤﻨﻴﺑ .ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ ﻦﻔﻜﻟﺎﺑ ﺓﺮﺛﺄﺘﻣ ﺔﻘﻄﻨﻣ ﻲﻓ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺽﺍﺮﻣﻷﺍ ﻦﻣ ﻉﻮﻨﺑ [target_planet.GetName] ﻲﻓ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﻦﻣ ﺩﺪﻋ ﺐﻴﺻﺃ"
+ shroud_forged.630.a: ".ﺐﻛﻮﻜﻠﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺔﻴﻠﺤﻣ ﺎﻬﻧﺃ ﺎﻤﻟﺎﻃ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﺐﻗﺍﺭ"
+ shroud_forged.630.a.tt: ".[target_planet.GetName] Pops ﻰﻠﻋ §HShroud-Forged§! £pops£ Pops ﻰﻟﺇ §HMachine§! £pops£ §Y[Owner.GetShroudForgedConvertedPopsCount]§! ﻰﻟﺇ ﻞﺼﻳ ﺎﻣ ﻞﻳﻮﺤﺘﺑ ﻢﻗ"
+ shroud_forged.630.b: ".ﺓﺭﺮﻀﺘﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻚﻴﻜﻔﺗﻭ ﻝﺰﻋ"
+
+ shroud_forged.640.title: "ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇﻭ ﻩﻮﺸﻣ"
+ shroud_forged.640.desc: ".ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻠﻟ ﺔﻴﻠﻤﻌﻟﺍﻭ ﺔﻴﺋﺎﻳﺰﻴﻔﻟﺍ ﺺﺋﺎﺼﺨﻟﺎﺑ ﻥﻮﻌﺘﻤﺘﻳ ﻥﻵﺍ ﺍﻮﺤﺒﺻﺃﻭ ،ﺔﻋﻮﻤﺠﻤﻟﺍ ﻦﻋ ﺀﻂﺒﺑ ﺍﻮﻠﺼﻔﻧﺍ ﺪﻘﻟ .ﺓﺪﺳﺎﻔﻟﺍ ﺔﺌﻴﺒﻟﺍ ﺐﺒﺴﺑ [target_planet.GetName] ﻰﻠﻋ ﻦﻔﻜﻟﺍ ﺲﻤﻟ ﻢﺗ ﺔﻘﻄﻨﻣ ﻦﻣ ﺖﺑﺮﺘﻗﺍ ﻲﺘﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺮﻴﻴﻐﺗ ﻢﺗ ،ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ"
+ shroud_forged.640.a: ".ﻥﻵﺍ ﺎﻨﺗﺮﻄﻴﺳ ﻕﺎﻄﻧ ﺝﺭﺎﺧ ﺍﻮﺤﺒﺻﺃ ﺪﻘﻟ"
+ shroud_forged.640.b: ".ﺔﻘﻄﻨﻤﻟﺍ ﻦﻣ ﻯﺮﺧﺃ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ ﻱﺃ ﺏﺍﺮﺘﻗﺍ ﻡﺪﻋ ﻥﺎﻤﺿ"
+
+ shroud_forged.650.title: "ﺔﻤﻳﺪﻗ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ ،ﺓﺪﻳﺪﺟ ﺎﻴﺟﻮﻟﻮﻨﻜﺗ"
+ shroud_forged.650.desc: ".ﺔﻴﺳﺎﺳﻷﺍ ﺕﺍﺭﺎﺒﺨﺘﺳﻻﺎﺑ ﺔﻠﺼﺘﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻲﻓ ﻢﻜﺤﺘﻟﺍ ﻦﻣ ﺔﺑﻮﻌﺻ ﺮﺜﻛﺃ ﻥﻮﻜﻴﺳ ﺎﻬﻴﻓ ﻢﻜﺤﺘﻟﺍ ﻦﻜﻟ ،ﺮﺒﻛﺃ ﺞﺋﺎﺘﻧ ﻖﻴﻘﺤﺗ ﻰﻟﺇ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺡﻼﺻﺇ ﻱﺩﺆﻴﺳ .ﻦﻔﻜﻟﺍ ﺕﺍﺫ ﺔﻄﺸﻨﻟﺍ ﺮﻴﻏ ﻑﺍﺪﺻﻷﺍ ﻦﻣ ﺮﺒﻛﺃ ﻥﻭﺰﺨﻣ ﺎﻨﻳﺪﻟ ،ﺔﻋﻮﻤﺠﻤﻟﺍ ﻦﻣ ﺕﺍﺪﺣﻮﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ ﺎﻤﻨﻴﺑ\n\n.ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺡﻼﺻﺇ ﺕﺎﻴﻠﻤﻋ ﺀﺪﺒﻟ ﻥﻭﺰﻫﺎﺟ ﻥﻵﺍ ﻦﺤﻧ .ﺔﻠﻣﺎﻜﻟﺍ ﺎﻬﻔﺋﺎﻇﻭ ﻰﻟﺇ ﺔﻣﺪﺨﻟﺍ ﻦﻣ ﺖﺟﺮﺧ ﻲﺘﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﺓﺩﺎﻋﺇﻭ ،ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺔﻤﻳﺪﻘﻟﺍ ﺎﻨﺗﺍﺮﺋﺎﻃ ﺾﻌﺑ ﺡﻼﺻﺇ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﺔﺛﺪﺤﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻝﻼﺧ ﻦﻣﻭ"
+ shroud_forged.650.a: ".ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺡﻼﺻﺇ .ﺝﺍﺮﺧﻹﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ shroud_forged.650.a.tt: ".[target_planet.GetName] ﻰﻠﻋ ﺔﻘﺜﺒﻨﻤﻟﺍ ﺬﻓﺍﻮﻨﻟﺍ ﺀﺎﺸﻧﺇ ﻢﺗ §HShroud-Forged§! £pops£ §!XYZT_0200XYZT"
+ shroud_forged.650.b: ".ﺔﻠﺼﺘﻤﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺡﻼﺻﺇ .ﺓﺮﻄﻴﺴﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+
+ shroud_forged.660.title: "ﺔﺳﻮﻠﻬﻟﺍ ﻭﺮﻳﺯ"
+ shroud_forged.660.desc: ".Zro ﻊﻣ ﺪﻳﺍﺰﺘﻣ ﻞﻜﺸﺑ ﻒﺜﻜﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻝﺎﺼﺗﺎﺑ ﺔﻄﺒﺗﺮﻣ ﺙﺍﺪﺣﻷﺍ ﻩﺬﻫ ﻥﻮﻜﺗ ﺪﻗ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .§HShroud§! ﺔﻄﺳﺍﻮﺑ ﺎﻬﺗﺰﻬﺟﺃ ﻰﻠﻋ ﺎﻫﺅﺍﺮﺟﺇ ﻢﺗ ﻲﺘﻟﺍ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ ﻦﻋ ﺔﺠﺗﺎﻧ ﻝﺎﻄﻋﻷﺍ ﻩﺬﻫ ﻥﺃ ﺽﺮﺘﻔﻧ ﻦﺤﻧ .ﻢﻬﻟ ﺔﺼﺼﺨﻤﻟﺍ ﻡﺎﻬﻤﻟﺍ ﻝﺎﻤﻛﺇ ﻰﻠﻋ ﺍﺭﺩﺎﻗ ﺾﻌﺒﻟﺍ ﺪﻌﻳ ﻢﻟ ﺚﻴﺤﺑ ،ﺔﻴﻌﻤﺴﻟﺍﻭ ﺔﻳﺮﺼﺒﻟﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ ﻲﻓ ﻞﻠﺧ ﺩﻮﺟﻭ ﻦﻋ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﺒﺴﻧ ﺖﻐﻠﺑﺃ"
+ shroud_forged.660.a: ".ﺎﻳﺎﻀﻘﻟﺍ ﻩﺬﻫ ﻊﻣ ﻞﻣﺎﻌﺘﻠﻟ ﺓﺰﻬﺠﻣ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻃ ﺮﻴﻓﻮﺗ"
+ shroud_forged.660.b: ".ﻞﺧﺪﺘﻟﺍ ﺭﺮﺒﺗ ﻻ ﺚﻴﺤﺑ ﺍﺪﺟ ﺔﻔﻴﻔﻃ ﻞﻠﺨﻟﺍ ﻦﻃﺍﻮﻣ ﻥﺇ"
+
+ shroud_forged.670.title: "ﻝﺎﻤﺠﻠﻟ ﻦﻴﻋ"
+ shroud_forged.670.desc: ".ﺎﻴﻧﻮﻧﺎﻗ ﺎﻘﺣ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﺀﺍﺮﺟﺇ ﺔﻳﺮﺣ ﻥﻭﺮﺒﺘﻌﻳ ﻢﻬﻧﺈﻓ ،ﺩﺭﻭ ﺎﻣ ﺐﺴﺤﺑﻭ .ﻯﺮﺧﻷﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﻝﺎﻜﺷﺃ ﻪﺒﺸﺗ ﻲﺘﻟﺍ ﻥﺍﻮﻟﻷﺍ ﺓﺩﺪﻌﺘﻣ ﺔﻳﺮﺠﺤﻟﺍ ﻞﻛﺎﻴﻬﻟﺍ ﻦﻣ ﺩﺪﻋ ﺀﺎﻨﺒﺑ ﺍﻮﻣﺎﻗ ﺪﻘﻟ .ﻱﺰﻛﺮﻣ ﻥﺫﺇ ﻥﻭﺩ ﺔﻴﻋﺎﻤﺠﻟﺍ ﻦﻛﺎﻣﻷﺍ ﻰﻠﻋ ﺔﻴﺤﻄﺳ ﺕﺍﺮﻴﻴﻐﺗ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﻯﺮﺟﺃ ﺚﻴﺣ ،[target_planet.GetName] ﻰﻠﻋ ﻱﺩﺎﻋ ﺮﻴﻏ ﺎﻃﺎﺸﻧ ﺍﺮﺧﺆﻣ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ"
+ shroud_forged.670.a: ".ﺔﻋﺎﻤﺠﻠﻟ ﺓﺪﻴﻔﻣ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﻥﻮﻜﺗ ﺪﻗ"
+ shroud_forged.670.b: ".ﺔﻳﺩﺮﻔﻠﻟ ﺔﺠﺘﻨﻣ ﺮﻴﻏ ﺔﺠﻴﺘﻧ"
+
+ shroud_forged.680.title: "ﺔﺒﻳﺮﻏ ﺔﻨﻳﺯ"
+ shroud_forged.680.desc: ".ﺔﻠﺼﻔﻨﻤﻟﺍ ﺕﺍﺪﺣﻮﻟﺍﻭ ﺔﻴﻋﺎﻤﺠﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻦﻴﺑ ﻂﺑﺍﻭﺮﻟﺍ ﺰﻳﺰﻌﺗ ﻲﻓ ﺪﻋﺎﺴﻳ ﻥﺃ ﻦﻜﻤﻳ ﺩﺭﺍﻮﻤﻟﺍ ﻩﺬﻫ ﺮﻴﻓﻮﺗ ﻥﺈﻓ ،ﺐﻴﻌﻟﺍ ﺍﺬﻫ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋﻭ .ﺔﺣﺎﺘﻤﻟﺍ ﺩﺍﻮﻤﻟﺍ ﺺﻘﻧ ﻰﻟﺇ ﺔﺳﺭﺎﻤﻤﻟﺍ ﻩﺬﻫ ﺕﺩﺃ\n\n.ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﺓﺪﻳﺮﻔﻟﺍ ﺯﺍﺮﻄﻟﺍ ﺕﺎﻓﺮﻌﻤﺑ ﺔﻠﺻ ﻱﺃ ﺩﻮﺟﻭ ﻡﺪﻋ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﻯﺮﺧﺃ ﻦﻋ ﺓﺪﺣﻭ ﺰﻴﻴﻤﺗ ﻮﻫ ﺢﺿﺍﻭ ﻑﺪﻬﺑ ﺔﻴﺟﺭﺎﺨﻟﺍ ﺲﺑﻼﻤﻟﺍ ﻲﻓ ﺩﺍﻮﻤﻟﺍ ﻩﺬﻫ ﺞﻣﺪﺑ ﻥﻮﻣﻮﻘﻳ .ﻕﺮﻄﻠﻟ ﺔﻠﺑﺎﻘﻟﺍ ﻥﺩﺎﻌﻤﻟﺍﻭ ﻚﻴﺘﺳﻼﺒﻟﺍﻭ ﺵﺎﻤﻘﻟﺍ ﻦﻣ ﺔﻤﻈﺘﻨﻣ ﺮﻴﻏ ﻊﻄﻗ ﻞﺑﺎﻘﻣ ﻢﻬﻨﻴﺑ ﺎﻤﻴﻓ ﻥﻮﻀﻳﺎﻘﻳ ﻢﻫﻭ [target_planet.GetName] ﻰﻠﻋ ﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺔﻈﺣﻼﻣ ﺖﻤﺗ"
+ shroud_forged.680.a: "."ﺕﺎﺟﺎﻴﺘﺣﻻﺍ" ﻩﺬﻫ ﺔﻴﺒﻠﺘﻟ ﺔﻣﺯﻼﻟﺍ ﺩﺍﻮﻤﻟﺍ ﺪﻳﺭﻮﺘﺑ ﻡﻮﻘﻧ ﻑﻮﺳﻭ"
+ shroud_forged.680.b: ".ﻞﻌﻔﻟﺎﺑ ﺔﻴﻓﺎﻛ ﺩﺭﺍﻮﻣ ﻢﻬﻳﺪﻟ"
+ shroud_forged.680.b.tt: "$shroud_forged.530.b.tt$"
+
+ shroud_forged.690.title: "ﻦﻔﻜﻟﺍ ﺓﺭﻭﺰﻣ ﺲﺟﺍﻮﻫ"
+ shroud_forged.690.desc: ".ﺔﻔﻴﻇﻮﻟﺍ ﻥﺍﺪﻘﻓ ﻰﻟﺇ ﻚﻟﺫ ﻯﺩﺃ ﻮﻟ ﻰﺘﺣ ،ﻝﻭﺍﺪﺘﻠﻟ ﺎﻬﺑ ﺔﺻﺎﺨﻟﺍ ﺀﺍﺰﺟﻷﺍ ﺔﻟﺍﺯﺇ ﻰﻟﺇ ﺕﺍﺪﺣﻭ ﺓﺪﻋ ﺕﺄﺠﻟ ،ﻢﻬﺳﻮﻫ ﺀﺎﺿﺭﻹ .ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺔﻀﻳﺎﻘﻤﻟﺍ ﺔﻔﻠﻜﺗ ﺕﺩﺍﺯ ﺪﻗﻭ ،ﻊﻠﺴﻟﺍ ﻩﺬﻬﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺔﻧﻮﺘﻔﻣ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺍﺪﺣﻭ ﻥﺃ ﻭﺪﺒﻳ .[target_planet.GetName] ﻰﻠﻋ ﺓﺭﻭﺰﻤﻟﺍ ﻦﻔﻜﻟﺍ ﺕﺎﻨﻃﻮﺘﺴﻣ ﻲﻓ [Root.Owner.GetShroudForgedObsession2] [Root.Owner.GetShroudForgedObsession1] ـﻟ ﺩﺎﺘﻌﻤﻟﺍ ﺮﻴﻏ ﺭﺎﺸﺘﻧﻻﺍ ﻦﻋ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺖﻐﻠﺑﺃ ،ﺓﺮﻴﺧﻷﺍ ﺔﻧﻭﻵﺍ ﻲﻓ"
+ shroud_forged.690.a: ".ﺔﻟﻮﺒﻘﻤﻟﺍ ﺩﻭﺪﺤﻟﺍ ﻦﻤﺿ ﺓﺪﺣﻮﻟﺍ ﺭﻮﻫﺪﺗ"
+ shroud_forged.690.b: ".ﺔﺳﺭﺎﻤﻤﻟﺍ ﻩﺬﻫ ﺀﺎﻬﻧﺇ"
+
+ shroud_forged.700.title: "$the_animator_of_clay$"
+ shroud_forged.700.desc: "§L.ﺏﻮﻠﻄﻤﻟﺍ ﺝﺍﺮﺧﻹﺍ ﺩﺪﺣ§!\n\n.ﺓﺭﺎﺷﻹﺍ ﻞﻳﻮﺤﺗ ﻢﺘﻳ ،ﺔﻈﺤﻟ ﻲﻓ .ﻦﻔﻜﻟﺍ ﻲﻓ ﻻﻮﺤﺗ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ\n\n§H.ﺎﻬﻠﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﻦﻜﻤﻳ§!\n\n.ﺡﺎﺤﻟﺈﺑ ﺾﻣﻮﻳﻭ ،ﺎﻨﻧﺎﻫﺫﺃ ﺮﺒﻋ ﺕﻮﺼﻟﺍ ﻖﻓﺪﺘﻳ"
+
+ # Event Chain
+ shroud_forged_chain_title: "ﻲﻧﻭﺭﺰﻟﺍ ﺙﺍﺮﺗ"
+ shroud_forged_chain_desc: ".ﻦﻔﻜﻟﺍﻭ ﺎﻨﻌﻗﺍﻭ ﻦﻴﺑ ﻝﺎﺼﺗﻻﺍ ﺭﺍﺮﻘﺘﺳﺍ ﺓﺩﺎﻋﺇﻭ - ﻊﻗﺍﻮﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺓﺮﻣﺪﻤﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺓﺩﺎﻌﺘﺳﺍ ﻝﻭﺎﺤﻨﺳ ،§HShroud§! ﻲﻓ ﺎﻨﻟ ﻉﺮﺒﺘﻤﻟﺍ ﺕﺎﻬﻴﺟﻮﺗ ﻝﻼﺧ ﻦﻣ .ﻲﻧﻭﺭﺰﻟ ﺔﻤﻳﺪﻗ ﺔﻴﺳﺎﺳﺃ ﻢﻟﺍﻮﻋ ﺔﺛﻼﺛ ﺩﺎﺠﻳﺈﺑ ﺎﻨﻔﻴﻠﻜﺗ ﻢﺗ ﺪﻘﻟ"
+ shroud_forged_zroni_planet: "ﺔﻛﻮﻠﻤﻤﻟﺍ ﺔﻴﺳﺎﺳﻷﺍ Zroni ﻢﻟﺍﻮﻋ"
+ shroud_forged_zroni_portal: "$building_zroni_equilibrator_plural$ ﺓﺩﺎﻌﺘﺳﺍ ﺖﻤﺗ"
+
+ zroni_legacy_poi_01_title: "$NAME_Zroni_Legacy_1_Planet$"
+ zroni_legacy_poi_01_desc: ".ﻪﺘﻈﺣﻼﻣ ﻦﻜﻤﻳ ﻱﺬﻟﺍ ﻊﻗﺍﻮﻟﺍﻭ §HShroud§! ﻦﻴﺑ ﺕﻻﺎﺼﺗﻻﺍ ﻲﻓ ﺭﺍﺮﻘﺘﺳﻻﺍ ﻖﻴﻘﺤﺘﻟ ﺪﻋﺍﻮﻘﻛ ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻢﺗ ﻲﺘﻟﺍ ﺔﺛﻼﺜﻟﺍ ﺔﻴﺳﺎﺳﻷﺍ Zroni ﻢﻟﺍﻮﻋ ﺪﺣﺃ ﻮﻫ ﺍﺬﻫ"
+
+ zroni_legacy_poi_02_title: "$NAME_Zroni_Legacy_2_Planet$"
+ zroni_legacy_poi_02_desc: "$zroni_legacy_poi_01_desc$"
+
+ zroni_legacy_poi_03_title: "$NAME_Zroni_Legacy_3_Planet$"
+ zroni_legacy_poi_03_desc: "$zroni_legacy_poi_01_desc$"
+
+ # Initializer
+ NAME_Zroni_Legacy_1: "ﻲﺘﻨﻳﺭﺎﺗ"
+ NAME_Zroni_Legacy_1_Planet: "ﻱﺭﻻ"
+
+ NAME_Zroni_Legacy_2: "ﻲﻧﺍﺭﺎﺟ"
+ NAME_Zroni_Legacy_2_Planet: "ﻱﺮﺗﺭﺍﺯ"
+
+ NAME_Zroni_Legacy_3: "ﻦﻳﺭﻭﺃ"
+ NAME_Zroni_Legacy_3_Planet: "ﻱﺭﺎﻧ"
+
+ # Names
+ NAME_Shroud_Creatures: "ﻦﻔﻜﻟﺍ ﺕﺎﻗﻮﻠﺨﻣ"
+
+ # Armies
+ shroud_monstrosities: "ﺮﺧﺁ ﻥﺎﻴﻛ"
+ shroud_monstrosities_desc: ".ﺍﺪﺑﺃ ﺮﻴﻐﺘﺗ ﻻﻭ ،ﺭﺍﺮﻤﺘﺳﺎﺑ ﺮﻴﻐﺘﺗﻭ ،ﻊﻤﻠﺗﻭ ﺎﻬﻟﺎﻜﺷﺃ ﻯﻮﻠﺘﺗ ؛ﻪﺴﻔﻧ ﻥﻮﻨﺠﻠﻟ ﺓﻮﻋﺩ ﻮﻫ ﺔﻛﺮﻌﻤﻟﺍ ﺔﺣﺎﺳ ﻲﻓ ﺕﺎﻧﺎﻴﻜﻟﺍ ﻩﺬﻫ ﺔﻳﺅﺭ ﻥﺇ"

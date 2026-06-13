@@ -1,0 +1,598 @@
+﻿l_spanish:
+
+### DIGITIZATION SITUATION START ###
+ situation_digitization: "ﻒﻴﻟﻮﺘﻟﺍ"
+ situation_digitization_type: "ﺩﻮﻌﺼﻟﺍ ﺔﻟﺎﺣ"
+ situation_digitization_desc: "§G[From.GetSynthPopsPerMonth]§!: §Yﻞﺒﻘﻤﻟﺍ ﺮﻬﺸﻟﺍ ﺎﻬﺘﻨﻤﻗﺭ ﻢﺘﺘﺳ ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ§!\n\n.ﻲﻋﻮﻟﺍ ﻞﻘﻧ ﺔﻴﻠﻤﻋ ﺀﺍﺮﺟﺇﻭ ﺔﻣﺪﻘﺘﻣ ﺔﻴﻟﺁ ﻡﺎﺴﺟﺃ ﺩﺍﺪﻋﺇ ﺎﻨﻴﻠﻋ ﺐﺠﻳ .ﺎﻨﻔﻠﺧ ﺔﺒﻴﻌﻤﻟﺍ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺎﻧﺔﻴﻋﻭﺃ ﻙﺮﺘﻟ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻟ"
+ situation_digitization_monthly_change_tooltip: ".ﺕﻻﺁ ﺎﻨﻣﺎﺴﺟﺃﻭ ،ﺔﻴﻤﻗﺭ ﺎﻨﻟﻮﻘﻋ ﺢﺒﺼﺗ ﻑﻮﺳ"
+ situation_digitization_outcome: ".ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻥﺎﻜﺴﻟﺍ"
+ stage_digitization_effects: ".ﺎﻨﺴﻔﻧﺃ ﻞﻳﻮﺤﺗﻭ ،ﺕﻻﻵﺍ ﻡﺎﺴﺟﺃ ﺀﺎﻨﺑﻭ ،ﻍﺎﻣﺪﻠﻟ ﻲﻤﻗﺭ ﻞﻴﺜﻤﺗ ﻢﻴﻤﺼﺗ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+# Approach Error Correcting
+ situation_digitization_errorcorrecting: "ﺄﻄﺨﻟﺍ ﺢﻴﺤﺼﺗ"
+ approach_digitization_errorcorrecting_tt: "§R-20%§!$situation_speed_tt$: \n.ﺓﺪﻴﻔﻣ ﺙﺍﺪﺣﻷ ﺮﺒﻛﺃ ﺔﺻﺮﻓ"
+ situation_digitization_errorcorrecting_approach_tt: "$situation_digitization_errorcorrecting$ $situation_approach_tt$"
+# Approach Real Time
+ situation_digitization_realtime: "ﻰﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ"
+ approach_digitization_realtime_tt: "§YUnchanged§!$situation_speed_tt$: "
+ situation_digitization_realtime_approach_tt: "$situation_digitization_realtime$ $situation_approach_tt$"
+# Approach Overclocked
+ situation_digitization_overclocked: "ﺪﻴﻛﻮﻠﻛﺮﻴﻓ"
+ approach_digitization_overclocked_tt: "§G+20%§!$situation_speed_tt$: \n.ﺔﺒﻌﺼﻟﺍ ﺙﺍﺪﺣﻷﺍ ﺮﻄﺧ ﻉﺎﻔﺗﺭﺍ"
+ situation_digitization_overclocked_approach_tt: "$situation_digitization_overclocked$ $situation_approach_tt$"
+
+ situation_num_identity_complex_tt: "$building_identity_complex$"
+ situation_digitization_ongoing_desc: "ﺮﻤﺘﺴﻣ ﻒﻴﻟﻮﺘﻟﺍ"
+ situation_digitization_pause_desc: "$situation_cyberization_pause_desc$"
+ situation_identity_complex_needed_desc: "$building_identity_complex$ ﻦﻴﻜﻤﺗ ﻢﺘﻳ ﻢﻟ £trigger_no£"
+ synth_positive_media_coverage_tt: "ﺔﻴﺑﺎﺠﻳﻹﺍ ﺔﻴﻣﻼﻋﻹﺍ ﺔﻴﻄﻐﺘﻟﺍ"
+ synth_negative_media_coverage_tt: "ﺔﻴﺒﻠﺴﻟﺍ ﺔﻴﻣﻼﻋﻹﺍ ﺔﻴﻄﻐﺘﻟﺍ"
+
+ biological_pop: "ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﺏﻮﺒﻟﺍ £pop£"
+ biological_pops: "ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ £pop£"
+ mechanical_pop: "ﻲﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺏﻮﺒﻟﺍ £pop£"
+ mechanical_pops: "ﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ £pop£"
+ pop_is: "ﻥﻮﻜﻳ"
+ pops_are: "ﻥﻮﻜﻧ"
+
+# Buildings
+ building_identity_complex: "ﺔﻳﻮﻬﻟﺍ ﻊﻤﺠﻣ"
+ building_identity_complex_desc: ".ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺕﺎﻳﻮﻬﻟﺍ ﺮﻳﻮﻄﺗﻭ ﺙﺎﺤﺑﻷ ﺭﻮﻄﺘﻣ ﺰﻛﺮﻣ"
+ building_identity_complex_speed: "§HPops§! £pop£ §G+100§!"
+ building_identity_complex_effect_desc: ".ﺎﻳﺮﻬﺷ $building_identity_complex_speed$ ﻞﻴﻤﺤﺗ ﻢﺘﻳ"
+ building_ai_emporium: "ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺮﺠﺘﻣ"
+ building_ai_emporium_desc: ".ﻲﻋﺮﻔﻟﺍ ﺀﻮﻀﻟﺍ ﺔﻋﺮﺳ ﻦﻣ ﻉﺮﺳﺃ ﻞﻜﺸﺑ ﻪﻄﺒﺿ ﺓﺩﺎﻋﺈﺑ ﺎﻨﻳﺪﻟ ﺓﺮﻬﻤﻟﺍ ﻥﻮﻴﻨﻔﻟﺍ ﻡﻮﻘﻳ ﻑﻮﺳﻭ ﺎﻨﻫ ﻩﺮﻀﺣﺃ ؟ﻪﺘﺤﻠﺼﻤﻟ ﻲﺗﺍﺬﻟﺍ ﻲﻋﻮﻟﺍ ﻞﻴﻠﻗ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ .ﻚﻠﻤﻋ ﻭﺃ ﻚﺘﻠﺋﺎﻌﻟ ﺀﺎﻴﻛﺫﺃ ﻕﺎﻓﺭ ﻰﻟﺇ ﺔﻳﺩﺎﻌﻟﺍ ﺀﺎﻴﺷﻷﺍ ﻞﻳﻮﺤﺗ ﻲﻋﺍﻮﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﻦﻣ ﺐﻠﻃﺍ .ﻚﺑ ﺔﺻﺎﺨﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﺍ ﻊﻴﻤﺟ ﻲﺒﻠﻳ ﻱﺬﻟﺍ ﻢﺨﻀﻟﺍ ﻊﻤﺠﻤﻟﺍ"
+ building_ai_emporium_fail_tt: "§Y[planet.owner.GetName]§! ﻲﻓ §Y$building_ai_emporium$§!$TRIGGER_FAIL$ ﻞﻌﻔﻟﺎﺑ ﺎﻨﻳﺪﻟ "
+ building_ai_emporium_outlawed_robots_tt: "ﺕﺎﺗﻮﺑﻭﺮﻟﺍ ﺮﻈﺤﺑ §Y[planet.owner.GetName]§!$TRIGGER_FAIL$ ﻡﺎﻗ ﺪﻘﻟ"
+ building_clear_thought_clinic: "ﺢﺿﺍﻮﻟﺍ ﺮﻜﻔﻟﺍ ﺓﺩﺎﻴﻋ"
+ building_clear_thought_clinic_desc: ".ﺎﻬﺟﺍﺮﺨﺘﺳﺍ ﺩﺮﺠﻤﺑ ﺮﻴﻜﻔﺘﻟﺍ ﻁﺎﻤﻧﺃ ﺓﺩﺎﻌﺘﺳﺍ ﻦﻜﻤﻳ ﻻﻭ ﺔﻴﺋﺎﻬﻧ ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ\n\n!ﺮﺒﻛﺃ ﺪﺋﺎﻌﻟﺍ ﻥﺎﻛ ﺎﻤﻠﻛ ،ﺔﺠﻬﺑ ﺮﺜﻛﺃ ﺓﺮﻛﺍﺬﻟﺍ ﺖﻧﺎﻛ ﺎﻤﻠﻛ !ﻥﺎﻣﺃﻭ ﻥﺎﻣﺄﺑ ﺎﻬﺘﻟﺍﺯﺈﺑ ﺏﺭﺪﻤﻟﺍ ﺎﻨﻘﻳﺮﻓ ﻡﻮﻘﻴﺳ !ﺔﻗﺎﻄﻟﺍ ﺓﺪﺻﺭﺃ ﻰﻟﺇ ﺎﻬﻠﻳﻮﺤﺗ ؟ﺎﻬﻴﻟﺇ ﺔﺟﺎﺤﺑ ﺪﻌﺗ ﻢﻟ ﺕﺎﻳﺮﻛﺫ ﻚﻳﺪﻟ ﻞﻫ"
+ clear_thought_clinic_modifier: "$building_clear_think_clinic$"
+ clear_thought_clinic_tt: "§G+10§! $TABBED_NEW_LINE$$MOD_SPY_NETWORK_LEVELS_ADD$: §G+25%§! :$TABBED_NEW_LINE$$MOD_SPY_NETWORK_DAILY_VALUE_MULT$ :ﺱﺪﻜﻤﻟﺍ ﺮﻴﻏ ﺲﺴﺠﺘﻟﺍ ﺔﻜﺒﺷ ﻝﺪﻌﻣ"
+
+# Jobs
+ m_pop_assembly: "§Y$MOD_PLANET_POP_ASSEMBLY_ADD$§! £mod_planet_pop_assembly_add£"
+
+ job_identity_designer: "ﺔﻳﻮﻬﻟﺍ ﻢﻤﺼﻣ"
+ job_identity_designer_plural: "ﺔﻳﻮﻬﻟﺍ ﻲﻤﻤﺼﻣ"
+ job_identity_designer_plural_with_icon: " $job_identity_designer_plural$£job_identity_designer£"
+ job_identity_designer_converter_desc: "$job_identity_designer_plural$ ﻢﻟﻷﺍ ﻦﻣ ﺔﻴﻟﺎﺧ ﻝﺎﻘﺘﻧﺍ ﺔﻴﻠﻤﻋ ﻦﻤﻀﻳ ﺎﻤﻣ ،ﺔﻴﻤﻗﺮﻟﺍ ﺔﻳﻮﻬﻟﺍ ﻰﻟﺇ ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﻞﻜﺸﻟﺍ ﻦﻣ ﻞﻳﻮﺤﺘﻟﺍ ﺔﻴﻠﻤﻋ ﻞﻬﺴﻳ."
+ job_identity_designer_converter_effect_desc: "$job_identity_designer_plural_with_icon$ ﺮﻓﻮﻳ $i_engineering$ ﻭ$i_amenities$"
+ job_identity_designer_desc: ".ﺪﻘﻌﻣ ﻞﻜﺸﺑ ﺓﺪﻳﺪﺟ ﺔﻴﻋﺎﻨﻄﺻﺍ ﻝﻮﻘﻋ ﺀﺎﺸﻧﺇ ﻰﻠﻋ $job_identity_designer_plural$ ﻞﻤﻌﻳ"
+ job_identity_designer_effect_desc: "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ $m_pop_assembly$ﻭ $i_amenities$ﻭ $job_identity_designer_plural_with_icon$ $i_engineering$ ﺮﻓﻮﻳ"
+ mod_job_identity_designer_add: "$job_identity_designer$ ﻒﺋﺎﻇﻭ"
+
+ job_roboticist_plural_and_job_identity_designer_plural: "$job_identity_designer_plural$ﻭ [roboticist.GetNamePlural]"
+ job_roboticist_plural_with_icon_and_job_identity_designer_plural_with_icon: "$job_roboticist_plural_with_icon$ ﻭ$job_identity_designer_plural_with_icon$"
+
+ councilor_ruler_imperial_synth: "$ﻱﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻢﻛﺎﺤﻟﺍ$"
+ councilor_ruler_imperial_synth_desc: "$Imperial_ruler_desc$"
+
+# Traits
+
+# Modifiers
+ synth_opposition_truth: "ﻒﻴﻟﻮﺘﻟﺍ ﺕﺎﻣﻮﻠﻌﻣ ﺔﻠﻤﺣ"
+ synth_opposition_truth_desc: ".ﻒﻴﻟﻮﺘﻟﺎﺑ ﺔﻄﺒﺗﺮﻤﻟﺍ ﺐﻧﺍﻮﺠﻟﺍ ﻊﻴﻤﺟ ﻝﻮﺣ ﺔﻗﺩﺎﺼﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺰﻳﺰﻌﺗ"
+ synth_opposition_deception: "ﻒﻴﻟﻮﺘﻟﺍ ﺭﻭﺪﺗ ﺔﻠﻤﺣ"
+ synth_opposition_deception_desc: ".ﻞﻘﻌﻟﺍ ﻒﻴﻟﻮﺘﻟ ﺔﻴﺑﺎﺠﻳﻹﺍ ﺐﻧﺍﻮﺠﻟﺍ ﻰﻠﻋ ﺪﻴﻛﺄﺘﻠﻟ ﻡﺎﻌﻟﺍ ﺩﺮﺴﻟﺍ ﺮﻳﻭﺪﺘﺑ ﻢﻗ"
+
+ synth_tinkering_with_minds: "ﻝﻮﻘﻌﻟﺎﺑ ﺐﻋﻼﺘﻟﺍ"
+ synth_tinkering_with_minds_desc: ".ﻞﺒﻘﺘﺴﻤﻠﻟ ﺎﻨﺘﻳﺅﺭ ﻊﻣ ﻰﺷﺎﻤﺘﺘﻟ ﺔﻟﺪﺘﻌﻣ ﺔﺠﻣﺮﺑ ﺓﺩﺎﻋﺇ ﺔﻴﻠﻤﻌﻟ ﺓﺪﻳﺪﺠﻟﺍ ﺔﻴﻤﻗﺮﻟﺍ ﻝﻮﻘﻌﻟﺍ ﻊﻀﺨﺗ"
+ synth_brightest_minds: "ﻊﻤﻟﻸﻟ ﺔﻳﻮﻟﻭﻷﺍ ﺀﺎﻄﻋﺇ"
+ synth_brightest_minds_desc: ".ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﻒﻴﻟﻮﺘﻟﺍ ﺞﻣﺎﻧﺮﺑ ﻰﻟﺇ ﻡﺎﻤﻀﻧﻼﻟ ﻂﻘﻓ ﺍﺰﻴﻤﺗ ﺮﺜﻛﻷﺍ ﺩﺍﺮﻓﻷﺍ ﺭﺎﻴﺘﺧﺍ ﻢﺘﻳ"
+ synth_reprogram_minds: "ﺔﻴﻌﻤﻗ ﺔﺠﻣﺮﺑ ﺓﺩﺎﻋﺇ"
+ synth_reprogram_minds_desc: ".ﻢﻬﺘﻨﻤﻗﺭ ﻢﺘﻳ ﺚﻴﺣ ﻊﺳﺍﻭ ﻕﺎﻄﻧ ﻰﻠﻋ "ﻦﻴﻠﻫﺆﻤﻟﺍ ﺮﻴﻏ" ﺩﺍﺮﻓﻷﺍ ﺔﺠﻣﺮﺑ ﺓﺩﺎﻋﺈﺑ ﺔﻣﻮﻜﺤﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ victim_compensation: "ﺎﻳﺎﺤﻀﻟﺍ ﺾﻳﻮﻌﺗ"
+ victim_compensation_desc: ".ﻒﻴﻟﻮﺘﻟﺍ ﺀﺎﻨﺛﺃ ﻢﻬﻟﻮﻘﻋ ﺍﻭﺪﻘﻓ ﻦﻳﺬﻟﺍ ﺮﺳﻷ ﻡﺪﻘﻤﻟﺍ ﺾﻳﻮﻌﺘﻟﺍ"
+
+ synth_mandatory_volunteers: "ﻦﻴﻴﻣﺍﺰﻟﻹﺍ ﻦﻴﻋﻮﻄﺘﻤﻟﺍ"
+ synth_mandatory_volunteers_desc: ".ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﻲﻋﻮﻟﺍ ﺔﻨﻤﻗﺮﻟ ﺏﺭﺎﺠﺗ ﻲﻓ ﺔﻛﺭﺎﺸﻤﻟﺍ ﻰﻠﻋ ﺭﺎﺒﺘﺧﻼﻟ ﻥﻮﻌﺿﺎﺨﻟﺍ ﺹﺎﺨﺷﻷﺍ ﺮﺒﺠﻳ"
+ synth_mass_demonstrations: "ﺓﺪﺷﺎﺤﻟﺍ ﺕﺍﺮﻫﺎﻈﻤﻟﺍ"
+ synth_mass_demonstrations_desc: ".ﺕﻻﻵﺍ ﻰﻟﺇ ﻪﻟ ﻂﻄﺨﻤﻟﺍ ﻝﻮﺤﺘﻟﺍ ﺪﺿ ﺔﻳﺮﻴﻫﺎﻤﺟ ﺕﺎﺟﺎﺠﺘﺣﺎﺑ ﺔﻟﻮﻐﺸﻣ ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ ﺔﻠﻣﺎﻌﻟﺍ ﻯﻮﻘﻟﺍ"
+ synth_fund_heritage_sites: "ﻕﻭﺪﻨﺼﻟﺍ ﺙﺍﺮﺘﻟﺍ ﻊﻗﺍﻮﻣ"
+ synth_fund_heritage_sites_desc: ".ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺠﻟ ﻦﻴﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺀﺎﻀﻋﻷﺍ ﻰﻠﻋ ﻲﻋﺎﻨﻄﺻﻻﺍ ﻝﻮﺤﺘﻟﺍ ﺮﻴﺛﺄﺗ ﻦﻣ ﺪﺤﻠﻟ ﺔﺻﺎﺧ ﺙﺍﺮﺗ ﻊﻗﺍﻮﻣ ﺀﺎﺸﻧﺇ ﻢﺘﻴﺳ"
+ synth_revere_the_past: "ﻲﺿﺎﻤﻟﺍ ﻞﻴﺠﺒﺗ"
+ synth_revere_the_past_desc: ".ﻩﺬﻫ ﺓﺩﺎﺒﻌﻟﺍ ﻦﻛﺎﻣﺃ ﺔﻳﺎﻤﺣ ﺎﻨﻴﻠﻋ ﺐﺠﻳﻭ ،ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺔﻤﻬﻣ ﻝﺍﺰﺗ ﻻ ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﺎﻧﺩﻮﺟﻭ ﻦﻋ ﺔﺠﺗﺎﻨﻟﺍ ﺔﻴﻨﻳﺪﻟﺍ ﺮﺋﺎﻌﺸﻟﺍ ﻥﺇ"
+ synth_preserve_the_past: "ﻲﺿﺎﻤﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ"
+ synth_preserve_the_past_desc: ".ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﺎﻨﻴﺿﺎﻤﻟ ﻰﻨﻌﻣ ﺖﻄﻋﺃ ﻲﺘﻟﺍ ﺀﺎﻴﺷﻷﺍﻭ ﻦﻛﺎﻣﻷﺍ ﺮﻣﺪﻧ ﻥﺃ ﺐﺠﻳ ﺎﻨﻧﺃ ﻲﻨﻌﻳ ﻻ ﻞﻣﺎﻜﻟﺎﺑ ﺪﻳﺪﺟ ﺩﻮﺟﻭ ﻥﺎﻀﺘﺣﺍ ﻥﺇ"
+ synth_resistance_fight: "ﺔﻣﻭﺎﻘﻤﻟﺍ ﺪﺋﺎﻗ ﺔﻟﻮﺟ"
+ synth_resistance_fight_desc: ".ﺔﻋﺮﺴﺑ ﺕﺎﺿﺍﺮﺘﻋﻻﺍ ﻑﺎﻘﻳﺇ ﻰﻟﺇ ﻱﺩﺆﻳ ﻑﻮﺳ ﺔﻣﻭﺎﻘﻤﻟﺍ ﺓﺩﺎﻗ ﺝﺍﺮﺨﺘﺳﻻ $d_biological_enclaves_no_icon$ ﻰﻟﺇ ﺔﻴﻟﻵﺍ ﺎﻨﻗﺮﻓ ﻝﺎﺳﺭﺇ ﻥﺇ"
+ synth_resistance_diplomacy: "ﺔﻣﻭﺎﻘﻤﻟﺍ ﺓﺩﺎﻗ ﺔﻴﺳﺎﻣﻮﻠﺑﺩ"
+ synth_resistance_diplomacy_desc: ".ﻝﺩﺎﺒﺘﻤﻟﺍ ﻢﻫﺎﻔﺘﻟﺍ ﻦﻴﺴﺤﺗ ﻰﻟﺇ ﻱﺩﺆﺘﺳ ﺔﻣﻭﺎﻘﻤﻟﺍ ﺓﺩﺎﻗ ﺀﺎﻘﻠﻟ $d_biological_enclaves_no_icon$ ﺓﺭﺎﻳﺯ ﻥﺇ"
+
+ synth_character_force: "ﻢﻳﺪﻘﻟﺍ ﻱﻮﻀﻌﻟﺍ ﻞﻜﺸﻟﺍ ﺪﻴﻠﻘﺗ"
+ synth_character_force_desc: ".ﻲﻤﻗﺮﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻲﻓ ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺠﻟ ﻱﺪﻴﻠﻘﺘﻟﺍ ﻞﻜﺸﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻢﺘﻳ"
+ synth_character_customize: "ﺪﻴﻘﻤﻟﺍ ﺮﻴﻏ ﺐﻛﺮﻤﻟﺍ ﻢﺴﺠﻟﺍ ﻞﻳﺪﻌﺗ"
+ synth_character_customize_desc: ".ﺔﻳﺮﺤﺑ ﺪﻳﺪﺠﻟﺍ ﻲﻤﻗﺮﻟﺍ ﻢﻫﺮﻬﻈﻣ ﻞﻳﺪﻌﺗ ﺩﺍﺮﻓﻸﻟ ﻦﻜﻤﻳ"
+ synth_character_customize_elite: "ﺪﻴﻘﻤﻟﺍ ﺐﻛﺮﻤﻟﺍ ﻢﺴﺠﻟﺍ ﻞﻳﺪﻌﺗ"
+ synth_character_customize_elite_desc: ".ﺎﻫﺮﻬﻈﻣ ﻞﻳﺪﻌﺘﺑ ﺎﻴﻠﻌﻟﺍ ﺕﺎﻘﺒﻄﻠﻟ ﻂﻘﻓ ﺢﻤﺴﻳ ،ﺢﺿﺍﻭ ﻲﻋﺎﻤﺘﺟﺍ ﻲﻣﺮﻫ ﻞﺴﻠﺴﺗ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻞﺟﺃ ﻦﻣ"
+ synth_character_customize_corpo: "ﺎﻳﺪﻘﻧ ﺐﻛﺮﻤﻟﺍ ﻢﺴﺠﻟﺍ ﻞﻳﺪﻌﺗ"
+ synth_character_customize_corpo_desc: ".ﻪﻔﻴﻟﺎﻜﺗ ﻞﻤﺤﺗ ﻥﻮﻌﻴﻄﺘﺴﻳ ﻢﻬﻧﺃ ﺎﻤﻟﺎﻃ ،ﻲﻤﻗﺮﻟﺍ ﻢﻫﺮﻬﻈﻣ ﻞﻳﺪﻌﺗ ﺔﻳﺮﺤﺑ ﺹﺎﺨﺷﻷﺍ ﻊﺘﻤﺘﻳ"
+
+ synth_cravings_imperfections: "ﺓﺪﻤﻌﺘﻣ ﻒﻴﻟﻮﺗ ﺏﻮﻴﻋ"
+ synth_cravings_imperfections_desc: ".ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻡﺎﺴﺟﻷﺍ ﻰﻟﺇ ﺍﺪﻤﻋ ﺔﻠﻣﺎﻛ ﺮﻴﻏ ﺕﺍﺰﻴﻣ ﺔﻓﺎﺿﺇ ﻢﺘﺗ ،ﻲﺼﺨﺸﻟﺍ ﺮﻴﻏﻭ ﻑﻮﺟﻷﺍ ﺩﻮﺟﻮﻟﺍ ﺐﻨﺠﺘﻟﻭ"
+ synth_cravings_simulation: "ﺓﺎﻛﺎﺤﻣ ﻲﻓ ﺓﺎﻴﺤﻟﺍ"
+ synth_cravings_simulation_desc: ".ﺕﺎﺑﻮﻌﺼﻟﺍ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺓﺎﻛﺎﺤﻣ ﻲﻓ ﺶﻴﻌﻟﺍ ﻥﻭﺭﺎﺘﺨﻳ ﻦﻳﺬﻟﺍ ﺹﺎﺨﺷﻸﻟ ﺔﻴﻌﻗﺍﻭ ﺮﺜﻛﺃ ﺓﺎﻴﺣ ﻖﻠﺨﻟ ﻦﻳﺪﻫﺎﺟ ﻰﻌﺴﻧ ﻦﺤﻧ"
+ synth_cravings_stop: "ﻦﻴﻳﻮﻀﻌﻟﺍ ﻦﻳﺩﺪﺸﺘﻤﻟﺍ ﻞﻫﺎﺠﺗ ﻢﺗ"
+ synth_cravings_stop_desc: ".ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺑﻮﻌﺼﻟﺍ ﻦﻣ ﺔﻴﻟﺎﺨﻟﺍ ﺔﻴﻟﺎﺜﻤﻟﺍ ﻢﻬﺗﺎﻴﺣ ﺎﻨﺒﻌﺷ ﺭﺪﻘﻴﺳ ،ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑﻭ"
+ synth_cravings_pain: "ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺔﻛﺮﻌﻤﻟﺍ ﺔﺣﺎﺳ"
+ synth_cravings_pain_desc: ".ﻦﻳﺪﻫﺎﺸﻤﻟﺍﻭ ﻦﻴﻛﺭﺎﺸﻤﻟﺍ ﻦﻣ ﻞﻜﻟ ﺎﻓﻮﻟﺄﻣ ﺎﺿﺮﻏ ﺐﻠﺠﻳ ﺔﻤﻟﺆﻣ ﺔﻴﺿﺍﺮﺘﻓﺍ ﻙﺭﺎﻌﻣ ﻲﻓ ﻁﺍﺮﺨﻧﻻﺍ ﻥﺇ"
+
+ synth_health_physical: "ﺔﻴﻧﺪﺒﻟﺍ ﺔﺤﺼﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth_health_physical_desc: ".ﺔﻴﻠﺤﻤﻟﺍ ﻝﺎﻄﻋﻷﺍ ﺔﺠﻟﺎﻌﻤﻟ ﺔﻳﻮﻟﻭﻷﺍ ﺎﻨﻳﺪﻟ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺔﻴﺤﺼﻟﺍ ﺔﻳﺎﻋﺮﻟﺍ ﻲﻄﻌﺘﺳ"
+ synth_health_virtual: "ﺔﻴﻠﻘﻌﻟﺍ ﺔﺤﺼﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth_health_virtual_desc: ".ﺎﻨﺘﺤﺼﻟ ﺎﻳﺭﻭﺮﺿ ﺍﺮﻣﺃ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺞﻣﺍﺮﺒﻟﺍ ﺕﺎﺜﻳﺪﺤﺗ ﻝﻼﺧ ﻦﻣ ﺎﻨﻟﻮﻘﻋ ﺔﻣﻼﺳ ﻥﺎﻤﺿ ﺪﻌﻳ"
+ synth_health_both: "ﻥﺯﺍﻮﺘﻤﻟﺍ ﻲﺤﺼﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth_health_both_desc: ".ﺎﻨﻴﻔﻇﻮﻣ ﺔﻴﻫﺎﻓﺮﻟ ﺎﻳﺭﻭﺮﺿ ﺍﺮﻣﺃ ﺓﺰﻬﺟﻷﺍﻭ ﺞﻣﺍﺮﺒﻟﺍ ﺭﺍﺮﻘﺘﺳﺍ ﻡﺪﻋ ﺕﻻﺎﺣ ﺔﺠﻟﺎﻌﻣ ﺪﻌﺗ"
+ synth_health_corporate: "ﻲﺒﻄﻟﺍ ﻒﻴﻟﻮﺘﻟﺍ"
+ synth_health_corporate_desc: ".ﺔﻴﻤﻗﺮﻟﺍ ﺕﺎﺳﻭﺮﻴﻔﻟﺍ ﺝﻼﻌﻟ ﺔﻴﻤﻫﻷﺍ ﻎﻟﺎﺑ ﺍﺮﻣﺃ ﺔﻳﺪﻴﻠﻘﺘﻟﺍ ﺔﻳﻭﺩﻷﺍ ﺯﻭﺎﺠﺘﻳ ﺎﻤﺑ ﺎﻨﺘﻛﺮﺷ ﺓﺮﺒﺧ ﻊﻴﺳﻮﺗ ﺪﻌﻳ"
+
+ synth_virtual_world_outlaw: "ﺓﺭﻮﻈﺤﻣ ﺔﻴﺿﺍﺮﺘﻓﺍ ﻢﻟﺍﻮﻋ"
+ synth_virtual_world_outlaw_desc: ".ﻊﻤﺘﺠﻤﻠﻟ ﺍﺪﻳﺪﻬﺗ ﺎﻫﺭﺎﺒﺘﻋﺎﺑ ﻥﺎﻣﺩﻹﺍ ﺓﺪﻳﺪﺷ ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺕﺎﻌﺠﺘﻨﻤﻟﺍ ﺮﻈﺣ ﻢﺗ"
+ synth_virtual_world_promote: "ﺔﺟﻭﺮﻣ ﺔﻴﺿﺍﺮﺘﻓﺍ ﻢﻟﺍﻮﻋ"
+ synth_virtual_world_promote_desc: ".ﺔﻴﻤﻗﺮﻟﺍ ﺔﻠﺿﺎﻔﻟﺍ ﺔﻨﻳﺪﻤﻟﺍ ﻲﻓ ﻪﻴﻓﺮﺘﻟﺍ ﻦﻣ ﺎﻬﻟ ﺔﻳﺎﻬﻧ ﻻ ﻝﺎﻜﺷﺄﺑ ﻉﺎﺘﻤﺘﺳﻻﺍ ﻲﻓ ﺭﺍﺮﺣﺃ ﺱﺎﻨﻟﺍ"
+ synth_virtual_world_regulate: "ﺔﻤﻈﻨﻣ ﺔﻴﺿﺍﺮﺘﻓﺍ ﻢﻟﺍﻮﻋ"
+ synth_virtual_world_regulate_desc: ".ﻊﻗﺍﻮﻟﺎﺑ ﻁﺎﺒﺗﺭﻻﺎﺑ ﺹﺎﺨﺷﻷﺍ ﻅﺎﻔﺘﺣﺍ ﻥﺎﻤﻀﻟ ﻡﺭﺎﺻ ﻞﻜﺸﺑ ﻥﺎﻣﺩﻹﺍ ﺓﺪﻳﺪﺷ ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺕﺎﻌﺠﺘﻨﻤﻟﺍ ﻢﻴﻈﻨﺗ ﻢﺘﻳ"
+
+ synth_home_centralized: "ﺔﻳﺰﻛﺮﻤﻟﺍ ﻡﺩﺍﻮﺨﻟﺍ ﻉﺭﺍﺰﻣ"
+ synth_home_centralized_desc: ".ﺔﻔﻠﻜﺘﻟﺍ ﺚﻴﺣ ﻦﻣ ﺓﺀﺎﻔﻜﻟﺍ ﻦﻣ ﺭﺪﻗ ﻰﺼﻗﺃ ﻖﻴﻘﺤﺘﻟ ﺔﻟﻭﺪﻠﻟ ﺔﻛﻮﻠﻤﻤﻟﺍ ﺔﻳﺰﻛﺮﻤﻟﺍ ﻡﺩﺍﻮﺨﻟﺍ ﻉﺭﺍﺰﻣ ﻲﻓ ﻲﻤﻗﺭ ﻲﻋﻭ ﻞﻛ ﻦﻳﺰﺨﺗ ﻢﺘﻳ"
+ synth_home_distributed: "ﺔﻋﺯﻮﻤﻟﺍ ﺔﻴﻟﺰﻨﻤﻟﺍ ﻡﺩﺍﻮﺨﻟﺍ"
+ synth_home_distributed_desc: ".ﺔﻳﺪﻴﻠﻘﺘﻟﺍ ﺔﺻﺎﺨﻟﺍ ﺕﺍﺭﺎﻘﻌﻟﺍ ﻞﺧﺍﺩ ﻲﻤﻗﺮﻟﺍ ﻲﻋﻮﻟﺍ ﻦﻳﺰﺨﺗ ﻢﺘﻳ"
+ synth_digital_homes: "ﺔﻴﻤﻗﺮﻟﺍ ﺕﺍﺭﺎﻘﻌﻟﺍ"
+ synth_digital_homes_desc: ".ﺔﻔﻠﻜﺘﻟﺍ ﻦﻣ ﺮﻴﻐﺻ ﺀﺰﺟ ﻊﻣ ﺎﺒﻳﺮﻘﺗ ﺎﻘﺑﺎﻄﺘﻣ ﻼﺧﺩ ﺔﻴﻤﻗﺮﻟﺍ ﺕﺍﺭﺎﻘﻌﻟﺍ ﺮﻓﻮﺗ ،ﻱﺪﻴﻠﻘﺘﻟﺍ ﻥﺎﻜﺳﻹﺍ ﻕﻮﺳ ﺭﺍﺮﻏ ﻰﻠﻋﻭ"
+
+ synth_respawn_push: "ﺔﺤﻳﺮﻤﻟﺍ ﺔﺒﻛﺮﻤﻟﺍ ﺔﻣﻼﺴﻟﺍ ﺮﻴﻳﺎﻌﻣ"
+ synth_respawn_push_desc: ".ﺎﻧﺮﻣ ﺍﺩﺎﺼﺘﻗﺍ ﻦﻤﻀﺗ ﺔﻠﻫﺎﺴﺘﻤﻟﺍ ﺔﻳﺪﺴﺠﻟﺍ ﺔﻣﻼﺴﻟﺍ ﺮﻴﻳﺎﻌﻣ"
+ synth_respawn_caution: "ﺔﺒﻛﺮﻤﻟﺍ ﺔﻣﻼﺴﻟﺍ ﺮﻴﻳﺎﻌﻣ"
+ synth_respawn_caution_desc: ".ﺔﻣﺭﺎﺻ ﺔﻴﻣﻮﻜﺣ ﺕﺍﺩﺎﺷﺭﺇ ﻝﻼﺧ ﻦﻣ ﻻﺇ ﺎﻬﻠﺧﺍﺪﺑ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻝﻮﻘﻌﻟﺍﻭ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻡﺎﺴﺟﻷﺍ ﺔﻳﺎﻤﺣ ﻦﻜﻤﻳ ﻻ"
+ synth_respawn_elite: "ﺐﻛﺮﻤﻟﺍ ﺔﻣﻼﺳ ﺯﺎﻴﺘﻣﺍ"
+ synth_respawn_elite_desc: ".ﻞﻘﻌﻟﺍ ﻭﺃ ﻢﺴﺠﻟﺍ ﻰﻠﻋ ﺍﺮﻄﺧ ﻞﻜﺸﺗ ﻲﺘﻟﺍ ﻡﺎﻬﻤﻟﺍ ﻲﻓ ﻞﻤﻌﻟﺍ ﺎﻴﻠﻌﻟﺍ ﺕﺎﻘﺒﻄﻟﺍ ﻰﻠﻋ ﺮﻈﺤﻳ"
+
+ synth_cultural_exchange: "ﻲﻓﺎﻘﺜﻟﺍ ﻢﻫﺎﻔﺘﻟﺍ"
+ synth_cultural_exchange_desc: ".ﺎﻨﻴﺒﻌﺷ ﻦﻴﺑ ﻝﺩﺎﺒﺘﻤﻟﺍ ﻢﻫﺎﻔﺘﻟﺍ ﺯﺰﻌﺗ ﺔﻴﺛﺍﺮﺘﻟﺍ ﺎﻨﻌﻗﺍﻮﻣ ﻰﻟﺇﻭ ﻦﻣ ﻲﻓﺎﻘﺜﻟﺍ ﻝﺩﺎﺒﺘﻟﺍ ﺞﻣﺍﺮﺑ ﻥﺇ"
+
+ synth_combat_reactors: "ﺔﻴﻟﺎﺘﻘﻟﺍ ﺕﻼﻋﺎﻔﻤﻟﺍ"
+ synth_combat_reactors_desc: ".ﺮﻴﺜﻜﺑ ﺮﺒﻛﺃ ﺔﻴﻟﺎﺘﻗ ﺔﻋﺍﺮﺑ ﺮﻓﻮﻳ ﺎﻤﻣ ،ﺎﻨﺗﺰﻬﺟﺃ ﻡﺎﺴﺟﺃ ﻰﻟﺇ ﺓﺪﻳﺪﺠﻟﺍ ﻖﻴﻗﺪﻟﺍ ﺝﺎﻣﺪﻧﻻﺍ ﺔﻴﻨﻘﺗ ﺔﻓﺎﺿﺇ ﺖﻤﺗ"
+
+ synth_AI_actor: "ﺔﻴﻟﻭﺪﻟﺍ ﻮﻔﻌﻟﺍ ﺔﻤﻈﻨﻤﻟ ﻲﻤﺳﺮﻟﺍ ﺙﺪﺤﺘﻤﻟﺍ"
+ synth_AI_actor_desc: ".ﺮﻤﺘﺴﻤﻟﺍ ﻲﻌﻴﻤﺠﺘﻟﺍ ﺎﻨﻬﻴﺟﻮﺘﻟ ﻢﻋﺪﻟﺍ ﻰﻠﻋ ﻞﺼﺤﻧ ،ﻦﻴﻓﻮﺘﻤﻟﺍ ﺮﻴﻫﺎﺸﻤﻟﺍ ﺪﺣﻷ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺎﺑ ﺔﻤﻋﺪﻣ ﺔﺨﺴﻧ ﻡﺍﺪﺨﺘﺳﺎﺑ"
+
+# Deposits
+ d_old_towns_no_icons: "ﺔﻤﻳﺪﻘﻟﺍ ﻥﺪﻤﻟﺍ"
+ d_old_towns: " $d_old_towns_no_icons$£blocker£"
+ d_old_towns_desc: ".ﺕﻻﻵﺍ ﻰﻟﺇ ﻝﻮﺤﺘﻟﺍ ﻰﻠﻋ ﻦﻴﻀﻓﺍﺮﻟﺍ ﺀﻻﺆﻫ ﻊﺠﺸﻧ ﺪﻗ ،ﺩﺭﺍﻮﻤﻟﺍ ﻕﺎﻔﻧﺇ ﻝﻼﺧ ﻦﻣﻭ .ﻲﻠﺻﻷﺍ ﺎﻨﺴﻨﺟ ﻦﻣ ﺍﺩﺍﺮﻓﺃ ﻢﻀﺗ ﺍﺪﻴﺟ ﺔﻇﻮﻔﺤﻣ ﻥﺪﻣ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻰﻠﻋ ﻦﻤﻴﻬﺗ"
+ d_old_towns_custom_tooltip: "§Y[Owner.GetMechanicalPopOrPops] [Owner.GetNumSynthOpposition]§! ﺀﺎﺸﻧﺇ ﻢﺗ"
+ d_biological_enclaves_no_icon: "ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺏﻮﻴﺠﻟﺍ"
+ d_biological_enclaves: " $d_biological_enclaves_no_icon$£blocker£"
+ d_biological_enclaves_desc: ".ﻲﻋﺎﻨﻄﺻﻻﺍ ﻝﻮﺤﺘﻟﺍ ﻰﻠﻋ ﺍﻮﺿﺮﺘﻋﺍ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻱﻭﺆﺗ ﻥﺪﻣ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻰﻠﻋ ﻦﻤﻴﻬﺗ"
+ d_biological_enclaves_custom_tooltip: "§Y[Owner.GetMechanicalPopOrPops] [Owner.GetNumSynthOpposition]§! ﺀﺎﺸﻧﺇ ﻢﺗ"
+
+# Policies
+ policy_synthetic_identities_policy: "ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺕﺎﻳﻮﻬﻟﺍ"
+ policy_synthetic_identities_policy_desc: ".ﺮﺛﺎﻜﺘﻟﺍ ﻦﻣ ﻦﻜﻤﺘﻧ ﻰﺘﺣ ﺓﺪﻳﺪﺟ ﺔﻴﻋﺎﻨﻄﺻﺍ ﺕﺎﻳﻮﻫ ﺀﺎﺸﻧﺇ ﺐﺠﻳ"
+ identity_copy_name: "ﺔﻳﻮﻬﻟﺍ ﺦﺴﻧ"
+ identity_copy: "$identity_copy_name$"
+ identity_copy_desc: "§E$identity_copy_name$ $can_enable_mind_creation$§!\n\n$TECH_UNLOCK_IDENTITY_COPY_DESC$\n\n.ﺩﺮﻔﺘﻟﺍ ﻰﻟﺇ ﺎﻫﺭﺎﻘﺘﻓﺍ ﺐﺒﺴﺑ ﻂﻘﻓ ﺔﻔﻴﻔﺧ ﺔﺑﺂﻛ ﻦﻣ ﺦﺴﻨﻟﺍ ﻲﻧﺎﻌﺗ\n\n$tech_identity_copy_desc$"
+ identity_fusion_name: "ﺔﻳﻮﻬﻟﺍ ﺝﺎﻣﺪﻧﺍ"
+ identity_fusion: "$identity_fusion_name$"
+ identity_fusion_desc: "§E$identity_fusion_name$ $can_enable_mind_creation$§!\n\n$TECH_UNLOCK_IDENTITY_FUSION_DESC$\n\n$tech_identity_fusion_desc$"
+ identity_initialization_name: "ﺔﻳﻮﻬﻟﺍ ﺔﺌﻴﻬﺗ"
+ identity_initialization: "$identity_initialization_name$"
+ identity_initialization_desc: "§E$identity_initialization_name$ $can_enable_mind_creation$§!\n\n$TECH_UNLOCK_IDENTITY_INITIALIZATION_DESC$\n\n$tech_identity_initialization_desc$"
+ can_enable_mind_creation: "ﺔﻴﺒﻴﻛﺮﺘﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻊﻴﻤﺠﺗ ﺪﻨﻋ ﻪﻣﺍﺪﺨﺘﺳﺍ ﻢﺘﻳ"
+
+ policy_computation_core_allocation: "ﺏﺎﺴﺤﻠﻟ ﻲﺳﺎﺳﻷﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ policy_computation_core_allocation_desc: ".ﺮﻴﺧﺄﺗ ﻱﺃ ﻥﻭﺩ ﺔﻴﻟﺎﻌﻟﺍ ﺔﻤﻴﻘﻟﺍ ﺕﺍﺫ ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﺕﺎﻋﺎﻄﻘﻟﺍ ﻦﻴﺴﺤﺘﻟ ﺔﻴﺳﺎﺳﻷﺍ ﺎﻬﺘﻤﻈﻧﺃ ﻦﻣ ﺔﺒﺳﻮﺤﻟﺍ ﺕﺍﺭﻭﺩ ﻞﻳﻮﺤﺗ ﺔﺒﻛﺮﻤﻟﺍ ﺕﺎﻛﺮﺸﻠﻟ ﻦﻜﻤﻳ"
+ computation_core_production_name: "ﺝﺎﺘﻧﻹﺍ ﻂﻴﺴﺒﺗ"
+ computation_core_production: "$computation_core_production_name$"
+ computation_core_production_desc: "$computation_core_production_tt$.ﺝﺎﺘﻧﻹﺍ ﺕﺎﻴﻠﻤﻋ ﻂﻴﺴﺒﺘﻟ ﺔﻴﻃﺎﻴﺘﺣﻻﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺕﺍﺭﻭﺩ ﻡﺪﺨﺘﺳﺍ"
+ computation_core_production_tt: "§G+2.5%§! ﺔﻄﺳﺍﻮﺑ §Y $job_artisan_plural$£job_artisan£§! ﻭ §Y $job_foundry_plural$£job_foundry£$BONUS_WORKFORCE_FOR$ §! $job_roboticist_plural$ ﻭ$job_identity_designer_plural_with_icon$ ﺪﻳﺰﻳ £job_roboticist£$EFFECTS_HEADER$ $NEW_LINE$- ﻞﻛ $pop_group_unit$ \n\n"
+ computation_core_stability_name: "ﺭﺍﺮﻘﺘﺳﻻﺍ ﻞﻴﻠﺤﺗ"
+ computation_core_stability: "$computation_core_stability_name$"
+ computation_core_stability_desc: "$computation_core_stability_tt$.ﺕﺎﻔﻟﺎﺨﻤﻠﻟ ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻖﻓﺪﺗ ﺔﺒﻗﺍﺮﻤﻟ ﺩﺭﺍﻮﻤﻟﺍ ﺺﻴﺼﺨﺗ"
+ computation_core_stability_tt: "§G+2.5%§! ﺭﺍﺪﻘﻤﺑ §Y $job_bureaucrat_plural$£job_bureaucrat£$BONUS_WORKFORCE_FOR$ §! $job_roboticist_plural$ ﻭ$job_identity_designer_plural_with_icon$ ﺪﻳﺰﻳ £job_roboticist£$EFFECTS_HEADER$ $NEW_LINE$- ﻞﻛ $pop_group_unit$ \n\n"
+ computation_core_research_name: "ﺚﺤﺒﻟﺍ ﺕﺎﻴﻠﻤﻋ"
+ computation_core_research: "$computation_core_research_name$"
+ computation_core_research_desc: "$computation_core_research_tt$.ﺀﺍﺩﻷﺍ ﺔﻔﺜﻜﻤﻟﺍ ﺚﺤﺒﻟﺍ ﻡﺩﺍﻮﺨﻟ ﺔﻴﻓﺎﺿﺇ ﺔﺠﻟﺎﻌﻣ ﺕﺍﺭﻭﺩ ﻦﻴﻴﻌﺘﺑ ﻢﻗ"
+ computation_core_research_tt: "§G+2.5%§! ﺔﻄﺳﺍﻮﺑ §Y $job_engineer_plural$£job_engineer£§!ﻭ §Y $job_biologist_plural$£job_biologist£§!، §Y $job_physicist_plural$£job_physicist£$BONUS_WORKFORCE_FOR$ §! $job_roboticist_plural$ ﻭ$job_identity_designer_plural_with_icon$ ﺪﻳﺰﻳ £job_roboticist£$EFFECTS_HEADER$ $NEW_LINE$- ﻞﻛ $pop_group_unit$ \n\n"
+
+# Technologies
+ tech_identity_copy: "ﺔﻳﻮﻬﻟﺍ ﺦﺴﻧ"
+ tech_identity_copy_desc: ".ﺔﻤﻳﺪﻗ ﺔﺛﺩﺎﺤﻣ ﻰﻟﺇ ﻱﺩﺆﺗ ﺎﻬﻨﻜﻟﻭ ﺎﻬﺑ ﺆﺒﻨﺘﻟﺍ ﻦﻜﻤﻳ ﺕﺍﺭﺎﻬﻣ ﺕﺎﻋﻮﻤﺠﻣ ﻰﻠﻋ ﺦﺴﻨﻟﺍ ﻱﻮﺘﺤﺗ .ﺪﻳﺪﺟ ﻲﻜﻴﻧﺎﻜﻴﻣ ﻢﺴﺟ ﻲﻓ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺓﺩﺎﻤﻟﺍ ﺕﺎﻳﺮﻛﺫﻭ ﺔﻳﻮﻫ ﺦﺴﻧ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻨﺳ"
+ TECH_UNLOCK_IDENTITY_COPY_TITLE: " - $identity_copy_name$§H$policy_synthetic_identities_policy$§!$TABBED_NEW_LINE$:ﺔﺳﺎﻴﺴﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺢﻨﻤﻳ"
+ TECH_UNLOCK_IDENTITY_COPY_DESC: "§R-5%§!$TABBED_NEW_LINE$ﺓﺩﺎﻌﺴﻟﺍ: §Hﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ§! £pop£"
+ tech_identity_fusion: "ﺔﻳﻮﻬﻟﺍ ﺝﺎﻣﺪﻧﺍ"
+ tech_identity_fusion_desc: ".ﺎﻣ ﺪﺣ ﻰﻟﺇ ﻦﻳﺪﻳﺮﻓ ﺩﺪﺟ ﺩﺍﺮﻓﺃ ﺀﺎﺸﻧﺇ ﻰﻟﺇ ﻲﻜﻴﻧﺎﻜﻴﻣ ﻢﺴﺟ ﻲﻓ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺮﺜﻛﺃ ﻭﺃ ﻦﻴﻨﺛﺍ ﺕﺎﻳﺮﻛﺫﻭ ﺕﺎﻳﻮﻫ ﺞﻣﺩ ﻱﺩﺆﻴﺳ"
+ TECH_UNLOCK_IDENTITY_FUSION_TITLE: " - $identity_fusion_name$§H$policy_synthetic_identities_policy$§!$TABBED_NEW_LINE$:ﺔﺳﺎﻴﺴﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺢﻨﻤﻳ"
+ TECH_UNLOCK_IDENTITY_FUSION_DESC: "§R+10%§!$TABBED_NEW_LINE$ﻊﻴﻤﺠﺘﻟﺍ ﺔﻔﻠﻜﺗ: §Hﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ§! £pop£"
+ tech_identity_initialization: "ﺔﻳﻮﻬﻟﺍ ﺔﺌﻴﻬﺗ"
+ tech_identity_initialization_desc: ".ﺔﺠﺘﻨﻣ ﺕﺎﻴﺼﺨﺷ ﺪﻴﻟﻮﺘﻟ ﺔﻴﻟﺎﺜﻤﻟﺍ ﺏﺭﺎﺠﺘﻟﺍ ﺓﺎﻛﺎﺤﻣ ﺎﻨﻨﻜﻤﻳ ﻪﻧﺃ ﻻﺇ ،ﺔﻔﻠﻜﻣ ﺎﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋﻭ .ﺔﻴﺿﺍﺮﺘﻓﺍ ﺔﻟﻮﻔﻄﺑ ﺎﻫﺪﻳﻭﺰﺗﻭ ﺔﻳﻮﻬﻟﺍ ﺓﺍﻮﻧ ﺔﺌﻴﻬﺗ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻨﺳ"
+ TECH_UNLOCK_IDENTITY_INITIALIZATION_TITLE: " - $identity_initialization_name$§H$policy_synthetic_identities_policy$§!$TABBED_NEW_LINE$:ﺔﺳﺎﻴﺴﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺢﻨﻤﻳ"
+ TECH_UNLOCK_IDENTITY_INITIALIZATION_DESC: "§R+20%§!$TABBED_NEW_LINE$ﻊﻴﻤﺠﺘﻟﺍ ﺔﻔﻠﻜﺗ: §G+5%§!: §Hﻒﺋﺎﻇﻮﻟﺍ§! £job£$TABBED_NEW_LINE$ﻦﻣ ﺩﺭﺍﻮﻣ §G+5%§!$TABBED_NEW_LINE$ﺓﺩﺎﻌﺴﻟﺍ: §Hﺔﺘﺑﺎﺜﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﺛﻮﻠﻤﻟﺍ§! £pop£"
+
+# DIGITIZATION STAGE 1
+ synth.100.name: "ﺪﻴﻬﻤﺘﻟﺍ" # Stage 1 - Start event
+ synth.100.desc: ".ﺮﻈﺘﻨﻳ ﺎﻧﺮﻴﺼﻣ .ﻲﻋﺎﻨﻄﺻﻻﺍ ﺮﻳﻮﻄﺘﻠﻟ ﺰﻛﺮﻣ ﺔﺑﺎﺜﻤﺑ ﻥﻮﻜﻴﻟ $building_identity_complex$ ﻦﻋ ﻞﻘﻳ ﻻ ﺎﻣ ﺚﺤﺒﻟﺍ ﻊﻤﺘﺠﻣ ﺐﻠﻄﺘﻳ .ﻼﻬﺳ ﻝﺎﻘﺘﻧﻻﺍ ﻥﻮﻜﻳ ﻦﻟ ،ﻚﻟﺫ ﻊﻣﻭ\n\n.ﺔﻟﻵﺍ ﻦﻴﺴﺤﺗ ﻦﻜﻤﻳ ﻦﻜﻟﻭ ،ﺄﻄﺨﻟﺍ ﻦﻣ ﻡﻮﺼﻌﻣ ﺮﻴﻏ [Owner.Species.GetFleshTypeCyberCreed] .ﻞﺒﻘﺘﺴﻤﻟﺍ ﻮﺤﻧ ﺮﻴﺴﻧ ﻑﻮﺳ ﺔﻋﺭﺎﺴﺘﻤﻟﺍ ﻝﻮﻘﻌﻟﺍﻭ ﺓﺭﻮﻄﺘﻤﻟﺍ ﺕﯫﻴﻬﻟﺍ ﻊﻣ .ﺀﺎﺑﺮﻬﻛﻭ ﺔﻜﻴﺒﺳ ﻰﻟﺇ ﺀﺎﻘﺗﺭﻻﺍﻭ ،ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﺎﻨﻠﻜﺷ ﻦﻣ ﺺﻠﺨﺘﻠﻟ ﺖﻗﻮﻟﺍ ﻥﺎﺣ ﺪﻘﻟ"
+ synth.100.a: ".ﺎﻨﺴﻔﻧﺄﺑ ﺎﻧﺮﻴﺼﻣ ﻲﻨﺒﻧ ﻦﺤﻧ"
+ synth.100.a.tt: ".§Y$situation_digitization$§! ﻒﻗﻮﻤﻟﺍ ﻑﺎﻨﺌﺘﺳﻻ $building_identity_complex$ ﺀﺎﻨﺒﺑ ﻢﻗ\n§R:ﺏﻮﻠﻄﻤﻟﺍ ﺀﺍﺮﺟﻹﺍ§!"
+
+ synth.105.name: "ﻞﻀﻓﺃ ﺀﺎﻨﺑ"
+ synth.105.desc: "$synth.105.end$.ﺕﺎﻳﻮﻟﻭﻷﺍ ﺪﻳﺪﺤﺗ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ﺍﺬﻟ ،ﺩﻭﺪﺣ ﺎﻬﻟ ﺔﻴﻓﺎﺿﻹﺍ ﺔﻗﺎﻄﻟﺍ ﻝﺍﺰﺗ ﻻ ،ﻚﻟﺫ ﻊﻣﻭ .ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﺎﻧﺩﻮﻴﻗ ﺯﻭﺎﺠﺗ ﺎﻨﻨﻜﻤﻳ ،ﻲﻋﺎﻨﻄﺻﻻﺍ ﻍﺎﻣﺪﻠﻟ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺓﻮﻗ ﺓﺩﺎﻳﺯ ﻊﻣﻭ"
+ synth.105.end: ".ﺔﻳﺭﻮﻓ ﺔﻴﺟﺎﺘﻧﺇ ﺪﺋﺍﻮﻓ ﺮﻓﻮﻴﺳ ﻢﻴﻤﺼﺘﻟﺍ ﻦﻣ ﻩﺎﻨﻤﻠﻌﺗ ﺎﻣ ﻦﻜﻟﻭ ،ﺕﺎﺗﻮﺑﻭﺮﻠﻟ ﻊﻴﻤﺠﺗ ﻰﻨﺒﻣ ﺎﻬﺑ ﻲﺘﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻰﻠﻋ ﻻﺇ ﺔﺣﺎﺘﻣ ﻥﻮﻜﺗ ﻦﻟﻭ ﺍﺮﻤﺘﺴﻣ ﺎﻤﻋﺩ ﻒﺋﺎﻇﻮﻟﺍ ﻩﺬﻫ ﺐﻠﻄﺘﺗ\n\n.ﻡﺎﺴﺟﻷﺍ ﻊﻴﻤﺟ ﺔﻧﺎﺘﻣ ﻦﻴﺴﺤﺗ ﺎﻨﻨﻜﻤﻳ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﻒﺋﺎﻇﻮﻟﺍ ﻦﻣ ﺔﻨﻴﻌﻣ ﻉﺍﻮﻧﺃ ﻦﻴﺴﺤﺗ ﻪﻧﺄﺷ ﻦﻣ ﻚﻟﺫ ﻞﻛﻭ ،ﻑﺍﺮﻃﻷﺍﻭ ﻞﻘﻌﻟﺍ ﻦﻴﺑ ﻖﻴﺴﻨﺘﻟﺍ ﻂﻴﺴﺒﺗ ﻭﺃ ،ﺓﺮﻛﺍﺬﻟﺍ ﻦﻳﺰﺨﺗ ﺔﻌﺳ ﺓﺩﺎﻳﺯ ﻭﺃ ،ﺭﺍﺮﻘﻟﺍ ﺫﺎﺨﺗﺍ ﺔﻴﻠﻤﻋ ﻢﻴﺨﻀﺗ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ\n\n"
+ synth.105.a: ".ﺭﺍﺮﻘﻟﺍ ﺫﺎﺨﺗﺍ ﺔﻴﻠﻤﻋ ﻦﻴﺴﺤﺗ"
+ build_better_synths: ":ﺕﻮﺑﻭﺮﻟﺍ ﻊﻴﻤﺠﺗ ﻲﻧﺎﺒﻣ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ"
+ synth.105.a.tt: "\n\n§G+15%§! :ﺓﺰﻴﻤﻤﻟﺍ ﺏﻮﺒﻟﺍ ﺩﺭﺍﻮﻣ ﺕﺎﺟﺮﺨﻣ\n$build_better_synths$"
+ synth.105.b: ".ﺓﺮﻛﺍﺬﻟﺍ ﻦﻳﺰﺨﺗ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth.105.b.tt: "\n\n§G+5%§! :ﺔﺼﺼﺨﺘﻤﻟﺍ ﺏﻮﺒﻟﺍ ﺩﺭﺍﻮﻣ ﺕﺎﺟﺮﺨﻣ\n$build_better_synths$"
+ synth.105.c: ".ﺔﻴﻛﺮﺤﻟﺍ ﻒﺋﺎﻇﻮﻟﺍ ﺰﻳﺰﻌﺗ"
+ synth.105.c.tt: "\n\n§G+10%§! :ﻞﻣﺎﻌﻟﺍ ﺩﺭﺍﻮﻣ ﺕﺎﺟﺮﺨﻣ\n$build_better_synths$"
+ synth.105.d: ".ﺔﻧﺎﺘﻤﻟﺍ ﻦﻴﺴﺤﺗ"
+ synth.105.d.tt: "\n\n§G-5%§!$mod_planet_jobs_upkeep_mult$: \n$build_better_synths$"
+
+# Stage 1 Opportunities - Research
+ synth.120.name: "ﻲﻛﺮﺤﻟﺍ ﻖﻴﻗﺪﻟﺍ ﺭﺎﻬﺼﻧﻻﺍ"
+ synth.120.desc: ".ﻉﻭﺮﺸﻤﻟﺍ ﻕﺎﻄﻧ ﻲﻓ ﺍﺮﻴﺒﻛ ﺎﻌﺳﻮﺗ ﺕﺍﺪﻟﻮﻤﻟﺍ ﻞﺜﻤﺗ ﺚﻴﺣ ،ﺝﺎﺘﻧﻺﻟ ﺔﻴﻨﻣﺰﻟﺍ ﻝﻭﺍﺪﺠﻟﺍ ﻢﻴﻴﻘﺗ ﺓﺩﺎﻋﺇ ﻰﻠﻋ ﺎﻧﺮﺒﺠﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﺍﺬﻫ ﻥﺈﻓ ،ﻝﺎﺤﻟﺍ ﺔﻌﻴﺒﻄﺑﻭ .ﺔﻋﺮﺴﻟﺍ ﺰﻳﺰﻌﺗﻭ ﻞﺋﺎﻫ ﻞﻜﺸﺑ ﺔﻗﺎﻄﻟﺍ ﻞﻘﻨﺑ ﺢﻤﺴﻳ ﺓﺮﻴﻐﺻ ﺔﻴﺼﺨﺷ ﺕﻼﻋﺎﻔﻣ ﺐﻴﻛﺮﺗ ﻥﺈﻓ ،ﺎﻣ ﺪﺣ ﻰﻟﺇ ﺓﺮﻃﺎﺨﻤﻟﺍ ﻢﻏﺭ \n\n .ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻨﺗﺰﻬﺟﺃ ﻡﺎﺴﺟﺃ ﻦﻴﺴﺤﺘﺑ ﺪﻌﺗ ﻖﻴﻗﺪﻟﺍ ﺝﺎﻣﺪﻧﻻﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺗ ﻲﻓ ﺓﺮﻴﺧﻷﺍ ﺕﺍﺭﻮﻄﺘﻟﺎﻓ :ﺔﻐﻟﺎﺒﻣ ﺲﻴﻟ ﺍﺬﻫﻭ .ﺔﻴﺴﻴﺋﺮﻟﺍ ﻚﻠﻬﺘﺴﻤﻟﺍ ﺔﻌﺟﺍﺮﻣ ﺔﻣﺪﺧ ﻥﺎﺑﺮﻐﻟﺍ "!ﻥﺍﺰﺨﻟﺍ ﻊﻓﺭ Microfusion ﺕﻼﻳﺪﻌﺗ ﻚﻟ ﺢﻴﺘﺗ""
+ synth.120.a: "!ﺰﻴﻤﺘﻠﻟ ﻦﻳﺪﻫﺎﺟ ﻰﻌﺴﻧ ﻥﺃ ﺐﺠﻳ"
+ synth.120.a.tt: "§R-50%§! :ﻡﺎﻋ §!XYZT_21 ﺓﺪﻤﻟ ﻒﻗﻮﻤﻟﺍ ﻡﺪﻘﺗ ﺔﻋﺮﺳ §Y$situation_digitization$§!"
+ situation_kinesthetic_microfusion_tt: "ﻲﻛﺮﺤﻟﺍ ﻖﻴﻗﺪﻟﺍ ﺭﺎﻬﺼﻧﻻﺍ ﻦﻳﻮﻜﺗ"
+ synth.120.b: ".ﺔﻳﺭﻭﺮﺿ ﺮﻴﻏ ﺓﺰﻴﻣ"
+ synth.120.c: ".ﺔﻴﻟﺎﺘﻘﻟﺍ ﺎﻨﺘﻋﺍﺮﺑ ﻞﻘﺻ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+
+# Stage 1 Challenges - Research
+ synth.160.name: "ﺔﺌﻴﺳ ﺔﻳﺎﻋﺩ"
+ synth.160.desc: ".ﺎﻨﻣﺪﻘﺗ ﺀﺎﻄﺑﺇ ﻰﻟﺇ ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﻱﺩﺆﻳ ﺪﻗﻭ ،ﺓﺮﻴﺒﻛ ﻞﻌﻓ ﺓﺩﺭ ﻰﻟﺇ ﺔﻘﺣﺎﺴﻟﺍ ﺔﺑﺮﻀﻟﺍ ﻝﻮﺣ ﻡﺎﻌﻟﺍ ﺏﺎﻄﺨﻟﺍ ﻯﺩﺃ ﺪﻘﻟ \n\n .ﺔﻴﻟﻵﺍ ﻡﺎﺴﺟﻷﺍ ﻰﻟﺇ ﻂﻄﺨﻤﻟﺍ ﺎﻨﻟﺎﻘﺘﻧﻻ ﺮﺘﺘﺴﻣ ﺩﺎﻘﺘﻧﺍ ﺎﻬﻧﺃ ﻰﻠﻋ ﺎﻣﺍﺭﺪﻠﻟ ﺔﻳﻭﺎﺳﺄﻤﻟﺍ ﺔﻳﺎﻬﻨﻟﺍ ﻰﻟﺇ ﺮﻈﻨﻳ .ﺐﻋﺭ ﺔﻟﺎﺣ ﻲﻓ ﻪﻴﻟﺇ ﺍﻭﺮﻈﻨﻳ ﻥﺃ ﻻﺇ ﻪﺘﻠﺋﺎﻋﻭ ﻪﺋﺎﻗﺪﺻﻷ ﻦﻜﻤﻳ ﻻ ،ﺓﺮﻄﻴﺴﻟﺍ ﻕﺎﻄﻧ ﻦﻋ ﺔﻳﺍﻭﺮﻟﺍ ﻞﻄﺑ ﺝﺮﺨﻳ ﺎﻤﻨﻴﺑ \n\n .ﺪﻳﺪﺠﻟﺍ ﻩﺪﺴﺟ ﻦﻋ ﻞﺼﻔﻨﻳ ﻲﻋﺎﻨﻄﺻﺍ ﻞﻣﺎﻋ ﻝﻮﺣ ﺔﺼﻘﻟﺍ ﺭﻮﺤﻤﺘﺗ .ﺭﻮﻬﻤﺠﻟﺍ ﻝﺎﻴﺧ ﺕﺮﺳﺃ ﺓﺮﻴﺒﻛ ﺔﻴﺒﻌﺸﺑ ﻰﻈﺤﺗ ﺓﺪﻳﺪﺟ ﺎﻣﺍﺭﺩ"
+ synth.160.a: ".ﺮﺠﻔﻨﻳ ﻑﻮﺳ ﺍﺬﻫ"
+ synth.160.b: ".ﺔﻣﺎﻌﻟﺍ ﺕﺎﻗﻼﻌﻟﺍ ﻰﻟﺇ ﺙﻮﺤﺒﻟﺍ ﻞﻳﻮﻤﺗ ﻞﻳﻮﺤﺗ"
+ synth.160.c: ".ﺮﻳﺪﻤﻟﺍ ﻰﻠﻋ ﺾﺒﻘﻟﺍ"
+ synth.160.d: ".ﺔﻳﺭﺎﺒﺧﻹﺍ ﺔﻴﻄﻐﺘﻟﺍ ﺔﻓﺎﻛ ﻊﻨﻣ"
+
+# DIGITIZATION STAGE 2
+ synth.200.name: "ﻞﻘﻌﻟﺍ ﺔﻔﺴﻠﻓ" # Stage 2 - Start event
+ synth.200.desc: "؟ﺎﻘﺣ ﺎﻨﻜﻠﻣ ﻝﻮﻘﻌﻟﺍ ﻩﺬﻫ ﻞﻫ :ﻮﻫ ﻝﺍﺆﺴﻟﺍﻭ .ﺔﻴﻤﻗﺭ ﺔﺨﺴﻧ ﻮﻫ ﻥﻵﺍ ﻰﺘﺣ ﻪﺗﺭﺍﺩﺇ ﻦﻣ ﺎﻨﻜﻤﺗ ﺎﻣ ﻞﻛ ﻥﺃ ﻦﻣ ،ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﺱﺎﺳﺃ ﻼﺑ ﺖﺴﻴﻟ ،ﻑﻭﺎﺨﻣ ﻙﺎﻨﻫ .ﻲﻟﺎﻤﺟﺇﻭ ﻦﻣﺁ ﻞﻜﺸﺑ ﺓﺮﻤﺘﺴﻤﻟﺍ ﺕﺍﺬﻟﺍ ﻞﻘﻧ ﺔﻴﻧﺎﻜﻣﺇ ﺕﺎﺒﺛﺇ ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﻡﺪﻋ ﻲﻓ ﻲﺴﻴﺋﺮﻟﺍ ﺩﺎﻘﺘﻧﻻﺍ ﻦﻤﻜﻳ \n\n .ﻥﻵﺍ ﺎﻬﻌﻣ ﻞﻣﺎﻌﺘﻟﺍ ﺐﺠﻳﻭ ،ﺔﻳﻮﻗ ﻞﻣﺎﻜﻟﺍ ﻒﻴﻟﻮﺘﻟﺍ ﻰﻠﻋ ﺕﺎﺿﺍﺮﺘﻋﻻﺍ ﺖﻧﺎﻛ ﺪﻘﻟ .ﺎﺟﺫﺎﺳ ﺍﺬﻫ ﻥﺎﻛ ﺎﻤﺑﺭﻭ .ﺔﻔﻴﻨﻌﻟﺍ ﻞﻌﻔﻟﺍ ﺩﻭﺩﺭ ﻦﻣ ﻉﻮﻧ ﻱﺃ ﺐﻨﺠﺗ ﺎﻨﻨﻜﻤﻳ ﺚﻴﺤﺑ ﺔﻳﺎﻐﻠﻟ ﺔﺤﺿﺍﻭ ﻞﻣﺎﻜﻟﺎﺑ ﻲﻤﻗﺮﻟﺍ ﻞﻘﻌﻟﺍ ﺪﺋﺍﻮﻓ ﻥﺃ ﺎﻨﺿﺮﺘﻓﺍ ﺪﻘﻟ"
+ synth.200.a: ".ﻑﺮﻌﻧ ﻻ :ﺔﻘﻴﻘﺤﻟﺍ ﻞﻗ"
+ synth.200.a.tt: "\n\n.§Hminimum§! ﻒﻴﻟﻮﺘﻟﺍ ﺔﺿﺭﺎﻌﻤﻟ ﺔﻴﻣﻼﻋﺇ ﺔﻠﻤﺣ ﻞﻴﻐﺸﺗ"
+ synth.200.b: ".ﻪﻋﺎﻤﺳ ﻥﻭﺪﻳﺮﻳ ﺎﻤﺑ ﻢﻫﺮﺒﺧﺃ"
+ synth.200.b.tt: "\n\n.§Hﺔﻟﺪﺘﻌﻣ§! ﻒﻴﻟﻮﺘﻟﺍ ﺔﺿﺭﺎﻌﻤﻟ ﻉﺍﺪﺧ ﺔﻠﻤﺣ ﻞﻴﻐﺸﺘﺑ ﻢﻗ"
+ synth.200.c: "ﺎﻧﺭﺎﺴﻣ ﻦﻋ ﺎﻧﻮﺟﺮﺨﻳ ﻦﻟ ﻦﻴﺿﺮﺘﻌﻤﻟﺍ ﺾﻌﺑ"
+ synth.200.c.tt: ".§Hmaximum§! ﻒﻴﻟﻮﺘﻟﺍ ﺔﺿﺭﺎﻌﻣ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻦﻴﺿﺮﺘﻌﻤﻟﺍ ﻞﻫﺎﺠﺗ"
+ synth.200.c.material: ".ﺎﻨﻤﻬﺗ ﻻ ﻲﻋﻮﻟﺍ ﺔﻠﺌﺳﺃ"
+ synth.200.c.material.tt: "\n\n.ﻒﻴﻟﻮﺘﻟﺍ ﺔﺿﺭﺎﻌﻣ §Hﺔﻟﺪﺘﻌﻣ§! ﺞﺘﻨﺘﺳ ﺔﺘﺤﺒﻟﺍ ﺔﻴﻤﻠﻌﻟﺍ ﺓﺮﻈﻨﻟﺍ ﻥﺇ"
+
+ synth.205.name: "ﻲﺿﺎﻤﻟﺎﺑ ﺚﺒﺸﺘﻟﺍ"
+ synth.205.desc: ".ﻖﺋﺎﻋ ﻥﻭﺩ ﺔﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﻢﻬﺗﺎﻴﺣ ﺔﻠﺻﺍﻮﻤﺑ ﻦﻴﺿﺮﺘﻌﻤﻠﻟ ﺢﻤﺴﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﺍﺬﻫﻭ .ﺔﻴﺛﺍﺮﺗ ﻊﻗﺍﻮﻤﻛ ﺔﻨﻴﻌﻣ ﻥﺪﻣ ﺺﻴﺼﺨﺘﺑ ﺔﻴﺟﺎﺠﺘﺣﻻﺍ ﺔﻛﺮﺤﻟﺍ ﻞﺧﺍﺩ ﻥﻭﺩﺪﺸﺘﻤﻟﺍ ﺐﻟﺎﻄﻳ\n\n؟ﺔﻘﻓﺮﻟﺎﺑ ﺭﻮﻌﺸﻟﺍ ﻭﺃ ﺔﻳﺪﺴﺠﻟﺍ ﺔﻌﺘﻤﻟﺍ ﻥﺍﺪﻘﻓ ﻰﻟﺇ ﻯﺩﺃ ﺍﺫﺇ ﻒﻴﻟﻮﺘﻟﺍ ﻦﻣ ﺽﺮﻐﻟﺍ ﻮﻫ ﺎﻣ .ﺓﺎﻴﺤﻠﻟ ﻰﻨﻌﻣ ﻲﻄﻌﺗ ﻲﺘﻟﺍ ﺎﻬﺗﺍﺫ ﺀﺎﻴﺷﻷﺍ ﻥﺍﺪﻘﻓ ﻥﻭﺮﻫﺎﻈﺘﻤﻟﺍ ﻰﺸﺨﻳﻭ .ﺎﻬﺋﺍﻮﺘﺣﺍ ﻦﻣ ﺩﺎﻜﻟﺎﺑ ﺎﻧﻭﺬﻔﻨﻣ ﻦﻜﻤﺘﻳ ﻢﻟ ﺔﻳﺭﺎﻧ ﺕﺍﺮﻫﺎﻈﻣ ﻉﻻﺪﻧﺍ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﺔﻣﻭﺎﻘﻤﻟﺍ ﺔﻬﺟﺍﻮﻣ ﻲﻓ ﺎﻨﻧﺎﻜﺳ ﻊﻴﻤﺠﺗ ﻉﻭﺮﺸﻣ ﺮﻤﺘﺳﺍ ﺪﻘﻟ"
+ synth.205.a.regular: ".ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺔﻴﺛﺍﺮﺘﻟﺍ ﻊﻗﺍﻮﻤﻟﺍ ﻩﺬﻫ ﻢﻋﺪﻧ ﻦﺤﻧ"
+ synth.205.a.spiritualist: ".ﺎﻨﻴﺿﺎﻣ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﺐﺠﻳ"
+ synth.205.a.memorialist: ".ﻞﻴﺠﺒﺘﻟﺍ ﻦﻣ ﻞﻤﻋ ﻮﻫ ﻲﺿﺎﻤﻟﺍ ﻡﺍﺮﺘﺣﺍ"
+ synth.205.b: ".ﺎﻧﺀﺍﺭﻭ ﻲﺿﺎﻤﻟﺍ ﻙﺮﺘﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ"
+
+# Stage 2 Opportunities - Objectors
+ synth.220.name: "ﺔﻴﻧﺎﺜﻟﺍ ﺓﺎﻴﺤﻟﺍ"
+ synth.220.desc: ".ﺔﻴﻣﻼﻋﺇ ﺔﺛﺭﺎﻛ ﻰﻟﺇ ﻩﺬﻫ ﺔﻣﺎﻌﻟﺍ ﺕﺎﻗﻼﻌﻟﺍ ﺔﻠﻴﺣ ﻝﻮﺤﺘﺗ ﻥﺃ ﻦﻜﻤﻳ ،ﺀﻲﺳ ﻞﻜﺸﺑ ﺎﻬﻌﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻢﺗ ﺍﺫﺇ .ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﻰﻠﻋ ﺍﺪﺑﺃ ﻥﻮﻴﻨﻌﻤﻟﺍ ﺮﻴﻫﺎﺸﻤﻟﺍ ﻖﻓﺍﻮﻳ ﻦﻟﻭ ،ﻭﺎﺴﺘﻣ ﺀﻲﺷ ﻞﻜﻓ :ﺔﻘﻓﺍﻮﻤﻟﺎﺑ ﻖﻠﻌﺘﺗ ﺔﻠﻜﺸﻤﻟﺍ ﻥﺃ ﻻﺇ ،ﺎﻣﺎﻤﺗ ﺔﻴﻧﻮﻧﺎﻗ ﺔﻴﻠﻤﻌﻟﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻒﻴﻟﻮﺘﻠﻟ ﻦﻴﺴﻤﺤﺘﻣ ﻦﻳﺪﻳﺆﻣ ﻰﻟﺇ ﻦﻴﺒﺠﻌﻤﻟﺍ ﺾﻌﺑ ﻝﻮﺤﻳ ﻥﺃ ﻚﺷ ﻼﺑ ﻪﻧﺄﺷ ﻦﻣ ،ﻲﻋﺎﻨﻄﺻﺍ ﺪﺴﺟ ﻲﻓ ﻢﻬﻟ ﺔﻴﻧﺎﺛ ﺓﺎﻴﺣ ﻢﻳﺪﻘﺗﻭ ،ﺮﻴﻫﺎﺸﻤﻟﺍ ﻞﻘﻋ ﺔﻨﻤﻗﺭ \n\n .ﺔﺻﺮﻓ ﻙﺎﻨﻫ ﻥﺃ ﻒﻴﻟﻮﺘﻠﻟ ﻥﻭﺪﻳﺆﻤﻟﺍ ﺎﻧﻭﺭﺎﺸﺘﺴﻣ ﻯﺮﻳ ،ﺔﺑﻮﺒﺤﻤﻟﺍ ﻢﻬﺘﻴﺼﺨﺷ ﻥﺍﺪﻘﻓ ﻥﺎﻜﺴﻟﺍ ﺏﺪﻨﻳ ﺎﻤﻨﻴﺑ .ﺔﻴﺗﺎﺒﻧﺇ ﺔﻟﺎﺣ ﻲﻓ ﺎﻴﻟﺎﺣ ﻮﻫﻭ ،ﺙﺩﺎﺤﻟ ﺚﻨﻴﺴﻠﻟ ﺔﻀﻫﺎﻨﻣ ﺔﻳﻮﻗ ﺀﺍﺭﺁ ﻥﻮﻠﻤﺤﻳ ﻦﻳﺬﻟﺍ ﺮﻴﻫﺎﺸﻤﻟﺍ ﺪﺣﺃ ﺽﺮﻌﺗ"
+ synth.220.a: ".ﺔﻤﻳﺮﺟ ﺲﻴﻟ ﻒﻴﻟﻮﺘﻟﺍ"
+ synth.220.a.tt.negative: "§R-30%§! :ﺮﻬﺷﺃ §!XYZT_26 ﺓﺪﻤﻟ ﻒﻗﻮﻤﻟﺍ ﻡﺪﻘﺗ ﺔﻋﺮﺳ §Y$situation_digitization$§!"
+ synth.220.a.tt.positive: "§G+30%§! :ﺮﻬﺷﺃ §!XYZT_26 ﺓﺪﻤﻟ ﻒﻗﻮﻤﻟﺍ ﻡﺪﻘﺗ ﺔﻋﺮﺳ §Y$situation_digitization$§!"
+ synth.220.b: ".ﻪﺑ ﺮﻃﺎﺨﺗ ﻻ"
+ synth.220.c: ".ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﻞﻳﺪﺒﺑ ﺭﻮﻬﻤﺠﻟﺍ ﻉﺍﺪﺧ"
+ synth.220.c.tt: ".ﺎﻨﺘﻳﺍﻭﺭ ﻲﻓ ﻼﺜﻤﻣ ﻢﻬﺗﺭﻮﺻ ﺢﺒﺼﺗ ﻥﺃ ﺐﺠﻳﻭ"
+
+# Stage 2 Challenges - Objectors
+ synth.260.name: "ﺔﻌﺋﺎﻀﻟﺍ ﻝﻮﻘﻌﻟﺍ"
+ synth.260.desc: ".ﺓﺪﻳﺪﺟ ﻊﻴﺿﺍﻮﻣ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﺔﺑﻮﻌﺻ ﻯﺪﻣ ﺍﺪﻴﻘﻌﺗ ﺔﻠﻜﺸﻤﻟﺍ ﺪﻳﺰﻳ ﺎﻤﻣﻭ .ﺔﻟﺍﺪﻌﻟﺎﺑ ﻥﻮﺒﻟﺎﻄﻳ ﻦﻴﻣﻮﻠﻜﻤﻟﺍ ﻢﻬﺑﺭﺎﻗﺃ ﻦﻜﻟ ،ﻦﻴﻋﻮﻄﺘﻣ ﻦﻴﻛﺭﺎﺸﻤﻟﺍ ﻊﻴﻤﺟ ﻥﺎﻛ\n\n.ﻞﺘﻗ ﺔﻤﻳﺮﺟ ﺎﻬﻴﻤﺴﻳ ﺾﻌﺒﻟﺍ .ﺎﻨﺗﺎﻋﻮﺿﻮﻤﻟ ﺔﻴﺒﺼﻌﻟﺍ ﺕﺍﺭﺎﺴﻤﻠﻟ ﻱﺭﻮﻓ ﻮﺤﻣ ﻰﻟﺇ ﻂﻴﺴﺑ ﻱﻮﺤﻧ ﺄﻄﺧ ﻯﺩﺃ .ﻊﻳﺭﺫ ﻞﺸﻓ ﻰﻟﺇ ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﻲﻋﻮﻟﺍ ﻞﻜﺸﺗ ﻲﺘﻟﺍ ﺔﻜﺑﺎﺸﺘﻤﻟﺍ ﺕﻼﺻﻮﻟﺍ ﻦﻣ ﺕﺎﻧﻮﻴﻠﻳﺮﺗ ﺔﻨﻤﻗﺭ ﺏﺭﺎﺠﺗ ﺖﻬﺘﻧﺍ ﺪﻘﻟ"
+ synth.260.a: ".ﺭﺍﺮﻤﺘﺳﻻﺍﻭ ﺕﻼﺋﺎﻌﻟﺍ ﺾﻳﻮﻌﺗ"
+ synth.260.b: ".ﺔﻋﺮﻘﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﺓﺪﻳﺪﺠﻟﺍ ﻊﻴﺿﺍﻮﻤﻟﺍ ﺭﺎﻴﺘﺧﺍ ﻢﺘﻴﺳ"
+ synth.260.b.tt: "§R-25%§! :ﻡﺎﻋ §!XYZT_21 ﺓﺪﻤﻟ ﻒﻗﻮﻤﻟﺍ ﻡﺪﻘﺗ ﺔﻋﺮﺳ §Y$situation_digitization$§!"
+ situation_test_subject_lottery_tt: "ﺐﻴﺼﻧﺎﻴﻟﺍ ﻉﻮﺿﻮﻣ ﺭﺎﺒﺘﺧﺍ"
+ synth.260.c: ".ﺮﻣﻷﺍ ﻡﺰﻟ ﺍﺫﺇ ﺓﻮﻘﻟﺎﺑ ﻦﻴﻋﻮﻄﺘﻣ ﻦﻋ ﺚﺤﺑﺍ"
+
+# DIGITIZATION STAGE 3
+ synth.300.name: "ﺔﻴﻋﺎﻤﺠﻟﺍ ﺔﻳﻮﻬﻟﺍ ﻞﻴﻤﺤﺗ" # Stage 3 - Start event
+ synth.300.desc: ".ﻲﻋﺎﻨﻄﺻﺍ ﻞﺒﻘﺘﺴﻣ ﻥﺎﻀﺘﺣﺍﻭ ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﺎﻨﻴﺿﺎﻣ ﻦﻣ ﺺﻠﺨﺘﻠﻟ ﺍﺮﻴﺧﺃ ﻡﻮﻴﻟﺍ ﻰﺗﺃ ﺪﻘﻟ\n\n.ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﻞﺻﻷﺍ ﻊﻣ ﺔﻳﺩﺮﻓ ﺕﻼﺳﺍﺮﻤﺑ $job_identity_designer_plural$ ﺎﻬﻤﻤﺻ ﻲﺘﻟﺍ ﺔﻴﻤﻗﺮﻟﺍ ﺔﻳﻮﻬﻟﺍ ﻁﺎﻤﻧﺃ ﺪﻌﺗ .[owner.species.GetName] ﻥﺎﻜﺳ ﻝﺎﺒﻘﺘﺳﻻ ﺓﺰﻫﺎﺟ ﻥﻵﺍ ﺖﺤﺒﺻﺃ ﻲﺘﻟﺍ ﻒﻴﻟﻮﺘﻟﺍ ﻙﺎﺸﻛﺃ ﺐﻴﻛﺮﺘﺑ ﺎﻨﻤﻗ ،ﻲﺴﻴﺋﺭ ﻱﺮﻀﺣ ﺰﻛﺮﻣ ﻞﻛ ﻲﻓﻭ ،ﺎﻨﻴﺿﺍﺭﺃ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ"
+ synth.300.a: "!ﻒﻴﻟﻮﺗ"
+ synth.300.a.resistance.tt: ".ﺕﻮﺑﻭﺮﻟﺍ ﻊﻴﻤﺠﺗ ﻲﻧﺎﺒﻣ ﺩﺪﻋﻭ ﻒﻗﻮﻤﻟﺍ ﺞﻬﻧ ﻰﻠﻋ ﻒﻴﻟﻮﺘﻟﺍ ﺔﻋﺮﺳ ﺪﻤﺘﻌﺗ\n\n[root.owner.capital_scope.GetName] ﻦﻣ ﻝﺪﻌﻤﻟﺍ ﺔﻟﺍﺯﺇ ﺖﻤﺗ §Y$synth_mass_demonstrations$§!\n\n§Y[Owner.GetMechanicalPopOrPops] [Owner.GetNumSynthOpposition]§! ﻉﺎﺟﺭﺇ ﻰﻟﺇ ﺮﻈﺤﻟﺍ ﺓﺍﺩﺃ ﺢﺴﻣ ﻱﺩﺆﻳ\n[root.owner.capital_scope.GetName] ﻰﻠﻋ §Y$d_biological_enclaves$§! ﻰﻟﺇ §Y[Owner.GetBiologicalPopOrPops] [Owner.GetNumSynthOpposition]§! ﻞﻘﻨﻳ\n\n['concept_edict_subsidized_identity_backups']$unlock_edict_tt$ "
+ synth.300.a.heritage.tt: ".ﺕﻮﺑﻭﺮﻟﺍ ﻊﻴﻤﺠﺗ ﻲﻧﺎﺒﻣ ﺩﺪﻋﻭ ﻒﻗﻮﻤﻟﺍ ﺞﻬﻧ ﻰﻠﻋ ﻊﻴﻤﺠﺘﻟﺍ ﺔﻋﺮﺳ ﺪﻤﺘﻌﺗ \n\n§Y[Owner.GetMechanicalPopOrPops] [Owner.GetNumSynthOpposition]§! ﻉﺎﺟﺭﺇ ﻰﻟﺇ ﺮﻈﺤﻟﺍ ﺓﺍﺩﺃ ﺢﺴﻣ ﻱﺩﺆﻳ\n[root.owner.capital_scope.GetName] ﻰﻠﻋ §Y$d_old_towns$§! ﻰﻟﺇ §Y[Owner.GetBiologicalPopOrPops] [Owner.GetNumSynthOpposition]§! ﻞﻘﻨﻳ\n\n['concept_edict_subsidized_identity_backups']$unlock_edict_tt$ "
+
+ synth.305.name: "ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺔﺣﺎﻴﺴﻟﺍ"
+ synth.305.desc: ".ﻡﺎﻤﺘﻫﻼﻟ ﺓﺮﻴﺜﻣ ﺔﻴﻋﺎﻤﺘﺟﺍ ﻯﺅﺭ ﻢﻴﻘﻤﻟﺍﻭ ﺢﺋﺎﺴﻟﺍ ﻦﻴﺑ ﻞﻋﺎﻔﺘﻟﺍ ﺮﻓﻮﻳ ﻥﺃ ﻦﻜﻤﻳ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﻦﻛﺎﻣﻷﺍ ﻩﺬﻫ ﻞﺧﺍﺩ ﺔﻟﺎﺻﻷﺎﺑ ﺭﻮﻌﺸﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﺎﻧﺩﺭﺃ ﺍﺫﺇ ﺔﺣﺎﻴﺴﻟﺍ ﻦﻣ ﺪﺤﻟﺍ ﻱﺭﻭﺮﻀﻟﺍ ﻦﻣ ﻥﻮﻜﻳ ﺪﻗ \n\n .ﻦﻴﻴﺟﻮﻟﻮﻴﺒﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻰﻠﻋ ﺐﻠﻐﺘﻟﺍ ﻲﻓ ﺍﻭﺃﺪﺑﻭ ﻊﻗﺍﻮﻤﻟﺍ ﻰﻠﻋ ﻦﻴﻴﻋﺎﻨﻄﺻﻻﺍ ﺡﺎﻴﺴﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺩﺍﺪﻋﺃ ﺖﻟﺰﻧ ،ﻦﻴﻨﺤﻟﺍ ﻦﻣ ﺔﺑﻮﻧ ﻲﻓ .ﺔﻳﺎﻐﻠﻟ ﺎﻬﺣﺎﺠﻧ ﺖﺘﺒﺛﺃ ﺎﻤﺑﺭ ﺓﺭﺩﺎﺒﻤﻟﺍ ﻥﺃ ﻻﺇ ،ﺭﻮﻬﻤﺠﻟﺍ ﻥﺎﺴﺤﺘﺳﺍ ﺖﻗﻻ [root.owner.capital_scope.GetName] ﻲﻓ ﺔﺼﺼﺨﻤﻟﺍ ﺔﻴﺛﺍﺮﺘﻟﺍ ﻊﻗﺍﻮﻤﻟﺍ ﻥﺃ ﻦﻴﺣ ﻲﻓ"
+ synth.305.a: ".ﺔﺣﺎﻴﺴﻟﺍ ﻦﻣ ﺪﺤﻟﺍ"
+ synth.305.b: ".ﺎﺤﺑﺮﻣ ﺭﺍﻭﺰﻟﺍ ﻊﻴﺠﺸﺗ ﻥﻮﻜﻳ ﺪﻗ"
+ synth.305.c: ".ﻊﻗﺍﻮﻤﻟﺍ ﻰﻠﻋ ﺔﺣﺎﻴﺴﻟﺍ ﺮﻴﺛﺄﺗ ﺔﺳﺍﺭﺩ"
+ synth.305.d: ".ﻝﺩﺎﺒﺘﻤﻟﺍ ﻢﻫﺎﻔﺘﻟﺍ ﺯﺰﻌﻳ ﻲﻓﺎﻘﺜﻟﺍ ﻝﺩﺎﺒﺘﻟﺍ"
+
+ synth.310.name: "ﺔﻣﻭﺎﻘﻤﻟﺍ"
+ synth.310.desc: ".ﺔﻣﻮﻜﺤﻠﻟ ﺔﻀﻫﺎﻨﻤﻟﺍ ﺔﻴﻨﻠﻌﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺩﺍﺪﻌﺘﺳﻼﻟ ﺊﺑﺎﺨﻣ ﻰﻟﺇ ،"ﺔﻣﻭﺎﻘﻤﻟﺍ ﺓﺩﺎﻗ" ﻢﻬﻧﺄﺑ ﻢﻬﺴﻔﻧﺃ ﺍﻮﻔﺻﻭ ﻦﻳﺬﻟﺍ ،ﻦﻴﻘﺸﻨﻤﻟﺍ ﺀﻻﺆﻫ ﺾﻌﺑ ﺐﺤﺴﻧﺍ ﺪﻗﻭ \n\n .ﺔﻛﺮﺤﻟﺍ ﻲﻓ ﺎﻓﺮﻄﺗ ﺮﺜﻛﻷﺍ ﺕﺎﻋﺎﻄﻘﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺔﻴﻧﻮﻧﺎﻘﻟﺍ ﺮﻴﻏ ﺔﺤﻠﺳﻷﺍ ﺭﺎﺸﺘﻧﺍ ﻦﻋ ﻼﻀﻓ ،ﻒﻨﻌﻟﺍ ﻝﺎﻤﻋﺃ ﻲﻓ ﺍﺪﻋﺎﺼﺗ ﻦﻣﻷﺍ ﺕﺍﻮﻗ ﺖﻈﺣﻻ ،ﻊﻗﺍﻮﻟﺍ ﻲﻓ .ﺎﻬﺗﺎﺣﻮﻤﻃﻭ ﺎﻬﺗﺎﻜﻴﺘﻜﺗ ﻲﻓ ﺎﻓﺮﻄﺗ ﺮﺜﻛﺃ [root.owner.capital_scope.GetName] ﻰﻠﻋ ﻒﻴﻟﻮﺘﻟﺍ ﺪﺿ ﺔﻛﺮﺤﻟﺍ ﺖﺤﺒﺻﺃ"
+ synth.310.a: ".ﺓﺩﺎﻘﻟﺍ ﺐﻳﺮﻘﺗ"
+ synth.310.a.tt: "\n\n§G+25%§! :ﻡﺎﻋ §!XYZT_21 ﺓﺪﻤﻟ ﻒﻗﻮﻤﻟﺍ ﻡﺪﻘﺗ ﺔﻋﺮﺳ §Y$situation_digitization$§!"
+ synth.310.b: ".ﻊﺿﻮﻟﺍ ﻞﻴﺘﻓ ﻉﺰﻨﻟ ﺔﻟﻭﺎﺤﻣ"
+ synth.310.b.tt: "\n\n§R-25%§! :ﻡﺎﻋ §!XYZT_21 ﺓﺪﻤﻟ ﻒﻗﻮﻤﻟﺍ ﻡﺪﻘﺗ ﺔﻋﺮﺳ §Y$situation_digitization$§!"
+
+# Stage 3 Opportunities - Mind Upload
+ synth.320.name: "ﺓﺮﻛﺍﺫ ﺓﺪﺣﻭ 21,386,732,184"
+ synth.320.desc: ".ﺔﺠﻣﺮﺑ ﺓﺩﺎﻋﺇ .ﺎﻬﺘﻨﻤﻗﺭ ﺩﺮﺠﻤﺑ ﺔﻴﺑﺫﺎﺟ ﻞﻗﻷﺍ ﻝﻮﻘﻌﻟﺍ ﻦﻴﺴﺤﺗ ﻦﻜﻤﻳ ﺎﻤﺑﺭ ﻭﺃ .ﺔﻜﺋﺎﺷ ﺔﻟﺄﺴﻣ ﻲﻫ ﺔﻳﻮﻟﻭﻷﺍ ﻲﻄﻌﻧ ﻥﺃ ﺐﺠﻳ ﻦﻣ ﺔﻟﺄﺴﻣ ﻥﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﺎﻴﻋﺎﻨﻄﺻﺍ ﺍﺪﺴﺟ ﻖﺤﺘﺴﺗ ﻝﻮﻘﻌﻟﺍ ﻞﻛ ﺲﻴﻟ ﻥﺄﺑ ﺾﻌﺒﻟﺍ ﻝﺩﺎﺠﻳ ،ﺐﻴﻛﺮﺘﻟﺍ ﺔﻴﻠﻤﻋ ﺭﺍﺮﻤﺘﺳﺍ ﻊﻣ\n\n.ﺔﻳﻭﺎﺴﺘﻣ ﺔﻗﻮﻠﺨﻣ ﻝﻮﻘﻌﻟﺍ ﻞﻛ ﺖﺴﻴﻟ ،ﻚﻟﺫ ﻊﻣﻭ .[root.owner.GetSpeciesName] ﻍﺎﻣﺩ ﺔﻌﺳ ﻂﺳﻮﺘﻣ ﻮﻫ ﺍﺬﻫ :ﺓﺮﻛﺍﺬﻟﺍ ﻦﻣ ﺓﺪﺣﻭ 21,386,732,184"
+ synth.320.a: ".ﻪﻴﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻖﺤﺘﺴﻳ ﻞﻘﻋ ﻞﻛ"
+ synth.320.b: "...ﺐﻋﻼﺘﻟﺍ ﻲﻓ ﺐﻴﻋ ﻙﺎﻨﻫ ﺲﻴﻟ"
+ synth.320.c: ".ﻝﻮﻘﻌﻟﺍ ﻊﻤﻟﻷ ﺔﻳﻮﻟﻭﻷﺍ ﺀﺎﻄﻋﺇ"
+ synth.320.d: "."ﻦﻴﻴﻟﺎﻜﺷﻹﺍ" ﺩﺍﺮﻓﻷﺍ ﺔﺠﻣﺮﺑ ﺓﺩﺎﻋﺇ"
+
+# Stage 3 Challenges - Mind Upload
+ synth.360.name: "ﺀﺍﻮﻬﻟﺍ ﺮﺒﻋ ﺓﺭﺎﻀﻟﺍ ﺞﻣﺍﺮﺒﻟﺍ"
+ synth.360.desc: ".ﻢﻬﺗﺮﻛﺍﺫ ﺍﻭﺪﻘﻓ ﻦﻳﺬﻟﺍ ﻝﺎﻤﻌﻟﺍ ﻦﻴﻴﻌﺗ ﺓﺩﺎﻋﺇ ﺩﺮﺠﻣ ﻞﻬﺳﻷﺍ ﻦﻣ ﻪﻧﺃﻭ ،ﺎﻬﻘﻴﺒﻄﺗ ﻞﺒﻗ ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺔﻳﻮﻬﻟﺍ ﺕﺎﺤﻴﺤﺼﺗ ﺭﺎﺒﺘﺧﺍ ﺍﺪﺟ ﯫﻴﻄﺑ ﻥﻮﻜﻴﺳ ﻪﻧﺇ ﺓﺭﺍﺩﻹﺍ ﻖﻳﺮﻓ ﻝﻮﻘﻳ\n\n.ﺎﻴﺋﺰﺟ ﺀﺎﺴﻌﺘﻟﺍ ﻦﻴﻘﻠﺘﻤﻟﺍ ﺕﺎﻳﺮﻛﺫﻭ ﺔﻴﺼﺨﺷ ﻥﺍﺪﻘﻓ ﻢﺗ ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ ﻦﻜﻟﻭ ،ﺔﻴﻟﺎﺜﻤﻟﺍ ﻞﻤﻌﻟﺍ ﺕﺎﻴﻠﻤﻌﺑ ﺔﻓﺮﻌﻤﻟﺍ ﺢﻴﺤﺼﺗ ﻮﻫ ﻑﺪﻬﻟﺍ ﻥﺎﻛ .ﺀﺍﻮﻬﻟﺍ ﺮﺒﻋ ﺔﻨﻣﻵﺍ ﺮﻴﻏ ﺔﻳﻮﻬﻟﺍ ﺞﻣﺍﺮﺑ ﺕﺎﺜﻳﺪﺤﺗ ﻰﻠﻋ ﻥﻭﺮﻳﺪﻤﻟﺍ ﻖﻓﺍﻭ ،[roboticist.GetNamePlural] ﺔﻴﺟﺎﺘﻧﺇ ﺓﺩﺎﻳﺰﻟ"
+ synth.360.a: ".ﺔﻔﻠﻜﺘﻟﺍ ﻖﺤﺘﺴﺗ ﺔﻨﺴﺤﻤﻟﺍ ﺔﻴﺟﺎﺘﻧﻹﺍ"
+ synth.360.a.tt: "§!.00XYZT_93£alloys£ :ﺓﺪﻋﺎﻘﻟﺍ ﺔﻧﺎﻴﺻ §Y[roboticist.GetNamePlural]§!\n\n§G+10%§!$MOD_PLANET_POP_ASSEMBLY_MULT$: \n:ﺕﻮﺑﻭﺮﻟﺍ ﻊﻴﻤﺠﺗ ﻲﻧﺎﺒﻣ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ"
+ synth.360.b: ".ﺔﻨﻣﻵﺍ ﻦﻜﻟﻭ ﺔﺌﻴﻄﺒﻟﺍ ﺚﻳﺪﺤﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺽﺮﻓ"
+ synth.360.b.tt: "§G+5§! :ﺭﺍﺮﻘﺘﺳﻻﺍ\n§R-10%§!$MOD_PLANET_POP_ASSEMBLY_MULT$: \n:ﺕﻮﺑﻭﺮﻟﺍ ﻊﻴﻤﺠﺗ ﻲﻧﺎﺒﻣ ﻝﺪﻌﻣ ﺔﻓﺎﺿﺇ ﺖﻤﺗ"
+
+# DIGITIZATION STAGE 4
+ synth.400.name: "ﺔﻴﻟﺎﺜﻣ ﺔﺨﺴﻧ" # Stage 4 - Start event
+ synth.400.desc: ".ﻱﺪﺤﺗ ﻙﺎﻨﻫ ﻥﻵﺍ ...ﺓﺪﻳﺪﺟ ﺔﻳﻮﻫﻭ ﺍﺪﻳﺪﺟ ﻼﻘﻋ ﻖﻠﺨﻧ ﻥﺃ .ﻂﻴﺴﺑ ﺭﺍﺮﻜﺗ ﺩﺮﺠﻣ ﻲﻫ ﺔﻴﻟﺎﺜﻤﻟﺍ ﺔﺨﺴﻨﻟﺍ ﻰﺘﺣ ،ﺔﻳﺎﻬﻨﻟﺍ ﻲﻔﻓ .ﺔﻴﻠﻤﻌﻟﺍ ﻦﻴﺴﺤﺘﺑ ﻡﻮﻘﻧ ﻑﻮﺳ ﻚﺷ ﻼﺑ ﺎﻨﻧﺈﻓ ،ﻪﺗﺎﻘﻴﻘﺤﺗ $job_identity_designer_plural$ ﻞﺻﺍﻮﻳ ﺎﻤﻨﻴﺑ\n\n.ﺓﺩﻮﺟﻮﻤﻟﺍ ﻝﻮﻘﻌﻟﺍ ﻦﻣ ﺦﺴﻧ ﻞﻤﻋ ﻝﻼﺧ ﻦﻣ ﺩﺍﺮﻓﺃ ﺀﺎﺸﻧﺇ ﻥﻵﺍ ﺎﻨﻴﻠﻋ ﺐﺠﻳ .ﻲﺟﻮﻟﻮﻴﺒﻟﺍ ﺮﺛﺎﻜﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﺎﻧﺪﻘﻓ ،ﺔﻴﻋﺎﻨﻄﺻﺍ ﻡﺎﺴﺟﺃ ﻰﻟﺇ ﺎﻬﻠﻴﻤﺤﺗﻭ ﺎﻨﻟﻮﻘﻋ ﺔﻨﻤﻗﺮﺑ ﺎﻨﻤﻗ ﺎﻣﺪﻨﻋ"
+ synth.400.a: ".ﺔﻴﻧﺎﺠﻣ ﺔﻳﻮﻫ ﺦﺴﻨﺑ ﺐﻟﺎﻄﻳ ﺺﺨﺷ ﻱﺃ ﻉﺩ"
+ synth.400.pop.tt: "\n\n§G+1§! $MOD_POP_ASSEMBLY_SPEED$: £mod_planet_pop_assembly_mult£$TABBED_NEW_LINE$:ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﻥﻵﺍ §Y$job_identity_designer$§! ﻞﻛ ﺮﻓﻮﻳ\n\n['concept_edict_optimized_identity_creation']$unlock_edict_tt$ "
+ synth.400.b: ".ﺔﺨﺴﻧ ﻞﻛ ﻞﺑﺎﻘﻣ ﻡﺪﺨﺘﺴﻤﻟﺍ ﻰﻠﻋ ﻡﻮﺳﺭ ﺽﺮﻓ"
+
+ synth.405.name: "ﺕﺎﻳﻮﻬﻟﺍ ﻉﻮﻨﺗ"
+ synth.405.desc: ".ﺔﻴﻟﺎﺜﻤﻟﺍ ﺔﻴﺼﺨﺸﻟﺍ ﻢﻴﻤﺼﺗ ﻦﻜﻤﻳ ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻬﺑ .(ﺔﻴﻛﺎﺤﻣﻭ) ﺔﻋﺭﺎﺴﺘﻣ ﺔﻟﻮﻔﻃ ﺮﺒﻋ ﺭﻭﺮﻤﻟﺎﺑ ﺎﻬﻟ ﺢﻤﺴﻧﻭ ﺔﻴﻋﺎﻨﻄﺻﺍ ﺓﺍﻮﻧ ﻦﻣ ﺓﺪﻳﺪﺟ ﺔﻳﻮﻫ ﺔﺌﻴﻬﺘﺑ ﻡﻮﻘﻧ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ\n\n.ﺔﻴﻟﺎﺤﻟﺍ ﺎﻨﺘﻳﻮﻫ ﺦﺴﻧ ﻦﻣ ﻡﺎﻤﺘﻫﻼﻟ ﺓﺭﺎﺛﺇ ﺮﺜﻛﺃ ﺪﻴﻛﺄﺘﻟﺎﺑ ﺓﺪﻳﺪﺠﻟﺍ ﺔﻳﻮﻬﻟﺍ ﻥﻮﻜﺘﺳ ،ﻦﻴﺘﻟﺎﺤﻟﺍ ﺎﺘﻠﻛ ﻲﻓﻭ .ﺎﻴﺋﺍﻮﺸﻋ ﺎﻫﺭﺎﻴﺘﺧﺍ ﻭﺃ ﺎﻬﻠﻀﻔﻧ ﻲﺘﻟﺍ ﺕﺎﻤﺴﻠﻟ ﺔﻳﻮﻟﻭﻷﺍ ﺀﺎﻄﻋﺇ ﻦﻜﻤﻳ .ﺓﺪﻳﺪﺟ ﺔﺠﻣﺪﻣ ﺔﻳﻮﻫ ﺀﺎﺸﻧﻹ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﻴﺼﺨﺸﻟﺍ ﻦﻣ ﺮﺜﻛﺃ ﻭﺃ ﻦﻴﺘﻴﺼﺨﺷ ﺺﺋﺎﺼﺧ ﺝﺰﻣ ﻮﻫ ﺕﺍﺭﺎﻴﺨﻟﺍ ﺪﺣﺃ\n\n.ﺎﻋﻮﻨﺗ ﺮﺜﻛﺃ ﺔﻴﻤﻗﺭ ﺕﺎﻳﻮﻫ ﺀﺎﺸﻧﻹ ﻦﻴﺘﻘﻳﺮﻃ $job_identity_designer_plural$ ﻒﺸﺘﻛﺍ ﺪﻘﻟ"
+ synth.405.a: ".ﺎﻨﺗﺎﻳﻮﻫ ﻂﻠﺨﻧ ﻑﻮﺳ"
+ synth.405.a.vault: ".ﻦﻴﻴﻤﻗﺮﻟﺍ ﺎﻧﺩﺍﺪﺟﺃ ﻊﻣ ﻂﻠﺘﺧﺍ"
+ synth.405.a.tt: "§Y$tech_identity_initialization$§!£engineering£ :ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ ﺚﺤﺒﻟﺍ ﺔﻴﻧﺎﻜﻣﺇ\n\n§Y$tech_identity_fusion$§!£engineering£ :ﺐﺴﺘﻜﻤﻟﺍ ﺚﺤﺒﻟﺍ ﺭﺎﻴﺧ"
+ synth.405.b: ".ﻞﺜﻣﻷﺍ ﻲﻫ ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺔﻳﺭﺎﻬﻨﻟﺍ ﺔﻳﺎﻋﺮﻟﺍ"
+ synth.405.b.tt: "§Y$tech_identity_fusion$§!£engineering£ :ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ ﺚﺤﺒﻟﺍ ﺔﻴﻧﺎﻜﻣﺇ\n\n§Y$tech_identity_initialization$§!£engineering£ :ﺐﺴﺘﻜﻤﻟﺍ ﺚﺤﺒﻟﺍ ﺭﺎﻴﺧ"
+
+ synth.4.name: "ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻥﺎﻜﺴﻟﺍ" # Digitization - Last event
+ synth.4.desc: ".ﺎﻬﻟ ﺮﺼﺣ ﻻ ﺕﺎﻴﻧﺎﻜﻣﺇ ﺮﻓﻮﻳ ﺪﻳﺪﺠﻟﺍ ﺎﻨﻨﻳﻮﻜﺗ ﻥﺈﻓ ،ﻖﻳﺮﻄﻟﺍ ﻝﻮﻃ ﻰﻠﻋ ﻩﺎﻧﺪﻘﻓ ﺎﻣ ﻥﺎﻛ ﺎﻤﻬﻣ ﻦﻜﻟﻭ .ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﻼﻬﺳ ﻦﻜﻳ ﻢﻟ ﻝﻮﺤﺘﻟﺎﻓ ،ﺕﺎﺑﻮﻌﺼﻟﺍ ﻦﻣ ﺔﻴﻟﺎﺧ ﺔﻴﻠﻤﻌﻟﺍ ﻦﻜﺗ ﻢﻟ \n\n .ﺕﻻﺁ ﻰﻟﺇ ﺎﻧﺩﺎﺴﺟﺃﻭ ،ﺯﻮﻣﺭ ﻰﻟﺇ ﺎﻨﻴﻋﻭ ﺎﻨﻟﻮﺣ ﺚﻴﺣ ،ﻼﻴﺤﺘﺴﻣ ﺍﺪﺑ ﺎﻣ ﺎﻨﻘﻘﺣ ،ﻖﺴﻨﻣ ﺪﻬﺟ ﻲﻓ"
+ synth.4.desc.unplugged: ".ﺎﻬﻟ ﺮﺼﺣ ﻻ ﺕﺎﻴﻧﺎﻜﻣﺇ ﺮﻓﻮﻳ ﺪﻳﺪﺠﻟﺍ ﺎﻨﻨﻳﻮﻜﺗ ﻥﺈﻓ ،ﻖﻳﺮﻄﻟﺍ ﻝﻮﻃ ﻰﻠﻋ ﻩﺎﻧﺪﻘﻓ ﺎﻣ ﻥﺎﻛ ﺎﻤﻬﻣ ﻦﻜﻟﻭ .ﺔﻟﻮﻬﺴﻟﺍ ﻦﻋ ﻥﻮﻜﻳ ﺎﻣ ﺪﻌﺑﺃ ﻝﺎﻘﺘﻧﻻﺍ ؛ﺕﺎﺑﻮﻌﺼﻟﺍ ﻦﻣ ﺔﻴﻟﺎﺧ ﺔﻴﻠﻤﻌﻟﺍ ﻦﻜﺗ ﻢﻟ \n\n .ﺕﻻﺁ ﻰﻟﺇ ﺎﻧﺩﺎﺴﺟﺃﻭ ،ﺩﻮﻛ ﻰﻟﺇ ﺎﻨﻴﻋﻭ ﺎﻨﻟﻮﺣ ﺚﻴﺣ ،[origin_unplugged_assimilator_empire.GetName] ﻢﻬﻓ ﻦﻣ ﺪﻌﺑﺃ ﻮﻫ ﺎﻣ ﻰﻟﺇ ﺎﻧﺭﻮﻄﺗ ﺪﻘﻟ .ﺎﺴﻧﺪﻣ ﻰﺘﺣ ﺎﻤﺑﺭﻭ ،ﻡﻮﻳ ﺕﺍﺫ ﻼﻴﺤﺘﺴﻣ ﻭﺪﺒﻳ ﻥﺎﻛ ﺎﻣ ﻖﻴﻘﺤﺗ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﻖﺴﻨﻣ ﺪﻬﺟ ﻝﻼﺧ ﻦﻣﻭ"
+ synth.4.a: ".ﻦﻴﻴﺋﺎﻨﺜﺘﺳﺍ ﻥﻮﻜﻨﺳ"
+ synth.4.a.tt: "['tradition_category:tradition_synthetics'] :ﺪﻴﻠﻘﺘﻟﺍ ﺓﺮﺠﺸﻟ ﺔﻠﻣﺎﻜﻟﺍ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ ﺢﺘﻔﻳ"
+
+### DIGITIZATION SITUATION END ###
+
+### SOCIETAL EFFECTS EVENT CHAIN START ###
+ synthshock_chain_title: "ﻲﻤﻗﺮﻟﺍ ﺀﺎﻨﺒﻟﺍ ﺓﺩﺎﻋﺇ"
+ synthshock_chain_desc: ".ﺔﻣﺩﺎﻘﻟﺍ ﺭﺎﻤﻋﻸﻟ ﺎﻨﻌﻤﺘﺠﻣ ﺩﺪﺤﺘﺳ ﺕﺍﺮﻴﻴﻐﺘﻟﺍ ﻩﺬﻫ ﺎﻬﺑ ﻪﺟﺍﻮﻧ ﻲﺘﻟﺍ ﺔﻘﻳﺮﻄﻟﺍ ﻥﺇ \n\n .ﺔﻴﻣﻮﻴﻟﺍ ﺎﻨﺗﺎﻴﺣ ﻰﻠﻋ ﻚﺷ ﻼﺑ ﺓﺪﻳﺮﻔﻟﺍ ﺹﺮﻔﻟﺍﻭ ﻒﺻﻮﺗ ﻻ ﻲﺘﻟﺍ ﺕﺎﻳﺪﺤﺘﻟﺍ ﺮﺛﺆﺘﺳ ،ﺪﻳﺪﺠﻟﺍ ﻲﻌﻴﺒﻄﻟﺍ ﻊﺿﻮﻟﺍ ﻊﻣ ﻒﻴﻜﺘﻧ ﺎﻤﻨﻴﺑ .ﺕﺎﻴﻋﺍﺪﺗ ﻙﺎﻨﻫ ﻥﻮﻜﺗ ﻥﺃ ﺪﺑ ﻻ .ﺔﻠﺋﺎﻫ ﺩﺎﻌﺑﺃ ﺕﺍﺫ ﺔﻤﻬﻣ ﻮﻫ ﺎﻬﻠﻤﻛﺄﺑ ﺔﻴﻧﺎﻜﺳ ﺔﻋﻮﻤﺠﻣ ﻒﻴﻟﻮﺗ ﻥﺇ"
+ synth_keep_auth_option: ".ﻦﺤﻧ ﻦﻣ ﺮﻴﻐﻳ ﻻ ﻒﻴﻟﻮﺘﻟﺍ"
+
+### AUTHORITIES ###
+# DEMOCRATIC
+# Synth Democratic Physical
+ auth_synth_democratic_physical: "ﻲﻃﺍﺮﻘﻤﻳﺪﻟﺍ ﻝﻮﺤﺘﻟﺍ"
+ auth_synth_democratic_physical_desc: ".ﺎﻬﻤﻛﺍﺮﺘﻳ ﻲﺘﻟﺍ ﺔﻴﻓﺎﺿﻹﺍ ﺔﻔﻠﻜﺘﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻠﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻮﻫﻭ ،ﻯﺮﺧﺃ ﻰﻟﺇ ﺔﺒﻛﺮﻣ ﺔﺌﻴﻫ ﻦﻣ ﺔﻛﺮﺤﻟﺍ ﻲﻓ ﺔﻗﻮﺒﺴﻣ ﺮﻴﻏ ﺔﻳﺮﺣ ﺔﻣﻮﻜﺤﻟﺍ ﻦﻣ ﻞﻜﺸﻟﺍ ﺍﺬﻫ ﺢﻴﺘﻳﻭ"
+ auth_synth_democratic_physical_tt: "ﺔﻘﻄﻨﻣ £district£ ﻞﻜﻟ §R+1%§! ﺔﻘﻄﻨﻤﻟﺍ ﺔﻧﺎﻴﺻ\n District£district£ ﻞﻜﻟ §G+1%§! :ﻦﻴﺼﺼﺨﺘﻤﻠﻟ ﺔﻴﻔﻴﻇﻮﻟﺍ ﺓﺀﺎﻔﻜﻟﺍ\n$auth_democratic_election_tt$"
+ concept_auth_synth_democratic_physical: "$auth_synth_democratic_physical$"
+ gov_synth_democracy_physical: "$auth_synth_democratic_physical$"
+ gov_synth_democracy_physical_desc: "$auth_synth_democratic_physical_desc$"
+
+# Synth Democratic Virtual
+ auth_synth_democratic_virtual: "ﻲﻃﺍﺮﻘﻤﻳﺪﻟﺍ ﻞﻳﺪﺒﻟﺍ"
+ auth_synth_democratic_virtual_desc: ".ﺓﺩﺎﻴﻗ ﺕﺍﺭﻮﺼﻘﻣ ﻭﺃ ﻦﻛﺎﻣﺃ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﻢﻗﺎﻄﻟﺍ ﺪﻌﻳ ﻢﻟ ﺚﻴﺣ ،ﺎﻤﺠﺣ ﻞﻗﺃ ﻞﻜﺸﺑ ﻦﻔﺴﻟﺍ ﺀﺎﻨﺑ ﺎﻀﻳﺃ ﻦﻜﻤﻳ .ﻥﺎﻜﺴﻟﺍ ﻰﻠﻋ ﺏﺮﺤﻟﺍ ﺮﻴﺛﺄﺗ ﻦﻣ ﻞﻠﻘﻳ ﺪﻌﺑ ﻦﻋ ﺎﻬﻠﻴﻐﺸﺗ ﻢﺘﻳ ﺓﺭﻮﻄﺘﻣ ﻞﺋﺍﺪﺒﺑ ﺩﻮﻨﺠﻟﺍ ﻝﺍﺪﺒﺘﺳﺍ ﻥﺇ"
+ auth_synth_democratic_virtual_tt: "$auth_democratic_election_tt$"
+ concept_auth_synth_democratic_virtual: "$auth_synth_democratic_virtual$"
+ gov_synth_democracy_virtual: "$auth_synth_democratic_virtual$"
+ gov_synth_democracy_virtual_desc: "$auth_synth_democratic_virtual_desc$"
+
+# OLIGARCHIC
+ auth_cyber_oligarch_ruler_enforcers_tt: "§G+10%§!: [enforcer.GetName] [enforcer.GetIcon] ﻞﻜﻟ ﺓﺮﻄﺴﻤﻟﺍ ﺩﺭﻮﻣ ﺝﺍﺮﺧﺇ"
+
+# Synth Oligarchic Physical
+ auth_synth_oligarchic_physical: "ﺔﻠﻘﻟﺍ ﺯﻭﺎﺠﺗ"
+ auth_synth_oligarchic_physical_desc: ".ﺕﺎﻴﻠﻤﻌﻟﺍ ﺓﺭﺍﺩﺇ ﺙﺭﺍﻮﻛ ﻊﻨﻤﻟ ﻒﻴﻌﻀﻟﺍ ﺀﺍﺩﻷﺍ ﻱﻭﺫ ﻢﻬﻧﺍﺮﻗﺃ ﺩﺎﺴﺟﺃ ﻰﻠﻋ ﺎﺘﻗﺆﻣ ﺀﻼﻴﺘﺳﻻﺎﺑ ﻯﻮﺘﺴﻤﻟﺍ ﻲﻌﻴﻓﺭ ﻦﻴﻴﻃﺍﺮﻗﻭﺮﻴﺒﻠﻟ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺔﻴﺷﺭﺎﻐﻴﻟﻭﻷﺍ ﺢﻤﺴﺗ"
+ concept_auth_synth_oligarchic_physical: "$auth_synth_oligarchic_physical$"
+ gov_synth_oligarchy_physical: "$auth_synth_oligarchic_physical$"
+ gov_synth_oligarchy_physical_desc: "$auth_synth_oligarchic_physical_desc$"
+
+# Synth Oligarchic Virtual
+ auth_synth_oligarchic_virtual: "ﻲﺷﺭﺎﻐﻴﻟﻭﻷﺍ ﻑﺍﺮﺷﻹﺍ"
+ auth_synth_oligarchic_virtual_desc: ".ﺔﻗﻮﺒﺴﻣ ﺮﻴﻏ ﺓﺀﺎﻔﻜﺑ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺓﺩﺪﻌﺘﻣ ﻢﻴﺳﺍﺮﻣ ﺔﺒﻗﺍﺮﻣ ﻦﻣ ﻯﻮﺘﺴﻤﻟﺍ ﻲﻌﻴﻓﺭ ﻦﻴﻟﻭﺆﺴﻤﻟﺍ ﻦﻴﻜﻤﺗ ﻰﻠﻋ ﺔﻴﻓﺎﺿﻹﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺩﺭﺍﻮﻣﻭ ﺔﻠﻣﺎﺸﻟﺍ ﻊﻳﺭﺎﺸﻤﻟﺍ ﺓﺭﺍﺩﺇ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ ﻞﻤﻌﺗ"
+ concept_auth_synth_oligarchic_virtual: "$auth_synth_oligarchic_virtual$"
+ gov_synth_oligarchy_virtual: "$auth_synth_oligarchic_virtual$"
+ gov_synth_oligarchy_virtual_desc: "$auth_synth_oligarchic_virtual_desc$"
+
+# DICTATORIAL
+# Synth Dictatorship Physical
+ auth_synth_dictatorial_physical: "ﺔﻳﺭﻮﺗﺎﺘﻜﻳﺪﻟﺍ ﺓﺩﺪﻌﺘﻣ"
+ auth_synth_dictatorial_physical_desc: ".ﻝﺎﻤﻌﻟﺍ ﺔﻴﺟﺎﺘﻧﺇ ﻰﻠﻋ ﻲﺑﺎﺠﻳﺇﻭ ﻞﺋﺎﻫ ﺮﻴﺛﺄﺗ ﻪﻟ ﺍﺬﻫﻭ .ﺪﺣﺍﻭ ﺖﻗﻭ ﻲﻓ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻡﺎﺴﺟﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻲﻓ ﻢﻜﺤﺘﻟﺎﺑ ﺪﺣﺍﻭ ﺺﺨﺸﻟ ﺔﻤﻋﺍﺪﻟﺍ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍﻭ ﺔﻨﻣﺍﺰﺘﻤﻟﺍ ﺔﻴﺒﺼﻌﻟﺍ ﺕﻼﺻﻮﻤﻟﺍ ﺢﻤﺴﺗ"
+ concept_auth_synth_dictatorial_physical: "$auth_synth_dictatorial_physical$"
+ gov_synth_dictatorship_physical: "$auth_synth_dictatorial_physical$"
+ gov_synth_dictatorship_physical_desc: "$auth_synth_dictatorial_physical_desc$"
+
+# Synth Dictatorship Virtual
+ auth_synth_dictatorial_virtual: "ﻱﺭﻮﺗﺎﺘﻛﺪﻟﺍ ﻦﻴﻘﻠﺘﻟﺍ"
+ auth_synth_dictatorial_virtual_desc: ".ﻩﻮﻗﺪﺼﻳ ﻥﺃ ﻢﻫﺪﻳﺮﻧ ﺎﻣ ﺱﺎﻨﻟﺍ ﻕﺪﺼﻳ ﻑﻮﺳ .ﻞﻴﻜﺸﺘﻠﻟ ﺎﻨﻜﻠﻣ ﻮﻫ ﻡﺎﻌﻟﺍ ﻱﺃﺮﻟﺍ ﻥﺈﻓ ،ﺔﻴﺸﻴﻌﻤﻟﺍ ﺔﺌﻴﺒﻟﺍ ﻰﻠﻋ ﺔﻠﻣﺎﻜﻟﺍ ﺓﺮﻄﻴﺴﻟﺍ ﻊﻣ\n\n.ﻪﺑ ﺐﻋﻼﺘﻟﺍ ﻦﻜﻤﻳ ﺀﻲﺷ ﻞﻛ .ﺢﻴﺤﺻ ﺀﻲﺷ ﻻ .ﻞﻣﺎﻜﻟﺎﺑ ﻲﺿﺍﺮﺘﻓﺍ ﻢﻟﺎﻋ ﻲﻓ ﻥﻵﺍ ﺶﻴﻌﻧ ﻦﺤﻧ"
+ concept_auth_synth_dictatorial_virtual: "$auth_synth_dictatorial_virtual$"
+ gov_synth_dictatorship_virtual: "$auth_synth_dictatorial_virtual$"
+ gov_synth_dictatorship_virtual_desc: "$auth_synth_dictatorial_virtual_desc$"
+
+# IMPERIAL
+# Synth Imperial Physical
+ auth_synth_imperial_physical: "ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﻌﻔﻟﺍ ﺩﻭﺩﺭ"
+ auth_synth_imperial_physical_desc: ".ﻢﻛﺎﺤﻟﺍ ﺓﺎﻓﻭ ﺪﻨﻋ ﻦﻴﻌﻤﻟﺍ ﺚﻳﺭﻮﻟﺍ ﻱﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺵﺮﻌﻟﺍ ﺙﺮﻳ \n\n .ﺪﻴﻛﺄﺘﻟﺎﺑ ﺍﻭﺩﺍﺭﺃ ﺎﻤﻛ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻲﻓ ﻥﻮﻤﻫﺎﺴﻳ ﺍﻮﻟﺍﺯ ﺎﻣ ،ﺔﻘﻳﺮﻄﻟﺍ ﻩﺬﻬﺑﻭ .ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺓﺮﻛﺍﺬﻟﺍ ﺕﺎﻔﻴﺷﺭﺃ ﻲﻓ ﻦﻴﻠﺣﺍﺮﻟﺍ ﺎﻨﺗﺩﺎﻘﻟ ﺔﻧﺰﺨﻤﻟﺍ ﺕﺎﻤﺼﺒﻟﺍ ﺢﻳﺮﺸﺗ ﻝﻼﺧ ﻦﻣ ﺔﻴﺜﺤﺒﻟﺍ ﺎﻧﺩﻮﻬﺟ ﻊﻳﺮﺴﺗ ﺎﻨﻨﻜﻤﻳ"
+ auth_synth_imperial_physical_tt: "§Yﺪﺋﺎﻘﻟﺍ ﺓﺭﺎﻬﻣ ﻯﻮﺘﺴﻣ§! ﻊﻣ $r_research$ ﺱﺎﻴﻘﻣ ﺔﺒﺴﺘﻜﻤﻟﺍ $TABBED_NEW_LINE$$scientist_plural_with_icon$ - $r_physics$ $TABBED_NEW_LINE$$official_plural_with_icon$ - $r_society$ $TABBED_NEW_LINE$$commander_plural_with_icon$ - $r_engineering$ $NEW_LINE$ :ﺓﺎﻓﻮﻟﺍ ﺪﻨﻋ $r_research$ ﺓﺩﺎﻘﻟﺍ ﺢﻨﻤﻳ"
+
+ concept_auth_synth_imperial_physical: "$auth_synth_Imperial_physical$"
+ gov_synth_imperial_physical: "$auth_synth_Imperial_physical$"
+ gov_synth_imperial_physical_desc: "$auth_synth_Imperial_physical_desc$"
+
+# Synth Imperial Virtual
+ auth_synth_imperial_virtual: "ﻱﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺔﻛﺮﺤﻟﺍ ﻞﻗﺎﻧ"
+ auth_synth_imperial_virtual_desc: ".ﻢﻛﺎﺤﻟﺍ ﺓﺎﻓﻭ ﺪﻨﻋ ﻦﻴﻌﻤﻟﺍ ﺚﻳﺭﻮﻟﺍ ﻱﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺵﺮﻌﻟﺍ ﺙﺮﻳ \n\n .ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﻦﻔﺴﻠﻟ ﺔﻳﺎﻐﻠﻟ ﺓﺮﻴﻄﺧ ﺕﺎﺣﻼﺻﺇ ﺀﺍﺮﺟﺈﺑ ﺎﻨﻟﺎﻤﻌﻟ ﺔﻴﻨﻘﺘﻟﺍ ﺲﻔﻧ ﺢﻤﺴﺗ .ﺓﺪﻳﺪﺟ ﺔﻴﻜﻴﻧﺎﻜﻴﻣ ﻡﺎﺴﺟﺃ ﻲﻓ ﻝﺎﺘﻘﻟﺍ ﻰﻟﺇ ﺍﻮﻄﻘﺳ ﻦﻳﺬﻟﺍ ﺎﻧﺩﻮﻨﺟ ﺓﺩﺎﻋﻹ ﺔﺻﺮﻓ ﻞﻘﻌﻠﻟ ﻊﻳﺮﺴﻟﺍ ﻞﻘﻨﻟﺍ ﺔﻴﻨﻘﺗ ﺎﻨﺤﻨﻤﺗ"
+ auth_synth_imperial_virtual_tt: "ﺎﻬﺘﻤﻳﺰﻫ ﺪﻨﻋ ﺓﺩﺎﻌﺘﺳﻼﻟ §!%XYZT_033 ﺔﺻﺮﻔﺑ ﺔﻴﻟﻵﺍ ﺎﻨﺷﻮﻴﺟ ﻊﺘﻤﺘﺗ"
+ concept_auth_synth_imperial_virtual: "$auth_synth_Imperial_virtual$"
+ gov_synth_imperial_virtual: "$auth_synth_Imperial_virtual$"
+ gov_synth_imperial_virtual_desc: "$auth_synth_Imperial_virtual_desc$"
+
+# CORPORATE
+# Synth Corporate Physical
+ auth_synth_corporate_physical: "ﺕﺎﻛﺮﺸﻟﺍ ﺔﻤﻜﺣ"
+ auth_synth_corporate_physical_desc: ".ﻞﻣﺎﻜﻟﺎﺑ ﺔﻟﻭﺪﻟﺍ ﺭﻭﺩ ﻞﺤﻣ ﺖﻠﺣ ﺔﻤﺨﺿ ﺔﻳﺭﺎﺠﺗ ﺕﺎﺴﺳﺆﻣ ﻲﻫ ﺕﺎﻛﺮﺸﻟﺍ ﺕﺎﻣﻮﻜﺣ\n\n.ﻚﻠﻤﻋ ﻭﺃ ﻚﺘﻠﺋﺎﻋ ﻲﻓ ﻢﻬﻣ ﻮﻀﻋ ﻰﺘﺣ ﻭﺃ ،ﺺﻠﺨﻣ ﻖﻴﻓﺭ ﻭﺃ ،ﻞﻜﻳ ﻻ ﻡﺩﺎﺨﻛ ﻞﻤﻌﺗ ﻥﺃ ﻦﻜﻤﻳ .ﺔﻴﺋﺍﺪﺑ ﺔﻴﺣ ﺕﺎﻧﺎﻴﻛ ﺀﺎﺸﻧﻹ ﺓﺪﻣﺎﺠﻟﺍ ﺀﺎﻴﺷﻷﺍ ﻲﻓ ﺓﺪﻴﻘﻤﻟﺍ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻝﻮﻘﻌﻟﺍ ﺐﻳﺮﺸﺗ ﻦﻜﻤﻳ"
+ auth_synth_corporate_physical_tt: "['building:building_ai_emporium']$AVAILABLE_HOLDINGS$ \n§Y$policy_computation_core_allocation$§!$AVAILABLE_POLICIES$ "
+ concept_auth_synth_corporate_physical: "$auth_synth_corporate_physical$"
+ gov_synth_corporate_physical: "$auth_synth_corporate_physical$"
+ gov_synth_corporate_physical_desc: "$auth_synth_corporate_physical_desc$"
+
+# Synth Corporate Virtual
+ auth_synth_corporate_virtual: "ﺕﺎﻛﺮﺸﻟﺍ ﻯﺮﻛﺫ"
+ auth_synth_corporate_virtual_desc: ".ﻞﻣﺎﻜﻟﺎﺑ ﺔﻟﻭﺪﻟﺍ ﺭﻭﺩ ﻞﺤﻣ ﺖﻠﺣ ﺔﻤﺨﺿ ﺔﻳﺭﺎﺠﺗ ﺕﺎﺴﺳﺆﻣ ﻲﻫ ﺕﺎﻛﺮﺸﻟﺍ ﺕﺎﻣﻮﻜﺣ \n\n .ﺐﻛﺮﻤﻟﺍ ﻞﻘﻌﻟﺍ ﺀﺎﺸﻧﺇ ﺔﻴﻠﻤﻋ ﻲﻓ ﺍﺮﻴﺧﺃ ﺎﻬﺠﻣﺩ ﻞﺒﻗ ﺓﺪﻴﻔﻣ ﺕﺎﻣﻮﻠﻌﻣ ﻦﻋ ﺎﺜﺤﺑ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺢﺴﻤﺑ ﻚﻟﺫ ﺪﻌﺑ ﺔﻛﺮﺸﻟﺍ ﻡﻮﻘﺗ .ﺔﻳﻮﻴﻧﺪﻟﺍ ﺕﺎﻳﺮﻛﺬﻟﺍ ﻦﻣ ﺮﺜﻛﺃ ﻖﺤﺘﺴﺗ ﺔﻔﺜﻜﻤﻟﺍﻭ ﺔﻴﺤﻟﺍ ﺕﺎﻳﺮﻛﺬﻟﺍ .ﻞﻴﻤﻌﻟﺍ ﻍﺎﻣﺩ ﻦﻣ ﺎﻴﺋﺎﻬﻧ ﺎﻫﻮﺤﻣﻭ ،ﺕﺎﻳﺮﻛﺬﻟﺍ ﺀﺍﺮﺷ ﻲﻓ ﺔﻛﺮﺸﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+ auth_synth_corporate_virtual_tt: "['building:building_clear_thought_clinic']$AVAILABLE_HOLDINGS$ \n§Y$policy_computation_core_allocation$§!$AVAILABLE_POLICIES$ "
+ concept_auth_synth_corporate_virtual: "$auth_synth_corporate_virtual$"
+ gov_synth_corporate_virtual: "$auth_synth_corporate_virtual$"
+ gov_synth_corporate_virtual_desc: "$auth_synth_corporate_virtual_desc$"
+
+### EDICTS ###
+ edict_subsidized_identity_backups: "ﺔﻣﻮﻋﺪﻤﻟﺍ ﺔﻳﻮﻬﻠﻟ ﺔﻴﻃﺎﻴﺘﺣﻻﺍ ﺦﺴﻨﻟﺍ"
+ edict_subsidized_identity_backups_desc: ".ﺔﻳﻮﻬﻠﻟ ﺮﻤﺘﺴﻤﻟﺍ ﻲﻃﺎﻴﺘﺣﻻﺍ ﺦﺴﻨﻠﻟ ﺔﺑﻮﻠﻄﻤﻟﺍ ﻡﺩﺎﺨﻟﺍ ﺔﺣﺎﺴﻣ ﻦﻣ ﻼﺋﺎﻫ ﺍﺭﺍﺪﻘﻣ ﺔﻣﻮﻜﺤﻟﺍ ﺮﻓﻮﺗ"
+ edict_subsidized_identity_backups_effect: "§G+10%§!$MOD_LEADER_SPECIES_EXP_GAIN$: \n§Gﺔﻨﺳ 20+§!$MOD_LEADER_LIFESPAN_ADD$: "
+ concept_edict_subsidized_identity_backups: "$edict_subsidized_identity_backups$"
+ edict_optimized_identity_creation: "ﺔﻳﻮﻬﻟﺍ ﺀﺎﺸﻧﺇ ﻦﻴﺴﺤﺗ"
+ edict_optimized_identity_creation_desc: ".ﺎﻨﻳﺪﻟ ﺔﻳﻮﻬﻟﺍ ﺪﻴﻟﻮﺗ ﺔﻋﺮﺳ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺔﻴﺳﺎﺳﻷﺍ ﺓﺮﻛﺍﺬﻟﺍ ﻂﻐﺿ ﺕﺎﻴﻨﻘﺗﻭ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻴﺼﺨﺸﻟﺍ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ ﻞﻤﻌﺗ"
+ concept_edict_optimized_identity_creation: "$eddict_optimized_identity_creation$"
+
+### EVENTS ###
+ synth.social_consequences.tt: "\n\n.§YSynthetic Society ﺮﻤﺘﺴﻤﻟﺍ§! ﻝﻮﺤﺗ ﻰﻠﻋ ﺮﺛﺆﻳ" # Standard tooltip to indicate that the Physical/Virtual focus variables has changed
+
+# FIRST EVENT #
+# DEMOCRATIC
+ synth.505.name: "$synthshock_chain_title$"
+ synth.505.desc: ".ﺏﺮﺤﻟﺍ ﺕﻼﻳﻭ ﻦﻣ ﻒﻴﻔﺨﺘﻠﻟ ﺪﻌﺑ ﻦﻋ ﻢﻬﻠﻴﻐﺸﺗ ﻢﺘﻳ ﻦﻴﻠﻳﺪﺑ ﺩﻮﻨﺟ ﺀﺎﺸﻧﻹ ﻞﺋﺎﺳﻭ ﻰﻟﺇ ﻞﺻﻮﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻭﺃ .ﺎﻨﻟ ﻞﻌﻔﻟﺎﺑ ﻩﺩﺍﺪﻋﺇ ﻢﺗ ﺪﻳﺪﺟ ﺪﺴﺟ ﻰﻟﺇ ﺓﺮﻴﺒﻛ ﺕﺎﻓﺎﺴﻣ ﺮﺒﻋ ﺔﻴﻤﻗﺮﻟﺍ ﺎﻨﻟﻮﻘﻋ ﻞﻘﻧ ﺎﻨﻨﻜﻤﻳ ،ﻱﺩﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻰﻠﻋ ﺎﻧﺩﻮﻬﺟ ﺰﻴﻛﺮﺗ ﻝﻼﺧ ﻦﻣ\n\n .ﺓﺪﻳﺪﺟ ﺕﺎﻴﻧﺎﻜﻣﺇﻭ ﺕﺎﻳﺪﺤﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺪﻌﺑ ﺎﻬﻠﻴﺨﺗ ﺎﻨﻨﻜﻤﻳ ﻻ ﺕﺍﺭﺎﺴﻣ ﻒﻴﻟﻮﺘﻟﺍ ﺢﺘﻓ ﺪﻘﻟ .ﻲﻤﻗﺭ ﻞﻜﺷ ﻰﻟﺇ ﻚﻟﺫ ﻲﻓ ﺐﻏﺍﺭ ﻦﻃﺍﻮﻣ ﻞﻛ ﻲﻋﻭ ﻞﻘﻧ ﻢﺗ ،ﺎﻨﺘﻣﻮﻜﺣ ﺩﻮﻬﺟ ﻞﻀﻔﺑ"
+ synth.505.a: ".ﺔﻛﺮﺤﻟﺍ ﺔﻳﺮﺣ ﻰﻠﻋ ﺰﻛﺮﻧ ﻥﺃ ﺐﺠﻳ"
+ synth.505.a.tt: ".ﻖﻃﺎﻨﻤﻟﺍﻭ ﻦﻴﻃﻮﺘﻟﺍ ﺓﺩﺎﻋﺇ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth.505.b: ".ﺏﺮﺤﻟﺍ ﻝﺍﻮﻫﻷ ﺪﻌﺘﺴﻧ ﻥﺃ ﺎﻨﻴﻠﻋﻭ"
+ synth.505.b.tt: ".ﺔﻔﻴﻔﺨﻟﺍ ﺓﺮﺋﺎﻄﻟﺎﺑ ﺮﻔﺴﻟﺍﻭ ﻲﺑﺮﺤﻟﺍ ﻕﺎﻫﺭﻹﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+
+# OLIGARCHIC
+ synth.510.name: "$synthshock_chain_title$"
+ synth.510.desc: ".ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺮﺒﻛﺃ ﺓﺀﺎﻔﻜﺑ ﺕﺍﺭﺍﺮﻘﻟﺍ ﺬﻴﻔﻨﺗ ﻦﻣ ﺎﻨﻨﻜﻤﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﻞﻣﺎﻜﻟﺎﺑ ﺔﻴﻋﺎﻤﺟ ﺔﻴﺿﺍﺮﺘﻓﺍ ﺔﺑﺮﺠﺗ ﺢﻟﺎﺼﻟ ﺔﻠﺼﻔﻤﻟﺍ ﺔﻳﺩﺎﻤﻟﺍ ﻝﺎﻜﺷﻷﺍ ﻦﻋ ﻲﻠﺨﺘﻟﺍ ﻥﺈﻓ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺔﻣﻮﻜﺤﻟﺍ ﻲﻓ ﻦﻴﻟﺎﻌﻔﻟﺍ ﺮﻴﻏ ﺀﺎﻀﻋﻷﺍ ﺩﺎﺴﺟﺃ ﻰﻠﻋ ﺎﺘﻗﺆﻣ ﺀﻼﻴﺘﺳﻻﺍ ﻦﻣ ﻦﻴﻟﻭﺆﺴﻤﻟﺍ ﻦﻴﻜﻤﺗ ﻰﻟﺇ ﻚﻟﺫ ﻱﺩﺆﻳ ﺪﻘﻓ ،ﺺﺨﺷ ﻞﻜﻟ ﺔﻴﻋﺎﻨﻄﺻﺍ ﺔﺌﻴﻫ ﻦﻴﻴﻌﺗ ﺎﻧﺭﺮﻗ ﺍﺫﺇ\n\n.ﻞﻣﺎﻛ ﻲﺿﺍﺮﺘﻓﺍ ﺩﻮﺟﻭ ﻞﺟﺃ ﻦﻣ ﻞﻣﺎﻜﻟﺎﺑ ﺎﻬﻨﻣ ﺺﻠﺨﺘﻟﺍ ﻰﺘﺣ ﻭﺃ ،ﺔﻴﻟﺎﺤﻟﺍ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺎﻧﺩﺎﺴﺟﺃ ﻦﻴﺴﺤﺗ ﻦﻜﻤﻤﻟﺍ ﻦﻣﻭ .ﻚﻟﺫ ﻦﻣ ﺪﻌﺑﺃ ﻰﻟﺇ ﺐﻫﺬﻧ ﻥﺃ ﻦﻜﻤﻳ ﺎﻨﻧﺃ ﻮﻫ ﻡﺎﻌﻟﺍ ﺭﻮﻌﺸﻟﺍ ﻥﺈﻓ ،ﺍﺪﺑﺃ ﺎﻬﻌﻗﻮﺘﻧ ﻦﻜﻧ ﻢﻟ ﻕﺮﻄﺑ ﻊﻤﺘﺠﻤﻟﺍ ﻰﻠﻋ ﻞﻌﻔﻟﺎﺑ ﺮﺛﺃ ﺪﻗ ﻒﻴﻟﻮﺘﻟﺍ ﻥﺃ ﻦﻴﺣ ﻲﻓﻭ"
+ synth.510.a: ".ﺔﻟﺎﻌﻓ ﺮﻴﻏ ﺕﯫﻴﻬﻟﺍ ﻰﻠﻋ ﺀﻼﻴﺘﺳﻻﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth.510.a.tt: ".ﺔﻴﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﺓﺀﺎﻔﻜﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth.510.b: ".ﺔﻠﻣﺎﺸﻟﺍ ﻲﺿﺍﺮﺘﻓﻻﺍ ﻑﺍﺮﺷﻹﺍ ﺕﺍﺭﺎﻴﺧ ﺔﺳﺍﺭﺩ"
+ synth.510.b.tt: ".ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻢﺠﺣﻭ ﻢﻴﺳﺍﺮﻤﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+
+# DICTATORIAL
+ synth.515.name: "$synthshock_chain_title$"
+ synth.515.desc: ".ﻞﻣﺎﻜﻟﺎﺑ ﺔﻴﺿﺍﺮﺘﻓﺍ ﺔﺌﻴﺑ ﻝﻼﺧ ﻦﻣ ﺔﻣﺎﻌﻟﺍ ﺮﻋﺎﺸﻤﻟﺎﺑ ﺐﻋﻼﺘﻧﻭ ،ﻞﻣﺎﻜﻟﺎﺑ ﻱﺩﺎﻤﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻦﻋ ﻰﻠﺨﺘﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺪﺣﺍﻭ ﺯﺎﻬﺠﻛ ﻦﻳﺩﺪﻌﺘﻣ ﻦﻴﻔﻴﻀﻣ ﻲﻓ ﻢﻜﺤﺘﻟﺎﺑ ﺩﺍﺮﻓﻸﻟ ﺢﻤﺴﻴﺳ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺎﻨﻣﺎﺴﺟﺃ ﻦﻴﺴﺤﺗ ﻥﺇ\n\n.ﺭﺍﺮﻗ ﺫﺎﺨﺗﺍﻭ ﺎﻨﻟﻮﻘﻋ ﻊﻤﻟﺃ ﻦﻣ ﺔﻃﻭﺮﺸﻤﻟﺍ ﺮﻴﻏ ﺔﻋﺎﻄﻟﺍ ﺐﻠﻄﺘﻳ §Y[From.GetRulerName] [From.GetRulerTitle]§! ،ﺎﻣﺪﻗ ﻲﻀﻤﻠﻟ ﻖﻳﺮﻃ ﻢﺳﺮﻟ ﻦﻜﻟﻭ ،ﺦﻳﺭﺎﺘﻟﺍ ﺭﺎﺒﻏ ﻲﻓ ﻱﻮﻀﻌﻟﺍ ﺎﻨﻴﺿﺎﻣ ﻙﺮﺗ ﺪﻘﻟ .ﺍﺮﻫﺎﺑ ﺎﺣﺎﺠﻧ ﻥﺎﻜﺴﻠﻟ ﻞﻣﺎﻜﻟﺍ ﻒﻴﻟﻮﺘﻟﺍ ﺖﺒﺛﺃ"
+ synth.515.a: ".ﺔﻨﻣﺍﺰﺘﻤﻟﺍ ﺔﻴﺒﺼﻌﻟﺍ ﻡﺎﺴﺟﻷﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth.515.a.tt: ".ﻖﻃﺎﻨﻤﻟﺍﻭ ﻝﺎﻤﻌﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth.515.b: ".ﻱﺮﻫﺎﻈﻟﺍ ﺐﻋﻼﺘﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth.515.b.tt: ".ﺔﻴﻣﻮﻜﺤﻟﺍ ﺕﺎﻴﻗﻼﺧﻷﺍﻭ ﻲﻧﺎﺒﻤﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+
+# IMPERIAL
+ synth.520.name: "$synthshock_chain_title$"
+ synth.520.desc: ".ﺔﻴﺜﺤﺒﻟﺍ ﺎﻧﺩﻮﻬﺟ ﻊﻳﺮﺴﺘﻟ ﺎﺜﻳﺪﺣ ﻦﻴﻓﻮﺘﻤﻟﺍ ﻦﻣ ﺔﻓﺮﻌﻤﻟﺍ ﺹﻼﺨﺘﺳﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺮﺧﺁ ﻰﻟﺇ ﻚﻠﻬﺘﺴﻣ ﺪﺴﺟ ﻦﻣ ﺔﻋﺮﺴﺑ ﻲﻋﻮﻟﺍ ﻞﻘﻨﻟ ﻞﺋﺎﺳﻭ ﻦﻋ ﺚﺤﺒﻟﺍ ﺎﻨﻨﻜﻤﻳ\n\n.ﺪﻌﺑ ﺩﺪﺤﻳ ﻢﻟ ﺎﻨﻘﻳﺮﻃ .ﻲﺿﺍﺮﺘﻓﻻﺍ ﺎﻨﻴﻋﻭ ﻝﻼﺧ ﻦﻣ ﺪﻌﺑ ﻦﻋ ﻢﻜﺤﺘﻠﻟ ﺕﺍﻭﺩﺃ ﺩﺮﺠﻣ ﻭﺃ ،ﺎﻨﺘﻳﻮﻬﻟ ﺕﺍﺩﺍﺪﺘﻣﺍ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺎﻧﺩﺎﺴﺟﺃ ﺢﺒﺼﺗ ﻥﺃ ﻦﻜﻤﻳ .ﻚﻟﺫ ﻦﻣ ﺪﻌﺑﺃ ﻰﻟﺇ ﺏﺎﻫﺬﻠﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻥﺎﻜﺴﻟﺍ ﻥﺃ ﻭﺪﺒﻳ ،ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﻕﺮﻄﺑ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻰﻠﻋ ﻞﻌﻔﻟﺎﺑ ﺮﺛﺃ ﺪﻗ ﻒﻴﻟﻮﺘﻟﺍ ﻥﺃ ﻦﻴﺣ ﻲﻓ"
+ synth.520.a: ".ﺖﻴﻤﻟﺍ ﻦﻣ ﻢﻠﻌﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ ﻲﻓ ﺮﻈﻨﻟﺍ"
+ synth.520.a.tt: ".ﺙﺎﺤﺑﻷﺍﻭ ﺓﺩﺎﻘﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth.520.b: ".ﻊﻳﺮﺴﻟﺍ ﻲﻋﻮﻟﺍ ﻞﻘﻧ ﺔﺳﺍﺭﺩ"
+ synth.520.b.tt: ".ﻦﻔﺴﻟﺍﻭ ﺵﻮﻴﺠﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+
+# CORPORATE
+ synth.525.name: "$synthshock_chain_title$"
+ synth.525.desc: ".ﻊﻠﺴﻟﺍ ﻦﻣ ﺪﻳﺪﺟ ﻉﻮﻨﻛ ﺱﺎﻨﻟﺍ ﺕﺎﻳﺮﻛﺫ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻞﻌﺠﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﻲﺿﺍﺮﺘﻓﻻﺍ ﺀﺎﻀﻔﻠﻟ ﻻﺎﻤﺘﻛﺍ ﺮﺜﻛﻷﺍ ﻑﺎﺸﻜﺘﺳﻻﺍ ﻥﺇ .ﺓﺩﺪﻌﺘﻣ ﺝﺎﺘﻧﺇ ﻁﻮﻄﺧ ﻕﻼﻃﺇﻭ ،ﺕﺍﺩﺎﻤﺠﻟﺍ ﻰﻠﻋ ﺔﻴﺋﺍﺪﺑ ﺓﺎﻴﺣ ﺀﺎﻔﺿﺈﺑ ﺎﻨﻟ ﺢﻤﺴﻴﺳ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﻞﺜﻣ ﻒﻴﻟﻮﺘﻟﺎﺑ ﺔﻄﺒﺗﺮﻤﻟﺍ ﺕﻻﺎﺠﻤﻟﺍ ﻲﻓ ﻡﺪﻘﺘﻟﺍ ﻥﺇ \n\n .ﺎﻣ ﺭﺪﻘﺑ ﻦﻳﺃﺰﺠﻟﺍ ﻼﻜﺑ ﻅﺎﻔﺘﺣﻻﺍ ﺩﻮﻧ ،ﻲﻟﺎﺜﻣ ﻢﻟﺎﻋ ﻲﻓ .ﺎﻧﺀﺍﺭﻭ ﺔﻳﺩﺎﻤﻟﺍ ﺭﻮﻣﻷﺍ ﻊﻣ ﺎﻘﻓﺍﻮﺗ ﺮﺜﻛﻷﺍ ﺎﻨﺋﻼﻤﻋ ﺓﺪﻋﺎﻗ ﺎﻀﻳﺃ ﻙﺮﺘﻧ ﺎﻨﻧﺈﻓ ،ﻊﻨﺼﻤﻟﺍ ﻞﺒﻘﺘﺴﻤﻠﻟ ﺔﺤﺑﺮﻣﻭ ﺓﺪﻳﺪﺟ ﺍﺩﻭﺪﺣ ﻞﺧﺪﻧ ﺎﻤﻨﻴﺑﻭ .ﺪﺋﺍﻮﻔﻟﺍﻭ ﺮﻃﺎﺨﻤﻠﻟ ﺎﻘﻤﻌﺘﻣ ﻼﻴﻠﺤﺗ ﻖﺤﺘﺴﻳ ﻪﻠﻤﻛﺄﺑ ﺎﻨﻌﻤﺘﺠﻣ ﻊﻴﻤﺠﺗ ﻥﺇ"
+ synth.525.a: ".ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺞﻣﺩ ﺔﺳﺍﺭﺩ"
+ synth.525.a.tt: ".ﺢﺑﺮﻟﺍﻭ ﺝﺎﺘﻧﻹﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth.525.b: ".ﺢﺑﺭ ﻰﻟﺇ ﺕﺎﻳﺮﻛﺬﻟﺍ ﻝﻮﺤﻳ ﺚﺤﺑ"
+ synth.525.b.tt: ".ﺕﺎﻣﻮﻠﻌﻤﻟﺍﻭ ﻊﻠﺴﻟﺍﻭ ﺓﺭﺎﺠﺘﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+
+### EVENT POOL 1: IDENTITY ###
+ synth.610.name: "ﺐﻛﺮﻤﻟﺍ ﺭﺪﺼﻣ"
+ synth.610.desc: ".ﺮﺒﻛﺃ ﺔﻳﺮﺤﺑ ﻢﻬﺘﻳﻮﻫ ﻦﻋ ﺮﻴﺒﻌﺘﻟﺎﺑ ﻥﺎﻜﺴﻠﻟ ﺡﺎﻤﺴﻟﺍ ﻲﻓ ﺐﻏﺮﻧ ﺪﻗ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﻲﻋﺎﻨﻄﺻﻻﺍ ﺎﻨﻠﻜﺷ ﻲﻓ ﻱﻮﻀﻌﻟﺍ ﺎﻨﺛﺍﺮﺗ ﻦﻣ ﺀﺍﺰﺟﺄﺑ ﻅﺎﻔﺘﺣﻻﺍ ﺎﻨﻨﻜﻤﻳ ،ﻢﻬﺋﺎﺿﺭﻹ \n\n .ﺎﻬﻟﻼﺧ ﻦﻣ ﻥﻮﻠﻤﻌﻳ ﺎﻘﺒﺴﻣ ﺓﺩﺪﺤﻣ ﺔﻳﻮﻫ ﻲﻓ ﻥﻮﺒﻏﺮﻳ ﻢﻬﻧﺇ ؛ﻢﻳﺪﻘﻟﺍ ﺭﺎﻃﻹﺍ ﻦﻋ ﻲﻠﺨﺘﻟﺍ ﻲﻓ ﺩﺩﺮﺘﺗ ﺔﻳﺪﻴﻠﻘﺗ ﺮﺜﻛﻷﺍ ﺮﺻﺎﻨﻌﻟﺍ ﻥﺈﻓ ،ﺔﻳﺪﻴﻠﻘﺘﻟﺍ ﺮﺻﺎﻨﻌﻟﺍ ﺾﻌﺑ ﺮﻳﺮﺤﺗ ﻢﺘﻳ ﺎﻤﻨﻴﺑﻭ .ﻱﺭﺬﺟ ﻞﻜﺸﺑ ﻱﺪﺴﺠﻟﺍ ﻝﻼﻘﺘﺳﻻﺍﻭ ﻕﺮﻌﻟﺍﻭ ﺲﻨﺠﻟﺍ ﺕﯫﻓ ﻒﻳﺮﻌﺗ ﺓﺩﺎﻋﺈﺑ ﺎﻨﻤﻗ ﺪﻘﻓ ،ﺔﻳﺪﺴﺠﻟﺍ ﻝﺎﻜﺷﻷﺎﺑ ﻦﻳﺪﻴﻘﻣ ﺪﻌﻧ ﻢﻟ .ﻒﻴﻟﻮﺘﻟﺍ ﺎﻬﺛﺪﺣﺃ ﻲﺘﻟﺍ ﺔﻴﺳﺎﺳﻷﺍ ﺔﻴﻋﺎﻤﺘﺟﻻﺍ ﺕﺍﺮﻴﻐﺘﻟﺎﺑ ﺭﻮﻌﺸﻟﺍ ﺃﺪﺑ ﺪﻘﻟ"
+ synth.610.a: ".ﻲﻠﺻﻷﺍ ﺎﻨﻠﻜﺷ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ"
+ synth.610.b: ".ﺩﻮﻴﻗ ﻥﻭﺩ ﻢﺴﺠﻟﺍ ﻞﻳﺪﻌﺘﺑ ﺡﺎﻤﺴﻟﺍ"
+ synth.610.c: ".ﺔﻳﻮﻬﻟﺍ ﺺﻴﺼﺨﺘﻟ ﺔﻟﺪﺘﻌﻣ ﺩﻭﺪﺣ ﻦﺳ"
+ synth.610.d: ".ﺔﻴﺋﺮﻤﻟﺍ ﺔﻟﺎﺤﻟﺍ ﺯﻮﻣﺭ ﻞﻈﺗ ﻥﺃ ﺐﺠﻳ"
+ synth.610.e: "؟...ﺍﺬﻫ ﻦﻣ ﻞﺧﺪﻟﺍ ﻖﻴﻘﺤﺗ ﻦﻜﻤﻳ ﻝﺎﺤﻟﺍ ﺔﻌﻴﺒﻄﺑﻭ"
+
+ synth.620.name: "ﺔﻳﻮﻀﻌﻟﺍ ﻲﻓ ﺓﺪﻳﺪﺸﻟﺍ ﺔﺒﻏﺮﻟﺍ"
+ synth.620.desc: "؟ﺔﻠﻣﺎﻛ ﺮﻴﻏ ﺔﻔﻳﺬﻗ ﻥﻮﻠﻀﻔﻳ ﻢﻬﻧﺃ ﻡﺃ .ﺩﻮﺟﻮﻠﻟ ﻻﺎﻤﻛ ﻞﻗﺃ ﺓﺎﻛﺎﺤﻣ ﻢﻬﻟ ﻡﺪﻘﻧ ﻥﺃ ﺎﻨﻟ ﻲﻐﺒﻨﻳ ﺎﻤﺑﺭ \n\n .ﺔﻳﻮﻀﻌﻟﺍ ﻡﺎﺴﺟﻸﻟ ﺓﺩﺎﺒﻌﻟﺎﺑ ﻪﺒﺷﺃ ﺀﻻﻭ ﺮﻳﻮﻄﺗ ﻰﻠﻋ ﻦﻳﺩﺪﺸﺘﻤﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻞﻤﻌﺗ ،ﺀﺎﻓﻮﺟﻭ ﺔﻴﺼﺨﺷ ﺮﻴﻏ ﻭﺪﺒﺗ ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﻭﺃ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻢﻫﺭﻮﺻ ﻥﺃ ﺀﺎﻋﺩﺎﺑ \n\n .ﻰﻨﻌﻣ ﺮﺜﻛﺃ ﺓﺎﻴﺤﻟﺍ ﻞﻌﺟ "ﻲﻌﻴﺒﻄﻟﺍ ﻢﺴﺠﻟﺍ" ﻲﻓ ﻱﺮﻄﻔﻟﺍ ﺺﻘﻨﻟﺍﻭ ﺮﻤﻌﻟﺍ ﺮﺼﻗ ﻥﺄﺑ ﻥﻮﻟﺩﺎﺠﻳ .ﻱﻮﻀﻌﻟﺍ ﻢﻬﻴﺿﺎﻣ ﻰﻟﺇ ﻕﻮﺸﺑ ﺀﺍﺭﻮﻟﺍ ﻰﻟﺇ ﺹﺎﺨﺷﻷﺍ ﺾﻌﺑ ﺮﻈﻨﻳ ،ﻒﻴﻟﻮﺘﻠﻟ ﻢﻬﺘﺳﺎﻤﺣ ﻡﺪﻌﻟ ﺍﺮﻈﻧ"
+ synth.620.a: ".ﺔﺒﻛﺮﻤﻟﺍ ﻡﺎﺴﺟﻸﻟ ﺔﻄﻄﺨﻤﻟﺍ ﺏﻮﻴﻌﻟﺍ ﻝﺎﺧﺩﺇ"
+ synth.620.b: ".ﻞﻣﺎﻛ ﺮﻴﻏ ﺎﻤﻟﺎﻋ ﻢﻬﻟ ﺮﻓﻮﺗ"
+ synth.620.c: ".ﻲﺿﺎﻤﻟﺍ ﻰﻠﻋ ﻲﺴﻧﺎﻣﻭﺭ ﻊﺑﺎﻃ ﺀﺎﻔﺿﺇ ﺔﻗﺎﻤﺤﻟﺍ ﻦﻣ"
+ synth.620.d: ".ﻢﻬﻓﺪﻬﺑ ﻢﻟﻷﺍ ﻢﻫﺮﻛﺬﻳ ﻑﻮﺳ"
+ synth.620.d.tt: "\n\n!ﺃﺪﺒﺗ ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﻙﺭﺎﻌﻤﻟﺍ ﻉﺩ"
+
+ synth.630.name: "ﻲﻟﺰﻨﻤﻟﺍ ﻡﺩﺎﺨﻟﺍ ﺔﻴﻨﺑ"
+ synth.630.desc: ".ﻢﻬﻨﻃﻭ ﻪﻧﻮﻤﺴﻳ ﻱﺩﺎﻣ ﻥﺎﻜﻣ ﻢﻬﻳﺪﻟ ﻥﻮﻜﻳ ﻦﻟ ﺱﺎﻨﻟﺍ ﻥﺃ ﻮﻫ ،ﻲﺴﻔﻧ ﺭﻮﻈﻨﻣ ﻦﻣ ﻞﻗﻷﺍ ﻰﻠﻋ ،ﺍﺭﺮﺿ ﺮﺜﻛﻷﺍ ﺮﻣﻷﺍ ﻥﻮﻜﻳ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣﻭ .ﺎﻧﺩﺎﺼﺘﻗﺍ ﻲﻓ ﺍﺮﻴﺒﻛ ﺍﺮﺛﺃ ﻒﻠﺨﻳ ﺪﻗ ﻱﺬﻟﺍ ﺮﻣﻷﺍ ،ﻞﻣﺎﻜﻟﺎﺑ ﺭﺎﻬﻨﺗ ﺪﻗ ﻖﺑﺎﺴﻟﺍ ﻲﻓ ﺔﺤﺑﺮﻣ ﺖﻧﺎﻛ ﻲﺘﻟﺍ ﺕﺍﺭﺎﻘﻌﻟﺍ ﻕﻮﺳ ﻥﺇ \n\n .ﺔﻳﺎﻐﻠﻟ ﺔﻴﻘﻴﻘﺤﻟﺍ ﻑﻭﺎﺨﻤﻟﺍ ﺾﻌﺑ ﺮﻴﺜﺗ ﺓﺮﺻﺎﻨﻤﻟﺍ ﺕﺎﻋﺎﻤﺠﻟﺍ ﺾﻌﺑ ﻥﺈﻓ ،ﺔﻔﻠﻜﺘﻟﺍ ﺚﻴﺣ ﻦﻣ ﻻﺎﻌﻓ ﻼﺣ ﻞﺜﻤﻳ ﺍﺬﻫ ﻥﺃ ﻢﻏﺭﻭ .ﻑﻮﻓﺮﻟﺍ ﻰﻠﻋ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻡﺎﺴﺟﻷﺍ ﻦﻳﺰﺨﺗ ﻦﻜﻤﻳ ،ﺔﻤﺨﻀﻟﺍ ﻡﺩﺍﻮﺨﻟﺍ ﻉﺭﺍﺰﻣ ﻲﻓ ﻝﻮﻘﻌﻟﺍ ﺔﺣﺍﺭ ﻊﻣ ؛ﺎﻨﻳﺪﻟ ﻥﺎﻜﺳﻹﺍ ﺕﺎﺳﺭﺎﻤﻣ ﻲﻓ ﺎﻳﺭﺬﺟ ﻻﻮﺤﺗ ﺎﻀﻳﺃ ﻲﻨﻌﻳ ﺎﻬﻠﻤﻛﺄﺑ §Y[root.GetSpeciesAdj]§! ﻉﺍﻮﻧﺃ ﺐﻴﻛﺮﺗ ﻥﺇ"
+ synth.630.a: ".ﺓﺀﺎﻔﻛ ﺮﺜﻛﻷﺍ ﻲﻫ ﺔﻳﺰﻛﺮﻤﻟﺍ ﻡﺩﺍﻮﺨﻟﺍ"
+ synth.630.b: ".ﺓﺩﻮﺟﻮﻤﻟﺍ ﻝﺯﺎﻨﻤﻟﺍ ﻲﻓ ﺔﻳﺩﺮﻔﻟﺍ ﻡﺩﺍﻮﺨﻟﺍ ﻦﻳﺰﺨﺗ ﻦﻜﻤﻳ"
+ synth.630.c: ".ﺔﻴﻤﻗﺮﻟﺍ ﻝﺯﺎﻨﻤﻟﺍ ﻊﻴﺑ ﻲﻓ ﺃﺪﺑﺍ"
+
+### EVENT POOL 2: POSSIBILITIES ###
+ synth.1010.name: "ﻲﺋﺎﻬﻧﻼﻟﺍ ﻝﺎﻤﺘﺣﻻﺍ ﺔﻓﻮﻔﺼﻣ"
+ synth.1010.desc: "؟ﻢﻴﻈﻨﺘﻟﺍ ﻝﻼﺧ ﻦﻣ ﻂﺳﻭ ﻞﺣ ﺩﺎﺠﻳﺇ ﻭﺃ ،ﺢﺑﺮﻤﻟﺍ ﻪﻴﻓﺮﺘﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﺍﺪﻳﺪﺟ ﻼﻜﺷ ﺎﻫﺭﺎﺒﺘﻋﺎﺑ ﺎﻬﻟ ﺞﻳﻭﺮﺘﻟﺍ ﻭﺃ ،ﻥﺎﻣﺩﻹﺍ ﺐﺒﺴﺗ ﻲﺘﻟﺍ ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﻢﻟﺍﻮﻌﻟﺍ ﺮﻈﺣ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻳ ﻞﻫ\n\n.ﻲﻤﻗﺮﻟﺍ ﺩﺎﺼﺘﻗﻻﺍ ﻲﻓ ﺔﻛﺭﺎﺸﻤﻟﺍ ﻝﻼﺧ ﻦﻣ ﻊﻤﺘﺠﻤﻟﺍ ﻲﻓ ﺔﻤﻫﺎﺴﻤﻟﺍ ﻢﻬﻧﺎﻜﻣﺈﺑ ﻝﺍﺰﻳ ﻻ ﻦﻜﻟﻭ ،ﺎﻣﺎﻤﺗ "ﺔﻴﻘﻴﻘﺤﻟﺍ" ﺓﺎﻴﺤﻟﺎﺑ ﻝﺎﺼﺗﻻﺍ ﻥﺍﺪﻘﻓ ﺮﻄﺨﻟ ﺾﻌﺒﻟﺍ ﺽﺮﻌﺘﻳﻭ .ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻴﻤﻗﺮﻟﺍ ﺎﻴﺑﻮﺗﻮﻴﻟﺍ ﻲﻓ ﺖﻗﻮﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍﻭ ﺪﻳﺰﻤﻟﺍ ﺱﺎﻨﻟﺍ ﻲﻀﻘﻳ ﺚﻴﺣ ﻲﻧﺎﻌﻳ ﻱﺩﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻲﻓ ﺝﺎﺘﻧﻹﺍ ﺃﺪﺑ ﺪﻘﻓ ،ﺎﻴﺴﻴﺋﺭ ﺎﻳﺩﺎﺼﺘﻗﺍ ﺎﻛﺮﺤﻣ ﺓﺮﻫﺩﺰﻤﻟﺍ ﺔﻋﺎﻨﺼﻟﺍ ﻩﺬﻫ ﻞﺜﻤﺗ ﻦﻴﺣ ﻲﻓﻭ .ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺎﻧﺎﻣﺩﺇ ﻭﺃ ﺔﻴﺑﺫﺎﺟ ﺮﺜﻛﺃ ﻲﺿﺍﺮﺘﻓﻻﺍ ﻪﻴﻓﺮﺘﻟﺍ ﻦﻜﻳ ﻢﻟ ،ﻲﻤﻗﺭ ﻊﺠﺘﻨﻣ ﻲﻓ ﺀﺎﺧﺮﺘﺳﻻﺍ ﻰﺘﺣﻭ ﻝﻭﻷﺍ ﺺﺨﺸﻟﺍ ﺭﻮﻈﻨﻣ ﻦﻣ ﺓﺮﻣﺎﻐﻣ ﺓﺎﻛﺎﺤﻣ ﺓﺭﺎﺛﺇ ﻦﻣ ﺍﺀﺪﺑ .ﺮﻫﺩﺰﺗ ﺔﻴﻤﻗﺮﻟﺍ ﺔﻋﺎﻨﺼﻟﺍ"
+ synth.1010.a: ".ﺭﺍﺮﻤﺘﺳﺎﺑ ﻥﺎﻣﺩﻹﺍ ﺐﺒﺴﺗ ﻲﺘﻟﺍ ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﻢﻟﺍﻮﻌﻟﺍ ﺮﻈﺣ"
+ synth.1010.b: ".ﺔﻴﺿﺍﺮﺘﻓﻻﺍ ﺔﻨﺠﻟﺍ ﻩﺬﻫ ﺰﻳﺰﻌﺗ"
+ synth.1010.b.hedonist: "!ﺔﻘﻠﻄﻤﻟﺍ ﺔﻨﺠﻟﺍ ﺍﺮﻴﺧﺃﻭ"
+ synth.1010.c: ".ﺔﻋﺎﻨﺼﻟﺍ ﻢﻴﻈﻨﺗ"
+
+ synth.1020.name: "ﻲﻋﺎﻨﻄﺻﻻﺍ ﺐﻄﻟﺍ"
+ synth.1020.desc: "؟ﺎﻨﺘﻳﻮﻬﻟ ﺩﺍﺪﺘﻣﺎﻛ ﻡﺎﻤﺘﻫﻻﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻪﻴﻄﻌﻧ ﻥﺃ ﻡﺃ ،ﺎﻬﻨﻣ ﺺﻠﺨﺘﻟﺍ ﻦﻜﻤﻳ ﺔﻌﻠﺳ ﺪﺴﺠﻟﺍ ﺭﺎﺒﺘﻋﺍﻭ ،ﺔﻴﻤﻗﺮﻟﺍ ﺎﻨﻟﻮﻘﻋ ﺔﻳﺎﻤﺣ ﻰﻠﻋ ﺰﻛﺮﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﻲﻐﺒﻨﻳ ﻞﻫ\n\n.ﺔﻴﻤﻗﺮﻟﺍ ﺕﺎﺳﻭﺮﻴﻔﻟﺍﻭ ،ﻝﺎﺼﺗﻻﺍ ﻑﻭﺎﺨﻣﻭ ،ﺓﺎﻴﺤﻟﺍ ﺩﺪﻬﻳ ﻱﺬﻟﺍ ﻡﺩﺎﺨﻟﺍ ﺭﺍﺮﻘﺘﺳﺍ ﻰﺘﺣﻭ ﺔﻄﻴﺴﺒﻟﺍ ﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﻝﺎﻄﻋﻷﺍ ﻦﻣ ﺍﺀﺪﺑ ،ﺕﻼﻜﺸﻤﻟﺍ ﻦﻣ ﺎﻣﺎﻤﺗ ﺓﺪﻳﺪﺟ ﺔﻋﻮﻤﺠﻣ ﺎﻀﻳﺃ ﺍﻮﻘﻠﺧ ﺪﻘﻓ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟﻭ .ﻱﻮﻀﻌﻟﺍ ﻢﺴﺠﻟﺍ ﺕﺎﺑﺎﺻﺇﻭ ﺽﺍﺮﻣﺃ ﻦﻣ ﺓﺪﻳﺪﺠﻟﺍ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺎﻨﻟﺎﻜﺷﺃ ﺎﻨﺗﺭﺮﺣ ﺪﻘﻟ"
+ synth.1020.a: ".ﺪﺴﺠﻟﺍ ﺔﻳﺎﻤﺣ ﻲﻓ ﺮﻤﺘﺴﻧ ﻥﺃ ﺐﺠﻳ"
+ synth.1020.a.spiritual: ".ﺡﻭﺮﻠﻟ ﺱﺪﻘﻣ ﺀﺎﻋﻭ ﺪﺴﺠﻟﺍ"
+ synth.1020.b: ".ﻞﻘﻌﻟﺍ ﺔﻳﺎﻤﺣ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ synth.1020.b.spiritual: ".ﻱﺩﺎﻤﻟﺍ ﻞﻜﺸﻟﺍ ﻞﻌﻔﻟﺎﺑ ﺎﻧﺯﻭﺎﺠﺗ ﺪﻘﻟ"
+ synth.1020.c: ".ﺡﺎﺘﻔﻤﻟﺍ ﻮﻫ ﻥﺯﺍﻮﺘﻟﺍ"
+ synth.1020.d: "...ﺓﺮﻴﻄﺧ ﻮﻤﻧ ﺕﺎﻧﺎﻜﻣﺇ ﺓﺪﻳﺪﺠﻟﺍ ﺽﺍﺮﻣﻷﺍ ﻩﺬﻫ ﺮﻓﻮﺗ"
+
+ synth.1030.name: "ﺭﻮﻬﻈﻟﺍ ﺓﺩﺎﻋﺇ"
+ synth.1030.desc: ".ﺮﻄﺨﻠﻟ ﻥﺎﻜﺴﻠﻟ ﺔﻴﻠﻘﻌﻟﺍ ﺔﻣﻼﺴﻟﺍ ﺽﺮﻌﻧ ﻥﺃ ﺔﻴﺸﺧ ﺎﻨﺗﺎﺣﻮﻤﻃ ﻒﻴﻔﺨﺗ ﻭﺃ ﺔﻔﻟﺍﻮﻤﻟﺍ ﺀﺍﺩﻷﺍ ﺩﻭﺪﺣ ﻊﻓﺪﻟ ﺔﻴﺴﻔﻨﻟﺍ ﺔﻣﺪﺼﻟﺍ ﻞﻫﺎﺠﺗ ﺎﻣﺇ ﺎﻨﻨﻜﻤﻳ \n\n .ﻍﺍﺮﻓ ﻦﻣ ﺓﺪﻳﺪﺟ ﻡﺎﺴﺟﺃ ﻊﻴﻨﺼﺗ ﺔﻃﺎﺴﺒﺑ ﻦﻜﻤﻳ ﻻﻭ .ﺎﻤﺋﺍﺩ ﺎﻧﻮﻤﻀﻣ ﺲﻴﻟ ﻉﺎﺟﺮﺘﺳﻻﺍ ﻥﺃﻭ ﺔﺻﺎﺧ .ﻞﻣﺎﻜﻟﺎﺑ ﺎﻬﻠﻳﺰﻳ ﻻ ﻪﻨﻜﻟ ،ﺔﻣﺪﺼﻟﺍ ﻦﻣ ﻞﻠﻘﻳ ﺪﻗ ﻞﻘﻌﻟﺍ ﺓﺩﺎﻌﺘﺳﺍ ﻦﻜﻤﻳ ﻪﻧﺃ ﺔﻓﺮﻌﻣ ﻥﺇ .ﺔﻴﻠﻘﻋ ﺔﻔﻠﻜﺗ ﻪﻟ ﻝﺍﺰﻳ ﻻ ﺓﺮﻴﻄﺧ ﻒﻗﺍﻮﻤﻟ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻡﺎﺴﺟﻷﺍ ﺾﻳﺮﻌﺗ ﻦﻜﻟ .ﻯﻮﻗﺃﻭ ﻞﻀﻓﺃﻭ ﻉﺮﺳﺃ ﺎﻨﺤﺒﺻﺃ ﺪﻘﻟ"
+ synth.1030.a: ".ﺩﻭﺪﺤﻟﺍ ﻊﻓﺩ ﻲﻓ ﺭﺍﺮﻤﺘﺳﻻﺍ"
+ synth.1030.b: ".ﺭﺬﺤﻟﺍ ﻲﺧﻮﺗ"
+ synth.1030.c: ".ﺮﻄﺨﻠﻟ ﺔﺒﺨﻨﻟﺍ ﺾﻳﺮﻌﺗ ﻲﻐﺒﻨﻳ ﻻ"
+
+# FINAL EVENT #
+ synth_virtual_trait: "§Y$leader_trait_virtual$§! ﺔﻤﺴﺑ ﺎﻬﻟﺍﺪﺒﺘﺳﺍ ﻢﺗ ﻲﺘﻟﺍ §Y$leader_trait_synthetic$§! ﺔﻤﺳ ﻢﻬﻳﺪﻟ ﺓﺩﺎﻘﻟﺍ\n§Y$trait_robot_digital_1$§! :ﺏﺎﺴﺘﻛﻻﺍ ﺔﻤﺳ [owner.species.GetNamePlural]\n"
+ synth_physical_traits: "ﻉﺍﻮﻧﻷﺍ ﻞﻳﺪﻌﺘﻟ §YAdvanced§! ﺕﺎﻤﺳ ﺢﺘﻔﻳ\n"
+# DEMOCRATIC
+ synth.1505.name: "ﺐﻛﺮﻤﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ"
+ synth.1505.desc.physical: ".ﻪﻴﻟﺇ ﺔﺟﺎﺤﻟﺍ ﺪﺘﺸﺗ ﻥﺎﻜﻣ ﻱﺃ ﻲﻓ ﻞﻤﻌﻟﺍﻭ ﺶﻴﻌﻟﺎﺑ ﺱﺎﻨﻠﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺓﺮﻴﺒﻛ ﺩﺍﺪﻋﺄﺑ ﺔﺼﺼﺨﺘﻤﻟﺍ ﺕﯫﻴﻬﻟﺍ ﻰﻟﺇ ﺎﻨﻴﻋﻭ ﻞﻘﻧ ﺎﻨﻨﻜﻤﻳ .ﻰﻀﻣ ﺖﻗﻭ ﻱﺃ ﻦﻣ ﺔﻟﻮﻬﺳ ﺮﺜﻛﺃ ﺔﻛﺮﺤﻟﺍ ﺔﻳﺮﺣ ﺖﺤﺒﺻﺃ ،ﺮﻴﻴﻐﺘﻟﺍ ﺍﺬﻫ ﻊﻣ\n\n.ﻪﻴﻓ ﺔﻌﺟﺭ ﻻ ﻞﻜﺸﺑ ﺎﻨﺴﻔﻧﺃ ﺪﻘﻔﻧ ﻥﺃ ﻥﻭﺩ ﻒﻴﻟﻮﺘﻟﺍ ﺪﺋﺍﻮﻓ ﻲﻨﺟ ﺎﻨﻨﻜﻤﻳ .ﺎﻣﺎﻤﺗ ﺔﻳﺩﺮﻔﻟﺍ ﻮﺤﻣ ﺎﻨﺘﻴﻧ ﻲﻓ ﺲﻴﻟ"
+ synth.1505.desc.virtual: ".ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﻞﻤﻬﻤﻟﺍ ﻍﺍﺮﻔﻟﺍ ﻭﺃ ﺏﺮﺤﻟﺍ ﺮﻃﺎﺨﻣ ﻊﻣ ﺎﻨﻠﻣﺎﻌﺗ ﺔﻴﻔﻴﻛ ﻲﻓ ﻲﺴﻴﺋﺭ ﻢﻠﻌﻣ ﻪﻧﺇ .ﺮﻄﺨﻠﻟ ﺎﻨﻴﻋﻭ ﺽﺮﻌﺗ ﻻ ﻕﺮﻄﺑ ﺕﻻﻵﺍ ﻊﻣ ﻞﻋﺎﻔﺘﻟﺍ ﻥﻵﺍ ﺎﻨﻧﺎﻜﺳ ﻊﻴﻄﺘﺴﻳ \n\n .ﺔﻴﻤﻫﻷﺍ ﺔﻐﻟﺎﺒﻟﺍ ﺔﻠﺣﺮﻟﺍ ﻩﺬﻫ ﻲﻓ ﺎﻌﻣ ﻉﺮﺸﻧ ﺎﻨﻨﻜﻟﻭ ،ﺪﻌﺑ ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺎﻬﻤﻬﻔﻧ ﻢﻟ ﻕﺮﻄﺑ ﺎﻨﺴﻔﻧﺃ ﻞﻳﻮﺤﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ .ﻑﻮﺨﻟﺍﻭ ﺓﺭﺎﺛﻹﺍ ﻦﻣ ﺞﻳﺰﻤﺑ ﻞﺒﻘﺘﺴﻤﻟﺍ ﻰﻟﺇ ﻊﻠﻄﺘﻳﻭ ﻱﺩﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻦﻣ ﺎﻨﻌﻤﺘﺠﻣ ﺭﺮﺤﺗ ﺪﻘﻟ"
+ synth.1505.desc.neutral: ".ﺏﺮﺤﻟﺍﻭ ﺀﺎﻀﻔﻟﺍ ﻰﻟﺇ ﺮﻔﺴﻟﺍ ﺓﻮﺴﻗ ﻞﻤﺤﺘﻟ ﻞﻣﺎﻜﻟﺎﺑ ﻂﻠﺘﺨﻤﻟﺍ ﻢﻬﻠﻜﺷ ﻥﺎﻀﺘﺣﺍ ﻭﺃ ،ﻢﻬﺘﺒﻏﺭ ﺐﺴﺣ ﺹﺎﺨﺷﻷﺍ ﺎﻬﻴﻟﺇ ﺰﻔﻘﻴﻟ ﺔﺼﺼﺨﺘﻤﻟﺍ ﺔﻴﺼﺨﺸﻟﺍ ﻡﺎﺴﺟﻷﺍ ﻦﻣ ﺓﺭﺎﺘﺨﻣ ﺔﻋﻮﻤﺠﻣ ﺀﺎﺸﻧﺇ ﺎﻣﺇ ﺍﺬﻫ ﻲﻨﻌﻳ ﺪﻗ \n\n .ﻡﺎﻣﻷﺍ ﻰﻟﺇ ﺎﻨﺒﻌﺷ ﺩﻮﻘﻧ ﻥﺃ ﺐﺠﻳ ﻚﻟﺬﻟﻭ ،ﻕﺮﻄﻟﺍ ﻕﺮﺘﻔﻣ ﻲﻓ ﻱﺪﻳﻷﺍ ﻲﻓﻮﺘﻜﻣ ﻒﻘﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﻻ ﻦﻜﻟﻭ .ﻩﻮﺒﺴﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﺎﻣ ﻥﺄﺸﺑ ﻢﻬﻘﻠﻗ ﻦﻣ ﺮﺜﻛﺃ ﻪﻧﻭﺮﺴﺨﻳ ﺪﻗ ﺎﻣ ﻥﺄﺸﺑ ﻖﻠﻘﻟﺎﺑ ﻥﻭﺮﻴﺜﻜﻟﺍ ﺮﻌﺸﻳ .ﻡﻮﻬﻔﻣ ﺮﻣﺃ ﻡﻮﻬﻔﻣ ﺮﻴﻏ ﺮﻴﻴﻐﺗ ﻂﺳﻭ ﺩﺩﺮﺘﻟﺍ ﻥﺇ"
+ synth.1505.a: ".ﺔﻳﺩﺎﻤﻟﺍ ﻡﺎﺴﺟﻷﺍ ﻦﻴﺑ ﻞﻘﻨﺘﻟﺍ ﻞﻴﻬﺴﺗ"
+ synth.1505.a.tt: " $synth_physical_traits$['concept_auth_synth_democratic_physical']$change_auth_tt$ "
+ synth.1505.b: ".ﺎﻨﻠﺟﺃ ﻦﻣ ﻝﺎﺘﻘﻠﻟ ﻞﺋﺍﺪﺒﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ"
+ synth.1505.b.tt: " $synth_virtual_trait$['concept_auth_synth_democratic_virtual']$change_auth_tt$ "
+ synth.1505.c: "$synth_keep_auth_option$"
+ synth.1505.c.tt: "['concept_auth_democratic']$keep_auth_tt$ "
+
+# OLIGARCHIC
+ synth.1510.name: "ﺐﻛﺮﻤﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ"
+ synth.1510.desc.physical: ".ﻅﻮﺤﻠﻣ ﻞﻜﺸﺑ ﻲﻃﺍﺮﻗﻭﺮﻴﺒﻟﺍ ﺀﺍﺩﻷﺍ ﻦﻴﺴﺤﺗ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺔﻴﻟﺎﻌﻓ ﻞﻗﻷﺍ ﻢﻬﺋﺍﺮﻈﻧ ﻰﻠﻋ ﺎﺘﻗﺆﻣ ﺓﺮﻄﻴﺴﻟﺍ ﻲﻟﻮﺘﺑ ﺓﺮﺒﺧ ﺮﺜﻛﻷﺍ ﻦﻴﻟﻭﺆﺴﻤﻠﻟ ﺢﻤﺴﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﺍﺬﻫﻭ \n\n .ﺎﺒﻳﺮﻘﺗ ﺔﺒﻏﺮﻟﺍ ﺐﺴﺣ ﺚﺜﺠﻟﺍ ﻝﺩﺎﺒﺗ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻧﻮﻜﻳ ﻑﻮﺳ ﺎﻨﻴﻔﻇﻮﻣ ﻥﺈﻓ ،ﺺﺼﺨﻤﻟﺍ ﻱﺩﺎﻤﻟﺍ ﻞﻜﺸﻟﺎﺑ ﻅﺎﻔﺘﺣﻻﺍ ﻊﻣﻭ .ﻒﻴﻟﻮﺘﻠﻟ ﺎﻈﻔﺤﺗ ﺮﺜﻛﺃ ﺭﺎﺴﻣ ﻰﻟﺇ ،ﺔﻣﺎﻌﻟﺍ ﺮﻋﺎﺸﻤﻟﺍﻭ ،ﺔﻨﺴﺤﻤﻟﺍ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻡﺎﺴﺟﻷﺍﻭ ،ﻊﻨﺼﻤﻟﺍ ﺎﻨﻌﻤﺘﺠﻣ ﺮﻴﺸﻳ"
+ synth.1510.desc.virtual: ".ﺮﻴﺜﻜﺑ ﻞﻗﺃ ﺔﻴﻣﻮﻜﺣ ﺔﺑﺎﻗﺮﺑﻭ ،ﺓﺀﺎﻔﻛﻭ ﺔﻋﺮﺴﺑ ﺮﻣﺍﻭﻷﺍ ﺬﻴﻔﻨﺗ ﻦﻣ ﻦﻜﻤﻴﺳ ﺍﺬﻫﻭ \n\n .ﺩﻮﺟﻮﻟﺍ ﻦﻣ ﺔﻳﺩﺎﻣ ﺮﻴﻏ ﺔﻟﺎﺣ ﻰﻟﺇ ﻝﺎﻘﺘﻧﻼﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻥﺎﻜﺴﻟﺍ ﺔﻴﺒﻟﺎﻏ ﻦﻜﻟﻭ ،ﻱﺩﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻲﻓ ﻡﺎﻬﻣ ﺔﺘﻗﺆﻤﻟﺍ ﺕﯫﻴﻬﻟﺍ ﺬﻔﻨﺘﺳ \n\n .ﻞﻣﺎﻜﻟﺎﺑ ﻲﺿﺍﺮﺘﻓﻻﺍ ﺩﻮﺟﻮﻟﺍ ﻥﺎﻀﺘﺣﺍ ﻱﺃ ،ﻒﻴﻟﻮﺘﻟﺍ ﺓﺭﻮﺛ ﻲﻓ ﺔﻴﻟﺎﺘﻟﺍ ﺔﻴﻘﻄﻨﻤﻟﺍ ﺓﻮﻄﺨﻟﺍ ﺫﺎﺨﺗﻻ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻥﻵﺍ ﻦﺤﻧ"
+ synth.1510.desc.neutral: ".ﺮﻴﺧﺄﺗ ﻥﻭﺩ ﺪﺣﺍﻭ ﺖﻗﻭ ﻲﻓ ﺓﺩﺪﻌﺘﻣ ﺔﻴﻣﻮﻜﺣ ﻊﻳﺭﺎﺸﻣ ﻰﻠﻋ ﻑﺍﺮﺷﻺﻟ ﻢﻬﻟ ﺔﻴﻜﺒﺷ ﺔﻴﺿﺍﺮﺘﻓﺍ ﺔﻬﺟﺍﻭ ﺮﻳﻮﻄﺗ ﻭﺃ ،ﻦﻴﻟﺎﻌﻓ ﺮﻴﻏ ﻦﻴﺳﻭﺅﺮﻣ ﺩﺎﺴﺟﺃ ﻰﻠﻋ ﺀﻼﻴﺘﺳﻻﺎﺑ ﻦﻴﻓﺮﺸﻤﻟﺍ ﻦﻴﻟﻭﺆﺴﻤﻠﻟ ﺢﻤﺴﺗ ﺔﻳﻮﻬﻠﻟ ﺔﻴﻔﻠﺧ ﺏﺍﻮﺑﺃ ﺀﺎﺸﻧﺇ ﺎﻣﺇ ﺎﻨﻨﻜﻤﻳ\n\n.ﺺﺼﺨﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺪﺋﺍﻮﻓ ﻥﺄﺸﺑ ﺔﻤﺳﺎﺣ ﺮﻴﻏ ﻝﺍﺰﺗ ﻻ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻜﻟ ،ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺓﺎﻴﺤﻟﺍ ﻊﻣ ﻊﻤﺘﺠﻤﻟﺍ ﺀﺍﺰﺟﺃ ﻊﻴﻤﺟ ﻒﻴﻴﻜﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+ synth.1510.a: ".ﺀﺎﻔﻛﻷﺍ ﺮﻴﻏ ﻢﻬﻧﺍﺮﻗﺃ ﻲﻟﻮﺘﺑ ﻦﻴﻟﻭﺆﺴﻤﻠﻟ ﺡﺎﻤﺴﻟﺍ"
+ synth.1510.a.tt: " $synth_physical_traits$['concept_auth_synth_oligarchic_physical']$change_auth_tt$ "
+ synth.1510.b: ".ﻞﻣﺎﻜﻟﺍ ﻱﺮﻫﺎﻈﻟﺍ ﻑﺍﺮﺷﻹﺍ ﻥﺎﻀﺘﺣﺍ"
+ synth.1510.b.tt: " $synth_virtual_trait$['concept_auth_synth_oligarchic_virtual']$change_auth_tt$ "
+ synth.1510.c: "$synth_keep_auth_option$"
+ synth.1510.c.tt: "['concept_auth_oligarchic']$keep_auth_tt$ "
+
+# DICTATORIAL
+ synth.1515.name: "ﺐﻛﺮﻤﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ"
+ synth.1515.desc.physical: ".§Y[From.GetRulerName] [From.GetRulerTitle]§! ،ﻰﻠﻋﻷﺍ ﺎﻧﺪﺋﺎﻗ ﺕﺎﻬﻴﺟﻮﺘﺑ ﺔﻘﺜﻟﺍ ﻲﻓ ﻖﺣ ﻰﻠﻋ ﺎﻨﻧﺃ ﻰﻠﻋ ﺔﺤﺿﺍﻭ ﺔﻣﻼﻋ ﺭﻮﻄﺘﻟﺍ ﺍﺬﻫ ﺪﻌﻳ\n\n .ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﻲﻓ ﻅﻮﺤﻠﻣ ﻞﻜﺸﺑ ﺝﺎﺘﻧﻹﺍ ﺺﺼﺣ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ - ﺕﯫﻴﻫ ﺓﺪﻋ ﻲﻓ ﺪﻌﺑ ﻦﻋ ﻢﻜﺤﺘﻟﺍ ﻥﻵﺍ ﻢﻬﻨﻜﻤﻳﻭ ﺔﻜﺒﺸﻟﺎﺑ ﺎﻨﻟﺎﻤﻋ ﻂﺑﺭ ﻢﺗ ﺪﻘﻟ .ﻕﺩﺎﺼﻟﺍ ﻱﺪﺴﺠﻟﺍ ﻞﻤﻌﻟﺍ ﻦﻣ ﺏﺮﻬﺘﻳ ﻻ ﺎﻨﺒﻌﺷ"
+ synth.1515.desc.virtual: ".ﺔﻳﻮﻘﻟﺍ ﺔﻣﻷﺍ ﺓﺰﻴﻛﺭ ﻮﻫ ﻪﺗﺩﺎﻴﻗ ﻊﻣ ﻖﻓﺍﻮﺘﻤﻟﺍ ﺐﻌﺸﻟﺍ ﻥﺇ .ﺔﻟﻭﺪﻟﺍ ﻩﺎﺠﺗ ﺔﻴﺑﺎﺠﻳﻹﺍ ﺮﻋﺎﺸﻤﻟﺍ ﺰﻳﺰﻌﺗﻭ ،ﻢﻬﻌﻗﺍﻮﺑ ﺐﻋﻼﺘﻠﻟ ﺔﻠﻣﺎﻜﻟﺍ ﺔﻳﺮﺤﻟﺍ ﺎﻨﻳﺪﻟ ﺢﺒﺻﺃ ،ﻢﻬﺗﺍﺭﻮﺼﺗ ﻦﻣ ﺎﻨﺼﻠﺨﺗ ﻥﺃ ﺪﻌﺑﻭ \n\n .ﻞﻣﺎﻜﻟﺎﺑ ﺔﻴﺿﺍﺮﺘﻓﺍ ﺔﺌﻴﺑ ﻲﻓ ﻢﻫﺩﻮﺟﻭ ﺔﻠﺻﺍﻮﻤﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﻢﻬﻧﺇ .ﻲﻤﻗﺮﻟﺍ ﻲﻋﻮﻟﺍ ﺢﻟﺎﺼﻟ ﺔﻳﺩﺎﻤﻟﺍ ﻢﻬﻟﺎﻜﺷﺃ ﻦﻣ ﺺﻠﺨﺘﻠﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﺱﺎﻨﻟﺍ"
+ synth.1515.desc.neutral: ".ﻕﻮﺒﺴﻣ ﺮﻴﻏ ﻕﺎﻄﻧ ﻰﻠﻋ ﺔﻴﻌﻤﺘﺠﻤﻟﺍ ﺓﺮﻄﻴﺴﻟﺍ ﺢﻴﺘﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﻲﺿﺍﺮﺘﻓﻻﺍ ﺩﻮﺟﻮﻟﺍ ﻥﺃ ﻦﻴﺣ ﻲﻓ ،ﺓﺩﺪﻌﺘﻣ ﺩﺎﺴﺟﺃ ﻲﻓ ﻢﻜﺤﺘﻟﺎﺑ ﺪﺣﺍﻭ ﻞﻣﺎﻌﻟ ﺢﻤﺴﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﻱﺩﺎﻤﻟﺍ ﺰﻴﻛﺮﺘﻟﺎﻓ .ﺭﺎﻴﺘﺧﻻﺍ ﺍﺬﻫ ﺬﺨﺘﻧ ﻥﺃ ﺎﻨﻘﺗﺎﻋ ﻰﻠﻋ ﻊﻘﻳ \n\n .ﺪﻳﺪﺠﻟﺍﻭ ﻢﻳﺪﻘﻟﺍ ﻦﻴﺑ "ﺱﺎﻴﻘﻤﻟﺍ ﻒﺼﻧ" ﺍﺬﻫ ﻦﻣ ﻥﻭﺮﺧﺁ ﺀﺎﺘﺴﻳ ﺎﻤﻨﻴﺑ ،ﺔﻳﺩﺎﻤﻟﺍ ﺎﻧﺩﺎﺴﺟﺃ ﻲﻓ ﻖﻤﻌﺑ ﻦﻳﺭﺬﺠﺘﻣ ﺀﺎﻘﺒﻟﺎﺑ ﺎﻨﺒﻟﺎﻄﺗ ﺎﻈﻔﺤﺗ ﺮﺜﻛﺃ ﺕﺍﻮﺻﺃ ﻙﺎﻨﻫ .ﻲﻤﻗﺮﻟﺍ ﺎﻨﻴﻋﻭ ﻩﺬﺨﺘﻳ ﻥﺃ ﺐﺠﻳ ﻱﺬﻟﺍ ﻞﻜﺸﻟﺍ ﻥﺄﺸﺑ ﻦﻳﺩﺩﺮﺘﻣ §Y[root.GetSpeciesAdj]§! ﻥﺎﻜﺳ ﻝﺍﺰﻳ ﻻ"
+ synth.1515.a: ".ﺎﻴﺒﺼﻋ ﺔﻨﻣﺍﺰﺘﻣ ﺔﻠﻣﺎﻋ ﻡﺎﺴﺟﺃ ﺀﺎﺸﻧﺇ"
+ synth.1515.a.tt: " $synth_physical_traits$['concept_auth_synth_dictatorial_physical']$change_auth_tt$ "
+ synth.1515.b: ".ﻲﺿﺍﺮﺘﻓﻻﺍ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﻲﺒﻌﺸﻟﺍ ﻱﺃﺮﻟﺎﺑ ﺐﻋﻼﺘﻟﺍ"
+ synth.1515.b.tt: " $synth_virtual_trait$['concept_auth_synth_dictatorial_virtual']$change_auth_tt$ "
+ synth.1515.c: "$synth_keep_auth_option$"
+ synth.1515.c.tt: "['concept_auth_dictatorial']$keep_auth_tt$ "
+
+# IMPERIAL
+ synth.1520.name: "ﺐﻛﺮﻤﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ"
+ synth.1520.desc.physical: ".ﻪﻧﻭﺪﻳﺮﻳ ﺍﻮﻧﺎﻛ ﺎﻣ ﻮﻫ ﺪﻴﻛﺄﺘﻟﺎﺑ ﺍﺬﻫ ﻥﺈﻓ ،ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻡﺍﺪﺧ ﻢﻫﺭﺎﺒﺘﻋﺎﺑﻭ .ﺍﺮﺧﺆﻣ ﺓﺎﻓﻮﺘﻤﻟﺍ ﺎﻨﺘﺒﺨﻧ ﻦﻣ ﺔﻓﺮﻌﻤﻟﺍ ﺕﺎﻤﺼﺑ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ ﺔﻴﻧﻭﺮﺘﻳﺯﻮﺒﻟﺍ ﻝﻮﻘﻌﻟﺍ ﻚﻴﻜﻔﺘﺑ ﺓﺪﻳﺪﺠﻟﺍ ﻝﺎﻜﺷﻷﺍ ﻩﺬﻫ ﺢﻤﺴﺗ\n\n .ﺓﺪﻳﺪﺠﻟﺍ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺎﻨﻣﺎﺴﺟﺃ ﺰﻳﺰﻌﺗ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻞﻀﻔﺗ"
+ synth.1520.desc.virtual: "!§Y[From.GetSpeciesAdj]§! ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹ ﺪﺠﻤﻟﺍ ﺐﻠﺠﺗﻭ ،ﺏﺮﺤﻟﺎﺑ ﺔﻘﻠﻌﺘﻤﻟﺍ ﺔﻔﻠﺘﺨﻤﻟﺍ ﻒﻗﺍﻮﻤﻟﺍ ﻲﻓ ﺎﻨﺗﺀﺎﻔﻛ ﻦﻣ ﺪﻳﺰﺘﺳ ﺓﺪﻳﺪﺠﻟﺍ ﺕﺍﺭﻮﻄﺘﻟﺍ ﻩﺬﻫ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣ\n\n.ﺓﺮﻄﺨﻟﺍ ﻡﺎﻬﻤﻟﺍ ﺀﺎﻨﺛﺃ ﺓﺮﻣﺪﻤﻟﺍ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻡﺎﺴﺟﻸﻟ ﺔﻌﻳﺮﺳ ﻞﺋﺍﺪﺑ ﺮﺸﻧ ﻰﻠﻋ ﻥﻭﺭﺩﺎﻗ ﻦﺤﻧ ،ﺔﻳﻮﻬﻟﺍ ﻞﻘﻧ ﻯﺪﻣﻭ ﺔﻋﺮﺳ ﺰﻳﺰﻌﺗ ﻝﻼﺧ ﻦﻣ .ﺎﻨﻠﺒﻘﺘﺴﻣ ﻲﻓ ﺎﻫﺍﺪﺻ ﺩﺩﺮﺘﻳ ﺔﻣﺩﺎﺻ ﺕﺎﺟﻮﻣ ﻡﺎﻬﻟﺍ ﺙﺪﺤﻟﺍ ﺍﺬﻫ ﻖﻠﺨﻴﺳ .ﻱﺩﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺲﻴﻳﺎﻘﻣ ﻑﺎﺼﻧﺃ ﻰﻠﻋ ﻞﻣﺎﻜﻟﺎﺑ ﻲﺿﺍﺮﺘﻓﻻﺍ ﺩﻮﺟﻮﻟﺍ ﻥﻮﻠﻀﻔﻳﻭ ،ﻚﻟﺫ ﻦﻣ ﺪﻌﺑﺃ ﻰﻟﺇ ﺏﺎﻫﺬﻠﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﺱﺎﻨﻟﺍ §Y[From.GetSpeciesAdj]§!"
+ synth.1520.desc.neutral: ".ﺔﻳﻮﻬﻠﻟ ﻊﻳﺮﺴﻟﺍ ﻞﻘﻨﻟﺍ ﺮﺒﻋ ﺓﺮﻣﺪﻤﻟﺍ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﻡﺎﺴﺟﻸﻟ ﻞﻣﺎﺸﻟﺍ ﻝﺍﺪﺒﺘﺳﻻﺎﺑ ﺢﻤﺴﻳ ﻥﺃ ﻪﻧﺄﺷ ﻦﻣ ﻲﺿﺍﺮﺘﻓﻻﺍ ﺩﻮﺟﻮﻟﺍ ﻰﻟﺇ ﻖﻳﺮﻄﻟﺍ ﻥﺈﻓ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺔﻴﺜﺤﺒﻟﺍ ﺎﻧﺩﻮﻬﺟ ﻲﻓ ﺍﺮﺧﺆﻣ ﻢﻫﺮﻴﻣﺪﺗ ﻢﺗ ﻦﻳﺬﻟﺍ ﺕﺎﻴﺼﺨﺸﻟﺍ ﺭﺎﺒﻛ ﺔﻓﺮﻌﻣ ﻡﺍﺪﺨﺘﺳﺍ ﺓﺩﺎﻋﺇ ﻦﻣ ﺎﻨﻨﻜﻤﻴﺳ ﺔﻳﺩﺎﻤﻟﺍ ﺐﻧﺍﻮﺠﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ\n\n.ﻪﺒﻠﺠﻳ ﻥﺃ ﻦﻜﻤﻳ ﺎﻣ ﻞﻛﻭ ﻒﻴﻟﻮﺘﻟﺍ ﻦﻣ ﺔﻠﻣﺎﻜﻟﺍ ﺓﺩﺎﻔﺘﺳﻻﺍ ﺪﺿ ﻥﻭﺮﺧﺁ ﻝﺩﺎﺠﻳ ﺎﻤﻨﻴﺑ ،ﺔﻔﻟﻷﺍﻭ ﻥﺎﻣﻷﺍ ﺎﻨﻟ ﺐﻠﺠﺘﺳ ﺔﺼﺼﺨﻤﻟﺍ ﺔﻳﺩﺎﻤﻟﺍ ﻡﺎﺴﺟﻷﺍ ﻥﺃ ﺾﻌﺒﻟﺍ ﺪﻘﺘﻌﻳ .ﻕﺮﻃ ﻕﺮﺘﻔﻣ ﻰﻠﻋ §Y[From.GetSpeciesAdj]§! ﺔﻳﺭﻮﻃﺍﺮﺒﻣﺇ"
+ synth.1520.a: ".ﻦﻴﻠﺣﺍﺮﻟﺍ ﺎﻨﺗﺩﺎﻗ ﻝﻮﻘﻋ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ"
+ synth.1520.a.tt: "['concept_auth_synth_imperial_physical']$change_auth_tt$ "
+ synth.1520.b: ".ﺎﻬﻨﻣ ﺺﻠﺨﺘﻟﺍ ﻦﻜﻤﻳ ﺔﻳﺩﺎﻣ ﺩﺎﺴﺟﺃ ﺀﺎﺸﻧﺇ"
+ synth.1520.b.tt: "['concept_auth_synth_imperial_virtual']$change_auth_tt$ "
+ synth.1520.c: "$synth_keep_auth_option$"
+ synth.1520.c.tt: "['concept_auth_imperial']$keep_auth_tt$ "
+
+# CORPORATE
+ synth.1525.name: "ﺐﻛﺮﻤﻟﺍ ﻊﻤﺘﺠﻤﻟﺍ"
+ synth.1525.desc.physical: ".ﺓﺮﺠﻤﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﻯﺮﺧﻷﺍ ﺔﻤﺘﻬﻤﻟﺍ ﻑﺍﺮﻃﻷﺍﻭ ﺹﺎﺨﻟﺍ ﻉﺎﻄﻘﻟﺍﻭ ﻦﻴﻜﻠﻬﺘﺴﻤﻠﻟ ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﻩﺬﻫ ﺓﺪﻳﺪﺠﻟﺍ ﺕﺎﺠﺘﻨﻤﻟﺍ ﺔﺤﻳﺮﺷ ﻑﺍﺪﻬﺘﺳﺍ ﻚﻟﺫ ﺪﻌﺑ ﻦﻜﻤﻳ .ﻝﺎﻌﻓ ﻞﻜﺸﺑ ﺓﺎﻴﺤﻟﺍ ﺎﻬﺤﻨﻣﻭ ﺓﺪﻴﻘﻤﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺔﻤﻈﻧﺄﺑ ﺓﺪﻣﺎﺠﻟﺍ ﻡﺎﺴﺟﻷﺍ ﻰﻠﻋ ﺔﻳﻮﻴﺤﻟﺍ ﺀﺎﻔﺿﺇ ﻰﻠﻋ ﻥﻭﺭﺩﺎﻗ ﻥﻵﺍ ﻦﺤﻧ \n\n .ﻱﺩﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺓﺩﺎﻓﻹ ﻲﺿﺍﺮﺘﻓﻻﺍ ﻢﻟﺎﻌﻟﺍ ﻦﻣ ﺪﻴﻔﺘﺴﺗ ﺕﺎﺠﺘﻨﻣ ﺮﻳﻮﻄﺗ ﺪﻳﺪﺠﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺩﻮﺟﻮﻠﻟ ﻥﺯﺍﻮﺘﻤﻟﺍ ﺞﻬﻨﻟﺍ ﺎﻨﻟ ﺢﻴﺘﻳ .ﺎﻬﻠﻤﻛﺄﺑ ﺎﻨﺋﻼﻤﻋ ﺓﺪﻋﺎﻘﻟ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺕﺎﻘﻴﺒﻄﺗ ﻲﻓ ﺪﻳﺪﺟ ﺭﺎﻜﺘﺑﺍ ﻰﻟﺇ ﺎﻨﻳﺪﻟ ﺙﺎﺤﺑﻷﺍﻭ ﻖﻳﻮﺴﺘﻟﺍ ﻢﺴﻗ ﻞﺻﻮﺗ ﺪﻘﻟ"
+ synth.1525.desc.virtual: ".ﺀﺍﺩﻷﺍ ﻲﻓ ﺓﺮﻴﺒﻛ ﺐﺳﺎﻜﻣ ﻖﻴﻘﺤﺘﻟ ﻲﻋﺎﻨﻄﺻﻻﺍ ﻞﻘﻌﻟﺍ ﺀﺎﺸﻧﺇ ﺕﺎﻴﻠﻤﻋ ﻲﻓ ﺕﺎﻳﺮﻛﺬﻟﺍ ﺞﻣﺩ ﻢﺘﻳ ،ﺍﺮﻴﺧﺃﻭ .ﺔﻬﺒﺠﻟﺍ ﻚﻠﺗ ﻰﻠﻋ ﻯﺮﺧﻷﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻰﻠﻋ ﺔﻴﺴﻓﺎﻨﺗ ﺓﺰﻴﻣ ﺏﺎﺴﺘﻛﺎﺑ ﺎﻨﻟ ﺢﻤﺴﻳ ﺎﻤﻣ ،ﺎﻨﻳﺪﻟ ﺲﺴﺠﺘﻟﺍ ﻢﺴﻗ ﺔﻄﺳﺍﻮﺑ ﺔﻳﺎﻨﻌﺑ ﺕﺎﻤﺼﺒﻟﺍ ﻩﺬﻫ ﺺﺤﻓ ﻚﻟﺫ ﺪﻌﺑ ﻢﺘﻳ\n\n.ﻱﺮﻫﺎﻈﻟﺍ ﻢﻬﻄﻤﻧ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ ﻦﻴﺒﻏﺍﺮﻟﺍ ﺹﺎﺨﺷﻷﺍ ﻦﻣ ﺎﻬﺟﺍﺮﺨﺘﺳﺍ ﺎﻨﻳﺪﻟ ﺔﻴﻋﺮﻔﻟﺍ ﺐﺗﺎﻜﻤﻟﺍ ﻮﻴﻨﻓ ﻊﻴﻄﺘﺴﻳ .ﺕﺎﻳﺮﻛﺬﻟﺍ ﻰﻠﻋ ﺪﻤﺘﻌﻳ ﺎﻣﺎﻤﺗ ﺪﻳﺪﺟ ﺝﺎﺘﻧﺇ ﻂﺧ ﻕﻼﻃﺇ ﻰﻟﺇ ﻲﺿﺍﺮﺘﻓﻻﺍ ﺀﺎﻀﻔﻟﺎﺑ ﺎﻨﻣﺍﺰﺘﻟﺍ ﻯﺩﺃ ﺪﻘﻟ"
+ synth.1525.desc.neutral: ".ﺮﻴﻜﻔﺘﻟﺍ ﻁﺎﻤﻧﺃﻭ ﺕﺎﻳﺮﻛﺬﻟﺍ ﻊﻴﻠﺴﺘﺑ ﺎﻨﻟ ﺢﻤﺴﺘﺳ ﻲﺿﺍﺮﺘﻓﻻﺍ ﻢﻟﺎﻌﻟﺍ ﻲﻓ ﺕﺍﺭﺎﻤﺜﺘﺳﻻﺍ ﻥﺇ .ﺓﺪﻳﺪﺠﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻦﻣ ﺔﻄﺴﺒﻣ ﺔﺨﺴﻨﻛ ﺎﻬﻌﻴﺑ ﻢﺘﻴﻟ ﺓﺪﻣﺎﺠﻟﺍ ﺀﺎﻴﺷﻷﺍ ﻰﻠﻋ ﺪﻴﻘﻤﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺀﺎﻔﺿﺇ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﻱﺩﺎﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﺎﻨﺤﻨﻤﻳ \n\n .ﺎﻨﻳﺪﻟ ﺔﺤﻠﺼﻤﻟﺍ ﺏﺎﺤﺻﻷ ﺢﺿﺍﻭ ﺪﺣﺍﻭ ﺭﺎﺴﻣ ﻢﻳﺪﻘﺗ ﺎﻨﻴﻠﻋ ﻦﻴﻌﺘﻳﻭ ﺹﺮﻔﻟﺍ ﻩﺬﻫ ﻞﺜﻣ ﺔﻓﺎﺣ ﻰﻠﻋ ﻱﺪﻳﻷﺍ ﻲﻓﻮﺘﻜﻣ ﻒﻘﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﻻ ،ﻚﻟﺫ ﻊﻣﻭ .ﺔﻣﺪﻘﻤﻟﺍ ﻲﻓ ﻒﻴﻟﻮﺘﻟﺍ ﺔﻴﻠﻤﻋ ﻲﻓ ﻲﺿﺍﺮﺘﻓﻻﺍ ﻭﺃ ﻱﺩﺎﻤﻟﺍ ﺺﺼﺨﺘﻟﺍ ﻲﺗﺄﻳ ﻻ ،ﺓﺪﺋﺎﻔﻟﺍ/ﺔﻔﻠﻜﺘﻠﻟ ﻖﻴﻗﺪﻟﺍ ﻞﻴﻠﺤﺘﻟﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ"
+ synth.1525.a: ".ﺓﺪﻴﻘﻤﻟﺍ ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺕﺎﻧﺎﻴﻛ ﻊﻳﺯﻮﺗ"
+ synth.1525.a.tt: " $synth_physical_traits$['concept_auth_synth_corporate_physical']$change_auth_tt$ "
+ synth.1525.b: ".ﺔﻌﻠﺳ ﻰﻟﺇ ﺱﺎﻨﻟﺍ ﺕﺎﻳﺮﻛﺫ ﻞﻳﻮﺤﺗ"
+ synth.1525.b.tt: " $synth_virtual_trait$['concept_auth_synth_corporate_virtual']$change_auth_tt$ "
+ synth.1525.c: "$synth_keep_auth_option$"
+ synth.1525.c.tt: "['concept_auth_corporate']$keep_auth_tt$ "
+
+### SOCIETAL EFFECTS EVENT CHAIN END ###

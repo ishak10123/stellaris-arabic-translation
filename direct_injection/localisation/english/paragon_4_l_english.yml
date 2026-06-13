@@ -1,0 +1,1342 @@
+﻿l_english:
+
+ # Gestalt trait names and desc
+ leader_trait_fallible_hive: "ﺄﻄﺨﻟﺍ ﻦﻣ ﻡﻮﺼﻌﻣ ﺮﻴﻏ"
+ leader_trait_fallible_hive_desc:0 ".ﻞﺒﻘﺘﺴﻤﻟﺍ ﻲﻓ ﻞﻛﺎﺸﻣ ﻰﻟﺇ ﻱﺩﺆﻳ ﺪﻗ ﻢﻈﺘﻨﻣ ﺮﻴﻏ ﻙﻮﻠﺳ ﻦﻣ [GetIndividualName] ﻲﻧﺎﻌﻳ"
+ leader_trait_fallible_machine: "ﺐﻴﻌﻣ"
+ leader_trait_fallible_machine_desc:0 ".ﻞﺒﻘﺘﺴﻤﻟﺍ ﻲﻓ ﻞﻛﺎﺸﻣ ﻰﻟﺇ ﻱﺩﺆﺗ ﺪﻗ ﺔﻄﻴﺴﺑ ﻝﺎﻄﻋﺃ ﻦﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻲﻧﺎﻌﺗ"
+
+ leader_trait_stubborn_machine:0 "ﺔﻣﺭﺎﺼﻟﺍ ﺔﺠﻣﺮﺒﻟﺍ"
+ leader_trait_stubborn_machine_desc:1 ".ﺔﻴﻛﻮﻠﺳ ﺕﺎﻨﻴﺴﺤﺗ ﺀﺍﺮﺟﺈﺑ ﺢﻤﺴﺗ ﺎﻣ ﺍﺭﺩﺎﻧ ﻲﺘﻟﺍﻭ ﺹﺎﺧ ﻞﻜﺸﺑ ﺔﻣﺭﺎﺻ ﺔﺠﻣﺮﺒﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻊﺘﻤﺘﺗ"
+ leader_trait_stubborn_hive:0 "ﺓﺪﻣﺎﺟ ﺔﻬﺟﺍﻭ"
+ leader_trait_stubborn_hive_desc:1 ".ﺔﻴﻛﻮﻠﺴﻟﺍ ﺕﻼﻳﺪﻌﺘﻟﺍ ﻝﻮﺒﻗ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏﻭ ﻩﺮﻴﻜﻔﺗ ﻲﻓ ﺹﺎﺧ ﻞﻜﺸﺑ ﺪﻣﺎﺟ [owner.GetIndividualName]"
+
+ leader_trait_destructive_hive_desc:1 ".ﺓﺭﻮﻄﺧ ﺮﺜﻛﺃ ﻝﺎﻄﻋﺃ ﺙﻭﺪﺣ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻪﺗﺍﺪﻌﻤﻟ ﺔﻣﺯﻼﻟﺍ ﺔﻴﻨﻴﺗﻭﺮﻟﺍ ﺔﻧﺎﻴﺼﻟﺍ [owner.GetIndividualName] ﻞﻫﺎﺠﺘﻳ"
+ leader_trait_destructive_machine_desc:1 ".ﺓﺭﻮﻄﺧ ﺮﺜﻛﺃ ﻝﺎﻄﻋﺃ ﺙﻭﺪﺣ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﺎﻬﺗﺍﺪﻌﻤﻟ ﺔﻣﺯﻼﻟﺍ ﺔﻴﻨﻴﺗﻭﺮﻟﺍ ﺔﻧﺎﻴﺼﻟﺍ ﺀﺍﺮﺟﺇ ﻲﻓ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﺸﻔﺗ"
+
+ leader_trait_lavish_lifestyle_hive:0 "ﺔﻴﻟﺎﻋ ﺔﻧﺎﻴﺻ"
+ leader_trait_lavish_lifestyle_hive_desc:0 ".ﺮﻴﺒﻛ ﺪﺣ ﻰﻟﺇ ﻝﺎﻌﻓ ﺮﻴﻏ ﻪﻠﻌﺠﻳ ﺊﻃﺎﺨﻟﺍ [owner.GetIndividualName] ﻙﻮﻠﺳ"
+ leader_trait_lavish_lifestyle_machine:0 "ﺔﻴﻟﺎﻋ ﺔﻧﺎﻴﺻ"
+ leader_trait_lavish_lifestyle_machine_desc:0 ".ﺮﻴﺒﻛ ﺪﺣ ﻰﻟﺇ ﺔﻟﺎﻌﻓ ﺮﻴﻏ ﺎﻬﻠﻌﺠﺗ ﺔﺌﻃﺎﺧ ﺔﺠﻣﺮﺑ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻱﻮﺘﺤﺗ"
+
+ leader_trait_tyrannical_hive:0 "ﺺﺼﺣ"
+ leader_trait_tyrannical_hive_desc:1 ".ﺩﺭﺍﻮﻤﻟﺍ ﻦﻴﻨﻘﺘﻟ ﺔﻃﺮﻔﻤﻟﺍ ﺔﻳﻮﻟﻭﻷﺍ ﻲﻄﻌﺗ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ"
+ leader_trait_tyrannical_machine:0 "ﺺﺼﺣ"
+ leader_trait_tyrannical_machine_desc:1 ".ﺩﺭﺍﻮﻤﻟﺍ ﻦﻴﻨﻘﺘﻟ ﺔﻃﺮﻔﻤﻟﺍ ﺔﻳﻮﻟﻭﻷﺍ ﻲﻄﻌﺗ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_righteous_hive:0 "ﺩﺎﺴﻔﻠﻟ ﻞﺑﺎﻗ ﺮﻴﻏ"
+ leader_trait_righteous_hive_desc:0 ".[owner.GetGestaltEntityName] ﻲﻓ ﻑﺮﺤﻨﻤﻟﺍ ﻙﻮﻠﺴﻟﺍ ﻦﻣ ﺪﺤﻳ ﺎﻤﻣ ،ﺩﺎﺴﻔﻠﻟ ﻡﻭﺎﻘﻣ [owner.GetIndividualName]"
+ leader_trait_righteous_machine:0 "ﺢﻴﺤﺼﺘﻟﺍ ﺕﺍﺀﺍﺮﺟﺇ"
+ leader_trait_righteous_machine_desc:0 ".ﻯﺮﺧﻷﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻰﻠﻋ ﺓﺭﺮﻜﺘﻣ ﺚﻳﺪﺤﺗ ﺕﺎﺤﻴﺤﺼﺗ ﺀﺍﺮﺟﺈﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_embezzler_hive:0 "ﺔﻗﺎﻄﻟﺍ ﻥﺍﺪﻘﻓ"
+ leader_trait_embezzler_hive_desc:1 ".ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﺓﺭﺪﻬﻣ ﺔﻴﻤﻛ ﻡﺪﺨﺘﺴﻳ ﻪﻠﻌﺠﻳ ﻲﺟﻮﻟﻮﻴﺴﻓ ﻞﻠﺧ ﻰﻠﻋ [owner.GetIndividualName] ﻱﻮﺘﺤﻳ"
+ leader_trait_embezzler_machine:0 "ﺔﻗﺎﻄﻟﺍ ﻥﺍﺪﻘﻓ"
+ leader_trait_embezzler_machine_desc:0 ".ﻱﺩﺎﻋ ﺮﻴﻏ ﻞﻜﺸﺑ ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﻚﻠﻬﺘﺴﺗ ﺎﻬﻠﻌﺠﻳ ﺎﻤﻣ ﺔﻤﻈﻧﻷﺍ ﻲﻓ ﻞﻠﺧ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻱﻮﺘﺤﺗ"
+
+ leader_trait_gullible_hive:0 "ﺕﺎﻧﺎﻴﺒﻟﺍ ﺏﺮﺴﺗ"
+ leader_trait_gullible_hive_desc:1 ".ﺓﺮﻴﺒﻛ ﺔﻴﻨﻣﺃ ﻒﻌﺿ ﻁﺎﻘﻧ ﺙﻭﺪﺣ ﻲﻓ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻬﻟ ﺔﻘﺜﻟﺍ ﺔﻌﻴﺒﻃ ﺐﺒﺴﺘﺗ"
+ leader_trait_gullible_machine:0 "ﺕﺎﻧﺎﻴﺒﻟﺍ ﺏﺮﺴﺗ"
+ leader_trait_gullible_machine_desc:0 ".ﺎﻬﺑ ﺹﺎﺨﻟﺍ ﻞﻴﻐﺸﺘﻟﺍ ﻡﺎﻈﻧ ﻲﻓ ﺮﻴﺒﻛ ﻲﻨﻣﺃ ﻒﻌﺿ ﻦﻣ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻲﻧﺎﻌﺗ"
+
+ leader_trait_bureaucratic_hive:0 "ﺕﻻﺎﺼﺗﻻﺍ ﺕﺎﺑﺍﺮﻄﺿﺍ"
+ leader_trait_bureaucratic_hive_desc:1 ".ﻱﺩﺮﻔﻟﺍ [owner.GetIndividualNamePlural] ﻊﻣ ﺮﺒﻛﻷﺍ ﻲﻋﻮﻟﺍ ﺞﻣﺩ ﺪﻨﻋ ﻝﺎﺼﺗﻻﺍ ﻲﻓ ﺕﺎﻋﺎﻄﻘﻧﺍ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻪﺟﺍﻮﺗ"
+ leader_trait_bureaucratic_machine:0 "ﻝﺎﺳﺭﻹﺍ ﺀﺎﻄﺧﺃ"
+ leader_trait_bureaucratic_machine_desc:1 ".ﺔﻳﺩﺮﻓ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﺑ ﻁﺎﺒﺗﺭﻻﺍ ﺀﺎﻨﺛﺃ ﻝﺎﺳﺭﻹﺍ ﻲﻓ ﺀﺎﻄﺧﺃ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻪﺟﺍﻮﺗ"
+
+ leader_trait_micromanager_hive: "ﻦﻣﺍﺰﺘﻣ ﺮﻴﻏ"
+ leader_trait_micromanager_hive_desc:0 ".ﺓﺪﻘﻌﻤﻟﺍ ﻝﻮﻄﺳﻷﺍ ﺕﺍﺭﻭﺎﻨﻣ ﺔﻨﻣﺍﺰﻣ ﺪﻨﻋ ﻝﺎﻌﻓ ﺮﻴﻏ [owner.GetIndividualName]"
+ leader_trait_micromanager_machine:1 "ﻦﻣﺍﺰﺘﻣ ﺮﻴﻏ"
+ leader_trait_micromanager_machine_desc:0 ".ﺓﺪﻘﻌﻤﻟﺍ ﻝﻮﻄﺳﻷﺍ ﺕﺍﺭﻭﺎﻨﻣ ﺔﻨﻣﺍﺰﻣ ﺪﻨﻋ ﺔﻟﺎﻌﻓ ﺮﻴﻏ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_reckless_hive:0 "ﺔﺌﻃﺎﺧ ﺕﺎﺑﺎﺴﺣ"
+ leader_trait_reckless_hive_desc:1 ".ﻪﻓﻮﻔﺻ ﻊﻴﻤﺠﺗ ﺓﺩﺎﻋﺇﻭ ﺡﻼﺻﻹﺍﻭ ﻊﺟﺍﺮﺘﻟﺍ ﻮﻫ ﻲﻘﻄﻨﻤﻟﺍ ﺀﻲﺸﻟﺍ ﻥﻮﻜﻳ ﺎﻤﻨﻴﺑ ﻝﺎﺘﻘﻟﺍ ﻲﻓ ﺮﻤﺘﺴﻳﻭ ،ﺮﻃﺎﺨﻤﻟﺍ ﺮﻳﺪﻘﺗ ﻲﻓ [owner.GetIndividualName] ﺊﻄﺨﻳ"
+ leader_trait_reckless_machine:0 "ﺮﻃﺎﺨﻤﻟﺍ ﺏﺎﺴﺣ ﻲﻓ ﺀﺎﻄﺧﺃ"
+ leader_trait_reckless_machine_desc:1 ".ﺎﻬﻓﻮﻔﺻ ﻊﻴﻤﺠﺗ ﺓﺩﺎﻋﺇﻭ ﺡﻼﺻﻹﺍﻭ ﻊﺟﺍﺮﺘﻟﺍ ﻮﻫ ﻲﻘﻄﻨﻤﻟﺍ ﺀﻲﺸﻟﺍ ﻥﺃ ﻦﻴﺣ ﻲﻓ ﻝﺎﺘﻘﻟﺍ ﻲﻓ ﺮﻤﺘﺴﺗﻭ ،ﺮﻃﺎﺨﻤﻟﺍ ﺮﻳﺪﻘﺗ ﻲﻓ ﺊﻄﺨﺗ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_slipshod_hive:0 "ﺔﻔﻴﻌﻀﻟﺍ ﺕﺎﻋﺎﻓﺪﻟﺍ"
+ leader_trait_slipshod_hive_desc:0 ".ﻝﻮﻄﺳﻸﻟ ﺔﻴﻋﺎﻓﺪﻟﺍ ﺕﺍﺭﺪﻘﻟﺍ ﻒﻌﻀﻳ ﺎﻤﻣ ﻝﺎﻌﻓ ﺮﻴﻏﻭ ﻢﻈﺘﻨﻣ ﺮﻴﻏ ﺔﻛﺮﻌﻣ ﺎﻴﻋﻭ [owner.GetIndividualName] ﺭﻮﻃ ﺪﻘﻟ"
+ leader_trait_slipshod_machine:0 "ﺔﻔﻴﻌﻀﻟﺍ ﺕﺎﻋﺎﻓﺪﻟﺍ"
+ leader_trait_slipshod_machine_desc:0 ".ﻝﻮﻄﺳﻸﻟ ﺔﻴﻋﺎﻓﺪﻟﺍ ﺕﺍﺭﺪﻘﻟﺍ ﻒﻌﻀﻳ ﺎﻤﻣ ﺔﻟﺎﻌﻓ ﺮﻴﻏﻭ ﺔﻤﻈﺘﻨﻣ ﺮﻴﻏ ﺔﻴﻟﺎﺘﻗ ﺔﺠﻣﺮﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺕﺭﻮﻃ ﺪﻘﻟ"
+
+ leader_trait_slothful_hive:0 "ﺔﻴﻠﻋﺎﻔﺘﻟﺍ ﺮﻴﻏ ﺕﺎﻜﻴﺘﻜﺘﻟﺍ"
+ leader_trait_slothful_hive_desc:1 ".ﻱﺭﻭﺮﺿ ﺮﻴﻏ ﺮﻄﺨﻟ ﺎﻨﺷﻮﻴﺟ ﺽﺮﻌﻳ ﻢﻈﺘﻨﻤﻟﺍ ﺮﻴﻏﻭ ﺀﻲﻄﺒﻟﺍ [owner.GetIndividualName] ﻙﻮﻠﺳ ﻥﺇ"
+ leader_trait_slothful_machine:0 "ﺔﺌﻃﺎﺨﻟﺍ ﺔﻛﺮﻌﻤﻟﺍ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ"
+ leader_trait_slothful_machine_desc:1 ".ﻪﻟ ﻲﻋﺍﺩ ﻻ ﺮﻄﺧ ﻲﻓ ﺔﻴﻟﻵﺍ ﺎﻨﺗﺍﻮﻗ ﻊﻀﺗ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﺔﻤﻈﺘﻨﻤﻟﺍ ﺮﻴﻏﻭ ﺔﺌﻃﺎﺨﻟﺍ ﺕﺎﻴﻣﺯﺭﺍﻮﺨﻟﺍ ﻥﺇ"
+
+ leader_trait_victory_or_death_hive:0 "ﺕﻮﻤﻟﺍ ﻭﺃ ﺮﺼﻨﻟﺍ"
+ leader_trait_victory_or_death_hive_desc:1 ".ﺔﻈﺤﻟ ﺮﺧﺁ ﻰﺘﺣ ﻝﺎﺘﻘﻟﺍ ﻞﻀﻔﻳﻭ ،ﻪﺴﻔﻧ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺎﺑ ﻢﺘﻬﻳ ﻻ [owner.GetIndividualName] ﺍﺬﻫ"
+ leader_trait_victory_or_death_machine:0 "ﻁﺎﺒﺗﺭﻻﺍ ﻚﻓ ﻡﺪﻋ ﻝﻮﻛﻮﺗﻭﺮﺑ"
+ leader_trait_victory_or_death_machine_desc:1 ".ﺔﻳﺎﻬﻨﻟﺍ ﻰﺘﺣ ﻞﺗﺎﻘﺗ ﻑﻮﺳﻭ ﺐﻴﻌﻣ ﻁﺎﺒﺗﺭﻻﺍ ﻚﻓ ﻝﻮﻛﻮﺗﻭﺮﺑ ﺎﻬﻳﺪﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_disorganized_hive:0 "ﺔﺤﺿﺍﻭ ﺮﻴﻏ ﺮﻣﺍﻭﺃ"
+ leader_trait_disorganized_hive_desc:1 ".ﺔﺤﺿﺍﻭ ﺮﻴﻏ ﺔﻴﻜﻴﺘﻜﺗ ﺮﻣﺍﻭﺃ ﻰﻟﺇ ﺐﻳﺮﻐﻟﺍ [owner.GetIndividualName] ﻙﻮﻠﺳ ﻱﺩﺆﻳ ﻥﺃ ﻦﻜﻤﻳ"
+ leader_trait_disorganized_machine:0 "ﻲﺘﺴﺟﻮﻟ ﺄﻄﺧ"
+ leader_trait_disorganized_machine_desc:1 ".ﺎﻨﺷﻮﻴﺟ ﻒﻴﻟﺎﻜﺗ ﻦﻣ ﺪﻳﺰﺗ ﺔﺌﻃﺎﺧ ﺔﻴﺘﺴﺟﻮﻟ ﺕﺎﺑﺎﺴﺣ ﻰﻠﻋ ﺀﺎﻨﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+
+ leader_trait_paranoid_hive:0 "ﺔﻴﻔﺨﻤﻟﺍ ﺮﻣﺍﻭﻷﺍ"
+ leader_trait_paranoid_hive_desc:1 ".ﺚﺤﺒﻟﺍ ﺕﺎﺟﺮﺨﻣ ﻦﻣ ﻞﻠﻘﻳ ﺎﻤﻣ ،ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻥﺎﻣﺃ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺓﺪﻘﻌﻣ ﺎﻃﺎﻤﻧﺃ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻦﺴﺗ"
+ leader_trait_paranoid_machine:0 "ﺔﻃﺮﻔﻤﻟﺍ ﻦﻣﻷﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ"
+ leader_trait_paranoid_machine_desc:1 ".ﺚﺤﺒﻟﺍ ﺕﺎﺟﺮﺨﻣ ﻦﻣ ﻞﻠﻘﻳ ﺎﻤﻣ ،ﺔﻨﻣﺁ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺓﺪﻘﻌﻣ ﻁﺎﻤﻧﺃ ﻦﺴﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_narrow_minded_hive:1 "ﻖﻓﻷﺍ ﻖﻴﺿ"
+ leader_trait_narrow_minded_hive_desc:1 ".ﺔﻳﺭﻭﺮﺿ ﺮﻴﻏ ﺎﻫﺭﺎﺒﺘﻋﺎﺑ ﺕﺍﺭﺎﻴﺨﻟﺍ ﺾﻌﺑ ﻼﻫﺎﺠﺘﻣ ،ﻪﻟ ﺔﺼﺼﺨﻤﻟﺍ ﺚﺤﺒﻟﺍ ﻡﺎﻬﻣ ﻰﻠﻋ ﺔﻳﺎﻐﻠﻟ ﻖﻴﺿ ﺰﻴﻛﺮﺗ ﻰﻠﻋ [owner.GetIndividualName] ﻱﻮﺘﺤﻳ"
+ leader_trait_narrow_minded_machine:0 "ﻲﺴﻴﺋﺮﻟﺍ ﺏﻮﺳﺎﺤﻟﺍ ﻲﻓ ﺄﻄﺧ"
+ leader_trait_narrow_minded_machine_desc:1 ".ﺭﺍﺮﻘﻟﺍ ﺫﺎﺨﺗﺍ ﻲﻓ ﺔﺑﻼﺻ ﺐﺒﺴﻳ ﺎﻤﻣ ،ﺔﻟﻭﺰﻌﻣ ﺔﻴﺳﺎﺳﻷﺍ ﺞﻟﺎﻌﻤﻟﺍ ﻒﺋﺎﻇﻭ"
+
+ leader_trait_neurotic_hive:0 "ﺊﻃﺎﺧ ﻑﺎﺸﻜﺘﺳﺍ"
+ leader_trait_neurotic_hive_desc:0 ".ﻢﻈﺘﻨﻣ ﺮﻴﻏﻭ ﺖﺘﺸﻣ ﺝﺍﺰﻤﺑ [owner.GetIndividualName] ﻊﺘﻤﺘﻳ"
+ leader_trait_neurotic_machine:0 "ﺔﺼﻗﺎﻧ ﺢﺴﻤﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ"
+ leader_trait_neurotic_machine_desc:1 ".ﻱﻮﺿﻮﻔﻟﺍ ﺢﺴﻤﻟﺍ ﻝﻮﻛﻮﺗﻭﺮﺑ ﺎﻬﻳﺪﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_opinionated_hive:0 "ﺔﺑﺭﺎﻀﺘﻤﻟﺍ ﺔﻴﺒﺼﻌﻟﺍ ﻚﺑﺎﺸﻤﻟﺍ"
+ leader_trait_opinionated_hive_desc:1 ".ﺎﻬﻔﻴﻟﻮﺗﻭ ﺔﻓﺮﻌﻤﻟﺍ ﻊﻴﻤﺠﺗ ﺐﻌﺼﻟﺍ ﻦﻣ ﻞﻌﺠﺗ ﻲﺘﻟﺍ ﺓﺭﻮﺤﺘﻤﻟﺍ ﻲﺒﺼﻌﻟﺍ ﻙﺎﺒﺘﺷﻻﺍ ﻁﺎﻘﻧ ﻰﻠﻋ [owner.GetIndividualName] ﻱﻮﺘﺤﻳ"
+ leader_trait_opinionated_machine:0 "ﺔﺑﺭﺎﻀﺘﻤﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ"
+ leader_trait_opinionated_machine_desc:1 ".ﻝﺎﻌﻓ ﺮﻴﻏ ﻞﻜﺸﺑ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻊﻤﺠﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_profligate_hive:0 "ﺔﻧﺎﻴﺼﻟﺍ ﺓﺩﺎﻳﺯ"
+ leader_trait_profligate_hive_desc:1 ".ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ ﻯﺮﺧﻷﺍ [owner.GetIndividualNamePlural] ﻊﻴﻤﺟ ﺔﻧﺎﻴﺻ ﻦﻣ ﺪﻳﺰﻳ ﺺﻘﻧ ﻰﻠﻋ [owner.GetIndividualName] ﻱﻮﺘﺤﻳ"
+ leader_trait_profligate_machine:0 "ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺔﻧﺎﻴﺻ ﺓﺩﺎﻳﺯ"
+ leader_trait_profligate_machine_desc:1 ".ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﻯﺮﺧﻷﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻊﻴﻤﺟ ﺔﻧﺎﻴﺻ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ﺎﻬﺘﺠﻣﺮﺑ ﻲﻓ ﺖﺑﺎﺛ ﺄﻄﺧ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻱﻮﺘﺤﺗ"
+
+ leader_trait_procrastinator_hive:0 "ﺪﻛﺍﺮﻟﺍ ﺀﺎﻨﺒﻟﺍ"
+ leader_trait_procrastinator_hive_desc:1 ".ﺐﻛﺍﻮﻜﻟﺍ ﺀﺎﻨﺑ ﻊﻳﺭﺎﺸﻣ ﺓﺭﺍﺩﺇ ﻲﻓ ﻝﺎﻌﻓ ﺮﻴﻏ [owner.GetIndividualName]"
+ leader_trait_procrastinator_machine:0 "ﺪﻛﺍﺮﻟﺍ ﺀﺎﻨﺒﻟﺍ"
+ leader_trait_procrastinator_machine_desc:1 ".ﺐﻛﺍﻮﻜﻟﺍ ﺀﺎﻨﺑ ﻊﻳﺭﺎﺸﻣ ﺓﺭﺍﺩﺇ ﻲﻓ ﺔﻟﺎﻌﻓ ﺮﻴﻏ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_insider_trading_hive:0 "ﻝﺎﻌﻓ ﺮﻴﻏ ﺝﺍﺮﺧﺇ"
+ leader_trait_insider_trading_hive_desc:1 ".[owner.GetIndividualNamePlural] ﺐﻛﻮﻜﻟ ﻝﺎﻌﻓ ﺮﻴﻏ ﺮﻳﺪﻣ ﻮﻫ ﺍﺬﻫ [owner.GetIndividualName]"
+ leader_trait_insider_trading_machine:0 "ﻝﺎﻌﻓ ﺮﻴﻏ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻟﺍ ﺝﺍﺮﺧﺇ"
+ leader_trait_insider_trading_machine_desc:1 ".ﺔﻴﺒﻛﻮﻜﻟﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺕﺍﺮﺋﺎﻄﻠﻟ ﻝﺎﻌﻓ ﺮﻴﻏ ﺮﻳﺪﻣ ﻲﻫ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_eager_machine:0 "ﺕﻮﺒﻤﻳﺍﺮﺑ"
+ leader_trait_eager_machine_desc:1 ".ﺎﻬﻠﻤﻋ ﺔﻠﺻﺍﻮﻤﻟ ﺮﻴﺜﻜﺑ ﻞﻗﺃ ﺔﻧﺎﻴﺻ ﺐﻠﻄﺘﺗﻭ ،ﺹﺎﺧ ﻞﻜﺸﺑ ﺓﺪﻴﺟ ﺔﻟﺎﺣ ﻲﻓ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+ leader_trait_eager_hive:0 "ﺔﻴﻟﻭﻷﺍ ﺔﻨﻴﻌﻟﺍ"
+ leader_trait_eager_hive_desc:0 ".ﺓﺀﺎﻔﻛ ﻰﻠﻋﺃ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺮﻴﺜﻜﺑ ﻞﻗﺃ ﺔﻧﺎﻴﺻ ﺐﻠﻄﺘﻳﻭ ،ﺹﺎﺧ ﻞﻜﺸﺑ ﺎﻴﺤﺻ [owner.GetIndividualName] ﺮﺒﺘﻌﻳ"
+
+ leader_trait_martinet_hive:0 "ﺖﻴﻨﻴﺗﺭﺎﻣ"
+ leader_trait_martinet_hive_desc:0 ".ﻑﺍﺮﺤﻧﻻﺍ ﻦﻣ ﺪﺤﻟﺎﺑ ﺮﻣﻷﺍ ﻖﻠﻌﺘﻳ ﺎﻣﺪﻨﻋ ﺔﺒﺋﺎﺷ ﻪﺑﻮﺸﺗ ﻻ ﻞﺠﺳ ﻪﻳﺪﻟ [owner.GetIndividualName] ،ﻡﺭﺎﺼﻟﺍ ﻝﺎﺜﺘﻣﻻﺍ ﺐﻠﻄﺘﻳ ﺺﻳﺮﺣ ﺐﻗﺍﺮﻣ"
+ leader_trait_martinet_machine:0 "ﺖﻴﻨﻴﺗﺭﺎﻣ"
+ leader_trait_martinet_machine_desc:0 ".ﻑﺍﺮﺤﻧﻻﺍ ﻦﻣ ﺪﺤﻟﺎﺑ ﺮﻣﻷﺍ ﻖﻠﻌﺘﻳ ﺎﻣﺪﻨﻋ ﺔﺒﺋﺎﺷ ﻪﺑﻮﺸﺗ ﻻ ﺎﻬﻠﺠﺳﻭ .ﻡﺭﺎﺼﻟﺍ ﻝﺎﺜﺘﻣﻻﺍ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻟﺍ ﻩﺬﻫ ﺐﻠﻄﺘﺗ ،ﺓﺯﺎﺘﻤﻤﻟﺍ ﺔﺒﻗﺍﺮﻤﻟﺍ ﺕﺍﺭﺪﻗ ﻞﻀﻔﺑ"
+
+ trait_ruler_charismatic_hive:0 "ﺔﻤﺨﻀﻤﻟﺍ ﺔﻴﻋﺮﻔﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ"
+ trait_ruler_charismatic_hive_desc:1 ".ﻢﻴﺳﺍﺮﻤﻟﺍ ﻊﻴﺳﻮﺗﻭ ﺓﺭﻭﺎﻨﻤﻠﻟ ﺮﺒﻛﺃ ﺔﺣﺎﺴﻣ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻬﻟ ﺔﻤﺨﻀﻤﻟﺍ ﺔﻴﻋﺮﻔﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻖﻠﺨﺗ"
+ trait_ruler_charismatic_machine:0 "ﺔﻤﺨﻀﻤﻟﺍ ﺔﻴﻋﺮﻔﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ"
+ trait_ruler_charismatic_machine_desc:1 ".ﻢﻴﺳﺍﺮﻤﻟﺍ ﻊﻴﺳﻮﺗﻭ ﺓﺭﻭﺎﻨﻤﻠﻟ ﺮﺒﻛﺃ ﻻﺎﺠﻣ ﻖﻠﺨﺗ ﻲﺘﻟﺍ ﺔﻴﻋﺮﻔﻟﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻢﻴﺨﻀﺘﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺖﻣﺎﻗ"
+
+ trait_ruler_warlike_hive:0 "ﺀﻑﺩ"
+ trait_ruler_warlike_hive_desc:0 ".ﺔﻳﺮﺒﻟﺍﻭ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺏﺮﺤﻟﺍ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ"
+ trait_ruler_warlike_machine:0 "ﺏﺮﺤﻟﺍ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ"
+ trait_ruler_warlike_machine_desc:0 ".ﺔﻳﺮﺒﻟﺍﻭ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺏﺮﺤﻟﺍ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ"
+
+ trait_ruler_warlike_2_hive:0 "$trait_ruler_warlike_hive$ II"
+ trait_ruler_warlike_2_hive_desc:0 "$trait_ruler_warlike_hive_desc$"
+ trait_ruler_warlike_2_machine:0 "$trait_ruler_warlike_machine$ II"
+ trait_ruler_warlike_2_machine_desc:0 "$trait_ruler_warlike_machine_desc$"
+
+ trait_ruler_logistic_understanding_hive:0 "ﻲﺘﺴﺟﻮﻠﻟﺍ ﻢﻬﻔﻟﺍ"
+ trait_ruler_logistic_understanding_hive_desc:0 ".ﻦﻔﺴﻟﺍﻭ ﺵﻮﻴﺠﻟﺍ ﺔﻧﺎﻴﺻ ﻞﻴﻠﻘﺗ ﻲﻓ ﺔﻟﺎﻌﻓ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ"
+ trait_ruler_logistic_understanding_machine:0 "ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺔﺠﻣﺮﺒﻟﺍ"
+ trait_ruler_logistic_understanding_machine_desc:1 ".ﻦﻔﺴﻟﺍﻭ ﺵﻮﻴﺠﻟﺍ ﺔﻧﺎﻴﺻ ﻞﻴﻠﻘﺗ ﻲﻓ ﺔﻟﺎﻌﻓ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ trait_ruler_logistic_understanding_2_hive:0 "$trait_ruler_logic_understanding_hive$ II"
+ trait_ruler_logistic_understanding_2_hive_desc:0 "$trait_ruler_logic_understanding_hive_desc$"
+ trait_ruler_logistic_understanding_2_machine:0 "$trait_ruler_logic_understanding_machine$ II"
+ trait_ruler_logistic_understanding_2_machine_desc:0 "$trait_ruler_logy_understanding_machine_desc$"
+
+ trait_ruler_eye_for_talent_hive:0 "ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻊﻤﺟ"
+ trait_ruler_eye_for_talent_hive_desc:0 ".ﻝﺎﻤﻜﻟﺍ ﻦﻋ ﺎﺜﺤﺑ ﺓﺪﻳﺪﺟ ﺐﻴﻟﺎﺳﺃ ﻒﻴﻴﻜﺗﻭ ﺎﻬﺘﺠﻟﺎﻌﻣﻭ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻊﻤﺠﺑ [owner.GetIndividualName] ﻡﻮﻘﻳ"
+ trait_ruler_eye_for_talent_machine:0 "ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﺠﻟﺎﻌﻣ"
+ trait_ruler_eye_for_talent_machine_desc:0 ".ﻝﺎﻤﻜﻟﺍ ﻦﻋ ﺎﺜﺤﺑ ﺓﺪﻳﺪﺟ ﺐﻴﻟﺎﺳﺃ ﻒﻴﻴﻜﺗﻭ ﺎﻬﺘﺠﻟﺎﻌﻣﻭ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﻊﻤﺠﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ trait_ruler_eye_for_talent_2_hive:0 "$trait_ruler_eye_for_talent_hive$ II"
+ trait_ruler_eye_for_talent_2_hive_desc:0 "$trait_ruler_eye_for_talent_hive_desc$"
+ trait_ruler_eye_for_talent_2_machine:0 "$trait_ruler_eye_for_talent_machine$ II"
+ trait_ruler_eye_for_talent_2_machine_desc:0 "$trait_ruler_eye_for_talent_machine_desc$"
+
+ leader_trait_gifted_hive: "ﺏﻮﻫﻮﻣ"
+ leader_trait_gifted_hive_desc:1 ".ﻱﺩﺎﻋ ﺮﻴﻏ ﻚﺑﺎﺸﺘﻣ ﻮﻤﻧ ﻝﻼﺧ ﻦﻣ ﻅﻮﺤﻠﻣ ﻞﻜﺸﺑ [owner.GetIndividualName] ﺔﻔﻴﻇﻭ ﻦﻴﺴﺤﺗ ﻢﺗ"
+ leader_trait_gifted_machine: "ﺔﻴﻗﺮﺗ"
+ leader_trait_gifted_machine_desc:1 ".ﺔﻴﺒﻳﺮﺠﺘﻟﺍ ﺔﻴﻗﺮﺘﻟﺍ ﻝﻼﺧ ﻦﻣ ﻅﻮﺤﻠﻣ ﻞﻜﺸﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻒﺋﺎﻇﻭ ﻦﻴﺴﺤﺗ ﻢﺗ"
+
+ leader_trait_educator_hive:0 "ﺔﻌﺳﻮﻤﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ"
+ leader_trait_educator_machine:0 "ﺔﻌﺳﻮﻤﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻙﻮﻨﺑ"
+
+ leader_trait_fleet_organizer_hive:0 "ﻝﻮﻄﺳﻷﺍ ﻢﻈﻨﻣ"
+ leader_trait_fleet_organizer_hive_desc:1 ".ﻝﻮﻄﺳﻷﺍ ﺓﺭﺪﻗ ﻊﻴﺳﻮﺗﻭ ﻢﻴﻈﻨﺘﺑ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+ leader_trait_fleet_organizer_machine:0 "ﻝﻮﻄﺳﻷﺍ ﻢﻈﻨﻣ"
+ leader_trait_fleet_organizer_machine_desc:1 ".ﻝﻮﻄﺳﻷﺍ ﺓﺭﺪﻗ ﻊﻴﺳﻮﺗﻭ ﻢﻴﻈﻨﺘﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_fleet_organizer_2_hive:0 "$leader_trait_fleet_organizer_hive$ II"
+ leader_trait_fleet_organizer_2_hive_desc:0 "$leader_trait_fleet_organizer_hive_desc$"
+ leader_trait_fleet_organizer_2_machine:0 "$leader_trait_fleet_organizer_machine$ II"
+ leader_trait_fleet_organizer_2_machine_desc:0 "$leader_trait_fleet_organizer_machine_desc$"
+
+ leader_trait_skirmisher_hive:0 "ﺵﻭﺎﻨﻤﻟﺍ"
+ leader_trait_skirmisher_hive_desc:0 ".ﻝﻮﻄﺳﻷﺍ ﻞﺧﺍﺩ ﻦﻔﺴﻟﺍ ﻊﻴﻤﺟ ﺓﺀﺎﻔﻛ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+ leader_trait_skirmisher_machine:0 "ﺵﻭﺎﻨﻤﻟﺍ"
+ leader_trait_skirmisher_machine_desc:1 ".ﺔﻣﺪﻘﺘﻤﻟﺍ ﺕﺎﺷﻭﺎﻨﻤﻟﺍ ﺕﺎﻜﻴﺘﻜﺗ ﺔﺠﻟﺎﻌﻣ ﻝﻼﺧ ﻦﻣ ﻝﻮﻄﺳﻷﺍ ﻞﺧﺍﺩ ﻦﻔﺴﻟﺍ ﻊﻴﻤﺟ ﺓﺀﺎﻔﻛ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+
+ leader_trait_skirmisher_2_hive:0 "$leader_trait_skirmisher_hive$ II"
+ leader_trait_skirmisher_2_hive_desc:0 "$leader_trait_skirmisher_hive_desc$"
+ leader_trait_skirmisher_2_machine:0 "$leader_trait_skirmisher_machine$ II"
+ leader_trait_skirmisher_2_machine_desc:0 "$leader_trait_skirmisher_machine_desc$"
+
+ leader_trait_aggressive_hive:0 "ﻲﻧﺍﻭﺪﻌﻟﺍ ﻡﻮﺠﻬﻟﺍ ﻂﻤﻧ"
+ leader_trait_aggressive_hive_desc:1 ".ﻝﻮﻄﺳﻷﺍ ﻝﺎﺘﻗ ﻲﻓ ﺔﻴﻧﺍﻭﺪﻌﻟﺍ ﻡﻮﺠﻬﻟﺍ ﻁﺎﻤﻧﺃ [owner.GetIndividualName] ﻡﺪﺨﺘﺴﻳ"
+ leader_trait_aggressive_machine:0 "ﻲﻧﺍﻭﺪﻌﻟﺍ ﻡﻮﺠﻬﻟﺍ ﻂﻤﻧ"
+ leader_trait_aggressive_machine_desc:1 ".ﻝﻮﻄﺳﻷﺍ ﻝﺎﺘﻗ ﻲﻓ ﺔﻴﻧﺍﻭﺪﻌﻟﺍ ﻡﻮﺠﻬﻟﺍ ﻁﺎﻤﻧﺃ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴﺗ"
+
+ leader_trait_aggressive_2_hive:0 "$leader_trait_aggressive_hive$ II"
+ leader_trait_aggressive_2_hive_desc:0 "$leader_trait_aggressive_hive_desc$"
+ leader_trait_aggressive_2_machine:0 "$leader_trait_aggressive_machine$ II"
+ leader_trait_aggressive_2_machine_desc:0 "$leader_trait_aggressive_machine_desc$"
+
+ leader_trait_engineer_hive:0 "ﻲﻟﻵﺍ ﺡﻼﺻﻹﺍ ﺔﻤﻈﻧﺃ"
+ leader_trait_engineer_hive_desc:1 ".ﺀﺎﺳﺭﻹﺍ ﺔﻘﻄﻨﻣ ﺝﺭﺎﺧ ﻦﻔﺴﻟﺍ ﻞﻛﺎﻴﻫ ﺡﻼﺻﻹ ﺔﻴﻟﺁ ﺔﻤﻈﻧﺃ [owner.GetIndividualName] ﻡﺪﺨﺘﺴﻳ"
+ leader_trait_engineer_machine:0 "ﻲﻟﻵﺍ ﺡﻼﺻﻹﺍ ﺔﻤﻈﻧﺃ"
+ leader_trait_engineer_machine_desc:1 ".ﺀﺎﺳﺭﻹﺍ ﺔﻘﻄﻨﻣ ﺝﺭﺎﺧ ﻦﻔﺴﻟﺍ ﻞﻛﺎﻴﻫ ﺡﻼﺻﻹ ﺔﻴﻟﺁ ﺔﻤﻈﻧﺃ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴﺗ"
+
+ leader_trait_engineer_2_hive:0 "$leader_trait_engineer_hive$ II"
+ leader_trait_engineer_2_hive_desc:0 "$leader_trait_engineer_hive_desc$"
+ leader_trait_engineer_2_machine:0 "$leader_trait_engineer_machine$ II"
+ leader_trait_engineer_2_machine_desc:0 "$leader_trait_engineer_machine_desc$"
+
+ leader_trait_annihilator_hive:0 "ﺮﻣﺪﻤﻟﺍ"
+ leader_trait_annihilator_hive_desc:1 ".ﺽﺭﻷﺎﺑ ﻥﻮﺼﺤﻟﺍ ﺮﻴﻣﺪﺗﻭ ،ﺐﻛﺍﻮﻜﻟﺍ ﺕﺎﻋﺎﻓﺪﻟ ﻊﻳﺮﺴﻟﺍ ﺮﻴﻣﺪﺘﻟﺍ ﻰﻠﻋ [owner.GetIndividualName] ﺰﻛﺮﻳ"
+ leader_trait_annihilator_machine:0 "ﺮﻣﺪﻤﻟﺍ"
+ leader_trait_annihilator_machine_desc:1 ".ﺽﺭﻷﺎﺑ ﻥﻮﺼﺤﻟﺍ ﺮﻴﻣﺪﺗﻭ ،ﺐﻛﺍﻮﻜﻟﺍ ﺕﺎﻋﺎﻓﺪﻟ ﻊﻳﺮﺴﻟﺍ ﺮﻴﻣﺪﺘﻟﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+
+ leader_trait_artillerist_hive:0 "ﻲﻌﻓﺪﻣ"
+ leader_trait_artillerist_hive_desc:0 ".ﺔﺘﻴﻤﻣﻭ ﺔﻳﺎﻐﻠﻟ ﺔﻘﻴﻗﺩ ﻝﻮﻄﺳﻷﺍ ﺔﺤﻠﺳﺃ ﺔﻤﻈﻧﺃ ﻞﻴﻐﺸﺗ ﻰﻠﻋ [owner.GetIndividualName] ﺓﺭﺪﻗ ﻥﺇ"
+ leader_trait_artillerist_machine:0 "ﻲﻌﻓﺪﻣ"
+ leader_trait_artillerist_machine_desc:0 ".ﺔﺘﻴﻤﻣﻭ ﺔﻳﺎﻐﻠﻟ ﺔﻘﻴﻗﺩ ﻝﻮﻄﺳﻷﺍ ﺔﺤﻠﺳﺃ ﺔﻤﻈﻧﺃ ﻞﻴﻐﺸﺗ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺓﺭﺪﻗ ﻥﺇ"
+
+ leader_trait_artillerist_2_hive:0 "$leader_trait_artillerist_hive$ II"
+ leader_trait_artillerist_2_hive_desc:0 "$leader_trait_artillerist_hive_desc$"
+ leader_trait_artillerist_2_machine:0 "$leader_trait_artillerist_machine$ II"
+ leader_trait_artillerist_2_machine_desc:0 "$leader_trait_artillerist_machine_desc$"
+
+ leader_trait_commanding_presence_hive:0 "ﺓﺩﺎﻴﻘﻟﺍ ﻞﻜﻴﻫ"
+ leader_trait_commanding_presence_hive_desc:1 ".ﺎﻬﺗﺩﺎﻴﻗﻭ ﺓﺮﻴﺒﻜﻟﺍ ﻞﻴﻃﺎﺳﻷﺍ ﺔﻧﺎﻴﺻ ﻲﻓ ﺺﺼﺨﺘﻣ [owner.GetIndividualName]"
+ leader_trait_commanding_presence_machine:0 "ﺔﻳﺰﻛﺮﻤﻟﺍ ﺓﺩﺎﻴﻘﻟﺍ"
+ leader_trait_commanding_presence_machine_desc:1 ".ﺓﺮﻴﺒﻜﻟﺍ ﻞﻴﻃﺎﺳﻷﺍ ﺓﺩﺎﻴﻗﻭ ﺔﻧﺎﻴﺻ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_commanding_presence_2_hive:0 "$leader_trait_commanding_presence_hive$ II"
+ leader_trait_commanding_presence_2_hive_desc:0 "$leader_trait_commanding_presence_hive_desc$"
+ leader_trait_commanding_presence_2_machine:0 "$leader_trait_commanding_presence_machine$ II"
+ leader_trait_commanding_presence_2_machine_desc:0 "$leader_trait_commanding_presence_machine_desc$"
+
+ leader_trait_corsair_hive:0 "ﻚﻜﻔﻣ"
+ leader_trait_corsair_hive_desc:0 ".ﺔﻤﻴﻗ ﻱﺫ ﺀﻲﺷ ﻱﺃ ﺫﺎﻘﻧﺇﻭ ﻭﺪﻌﻟﺍ ﻦﻔﺳ ﻚﻴﻜﻔﺘﺑ [owner.GetIndividualName] ﻡﻮﻘﺗ"
+ leader_trait_corsair_machine:0 "ﻚﻜﻔﻣ"
+ leader_trait_corsair_machine_desc:0 ".ﺔﻤﻴﻗ ﻱﺫ ﺀﻲﺷ ﻱﺃ ﺫﺎﻘﻧﺇﻭ ﻭﺪﻌﻟﺍ ﻦﻔﺳ ﻚﻴﻜﻔﺘﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_par_zealot_hive:0 "ﻲﻔﻴﻜﺘﻟﺍ ﻙﻮﻠﺴﻟﺍ"
+ leader_trait_par_zealot_hive_desc:0 ".[owner.GetGestaltEntityName] ﺕﺍﺭﺪﻗ ﺮﻳﻮﻄﺗﻭ ﻢﻠﻌﺘﻟﺍ ﺽﺮﻐﺑ ،ﺔﻌﻓﺍﺪﻟﺍ ﻢﻫﺍﻮﻗﻭ ﺎﻨﺋﺍﺪﻋﺃ ﻊﻓﺍﻭﺩ ﻢﻬﻔﻟ ﻪﺸﻄﻌﺗ ﻻﺇ ﻪﻠﺑﺎﻘﻳ ﻻ ﺎﻨﺋﺎﻘﺑ ﺭﺍﺮﻤﺘﺳﺍ ﻲﻓ [owner.GetIndividualName] ﻲﻧﺎﻔﺗ ﻥﺇ"
+ leader_trait_par_zealot_machine:0 "ﺔﻴﻔﻴﻜﺘﻟﺍ ﻢﻠﻌﺘﻟﺍ ﻁﺎﻤﻧﺃ"
+ leader_trait_par_zealot_machine_desc:0 ".ﻲﻋﻮﻟﺍ ﺭﺎﻫﺩﺯﺍﻭ ﺀﺎﻘﺑ ﻥﺎﻤﺿ ﻞﺟﺃ ﻦﻣ ،ﺔﻳﺩﺎﻌﻤﻟﺍ ﻉﺍﻮﻧﻸﻟ ﺔﻌﻓﺍﺪﻟﺍ ﻯﻮﻘﻟﺍﻭ ﻊﻓﺍﻭﺪﻟﺍ ﻞﻴﻠﺤﺘﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻢﻴﻤﺼﺗ ﻢﺗ"
+
+ leader_trait_demolisher_hive:0 "ﻡﺪﻫ"
+ leader_trait_demolisher_hive_desc:1 ".ﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻣﻭ ﺔﻴﻤﺠﻨﻟﺍ ﺪﻋﺍﻮﻘﻟﺍ ﺮﻴﻣﺪﺗ ﻲﻓ ﺺﺼﺨﺘﻣ [owner.GetIndividualName]"
+ leader_trait_demolisher_machine:0 "ﻡﺪﻫ"
+ leader_trait_demolisher_machine_desc:1 ".ﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻣﻭ ﺔﻴﻤﺠﻨﻟﺍ ﺪﻋﺍﻮﻘﻟﺍ ﺮﻴﻣﺪﺘﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻦﻴﺴﺤﺗ ﻢﺗ"
+
+ leader_trait_shipbreaker_hive:0 "ﻦﻔﺴﻟﺍ ﺔﺤﺳﺎﻛ"
+ leader_trait_shipbreaker_hive_desc:0 ".ﺓﺮﻣﺪﻤﻟﺍ ﻭﺪﻌﻟﺍ ﻦﻔﺳ ﻦﻣ ﺔﻤﻴﻘﻟﺍ ﻚﺋﺎﺒﺴﻟﺍ [owner.GetIndividualName] ﺬﻘﻨﻳ"
+ leader_trait_shipbreaker_machine:0 "ﻦﻔﺴﻟﺍ ﺔﺤﺳﺎﻛ"
+ leader_trait_shipbreaker_machine_desc:0 ".ﺓﺮﻣﺪﻤﻟﺍ ﻭﺪﻌﻟﺍ ﻦﻔﺳ ﻦﻣ ﺔﻤﻴﻘﻟﺍ ﻚﺋﺎﺒﺴﻟﺍ ﺫﺎﻘﻧﺈﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_shipbreaker_2_hive:0 "$leader_trait_shipbreaker_hive$ II"
+ leader_trait_shipbreaker_2_hive_desc:0 "$leader_trait_shipbreaker_hive_desc$"
+ leader_trait_shipbreaker_2_machine:0 "$leader_trait_shipbreaker_machine$ II"
+ leader_trait_shipbreaker_2_machine_desc:0 "$leader_trait_shipbreaker_machine_desc$"
+
+ leader_trait_artillery_focus_hive_desc:0 ".ﺔﻴﻌﻓﺪﻤﻟﺍ ﺔﺤﻠﺳﺃ ﻲﻓ ﺺﺼﺨﺘﻣ [owner.GetIndividualName]"
+ leader_trait_artillery_specialization_hive_desc:0 "$leader_trait_artillery_focus_hive_desc$"
+ leader_trait_artillery_focus_machine_desc:0 ".ﺔﻴﻌﻓﺪﻤﻟﺍ ﺔﺤﻠﺳﺃ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+ leader_trait_artillery_specialization_machine_desc:0 "$leader_trait_artillery_focus_machine_desc$"
+
+ leader_trait_carrier_focus_hive_desc:0 ".ﺔﻴﻣﻮﺠﻬﻟﺍ ﻑﺮﺤﻟﺍ ﻲﻓ ﺺﺼﺨﺘﻣ [owner.GetIndividualName]"
+ leader_trait_carrier_specialization_hive_desc:0 "$leader_trait_carrier_focus_hive_desc$"
+ leader_trait_carrier_focus_machine_desc:0 ".ﺔﻴﻣﻮﺠﻬﻟﺍ ﻑﺮﺤﻟﺍ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+ leader_trait_carrier_specialization_machine_desc:0 "$leader_trait_carrier_focus_machine_desc$"
+
+ leader_trait_rocketry_focus_hive_desc:0 ".ﺓﺮﺠﻔﺘﻤﻟﺍ ﺔﺤﻠﺳﻷﺍ ﻲﻓ ﺺﺼﺨﺘﻣ [owner.GetIndividualName]"
+ leader_trait_rocketry_specialization_hive_desc:0 "$leader_trait_rocketry_focus_hive_desc$"
+ leader_trait_rocketry_focus_machine_desc:0 ".ﺓﺮﺠﻔﺘﻤﻟﺍ ﺔﺤﻠﺳﻷﺍ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+ leader_trait_rocketry_specialization_machine_desc:0 "$leader_trait_rocketry_focus_machine_desc$"
+
+ leader_trait_gunship_focus_hive_desc:0 ".ﺔﻴﺑﺮﺤﻟﺍ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻲﻓ ﺺﺼﺨﺘﻣ [owner.GetIndividualName] ﺍﺬﻫ"
+ leader_trait_gunship_specialization_hive_desc:0 "$leader_trait_gunship_focus_hive_desc$"
+ leader_trait_gunship_focus_machine_desc:0 ".ﺔﻴﺑﺮﺤﻟﺍ ﺕﺍﺮﺋﺎﻄﻟﺍ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+ leader_trait_gunship_specialization_machine_desc:0 "$leader_trait_gunship_focus_machine_desc$"
+
+ leader_trait_juryrigger_hive:1 "ﺮﺠﻳﺭ ﻦﻴﻔﻠﺤﻤﻟﺍ ﺔﺌﻴﻫ"
+ leader_trait_juryrigger_hive_desc:0 ".ﺎﻬﻟﻮﻄﺳﺃ ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻦﻔﺴﻟﺍ ﺡﻼﺻﻹ ﻦﻴﻣﻭﺰﻬﻤﻟﺍ ﺀﺍﺪﻋﻷﺍ ﻡﺎﻄﺣ [owner.GetIndividualName] ﻡﺪﺨﺘﺴﺗ"
+ leader_trait_juryrigger_machine:1 "ﺮﺠﻳﺭ ﻦﻴﻔﻠﺤﻤﻟﺍ ﺔﺌﻴﻫ"
+ leader_trait_juryrigger_machine_desc:0 "$leader_trait_juryrigger_hive_desc$"
+
+ leader_trait_juryrigger_2_hive:0 "$leader_trait_juryrigger_hive$ II"
+ leader_trait_juryrigger_2_hive_desc:0 "$leader_trait_juryrigger_hive_desc$"
+ leader_trait_juryrigger_2_machine:0 "$leader_trait_juryrigger_machine$ II"
+ leader_trait_juryrigger_2_machine_desc:0 "$leader_trait_juryrigger_machine_desc$"
+
+ leader_trait_surgical_bombardment_hive:0 "ﻲﺣﺍﺮﺠﻟﺍ ﻒﺼﻘﻟﺍ"
+ leader_trait_surgical_bombardment_hive_desc:1 ".ﺔﻴﺒﻧﺎﺠﻟﺍ ﺭﺍﺮﺿﻷﺍ ﻦﻣ ﺭﺪﻗ ﻞﻗﺄﺑ ﺔﻳﺮﺒﻟﺍ ﺵﻮﻴﺠﻟﺍ ﻰﻠﻋ ﺓﺮﻣﺪﻣ ﺕﺎﻤﺠﻫ ﻦﺷ [owner.GetIndividualName] ـﻟ ﻦﻜﻤﻳ ،ﺔﻘﻴﻗﺪﻟﺍ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺕﺎﻧﺎﻴﺑ ﻡﺍﺪﺨﺘﺳﺎﺑ"
+ leader_trait_surgical_bombardment_machine:0 "ﻲﺣﺍﺮﺠﻟﺍ ﻒﺼﻘﻟﺍ"
+ leader_trait_surgical_bombardment_machine_desc:1 ".ﺔﻴﺒﻧﺎﺠﻟﺍ ﺭﺍﺮﺿﻷﺍ ﻦﻣ ﺭﺪﻗ ﻞﻗﺄﺑ ﺔﻳﺮﺒﻟﺍ ﺵﻮﻴﺠﻟﺍ ﻰﻠﻋ ﺓﺮﻣﺪﻣ ﺕﺎﻤﺠﻫ ﻦﺷ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﻦﻜﻤﻳ ،ﺔﻘﻴﻗﺪﻟﺍ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺕﺎﻧﺎﻴﺑ ﻡﺍﺪﺨﺘﺳﺎﺑ"
+
+ leader_trait_scholar_of_war_hive:1 "ﻲﻜﻴﺘﻜﺗ ﻞﻠﺤﻣ"
+ leader_trait_scholar_of_war_hive_desc:1 ".ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﻪﺋﺍﺩﺃ ﻦﻴﺴﺤﺘﻟ ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺔﻛﺮﻌﻣ ﺕﺎﻧﺎﻴﺑ [owner.GetIndividualName] ﻊﻤﺠﻳ"
+ leader_trait_scholar_of_war_machine:1 "ﻲﻜﻴﺘﻜﺗ ﻞﻠﺤﻣ"
+ leader_trait_scholar_of_war_machine_desc:1 ".ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﺎﻬﺋﺍﺩﺃ ﻦﻴﺴﺤﺘﻟ ﻕﺎﻄﻨﻟﺍ ﺔﻌﺳﺍﻭ ﺔﻛﺮﻌﻣ ﺕﺎﻧﺎﻴﺑ ﻊﻤﺠﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_scholar_of_war_2_hive:0 "$leader_trait_scholar_of_war_hive$ II"
+ leader_trait_scholar_of_war_2_hive_desc:0 "$leader_trait_scholar_of_war_hive_desc$"
+ leader_trait_scholar_of_war_2_machine:0 "$leader_trait_scholar_of_war_machine$ II"
+ leader_trait_scholar_of_war_2_machine_desc:0 "$leader_trait_scholar_of_war_machine_desc$"
+
+ leader_trait_gale_speed_hive:0 "ﺔﻔﺻﺎﻌﻟﺍ ﺔﻋﺮﺳ"
+ leader_trait_gale_speed_hive_desc:1 ".ﻦﻔﺴﻟﺍ ﻊﻴﻤﺠﻟ ﻲﻋﺮﻔﻟﺍ ﺀﻮﻀﻟﺍ ﺔﻋﺮﺳ ﺓﺩﺎﻳﺰﻟ ﺔﻣﺪﻘﺘﻣ ﺭﺎﻌﺸﺘﺳﺍ ﺓﺰﻬﺟﺃ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴﺗ"
+ leader_trait_gale_speed_machine:0 "ﺔﻔﺻﺎﻌﻟﺍ ﺔﻋﺮﺳ"
+ leader_trait_gale_speed_machine_desc:1 ".ﻦﻔﺴﻟﺍ ﻊﻴﻤﺠﻟ ﻲﻋﺮﻔﻟﺍ ﺀﻮﻀﻟﺍ ﺔﻋﺮﺳ ﺓﺩﺎﻳﺰﻟ ﺔﻣﺪﻘﺘﻣ ﺭﺎﻌﺸﺘﺳﺍ ﺓﺰﻬﺟﺃ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴﺗ"
+
+ leader_trait_gale_speed_2_hive:0 "$leader_trait_gale_speed_hive$ II"
+ leader_trait_gale_speed_2_hive_desc:0 "$leader_trait_gale_speed_hive_desc$"
+ leader_trait_gale_speed_2_machine:0 "$leader_trait_gale_speed_machine$ II"
+ leader_trait_gale_speed_2_machine_desc:0 "$leader_trait_gale_speed_machine_desc$"
+
+ trait_ruler_fortifier_hive:0 "ﻦﺼﺤﻤﻟﺍ"
+ trait_ruler_fortifier_hive_desc:0 ".ﺔﻀﻔﺨﻣ ﺔﻔﻠﻜﺘﺑ ﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻣﻭ ﺔﻴﻤﺠﻨﻟﺍ ﺪﻋﺍﻮﻘﻟﺍ ﺀﺎﻨﺒﺑ ﺢﻤﺴﺗ ﻲﺘﻟﺍ ﺔﻴﻋﺎﻓﺪﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻲﻓ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺺﺼﺨﺘﺗ"
+ trait_ruler_fortifier_machine:0 "ﻦﺼﺤﻤﻟﺍ"
+ trait_ruler_fortifier_machine_desc:1 ".ﺔﻀﻔﺨﻣ ﺔﻔﻠﻜﺘﺑ ﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻣﻭ ﺔﻴﻤﺠﻨﻟﺍ ﺪﻋﺍﻮﻘﻟﺍ ﺀﺎﻨﺒﺑ ﺢﻤﺴﺗ ﻲﺘﻟﺍ ﺔﻴﻋﺎﻓﺪﻟﺍ ﺕﺍﺀﺍﺮﺟﻹﺍ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ trait_ruler_fortifier_2_hive:0 "$trait_ruler_fortifier_hive$ II"
+ trait_ruler_fortifier_2_hive_desc:0 "$trait_ruler_fortifier_hive_desc$"
+ trait_ruler_fortifier_2_machine:0 "$trait_ruler_fortifier_machine$ II"
+ trait_ruler_fortifier_2_machine_desc:0 "$trait_ruler_fortifier_machine_desc$"
+
+ leader_trait_armada_logistician_hive:0 "ﻲﺘﺴﺟﻮﻟ ﺍﺩﺎﻣﺭﺃ"
+ leader_trait_armada_logistician_hive_desc:1 ".[owner.GetIndividualNamePlural] ﺡﻼﺻﺇﻭ ﻦﻔﺴﻟﺍ ﻦﻴﺑ ﻞﻳﺪﺒﺘﻠﻟ ﺔﻠﺑﺎﻗ ﺕﺍﺪﺣﻭ ﻝﻼﺧ ﻦﻣ ﻝﻮﻄﺳﻷﺍ ﺔﻧﺎﻴﺻ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+ leader_trait_armada_logistician_machine:0 "ﻲﺘﺴﺟﻮﻟ ﺍﺩﺎﻣﺭﺃ"
+ leader_trait_armada_logistician_machine_desc:1 ".ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺡﻼﺻﻹﺍ ﺕﺍﺮﺋﺎﻃﻭ ﻦﻔﺴﻟﺍ ﻦﻴﺑ ﻞﻳﺪﺒﺘﻠﻟ ﺔﻠﺑﺎﻗ ﺕﺍﺪﺣﻭ ﻝﻼﺧ ﻦﻣ ﻝﻮﻄﺳﻷﺍ ﺔﻧﺎﻴﺻ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+
+ leader_trait_armada_logistician_2_hive:0 "$leader_trait_armada_logging_hive$ II"
+ leader_trait_armada_logistician_2_hive_desc:0 "$leader_trait_armada_logicician_hive_desc$"
+ leader_trait_armada_logistician_2_machine:0 "$leader_trait_armada_logging_machine$ II"
+ leader_trait_armada_logistician_2_machine_desc:0 "$leader_trait_armada_logging_machine_desc$"
+
+ trait_ruler_military_pioneer_hive:0 "ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﻦﻔﺴﻟﺍ ﺕﺎﻄﻄﺨﻣ"
+ trait_ruler_military_pioneer_hive_desc:1 ".ﺀﺎﻨﺒﻟﺍﻭ ﺔﻴﻗﺮﺘﻟﺍ ﻒﻴﻟﺎﻜﺗ ﻦﻣ ﻞﻠﻘﻳ ﺎﻤﻣ ﺎﻫﺭﻮﻄﺗﻭ ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﻦﻔﺴﻟﺍ ﺕﺎﻄﻄﺨﻣ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻆﻓﺎﺤﺗ"
+ trait_ruler_military_pioneer_machine:0 "ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﻦﻔﺴﻟﺍ ﺕﺎﻄﻄﺨﻣ"
+ trait_ruler_military_pioneer_machine_desc:1 ".ﺀﺎﻨﺒﻟﺍﻭ ﺔﻴﻗﺮﺘﻟﺍ ﻒﻴﻟﺎﻜﺗ ﻦﻣ ﻞﻠﻘﺗ ﻲﺘﻟﺍ ﺔﻳﺭﺎﻴﻌﻤﻟﺍ ﻦﻔﺴﻟﺍ ﺕﺎﻄﻄﺨﻣ ﺮﻳﻮﻄﺗﻭ ﺔﻧﺎﻴﺼﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ trait_ruler_military_pioneer_2_hive:0 "$trait_ruler_military_pioneer_hive$ II"
+ trait_ruler_military_pioneer_2_hive_desc:0 "$trait_ruler_military_pioneer_hive_desc$"
+ trait_ruler_military_pioneer_2_machine:0 "$trait_ruler_military_pioneer_machine$ II"
+ trait_ruler_military_pioneer_2_machine_desc:0 "$trait_ruler_military_pioneer_machine_desc$"
+
+ leader_trait_defence_engineer_hive:0 "ﻉﺎﻓﺪﻟﺍ ﺔﺼﻨﻣ ﺔﺳﺪﻨﻫ"
+ leader_trait_defence_engineer_hive_desc:1 ".ﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻤﻟ ﺔﻨﺴﺤﻣ ﺕﺎﻴﻗﺮﺗ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺮﻓﻮﺗ"
+ leader_trait_defence_engineer_machine:0 "ﻉﺎﻓﺪﻟﺍ ﺔﺼﻨﻣ ﺔﺳﺪﻨﻫ"
+ leader_trait_defence_engineer_machine_desc:1 ".ﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻤﻟ ﺔﻨﺴﺤﻣ ﺕﺎﻴﻗﺮﺗ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺮﻓﻮﺗ"
+
+ leader_trait_defence_engineer_2_hive:0 "$leader_trait_defence_engineer_hive$ II"
+ leader_trait_defence_engineer_2_hive_desc:0 "$leader_trait_defence_engineer_hive_desc$"
+ leader_trait_defence_engineer_2_machine:0 "$leader_trait_defence_engineer_machine$ II"
+ leader_trait_defence_engineer_2_machine_desc:0 "$leader_trait_defence_engineer_machine_desc$"
+
+ leader_trait_spycraft_hive: "ﺕﺍﺭﺎﺒﺨﺘﺳﻻﺍ ﻊﻤﺟ"
+ leader_trait_spycraft_hive_desc:1 ".ﺔﻳﺭﺎﺠﻟﺍ ﺲﺴﺠﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻦﻣ ﺔﻌﻤﺠﻤﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﺠﻟﺎﻌﻤﺑ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+ leader_trait_spycraft_machine:0 "ﺲﺴﺠﺘﻠﻟ ﺔﻴﻋﺮﻓ ﺕﺍﺀﺍﺮﺟﺇ"
+ leader_trait_spycraft_machine_desc:1 ".ﺔﻳﺭﺎﺠﻟﺍ ﺲﺴﺠﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻦﻣ ﺔﻌﻤﺠﻤﻟﺍ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﺠﻟﺎﻌﻤﺑ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_spycraft_2_hive:0 "$leader_trait_spycraft_hive$ II"
+ leader_trait_spycraft_2_hive_desc:0 "$leader_trait_spycraft_hive_desc$"
+ leader_trait_spycraft_2_machine:0 "$leader_trait_spycraft_machine$ II"
+ leader_trait_spycraft_2_machine_desc:0 "$leader_trait_spycraft_machine_desc$"
+
+ leader_trait_butcher_hive:0 "ﺓﺮﻣﺪﻤﻟﺍ"
+ leader_trait_butcher_hive_desc:1 ".ﺓﺮﻴﺒﻛ ﺔﻴﺒﻧﺎﺟ ﺍﺭﺍﺮﺿﺃ ﺐﺒﺴﺗ ﺎﻬﻴﻓ ﺓﺩﺍﻮﻫ ﻻ ﺓﺮﻣﺪﻣ ﺕﺎﻤﺠﻫ ﻲﻓ ﺵﻮﻴﺠﻠﻟ ﻥﺎﻨﻌﻟﺍ [owner.GetIndividualName] ﻖﻠﻄﻳ"
+ leader_trait_butcher_machine:0 "ﺓﺮﻣﺪﻤﻟﺍ"
+ leader_trait_butcher_machine_desc:1 ".ﺓﺮﻴﺒﻛ ﺔﻴﺒﻧﺎﺟ ﺍﺭﺍﺮﺿﺃ ﺐﺒﺴﺗ ﺎﻬﻴﻓ ﺓﺩﺍﻮﻫ ﻻ ﺓﺮﻣﺪﻣ ﺕﺎﻤﺠﻫ ﻲﻓ ﺵﻮﻴﺠﻠﻟ ﻥﺎﻨﻌﻟﺍ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻖﻠﻄﺗ"
+
+ leader_trait_butcher_2_hive:0 "$leader_trait_butcher_hive$ II"
+ leader_trait_butcher_2_hive_desc:0 "$leader_trait_butcher_hive_desc$"
+ leader_trait_butcher_2_machine:0 "$leader_trait_butcher_machine$ II"
+ leader_trait_butcher_2_machine_desc:0 "$leader_trait_butcher_machine_desc$"
+
+ leader_trait_butcher_3_hive:0 "$leader_trait_butcher_hive$ III"
+ leader_trait_butcher_3_hive_desc:0 "$leader_trait_butcher_hive_desc$"
+ leader_trait_butcher_3_machine:0 "$leader_trait_butcher_machine$ III"
+ leader_trait_butcher_3_machine_desc:0 "$leader_trait_butcher_machine_desc$"
+
+ trait_ruler_investor_hive:0 "ﻦﺴﺤﻣ"
+ trait_ruler_investor_hive_desc:1 ".[owner.GetIndividualNamePlural] ﻞﻣﺎﻌﻟﺍ ﺕﺎﻧﺎﻜﻣﺇ ﻢﻴﻈﻌﺗ ﻦﻋ ﺔﻟﻭﺆﺴﻣ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ"
+ trait_ruler_investor_2_hive:0 "$trait_ruler_investor_hive$ II"
+ trait_ruler_investor_2_hive_desc:0 "$trait_ruler_investor_hive_desc$"
+ trait_ruler_investor_3_hive:0 "$trait_ruler_investor_hive$ III"
+ trait_ruler_investor_3_hive_desc:0 "$trait_ruler_investor_hive_desc$"
+
+ trait_ruler_investor_machine:0 "ﻞﻤﻌﻟﺍ ﻦﻴﺴﺤﺗ ﺓﺪﺣﻭ"
+ trait_ruler_investor_machine_desc:1 ".ﺔﻠﻣﺎﻌﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﺕﺎﻧﺎﻜﻣﺇ ﻢﻴﻈﻌﺗ ﻦﻋ ﺔﻟﻭﺆﺴﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+ trait_ruler_investor_2_machine:0 "$trait_ruler_investor_machine$ II"
+ trait_ruler_investor_2_machine_desc:0 "$trait_ruler_investor_machine_desc$"
+ trait_ruler_investor_3_machine:0 "$trait_ruler_investor_machine$ III"
+ trait_ruler_investor_3_machine_desc:0 "$trait_ruler_investor_machine_desc$"
+
+ leader_trait_army_logistician_hive:0 "ﺶﻴﺠﻠﻟ ﻲﺘﺴﺟﻮﻟ"
+ leader_trait_army_logistician_hive_desc:1 ".ﺶﻴﺠﻟﺍ ﺔﻧﺎﻴﺻ ﻦﻣ ﻞﻠﻘﺗ ﺕﺍﺀﺍﺮﺟﺈﺑ [owner.GetIndividualName] ﻡﺰﺘﻠﻳ"
+ leader_trait_army_logistician_machine:0 "ﺶﻴﺠﻠﻟ ﻲﺘﺴﺟﻮﻟ"
+ leader_trait_army_logistician_machine_desc:1 ".ﺶﻴﺠﻟﺍ ﺔﻧﺎﻴﺻ ﻦﻣ ﻞﻠﻘﺗ ﺕﺍﺀﺍﺮﺟﺈﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﺰﺘﻠﺗ"
+
+ leader_trait_army_logistician_2_hive:0 "$leader_trait_army_logging_hive$ II"
+ leader_trait_army_logistician_2_hive_desc:0 "$leader_trait_army_logicician_hive_desc$"
+ leader_trait_army_logistician_2_machine:0 "$leader_trait_army_logging_machine$ II"
+ leader_trait_army_logistician_2_machine_desc:0 "$leader_trait_army_logging_machine_desc$"
+
+ leader_trait_restrained_hive: "ﺏﺎﺴﺣ"
+ leader_trait_restrained_hive_desc:1 ".ﺔﻴﺒﻧﺎﺠﻟﺍ ﺭﺍﺮﺿﻷﺍ ﻦﻣ ﻞﻠﻘﺗ ﻲﺘﻟﺍ ﺔﻴﻜﻴﺘﻜﺘﻟﺍ ﺕﺎﻤﺠﻬﻟﺍ ﺏﺎﺴﺤﺑ [owner.GetIndividualName] ﻡﻮﻘﻳ"
+ leader_trait_restrained_machine: "ﺏﺎﺴﺣ"
+ leader_trait_restrained_machine_desc:1 ".ﺔﻴﺒﻧﺎﺠﻟﺍ ﺭﺍﺮﺿﻷﺍ ﻦﻣ ﻞﻠﻘﺗ ﻲﺘﻟﺍ ﺔﻴﻜﻴﺘﻜﺘﻟﺍ ﺕﺎﻤﺠﻬﻟﺍ ﺏﺎﺴﺤﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_restrained_2_hive:0 "$leader_trait_restrained_hive$ II"
+ leader_trait_restrained_2_hive_desc:0 "$leader_trait_retrained_hive_desc$"
+ leader_trait_restrained_2_machine:0 "$leader_trait_restrained_machine$ II"
+ leader_trait_restrained_2_machine_desc:0 "$leader_trait_retrained_machine_desc$"
+
+ leader_trait_restrained_3_hive:0 "$leader_trait_retrained_hive$ III"
+ leader_trait_restrained_3_hive_desc:0 "$leader_trait_retrained_hive_desc$"
+ leader_trait_restrained_3_machine:0 "$leader_trait_retrained_machine$ III"
+ leader_trait_restrained_3_machine_desc:0 "$leader_trait_retrained_machine_desc$"
+
+ leader_trait_inspiring_hive: "ﻡﺯﺎﺣ"
+ leader_trait_inspiring_hive_desc:1 ".ﺔﻳﻮﻨﻌﻤﻟﺍ ﺡﻭﺮﻟﺍ ﻥﺍﺪﻘﻔﻟ ﺔﻣﻭﺎﻘﻣ [owner.GetIndividualName] ﺎﻬﻴﻠﻋ ﺮﻄﻴﺴﻳ ﻲﺘﻟﺍ ﺵﻮﻴﺠﻟﺍ"
+
+ leader_trait_inspiring_2_hive:0 "$leader_trait_inspiring_hive$ II"
+ leader_trait_inspiring_2_hive_desc:0 "$leader_trait_inspiring_hive_desc$"
+
+ leader_trait_glory_seeker_hive:0 "ﺔﻴﻋﺎﻤﺠﻟﺍ ﺓﺩﺍﺭﻹﺍ"
+ leader_trait_glory_seeker_hive_desc:1 ".ﻲﻟﺎﺜﻣ ﻖﻴﺴﻨﺘﺑ ﻞﻤﻌﺗ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺎﻬﻴﻠﻋ ﺮﻄﻴﺴﺗ ﻲﺘﻟﺍ ﺵﻮﻴﺠﻟﺍ"
+ leader_trait_glory_seeker_machine:0 "ﺔﻴﻋﺎﻤﺠﻟﺍ ﺓﺩﺍﺭﻹﺍ"
+ leader_trait_glory_seeker_machine_desc:1 ".ﻡﺎﺗ ﻡﺎﺠﺴﻧﺍ ﻲﻓ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺎﻬﻴﻠﻋ ﺮﻄﻴﺴﺗ ﻲﺘﻟﺍ ﺵﻮﻴﺠﻟﺍ ﻞﻤﻌﺗ"
+
+ leader_trait_glory_seeker_2_hive:0 "$leader_trait_glory_seeker_hive$ II"
+ leader_trait_glory_seeker_2_hive_desc:0 "$leader_trait_glory_seeker_hive_desc$"
+ leader_trait_glory_seeker_2_machine:0 "$leader_trait_glory_seeker_machine$ II"
+ leader_trait_glory_seeker_2_machine_desc:0 "$leader_trait_glory_seeker_machine_desc$"
+
+ leader_trait_dreaded_hive:0 "ﻂﺒﺤﻣ"
+ leader_trait_dreaded_hive_desc:1 ".ﻭﺪﻌﻟﺍ ﺕﺎﻳﻮﻨﻌﻣ ﻁﺎﺒﺣﺇ ﻲﻓ ﺓﺯﺎﺘﻤﻣ [owner.GetIndividualName] ﺎﻬﻴﻠﻋ ﺮﻄﻴﺴﻳ ﻲﺘﻟﺍ ﺵﻮﻴﺠﻟﺍ"
+ leader_trait_dreaded_machine:0 "ﻂﺒﺤﻣ"
+ leader_trait_dreaded_machine_desc:1 ".ﻭﺪﻌﻟﺍ ﺕﺎﻳﻮﻨﻌﻣ ﻑﺎﻌﺿﺇ ﻲﻓ ﺓﺯﺎﺘﻤﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺎﻬﻴﻠﻋ ﺮﻄﻴﺴﺗ ﻲﺘﻟﺍ ﺵﻮﻴﺠﻟﺍ"
+
+ leader_trait_dreaded_2_hive:0 "$leader_trait_dreaded_hive$ II"
+ leader_trait_dreaded_2_hive_desc:0 "$leader_trait_dreaded_hive_desc$"
+ leader_trait_dreaded_2_machine:0 "$leader_trait_dreaded_machine$ II"
+ leader_trait_dreaded_2_machine_desc:0 "$leader_trait_dreaded_machine_desc$"
+
+ leader_trait_hardy_hive: "ﻱﺩﺭﺎﻫ"
+ leader_trait_hardy_hive_desc:1 ".ﺭﺮﻀﻠﻟ ﺓﺪﻳﺪﺷ ﺔﻣﻭﺎﻘﻤﺑ ﻊﺘﻤﺘﺗ [owner.GetIndividualName] ﺎﻬﻴﻠﻋ ﺮﻄﻴﺴﻳ ﻲﺘﻟﺍ ﺵﻮﻴﺠﻟﺍ"
+ leader_trait_hardy_machine: "ﻱﺩﺭﺎﻫ"
+ leader_trait_hardy_machine_desc:1 ".ﺭﺮﻀﻠﻟ ﺔﻣﻭﺎﻘﻤﻟﺍ ﺓﺪﻳﺪﺷ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺎﻬﻴﻠﻋ ﺮﻄﻴﺴﺗ ﻲﺘﻟﺍ ﺵﻮﻴﺠﻟﺍ"
+
+ leader_trait_hardy_2_hive:0 "$leader_trait_hardy_hive$ II"
+ leader_trait_hardy_2_hive_desc:0 "$leader_trait_hardy_hive_desc$"
+ leader_trait_hardy_2_machine:0 "$leader_trait_hardy_machine$ II"
+ leader_trait_hardy_2_machine_desc:0 "$leader_trait_hardy_machine_desc$"
+
+ leader_trait_heavy_hitter_hive:0 "ﻞﻴﻘﺜﻟﺍ ﺏﺭﺎﻀﻟﺍ"
+ leader_trait_heavy_hitter_hive_desc:1 ".ﻭﺪﻌﻟﺎﺑ ﺔﻤﻴﺴﺟ ﺭﺍﺮﺿﺃ ﻕﺎﺤﻟﻹ ﺓﺪﻳﺪﺷ ﺔﻴﻣﻮﺠﻫ ﺕﺎﻜﻴﺘﻜﺗ [owner.GetIndividualName] ﻡﺪﺨﺘﺴﻳ"
+ leader_trait_heavy_hitter_machine:0 "ﻞﻴﻘﺜﻟﺍ ﺏﺭﺎﻀﻟﺍ"
+ leader_trait_heavy_hitter_machine_desc:1 ".ﻭﺪﻌﻟﺎﺑ ﺔﻤﻴﺴﺟ ﺭﺍﺮﺿﺃ ﻕﺎﺤﻟﻹ ﺓﺪﻳﺪﺷ ﺔﻴﻣﻮﺠﻫ ﺕﺎﻜﻴﺘﻜﺗ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴﺗ"
+
+ leader_trait_heavy_hitter_2_hive:0 "$leader_trait_heavy_hitter_hive$ II"
+ leader_trait_heavy_hitter_2_hive_desc:0 "$leader_trait_heavy_hitter_hive_desc$"
+ leader_trait_heavy_hitter_2_machine:0 "$leader_trait_heavy_hitter_machine$ II"
+ leader_trait_heavy_hitter_2_machine_desc:0 "$leader_trait_heavy_hitter_machine_desc$"
+
+ leader_trait_scrambler_hive:0 "ﻲﻋﺍﺫﺇ ﺶﻳﻮﺸﺗ ﺯﺎﻬﺟ"
+ leader_trait_scrambler_hive_desc:1 ".ﻭﺪﻌﻟﺍ ﺕﺍﺮﻤﻌﺘﺴﻣ ﻝﻼﺘﺣﺍ ﺪﻨﻋ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺓﺰﻬﺟﺃﻭ ﺕﻻﺎﺼﺗﻻﺍ ﺶﻳﻮﺸﺘﺑ [owner.GetIndividualName] ﻡﻮﻘﻳ"
+ leader_trait_scrambler_machine:0 "ﻲﻋﺍﺫﺇ ﺶﻳﻮﺸﺗ ﺯﺎﻬﺟ"
+ leader_trait_scrambler_machine_desc:1 ".ﻭﺪﻌﻟﺍ ﺕﺍﺮﻤﻌﺘﺴﻣ ﻝﻼﺘﺣﺍ ﺪﻨﻋ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺓﺰﻬﺟﺃﻭ ﺕﻻﺎﺼﺗﻻﺍ ﺶﻳﻮﺸﺘﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ #leader_trait_kidnapper_machine: "Enslaver"
+ #leader_trait_kidnapper_machine_desc: "This unit captures and enslaves parts of the enemy population when occupying a planet."
+
+ #leader_trait_kidnapper_2_machine: "$leader_trait_kidnapper_machine$ II"
+ #leader_trait_kidnapper_2_machine_desc: "$leader_trait_kidnapper_machine_desc$"
+
+ trait_ruler_deep_connections_hive:0 "ﻖﻴﻤﻌﻟﺍ ﻞﻘﻌﻟﺍ"
+ trait_ruler_deep_connections_hive_desc:1 ".ﻢﻏﺎﻨﺘﻤﻟﺍ ﻥﻭﺎﻌﺘﻟﺍ ﺰﻳﺰﻌﺗ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ ،ﻲﻋﺎﻤﺠﻟﺍ ﻲﻋﻮﻟﺍ ﺔﻫﺎﺘﻣ ﺔﻜﺒﺷ ﺮﺒﻋ ﺔﻟﻮﻬﺴﺑ ﻞﻘﻨﺘﻟﺍ ﻝﻼﺧ ﻦﻣ"
+ trait_ruler_deep_connections_2_hive:0 "$trait_ruler_deep_connections_hive$ II"
+ trait_ruler_deep_connections_2_hive_desc:0 "$trait_ruler_deep_connections_hive_desc$"
+
+ trait_ruler_deep_connections_machine:0 "ﻖﻴﻤﻌﻟﺍ ﻞﻴﻠﺤﺘﻠﻟ ﻲﻋﺮﻓ ﻦﻴﺗﻭﺭ"
+ trait_ruler_deep_connections_machine_desc:1 ".ﺔﻤﻏﺎﻨﺘﻣ ﺔﻬﺟﺍﻭ ﺰﻳﺰﻌﺗ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ ،ﺔﻴﻋﺎﻤﺠﻟﺍ ﺔﻜﺒﺸﻠﻟ ﺔﻫﺎﺘﻤﻟﺍ ﺔﻜﺒﺸﻟﺍ ﺮﺒﻋ ﺔﻟﻮﻬﺴﺑ ﻞﻘﻨﺘﻟﺍ ﻝﻼﺧ ﻦﻣ"
+ trait_ruler_deep_connections_2_machine:0 "$trait_ruler_deep_connections_machine$ II"
+ trait_ruler_deep_connections_2_machine_desc:0 "$trait_ruler_deep_connections_machine_desc$"
+
+ leader_trait_interrogator_hive:0 "ﻖﻘﺤﻤﻟﺍ"
+ leader_trait_interrogator_hive_desc:1 ".ﺓﺮﻤﺘﺴﻤﻟﺍ ﺔﻴﺗﺍﺭﺎﺒﺨﺘﺳﻻﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﺔﻌﻤﺠﻤﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺪﻋﺎﺴﺗ .ﻦﻴﻤﻴﻘﻤﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻊﻣ ﺔﺼﺼﺨﺘﻣ ﺏﺍﻮﺠﺘﺳﺍ ﺕﺎﻴﻨﻘﺗ [owner.GetIndividualName] ﻡﺪﺨﺘﺴﻳ"
+ leader_trait_interrogator_machine:0 "ﻖﻘﺤﻤﻟﺍ"
+ leader_trait_interrogator_machine_desc:1 ".ﺓﺮﻤﺘﺴﻤﻟﺍ ﺔﻴﺗﺍﺭﺎﺒﺨﺘﺳﻻﺍ ﺕﺎﻴﻠﻤﻌﻟﺍ ﺔﻌﻤﺠﻤﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺪﻋﺎﺴﺗ .ﻝﻼﺘﺣﻼﻟ ﻦﻴﻌﺿﺎﺨﻟﺍ ﻥﺎﻜﺴﻟﺍ ﻊﻣ ﺔﺼﺼﺨﺘﻣ ﺏﺍﻮﺠﺘﺳﺍ ﺕﺎﻴﻨﻘﺗ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴﺗ"
+
+ leader_trait_interrogator_2_hive:0 "$leader_trait_interrogator_hive$ II"
+ leader_trait_interrogator_2_hive_desc:0 "$leader_trait_interrogator_hive_desc$"
+ leader_trait_interrogator_2_machine:0 "$leader_trait_interrogator_machine$ II"
+ leader_trait_interrogator_2_machine_desc:0 "$leader_trait_interrogator_machine_desc$"
+
+ leader_trait_crusader_hive:0 "ﺔﻳﻮﻘﻟﺍ ﺕﺎﻧﻮﻣﺮﻴﻔﻟﺍ"
+ leader_trait_crusader_hive_desc:0 ".ﻦﻴﻄﺸﻨﻟﺍ ﻦﻴﻠﺗﺎﻘﻤﻠﻟ ﺀﻭﺪﻬﻠﻟ ﺔﺒﺒﺴﻤﻟﺍ ﺕﺎﻧﻮﻣﺮﻴﻔﻟﺍ ﺯﺮﻔﺗ ﺔﻟﺪﻌﻣ ﺓﺪﻏ ﻰﻠﻋ [owner.GetIndividualName] ﻱﻮﺘﺤﻳ"
+ leader_trait_crusader_2_hive:0 "$leader_trait_crusader_hive$ II"
+ leader_trait_crusader_2_hive_desc:0 "$leader_trait_crusader_hive_desc$"
+ leader_trait_crusader_machine:0 "ﻲﻜﻴﺘﻜﺗ"
+ leader_trait_crusader_machine_desc:0 ".ﺔﻄﺸﻨﻟﺍ ﺔﻴﻟﺎﺘﻘﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻲﻓ ﻲﻜﻴﺘﻜﺘﻟﺍ ﻚﺳﺎﻤﺘﻟﺍ ﺯﺰﻌﺗ ﻲﺘﻟﺍ ﺞﻣﺍﺮﺒﻟﺍ ﻞﻳﺪﻌﺘﺑ ﺓﺪﺣﻮﻟﺍ ﺖﻣﺎﻗ"
+ leader_trait_crusader_2_machine:0 "$leader_trait_crusader_machine$ II"
+ leader_trait_crusader_2_machine_desc:0 "$leader_trait_crusader_machine_desc$"
+
+ leader_trait_industrial_espionage_hive:0 "ﻚﻜﻔﻤﻟﺍ ﻮﻨﻜﺗ"
+ leader_trait_industrial_espionage_hive_desc:1 ".ﺔﻳﺩﺎﻌﻣ ﺓﺮﻤﻌﺘﺴﻣ ﻞﺘﺤﻳ ﺎﻣﺪﻨﻋ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻚﻴﻜﻔﺘﺑ [owner.GetIndividualName] ﻡﻮﻘﻳ"
+ leader_trait_industrial_espionage_machine:0 "ﻉﺯﺎﻨﻟﺍ ﻮﻨﻜﺗ"
+ leader_trait_industrial_espionage_machine_desc:1 ".ﺔﻳﺩﺎﻌﻣ ﺓﺮﻤﻌﺘﺴﻣ ﻞﺘﺤﺗ ﺎﻣﺪﻨﻋ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻚﻴﻜﻔﺘﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_industrial_espionage_2_hive:0 "$leader_trait_industrial_espionage_hive$ II"
+ leader_trait_industrial_espionage_2_hive_desc:0 "$leader_trait_industrial_espionage_hive_desc$"
+ leader_trait_industrial_espionage_2_machine:0 "$leader_trait_industrial_espionage_machine$ II"
+ leader_trait_industrial_espionage_2_machine_desc:0 "$leader_trait_industrial_espionage_machine_desc$"
+
+ leader_trait_warden_hive:0 "ﺮﻣﺁ"
+ leader_trait_warden_hive_desc:1 ".ﺐﻛﻮﻜﻟﺍ ﺔﻳﺎﻤﺣ ﻲﻓ ﺪﻋﺎﺴﺘﺳ ﻲﺘﻟﺍ ﺔﻴﻋﺎﻓﺪﻟﺍ ﺵﻮﻴﺠﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ [owner.GetIndividualName] ﺩﻮﻘﻳ"
+ leader_trait_warden_machine:0 "ﺮﻣﺁ"
+ leader_trait_warden_machine_desc:1 ".ﺐﻛﻮﻜﻟﺍ ﺔﻳﺎﻤﺣ ﻲﻓ ﺪﻋﺎﺴﺘﺳ ﻲﺘﻟﺍ ﺔﻴﻋﺎﻓﺪﻟﺍ ﺵﻮﻴﺠﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺩﻮﻘﺗ"
+
+ leader_trait_warden_2_hive:0 "$leader_trait_warden_hive$ II"
+ leader_trait_warden_2_hive_desc:0 "$leader_trait_warden_hive_desc$"
+ leader_trait_warden_2_machine:0 "$leader_trait_warden_machine$ II"
+ leader_trait_warden_2_machine_desc:0 "$leader_trait_warden_machine_desc$"
+
+ leader_trait_reinforcer_hive:0 "ﺯﺰﻌﻤﻟﺍ"
+ leader_trait_reinforcer_hive_desc:1 ".ﺔﻴﻋﺎﻓﺪﻟﺍ ﺏﺮﺤﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﻊﻣ ،ﺓﺭﺮﻀﺘﻤﻟﺍ ﺔﻴﻟﺎﺘﻘﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ [owner.GetIndividualName] ﺯﺰﻌﻳ"
+ leader_trait_reinforcer_machine:0 "ﺯﺰﻌﻤﻟﺍ"
+ leader_trait_reinforcer_machine_desc:1 ".ﺔﻴﻋﺎﻓﺪﻟﺍ ﺏﺮﺤﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ ﻊﻣ ،ﺓﺭﺮﻀﺘﻤﻟﺍ ﺔﻴﻟﺎﺘﻘﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﺰﻳﺰﻌﺘﻟ ﺔﺻﺎﺧ ﺓﺩﺎﻴﻗ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴﺗ"
+
+ leader_trait_reinforcer_2_hive:0 "$leader_trait_reinforcer_hive$ II"
+ leader_trait_reinforcer_2_hive_desc:0 "$leader_trait_reinforcer_hive_desc$"
+ leader_trait_reinforcer_2_machine:0 "$leader_trait_reinforcer_machine$ II"
+ leader_trait_reinforcer_2_machine_desc:0 "$leader_trait_reinforcer_machine_desc$"
+
+ leader_trait_guardian_hive:0 "ﻲﺻﻮﻟﺍ"
+ leader_trait_guardian_hive_desc:1 ".ﺔﻴﻋﺎﻓﺪﻟﺍ ﻢﻬﺗﺍﺭﺪﻗ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﻡﺎﻈﻨﻟﺍ ﻲﻓ ﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻣﻭ ﻡﻮﺠﻨﻟﺍ ﺓﺪﻋﺎﻗ ﻲﻓ [owner.GetIndividualName] ﻢﻜﺤﺘﻳ"
+ leader_trait_guardian_machine:0 "ﻲﺻﻮﻟﺍ"
+ leader_trait_guardian_machine_desc:0 ".ﺔﻴﻋﺎﻓﺪﻟﺍ ﺎﻬﺗﺍﺭﺪﻗ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﻡﺎﻈﻨﻟﺍ ﻲﻓ ﻉﺎﻓﺪﻟﺍ ﺕﺎﺼﻨﻣﻭ ﻡﻮﺠﻨﻟﺍ ﺓﺪﻋﺎﻘﺑ ﺎﻬﺴﻔﻧ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻂﺑﺮﺗ"
+
+ leader_trait_guardian_2_hive:0 "$leader_trait_guardian_hive$ II"
+ leader_trait_guardian_2_hive_desc:0 "$leader_trait_guardian_hive_desc$"
+ leader_trait_guardian_2_machine:0 "$leader_trait_guardian_machine$ II"
+ leader_trait_guardian_2_machine_desc:0 "$leader_trait_guardian_machine_desc$"
+
+ leader_trait_conscripter_hive:0 "ﺶﻴﺠﻟﺍ ﻮﻤﻧ"
+ leader_trait_conscripter_hive_desc:1 ".ﺔﻣﺪﻘﺘﻣ ﺔﻴﻟﺎﺘﻗ ﺮﻣﺍﻭﺄﺑ ﺩﺪﺠﻟﺍ ﺩﻮﻨﺠﻟﺍ ﺩﻭﺰﻳﻭ ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ ﺶﻴﺠﻟﺍ ﻮﻤﻧ ﺔﻋﺮﺳ [owner.GetIndividualName] ﺯﺰﻌﻳ"
+ leader_trait_conscripter_machine:0 "ﺶﻴﺠﻟﺍ ﻊﻤﺠﻣ"
+ leader_trait_conscripter_machine_desc:1 ".ﺓﺪﻳﺪﺟ ﺔﻴﻟﺎﺘﻗ ﺕﺍﺪﺣﻭ ﻰﻟﺇ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻴﻜﻴﺘﻜﺘﻟﺍ ﻝﺎﺘﻘﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ ﻞﻴﻤﺤﺗﻭ ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ ﺶﻴﺠﻟﺍ ﺝﺎﺘﻧﺇ ﺔﻋﺮﺳ ﺰﻳﺰﻌﺗ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+
+ trait_ruler_from_the_ranks_hive:0 "ﺔﻴﻟﺎﺘﻘﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ"
+ trait_ruler_from_the_ranks_hive_desc:1 ".ﺔﻳﺮﺒﻟﺍ ﺔﻴﻟﺎﺘﻘﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻊﻴﻤﺠﻟ ﻢﻠﻌﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍﻭ ﺓﺀﺎﻔﻜﻟﺍ ﺓﺩﺎﻳﺯ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+ trait_ruler_from_the_ranks_machine:0 "ﺔﻴﻟﺎﺘﻘﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ"
+ trait_ruler_from_the_ranks_machine_desc:1 ".ﺔﻳﺮﺒﻟﺍ ﺔﻴﻟﺎﺘﻘﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻊﻴﻤﺠﻟ ﻢﻠﻌﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍﻭ ﺓﺀﺎﻔﻜﻟﺍ ﺓﺩﺎﻳﺯ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+
+ trait_ruler_recruiter_hive:0 "ﺐﻴﺼﻤﻟﺍ"
+ trait_ruler_recruiter_hive_desc:1 ".ﺔﻀﻔﺨﻨﻣ ﺔﻔﻠﻜﺗﻭ ﺔﻴﻟﺎﻋ ﺔﻋﺮﺴﺑ ﺵﻮﻴﺠﻟﺍ ﻮﻤﻨﺑ ﺢﻤﺴﺗ ﻲﺘﻟﺍ ﺔﺑﺎﺻﻹﺍ ﺕﺍﺭﻭﺩ ﻲﻓ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺺﺼﺨﺘﺗ"
+ trait_ruler_recruiter_machine:0 "ﺏﺮﺤﻟﺍ ﻊﻴﻤﺠﺗ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ"
+ trait_ruler_recruiter_machine_desc:1 ".ﺔﻀﻔﺨﻨﻣ ﺔﻔﻠﻜﺗﻭ ﺔﻴﻟﺎﻋ ﺔﻋﺮﺴﺑ ﺵﻮﻴﺠﻟﺍ ﺀﺎﻨﺑ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻞﻌﺠﺗ ﻲﺘﻟﺍ ﻊﻴﻤﺠﺘﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺪﻛﺆﺗ"
+
+ leader_trait_science_communicator_hive:0 "ﻡﻮﻠﻌﻟﺍ ﺓﺎﻨﻗ"
+ leader_trait_science_communicator_hive_desc:1 ".[owner.GetIndividualNamePlural] ﺮﺧﻵﺍ ﺪﺋﺎﻘﻠﻟ ﻲﻤﻠﻌﻟﺍ ﺝﺎﺘﻧﻹﺍ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ ،ﺓﺪﻳﺪﺠﻟﺍ ﺔﻓﺮﻌﻤﻠﻟ ﺮﻤﺘﺴﻤﻟﺍ ﻖﻓﺪﺘﻟﺍ ﻝﻼﺧ ﻦﻣ"
+ leader_trait_science_communicator_machine:0 "ﻡﻮﻠﻌﻟﺍ ﺓﺪﺣﻭ ﺔﻴﻗﺮﺗ"
+ leader_trait_science_communicator_machine_desc:1 ".ﻯﺮﺧﻷﺍ ﺔﻳﺩﺎﻴﻘﻟﺍ ﺕﺍﺪﺣﻮﻠﻟ ﻲﻤﻠﻌﻟﺍ ﺝﺎﺘﻧﻹﺍ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ ،ﺓﺪﻳﺪﺠﻟﺍ ﺔﻓﺮﻌﻤﻠﻟ ﺮﻤﺘﺴﻤﻟﺍ ﻖﻓﺪﺘﻟﺍ ﻝﻼﺧ ﻦﻣﻭ"
+
+ leader_trait_science_communicator_2_hive:0 "$leader_trait_science_communicator_hive$ II"
+ leader_trait_science_communicator_2_hive_desc:0 "$leader_trait_science_communicator_hive_desc$"
+ leader_trait_science_communicator_2_machine:0 "$leader_trait_science_communicator_machine$ II"
+ leader_trait_science_communicator_2_machine_desc:0 "$leader_trait_science_communicator_machine_desc$"
+
+ leader_trait_carefree_hive: "ﻊﻳﺮﺳ"
+ leader_trait_carefree_hive_desc:1 ".ﺔﻓﻭﺮﻌﻣ ﺮﻴﻏ ﺓﺮﻫﺎﻇ ﻲﻓ ﻖﻴﻘﺤﺘﻟﺍ ﺪﻨﻋ ﺓﺀﺎﻔﻜﺑ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺔﻠﺑﺮﻐﺑ [owner.GetIndividualName] ﻡﻮﻘﻳ"
+ leader_trait_carefree_machine:0 "ﺔﻌﻳﺮﺳ ﺕﺎﺑﺎﺴﺣ"
+ leader_trait_carefree_machine_desc:1 ".ﺔﻓﻭﺮﻌﻣ ﺮﻴﻏ ﺓﺮﻫﺎﻇ ﻲﻓ ﻖﻴﻘﺤﺘﻟﺍ ﺪﻨﻋ ﺓﺀﺎﻔﻜﺑ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺔﻠﺑﺮﻐﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_carefree_2_hive:0 "$leader_trait_carefree_hive$ II"
+ leader_trait_carefree_2_hive_desc:0 "$leader_trait_carefree_hive_desc$"
+ leader_trait_carefree_2_machine:0 "$leader_trait_carefree_machine$ II"
+ leader_trait_carefree_2_machine_desc:0 "$leader_trait_carefree_machine_desc$"
+
+ leader_trait_civil_engineer_hive:0 "ﻱﺭﺎﻤﻌﻤﻟﺍ ﻞﻘﻌﻟﺍ"
+ leader_trait_civil_engineer_hive_desc:0 ".ﻲﻧﺎﺒﻤﻟﺍﻭ ﻖﻃﺎﻨﻤﻟﺍ ﺀﺎﻨﺑ ﺖﻗﻭ ﻞﻴﻠﻘﺗ ﻰﻠﻋ [owner.GetIndividualName] ﻞﻤﻌﻳ"
+ leader_trait_civil_engineer_machine:0 "ﺔﻳﺭﺎﻤﻌﻤﻟﺍ ﺕﺎﺑﺎﺴﺤﻟﺍ"
+ leader_trait_civil_engineer_machine_desc:0 ".ﻲﻧﺎﺒﻤﻟﺍﻭ ﺀﺎﻴﺣﻷﺍ ﺀﺎﻨﺑ ﻦﻣﺯ ﻞﻴﻠﻘﺘﻟ ﺔﻣﺪﻘﺘﻣ ﺕﺎﺑﺎﺴﺣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴﺗ"
+
+ leader_trait_civil_engineer_2_hive:0 "$leader_trait_civil_engineer_hive$ II"
+ leader_trait_civil_engineer_2_hive_desc:0 "$leader_trait_civil_engineer_hive_desc$"
+ leader_trait_civil_engineer_2_machine:0 "$leader_trait_civil_engineer_machine$ II"
+ leader_trait_civil_engineer_2_machine_desc:0 "$leader_trait_civil_engineer_machine_desc$"
+
+ leader_trait_collaborator_hive:0 "ﻚﺒﺸﻤﻟﺍ ﻂﺑﺭ"
+ leader_trait_collaborator_hive_desc:1 ".[owner.GetGovernmentName] ﻦﻣ ﻯﺮﺧﺃ ﺀﺍﺰﺟﺃ ﻊﻣ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﻛﺭﺎﺸﻣ ﻲﻓ ﻻﺎﻌﻓ [owner.GetIndividualName] ﺪﻌﻳ"
+ leader_trait_collaborator_machine:0 "ﺮﺗﻮﻴﺒﻤﻜﻟﺍ ﻂﺑﺭ"
+ leader_trait_collaborator_machine_desc:1 ".ﺔﻜﺒﺸﻟﺍ ﻦﻣ ﻯﺮﺧﺃ ﺀﺍﺰﺟﺃ ﻊﻣ ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﻛﺭﺎﺸﻣ ﻲﻓ ﺔﻟﺎﻌﻓ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_collaborator_2_hive:0 "$leader_trait_collaborator_hive$ II"
+ leader_trait_collaborator_2_hive_desc:0 "$leader_trait_collaborator_hive_desc$"
+ leader_trait_collaborator_2_machine:0 "$leader_trait_collaborator_machine$ II"
+ leader_trait_collaborator_2_machine_desc:0 "$leader_trait_collaborator_machine_desc$"
+
+ leader_trait_engineering_focus_hive:0 "ﻲﺳﺪﻨﻬﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_engineering_focus_hive_desc:0 ".ﻲﺳﺪﻨﻬﻟﺍ ﺚﺤﺒﻟﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_engineering_focus_machine:0 "ﻲﺳﺪﻨﻬﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_engineering_focus_machine_desc:1 ".ﺔﻴﺳﺪﻨﻬﻟﺍ ﺙﻮﺤﺒﻟﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+
+ leader_trait_engineering_focus_2_hive:0 "$leader_trait_engineering_focus_hive$ II"
+ leader_trait_engineering_focus_2_hive_desc:0 "$leader_trait_engineering_focus_hive_desc$"
+ leader_trait_engineering_focus_2_machine:0 "$leader_trait_engineering_focus_machine$ II"
+ leader_trait_engineering_focus_2_machine_desc:0 "$leader_trait_engineering_focus_machine_desc$"
+
+ trait_ruler_explorer_hive:0 "ﺫﻭﺬﺸﻟﺍ ﻢﻬﻓ"
+ trait_ruler_explorer_hive_desc:1 ".ﻥﻮﻜﻟﺍ ﺕﺎﻔﻟﺎﺨﻣ ﻲﻓ ﻖﻴﻘﺤﺘﻠﻟ ﺍﺪﻴﺟ ﺓﺄﻴﻬﻣ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ"
+ trait_ruler_explorer_machine:0 "ﺫﻭﺬﺸﻟﺍ ﺔﺠﻟﺎﻌﻣ"
+ trait_ruler_explorer_machine_desc:1 ".ﻥﻮﻜﻟﺍ ﺕﺎﻔﻟﺎﺨﻣ ﻲﻓ ﻖﻴﻘﺤﺘﻠﻟ ﺍﺪﻴﺟ ﺓﺄﻴﻬﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ trait_ruler_explorer_2_hive:0 "$trait_ruler_explorer_hive$ II"
+ trait_ruler_explorer_2_hive_desc:0 "$trait_ruler_explorer_hive_desc$"
+ trait_ruler_explorer_2_machine:0 "$trait_ruler_explorer_machine$ II"
+ trait_ruler_explorer_2_machine_desc:0 "$trait_ruler_explorer_machine_desc$"
+
+ trait_ruler_expansionist_hive:1 "ﺮﻴﻜﻔﺘﻟﺍ ﻲﻓ ﻊﺳﻮﺘﻟﺍ"
+ trait_ruler_expansionist_hive_desc:1 ".ﺔﻋﺮﺴﺑ ﺎﻧﺩﻭﺪﺣ ﻊﻴﺳﻮﺘﻟ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻒﻴﻴﻜﺗ ﻢﺗ"
+ trait_ruler_expansionist_machine:0 "ﺏﻮﺴﺤﻤﻟﺍ ﻊﺳﻮﺘﻟﺍ"
+ trait_ruler_expansionist_machine_desc:1 ".ﺔﻋﺮﺴﺑ ﺎﻧﺩﻭﺪﺣ ﻊﻴﺳﻮﺘﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻒﻴﻴﻜﺗ ﻢﺗ"
+
+ trait_ruler_expansionist_2_hive:0 "$trait_ruler_expansionist_hive$ II"
+ trait_ruler_expansionist_2_hive_desc:0 "$trait_ruler_expansionist_hive_desc$"
+ trait_ruler_expansionist_2_machine:0 "$trait_ruler_expansionist_machine$ II"
+ trait_ruler_expansionist_2_machine_desc:0 "$trait_ruler_expansionist_machine_desc$"
+
+ leader_trait_experimenter_hive:0 "ﺏﺮﺠﻣ"
+ leader_trait_experimenter_hive_desc:1 ".[owner.GetGestaltEntityName] ـﻟ ﺔﻤﻌﻧ ﺔﺑﺎﺜﻤﺑ ﺓﺮﻤﺘﺴﻤﻟﺍ [owner.GetIndividualName] ﺏﺭﺎﺠﺗ ﺮﺒﺘﻌﺗ"
+ leader_trait_experimenter_machine:0 "ﺔﻴﺒﻳﺮﺠﺘﻟﺍ ﺓﺎﻛﺎﺤﻤﻟﺍ"
+ leader_trait_experimenter_machine_desc:1 ".ﺔﻜﺒﺸﻠﻟ ﺔﻤﻌﻧ ﺔﺑﺎﺜﻤﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﺔﻴﺒﻳﺮﺠﺘﻟﺍ ﺓﺎﻛﺎﺤﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺮﺒﺘﻌﺗ"
+
+ leader_trait_experimenter_2_hive:0 "$leader_trait_experimenter_hive$ II"
+ leader_trait_experimenter_2_hive_desc:0 "$leader_trait_experimenter_hive_desc$"
+ leader_trait_experimenter_2_machine:0 "$leader_trait_experimenter_machine$ II"
+ leader_trait_experimenter_2_machine_desc:0 "$leader_trait_experimenter_machine_desc$"
+
+ leader_trait_inquisitive_hive:0 "ﻊﺳﻮﻤﻟﺍ ﺀﺎﻛﺬﻟﺍ"
+ leader_trait_inquisitive_hive_desc:1 ".ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺚﺤﺒﻠﻟ ﺍﺪﻳﺪﺟ ﺎﻫﺎﺠﺗﺍ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻬﻟ ﺔﻌﺳﻮﻤﻟﺍ ﺔﻴﺒﺼﻌﻟﺍ ﻚﺑﺎﺸﻤﻟﺍ ﺮﻓﻮﺗ"
+ leader_trait_inquisitive_machine:0 "ﺔﻴﻠﻴﻠﺤﺗ"
+ leader_trait_inquisitive_machine_desc:1 ".ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺚﺤﺒﻠﻟ ﺍﺪﻳﺪﺟ ﺎﻫﺎﺠﺗﺍ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﻲﻠﻴﻠﺤﺘﻟﺍ ﺞﻣﺎﻧﺮﺒﻟﺍ ﻡﺪﻘﻳ"
+
+ leader_trait_insightful_hive: "ﺔﺒﻗﺎﺜﻟﺍ"
+ leader_trait_insightful_hive_desc:1 ".ﺓﺫﺎﺸﻟﺍ ﺕﺎﻧﺎﻴﺒﻠﻟ ﻞﺼﻔﻣ ﻞﻴﻠﺤﺗ ﺀﺍﺮﺟﺈﺑ [owner.GetIndividualName] ﻡﻮﻘﻳ"
+ leader_trait_insightful_machine: "ﻆﺣﻼﻣ"
+ leader_trait_insightful_machine_desc:1 ".ﺫﻭﺬﺸﻟﺍ ﺕﺎﻧﺎﻴﺒﻟ ﻞﺼﻔﻣ ﻞﻴﻠﺤﺗ ﺀﺍﺮﺟﺈﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+ leader_trait_insightful_2_hive:0 "$leader_trait_insightful_hive$ II"
+ leader_trait_insightful_2_hive_desc:0 "$leader_trait_insightful_hive_desc$"
+ leader_trait_insightful_2_machine:0 "$leader_trait_insightful_machine$ II"
+ leader_trait_insightful_2_machine_desc:0 "$leader_trait_insightful_machine_desc$"
+
+ leader_trait_maniacal_hive:0 "ﻲﺒﺼﻌﻟﺍ ﻞﻴﻐﺸﺘﻟﺍ ﺩﺩﺮﺗ ﻊﻓﺭ"
+ leader_trait_maniacal_hive_desc:1 ".ﺚﺤﺒﻟﺍ ﺕﺎﺟﺮﺨﻣ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﺔﻌﻗﻮﺘﻤﻟﺍ ﺩﻭﺪﺤﻟﺍ ﺯﻭﺎﺠﺘﻳ ﺎﻤﺑ ﻞﻤﻌﻠﻟ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻴﻔﺤﺗ ﻢﺘﻳ"
+ leader_trait_maniacal_machine: "ﺪﻴﻛﻮﻠﻛﺮﻴﻓ"
+ leader_trait_maniacal_machine_desc:1 ".ﺚﺤﺒﻟﺍ ﺕﺎﺟﺮﺨﻣ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﺎﻬﺑ ﻰﺻﻮﻤﻟﺍ ﺩﻭﺪﺤﻟﺍ ﻦﻣ ﺪﻌﺑﺃ ﻮﻫ ﺎﻣ ﻰﻟﺇ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻊﻓﺩ ﻢﺘﻳ"
+
+ leader_trait_maniacal_2_hive:0 "$leader_trait_maniacal_hive$ II"
+ leader_trait_maniacal_2_hive_desc:0 "$leader_trait_maniacal_hive_desc$"
+ leader_trait_maniacal_2_machine:0 "$leader_trait_maniacal_machine$ II"
+ leader_trait_maniacal_2_machine_desc:0 "$leader_trait_maniacal_machine_desc$"
+
+ leader_trait_manufacturer_hive:0 "ﺓﺪﻋﺎﺴﻣ ﺔﻧﺎﻴﺻ"
+ leader_trait_manufacturer_hive_desc:1 ".ﻢﻬﺘﻔﻴﻇﻭﻭ ﻥﺎﻜﺴﻟﺍ ﺔﻧﺎﻴﺻ ﻲﻓ [owner.GetIndividualName] ﺪﻋﺎﺴﻳ"
+ leader_trait_manufacturer_machine:0 "ﺓﺪﻋﺎﺴﻣ ﺔﻧﺎﻴﺻ"
+ leader_trait_manufacturer_machine_desc:1 ".ﺎﻬﺘﻔﻴﻇﻭﻭ ﺔﻴﺒﻛﻮﻜﻟﺍ ﺔﻟﻵﺍ ﺓﺪﺣﻭ ﺔﻧﺎﻴﺻ ﻲﻓ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺪﻋﺎﺴﺗ"
+
+ leader_trait_manufacturer_2_hive:0 "$leader_trait_manufacturer_hive$ II"
+ leader_trait_manufacturer_2_hive_desc:0 "$leader_trait_manufacturer_hive_desc$"
+ leader_trait_manufacturer_2_machine:0 "$leader_trait_manufacturer_machine$ II"
+ leader_trait_manufacturer_2_machine_desc:0 "$leader_trait_manufacturer_machine_desc$"
+
+ leader_trait_meticulous_hive: "ﻖﻴﻗﺩ"
+ leader_trait_meticulous_hive_desc:1 ".ﺓﺭﺮﺒﻤﻟﺍ ﺮﻴﻏ ﺮﻫﺍﻮﻈﻟﺍ ﻦﻋ ﺚﺤﺒﻟﺍ ﺪﻨﻋ ﺹﺎﺧ ﻞﻜﺸﺑ ﻼﻣﺎﺷ [owner.GetIndividualName] ﺪﻌﻳ"
+ leader_trait_meticulous_machine: "ﺔﻘﻴﻗﺩ ﺕﺎﺑﺎﺴﺣ"
+ leader_trait_meticulous_machine_desc:1 ".ﺓﺭﺮﺒﻤﻟﺍ ﺮﻴﻏ ﺮﻫﺍﻮﻈﻟﺍ ﺔﺳﺍﺭﺪﻟ ﺔﻣﺪﻘﺘﻣ ﺔﻴﻋﺮﻓ ﺕﺍﺀﺍﺮﺟﺇ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻚﻠﺘﻤﺗ"
+
+ leader_trait_meticulous_2_hive:0 "$leader_trait_meticulous_hive$ II"
+ leader_trait_meticulous_2_hive_desc:0 "$leader_trait_meticulous_hive_desc$"
+ leader_trait_meticulous_2_machine:0 "$leader_trait_meticulous_machine$ II"
+ leader_trait_meticulous_2_machine_desc:0 "$leader_trait_meticulous_machine_desc$"
+
+ leader_trait_roamer_hive:0 "ﺱﺮﻬﻔﻣ"
+ leader_trait_roamer_hive_desc:1 ".ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺔﺳﺮﻬﻔﻟ ﺎﺼﻴﺼﺧ [owner.GetIndividualName] ﺀﺎﺸﻧﺇ ﻢﺗ"
+ leader_trait_roamer_machine:0 "ﺱﺮﻬﻔﻣ"
+ leader_trait_roamer_machine_desc:1 ".ﻡﻮﺠﻨﻟﺍ ﻦﻴﺑ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺔﺳﺮﻬﻔﻟ ﺎﺼﻴﺼﺧ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻢﻴﻤﺼﺗ ﻢﺗ"
+
+ leader_trait_roamer_2_hive:0 "$leader_trait_roamer_hive$ II"
+ leader_trait_roamer_2_hive_desc:0 "$leader_trait_roamer_hive_desc$"
+ leader_trait_roamer_2_machine:0 "$leader_trait_roamer_machine$ II"
+ leader_trait_roamer_2_machine_desc:0 "$leader_trait_roamer_machine_desc$"
+
+ leader_trait_salvager_hive:0 "$leader_trait_salvager$"
+ leader_trait_salvager_hive_desc: "$leader_trait_salvager_desc$"
+ leader_trait_salvager_hive_regular_desc:1 ".ﻡﺎﻄﺤﻟﺍ ﻦﻣ ﻦﻔﺴﻟﺍ ﺫﺎﻘﻧﺇ ﻲﻓ [owner.GetIndividualName] ﻕﻮﻔﺘﻳ"
+ leader_trait_salvager_machine:0 "$leader_trait_salvager$"
+ leader_trait_salvager_machine_desc: "$leader_trait_salvager_desc$"
+ leader_trait_salvager_machine_regular_desc:1 ".ﻦﻔﺴﻟﺍ ﻡﺎﻄﺣ ﺫﺎﻘﻧﻹ ﺔﻨﺴﺤﻣ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻱﻮﺘﺤﺗ"
+
+ leader_trait_slippery_hive: "ﻖﻟﺯ"
+ leader_trait_slippery_hive_desc:0 ".ﺮﻄﺨﻟﺍ ﻦﻋ ﻩﺪﻌﺒﺗ ﺓﺩﺎﺣ ﺰﺋﺍﺮﻏ [owner.GetIndividualName] ﻚﻠﺘﻤﻳ"
+ leader_trait_slippery_machine:0 "ﺉﺭﺍﻮﻄﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ"
+ leader_trait_slippery_machine_desc:0 ".ﺮﻄﺨﻟﺍ ﻦﻋ ﺎﻫﺪﻌﺒﺗ ﻲﺘﻟﺍ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺉﺭﺍﻮﻄﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻊﺒﺘﺗ"
+
+ leader_trait_surveyor_hive:0 "ﺐﻛﺍﻮﻜﻟﺍ ﺔﺒﻗﺍﺮﻣ"
+ leader_trait_surveyor_hive_desc:1 ".ﺐﻛﺍﻮﻜﻟﺍ ﺵﺎﺸﻋﺃ ﻲﻓ ﺩﺭﺍﻮﻤﻟﺍ ﺝﺎﺘﻧﺇ ﻦﻴﺴﺤﺘﻟ ﺺﺼﺨﻣ [owner.GetIndividualName]"
+ leader_trait_surveyor_machine:0 "ﺐﻛﺍﻮﻜﻟﺍ ﺔﺒﻗﺍﺮﻣ"
+ leader_trait_surveyor_machine_desc:1 ".ﺐﻛﻮﻜﻟﺍ ﻯﻮﺘﺴﻣ ﻰﻠﻋ ﺕﺎﻴﻠﻤﻌﻟﺍ ﻲﻓ ﺩﺭﺍﻮﻤﻟﺍ ﺕﺎﺟﺮﺨﻣ ﻦﻴﺴﺤﺘﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻦﻴﺴﺤﺗ ﻢﺗ"
+
+ leader_trait_tuner_hive:0 "ﻒﻟﺍﻮﻣ"
+ leader_trait_tuner_hive_desc:0 ".ﻲﻤﺠﻧ ﻡﺎﻈﻧ ﻞﻛ ﻞﺧﺍﺩ ﺔﻴﻌﻴﺒﻄﻟﺍ ﺔﻴﺑﺫﺎﺠﻟﺍ ﻝﻮﻘﺣ ﺮﺒﻋ [owner.GetIndividualName] ﻞﻘﻨﺘﻳ"
+ leader_trait_tuner_machine:0 "ﻒﻟﺍﻮﻣ"
+ leader_trait_tuner_machine_desc:0 ".ﻲﻤﺠﻧ ﻡﺎﻈﻧ ﻞﻛ ﻞﺧﺍﺩ ﺔﻴﻌﻴﺒﻄﻟﺍ ﺔﻴﺑﺫﺎﺠﻟﺍ ﺕﻻﺎﺠﻣ ﺮﺒﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻘﻨﺘﺗ"
+
+ leader_trait_tuner_2_hive:0 "$leader_trait_tuner_hive$ II"
+ leader_trait_tuner_2_hive_desc:0 "$leader_trait_tuner_hive_desc$"
+ leader_trait_tuner_2_machine:0 "$leader_trait_tuner_machine$ II"
+ leader_trait_tuner_2_machine_desc:0 "$leader_trait_tuner_machine_desc$"
+
+ trait_ruler_world_shaper_hive:0 "ﻲﻤﻟﺎﻌﻟﺍ ﻞﻜﺸﻤﻟﺍ"
+ trait_ruler_world_shaper_hive_desc:0 ".ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ ﻦﻴﺴﺤﺗ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ"
+ trait_ruler_world_shaper_machine:0 "ﻲﻤﻟﺎﻌﻟﺍ ﻞﻜﺸﻤﻟﺍ"
+ trait_ruler_world_shaper_machine_desc:1 ".ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ ﻦﻴﺴﺤﺗ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_bureaucrat_hive:0 "ﻪﻈﻘﻴﻟﺍ"
+ leader_trait_bureaucrat_hive_desc:1 ".[owner.GetBureaucratPlural] ﻊﻴﻤﺟ ﺓﺀﺎﻔﻛ ﺓﺩﺎﻳﺯﻭ ﺀﺍﺩﻷﺍ ﺮﻴﻳﺎﻌﻣ ﻊﻓﺭ ﻰﻠﻋ [owner.GetIndividualName] ﻞﻤﻌﻳ"
+ leader_trait_bureaucrat_machine:0 "ﻢﺨﻀﻤﻟﺍ"
+ leader_trait_bureaucrat_machine_desc:1 ".ﺔﻳﺭﺍﺩﻹﺍ ﺕﺍﺪﺣﻮﻟﺍ ﻊﻴﻤﺟ ﺓﺀﺎﻔﻛ ﺓﺩﺎﻳﺯﻭ ﺝﺎﺘﻧﻹﺍ ﻂﺳﻮﺘﻣ ﻊﻓﺭ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+
+ trait_ruler_industrialist_hive:1 "ﻊﻣﺎﺟ"
+ trait_ruler_industrialist_hive_desc:1 ".ﻥﺩﺎﻌﻤﻟﺍ ﺝﺎﺘﻧﺇ ﻮﻫ [owner.GetIndividualName] ـﻟ ﻲﺳﺎﺳﻷﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ trait_ruler_industrialist_machine:1 "ﻢﻛﺍﺮﺗ"
+ trait_ruler_industrialist_machine_desc:1 ".ﻥﺩﺎﻌﻤﻟﺍ ﺝﺎﺘﻧﺇ ﻮﻫ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﻲﺳﺎﺳﻷﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+
+ leader_trait_industrial_focus_hive:0 "$leader_trait_industrial_focus$"
+ leader_trait_industrial_focus_hive_desc:0 "$trait_ruler_industrialist_hive_desc$"
+ leader_trait_industrial_focus_machine:0 "$leader_trait_industrial_focus$"
+ leader_trait_industrial_focus_machine_desc:0 "$trait_ruler_industrialist_machine_desc$"
+
+ leader_trait_pop_focused_hive:0 "[owner.GetIndividualNameCap] ﺲﺒﻴﺴﻨﻳﺮﺑ"
+ leader_trait_pop_focused_hive_desc:0 ".ﺔﻤﺳﺎﺤﻟﺍ ﺭﺍﻭﺩﻷﺍﻭ ﻡﺎﻬﻤﻟﺍ ﺯﺎﺠﻧﻹ ﺍﺩﺍﺪﻌﺘﺳﺍ ﺮﺜﻛﺃ [owner.GetIndividualName] ﻱﺃ ﺎﻳﺰﻳﺮﻏ [owner.GetIndividualName] ﻑﺮﻌﻳ"
+ leader_trait_pop_focused_machine:0 "ﺺﻴﺼﺨﺘﻟﺍ ﺔﻴﻣﺯﺭﺍﻮﺧ"
+ leader_trait_pop_focused_machine_desc:0 ".ﺔﻤﺳﺎﺤﻟﺍ ﺭﺍﻭﺩﻷﺍﻭ ﻡﺎﻬﻤﻟﺎﺑ ﻡﺎﻴﻘﻠﻟ ﺓﺪﻌﺘﺴﻤﻟﺍ ﺕﻻﻵﺍ ﺏﺎﺴﺣ ﻲﻓ ﺓﺮﻫﺎﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_academic_hive:0 "$leader_trait_intellectual_hive$"
+ leader_trait_academic_hive_desc:0 "$leader_trait_intellectual_hive_desc$"
+ leader_trait_academic_machine:0 "$leader_trait_intellectual_machine$"
+ leader_trait_academic_machine_desc:0 "$leader_trait_intellectual_machine_desc$"
+
+ leader_trait_frontier_spirit_hive:0 "$trait_ruler_frontier_spirit$"
+ leader_trait_frontier_spirit_hive_desc:0 ".ﺓﺪﻳﺪﺟ ﻢﻴﻟﺎﻗﺃﻭ ﻢﻟﺍﻮﻋ ﺭﺎﻤﻌﺘﺳﺍ ﻲﻓ ﺔﺒﻏﺮﻟﺍ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺕﺭﻮﻃ ﺪﻘﻟ"
+ leader_trait_frontier_spirit_machine:0 "ﺭﺎﻤﻌﺘﺳﻼﻟ ﻲﻋﺮﻓ ﻦﻴﺗﻭﺭ"
+ leader_trait_frontier_spirit_machine_desc:0 ".ﺭﺎﻤﻌﺘﺳﻻﺍ ﺕﺎﻴﻠﻤﻋ ﺓﺀﺎﻔﻛ ﺓﺩﺎﻳﺰﻟ ﺔﺻﺎﺧ ﺔﻴﻋﺮﻓ ﺕﺍﺀﺍﺮﺟﺈﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺚﻳﺪﺤﺗ ﻢﺗ"
+
+ leader_trait_distribution_lines_hive:0 "ﺩﺭﺍﻮﻤﻟﺍ ﺺﺼﺨﻣ"
+ leader_trait_distribution_lines_hive_desc:0 ".ﺔﻋﺮﺴﺑ ﺔﻴﻋﺎﻨﺼﻟﺍ ﺕﺎﻌﻤﺠﻤﻠﻟ ﺩﺍﺪﻣﻹﺍ ﻕﺮﻃﻭ ﺔﺑﻮﻠﻄﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ ﺏﺎﺴﺤﺑ [owner.GetIndividualName] ﻡﻮﻘﻳ"
+ leader_trait_distribution_lines_machine:0 "ﺽﺮﻌﻟﺍ ﺕﺎﺑﺎﺴﺣ"
+ leader_trait_distribution_lines_machine_desc:0 ".ﺓﺀﺎﻔﻜﻟﺍ ﻲﻟﺎﻋ ﺐﻠﻄﻟﺍ ﺐﺴﺣ ﺽﺮﻌﻟﺍ ﺏﺎﺴﺣ ﺞﻣﺎﻧﺮﺒﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺐﻴﻛﺮﺗ ﻢﺗ"
+
+ leader_trait_border_guard_hive:0 "ﺔﻴﻗﺍﻭ"
+ leader_trait_border_guard_hive_desc:1 ".ﺔﻳﻮﻗﻭ ﺔﻣﺭﺎﺻ ﺔﻳﺩﻭﺪﺣ ﺕﺎﻋﺎﻓﺩ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻲﻫ ﺏﺮﺤﻟﺎﺑ ﺯﻮﻔﻠﻟ ﺔﻘﻳﺮﻃ ﻞﻀﻓﺃ ﻥﺃ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻙﺭﺪﺗ"
+ leader_trait_border_guard_machine:0 "ﺔﻴﻋﺎﻓﺪﻟﺍ ﺔﺒﺳﻮﺤﻟﺍ"
+ leader_trait_border_guard_machine_desc:1 ".ﺔﻳﻮﻗﻭ ﺔﻣﺭﺎﺻ ﺔﻳﺩﻭﺪﺣ ﺕﺎﻋﺎﻓﺩ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻲﻫ ﺏﺮﺤﻟﺎﺑ ﺯﻮﻔﻠﻟ ﺔﻘﻳﺮﻃ ﻞﻀﻓﺃ ﻥﺃ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺐﺴﺤﺗ"
+
+ leader_trait_crew_trainer_hive:0 "ﻍﺎﻣﺪﻟﺍ ﺔﺤﻓﺎﻜﻣ"
+ leader_trait_crew_trainer_hive_desc:1 ".ﺔﻴﻠﻌﻔﻟﺍ ﺔﻳﺮﺤﺒﻟﺍ ﺔﻣﺪﺨﻠﻟ ﻢﻬﻗﻼﻃﺇ ﻞﺒﻗ [owner.GetIndividualNamePlural] ﺮﻳﻮﻄﺗ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_crew_trainer_machine:0 "ﺔﻴﻟﺎﺘﻘﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺓﺪﻋﺎﻗ"
+ leader_trait_crew_trainer_machine_desc:1 ".ﺔﻳﺮﺳ ﺓﺪﺣﻭ ﻞﻛ ﻰﻟﺇ ﺎﻬﻠﻴﻤﺤﺗ ﻢﺘﻳ ﻲﺘﻟﺍﻭ ،ﻲﺋﺎﻀﻔﻟﺍ ﻝﺎﺘﻘﻟﺍ ﺕﺎﻜﻴﺘﻜﺗ ﻝﻮﺣ ﺓﺮﻴﺒﻛ ﺕﺎﻧﺎﻴﺑ ﺓﺪﻋﺎﻘﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻆﻔﺘﺤﺗ"
+
+ leader_trait_space_miner_hive:0 "$leader_trait_space_miner_machine$"
+ leader_trait_space_miner_hive_desc:0 ".ﺐﻛﻮﻜﻟﺍ ﺐﻧﺎﺟ ﻰﻠﻋ ﻦﻳﺪﻌﺘﻟﺍ ﺕﺂﺸﻨﻤﻟ ﺔﻴﻨﻐﻟﺍ ﻡﺎﺨﻟﺍ ﻕﻭﺮﻋ ﺪﻳﺪﺤﺗ [owner.GetIndividualName] ـﻟ ﻦﻜﻤﻳ"
+ leader_trait_space_miner_machine:0 "ﻲﻓﺍﺮﻐﺟ ﻂﻄﺨﻣ"
+ leader_trait_space_miner_machine_desc:0 ".ﺐﻛﻮﻜﻟﺍ ﺢﻄﺳ ﻰﻠﻋ ﻦﻳﺪﻌﺘﻟﺍ ﺕﺂﺸﻨﻤﻟ ﺔﻴﻨﻐﻟﺍ ﻡﺎﺨﻟﺍ ﻕﻭﺮﻋ ﺪﻳﺪﺤﺗ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﻦﻜﻤﻳ"
+
+ leader_trait_home_guard_hive:0 "ﺔﻣﻼﺴﻟﺍ ﻮﺤﻧ ﻪﺟﻮﻣ"
+ leader_trait_home_guard_hive_desc:1 ".ﻭﺪﻌﻟﺍ ﻭﺰﻏ ﺔﻟﺎﺣ ﻲﻓ ﺔﻨﻘﺘﻣ ﺔﻴﺒﻛﻮﻛ ﻉﺎﻓﺩ ﺔﻤﻈﻧﺃ ﺩﺍﺪﻋﺈﺑ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+ leader_trait_home_guard_machine:0 "ﺐﻛﺍﻮﻜﻟﺍ ﻦﻴﺑ ﻉﺎﻓﺪﻟﺍ"
+ leader_trait_home_guard_machine_desc:1 ".ﻭﺪﻌﻟﺍ ﻭﺰﻏ ﺔﻟﺎﺣ ﻲﻓ ﺔﻨﻘﺘﻣ ﺔﻴﺒﻛﻮﻛ ﺕﺎﻋﺎﻓﺩ ﺩﺍﺪﻋﺈﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ trait_ruler_frontier_spirit_hive:0 "ﺓﺮﻤﻌﺘﺴﻣ ﺰﻴﻛﺮﺘﻟﺍ"
+ trait_ruler_frontier_spirit_hive_desc:1 ".ﺔﺒﻳﺮﻐﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ ﺭﺎﻤﻌﺘﺳﺍ ﻰﻠﻋ [owner.GetIndividualName] ـﻟ ﻲﺳﺎﺳﻷﺍ ﺰﻴﻛﺮﺘﻟﺍ ﺐﺼﻨﻳ"
+ trait_ruler_frontier_spirit_machine:0 "ﺓﺮﻤﻌﺘﺴﻣ ﺰﻴﻛﺮﺘﻟﺍ"
+ trait_ruler_frontier_spirit_machine_desc:1 ".ﺔﺒﻳﺮﻐﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ ﺭﺎﻤﻌﺘﺳﺍ ﻮﺤﻧ ﺔﻬﺟﻮﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺔﺠﻣﺮﺑ"
+
+ leader_trait_army_veteran_machine:0 "ﺮﻳﺮﻜﻨﻴﺗ ﺕﻮﺑﺭﺍﻭ"
+ leader_trait_army_veteran_machine_desc:1 ".ﺔﻄﺸﻨﻟﺍ ﺔﻴﻟﺎﺘﻘﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﺚﻳﺪﺤﺗﻭ ﺔﻣﺪﺨﻟ ﺎﺼﻴﺼﺧ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻢﻴﻤﺼﺗ ﻢﺗ"
+ leader_trait_army_veteran_hive:0 "[owner.GetIndividualNameCap] ﺏﺮﺤﻟﺍ"
+ leader_trait_army_veteran_hive_desc:1 ".ﺏﺮﺤﻠﻟ ﻪﺘﻴﺑﺮﺗﻭ ﻲﺋﺎﻘﺘﻧﺍ ﻞﻜﺸﺑ [owner.GetIndividualName] ﺐﻳﺭﺪﺗ ﻢﺗ"
+
+ leader_trait_retired_fleet_officer_machine:1 "ﻲﻋﺎﻨﻄﺻﻻﺍ ﺀﺎﻛﺬﻟﺍ ﺓﺪﻋﺎﺴﻤﺑ ﻢﻴﻤﺼﺘﻟﺍ"
+ leader_trait_retired_fleet_officer_machine_desc:1 ".ﻦﻔﺴﻠﻟ ﺓﺪﻳﺪﺟ ﺕﺎﻤﻴﻤﺼﺗ ﺀﺎﺸﻧﻹ ﺎﺼﻴﺼﺧ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻢﻴﻤﺼﺗ ﻢﺗ"
+ leader_trait_retired_fleet_officer_hive:0 "[owner.GetIndividualNameCap] ﻦﻔﺴﻟﺍ ﺐﺗﺎﻛ"
+ leader_trait_retired_fleet_officer_hive_desc:1 ".ﺓﺭﻮﻄﺘﻤﻟﺍ ﻦﻔﺴﻟﺍ ﺕﺎﻤﻴﻤﺼﺗ ﺮﻳﻮﻄﺘﻟ ﻲﺋﺎﻘﺘﻧﺍ ﻞﻜﺸﺑ [owner.GetIndividualName] ﺝﺎﺘﻧﺇ ﻢﺗ"
+
+ leader_trait_agrarian_upbringing_hive:0 "ﻲﻋﺍﺭﺰﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_agrarian_upbringing_hive_desc:1 ".ﺐﻛﻮﻜﻟﺍ ﻰﻠﻋ ﺀﺍﺬﻐﻟﺍ ﺝﺎﺘﻧﺇ [owner.GetIndividualName] ﺰﻔﺤﻳ"
+
+ trait_ruler_fertility_preacher_hive:0 "ﻲﻜﻴﻣﺎﻨﻳﺪﻟﺍ ﻮﻤﻨﻟﺍ"
+ trait_ruler_fertility_preacher_hive_desc:1 ".ﻲﻧﺎﻜﺴﻟﺍ ﻮﻤﻨﻟﺍ ﺰﻔﺤﻳ ﺎﻤﻣ ،[owner.GetIndividualName] ﺐﻴﺼﺨﺗ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻊﺠﺸﺗ"
+ trait_ruler_fertility_preacher_machine:0 "ﺔﻋﺭﺎﺴﺘﻤﻟﺍ ﺔﻠﺛﺎﻤﺘﻤﻟﺍ ﺦﺴﻨﻟﺍ"
+ trait_ruler_fertility_preacher_machine_desc:1 ".ﺓﺮﺒﺨﺑ ﺔﻨﻴﻛﺎﻤﻟﺍ ﻊﻴﻤﺠﺗ ﻞﻴﻐﺸﺗ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+
+ trait_ruler_fertility_preacher_2_hive:0 "$trait_ruler_fertility_preacher_hive$ II"
+ trait_ruler_fertility_preacher_2_hive_desc:0 "$trait_ruler_fertility_preacher_hive_desc$"
+ trait_ruler_fertility_preacher_2_machine:0 "$trait_ruler_fertility_preacher_machine$ II"
+ trait_ruler_fertility_preacher_2_machine_desc:0 "$trait_ruler_fertility_preacher_machine_desc$"
+
+ leader_trait_environmental_engineer_hive_desc:1 ".ﻻﺎﻌﻓ ﺎﻴﺌﻴﺑ ﺎﺳﺪﻨﻬﻣ ﻥﻮﻜﻴﻟ ﻲﺋﺎﻘﺘﻧﺍ ﻞﻜﺸﺑ [owner.GetIndividualName] ﺔﻴﺑﺮﺗ ﻢﺗ"
+ leader_trait_environmental_engineer_machine:0 "ﺔﻓﺍﺮﺟ"
+ leader_trait_environmental_engineer_machine_desc:1 ".ﺔﻴﺌﻴﺒﻟﺍ ﺔﺳﺪﻨﻬﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺒﺑ ﺎﻘﺒﺴﻣ ﺔﺘﺒﺜﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻲﺗﺄﺗ"
+
+ leader_trait_enlister_hive:0 "ﺶﻴﺠﻟﺍ ﺮﻳﻮﻄﺗ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_enlister_hive_desc:1 ".ﺎﻨﺷﻮﻴﺟ ﺐﻳﺭﺪﺗ ﻒﻴﻟﺎﻜﺗ ﺾﻔﺧ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ،ﺔﻟﺎﻌﻓ ﺪﻴﻨﺠﺗ ﺓﺍﺩﺃ [owner.GetIndividualName] ﺪﻌﻳ"
+ leader_trait_enlister_machine:0 "ﺶﻴﺠﻟﺍ ﺮﻳﻮﻄﺗ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_enlister_machine_desc:1 ".ﺎﻨﺷﻮﻴﺟ ﺐﻳﺭﺪﺗ ﻒﻴﻟﺎﻜﺗ ﺾﻔﺧ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ،ﺔﻟﺎﻌﻓ ﺪﻴﻨﺠﺗ ﺔﻬﺟ ﻲﻫ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_enlister_2_hive:0 "$leader_trait_enlister_hive$ II"
+ leader_trait_enlister_2_hive_desc:0 "$leader_trait_enlister_hive_desc$"
+ leader_trait_enlister_2_machine:0 "$leader_trait_enlister_machine$ II"
+ leader_trait_enlister_2_machine_desc:0 "$leader_trait_enlister_machine_desc$"
+
+ leader_trait_shipwright_hive:0 "ﻦﻔﺴﻟﺍ ﺀﺎﻨﺑ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_shipwright_hive_desc:1 ".ﻡﺎﻈﻨﻟﺍ ﻲﻓ ﻞﻴﻃﺎﺳﻸﻟ ﺎﻳﺩﺎﺼﺘﻗﺍ ﻱﺪﺠﻤﻟﺍﻭ ﻝﺎﻌﻔﻟﺍ ﺀﺎﻨﺒﻟﺍ ﻰﻠﻋ [owner.GetIndividualName] ﺰﻛﺮﻳ"
+ leader_trait_shipwright_machine:0 "ﻦﻔﺴﻟﺍ ﺀﺎﻨﺑ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_shipwright_machine_desc:1 ".ﻡﺎﻈﻨﻟﺍ ﻲﻓ ﻞﻴﻃﺎﺳﻸﻟ ﺎﻳﺩﺎﺼﺘﻗﺍ ﻱﺪﺠﻤﻟﺍﻭ ﻝﺎﻌﻔﻟﺍ ﺀﺎﻨﺒﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻠﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺔﺠﻣﺮﺑ ﺖﻤﺗ"
+
+ leader_trait_shipwright_2_hive:0 "$leader_trait_shipwright_hive$ II"
+ leader_trait_shipwright_2_hive_desc:0 "$leader_trait_shipwright_hive_desc$"
+ leader_trait_shipwright_2_machine:0 "$leader_trait_shipwright_machine$ II"
+ leader_trait_shipwright_2_machine_desc:0 "$leader_trait_shipwright_machine_desc$"
+
+ leader_trait_architectural_interest_hive:0 "ﻝﺎﻌﻔﻟﺍ ﺀﺎﻨﺒﻟﺍ"
+ leader_trait_architectural_interest_hive_desc:1 ".ﺔﺳﺪﻨﻬﻟﺍﻭ ﺀﺎﻨﺒﻟﺍ ﻲﻓ ﺮﻫﺎﻣ [owner.GetIndividualName]"
+ leader_trait_architectural_interest_machine:0 "ﻝﺎﻌﻔﻟﺍ ﺀﺎﻨﺒﻟﺍ"
+ leader_trait_architectural_interest_machine_desc:1 ".ﺔﺳﺪﻨﻬﻟﺍﻭ ﺀﺎﻨﺒﻠﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻢﻴﻤﺼﺗ ﻢﺗ"
+
+ leader_trait_architectural_interest_2_hive:0 "$leader_trait_architectural_interest_hive$ II"
+ leader_trait_architectural_interest_2_hive_desc:0 "$leader_trait_architectural_interest_hive_desc$"
+ leader_trait_architectural_interest_2_machine:0 "$leader_trait_architectural_interest_machine$ II"
+ leader_trait_architectural_interest_2_machine_desc:0 "$leader_trait_architectural_interest_machine_desc$"
+
+ trait_ruler_architectural_sense_hive:0 "ﻱﺭﺎﻤﻌﻤﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ trait_ruler_architectural_sense_hive_desc:1 ".ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺮﻳﻮﻄﺗ ﺔﻔﻠﻜﺗﻭ ﺔﻋﺮﺳ ﻦﻣ ﻞﻠﻘﻳ ﺎﻤﻣ ،ﺔﻳﺭﺎﻤﻌﻤﻟﺍ ﺔﻳﺮﻈﻨﻟﺍ ﻲﻓ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺺﺼﺨﺘﺗ"
+ trait_ruler_architectural_sense_machine:0 "ﻱﺭﺎﻤﻌﻤﻟﺍ ﺰﻴﻛﺮﺘﻟﺍ"
+ trait_ruler_architectural_sense_machine_desc:1 ".ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺮﻳﻮﻄﺗ ﺔﻔﻠﻜﺗﻭ ﺔﻋﺮﺳ ﻦﻣ ﻞﻠﻘﻳ ﺎﻤﻣ ،ﺔﻳﺭﺎﻤﻌﻤﻟﺍ ﺔﻳﺮﻈﻨﻠﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻦﻴﺴﺤﺗ ﻢﺗ"
+
+ trait_ruler_architectural_sense_2_hive:0 "$trait_ruler_architectural_sense_hive$ II"
+ trait_ruler_architectural_sense_2_hive_desc:0 "$trait_ruler_architectural_sense_hive_desc$"
+ trait_ruler_architectural_sense_2_machine:0 "$trait_ruler_architectural_sense_machine$ II"
+ trait_ruler_architectural_sense_2_machine_desc:0 "$trait_ruler_architectural_sense_machine_desc$"
+
+ leader_trait_mining_focus_hive:0 "ﻦﻳﺪﻌﺘﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_mining_focus_hive_desc:1 ".ﺔﻴﻧﺪﻌﻤﻟﺍ ﺎﻨﺗﺎﻴﻃﺎﻴﺘﺣﺍ ﻦﺴﺤﻳ ﺎﻤﻣ ،ﺓﺪﻳﺮﻔﻟﺍ ﺔﺠﻟﺎﻌﻤﻟﺍﻭ ﻦﻳﺪﻌﺘﻟﺍ ﺕﺎﻴﻨﻘﺗ [owner.GetIndividualName] ﻡﺪﺨﺘﺴﻳ"
+ leader_trait_mining_focus_machine:0 "ﻦﻳﺪﻌﺘﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_mining_focus_machine_desc:1 ".ﺔﻴﻧﺪﻌﻤﻟﺍ ﺎﻨﺗﺎﻴﻃﺎﻴﺘﺣﺍ ﻦﻴﺴﺤﺗ ﻰﻠﻋ ﻞﻤﻌﻳ ﺎﻤﻣ ،ﺓﺪﻳﺮﻔﻟﺍ ﺔﺠﻟﺎﻌﻤﻟﺍﻭ ﻦﻳﺪﻌﺘﻟﺍ ﺕﺎﻴﻨﻘﺗ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﺪﺨﺘﺴﺗ"
+
+ leader_trait_generator_focus_hive:0 "ﺪﻟﻮﻤﻟﺍ ﺰﻴﻛﺮﺗ"
+ leader_trait_generator_focus_hive_desc:1 ".ﺎﻬﻨﻳﺰﺨﺗﻭ ﺔﻗﺎﻄﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ ﻲﻓ ﺮﻫﺎﻣ ﻪﻧﺄﺑ [owner.GetIndividualName] ﺰﻴﻤﺘﻳ"
+ leader_trait_generator_focus_machine:0 "ﺪﻟﻮﻤﻟﺍ ﺰﻴﻛﺮﺗ"
+ leader_trait_generator_focus_machine_desc:1 ".ﺎﻬﻨﻳﺰﺨﺗﻭ ﺔﻗﺎﻄﻟﺍ ﺝﺍﺮﺨﺘﺳﻻ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻦﻴﺴﺤﺗ ﻢﺗ"
+
+ leader_trait_farming_focus_2_hive:0 "$leader_trait_farming_focus_hive$ II"
+ leader_trait_farming_focus_2_hive_desc:0 "$leader_trait_farming_focus_hive_desc$"
+ leader_trait_farming_focus_2_machine:0 "$leader_trait_farming_focus_machine$ II"
+ leader_trait_farming_focus_2_machine_desc:0 "$leader_trait_farming_focus_machine_desc$"
+
+ leader_trait_mining_focus_2_hive:0 "$leader_trait_mining_focus_hive$ II"
+ leader_trait_mining_focus_2_hive_desc:0 "$leader_trait_mining_focus_hive_desc$"
+ leader_trait_mining_focus_2_machine:0 "$leader_trait_mining_focus_machine$ II"
+ leader_trait_mining_focus_2_machine_desc:0 "$leader_trait_mining_focus_machine_desc$"
+
+ leader_trait_generator_focus_2_hive:0 "$leader_trait_generator_focus_hive$ II"
+ leader_trait_generator_focus_2_hive_desc:0 "$leader_trait_generator_focus_hive_desc$"
+ leader_trait_generator_focus_2_machine:0 "$leader_trait_generator_focus_machine$ II"
+ leader_trait_generator_focus_2_machine_desc:0 "$leader_trait_generator_focus_machine_desc$"
+
+ leader_trait_farming_focus_hive:0 "ﺔﻋﺍﺭﺰﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_farming_focus_hive_desc:1 ".ﻪﻈﻔﺣﻭ ﻡﺎﻌﻄﻟﺍ ﺔﻋﺍﺭﺯ ﻲﻓ ﺮﻫﺎﻣ [owner.GetIndividualName] ﻥﺇ"
+ leader_trait_farming_focus_machine:0 "ﺔﻋﺍﺭﺰﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_farming_focus_machine_desc:1 ".ﻪﻈﻔﺣﻭ ﻡﺎﻌﻄﻟﺍ ﺔﻋﺍﺭﺯ ﻲﻓ ﺔﻋﺭﺎﺑ ﻥﻮﻜﺘﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻦﻴﺴﺤﺗ ﻢﺗ"
+
+ leader_trait_settler_hive:0 "ﻦﻃﻮﺘﺴﻣ"
+ leader_trait_settler_hive_desc:1 ".ﺶﻌﻟﺍﻭ ﻦﻜﺴﻟﺍ ﺔﻧﺎﻴﺻ ﻒﻴﻟﺎﻜﺗ ﻦﻴﺴﺤﺗ ﻲﻓ ﻪﺗﺀﺎﻔﻜﺑ [owner.GetIndividualName] ﺰﻴﻤﺘﻳ"
+ leader_trait_settler_machine:0 "ﻦﻃﻮﺘﺴﻣ"
+ leader_trait_settler_machine_desc:1 ".ﻂﺑﺍﺮﺘﻟﺍﻭ ﻦﻜﺴﻟﺍ ﺔﻧﺎﻴﺻ ﻒﻴﻟﺎﻜﺗ ﻦﻴﺴﺤﺘﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻦﻴﺴﺤﺗ ﻢﺗ"
+
+ leader_trait_settler_2_hive:0 "$leader_trait_settler_hive$ II"
+ leader_trait_settler_2_hive_desc:0 "$leader_trait_settler_hive_desc$"
+ leader_trait_settler_2_machine:0 "$leader_trait_settler_machine$ II"
+ leader_trait_settler_2_machine_desc:0 "$leader_trait_settler_machine_desc$"
+
+ leader_trait_cartographer_hive:0 "ﺡﻼﺼﺘﺳﻻﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_cartographer_hive_desc:1 ".ﺡﻼﺼﺘﺳﻻﺍ ﻲﻓ ﺪﻳﺮﻓ ﻞﻜﺸﺑ ﺺﺼﺨﺘﻣ ﺍﺬﻫ [owner.GetIndividualName] ﻥﺇ"
+ leader_trait_cartographer_machine:0 "ﺡﻼﺼﺘﺳﻻﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_cartographer_machine_desc:1 ".ﺎﻨﻳﺪﻟ ﺡﻼﺼﺘﺳﻻﺍ ﺕﺎﻴﻠﻤﻋ ﺰﻳﺰﻌﺘﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺔﺠﻣﺮﺑ ﺖﻤﺗ"
+
+ leader_trait_cartographer_2_hive:0 "$leader_trait_cartographer_hive$ II"
+ leader_trait_cartographer_2_hive_desc:0 "$leader_trait_cartographer_hive_desc$"
+ leader_trait_cartographer_2_machine:0 "$leader_trait_cartographer_machine$ II"
+ leader_trait_cartographer_2_machine_desc:0 "$leader_trait_cartographer_machine_desc$"
+
+ leader_trait_expeditionist_hive:0 "ﺮﻓﺭﺎﻛ ﺐﻛﻮﻛ"
+ leader_trait_expeditionist_hive_desc:1 ".ﻲﺿﺍﺭﻷﺍ ﻡﺍﺪﺨﺘﺳﺍﻭ ﻲﺟﻮﻟﻮﻴﺠﻟﺍ ﺖﺤﻨﻟﺍ ﻲﻓ ﺺﺼﺨﺘﻣ [owner.GetIndividualName]"
+ leader_trait_expeditionist_machine:0 "ﺮﻓﺭﺎﻛ ﺐﻛﻮﻛ"
+ leader_trait_expeditionist_machine_desc:1 ".ﻲﺿﺍﺭﻷﺍ ﻝﻼﻐﺘﺳﺍﻭ ﻲﺟﻮﻟﻮﻴﺠﻟﺍ ﺖﺤﻨﻟﺎﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺺﺘﺨﺗ"
+
+ leader_trait_life_support_systems_hive:0 "ﺓﺎﻴﺤﻟﺍ ﻢﻋﺩ ﺔﻤﻈﻧﺃ"
+ leader_trait_life_support_systems_hive_desc:1 ".ﺔﺒﻳﺮﻐﻟﺍ ﻢﻟﺍﻮﻌﻟﺍ ﻲﻓ ﺓﺪﻘﻌﻤﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻢﻋﺩ ﺔﻤﻈﻧﺃ ﺓﺭﺍﺩﺇﻭ ﺬﻴﻔﻨﺘﺑ [owner.GetIndividualName] ﻡﻮﻘﻳ"
+
+ leader_trait_forge_focus_hive:0 "ﺰﻴﻛﺮﺘﻟﺍ ﺔﻏﺎﻴﺻ"
+ leader_trait_forge_focus_hive_desc:1 ".ﻚﺋﺎﺒﺴﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺕﺎﻴﻨﻘﺗ ﻲﻓ ﺍﺮﻴﺒﺧ [owner.GetIndividualName] ﺪﻌﻳ"
+ leader_trait_forge_focus_machine:0 "ﺰﻴﻛﺮﺘﻟﺍ ﺔﻏﺎﻴﺻ"
+ leader_trait_forge_focus_machine_desc:1 ".ﻚﺋﺎﺒﺴﻟﺍ ﺔﺠﻟﺎﻌﻣ ﺕﺎﻴﻨﻘﺗ ﻲﻓ ﺔﺠﻣﺮﺒﻣ ﺓﺮﺒﺨﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻊﺘﻤﺘﺗ"
+
+ leader_trait_forge_focus_2_hive:0 "$leader_trait_forge_focus_hive$ II"
+ leader_trait_forge_focus_2_hive_desc:0 "$leader_trait_forge_focus_hive_desc$"
+ leader_trait_forge_focus_2_machine:0 "$leader_trait_forge_focus_machine$ II"
+ leader_trait_forge_focus_2_machine_desc:0 "$leader_trait_forge_focus_machine_desc$"
+
+ leader_trait_refinement_focus_hive:0 "ﻞﻘﺼﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_refinement_focus_hive_desc:1 ".ﺓﺭﺩﺎﻨﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﺩﺭﺍﻮﻣ ﺔﺠﻟﺎﻌﻣﻭ ﺝﺍﺮﺨﺘﺳﺍ ﻲﻓ ﺍﺮﻴﺒﺧ [owner.GetIndividualName] ﺪﻌﻳ"
+ leader_trait_refinement_focus_machine:0 "ﻞﻘﺼﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_refinement_focus_machine_desc:1 ".ﺓﺭﺩﺎﻨﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﺩﺭﺍﻮﻣ ﺔﺠﻟﺎﻌﻣﻭ ﺝﺍﺮﺨﺘﺳﻻ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺔﺠﻣﺮﺑ ﺖﻤﺗ"
+
+ leader_trait_refinement_focus_2_hive:0 "$leader_trait_refinement_focus_hive$ II"
+ leader_trait_refinement_focus_2_hive_desc:0 "$leader_trait_refinement_focus_hive_desc$"
+ leader_trait_refinement_focus_2_machine:0 "$leader_trait_refinement_focus_machine$ II"
+ leader_trait_refinement_focus_2_machine_desc:0 "$leader_trait_refinement_focus_machine_desc$"
+
+ leader_trait_urbanist_hive:0 "ﻱﺮﻀﺣ"
+ leader_trait_urbanist_hive_desc:1 ".ﻖﻃﺎﻨﻤﻟﺍ ﺓﺭﺍﺩﺇﻭ ﻱﺮﻀﺤﻟﺍ ﺮﻳﻮﻄﺘﻟﺍ ﻲﻓ ﺺﺼﺨﺘﻣ [owner.GetIndividualName]"
+ leader_trait_urbanist_machine:0 "ﻱﺮﻀﺣ"
+ leader_trait_urbanist_machine_desc:1 ".ﻖﻃﺎﻨﻤﻟﺍ ﺓﺭﺍﺩﺇﻭ ﺔﻳﺮﻀﺤﻟﺍ ﺔﻴﻤﻨﺘﻟﺍ ﻲﻓ ﺔﺼﺼﺨﺘﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+
+ leader_trait_trickster_machine_desc:1 ".ﺓﺪﻳﺮﻓ ﺔﻴﻟﺎﺘﻗ ﺎﻳﺍﺰﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻴﻟﺎﺘﻘﻟﺍ ﻞﻠﻀﻤﻟﺍ ﻪﻴﺟﻮﺘﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ ﺮﻓﻮﺗ"
+ leader_trait_trickster_hive_desc:1 ".ﺓﺪﻳﺮﻓ ﺔﻴﻟﺎﺘﻗ ﺎﻳﺍﺰﻣ [owner.GetIndividualName]ـﻟ ﺔﻴﻟﺎﺘﻘﻟﺍ ﻞﻠﻀﻤﻟﺍ ﻪﻴﺟﻮﺘﻟﺍ ﺕﺎﻴﻨﻘﺗ ﺮﻓﻮﺗ"
+
+ leader_trait_urbanist_2_hive:0 "$leader_trait_urbanist_hive$ II"
+ leader_trait_urbanist_2_hive_desc:0 "$leader_trait_urbanist_hive_desc$"
+ leader_trait_urbanist_2_machine:0 "$leader_trait_urbanist_machine$ II"
+ leader_trait_urbanist_2_machine_desc:0 "$leader_trait_urbanist_machine_desc$"
+
+ leader_trait_adventurous_spirit_hive:1 "[owner.GetIndividualNameCap] ﻲﺗﺍﺬﻟﺍ ﻢﻜﺤﻟﺍ"
+ leader_trait_adventurous_spirit_hive_desc:1 ".ﺔﻠﻘﺘﺴﻣﻭ ﺔﻳﻮﻔﻋ ﺕﺍﺭﺍﺮﻗ ﺫﺎﺨﺗﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﻮﻫﻭ ،ﺔﻴﻟﻼﻘﺘﺳﻻﺍ ﻦﻣ ﻱﺩﺎﻋ ﺮﻴﻏ ﻞﻜﺸﺑ ﺔﻴﻟﺎﻋ ﺔﺟﺭﺪﺑ [owner.GetIndividualName] ﺝﺎﺘﻧﺇ ﻢﺗ"
+
+ leader_trait_adventurous_spirit_machine:0 "ﺓﺪﻴﻘﻣ ﺮﻴﻏ ﺓﺪﺣﻭ"
+ leader_trait_adventurous_spirit_machine_desc:1 ".ﺔﻴﻟﻼﻘﺘﺳﻻﺍ ﻦﻣ ﺔﺻﺎﺧ ﺔﺟﺭﺪﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺔﺠﻣﺮﺑ ﺖﻤﺗ"
+
+ leader_trait_resilient_hive: "ﻥﺮﻣ"
+ leader_trait_resilient_hive_desc:1 ".ﻅﻮﺤﻠﻣ ﻞﻜﺸﺑ ﺔﻧﻭﺮﻤﻟﺎﺑ [owner.GetIndividualName] ﺰﻴﻤﺘﻳ"
+ leader_trait_resilient_machine: "ﻥﺮﻣ"
+ leader_trait_resilient_machine_desc:1 ".ﺔﻧﺮﻣ ﻥﻮﻜﺘﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻢﻴﻤﺼﺗ ﻢﺗ"
+
+ leader_trait_resilient_2_hive:1 "$leader_trait_resilient_hive$ II"
+ leader_trait_resilient_2_hive_desc:1 "$leader_trait_resilient_hive_desc$"
+ leader_trait_resilient_2_machine:1 "$leader_trait_resilient_machine$ II"
+ leader_trait_resilient_2_machine_desc:1 "$leader_trait_resilient_machine_desc$"
+
+ leader_trait_adaptable_machine:0 "ﺔﻧﺮﻤﻟﺍ ﺔﺠﻣﺮﺒﻟﺍ"
+ leader_trait_adaptable_machine_desc:1 ".ﺓﺪﻳﺪﺠﻟﺍ ﺭﺎﻜﻓﻷﺍﻭ ﺐﻴﻟﺎﺳﻷﺍ ﺔﺑﺮﺠﺗ ﻲﻓ ﺔﻌﻳﺮﺳ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+ leader_trait_adaptable_hive_desc:1 ".ﺓﺪﻳﺪﺠﻟﺍ ﺭﺎﻜﻓﻷﺍﻭ ﺐﻴﻟﺎﺳﻷﺍ ﺔﺑﺮﺠﺗ ﻲﻓ ﻊﻳﺮﺳ [owner.GetIndividualName]"
+
+ leader_trait_adaptable_2_hive:0 "$leader_trait_adaptable$ II"
+ leader_trait_adaptable_2_hive_desc:0 "$leader_trait_adaptable_hive_desc$"
+
+ leader_trait_adaptable_2_machine:0 "$leader_trait_adaptable_machine$ II"
+ leader_trait_adaptable_2_machine_desc:0 "$leader_trait_adaptable_machine_desc$"
+
+ leader_trait_politician_hive:0 "ﺓﺪﻘﻌﻟﺍ ﻦﺴﺤﻣ"
+ leader_trait_politician_hive_desc:1 ".ﻲﻋﺎﻤﺠﻟﺍ ﻚﺳﺎﻤﺘﻟﺍ ﺰﻳﺰﻌﺘﻟ ﻲﺋﺎﻘﺘﻧﺍ ﻞﻜﺸﺑ [owner.GetIndividualName] ﺔﻴﺑﺮﺗ ﻢﺗ"
+ leader_trait_politician_machine:0 "ﺓﺪﻘﻌﻟﺍ ﺪﻳﺍﺰﺗ"
+ leader_trait_politician_machine_desc:1 ".ﺓﺪﺣﻮﻟﺍ ﻚﺳﺎﻤﺗ ﺰﻳﺰﻌﺗ ﻰﻠﻋ ﻞﻤﻌﺗ ﺔﻣﺪﻘﺘﻣ ﺕﺎﻴﻣﺯﺭﺍﻮﺧ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺔﺠﻣﺮﺑ ﻱﻮﺘﺤﺗ"
+
+
+ leader_trait_politician_2_hive:0 "$leader_trait_politician_hive$ II"
+ leader_trait_politician_2_hive_desc:0 "$leader_trait_politician_hive_desc$"
+ leader_trait_politician_2_machine:0 "$leader_trait_politician_machine$ II"
+ leader_trait_politician_2_machine_desc:0 "$leader_trait_politician_machine_desc$"
+
+ leader_trait_capitalist_hive:0 "ﻲﻋﺮﻔﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺩﻭﺰﻣ"
+ leader_trait_capitalist_hive_desc:1 ".ﺔﻳﺰﻛﺮﻣ ﻻ ﺔﻗﺎﻃ ﺔﻤﻈﻧﺃ ﻰﻠﻋ [owner.GetIndividualName] ﻆﻓﺎﺤﻳ"
+ leader_trait_capitalist_machine:0 "ﻡﺩﺎﺨﻟﺍ ﻑﺮﺸﻣ"
+ leader_trait_capitalist_machine_desc:1 ".ﺔﻳﺰﻛﺮﻣﻼﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺔﻤﻈﻧﺃ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺔﺠﻣﺮﺑ ﺖﻤﺗ"
+
+
+ leader_trait_capitalist_2_hive:0 "$leader_trait_capitalist_hive$ II"
+ leader_trait_capitalist_2_hive_desc:0 "$leader_trait_capitalist_hive_desc$"
+ leader_trait_capitalist_2_machine:0 "$leader_trait_capitalist_machine$ II"
+ leader_trait_capitalist_2_machine_desc:0 "$leader_trait_capitalist_machine_desc$"
+
+ leader_trait_private_mines_hive:0 "ﻲﻜﺒﺸﻤﻟﺍ ﺖﺤﺗ ﻥﺩﺎﻌﻤﻟﺍ ﻝﻼﻐﺘﺳﺍ"
+ leader_trait_private_mines_hive_desc:1 ".ﺔﻳﺰﻛﺮﻣ ﻻ ﺔﻴﻧﺪﻌﻣ ﺭﺩﺎﺼﻤﺑ [owner.GetIndividualName] ﻆﻔﺘﺤﻳ"
+ leader_trait_private_mines_machine:1 "ﻥﺩﺎﻌﻤﻟﺍ ﺝﺍﺮﺨﺘﺳﻻ ﻲﻋﺮﻓ ﻦﻴﺗﻭﺭ"
+ leader_trait_private_mines_machine_desc:1 ".ﺔﻳﺰﻛﺮﻣﻼﻟﺍ ﺔﻴﻧﺪﻌﻤﻟﺍ ﺕﺎﻧﻭﺰﺨﻤﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺔﺠﻣﺮﺑ ﺖﻤﺗ"
+
+
+ leader_trait_private_mines_2_hive:0 "$leader_trait_private_mines_hive$ II"
+ leader_trait_private_mines_2_hive_desc:0 "$leader_trait_private_mines_hive_desc$"
+ leader_trait_private_mines_2_machine:0 "$leader_trait_private_mines_machine$ II"
+ leader_trait_private_mines_2_machine_desc:0 "$leader_trait_private_mines_machine_desc$"
+
+ leader_trait_homesteader_hive:1 "[owner.GetIndividualNameCap] ﺔﻴﻋﺍﺭﺰﻟﺍ"
+ leader_trait_homesteader_hive_desc:1 ".ﺀﺍﺬﻐﻟﺍ ﺝﺎﺘﻧﻹ ﺽﺭﺃ ﻊﻄﻘﺑ [owner.GetIndividualName] ﻆﻔﺘﺤﻳ"
+ leader_trait_homesteader_machine:0 "ﻱﻮﻀﻌﻟﺍ ﻢﻋﺪﻟﺍ ﺓﺪﺣﻭ"
+ leader_trait_homesteader_machine_desc:1 ".ﺀﺍﺬﻐﻟﺍ ﺝﺎﺘﻧﻹ ﻲﺿﺍﺭﻷﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺔﺠﻣﺮﺑ ﺖﻤﺗ"
+
+
+ leader_trait_homesteader_2_hive:0 "$leader_trait_homesteader_hive$ II"
+ leader_trait_homesteader_2_hive_desc:0 "$leader_trait_homesteader_hive_desc$"
+ leader_trait_homesteader_2_machine:0 "$leader_trait_homesteader_machine$ II"
+ leader_trait_homesteader_2_machine_desc:0 "$leader_trait_homesteader_machine_desc$"
+
+ leader_trait_scrapper_hive:0 "[owner.GetIndividualNamePluralCap] ﻝﺎﺑﺰﻟﺍ"
+ leader_trait_scrapper_hive_desc:1 ".ﺢﺴﻜﻟﺍ ﻞﻴﻃﺎﺳﺃ ﻞﻴﻐﺸﺘﺑ [owner.GetIndividualName] ﻡﻮﻘﻳ"
+ leader_trait_scrapper_machine:0 "ﺡﻼﺼﺘﺳﻻﺍ ﺓﺪﺣﻭ"
+ leader_trait_scrapper_machine_desc:1 ".ﺢﺴﻜﻟﺍ ﻞﻴﻃﺎﺳﺃ ﻞﻴﻐﺸﺗ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+
+ leader_trait_scrapper_2_hive:0 "$leader_trait_scrapper_hive$ II"
+ leader_trait_scrapper_2_hive_desc:0 "$leader_trait_scrapper_hive_desc$"
+ leader_trait_scrapper_2_machine:0 "$leader_trait_scrapper_machine$ II"
+ leader_trait_scrapper_2_machine_desc:0 "$leader_trait_scrapper_machine_desc$"
+
+ leader_trait_venerated_hive:0 "ﺔﻴﻋﺎﻤﺠﻟﺍ ﺓﺎﻨﻘﻟﺍ"
+ leader_trait_venerated_hive_desc:1 ".ﻲﻋﺎﻤﺠﻟﺍ ﻚﺳﺎﻤﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﺪﺣﻮﻣ ﺮﻴﺛﺄﺘﺑ ﺍﺬﻫ [owner.GetIndividualName] ﻊﺘﻤﺘﻳ"
+ leader_trait_venerated_machine:0 "ﺔﻜﺒﺸﻟﺍ ﻊﺑﺎﺘﺗ"
+ leader_trait_venerated_machine_desc:1 ".ﺎﻬﻠﻤﻛﺄﺑ ﺔﻨﻴﻛﺎﻤﻟﺍ ﺔﻜﺒﺸﻟ ﻞﺣﺮﻤﻛ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+
+ leader_trait_venerated_2_hive:0 "$leader_trait_venerated_hive$ II"
+ leader_trait_venerated_2_hive_desc:0 "$leader_trait_venerated_hive_desc$"
+ leader_trait_venerated_2_machine:0 "$leader_trait_venerated_machine$ II"
+ leader_trait_venerated_2_machine_desc:0 "$leader_trait_venerated_machine_desc$"
+
+ leader_trait_melancholic_hive:0 "ﺎﻴﺋﺎﻴﻤﻴﻛ ﺓﺍﺫﺎﺤﻣ"
+ leader_trait_melancholic_hive_desc:1 ".ﺔﻜﻬﻨﻤﻟﺍ ﻥﺎﻄﺒﺘﺳﻻﺍ ﺕﺎﺑﻮﻧ ﺐﺒﺴﺑ [owner.GetIndividualName] ﺔﻗﺎﻋﺇ ﻢﺘﻳ"
+ leader_trait_melancholic_machine:0 "ﻞﻠﺧ"
+ leader_trait_melancholic_machine_desc:1 ".ﻞﻴﺻﺎﻔﺘﻟﺍ ﻮﺤﻧ ﺔﻬﺟﻮﻤﻟﺍﻭ ﺔﺌﻴﻄﺒﻟﺍ ﻲﺗﺍﺬﻟﺍ ﺺﻴﺨﺸﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺀﺍﺮﺟﺈﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻡﻮﻘﺗ"
+
+ leader_trait_reclusive_hive:0 "ﺔﻳﺮﻄﻔﻟﺍ ﺔﻟﺰﻌﻟﺍ"
+ leader_trait_reclusive_hive_desc:1 ".ﺔﺒﻳﺮﻐﻟﺍ ﻉﺍﻮﻧﻷﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﺪﻨﻋ ﺓﺪﻴﻔﻣ ﺔﻳﺅﺭ ﺮﻴﻓﻮﺘﻟ ﺢﻓﺎﻜﺗﻭ ،ﺕﺎﻧﺎﻴﺒﻟﺍ ﺔﺠﻟﺎﻌﻣ ﻲﻓ ﺔﻟﺎﻌﻓ ﺮﻴﻏ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ"
+ leader_trait_reclusive_machine:0 "ﻞﻄﻌﻣ ﻲﺳﺎﻣﻮﻠﺑﺩ ﻝﻮﻛﻮﺗﻭﺮﺑ"
+ leader_trait_reclusive_machine_desc:1 ".ﺔﻴﺳﺎﻣﻮﻠﺑﺩ ﺔﻳﺅﺭ ﻢﻳﺪﻘﺗ ﺔﻟﻭﺎﺤﻣ ﺪﻨﻋ ﻞﻄﻌﺘﺗ ﺎﻣ ﺎﺒﻟﺎﻏﻭ ،ﺕﺎﻧﺎﻴﺒﻟﺍ ﺔﺠﻟﺎﻌﻣ ﻲﻓ ﺔﻟﺎﻌﻓ ﺮﻴﻏ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_intolerant_hive: "ﺢﻣﺎﺴﺘﻣ ﺮﻴﻏ"
+ leader_trait_intolerant_hive_desc:1 ".ﻯﺮﺧﻷﺍ [owner.GetIndividualNamePlural] ﻦﻴﺑ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻲﻓ ﺔﻘﺜﻟﺍ ﻡﺪﻋ ﺮﺸﻧ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ،ﻲﻌﻴﺒﻃ ﻞﻜﺸﺑ ﺔﻫﻮﺒﺸﻣ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ"
+ leader_trait_intolerant_machine: "ﺢﻣﺎﺴﺘﻣ ﺮﻴﻏ"
+ leader_trait_intolerant_machine_desc:1 ".ﻙﻮﻜﺸﻟﺍ ﺓﺩﺎﻳﺯ ﻰﻟﺇ ﻱﺩﺆﻳ ﺎﻤﻣ ﺔﺒﻴﻌﻣ ﺔﻘﺛ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻱﻮﺘﺤﺗ"
+
+ leader_trait_volatile_hive:0 "ﻱﺰﻳﺮﻐﻟﺍ ﻒﻨﻌﻟﺍ"
+ leader_trait_volatile_hive_desc:1 ".ﻒﻨﻌﻟﺍﻭ ﻥﺍﻭﺪﻌﻠﻟ ﻲﺛﺍﺭﻭ ﺩﺍﺪﻌﺘﺳﺍ ﺎﻬﻳﺪﻟ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ"
+ leader_trait_volatile_machine:0 "ﺎﻬﻟ ﺔﻳﺎﻬﻧ ﻻ ﻲﺘﻟﺍ ﻥﺍﻭﺪﻌﻟﺍ ﺔﻘﻠﺣ"
+ leader_trait_volatile_machine_desc:1 ".ﺐﻠﻘﺘﻟﺍ ﺕﺎﺑﻮﻨﻟ ﺔﺿﺮﻋﻭ ﺔﻴﺟﺍﺰﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_passive_hive: "ﻲﺒﻠﺳ"
+ leader_trait_passive_hive_desc:1 ".ﻲﻗﺎﺒﺘﺳﺍ ﻞﻜﺸﺑ ﻑﺮﺼﺘﻟﺍ ﻦﻋ ﺎﻣﺎﺠﺣﺇ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺮﻬﻈﺗ"
+ leader_trait_passive_machine: "ﻲﺒﻠﺳ"
+ leader_trait_passive_machine_desc:1 ".ﻲﻗﺎﺒﺘﺳﺍ ﻞﻜﺸﺑ ﺔﺑﺎﺠﺘﺳﻻﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻟﺍ ﻡﺪﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺽﺮﻌﺗ"
+
+ leader_trait_emotional_support_pet_hive:0 "Symbiont ﻲﻔﻃﺎﻌﻟﺍ ﻢﻋﺪﻟﺍ"
+ leader_trait_emotional_support_pet_hive_desc:1 ".[owner.GetGestaltEntityName] ﻞﺧﺍﺩ ﺔﻴﻫﺎﻓﺮﻟﺍ ﺰﻳﺰﻌﺗ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ ،ﻝﺩﺎﺒﺘﻤﻟﺍ ﺶﻳﺎﻌﺘﻤﻠﻟ ﺔﻴﺋﺎﻴﻤﻴﻜﻟﺍ ﺕﺍﺯﺍﺮﻓﻹﺍ ﻝﻼﺧ ﻦﻣ"
+
+ subclass_official_pioneer_hive:0 "ﺮﻴﻧﻮﻳﺎﺑ"
+ subclass_official_pioneer_hive_desc:1 ".ﺮﻃﺎﺨﻤﻟﺍ ﻩﺬﻫ ﻦﻣ ﻒﻴﻔﺨﺘﻟﺍ ﺔﻴﻔﻴﻛ [owner.GetIndividualName] ﻑﺮﻌﻳ .ﺎﻔﻠﻜﻣﻭ ﺍﺮﻴﻄﺧ ﺍﺮﻣﺃ [owner.GetGestaltEntityName] ـﻟ ﺓﺪﻳﺪﺟ ﻢﻟﺍﻮﻋ ﺩﺍﺪﻋﺇ ﺪﻌﻳ"
+ subclass_official_pioneer_machine:0 "ﺩﺍﻭﺮﻟﺍ ﺓﺪﺣﻭ"
+ subclass_official_pioneer_machine_desc:1 ".ﺮﻃﺎﺨﻤﻟﺍ ﻩﺬﻫ ﻦﻣ ﻒﻴﻔﺨﺘﻠﻟ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺔﺠﻣﺮﺑ ﺖﻤﺗ .ﻒﻠﻜﻣﻭ ﺮﻴﻄﺧ ﺮﻣﺃ ﺔﻜﺒﺸﻟﺍ ﻲﻓ ﺓﺪﻳﺪﺟ ﻢﻟﺍﻮﻋ ﺞﻣﺩ ﻥﺇ"
+
+ subclass_official_industrialist_hive:0 "ﺝﺎﺘﻧﻹﺍ ﺔﺒﻗﺍﺮﻣ"
+ subclass_official_industrialist_hive_desc:1 ".ﺝﺎﺘﻧﻹﺍ ﺔﻴﻠﻤﻋ ﻲﻓ ﺓﺪﻋﺎﺴﻤﻟﺍ ﻰﻟﺇ ﻥﻮﺟﺎﺘﺤﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ ﻪﻴﺟﻮﺘﻟ ﻲﺋﺎﻘﺘﻧﺍ ﻞﻜﺸﺑ [owner.GetIndividualName] ﺝﺎﺘﻧﺇ ﻢﺗ"
+ subclass_official_industrialist_machine:0 "ﺓﺀﺎﻔﻜﻟﺍ ﺔﻘﻠﺣ"
+ subclass_official_industrialist_machine_desc:1 ".ﺔﻟﺎﻌﻔﻟﺍ ﺮﻴﻏ ﺝﺎﺘﻧﻹﺍ ﻁﺎﻤﻧﺃ ﻑﺬﺣﻭ ﻝﺰﻌﻟ ﺓﺰﻬﺠﻣ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_agrarian_upbringing_2_hive:0 "$leader_trait_agrarian_upbringing_hive$ II"
+ leader_trait_agrarian_upbringing_2_hive_desc:0 "$leader_trait_agrarian_upbringing_hive_desc$"
+
+ leader_trait_intellectual_hive:0 "ﻡﺎﻬﻤﻟﺍ ﺮﻳﺪﻣ"
+ leader_trait_intellectual_hive_desc:1 ".ﺪﺣﺍﻭ ﺖﻗﻭ ﻲﻓ ﺔﺒﻌﺼﻟﺍ ﻡﺎﻬﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺓﺭﺍﺩﻹ ﺐﺳﺎﻨﻣ [owner.GetIndividualName] ﻥﺇ"
+ leader_trait_intellectual_machine:0 "ﻲﻓﺮﻌﻤﻟﺍ ﻢﻋﺪﻟﺍ ﺕﻻﺩﺎﻌﻣ"
+ leader_trait_intellectual_machine_desc:1 ".ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﺑ ﺔﺻﺎﺨﻟﺍ ﻢﻋﺪﻟﺍ ﺕﻻﺩﺎﻌﻣ ﺓﺪﻋﺎﺴﻤﺑ ﺮﻴﺜﻜﺑ ﻉﺮﺳﺃ ﻞﻜﺸﺑ ﺚﺤﺒﻟﺍ ﺕﺍﺪﺣﻭ ﻞﻤﻌﺗ"
+
+ leader_trait_bureaucrat_2_hive:0 "$leader_trait_bureaucrat_hive$ II"
+ leader_trait_bureaucrat_2_hive_desc:0 "$leader_trait_bureaucrat_hive_desc$"
+ leader_trait_bureaucrat_2_machine:0 "$leader_trait_bureaucrat_machine$ II"
+ leader_trait_bureaucrat_2_machine_desc:0 "$leader_trait_bureaucrat_machine_desc$"
+
+ leader_trait_courtroom_training_hive:0 "ﻲﻤﺳﺮﻟﺍ ﺙﺪﺤﺘﻤﻟﺍ"
+ leader_trait_courtroom_training_hive_desc:0 ".ﺔﻴﻟﺪﺠﻟﺍ ﺎﻬﺘﻏﻼﺒﺑ ﺔﻴﻛﺬﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺏﺬﺟ ﻲﻓ ﻕﺪﺼﻳ ﻻ ﻞﻜﺸﺑ ﺓﺮﻫﺎﻣ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ"
+ leader_trait_courtroom_training_machine:0 "ﺔﻴﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺔﻏﻼﺒﻟﺍ"
+ leader_trait_courtroom_training_machine_desc:1 ".ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺕﺎﻋﺎﻤﺘﺟﻻﺍ ﻲﻓ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻕﻮﻔﺘﺗ ،ﺔﻳﻮﻀﻌﻟﺍ ﻝﺎﺼﺗﻻﺍ ﺐﻴﻟﺎﺳﺃ ﻊﻣ ﺔﺳﻭﺭﺪﻣﻭ ﺓﺰﺟﻮﻣ"
+
+ leader_trait_principled_hive:0 "ﺭﺍﺮﻘﺘﺳﻻﺍ ﺔﻤﻬﻤﻫ"
+ leader_trait_principled_hive_desc:1 ".[owner.GetIndividualNamePlural] ﺎﻬﺘﻠﻴﻣﺯ ﻲﻓ ﺢﻴﺤﺼﻟﺍ ﻲﺒﺼﻌﻟﺍ ﻚﺒﺸﻤﻟﺍ ﺭﻮﻄﺗ ﺯﺰﻌﺗ ﺔﺘﺑﺎﺛ ﺔﻴﺋﺎﻴﻤﻴﻛ ﺓﺭﺎﺷﺇ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺚﻌﺒﺗ"
+ leader_trait_principled_machine:0 "ﻲﻤﺤﻣ"
+ leader_trait_principled_machine_desc:0 ".ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺕﺎﻬﻴﺟﻮﺗ ﻞﻇ ﻲﻓ ﺔﻠﺛﺎﻤﻤﻟﺍ ﺔﻴﺠﻣﺮﺒﻟﺍ ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﻞﺸﻓ ﺕﻻﺎﺣﻭ ،ﺕﺎﻧﺎﻴﺒﻟﺍ ﻥﺍﺪﻘﻓﻭ ،ﺓﺪﺳﺎﻔﻟﺍ ﺕﺎﻔﻠﻤﻟﺍ ﺙﺪﺤﺗ ﻥﺃ ﺢﺟﺮﻤﻟﺍ ﺮﻴﻏ ﻦﻣ"
+
+ leader_trait_principled_2_hive:0 "$leader_trait_principled_hive$ II"
+ leader_trait_principled_2_hive_desc:0 "$leader_trait_principled_hive_desc$"
+ leader_trait_principled_2_machine:0 "$leader_trait_principled_machine$ II"
+ leader_trait_principled_2_machine_desc:0 "$leader_trait_principled_machine_desc$"
+
+ leader_trait_assembler_hive: "ﺔﻳﺎﻋﺭ"
+ leader_trait_assembler_hive_desc:0 ".ﻞﺴﻨﻟﺍ ﺔﻳﺎﻋﺭ ﻰﻠﻋ ﺹﺎﺧ ﻞﻜﺸﺑ ﺺﻳﺮﺣ [owner.GetIndividualName] ﺍﺬﻫ"
+ leader_trait_assembler_machine:0 "ﻊﻴﻤﺠﺘﻟﺍ ﺰﻣﺭ"
+ leader_trait_assembler_machine_desc:1 ".ﺓﺪﻳﺪﺠﻟﺍ ﺕﻻﻵﺍ ﺝﺎﺘﻧﺇ ﻦﻴﺴﺤﺗ ﻦﻜﻤﻳ ،ﺐﺳﺎﻨﻤﻟﺍ ﻥﺎﻜﻤﻟﺍ ﻲﻓ ﺢﻴﺤﺼﻟﺍ ﺩﻮﻜﻟﺍ ﻊﺿﻭ ﻊﻣﻭ"
+
+ leader_trait_geologist_hive:0 "[owner.GetIndividualNameCap] ﻞﻤﻣ"
+ leader_trait_geologist_hive_desc:1 ".ﺔﻴﻓﻮﺠﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﺩﺭﺍﻮﻣ ﻰﻟﺇ ﺔﻟﻮﻬﺴﺑ ﻝﻮﺻﻮﻟﺍ [owner.GetIndividualName] ـﻟ ﻦﻜﻤﻳ ،ﺔﺼﺼﺨﺘﻤﻟﺍ ﺔﻳﺭﻮﻔﺣﻷﺍ ﻑﺍﺮﻃﻷﺍ ﻞﻀﻔﺑ"
+ leader_trait_geologist_machine:0 "ﻖﻴﻤﻌﻟﺍ ﺮﻔﺤﻟﺍ"
+ leader_trait_geologist_machine_desc:1 ".ﺔﻴﻓﻮﺠﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﺩﺭﺍﻮﻣ ﻰﻟﺇ ﺔﻟﻮﻬﺴﺑ ﻝﻮﺻﻮﻟﺍ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﻦﻜﻤﻳ ،ﺔﻣﺪﻘﺘﻣ ﺔﻗﺎﻃ ﺐﻗﺎﺜﻤﺑ ﺓﺰﻬﺠﻣ"
+
+ leader_trait_naturalist_hive:0 "ﻡﺎﺠﺴﻧﺍ"
+ leader_trait_naturalist_hive_desc:1 ".[owner.GetGestaltEntityName] ـﻟ ﺓﺪﻴﻔﻣ ﺔﻳﺩﺎﻌﻤﻟﺍ ﺕﯫﻴﺒﻟﺍ ﺢﺒﺼﺗ ﻥﺃ ﻦﻜﻤﻳ ،ﻒﻴﻜﺘﻟﺍ ﻰﻠﻋ ﺓﺭﺪﻘﻠﻟ ﺔﻳﻮﻟﻭﻷﺍ ﺀﺎﻄﻋﺇ ﻝﻼﺧ ﻦﻣ"
+ leader_trait_naturalist_machine:0 "ﻆﻔﺤﻟﺍ ﺩﻮﻛ"
+ leader_trait_naturalist_machine_desc:0 ".ﻡﺍﺪﺘﺴﻤﻟﺍ ﻝﻼﻐﺘﺳﻻﺎﺑ ﺢﻤﺴﻳ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺔﻴﺋﺎﻴﺣﻷﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻥﺇ"
+
+ leader_trait_cultural_focus_hive:0 "ﺪﻴﺣﻮﺘﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_cultural_focus_hive_desc:1 ".ﺔﺒﻳﺮﻐﻟﺍ ﺕﺎﻓﺎﻘﺜﻟﺍ ﻩﺎﺠﺗ ﺎﻤﻬﻔﺘﻣﻭ ﺎﻔﻴﻜﺘﻣ ﻥﻮﻜﻴﻟ ﻲﺋﺎﻘﺘﻧﺍ ﻞﻜﺸﺑ [owner.GetIndividualName] ﺔﻴﺑﺮﺗ ﻢﺗ"
+ leader_trait_cultural_focus_machine:0 "ﺪﻴﺣﻮﺘﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_cultural_focus_machine_desc:1 ".ﺔﻴﺑﺎﺠﻳﻹﺍ ﺕﻻﺎﺼﺗﻻﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍﻭ ﺪﻴﺣﻮﺘﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻢﻋﺩ ﻲﻓ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺺﺼﺨﺘﺗ"
+
+
+ leader_trait_cultural_focus_2_hive:0 "$leader_trait_culture_focus_hive$ II"
+ leader_trait_cultural_focus_2_hive_desc:0 "$leader_trait_culture_focus_hive_desc$"
+ leader_trait_cultural_focus_2_machine:0 "$leader_trait_culture_focus_machine$ II"
+ leader_trait_cultural_focus_2_machine_desc:0 "$leader_trait_culture_focus_machine_desc$"
+
+ leader_trait_expertise_materials_hive:0 "ﺩﺍﻮﻤﻟﺍ :ﺓﺮﺒﺨﻟﺍ"
+ leader_trait_expertise_materials_hive_desc:0 ".ﺩﺍﻮﻤﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_propulsion_hive:0 "ﻊﻓﺪﻟﺍ : ﺹﺎﺼﺘﺧﻻﺍ"
+ leader_trait_expertise_propulsion_hive_desc:0 ".ﻊﻓﺪﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_voidcraft_hive:0 "ﺕﺎﻏﺍﺮﻔﻟﺍ ﺔﻋﺎﻨﺻ : ﺓﺮﺒﺨﻟﺍ"
+ leader_trait_expertise_voidcraft_hive_desc:0 ".Voidcraft ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_industry_hive:0 "ﺔﻋﺎﻨﺻ : ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_industry_hive_desc:0 ".ﺔﻋﺎﻨﺼﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_field_manipulation_hive:0 "ﻲﻧﺍﺪﻴﻤﻟﺍ ﺐﻋﻼﺘﻟﺍ :ﺓﺮﺒﺨﻟﺍ"
+ leader_trait_expertise_field_manipulation_hive_desc:0 ".ﺔﻴﻧﺍﺪﻴﻤﻟﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_particles_hive:0 "ﺕﺎﻤﻴﺴﺠﻟﺍ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_particles_hive_desc:0 ".ﺕﺎﻤﻴﺴﺠﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_metaphysics_hive:0 "ﺎﻴﻘﻳﺰﻴﻓﺎﺘﻴﻣ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_metaphysics_hive_desc:0 ".ﺎﻘﻳﺰﻴﻓﺎﺘﻴﻤﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﻑﺎﺸﺘﻛﻻﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_psionics_hive:0 "ﺲﻔﻨﻟﺍ ﻢﻠﻋ : ﺓﺮﺒﺨﻟﺍ"
+ leader_trait_expertise_psionics_hive_desc:0 ".Psionics ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_computing_hive:0 "ﻲﻟﻵﺍ ﺐﺳﺎﺤﻟﺍ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_computing_hive_desc:0 ".ﺔﺒﺳﻮﺤﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_new_worlds_hive:0 "ﺓﺪﻳﺪﺟ ﻢﻟﺍﻮﻋ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_new_worlds_hive_desc:1 ".ﺓﺪﻳﺪﺟ ﻢﻟﺍﻮﻋ ﻥﺎﻄﻴﺘﺳﻻ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_statecraft_hive:0 "ﺔﻟﻭﺪﻟﺍ ﻦﻓ :ﺓﺮﺒﺨﻟﺍ"
+ leader_trait_expertise_statecraft_hive_desc:0 ".ﺔﻟﻭﺪﻟﺍ ﺓﺭﺍﺩﺇ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_biology_hive:0 "ﺎﻴﺟﻮﻟﻮﻴﺑ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_biology_hive_desc:0 ".ﺀﺎﻴﺣﻷﺍ ﻢﻠﻋ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_military_theory_hive:0 "ﺔﻳﺮﻜﺴﻌﻟﺍ ﺔﻳﺮﻈﻨﻟﺍ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_military_theory_hive_desc:0 ".ﺔﻳﺮﻜﺴﻌﻟﺍ ﺔﻳﺮﻈﻨﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+
+ leader_trait_expertise_materials_machine:0 "ﺩﺍﻮﻤﻟﺍ :ﺓﺮﺒﺨﻟﺍ"
+ leader_trait_expertise_materials_machine_desc:0 ".ﺩﺍﻮﻤﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_propulsion_machine:0 "ﻊﻓﺪﻟﺍ : ﺹﺎﺼﺘﺧﻻﺍ"
+ leader_trait_expertise_propulsion_machine_desc:0 ".ﻊﻓﺪﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_voidcraft_machine:0 "ﺕﺎﻏﺍﺮﻔﻟﺍ ﺔﻋﺎﻨﺻ : ﺓﺮﺒﺨﻟﺍ"
+ leader_trait_expertise_voidcraft_machine_desc:0 ".Voidcraft ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_industry_machine:0 "ﺔﻋﺎﻨﺻ : ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_industry_machine_desc:0 ".ﺔﻋﺎﻨﺼﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺠﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_field_manipulation_machine:0 "ﻲﻧﺍﺪﻴﻤﻟﺍ ﺐﻋﻼﺘﻟﺍ :ﺓﺮﺒﺨﻟﺍ"
+ leader_trait_expertise_field_manipulation_machine_desc:0 ".ﺔﻴﻧﺍﺪﻴﻤﻟﺍ ﺔﺠﻟﺎﻌﻤﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_particles_machine:0 "ﺕﺎﻤﻴﺴﺠﻟﺍ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_particles_machine_desc:1 ".ﺕﺎﻤﻴﺴﺠﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_metaphysics_machine:0 "ﺎﻴﻘﻳﺰﻴﻓﺎﺘﻴﻣ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_metaphysics_machine_desc:0 ".ﺎﻘﻳﺰﻴﻓﺎﺘﻴﻤﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_psionics_machine:0 "ﺲﻔﻨﻟﺍ ﻢﻠﻋ : ﺓﺮﺒﺨﻟﺍ"
+ leader_trait_expertise_psionics_machine_desc:0 ".ﺲﻔﻨﻟﺍ ﻢﻠﻋ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_computing_machine:0 "ﻲﻟﻵﺍ ﺐﺳﺎﺤﻟﺍ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_computing_machine_desc:0 ".ﺔﺒﺳﻮﺤﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺠﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_new_worlds_machine:0 "ﺓﺪﻳﺪﺟ ﻢﻟﺍﻮﻋ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_new_worlds_machine_desc:1 ".ﺓﺪﻳﺪﺟ ﻢﻟﺍﻮﻋ ﻥﺎﻄﻴﺘﺳﻻ ﺓﺪﻳﺪﺟ ﺕﺎﻴﻨﻘﺗ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_statecraft_machine:0 "ﺔﻟﻭﺪﻟﺍ ﻦﻓ :ﺓﺮﺒﺨﻟﺍ"
+ leader_trait_expertise_statecraft_machine_desc:0 ".ﻢﻜﺤﻟﺍ ﻦﻓ ﻝﺎﺠﻣ ﻲﻓ ﻑﺎﺸﺘﻛﻻﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_biology_machine:0 "ﺎﻴﺟﻮﻟﻮﻴﺑ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_biology_machine_desc:0 ".ﺀﺎﻴﺣﻷﺍ ﻢﻠﻋ ﻝﺎﺠﻣ ﻲﻓ ﺓﺪﻳﺪﺠﻟﺍ ﺕﺎﻴﻨﻘﺘﻟﺍ ﻑﺎﺸﺘﻛﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_expertise_military_theory_machine:0 "ﺔﻳﺮﻜﺴﻌﻟﺍ ﺔﻳﺮﻈﻨﻟﺍ :ﺺﺼﺨﺘﻟﺍ"
+ leader_trait_expertise_military_theory_machine_desc:1 ".ﺔﻳﺮﻜﺴﻌﻟﺍ ﺔﻳﺮﻈﻨﻟﺍ ﻝﺎﺠﻣ ﻲﻓ ﻑﺎﺸﺘﻛﻻﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+
+ leader_trait_polluter_hive:0 "ﺙﻮﻠﻤﻟﺍ"
+ leader_trait_polluter_hive_desc:1 ".ﺎﻬﻴﻠﻋ ﻑﺮﺸﻳ ﻲﺘﻟﺍ ﺕﺎﻋﺎﻨﺼﻟﺍ ﻦﻣ ﺓﺮﻴﻄﺨﻟﺍ ﺔﻳﻮﻧﺎﺜﻟﺍ ﺕﺎﺠﺘﻨﻤﻟﺍ ﻢﻛﺍﺮﺗ [owner.GetIndividualName] ﻞﻫﺎﺠﺘﻳ"
+
+ leader_trait_sadistic_hive:0 "ﻢﻟﻷﺍ ﻥﺎﻣﺩﺇ"
+ leader_trait_sadistic_hive_desc:1 ".ﺀﺎﻓﻮﻠﻟ ﺔﻠﻴﺳﻮﻛ ﻢﻟﻷﺍ ﺕﻼﺒﻘﺘﺴﻣ ﺰﻴﻔﺤﺗ ﻰﻠﻋ ﺎﻳﺪﺴﺟ [owner.GetIndividualName] ﺪﻤﺘﻌﻳ"
+ leader_trait_sadistic_machine:1 "ﺔﻴﺷﻮﺳﺎﻤﻟﺍ ﺕﻻﻵﺍ"
+ leader_trait_sadistic_machine_desc:1 ".ﺭﺮﻀﻟﺍ ﺭﺎﻌﺸﺘﺳﺍ ﺯﺎﻬﺠﻟ ﺭﺮﻜﺘﻤﻟﺍ ﺰﻴﻔﺤﺘﻟﺍ ﻰﻠﻋ ﺎﻴﻔﻴﻇﻭ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺪﻤﺘﻌﺗ"
+
+ leader_trait_irenic_hive: "ﻉﺍﺮﺼﻟﺍ ﻩﺮﻛ"
+ leader_trait_irenic_hive_desc:1 ".ﻞﻤﺘﺤﻤﻟﺍ ﻱﺮﻜﺴﻌﻟﺍ ﺪﻴﻌﺼﺘﻟﺍ ﺐﻨﺠﺗ ﻰﻟﺇ [owner.GetIndividualName] ﻊﻓﺪﻳ ﻉﺍﺮﺼﻟﺍ ﻦﻣ ﻲﻌﻴﺒﻄﻟﺍ ﺭﻮﻔﻨﻟﺍ"
+ leader_trait_irenic_machine:0 "ﻡﻼﺴﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ"
+ leader_trait_irenic_machine_desc:0 ".ﻲﻟﺎﺘﻘﻟﺍ ﺩﺍﺪﻌﺘﺳﻻﺍ ﺓﺩﺎﻳﺰﻟ ﺕﻻﻭﺎﺤﻤﻟﺍ ﻊﻴﻤﺟ ﺾﻓﺭ ﻝﻭﺎﺤﺘﺳﻭ ﻡﻼﺴﻟﺍ ﺰﻳﺰﻌﺗ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+
+ leader_trait_physics_focus_hive:0 "ﺀﺎﻳﺰﻴﻔﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_physics_focus_hive_desc:0 ".ﺀﺎﻳﺰﻴﻔﻟﺍ ﺙﺎﺤﺑﺃ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_physics_focus_machine:0 "ﺀﺎﻳﺰﻴﻔﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_physics_focus_machine_desc:0 ".ﺀﺎﻳﺰﻴﻔﻟﺍ ﺙﺎﺤﺑﺃ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+
+ leader_trait_physics_focus_2_hive:0 "$leader_trait_physics_focus_hive$ II"
+ leader_trait_physics_focus_2_hive_desc:0 "$leader_trait_physics_focus_hive_desc$"
+ leader_trait_physics_focus_2_machine:0 "$leader_trait_physics_focus_machine$ II"
+ leader_trait_physics_focus_2_machine_desc:0 "$leader_trait_physics_focus_machine_desc$"
+
+ leader_trait_society_focus_hive:0 "ﻊﻤﺘﺠﻤﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_society_focus_hive_desc:0 ".ﻊﻤﺘﺠﻤﻟﺍ ﺙﺎﺤﺑﺃ ﻰﻠﻋ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+ leader_trait_society_focus_machine:0 "ﻊﻤﺘﺠﻤﻟﺍ ﻰﻠﻋ ﺰﻴﻛﺮﺘﻟﺍ"
+ leader_trait_society_focus_machine_desc:0 ".ﻊﻤﺘﺠﻤﻟﺍ ﺙﺎﺤﺑﺃ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+
+ leader_trait_society_focus_2_hive:0 "$leader_trait_society_focus_hive$ II"
+ leader_trait_society_focus_2_hive_desc:0 "$leader_trait_society_focus_hive_desc$"
+ leader_trait_society_focus_2_machine:0 "$leader_trait_society_focus_machine$ II"
+ leader_trait_society_focus_2_machine_desc:0 "$leader_trait_society_focus_machine_desc$"
+
+ leader_trait_archaeologist_hive:0 "[owner.GetIndividualNameCap] ﺭﺎﺛﻵﺍ ﻢﻟﺎﻋ"
+ leader_trait_archaeologist_hive_desc:0 ".ﺔﻳﺮﺛﻷﺍ ﻡﺎﻬﻤﻟﺍ ﻰﻠﻋ ﺍﺬﻫ [owner.GetIndividualName] ﺰﻛﺮﻳ"
+ leader_trait_archaeologist_machine:0 "ﺭﺎﺛﻵﺍ ﺓﺪﺣﻭ"
+ leader_trait_archaeologist_machine_desc:0 ".ﺔﻳﺮﺛﻷﺍ ﺕﺎﺜﻌﺒﻟﺍ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺰﻛﺮﺗ"
+
+ leader_trait_archaeologist_2_hive:0 "$leader_trait_archaeologist_hive$ II"
+ leader_trait_archaeologist_2_hive_desc:0 "$leader_trait_archaeologist_hive_desc$"
+ leader_trait_archaeologist_2_machine:0 "$leader_trait_archaeologist_machine$ II"
+ leader_trait_archaeologist_2_machine_desc:0 "$leader_trait_archaeologist_machine_desc$"
+
+ leader_trait_archaeologist_3_hive:0 "$leader_trait_archaeologist_hive$ III"
+ leader_trait_archaeologist_3_hive_desc:0 "$leader_trait_archaeologist_hive_desc$"
+ leader_trait_archaeologist_3_machine:0 "$leader_trait_archaeologist_machine$ III"
+ leader_trait_archaeologist_3_machine_desc:0 "$leader_trait_archaeologist_machine_desc$"
+
+ leader_trait_prospector_hive:0 "ﺐﻘﻨﻤﻟﺍ"
+ leader_trait_prospector_hive_desc:0 ".ﺢﺴﻤﻟﺍ ﺪﻨﻋ ﺐﺳﺍﻭﺮﻟﺍ ﻖﻤﻋﺃ ﻰﻠﻋ ﻰﺘﺣ ﺭﻮﺜﻌﻠﻟ ﺔﻳﺎﻐﻠﻟ ﺔﻳﻮﻗ ﺔﻴﺋﻮﺿ ﺕﺎﺤﺳﺎﻣ [owner.GetIndividualName] ﺢﻨﻣ ﻢﺗ"
+ leader_trait_prospector_machine:0 "ﺐﻘﻨﻤﻟﺍ"
+ leader_trait_prospector_machine_desc:0 ".ﺢﺴﻤﻟﺍ ﺪﻨﻋ ﺐﺳﺍﻭﺮﻟﺍ ﻖﻤﻋﺃ ﻰﻠﻋ ﻰﺘﺣ ﺭﻮﺜﻌﻠﻟ ﺔﺠﻣﺪﻣ ﺔﻴﺋﻮﺿ ﺕﺎﺤﺳﺎﻣ ﻰﻠﻋ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻱﻮﺘﺤﺗ"
+
+ leader_trait_prospector_2_hive:0 "$leader_trait_prospector_hive$ II"
+ leader_trait_prospector_2_hive_desc:0 "$leader_trait_prospector_hive_desc$"
+ leader_trait_prospector_2_machine:0 "$leader_trait_prospector_machine$ II"
+ leader_trait_prospector_2_machine_desc:0 "$leader_trait_prospector_machine_desc$"
+
+ leader_trait_collective_wisdom_hive:0 "ﺔﻴﻋﺎﻤﺠﻟﺍ ﺓﺰﻳﺮﻐﻟﺍ"
+ leader_trait_collective_wisdom_hive_desc:1 ".ﺍﺪﺣﺍﻭ ﺎﻨﺋﺎﻛ ﻥﺎﻛ ﻮﻟ ﺎﻤﻛ ﺎﻌﻣ ﻥﻮﻛﺮﺤﺘﻳ ؛ﻪﻧﺍﺮﻗﺃ ﻊﻣ ﻖﻴﻤﻋ ﻝﺎﺼﺗﺎﺑ [owner.GetIndividualName] ﻊﺘﻤﺘﻳ"
+ leader_trait_collective_wisdom_machine:0 "ﺔﻴﻋﺎﻤﺠﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺓﺪﻋﺎﻗ"
+ leader_trait_collective_wisdom_machine_desc:1 ".ﺔﻛﺮﺘﺸﻤﻟﺍ ﺎﻬﻔﺋﺎﻇﻭ ﺯﺰﻌﻳ ﺎﻤﻣ ،ﺎﻬﺑ ﺔﺻﺎﺨﻟﺍ ﻢﻋﺪﻟﺍ ﺕﺍﺪﺣﻭ ﻊﻣ ﺔﺻﺎﺧ ﺔﻜﺒﺸﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻆﻔﺘﺤﺗ"
+
+ leader_trait_collective_wisdom_2_hive:0 "$leader_trait_collective_wisdom_hive$ II"
+ leader_trait_collective_wisdom_2_hive_desc:0 "$leader_trait_collective_wisdom_hive_desc$"
+ leader_trait_collective_wisdom_2_machine:0 "$leader_trait_collective_wisdom_machine$ II"
+ leader_trait_collective_wisdom_2_machine_desc:0 "$leader_trait_collective_wisdom_machine_desc$"
+
+ subclass_commander_aggressor_hive:0 "ﻱﺪﺘﻌﻤﻟﺍ"
+ subclass_commander_aggressor_hive_desc:1 ".ﺎﻬﻟ ﻱﺪﺼﺘﻟﺍ ﻦﻣ ﺍﻮﻨﻜﻤﺘﻳ ﻥﺃ ﻞﺒﻗ ﻭﺪﻌﻟﺍ ﻞﻴﻃﺎﺳﺃ ﺮﻴﻣﺪﺘﺑ ﻥﻮﻣﻮﻘﻳ ﺚﻴﺣ ،ﺎﻬﻴﻓ ﺓﺩﺍﻮﻫ ﻻ ﻲﺘﻟﺍ ﻢﻬﺗﺎﻤﺠﻬﺑ ﻥﻭﺪﺘﻌﻤﻟﺍ ﻑﺮﻌﻳ .ﻉﺎﻓﺩ ﻞﻀﻓﺃ ﻮﻫ ﻡﻮﺠﻬﻟﺍ"
+ subclass_commander_aggressor_machine:0 "ﻱﺪﺘﻌﻤﻟﺍ"
+ subclass_commander_aggressor_machine_desc:0 "$subclass_commander_aggressor_hive_desc$"
+
+ subclass_commander_tactician_hive:0 "ﻲﻜﻴﺘﻜﺗ"
+ subclass_commander_tactician_hive_desc:0 ".ﻢﻬﺗﺩﺎﻗ ﻰﻠﻋ ﺐﻠﻐﺘﻟﺍﻭ ﻭﺪﻌﻟﺍ ﺓﻮﻗ ﻞﻴﻠﻘﺘﻟ ﻢﻬﺗﺎﻜﻴﺘﻜﺗ ﻢﻴﻤﺼﺗ ﻢﺗ .ﺹﺎﺧ ﻞﻜﺸﺑ ﺮﻛﺎﻣ ﺍﺬﻫ [owner.GetIndividualName]"
+ subclass_commander_tactician_machine:0 "ﻲﻜﻴﺘﻜﺗ"
+ subclass_commander_tactician_machine_desc:0 "$subclass_commander_tactician_hive_desc$"
+
+ subclass_commander_strategist_hive:0 "ﻲﺠﻴﺗﺍﺮﺘﺳﺍ"
+ subclass_commander_strategist_hive_desc:0 ".ﺕﺍﺮﺠﻤﻟﺍ ﺮﺒﻋ ﺪﺘﻤﺗ ﺔﻴﺑﺮﺣ ﻂﻄﺧ ﻊﺿﻭﻭ ﺶﻴﺠﻟﺍ ﻲﻓ ﻚﺳﺎﻤﺘﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻥﻮﻠﻀﻔﻳ ،ﺔﻣﺪﻘﻤﻟﺍ ﻲﻓ ﺔﻛﺮﻌﻤﻟﺍ ﺓﺩﺎﻴﻗ ﻦﻣ ﻻﺪﺒﻓ .ﺮﺒﻛﻷﺍ ﺓﺭﻮﺼﻟﺍ ﻰﻠﻋ ﻥﻮﻴﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﺰﻛﺮﻳﻭ"
+ subclass_commander_strategist_machine:0 "ﻲﺠﻴﺗﺍﺮﺘﺳﺍ"
+ subclass_commander_strategist_machine_desc:0 "$subclass_commander_strategist_hive_desc$"
+
+ leader_trait_cautious_hive: "ﺭﺬﺣ"
+ leader_trait_cautious_hive_desc:0 ".ﺔﻳﺎﻐﻠﻟ ﺍﺭﺬﺣ ﺎﻛﻮﻠﺳ [owner.GetIndividualName] ﺮﻬﻈﻳ"
+ leader_trait_cautious_machine: "ﺭﺬﺣ"
+ leader_trait_cautious_machine_desc:0 ".ﺭﺬﺤﻠﻟ ﺔﻳﻮﻟﻭﻷﺍ ﺀﺎﻄﻋﻹ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺔﺠﻣﺮﺑ ﺖﻤﺗ"
+
+ leader_trait_cautious_2_hive:0 "$leader_trait_cautious_hive$ II"
+ leader_trait_cautious_2_hive_desc:0 "$leader_trait_cautious_hive_desc$"
+ leader_trait_cautious_2_machine:0 "$leader_trait_cautious_machine$ II"
+ leader_trait_cautious_2_machine_desc:0 "$leader_trait_cautious_machine_desc$"
+
+ leader_trait_watchdog_hive:0 "ﺶﻌﻟﺍ ﻲﻣﺎﺣ"
+ leader_trait_watchdog_hive_desc:1 ".ﻪﻴﺿﺍﺭﺃ ﻦﻋ ﻉﺎﻓﺪﻟﺍ ﻲﻓ ﺎﻬﻴﻓ ﺓﺩﺍﻮﻫ ﻻ ﺔﺒﻏﺭ [owner.GetIndividualName] ﻚﻠﺘﻤﻳ"
+ leader_trait_watchdog_machine:0 "ﻆﻘﻳ"
+ leader_trait_watchdog_machine_desc:1 ".ﺎﻬﺑ ﺐﻟﺎﻄﻤﻟﺍ ﻲﺿﺍﺭﻸﻟ ﻆﻘﻳ ﺱﺭﺎﺤﻛ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻞﻤﻌﺗ"
+
+ leader_trait_unyielding_hive: "ﺐﻀﻨﻳ ﻻ"
+ leader_trait_unyielding_hive_desc:1 ".ﻡﻼﺴﺘﺳﻻﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ [owner.GetIndividualName]"
+ leader_trait_unyielding_machine: "ﺐﻀﻨﻳ ﻻ"
+ leader_trait_unyielding_machine_desc:1 ".ﻡﻼﺴﺘﺳﺍ ﻝﻮﻛﻮﺗﻭﺮﺑ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻚﻠﺘﻤﺗ ﻻ"
+
+ leader_trait_unyielding_2_hive:0 "$leader_trait_unyielding_hive$ II"
+ leader_trait_unyielding_2_hive_desc:0 "$leader_trait_unyielding_hive_desc$"
+ leader_trait_unyielding_2_machine:0 "$leader_trait_unyielding_machine$ II"
+ leader_trait_unyielding_2_machine_desc:0 "$leader_trait_unyielding_machine_desc$"
+
+ leader_trait_fleet_logistician_hive:0 "ﻲﺘﺴﺟﻮﻟ"
+ leader_trait_fleet_logistician_hive_desc:0 ".ﺎﻬﻠﻤﻛﺄﺑ ﻞﻴﻃﺎﺳﻸﻟ ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺍ ﺭﻮﺼﺗ ﻰﻠﻋ ﺓﺪﻳﺮﻔﻟﺍ ﺓﺭﺪﻘﻟﺍ [owner.GetIndividualName] ﻚﻠﺘﻤﻳ"
+ leader_trait_fleet_logistician_machine:0 "ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺔﻐﻴﺼﻟﺍ"
+ leader_trait_fleet_logistician_machine_desc:0 ".ﺎﻬﻠﻤﻛﺄﺑ ﻞﻴﻃﺎﺳﻷ ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺕﺎﺟﺎﻴﺘﺣﻻﺍ ﺔﺠﻟﺎﻌﻣ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ"
+
+ leader_trait_fleet_logistician_2_hive:0 "$leader_trait_fleet_logging_hive$ II"
+ leader_trait_fleet_logistician_2_hive_desc:0 "$leader_trait_fleet_loggingian_hive_desc$"
+ leader_trait_fleet_logistician_2_machine:0 "$leader_trait_fleet_logging_machine$ II"
+ leader_trait_fleet_logistician_2_machine_desc:0 "$leader_trait_fleet_logging_machine_desc$"
+
+ leader_trait_wrecker_hive:0 "ﻡﺩﺎﻫ"
+ leader_trait_wrecker_hive_desc:1 ".ﻦﻴﻌﻣ ﻑﺪﻬﺑ ﺔﻤﻴﺴﺟ ﺭﺍﺮﺿﺃ ﻕﺎﺤﻟﺇ ﻰﻠﻋ ﺍﺭﺩﺎﻗ [owner.GetIndividualName] ﺕﺎﻨﻴﺠﻠﻟ ﻖﻴﻗﺪﻟﺍ ﺭﺎﻴﺘﺧﻻﺍ ﻦﻣ ﻝﺎﻴﺟﺃ ﺖﺠﺘﻧﺃ"
+ leader_trait_wrecker_machine:0 "ﻡﺩﺎﻫ"
+ leader_trait_wrecker_machine_desc:0 ".ﺔﻠﺋﺎﻫ ﺔﺟﺭﺩ ﻰﻟﺇ ﺡﻼﺴﻟﺍ ﺓﺀﺎﻔﻛ ﺓﺩﺎﻳﺯ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﻦﻜﻤﻳ ،ﺔﻣﻼﺴﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺑ ﺯﻭﺎﺠﺗ ﻝﻼﺧ ﻦﻣ"
+
+ leader_trait_intimidator_hive:0 "ﺏﺭﺎﺤﻤﻟﺍ ﺭﻮﻀﺤﻟﺍ"
+ leader_trait_intimidator_hive_desc:0 ".[owner.GetIndividualName] ﺕﺎﻜﻴﺘﻜﺘﻟ ﺔﻴﺟﺫﻮﻤﻧ ﺐﺳﺎﻨﻤﻟﺍ ﺖﻴﻗﻮﺘﻟﺍ ﻲﻓ ﺔﻴﻧﺍﻭﺪﻌﻟﺍ ﻪﺒﺷ ﻝﺎﻤﻋﻷﺍﻭ ﺓﻮﻘﻟﺍ ﺽﻭﺮﻋ ﺮﺒﺘﻌﺗ"
+ leader_trait_intimidator_machine:0 "ﺪﻳﺪﻬﺘﻟﺍ ﺮﺷﺆﻣ"
+ leader_trait_intimidator_machine_desc:1 ".ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﺔﻛﺭﺎﺸﻤﻟﺍ ﺔﻴﺠﻴﺗﺍﺮﺘﺳﺍ ﺱﺎﺳﺃ ﻲﻟﺎﺜﻣ ﻞﻜﺸﺑ ﺔﺑﻮﺴﺤﻤﻟﺍ ﻒﻨﻌﻟﺍ ﺕﺍﺪﻳﺪﻬﺗ ﻞﻜﺸﺗ"
+
+ leader_trait_overseer_hive:0 "ﻪﻴﻌﻤﺠﻟﺍ ﻦﻴﻋ"
+ leader_trait_overseer_hive_desc:0 ".ﺔﻴﻋﺎﻤﺠﻟﺍ ﺔﻄﻠﺴﻠﻟ ﻱﺩﺎﻤﻟﺍ ﺪﻴﺴﺠﺘﻟﺍ ﻮﻫ ﺍﺬﻫ [owner.GetIndividualName]"
+ leader_trait_overseer_machine:0 "ﺔﻴﻜﻴﻧﺎﻜﻴﻣ ﻢﻜﺤﺗ ﺓﺪﺣﻭ"
+ leader_trait_overseer_machine_desc:0 ".ﺀﺍﺩﻷﺍ ﺓﻭﺭﺬﻟ ﺖﺑﺎﺛ ﺝﺫﻮﻤﻨﻛ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﺔﻴﻠﻴﻐﺸﺘﻟﺍ ﺕﻻﻮﻛﻮﺗﻭﺮﺒﻟﺍ ﻞﻤﻌﺗ"
+
+ leader_trait_overseer_2_hive:0 "$leader_trait_overseer_hive$ II"
+ leader_trait_overseer_2_hive_desc:0 "$leader_trait_overseer_hive_desc$"
+ leader_trait_overseer_2_machine:0 "$leader_trait_overseer_machine$ II"
+ leader_trait_overseer_2_machine_desc:0 "$leader_trait_overseer_machine_desc$"
+
+ leader_trait_consul_general_hive:0 "ﻞﺼﻨﻘﻟﺍ-[owner.GetIndividualNameCap]"
+ leader_trait_consul_general_hive_desc:1 ".ﻉﺍﺮﺼﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﺮﺧﺁ ﻞﻜﺷ ﻱﺃ ﻦﻋ ﺔﻴﻤﻫﺃ ﻞﻘﺗ ﻻ ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻥﺈﻓ ،[owner.GetIndividualName] ﺍﺬﻬﻟ ﺔﺒﺴﻨﻟﺎﺑ"
+ leader_trait_consul_general_machine:0 "ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺏﺮﺤﻟﺍ ﺓﺪﺣﻭ"
+ leader_trait_consul_general_machine_desc:0 ".ﻒﻨﻋ ﻥﻭﺩ ﺎﻬﻘﻴﻘﺤﺗ ﻢﺘﻳ ﺔﻴﻟﺎﻌﻓ ﺮﺜﻛﻷﺍ ﺕﺍﺭﺎﺼﺘﻧﻻﺍ ﻥﺇ"
+
+ leader_trait_consul_general_2_hive:0 "$leader_trait_consul_general$ II"
+ leader_trait_consul_general_2_hive_desc:0 "$leader_trait_consul_general_hive_desc$"
+ leader_trait_consul_general_2_machine:0 "$leader_trait_consul_general$ II"
+ leader_trait_consul_general_2_machine_desc:0 "$leader_trait_consul_general_machine_desc$"
+
+ leader_trait_uninspiring_hive:0 "[owner.GetIndividualNameCap] ﺔﻴﺸﺣﻭ"
+ leader_trait_uninspiring_hive_desc:1 ".ﻪﺗﺮﻣﺇ ﺖﺤﺗ ﻢﻫ ﻦﻤﻟ ﺭﺎﺒﺘﻋﺍ ﻱﺃ ﻪﻳﺪﻟ ﺲﻴﻟ [owner.GetIndividualName]"
+ leader_trait_uninspiring_machine:0 "ﺭﻮﻌﺸﻟﺍ ﺔﻤﻳﺪﻋ ﺔﻟﺁ"
+ leader_trait_uninspiring_machine_desc:0 ".ﺎﻫﺩﻮﻘﺗ ﻲﺘﻟﺍ ﺕﺍﺪﺣﻮﻟﺍ ﺔﻴﻫﺎﻓﺭ ﻞﻤﺸﺗ ﻻ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺕﺎﺑﺎﺴﺣ"
+
+ leader_trait_lawless_hive:0 "ﺪﺳﺎﻔﻟﺍ ﻑﺮﺼﺘﻟﺍ"
+ leader_trait_lawless_hive_desc:1 ".ﻱﺩﺮﻔﻟﺍ ﻪﻣﺍﺪﺨﺘﺳﻻ [owner.GetGestaltEntityName] ﻦﻣ ﺕﺍﺩﺍﺪﻣﻹﺍ [owner.GetIndividualName] ﺬﺧﺄﻳ"
+ leader_trait_lawless_machine:0 "ﺭﺎﺿ ﺩﻮﻛ"
+ leader_trait_lawless_machine_desc:1 ".ﻑﺮﺤﻨﻣ ﻙﻮﻠﺳ ﻰﻟﺇ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻬﻟ ﺊﻃﺎﺨﻟﺍ ﺩﻮﻜﻟﺍ ﻱﺩﺆﻳ"
+
+ leader_trait_corrupt_hive:0 "ﻒﻟﺎﺗ [owner.GetIndividualNameCap]"
+ leader_trait_corrupt_machine:0 "ﺓﺪﺳﺎﻔﻟﺍ ﺓﺪﺣﻮﻟﺍ"
+ leader_trait_corrupt_hive_desc:1 ".ﻦﻳﺮﺧﻶﻟ ﻪﻓﺍﺮﺤﻧﺍ [owner.GetIndividualName] ﺮﺸﻨﻳ"
+ leader_trait_corrupt_machine_desc:1 ".ﻦﻳﺮﺧﻶﻟ ﺎﻬﻓﺍﺮﺤﻧﺍ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﺮﺸﻨﺗ"
+
+ leader_trait_shadow_broker_hive:0 "ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺔﻠﺘﻛ"
+ leader_trait_shadow_broker_hive_desc:0 ".ﻞﻠﺴﺘﻟﺍ ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﺰﻳﺰﻌﺘﻟ ﺕﺍﻭﺩﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺓﺪﻘﻌﻟﺍ ﻩﺬﻫ ﻚﻠﺘﻤﺗ"
+ leader_trait_shadow_broker_machine:0 "ﺔﻴﻠﺧﺪﺗ ﺕﺍﻭﺩﺃ"
+ leader_trait_shadow_broker_machine_desc:0 ".ﻞﻠﺴﺘﻟﺍ ﻰﻠﻋ ﺎﻨﺗﺭﺪﻗ ﺰﻳﺰﻌﺘﻟ ﺕﺍﻭﺩﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺓﺪﺣﻮﻟﺍ ﻩﺬﻫ ﻚﻠﺘﻤﺗ"

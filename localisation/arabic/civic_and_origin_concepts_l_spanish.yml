@@ -1,0 +1,681 @@
+﻿l_spanish:
+
+### CONCEPTS
+#
+# Above each concept definition are instructions on usage, including an icon where one exists.
+#   Note that between the icon and the term there's a non-breaking space. When you copy the usage example, it will keep the non-breaking space.
+#   This is important to not get a line break between the icon and the concept.
+# Use a concept link with icon the first time a new concept is mentioned, then use §H without an icon for repeated uses.
+# Use §H with an icon the first time a concept is used withing its own description.
+# Use §H without an icon if the concept is used more than once.
+
+# Shorthand with §I highlighting
+ i_energy: "§I$ﺔﻗﺎﻄﻟﺍ$§! £energy£"
+ i_minerals: "§I$ﻥﺩﺎﻌﻤﻟﺍ$§! £minerals£"
+ i_food: "§I$ﻡﺎﻌﻃ$§! £food£"
+ i_alloys: "§I$ﻚﺋﺎﺒﺳ$§! £alloys£"
+ i_consumer_goods: "§I$consumer_goods$§! £consumer_goods£"
+ i_unity: "§I$unity$§! £unity£"
+ i_influence: "§I$ﺮﻴﺛﺄﺘﻟﺍ$§! £influence£"
+ i_research: "§Iﺚﺤﺒﻟﺍ ﻁﺎﻘﻧ§! £engineering£ £society£ £physics£"
+ i_physics: "§I$physics_research$§! £physics£"
+ i_society: "§I$society_research$§! £society£"
+ i_engineering: "§I$engineering_research$§! £engineering£"
+ i_amenities: "§Iﺔﺣﺍﺮﻟﺍ ﻞﺋﺎﺳﻭ§! £amenities£"
+ i_trade_value: "$r_trade$"
+ i_loyalty: "§Iﻱﺮﻬﺸﻟﺍ ﺀﻻﻮﻟﺍ§! £loyalty£"
+ i_rare_crystals: "§I$ﺓﺭﺩﺎﻨﻟﺍ ﺕﺍﺭﻮﻠﺒﻟﺍ$§! £rare_crystals£"
+ i_volatile_motes: "§I$volatile_motes$§! £volatile_motes£"
+ i_exotic_gases: "§I$ﺔﺒﻳﺮﻐﻟﺍ ﺕﺍﺯﺎﻐﻟﺍ$§! £exotic_gases£"
+ i_living_metal: "§I$sr_living_metal$§! £sr_living_metal£"
+ i_dark_matter: "§I$sr_dark_matter$§! £sr_dark_matter£"
+ i_zro: "§I$sr_zro$§! £sr_zro£"
+ i_nanites: "§I$ﺖﻴﻧﺎﻧ$§! £nanites£"
+ i_minor_artifacts: "§Iﺓﺮﻴﻐﺼﻟﺍ ﻒﺤﺘﻟﺍ§! £minor_artifacts£"
+ i_strategic: "§Iﻲﺠﻴﺗﺍﺮﺘﺳﻻﺍ ﺩﺭﻮﻤﻟﺍ§! £volatile_motes£ £exotic_gases£ £rare_crystals£"
+ i_strategic_plural: "§Iﺔﻴﺠﻴﺗﺍﺮﺘﺳﻹﺍ ﺩﺭﺍﻮﻤﻟﺍ§! £volatile_motes£ £exotic_gases£ £rare_crystals£"
+ i_stability: "§I$PLANET_STABILITY_TITLE$§! £mod_planet_stability_add£"
+ i_crime: "§I$PLANET_CRIME_TITLE$§! £crime£"
+ i_naval_capacity: "§Iﺔﻳﺮﺤﺒﻟﺍ ﺔﻌﺴﻟﺍ§! £mod_country_naval_cap_add£"
+ i_defense_armies: "§Iﻉﺎﻓﺪﻟﺍ ﺵﻮﻴﺟ§! £defense_army£"
+ i_unlocks_building: "§I:ﻰﻨﺒﻤﻟﺍ ﺢﺘﻔﻳ§!"
+ i_unlocks_feature: "§I:ﻞﻔﻘﻟﺍ ﺀﺎﻐﻟﺇ ﺓﺰﻴﻣ§!"
+ i_unlocks_orbital: "§I:ﺭﺍﺪﻤﻟﺍ ﺢﺘﻔﻳ§!"
+ i_leader_exp_gain: "§I$MOD_LEADER_SPECIES_EXP_GAIN$§! £mod_leader_species_exp_gain£"
+
+### Civic and Origin Concepts
+
+# Prosperous Unification
+ concept_planetary_unification: "$tech_planetary_unification$"
+ concept_planetary_unification_desc: "§L$tech_planetary_unification_desc$§!\n\n.(ﺕﻼﻤﺤﻟﺍ) ﺔﻴﻓﺎﺿﺇ ['concept_edicts']- $i_unlocks_feature$ \n.§G+5%§! :ﺔﻳﺮﻬﺸﻟﺍ ﺓﺪﺣﻮﻟﺍ -\n['concept_unity', £unity£ Unity] ﺝﺎﺘﻧﺇ ﻦﻣ ﺍﺮﻬﺷ 12 ﺓﺪﻤﻟ ﺢﻨﻣ :ﺚﺤﺒﻟﺍ ﻝﺎﻤﺘﻛﺍ ﺪﻨﻋ -"
+
+ concept_prosp_uni: "$prosp_uni_mod$"
+ concept_prosp_uni_desc: "§L$prosp_uni_mod_desc$§!\n\n.ﺕﺍﻮﻨﺳ §!XYZT_920 ﻝﻼﺧ ﺔﻴﺣﻼﺼﻟﺍ ﻲﻬﺘﻨﺗ ﺓﺩﺍﺭﻹﺍ -\n§G+10%§!- $mod_planet_jobs_produces_mult$: \n§G+25%§!- $MOD_PLANET_AMENITIES_MULT$: \n§G+15%§!- $MOD_POP_HAPPINESS$: "
+
+# Mechanist
+ concept_robots: "$feature_robots$"
+ concept_robots_desc: "$feature_robots_desc$"
+
+ concept_robot_assembly_plant: "$building_robot_assembly_plant$"
+ concept_robot_assembly_plant_desc: "§L$building_robot_assembly_plant_desc$§!\n\n§G+100§! :ﻒﺋﺎﻇﻮﻟﺍ [['concept_roboticist', [roboticist.GetName] [roboticist.GetIcon]- "
+
+ concept_powered_exoskeletons: "$tech_powered_exoskeletons$"
+ concept_powered_exoskeletons_desc: "§L$tech_powered_exoskeletons_desc$§!\n\n§G+5%§! :ﻞﻣﺎﻌﻟﺍ ﻞﻤﻋ ﺓﺀﺎﻔﻛ -\n§G+5%§!- $MOD_ARMY_DAMAGE_MULT$: "
+
+ concept_robotic_workers: "$tech_robotic_workers$"
+ concept_robotic_workers_desc: "§L$tech_robotic_workers_desc$§!\n\n- $i_unlocks_feature$ $feature_robots$\n- $i_unlocks_building$ $building_robot_assembly_plant$"
+
+ concept_robomodding: "$tech_robomodding$"
+ concept_robomodding_desc: "§L$tech_robomodding_desc$§!\n\n- $i_unlocks_feature$ $feature_modify_robots$\n§G+5%§!- $MOD_POP_ENVIRONMENT_TOLERANCE$: "
+
+ concept_adaptive_frames: "$trait_auto_mod_robotic$"
+
+# Syncretic Evolution
+ concept_syncretic_proles: "$trait_syncretic_proles$"
+ concept_syncretic_proles_desc: "§L$trait_syncretic_proles_desc$§!\n\nﻒﺋﺎﻇﻮﻟﺍ §Y$pop_cat_specialist$§! ﻭﺃ §Y$pop_cat_ruler$§! ﻲﻓ ﻪﻔﻴﻇﻮﺗ ﻦﻜﻤﻳ ﻻ -\n§YLeaders§! ﺀﺎﺸﻧﺇ ﻦﻜﻤﻳ ﻻ -\n§G+10%§!- $worker_and_simple_drone_cat_bonus_workforce_mult$: \n§G+10%§!- $MOD_POP_HAPPINESS$: "
+
+# Life-Seeded
+ concept_pc_gaia: "$pc_gaia$"
+ concept_pc_gaia_desc: "§L$pc_gaia_desc$§!\n\n§G+50%§!- $MOD_PLANET_RESETTLEMENT_UNEMPLOYED_DESTINATION_MULT$: \n§G+10%§!- $MOD_LITHOID_POP_HAPPINESS$: \n§G+10%§!- $MOD_BIOLOGICAL_POP_HAPPINESS$: \n§G+10%§!- $mod_planet_jobs_produces_mult$: \n§!%XYZT_0100 :ﺔﻴﺳﺎﺳﻷﺍ ﻦﻜﺴﻠﻟ ﺔﻴﻠﺑﺎﻘﻟﺍ -"
+
+ concept_gaia_preference: "$trait_pc_gaia_preference$"
+ concept_gaia_preference_desc: "§L$trait_pc_gaia_preference_desc$§!\n\n§G+100%§! :ﺎﻳﺎﻏ ﻢﻟﺎﻋ ﻲﻓ ﺶﻴﻌﻟﺍ ﺔﻴﻠﺑﺎﻗ -"
+
+# Post-Apocalyptic
+ concept_pc_nuked: "$pc_nuked$"
+ concept_pc_nuked_desc: "§L$pc_nuked_desc$§!\n\n§!%XYZT_00 :ﺔﻴﺳﺎﺳﻷﺍ ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ -"
+
+ concept_survivor: "$trait_survivor$"
+ concept_survivor_desc: "§L$trait_survivor_desc$§!\n\n§G-15%§!$MOD_POP_AMENITIES_USAGE_MULT$: \n§G-10%§!- $MOD_POP_HOUSING_USAGE_MULT$: \nﺕﺍﻮﻨﺳ §G+10§! :ﺪﺋﺎﻘﻟﺍ ﺮﻤﻋ -\n§G+70%§! :ﺮﺑﺎﻘﻤﻟﺍ ﻢﻟﺎﻋ ﻲﻓ ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ -"
+
+ concept_robot_survivor: "$trait_robot_survivor$"
+ concept_robot_survivor_desc: "§L$trait_robot_survivor_desc$§!\n\nﺕﺍﻮﻨﺳ §G+10§! :ﺪﺋﺎﻘﻟﺍ ﺮﻤﻋ -\n§G+70%§! :ﺓﺮﺒﻘﻤﻟﺍ ﻢﻟﺎﻋ ﻲﻓ ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ -"
+
+# Remnants
+ concept_pc_relic: "$pc_relic$"
+ concept_pc_relic_desc: "§L$pc_relic_desc$§!\n\n§Iﺭﺎﺛﻵﺍ ﻢﻠﻋ ﻖﻃﺎﻨﻣ§! £district£ ﺢﺘﻓﻭ ،§Iﺐﻛﺍﻮﻜﻟﺍ ﺭﺍﺮﻗ§! ﻝﻼﺧ ﻦﻣ ﺎﻬﺗﺩﺎﻌﺘﺳﺍ ﻦﻜﻤﻳ -\n§!%XYZT_080 :ﺔﻴﺳﺎﺳﻷﺍ ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ -"
+
+ concept_ruined_arcology: "$d_ruined_arcology$"
+ concept_ruined_arcology_desc: "§L$d_ruined_arcology_desc$§!\n\n$tt$- 33% 50 ﺔﺻﺮﻓ $i_minor_artifacts$\n$tt$- 33% 30 ﺔﺻﺮﻓ $i_minor_artifacts$\n$tt$- 33% 10 ﺔﺻﺮﻓ $i_minor_artifacts$\n:ﺔﻴﻔﺼﺘﻟﺍ ﺪﻨﻋ -\n§R-1§!- $MOD_PLANET_MAX_DISTRICTS_ADD$: \n$tt$- 250 $i_minerals$\n$tt$- 750 $i_energy$\n:ﺔﻴﻔﺼﺘﻟﺍ ﺔﻔﻠﻜﺗ -\n§IDays§! 360 £time£$tt$- \n:ﺔﻴﻔﺼﺘﻟﺍ ﺖﻗﻭ -"
+
+ concept_archaeostudies: "$tech_archaeostudies$"
+ concept_archaeostudies_desc: "§L$tech_archaeostudies_desc$§!\n\n- $i_unlocks_building$ $building_archaeostudies_faculty$"
+
+ concept_archaeostudies_faculty: "$building_archaeostudies_faculty$"
+ concept_archaeostudies_faculty_desc: "§L$building_archaeostudies_faculty_desc$§!\n\n$building_archaeostudies_faculty_relic_effect$\n\n§G+300§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_archaeoengineers', $job_archaeoengineers$] £job_archaeoengineers£- \n§G+2000§!- $mod_country_resource_max_minor_artifacts_add$: \n§G+25%§!- $mod_category_archaeostudies_research_speed_mult$: "
+
+# Shattered Ring
+
+ concept_pc_shattered_ring: "$pc_shattered_ring_habitable$"
+ concept_pc_shattered_ring_desc: "§L$pc_shattered_ring_habitable_desc$§!\n\n§ISegment ﻖﻃﺎﻨﻤﻟﺍ ﺹﺎﺨﻟﺍ§! £district£ ﺢﺘﻓﻭ ،§Iﻲﺒﻛﻮﻜﻟﺍ§! ﺭﺍﺮﻘﺑ ﺎﻬﺗﺩﺎﻌﺘﺳﺍ ﻦﻜﻤﻳ -\n§!%XYZT_0100 :ﺔﻴﺳﺎﺳﻷﺍ ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ -"
+
+ concept_ring_preference: "$trait_pc_ringworld_habitable_preference$"
+ concept_ring_preference_desc: "§L$trait_pc_ringworld_habitable_preference_desc$§!\n\n§G+100%§! :ﻦﻜﺴﻠﻟ ﻱﺮﺋﺍﺪﻟﺍ ﻢﻟﺎﻌﻟﺍ ﺔﻴﺣﻼﺻ -"
+
+# Void Dwellers
+
+ concept_pc_habitat: "$pc_habitat$"
+ concept_pc_habitat_desc: "§L$pc_habitat_desc$§!\n\n§!%XYZT_340 :ﺔﻴﺳﺎﺳﻷﺍ ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ -\n§G+200%§!- $MOD_PLANET_COLONY_DEVELOPMENT_SPEED_MULT$: "
+
+ concept_void_dweller: "$trait_void_dweller_1$"
+ concept_void_dweller_desc: "§L$trait_void_dweller_1_desc$§!\n\n§R-15%§!- $MOD_POP_BONUS_WORKFORCE_MULT$ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺮﻴﻏ ﻢﻟﺍﻮﻌﻟﺍ ﻲﻓ: \n§G+15%§!- $MOD_POP_BONUS_WORKFORCE_MULT$ ﻞﺋﺍﻮﻤﻟﺍ ﻲﻓ: \n§R-30%§! :ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺮﻴﻏ ﻢﻟﺍﻮﻌﻟﺍ ﻲﻓ ﺏﻮﺒﻟﺍ ﺓﺩﺎﻌﺳ -"
+
+ concept_void_dweller_2: "$trait_void_dweller_2$"
+ concept_void_dweller_2_desc: "§L$trait_void_dweller_2_desc$§!\n\n§R-15%§!- $MOD_POP_BONUS_WORKFORCE_MULT$ ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺮﻴﻏ ﻢﻟﺍﻮﻌﻟﺍ ﻲﻓ: \n§G+15%§!- $MOD_POP_BONUS_WORKFORCE_MULT$ ﻞﺋﺍﻮﻤﻟﺍ ﻲﻓ: \n§R+15%§! :ﺔﻴﻋﺎﻨﻄﺻﻻﺍ ﺮﻴﻏ ﻢﻟﺍﻮﻌﻟﺍ ﻲﻓ ﺕﻮﺑﻭﺮﻟﺍ ﺔﻧﺎﻴﺻ"
+
+ concept_habitat_preference: "$trait_pc_habitat_preference$"
+ concept_habitat_preference_desc: "$trait_pc_habitat_preference_desc$\n\n§G+80%§!- $mod_pc_habitat_habitability$: "
+
+ concept_habitat_1: "$tech_habitat_1$"
+ concept_habitat_1_desc: "§L$tech_habitat_1_desc$§!\n\n $habitat_central_complex$§I:ﺔﻤﺨﻀﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺢﺘﻔﻳ§!- "
+
+ concept_habitat_2: "$tech_habitat_2$"
+ concept_habitat_2_desc:1 "§L$tech_habitat_2_desc$§!\n\n: $building_hab_major_capital$§Iﻰﻨﺒﻤﻟﺍ ﺢﺘﻓ§!"
+
+# Scion
+
+ concept_scion: "$preset_scion$"
+ concept_scion_desc: "$preset_scion_desc$"
+
+# Tree of Life
+
+ concept_tree_of_life: "$d_tree_of_life_home$"
+ concept_tree_of_life_desc: "§L$d_tree_of_life_home_desc$§!\n\n$i_food$ 4 :ﺔﻧﺎﻴﺼﻟﺍ -\n§G+4§!- $mod_district_farming_max_add$: \n§G+1000§!- $MOD_PLANET_HOUSING_ADD$: \n§G+10%§!- $mod_planet_jobs_society_research_produces_mult$: \n§G+15%§!- $MOD_LOGISTIC_GROWTH_MULT$: "
+
+ concept_tree_of_life_sapling: "$d_tree_of_life_colony$"
+ concept_tree_of_life_sapling_desc: "§L$d_tree_of_life_colony_desc$§!\n\n$i_food$ 2 :ﺔﻧﺎﻴﺼﻟﺍ -\n§G+2§!- $mod_district_farming_max_add$: \n§G+500§!- $MOD_PLANET_HOUSING_ADD$: \n§G+10%§!- $mod_planet_jobs_society_research_produces_mult$: \n§G+10%§!- $MOD_LOGISTIC_GROWTH_MULT$: "
+
+ concept_tree_of_life_holding: "$holding_tree_of_life_sapling$"
+ concept_tree_of_life_holding_desc: "§L$holding_tree_of_life_sapling_desc$§!\n\n§G+1§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_overlord_arborist', $job_overlord_arborist$] £mod_job_ranger_add£- \n§G+1§!: ['concept_farmer'] [farmer.GetIcon] ﻦﻣ ﻡﺎﻌﻄﻟﺍ £food£- \n§G+10%§!- $MOD_POP_ENVIRONMENT_TOLERANCE$: \n§G+1§!- $MOD_MONTHLY_LOYALTY_GAIN$: "
+
+ concept_transplant_tree_of_life: "$decision_transplant_tree$"
+ concept_transplant_tree_of_life_desc: "§L$decision_transplant_tree_desc$§!\n\n.ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﻩﺬﻫ ﻰﻟﺇ §I$d_tree_of_life_colony$§! ﺔﻴﺒﻛﻮﻛ ﺓﺰﻴﻣ ﺔﻓﺎﺿﺇ -"
+
+ concept_no_lifetree: "$no_lifetree$"
+ concept_no_lifetree_desc: "§L$no_lifetree_desc$§!\n\n§R-5%§!$NEW_LINE$- ﺭﺍﺮﻘﺘﺳﻻﺍ: §R+10%§!$NEW_LINE$- ﻒﺋﺎﻇﻮﻟﺍ ﻦﻣ ﺔﻧﺎﻴﺼﻟﺍ: §R-25%§!$NEW_LINE$- ﻒﺋﺎﻇﻮﻟﺍ ﻦﻣ ﺩﺭﺍﻮﻤﻟﺍ: §R-50%§!$NEW_LINE$- ﺔﻴﺒﻛﻮﻜﻟﺍ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ ﺀﺎﻨﺑ ﺔﻋﺮﺳ: "
+
+# On the Shoulders of Giants
+
+ concept_ex_gravitas: "$site_ex_gravitas$"
+ concept_ex_gravitas_desc: "§L.ﺪﻳﺰﻤﻟﺍ ﺔﻓﺮﻌﻤﻟ ﺔﻴﺤﻄﺳ ﺔﻠﺣﺭ ﻕﻼﻃﺇ ﻰﻟﺇ ﺝﺎﺘﺤﻧ .ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻣﺎﻈﻧ ﻲﻓ ﺓﺫﺎﺸﻟﺍ ﺕﺍﺀﺍﺮﻘﻟﺍ ﻦﻣ ﺔﻠﺴﻠﺳ ﻑﺎﺸﺘﻛﺍ ﻢﺗ§!"
+
+# Calamitous Birth
+
+ concept_lithoid_traits: "ﺪﻳﻮﺜﻴﻠﻟﺍ ﺕﺎﻔﺻ"
+ concept_lithoid_traits_desc: ".§I$trait_lithoid_budding$§!ﻭ ،§I$trait_lithoid_volatile_excretions$§!ﻭ ،§I$trait_lithoid_scintilating$§!ﻭ ،§I$trait_lithoid_gaseous_byproducts$§! ﺪﻳﻮﺜﻴﻠﻟﺍ ﺕﺎﻤﺳ ﻦﻤﻀﺘﺗ"
+
+ concept_lithoid_origin: "$origin_lithoid$"
+ concept_lithoid_origin_desc: "§L$origin_lithoid_desc$§!"
+
+ concept_terravore: "$civic_hive_devoring_swarm_lithoid$"
+ concept_terravore_desc: "§L$civic_hive_devoring_swarm_lithoid_desc$§!"
+
+ concept_consume_world: "$decision_lithoid_swarm_consume_world$"
+ concept_consume_world_desc: "§L$decision_lithoid_swarm_consume_world_desc$§!"
+
+
+ concept_massive_crater: "$d_lithoid_crater$"
+ concept_massive_crater_desc: "§L$d_lithoid_crater_desc$§!\n\n§G+25%§!- $MOD_LOGISTIC_GROWTH_MULT$: \n§R-6§!- $mod_district_farming_max_add$: \n§G+6§!- $mod_district_mining_max_add$: \n§G+6§!- $MOD_PLANET_MAX_DISTRICTS_ADD$: \n§G+50%§!: ['concept_lithoid_traits'] ﺕﺍﺮﻴﺛﺄﺗ -"
+
+ concept_buried_lithoids: "$d_buried_lithoids$"
+ concept_buried_lithoids_desc: "§L$d_buried_lithoids_desc$§!\n\n§ILithoid Pop§! £pop£ §G+100§! :ﺮﻴﻬﻄﺘﻟﺍ ﺪﻨﻋ -\n$i_minerals$ 1000 :ﺮﻴﻬﻄﺘﻟﺍ ﺔﻔﻠﻜﺗ -\n§IDays§! 360 £time£ :ﺮﻴﻬﻄﺘﻟﺍ ﺖﻗﻭ -"
+
+ concept_lithoid_crater: "$lithoid_crater$"
+ concept_lithoid_crater_desc: "§L$lithoid_crater_desc$§!\n\n§R-50%§! :ﺔﻳﺩﻮﺜﻴﻠﻟﺍ ﺮﻴﻏ ﺕﺎﺛﻮﻠﻤﻠﻟ ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ -"
+
+ concept_experimental_crater: "$hold_experimental_crater$"
+ concept_experimental_crater_desc: "§L$holding_experimental_crater_desc$§!\n\n§R§! ﺔﻣﺩﺎﻘﻟﺍ ﺓﺮﻤﻌﺘﺴﻤﻟﺍ "ﻦﻔﺳ" ﺮﺠﻔﻨﺗ ﺪﻗ §Y:ﻪﻴﺒﻨﺗ§!- \n§G+300§! :ﻒﺋﺎﻇﻮﻟﺍ [['concept_miner', [miner.GetName] £mod_job_miner_add£- \n§R-1§!- $MOD_MONTHLY_LOYALTY_GAIN$: \n 8 £engineering£ 4 £physics£ :ﺝﺎﺘﻧﻹﺍ -"
+
+# Resource Consolidation
+
+ concept_pc_machine: "$pc_machine$"
+ concept_pc_machine_desc: "§L$pc_machine_desc$§!\n\n$pc_machine_effets$"
+
+ pc_machine_effects: "§G+50%§!- $MOD_PLANET_RESETTLEMENT_UNEMPLOYED_DESTINATION_MULT$: \n§G-10%§!- $MOD_POP_HOUSING_USAGE_MULT$: \n§G+10%§!- $mod_planet_jobs_produces_mult$: \n§!%XYZT_00 :ﺔﻴﺳﺎﺳﻷﺍ ﻦﻜﺴﻠﻟ ﺔﻴﻠﺑﺎﻘﻟﺍ -"
+
+ concept_prototype_pc_machine: "$concept_pc_machine$ ﻲﻟﻭﻷﺍ ﺝﺫﻮﻤﻨﻟﺍ"
+ concept_prototype_pc_machine_desc: "§L$pc_machine_desc$§!\n\n.ﺔﻘﻄﻨﻤﻟﺍ ﺕﺎﻌﺳﻭ ﻥﺎﻜﺳﻹﺍﻭ ﻖﻃﺎﻨﻤﻟﺍ ﻦﻣ ﻒﺋﺎﻇﻮﻟﺍ ﻞﻴﻠﻘﺗ ﻰﻠﻋ ﺔﻴﻟﻭﻷﺍ £blocker£$pc_machine_effacts$ $NEW_LINE$- ﻊﻨﻣ ﺕﺍﻭﺩﺃ ﻞﻤﻌﺗ "
+
+ concept_malfunctioning_replicator_bay: "$d_resource_consolidation_1$"
+ concept_malfunctioning_replicator_bay_desc: "§L$d_resource_consolidation_1_desc$§!\n\n§R-1§!- $MOD_PLANET_MAX_DISTRICTS_ADD$: \n$tt$- 600 $i_minerals$\n:ﺔﻴﻔﺼﺘﻟﺍ ﺔﻔﻠﻜﺗ -\n§IDays§! 360 £time£$tt$- \n:ﺔﻴﻔﺼﺘﻟﺍ ﺖﻗﻭ -"
+
+ concept_consolidated_resources: "$d_machine_minerals$"
+ concept_consolidated_resources_desc: "§L$d_resource_consolidation_1_desc$§!\n\n$i_minerals$ 25 :ﺝﺎﺘﻧﻹﺍ -"
+
+ concept_organic_slurry: "$d_organic_slurry$"
+ concept_organic_slurry_desc: "§L$d_organic_slurry_desc$§!\n\n$i_food$ 15 :ﺝﺎﺘﻧﻹﺍ -"
+
+ concept_machine_assimilator: "$civic_machine_assimilator$"
+ concept_machine_assimilator_desc: "§L$civic_machine_assimilator_desc$§!\n\n$civic_tooltip_machine_assimilator_effacts$"
+
+ concept_pc_barren: "$pc_barren$"
+ concept_pc_barren_desc: "§L$pc_barren_desc$§!\n\n§Rﻦﻜﺴﻠﻟ ﺢﻟﺎﺻ ﺮﻴﻏ§!- "
+
+ concept_pc_molten: "$pc_molten$"
+ concept_pc_molten_desc: "§L$pc_molten_desc$§!\n\n§Rﻦﻜﺴﻠﻟ ﺢﻟﺎﺻ ﺮﻴﻏ§!- "
+
+# Progenitor Hive
+
+ concept_spawning_pools: "$building_spawning_pool$"
+ concept_spawning_pools_desc: "§L$building_spawning_pool_desc$§!\n\n§G+100§! :ﻒﺋﺎﻇﻮﻟﺍ [['concept_spawning_drone', [spawning_drone.GetName] £mod_job_spawning_drone_add£- "
+
+ concept_offspring_nests: "$building_offspring_nest$"
+ concept_offspring_nests_desc: "§L$building_offspring_nest_desc$§!\n\n§G+100§!: ['concept_offspring_drone', $job_offspring_drone$] £mod_job_spawning_drone_add£ ﻒﺋﺎﻇﻭ -"
+
+ concept_offspring_holding: "$hold_offspring_nest$"
+ concept_offspring_holding_desc: "§L$holding_offspring_nest_desc$§!\n\n§G+100§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_offspring_feeder',$job_overlord_offspring_drone_feeder$] £mod_job_spawning_drone_add£- "
+
+ concept_insufficient_offspring_oversight: "ﺀﺎﻨﺑﻷﺍ ﻰﻠﻋ ﺔﺑﺎﻗﺮﻟﺍ ﺔﻳﺎﻔﻛ ﻡﺪﻋ"
+ concept_insufficient_offspring_oversight_desc: "§L.ﺓﺀﺎﻔﻜﻟﺍ ﻰﻟﺇ ﺮﻘﺘﻔﺗﻭ ﺔﻤﻈﻨﻣ ﺮﻴﻏ ﺎﻨﺗﺍﻮﻗ ﻥﺈﻓ ،ﻝﻮﻄﺳﻷﺍ ﺩﻮﻘﺗ ﺔﻳﺭﺫ ﻥﻭﺪﺑ§!\n\n§R-50%§!- $MOD_OWNED_SHIP_ACCURACY_MULT$: \n§R-50%§!- $MOD_OWNED_SHIP_FIRE_RATE_MULT$: \n§R-50%§!- $MOD_OWNED_SHIP_EVASION_MULT$: \n§R-50%§!- $MOD_SHIP_MILITARY_SPEED_MULT$: "
+
+ concept_devouring_swarm: "$civic_hive_devoring_swarm$"
+ concept_devouring_swarm_desc: "§L$civic_hive_devouring_swarm_desc$§!\n\n$devoring_swarm_modifiers$\n§E:ﺕﻻﺪﻌﻤﻟﺍ§!\n$civic_tooltip_devouring_swarm_effacts$\n§E:ﺕﺍﺮﻴﺛﺄﺘﻟﺍ§!"
+
+ devouring_swarm_modifiers: "§G+33%§!- $MOD_COUNTRY_NAVAL_CAP_MULT$: \n§G-25%§!- $MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$: \n§G+20%§!- $mod_category_biology_research_speed_mult$: \n§G+40%§!- $MOD_ARMY_DAMAGE_MULT$: \n§G+5%§!- $MOD_SHIP_ARMOR_REGEN_ADD_PERC$: \n§G+5%§!- $MOD_SHIP_HULL_REGEN_ADD_PERC$: \n§G+25%§!- $MOD_SHIP_HULL_MULT$: \n§G-50%§!- $MOD_COUNTRY_STARBASE_INFLUENCE_COST_MULT$: "
+
+
+# Subterranean
+ concept_cave_dweller: "$trait_cave_dweller$"
+ concept_robot_cave_dweller: "$trait_robot_cave_dweller$"
+ concept_cave_dweller_desc: "§L$trait_cave_dweller_desc$§!\n\n§R-10%§!- $MOD_BIO_LOGISTIC_GROWTH_MULT$: \n§R+10%§!- $MOD_SPECIES_EMPIRE_SIZE_MULT$: \n§G+15%§!- $mod_pop_miner_bonus_workforce_mult$: \n§!%XYZT_050- $MOD_HABITABILITY_FLOOR_ADD$: "
+ concept_robot_cave_dweller_desc: "§L$trait_robot_cave_dweller_desc$§!\n\n§R-10%§!- $MOD_POP_ASSEMBLY_SPEED$: \n§R+10%§!- $MOD_SPECIES_EMPIRE_SIZE_MULT$: \n§G+15%§!- $mod_pop_miner_bonus_workforce_mult$: \n§!%XYZT_050- $MOD_HABITABILITY_FLOOR_ADD$: "
+
+ mod_mining_district_housing_add: "$MOD_PLANET_HOUSING_ADD$ ﻦﻳﺪﻌﺘﻟﺍ ﻖﻃﺎﻨﻣ ﻦﻣ"
+
+# Teachers of the Shroud
+
+ concept_latent_psionic: "$trait_latent_psionic$"
+ concept_latent_psionic_desc: "§L$trait_latent_psionic_desc$§!\n\n§G+5%§!- $mod_pop_bureaucrat_bonus_workforce_mult$: \n§G+10%§!: ['concept_intelligent'] ـﻟ ﺔﻴﻔﻴﻇﻮﻟﺍ ﺓﺀﺎﻔﻜﻟﺍ"
+
+ concept_psionic_ascension: "ﻲﺴﻔﻨﻟﺍ ﺩﻮﻌﺼﻟﺍ"
+ concept_psionic_ascension_desc: ".ﻪﻨﻣ ﺔﻠﺋﺎﻬﻟﺍ ﺓﻮﻘﻟﺍ ﺹﻼﺨﺘﺳﺍﻭ ﻦﻔﻜﻟﺍ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ،ﻞﻘﻌﻠﻟ ﺔﻨﻣﺎﻜﻟﺍ ﺔﻴﻨﻫﺬﻟﺍ ﺕﺍﺭﺪﻘﻟﺍ ﺢﺘﻓ ﻝﻼﺧ ﻦﻣ"
+
+ concept_attunement: "ﻢﻏﺎﻨﺘﻟﺍ"
+ concept_attunement_desc: "$ATTUNEMENT_TT$"
+
+ concept_shroud_beacon: "$sm_shroud_beacon$"
+ concept_shroud_beacon_desc: "$sm_shroud_beacon_desc$"
+
+ concept_shroudwalker_enclave: "$gov_shroudwalker_enclave$"
+ concept_shroudwalker_enclave_desc: "$gov_shroudwalker_enclave_desc$"
+
+ concept_psionic_theory: "$tech_psionic_theory$"
+ concept_psionic_theory_desc: "§L$tech_psionic_theory_desc$§!\n\n§G-10%§! $MOD_EMPIRE_SIZE_POPS_MULT$: £mod_empire_size_pops_mult£- "
+
+
+# Cybernetic Creed
+
+ concept_cybernetic_ascension: "ﻲﻧﺍﺮﺒﻴﺴﻟﺍ ﺩﻮﻌﺼﻟﺍ"
+ concept_cybernetic_ascension_desc: ".ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺎﺳﺮﻐﻟﺍ ﻰﻟﺇ ﻞﻘﺘﻨﻧ ﻥﺃ ﺎﻨﻴﻠﻋ ﺐﺠﻳ ،ﺔﻠﻣﺎﻜﻟﺍ ﺎﻨﺗﺎﻧﺎﻜﻣﺇ ﻰﻟﺇ ﻝﻮﺻﻮﻠﻟ .ﺔﻟﻮﺒﻘﻣ ﺮﻴﻏ ﺔﻃﺎﺴﺒﺑ ﻲﻫ ﺔﻔﻴﻌﻀﻟﺍ ﺔﻳﻮﻀﻌﻟﺍ ﺎﻨﻣﺎﺴﺟﺃ ﺎﻨﻴﻠﻋ ﺎﻬﺿﺮﻔﺗ ﻲﺘﻟﺍ ﺩﻮﻴﻘﻟﺍﻭ ﺩﻭﺪﺤﻟﺍ ﻥﺇ"
+
+ concept_integrated_cybernetics: "$tech_integrated_cybernetics$"
+ concept_integrated_cybernetics_desc: "§L$tech_integrated_cybernetics_desc$§!\n\n§G+5%§! $MOD_POP_ENVIRONMENT_TOLERANCE$: £mod_pop_environment_tolerance£- "
+
+
+# Slingshot to the Stars
+
+ concept_slingshot_digsite: "$slingshot_digsite$"
+ concept_slingshot_digsite_desc: "§L$slingshot_digsite_desc$§!"
+
+ concept_quantum_catapult_restored_slingshot: "$quantum_catapult_restored_slingshot$"
+ concept_quantum_catapult_restored_slingshot_desc: "§L$tech_quantum_catapult_desc$§!\n\n['concept_quantum_catapult_improved_slingshot'] ﻰﻟﺇ ﻪﺘﻴﻗﺮﺗ ﻦﻜﻤﻳ -\n§G-30%§! :ﺀﺎﻬﻧﻹﺍ ﺔﻋﺮﺳ -\n§G-20%§!- $MOD_FLEET_MIA_TIME_MULT$: \n§!XYZT_335 :ﺭﺎﺸﺘﻧﻻﺍ -\n§!XYZT_0450 :ﻕﺎﻄﻨﻟﺍ -"
+
+ concept_quantum_catapult_improved_slingshot: "$quantum_catapult_improved_slingshot$"
+ concept_quantum_catapult_improved_slingshot_desc: "§L$tech_quantum_catapult_desc$§!\n\n§G-60%§! :ﺀﺎﻬﻧﻹﺍ ﺔﻋﺮﺳ -\n§G-30%§!- $MOD_FLEET_MIA_TIME_MULT$: \n§!XYZT_325 :ﺭﺎﺸﺘﻧﻻﺍ -\n§!XYZT_0750 :ﻕﺎﻄﻨﻟﺍ -"
+
+ concept_quantic_ambush: "$quantic_ambush$"
+ concept_quantic_ambush_desc: "§L.ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﻪﻧﻮﻌﻗﻮﺘﻳ ﻻ ﺖﻗﻭ ﻲﻓ ﺀﺍﺪﻋﻷﺍ ﺏﺮﻀﺑ ﺎﻨﻟ ﺢﻤﺴﺗ Quantum Catapult ﺮﻔﺴﻟ ﺔﻌﻗﻮﺘﻤﻟﺍ ﺮﻴﻏﻭ ﺔﻳﺭﻮﻔﻟﺍ ﺔﻌﻴﺒﻄﻟﺍ§!\n\nﺎﻣﻮﻳ 120 ﺓﺪﻤﻟ §G+33%§!- $MOD_SHIP_FIRE_RATE_MULT$: "
+
+# Imperial Fiefdom
+
+ concept_specialist_subject: "ﺔﺼﺼﺨﺘﻣ ﻊﻴﺿﺍﻮﻣ"
+ concept_specialist_subject_desc: "- $specialist_prospectorium_summary$\n- $specialist_scholarium_summary$\n- $specialist_bulwark_summary$\n\n. §IXP ﻉﻮﺿﻮﻤﻟﺍ§! ﺏﺎﺴﺘﻛﺍ ﺪﻨﻋ ﺎﻬﺤﺘﻓ ﻢﺘﻳﻭ ،ﺓﺪﻳﺮﻓ ﺎﻳﺍﺰﻤﺑ ﻊﺘﻤﺘﺗ ﻲﺘﻟﺍ ﻊﻴﺿﺍﻮﻤﻟﺍ ﻉﺍﻮﻧﺃ ﻲﻫ ﺔﺼﺼﺨﺘﻤﻟﺍ ﻊﻴﺿﺍﻮﻤﻟﺍ"
+
+# Overtuned
+
+ concept_overtuned_traits: "$origin_overtuned$ ﺕﺎﻤﺴﻟﺍ"
+ concept_overtuned_traits_desc: ".ﺪﺋﺎﻘﻟﺍ ﺮﻤﻋ ﻞﻴﻠﻘﺗ ﺏﺎﺴﺣ ﻰﻠﻋ ﺔﻳﺩﺎﻌﻟﺍ ﻉﺍﻮﻧﻷﺍ ﺕﺎﻤﺴﺑ ﺔﻧﺭﺎﻘﻣ ﺮﺒﻛﺃ ﺪﺋﺍﻮﻓ ﺓﺯﻭﺎﺠﺘﻤﻟﺍ ﺕﺎﻤﺴﻟﺍ ﺮﻓﻮﺗ"
+
+ concept_gene_tailoring: "$tech_gene_tailoring$"
+ concept_gene_tailoring_desc: "§L$tech_gene_tailoring_desc$§!\n\n- $i_unlocks_feature$ $feature_pop_self_modification$\n- $i_unlocks_feature$ $feature_modify_traits$ "
+
+ concept_damn_the_consequences: "$eddict_damn_the_consequences$"
+ concept_damn_the_consequences_desc: "§L$edict_damn_the_consequences_desc$§!\n\n§R+100%§!- $mod_planet_pops_organics_upkeep_mult$: \n§G+100%§!: §IOvertuned§! ﺕﺎﻤﺳ ﻦﻣ ﺔﻴﺑﺎﺠﻳﻹﺍ ﺕﺍﺮﻴﺛﺄﺘﻟﺍ -"
+
+# Knights of the Toxic God
+
+ concept_order_keep: "$building_order_keep$"
+ concept_order_keep_desc: "§L$building_order_keep_desc$§!\n\n§G+100§! :ﻒﺋﺎﻇﻮﻟﺍ [['concept_squire', [squire.GetName] £mod_job_squire_add£- \n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ [['concept_knight', [knight.GetName] £mod_job_knight_add£- \n§G+100%§! $MOD_PLANET_RESETTLEMENT_UNEMPLOYED_DESTINATION_MULT$: £mod_planet_resettlement_unemployed_destination_mult£- \n§G+5§! $MOD_PLANET_IMMIGRATION_PULL_ADD$: £mod_planet_immigration_pull_add£- \n§R!ﻪﻠﻴﻄﻌﺗ ﻭﺃ ﻰﻨﺒﻤﻟﺍ ﺍﺬﻫ ﺔﻟﺍﺯﺇ ﻦﻜﻤﻳ ﻻ§!"
+
+ concept_orders_demesne: "$district_orders_demesne$"
+
+ concept_orders_demesne_desc: "§L$district_orders_demesne_desc$§!\n\n§G+300§! :ﻒﺋﺎﻇﻮﻟﺍ [['concept_squire', [squire.GetName] £mod_job_squire_add£- \n§G+2.5%§! $MOD_POP_ENVIRONMENT_TOLERANCE$: £mod_pop_environment_tolerance£- \n§G+400§! $MOD_PLANET_HOUSING_ADD$: £mod_planet_housing_add£- "
+
+ concept_knight_commandery: "$hold_knight_commandery$"
+ concept_knight_commandery_desc: "§L$holding_knight_commandery_desc$§!\n\n§G+100§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_overlord_knight', $job_overlord_knight$] £mod_job_knight_add£\n§G+4§! $MOD_COUNTRY_NAVAL_CAP_ADD$: £mod_country_naval_cap_add£"
+
+ concept_knights_quest: "$situation_oxy_knights$"
+ concept_knights_quest_desc: "§L$situation_oxy_knights_desc$§!\n\n.§I$concept_looking_features$§!ﻭ §I[knight.GetName]§! [knight.GetIcon] ﻒﺋﺎﻇﻮﻟ ﺔﻳﻮﻘﻟﺍ ﺕﻻﺪﻌﻤﻟﺍ ﺢﺘﻔﻳ"
+
+ concept_order_jobs: "ﺱﺭﺎﻔﻟﺍ ﺐﻠﻃ ﻒﺋﺎﻇﻭ"
+ concept_order_jobs_desc: "][knight.GetName] ['concept_knight', [knight.GetIcon] $NEW_LINE$- ['concept_knight_commander', £job_knight_commander£ $job_knight_commander$]$NEW_LINE$- "
+
+ concept_toxic_features: "ﺔﻣﺎﺴﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﺕﺍﺰﻴﻣ"
+ concept_toxic_features_desc: "['concept_envenomed_seas'] $NEW_LINE$- ['concept_blight_upon_the_land'] $NEW_LINE$- ['concept_deitys_swarms'] $NEW_LINE$- ['concept_pestilential_wasteland'] $NEW_LINE$- ['concept_pools_most_venemous']$NEW_LINE$- "
+
+ toxic_feature_improvement: "ﺔﻴﺒﻛﻮﻜﻟﺍ ﺓﺰﻴﻤﻟﺍ ﻩﺬﻫ ﻲﻓ ﺔﻴﻓﺎﺿﻹﺍ ﺕﺂﻓﺎﻜﻤﻟﺍ :§Yﺱﺭﺎﻔﻟﺍ ﻡﺎﻬﻣ§!$NEW_LINE$- ﻝﺎﻤﻛﺇ ﺪﻨﻋ "
+
+ concept_pools_most_venemous: " $d_oxy_god_pools_most_venemous$£blocker£"
+ concept_pools_most_venemous_desc: "§L$d_oxy_god_pools_most_venemous_desc$§!\n\n§R-1§! :ﻖﻃﺎﻨﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ -"
+
+ concept_pestilential_wasteland: " $d_oxy_god_pestilential_wasteland$£blocker£"
+ concept_pestilential_wasteland_desc: "§L$d_otic_god_pestilential_wasteland_desc$§!\n\n$toxic_feature_improvement$§R-1§! :ﻖﻃﺎﻨﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ -"
+
+ concept_deitys_swarms: " $d_oxy_god_deitys_swarms$£blocker£"
+ concept_deitys_swarms_desc: "§L$d_oxy_god_deitys_swarms_desc$§!\n\n$toxic_feature_improvement$§R-1§! :ﻖﻃﺎﻨﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ -"
+
+ concept_blight_upon_the_land: " $d_oxy_god_blight_upon_the_land$£blocker£"
+ concept_blight_upon_the_land_desc: "§L$d_looking_god_blight_upon_the_land_desc$§!\n\n$toxic_feature_improvement$§R-1§! :ﻖﻃﺎﻨﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ -"
+
+ concept_envenomed_seas: " $d_oxy_god_envenomed_seas$£blocker£"
+ concept_envenomed_seas_desc: "§L$d_oxy_god_envenomed_seas_desc$§!\n\n$oxy_feature_improvement$§R-1§! :ﻖﻃﺎﻨﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ -"
+
+# Ocean Paradise
+
+ concept_pc_ocean: "$pc_ocean$"
+ concept_pc_ocean_desc: "§L$pc_ocean_desc$§!\n\n§!%XYZT_00 :ﺔﻴﺳﺎﺳﻷﺍ ﻦﻜﺴﻟﺍ ﺔﻴﻠﺑﺎﻗ -"
+
+ concept_ocean_paradise_mod: "$ocean_paradise$"
+ concept_ocean_paradise_mod_desc: "§L$ocean_paradise_desc$§!\n\n§G+5%§!- $mod_planet_jobs_produces_mult$: \n§G+10%§!- $MOD_LOGISTIC_GROWTH_MULT$: \n§G+15%§!- $MOD_POP_HAPPINESS$: "
+
+ concept_crystal_reef: "$d_crystal_reef$"
+ concept_crystal_reef_desc: "§L$d_crystal_reef_desc$§!\n\n§G+2§!- $mod_building_crystal_mines_max$: "
+
+ concept_pc_frozen: "ﺪﻤﺠﺘﻤﻟﺍ ﻢﻟﺎﻌﻟﺍ"
+ concept_pc_frozen_desc: "§L$pc_frozen_desc$§!\n\n§Rﻦﻜﺴﻠﻟ ﺢﻟﺎﺻ ﺮﻴﻏ§!- "
+
+# Payback
+ concept_payback_digsite: "$payback_digsite$"
+ concept_payback_digsite_desc: "§L$payback_digsite_desc$§!"
+
+ concept_basic_science_lab_1: "$tech_basic_science_lab_1$"
+ concept_basic_science_lab_1_desc: "§L$tech_basic_science_lab_1_desc$§!\n\n- $i_unlocks_building$ $building_research_lab_1$"
+
+ concept_planetary_government: "$tech_planetary_ Government$"
+ concept_planetary_government_desc: "§L$tech_planetary_ Government_desc$§!\n\n- $i_unlocks_building$ $building_bureaucratic_1$\n- $i_unlocks_building$ $building_precinct_house$\n- $i_unlocks_building$ $building_capital$"
+
+ concept_corvettes: "$tech_corvettes$"
+ concept_corvettes_desc: "§L$tech_corvettes_desc$§!\n\n$ﺖﻴﻓﺭﻮﻛ$ :§I$UNLOCKS_SHIP_TYPE$§!- "
+
+ concept_clinic: "$building_medical_2$"
+ concept_clinic_desc: "§L$building_medical_2_desc$§!\n\n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ [['concept_healthcare', [healthcare.GetName] £mod_job_healthcare_add£- "
+
+ concept_mineral_purification_plant: "$building_mineral_purification_plant$"
+ concept_mineral_purification_plant_desc: "§L$building_mineral_purification_plant_desc$§!\n\n§G+20%§!: £job_miner£ ﻢﺟﺎﻨﻤﻟﺍ ﻝﺎﻤﻋ ﻦﻣ ﺔﺠﺘﻨﻤﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ -"
+
+ concept_energy_grid: "$building_energy_grid$"
+ concept_energy_grid_desc: "§L$building_energy_grid_desc$§!\n\n§G+20%§!: £job_technician£ ﻲﻴﻨﻓ ﻦﻣ ﺎﻬﺟﺎﺘﻧﺇ ﻢﺗ ﻲﺘﻟﺍ ﺩﺭﺍﻮﻤﻟﺍ -"
+
+ concept_bureaucratic_1: "$building_bureaucratic_1$"
+ concept_bureaucratic_1_desc: "§L$building_bureaucratic_1_desc$§!\n\n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ [['concept_bureaucrat', [bureaucrat.GetName] £mod_job_bureaucrat_add£- "
+
+ concept_commercial_zone: "$building_commercial_zone$"
+ concept_commercial_zone_desc: "§L$building_commercial_zone_desc$§!\n\n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ [['concept_trader', [trader.GetName] [trader.GetIcon]- "
+
+ concept_payback_unified_purpose: "$payback_unified_pose$"
+ concept_payback_unified_purpose_desc: "§L$payback_unified_pose_desc$§!\n\nﺎﻣﺎﻋ §!XYZT_1320 ﻝﻼﺧ ﺎﻬﺘﻴﺣﻼﺻ ﻲﻬﺘﻨﺘﺳ -\n§G+200§!: ['concept_unifier', $job_unifier$] ﻒﺋﺎﻇﻭ -\n§G+10%§!- $mod_planet_jobs_produces_mult$: \n§G+25%§!- $MOD_PLANET_AMENITIES_MULT$: \n§G+15%§!- $MOD_POP_HAPPINESS$: "
+
+ concept_advanced_infrastructure: "ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻴﺘﺤﺘﻟﺍ ﺔﻴﻨﺒﻟﺍ"
+ concept_advanced_infrastructure_desc: "['concept_energy_grid', £building£ $building_energy_grid$]$TABBED_NEW_LINE$- ['concept_mineral_purification_plant', £building£ $building_mineral_purification_plant$]$TABBED_NEW_LINE$- ['concept_clinic', £building£ $building_medical_2$] -$TABBED_NEW_LINE$:ـﺑ ['concept_commercial_zone', £building£ $building_commercial_zone$]ﻭ ['concept_bureaucratic_1', £building£ $building_bureaucratic_1$]$NEW_LINE$- ﻝﺍﺪﺒﺘﺳﺍ ﻢﺗ "
+
+ concept_payback_debris_field: "$payback_debris_field$"
+ concept_payback_debris_field_desc: "§L$payback_debris_field_desc$§!\n\n§!%XYZT_933 :ﺭﺎﻣﺪﻟﺍ ﺀﺪﺑ -\n§R+50%§!- $mod_planet_structures_upkeep_mult$: \n§R+15%§!- $mod_planet_structures_cost_mult$: \n§R-30%§!- $MOD_POP_ENVIRONMENT_TOLERANCE$: "
+
+ concept_payback_ship_debris: " $d_ship_debris_payback_blocker$£blocker£"
+ concept_payback_ship_debris_desc: "§L$d_ship_debris_payback_blocker_desc$§!\n\n$ship_debris_payback_blocker_tt$ :ﺮﻴﻬﻄﺘﻟﺍ ﺪﻨﻋ -\n§R-1§! :ﻖﻃﺎﻨﻤﻠﻟ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ -\n$i_energy$ 300 :ﺮﻴﻬﻄﺘﻟﺍ ﺔﻔﻠﻜﺗ -\n§IDays§! 360 £time£ :ﺮﻴﻬﻄﺘﻟﺍ ﺖﻗﻭ -"
+
+# Under One Rule
+
+ concept_leader_trait_legendary_leader: "$leader_trait_legendary_leader$"
+ concept_leader_trait_legendary_leader_desc: "§L.ﻊﻴﻤﺠﻠﻟ ﻡﺎﻬﻟﺇ ﺭﺪﺼﻣ ﻮﻫﻭ ،ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺟ ﻪﻘﻘﺤﻳ ﻥﺃ ﻦﻜﻤﻳ ﺎﻤﻟ ﻲﺤﻟﺍ ﺰﻣﺮﻟﺍ ﻮﻫ Luminary .ﺎﻌﻴﻤﺟ ﺎﻨﻟ ﻑﺪﻬﻟﺍﻭ ﻡﻼﺴﻟﺍ ﻢﺠﻨﻟﺍ ﺐﻠﺟ ،ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ .ﺎﻴﺸﺣﻭ ﺍﺮﻣﺃ ﺪﻴﺣﻮﺘﻟﺍ ﺏﻭﺮﺣ ﺖﻧﺎﻛ§!\n\n§G.ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﻊﻣﻼﻟﺍ ﻢﺠﻨﻟﺍ ﺓﻮﻗ ﺩﺍﺩﺰﺗ§!\n\n§G+3%§!$TABBED_NEW_LINE$- $mod_planet_jobs_unity_produces_mult$: §G+1.5§!$EMPIRE_EFFECTS_TXT$$TABBED_NEW_LINE$- $MOD_PLANET_STABILITY_ADD$: \n\n§ILuminary Starting ﺕﺎﻤﺴﻟﺍ ﺪﻳﺮﻔﻟﺍ§!$TABBED_NEW_LINE$- ﺭﺎﻴﺘﺧﺎﺑ ﺢﻤﺴﻳ §G+3§!$TABBED_NEW_LINE$- ﻲﻟﻭﻷﺍ ﺪﺋﺎﻘﻟﺍ ﻯﻮﺘﺴﻣ: §G+60§!$THIS_LEADER_TXT$:$TABBED_NEW_LINE$- $MOD_LEADER_LIFESPAN_ADD$: "
+
+ concept_perfected_genes: "$trait_perfected_genes$"
+ concept_perfected_genes_desc: "§L$trait_perfected_genes_desc$§!\n\n§R-20%§!- $MOD_LEADER_SPECIES_EXP_GAIN$: \n§G+25§!- $MOD_LEADER_LIFESPAN_ADD$: "
+
+##
+
+ concept_angler: "$job_angler_plural$"
+ concept_angler_desc: "§L$job_angler_desc$§!\n\n.$r_trade$ﻭ $i_food$ ﺞﺘﻨﺗ ﻲﺘﻟﺍ ﻒﺋﺎﻇﻮﻟﺍ §IFarmer§!$job_angler_plural$ ﻲﻫ "
+
+ concept_pearl_diver: "$job_pearl_diver_plural$"
+ concept_pearl_diver_desc: "§L$job_pearl_diver_desc$§!\n\n.$r_trade$ﻭ $i_consumer_goods$ ﻰﻟﺇ $i_minerals$ﻭ $i_food$ ﻝﻮﺤﺗ ﻲﺘﻟﺍ ﻒﺋﺎﻇﻮﻟﺍ §IArtisan§!$job_pearl_diver_plural$ ﻲﻫ "
+
+ concept_hab_capital: "$building_hab_capital$"
+
+ concept_hab_capital_desc: "§L$building_hab_capital_desc$§!\n\n§G+100§! $job_politician$ ﻒﺋﺎﻇﻮﻟﺍ: £job_politician£- \n§G+300§! $PLANET_AMENITIES_TITLE$: £amenities£- \n§G+300§! $MOD_PLANET_HOUSING_ADD$: £mod_planet_housing_add£- "
+
+ concept_hydroponics_farm: "$building_hydroponics_farm$"
+ concept_hydroponics_farm_desc: "§L$building_hydroponics_farm_desc$§!\n\n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ [farmer.GetName] £mod_job_farmer_add£- "
+
+ concept_noble: "$job_noble_plural$"
+ concept_noble_desc: "§L$job_noble_desc$§!\n\n.$i_stability$ﻭ $i_amenities$ﻭ ['concept_unity', £unity£ $concept_unity$] $job_noble_plural$ ﻝﻮﺤﻳ $i_consumer_goods$ ﻰﻟﺇ £job_noble£"
+
+ concept_noble_estates: "$building_noble_estates$"
+ concept_noble_estates_desc: "§L$building_noble_estates_desc$§!\n\n§G+1§! $mod_job_noble_add$: £mod_job_noble_add£\n§G+100§! $MOD_PLANET_HOUSING_ADD$: £mod_planet_housing_add£"
+
+ concept_noble_vacation_homes: "$holding_noble_vacation_homes$"
+ concept_noble_vacation_homes_desc: "§L$holding_noble_vacation_homes_desc$§!\n\n$holding_noble_vacation_homes_effect$"
+
+ concept_death_priest: "$job_death_priest$"
+ concept_death_priest_desc: "§L$job_death_priest_desc$§!\n\n$i_amenities$ﻭ ['concept_society_research', £society£ $concept_society_research$]ﻭ ['concept_unity', £unity£ $concept_unity$] ﻰﻟﺇ $i_consumer_goods$ ﻝﻮﺤﺗ ﻲﺘﻟﺍ ﻒﺋﺎﻇﻮﻟﺍ §IBureaucrat§!$job_death_priest_plural$ ﻲﻫ "
+
+ concept_mortal_initiate: "[mortal_initiate.GetNamePlural]"
+ concept_mortal_initiate_desc: "§L$job_mortal_initiate_desc$§!\n\n$i_amenities$ﻭ ['concept_society_research', £society£ $concept_society_research$]ﻭ ['concept_unity', £unity£ $concept_unity$] ﺞﺘﻨﺗ ﻲﺘﻟﺍ §IAdminstrator§! ﻒﺋﺎﻇﻭ ﻲﻫ [mortal_initiate.GetNamePlural]"
+
+ concept_sacrificial_temple: "$building_sacrificial_temple_1$"
+ concept_sacrificial_temple_desc: "§L$building_sacrificial_temple_1_desc$§!\n\n§G+5%§! $mod_pop_ethic_spiritualist_attraction_mult$: £mod_ethic_attraction_mult£\n§G+1§! $mod_job_mortal_initiate_add$: £mod_job_mortal_initiate_add£\n§G+1§! $mod_job_death_priest_add$: £mod_job_death_priest_add£"
+
+ concept_sacrificial_shrine: "$hold_sacrificial_shrine$"
+ concept_sacrificial_shrine_desc: "§L$holding_sacrificial_shrine_desc$§!\n\n§G+2§! $mod_job_overlord_mortal_initiate_add$: £mod_job_mortal_initiate_add£"
+
+ concept_head_researcher: "$job_head_researcher_plural$"
+ concept_head_researcher_desc: ".['concept_technologies', £physics£ £engineering£ Research Points]ﻭ §H$PLANET_AMENITIES_TITLE$§! £mod_planet_amenities_add£ﻭ ['concept_unity', £unity£ $concept_unity$] ﻰﻟﺇ $i_consumer_goods$ ﻝﻮﺤﺗ ﻲﺘﻟﺍ §IResearcher§!$job_head_researcher_plural$ ﻒﺋﺎﻇﻭ ﻲﻫ "
+
+# Common Ground/Hegemony
+
+ # Singular: ['concept_federation'] or §H$concept_federation$§!
+ # Plural: -
+ concept_federation: "ﺩﺎﺤﺗﻻﺍ"
+ concept_federation_desc: ".§Hﺩﺎﺤﺗﻻﺍ ﺕﺍﺯﺎﻴﺘﻣﺍ§! ﺢﺘﻔﻳ ﻥﺃ ﻦﻜﻤﻳ ﺎﻤﻣ ،§H$concept_federation$§! ـﻟ §HCohesion§!ﻭ ﺭﺍﺮﻘﺘﺳﻻﺍ ﺓﺩﺎﻳﺯ ﻢﺘﻳ ،ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﻥﻭﺆﺸﻟﺍ ﻖﻴﺴﻨﺘﻟ ['concept_official'] £official£ ﻦﻴﻴﻌﺗ ﻝﻼﺧ ﻦﻣ\n\n.ﺀﺎﻀﻔﻟﺍ ﺩﺎﺗﺮﺗ ﻲﺘﻟﺍ ﺕﺍﺭﺎﻀﺤﻠﻟ ﻲﻨﻃﻭ ﻕﻮﻓ ﻒﻟﺎﺤﺗ ﻮﻫ §H$concept_federation$§!"
+
+ concept_common_ground_federation: "$concept_federation$"
+ concept_common_ground_federation_desc: "['concept_trade_federation']- \n['concept_spiritualist_federation']- \n['concept_research_federation']- \n['concept_military_federation']- \n['concept_default_federation']- \n:ﺕﺍﺩﺎﺤﺗﻻﺍ ﻦﻣ ﺔﻔﻠﺘﺨﻣ ﻉﺍﻮﻧﺃ ﻙﺎﻨﻫ \n\n$concept_federation_desc$"
+
+ concept_default_federation: "$default_federation$"
+ concept_default_federation_desc: "$default_federation_desc$"
+
+ concept_trade_federation: "$trade_federation$"
+ concept_trade_federation_desc: "ﻚﻴﻔﻴﺳ §I$civic_corporate_dominion$§! ﻪﻳﺪﻟ -\n Civic§I$civic_merchant_guilds$§! ﻪﻳﺪﻟ -\nﺔﻄﻠﺳ §I$auth_corporate$§! ﻪﻳﺪﻟ -\n:ﻲﻠﻳ ﺎﻤﻣ ﺪﺣﺍﻭ\n§E:ﺕﺎﺒﻠﻄﺘﻤﻟﺍ§!\n\n$trade_federation_desc$"
+
+ concept_research_federation: "$research_federation$"
+ concept_research_federation_desc: "ﻚﻴﻔﻴﺳ §I$civic_hive_natural_neural_network$§! ﻪﻳﺪﻟ -\n- $civic_tooltip_materialist$\nﺔﻄﻠﺴﻟﺍ §I$auth_machine_intelligence$§! ﻪﻳﺪﻟ -\n:ﻲﻠﻳ ﺎﻤﻣ ﺪﺣﺍﻭ\n§E:ﺕﺎﺒﻠﻄﺘﻤﻟﺍ§!\n\n$research_federation_desc$"
+
+ concept_military_federation: "$ﻱﺮﻜﺴﻌﻟﺍ ﺩﺎﺤﺗﻻﺍ$"
+ concept_military_federation_desc: "ﻚﻴﻔﻴﺳ §I$civic_machine_warbots$§! ﻪﻳﺪﻟ -\n Civic§I$civic_hive_strength_of_legions$§! ﻪﻳﺪﻟ -\n- $civic_tooltip_militarist$\n:ﻲﻠﻳ ﺎﻤﻣ ﺪﺣﺍﻭ\n§E:ﺕﺎﺒﻠﻄﺘﻤﻟﺍ§!\n\n$military_federation_desc$"
+
+ concept_hegemony_federation: "$hegemony_federation$"
+ concept_hegemony_federation_desc: "$hegemony_federation_desc$"
+
+ concept_spiritualist_federation: "$spiritualist_federation$"
+ concept_spiritualist_federation_desc: "- $civic_tooltip_spiritualist$\n§E:ﺕﺎﺒﻠﻄﺘﻤﻟﺍ§!\n\n$spiritualist_federation_desc$"
+
+ concept_diplomacy_traditions: "$tr_diplomacy_adopt$"
+ concept_diplomacy_traditions_desc: "§L$tradition_diplomacy_desc$§!\n\n.§!%XYZT_550 ﺔﺒﺴﻨﺑ ﻪﻀﻴﻔﺨﺗ ﻢﺗ §I$MOD_COUNTRY_DIPLOMACY_INFLUENCE_COST$§!- \n $edict_diplomatic_grants$§I:ﻡﻮﺳﺮﻤﻟﺍ ﻦﻴﻣﺄﺗ ﺀﺎﻐﻟﺇ§!- "
+ concept_tr_diplomacy_the_federation: "$tr_diplomacy_the_federation$"
+ concept_tr_diplomacy_the_federation_desc: "§L$tr_diplomacy_the_federation_delayed$§!\n\n.§!XYZT_51 ﺭﺍﺪﻘﻤﺑ ﺎﻬﺗﺩﺎﻳﺯ ﺖﻤﺗ §I$MOD_COUNTRY_ENVOYS_ADD$§!- \nﺩﺎﺤﺗﻻﺍ ﺝﺫﻮﻤﻧ §I:ﺔﻴﺳﺎﻣﻮﻠﺑﺪﻟﺍ ﺢﺘﻓ§!- "
+
+# Doomsday
+
+ concept_doomsday_modifier: "$doomsday_1$"
+ concept_doomsday_modifier_desc: "§L$doomsday_1_desc$§!\n\n§R-90%§!- $MOD_POP_ENVIRONMENT_TOLERANCE$: \n§R-50%§!- $MOD_PLANET_IMMIGRATION_PULL_MULT$: \n§R-30§!- $MOD_PLANET_STABILITY_ADD$: \n§!%XYZT_16100- $MOD_PLANET_EMIGRATION_PUSH_ADD$: \n§G+120%§!- $mod_planet_jobs_energy_produces_mult$: \n§G+120%§!- $mod_planet_jobs_minerals_produces_mult$: \n§G+120%§!- $mod_planet_jobs_alloys_produces_mult$: \n:ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ ﻰﻟﺇ ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﺕﻻﺪﻌﻤﻟﺍ ﺪﻳﺰﺘﺳ\n\n§!ﺎﻣﺎﻋ 45 ﻰﻟﺇ XYZT_235 ﻝﻼﺧ §REXPLODE§! ﻰﻟﺇ ﺐﻛﻮﻜﻟﺍ ﺍﺬﻫ ﺮﻴﻐﺘﻴﺳ -"
+
+# Lost Colony
+
+ concept_colonial_spirit: "$colonial_spirit_mod$"
+ concept_colonial_spirit_desc: "§L$colonial_spirit_mod_desc$§!\n\n§G+10%§!- $MOD_POP_ENVIRONMENT_TOLERANCE$: \n§G+15%§!- $mod_planet_jobs_produces_mult$: \n§G+15%§!- $MOD_PLANET_AMENITIES_MULT$: \n§G+10%§!- $MOD_FOUNDER_SPECIES_GROWTH_MULT$: \n§G+10%§!- $MOD_POP_HAPPINESS$: "
+
+# Necrophage
+
+ concept_necrophage_elevation_chamber: "$building_necrophage_elevation_chamber$"
+ concept_necrophage_elevation_chamber_desc: "§L.ﺔﺤﻳﺮﻤﻟﺍ ﻉﺎﻔﺗﺭﻻﺍ ﺔﻓﺮﻏ ﻲﻓ ﺱﻮﻘﻄﻟﺍ ﻥﻮﺳﺭﺎﻤﻳ ﻝﻮﺤﺘﻟﺍ ﻥﻭﺮﻈﺘﻨﻳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﺃ§!$DOUBLE_NEW_LINE$§G+100-300§! :ﻒﺋﺎﻇﻮﻟﺍ [['concept_necro_apprentice', [necro_apprentice.GetName] £mod_job_necro_apprentice_add£- "
+
+ concept_necro_apprentice: "[necro_apprentice.GetName]"
+ concept_necro_apprentice_desc: "§L$job_necro_apprentice_desc$§!.$DOUBLE_NEW_LINE$§IElevation Ritual§! ﻲﻓ [necro_apprentice.GetNamePlural] ﻞﻳﻮﺤﺗ ﻢﺘﻳ ،ﺔﻨﺳ §!XYZT_1310 $NEW_LINE$- ﻞﻛ ﺓﺪﺣﺍﻭ ﺓﺮﻣ §I$PLANET_AMENITIES_TITLE$§! £mod_planet_amenities_add£ﻭ §I$unity$§! £unity£ ﻰﻟﺇ §I$food$§! £food£ﻭ §I$consumer_goods$§! £consumer_goods£ ﻞﻳﻮﺤﺗ [necro_apprentice.GetNamePlural]- "
+
+ concept_necrophage_trait: "$trait_necrophage$"
+ concept_necrophage_trait_desc: "§L$trait_necrophage_desc$§!$NEW_LINE$- $trait_necrophage_gestalt_tooltip$ $DOUBLE_NEW_LINE$§R-10%§! $NEW_LINE$- ﺓﺀﺎﻔﻜﻟﺍ ﻞﻣﺎﻌﻟﺍ ﺔﻔﻴﻇﻭ: §G+5%§! $NEW_LINE$- ﺔﺼﺼﺨﺘﻤﻟﺍ ﺔﻔﻴﻇﻮﻟﺍ ﺓﺀﺎﻔﻛ: §G+5%§! $NEW_LINE$- ﺓﺰﻴﻤﻤﻟﺍ ﺔﻔﻴﻇﻮﻟﺍ ﺓﺀﺎﻔﻛ: §G-50%§! $NEW_LINE$- $mod_planet_pops_organics_energy_upkeep_mult$: §G-50%§! $NEW_LINE$- $mod_planet_pops_organics_minerals_upkeep_mult$: §G-50%§! $NEW_LINE$- $mod_planet_pops_organics_food_upkeep_mult$: §R-50%§! $NEW_LINE$- $MOD_BONUS_POP_GROWTH_MULT$: §R-75%§! $NEW_LINE$- $MOD_LOGISTIC_GROWTH_MULT$: §G+80§!- $MOD_LEADER_LIFESPAN_ADD$: "
+
+# Clone Army
+
+ concept_clone_soldier_infertile: "$trait_clone_soldier_infertile$"
+ concept_clone_soldier_infertile_desc: "§L$trait_clone_soldier_infertile_desc$§!$NEW_LINE$- $genelock_trait_tooltip$ $NEW_LINE$- $TRAIT_INFERTILE$ $NEW_LINE$- $TRAIT_IMPROVES_LEADERS$$DOUBLE_NEW_LINE$§G+50%§! $NEW_LINE$- $MOD_ARMY_DAMAGE_MULT$: §R-40§! $NEW_LINE$- $MOD_LEADER_LIFESPAN_ADD$: §G+50%§!- $MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$: "
+
+ concept_cloning: "$tech_cloning$"
+ concept_cloning_desc: "§L$tech_cloning_desc$§!$DOUBLE_NEW_LINE$§G+10%§!- $MOD_LOGISTIC_GROWTH_MULT$ "
+ concept_gene_banks: "$tech_gene_banks$"
+ concept_gene_banks_desc: "§L$tech_gene_banks_desc$§! Clone Army$DOUBLE_NEW_LINE$§I:ﺶﻴﺠﻟﺍ ﺢﺘﻓ§!- "
+
+ concept_clone_army_clone_vat: "$building_clone_army_clone_vat$"
+ concept_clone_army_clone_vat_desc: "§L$building_clone_army_clone_vat_desc$§! $NEW_LINE$- $building_clone_army_clone_vat_effect_desc$ $DOUBLE_NEW_LINE$§G+0-25§! $NEW_LINE$- $MOD_BONUS_POP_GROWTH$: §!XYZT_05 :ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺩﻭﺪﺣ -"
+
+# Broken Shackles
+
+ concept_culture_shock_broken_shackles: "$culture_shock_broken_shackles$"
+ concept_culture_shock_broken_shackles_desc: "§L$culture_shock_broken_shackles_desc$§!\n\nﺔﻨﺳ §!XYZT_1510 ﻝﻼﺧ ﻪﺘﻴﺣﻼﺻ ﻲﻬﺘﻨﺘﺳ -\n§R-20%§!- $mod_planet_jobs_society_research_produces_mult$: \n§R-20%§!- $mod_planet_jobs_physics_research_produces_mult$: \n§R-20%§!- $mod_planet_jobs_engineering_research_produces_mult$: \n§R-10%§!- $mod_planet_jobs_energy_produces_mult$: \n§R-10%§!- $mod_planet_jobs_minerals_produces_mult$: "
+
+ concept_free_at_last_broken_shackles: "$free_at_last_broken_shackles$"
+ concept_free_at_last_broken_shackles_desc: "§L$free_at_last_broken_shackles_desc$§!\n\nﺕﺍﻮﻨﺳ §!XYZT_1820 ﻲﻓ ﻪﺘﻴﺣﻼﺻ ﻲﻬﺘﻨﺘﺳ -\n§G+50%§!- $mod_pop_ethic_egalitarian_attraction_mult$: \n§G-50%§!- $mod_planet_pops_consumer_goods_upkeep_mult$: \n§G+100%§!- $mod_planet_jobs_unity_produces_mult$: \n§G-50%§!- $MOD_POP_AMENITIES_USAGE_MULT$: \n§G-25%§!- $MOD_POP_HOUSING_USAGE_MULT$: \n§G+20%§!- $MOD_POP_CITIZEN_HAPPINESS$: "
+
+ concept_crashed_slaver_ship_broken_shackles: "$d_crashed_slaver_ship$"
+ concept_crashed_slaver_ship_broken_shackles_desc: "§L$d_crashed_slaver_ship_desc$§!\n\n§G+6§!: ['concept_district_crashed_slaver_ship', $district_crashed_slaver_ship_plural$] ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ -"
+
+ concept_district_crashed_slaver_ship: "$district_crashed_slaver_ship$"
+ concept_district_crashed_slaver_ship_desc: "§L$district_crashed_slaver_ship_desc$§!\n\n§G+100§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_broken_shackles_scavenger', $job_broken_shackles_scavenger$] £mod_job_broken_shackles_scavenger_add£- \n§G+0.75§! $MOD_PLANET_MAX_BUILDINGS_ADD$: £building£- \n§G+400§! $MOD_PLANET_HOUSING_ADD$: £housing£- "
+
+ concept_broken_shackles_buildings: "ﺀﺎﻀﻔﻟﺍ ﺔﻨﻴﻔﺳ ﻡﺎﻄﺣ"
+ concept_broken_shackles_buildings_desc: "['concept_low_tech_farm', £building£ $concept_low_tech_farm$] $TABBED_NEW_LINE$- ['concept_low_tech_power_plant', £building£ $concept_low_tech_power_plant$] $TABBED_NEW_LINE$- ['concept_low_tech_scrap_refinery', £building£ $concept_low_tech_scrap_refinery$] $TABBED_NEW_LINE$- ['concept_low_tech_research_lab', £building£ $concept_low_tech_research_lab$] $TABBED_NEW_LINE$- ['concept_low_tech_admin_hub', £building£ $concept_low_tech_admin_hub$] $TABBED_NEW_LINE$- ['concept_low_tech_capital', £building£ $concept_low_tech_capital$]$NEW_LINE$- ـﺑ ﺎﻬﻟﺍﺪﺒﺘﺳﺍ ﻢﺗ ﻲﺘﻟﺍ ﺔﻴﻟﻭﻷﺍ ﻲﻧﺎﺒﻤﻟﺍ:$TABBED_NEW_LINE$- "
+
+ concept_ship_debris_broken_shackles: "$d_ship_debris_broken_shackles_blocker$"
+ concept_ship_debris_broken_shackles_desc: "§L$d_ship_debris_broken_shackles_blocker_desc$§!\n\n.§Y$broken_shackles_digsite$§! ﻲﻓ ﻖﻴﻘﺤﺘﻟﺍ ﻝﻼﺧ ﻦﻣ ﻻﺇ ﺮﻈﺤﻟﺍ ﺍﺬﻫ ﺔﻟﺍﺯﺇ ﻦﻜﻤﻳ ﻻ -\n§R-1§!- $MOD_PLANET_MAX_DISTRICTS_ADD$: "
+
+ concept_broken_shackles_digsite: "$broken_shackles_digsite$"
+ concept_broken_shackles_digsite_desc: "§L$broken_shackles_desc$§!"
+
+ concept_low_tech_scrap_refinery: "$building_low_tech_scrap_refinery$"
+ concept_low_tech_scrap_refinery_desc: "§L$building_low_tech_scrap_refinery_desc$§!\n\n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_low_tech_laborer', $job_low_tech_laborer$] £mod_job_low_tech_laborer_add£- \n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_low_tech_miner', $job_low_tech_miner$] £mod_job_miner_add£- "
+
+ concept_low_tech_admin_hub: "$building_low_tech_admin_hub$"
+ concept_low_tech_admin_hub_desc: "§L$building_low_tech_admin_hub_desc$§!\n\n§G+200§!: ['concept_low_tech_bureaucrat', $job_low_tech_bureaucrat$] £mod_job_low_tech_bureaucrat_add£ ﻒﺋﺎﻇﻭ -"
+
+ concept_low_tech_power_plant: "$building_low_tech_power_plant$"
+ concept_low_tech_power_plant_desc: "§L$building_low_tech_power_plant_desc$§!\n\n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_low_tech_technician', $job_low_tech_technician$] £mod_job_technician_add£- "
+
+ concept_low_tech_farm: "$building_low_tech_farm$"
+ concept_low_tech_farm_desc: "§L$building_low_tech_farm_desc$§!\n\n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_low_tech_farmer', $job_low_tech_farmer$] £mod_job_low_tech_farmer_add£- "
+
+ concept_low_tech_capital: "$building_low_tech_capital$"
+ concept_low_tech_capital_desc: "§L$building_low_tech_capital_desc$§!\n\n§G+100§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_low_tech_warrior', $job_low_tech_warrior$] £mod_job_low_tech_warrior_add£ $NEW_LINE$- §G+200§! :ﻒﺋﺎﻇﻮﻟﺍ [['concept_colonist', [colonist.GetName] £mod_job_colonist_add£ $NEW_LINE$- §G+1§! $MOD_PLANET_MAX_BUILDINGS_ADD$: £building£ $NEW_LINE$- §G+7§! $PLANET_AMENITIES_TITLE$: £amenities£ $NEW_LINE$- §G+4§! $MOD_PLANET_HOUSING_ADD$: £housing£- "
+
+ concept_low_tech_research_lab: "$building_low_tech_research_lab$"
+ concept_low_tech_research_lab_desc: "§L$building_low_tech_research_lab_desc$§!\n\n§G+200§! :ﻒﺋﺎﻇﻮﻟﺍ ['concept_low_tech_researcher', $job_low_tech_researcher$] £mod_job_low_tech_researcher_add£- "
+
+# Fruitful Partnership
+
+ concept_sm_feeder: "$sm_feeder$"
+ concept_sm_feeder_desc: "§L$sm_feeder_desc$§!\n\nﻊﻳﺯﻮﺘﻠﻟ §Iﺭﻭﺬﺒﻟﺍ ﺭﻭﺬﺑ§! 5 $NEW_LINE$- ﻲﻓ ﻲﻋﺮﻠﻟ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺏﺬﺠﻳ Starbase، ﻊﻤﺠﻳﻭ £food£ :ﺞﺘﻨﻳ -"
+
+ concept_seed_bombing: "$bombardment_seed_bombing$"
+ concept_seed_bombing_desc: "§L$bombardment_seed_bombing$ ﻮﻤﻨﻟﺍ ﺭﺎﺠﻔﻧﺍ ﻲﻓ ﺐﺒﺴﺘﻳ ﺎﻤﻣ ،ﺐﻴﺼﺨﺘﻟﺍ ﺓﺪﻳﺪﺷ ﺭﻭﺬﺑ ﻥﻭﺮﻘﺑ ﺐﻛﻮﻜﻟﺍ ﻲﻄﻐﻳ.§!\n\nPlanet ﻰﻠﻋ ﺕﺍﺮﺻﺎﺣ ﺪﻟﻮﻳ -\nﺔﻴﻤﺤﻤﻟﺍ ﺮﻴﻏ ﺐﻛﺍﻮﻜﻟﺍ ﻒﺼﻘﻳ ﻑﻮﺳ -\n§IPops§! ـﻟ ﺭﺮﺿ ﻻ -\n§Iﺐﻛﺍﻮﻜﻟﺍ§! ـﻟ ﻢﻴﺴﺟ ﺭﺮﺿ -\n§Iﺵﻮﻴﺠﻟﺍ§! ـﻟ ﺭﺮﺿ ﻻ -\n"
+
+ concept_tiyanki: "ﻲﻜﻧﺎﻴﺗ"
+ concept_tiyanki_desc: "§LTiyanki ﺎﻬﻴﻠﻋ ﻰﻋﺮﺘﻟ ﺯﺎﻐﻟﺍ ﺔﻘﻟﺎﻤﻋ ﻰﻠﻋ ﺭﻮﺜﻌﻠﻟ ﺔﻘﺋﺎﻔﻟﺍ ﻁﻮﻄﺨﻟﺍ ﻝﻮﻃ ﻰﻠﻋ ﺮﻔﺴﻟﺍ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ،ﺔﻤﻟﺎﺴﻣ ﺔﻴﺋﺎﻀﻓ ﺕﺎﻧﺍﻮﻴﺣ ﻲﻫ.§!"
+
+ concept_seed_pod: "ﺭﻭﺬﺒﻟﺍ ﺏﺍﺮﺟ"
+ concept_seed_pod_desc: "['concept_seeded_planet_1_modifier' ] :ﺔﻟﻮﻫﺄﻤﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻰﻠﻋ -\n ['concept_seeded_planet_0_modifier' ] :ﺔﻟﻮﻫﺄﻤﻟﺍ ﺮﻴﻏ ﺐﻛﺍﻮﻜﻟﺍ ﻰﻠﻋ -\n ﺔﻴﻤﺠﻨﻟﺍ ﺭﻭﺬﺒﻟﺍ ﻖﺋﺍﺪﺣ ﻲﻓ ﻰﻋﺮﺗ ﻲﺘﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﺭﺎﻤﻌﺘﺳﻼﻟ ﺔﻠﺑﺎﻘﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻰﻟﺇ ﺮﺸﺘﻧﺍ -"
+
+ concept_seeded_planet_0_modifier: "$seeded_planet_0_modifier$"
+ concept_seeded_planet_0_modifier_desc: "§L$seeded_planet_0_modifier_desc$§!\n\n- $seeded_planet_0_modifier_tooltip$ "
+
+ concept_seeded_planet_1_modifier: "$seeded_planet_1_modifier$"
+ concept_seeded_planet_1_modifier_desc: "§L$seeded_planet_1_modifier_desc$§!\n\n $NEW_LINE$- $seeded_planet_1_modifier_tooltip$ §G+5%§! $NEW_LINE$- $MOD_PLANET_IMMIGRATION_PULL_MULT$: §G+5%§! $NEW_LINE$- $mod_planet_jobs_food_produces_mult$: §G+5%§!- $mod_planet_jobs_society_research_produces_mult$: "
+
+# Riftworld
+
+ # Singular: ['concept_astral_rift'] or §H$concept_astral_rift$§!
+ # Plural: ['concept_astral_rifts'] or §H$concept_astral_rifts$§!
+ concept_astral_rift: "ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ"
+ concept_astral_rifts: "ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ"
+ concept_astral_rift_desc: ".§H$tech_rift_sphere$§! £physics£ ﺔﻴﻨﻘﺗ ﻲﻓ ﺚﺤﺒﻟﺍ ﺪﻌﺑ ['concept_science_ships'] £science_ship£ ﻢﻗﺎﻃ ﺔﻄﺳﺍﻮﺑ ﺎﻬﻓﺎﺸﻜﺘﺳﺍ ﻦﻜﻤﻳﻭ .ﺩﺎﻌﺑﻷﺍ ﻦﻴﺑ ﺩﺍﻮﻤﻟﺍ ﺏﺮﺴﺗ ﻰﻟﺇ ﻱﺩﺆﺗ ﻥﺎﻜﻤﻟﺍﻭ ﻥﺎﻣﺰﻟﺍ ﻲﻓ ﺔﻳﺩﺎﻋ ﺮﻴﻏ ﺕﺎﻗﺰﻤﺗ ﻦﻋ ﺓﺭﺎﺒﻋ §H$concept_astral_rifts$§!"
+
+ concept_riftworld_digsite: "$riftworld_digsite$"
+ concept_riftworld_digsite_desc: ".ﻪﻓﺎﺸﻜﺘﺳﺍ ﻦﻜﻤﻳﻭ ﺎﻘﺑﺎﺳ ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﻒﻳﻮﺠﺗ ﻦﻋ ﺽﺭﻷﺍ ﺖﺤﺗ ﺭﺎﻧﻮﺴﻟﺍ ﻒﺸﻛ .ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻤﻟﺎﻋ ﻲﻓ ﺔﻤﻳﺪﻗ ﺓﺮﻔﺣ ﻕﺎﻤﻋﺃ ﻦﻣ ﻱﺩﺎﻋ ﺮﻴﻏ ﻲﻟﺍﺰﻟﺯ ﻁﺎﺸﻧ ﻦﻋ ﻒﺸﻜﻟﺍ ﻢﺗ"
+
+# Spyware Directives
+
+ concept_cloaking_1: "$tech_cloaking_1$"
+ concept_cloaking_1_desc: "§L$tech_cloaking_1_desc$§!\n\n $CLOAKING_1$§I$UNLOCKS_COMPONENT$§! -$NEW_LINE$ ﻂﺸﻨﻟﺍ ﻉﻼﻄﺘﺳﻻﺍ §I$UNLOCKS_FEATURE$§!- "
+
+# Cosmic Storms
+
+ concept_storm_rider: "ﺔﻔﺻﺎﻌﻟﺍ ﺐﻛﺍﺭ"
+ concept_storm_rider_desc: ".ﺲﻠﺠﻤﻟﺍ ﺐﺻﺎﻨﻣ ﻲﻓ ﻢﻬﻨﻴﻴﻌﺗ ﻢﺘﻳ ﺎﻣﺪﻨﻋ ﺔﻴﻟﺎﻌﻓ ﻞﻗﺃ ﻥﻮﺤﺒﺼﻳﻭ ﺮﺼﻗﺃ ﺮﻤﻌﺑ ﻥﻮﻌﺘﻤﺘﻳﻭ ،ﻥﯯﻳﺮﺟﻭ ﻥﯯﻳﺮﺟ ﻢﻬﻧﺇ !ﺓﺮﻣ ﻞﻛ ﻲﻓ ﺓﺪﺣﺍﻭ ﺔﻴﻧﻮﻛ ﺔﻔﺻﺎﻋ ﻢﻬﺗﺎﻴﺣ ﻥﻭﺭﻮﻬﺘﻤﻟﺍ ﺓﺩﺎﻘﻟﺍ ﺀﻻﺆﻫ ﺶﻴﻌﻳ"
+
+# Primal Calling
+ concept_untamed_wilds_mod: "$untamed_wilds$"
+ concept_untamed_wilds_mod_desc: "§L$untamed_wilds_desc$§!\n§G+15%§!- $mod_planet_jobs_unity_produces_mult$: \n§R$@untamed_wilds_districts|0$§!- $MOD_PLANET_MAX_DISTRICTS_ADD$: "
+
+ concept_ethic_based_jobs: "ﺮﻠﺠﻧﺍﺭ ﻒﺋﺎﻇﻭ"
+ concept_ethic_based_jobs_desc: "['concept_beastfighter', £job_beastfighter£ $job_beastfighter$]$TABBED_NEW_LINE$- ['concept_animal_handler', £job_animal_handler£ $job_animal_handler$]$TABBED_NEW_LINE$- ['concept_trophy_hunter', £job_trophy_hunter£ $job_trophy_hunter$]$TABBED_NEW_LINE$- ['concept_rancher', £job_rancher£ $job_rancher$]$TABBED_NEW_LINE$- ['concept_wrangler', £job_wrangler£ $job_wrangler$] -$TABBED_NEW_LINE$.ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﻩﺎﺠﺗ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻒﻗﻮﻣ ﻰﻠﻋ ﺍﺩﺎﻤﺘﻋﺍ ﻒﺋﺎﻇﻮﻟﺍ ﻩﺬﻫ ﺢﻨﻣ ﻢﺘﻳ"
+
+ concept_voidlure: "ﺭﻮﻟﺪﻳﻮﻓ"
+ concept_voidlure_desc: "$sm_voidlure_desc$"
+
+ concept_primal_calling_stance: "ﻒﻗﻮﻣ"
+ concept_primal_calling_stance_desc: ".['concept_hunter_killers_stance'] ﻭﺃ ['concept_symbiotic_partnership_stance'] ﻭﺃ ['concept_wild_consciousness_stance'] ﺔﺌﻓﺎﻜﻤﻟﺍ ﺖﻟﺎﻄﺸﺠﻟﺍ ﻒﻗﺍﻮﻣ ﻭﺃ ['concept_trophy_hunter_stance'] ﻭﺃ ['concept_animal_handler_stance'] ﻭﺃ ['concept_rancher_stance'] ﻭﺃ ['concept_wrangler_stance'] ﺮﺘﺧﺍ ،ﺕﺎﻴﻗﻼﺧﻷﺍ ﻰﻠﻋ ﺀﺎﻨﺑ"
+
+ concept_wrangler_stance: "ﺮﻠﺠﻧﺍﺭ"
+ concept_wrangler_stance_desc: "['modifier:primal_calling_exhibit_modifier'] ﻝﺪﻌﻣ ﻰﻠﻋ ﻞﺼﺣﺍ - \n['edict:space_fauna_exhibition']- $GET_UNIQUE_EDICT$، \nﻮﻫ ﺎﻤﻛ ['concept_wrangler',$job_wrangler_plural_with_icon$] ﻞﻈﻳ -"
+ concept_rancher_stance: "ﺮﺸﻧﺍﺭ"
+ concept_rancher_stance_desc: "['modifier:primal_calling_exploit_modifier'] ﻝﺪﻌﻣ ﻰﻠﻋ ﻞﺼﺣﺍ - \n['edict:beasts_burden']- $GET_UNIQUE_EDICT$، \n['concept_rancher',$job_rancher_plural_with_icon$] ﺢﺒﺼﻳ ['concept_wrangler',$job_wrangler_plural_with_icon$]- "
+ concept_animal_handler_stance: "ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺞﻟﺎﻌﻣ"
+ concept_animal_handler_stance_desc: "['modifier:primal_calling_shelter_modifier'] ﻝﺪﻌﻣ ﻰﻠﻋ ﻞﺼﺣﺍ - \n['edict:creature_welfare']- $GET_UNIQUE_EDICT$، \n['concept_wildlife_sanctuary'] ﺢﺒﺼﻳ ['concept_wildlife_ranch']- \n['concept_animal_handler',$job_animal_handler_plural_with_icon$] ﺢﺒﺼﻳ ['concept_wrangler',$job_wrangler_plural_with_icon$]- "
+ concept_trophy_hunter_stance: "ﺱﺄﻜﻟﺍ ﺩﺎﻴﺻ"
+ concept_trophy_hunter_stance_desc: "['modifier:primal_calling_hunt_modifier'] ﻝﺪﻌﻣ ﻰﻠﻋ ﻞﺼﺣﺍ - \n['edict:crack_the_whip']- $GET_UNIQUE_EDICT$، \n['concept_hunting_grounds'] ﺢﺒﺼﻳ ['concept_wildlife_ranch']- \n['concept_trophy_hunter',$job_trophy_hunter_plural_with_icon$] ﺢﺒﺼﻳ ['concept_wrangler',$job_wrangler_plural_with_icon$]- "
+ concept_wild_consciousness_stance: "ﻱﺮﺒﻟﺍ ﻲﻋﻮﻟﺍ"
+ concept_wild_consciousness_stance_desc: "['modifier:primal_calling_assimilate_modifier'] ﻝﺪﻌﻣ ﻰﻠﻋ ﻞﺼﺣﺍ - \n['edict:exotic_network']- $GET_UNIQUE_EDICT$، \nﻮﻫ ﺎﻤﻛ ['concept_drone_wrangler',$job_drone_wrangler_plural_with_icon$] ﻞﻈﻳ -"
+ concept_symbiotic_partnership_stance: "ﺔﻴﻠﻓﺎﻜﺘﻟﺍ ﺔﻛﺍﺮﺸﻟﺍ"
+ concept_symbiotic_partnership_stance_desc: "['modifier:primal_calling_symbiosis_modifier'] ﻝﺪﻌﻣ ﻰﻠﻋ ﻞﺼﺣﺍ - \n['edict:defensive_instincts']- $GET_UNIQUE_EDICT$، \n['concept_symbiosis_nexus'] ﺢﺒﺼﻳ ['concept_wildlife_ranch']- \n['concept_symbiosis_integrator',$job_symbiosis_integrator_plural_with_icon$] ﺢﺒﺼﻳ ['concept_drone_wrangler',$job_drone_wrangler_plural_with_icon$]- "
+ concept_hunter_killers_stance: "ﺔﻠﺘﻘﻟﺍ ﺮﺘﻨﻫ"
+ concept_hunter_killers_stance_desc: "['modifier:primal_calling_feed_modifier'] ﻝﺪﻌﻣ ﻰﻠﻋ ﻞﺼﺣﺍ - \n['edict:biological_overdrive']- $GET_UNIQUE_EDICT$، \n['concept_hunting_grounds'] ﺢﺒﺼﻳ ['concept_wildlife_ranch']- \n['concept_hunter_drone',$job_hunter_drone_plural_with_icon$] ﺢﺒﺼﻳ ['concept_drone_wrangler',$job_drone_wrangler_plural_with_icon$]- "
+
+ concept_wildlife_ranch: "$wildlife_ranch$"
+ concept_wildlife_ranch_desc: "§L$wildlife_ranch_desc$§!\n\n.ﻪﺘﻴﻗﺮﺗ ﻦﻜﻤﻳ\n\n§G+200§!: ['concept_wrangler',$job_wrangler_plural_with_icon$ Jobs]"
+ concept_hunting_grounds: "$hunting_grounds$"
+ concept_hunting_grounds_desc: ".ﻪﺘﻴﻗﺮﺗ ﻦﻜﻤﻳ\n\n§G+200§!: ['concept_trophy_hunter',$job_trophy_hunter_plural_with_icon$]"
+ concept_wildlife_sanctuary: "$wildlife_sanctuary$"
+ concept_wildlife_sanctuary_desc: ".ﻪﺘﻴﻗﺮﺗ ﻦﻜﻤﻳ\n\n§G+200§!: ['concept_animal_handler',$job_animal_handler_plural_with_icon$]"
+ concept_symbiosis_nexus: "$symbiosis_nexus$"
+ concept_symbiosis_nexus_desc: ".ﻪﺘﻴﻗﺮﺗ ﻦﻜﻤﻳ\n\n§G+200§!: ['concept_symbiosis_integrator',$job_symbiosis_integrator_plural_with_icon$]"
+
+# Treasure Hunters
+ concept_adventurous_spirit_trait: "$leader_trait_adventurous_spirit$"
+ concept_adventurous_spirit_trait_desc: "§L$leader_trait_adventurous_spirit_desc$§!\n\n$leader_trait_adventurous_spirit_3_tt$"
+
+# Galactic Curators
+ concept_megastructure_grand_archive: "$grand_archive$"
+ concept_megastructure_grand_archive_desc: "§L.ﺎﻬﺘﺒﻗﺍﺮﻣﻭ ﺔﻴﺤﻟﺍ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺀﺍﻮﺘﺣﻻ ﺺﺼﺨﻣ ﺽﻮﺣ ﺎﻀﻳﺃ ﻞﺧﺍﺪﻟﺎﺑ ﺪﺟﻮﻳ .ﺎﻬﺿﺮﻌﻳﻭ ﺓﺮﺠﻤﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺎﻫﺎﻨﻌﻤﺟ ﻲﺘﻟﺍ ﺔﻤﻴﻗ ﺮﺜﻛﻷﺍ ﺔﻳﺮﺛﻷﺍ ﻊﻄﻘﻟﺍ ﻰﻠﻋ ﺮﻴﺒﻜﻟﺍ ﻒﻴﺷﺭﻷﺍ ﻆﻓﺎﺤﻳ §!\n\n§G+$@grand_archive_vivarium_capacity$§! :Vivarium ﺔﻌﺳ -\n.['concept_specimen',Specimens] ﺽﺮﻌﺑ ﺢﻤﺴﻳ -"
+
+# Beastmasters
+
+ # Singular: ['concept_beastport'] or §H$concept_beastport$§!
+ # Plural: -
+ concept_beastport: "$sm_beastport$"
+ concept_beastport_desc: ".['concept_dna'] £genetic_material£ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﻧﺍﻮﻴﺤﻟﺍ ﺥﺎﺴﻨﺘﺳﺍ ﻊﻣ ﺔﻴﻧﺪﻣ ﻦﻔﺳ ﺀﺎﻨﺑ ﻪﻨﻜﻤﻳ -\n Starbase Building['concept_hatchery'] ﻝﺪﺒﺘﺴﻳ -"
+
+ concept_xeno_geology_holomuseum: "$xeno_geology_holomuseum$"
+ concept_xeno_geology_holomuseum_desc: "$xeno_geology_holomuseum_desc$"
+ concept_aesthetic_wonders_holomuseum: "$aesthetic_wonders_holomuseum$"
+ concept_aesthetic_wonders_holomuseum_desc: "$aesthetic_wonders_holomuseum_desc$"
+ concept_galactic_history_holomuseum: "$galactic_history_holomuseum$"
+ concept_galactic_history_holomuseum_desc: "$galactic_history_holomuseum_desc$"
+
+# Evolutionary Predators
+ concept_genetic_ascension: "ﻲﻨﻴﺠﻟﺍ ﺩﻮﻌﺼﻟﺍ"
+ concept_genetic_ascension_desc: ".ﺔﻠﻣﺎﻜﻟﺍ ﺔﻴﻨﻴﺠﻟﺍ ﺎﻨﺗﺎﻧﺎﻜﻣﻹ ﻥﺎﻨﻌﻟﺍ ﻕﻼﻃﺇﻭ ﺎﻨﺴﻔﻧﺃ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﺎﻨﻴﻠﻋ ﺐﺠﻳ .ﺔﻠﻳﻮﻃ ﺓﺮﺘﻔﻟ ﺭﻮﻄﺘﻟﺍ ﺏﻮﻴﻋ ﺎﻨﺑ ﺖﻴﻠﺘﺑﺍ ﺪﻘﻟ"
+
+ concept_mutation_ascension: "ﺓﺮﻔﻄﻟﺍ ﺩﻮﻌﺻ"
+ concept_mutation_ascension_desc: ".ﺔﻠﻣﺎﻜﻟﺍ ﺔﻴﻨﻴﺠﻟﺍ ﺎﻨﺗﺎﻧﺎﻜﻣﻹ ﻥﺎﻨﻌﻟﺍ ﻕﻼﻃﺇﻭ ﺎﻨﺴﻔﻧﺃ ﻞﻴﻜﺸﺗ ﺓﺩﺎﻋﺇ ﺎﻨﻴﻠﻋ ﺐﺠﻳ .ﺔﻠﻳﻮﻃ ﺓﺮﺘﻔﻟ ﺭﻮﻄﺘﻟﺍ ﺏﻮﻴﻋ ﺎﻨﺑ ﺖﻴﻠﺘﺑﺍ ﺪﻘﻟ"
+
+# Wilderness (overlapping with Environmentalist)
+ concept_natural_blocker: "ﻲﻌﻴﺒﻃ ﻊﻧﺎﻣ"
+ concept_natural_blocker_desc: "- $d_massive_glacier$\n- $d_noxious_swamp$\n- $d_oxy_kelp$\n- $d_dense_jungle$\n- $d_dangerous_wildlife_blocker$\n- $d_mountain_range$\n- $d_active_volcano$\n- $d_quicksand_basin$\n- $d_deep_sinkhole$\n :ﻦﻣ ﻥﻮﻜﺘﺗ ﺔﻴﺒﻛﻮﻜﻟﺍ ﺕﺍﺰﻴﻤﻟﺍ ﻦﻣ ﻉﻮﻧ ﻲﻫ ['concept_blockers'] £blocker£"
+ concept_natural_blockers: "ﺔﻴﻌﻴﺒﻃ ﺕﺍﺮﺻﺎﺣ"
+ concept_natural_blockers_desc: "$concept_natural_blocker_desc$"
+ concept_purity_ascension: "ﺓﺭﺎﻬﻄﻟﺍ ﺩﻮﻌﺻ"
+ concept_purity_ascension_desc: "$bio.20.a$"
+
+# Unplugged
+ concept_cybernetic_traits: "ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ"
+ concept_cybernetic_traits_desc: ".ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﻤﺴﻟﺍ ﻊﻣ ﺐﻨﺟ ﻰﻟﺇ ﺎﺒﻨﺟ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ ﺔﺼﺼﺨﺘﻣ ﺪﺋﺍﻮﻓ ﺔﻴﻧﺍﺮﺒﻴﺴﻟﺍ ﺕﺎﻤﺴﻟﺍ ﺮﻓﻮﺗ"
+
+# Shroud-Forged
+ concept_shroud_rift_deposit: "$d_shroud_rift_deposit$"
+ concept_shroud_rift_deposit_desc: "§L$d_shroud_rift_deposit_desc$§!\n\n$i_zro$ 1 :ﺝﺎﺘﻧﻹﺍ -\n§R+5%§!$MOD_PLANET_CRIME_NO_HAPPINESS_MULT$: "
+
+# Experimental Testing
+ concept_experimental_testing: "$situation_experimental_testing$"
+ concept_experimental_testing_desc: "§L$situation_experimental_testing_desc_lore$§!\n\n.ﺀﺎﻬﺘﻧﻻﺍ ﺪﻨﻋ £engineering£ £society£ £physics£ ﺔﻴﻨﻘﺗ ﻦﻋ ﺔﻴﺋﺍﻮﺸﻋ ﺕﺎﻣﻮﻠﻌﻣ ﺢﻨﻤﻳ"
+ concept_experimental_testing_hive_mind: "$concept_experimental_testing$"
+ concept_experimental_testing_hive_mind_desc: "$concept_experimental_testing_desc$"
+ concept_experimental_testing_corporate: "$concept_experimental_testing$"
+ concept_experimental_testing_corporate_desc: "$concept_experimental_testing_desc$"

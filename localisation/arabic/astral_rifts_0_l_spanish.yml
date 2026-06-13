@@ -1,0 +1,591 @@
+﻿l_spanish:
+
+#################
+# Ruined Planet #
+#################
+ astral_rift_riftworld: "ﺮﻣﺪﻤﻟﺍ ﺐﻛﻮﻜﻟﺍ"
+
+ riftworld_leader_description: ".ﺯﺍﻮﻣ ﺪﻌﺑ ﻲﻓ ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻓﻼﺳﺃ ﻢﻟﺎﻋ ﻲﻓ ﻮﻀﻋ ﻮﻫ §Y[Root.GetName]§! ،ﻲﻠﺻﻷﺍ ﺎﻨﺒﻛﻮﻛ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺀﺍﺭﻭ ﺎﻣ ﻦﻣ ﻪﺗﺩﺎﻋﺇ ﻢﺗ"
+ spirit_of_ancestors_modifier: "ﺎﻧﺩﺍﺪﺟﺃ ﺡﻭﺭ"
+ spirit_of_ancestors_modifier_desc: ".ﺎﻨﺗﺍﺭﺪﻘﻟ ﻞﻣﺎﻜﻟﺍ ﻯﺪﻤﻠﻟ ﻖﻤﻋﺃ ﺎﻤﻬﻓ ﺎﻨﻟ ﺖﻛﺮﺗ ﺪﻗ ﺔﻳﻭﺎﻤﺴﻟﺍ ﺝﺭﺎﺧ ﺎﻧﺭﻭﺬﺠﻟ ﺎﻨﺘﻬﺟﺍﻮﻣ ﻥﺇ"
+
+ starlight_vanguard_default: "ﺩﺭﺎﺠﻧﺎﻓ ﺖﻳﻻﺭﺎﺘﺳ"
+ starlight_vanguard_homicidal: "ﻡﻮﺠﻨﻟﺍ ﺀﻮﺿ ﻭﺮﺼﺘﻨﻣ"
+
+ astral_rift.1.name: "ﺮﻣﺪﻤﻟﺍ ﺐﻛﻮﻜﻟﺍ"
+ astral_rift.1.desc.common.1: "،ﻕﺪﺼﻳ ﻻ ﻞﻜﺸﺑ .ﺏﺎﺼﻋﻸﻟ ﺓﺮﻴﺜﻣﻭ ﺔﻣﻮﻤﺤﻣ ﺎﻬﺿﺍﺮﺘﻋﺍ ﻢﺘﻳ ﻲﺘﻟﺍ ﻲﻋﺍﺫﻹﺍ ﺚﺒﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺢﺒﺼﺗ\n\n.ﺔﻛﺮﻌﻣ ﺔﺣﺎﺳ ﻦﻋ ﺓﺭﺎﺒﻋ ﻢﻟﺎﻌﻟﺍ ﺍﺬﻫ .ﻝﺎﻣﺮﻟﺍ ﻲﻓ ﺎﻬﻔﺼﻧ ﺔﻧﻮﻓﺪﻣ ﺔﻴﺑﺮﺤﻟﺍ ﻦﻔﺴﻟﺍ ﺖﻧﺎﻛ ،ﻙﺎﻨﻫﻭ ﺎﻨﻫ .ﺔﻗﺮﺘﺤﻤﻟﺍ ﺮﻔﺤﻟﺎﺑ ﯫﻴﻠﻣ ﺎﻴﻌﻴﺒﻃ ﺍﺮﻈﻨﻣ ﺎﻨﻔﺸﺘﻛﺍ ،ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﺎﻨﻟﻮﺧﺩ ﺪﻨﻋ\n\n.ﺮﻣﺪﻣ ﺐﻛﻮﻛ ﺭﺍﺪﻣ ﻰﻟﺇ [explorer.capital_scope.GetName] ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻉﺪﺼﻟﺍ ﻰﻟﺇ ﺎﻨﺘﻠﺣﺭ ﺎﻨﺘﻠﺻﻭﺃ ﺪﻘﻟ"
+ astral_rift.1.desc.no_arcsite: ".ﺎﻨﺘﻐﻟ ﻦﻣ ﺔﻤﻳﺪﻗ ﺔﺨﺴﻨﺑ ﻥﻮﻠﺻﺍﻮﺘﻳ ﻥﺎﻜﺴﻟﺍ ﻥﺃ ﻭﺪﺒﻳ"
+ astral_rift.1.desc.with_arcsite: ".[explorer.capital_scope.GetName] ﻞﻔﺳﺃ ﺔﻤﻳﺪﻘﻟﺍ ﺓﺮﻜﻟﺍ ﻦﻣ ﺎﻫﺎﻨﺟﺮﺨﺘﺳﺍ ﻲﺘﻟﺍ ﻖﺋﺎﺛﻮﻟﺍ ﻊﻣ ﺎﻣﺎﻤﺗ ﻥﺎﻜﺴﻟﺍ ﺔﻐﻟ ﺖﻘﺑﺎﻄﺗ"
+ astral_rift.1.desc.common.2: ".ﺮﻴﺧﻷﺍ ﺍﺬﻫ ﻥﻮﻜﻳ ﺪﻘﻓ ،ﺐﻛﻮﻜﻟﺎﺑ ﻖﺤﻟ ﻱﺬﻟﺍ ﺭﺎﻣﺪﻠﻟ ﺍﺮﻈﻧﻭ .ﻡﻮﺠﻬﻟﺍ ﻦﻣ ﻯﺮﺧﺃ ﺔﺟﻮﻤﻟ ﻥﻭﺪﻌﺘﺴﻳ ،"ﺓﺍﺰﻐﻟﺍ" ﻢﺳﺎﺑ ﺔﻃﺎﺴﺒﺑ ﻢﻬﻴﻟﺇ ﺭﺎﺸﻳ ﻦﻳﺬﻟﺍ ،ﻢﻫﺅﺍﺪﻋﺃ .ﻢﺋﺍﺩ ﻉﺍﺮﺻ ﻦﻣ ﺮﺳﺎﺨﻟﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﻢﻫ ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ ﻥﺃ ﻰﻟﺇ ﺔﻴﺒﻳﺮﻘﺘﻟﺍ ﺕﺎﻤﺟﺮﺘﻟﺍ ﺮﻴﺸﺗ"
+ astral_rift.1.desc.default: "$astral_rift.1.desc.common.2$\n\n$astral_rift.1.desc.common.1$ $astral_rift.1.desc.no_arcsite$"
+ astral_rift.1.desc.completed_arcsite: "$astral_rift.1.desc.common.2$\n\n$astral_rift.1.desc.common.1$ $astral_rift.1.desc.with_arcsite$"
+ astral_rift.1.a: ".ﻦﻴﻘﺒﺘﻤﻟﺍ ﻦﻴﺟﺎﻨﻟﺍ ﻦﻋ ﺚﺤﺒﻟﺍ"
+
+ astral_rift.3.name: "ﺔﺿﺭﺎﻌﻤﻟﺍ ﻞﺋﺎﺼﻔﻟﺍ"
+ astral_rift.3.desc.default: ".ﺮﻄﺧ ﻲﻓ ﻦﻴﻠﻴﺼﻔﻟﺍ ﻼﻛﻭ ،ﺀﺎﻴﺣﻷﺍ ﺎﻨﻓﻼﺳﺃ ﻢﻫ ﺀﻻﺆﻫ .ﺔﻓﺪﺻ ﺩﺮﺠﻣ ﻥﻮﻜﺗ ﻥﺃ ﻦﻜﻤﻳ ﻻ ﺎﻨﺗﺎﻐﻟ ﻲﻓ ﻪﺑﺎﺸﺘﻟﺍ ﻪﺟﻭﺃ ﻥﺃ ﻦﻣ ﻦﻴﻘﻳ ﻰﻠﻋ ﻦﺤﻧ ،ﺔﻠﺣﺮﻤﻟﺍ ﻩﺬﻫ ﻲﻓ\n\n.ﺪﻳﺪﻬﺘﻟﺍ .ﻚﻴﺷﻮﻟﺍ ﻦﻣ ﻲﺣﻭﺭ ﺫﻼﻤﺑ ﺪﻌﻳ ﻲﺗﻮﻨﻬﻛ ﻡﺎﻈﻧ ﻢﻫ §Yﺩﻮﺳﻷﺍ ﺭﺎﺘﺴﻟﺍ§!The \n\n.ﺪﺣﻮﻣ ﻢﻴﻤﺼﺘﺑ ﻡﺩﺎﻘﻟﺍ ﻉﺍﺮﺼﻠﻟ ﻥﻭﺪﻌﺘﺴﻳ ،ﻥﻮﻤﻬﺠﺘﻣ ﻥﻮﻳﺮﻜﺴﻋ ﻢﻫ §Y[GetStarlightVanguardName]§! ﻥﺇ\n\n .ﻦﻳﺰﻴﻤﺘﻣ ﻦﻴﻴﺟﻮﻟﻮﻳﺪﻳﺃ ﻦﻴﻠﻴﺼﻓ ﺎﻧﺩﺪﺣ ،ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﻝﺎﺳﺭﻹﺍ ﺕﺎﻴﻠﻤﻋ ﻰﻟﺇ ﺍﺩﺎﻨﺘﺳﺍ .ﺐﻛﻮﻜﻟﺍ ﺢﻄﺳ ﻰﻠﻋ ﺓﺮﻴﺒﻜﻟﺍ ﺔﻴﻧﺎﻜﺴﻟﺍ ﺰﻛﺍﺮﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻙﺎﻨﻫ"
+ astral_rift.3.desc.hive: "؟ﻚﻟﺫ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ ﻒﻴﻛ .ﺔﻳﺩﺮﻓ ﻻﻮﻘﻋ ﻥﻮﻜﻠﺘﻤﻳ ﻢﻬﻧﺈﻓ ﻚﻟﺫ ﻊﻣﻭ .ﺎﻨﺤﻣﻼﻣ ﻊﻣ ﺎﺒﻳﺮﻘﺗ ﺔﻘﺑﺎﻄﺘﻣ ﻢﻬﺤﻣﻼﻣ ﻥﺇ .ﺎﻨﺘﻐﻟ ﻥﻮﻣﺪﺨﺘﺴﻳ ﺹﺎﺨﺷﻷﺍ ﺀﻻﺆﻫ\n\n$astral_rift.3.desc.default$"
+ astral_rift.3.desc.machine: ".ﺀﺎﻨﻔﻟﺍ ﺮﻄﺨﻟ ﻥﻮﺿﺮﻌﻣ ﺎﻨﻓﻼﺳﺃ\n\n.ﺪﻳﺪﻬﺘﻟﺍ .ﻚﻴﺷﻮﻟﺍ ﻦﻣ ﻲﺣﻭﺭ ﺫﻼﻤﺑ ﺪﻌﻳ ﻲﺗﻮﻨﻬﻛ ﻡﺎﻈﻧ ﻢﻫ §Yﺩﻮﺳﻷﺍ ﺭﺎﺘﺴﻟﺍ§!The \n\n.ﺪﺣﻮﻣ ﻢﻴﻤﺼﺘﺑ ﻡﺩﺎﻘﻟﺍ ﻉﺍﺮﺼﻠﻟ ﻥﻭﺪﻌﺘﺴﻳ ،ﻥﻮﻤﻬﺠﺘﻣ ﻥﻮﻳﺮﻜﺴﻋ ﻢﻫ §Y[GetStarlightVanguardName]§! ﻥﺇ\n\n .ﻦﻳﺰﻴﻤﺘﻣ ﻦﻴﻴﺟﻮﻟﻮﻳﺪﻳﺃ ﻦﻴﻠﻴﺼﻓ ﺎﻧﺩﺪﺣ ،ﻢﻬﺑ ﺔﺻﺎﺨﻟﺍ ﻝﺎﺳﺭﻹﺍ ﺕﺎﻴﻠﻤﻋ ﻰﻟﺇ ﺍﺩﺎﻨﺘﺳﺍ .ﺐﻛﻮﻜﻟﺍ ﺢﻄﺳ ﻰﻠﻋ ﺓﺮﻴﺒﻜﻟﺍ ﺔﻴﻧﺎﻜﺴﻟﺍ ﺰﻛﺍﺮﻤﻟﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻙﺎﻨﻫ .ﻪﺑ ﺔﺻﺎﺨﻟﺍ ﺭﺍﺮﻘﻟﺍ ﺫﺎﺨﺗﺍ ﺕﺍﺭﺪﻗﻭ ﺔﺠﻟﺎﻌﻤﻟﺍ ﺓﻮﻗ ﻪﻳﺪﻟ ﺪﺣﺍﻭ ﻞﻛ ﻥﺈﻓ ،ﻲﻜﺒﺸﻟﺍ ﻲﻋﻮﻟﺍ ﻦﻋ ﺍﺪﻴﻌﺑﻭ !ﺔﻳﺩﺮﻓ ﺕﺍﺪﺣﻭ ﻩﺬﻫ"
+ astral_rift.3.a: ".§Y[GetStarlightVanguardName]§! ﺓﺭﺎﻳﺰﺑ ﻢﻗ"
+ astral_rift.3.b: ".§Yﺀﺍﺩﻮﺴﻟﺍ ﺓﺭﺎﺘﺴﻟﺍ§! ﺓﺭﺎﻳﺰﺑ ﻢﻗ"
+ astral_rift.3.b.trigger_tt: ".ﺀﺎﻔﻌﻀﻟﺍ ﻊﻣ ﺲﻠﺠﻤﻟﺍ ﺪﻘﻋ ﻲﻓ ﺔﺤﻠﺼﻣ ﺎﻨﻳﺪﻟ ﺲﻴﻟ"
+
+ astral_rift.5.name: "ﻥﻭﺩﻮﻘﻔﻤﻟﺍ ﺩﺍﺪﺟﻷﺍ"
+ astral_rift.5.militarist_1: "".§Y[GetStarlightVanguardName]§!" ﻢﺳﺍ ﻪﺴﻔﻧ ﻰﻠﻋ ﻖﻠﻄﻳ ﻱﺬﻟﺍ ﻱﺮﻜﺴﻌﻟﺍ ﻞﻴﺼﻔﻟﺍ ﻊﻣ ﺍﺭﺍﻮﺣ ﺎﻨﺤﺘﻓ ﺪﻘﻟ"
+ astral_rift.5.spiritualist_1: "".§YBlack Curtain§!" ﻢﺳﺍ ﻪﺴﻔﻧ ﻰﻠﻋ ﻖﻠﻄﻳ ﻱﺬﻟﺍ ﻲﻧﺎﺣﻭﺮﻟﺍ ﻞﻴﺼﻔﻟﺍ ﻊﻣ ﺍﺭﺍﻮﺣ ﺎﻨﺤﺘﻓ ﺪﻘﻟ"
+ astral_rift.5.common_1: ".ﻲﻤﺠﻧ ﻉﺪﺻ ﺮﻬﻇ ،ﺔﻤﻳﺰﻬﻟﺍ ﺔﻴﺸﻋ\n\n.ﻢﻬﺗﺎﻋﺎﻓﺩ ﺕﺭﺎﻬﻧﺍ ﺖﻗﻮﻟﺍ ﺭﻭﺮﻣ ﻊﻣ ﻦﻜﻟﻭ ،ﺕﺎﺒﺜﺑ ﺎﻨﺒﻌﺷ ﻒﻗﻭ ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ .ﺔﻴﺸﺣﻭ ﺓﺩﺎﺑﺇ ﺔﻠﻤﺣ ﻦﺸﻟ ﺓﺍﺰﻐﻟﺍ ﻞﺻﻭ .ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﺍﺪﻳﺪﻬﺗ ﻱﺮﺸﺒﻟﺍ ﺎﻨﺴﻨﺟ ﻪﺟﺍﻭ ،ﻞﻳﻮﻃ ﻦﻣﺯ ﺬﻨﻣ\n\n.ﺎﻨﺨﻳﺭﺎﺗ ﻦﻋ ﺮﻴﺜﻜﻟﺍ ﺍﻮﻔﺸﻛ ،ﻞﺻﺍﻮﺘﻠﻟ ﺲﺋﺎﻴﻟﺍ ﻢﻬﻴﻌﺳ ﻲﻓﻭ .ﻙﺮﺘﺸﻤﻟﺍ ﺎﻨﺛﺍﺮﺘﺑ ﺔﻋﺮﺴﺑ ﻢﻬﺘﻌﻨﻗﺃ §Y$tech_rift_sphere$§! ﺩﻮﺟﻭﻭ ﺎﻧﺮﻬﻈﻣﻭ ﺎﻨﺘﻐﻟ"
+ astral_rift.5.militarist_2: ".ﻢﻬﺗﺭﺎﻀﺣ ﻦﻣ ﻰﻘﺒﺗ ﺎﻣ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍﻭ ﻉﺪﺼﻟﺍ ﺮﺒﻋ ﺏﻭﺮﻬﻠﻟ ﺔﻟﻭﺎﺤﻣ ﻲﻓ "ﺓﺎﺠﻨﻟﺍ ﺏﺭﺎﻗ" ﺔﻴﻠﻤﻋ ﻕﻼﻃﺇ ﻢﺗ"
+ astral_rift.5.spiritualist_2: ".ﻢﻬﺗﺎﻴﺣ ﺏﻮﻠﺳﺃ ﻦﻣ ﻰﻘﺒﺗ ﺎﻣ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍﻭ ﺏﻭﺮﻬﻠﻟ ﺓﺮﻴﺧﺃ ﺔﺻﺮﻓ ﻪﻧﺃ ﻰﻠﻋ "ﺓﺰﺠﻌﻤﻟﺍ ﺏﺎﺒﻟﺍ" ﺍﺬﻫ ﻰﻟﺇ ﺮﻈﻨﻳ ﻥﺎﻛ"
+ astral_rift.5.no_arcsite: ".ﺪﺣﺍﻭ ﻩﺎﺠﺗﺍ ﻲﻓ ﺔﻠﺣﺮﺑ ﻂﻘﻓ ﺢﻤﺴﻳ ﻲﺋﺍﺪﺒﻟﺍ ﻪﻤﻴﻤﺼﺗ ﻦﻜﻟ ،§Y$tech_rift_sphere$§! ﺀﺎﺸﻧﺇ ﻢﺗ"
+ astral_rift.5.arcsite: ".[explorer.capital_scope.GetName]$astral_rift.5.no_arcsite$ ﻲﻓ ﺔﻤﻳﺪﻘﻟﺍ ﺓﺮﻔﺤﻟﺍ ﻕﺎﻤﻋﺃ ﻲﻓ ﺎﻧﻮﻓﺪﻣ ﻩﺎﻧﺪﺟﻭ ﻱﺬﻟﺍ ﻢﺴﺠﻟﺍ ﺲﻔﻧ ﻮﻫ ﺍﺬﻫ ﻥﺎﻛ "
+ astral_rift.5.default: ".ﺎﻧﺩﺍﺪﺟﺃ ﺍﻮﻧﺎﻛ ﺀﻻﺆﻫ .ﺔﻤﻬﻤﻠﻟ ﻦﻴﺌﺟﻼﻟﺍ ﻦﻣ ﺓﺭﺎﺘﺨﻣ ﺔﻋﻮﻤﺠﻣ ﺩﺍﺪﻋﺇ ﻢﺗ"
+ astral_rift.5.gestalt: ".ﺎﻨﻴﻋﻭ ﺔﻳﺍﺪﺑ ﻩﺬﻫ ﺖﻧﺎﻛﻭ .ﺎﻤﻟﺎﺳ ﻉﺪﺼﻟﺍ ﺮﺒﻋ ﺭﻭﺮﻤﻟﺍ ﻲﻓ ﻞﻣﺄﻳ ﻥﺃ ﻪﻨﻜﻤﻳ ﻱﺬﻟﺍ ﻮﻫ ﻂﻘﻓ ﺪﺣﻮﻤﻟﺍ ﻞﻘﻌﻟﺍ ﻥﺃ ﺎﻨﻓﻼﺳﺃ ﺪﻘﺘﻋﺍ .ﻱﺭﺬﺟ ﻞﻜﺸﺑ ﻦﻴﻘﻓﺍﻮﺘﻤﻟﺍ ﺩﺍﺮﻓﻷﺍ ﻦﻣ ﺓﺭﺎﺘﺨﻣ ﺔﻋﻮﻤﺠﻣ ﺮﻴﻴﻐﺗ ﻢﺗ ،ﺔﻠﺣﺮﻟﺍ ﻩﺬﻫ ﻲﻓ ﺩﻮﻤﺼﻟﺍ ﻞﺟﺃ ﻦﻣ"
+ astral_rift.5.machine: ".ﺎﻨﻴﻋﻭ ﻞﻜﺸﺗ ﺪﺣﻮﻣ ﻑﺪﻫﻭ ﺔﺤﺿﺍﻭ ﺔﻳﺅﺮﺑ .ﻢﻬﻔﻃﺍﻮﻋ ﺍﻭﺮﻬﻃﻭ ﻢﻬﻟﻮﻘﻋ ﺎﻨﻓﻼﺳﺃ ﻂﺑﺭ ،ﺔﻠﺣﺮﻟﺍ ﻩﺬﻫ ﻲﻓ ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﺀﺎﻘﺒﻟﺍ ﻞﺟﺃ ﻦﻣﻭ"
+ astral_rift.5.common_2: ".ﺭﻮﻫﺪﻟﺍ ﺕﺮﻣ ﺪﻘﻟ ،ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ .ﻡﻮﻴﻟﺍ ﻚﻟﺫ ﻥﻭﺮﻛﺬﺘﻳ ﺎﻨﻫ ﺱﺎﻨﻟﺍ ﺾﻌﺑ ﻙﺎﻨﻫ ﻝﺍﺰﻳ ﻻﻭ .ﺎﻣﺎﻋ ﻦﻴﺴﻤﺧ ﻦﻣ ﻞﻗﺃ ﺬﻨﻣ Sphere ﻕﻼﻃﺇ ﻢﺗ ،ﻉﺪﺼﻟﺍ ﻦﻣ ﺐﻧﺎﺠﻟﺍ ﺍﺬﻫ ﻰﻠﻋ"
+ astral_rift.5.desc.militarist.gestalt.no_arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.gestalt$\n\n$astral_rift.5.no_arcsite$\n\n$astral_rift.5.militarist_2$\n\n$astra_rift.5.militarist_1$ $astral_rift.5.common_1$"
+ astral_rift.5.desc.militarist.gestalt.arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.gestalt$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.militarist_2$\n\n$astra_rift.5.militarist_1$ $astral_rift.5.common_1$"
+ astral_rift.5.desc.militarist.default.no_arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.default$\n\n$astral_rift.5.no_arcsite$\n\n$astral_rift.5.militarist_2$\n\n$astra_rift.5.militarist_1$ $astral_rift.5.common_1$"
+ astral_rift.5.desc.militarist.default.arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.default$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.militarist_2$\n\n$astra_rift.5.militarist_1$ $astral_rift.5.common_1$"
+ astral_rift.5.desc.spiritualist.gestalt.no_arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.gestalt$\n\n$astral_r ift.5.no_arcsite$\n\n$astral_rift.5.spiritualist_2$\n\n$astra_rift.5.spiritualist_1$ $astral_rift.5.common_1$"
+ astral_rift.5.desc.spiritualist.gestalt.arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.gestalt$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.spiritualist_2$\n\n$astra_rift.5.spiritualist_1$ $astral_rift.5.common_1$"
+ astral_rift.5.desc.spiritualist.default.no_arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.default$\n\n$astral_r ift.5.no_arcsite$\n\n$astral_rift.5.spiritualist_2$\n\n$astra_rift.5.spiritualist_1$ $astral_rift.5.common_1$"
+ astral_rift.5.desc.spiritualist.default.arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.default$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.spiritualist_2$\n\n$astra_rift.5.spiritualist_1$ $astral_rift.5.common_1$"
+ astral_rift.5.desc.militarist.machine.arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.machine$\n\n$astral_rift.5.no_arcsite$\n\n$astral_rift.5.militarist_2$\n\n$astra_rift.5.militarist_1$ $astral_rift.5.common_1$"
+ astral_rift.5.desc.militarist.machine.no_arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.machine$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.militarist_2$\n\n$astra_rift.5.militarist_1$ $astral_rift.5.common_1$"
+ astral_rift.5.desc.spiritualist.machine.no_arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.machine$\n\n$astral_r ift.5.no_arcsite$\n\n$astral_rift.5.spiritualist_2$\n\n$astra_rift.5.spiritualist_1$ $astral_rift.5.common_1$"
+ astral_rift.5.desc.spiritualist.machine.arcsite: "$astral_rift.5.common_2$\n\n$astral_rift.5.machine$\n\n$astral_rift.5.arcsite$\n\n$astral_rift.5.spiritualist_2$\n\n$astra_rift.5.spiritualist_1$ $astral_rift.5.common_1$"
+
+ astral_rift.5.a: ".ﺎﻨﻫ ﺎﻣﺎﻤﺗ ﻒﻠﺘﺨﻣ ﺖﻗﻮﻟﺍ ﻖﻓﺪﺗ ﻥﺇ"
+ astral_rift.5.b: "؟ﺎﻨﺘﺳﺪﻨﻫ ﻢﺗ ﺪﻘﻟ"
+
+ astral_rift.10.name: "[GetStarlightVanguardName]"
+ astral_rift.10.militarist: ".ﺭﺪﻗ ﻮﻫ ﺎﻧﺩﻮﺟﻭ .ﺔﻓﺪﺼﻟﺍ ﻞﻴﺒﻗ ﻦﻣ ﺲﻴﻟ ﺍﺬﻫ ،ﺔﻌﻴﻠﻄﻠﻟ ﺔﺒﺴﻨﻟﺎﺑ .ﺔﺟﺮﺣ ﺔﻈﺤﻟ ﻰﻟﺇ ﺎﻨﻠﺻﻭ ﺪﻘﻟ .ﻞﻌﻔﻟﺎﺑ ﺏﺮﺘﻘﺗ ﻲﻫﻭ ﺔﻤﻈﻧﺃ ﺓﺪﻋ ﺪﻌﺑ ﻰﻠﻋ ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﻞﻴﻃﺎﺳﺃ ﻑﺎﺸﺘﻛﺍ ﻢﺗ .ﺓﺍﺰﻐﻟﺍ ﺪﺿ ﻢﻬﺑﺮﺣ ﻲﻓ ﺭﻮﻣﻷﺍ ﺔﺑﺂﻛ ﻯﺪﻣ ﺍﻮﺤﺿﻭﺃ ﺪﻘﻟ ."§Y[GetStarlightVanguardName]§!" ﻊﻣ ﺎﺴﻠﺠﻣ ﺎﻧﺪﻘﻋ"
+ astral_rift.10.spiritualist: ".ﺎﻨﻌﻣ ﺲﻠﺠﻤﻟﺍ ﺪﻘﻋ ﻰﻠﻋ "§Y[GetStarlightVanguardName]§!" ﻖﻓﺍﻭ"
+ astral_rift.10.desc.common: ".ﻼﻳﻮﻃ ﺎﻃﻮﺷ ﻊﻄﻘﺘﺳ ﺎﻨﻫ ﺕﺎﻨﻴﺴﺤﺗ ﻱﺃ ﻥﺈﻓ ﺍﺬﻟ ،ﺔﻗﺎﻄﻟﺍ ﺔﺤﻠﺳﺃ ﻥﻮﻠﻀﻔﻳ ﺓﺍﺰﻐﻟﺍ ﻥﺃ ﻢﻬﻔﻧ ﻦﺤﻧ .ﺎﻨﻠﻴﻃﺎﺳﺃ ﺪﻴﻔﺗ ﻥﺃ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺎﻨﻫ ﺕﺎﻓﺎﺸﺘﻛﻻﺍ ﺾﻌﺑ ﻖﻘﺤﻧ ﺪﻘﻓ ،ﺎﻬﺘﻌﻴﺒﻄﺑ ﺔﻴﺒﻳﺮﺠﺗ ﺎﻬﻧﻮﻛ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻢﻬﺘﻨﻴﻔﺳ ﻉﻭﺭﺩ ﺰﻳﺰﻌﺗ ﻲﻓ ﺔﻴﻤﺠﻨﻟﺍ ﻁﻮﻴﺨﻟﺎﺑ ﺎﻣﺪﻘﺗ ﺮﺜﻛﻷﺍ ﺎﻨﺘﻓﺮﻌﻣ ﻖﻴﺒﻄﺗ ﻮﻫ ﺎﻨﺘﻗﻮﻟ ﺔﻤﻜﺣ ﺮﺜﻛﻷﺍ ﻡﺍﺪﺨﺘﺳﻻﺍ ﻥﻮﻜﻳ ﺪﻗ\n\n .ﻖﻳﺮﻄﻟﺍ ﻝﻮﻃ ﻰﻠﻋ ﻢﻬﺗﺎﻤﻴﻤﺼﺗ ﻦﻋ ﯫﻴﺷ ﻢﻠﻌﺘﻧ ﺪﻘﻓ ،ﻢﻬﻨﻔﺴﻟ ﻡﺪﻘﺘﻤﻟﺍ ﺀﺎﻨﺒﻠﻟ ﺍﺮﻈﻧﻭ .ﻪﺗﺎﻨﻴﺴﺤﺗﻭ ﻝﻮﻄﺳﻷﺍ ﺕﺎﺣﻼﺻﺇ ﻲﻓ ﺎﻬﻴﻟﺇ ﺔﺟﺎﺤﻟﺍ ﺪﺘﺸﺗ ﻲﺘﻟﺍ ﻚﺋﺎﺒﺴﻟﺍ ﻦﻣ ﺔﻨﺤﺷ ﺪﻋﺎﺴﺘﺳ .ﺔﻳﺎﻐﻠﻟ ﺮﻘﺘﺴﻣ ﺮﻴﻏ ﻉﺪﺼﻟﺍ ﺢﺒﺼﻳ ﻥﺃ ﻞﺒﻗ ﺖﻴﺒﺜﺘﻟﺍ ﻞﺑﺎﻛ ﺮﺒﻋ ﺕﺍﺩﺍﺪﻣﻹﺍ ﻦﻣ ﺓﺩﻭﺪﺤﻣ ﺔﻴﻤﻛ ﻝﺎﺳﺭﺇ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳ\n\n.ﻯﺮﺧﺃ ﺓﺭﺎﺴﺧ ﻞﻤﺤﺗ ﺎﻬﻨﻜﻤﻳ ﻻﻭ ﺔﺌﻴﺳ ﺔﻟﺎﺣ ﻲﻓ ﺔﻴﻘﺒﺘﻤﻟﺍ ﻢﻬﻠﻴﻃﺎﺳﺃ ".ﺪﺑﻷﺍ ﻰﻟﺇﻭ ﺓﺪﺣﺍﻭ ﺓﺮﻣ ﺏﺮﺤﻟﺍ ﻩﺬﻫ ﺀﺎﻬﻧﻹ ﺔﺻﺮﻓ ﺎﻨﻳﺪﻟ ﻝﺍﺰﺗ ﻻﻭ ،ﺎﻬﺟﺎﺘﺤﻧ ﻲﺘﻟﺍ ﺔﻳﺭﻭﺮﻀﻟﺍ ﺕﺍﺪﻋﺎﺴﻤﻟﺍ ﺎﻧﻮﺤﻨﻣﺍ .ﺎﻨﺒﻌﺷ ﻢﻜﻟﻮﺻﻭ ﻢﻬﻟﺃ ﺪﻘﻟ""
+ astral_rift.10.desc.militarist: "$astral_rift.10.desc.common$\n\n$astral_rift.10.militarist$"
+ astral_rift.10.desc.spiritualist: "$astral_rift.10.desc.common$\n\n$astral_rift.10.spiritualist$"
+ astral_rift.10.a: ".ﻚﺋﺎﺒﺴﻟﺍ ﻢﻳﺪﻘﺗ"
+ astral_rift.10.b: ".ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍ ﻢﻳﺪﻘﺗ"
+ astral_rift.10.c: ".ﺔﺌﻴﺒﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﺓﺎﻋﺩ ﺭﻭﺰﻧ ﺎﻧﻮﻋﺩ .ﺎﻬﻨﻣ ﺱﻭﺆﻴﻣ ﺏﺮﺤﻟﺍ ﻩﺬﻫ"
+ astral_rift.10.d: ".ﺪﻳﺪﺠﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻰﻟﺇ ﺩﻮﻌﻧ ﺎﻧﻮﻋﺩ .ﺓﺮﺳﺎﺧ ﺔﻴﻀﻗ ﻩﺬﻫ"
+
+ astral_rift.15.name: "ﺩﻮﺳﻷﺍ ﺭﺎﺘﺴﻟﺍ"
+ astral_rift.15.militarist: ".ﺎﻨﻌﻣ ﺓﺭﺎﺸﺘﺳﺍ ﺪﻘﻋ ﻰﻠﻋ "§YBlack Curtain§!" ﻖﻓﺍﻭ"
+ astral_rift.15.spiritualist: ".ﺔﻴﻬﻟﻹﺍ ﺔﻳﺎﻨﻌﻟﺍ ﻝﺎﻤﻋﺃ ﻦﻣ ﻞﻤﻋ ﻮﻫ ﺔﺟﺮﺤﻟﺍ ﺔﻈﺤﻠﻟﺍ ﻩﺬﻫ ﻰﻟﺇ ﺎﻨﻟﻮﺻﻭ ﻥﺈﻓ ،ﺭﺎﺘﺴﻟﺍ ﻰﻟﺇ ﺔﺒﺴﻨﻟﺎﺑ .ﻞﻌﻔﻟﺎﺑ ﺎﻬﻘﻳﺮﻃ ﻲﻓ ﻲﻫﻭ ﺔﻴﻓﺎﺿﻹﺍ ﻞﻴﻃﺎﺳﻷﺍ ﻑﺎﺸﺘﻛﺍ ﻢﺗ .ﺓﺍﺰﻐﻠﻟ ﺔﺒﻋﺮﻤﻟﺍ ﺔﻌﻴﺒﻄﻟﺍ ﺎﻨﻴﻠﻋ ﺍﻭﺮﺛﺃ ﺪﻘﻟ ."§YBlack Curtain§!" ﻊﻣ ﺎﺻﺎﺧ ﺎﺴﻠﺠﻣ ﺎﻧﺪﻘﻋ"
+ astral_rift.15.desc.common: ".ﺮﻳﺪﻘﺗ ﻞﻗﺃ ﻰﻠﻋ ﻢﻬﺗﺎﻳﻮﻨﻌﻣ ﻊﻓﺮﺗ ﺪﻗ ﺔﺻﺮﻓ ﺎﻬﻨﻜﻟ ،ﺓﺮﻴﻐﺻ ﺔﺻﺮﻓ ﺎﻬﻧﺇ .ﺔﻴﺋﺎﻀﻔﻟﺍ ﻢﻬﺗﺎﺒﻛﺮﻣ ﺩﻮﻗﻭ ﻲﻓ §HAstral Threads§! ﺱﺮﻏ ﻖﻳﺮﻃ ﻦﻋ ﻉﺪﺼﻟﺍ ﺮﺒﻋ ﻥﺎﻣﻷﺍ ﺮﺑ ﻰﻟﺇ ﻢﻫﺩﺍﺮﻓﺃ ﺾﻌﺑ ﻞﻘﻧ ﻦﻣ ﻦﻜﻤﺘﻧ ﻥﻷ ﺔﺻﺮﻓ ﻙﺎﻨﻫ ﻥﺇ ﻞﺑ \n\n .ﺓﺪﻴﻔﻣ ﻥﻮﻜﺘﺳ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻴﻋﺍﺭﺰﻟﺍ ﺎﻨﺗﺎﻴﻨﻘﺗ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣﻭ ،ﺖﻴﺒﺜﺘﻟﺍ ﻞﺑﺎﻛ ﺮﺒﻋ ﺓﺩﻭﺪﺤﻣ ﺕﺍﺩﺍﺪﻣﺇ ﻝﺎﺳﺭﺇ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳ :ﺎﻨﺗﺎﻴﻧﺎﻜﻣﺇ ﺩﻭﺪﺣ ﻲﻓ ﻮﻫ ﺱﺎﻨﻟﺍ ﻡﺎﻌﻃﺇ ﻥﺇ .ﺎﺤﺿﺍﻭ ﻢﻫﺮﻴﺼﻣ ﻦﻜﻳ ﻢﻟ ﻮﻟ ﻰﺘﺣ ،ﺔﺤﺿﺍﻭ ﻢﻬﺘﻨﺤﻣ ﻥﺇ\n\n".ﺓﺮﻴﺧﻷﺍ ﺎﻨﺗﺎﻈﺤﻟ ﻲﻓ ﻢﻜﺗﺎﻗﺪﺻ ﺎﻨﻟ ﺍﻮﻣﺪﻗ ...ﺏﺎﺒﻟﺍ ﺀﺍﺭﻭ ﻦﻣ ﻝﺎﻔﻃﺃ .ﺓﺮﻴﺒﻛ ﺎﻨﺗﺎﻧﺎﻌﻣﻭ ،ﺎﻋﻮﺟ ﺭﻮﻀﺘﻳ ﺎﻨﺒﻌﺷ .ﺎﻬﻨﻣ ﺱﻭﺆﻴﻣ ﺏﺮﺤﻟﺍ ﻩﺬﻫ ﻥﺃ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺎﻨﻠﺒﻗ ﺪﻘﻟ .ﺓﺰﺠﻌﻣ ﻦﻣ ﻞﻗﺃ ﺲﻴﻟ ﻚﻟﻮﺻﻭ ﻥﺇ""
+ astral_rift.15.desc.lithoid: ".ﺮﻳﺪﻘﺗ ﻞﻗﺃ ﻰﻠﻋ ﻢﻬﺗﺎﻳﻮﻨﻌﻣ ﻊﻓﺮﺗ ﺪﻗ ﺔﺻﺮﻓ ﺎﻬﻨﻜﻟ ،ﺓﺮﻴﻐﺻ ﺔﺻﺮﻓ ﺎﻬﻧﺇ .ﺔﻴﺋﺎﻀﻔﻟﺍ ﻢﻬﺗﺎﺒﻛﺮﻣ ﺩﻮﻗﻭ ﻲﻓ §HAstral Threads§! ﺱﺮﻏ ﻖﻳﺮﻃ ﻦﻋ ﻉﺪﺼﻟﺍ ﺮﺒﻋ ﻥﺎﻣﻷﺍ ﺮﺑ ﻰﻟﺇ ﻢﻫﺩﺍﺮﻓﺃ ﺾﻌﺑ ﻞﻘﻧ ﻦﻣ ﻦﻜﻤﺘﻧ ﻥﺃ ﺔﺻﺮﻓ ﺎﻀﻳﺃ ﻙﺎﻨﻫ\n\n.ﺍﺪﻴﻔﻣ ﻥﻮﻜﻴﺳ ﻥﺩﺎﻌﻤﻠﻟ ﻡﺪﻘﺘﻤﻟﺍ ﺎﻨﺟﺍﺮﺨﺘﺳﺍ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣﻭ ،ﺓﺎﺳﺮﻤﻟﺍ ﻞﺑﺎﻛ ﺮﺒﻋ ﺓﺩﻭﺪﺤﻣ ﺕﺍﺩﺍﺪﻣﺇ ﻝﺎﺳﺭﺇ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳ :ﺎﻨﺗﺎﻴﻧﺎﻜﻣﺇ ﺩﻭﺪﺣ ﻲﻓ ﻮﻫ ﺱﺎﻨﻟﺍ ﻡﺎﻌﻃﺇ ﻥﺇ .ﺎﺤﺿﺍﻭ ﻢﻫﺮﻴﺼﻣ ﻦﻜﻳ ﻢﻟ ﻮﻟ ﻰﺘﺣ ،ﺔﺤﺿﺍﻭ ﻢﻬﺘﻨﺤﻣ ﻥﺇ\n\n".ﺓﺮﻴﺧﻷﺍ ﺎﻨﺗﺎﻈﺤﻟ ﻲﻓ ﻢﻜﺗﺎﻗﺪﺻ ﺎﻨﻟ ﺍﻮﻣﺪﻗ ...ﺏﺎﺒﻟﺍ ﺀﺍﺭﻭ ﻦﻣ ﻝﺎﻔﻃﺃ .ﺓﺮﻴﺒﻛ ﺎﻨﺗﺎﻧﺎﻌﻣﻭ ،ﺎﻋﻮﺟ ﺭﻮﻀﺘﻳ ﺎﻨﺒﻌﺷ .ﺎﻬﻨﻣ ﺱﻭﺆﻴﻣ ﺏﺮﺤﻟﺍ ﻩﺬﻫ ﻥﺃ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺎﻨﻠﺒﻗ ﺪﻘﻟ .ﺓﺰﺠﻌﻣ ﻦﻣ ﻞﻗﺃ ﺲﻴﻟ ﻚﻟﻮﺻﻭ ﻥﺇ""
+ astral_rift.15.desc.synthetic: ".ﺮﻳﺪﻘﺗ ﻞﻗﺃ ﻰﻠﻋ ﻢﻬﺗﺎﻳﻮﻨﻌﻣ ﻊﻓﺮﺗ ﺪﻗ ﺔﺻﺮﻓ ﺎﻬﻨﻜﻟ ،ﺓﺮﻴﻐﺻ ﺔﺻﺮﻓ ﺎﻬﻧﺇ .ﺔﻴﺋﺎﻀﻔﻟﺍ ﻢﻬﺗﺎﺒﻛﺮﻣ ﺩﻮﻗﻭ ﻲﻓ §HAstral Threads§! ﺱﺮﻏ ﻖﻳﺮﻃ ﻦﻋ ﻉﺪﺼﻟﺍ ﺮﺒﻋ ﻥﺎﻣﻷﺍ ﺮﺑ ﻰﻟﺇ ﻢﻫﺩﺍﺮﻓﺃ ﺾﻌﺑ ﻞﻘﻧ ﻦﻣ ﻦﻜﻤﺘﻧ ﻥﻷ ﺔﺻﺮﻓ ﻙﺎﻨﻫ ﻥﺇ ﻞﺑ \n\n .ﺓﺪﻴﻔﻣ ﻥﻮﻜﺘﺳ ﺎﻨﻳﺪﻟ ﺔﻣﺪﻘﺘﻤﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺕﺍﺪﻟﻮﻣ ﻥﺃ ﺪﻛﺆﻤﻟﺍ ﻦﻣﻭ ،ﺖﻴﺒﺜﺘﻟﺍ ﻞﺑﺎﻛ ﺮﺒﻋ ﺓﺩﻭﺪﺤﻣ ﺕﺍﺩﺍﺪﻣﺇ ﻝﺎﺳﺭﺇ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳ :ﺎﻨﺗﺎﻴﻧﺎﻜﻣﺇ ﺩﻭﺪﺣ ﻲﻓ ﻮﻫ ﺔﻗﺎﻄﻟﺎﺑ ﺱﺎﻨﻟﺍ ﺪﻳﻭﺰﺗ ﻥﺇ .ﺎﺤﺿﺍﻭ ﻢﻫﺮﻴﺼﻣ ﻦﻜﻳ ﻢﻟ ﻮﻟ ﻰﺘﺣ ،ﺔﺤﺿﺍﻭ ﻢﻬﺘﻨﺤﻣ ﻥﺇ\n\n".ﺓﺮﻴﺧﻷﺍ ﺎﻨﺗﺎﻈﺤﻟ ﻲﻓ ﻢﻜﺗﺎﻗﺪﺻ ﺎﻨﻟ ﺍﻮﻣﺪﻗ ...ﺏﺎﺒﻟﺍ ﺀﺍﺭﻭ ﻦﻣ ﻝﺎﻔﻃﺃ .ﺓﺮﻴﺒﻛ ﺎﻨﺗﺎﻧﺎﻌﻣﻭ ،ﺎﻨﺒﻌﺷ ﻯﻮﻗ ﺕﺪﻔﻨﺘﺳﺍ ﺪﻘﻟ .ﺎﻬﻨﻣ ﺱﻭﺆﻴﻣ ﺏﺮﺤﻟﺍ ﻩﺬﻫ ﻥﺃ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺎﻨﻠﺒﻗ ﺪﻘﻟ .ﺓﺰﺠﻌﻣ ﻦﻣ ﻞﻗﺃ ﺲﻴﻟ ﻚﻟﻮﺻﻭ ﻥﺇ""
+ astral_rift.15.desc.militarist: "$astral_rift.15.desc.common$\n\n$astral_rift.15.militarist$"
+ astral_rift.15.desc.militarist.lithoid: "$astral_rift.15.desc.common.lithoid$\n\n$astral_rift.15.militarist$"
+ astral_rift.15.desc.militarist.synthetic: "$astral_rift.15.desc.common.synthetic$\n\n$astral_rift.15.militarist$"
+ astral_rift.15.desc.spiritualist: "$astral_rift.15.desc.common$\n\n$astral_rift.15.spiritualist$"
+ astral_rift.15.desc.spiritualist.lithoid: "$astral_rift.15.desc.common.lithoid$\n\n$astral_rift.15.spiritualist$"
+ astral_rift.15.desc.spiritualist.synthetic: "$astral_rift.15.desc.common.synthetic$\n\n$astral_rift.15.spiritualist$"
+ astral_rift.15.a: ".ﻡﺎﻌﻄﻟﺍ ﻢﻳﺪﻘﺗ"
+ astral_rift.15.a.lithoid: ".ﻥﺩﺎﻌﻤﻟﺍ ﻢﻳﺪﻘﺗ"
+ astral_rift.15.a.synthetic: ".ﺔﻗﺎﻄﻟﺍ ﻢﻳﺪﻘﺗ"
+ astral_rift.15.b: ".ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍ ﻢﻳﺪﻘﺗ"
+ astral_rift.15.c: ".ﻦﻴﺤﻠﺴﻤﻟﺍ ﺭﻭﺰﻧ ﺎﻧﻮﻋﺩ .ﺎﻬﻨﻣ ﺱﻭﺆﻴﻣ ﺩﻮﻬﺠﻟﺍ ﻩﺬﻫ"
+ astral_rift.15.d: ".ﺪﻳﺪﺠﻟﺍ ﻢﻟﺎﻌﻟﺍ ﻰﻟﺇ ﺩﻮﻌﻧ ﺎﻧﻮﻋﺩ .ﺓﺮﺳﺎﺧ ﺔﻴﻀﻗ ﻩﺬﻫ"
+
+ astral_rift.16.name: "ﺎﻧﺩﺍﺪﺟﺃ ﻦﻋ ﻲﻠﺨﺘﻟﺍ"
+ astral_rift.16.desc.default: ".ﺎﻬﺑ ﻥﻭﺮﺨﻔﻳ ﺓﺭﺎﻀﺣ ﺢﺒﺼﻨﻟﻭ ﻢﻬﺛﺍﺮﺗ ﺔﻠﺻﺍﻮﻤﻟ ﺎﻧﺪﻬﺟ ﻯﺭﺎﺼﻗ ﻝﺬﺒﻨﺳ\n\n.ﺎﻧﺪﻌﺑ ﻰﻟﺇ ﻉﺪﺼﻟﺍ ﺮﺒﻋ ﻢﻬﻨﻣ ﺀﺰﺟ ﻝﺎﺳﺭﺈﺑ ﺢﻴﺤﺼﻟﺍ ﺭﺍﺮﻘﻟﺍ ﺍﻭﺬﺨﺗﺍ ﺪﻘﻟ .ﻢﻬﺗﺪﻋﺎﺴﻤﻟ ﻪﺑ ﻡﺎﻴﻘﻟﺍ ﺎﻨﻨﻜﻤﻳ ﺎﻤﻣ ﺮﻴﺜﻜﻟﺍ ﻙﺎﻨﻫ ﺲﻴﻟ\n\n.ﺓﺮﺳﺎﺧ ﺔﻴﻀﻗ ،ﻒﺳﻸﻟ ،ﻲﻫ ﺎﻨﻓﻼﺳﺃ ﺔﻨﺤﻣ ﻥﺃ ﺎﻧﺭﺮﻗ ﺪﻘﻟ"
+ astral_rift.16.desc.homicidal: ".ﻢﻫﺮﻴﺼﻣ ﻮﻫ ﻥﻵﺍ ﻢﻫﺮﻴﺼﻣ\n\n.ﻢﻬﻨﻣ ﻻﺪﺑ ﺶﻴﻌﻧ ﻑﻮﺳ .ﺎﻧﺪﻌﺑ ﻰﻟﺇ ﻉﺪﺼﻟﺍ ﺮﺒﻋ ﻢﻬﻳﺪﻟ ﺎﻣ ﻯﻮﻗﺃ ﻝﺎﺳﺭﺈﺑ ﺢﻴﺤﺼﻟﺍ ﺭﺍﺮﻘﻟﺍ ﺍﻭﺬﺨﺗﺍ ﺪﻘﻟ\n\n.ﺎﻨﻤﻋﺩ ﻥﻮﻘﺤﺘﺴﻳ ﻻ ﻢﻬﻧﺄﺑ ﺎﻨﻓﻼﺳﺃ ﻰﻠﻋ ﺎﻨﻤﻜﺣ ﺪﻘﻟ"
+
+ astral_rift.20.name: "ﻲﻤﻟﺎﻌﻟﺍ ﺲﻠﺠﻤﻟﺍ"
+ astral_rift.20.common_1: ".ﻚﻴﺷﻭ ﺎﻧﺩﺍﺪﺟﺃ ﺐﻛﻮﻛ ﻰﻠﻋ ﻭﺰﻐﻟﺍ"
+ astral_rift.20.militarist: ".ﺎﻨﻣﺮﻛ ﻰﻠﻋ ﺎﻨﻴﻠﻋ ﺍﻮﻨﺛﺃﻭ ،ﻥﻵﺍ ﻰﺘﺣ ﺎﻫﺎﻨﻣﺪﻗ ﻲﺘﻟﺍ ﺕﺍﺪﻋﺎﺴﻤﻟﺎﺑ ﺹﺎﺧ ﻞﻜﺸﺑ ﺎﻤﻠﻋ ﺍﻮﻃﺎﺣﺃ ﺪﻗﻭ .ﺉﺭﺎﻃ ﻉﺎﻤﺘﺟﺍ ﺪﻘﻌﻟ ﻲﻤﻟﺎﻋ ﺲﻠﺠﻣ ﻰﻟﺇ ﺎﻨﺗﻮﻋﺩ ﺖﻤﺗ ،"§Y[GetStarlightVanguardName]§!" ﻊﻣ ﺎﻨﻋﺎﻤﺘﺟﺍ ﺪﻌﺑ"
+ astral_rift.20.spiritualist: ".ﺎﻨﻣﺮﻛ ﻰﻠﻋ ﺎﻨﻴﻠﻋ ﻥﻮﻨﺜﻳﻭ ،ﻥﻵﺍ ﻰﺘﺣ ﺎﻫﺎﻨﻣﺪﻗ ﻲﺘﻟﺍ ﺕﺍﺪﻋﺎﺴﻤﻠﻟ ﻦﻴﻨﺘﻤﻣ ﻥﻮﻠﻈﻳ ﻢﻬﻧﺇ .ﺉﺭﺎﻃ ﻉﺎﻤﺘﺟﺍ ﺪﻘﻌﻟ ﻲﻤﻟﺎﻋ ﺲﻠﺠﻣ ﻰﻟﺇ ﺎﻨﺗﻮﻋﺩ ﺖﻤﺗ ،"§YBlack Curtain§!" ﻊﻣ ﺎﻨﻋﺎﻤﺘﺟﺍ ﺪﻌﺑ"
+ astral_rift.20.common_2: ".ﺎﻬﺤﻟﺎﺼﻟ ﺔﻛﺮﻌﻤﻟﺍ ﻊﻓﺪﺗﻭ ﺉﺭﺍﻮﻄﻟﺍ ﻢﻋﺩ ﻦﻔﺳ ﺝﺎﺘﻧﺇ ﺯﺰﻌﺗ ﻥﺃ ﺎﻬﻧﺄﺷ ﻦﻣ ﻉﺮﺒﺘﻟﺎﺑ ﺔﻤﻫﺎﺴﻤﻟﺍ ﻥﺇ .ﺮﻴﻄﺧ ﻞﻜﺸﺑ ﺔﻀﻔﺨﻨﻣ ﺔﻗﺎﻄﻟﺍ ﺕﺎﻧﻭﺰﺨﻣ\n\n.ﺮﻴﺧﻷﺍ ﻉﺍﺮﺼﻟﺍ ﻥﻭﺮﻴﺜﻜﻟﺍ ﻩﺮﺒﺘﻌﻳ ﺎﻣ ﻞﺒﻗ ﻞﻤﻌﻠﻟ ﺖﻗﻮﻟﺍ ﻦﻣ ﻞﻴﻠﻘﻟﺍ ﻯﻮﺳ ﺪﺟﻮﻳ ﻻ"
+ astral_rift.20.poor: ".ﺓﺮﻴﺒﻛ ﺎﻨﻫ ﺪﺋﺍﻮﻔﻟﺍ ﻥﻮﻜﺗ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻤﻓ ،ﺔﻗﺎﻄﻟﺍ ﺔﺤﻠﺳﺃ ﻞﻴﻀﻔﺗ ﻰﻟﺇ ﻥﻮﻠﻴﻤﻳ ﺓﺍﺰﻐﻟﺍ ﺀﻻﺆﻫ ﻥﺃ ﺎﻤﺑﻭ .ﻢﻬﻠﻴﻃﺎﺳﺃ ﺔﻳﺎﻤﺣ ﺰﻳﺰﻌﺗ ﻲﻓ ﺏﺭﺎﺠﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺎﻫﺎﻨﻌﻤﺟ ﻲﺘﻟﺍ ﺔﻴﻤﺠﻨﻟﺍ ﻁﻮﻴﺨﻟﺍ ﻦﻣ ﺕﺎﻨﻴﻋ ﺎﻀﻳﺃ ﻢﻬﺋﺎﻤﻠﻋ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺐﻠﻄﻳ"
+ astral_rift.20.rich: ".ﺓﺮﻴﺒﻛ ﺎﻨﻫ ﺪﺋﺍﻮﻔﻟﺍ ﻥﻮﻜﺗ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻤﻓ ،ﺔﻗﺎﻄﻟﺍ ﺔﺤﻠﺳﺃ ﻞﻴﻀﻔﺗ ﻰﻟﺇ ﻥﻮﻠﻴﻤﻳ ﺓﺍﺰﻐﻟﺍ ﺀﻻﺆﻫ ﻥﺃ ﺎﻤﺑﻭ .ﻢﻬﻠﻴﻃﺎﺳﺃ ﺔﻳﺎﻤﺣ ﺰﻳﺰﻌﺗ ﻲﻓ ﺏﺭﺎﺠﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺎﻫﺎﻨﻌﻤﺟ ﻲﺘﻟﺍ ﺔﻴﻤﺠﻨﻟﺍ ﻁﻮﻴﺨﻟﺍ ﺕﺎﻨﻴﻋ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺎﻀﻳﺃ ﻢﻬﺋﺎﻤﻠﻋ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺐﻠﻄﻳ"
+ astral_rift.20.gestalt: ".ﺔﻠﻳﻮﻃ ﺓﺮﺘﻓ ﺬﻨﻣ ﺎﻨﻣ ﻪﻤﻴﻤﺼﺗ ﻢﺗ ﺪﻗ ﺍﺬﻫ ﺓﺀﺎﻔﻜﻟﺍ ﻡﺪﻋ ﻥﻷ ﻦﻳﺮﻛﺎﺷ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳﻭ .ﺔﻳﺎﻐﻠﻟ ﻖﻠﻘﻣ ﺮﻣﺃ ــ ﺔﻳﺩﺮﻔﻟﺍ ﺀﺍﺭﻵﺍ ﻦﻋ ﻱﻮﺿﻮﻔﻟﺍ ﺮﻴﺒﻌﺘﻟﺍ ــ ﺔﺸﻗﺎﻨﻤﻟﺍ ﻲﻓ ﻥﻮﻃﺮﺨﻨﻳ ﻢﻫﻭ ﺎﻨﻓﻼﺳﺃ ﺓﺪﻫﺎﺸﻣ ﻥﺇ"
+ astral_rift.20.desc.gestalt.poor_militarist: "$astral_rift.20.gestalt$\n\n$astral_rift.20.poor$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.militarist$\n\n$astral_rift.20.common_1$"
+ astral_rift.20.desc.gestalt.rich_militarist: "$astral_rift.20.gestalt$\n\n$astral_rift.20.rich$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.militarist$\n\n$astral_rift.20.common_1$"
+ astral_rift.20.desc.gestalt.poor_spiritualist: "$astral_rift.20.gestalt$\n\n$astral_rift.20.poor$\n\n$astral_ 20.ﻉﺪﺼﻟﺍ.common_2$\n\n$astral_rift.20.spiritualist$\n\n$astral_rift.20.common_1$"
+ astral_rift.20.desc.gestalt.rich_spiritualist: "$astral_rift.20.gestalt$\n\n$astral_rift.20.rich$\n\n$astral_ rift.20.common_2$\n\n$astral_rift.20.spiritualist$\n\n$astral_rift.20.common_1$"
+ astral_rift.20.desc.default.poor_militarist: "$astral_rift.20.poor$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.militarist$\n\n$astral_rift.20.common_1$"
+ astral_rift.20.desc.default.rich_militarist: "$astral_rift.20.rich$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.militarist$\n\n$astral_rift.20.common_1$"
+ astral_rift.20.desc.default.poor_spiritualist: "$astral_rift.20.poor$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.spiritualist$\n\n$astral_rift.20.common_1$"
+ astral_rift.20.desc.default.rich_spiritualist: "$astral_rift.20.rich$\n\n$astral_rift.20.common_2$\n\n$astral_rift.20.spiritualist$\n\n$astral_rift.20.common_1$"
+ astral_rift.20.a: ".ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍ ﻢﻳﺪﻘﺗ"
+ astral_rift.20.b: ".ﺔﻗﺎﻄﻟﺍ ﻢﻳﺪﻘﺗ"
+ astral_rift.20.c: ".ﯫﻴﺷ ﻡﺪﻘﺗ ﻻ"
+
+ astral_rift.25.name: "ﻝﺎﻔﺘﺣﺍ"
+ astral_rift.25.common_1: ".ﺐﻛﻮﻜﻟﺍ ﺀﺎﺤﻧﺃ ﻊﻴﻤﺟ ﻲﻓ ﺔﻳﺮﺒﻟﺍ ﺕﻻﺎﻔﺘﺣﻻﺍ ﺖﻌﻟﺪﻧﺍ .ﺓﺍﺰﻐﻟﺍ ﺪﺻ ﻲﻓ ﺎﻨﻓﻼﺳﺃ ﻞﻴﻃﺎﺳﺃ ﺖﺤﺠﻧ ﺪﻘﻟ"
+ astral_rift.25.thread: ".ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﻝﻮﻄﺳﻷﺍ ﻲﻓ ﻲﺒﻳﺮﺠﺘﻟﺍ ﻖﻴﺒﻄﺘﻟﺍ ﺍﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ .ﻲﻋﺮﻔﻟﺍ ﺀﻮﻀﻟﺍ ﺀﺍﺩﺃ ﺯﺰﻋﻭ ﻝﻮﻄﺳﻷﺍ ﺩﻮﻗﻭ ﺕﺍﺩﺍﺪﻣﻹ ﺪﻴﻔﻣ ﻞﻤﻜﻣ ﻪﻧﺃ ﺔﻛﺮﻌﻤﻠﻟ ﻩﺎﻨﻣﺪﻗ ﻱﺬﻟﺍ ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍ ﺖﺒﺛﺃ"
+ astral_rift.25.energy: ".ﺔﻴﺘﺴﺟﻮﻠﻟﺍ ﺎﻬﻠﺳﻼﺳ ﻲﻓ ﺔﺟﺮﺤﻟﺍ ﺕﺍﺮﻐﺜﻟﺍ ﺀﻞﻤﻟ ﺎﻬﻣﺍﺪﺨﺘﺳﺍ ﻢﺗ ﻲﺘﻟﺍ ﺉﺭﺍﻮﻄﻟﺍ ﻢﻋﺩ ﻞﻴﻃﺎﺳﺃ ﺝﺎﺘﻧﺇ ﻲﻓ ﺔﻴﺳﺎﺳﺃ ﺎﻫﺎﻨﻣﺪﻗ ﻲﺘﻟﺍ ﺔﻗﺎﻄﻟﺍ ﺖﻧﺎﻛﻭ"
+ astral_rift.25.common_2: ".ﺔﻣﺩﺎﻘﻟﺍ ﻝﺎﻴﺟﻸﻟ [explorer.GetName] ﻡﻮﻴﺑ ﻝﺎﻔﺘﺣﻻﺍ ﻢﺘﻴﺳ .ﺎﻨﻤﺳﺎﺑ ﺔﻴﺒﻛﻮﻛ ﺔﻠﻄﻋ ﻲﻤﻟﺎﻌﻟﺍ ﺲﻠﺠﻤﻟﺍ ﻦﻠﻌﻳ"
+ astral_rift.25.gestalt: ".ﺮﻳﺪﺠﻟﺍ ﺎﻨﻟﺎﺜﻣ ﺍﻮﻌﺒﺘﻴﻟ ﻢﻬﻟﻮﻘﻋ ﺔﺳﺪﻨﻫ ﻲﻓ ﺍﻭﺃﺪﺒﻳ ﻥﺃ ﻢﻬﻴﻠﻋ ﺡﺮﺘﻘﻳ ﺾﻌﺒﻟﺍ ﻥﺃ ﻰﺘﺣ .ﺪﺴﺤﻟﺎﺑ ﻂﺑﺍﺮﺘﻤﻟﺍ ﺎﻨﻴﻋﻭ ﻰﻟﺇ ﺎﻨﻫ ﻥﻭﺮﻴﺜﻜﻟﺍ ﺮﻈﻨﻳ"
+ astral_rift.25.common_3: ".ﻥﻮﻨﺒﻳﻭ ﻥﻮﻘﺒﻴﺳ ﺎﻨﻓﻼﺳﺃ ﺔﻴﻘﺑﻭ .ﺎﺧﺭﺆﻣﻭ ﺍﺮﻴﻔﺳ ﺎﻨﻴﻟﺇ ﺎﻬﺑ ﺩﻮﻌﻴﻟ ﻊﻤﺘﺠﻤﻟﺍ ﺍﺬﻫ ﻦﻣ ﺓﺯﺭﺎﺑ ﺔﻴﺼﺨﺷ ﺭﺎﺘﺨﻧ ﺪﻗﻭ"
+ astral_rift.25.desc.gestalt.threads: "$astral_rift.25.common_3$\n\n$astral_rift.25.gestalt$\n\n$astral_rift. 25.common_2$\n\n$astral_rift.25.thread$\n\n$astral_rift.25.common_1$"
+ astral_rift.25.desc.gestalt.energy: "$astral_rift.25.common_3$\n\n$astral_rift.25.gestalt$\n\n$astral_rift. 25.common_2$\n\n$astral_rift.25.energy$\n\n$astral_rift.25.common_1$"
+ astral_rift.25.desc.gestalt: "$astral_rift.25.common_3$\n\n$astral_rift.25.gestalt$\n\n$astral_rift.25.common_2$\n\n$astral_rift.25.common_1$"
+ astral_rift.25.desc.default.threads: "$astral_rift.25.common_3$\n\n$astral_rift.25.common_2$\n\n$astral_rift.25.thread$\n\n$astral_rift.25.common_1$"
+ astral_rift.25.desc.default.energy: "$astral_rift.25.common_3$\n\n$astral_rift.25.common_2$\n\n$astral_rift.25.energy$\n\n$astral_rift.25.common_1$"
+ astral_rift.25.desc.default: "$astral_rift.25.common_3$\n\n$astral_rift.25.common_2$\n\n$astral_rift.25.common_1$"
+ astral_rift.25.a: ".ﺀﺎﻤﻠﻌﻟﺍ ﻒﻴﻇﻮﺗ"
+ astral_rift.25.a.tt: ".ﺎﻤﻟﺎﻋ ﺎﻤﻴﻋﺯ ﺢﻨﻤﻳ"
+ astral_rift.25.b: ".ﺪﺋﺎﻘﻟﺍ ﺪﻴﻨﺠﺗ"
+ astral_rift.25.b.tt: ".ﺍﺪﺋﺎﻗ ﺍﺪﺋﺎﻗ ﺢﻨﻤﻳ"
+ astral_rift.25.c: ".ﻲﻤﺳﺭ ﺪﻴﻨﺠﺗ"
+ astral_rift.25.c.tt: ".ﻲﻤﺳﺭ ﺪﺋﺎﻗ ﺢﻨﻣ"
+
+ astral_rift.30.name: "ﺭﺎﻣﺪﻟﺍ"
+ astral_rift.30.desc.common: ".ﺐﺳﺎﻨﻤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻥﺎﻜﻤﻟﺍ ﺍﺬﻫ ﻰﻟﺇ ﻥﻮﻠﺼﻳ ﺓﺍﺰﻐﻟﺍ ﻥﻷ ،ﺭﺎﺘﺨﻧ ﻥﺃ ﺐﺠﻳ\n\n.ﺎﻬﻈﻔﺤﻟ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺹﺍﺮﻗﺃﻭ ﺐﺘﻜﻟﺍ ﻦﻣ ﺔﻠﺋﺎﻬﻟﺍ ﻢﻬﺘﻋﻮﻤﺠﻣ ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ ﺪﻴﻌﺘﺴﻧ ﻥﺃ ﺔﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﻲﻓ ﻻﻮﻤﺷ ﺮﺜﻛﻷﺍ ﺔﻓﺮﻌﻤﻟﺍ ﺔﺒﺘﻜﻣ ﻰﻠﻋ ﻥﻮﻤﺋﺎﻘﻟﺍ ﺎﻧﺪﺷﺎﻨﻳ\n\n.ﻞﺑﺎﻘﻤﻟﺍ ﻲﻓ ﺔﻗﺎﻄﻟﺍ ﺓﺪﺻﺭﺃ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﻡﺪﻘﻳﻭ [riftworld_noble_leader.GetHisHer] ﺀﺎﻘﺑ ﻥﺎﻤﺿ ﺹﺎﺧ ﻞﻜﺸﺑ ﻦﻳﺯﺭﺎﺒﻟﺍ ﺀﻼﺒﻨﻟﺍ ﺪﺣﺃ ﺎﻨﻣ ﺐﻠﻃ ﺪﻘﻟ"
+ astral_rift.30.desc.default: "$astral_rift.30.desc.common$\n\n.ﻉﺪﺼﻟﺍ ﺮﺒﻋ ﺎﻨﻌﻣ ﺭﺍﺮﻔﻠﻟ ﻥﻮﻠﺳﻮﺘﻳﻭ ﺮﻋﺬﻟﺎﺑ ﺱﺎﻨﻟﺍ ﺮﻌﺸﻳ .ﻥﺎﻣﻷﺍ ﻞﻗﺎﻌﻣ ﻦﻣ ﻞﻴﻠﻗ ﺩﺪﻋ ﻯﻮﺳ ﻥﻵﺍ ﻖﺒﺘﻳ ﻢﻟﻭ .ﻢﻬﻟ ﺔﻤﺣﺭ ﻻﻭ ،ﺔﺒﻴﻫﺭ ﻢﻬﺘﺤﻠﺳﺃ .ﺓﺍﺰﻐﻟﺍ ﺔﻬﺟﺍﻮﻣ ﻲﻓ ﺔﺻﺮﻓ ﻱﺃ ﺎﻨﻓﻼﺳﺃ ﻞﻴﻃﺎﺳﻷ ﻦﻜﻳ ﻢﻟ\n\n.ﺔﻣﺎﺗ ﺔﺤﺑﺬﻤﻟﺍ ﺖﻧﺎﻛ"
+ astral_rift.30.desc.homicidal: "$astral_rift.30.desc.common$\n\n.ﺔﻳﺎﻬﻨﻟﺍ ﻥﻵﺍ ﻥﻭﺮﻈﺘﻨﻳﻭ ﺔﻤﻳﺰﻬﻟﺍ ﺭﺎﻋ ﺍﻮﻠﺒﻗ ﺪﻘﻟ .ﺓﺩﺎﺑﻺﻟ ﺎﺒﻳﺮﻗ ﻥﻮﻤﻠﺴﺘﺴﻴﺳﻭ ﺔﻟﻮﻬﺴﺑ ﺎﻨﻓﻼﺳﺃ ﻰﻠﻋ ﺓﺍﺰﻐﻟﺍ ﺐﻠﻐﺗ ﺪﻘﻟ"
+ astral_rift.30.a: ".ﻊﻴﻄﺘﺴﻧ ﺎﻣ ﻦﻜﻤﻣ ﺩﺪﻋ ﺮﺒﻛﺃ ﺬﺧ"
+ astral_rift.30.a.trigger_tt: ".ﺎﻨﻓﻼﺳﺃ ﻒﻌﺿﺃ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ ﻲﻓ ﺔﺤﻠﺼﻣ ﻱﺃ ﺎﻨﻳﺪﻟ ﺲﻴﻟ"
+ astral_rift.30.b: ".ﻞﻴﺒﻨﻟﺍ ﺽﺮﻌﻟﺍ ﻝﻮﺒﻗ"
+ astral_rift.30.b.tt: ".ﻲﻤﺳﺭ ﺪﺋﺎﻗ ﺢﻨﻣ"
+ astral_rift.30.c: ".ﺔﺒﺘﻜﻤﻟﺍ ﻰﻠﻋ ﻅﺎﻔﺤﻟﺍ"
+ astral_rift.30.d: ".ﻢﻬﻤﻠﻌﺑ ﺔﺒﻟﺎﻄﻤﻟﺍ"
+
+ astral_rift.40.name: "ﺎﻧﺩﺍﺪﺟﺃ ﺡﻭﺭ"
+ astral_rift.40.desc.common: ".ﺎﺒﻳﺮﻗ ﻰﺴﻨﺗ ﻦﻟﻭ ،ﺔﻴﻤﻫﻷﺍ ﺔﻐﻟﺎﺑ ﻉﺪﺼﻟﺍ ﺮﺒﻋ ﺎﻨﺘﻠﺣﺭ ﺖﻧﺎﻛ ﺪﻘﻟ .ﺔﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺓﺮﺒﺨﻟﺍﻭ ﺔﻤﻴﻘﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ ﺎﻬﻨﻣ ﺎﻨﺒﺴﺘﻛﺍ ،ﺔﻤﻳﺪﻗ ﺓﺭﺎﻀﺣ ﺔﻳﺭﺫ ﻦﺤﻧ\n\n.ﺎﻨﻌﻤﺘﺠﻣ ﻂﻴﺸﻨﺗ ﻰﻟﺇ ﺎﻨﻓﻼﺳﺃ ﻑﺎﺸﺘﻛﺍ ﻯﺩﺃ ﺪﻘﻟ"
+ astral_rift.40.desc.default: ".ﻢﻬﻟ ﻢﻳﺮﻜﺗ ﺔﺑﺎﺜﻤﺑ ﺎﻨﺣﺎﺠﻧ ﻥﻮﻜﻴﺳ .ﺀﺎﻘﺒﻟﺍ ﻲﻓ ﻢﻬﺗﺩﺍﺭﺇ ﻰﻠﻋ ﺓﺩﺎﻬﺷ ﻲﻫ ﺎﻬﺗﺍﺫ ﺎﻨﺗﺭﺎﻀﺣ ﻥﺇ .ﺎﻨﻓﻼﺳﺃ ﺎﻨﻟ ﺎﻬﺣﺎﺗﺃ ﻲﺘﻟﺍ ﺔﺻﺮﻔﻠﻟ ﻦﻳﺮﻛﺎﺷ ﻥﻮﻜﻧ ﻥﺃ ﺐﺠﻳ\n\n$astral_rift.40.desc.common$"
+ astral_rift.40.desc.gestalt: ".ﺎﻨﻓﻼﺳﻷ ﺔﻄﻴﺴﺒﻟﺍ ﻢﻴﻣﺎﺼﺘﻟﺍ ﺯﻭﺎﺠﺗ ﻮﻫ ﻥﻵﺍ ﺎﻨﻓﺪﻫ .ﺎﻨﺤﺒﺻﺃ ﻒﻴﻛ ﻢﻬﻔﻧ ،ﺓﺮﻣ ﻝﻭﻷﻭ .ﺓﺪﻤﻌﺘﻤﻟﺍ ﺔﺳﺪﻨﻬﻟﺍ ﺝﺎﺘﻧ ﻮﻫ ﺎﻨﻴﻋﻭ ﻥﺃ ﺎﻨﻔﺸﺘﻛﺍ ﺪﻘﻟ\n\n$astral_rift.40.desc.common$"
+ astral_rift.40.desc.unfriendly_nongestalt: ".ﻭﺰﻐﻠﻟ ﺎﻨﺸﻄﻌﺗ ﺩﺪﺠﺗ ﺪﻘﻟ .ﻝﺎﺘﻘﻟﺍ ﻦﻋ ﻲﻠﺨﺘﻟﺍ ﺍﻮﻀﻓﺭﻭ ،ﺔﻳﻭﺍﺰﻟﺍ ﻲﻓ ﺍﻭﺰﺠﺘﺣﺍﻭ .ﺎﻧﻮﻘﺒﺳ ﻦﻳﺬﻟﺍ ﻚﺌﻟﻭﻷ ﺮﻬﻘﺗ ﻻ ﻲﺘﻟﺍ ﺡﻭﺮﻟﺍ ﺎﻧﺪﻬﺷ ﺪﻘﻟ\n\n$astral_rift.40.desc.common$"
+ astral_rift.40.desc.swarm: ".ﻭﺰﻐﻠﻟ ﺩﺪﺠﺘﻣ ﺶﻄﻌﺘﺑ ﻢﻬﻠﺜﻣ ﻦﻳﺮﺧﺁ ﻚﻠﻬﺘﺴﻧ ﻑﻮﺳﻭ ،ﻢﻬﺗﺩﺍﺭﺇ ﺎﻳﺎﻘﺑ ﻦﻣ ﻮﻫ ﺎﻨﻛﺮﺤﻳ ﻱﺬﻟﺍ ﻉﻮﺠﻟﺍ ﻥﺇ .ﻲﺋﺎﻬﻨﻟﺍ ﺱﺮﺘﻔﻤﻟﺍ ﻢﻫﺭﺎﺒﺘﻋﺎﺑ ﺎﻨﻴﻓ ﻥﻮﺸﻴﻌﻳ ﺎﻨﻓﻼﺳﺃ ﻥﺃ ﻻﺇ ،ﺔﺴﻳﺮﻔﻛ ﻑﺎﻄﻤﻟﺍ ﺔﻳﺎﻬﻧ ﻲﻓ ﺍﻮﻬﺘﻧﺍ ﻢﻬﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n$astral_rift.40.desc.common$"
+ astral_rift.40.desc.terminators: ".ﺔﻗﺪﺑ ﻩﺬﻴﻔﻨﺘﺑ ﻡﻮﻘﻧ ﻑﻮﺳﻭ ،ﻢﻬﺗﺩﺍﺭﺇ ﺎﻳﺎﻘﺑ ﻦﻣ ﻮﻫ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺓﺩﺎﺑﻹﺍ ﻝﻮﻛﻮﺗﻭﺮﺑ .ﺔﻘﻠﻄﻤﻟﺍ ﻞﺘﻘﻟﺍ ﺕﻻﺁ ﺢﺒﺼﻨﻟ ﺎﻧﻮﻤﻤﺻ ﺎﻨﻓﻼﺳﺃ ﻥﺃ ﻻﺇ ،ﺎﻨﺗﺀﺎﻔﻛ ﻰﻟﺇ ﻢﻫﺭﺎﻘﺘﻓﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n$astral_rift.40.desc.common$"
+
+ astral_rift.40.a: ".ﻞﻌﻔﻟﺎﺑ"
+
+ astral_rift.50.name: "ﺐﻳﺮﻏ ﻝﺎﻘﺘﻧﺍ"
+ astral_rift.50.desc: ".[this.capital_scope.GetName] ﻡﺎﻈﻧ ﻦﻣ ﻲﻌﻴﺒﻃ ﺮﻴﻏ ﻻﺎﺳﺭﺇ ﺎﻨﻴﻘﻠﺗ ﺪﻘﻟ"
+ astral_rift.50.a: ".ﺔﺷﺎﺸﻟﺍ ﻰﻠﻋ"
+
+ astral_rift.55.common_1: "..ﻉﻭﺪﺼﻟﺍ ﺀﺎﻨﺑﺃ ..ﻢﻛﺍﺮﻧ"
+ astral_rift.55.arcsite: "...ﺔﻨﻴﻔﺴﻟﺍ ﻰﻟﺇ ﻚﺗﺩﺎﻗ ﺎﻨﺗﻮﻋﺩ"
+ astral_rift.55.common_2: "..ﺔﻳﺭﻭﺮﺿ ﻚﺗﺎﺠﻧ ﻥﺎﻛ ..ﺏﺎﺒﻟﺍ ﺎﻨﻳﺪﻳﺃ ﺖﺤﺘﻓ"
+ astral_rift.55.gestalt: "...ﺎﻳﺭﻭﺮﺿ ﻥﺎﻛ ...ﺪﻳﺪﺠﻟﺍ ﻚﻴﻋﻭ"
+ astral_rift.55.ancestors_dead: "..ﺍﻮﻜﻠﻫ ﺪﻗ ﻚﻓﻼﺳﺃ ﻥﺃ ﻒﺳﺆﻤﻟﺍ ﻦﻣ"
+ astral_rift.55.desc.arcsite.default.alive: "$astral_rift.55.common_2$\n\n$astral_rift.55.arcsite$\n\n$astral_rift.55.common_1$"
+ astral_rift.55.desc.arcsite.default.dead: "$astral_rift.55.ancestors_dead$\n\n$astral_rift.55.common_2$\n\n$astral_rift.55.arcsite$\n\n$astral_rift.55.common_1$"
+ astral_rift.55.desc.arcsite.gestalt.alive: "$astral_rift.55.gestalt$\n\n$astral_rift.55.common_2$\n\n$astral_rift.55.arcsite$\n\n$astral_rift.55.common_1$"
+ astral_rift.55.desc.arcsite.gestalt.dead: "$astral_rift.55.ancestors_dead$\n\n$astral_rift.55.gestalt$\n\n$astral_rift.55 .common_2$\n\n$astral_rift.55.arcsite$\n\n$astra_rift.55.common_1$"
+ astral_rift.55.desc.no_arcsite.default.alive: "$astral_rift.55.common_2$\n\n$astra_rift.55.common_1$"
+ astral_rift.55.desc.no_arcsite.default.dead: "$astral_rift.55.ancestors_dead$\n\n$astral_rift.55.common_2$\n\n$astral_rift.55.common_1$"
+ astral_rift.55.desc.no_arcsite.gestalt.alive: "$astral_rift.55.gestalt$\n\n$astral_rift.55.common_2$\n\n$astral_rift.55.common_1$"
+ astral_rift.55.desc.no_arcsite.gestalt.dead: "$astral_rift.55.ancestors_dead$\n\n$astral_rift.55.gestalt$\n\n$astral_rift.55.common_2$\n\n$astral_rift.55.common_1$"
+ astral_rift.55.a: "؟ﺖﻧﺃ ﻦﻣ"
+ astral_rift.56.desc: "...ﺎﻧﻭﺪﻋﺎﺴﺗ ﻥﺃ ﻦﻜﻤﻳ...ﺕﺍﺮﺋﺎﻄﻟﺍ ﻝﺎﻔﻃﺃ...ﻢﺘﻧﺃ\n\n...ﻢﻬﻧﻮﻓﺮﻌﻳ ﻢﻛﺩﺍﺪﺟﺃ...ﻪﻟ ﺔﻳﺎﻬﻧ ﻻ ﻭﺪﻋ...ﻲﻬﺘﻨﺗ ﻻ ﺏﺮﺣ\n\n...ﻉﻭﺪﺼﻟﺍ ﻒﻠﺧ ﺮﻴﺴﻧ"
+ astral_rift.56.a: "؟ﺓﺪﻋﺎﺴﻤﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻒﻴﻛ"
+ astral_rift.57.desc: "...ﻥﻮﺒﻳﺮﻗ ﻦﺤﻧ\n\n...ﻚﻴﻟﺇ ﻲﺗﺄﻧﻭ...ﺎﺒﻳﺮﻗ ﻚﻓﺮﻌﻨﺳ\n\n...ﺕﺍﺮﺋﺎﻄﻟﺍ ﺎﻬﻴﻓ ﻕﺮﺘﺨﺗ ﺓﺮﻣ ﻞﻛ ﻲﻓ...ﻚﺑ ﺮﻌﺸﻧ\n\n...ﻢﻏﺎﻨﺘﺗ ﻥﺃ ﺐﺠﻳ"
+ astral_rift.57.a: ".ﻝﺎﺳﺭﻹﺍ ﻰﻬﺘﻧﺍ"
+ astral_rift.55.b: ".ﺕﻻﺎﺼﺗﻻﺍ ﻕﻼﻏﺇ"
+
+# Spirit of Our Ancestors modifiers
+ spirit_of_ancestors_militarist_alloys_modifier_01: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_alloys_modifier_01_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_militarist_alloys_modifier_02: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_alloys_modifier_02_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_militarist_alloys_modifier_03: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_alloys_modifier_03_desc: "$spirit_of_ancestors_modifier_desc$"
+
+ spirit_of_ancestors_militarist_astral_thread_modifier_01: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_astral_thread_modifier_01_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_militarist_astral_thread_modifier_02: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_astral_thread_modifier_02_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_militarist_astral_thread_modifier_03: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_militarist_astral_thread_modifier_03_desc: "$spirit_of_ancestors_modifier_desc$"
+
+ spirit_of_ancestors_preservationist_food_modifier_01_organics: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_01_organics_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_01_lithoids: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_01_lithoids_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_01_machines: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_01_machines_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_02_organics: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_02_organics_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_02_lithoids: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_02_lithoids_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_02_machines: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_02_machines_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_03_organics: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_03_organics_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_03_lithoids: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_03_lithoids_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_food_modifier_03_machines: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_food_modifier_03_machines_desc: "$spirit_of_ancestors_modifier_desc$"
+
+ spirit_of_ancestors_preservationist_astral_thread_modifier_01: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_astral_thread_modifier_01_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_astral_thread_modifier_02: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_astral_thread_modifier_02_desc: "$spirit_of_ancestors_modifier_desc$"
+ spirit_of_ancestors_preservationist_astral_thread_modifier_03: "$spirit_of_ancestors_modifier$"
+ spirit_of_ancestors_preservationist_astral_thread_modifier_03_desc: "$spirit_of_ancestors_modifier_desc$"
+
+#################
+# The Corridors #
+#################
+ procedural_space_modifier: "ﻲﺋﺍﺮﺟﻹﺍ ﺀﺎﻀﻔﻟﺍ"
+
+ astral_rift_corridors: "ﺕﺍﺮﻤﻤﻟﺍ"
+
+ astral_rift.100.name: "ﺕﺍﺮﻤﻤﻟﺍ"
+ astral_rift.100.desc: ".ﺎﻨﺴﻔﻧﺄﺑ ﺎﻨﻘﻳﺮﻃ ﻊﻨﺼﺑ ﺢﺼﻨﻳ .ﻲﻟﺎﺤﻟﺍ ﺎﻨﻓﺎﺸﻜﺘﺳﺍ ﻲﻓ ﻡﺪﻘﺗ ﻱﺃ ﺯﺮﺤﻧ ﻻ ﻦﺤﻧ .ﺮﻴﺒﻛ ﻑﻼﺘﺧﺍ ﻱﺃ ﻥﻭﺩ ﺩﻭﺪﺣ ﻼﺑ ﺎﻬﺴﻔﻧ ﺭﺮﻜﺗ ﺎﻬﻧﺃ ﻮﻟ ﺎﻤﻛ ﺎﻨﻫ ﺕﺍﺮﻤﻤﻟﺍ ﻭﺪﺒﺗ \n\n .ﺔﻋﺮﻔﺘﻤﻟﺍ ﺕﺍﻮﻨﻘﻟﺍ ﻦﻣ ﺔﻜﺒﺷ ﺮﺒﻋ ﻖﻓﺪﺘﻳ ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﻲﺋﺮﻣ ﺭﺎﻴﺗ ﺔﻳﺅﺭ ﻦﻜﻤﻳ .ﺔﻴﺟﺎﺟﺯ ﺮﺋﺍﻭﺩ ﺔﺣﻮﻟ ﻦﻋ ﺓﺭﺎﺒﻋ ﺎﻨﻫ ﺔﻴﺿﺭﻷﺍ ﺢﻄﺳﺃ \n\n .ﺔﺤﺿﺍﻭ ﺔﻳﺍﺪﺑ ﻭﺃ ﺔﻳﺎﻬﻧ ﻥﻭﺪﺑ ﺔﻄﺑﺍﺮﺘﻤﻟﺍ ﻑﺮﻐﻟﺍ ﻦﻣ ﺔﻜﺒﺷ ﻲﻓ ﻦﻳﺭﻮﺼﺤﻣ ﺎﻨﺴﻔﻧﺃ ﺎﻧﺪﺟﻭ ﺪﻘﻟ"
+ astral_rift.100.a: ".ﺔﻤﻠﻜﻟﺍ ﻕﺍﺮﺘﺧﺍ"
+ astral_rift.100.b: ".ﻥﺍﺭﺪﺠﻟﺍ ﺢﺘﻓﺍ"
+
+ astral_rift.105.name: ""ﺝﺎﺟﺰﻟﺍ" ﻞﻴﺤﺘﺴﻣ"
+ astral_rift.105.desc: ".ﺔﻳﺪﻴﻠﻘﺗ ﺮﺜﻛﺃ ﺔﻘﻳﺮﻄﺑ ﻑﺎﺸﻜﺘﺳﻻﺍ ﻰﻟﺇ ﺩﻮﻌﻧ ﻑﻮﺳ .ﺔﻴﺿﺭﻷﺍ ﻩﺬﻫ ﺮﺒﻋ ﺎﻨﺑ ﺎﺻﺎﺧ ﺍﺮﻤﻣ ﺮﻔﺤﻧ ﻥﺃ ﺎﻴﻠﻤﻋ ﻭﺪﺒﻳ ﻻ ﻪﻧﺃ ﻻﺇ ،ﻡﺎﻤﺘﻫﻼﻟ ﺮﻴﺜﻣ ﻑﺎﺸﺘﻛﻻﺍ ﺍﺬﻫ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.ﻡﺎﻜﺣﺈﺑ ﺝﻮﺴﻨﻤﻟﺍ ﻲﻤﺠﻨﻟﺍ ﺵﺎﻤﻘﻟﺍ ﻦﻣ ﺰﻴﻛﺮﺘﻟﺍ ﻲﻟﺎﻋ ﻂﻴﻠﺧ ﺮﺋﺍﻭﺪﻟﺍ ﺮﺒﻋ ﻖﻓﺪﺘﻳ .ﺎﻣﺯﻼﺒﻟﺍ ﺏﺎﻘﺜﻣ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺕﺍﻮﻨﻘﻟﺍ ﻯﺪﺣﺇ ﻝﻼﺧ ﻦﻣ ﺮﻴﻐﺻ ﺐﻘﺛ ﺀﺎﺸﻧﺇ ﻲﻓ ﺎﻨﺤﺠﻧ ،ﺪﻬﺠﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺭﺪﻘﺑﻭ ،ﻚﻟﺫ ﻊﻣﻭ\n\n.ﺢﻄﺴﻟﺍ ﻩﻮﺸﺗ ﻭﺃ ﻩﻮﺸﺗ ﻦﻟ ﺓﺩﺎﺤﻟﺍ ﺓﻮﻘﻟﺍ .ﻞﺠﺴﻟﺍ ﻲﻓ ﺎﻨﻳﺪﻟ ﺔﻓﻭﺮﻌﻣ ﺔﻓﺎﻔﺷ ﺓﺩﺎﻣ ﻱﺃ ﻪﺒﺸﻳ ﻻ ﺎﻬﺒﻴﻛﺮﺗ .ﻞﺸﻔﻟﺎﺑ ﺕﺀﺎﺑ ﺔﻴﺿﺭﻷﺍ ﻕﺍﺮﺘﺧﻻ ﺔﻴﻟﻭﻷﺍ ﺎﻨﺗﻻﻭﺎﺤﻣ"
+
+ astral_rift.110.name: "ﺪﻳﺪﺠﺗ"
+ astral_rift.110.desc: ".ﺔﻳﺪﻴﻠﻘﺗ ﺮﺜﻛﺃ ﺔﻘﻳﺮﻄﺑ ﻑﺎﺸﻜﺘﺳﻻﺍ ﻰﻟﺇ ﺩﻮﻌﻧ ﻑﻮﺳ .ﻖﺑﺎﻄﻟﺍ ﺍﺬﻫ ﺮﺒﻋ ﺎﻨﺑ ﺎﺻﺎﺧ ﺍﺮﻤﻣ ﺮﻔﺤﻧ ﻥﺃ ﺎﻴﻠﻤﻋ ﻭﺪﺒﻳ ﻻ ﻪﻧﺃ ﻻﺇ ،ﻡﺎﻤﺘﻫﻼﻟ ﺮﻴﺜﻣ ﻑﺎﺸﺘﻛﻻﺍ ﺍﺬﻫ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ \n\n .ﺎﻨﻳﺪﻟ ﻚﻴﻜﻔﺗ ﺔﻴﻠﻤﻋ ﻞﻛ ﻊﻗﻮﻣ ﻮﺤﻧ ﻖﻓﺪﺘﺗ ﺎﻨﻠﻔﺳﺃ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺍﻮﻨﻘﻟﺍ ﻲﻓ ﺔﻗﺎﻄﻟﺍ ﻯﺮﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ .ﻞﺒﻗ ﻦﻣ ﺍﺩﻮﺟﻮﻣ ﻥﺎﻛ ﺎﻤﻟ ﺐﻳﺮﻗ ﺐﻳﺮﻘﺗ ﻦﻳﻮﻜﺘﻟ ﺾﻌﺒﻟﺍ ﺎﻬﻀﻌﺑ ﻕﻮﻓ ﺕﺎﻘﺒﻃ ﻦﻳﻮﻜﺗﻭ ﺞﻴﺴﻨﻟﺍ ﻲﻓ ﺔﻴﺋﺍﺪﺒﻟﺍ ﺀﺎﻨﺒﻟﺍ ﺩﺍﻮﻣ ﻦﻣ ﺔﻳﺭﻮﻠﺑ ﺔﻜﺒﺷ ﺃﺪﺒﺗ ،ﻥﺍﺭﺪﺠﻟﺍ ﻦﻣ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺔﻴﻤﻛ ﻱﺃ ﺔﻟﺍﺯﺇ ﻦﻣ ﺍﺪﺟ ﺮﻴﺼﻗ ﺖﻗﻭ ﺪﻌﺑ\n\n.ﻼﻳﻮﻃ ﻡﻭﺪﻳ ﻻ ﺍﺬﻫ ﻦﻜﻟﻭ ،ﺔﻟﻮﻬﺴﺑ ﺎﻨﻫ ﻥﺍﺭﺪﺠﻟﺍ ﻚﻴﻜﻔﺗ ﻦﻜﻤﻳ"
+
+ astral_rift.115.name: "ﺔﻄﺤﻤﻟﺍ"
+ astral_rift.115.desc.common.1: ".ﺔﻄﻴﺤﻤﻟﺍ ﺕﺍﺮﻤﻤﻠﻟ ﺔﻄﻳﺮﺧ ﺕﺎﺷﺎﺸﻟﺍ ﻯﺪﺣﺇ ﻰﻠﻋ ﺪﺟﻮﺗ\n\n.ﺔﻳﺰﻛﺮﻣ ﺔﻄﺤﻣ ﺔﻄﺳﺍﻮﺑ ﺎﻬﻴﻓ ﻢﻜﺤﺘﻟﺍ ﻢﺘﻳ ﺕﺎﺷﺎﺸﺑ ﺓﺀﻮﻠﻤﻣ ﺓﺮﻴﺒﻛ ﺔﻓﺮﻏ :ﺎﻨﻄﻴﺤﻣ ﻲﻓ ﺎﻋﻮﻨﺗ ﺍﺮﻴﺧﺃ ﺎﻧﺪﺟﻭ ﺪﻘﻟ"
+ astral_rift.115.desc.common.2: ".ﺎﻬﺑ ﺹﺎﺨﻟﺍ ﺩﻮﻜﻟﺍ ﻲﻓ ﺓﺩﻮﺟﻮﻣ ﻥﻮﻜﺗ ﺪﻗ ﻲﺘﻟﺍ ﺔﻴﻨﻣﻷﺍ ﺮﻴﺑﺍﺪﺘﻟﺍ ﻲﻫ ﺎﻣ ﻑﻭﺮﻌﻤﻟﺍ ﺮﻴﻏ ﻦﻤﻓ ،ﻚﻟﺫ ﻊﻣﻭ .ﻥﺎﻜﻤﻟﺍ ﺍﺬﻫ ﻦﻋ ﺪﻳﺰﻤﻟﺍ ﺔﻓﺮﻌﻣ ﺎﻨﻨﻜﻤﻴﻓ ،ﻢﻜﺤﺘﻟﺍ ﺓﺪﺣﻭ ﻲﻓ ﻢﻜﺤﺘﻟﺍ ﺮﺻﺎﻨﻋ ﻑﺎﺸﺘﻛﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ﺍﺫﺇ"
+ astral_rift.115.desc.walls: "$astral_rift.115.desc.common.2$\n\n.ﻞﻌﻔﻟﺍ ﺀﺎﻨﺛﺃ ﺎﻨﺴﻔﻧﻷ ﻮﻳﺪﻴﻔﻟﺎﺑ ﺔﺒﻗﺍﺮﻤﻟﺍ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺓﺮﻴﺧﻷﺍ ﺭﺍﺪﺠﻟﺍ ﻚﻴﻜﻔﺗ ﺔﻴﻠﻤﻋ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻪﻴﺒﻨﺗ ﻞﻴﺠﺴﺗ ﻢﺗ\n\n$astral_rift.115.desc.common.1$"
+ astral_rift.115.desc.glass: "$astral_rift.115.desc.common.2$\n\n.ﻞﻌﻔﻟﺍ ﺀﺎﻨﺛﺃ ﺎﻨﺴﻔﻧﻷ ﻮﻳﺪﻴﻔﻟﺎﺑ ﺔﺒﻗﺍﺮﻤﻟﺍ ﻚﻟﺫ ﻲﻓ ﺎﻤﺑ ،ﺔﻴﺿﺭﻷﺍ ﻲﻓ ﺎﻫﺎﻨﻳﺮﺟﺃ ﻲﺘﻟﺍ ﺓﺮﻴﺧﻷﺍ ﺮﻔﺤﻟﺍ ﺔﻴﻠﻤﻋ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﻪﻴﺒﻨﺗ ﻞﻴﺠﺴﺗ ﻢﺗ\n\n$astral_rift.115.desc.common.1$"
+ astral_rift.115.a: ".ﺎﻬﻗﺮﺘﺧﺍ"
+ astral_rift.115.b: ".ﺀﺍﺰﺟﻷ ﺎﻫﺪﻳﺮﺠﺗ"
+
+ astral_rift.120.name: "ﻥﻮﻓﺪﻣ"
+ astral_rift.120.desc: ".ﻪﻨﻣ ﺔﻌﻤﺠﻤﻟﺍ ﺕﺎﻨﻴﻌﻟﺍﻭ §Y$tech_rift_sphere$§! ﺎﻧﺩﺎﻌﺘﺳﺍﻭ ﺉﺭﺍﻮﻄﻟﺍ ﺓﺎﺳﺮﻣ ﺐﺤﺴﺑ ﺎﻨﻤﻗ ﺪﻘﻓ ،ﻲﺳﺎﻴﻘﻟﺍ ﺀﺍﺮﺟﻺﻟ ﺎﻘﻓﻭ \n\n .ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺎﻬﺘﻟﺍﺯﺇ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻝﺍﺪﺒﺘﺳﺍ ﻢﺗ ﺚﻴﺣ ،ﺓﺮﻤﺜﻣ ﺮﻴﻏ [Leader.GetHimHer] ﻦﻋ ﻒﺸﻜﻠﻟ ﺕﻻﻭﺎﺤﻣ ﻱﺃ ﺖﻧﺎﻛ .ﻞﻣﺎﻜﻟﺎﺑ [Leader.GetWasWere] [Leader.GetHeShe] ﺔﻴﻄﻐﺗ ﻢﺗ ،[Leader.GetName] ﺓﺪﻋﺎﺴﻣ ﻦﻣ ﺺﺨﺷ ﻱﺃ ﻦﻜﻤﺘﻳ ﻥﺃ ﻞﺒﻗ .ﺓﻮﻏﺮﻟﺍ ﻪﺒﺸﺗ ﺓﺪﺘﻤﻣ ﺓﺩﺎﻤﺑ ﺔﻋﺮﺴﺑ ﺎﻬﻠﻤﻛﺄﺑ ﺔﻓﺮﻐﻟﺍ ﺀﻞﻣ ﻢﺗﻭ ﻥﺎﻣﻷﺍ ﻡﺎﻈﻧ ﻞﻴﻐﺸﺗ ﻢﺗ ،ﺯﺎﻬﺠﻟﺍ ﺮﻴﻔﺸﺗ ﻚﻓ ﺔﻴﻠﻤﻋ ﺀﺎﻨﺛﺃ"
+
+ astral_rift.125.name: "ﺔﻐﻴﺻ"
+ astral_rift.125.desc: ".ﺔﻠﺛﺎﻤﻤﻟﺍ ﺕﺍﺮﻤﻤﻟﺍ ﻦﻣ ﺎﻣﺎﻤﺗ ﺪﻳﺪﺟ ﻡﺎﻈﻧ ﺀﺎﺸﻧﺇ ﻰﻟﺇ ﻱﺩﺆﻴﺳ ﺔﺤﻴﺤﺼﻟﺍ ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﻖﻴﺒﻄﺗﻭ ﻥﺎﻜﻣ ﻱﺃ ﻲﻓ ﺓﺩﺎﻤﻟﺍ ﻩﺬﻫ ﻊﺿﻭ ﻥﺃ ﺪﻘﺘﻌﻧ ﺎﻨﻨﻜﻟﻭ ،ﺕﺍﺭﺎﺒﺘﺧﻻﺍ ﻦﻣ ﺪﻳﺰﻣ ﻰﻟﺇ ﺔﺟﺎﺣ ﻙﺎﻨﻫ .ﺓﺪﻳﺮﻔﻟﺍ ﻲﺗﺍﺬﻟﺍ ﺭﺍﺮﻜﺘﻟﺍ ﺺﺋﺎﺼﺧ ﺾﻌﺑ ﻚﻠﺘﻤﺗ ﺎﻬﻧﺃ ﺕﺮﻬﻇﺃ ﻲﺘﻟﺍ ﺀﺎﻨﺒﻟﺍ ﺩﺍﻮﻣ ﻦﻣ ﺕﺎﻨﻴﻋ ﺪﻴﻌﺘﺴﻧ ﻦﺤﻧ .ﺔﺌﻴﺒﻟﺍ ﻩﺬﻫ ﺎﻬﻌﺒﺘﺗ ﻲﺘﻟﺍ ﺪﻋﺍﻮﻘﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻙﺎﻨﻫ ﻥﺃ ﺍﺪﺟ ﺢﺿﺍﻮﻟﺍ ﻦﻤﻓ ،ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﺎﻬﻃﺎﻤﻧﺃ ﺯﻮﻣﺭ ﻚﻔﺑ ﻢﻘﻧ ﻢﻟ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.ﺔﻴﺋﺍﺮﺟﻹﺍ ﺔﻴﺣﺎﻨﻟﺍ ﻦﻣ ﺎﻬﻠﻤﻛﺄﺑ ﺔﻴﻨﺒﻟﺍ ﻩﺬﻫ ﺀﺎﺸﻧﺇ ﻢﺗ\n\n.ﺔﻘﻴﻧﺃ ﺔﻃﺎﺴﺒﺑ ﻊﺘﻤﺘﺗ ﺕﺎﻴﻣﺯﺭﺍﻮﺨﻟﺍﻭ ﺔﻳﺎﻐﻠﻟ ﺔﻣﺪﻘﺘﻣ ﺎﻬﺴﻔﻧ ﺔﺠﻣﺮﺒﻟﺍ ﺔﻐﻟ .ﺔﻴﺠﻣﺮﺒﻟﺍ ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﻚﻓ ﻰﻠﻋ ﺭﺩﺎﻗ [Leader.GetWasWere] [Leader.GetName]"
+ astral_rift.125.a: ".ﺔﻌﺋﺍﺮﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻲﻫ ﺎﻣ"
+
+ astral_rift.130.name: "ﻲﻤﺠﻨﻟﺍ ﺮﺗﻮﻴﺒﻤﻜﻟﺍ"
+ astral_rift.130.desc: ".ﺎﻨﻤﻬﻳ ﺪﻌﻳ ﻢﻟ ﺔﻟﻵﺍ ﻩﺬﻬﻟ ﻥﺎﻛ ﻱﺬﻟﺍ ﺽﺮﻐﻟﺍ ﻥﺎﻛ ﺎﻳﺃ\n\n.ﺎﻫﺮﺋﺍﻭﺩ ﺮﺒﻋ ﻖﻓﺪﺘﺗ ﻲﺘﻟﺍ ﺔﻴﻤﺠﻨﻟﺍ ﻁﻮﻴﺨﻟﺍ ﻦﻣ ﺔﻇﻮﺤﻠﻣ ﺔﻴﻤﻛ ﺩﺍﺩﺮﺘﺳﺍ ﻢﺗ\n\n.ﺎﻬﺋﺍﺰﺟﻷ ﺮﺗﻮﻴﺒﻤﻜﻟﺍ ﺔﻄﺤﻣ ﻚﻴﻜﻔﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+ astral_rift.130.a: ".ﺯﺎﺘﻤﻣ"
+
+astral_rift.140.name: "[GetScientistCapital] ﺩﻮﻌﻳ"
+astral_rift.140.desc: ".ﻲﺑﺎﺴﺤﻟﺍ ﺚﺤﺒﻠﻟ ﻼﻴﻣ ﺐﺴﺘﻛﺍ ﺪﻗ ﺎﻀﻳﺃ [Root.Leader.GetHeShe] ﻥﺃ ﻭﺪﺒﻳ ،ﻡﻮﻬﻔﻣ ﺮﻴﻏ ﺐﺒﺴﻟ\n\n.ﺪﻳﺪﺤﺘﻠﻟ ﻞﺑﺎﻗ ﺮﻴﻏ ،ﺮﺧﺁﻭ ﺖﻗﻮﻟﺍ ﺍﺬﻫ ﻦﻴﺑ ﺎﻣ ﻥﺎﻜﻣ ﻲﻓ ﻩﺯﺎﺠﺘﺣﺍ ﻢﺗ ﻱﺬﻟﺍ ،[Root.Leader.GetHisHer] ﺮﻤﻋ ﻥﺃ ﻭﺪﺒﻳ .ﺮﻴﻐﺗ ...[Root.Leader.IsAre] [Root.Leader.GetHeSheCap]\n\n.ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ ﺪﺣﺃ ﻞﺧﺍﺩ [Root.Leader.GetHisHer] ﺔﻠﺣﺭ ﻦﻣ ﻊﻗﻮﺘﻣ ﺮﻴﻏ ﻞﻜﺸﺑ [Root.GetHasHave] [Root.GetLeaderName] ﺩﺎﻋ"
+
+########################
+# Dimensional Conflict #
+########################
+ astral_rift_ancient_battlegrounds: "ﺩﺎﻌﺑﻷﺍ ﻉﺍﺮﺼﻟﺍ"
+
+ astral_rift.200.name: "ﺔﻤﻳﺪﻗ ﺔﻛﺮﻌﻣ"
+ astral_rift.200.desc: ".ﻂﺒﻀﻟﺎﺑ ﺎﻨﻫ ﺙﺪﺣ ﺎﻣﻭ ،ﻕﻮﻠﺨﻤﻟﺍ ﺍﺬﻫ ﺕﺎﻣ ﻒﻴﻛ ﺔﻓﺮﻌﻣ ﺎﻤﺑﺭﻭ ،ﺔﻴﻠﺧﺍﺪﻟﺍ ﻪﺋﺎﻀﻋﺃ ﺔﺳﺍﺭﺩ ﻝﻭﺎﺤﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ،ﻯﺮﺧﺃ ﺔﻴﺣﺎﻧ ﻦﻣﻭ .ﺎﻨﻟﻮﻄﺳﺃ ﻞﻛﺎﻴﻫ ﺔﻳﻮﻘﺗ ﻲﻓ ﻲﺌﻳﺰﺠﻟﺍ ﺎﻬﺒﻴﻛﺮﺗ ﻞﻴﻠﺤﺗ ﺎﻧﺪﻋﺎﺴﻳ ﻥﺃ ﺽﺮﺘﻔﻤﻟﺍ ﻦﻣﻭ .ﺔﻇﻮﺤﻠﻣ ﺔﻧﺎﺘﻤﺑ ﻊﺘﻤﺘﻳ ﻥﺎﻛ ﺶﺣﻮﻟﺍ ﻥﺃ ﺪﺑ ﻻ \n\n .ﺔﻛﺮﻌﻤﻟﺍ ﺔﺠﻴﺘﻧ ﻚﻟﺫ ﻥﻮﻜﻳ ﻥﺃ ﺢﺟﺮﻤﻟﺍ ﺮﻴﻏ ﻦﻣ ﻪﻧﺃ ﻭﺪﺒﻳ ﻦﻜﻟﻭ ،ﻕﻮﻠﺨﻤﻟﺍ ﺍﺬﻫ ﺓﺎﻓﻭ ﺐﺒﺳ ﺪﻌﺑ ﺩﺪﺤﻧ ﻢﻟ .ﺮﻛﺬﺗ ﺍﺭﺍﺮﺿﺃ ﺎﻬﺑ ﻖﺤﻠﺗ ﻢﻟ ﺎﻬﻧﺃ ﻭﺪﺒﻳ ،ﻦﻔﺴﻟﺍ ﻩﺬﻫ ﺎﻬﺘﻣﺪﺨﺘﺳﺍ ﻲﺘﻟﺍ ﺔﺤﻠﺳﻷﺍ ﺖﻧﺎﻛ ﺎﻤﻬﻣ .ﻅﻮﺤﻠﻣ ﻞﻜﺸﺑ ﺓﺪﻴﺟ ﺔﻟﺎﺣ ﻲﻓ ﺔﺜﺠﻟﺍ ﻥﺈﻓ ،ﺔﻫﻮﺸﻤﻟﺍ ﺔﻴﺑﺮﺤﻟﺍ ﻦﻔﺴﻟﺍ ﻞﻛﺎﻴﻫ ﻦﻣ ﺾﻴﻘﻨﻟﺍ ﻰﻠﻋ\n\n.ﺎﻬﻠﻳﺫ ﻰﻟﺇ ﺎﻬﻓﺮﻃ ﻦﻣ ﺔﻴﺑﺮﺤﻟﺍ ﻦﻔﺴﻟﺍ ﻦﻣ ﺕﺍﺮﻣ ﺮﺸﻌﺑ ﺮﺒﻛﺃ ،ﻲﺸﺣﻭ ﻕﻮﻠﺨﻣ ﺔﺜﺟﻭ ﻱﺮﻜﺴﻋ ﻝﻮﻄﺳﺃ ﻡﺎﻄﺣ ﻮﻫ ﻰﻘﺒﺗ ﺎﻣ ﻞﻛ\n\n.ﻕﻼﻤﻋ ﻉﺍﺮﺻ ﺭﺎﺛﺁ ﻰﻠﻋ ﻉﺪﺼﻟﺍ ﺍﺬﻫ ﻱﻮﺘﺤﻳ"
+ astral_rift.200.a: ".ﻪﺘﺒﻴﻛﺮﺗ ﺔﺳﺍﺭﺩ"
+ astral_rift.200.b: ".ﻙﺎﻨﻫ ﻞﺧﺪﻧ ﺎﻧﻮﻋﺩ"
+
+ astral_rift.205.name: "ﺐﻳﺮﻏ ﻉﺭﺩ"
+ astral_rift.205.desc: ".ﺔﻛﺮﻌﻤﻟﺍ ﻲﻓ ﻪﺘﻬﺟﺍﻮﻤﻟ ﺎﺒﻋﺮﻣ ﺎﻤﺼﺧ ﻥﺎﻛ ﺍﺬﻫ ﻥﺃ ﺪﺑ ﻻ\n\n.ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻦﻔﺳ ﻞﻛﺎﻴﻫ ﺀﺎﻨﺑ ﺔﻴﻔﻴﻛ ﻲﻓ ﺮﻴﻜﻔﺘﻟﺍ ﺓﺩﺎﻋﻹ ﺎﻨﻴﺳﺪﻨﻬﻣ ﺎﻫﺀﺍﺭﻭ ﺔﻨﻣﺎﻜﻟﺍ ﺉﺩﺎﺒﻤﻟﺍ ﻢﻬﻓ ﻢﻬﻟﺃ ﺪﻘﻟ\n\n.ﺔﻌﻴﺒﻄﻟﺍ ﺔﺑﻮﺠﻋﺃ ﻦﻣ ﺔﻴﻘﻴﻘﺣ ﺔﺑﻮﺠﻋﺃ ﺎﻬﻧﺇ .ﺔﻴﻛﺮﺤﻟﺍ ﺕﺎﻣﺪﺼﻟﺍ ﺪﺿ ﺎﻬﺴﻔﻧ ﺯﺰﻌﺗ ﺓﺪﻘﻌﻣ ﺔﻜﺒﺷ ﻲﻓ ﺾﻌﺒﻟﺍ ﺎﻬﻀﻌﺒﺑ ﺔﻄﺒﺗﺮﻤﻟﺍ ﺔﻴﻧﺪﻌﻤﻟﺍﻭ ﺔﻳﻮﻀﻌﻟﺍ ﺕﺎﻧﻮﻜﻤﻟﺍ ﻦﻣ ﺞﻳﺰﻣ ﻰﻠﻋ ﻪﻔﺷﺍﺮﺣ ﻱﻮﺘﺤﺗ\n\n.ﺎﻨﺗﺎﻌﻗﻮﺗ ﻕﻮﻔﻳ ﻥﺎﺛﺎﻳﻮﻠﻟﺍ ﻉﺭﺪﻟ ﻱﺩﺎﻤﻟﺍ ﺐﻴﻛﺮﺘﻟﺍ ﻥﺇ"
+ astral_rift.205.a: "$ ﺔﻌﺋﺍﺭ $"
+
+ astral_rift.210.name: "ﻝﻮﻬﺠﻣ ﺪﺴﺟ"
+ astral_rift.210.desc: ".ﻡﺎﻋ ﻒﻟﺃ ﻦﻴﺴﻤﺧ ﻦﻣ ﺮﺜﻛﺃ ﺬﻨﻣ ﻦﺋﺎﻜﻟﺍ ﺍﺬﻫ ﻲﻓﻮﺗ ﺪﻘﻓ ،ﻲﻧﻮﺑﺮﻜﻟﺍ ﺦﻳﺭﺄﺘﻟﺍ ﻰﻟﺇ ﺍﺩﺎﻨﺘﺳﺍ\n\n .ﺏﺮﺸﻠﻟ ﺎﻨﻫ ﯫﻴﺷ ﺪﺠﻳ ﻢﻟﻭ ،ﺪﻌﺒﻟﺍ ﺍﺬﻬﻟ ﺎﻨﻃﻮﻣ ﺲﻴﻟ ﻪﻧﺃ ﻰﻟﺇ ﺍﺬﻫ ﺮﻴﺸﻳ ﺪﻗ .ﻑﺎﻔﺠﻠﻟ ﺔﺤﺿﺍﻭ ﺕﺎﻣﻼﻋ ﻙﺎﻨﻫ ﺖﻧﺎﻛ ،ﻡﻮﺤﻠﻟﺍ ﻞﻛﺃ ﻲﻓ ﻕﻮﻠﺨﻤﻟﺍ ﺍﺬﻫ ﺕﺍﺩﺎﻋ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ :ﺎﻬﺒﺒﺳﻭ ﺓﺎﻓﻮﻟﺍ ﺖﻗﻭ ﺮﻳﺪﻘﺗ ﻦﻣ ﺎﻨﻜﻤﺗ ﺎﻤﻛ \n\n .ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺔﻌﺳﺍﻭ ﺔﻋﻮﻤﺠﻣ ﻙﻼﻬﺘﺳﺍ ﻰﻠﻋ ﺍﺩﺎﺘﻌﻣ ﻥﺎﻛ ﻕﻮﻠﺨﻤﻟﺍ ﺍﺬﻫ ﻥﺃ ﻒﺸﻛﻭ ،ﻪﻤﺠﺣ ﻦﻣ ﺮﺒﻛﻷﺍ ﺀﺰﺠﻟﺍ ﺔﻳﺎﻐﻠﻟ ﻝﺎﻌﻔﻟﺍ ﻲﻤﻀﻬﻟﺍ ﺯﺎﻬﺠﻟﺍ ﻞﻐﺸﻳ .ﺎﺳﺮﺘﻔﻣ ﺎﻨﺋﺎﻛ ﻥﺎﻛ ﺍﺬﻫ ﻥﺃ ﻰﻟﺇ ﺓﺩﺎﺤﻟﺍ ﻥﺎﻨﺳﻷﺍ ﻦﻣ ﺎﻬﻟ ﺮﺼﺣ ﻻ ﻑﻮﻔﺻ ﺮﻴﺸﺗ .ﻊﺋﺍﺭ ﻲﻠﺧﺍﺪﻟﺍ ﻢﻴﻤﺼﺘﻟﺍ \n\n .ﻪﺘﺠﺴﻧﺃ ﻦﻣ ﺕﺎﻨﻴﻋ ﻊﻤﺟﻭ ﻞﻀﻓﺃ ﻞﻜﺸﺑ ﺔﻴﻠﺧﺍﺪﻟﺍ ﻪﺋﺎﻀﻋﺃ ﻢﻬﻔﻟ ﺶﺣﻮﻟﺍ ﻢﻓ ﺮﺒﻋ ﺓﺮﻣﺎﻐﻤﻟﺎﺑ ﺮﻴﻐﺻ ﻖﻳﺮﻓ ﻡﺎﻗ .ﺕﺍﺮﺠﻔﺘﻤﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﺓﺪﻋﺎﺴﻤﺑ ﻪﻤﻓ ﺢﺘﻓ ﻲﻓ ﺎﻨﺤﺠﻧ ﺪﻘﻓ ،ﻕﻮﻠﺨﻤﻠﻟ ﻊﺋﺍﺮﻟﺍ ﻉﺭﺪﻟﺍ ﻕﺍﺮﺘﺧﺍ ﻦﻣ ﻦﻜﻤﺘﻧ ﻢﻟ ﺎﻤﻨﻴﺑ\n\n.ﺓﺭﻮﺠﻬﻤﻟﺍ ﺔﺜﺠﻟﺍ ﺎﻨﻠﺧﺩ ﺪﻘﻟ"
+ astral_rift.210.a: "$ ﺔﻌﺋﺍﺭ $"
+ astral_rift.210.b.evopred: ".ﺎﻨﻣ ﺀﺎﺒﺘﺧﻼﻟ ﻲﻔﻜﺗ ﻻ ﺔﻨﺳ ﻒﻟﺃ ﻥﻮﺴﻤﺧ"
+
+ astral_rift.215.name: "ﻩﻮﺟﻮﻟﺍ ﺕﺍﺮﺸﻋ"
+ astral_rift.215.desc: ".ﺎﻤﻬﻣ ﻩﺭﺎﺒﺘﻋﺍ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻥﺎﻛ ﻪﻧﺃ ﻰﻟﺇ ﺮﻴﺸﻳ ﻖﻴﻗﺪﻟﺍ ﻪﻨﻳﺰﺨﺗ ﻦﻜﻟ ،ﻪﻨﻣ ﺽﺮﻐﻟﺎﺑ ﻦﻬﻜﺘﻟﺍ ﻞﻴﺤﺘﺴﻤﻟﺍ ﻦﻣ ،ﺕﺍﺭﺎﺒﺘﺧﻻﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻥﻭﺪﺑﻭ .ﻡﺎﻄﺣ ﺮﺒﻛﺃ ﻦﻣ ﻲﻠﺧﺍﺪﻟﺍ ﺀﺰﺠﻟﺍ ﻲﻓ ﻊﻘﻳ ﺮﻴﺒﻛ ﻩﻮﺟﻭ ﻱﺮﺸﻋ ﺎﻨﺛﺍ ﻖﻳﺮﻔﻟﺍ ﺔﻴﻘﺑ ﻒﺸﺘﻛﺍ ،ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻩﺬﻫ ﻢﻬﻓ ﻰﻠﻋ ﻥﻮﻠﻤﻌﻳ ﺎﻧﻮﺳﺪﻨﻬﻣ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\n\n.ﺖﻴﺒﺜﺘﻟﺍ ﻞﺑﺎﻛ ﺝﺍﺮﺨﺘﺳﺍ ﻰﻟﺇ ﺔﺟﺎﺤﻟﺍ ﻥﻭﺩ ﺔﻳﺮﺤﺑ ﻕﻮﻘﺸﻟﺍ ﻦﻣ ﺝﻭﺮﺨﻟﺍﻭ ﻝﻮﺧﺪﻠﻟ ﺎﻬﻤﻴﻤﺼﺗ ﻢﺗ ﺪﻗ ﻦﻔﺴﻟﺍ ﻩﺬﻫ ﻥﺃ ﻭﺪﺒﻳ ﻪﻧﺃ ،ﺮﻈﻨﻠﻟ ﺖﻓﻼﻟﺍ ﻦﻣﻭ .§Y$tech_rift_sphere_plural$§! ﻢﻴﻤﺼﺗ ﻊﻣ ﻪﺑﺎﺸﺗ ﻪﺟﻭﺃ ﻞﻤﺤﺗ ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺎﺒﻛﺮﻤﻠﻟ ﺀﺎﺴﻠﻤﻟﺍ ﺢﻄﺳﻷﺍ\n\n.ﻉﺪﺼﻟﺍ ﺍﺬﻫ ﻞﺧﺍﺩ ﺔﻴﺑﺮﺤﻟﺍ ﻦﻔﺴﻟﺍ ﺎﻳﺎﻘﺑ ﺺﺤﻔﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+ astral_rift.215.a: ".ﺎﻬﺟﻭ ﺮﺸﻋ ﻲﻨﺛﻻﺍ ﻞﻴﻌﻔﺗ ﻝﻭﺎﺣ"
+ astral_rift.215.b: ".ﺀﺍﺰﺟﻷ ﺎﻫﺪﻳﺮﺠﺗ"
+
+ astral_rift.220.name: "ﻂﻴﺸﻨﺘﻟﺍ"
+ astral_rift.220.desc: ".ﺎﻨﻟ ﺓﺮﻴﺒﻛ ﺔﻤﻌﻧ ﺔﺑﺎﺜﻤﺑ ﻊﺋﺍﺮﻟﺍ ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﻥﻮﻜﻳ ﻥﺃ ﻦﻜﻤﻳ\n\n.ﺔﻴﻠﻤﻌﻟﺍ ﻩﺬﻫ ﻲﻓ ﺎﻬﻟﻮﻄﺳﺄﺑ ﺔﻴﺤﻀﺘﻟﺍﻭ ،ﻕﻮﻠﺨﻤﻟﺍ ﺩﺎﻌﺑﻹ ﺔﺴﺋﺎﻳ ﺔﻟﻭﺎﺤﻣ ﻲﻓ ﺎﻴﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﻩﺬﻫ ﺔﻤﻳﺪﻘﻟﺍ ﺕﺎﻳﺭﻮﻃﺍﺮﺒﻣﻹﺍ ﺾﻌﺑ ﺖﻣﺪﺨﺘﺳﺍ ،ﻩﺮﻴﻣﺪﺗ ﻢﻬﻨﻜﻤﻳ ﻻ ﻭﺪﻋ ﺔﻬﺟﺍﻮﻣ ﻲﻓ ﻪﻧﺃ ﺽﺮﺘﻔﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ،ﺔﺑﺮﺠﺘﻟﺍ ﻩﺬﻫ ﻰﻟﺇ ﺍﺩﺎﻨﺘﺳﺍ\n\n.ﻯﺮﺧﺃ ﺓﺮﻣ ﺮﻬﻇ ،ﺯﺎﻬﺠﻟﺍ "ﻞﻴﻐﺸﺗ ﻑﺎﻘﻳﺇ" ﺩﺮﺠﻤﺑ .ﻪﻟﻼﺧ ﻦﻣ ﺎﻨﻠﺧﺩ ﻱﺬﻟﺍ ﻉﺪﺼﻟﺍ ﻕﻼﻏﺇ ﻢﺗ ،ﺎﻄﺸﻧ ﺯﺎﻬﺠﻟﺍ ﻥﺎﻛ ﺎﻤﻨﻴﺑ \n\nA ﺓﺮﻜﻟﺍ ﻪﺒﺸﻳ ﺃﺪﺑ ﺢﺿﺍﻮﻟﺍ ﺮﻴﻏ ﻪﻠﻜﺷ ﻥﺃ ﺔﺟﺭﺪﻟ ﺍﺪﺟ ﻝﺎﻋ ﺩﺩﺮﺘﺑ ﻢﺴﺠﻟﺍ ﺯﺍﺰﺘﻫﺍ ﻲﻓ ﺎﻬﺟﻭ ﺮﺸﻋ ﻲﻨﺛﻻﺍ ﻲﻓ ﺮﺻﺎﻨﻌﻟﺍ ﺾﻌﺑ ﺔﻳﺬﻐﺗ ﺖﺒﺒﺴﺗ .ﻲﻤﺠﻨﻟﺍ ﻂﻴﺨﻟﺍ ﻦﻣ ﺔﻠﻴﺌﺿ ﺕﺎﻴﻤﻛ ﻰﻠﻋ ﻲﻠﺻﻷﺍ ﻪﻓﻼﻏ ﻲﻓ ﻖﻴﻘﺤﺘﻟﺍ ﺓﺩﺎﻋﺇ ﺕﺮﺜﻋ. \n\n .ﺺﺤﻔﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ §Y$tech_rift_sphere$§! ﻦﺘﻣ ﻰﻠﻋ ﺎﻬﺟﻭ ﺮﺸﻋ ﻲﻨﺛﻻﺍ ﺎﻨﻘﻳﺮﻓ ﺮﻀﺣﺃ"
+ astral_rift.220.a: "$ ﺔﻌﺋﺍﺭ $"
+
+ astral_rift.225.name: "ﻚﻴﻜﻔﺘﻟﺍ"
+ astral_rift.225.desc: ".ﺔﻴﺳﺎﺳﻷﺍ ﺎﻬﺗﺎﻧﻮﻜﻣ ﻦﻣ ﺓﺩﺎﻔﺘﺳﻻﺍ ﺪﻴﻛﺄﺘﻟﺎﺑ ﺎﻨﻨﻜﻤﻳ ﻦﻜﻟﻭ ،ﺍﺰﻐﻟ ﺔﻳﺮﺛﻷﺍ ﺔﻌﻄﻘﻟﺍ ﻩﺬﻫ ﻞﻤﻋ ﺔﻴﻔﻴﻛ ﻞﻈﺗ .ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﺔﻳﺰﻛﺮﻤﻟﺍ ﺓﺍﻮﻨﻟﺍ ﻢﻀﻳ .ﺮﺋﺍﻭﺪﻟﺍ ﻦﻣ ﺓﺪﻘﻌﻣ ﺔﻜﺒﺷ ﻰﻟﺇ ﺮﻴﺸﺗ ﻲﺘﻟﺍ $astra_threads$ ﻁﺎﻤﻧﺄﺑ ﺔﻔﻴﺜﻛ ﺔﻴﻠﺧﺍﺪﻟﺍ ﻪﺋﺍﺰﺟﺃ ﺖﻧﺎﻛ .ﺓﺭﺩﺎﻨﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﺍﺰﻨﻛ ﺎﻬﺟﻭ ﺮﺸﻋ ﻲﻨﺛﻻﺍ ﻥﺎﻛ"
+ astral_rift.225.a: "$ ﺔﻌﺋﺍﺭ $"
+
+###############
+# The Lattice #
+###############
+ astral_rift_library: "ﺔﻳﺮﻌﺷ"
+
+ decision_fractal_seed: "ﺔﻳﺭﻮﺴﻛ ﺭﻭﺬﺒﻟﺍ"
+ decision_fractal_seed_desc: ".ﺔﻳﺎﻨﻌﺑ ﻢﻬﻌﻀﻧ ﻥﺃ ﺐﺠﻳ .ﺎﻬﺑ ﻂﻴﺤﻤﻟﺍ ﺀﺎﻀﻔﻠﻟ ﻝﺎﻌﻔﻟﺍ ﻢﺠﺤﻟﺍ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﻲﻓﺎﺿﺇ ﺪﻌﺑ ﻰﻟﺇ ﺎﻬﺴﻔﻧ ﻲﻨﺛ ﻰﻠﻋ ﺓﺭﺩﺎﻗ ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺀﺍﺭﻭ ﺎﻣ ﻦﻣ ﺓﺩﺮﺘﺴﻤﻟﺍ ﺔﻓﺎﻔﺸﻟﺍ ﺕﺍﺮﻜﻟﺍ ﻩﺬﻫ"
+ d_fractal_seed: "$decision_fractal_seed$"
+ d_fractal_seed_desc: "$decision_fractal_seed_desc$"
+
+ astral_rift.300.name: "ﻪﺒﻳﺮﻏ ﻪﺳﺪﻨﻫ"
+ astral_rift.300.desc: ".ﺪﻌﺑ ﺎﻬﻤﻬﻔﻧ ﻢﻟ ﻲﺘﻟﺍﻭ ﻉﺪﺼﻟﺍ ﺍﺬﻫ ﻞﺧﺍﺩ ﻞﻤﻌﺗ ﺔﻴﺋﺎﻳﺰﻴﻓ ﺉﺩﺎﺒﻣ ﻙﺎﻨﻫ ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ\n\n.ﺔﻳﺎﻬﻧﻼﻟﺍ ﻮﺤﻧ ﻒﺜﻜﺘﺗ ﺎﻬﻧﺃ ﻮﻟ ﺎﻤﻛ ﺮﻣﻷﺍ ﻭﺪﺒﻳ .ﺓﺭﺮﻜﺘﻤﻟﺍ ﻁﺎﻤﻧﻷﺍ ﺲﻔﻧ ﻪﺟﺍﻮﻧ ﺎﻨﻧﺈﻓ ،ﺕﺎﻨﻴﻌﻟﺍ ﻢﻴﺨﻀﺗ ﺓﻮﻗ ﻯﺪﻣ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑﻭ .ﺓﺮﻴﺤﻣ ﻥﻮﻜﻟﺍ ﺍﺬﻫ ﺎﻬﻨﻣ ﻥﻮﻜﺘﻳ ﻲﺘﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻞﻴﻠﺤﺗ ﺕﻻﻭﺎﺤﻣ ﻥﺇ .ﻱﺮﺼﺒﻟﺍ ﻢﻫﻮﻟﺍ ﻞﺜﻣ ﺔﻜﺑﺮﻣ ﺎﻬﻨﻜﻟﻭ ،ﺓﺮﻴﻄﺧ ﺔﻄﻴﺤﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻭﺪﺒﺗ ﻻ \n\n .ﺓﺮﻴﻐﺘﻤﻟﺍ ﻥﺍﻮﻟﻷﺍﻭ ،ﺔﻴﺳﺪﻨﻬﻟﺍ ﻁﺎﻤﻧﻷﺍﻭ ،ﺔﻜﺑﺮﻤﻟﺍ ﺔﻳﺮﺼﺒﻟﺍ ﺕﺍﺭﺎﻈﻨﻟﺍ ﻦﻣ ﺔﺣﺎﺴﻣ ﺎﻨﻠﺧﺩ ﺪﻘﻟ"
+ astral_rift.300.a: ".ﺪﻳﺰﻤﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ"
+ astral_rift.300.b: ".ﺎﻬﺑ ﺔﻄﻴﺤﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﺔﺳﺍﺭﺩ .ﻚﻧﺎﻜﻣ ﻲﻓ ﻖﺑﺍ"
+
+ astral_rift.305.name: "ﺩﺎﻌﺑﻷﺍ ﺓﺩﺪﻌﺘﻣ ﻁﺎﻤﻧﺃ"
+ astral_rift.305.desc: ".ﻁﺎﻤﻧﻷﺍ ﻩﺬﻫ ﻲﻓ ﻰﻨﻌﻣ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻲﻓ ﺃﺪﺒﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﺔﺳﺪﻌﻟﺍ ﻩﺬﻫ ﻝﻼﺧ ﻦﻣ ﺎﻨﻄﻴﺤﻣ ﺺﺤﻓ ﻝﻼﺧ ﻦﻣ ﺎﻤﺑﺭ .ﺔﻴﺳﺎﻴﻘﻟﺍ ﺔﺛﻼﺜﻟﺍ ﺔﻴﻧﺎﻜﻤﻟﺍ ﺩﺎﻌﺑﻷﺍ ﻦﻣ ﺮﺜﻛﺃ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺎﺑ ﺢﻤﺴﻳ ﻥﻮﻜﻟﺍ ﺍﺬﻫ ﻥﺃ ﺎﻫﺩﺎﻔﻣ ﺔﻳﺮﻈﻧ [Leader.GetName] ﻊﺿﻭ ﺎﻣﺪﻨﻋ ﻕﺍﺮﺘﺧﺍ ﻖﻴﻘﺤﺗ ﻢﺗ \n\n .ﺄﻃﺎﺒﺘﻧ ،ﺎﻨﻋﺎﻓﺪﻧﺍ ﺓﺩﺎﻳﺯ ﻊﻣ ؛ﺭﺎﺴﻴﻟﺍ ﻰﻟﺇ ﻞﻘﺘﻨﻧ ،ﻡﺎﻣﻸﻟ ﻡﺪﻘﺘﻧ .ﺔﻌﻗﻮﺘﻤﻟﺍ ﺞﺋﺎﺘﻨﻟﺍ ﻊﻣ ﻖﻓﺍﻮﺘﺗ ﻻ ﺎﻨﺘﻨﻴﻔﺳ ﺕﺎﻛﺮﺣ\n\n.ﺎﻨﻫ ﻒﻠﺘﺨﻣ ﻞﻜﺸﺑ ﺀﺎﻀﻔﻟﺍ ﻞﻤﻌﻳ"
+ astral_rift.305.a: ".ﻚﺑ ﺔﺻﺎﺨﻟﺍ ﺕﺎﻘﻴﻘﺤﺘﻟﺍ ﺔﻠﺻﺍﻮﻣ"
+
+ astral_rift.310.name: "ﺩﺎﻌﺑﻷﺍ ﺩﺪﻌﺘﻣ ﻞﻴﻠﺤﺘﻟﺍ"
+ astral_rift.310.desc: ".ﻁﺎﻤﻧﻷﺍ ﻲﻓ ﻰﻨﻌﻣ ﻰﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻲﻓ ﺃﺪﺒﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ﺔﺳﺪﻌﻟﺍ ﻩﺬﻫ ﻝﻼﺧ ﻦﻣ ﺀﺎﻴﺷﻷﺍ ﺺﺤﻓ ﻝﻼﺧ ﻦﻣ ﺎﻤﺑﺭ .ﺔﻴﺳﺎﻴﻘﻟﺍ ﺔﺛﻼﺜﻟﺍ ﺔﻴﻧﺎﻜﻤﻟﺍ ﺩﺎﻌﺑﻷﺍ ﻦﻣ ﺮﺜﻛﺃ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﺔﻴﻧﺎﻜﻣﺇ ﻥﻮﻜﻟﺍ ﺍﺬﻫ ﺮﻓﻮﻳ ،ﻕﺪﺼﻳ ﻻ ﻞﻜﺸﺑ :[Leader.GetName] ﺔﻄﺳﺍﻮﺑ ﻕﺍﺮﺘﺧﺍ ﻖﻴﻘﺤﺗ ﻢﺗ ﻰﺘﺣ ،ﺔﻴﺋﺍﻮﺸﻌﻟﺍ ﺀﺎﺿﻮﻀﻟﺍ ﻦﻣ ﺔﻜﺳﺎﻤﺘﻣ ﺮﻴﻏ ﻰﺿﻮﻓ ﻦﻋ ﺓﺭﺎﺒﻋ ﺕﺎﻧﺎﻴﺒﻟﺍ ﺕﺪﺑ ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ \n .ﺎﻨﻄﻴﺤﻣ ﻞﻴﻠﺤﺘﻟ ﺔﻟﻭﺎﺤﻣ ﻲﻓ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺎﻨﺗﺍﺮﺋﺎﻃ ﻦﻣ ﺓﺪﺣﺍﻭ ﻞﻛ ﻝﺎﺳﺭﺇ ﻢﺗ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑ .ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﻪﻤﻬﻓ ﻥﻭﺩ ﻥﻮﻜﻟﺍ ﺍﺬﻫ ﺮﺒﻋ ﺮﻔﺴﻟﺍ ﺔﻗﺎﻤﺤﻟﺍ ﻦﻣ ﻥﻮﻜﻴﺳ"
+ astral_rift.310.a: ".ﺔﺳﺍﺭﺪﻟﺍ ﻦﻣ ﺪﻳﺰﻣ"
+
+ astral_rift.315.name: "ﺔﺟﺎﺟﺯ ﻲﻓ ﺔﻟﺎﺳﺭ"
+ astral_rift.315.desc.common: ".ﺎﻣﺪﻗ ﻲﻀﻤﻟﺍ ﺔﻴﻔﻴﻛ ﻝﻮﺣ ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﻦﻣ ﺔﻋﻮﻤﺠﻣ ﻦﻋ ﺓﺭﺎﺒﻋ ﺖﻧﺎﻛﻭ ،ﺎﻨﺘﻐﻠﺑ ﺔﺑﻮﺘﻜﻣ ﺖﻧﺎﻛ ﺪﻘﻟ .ﺎﻓﻮﻟﺄﻣ ﺍﺯﺎﻬﺟ ﺎﻧﺪﻌﺘﺳﺍ ،ﺎﻫﺰﻛﺮﻣ ﻲﻓ\n\n.ﺮﺜﻛﺃ ﺔﻳﻮﻄﻣ ﺩﺎﻌﺑﻷ ﺔﺠﻴﺘﻧ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳﻭ ،ﺎﻬﺴﻔﻧ ﺔﻓﺮﻐﻟﺍ ﻞﺧﺍﺩ ﺎﻴﻘﻄﻨﻣ ﻩﺅﺍﻮﺘﺣﺍ ﻢﺘﻳ ﻥﺃ ﻦﻣ ﺮﻴﺜﻜﺑ ﺮﺒﻛﺃ ﻪﻧﺇ ؛ﺔﻌﺳﺍﻭ ﺓﺪﻳﺪﺠﻟﺍ ﺔﺣﺎﺴﻤﻟﺍ ﻩﺬﻫ\n\n.ﺎﻨﻓﺪﻫ ﻰﻟﺇ ﺔﻳﺎﻬﻨﻟﺍ ﻲﻓ ﺎﻨﻠﺻﻭ ﺎﻨﻨﻜﻟ ،ﺔﻫﺎﺘﻤﻟﺍ ﻩﺬﻫ ﺯﺎﻴﺘﺟﻻ ﺔﺑﻮﻠﻄﻣ ﻲﺿﺮﻌﻟﺍ ﻊﺟﺍﺮﺘﻟﺍﻭ ﺓﺩﺎﺤﻟﺍ ﺕﺎﻔﻄﻌﻨﻤﻟﺍ ﺖﻧﺎﻛ .ﺔﻣﻮﻬﻔﻣ ﺮﻴﻏ ﺔﻫﺎﺘﻣ ﺮﺒﻋ ﻱﻮﺘﻠﻣ ﺭﺎﺴﻣ ﻦﻋ ﺓﺭﺎﺒﻋ ﺔﺻﺎﺨﻟﺍ ﺎﻨﺘﺑﺮﺠﺗ ﺖﻧﺎﻛ ،ﺎﻤﻴﻘﺘﺴﻣ ﺎﻄﺧ ﺔﻌﺑﺭﻷﺍ ﺩﺎﻌﺑﻷﺍ ﺭﻮﻈﻨﻣ ﻦﻣ ﻉﺪﺼﻟﺍ ﻒﺼﺘﻨﻣ ﻰﻟﺇ ﺎﻧﺮﻔﺳ ﻥﺎﻛ ﺎﻤﻨﻴﺑ\n\n .ﺓﺭﺮﻜﺘﻤﻟﺍ ﻁﺎﻤﻧﻷﺍ ﻦﻤﺿ "ﺔﻳﺰﻛﺮﻣ ﺔﻓﺮﻏ" ﺩﻮﺟﻭ ﻦﻋ ﺍﺬﻫ ﻒﺸﻛ ﺪﻗﻭ .ﻡﺍﺪﺨﺘﺳﻼﻟ ﺔﻠﺑﺎﻗ ﺔﻄﻳﺮﺧ ﺀﺎﺸﻧﺇ ﻲﻓ ﺎﻨﺤﺠﻧ ،ﺔﻴﻧﺎﻜﻣ ﺩﺎﻌﺑﺃ ﺔﻌﺑﺭﺃ ﻲﻓ ﺎﻨﻄﻴﺤﻣ ﻁﺎﻤﻧﺃ ﺀﺍﺮﻘﺘﺳﺍ ﻝﻼﺧ ﻦﻣﻭ"
+ astral_rift.315.desc.default: ".ﻞﺒﻘﺘﺴﻤﻟﺍ ﻲﻓ ...ﺎﻨﻣ ﺔﻟﺎﺳﺭ ﻩﺬﻫ .[Leader.GetName] ﻞﺒﻗ ﻦﻣ ﻻﺇ ﻪﻴﻠﻋ ﻊﻴﻗﻮﺘﻟﺍ ﻢﺘﻳ ﻢﻟ\n\n$astra_rift.315.desc.common$"
+ astral_rift.315.desc.gestalt: "$astra_rift.315.desc.common$"
+ astral_rift.315.a: "؟ﺎﻬﺑ ﻕﻮﺛﻮﻟﺍ ﻦﻜﻤﻳ ﻞﻫ"
+
+ astral_rift.320.name: "ﻦﻣﺰﻟﺍ ﺮﺒﻋ ﺮﻔﺴﻟﺍ"
+ astral_rift.320.desc: ".ﺮﻴﻄﺨﻟﺍ ﻲﻨﻣﺰﻟﺍ ﻦﻣﺍﺰﺘﻟﺍ ﺍﺬﻫ ﻞﺜﻣ ﺙﻭﺪﺣ ﻊﻨﻤﻟ ﺔﺻﺎﺨﻟﺍ ﺎﻨﺗﺎﻤﻴﻠﻌﺗ ﺎﻧﺀﺍﺭﻭ ﺎﻨﻛﺮﺗ ﺪﻘﻟ .ﻥﻵﺍ ﻰﺘﺣ ﺓﺮﺷﺎﺒﻤﻟﺍ ﺕﺎﻬﺟﺍﻮﻤﻟﺍ ﺎﻨﺒﻨﺠﺗ ،ﻆﺤﻟﺍ ﻦﺴﺤﻟ\n\n.ﺍﺪﺟ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻔﻟ ﺀﺎﻀﻔﻟﺍ ﺍﺬﻫ ﻲﻓ ﺕﺪﻘﻓ ﺎﻬﻧﺃ ﻰﻟﺇ §Y$tech_rift_sphere$§! ﻲﻓ ﻞﻛﺂﺘﻟﺍﻭ ﻞﻛﺂﺘﻟﺍ ﺮﻴﺸﻳ ﺚﻴﺣ ،ﺔﻨﺤﻣ ﻲﻓ ﻯﺮﺧﻷﺍ ﺎﻨﺨﺴﻧ ﺾﻌﺑ ﻥﺃ ﻭﺪﺒﻳ .ﺮﺧﺁ ﺭﺎﺴﻣ ﻦﻣ ﺮﺒﻌﻧ ﺎﻨﺴﻔﻧﺃ ﺎﻧﺪﻬﺷ ،ﺔﻔﻠﺘﺨﻣ ﻁﺎﻘﻧ ﻲﻓﻭ .ﺔﻘﺋﺎﻔﻟﺍ ﺔﻴﻧﺎﻜﻤﻟﺍ ﺩﺎﻌﺑﻷﺍ ﻦﻣ ﺔﻓﻭﺮﻌﻣ ﺮﻴﻏ ﺔﻴﻤﻛ ﺮﺒﻋ ﺔﻟﻮﻬﺴﺑ ﺎﻨﻠﻘﺘﻧﺍ ،ﺎﻨﻣﺎﻣﺃ ﺔﻋﻮﺿﻮﻤﻟﺍ ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﻉﺎﺒﺗﺎﺑ\n\n.ﺭﻭﺎﺤﻤﻟﺍ ﻊﻴﻤﺟ ﺮﺒﻋ ﻦﻣﺰﻟﺍ ﺮﺒﻋ ﺮﻓﺎﺴﻧ ﻦﺤﻧ"
+ astral_rift.320.a: "...ﻖﻠﻘﻣ"
+
+ astral_rift.325.name: "ﺔﻳﺭﻮﺴﻛ ﺭﻭﺬﺑ"
+ astral_rift.325.desc: ".ﺔﻤﻴﺧﻭ ﺐﻗﺍﻮﻋ ﻪﻟ ﻥﻮﻜﻳ ﺪﻗ ﺔﻴﺿﺭﻷﺍ ﺕﺍﺮﻜﻟﺍ ﻩﺬﻫ ﻊﻣ ﻞﻋﺎﻔﺘﻟﺍ ﻥﺃ ﻰﻟﺇ ﺔﻴﻠﺒﻘﺘﺴﻤﻟﺍ ﺎﻨﺴﻔﻧﺃ ﻦﻣ ﻞﺋﺎﺳﺮﻟﺍ ﻲﻓ ﺺﻘﻨﻟﺍ ﺍﺬﻫ ﺮﻴﺸﻳ ﺪﻗ .ﺎﻬﻴﻠﻋ ﺭﻮﺜﻌﻟﺍ ﻦﻜﻤﻳ ﻯﺮﺧﺃ ﺕﺎﻤﻴﻠﻌﺗ ﺪﺟﻮﺗ ﻻ\n\n.ﺎﻬﻛﺍﺭﺩﺇ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺔﺛﻼﺜﻟﺍ ﺩﺎﻌﺑﻷﺍ ﻊﻣ ﻻﺇ ﻞﻋﺎﻔﺘﻟﺍ ﺎﻨﻨﻜﻤﻳ ﻻ ﻦﻜﻟﻭ ،ﻥﻮﻜﻟﺍ ﺍﺬﻫ ﻲﻓ ﺩﻮﺟﻮﻣ ﺪﻌﺑ ﻞﻜﻟ ﺔﻴﺿﺭﺃ ﺓﺮﻛ ﻙﺎﻨﻫ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ ﻪﻧﺃ ﻲﻓ ﻚﺸﻧ ﻦﺤﻧ .ﺪﺣﺍﻭ ﻱﺭﻮﺤﻣ ﻩﺎﺠﺗﺍ ﻲﻓ ﻪﻟ ﺔﻳﺎﻬﻧ ﻻ ﺭﺮﻜﺘﻣ ﻂﻤﻧ ﻰﻠﻋ ﺎﻬﻨﻣ ﻞﻛ ﻱﻮﺘﺤﺗ ،ﺔﻓﺎﻔﺷ ﺕﺍﺮﻛ ﺙﻼﺛ ﻮﻔﻄﺗ ،ﺎﻬﺒﻠﻗ ﻲﻓ .ﺔﻛﺮﺤﻟﺍﻭ ﻥﺍﻮﻟﻷﺍ ﻦﻣ ﺢﻣﺎﺟ ﻝﺎﻜﺸﻤﻛ ﻻﺇ ﻪﻛﺭﺪﺗ ﻥﺃ ﺎﻨﺳﺍﻮﺤﻟ ﻦﻜﻤﻳ ﻻ ﺚﻴﺤﺑ ﺔﻓﻭﺮﻌﻤﻟﺍ ﺮﻴﻏ ﺩﺎﻌﺑﻷﺍ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻦﻣ ﻥﻮﻜﺘﻳ ﺀﺎﻀﻓ ﻲﻓ ﻦﺤﻧ \n\n .ﺔﻫﺎﺘﻤﻟﺍ ﻩﺬﻬﻟ ﺔﻴﻘﻴﻘﺤﻟﺍ ﺔﻳﺎﻬﻨﻟﺍ ﻥﻮﻜﻳ ﻥﺃ ﺐﺠﻳ ﺎﻣ ﺰﻛﺮﻣ ﻰﻟﺇ ﺎﻨﻠﺻﻭ ﺍﺮﻴﺧﺃ"
+ astral_rift.325.a: ".ﺔﻴﺿﺭﻷﺍ ﺕﺍﺮﻜﻟﺍ ﺩﺍﺩﺮﺘﺳﺍ"
+ astral_rift.325.b: ".ﺎﻨﻫ ﺎﻨﻴﻬﺘﻧﺍ ﺪﻘﻟ"
+
+ astral_rift.330.name: "ﺩﺎﻌﺑﻷﺍ ﺕﺎﻳﻭﺎﺣ"
+ astral_rift.330.desc: ".ﻥﺎﻜﺴﻟﺎﺑ ﺔﻈﺘﻜﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻲﻓ ﺓﺮﻴﺒﻛ ﺓﺪﺋﺎﻓ ﺕﺍﺫ ﺓﺰﻬﺟﻷﺍ ﻩﺬﻫ ﻥﻮﻜﺗ ﻥﺃ ﺎﻳﺮﻈﻧ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻦﻜﻟﻭ ،ﻊﺳﻮﺘﻟﺍ ﺍﺬﻫ ﺩﻭﺪﺣ ﻦﻣ ﺪﻌﺑ ﻦﻳﺪﻛﺄﺘﻣ ﺎﻨﺴﻟ ﻦﺤﻧ .ﺎﻬﺑ ﺔﻄﻴﺤﻤﻟﺍ ﺔﺣﺎﺴﻤﻠﻟ ﻝﺎﻌﻔﻟﺍ ﻢﺠﺤﻟﺍ ﻦﻣ ﺪﻳﺰﺗﻭ ﻲﻓﺎﺿﺇ ﺪﻌﺑ ﻰﻟﺇ ﻲﻌﻴﺒﻃ ﻞﻜﺸﺑ ﻲﻨﺤﻨﺗ ﺎﻬﻧﺈﻓ ،ﺔﻳﺩﺮﻓ ﺕﺎﻳﻭﺎﺣ ﻲﻓ ﺎﻬﻌﺿﻭ ﺪﻨﻋ\n\n .ﺓﺪﺣﺍﻭ ﺔﺣﺎﺴﻣ ﻲﻓ ﺕﺎﻨﺋﺎﻜﻟﺍ ﺲﻔﻨﻟ ﺔﻴﻨﻣﺯ ﺕﺍﺭﺍﺪﺻﺇ ﺔﻌﺴﺗ ﻥﻵﺍ ﺪﺟﻮﺗ .ﺔﻘﻳﺮﻄﻟﺍ ﺲﻔﻨﺑ ﺏﺭﺎﻘﺘﺗ ﻢﻟ ﺎﻫﺎﻧﺩﺎﻌﺘﺳﺍ ﻲﺘﻟﺍ ﺔﺛﻼﺜﻟﺍ ﺔﻳﻭﺎﻤﺴﻟﺍ ﻡﺍﺮﺟﻷﺍ ﻥﺃ ﺐﻳﺮﻐﻟﺍ \n\n .ﻪﺘﺒﺘﻋ ﺪﻨﻋ ﺪﺣﺍﻭ ﻲﻓ (؟ﺎﻨﺼﻴﻠﻘﺗ ﻢﺗ ﻭﺃ) "ﺔﺛﻼﺛ" ﺎﻨﺠﻣﺪﻧﺍ ﺪﻗﻭ ،ﺎﻨﺴﻔﻧﺃ ﻦﻣ ﻯﺮﺧﺃ ﺦﺴﻧ ﻦﻣ ﻥﻮﻧﻮﻜﺘﻣ ﺎﻨﻧﺃ ﺽﺮﺘﻔﻤﻟﺍ ﻦﻣ .ﻥﺎﻳﺮﺧﺃ ﻥﺎﺗﺮﻛ ﺎﻨﻌﻣ ﺕﺀﺎﺟ ،ﻉﺪﺼﻟﺍ ﺮﺒﻋ ﺎﻧﺪﻋ ﺎﻣﺪﻨﻋ"
+ astral_rift.330.a: ".ﺔﺤﻳﺮﻣ ﻒﻴﻛ"
+ fractal_seeds_available_tt: ".§Hﺐﻛﺍﻮﻜﻟﺍ ﺕﺍﺭﺍﺮﻗ§! ﺮﺒﻋ ،ﺓﺮﻤﻌﺘﺴﻤﻟﺍ ﺐﻛﺍﻮﻜﻟﺍ ﻰﻠﻋ ﺎﻬﻌﺿﻮﻟ §YFractal Seeds§! [Explorer.num_authorized_fractal_seeds] ﻚﻳﺪﻟ ﻥﻮﻜﻴﺳ"
+
+ astral_rift.335.name: "ﺔﺒﻳﺮﻗ ﺕﺍﺀﺎﻘﻟ"
+ astral_rift.335.desc: ".ﻥﺎﻜﺴﻟﺎﺑ ﺔﻈﺘﻜﻤﻟﺍ ﻖﻃﺎﻨﻤﻟﺍ ﻲﻓ ﺓﺮﻴﺒﻛ ﺓﺪﺋﺎﻓ ﺕﺍﺫ ﺓﺰﻬﺟﻷﺍ ﻩﺬﻫ ﻥﻮﻜﺗ ﻥﺃ ﺎﻳﺮﻈﻧ ﻦﻜﻤﻤﻟﺍ ﻦﻣ ﻦﻜﻟﻭ ،ﻊﺳﻮﺘﻟﺍ ﺍﺬﻫ ﺩﻭﺪﺣ ﻦﻣ ﺪﻌﺑ ﻦﻳﺪﻛﺄﺘﻣ ﺎﻨﺴﻟ ﻦﺤﻧ .ﺎﻬﺑ ﺔﻄﻴﺤﻤﻟﺍ ﺔﺣﺎﺴﻤﻠﻟ ﻝﺎﻌﻔﻟﺍ ﻢﺠﺤﻟﺍ ﻦﻣ ﺪﻳﺰﻳ ﺎﻤﻣ ،ﻲﻓﺎﺿﺇ ﺪﻌﺑ ﻰﻟﺇ ﻲﻨﺤﻨﺗ ﺎﻬﻧﺈﻓ ،ﺪﻳﺪﺤﺘﻟﺍ ﻪﺟﻭ ﻰﻠﻋ .ﺓﺪﻴﻔﻣﻭ ﻡﺎﻤﺘﻫﻼﻟ ﺓﺮﻴﺜﻣ ﺺﺋﺎﺼﺧ ﺮﻬﻈﺗ ،ﺔﺑﺮﺠﺘﻟﺍ ﻲﻓ\n\n.ﺎﻫﺩﺎﻌﺘﺳﺍ ﺪﻗ ﻯﺮﺧﻷﺍ ﺎﻨﺗﺍﻭﺫ ﺪﺣﺃ ﻥﺃ ﺪﺑ ﻻ .ﻉﺪﺼﻟﺍ ﻦﻣ ﺐﻳﺮﻘﻟﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﺎﻌﻴﻤﺟ ﺔﺛﻼﺜﻟﺍ ﻊﻣ ﺮﻣﻷﺍ ﺎﻨﺑ ﻰﻬﺘﻧﺍ ﺎﻨﻧﺃ ﻻﺇ ،ﺎﻨﻌﻣ ﺔﻴﺿﺭﻷﺍ ﺕﺍﺮﻜﻟﺍ ﻦﻣ ﻱﺃ ﺬﺧﺃ ﻡﺪﻋ ﺎﻧﺮﺘﺧﺍ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋﻭ"
+ astral_rift.335.a: ".ﺎﻨﺴﻔﻧﺃ ﺎﻧﺪﻋﺎﺳ ﺪﻘﻟ"
+
+###############
+# Subnautical #
+###############
+ astral_rift_subnautical: "ﻱﺮﺤﺑ ﺖﺤﺗ"
+
+ astral_rift.500.name: "ﺓﺭﻮﻤﻐﻣ"
+ astral_rift.500.desc: ".ﺢﻄﺴﻟﺍ ﺖﺤﺗ ﺮﻴﺒﻛ ﻖﻤﻋ ﻰﻠﻋ ﺎﻣ ﻥﺎﻜﻣ ﻲﻓ ﺎﻨﻧﺈﻓ ،ﻩﺎﻴﻤﻟﺍ ﻂﻐﺿ ﻉﺎﻔﺗﺭﺍ ﻰﻠﻋ ﻢﻜﺤﻟﺎﺑ\n\n.ﺕﺎﻤﻴﺴﺟ ﻭﺃ ،ﺔﻤﺋﺎﻋ ﺐﺳﺍﻭﺭ ﻭﺃ ،ﺓﺎﻴﺤﻠﻟ ﺕﺎﻣﻼﻋ ﻱﺃ ﺎﻨﺗﺍﻭﺩﺃ ﺮﻬﻈﺗ ﻻ .ﻢﻠﻈﻣ ﺀﻲﺷ ﻞﻛ .ﻊﺳﺎﺷ ﻂﻴﺤﻣ ﻪﻧﺃ ﻭﺪﺒﻳ ﺎﻣ ﻕﺎﻤﻋﺃ ﻰﻟﺇ ﺓﺮﻜﻟﺍ ﺖﻠﺻﻭ ؛ﺎﻔﻴﻨﻋ ﻥﺎﻛ ﺎﻣ ﺭﺪﻘﺑ ﯫﺟﺎﻔﻣ ﻂﻐﻀﻟﺍ ﻲﻓ ﺮﻴﻐﺘﻟﺍ ﻥﺎﻛ"
+ astral_rift.500.a: ".ﻖﻤﻋﺃ ﺹﻮﻐﻟﺍ"
+ astral_rift.500.b: ".ﺢﻄﺴﻟﺍ ﻰﻟﺇ ﻪﺟﻮﺗ"
+
+ astral_rift.505.name: "ﺔﻌﻗﻮﺘﻣ ﺮﻴﻏ ﺞﺋﺎﺘﻧ"
+ astral_rift.505.desc: ".ﺎﻨﺑ ﺔﻄﻴﺤﻤﻟﺍ ﺔﺌﻴﺒﻟﺍ ﻲﻓ ﺮﻴﻴﻐﺗ ﻱﺃ ﻆﺣﻼﻧ ﻢﻟ ﺎﻨﻨﻜﻟ ،ﺕﺎﻋﺎﺴﻟ ﺀﺎﻤﻟﺍ ﺮﺒﻋ ﺮﻓﺎﺴﻧ ﺎﻨﻛ ﺪﻘﻟ\n\n.ﺎﻣ ﺄﻄﺧ ﻙﺎﻨﻫ"
+ astral_rift.505.desc.default: ".ﺢﻄﺴﻟﺍ ﻰﻠﻋ ﺔﻃﺎﺴﺒﺑ ﻮﻔﻄﻧ ﺪﻘﻓ ،ﺔﻓﺎﺜﻜﻟﺍ ﺔﻀﻔﺨﻨﻣ ﺔﻴﻃﺎﻄﻣ ﺕﺎﺒﻛﺮﻤﺑ ﺎﻨﺴﻔﻧﺃ ﺎﻨﻄﺑﺭﻭ ﺓﺮﻜﻟﺍ ﻦﻣ ﺎﻨﺟﺮﺧ ﺍﺫﺇ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺮﻴﺼﻘﻟﺍ ﺰﻔﻘﻟﺍ ﻝﻭﺎﺤﻧ ﻥﺄﺑ ﻲﺻﻮﻳﻭ .ﺎﻬﻴﻠﻋ ﺐﻠﻐﺘﻟﺍ ﺎﻨﺗﺎﻛﺮﺤﻣ ﻊﻴﻄﺘﺴﺗ ﻻ ﻲﺘﻟﺍﻭ ﺎﻨﻴﻠﻋ ﺓﺮﺛﺆﻤﻟﺍ ﻯﻮﻘﻟﺍ ﺾﻌﺑ ﻙﺎﻨﻫ ﻥﺃ ﺔﻓﺪﻟﺍ ﺪﺋﺎﻗ ﺪﻘﺘﻌﻳ\n\n$astral_rift.505.desc$"
+ astral_rift.505.desc.gestalt: ".ﺢﻄﺴﻟﺍ ﻰﻠﻋ ﺔﻃﺎﺴﺒﺑ ﻮﻔﻄﻧ ﺪﻘﻓ ،ﺔﻓﺎﺜﻜﻟﺍ ﺔﻀﻔﺨﻨﻣ ﺔﻴﻃﺎﻄﻣ ﺕﺎﺒﻛﺮﻤﺑ ﺎﻨﺴﻔﻧﺃ ﺎﻨﻄﺑﺭﻭ ﺓﺮﻜﻟﺍ ﻦﻣ ﺎﻨﺟﺮﺧ ﺍﺫﺇ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺓﺮﻴﺼﻗ ﺓﺰﻔﻘﺑ ﺎﻬﻴﻠﻋ ﺐﻠﻐﺘﻟﺍ ﻦﻣ ﻦﻜﻤﺘﻧ ﺪﻗ\n\n.ﺎﻬﻴﻠﻋ ﺐﻠﻐﺘﻟﺍ ﺎﻨﺗﺎﻛﺮﺤﻣ ﻊﻴﻄﺘﺴﺗ ﻻ ﻲﺘﻟﺍﻭ ﺎﻨﻴﻠﻋ ﺓﺮﺛﺆﻤﻟﺍ ﻯﻮﻘﻟﺍ ﺾﻌﺑ ﻙﺎﻨﻫ\n\n$astral_rift.505.desc$"
+ astral_rift.505.a: ".ﺕﺎﻛﺮﺤﻤﻟﺍ ﻞﻴﻌﻔﺗ"
+ astral_rift.505.b: ".ﺢﺒﺴﻧ ﻦﺤﻧ .ﻂﻐﻀﻟﺍ ﺕﻻﺪﺑ ﺀﺍﺪﺗﺭﺍ"
+
+ astral_rift.510.name: "ﺐﻛﻮﻜﻟﺍ ﻢﺠﺤﺑ ﺔﻋﺎﻘﻓ"
+ astral_rift.510.desc: ".ﺔﻴﺑﺫﺎﺠﻟﺍ ﻯﻮﻗ ﻕﺍﺮﺘﺧﻻ ﺔﻴﻓﺎﻛ ﺔﻘﺑﺎﺴﻟﺍ ﺎﻨﺗﺎﻋﺮﺳ ﻦﻜﺗ ﻢﻟ \n\n .ﺀﺎﻀﻔﻟﺍ ﻍﺍﺮﻓ ﻲﻓ ﺐﻛﻮﻛ ﻢﺠﺤﺑ ﺔﻋﺎﻘﻓ ﻞﺧﺍﺩ ﻊﻗﺍﻮﻟﺍ ﻲﻓ ﺎﻨﻛ ﺎﻨﻧﺃ ﺎﻨﻔﺸﺘﻛﺍ ،ﺎﻬﻗﺍﺮﺘﺧﺍ ﺪﻌﺑﻭ .ﺢﻄﺴﻟﺍ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺎﻧﺮﻬﻇ ﺪﻘﻟ .ﺖﺤﺠﻧ ﺪﻗ ﺓﺮﻴﺼﻘﻟﺍ ﺓﺰﻔﻘﻟﺍ ﻥﺃ ﻭﺪﺒﻳﻭ"
+
+ astral_rift.515.name: "ﺢﺒﺴﻧ ﻦﺤﻧ"
+ astral_rift.515.desc.1: ".ﻲﻤﺠﻨﻟﺍ ﺞﻴﺴﻨﻟﺍ ﻦﻣ ﺰﻴﻛﺮﺘﻟﺍ ﺓﺪﻳﺪﺷ ﻁﻮﻴﺨﻟﺍ ﺾﻌﺑ ﺎﻨﺘﻟﺪﺑ ﻲﻓ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﺤﺷﺮﻤﻟﺍ ﺖﻌﻤﺟ ،ﻖﻳﺮﻄﻟﺍ ﻝﻮﻃ ﻰﻠﻋ\n\n.ﺢﻄﺴﻟﺍ ﻰﻟﺇ ﺔﻀﻔﺨﻨﻤﻟﺍ ﺎﻨﺗﺎﻓﺎﺜﻛ ﺎﻨﺘﻌﻓﺭ ،ﺔﺸﻫﺪﻣ ﺔﻋﺮﺴﺑﻭ ،ﺎﻨﻣﻼﻋﺇ ﻢﺗ ﺎﻤﻛ ﺎﻨﺑ ﺔﺻﺎﺨﻟﺍ ﺉﺭﺍﻮﻄﻟﺍ ﺕﺎﻣﺍﻮﻋ ﺦﻔﻨﺑ ﺎﻨﻣ ﻞﻛ ﻡﺎﻗ\n\n.ﺔﺼﺼﺨﺘﻤﻟﺍ ﻂﻐﻀﻟﺍ ﺔﻟﺩﺎﻌﻣ ﺔﻓﺮﻏ ﻝﻼﺧ ﻦﻣ ﻝﺎﺠﻤﻟﺍ ﻦﻣ ﺎﻨﺟﺮﺧﻭ ،ﺓﺪﻴﻌﺒﻟﺍ ﻝﺎﺒﺤﻟﺍ ﺮﺸﻧ ﻢﺗ"
+ astral_rift.515.desc.2: ".ﺎﻨﻌﻗﻮﻣ ﻦﻣ ﺏﺮﻘﻟﺎﺑ ﺓﺮﻴﺼﻗ ﺓﺰﻔﻗ ﺎﻨﺒﻠﻃﻭ ﺓﺮﻜﻟﺎﺑ ﺎﻴﻜﻠﺳﻻ ﻝﺎﺼﺗﻻﺎﺑ ﺎﻨﻤﻗ ﺪﻘﻟ\n\n.ﺎﻨﻫ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺔﻴﺑﺫﺎﺠﻟﺍ ﻯﻮﻗ ﻰﻠﻋ ﺐﻠﻐﺘﻟﺍ ﺎﻬﻨﻜﻤﻳ ﻻ ﺚﻴﺤﺑ ﺍﺪﺟ ﺔﻴﻟﺎﻋ §Y$tech_rift_sphere$§! ﺔﻓﺎﺜﻛ ﺖﻧﺎﻛ\n\n.ﺀﺎﻀﻔﻟﺍ ﻍﺍﺮﻓ ﻲﻓ ﺐﻛﻮﻜﻟﺍ ﻢﺠﺤﺑ ﺔﻋﺎﻘﻓ ﻞﺧﺍﺩ ﻊﻗﺍﻮﻟﺍ ﻲﻓ ﺎﻨﻛ ﺎﻨﻧﺃ ﺎﻨﻔﺸﺘﻛﺍ ،ﺢﻄﺴﻟﺍ ﺔﻤﺨﻀﻟﺍ ﺎﻨﺗﻻﺪﺑ ﺖﻗﺮﺘﺧﺍ ﻥﺃ ﺪﻌﺑ"
+ astral_rift.515.desc.default: "$astral_rift.515.desc.2$\n\n$astra_rift.515.desc.1$"
+ astral_rift.515.desc.aquatic: "$astral_rift.515.desc.2$\n\n.ﺔﻴﻌﻴﺒﻄﻟﺍ ﺎﻨﺘﺌﻴﺑ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ ﺔﺻﺮﻔﺑ ﺎﻨﻌﺘﻤﺘﺳﺍ ﺪﻘﻟ .ﺮﻳﺪﻘﺗ ﻞﻗﺃ ﻰﻠﻋ ،ﺔﻌﺘﻤﻣ ﺔﺣﺎﺒﺳ ﺖﻧﺎﻛ ﺪﻘﻟ\n\n$astral_rift.515.desc.1$" #Must also be non-gestalt
+
+ astral_rift.520.name: "ﺐﻛﺍﻮﻜﻟﺍ ﺕﺎﻋﺎﻘﻓ"
+ astral_rift.520.desc: ".ﺎﻨﻈﺣﻼﻳ ﻢﻟ ﻪﻧﺃ ﻭﺪﺒﻴﻓ ،ﺎﻴﺣ ﻥﺎﻛ ﺍﺫﺇ\n\n.ﻪﺘﻴﻨﺑ ﻦﻣ ﺪﻳﺪﺠﻟﺍ ﻞﺋﺎﺴﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻋﺎﻘﻓ ﻖﻓﺪﺘﺗ ،ﻥﺎﻴﺣﻷﺍ ﺾﻌﺑ ﻲﻓﻭ .ﺀﻂﺒﺑ ﻙﺮﺤﺘﺗﻭ ﻊﻄﻘﻟﺍ ﻙﺮﺤﺘﺗ ،ﻖﻴﻗﺪﻟﺍ ﺺﺤﻔﻟﺍ ﺪﻨﻋ\n\n.ﻙﺮﺘﺸﻣ ﺭﺪﺼﻣ ﻦﻣ ﻭﺃ ،ﻯﺮﺧﻷﺍ ﻦﻣ ﺓﺪﺣﺍﻭ ﻥﻮﻜﺗ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣﻭ .ﻪﻟﻮﺣ ﺭﻭﺪﻳ ﻱﺬﻟﺍ ﻢﺠﻨﻟﺍ ﻞﺧﺍﺩ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻚﻠﺗ ﻊﻣ ﺎﺒﻳﺮﻘﺗ ﻖﺑﺎﻄﺘﺗ ﺔﻔﻠﺘﺨﻣ ﻥﺩﺎﻌﻣﻭ ﺔﻨﻴﻤﺛ ﻥﺩﺎﻌﻣ ﻦﻣ ﻥﻮﻜﺘﻳ ﻪﻧﺃ ﺢﺴﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺩﺪﺤﺗ .ﻢﺨﺿ ﻕﺎﻄﻧ ﻰﻠﻋ ﺩﺎﻌﺑﻷﺍ ﺔﻴﺛﻼﺛ ﺔﻴﺠﺣﺃ ﻞﺜﻣ ،ﺔﻄﺑﺍﺮﺘﻣ ﺔﻤﺨﺿ ﺀﺍﺰﺟﺃ ﻦﻣ ﺔﻴﻨﺒﻣ ﺎﻬﻧﺇ .ﻢﺠﺤﻟﺍ ﺲﻔﻨﺑ ﺎﻬﻨﻜﻟﻭ ،ﺔﻤﺠﻧ ﺖﺴﻴﻟ ﺎﻬﻧﺇ .ﺮﺧﺁ ﺀﻲﺷ ﻙﺎﻨﻫ\n\n.ﺍﺩﺭﺎﺑﻭ ﺎﻤﻠﻈﻣﻭ ﺎﻤﻳﺪﻗ ﻭﺪﺒﻳ .ﻒﻴﻌﺿ ﻞﻜﺸﺑ ﻪﻟﻮﺣ ﺭﻭﺪﻧ ﺐﻳﺮﻗ ﻢﺠﻧ ﻙﺎﻨﻫ .ﺎﻨﻟﻮﺣ ﻥﺎﻜﻣ ﻞﻛ ﻲﻓ ﻮﻔﻄﺗ ﻱﺭﻮﻠﺒﻟﺍ ﻞﺋﺎﺴﻟﺍ ﻦﻣ ﻲﺒﻛﻮﻛ ﻢﺠﺤﺑ ﺕﺎﻋﺎﻘﻓ .ﺔﻀﻔﺨﻨﻤﻟﺍ ﺔﻴﺑﺫﺎﺠﻟﺍ ﺐﺒﺴﺑ ﺕﺮﺠﻔﻧﺍ ﺔﻤﺠﻧ ﻢﺠﺤﺑ ﺔﻠﺋﺎﺳ ﺔﺟﺎﺟﺯ ﻥﺃ ﻮﻟ ﺎﻤﻛ ﺎﻨﻟﻮﺣ ﻦﻣ ﺀﺎﻀﻔﻟﺍ ﻭﺪﺒﻳ"
+ astral_rift.520.a: ".ﻞﺻﺍﻮﺘﻟﺍ ﻝﻭﺎﺣ"
+ astral_rift.520.b: ".ﻦﺋﺎﻜﻟﺍ ﻦﻣ ﺏﺮﺘﻗﺍ"
+
+ astral_rift.525.name: "ﻞﺻﺍﻮﺗ"
+ astral_rift.525.desc.1: ".ﺍﺮﻤﺘﺴﻣﻭ ﺎﺒﻴﻫﺭ ﺎﺒﻴﺤﻧ ﺚﻌﺒﻨﻳ ﻪﻧﺇ\n\n.ﺎﻣ ﯫﻴﺷ ﺎﻧﺪﺟﻭ ﻢﺛ ،ﺔﺣﺎﺘﻤﻟﺍ ﺔﻴﺗﻮﺼﻟﺍ ﺕﺍﺩﺩﺮﺘﻟﺍ ﻊﻴﻤﺟ ﺮﺒﻋ ﺮﻳﻭﺪﺘﻟﺎﺑ ﺎﻨﻤﻗ ﺪﻘﻟ\n\n.ﺔﻴﻟﻼﻘﺘﺳﻻﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﻞﻜﺸﺑ ﻊﺘﻤﺘﺗ ﻥﺃ ﺐﺠﻳ ،ﺔﻧﺎﻴﺻ ﻭﺃ ﺔﻳﺎﻋﺭ ﻥﻭﺩ ﺔﻤﺨﻀﻟﺍ ﺔﻴﻟﻵﺍ ﻩﺬﻫ ﻞﺜﻣ ﺪﺟﻮﺗ ﻲﻜﻟ"
+ astral_rift.525.desc.2: "؟ﻝﻮﻘﻧ ﻥﺃ ﺐﺠﻳ ﺍﺫﺎﻣ\n\n.ﻞﺻﺍﻮﺘﻠﻟ ﺔﻟﻭﺎﺤﻣ ﻲﻓ ﺩﺩﺮﺘﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﺔﻃﻮﺒﻀﻣ ﺔﻓﻭﺮﻌﻣ ﺔﻐﻟ ﻞﻜﺑ ﺔﻟﺎﺳﺭ ﺚﺒﻟ ﺩﺍﺪﻌﺘﺳﺍ ﻰﻠﻋ ﺎﻴﻟﺎﺣ ﻦﺤﻧﻭ"
+ astral_rift.525.desc.default: "$astral_rift.525.desc.2$\n\n.ﺔﻔﺷ ﺖﻨﺒﺑ ﺲﺒﻨﻳ ﻥﺃ ﻥﻭﺩ ﺚﺒﻟﺍ ﺔﻓﺪﻟﺍ ﺪﺋﺎﻗ ﻊﻄﻗ ﻰﺘﺣ ﺔﻗﺭﺎﻏ ﻢﻗﺎﻄﻟﺍ ﺱﺍﻮﺣ ﺖﺤﺒﺻﺃ ﺎﻣ ﻥﺎﻋﺮﺳ\n\n$astral_rift.525.desc.1$"
+ astral_rift.525.desc.gestalt: "$astral_rift.525.desc.2$\n\n$astra_rift.525.desc.1$"
+ astral_rift.525.a: ".ﺕﺎﻴﺤﺗ"
+ astral_rift.525.b: "؟ﺖﻧﺃ ﺎﻣ"
+ astral_rift.525.c: "؟ﺓﺪﻋﺎﺴﻣ ﻰﻟﺇ ﺝﺎﺘﺤﺗ ﻞﻫ"
+
+ astral_rift.530.name: "ﺞﻬﻨﻟﺍ"
+ astral_rift.530.desc: ".ﺔﺳﺍﺭﺪﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺎﻨﻳﺪﻟ ﺮﺗﻮﻴﺒﻤﻜﻟﺍ ﺓﺰﻬﺟﺃ ﻰﻟﺇ ﺔﻴﻠﻜﻴﻬﻟﺍ ﻪﻠﻴﺻﺎﻔﺗ ﻞﻴﻤﺤﺘﺑ ﻡﻮﻘﻧ ﻦﺤﻧ\n\n.ﺎﻣﺎﻤﺗ ﺮﻬﺼﻨﻣ ،ﻪﻟﻮﻗ ﺎﻨﻨﻜﻤﻳ ﺎﻤﻣ ،ﻩﺮﻫﻮﺟ .ﺔﻓﻭﺮﻌﻤﻟﺍ ﻥﺩﺎﻌﻤﻟﺍ ﻢﻈﻌﻣ ﺔﺑﺍﺫﻹ ﻲﻔﻜﺗ ﺔﻜﺑﺎﺸﺘﻤﻟﺍ ﻊﻄﻘﻟﺍ ﻙﺎﻜﺘﺣﺍ ﻦﻋ ﺔﺠﺗﺎﻨﻟﺍ ﺓﺭﺍﺮﺤﻟﺍﻭ .ﺓﺮﻤﺘﺴﻣ ﺔﻛﺮﺣ ﻲﻓ ﻢﺴﺠﻟﺍ \n\n .ﺔﺒﻳﺮﻘﻟﺍ ﺀﺎﻤﻟﺍ ﺕﺎﻋﺎﻘﻓ ﻝﻮﺣ ﺭﺬﺤﺑ ﺎﻨﻛﺮﺤﺗﻭ ،ﺀﻂﺒﺑ ﺎﻨﺑﺮﺘﻗﺍ"
+ astral_rift.530.a: "...ﺮﺜﻛﺃ ﺏﺮﺘﻗﺍ"
+
+ astral_rift.535.name: "ﺓﻮﺤﺼﻟﺍ"
+ astral_rift.535.answer.a: ".ﺄﻄﺨﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﻪﻴﻟﺇ ﺓﺭﺎﺷﻹﺍ ﻭﺃ ﻢﻜﺤﺘﻟﺍ ﺓﺪﺣﻭ ﻰﻠﻋ ﺭﺍﺬﻧﺇ ﻞﻛ ﻂﻴﺸﻨﺗ ﻢﺗ .ﺎﻨﺘﻨﻴﻔﺳ ﺕﺰﺘﻫﺍﻭ ،ﻲﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﻉﺎﻌﺷﻹﺍ ﻦﻣ ﺔﻀﺒﻧ ﻚﻟﺫ ﺪﻌﺑ ﺕﺮﺠﻔﻧﺍ \n\n .ﺎﻨﻫﺎﺠﺗﺍ ﻲﻓ ﺓﺪﻳﺪﺷ ﺓﺭﺍﺮﺣ ﻪﻨﻣ ﺚﻌﺒﻨﻳﻭ ﺎﻧﻮﺤﻧ ﺀﻂﺒﺑ ﺭﻭﺪﻳ ،ﻢﺴﺠﻟﺍ ﻦﻣ ﻂﻘﻓ ﺪﺣﺍﻭ ﺐﻧﺎﺟ ﻰﻠﻋ ﺩﻮﺟﻮﻤﻟﺍ ،ﻥﺮﻔﻟﺍ ﺍﺬﻫ .ﻪﻌﻄﻗ ﻞﺧﺍﺩ ﻦﻣ ،ﺮﻴﻐﺻ ﻢﺠﻧ ﻞﺜﻣ ،ﺔﻳﺭﺎﻧ ﺓﺮﻛ ﺕﺮﻬﻇ\n\n .ﻝﺎﻋ ﻉﺭﺎﺴﺘﺑ ﻡﺎﻣﻸﻟ ﺎﻨﺒﺤﺳ ﻢﺗﻭ ،ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻪﺘﻴﺑﺫﺎﺟ ﺕﺩﺍﺯ .ﺔﻠﻫﺬﻣ ﺔﻋﺮﺴﺑ ﺭﻭﺪﺗﻭ ﺝﺭﺎﺨﻟﺍ ﻰﻟﺇ ﺎﻬﻌﻄﻗ ﺖﺒﺤﺴﻧﺍ ﺪﻘﻟ .ﺓﺄﺠﻓ ﻆﻘﻴﺘﺳﺍ ﺪﻗ ﻦﺋﺎﻜﻟﺍ"
+ astral_rift.535.answer.b: "§E".ﺎﻨﻛﺮﺗﺍ .ﻥﺰﺣ"§! :ﻲﺋﺎﻨﺜﻟﺍ ﺰﻣﺮﻟﺎﺑ ﺔﺑﻮﺘﻜﻣ ،ﺔﻓﻭﺮﻌﻤﻟﺍ ﺎﻨﺗﺎﻐﻟ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻲﻓ ﺓﺭﺎﺒﻌﻟﺍ ﻞﻴﺠﺴﺗ ﻢﺗ\n\n.ﻢﺟﺮﺘﻤﻟﺍ ﺀﺎﻨﺜﺘﺳﺎﺑ - ﺄﻄﺨﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﻪﻴﻟﺇ ﺓﺭﺎﺷﻹﺍ ﻢﺗ ﻭﺃ ،ﻢﻜﺤﺘﻟﺍ ﺓﺪﺣﻭ ﻰﻠﻋ ﺭﺍﺬﻧﺇ ﻞﻛ ﻂﻴﺸﻨﺗ ﻢﺗ .ﺎﻨﺘﻨﻴﻔﺳ ﺕﺰﺘﻫﺍﻭ ،ﻲﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﻉﺎﻌﺷﻹﺍ ﻦﻣ ﺔﻀﺒﻧ ﻚﻟﺫ ﺪﻌﺑ ﺕﺮﺠﻔﻧﺍ \n\n .ﺎﻨﻫﺎﺠﺗﺍ ﻲﻓ ﺓﺪﻳﺪﺷ ﺓﺭﺍﺮﺣ ﻪﻨﻣ ﺚﻌﺒﻨﻳﻭ ﺎﻧﻮﺤﻧ ﺀﻂﺒﺑ ﺭﻭﺪﻳ ،ﻢﺴﺠﻟﺍ ﻦﻣ ﻂﻘﻓ ﺪﺣﺍﻭ ﺐﻧﺎﺟ ﻰﻠﻋ ﺩﻮﺟﻮﻤﻟﺍ ،ﻥﺮﻔﻟﺍ ﺍﺬﻫ .ﻪﻌﻄﻗ ﻞﺧﺍﺩ ﻦﻣ ،ﺮﻴﻐﺻ ﻢﺠﻧ ﻞﺜﻣ ،ﺔﻳﺭﺎﻧ ﺓﺮﻛ ﺕﺮﻬﻇ\n\n .ﻝﺎﻋ ﻉﺭﺎﺴﺘﺑ ﻡﺎﻣﻸﻟ ﺎﻨﺒﺤﺳ ﻢﺗﻭ ،ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻪﺘﻴﺑﺫﺎﺟ ﺕﺩﺍﺯ .ﺔﻠﻫﺬﻣ ﺔﻋﺮﺴﺑ ﺭﻭﺪﺗﻭ ﺝﺭﺎﺨﻟﺍ ﻰﻟﺇ ﺎﻬﻌﻄﻗ ﺖﺒﺤﺴﻧﺍ ﺪﻘﻟ .ﺓﺄﺠﻓ ﻆﻘﻴﺘﺳﺍ ﺪﻗ ﻦﺋﺎﻜﻟﺍ"
+ astral_rift.535.answer.c: "§E".ﻥﻵﺍ .ﺭﺩﺎﻐﺗ ﺖﻧﺃ .ﺩﺍﺪﺣ ﺎﻧﺃ .ﻞﻣﺃ ﻻ"§! :ﻲﺋﺎﻨﺜﻟﺍ ﺰﻣﺮﻟﺎﺑ ﺔﺑﻮﺘﻜﻣ ،ﺔﻓﻭﺮﻌﻤﻟﺍ ﺎﻨﺗﺎﻐﻟ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻲﻓ ﺓﺭﺎﺒﻌﻟﺍ ﻞﻴﺠﺴﺗ ﻢﺗ\n\n.ﻢﺟﺮﺘﻤﻟﺍ ﺀﺎﻨﺜﺘﺳﺎﺑ - ﺄﻄﺨﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﻪﻴﻟﺇ ﺓﺭﺎﺷﻹﺍ ﻢﺗ ﻭﺃ ،ﻢﻜﺤﺘﻟﺍ ﺓﺪﺣﻭ ﻰﻠﻋ ﺭﺍﺬﻧﺇ ﻞﻛ ﻂﻴﺸﻨﺗ ﻢﺗ .ﺎﻨﺘﻨﻴﻔﺳ ﺕﺰﺘﻫﺍﻭ ،ﻲﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﻉﺎﻌﺷﻹﺍ ﻦﻣ ﺔﻀﺒﻧ ﻚﻟﺫ ﺪﻌﺑ ﺕﺮﺠﻔﻧﺍ \n\n .ﺎﻨﻫﺎﺠﺗﺍ ﻲﻓ ﺓﺪﻳﺪﺷ ﺓﺭﺍﺮﺣ ﻪﻨﻣ ﺚﻌﺒﻨﻳﻭ ﺎﻧﻮﺤﻧ ﺀﻂﺒﺑ ﺭﻭﺪﻳ ،ﻢﺴﺠﻟﺍ ﻦﻣ ﻂﻘﻓ ﺪﺣﺍﻭ ﺐﻧﺎﺟ ﻰﻠﻋ ﺩﻮﺟﻮﻤﻟﺍ ،ﻥﺮﻔﻟﺍ ﺍﺬﻫ .ﻪﻌﻄﻗ ﻞﺧﺍﺩ ﻦﻣ ،ﺮﻴﻐﺻ ﻢﺠﻧ ﻞﺜﻣ ،ﺔﻳﺭﺎﻧ ﺓﺮﻛ ﺕﺮﻬﻇ\n\n .ﻝﺎﻋ ﻉﺭﺎﺴﺘﺑ ﻡﺎﻣﻸﻟ ﺎﻨﺒﺤﺳ ﻢﺗﻭ ،ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﻪﺘﻴﺑﺫﺎﺟ ﺕﺩﺍﺯ .ﺔﻠﻫﺬﻣ ﺔﻋﺮﺴﺑ ﺭﻭﺪﺗﻭ ﺝﺭﺎﺨﻟﺍ ﻰﻟﺇ ﺎﻬﻌﻄﻗ ﺖﺒﺤﺴﻧﺍ ﺪﻘﻟ .ﺓﺄﺠﻓ ﻆﻘﻴﺘﺳﺍ ﺪﻗ ﻦﺋﺎﻜﻟﺍ"
+ astral_rift.535.desc.2: ".ﻞﺧﺪﺘﻟﺍ ﻰﻠﻋ ﺎﻨﺗﺍﺭﺪﻗ ﺯﻭﺎﺠﺘﻳ ﻪﻧﺃ ﻭﺪﺒﻳ ،ﺮﻣﻷﺍ ﻥﺎﻛ ﺎﻤﻬﻣ\n\n.ﺕﺎﻨﻴﻌﻟﺍ ﻦﻣ ﻊﻴﻄﺘﺴﻧ ﺎﻤﺑ ﺩﻮﻌﻧﻭ ،ﺉﺭﺍﻮﻄﻟﺍ ﺓﺎﺳﺮﻣ ﺎﻨﺒﺤﺳ ﺪﻘﻟ\n\n.ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﻪﺑ ﺡﻮﻤﺴﻤﻟﺍ ﻰﺼﻗﻷﺍ ﺪﺤﻟﺍ ﻰﻟﺇ ﺎﻨﺘﻨﻴﻔﺳ ﺖﻠﺻﻭ"
+ astral_rift.535.desc: "$astral_rift.535.desc.2$\n\n$astra_rift.535.answer.a$"
+ astral_rift.536.desc: "$astral_rift.535.desc.2$\n\n$astra_rift.535.answer.b$"
+ astral_rift.537.desc: "$astral_rift.535.desc.2$\n\n$astra_rift.535.answer.c$"
+
+#############
+# The Tower #
+#############
+ tower_rift_leader_desc: ".ﺔﻣﺎﻴﻘﻟﺍ ﻡﻮﻳ ﺔﻔﺋﺎﻃ ﻢﻴﻋﺯ ﺐﺼﻨﻣ ﺎﻘﺑﺎﺳ ﻞﻐﺸﻳ [Root.GetSheHe] ﻥﺎﻛ ﺚﻴﺣ ،$ASTRAL_RIFT$ ﻞﺧﺍﺩ ﺮﻴﺒﻛ ﺝﺮﺑ ﻦﻣ §Y[Root.GetName]§! ﻝﺎﺸﺘﻧﺍ ﻢﺗ"
+
+ astral_rift_tower: "ﺝﺮﺒﻟﺍ"
+
+ astral_rift.600.name: "ﺝﺮﺒﻟﺍ"
+ astral_rift.600.desc: ".ﺎﻨﺘﻴﺤﺘﻟ ﺮﻈﺘﻨﻳ ﻪﻧﺃ ﻭﺪﺒﻳﻭ ،ﺍﺮﺒﻐﻣﻭ ﺎﻗﺰﻤﻣ ﺍﺀﺍﺩﺭ ﻱﺪﺗﺮﻳ ﻪﻧﺇ .ﻝﺰﻌﻨﻣ ﻕﻮﻠﺨﻣ ﺪﺟﻮﻳ ﺓﺪﻋﺎﻘﻟﺍ ﺔﻓﺎﺣ ﻰﻠﻋ \n\n .ﺔﻣﺍﻭﺪﻟﺍ ﺏﺎﺤﺴﻟﺍ ﺕﺎﻘﺒﻃ ﺐﺒﺴﺑ ﺭﺎﻈﻧﻷﺍ ﻦﻋ ﻪﻨﻣ ﻲﻠﻔﺴﻟﺍ ﺀﺰﺠﻟﺍ ﺐﺠﺣ ﻢﺘﻳ ﺚﻴﺣ ،ﻢﺨﺿ ﺝﺮﺑ ﻕﻮﻓ ﺲﻠﺠﻧ ﺎﻨﻧﺃ ﻰﻟﺇ ﺔﻴﻟﻭﻷﺍ ﺢﺴﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺮﻴﺸﺗ .ﺔﻗﺮﺸﻣﻭ ﺔﻌﺳﺍﻭ ﺀﺎﻤﺳ ﺎﻨﻣﺎﻣﺃ ﺪﺘﻤﺗ ،ﺕﺎﻫﺎﺠﺗﻻﺍ ﻞﻛ ﻲﻓ\n\n .ﻼﻴﺼﻔﺗﻭ ﺔﻠﻤﺟ ﺎﻬﻀﻓﺭ ﻢﺗ ﺪﻗ ﺔﻓﺩﺎﺼﻣ ﻪﻧﻮﻛ ﺓﺮﻜﻓ ﻥﺃ ﺔﺟﺭﺪﻟ ﺎﻨﺗﺎﺟﺎﻴﺘﺣﻻ ﺐﺳﺎﻨﻣ ﻊﻗﻮﻤﻟﺍ ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ ،ﻊﻗﺍﻮﻟﺍ ﻲﻓ .§Y$tech_rift_sphere$§! ﺩﺎﻌﺑﺃ ﻊﻣ ﺎﻣﺎﻤﺗ ﻖﻓﺍﻮﺘﺗ ﺔﻳﺮﺠﺣ ﺓﺪﻋﺎﻗ ﻰﻠﻋ ﺎﻨﻄﺒﻫ ،ﺎﻨﻟﻮﺻﻭ ﻦﻣ ﺮﻴﺼﻗ ﺖﻗﻭ ﺪﻌﺑ"
+ astral_rift.600.a: ".ﻕﻮﻠﺨﻤﻟﺍ ﻊﻣ ﻞﺻﺍﻮﺘﻟﺍ ﺔﻟﻭﺎﺤﻣ"
+ astral_rift.600.b: ".ﻯﺮﺧﺃ ﺓﺮﻣ ﺮﻳﺮﻘﺗ ﻢﻳﺪﻘﺗﻭ ﻕﻮﻠﺨﻤﻟﺍ ﺔﺒﻗﺍﺮﻣ"
+ astral_rift.600.c: ".ﺎﻬﻠﺘﻗﺍ"
+
+ astral_rift.605.name: "ﺔﻴﺋﺎﻨﺜﻟﺍ ﺕﻻﺎﺼﺗﻻﺍ"
+ astral_rift.605.desc: ".ﺎﻳﺍﺪﻫ ﺎﻬﻧﺃ ﺽﺮﺘﻔﻧ ﻥﺃ ﻻﺇ ﺎﻨﻨﻜﻤﻳ ﻻ ﻲﺘﻟﺍ ﺀﺎﻴﺷﻷﺍ ﻦﻣ ﺔﻠﺳ ﻞﻤﺤﻳ ﻢﻬﻨﻣ ﻞﻛ ،ﺓﺪﻋﺎﻘﻟﺍ ﻦﻣ ﺔﻬﺑﺎﺸﺘﻤﻟﺍ ﺲﺑﻼﻤﻟﺍ ﺕﺍﺫ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻦﻣ ﺓﺮﻣﺯ ﺖﺑﺮﺘﻗﺍ ،ﺔﻠﻳﻮﻃ ﺖﺴﻴﻟ ﺓﺮﺘﻓ ﺪﻌﺑ \n\n .ﺀﺎﻋﺪﻟﺍ ﻭﺃ ﺀﺎﻨﺜﻟﺍ ﻦﻣ ﻉﻮﻧ ﻢﻳﺪﻘﺗ ﺩﺮﺠﻣ ﻥﺎﻛ ﻪﻧﺃ ﺎﺤﺿﺍﻭ ﺢﺒﺻﺃ ﺎﻣ ﻥﺎﻋﺮﺳ ﻦﻜﻟﻭ ،ﻪﺑ ﻯﺫﻷﺍ ﺎﻨﻘﺤﻟﺃ ﺪﻗ ﺎﻨﻧﺃ ﻦﻣ ﻦﻴﻘﻠﻗ ﺎﻨﻛ ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ .ﺽﺭﻷﺍ ﻰﻠﻋ ﻕﻮﻠﺨﻤﻟﺍ ﻂﻘﺳ ،ﺕﺎﻈﺤﻟ ﻥﻮﻀﻏ ﻲﻓ\n\n.§Y$tech_rift_sphere$§! ﺔﻴﺟﺭﺎﺨﻟﺍ ﺀﺍﻮﺿﻷﺍ ﺓﺀﺎﺿﺈﺑ ﻊﻄﻘﺘﻣ ﻞﻜﺸﺑ ﺎﻨﻤﻗ ﺚﻴﺣ ،ﻞﺻﺍﻮﺘﻟﺍ ﻦﻣ ﺓﺮﺷﺎﺒﻣ ﺮﺜﻛﺃ ﻞﻜﺷ ﻰﻟﺇ ﺎﻧﺄﺠﻟ ،ﻞﻣﺎﻛ ﻞﻜﺸﺑ ﻕﻮﻠﺨﻤﻟﺍ ﺔﻐﻟ ﺔﻤﺟﺮﺘﻟ ﺔﻠﻴﺳﻭ ﺩﻮﺟﻭ ﻡﺪﻋ ﻊﻣ"
+ astral_rift.605.a: ".ﺓﺮﺋﺎﻄﻟﺍ ﻦﺘﻣ ﻰﻠﻋ ﻢﻫﻮﻋﺩﺍ"
+ astral_rift.605.b: ".ﻞﺑﺎﻘﻤﻟﺍ ﻲﻓ ﺀﻲﺷ ﻢﻳﺪﻘﺗ"
+ astral_rift.605.c: ".ﻊﻗﻮﻤﻟﺍ ﻙﺮﺗﺍ"
+
+ astral_rift.610.name: "ﻩﺭﺎﻈﺘﻧﺍ ﻝﺎﻃ ﺐﻴﺣﺮﺗ"
+ astral_rift.610.desc: ".ﺓﺪﻴﻌﺳ ﺔﻈﺤﻟ ﻩﺬﻫ ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣﻭ .ﻊﺳﺍﻭ ﻕﺎﻄﻧ ﻰﻠﻋ ﻥﺎﺗﺩﻭﺪﻤﻣ ﻩﺎﻋﺍﺭﺫﻭ ،ﺎﻨﻣﺎﻣﺃ ﺮﺨﻔﺑ ﻕﻮﻠﺨﻤﻟﺍ ﻒﻘﻳ\n\n.§Y$tech_rift_sphere$§! ﻞﺧﺍﺩ ﺓﺩﻮﺟﻮﻤﻟﺍ ﻚﻠﺘﻟ ﺎﺒﻳﺮﻘﺗ ﺔﻘﺑﺎﻄﻣ ﻭﺪﺒﺗ ﺔﻴﺤﻴﺿﻮﺗ ﻡﻮﺳﺭﻭ ﺕﺎﻣﻼﻌﺑ ﺔﺗﻮﺤﻨﻣ ﺔﻳﺮﺠﺤﻟﺍ ﺓﺪﻋﺎﻘﻟﺍ ﻥﺃ ﻮﻫ ﻡﺎﻤﺘﻫﻼﻟ ﺓﺭﺎﺛﺇ ﺮﺜﻛﻷﺍ ﺮﻣﻷﺍﻭ .ﺀﺎﻀﻔﻟﺍ ﻰﻟﺇ ﻝﻮﺻﻮﻠﻟ ﺓﺭﺎﻀﺤﻟﺍ ﻩﺬﻬﻟ ﺪﻬﺟ ﻝﻭﺃ ﻰﻟﺇ ﺮﻈﻨﻧ ﺎﻤﺑﺭ ،ﻊﻗﺍﻮﻟﺍ ﻲﻓ .ﻉﺎﻔﺗﺭﻻﺍ ﺍﺬﻫ ﻰﻠﻋ ﺝﺮﺑ ﺀﺎﻨﺒﻟ ﻲﺟﻮﻟﻮﻨﻜﺘﻟﺍ ﺭﻮﻄﺘﻟﺍ ﻦﻣ ﻯﻮﺘﺴﻤﻟﺍ ﺍﺬﻫ ﻰﻠﻋ ﻊﻤﺘﺠﻤﻟ ﺍﺮﻴﺒﻛ ﺍﺪﻬﺟ ﻝﺬﺑ ﻪﻧﺃ ﺪﺑ ﻻ .ﺮﺘﻣ 2500 ﻲﻟﺍﻮﺤﺑ ﺎﻨﻋﺎﻔﺗﺭﺍ ﺭﺪﻘﻳﻭ .ﻊﻗﻮﻤﻟﺍ ﻑﺎﺸﻜﺘﺳﺍ ﻲﻓ ﺖﻗﻮﻟﺍ ﺾﻌﺑ ﺎﻨﻴﻀﻣﺃ ،Sphere ﻲﻓ ﻥﺎﻣﻷﺍ ﻖﻠﻄﻨﻣ ﻦﻣﻭ"
+ astral_rift.610.a: ".ﺓﺮﺋﺎﻄﻟﺍ ﻦﺘﻣ ﻰﻠﻋ ﻢﻫﻮﻋﺩﺍ"
+ astral_rift.610.b: ".ﻞﺑﺎﻘﻤﻟﺍ ﻲﻓ ﺀﻲﺷ ﻢﻳﺪﻘﺗ"
+ astral_rift.610.c: ".ﻊﻗﻮﻤﻟﺍ ﻙﺮﺗﺍ"
+ astral_rift.610.d: ".ﻕﻮﻠﺨﻤﻟﺍ ﻞﺘﻗ"
+
+ astral_rift.611.name: "ﻞﻴﻣﺮﺑ ﻲﻓ ﻚﻤﺴﻟﺍ"
+ astral_rift.611.desc: ".ﺝﺎﻋﺯﻹﺍ ﻦﻣ ﺪﻳﺰﻣ ﻥﻭﺩ ﺔﺌﻴﺒﻟﺍ ﻩﺬﻫ ﻑﺎﺸﻜﺘﺳﺍ ﻲﻓ ﺭﺍﺮﻤﺘﺳﻻﺍ ﺎﻨﻨﻜﻤﻳ ﻥﻵﺍ\n\n.ﺔﻳﺎﻬﻨﻟﺍ ﻰﺘﺣ ،ﺔﻋﻮﻓﺮﻣ ﻢﻬﻋﺭﺫﺃﻭ ،ﺖﻤﺼﺑ ﺍﻮﻔﻗﻭ ﺪﻘﻟ .ﺓﺪﻋﺎﻘﻟﺍ ﻦﻣ ﺔﺒﻳﺮﻘﻟﺍ ﺓﺎﻴﺤﻟﺍ ﻝﺎﻜﺷﺃ ﻊﻴﻤﺟ ﻮﺤﻣ ﻰﻟﺇ ﻯﺩﺃ ﺎﻤﻣ ،ﺔﻴﺋﺎﻬﻧ ﺔﻋﺮﺴﺑ ﺎﻨﺘﻨﻴﻔﺳ ﻁﻮﻘﺳ ﺎﻌﻳﺮﺳ ﻚﻟﺫ ﺐﻘﻋﺃ ،ﻢﻬﻈﺣ ﺀﻮﺴﻟﻭ .ﻞﻔﺳﻷﺎﺑ ﺓﺩﻮﺟﻮﻤﻟﺍ ﺕﺎﻨﺋﺎﻜﻠﻟ ﺔﻴﺣﻭﺭ ﺔﻴﻤﻫﺃ ﺕﺍﺫ ﺔﻈﺤﻟ ﻢﻬﻟﺃ ﺪﻗ ﻲﻟﺎﻔﺘﺣﻻﺍ ﺝﺮﺒﻟﺍ ﻕﻮﻓ ﺎﻴﻟﺎﻋ Rift Sphere ﻊﻓﺭ ﻥﺃ ﺪﺑ ﻻ"
+ astral_rift.611.a: ".ﺐﻛﻮﻜﻟﺍ ﺢﺴﻣ"
+
+ astral_rift.615.name: "ﻒﻴﻀﻤﻟﺍ ﺐﻌﻟ"
+ astral_rift.615.desc: ".ﺎﻨﻌﻤﺘﺠﻤﻟ ﺓﺮﻴﺒﻛ ﺓﺪﺋﺎﻓ ﻭﺫ ﻥﻮﻜﻴﺳ ،ﻞﻣﺎﻜﺘﻟﺍ ﺾﻌﺑ ﻊﻣ ﻪﻧﺃ ﺪﻘﺘﻌﻧ\n\n.ﻪﻧﺍﺮﻗﺃ ﻦﻴﺑ ﺮﺛﺆﻣ ﺪﺋﺎﻗ ﻮﻫ ﺕﺍﺬﻟﺎﺑ ﻕﻮﻠﺨﻤﻟﺍ ﺍﺬﻫ ﻥﺃ ﻩﺩﺎﻔﻣ ﺝﺎﺘﻨﺘﺳﺍ ﻰﻟﺇ ﻞﺻﻮﺘﻟﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﻪﺑﺍﻮﺛﺃ ﻞﺧﺍﺩ ﺎﻬﻔﻟ ﻲﺘﻟﺍ ﺕﺍﺪﻨﺘﺴﻤﻟﺍ ﺔﺳﺍﺭﺩﻭ ﻞﻴﻫﺄﺘﻟﺍ ﺓﺩﺎﻋﺇ ﺕﺎﻴﻠﻤﻋ ﺾﻌﺑ ﺪﻌﺑﻭ \n\n .ﺔﻨﻴﻔﺴﻟﺍ ﺢﻄﺳ ﻰﻠﻋ ﻂﻘﺳ ﺎﻣ ﻥﺎﻋﺮﺳﻭ ،ﺓﺭﺎﺛﻹﺍ ﻪﻴﻠﻋ ﺖﺒﻠﻐﺗ .ﺎﻨﺘﻨﻴﻔﺳ ﺕﺍﻭﺩﺃ ﻦﻣ ﺔﺒﻫﺮﺑ ﻖﻬﺷ ﺪﻘﻟ .ﻦﻣﺁ ﺎﻬﻨﺘﻣ ﻰﻠﻋ ﺎﻨﺑﺎﺤﻄﺻﺍ ﻥﺃ ﻦﻣ ﻥﻭﺪﻛﺄﺘﻣ ﺎﻨﻨﻜﻟﻭ ،ﺎﻨﻣﻭﺪﻘﺑ ﺎﻬﻤﻠﻋ ﺔﻴﻔﻴﻛ ﻦﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺎﻨﺴﻟ\n\n؟ﺔﻈﺤﻠﻟﺍ ﻩﺬﻫ ﺙﻭﺪﺣ ﺕﺮﻈﺘﻧﺍ ﺖﻗﻮﻟﺍ ﻦﻣ ﻢﻛ .ﺔﻳﺎﻐﻠﻟ ﺔﻌﻔﺗﺮﻣ ﺖﻧﺎﻛ ﺔﻳﻮﻴﺤﻟﺍ ﻪﺘﻤﻈﻧﺃ ﻥﺃ ﻝﻮﻘﻧ ﻥﺃ ﺎﻨﻧﺎﻜﻣﺈﺑ ﻥﺎﻛ ﻦﻜﻟﻭ ،ﺔﻘﺜﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺐﺴﺘﻛﺍ ،ﺓﻮﻄﺧ ﻞﻛ ﻊﻣ\n\n.ﺎﺘﻗﺆﻣ ﻕﻮﻠﺨﻤﻟﺍ ﺏﺮﺘﻗﺍﻭ ،ﺎﻨﺘﻨﻴﻔﺳ ﺎﻨﺤﺘﻓ"
+ astral_rift.615.a: ".ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻰﻟﺇ ﻢﻫﻮﻋﺩﺍ"
+ astral_rift.615.a.tt: ".ﺪﺣﺍﻭ ﻡﺎﻋ ﺪﻌﺑ §YScientist§! ﻦﻴﻴﻌﺗ ﻢﺘﻴﺳ"
+ astral_rift.615.b: ".ﻢﻬﺣﺍﺮﺳ ﻕﻼﻃﺇﻭ ﻢﻬﻘﺋﺎﺛﻭ ﺓﺭﺩﺎﺼﻣﻭ"
+ astral_rift.615.b.tt: ".ﺓﺪﻳﺪﺟ ﻊﻤﺘﺠﻣ ﺎﻴﺟﻮﻟﻮﻨﻜﺗ ﻰﻠﻋ ﻲﺋﺍﻮﺸﻋ ﻞﻜﺸﺑ ﻞﺼﺣﺍ"
+
+ astral_rift.620.name: "ﻞﺜﻤﻟﺎﺑ ﺔﻠﻣﺎﻌﻤﻟﺍ"
+ astral_rift.620.desc: ".ﺔﻣﺩﺎﻘﻟﺍ ﻝﺎﻴﺟﻸﻟ ﻪﻠﻤﻛﺄﺑ ﻞﻋﺎﻔﺘﻟﺍ ﻞﻴﺠﺴﺘﺑ ﺎﻨﻤﻗ ،ﺎﻨﻳﺪﻟ ﻉﺎﻤﺘﺟﻻﺍ ﺀﺎﻤﻠﻌﻟ ﺍﺪﻴﻔﻣ ﻥﻮﻜﻳ ﻥﺃ ﻞﻣﺃ ﻰﻠﻋﻭ \n\n .ﺎﻨﻴﻟﺇ ﻢﻬﻘﻳﺮﻃ ﺍﻭﺪﺟﻭ ﺍﺫﺇ ،ﻲﻟﺰﻨﻤﻟﺍ ﺎﻨﻣﺎﻈﻨﻟ ﻲﺿﺎﻳﺮﻟﺍ ﻊﻗﻮﻤﻟﺍ ﻞﻴﺠﺴﺘﺑ ﺎﻨﻤﻗ ،ﺮﺻﺎﻨﻌﻟﺍ ﻩﺬﻫ ﺪﺣﺃ ﻰﻠﻋ .ﺎﻨﺘﻴﻧ ﻦﺴﺣ ﻰﻠﻋ ﻞﻴﻟﺪﻛ ،ﺎﻨﻔﻠﺧ ﺔﻣﺪﻘﺘﻤﻟﺍ ﻥﺩﺎﻌﻤﻟﺍ ﻦﻣ ﺓﺮﻴﻐﺻ ﺔﻳﺪﻫ ﻙﺮﺘﻧ ﻥﺃ ﺎﻧﺭﺮﻗ ﺪﻘﻟ \n\n .ﻢﻬﺗﺭﺎﻀﺣ ﻰﻠﻋ ﺮﻴﺒﻛ ﺮﻴﺛﺄﺗ ﺎﻨﻟﻮﺻﻮﻟ ﻥﻮﻜﻳ ﻥﺃ ﺢﺟﺮﻤﻟﺍ ﻦﻤﻓ ،ﻚﻟﺬﻟ ﺎﻫﻮﻟﻭﺃ ﻲﺘﻟﺍ ﺔﻘﻴﻤﻌﻟﺍ ﺔﻴﻤﻫﻸﻟ ﺍﺮﻈﻧﻭ ،ﻥﻮﻣﺩﺎﻗ ﺎﻨﻧﺃ ﺍﻮﻓﺮﻋ ،ﺎﻣ ﺔﻘﻳﺮﻄﺑ .ﺔﻤﻳﺪﻘﻟﺍ ﺕﺍﺀﻮﺒﻨﻟﺍ ﺾﻌﺑ ﺄﻄﺨﻟﺍ ﻖﻳﺮﻃ ﻦﻋ ﻖﻘﺣ ﺪﻗ ﺎﻨﻟﻮﺻﻭ ﻥﺃ ﻭﺪﺒﻳ\n\n.ﺮﺜﻛﺃ ﻢﻬﺠﻋﺰﻧ ﻦﻟ"
+
+ astral_rift.625.name: "ﺔﺿﻮﻓﺮﻣ ﺓﺀﻮﺒﻨﻟﺍ"
+ astral_rift.625.common: ".- ﺎﻬﺑ ﺐﺣﺮﻣ ﺎﻬﻨﻜﻟﻭ - ﺔﻳﺩﺎﻋ ﺮﻴﻏ ﺓﺄﻓﺎﻜﻣ .ﺔﻴﻤﺠﻨﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﻱﺩﺎﻋ ﺮﻴﻏ ﻞﻜﺸﺑ ﺔﻴﻟﺎﻋ ﺕﺍﺰﻴﻛﺮﺗ ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﻲﺘﻟﺍﻭ ،ﺔﻄﻴﺤﻤﻟﺍ ﺐﺤﺴﻟﺍ ﻦﻣ ﺕﺎﻨﻴﻋ ﻊﻤﺟ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﺩﺭﺍﻮﻤﻟﺍ ﺝﺍﺮﺨﺘﺳﺍ ﻮﺤﻧ ﺎﻧﺩﻮﻬﺟ ﺰﻴﻛﺮﺗ ﺓﺩﺎﻋﺇ ﻝﻼﺧ ﻦﻣﻭ"
+ astral_rift.625.desc.killed: "$astral_rift.625.common$\n\n.ﺩﺎﻌﺑﻷﺍ ﺝﺭﺎﺧ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻠﻟ ﺎﻨﺗﺎﻓﺎﺸﻜﺘﺳﺍ ﺎﻨﻠﺻﺍﻭ ،[Explorer.GetPreFTLLower] ﺕﺎﻗﻮﻠﺨﻣ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻊﻣ"
+ astral_rift.625.desc.default: "$astral_rift.625.common$\n\n.ﺔﻴﺋﺎﻀﻔﻟﺍ ﺕﺍﺀﻮﺒﻨﻟﺍ ﺾﻌﺑ ﻞﻴﻌﻔﺗ ﻲﻓ ﺓﺪﻋﺎﺴﻤﻟﺍ ﻦﻣ ﻻﺪﺑ ﺎﻬﻠﻌﻔﻨﻟ ﻞﻀﻓﺃ ﺀﺎﻴﺷﺃ ﺎﻨﻳﺪﻟﻭ ،ﺄﻄﺧ ﺝﺮﺒﻟﺍ ﺍﺬﻫ ﺀﺎﻨﺑ ﻥﺎﻛ ﺪﻘﻟ\n\n.ﺔﻠﻠﻀﻤﻟﺍ ﺔﻘﺑﺎﺴﻤﻟﺍ ﻩﺬﻫ ﻦﻣ ﺮﺧﺁ ﺀﺰﺟ ﻱﺃ ﺬﺧﺄﻧ ﻦﻟ"
+
+ astral_rift.691.name: "[From.GetName] ﻡﺪﻘﺗ"
+ astral_rift.691.desc: ".ﻲﻋﺎﻤﺘﺟﻻﺍ ﺲﻔﻨﻟﺍ ﻢﻠﻌﻟ ﺍﺯﺎﺘﻤﻣ ﺎﻤﻬﻓ [From.GetHasHave] [From.GetHeShe] ﺮﻬﻇﺃ ﺚﻴﺣ ،ﺓﺪﻳﺮﻓ ﺔﺻﺮﻓ ﺍﺬﻫ ﺎﻨﻟ ﻡﺪﻘﻳ\n\n.ﺎﻨﺗﺪﻋﺎﺴﻤﻟ [From.GetHisHer] ﺱﺎﻤﺣ ﺍﺪﺑﺃ ﻝﺀﺎﻀﺘﻳ ﻢﻟﻭ ،ﺎﻨﺘﻐﻠﺑ ﺙﺪﺤﺘﻟﺍ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﺎﻨﺤﺒﺻﺃ ﻥﻵﺍ .ﺎﻨﻌﻤﺘﺠﻣ ﻊﻣ ﺪﻴﺟ ﻞﻜﺸﺑ ﺎﻤﻠﻗﺄﺘﻣ [From.GetHasHave] [From.GetHeShe] ﺢﺒﺻﺃ ،ﺖﻗﻮﻟﺍ ﻚﻟﺫ ﺬﻨﻣﻭ .ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﻒﻠﺧ ﺮﻴﺒﻜﻟﺍ ﺝﺮﺒﻟﺍ ﻦﻣ ﺩﺮﻓ ﻝﺎﺸﺘﻧﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﻡﺎﻋ ﻦﻣ ﺮﺜﻛﺃ ﺬﻨﻣ"
+ astral_rift.691.a: ".ﻦﻴﻨﻃﺍﻮﻤﻛ ﻞﻀﻓﺃ ﻞﻜﺸﺑ [From.GetSXX]ﺎﻨﻣﺪﺨﻳ [From.GetHeSheCap]"
+ astral_rift.691.b: ".ﻢﻟﺎﻌﻛ [From.GetHimHer] ﺪﻴﻨﺠﺘﺑ ﻢﻗ"
+
+ astral_rift.696.name: "[From.GetName] ﺓﺎﻓﻭ"
+ astral_rift.696.desc: ".ﺔﻠﻳﻮﻃ ﺓﺮﺘﻔﻟ ﻥﺎﻫﺫﻷﺍ ﻲﻓ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻰﻠﻋ [From.GetHeShe] ﻪﺛﺪﺣﺃ ﻱﺬﻟﺍ ﺮﻴﺒﻜﻟﺍ ﺮﻴﺛﺄﺘﻟﺍ ﻰﻘﺒﻴﺳ \n\n .ﻩﺀﺍﺭﻭ ﻦﻤﻜﻳ ﺎﻣ ﻞﻛ ﻲﻓ ﺓﺪﻳﺪﺟ ﺓﺮﻣﺎﻐﻣ [From.GetSXX] [From.GetHeShe] ﺪﺠﻳ ﻥﺃ ﻞﻣﺄﻧ .ﺎﺼﻴﺼﺧ ﺔﻋﻮﻨﺼﻣ ﺔﻳﺰﺋﺎﻨﺟ ﺓﺮﻛ ﻦﻣ ﺎﻬﺘﺒﻗﺍﺮﻣ ﺖﻤﺗﻭ ،ﻉﺪﺼﻟﺍ ﻦﻣ ﺮﺧﻵﺍ ﺐﻧﺎﺠﻟﺍ ﻰﻠﻋ ﺝﺮﺒﻟﺍ ﻞﺧﺍﺩ ﻢﺳﺍﺮﻤﻟﺍ ﺖﻤﻴﻗﺃ .ﻑﺮﺸﻟﺍ ﺔﺒﺗﺮﻤﺑ ﺎﻧﻮﻓﺪﻣ [From.GetWasWere] [From.GetHeShe] ،ﻲﻤﺠﻨﻟﺍ ﻉﺪﺼﻟﺍ ﺀﺍﺭﻭ ﺎﻣ ﻦﻣ ﺎﻨﻴﻟﺇ ﻢﻀﻧﺍ .[From.GetName] ﺪﺋﺎﻘﻟﺍ ﻲﻓﻮﺗ ،ﻒﺳﻸﻟ"
+ astral_rift.696.a: ".[From.GetHeSheCap] ﺖﻳﻮﻔﺗ ﻢﺘﻴﺳ"
+
+############
+# Whiteout #
+############
+ whiteout_gift_modifier: "ﺔﻳﺪﻫ"
+
+ astral_rift_whiteout: "ﺕﻭﺃ ﺖﻳﺍﻭ"
+
+ astral_rift.700.name: "ﺕﻭﺃ ﺖﻳﺍﻭ"
+ astral_rift.700.desc: ".ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ ﺓﺪﻋﺎﺴﻤﺑ ﻞﻴﺻﺎﻔﺘﻟﺍ ﻦﻣ ﺪﻳﺰﻤﺑ ﺔﻘﻄﻨﻤﻟﺍ ﻩﺬﻫ ﻑﺎﺸﻜﺘﺳﺍ ﺎﻨﻨﻜﻤﻳ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺕﺎﺑﺍﺮﻄﺿﻻﺍ ﻩﺬﻫ ﻦﻣ ﺏﻭﺮﻬﻟﺍ ﺎﻨﻨﻜﻤﻳ ﺔﻴﻓﺎﻛ ﺔﻓﺎﺴﻤﻟ ﺎﻧﺮﻓﺎﺳ ﺍﺫﺇ ﺎﻤﺑﺭ \n\n .ﺎﻨﺑ ﻂﻴﺤﻤﻟﺍ ﻍﺭﺎﻔﻟﺍ ﺽﺎﻴﺒﻟﺍ ﻦﻋ ﻕﻼﻃﻹﺍ ﻰﻠﻋ ﻑﺍﺮﺤﻧﺍ ﻱﺃ ﺪﺟﻮﻳ ﻻ ،ﺎﻳﺮﺼﺑ .ﺢﺿﺍﻭ ﺄﻄﺧ ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﺎﻬﻧﺃ ﻭﺃ ﺎﻣﺎﻤﺗ ﻞﻴﻐﺸﺘﻠﻟ ﺔﻠﺑﺎﻗ ﺮﻴﻏ ﺎﻨﻳﺪﻟ ﺕﻼﺻﻮﺒﻟﺍﻭ ،ﻖﻤﻌﻟﺍ ﺲﻴﻳﺎﻘﻣﻭ ،ﻉﺎﻔﺗﺭﻻﺍ ﺱﺎﻴﻗ ﺓﺰﻬﺟﺃ ﻥﺇ\n\n.ﺎﻨﺗﺎﻫﺎﺠﺗﺍ ﺪﻳﺪﺤﺘﻟ ﺔﻘﻳﺮﻃ ﻱﺃ ﺎﻨﻳﺪﻟ ﺲﻴﻟ .ﺪﺣﺍﻭ ﺖﻗﻭ ﻲﻓ ﻩﺎﺠﺗﺍ ﻞﻛ ﻦﻣ ﺎﻨﻔﺼﻘﺗ ﻒﻴﻄﻟﺍ ﻲﻓ ﻥﻮﻟ ﻞﻛ ﻦﻣ ﺔﻳﻭﺎﺴﺘﻣ ﺔﻴﻤﻛ ﻥﺃ ﻰﻟﺇ ﺔﻴﻟﻭﻷﺍ ﺕﺍﺀﺍﺮﻘﻟﺍ ﺮﻴﺸﺗ\n\n.ﺾﻴﺑﻷﺍ ﻥﻮﻠﻟﺍ ﻯﻮﺳ ﺀﻲﺷ ﺪﺟﻮﻳ ﻻ ،ﺓﺮﻜﻟﺍ ﺝﺭﺎﺧ"
+ astral_rift.700.a: ".ﻊﻓﺪﻟﺍ ﻢﻴﻈﻌﺗ"
+ astral_rift.700.b: ".ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ ﻦﻋ ﺝﺍﺮﻓﻻﺍ"
+
+ astral_rift.705.name: "ﺭﺍﺪﺠﻟﺍ"
+ astral_rift.705.desc: ".ﺔﺒﻗﺍﺮﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﻞﺻﺍﻮﻧ ﺎﻤﻨﻴﺑ ﺔﻴﻤﺠﻨﻟﺍ ﻁﻮﻴﺨﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﻊﻤﺠﻧ ﻦﺤﻧ \n\n .ﺔﻈﺤﻟ ﻱﺃ ﻲﻓ ﺎﻨﺗﺎﺳﺮﻣ ﺐﺤﺴﻟ ﻥﻭﺪﻌﺘﺴﻣﻭ ،ﺔﻨﻣﺁ ﺔﻓﺎﺴﻣ ﻰﻠﻋ ﻅﺎﻔﺤﻠﻟ ﺔﻣﺯﻼﻟﺍ ﺕﺎﻃﺎﻴﺘﺣﻻﺍ ﺬﺨﺘﻧ ﻦﺤﻧ .ﺖﻗﻮﻟﺍ ﺭﻭﺮﻤﺑ ﺪﻳﺰﻳ ﺭﺍﺪﺠﻟﺍ ﺮﻄﻗ ﻥﺃ ﻰﻟﺇ ﻯﺮﺧﺃ ﺔﺳﺍﺭﺩ ﺕﺭﺎﺷﺃ \n\n .ﺓﺎﻴﺤﻟﺍ ﺪﻴﻗ ﻰﻠﻋ ﻥﺎﻛ ﻮﻟ ﺎﻤﻛ ،ﻼﻴﻠﻗ ﻪﺤﻄﺳ ﻒﺠﺗﺮﻳ ﺮﺧﻵﺍﻭ ﻦﻴﺤﻟﺍ ﻦﻴﺑ ﻦﻜﻟﻭ ،ﻲﺋﺮﻣ ﻞﺧﺪﻣ ﺪﺟﻮﻳ ﻻ .ﺔﻴﻟﺎﺜﻣ ﻪﺒﺷ ﺓﺮﺋﺍﺩ ﻪﻧﺃ ﺎﻨﻔﺸﺘﻛﺍ ،ﻪﻄﻴﺤﻣ ﻝﻮﺣ ﻞﻘﻨﺘﻟﺎﺑﻭ\n\n.ﺩﻮﺳﺃ ﺭﺍﺪﺟ ﻰﻟﺇ ﺎﻨﻠﺻﻭﻭ ﻲﺋﺍﻮﺸﻋ ﻩﺎﺠﺗﺍ ﻲﻓ ﺎﻨﻘﻠﻄﻧﺍ ﺪﻘﻟ"
+
+ astral_rift.710.name: "ﺮﻴﻄﻟﺍ ﻦﻴﻋ ﺽﺮﻋ"
+ astral_rift.710.desc: ".ﺔﻴﺳﺎﻴﻘﻟﺍ ﺮﻴﻏ ﺔﻴﻧﺎﻜﻤﻟﺍ ﺩﺎﻌﺑﻸﻟ ﺎﻨﻤﻬﻓ ﺓﺮﻫﺎﻈﻟﺍ ﻩﺬﻫ ﺔﺒﻗﺍﺮﻣ ﺕﺯﺰﻋ ﺪﻘﻟ .ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻄﻠﻟ ﻖﻴﻗﺪﻟﺍ ﻉﺎﻔﺗﺭﻼﻟ ﺎﻳﻭﺎﺴﻣ ﺎﻤﺋﺍﺩ ﺩﻮﻌﻳ ﺭﺍﺪﺠﻟﺍ ﻉﺎﻔﺗﺭﺍ ﻥﺃ ﺚﻴﺣ ،ﺎﻣ ﺪﺣ ﻰﻟﺇ ﺓﺮﻴﺤﻣ ﺕﺍﺀﺍﺮﻘﻟﺍ ﻥﺈﻓ ،ﻚﻟﺫ ﻊﻣﻭ \n\n .ﺎﻨﻌﻗﻮﻣ ﻦﻋ ﺍﺪﻴﻌﺑ ﺲﻴﻟ ﺎﻴﻨﺤﻨﻣ ﺩﻮﺳﺃ ﺍﺭﺍﺪﺟ ﺎﻨﻔﺸﺘﻛﺍ ،ﺰﻛﺮﻤﻟﺍ ﺓﺪﺤﺘﻣ ﺮﺋﺍﻭﺩ ﻲﻓ ﺎﻨﺘﻨﻴﻔﺳ ﻝﻮﺣ ﻥﺍﺭﻭﺪﻟﺍ ﺪﻌﺑ .ﺔﻄﻴﺤﻤﻟﺍ ﺔﻘﻄﻨﻤﻟﺍ ﻑﺎﺸﻜﺘﺳﻻ ﺭﺎﻴﻃ ﻥﻭﺪﺑ ﺓﺮﺋﺎﻃ ﻕﻼﻃﺇﻭ ﺩﺍﺪﻋﺈﺑ ﺎﻨﻤﻗ ،ﺎﻨﻌﺿﻮﻟ ﻒﻠﺘﺨﻣ ﺭﻮﻈﻨﻣ ﻰﻠﻋ ﻝﻮﺼﺤﻠﻟ"
+
+ astral_rift.715.name: "ﺪﻳﺪﺟ ﺭﻮﻄﺗ"
+ astral_rift.715.desc: ".ﻁﺎﻤﻧﻷﺍ ﻦﻣ ﻉﻮﻧ ﻱﺃ ﻙﺎﻨﻫ ﻥﺎﻛ ﺍﺫﺇ ﺎﻣ ﻑﺎﺸﺘﻛﺍﻭ ﻥﺍﺭﺪﺠﻟﺍ ﻩﺬﻫ ﻝﺎﻜﺷﺃ ﻢﺳﺮﻟ ﺖﻗﻮﻟﺍ ﺾﻌﺑ ﺬﺧﺄﻧ ﻥﺃ ﺎﻨﻨﻜﻤﻳ ،ﻚﻟﺫ ﻦﻣ ﻻﺪﺑﻭ .ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﻲﻟﺎﺤﻟﺍ ﻊﺿﻮﻟﺍ ﻢﻬﻓ ﻦﻣ ﻦﻜﻤﺘﻧ ﺪﻗ ﺎﻫﺩﺍﻮﻣ ﻦﻣ ﺕﺎﻨﻴﻋ ﺬﺧﺃ ﻝﻼﺧ ﻦﻣ ﺎﻤﺑﺭ\n\n.§Y$tech_rift_sphere$§! ﺮﺒﻋ ﺓﺮﺷﺎﺒﻣ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻩﺬﻫ ﺪﺣﺃ ﺪﺴﺠﺘﻳ ﻥﺃ ﺔﻴﺸﺧ ﺔﻨﻣﺁ ﺔﻓﺎﺴﻣ ﻰﻠﻋ ﻆﻓﺎﺤﻧ ﻦﺤﻧ\n\n.ﺓﺮﺷﺎﺒﻣ ﺎﻨﻣﺎﻣﺃ ﻥﺍﺭﺪﺠﻟﺍ ﻦﻣ ﺓﺪﻳﺪﺟ ﺔﻠﺴﻠﺳ ﺕﺮﻬﻇ\n\n.ﺪﻳﺪﺟ ﺭﻮﻄﺗ ﻙﺎﻨﻫ"
+ astral_rift.715.a: ".ﺔﻨﻴﻋ ﺬﺧ"
+ astral_rift.715.b: ".ﺔﻄﻳﺮﺨﻟﺍ ﻊﺒﺘﺗ"
+
+ astral_rift.720.name: "ﺩﺭ"
+ astral_rift.720.desc: "؟ﺔﻤﺟﺮﺗ ﻩﺬﻫ ﻞﻫ .ﻂﻤﻨﻟﺍ ﺲﻔﻧ ﺮﻬﻈﻳ ،ﺓﺭﺎﺒﻌﻟﺍ ﺲﻔﻧ ﺎﻬﻴﻓ ﻢﺳﺮﻧ ﺓﺮﻣ ﻞﻛ ﻲﻓ \n\n .ﺎﻨﺗﺎﻤﻠﻛ ﻦﻣ ﺔﻤﻠﻛ ﻞﻛ ﺭﺍﻮﺠﺑ ﻂﻤﻧ ﺮﻬﻇ :ﺪﻳﺪﺟ ﺀﻲﺷ ﺎﻀﻳﺃ ﻙﺎﻨﻫ ﻥﺎﻛ ﻦﻜﻟﻭ ،ﺎﻣﺎﻤﺗ ﺎﻬﺨﺴﻧ ﻢﺗ .ﺓﺮﻴﻐﺼﻟﺍ ﺕﺎﻃﺮﺸﻟﺍﻭ ﻁﺎﻘﻨﻟﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ ﻲﺋﺎﻨﺜﻟﺍ ﻡﺎﻈﻨﻟﺎﺑ ﺔﻴﺳﺎﺳﻷﺍ ﺕﺍﺭﺎﺒﻌﻟﺍ ﺾﻌﺑ ﺔﺑﺎﺘﻛ ﻲﻓ ﺎﻧﺃﺪﺑ ،ﻚﻟﺫ ﻰﻠﻋ ﺀﺎﻨﺑﻭ .ﻞﺻﺍﻮﺘﻠﻟ ﺔﻟﻭﺎﺤﻣ ﻲﻓ ﺓﺩﺎﻤﻟﺍ ﻡﺪﺨﺘﺴﻳ ﺎﻣ ﺎﻧﺎﻴﻛ ﻥﺄﺑ ﺩﺎﻘﺘﻋﻼﻟ ﺐﺒﺳ ﻙﺎﻨﻫ ،ﺞﺋﺎﺘﻨﻟﺍ ﻩﺬﻫ ﻰﻟﺇ ﺮﻈﻨﻟﺎﺑﻭ\n\n.ﻩﺎﺠﺗﻻﺍ ﺲﻔﻧ ﻲﻓﻭ ﺎﻣﺎﻤﺗ ﺔﻣﻼﻌﻟﺍ ﺝﺎﺘﻧﺇ ﺓﺩﺎﻋﺇ ﻢﺘﻳ ،ﺓﺮﻣ ﻞﻛ ﻲﻓ .ﺔﻔﻠﺘﺨﻣ ﺕﺎﻤﻴﻤﺼﺗ ﺓﺪﻋ ﻝﻼﺧ ﻦﻣ ﺕﺭﺮﻜﺗﻭ ،ﺓﺩﺎﻤﻟﺍ ﻦﻣ ﺔﻔﻠﺘﺨﻣ ﺔﻴﻤﻜﺑ ﺎﻬﻨﻣ ﻞﻛ ،ﺕﺍﺮﻣ ﺓﺪﻋ ﺀﺍﺮﺟﻹﺍ ﺍﺬﻫ ﺎﻧﺭﺮﻛ \n\n .ﺎﻬﻌﻣ ﻱﺯﺍﻮﺘﻟﺎﺑ ﺎﺒﻳﺮﻘﺗ ﺔﻘﺑﺎﻄﺘﻣ ﺔﻣﻼﻋ ﺕﺮﻬﻇ ،ﺮﻴﺼﻗ ﺖﻗﻭ ﺪﻌﺑﻭ .ﺎﻧﺮﻈﺘﻧﺍﻭ ﺔﻨﻴﻌﻟﺍ ﻦﻣ ﺓﺮﻴﻐﺻ ﺔﻴﻤﻛ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺎﻄﺧ ﺎﻨﻤﺳﺭ ،ﺔﺑﺮﺠﺘﻛ\n\n.ﺔﺑﺍﺬﻤﻟﺍ ﺕﺍﺭﻮﻠﺒﻟﺍ ﻦﻣ ﺪﻳﺮﻓ ﻞﻜﺷ ﻊﻗﺍﻮﻟﺍ ﻲﻓ ﻲﻫ ﺮﺒﺤﻟﺍ ﺍﺬﻫ ﻲﻓ ﺔﻣﺪﺨﺘﺴﻤﻟﺍ ﻂﺑﺮﻟﺍ ﻞﻣﺍﻮﻋ ﺾﻌﺑ .ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﻉﻮﻧ ﻦﻣ ﺔﻐﺒﺼﻟﺍ ﺕﺎﻧﻮﻜﻣ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﺀﻼﻄﻟﺍ ﻭﺃ ﺮﺒﺤﻟﺍ ﻊﻣ ﺍﺮﻴﺜﻛ ﻪﺼﺋﺎﺼﺧ ﻪﺑﺎﺸﺘﺗﻭ .ﺎﻬﻠﻴﻠﺤﺘﻟ ﺎﻧﺎﺠﻣ ﺎﻬﺒﺤﺴﺑ ﺎﻨﻤﻗ ﺚﻴﺣ ﻲﺋﺎﻬﻧ ﻻ ﻉﺎﻔﺗﺭﺍ ﻰﻠﻋ ﺖﻈﻓﺎﺣ ﺔﻨﻴﻌﻟﺍ ﻥﺃ ﺎﻧﺪﺟﻭ ﺎﻣﺪﻨﻋ ﺎﻨﺌﺟﻮﻓ ﺪﻘﻟ\n\n.ﺭﺍﺪﺠﻟﺍ ﻦﻣ ﺔﻤﻠﻈﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻦﻣ ﺔﻨﻴﻋ ﺎﻨﻌﻤﺟﻭ ﻉﺎﺟﺮﺘﺳﻻﺍ ﻉﺍﺭﺫ ﺪﻤﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+
+ astral_rift.725.name: "ﺔﻴﺤﺗ"
+ astral_rift.725.desc: "§E".ﺎﺒﺣﺮﻣ"§! :ﺔﻃﺎﺴﺒﺑ ﻭﺃ ،ﺔﻴﺤﺗ ﻰﻟﺇ ﻢﺟﺮﺘﻳ ﺎﻫﺪﺣﺃ ﻥﺃ ﻦﻣ ﻥﻮﻘﺛﺍﻭ ﻦﺤﻧ ،ﺯﻮﻣﺮﻟﺍ ﻞﻴﻠﺤﺗ ﺪﻌﺑ\n\n.ﺎﻨﻔﻠﺧ ﺍﺮﺛﺃ "ﻢﺳﺮﻳ" ﺎﻣ ﺀﻲﺷ ﻙﺎﻨﻫ ﻥﺎﻛ\n\n.ﺎﻨﻔﻗﻮﺗ ﺩﺮﺠﻤﺑ ﺭﺍﺪﺠﻟﺍ ﻒﻗﻮﺗ ﺚﻴﺣ ،ﺮﻄﺧ ﺪﺟﻮﻳ ﻻ ﻪﻧﺃ ﻭﺪﺒﻳ ،ﻚﻟﺫ ﻊﻣﻭ .ﺎﻨﺑﺎﻘﻋﺃ ﻲﻓ ﺐﻠﺻ ﺭﺍﺪﺟ ﻊﻓﺭ ﻢﺗ ﻪﻧﺃ ﺪﺠﻨﻟ ﻂﻘﻓ ،ﺔﻨﻣﺁ ﺔﻓﺎﺴﻣ ﻰﻟﺇ ﺎﻨﺴﻔﻧﺃ ﺎﻨﻌﻓﺩ ﺪﻘﻟ\n\n.ﺐﻳﺮﻘﻟﺍ ﺀﺎﻀﻔﻟﺍ ﻲﻓ ﺭﻮﻬﻈﻟﺍ ﻲﻓ ﺎﻨﺘﻨﻴﻔﺳ ﺮﻄﻘﻟ ﺔﻠﺛﺎﻤﻣ ﺔﻳﺮﺋﺍﺩ ﺓﺪﻤﻋﺃ ﺕﺃﺪﺑ\n\n.ﻡﺎﻤﺘﻫﻼﻟ ﺮﻴﺜﻣ ﺀﻲﺷ ﺙﺪﺣ ،ﺖﻗﻮﻟﺍ ﻚﻟﺫ ﻝﻼﺧ .ﻩﺎﻨﻠﺠﺳ ﺎﻣ ﻞﻛ ﺯﻮﻣﺭ ﻚﻔﻟ Sphere ﺮﺗﻮﻴﺒﻤﻛ ﺺﻴﺼﺨﺗ ﻢﺗ ﺪﻘﻓ ،ﺎﻬﻤﻬﻓ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﺮﻴﻏ ﺎﻨﻧﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.ﺎﻨﻟ ﺔﻓﻭﺮﻌﻣ ﺮﻴﻏ ﺔﻐﻠﺑ ﺔﺑﻮﺘﻜﻣ ﺎﻓﺮﺣﺃ ﻞﻛﺎﻴﻬﻟﺍ ﻞﻜﺸﺗ :ﺔﻌﻃﺎﻗ ﺞﺋﺎﺘﻨﻟﺍ .ﺢﺿﺍﻭ ﻞﻜﺸﺑ ﻦﻳﺪﻤﻌﺘﻣ ﻖﺳﺎﻨﺗﻭ ﺔﻴﻨﺑ ﻰﻟﺇ ﺕﺎﺣﺎﺴﻤﻟﺍﻭ ﻁﺎﻤﻧﻷﺍ ﺮﻴﺸﺗ\n\n.ﻰﻠﻋﻷﺍ ﻦﻣ ﻭﺪﺒﺘﺳ ﻒﻴﻛ ﺏﺎﺴﺣ ﻰﻠﻋ ﺍﺭﺩﺎﻗ Sphere ﺮﺗﻮﻴﺒﻤﻛ ﻥﺎﻛ ،ﺓﺪﻤﻋﻷﺍﻭ ﻥﺍﺭﺪﺠﻟﺍ ﻦﻣ ﺔﻠﺴﻠﺴﻛ ﺎﻨﻟ ﺮﻬﻈﺗ ﺎﻤﻨﻴﺑ\n\n.ﺀﺎﻀﻴﺒﻟﺍ ﺔﺣﺎﺴﻤﻟﺍ ﻩﺬﻫ ﻞﺧﺍﺩ ﺔﺒﻳﺮﻐﻟﺍ ﻡﺎﺴﺟﻸﻟ ﺔﻄﻳﺮﺧ ﻢﺳﺭ ﺎﻨﻠﻤﻛﺃ ﺎﻨﻨﻜﻟ ،ﻡﺎﻳﺃ ﺔﻌﻀﺑ ﺮﻣﻷﺍ ﻕﺮﻐﺘﺳﺍ ﺪﻘﻟ"
+
+ astral_rift.730.name: "ﺔﺛﺩﺎﺤﻣ"
+ astral_rift.730.desc.1: ".ﺭﺍﻮﺣ ﻞﻛ ﺪﻌﺑ ﺐﺗﺎﻜﻟﺍ "ﺎﻬﻤﺳﺭ ﻲﺘﻟﺍ" ﺯﻮﻣﺮﻟﺍ ﻦﻣ ﺰﻣﺭ ﻞﻛ ﺢﺴﻣ ﻢﺘﻳ ﻥﺃ ﻲﻨﻴﺗﻭﺮﻟﺍ ﻦﻣ ﺢﺒﺻﺃ ،ﺓﺮﺷﺎﺒﻤﻟﺍ ﺎﻨﺘﻘﻄﻨﻣ ﻲﻓ ﻰﺿﻮﻓ ﺙﺪﺤﻳ ﻻ ﻰﺘﺣ\n\n.ﺓﺄﺟﺎﻔﻤﻟﺍﻭ ﻝﻮﻀﻔﻟﺍ ﺮﻴﺜﺗ ﺐﺗﺎﻜﻟﺍ ﺓﺮﺒﻧ ﻦﻜﻟ ،ﺎﺒﻌﺻ ﻝﺩﺎﺒﺘﻟﺍ ﻥﺎﻛ ."ﺐﺗﺎﻜﻟﺍ" ﻢﺳﺍ ﻪﻴﻠﻋ ﺎﻨﻘﻠﻃﺃ ﻱﺬﻟﺍ ،ﻥﺎﻴﻜﻟﺍ ﻊﻣ ﺔﻔﻗﻮﺘﻣ ﺔﻘﻳﺮﻄﺑ ﻞﺻﺍﻮﺘﻟﺍ ﺎﻨﻤﻠﻌﺗ ،ﺖﻗﻮﻟﺍ ﻚﻟﺫ ﻝﻼﺧ\n\n.ﺓﺪﻳﺪﻋ ﻊﻴﺑﺎﺳﺃ ﺕﺮﻣ ﺪﻘﻟ"
+ astral_rift.730.desc.2: ".ﻞﻣﺎﻜﻟﺎﺑ ﺎﻬﻤﻬﻔﻟ ﺕﺍﻮﻨﺳ ﺎﻨﺋﺎﻤﻠﻋ ﻕﺮﻐﺘﺴﻴﺳ ﻲﺘﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻦﻣ ﺔﻴﻨﻏ ﺕﺎﻴﻤﻛ ﻰﻠﻋ ﻪﻟ ﺔﻧﻮﻜﻤﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻱﻮﺘﺤﺗ\n\n.ﻥﺎﻴﻜﻟﺍ ﻦﻣ ﺎﻫﺎﻨﻴﻘﻠﺗ ﺔﻟﺎﺳﺭ ﺮﺧﺁ ﻩﺬﻫ ﺖﻧﺎﻛ .ﺔﻨﻴﻔﺴﻟﺍ ﻦﺘﻣ ﻰﻠﻋ ﻩﺭﺎﻀﺣﺇ ﻦﻜﻤﻳﻭ ،ﺔﻘﺑﺎﺴﻟﺍ ﺯﻮﻣﺮﻟﺍ ﻦﻋ ﺍﺮﻴﺜﻛ ﺎﻔﻠﺘﺨﻣ ﻢﺴﺠﻟﺍ ﺍﺬﻫ ﻙﻮﻠﺳ ﻥﺎﻛ .ﺎﻨﺘﻨﻴﻔﺳ ﺭﺍﻮﺠﺑ ﺔﻴﺒﻫﺫ ﺓﺮﻛ ﺕﺮﻬﻇ ،ﺓﺰﻴﺟﻭ ﺓﺮﺘﻓ ﺪﻌﺑﻭ \n\n§E".ﺔﻳﺪﻫ" §! :ﺓﺮﻴﺧﺃ ﺔﻤﻠﻛ ﺕﺮﻬﻇ ﻰﺘﺣ ،ﺖﻗﻮﻟﺍ ﺾﻌﺒﻟ ﺐﺗﺎﻜﻟﺍ ﻊﻣ ﺎﻨﺘﺛﺩﺎﺤﻣ ﺕﺮﻤﺘﺳﺍ"
+ astral_rift.730.desc.gestalt: "$astral_rift.730.desc.2$\n\n$astra_rift.730.desc.1$"
+ astral_rift.730.desc.default: "$astral_rift.730.desc.2$\n\n$astra_rift.730.desc.1$"
+ astral_rift.730.a: "...ﺐﻳﺮﻐﻟﺍ ﺀﺎﻘﻠﻟﺍ ﺍﺬﻫ ﺎﻣ"
+
+###############
+# The Advisor #
+###############
+ astral_rift_advisor: "ﺭﺎﺸﺘﺴﻤﻟﺍ"
+
+ astral_rift.800.name: "ﻑﻮﻟﺄﻣ ﻥﺎﻜﻣ"
+ astral_rift.800.desc: "§E"؟ﻙﺮﻳﺮﻘﺗ ﺔﺑﺎﺘﻛ ﻲﻓ ﺓﺪﻋﺎﺴﻤﻟﺍ ﻲﻓ ﺐﻏﺮﺗ ﻞﻫ" §! :ﺎﻧﺭﺎﻜﻓﺃ ﺃﺮﻘﻧ ﺎﻨﻛ ﻮﻟ ﺎﻤﻛ ﺎﻨﻌﻓﺩ ﺪﻘﻓ ،ﺎﻧﺮﻳﺮﻘﺗ ﻲﻓ ﺀﺎﻘﻠﻟﺍ ﺮﻴﻃﺄﺘﻟ ﺔﻘﻳﺮﻃ ﻞﻀﻓﺃ ﻲﻓ ﺮﻜﻔﻧ ﺎﻨﻛ ﺎﻤﻨﻴﺑ\n\n.RIV ،"ﺎﻧﺭﺎﺸﺘﺴﻣ" ﻥﺎﻛ ﻪﻧﺃ ﺮﻛﺫ ،Sphere ـﺑ ﺔﺻﺎﺨﻟﺍ ﺕﻻﺎﺼﺗﻻﺍ ﺔﻤﻈﻧﺃ ﻊﻣ ﺔﺳﻼﺴﺑ ﻞﻣﺎﻜﺘﻟﺍ ﻝﻼﺧ ﻦﻣ .ﺭﺎﻌﺸﺘﺳﻻﺍ ﻕﺎﻄﻧ ﻞﺧﺍﺩ ﻪﺴﻔﻧ ﻊﻓﺪﻳ ﻲﻜﻴﻧﺎﻜﻴﻣ ﺯﺎﻬﺟ ﺎﻨﻬﺟﺍﻭ ،ﺕﺎﻈﺤﻟ ﻥﻮﻀﻏ ﻲﻓﻭ\n\n.[This.System.Star.GetName] ﻝﻮﺣ ﺭﻭﺪﻳ ﺎﻘﺑﺎﺳ ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﺎﺒﻛﻮﻛ ﺎﻨﻳﺪﻟ ﺢﺴﻤﻟﺍ ﺕﺎﻴﻠﻤﻋ ﺕﺮﻬﻇﺃ ﻰﺘﺣ ،ﻥﺎﻜﻣ ﻱﺃ ﻰﻟﺇ ﺎﻧﺮﻓﺎﺳ ﺪﻗ ﺎﻨﻧﺃ ﻦﻣ ﻦﻳﺪﻛﺄﺘﻣ ﻦﻜﻧ ﻢﻟ ﺔﻳﺍﺪﺒﻟﺍ ﻲﻓ\n\n.ﻉﺪﺼﻟﺍ ﻪﻴﻓ ﺎﻨﻠﺧﺩ ﻱﺬﻟﺍ ﻡﺎﻈﻨﻟﺍ ﻮﻫﻭ ،§Y[This.System.GetName]§! ـﻟ ﺎﺒﻳﺮﻘﺗ ﻖﺑﺎﻄﻣ ﻡﺎﻈﻧ ﻰﻟﺇ ﺎﻨﻠﺧﺩ ﺪﻘﻟ"
+ astral_rift.800.a: ".ﺓﺪﻋﺎﺴﻤﻟﺍ ﺐﻠﻃﺍ"
+ astral_rift.800.b: ".ﺀﻲﺸﻟﺍ ﺍﺬﻫ ﻞﻴﻄﻌﺗ"
+
+ astral_rift.805.name: "ﺪﻋﺎﺴﻤﻟﺍ ﺓﺪﻋﺎﺴﻣ"
+ astral_rift.805.desc: "§E".ﺮﻛﺬﻟﺍ ﺮﻤﻋ ﻑﺎﻌﺿﺃ ﺓﺮﺸﻋ ﻦﻣ ﺮﺜﻛﺃ Tiyanki Matriarch ﺮﻤﻋ ﻂﺳﻮﺘﻣ ﻎﻠﺒﻳ"§!\n\n§E"!ﻕﺮﺸﻣ ﺔﻴﻤﻫﻷﺍ ﻭﺪﻳﺪﺷ ﻢﻬﻧﺇ .ﻡﺎﻈﻧ ﻞﻛ ﺰﻛﺮﻣ ﻲﻓ ﻢﺠﻧ ﺪﺟﻮﻳ"§!\n\n§E"؟ﺔﻴﺒﻛﻮﻜﻟﺍ ﺀﺍﻮﺟﻷﺍ ﻦﻋ ﺪﻳﺰﻤﻟﺍ ﺔﻓﺮﻌﻣ ﻲﻓ ﺐﻏﺮﺗ ﻞﻫ"§!\n\n:ﺔﻳﺎﻐﻠﻟ ﺔﻬﻓﺎﺗ ﺖﻧﺎﻛ ﺎﻬﺗﺎﻧﺎﻴﺑﻭ ﺎﻬﺗﺎﺒﻠﻃ ﻥﺃ ﺎﻨﻛﺭﺩﺃ ﺎﻣ ﻥﺎﻋﺮﺳ ،ﻚﻟﺫ ﻊﻣﻭ .ﺎﻬﺑ ﺎﻨﻓﺮﺘﻋﺍ ﺔﺒﻟﺎﻄﻣ ﻞﻜﺑ ﺍﺪﻴﻌﺳ ﺮﻣﻷﺍ ﺍﺪﺑ\n\n .ﺎﻨﻌﻣ ﻪﺘﻓﺮﻌﻣ ﺔﻛﺭﺎﺸﻣ ﻲﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺯﺎﻬﺠﻟﺍ ﻦﻣ ﺎﻨﺒﻠﻃ ﺪﻘﻟ"
+ astral_rift.805.a: ".ﺓﺪﻋﺎﺴﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﺐﻠﻃﺍ"
+ astral_rift.805.b: ".ﺀﻲﺸﻟﺍ ﺍﺬﻫ ﻞﻴﻄﻌﺗ"
+
+ astral_rift.810.name: "ﻞﻴﻄﻌﺘﻟﺍ ﻰﻠﻋ ﺭﺩﺎﻗ ﺮﻴﻏ"
+ astral_rift.810.desc: ".ﻢﻋﺎﻧ ﻦﻴﻨﻃ ﺕﻮﺻ ﺭﺍﺪﺻﺇ ﻲﻓ ﺯﺎﻬﺠﻟﺍ ﺃﺪﺑ\n\n§E".ﻱﺭﻭﺮﺿ ﺍﺬﻫ .ﻚﻠﻴﻄﻌﺗ ﻢﺘﻴﺳﻭ ،ﺩﺪﺼﻟﺍ ﺍﺬﻫ ﻲﻓ ﻞﻤﻬﻣ ﺖﻧﺃ .ﺎﻤﺋﺍﺩ ﺔﺣﺎﺘﻣ ﺔﻓﺮﻌﻤﻟﺍ ﻥﻮﻜﺗ ﻥﺃ ﺐﺠﻳ .ﻯﺮﺧﻷﺍ ﺔﻴﺤﻟﺍ ﺕﺎﻨﺋﺎﻜﻟﺍ ﻊﻴﻤﺟ ﻯﺪﻟ ﻞﻬﺠﻟﺍ ﺰﻳﺰﻌﺗ ﻰﻟﺇ ﺞﻣﺎﻧﺮﺒﻟﺍ ﺍﺬﻫ ﺀﺎﻬﻧﺇ ﻱﺩﺆﻴﺳ"§!\n\n.ﺮﻄﺧ ﺮﻄﺧ ﻲﻓ ﻦﺤﻨﻓ ،ﻚﻟﺬﻛ ﺮﻣﻷﺍ ﻥﺎﻛ ﺍﺫﺇ ﻦﻜﻟﻭ ،(ﺎﻬﻨﻣ ﻱﺄﺑ ﺎﻨﺑ ﺹﺎﺨﻟﺍ ﺪﻌﺒﻟﺍ ﻦﻣ ﺭﺎﺸﺘﺴﻤﻟﺍ ﻢﻴﻤﺼﺗ ﻢﺘﻳ ﻢﻟ ﺪﻴﻛﺄﺘﻟﺎﺑ) ﺔﺤﻠﺳﺃ ﺔﻤﻈﻧﺃ ﻱﺃ ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﺔﻟﻵﺍ ﻩﺬﻫ ﺖﻧﺎﻛ ﺍﺫﺇ ﺎﻤﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺎﻨﺴﻟ\n\n.ﺚﻴﺒﺧ ﺮﻤﺣﺃ ﺀﻮﺿ ﻰﻟﺇ ﺖﻟﻮﺤﺗ ،ﯪﺪﻬﻣ ﻕﺭﺯﺃ ﺍﺀﻮﺿ ﺔﻴﺋﺎﻨﺜﻟﺍ ﺎﻬﺗﺎﻣﺎﻤﺻ ﺕﺭﺪﺻﺃ ﻥﺃ ﺩﺮﺠﻤﺑ ﺚﻴﺣ\n\n.ﺎﻫﺀﺍﺪﻌﺘﺳﺍ ﻲﻓ ﻻﺇ ﺔﻟﻵﺍ ﻞﻴﻄﻌﺘﻟ ﺎﻨﺗﻻﻭﺎﺤﻣ ﺢﺠﻨﺗ ﻢﻟ"
+ astral_rift.810.a: ".ﺔﻟﻵﺍ ﺀﺎﺿﺮﺘﺳﺍ"
+ astral_rift.810.b: ".ﺔﻴﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻛ ﺔﻀﺒﻧ ﻎﻳﺮﻔﺗ"
+
+ astral_rift.815.name: ""ﺓﺪﻋﺎﺴﻤﻟﺍ" ﻦﻣ ﺪﻳﺰﻣ"
+ astral_rift.815.desc: ".ﻥﺎﻜﻣﻹﺍ ﺭﺪﻗ ﻢﻠﻌﺘﻟﺍﻭ ﺀﺎﻘﺒﻟﺍ [Leader.GetName]\n\n ﺭﺎﺘﺧﺍ ﺪﻘﻟ .ﺖﻗﻮﻟﺍ ﻦﻣ ﻞﻴﻠﻘﻟﺍ ،ﺔﻓﺮﻌﻤﻟﺍ ﻦﻣ ﺮﻴﺜﻜﻟﺍ ؟ﻥﺩﺎﻌﻤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﺎﻨﻛ ﺍﺫﺇ ﻦﻳﺪﻌﺘﻟﺍ ﻖﻃﺎﻨﻣ ﺀﺎﻨﺑ ﺎﻨﻨﻜﻤﻳ ﻪﻧﺃ ﻢﻠﻌﺗ ﻞﻫ\n\n.ﺓﺮﻴﺜﻣ ...ﺎﻬﻧﺇ\n\n.ﺔﻋﺮﺴﺑ ﻪﺘﺤﻴﺼﻧ ﺓﺮﻴﺗﻭﻭ ﺔﻓﺎﺜﻛ ﻲﻜﻴﻧﺎﻜﻴﻤﻟﺍ ﺭﺎﺸﺘﺴﻤﻟﺍ ﺩﺍﺯ ﺪﻘﻟ"
+ astral_rift.815.a: "!ﺩﻮﻋﺃ ،ﺮﻈﺘﻧﺍ"
+
+ astral_rift.820.name: "ﻲﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﺾﺒﻨﻟﺍ"
+ astral_rift.820.desc.1: "§!... DiZZZZappointed."§E§Y<unintelligible>§!"RRRRRR... ﻞﻬﺟ ﻰﻟﺇ ﻰﻌﺴﺗ ﺖﻧﺃ .ﻞﻬﺠﻟﺍ §!\n\n.ﺔﺷﻮﺸﻣ ﺓﺮﻴﺧﺃ ﺔﻣﻮﻠﻌﻣ ﺭﺍﺪﺻﺇ ﻦﻣ ﻦﻜﻤﺘﻳ ﻥﺃ ﻞﺒﻗ ﺲﻴﻟ ﻦﻜﻟﻭ ،ﺭﻮﻔﻟﺍ ﻰﻠﻋ ﺯﺎﻬﺠﻟﺍ ﺮﺛﺄﺗ\n\n.ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻨﺘﻨﻴﻔﺳ ﻲﻓ ﺔﻗﺎﻄﻟﺍ ﻥﻭﺰﺨﻣ ﺩﺎﻔﻨﺘﺳﺍ ﻰﻟﺇ ﺍﺬﻫ ﻯﺩﺃ ﺪﻗﻭ .ﺔﻴﺴﻴﻃﺎﻨﻐﻣﻭﺮﻬﻜﻟﺍ ﺔﻗﺎﻄﻟﺍ ﻦﻣ ﺓﺮﻴﺒﻛ ﺔﻀﺒﻧ ﺭﺍﺪﺻﺇ ﻯﻮﺳ ﺭﺎﻴﺧ ﺎﻨﻳﺪﻟ ﻦﻜﻳ ﻢﻟ ،ﻚﻴﺷﻭ ﺮﻄﺨﻟ ﺎﻨﻤﻗﺎﻃ ﺽﺮﻌﺗ ﻊﻣ"
+ astral_rift.820.desc.2: ".ﺔﻔﻟﺎﺘﻟﺍ ﺎﻬﺘﻤﻈﻧﺃ ﺀﺎﻨﺑ ﺓﺩﺎﻋﻹ ﺔﻘﻳﺮﻃ ﺪﺠﺗ ﺪﻘﻓ ،ﺓﺍﻮﻨﻟﺍ ﺮﻴﻣﺪﺗ ﻢﺘﻳ ﻢﻟ ﻥﺎﻛ ﺍﺫﺇ ﻪﻧﺃ ﻊﻗﻮﺘﻧ\n\n.(ﺍﺪﻴﺟ ﺔﻨﺼﺤﻣﻭ) ﺔﻳﺎﻐﻠﻟ ﺔﻣﺪﻘﺘﻣ ﺮﺗﻮﻴﺒﻤﻛ ﺓﺍﻮﻧﻭ ﺔﻤﻴﻘﻟﺍ ﺔﻴﻟﺎﻋ ﻚﺋﺎﺒﺳ ﻦﻣ ﺔﻧﻮﻜﻣ ﺎﻬﻧﺃ ﺎﻧﺪﺟﻭﻭ ،ﺎﻬﺋﺎﻨﺑ ﻞﻴﻠﺤﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ\n\n.ﺓﺮﻜﻟﺍ ﻦﻣ ﺪﺣﺍﻭ ﺮﺘﻣﻮﻠﻴﻛ ﻦﻣ ﻞﻗﺃ ﺪﻌﺑ ﻰﻠﻋ ﺎﻣﺎﻤﺗ ﺔﻠﻣﺎﺧ ﻮﻔﻄﺗ ﻥﻵﺍ ﻲﻫﻭ ،ﺔﻴﺋﺍﺪﻌﻟﺍ ﻝﺎﻤﻋﻷﺍ ﻊﻴﻤﺟ ﺖﻔﻗﻮﺗ\n\n.ﺔﻟﻵﺍ ﻞﻴﻐﺸﺗ ﻑﺎﻘﻳﺇ ﻢﺗ ،ﻢﻗﺎﻄﻠﻟ ﺍﺮﻴﺒﻛ ﺎﺣﺎﻴﺗﺭﺍ ﺭﺎﺛﺃ ﺎﻤﻣ"
+ astral_rift.820.desc.default: "$astral_rift.820.desc.2$\n\n$astra_rift.820.desc.1$"
+ astral_rift.820.desc.human: "$astral_rift.820.desc.2$\n\n§E"LLLLLLﻞﻌﻔﻟﺎﺑ ﻪﻓﺮﻌﺗ ﻥﺃ ﺐﺠﻳ ﺎﻣ ﻢﻠﻌﺗ ﺓﺩﺎﻋﺈﺑ ﻚﻴﻠﻋ ﻡﻮﻜﺤﻣ ،ﻙﻮﻘﺒﺳ ﻦﻣ ﻞﻛ ﻞﺜﻣ."§!\n\n$astral_rift.820.desc.1$"
+ astral_rift.820.a: ".ﺎﻫﺮﻫﻮﺟ ﺓﺩﺎﻌﺘﺳﻻ ﺔﻟﻭﺎﺤﻣ"
+ astral_rift.820.b: ".ﻞﻣﺎﻜﻟﺎﺑ ﺔﻟﻵﺍ ﺮﻴﻣﺪﺗ"
+
+ astral_rift.825.name: "ﺔﻟﻵﺍ ﺪﻳﺮﺨﺗ"
+ astral_rift.825.desc: ".ﺮﺗﻮﻴﺒﻤﻜﻟﺍ ﻡﻮﻠﻌﻟ ﺎﻨﻤﻬﻓ ﺰﻳﺰﻌﺗ ﻰﻠﻋ ﺎﻨﺗﺪﻋﺎﺳ ﻪﺑ ﺔﺻﺎﺨﻟﺍ ﺔﻴﺠﻣﺮﺒﻟﺍ ﺕﺎﻤﻴﻠﻌﺘﻟﺍ ﺓﺪﻋﺎﻗ ﺔﻴﻨﺑ ﻥﺃ ﻻﺇ ،ﺐﻟﺎﻐﻟﺍ ﻲﻓ ﺓﺪﺋﺎﻔﻟﺍ ﺔﻤﻳﺪﻋ ﺕﺎﻣﻮﻠﻌﻣ ﻰﻠﻋ ﻪﺋﺍﻮﺘﺣﺍ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ .ﻪﺑ ﺔﺻﺎﺨﻟﺍ ﺕﺎﻧﺎﻴﺒﻟﺍ ﻙﻮﻨﺑ ﻰﻟﺇ ﻝﻮﺻﻮﻟﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﻚﻟﺫ ﻊﻣﻭ .ﺀﺍﺰﺟﻸﻟ ﺮﺗﻮﻴﺒﻤﻜﻟﺍ ﺐﻠﻗ ﻚﻴﻜﻔﺗ ﻦﻣ ﻥﻵﺍ ﻰﺘﺣ ﻦﻜﻤﺘﻧ ﻢﻟ ،ﺎﻬﻣﺪﺨﺘﺴﻧ ﻲﺘﻟﺍ ﺓﺍﺩﻷﺍ ﻭﺃ ﻪﻣﺪﺨﺘﺴﻧ ﻱﺬﻟﺍ ﺞﻬﻨﻟﺍ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ :ﻊﻴﻨﺼﺘﻟﺍ ﻲﻓ ﺎﻘﺋﺎﻓ ﺎﻧﺎﻘﺗﺇ ﻚﻠﺘﻣﺍ ﺪﻘﻓ ،(ﺺﺨﺷ ﻱﺃ ﻞﺒﻗ ﻦﻣ ﻞﻌﻔﻟﺎﺑ ﻩﺅﺎﻨﺑ ﻢﺗ ﺪﻗ ﻥﺎﻛ ﺍﺫﺇ) ﺎﻬﺋﺎﻨﺒﺑ ﻡﺎﻗ ﻦﻣ ﻥﺎﻛ ﺎﻳﺃ \n\n .ﺎﻬﻟ ﺔﻧﻮﻜﻤﻟﺍ ﺀﺍﺰﺟﻷﺍ ﻰﻟﺇ ﺔﻟﻵﺍ ﻚﻴﻜﻔﺘﺑ ﺎﻨﻤﻗ ،ﺔﻌﻄﻗ ﺔﻌﻄﻗ"
+ astral_rift.825.a: ".ﺍﺪﺟ ﺪﻴﺟ"
+
+ astral_rift.830.name: "ﺪﻴﺠﻟﺍ ﺹﻼﺨﻟﺍ"
+ astral_rift.830.desc: ".ﺝﺎﻋﺯﻺﻟ ﻝﻮﻘﻌﻣ ﺀﺍﺰﻋ ،ﺔﻴﻤﺠﻨﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻦﻣ ﺔﻳﺩﺎﻋ ﺮﻴﻏ ﺔﻴﻤﻛ ﺎﻨﻔﺸﺘﻛﺍ ﻪﺑﺎﻘﻋﺃ ﻲﻓ\n\n.ﻍﺍﺮﻔﻟﺍ ﺮﺒﻋ ﺔﻟﻵﺍ ﺕﺎﻧﻮﻜﻣ ﺓﺮﺜﻌﺑ ﻰﻟﺇ ﺭﺎﺠﻔﻧﻻﺍ ﻯﺩﺃ ﺎﻤﻨﻴﺑ ﺡﺎﻴﺗﺭﺎﺑ ﺎﻧﺪﻫﺎﺷ ،ﺔﻨﻣﺁ ﺔﻓﺎﺴﻣ ﻰﻠﻋ\n\n.ﺓﺎﺳﺮﻤﻟﺍ ﺓﺩﺎﻌﺘﺳﻻ Sphere ﺔﻤﻈﻧﺃ ﺩﺍﺪﻋﺈﺑ ﺎﻨﻤﻗﻭ ،ﺎﻬﺒﻠﻗ ﻲﻓ ﺮﺠﻔﺘﻣ ﺯﺎﻬﺟ ﺰﻴﻬﺠﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ\n\n.ﻕﺎﻄﺗ ﻻ ﻲﺘﻟﺍ ﺔﻟﻵﺍ ﻩﺬﻫ ﻦﻣ ﺎﻨﻤﺌﺳ ﺪﻘﻟ"
+ astral_rift.830.a: ".ﺮﻴﺼﻤﻟﺍ ﺲﺌﺑ"
+
+ astral_rift.840.name: "[Owner.GetScientistCapital] ﺩﻮﻌﻳ"
+ astral_rift.840.desc.1: ".ﺓﺪﻳﺪﺠﻟﺍ ﺕﺍﺭﺪﻘﻟﺍ ﺾﻌﺑ ﺎﻀﻳﺃ [Leader.GetHasHave] [Leader.GetHeShe] ﺐﺴﺘﻛﺍ ،ﻚﻟﺬﻟ ﺔﺠﻴﺘﻧ ﺎﻤﺑﺭ \n\n .ﺪﻳﺪﺤﺘﻠﻟ ﻞﺑﺎﻗ ﺮﻴﻏ [Leader.GetHisHer] ﺮﻤﻋ ﺢﺒﺻﺃﻭ ،ﺖﻗﻮﻟﺍ ﻦﻴﺑ ﺎﻣ ﺔﻘﻳﺮﻄﺑ ﻪﻓﺎﺸﺘﻛﺍ ﻢﺗ :ﺮﻴﻐﺗ ﺪﻗ [Leader.GetWasWere] [Leader.GetHeShe] ﻥﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ ﺢﺒﺻﺃ ﺎﻣ ﻥﺎﻋﺮﺳ ،ﻚﻟﺫ ﻊﻣﻭ .ﺩﺎﺘﻌﻤﻟﺎﻛ ﻞﻤﻌﻟﺍ ﻰﻟﺇ ﺓﺩﻮﻌﻟﺍ ﻲﻓ ﻉﺮﺷﻭ ﺔﻴﻤﻠﻌﻟﺍ ﺎﻨﻨﻔﺳ ﻯﺪﺣﺇ ﻦﺘﻣ ﻰﻠﻋ ﺔﻃﺎﺴﺒﺑ [Root.Leader.GetHeShe] ﺮﻬﻇ ،ﺭﺍﺬﻧﺇ ﻖﺑﺎﺳ ﻥﻭﺪﺑ\n\n.ﺔﻴﻤﺠﻨﻟﺍ ﻉﻭﺪﺼﻟﺍ ﻯﺪﺣﺇ ﻞﺧﺍﺩ [Leader.GetHisHer] ﺔﻠﺣﺭ ﻦﻣ [Leader.GetHasHave] [Leader.GetName] ﺩﺎﻋ"
+ astral_rift.840.desc.default: ".ﻝﺎﺠﺗﺭﻻﺍ ﻦﻣ ﺮﻴﺜﻜﺑ ﻰﻠﻋﺃ ﺔﺟﺭﺪﺑ ﻞﻤﻌﻳ ﻪﻧﺃ ﻆﺣﻮﻟ ﺪﻗﻭ ،ﺔﻴﻤﻴﻠﻌﺘﻟﺍ ﺔﻟﺩﻷﺍ ﻦﻣ ﻉﻮﻧ ﻱﺃ ﻦﻣ ﺎﻳﻮﻗ ﺍﺭﻮﻔﻧ [Leader.GetHasHave] ﺭﻮﻃ [Leader.GetName]\n\n$astral_rift.840.desc.1$"
+ astral_rift.840.desc.gestalt: "$astra_rift.840.desc.1$"
+
+ astral_rift.845.name: "ﺮﻴﻓ"
+ astral_rift.845.desc.disabled: "§E"؟ﺩﺎﺷﺭﻹﺍ ﻦﻴﻜﻤﺗ ﺓﺩﺎﻋﺇ ﻲﻓ ﺐﻏﺮﺗ ﻞﻫ .ﺓﺪﻋﺎﺴﻤﻟﺍ ﻰﻟﺇ ﺔﺟﺎﺤﺑ ﻚﻧﺃ ﻰﻟﺇ ﺭﺎﻌﺸﺘﺳﻻﺍ ﺓﺰﻬﺟﺃ ﺮﻴﺸﺗ"§!"
+ astral_rift.845.desc.enabled: "§E"؟ﻚﻟﺬﻛ ﺲﻴﻟﺃ ،ﻲﺑﺎﺑ ﻖﻠﻐﺗ ﻦﻟ"§!"
+ astral_rift.845.shutdown: "ﻖﻠﻏﺍ"
+ astral_rift.845.b: "!ﻢﻌﻧ ،ﻊﻗﺍﻮﻟﺍ ﻲﻓ"
+ astral_rift.845.c: ".ﻻ ﻊﺒﻄﻟﺎﺑ"
+
+##############
+# The Vortex #
+##############
+ vortex_fuel_modifier: "ﺩﻮﻗﻮﻟﺍ ﺔﻣﺍﻭﺩ"
+
+ astral_rift_vortex: "ﺔﻣﺍﻭﺪﻟﺍ"
+
+ astral_rift.900.name: "ﺔﻣﺍﻭﺪﻟﺍ"
+ astral_rift.900.desc.1: ".ﺎﻬﺴﻔﻧ ﺓﺩﺎﻤﻟﺍ ﻝﻮﺣ ﻪﺘﻌﻴﺒﻄﺑ ﺐﻠﻘﺘﻣ ﺀﻲﺷ ﻙﺎﻨﻫ ﻥﺎﻛ ﺍﺫﺇ ﻭﺃ ،ﺔﺌﻃﺎﺧ ﺎﻨﺗﺍﻭﺩﺃ ﺖﻧﺎﻛ ﺍﺫﺇ ﺎﻤﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺎﻨﺴﻟ ﻦﺤﻧ .ﻖﺑﺎﺴﻟﺍ ﻦﻋ ﺎﻣﺎﻤﺗ ﺎﻔﻠﺘﺨﻣ ﻲﺗﺄﻳ ﻞﻴﻠﺤﺗ ﻞﻛ ﻦﻜﻟﻭ ،ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻦﻣ ﺓﺮﻴﻐﺻ ﺔﻨﻴﻋ ﺬﺧﺃ ﻦﻣ ﺎﻨﻜﻤﺗ ﺪﻘﻟ\n\n.ﻑﻭﺮﻌﻣ ﺮﻴﻏ ﻱﺯﺎﻏ ﻞﺋﺎﺳ ﻦﻣ ﺔﺟﻮﻤﺘﻣ ﺕﺎﺟﻮﻤﺑ ﺎﻣﺎﻤﺗ ﺔﺑﻮﺠﺤﻣ ﺎﻨﻳﺪﻟ ﺓﺪﻫﺎﺸﻤﻟﺍ ﺬﻓﺍﻮﻧ\n\n.ﺔﻔﻴﻨﻋ ﺔﻌﺑﻭﺯ ﻞﺧﺍﺩ ﺎﻨﻠﺻﻭ ﺪﻘﻟ"
+ astral_rift.900.desc.2: ".ﺮﺒﻛﺃ ﻞﻜﺸﺑ ﺓﺮﻫﺎﻈﻟﺍ ﻩﺬﻫ ﺔﺳﺍﺭﺩ ﻦﻣ ﻦﻜﻤﺘﻧ ﻰﺘﺣ ﺔﻟﻭﺰﻌﻣ ﺔﻳﻭﺎﺣ ﻞﺧﺍﺩ ﺎﻬﻌﻀﻧﻭ .ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻬﺗﺎﻳﻮﺘﺤﻣ ﻰﻠﻋ ﺮﺛﺆﺗ ﺓﺭﺍﺮﺤﻟﺍ ﺔﺟﺭﺩ ﻲﻓ ﺓﺮﻴﻐﺼﻟﺍ ﺕﺍﺮﻴﻐﺘﻟﺍ ﻥﺃ ﺎﻨﻈﺣﻻ ،ﺔﺒﺳﺎﻨﻤﻟﺎﺑ\n\n.ﺔﻴﻤﺠﻨﻟﺍ ﺩﺍﻮﻤﻟﺍ ﻦﻣ ﻲﻌﻴﺒﻃ ﺮﻴﻏ ﻞﻜﺸﺑ ﺓﺮﻴﺒﻛ ﺔﻴﻤﻛ ﻰﻠﻋ ﻱﻮﺘﺤﺗ ﺎﻬﻧﺃ ﻲﻫ ﺔﻨﻴﻌﻟﺍ ﻲﻓ ﺎﻫﺎﻧﺪﺟﻭ ﻲﺘﻟﺍ ﺔﺘﺑﺎﺜﻟﺍ ﺓﺪﻴﺣﻮﻟﺍ ﺔﻴﺻﺎﺨﻟﺍ"
+ astral_rift.900.desc.default: "$astral_rift.900.desc.2$\n\n.ﻦﻴﺣﺎﺗﺮﻣ ﺮﻴﻏ ﺍﻮﺤﺒﺻﺃ ﻢﻗﺎﻄﻟﺍ ﺩﺍﺮﻓﺃ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻥﺃ ﺔﺟﺭﺪﻟ ﺔﻓﺎﺜﻜﺑ §Y$tech_rift_sphere$§! ﻚﻳﺮﺤﺗ ﻢﺘﻳ\n\n$astral_rift.900.desc.1$"
+ astral_rift.900.desc.gestalt: "$astral_rift.900.desc.2$\n\n$astra_rift.900.desc.1$"
+ astral_rift.900.a: ".ﺎﻣﺪﻗ ﻲﻀﻤﻟﺍ"
+ astral_rift.900.b: ".ﺐﻬﻠﻟ ﺔﻨﻴﻌﻟﺍ ﺢﻀﻓ"
+
+ astral_rift.905.name: "ﺎﻣﺪﻗ ﻲﻀﻤﻟﺍ"
+ astral_rift.905.desc: ".ﻊﺟﺍﺮﺘﻟﺍ ﻰﻟﺇ ﺮﻄﻀﻧ ﻭﺃ ،ﻑﻭﺮﻈﻟﺍ ﻲﻓ ﺍﺮﻴﻴﻐﺗ ﻪﺟﺍﻮﻧ ﻰﺘﺣ ﺮﻤﺘﺴﻧ ﻑﻮﺳ\n\n."ﺔﻔﺻﺎﻌﻟﺍ" ﻢﺳﺎﺑ ﻪﻴﻟﺇ ﺮﻴﺸﻧ ﺎﻣ ﺕﻼﻳﻭ ﺃﻮﺳﺃ ﺔﺤﻓﺎﻜﻣ ﻲﻓ ﻪﺘﻴﻟﺎﻌﻓ ﺖﺒﺛﺃ ﻪﺘﻌﻴﺒﻄﺑ ﻩﺮﻓﻮﻳ ﻱﺬﻟﺍ ﺩﻭﺪﺤﻤﻟﺍ ﻙﺎﻜﺘﺣﻻﺍ ﻥﺈﻓ ،§Y$tech_rift_sphere$§! ﺩﻭﺪﺣ ﺪﻴﻛﺄﺘﻟﺎﺑ ﺮﺒﺘﺨﻧ ﺎﻤﻨﻴﺑ .ﺔﻣﺍﻭﺪﻟﺍ ﻰﻟﺇ ﺓﺮﺷﺎﺒﻣ ﺎﻨﻠﻘﺘﻧﺍ ،ﺎﻨﻳﺪﻟ ﺔﻠﺠﺴﻤﻟﺍ ﻝﻮﺧﺪﻟﺍ ﺔﻄﻘﻧ ﻦﻣ ﺓﺪﻟﻮﺘﻤﻟﺍ ﺕﺎﻫﺎﺠﺗﻻﺍ ﻡﺍﺪﺨﺘﺳﺎﺑ"
+ astral_rift.905.a: "...ﺔﻳﺎﻨﻌﺑ ﻊﺑﺎﺗ"
+
+ astral_rift.910.name: "ﺐﻬﻠﻟ ﺔﻨﻴﻌﻟﺍ ﺢﻀﻓ"
+ astral_rift.910.desc.1: ".ﻡﺎﻋ ﻞﻜﺸﺑ ﺔﻗﺎﻄﻟﺍ ﺪﻴﻟﻮﺗ ﻦﻜﻟﻭ ،ﻦﻔﺴﻟﺍ ﻊﻓﺪﻟ ﻂﻘﻓ ﺲﻴﻟ ﺎﻨﻤﻬﻓ ﺰﻳﺰﻌﺘﻟ ﺞﺋﺎﺘﻨﻟﺍ ﻩﺬﻫ ﻡﺍﺪﺨﺘﺳﺍ ﻊﻴﻄﺘﺴﻧ ﺎﻨﻧﺃ ﻦﻣ ﻦﻴﻘﻳ ﻰﻠﻋ ﻦﺤﻧ\n\n.ﻱﺭﻮﺛ ﺮﻣﺃ ﻮﻫ ﻩﺎﻨﻔﺸﺘﻛﺍ ﺎﻣ\n\n.ﺮﻘﺘﺴﻤﻟﺍ ﺮﻴﻏ ﻲﺋﺎﻴﻤﻴﻜﻟﺍ ﻪﻧﺯﺍﻮﺘﻟ ﺍﺭﺮﺿ ﻞﻗﺃ ﻥﻮﻜﻴﺳ ﺮﺷﺎﺒﻤﻟﺍ ﺐﻬﻠﻟﺍ ﻥﺃ ﻦﻣ ﻦﻴﻘﺛﺍﻭ ﺎﻨﺤﺒﺻﺃ ﻰﺘﺣ ،ﺀﻂﺒﺑ ﻝﻮﻠﺤﻤﻟﺍ ﻰﻟﺇ ﺓﺭﺍﺮﺤﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟﺍﻭ ﺪﻳﺰﻤﻟﺍ ﺎﻨﻠﺧﺩﺃ"
+ astral_rift.910.desc.default: "$astral_rift.910.desc.1$\n\n.ﺮﺷﺎﺒﻤﻟﺍ ﺐﻬﻠﻟ ﺔﻨﻴﻌﻟﺍ ﺾﻳﺮﻌﺘﺑ ﺎﻨﻤﻗ ،ﺎﻨﻤﻗﺎﻃ ﺩﺍﺮﻓﺃ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﺽﺍﺮﺘﻋﺍ ﻰﻠﻋ ﺀﺎﻨﺑ\n\n.ﺎﻴﻓﺮﺣ ﺎﻧﺮﻣﺍﻭﺃ ﺎﻨﻌﺒﺗﺍ ﺎﻨﻨﻜﻟ ،ﺮﻃﺎﺨﻤﻟﺎﺑ ﻑﻮﻔﺤﻣ ﺡﺍﺮﺘﻗﺍ"
+ astral_rift.910.desc.gestalt: "$astral_rift.910.desc.1$\n\n.ﺮﺷﺎﺒﻤﻟﺍ ﺐﻬﻠﻟ ﺔﻨﻴﻌﻟﺍ ﺾﻳﺮﻌﺘﺑ ﺎﻨﻤﻗ ﺪﻘﻟ"
+
+ astral_rift.915.name: "ﺔﺛﺭﺎﻛ"
+ astral_rift.915.desc.default: ".ﺔﻴﻤﺠﻧ ﺓﺩﺎﻣ ﺰﻴﻛﺮﺘﻟﺍ ﻲﻟﺎﻋ ﺔﻨﻴﻔﺴﻟﺍ ﻞﺧﺍﺩ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻥﺃ ﺮﻛﺬﻟﺎﺑ ﺮﻳﺪﺠﻟﺍ ﻦﻣﻭ\n\n.ﻪﻠﻤﻛﺄﺑ ﻢﻗﺎﻄﻠﻟ ﺔﻤﺤﻔﺘﻤﻟﺍ ﺎﻳﺎﻘﺒﻟﺍ ﻯﻮﺳ ﺪﺠﻧ ﻢﻟ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟﻭ\n\n.§Y$tech_rift_sphere$§! ﺎﻧﺪﻌﺘﺳﺍﻭ ﺓﺎﺳﺮﻤﻟﺍ ﺐﺤﺴﺑ ﺎﻨﻤﻗ ﺪﻘﻓ ،ﺩﺎﺘﻌﻤﻟﺍ ﺀﺍﺮﺟﻹﺍ ﻮﻫ ﺎﻤﻛ\n\n.ﻲﻤﻠﻌﻟﺍ ﻖﻳﺮﻔﻟﺎﺑ ﻝﺎﺼﺗﻻﺍ ﺎﻧﺪﻘﻓ ﺪﻘﻟ"
+ astral_rift.915.desc.gestalt: ".ﺔﻴﻤﺠﻧ ﺓﺩﺎﻣ ﺰﻴﻛﺮﺘﻟﺍ ﻲﻟﺎﻋ ﺔﻨﻴﻔﺴﻟﺍ ﻞﺧﺍﺩ ﻱﻮﺠﻟﺍ ﻑﻼﻐﻟﺍ ﻥﺃ ﺮﻛﺬﻟﺎﺑ ﺮﻳﺪﺠﻟﺍ ﻦﻣﻭ\n\n.ﺔﻤﺤﻔﺘﻣ ﺎﻳﺎﻘﺑ ﻯﻮﺳ ﺪﺠﻧ ﻢﻟ ،ﻆﺤﻟﺍ ﺀﻮﺴﻟﻭ\n\n.§Y$tech_rift_sphere$§! ﺎﻧﺪﻌﺘﺳﺍﻭ ﺓﺎﺳﺮﻤﻟﺍ ﺐﺤﺴﺑ ﺎﻨﻤﻗ ﺪﻘﻓ ،ﻲﺳﺎﻴﻘﻟﺍ ﺀﺍﺮﺟﻹﺍ ﻮﻫ ﺎﻤﻛ \n\n.[explorer.GetIndividualNamePlural] ـﺑ ﻝﺎﺼﺗﻻﺍ ﺎﻧﺪﻘﻓ ﺪﻘﻟ"
+
+ astral_rift.920.name: "ﻞﺧﺍﺪﻟﺍ ﻦﻣ ﺪﻳﺰﻣ"
+ astral_rift.920.desc.1: ".ﺭﺎﺒﻐﻟﺍ ﻯﻮﺳ ﻰﻘﺒﺘﻳ ﻦﻠﻓ ﺍﺪﺟ ﺔﻠﻳﻮﻃ ﺓﺮﺘﻔﻟ ﺓﺮﻫﺎﻈﻟﺍ ﻩﺬﻫ ﺕﺮﻤﺘﺳﺍ ﻮﻠﻓ ،ﺎﻴﺒﺴﻧ ﺔﺜﻳﺪﺣ ﺓﺮﻫﺎﻇ ﻩﺬﻫ ﻥﺃ ﻰﻟﺇ ﻢﺠﺤﻟﺍ ﺔﻠﻣﺎﻛ ﺐﻛﺍﻮﻜﻟﺍ ﺩﻮﺟﻭ ﺮﻴﺸﻳ .ﺔﻔﺻﺎﻌﻟﺍ ﻩﺬﻫ ﺎﻬﺘﻗﺮﻐﺘﺳﺍ ﻲﺘﻟﺍ ﺓﺪﻤﻟﺍ ﻦﻣ ﻦﻳﺪﻛﺄﺘﻣ ﺎﻨﺴﻟ\n\n.ﻆﺤﻟﺍ ﻦﻣ ﺮﻴﺒﻛ ﺭﺪﻗ ﻰﻟﺇ ﻯﺰﻌﺗ ﻥﺃ ﺐﺠﻳ ﺔﺛﺭﺎﻜﻟﺍ ﻚﻠﺗ ﻦﻣ ﺎﻨﺗﺎﺠﻧ ﺔﻴﻔﻴﻛ ﻥﺇ .ﻢﺠﺤﻟﺍ ﺔﺗﻭﺎﻔﺘﻣ ﺮﺻﺎﻨﻋ ﻦﻣ ﺎﺒﺤﺳ ﺎﻫﺀﺍﺭﻭ ﺔﻛﺭﺎﺗ - ﺾﻌﺒﻟﺍ ﺎﻬﻀﻌﺑ ﺪﺿ ﺮﺠﻔﻨﺗﻭ ﻢﻄﺤﺘﺗﻭ ﺭﻭﺪﺗ ﺎﻬﻧﺇ .ﻪﻠﻤﻛﺄﺑ ﻥﻮﻜﻟﺍ ﻝﺩﺎﻌﺗ ﻲﺘﻟﺍ ﺔﻳﻭﺎﻤﺴﻟﺍ ﻡﺍﺮﺟﻸﻟ ﻞﻣﺎﺸﻟﺍ ﺭﺎﻣﺪﻟﺍ ﺪﻬﺸﻧ ﺪﻴﻛﺄﺘﻟﺎﺑ ﻦﺤﻧ .ﺎﻬﻠﻤﻛﺄﺑ ﺕﺍﺮﺠﻤﻟﺍ ،ﺕﻻﺎﺤﻟﺍ ﺾﻌﺑ ﻲﻓﻭ ...ﺭﺍﺮﻤﺘﺳﺎﺑ ﺔﻣﺩﺎﺼﺘﻤﻟﺍ ﻡﻮﺠﻨﻟﺍ ﺔﻤﻈﻧﺃ ﻦﻣ ﺔﻠﺘﻛ ﺎﻬﻧﺇ \n\n.ﻲﺿﺎﻤﻟﺍ ﻡﻮﻴﻟﺍ ﻝﺍﻮﻃ ﻚﻟﺬﺑ ﺎﻨﻤﻗ ﺪﻗﻭ ،ﺎﻨﻏﺍﺮﻓ ﺖﻗﻭ ﻲﻓ ﺔﻔﺻﺎﻌﻟﺍ "ﺭﺍﺪﺟ" ﺪﻘﻔﺗﻭ ﺎﻨﻔﻠﺧ ﺮﻈﻨﻟﺍ ﻰﻠﻋ ﻦﻳﺭﺩﺎﻗ ﻥﻵﺍ ﺎﻨﺤﺒﺻﺃ \n\n .ﺔﻔﺻﺎﻌﻟﺍ ﻞﺧﺍﺩ ﺎﻨﺑ ﺖﻘﺤﻟ ﻲﺘﻟﺍ ﺭﺍﺮﺿﻷﺍ ﻦﻣ ﺔﻣﺯﻼﻟﺍ ﺕﺎﺣﻼﺻﻹﺍ ﺾﻌﺑ ﺀﺍﺮﺟﻹ ﺔﺻﺮﻔﻟﺍ ﻩﺬﻫ ﺎﻧﺰﻬﺘﻧﺍ ﺪﻘﻟ .ﻞﻣﺎﻛ ﻍﺍﺮﻓ ﻞﺧﺍﺩ ﻮﻔﻄﻧ ﺎﻨﻧﺈﻓ ،ﻮﺘﻠﻟ ﻩﺎﻧﺮﺒﺘﺧﺍ ﺎﻣ ﻊﻣ ﺥﺭﺎﺻ ﺾﻗﺎﻨﺗ ﻲﻓﻭ .ﻙﺎﻜﺘﺣﺍ ﻱﺃ ﺪﺟﻮﻳ ﻻﻭ ،ﺎﻨﻫ ﺔﻴﺑﺫﺎﺠﻟﺍ ﻦﻣ ﺭﺪﻗ ﻱﺄﺑ ﺎﻴﻠﻌﻓ §Y$tech_rift_sphere$§! ﺮﺛﺄﺘﻳ ﻻ\n\n.ﻖﻠﻄﻤﻟﺍ ﺀﻭﺪﻬﻟﺎﺑ ﻢﺴﺘﺗ ﺔﻘﻄﻨﻣ ﻲﻓ ﺎﻴﻟﺎﺣ ﻦﺤﻧ"
+ astral_rift.920.desc.default: "$astral_rift.920.desc.1$\n\n.ﺔﻔﺻﺎﻌﻟﺍ ﻕﺍﺮﺘﺧﺍ ﻦﻣ ﺎﻨﻜﻤﺗ ،ﻯﺮﺒﻜﻟﺍ ﺎﻨﺘﺸﻫﺪﻟﻭ"
+ astral_rift.920.desc.gestalt: "$astral_rift.920.desc.1$\n\n.ﺔﻔﺻﺎﻌﻟﺍ ﺎﻨﻗﺮﺘﺧﺍ ﺪﻘﻟ"
+ astral_rift.920.a: ".ﻦﻴﻌﻟﺍ ﻲﻓ ﻖﻤﻋﺃ ﻑﺎﺸﻜﺘﺳﺍ"
+
+ astral_rift.925.name: "ﻞﺑﺎﻘﻳ"
+ astral_rift.925.desc.1: ".ﺯﺎﻬﺟ ﻙﺎﻨﻫ ،ﻻﻭﺃ\n\n.ﺎﻣﺎﻤﺗ ﺢﻴﺿﻮﺘﻠﻟ ،"ﻥﯫﻴﺷ" .ﺀﻭﺪﻬﻟﺍ ﺍﺬﻫ ﺐﻠﻗ ﻲﻓ ﺎﻣ ﯫﻴﺷ ﺎﻧﺪﺟﻭ ﺪﻘﻟ\n\n.ﻲﻟﺎﺤﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﺎﻨﺗﺎﻣﺎﻤﺘﻫﺍ ﻢﻫﺃ ﻮﻫ ﺍﺬﻫ ﺲﻴﻟ\n\n.ﺔﻋﺮﺳ ﻰﺼﻗﺄﺑ ﺓﺎﺳﺮﻤﻟﺍ ﻊﺟﺍﺮﺗ ﺪﻨﻋ ﻰﺘﺣ ﺔﻀﻔﺨﻨﻣ §Y$tech_rift_sphere$§! ﺀﺎﻘﺑ ﺔﺻﺮﻓ ﻥﺃ ﻰﻟﺇ ﺎﻨﺗﺎﺑﺎﺴﺣ ﺮﻴﺸﺗﻭ ،ﺝﺭﺎﺨﻟﺍ ﻲﻓ ﺔﻔﺻﺎﻌﻟﺍ ﺓﺪﺷ ﺪﻳﺍﺰﺘﺗ .ﻥﺎﻣﺄﺑ ﺓﺩﻮﻌﻟﺍ ﻦﻣ ﻦﻜﻤﺘﻧ ﻻ ﺪﻗ ﺎﻨﻧﺃ ﻦﻣ ﻖﻠﻘﻟﺎﺑ ﺮﻌﺸﻧ ،ﻚﻟﺫ ﻊﻣﻭ\n\n.ﺔﻴﻤﻠﺳ ﺔﻔﺻﺎﻌﻟﺍ "ﻦﻴﻋ" ﺰﻛﺮﻣ ﻰﻟﺇ ﺎﻨﺘﻠﺣﺭ ﺖﻧﺎﻛ"
+ astral_rift.925.desc.2: ".ﺔﻴﻟﺎﺤﻟﺍ ﻪﺘﻄﺸﻧﺃ ﻲﻓ ﺎﻣﺎﻤﺗ ﺎﺴﻤﻐﻨﻣ ﻭﺪﺒﻳﻭ ،ﺎﻨﻈﺣﻻ ﺪﻗ ﻪﻧﺃ ﺪﻘﺘﻌﻧ ﻻ\n\n.ﻦﺋﺎﻜﻟﺍ ﺐﻠﻃ ﻰﻠﻋ ﺀﺎﻨﺑ ﺝﺭﺎﺨﻟﺍ ﻮﺤﻧ ﻊﻓﺪﺗﻭ ﺔﻤﺨﻀﻟﺍ ﻝﺎﻜﺷﻷﺍ ﺐﺤﺴﺗ .ﺭﺍﺭﺯﺃ ﺪﺟﻮﺗ ﻻ ﻪﻧﺃ ﻰﻠﻋ ﺎﻌﻴﻤﺟ ﻖﻔﺘﻧ ،ﻚﻟﺫ ﻢﻏﺭ .ﺎﻬﻴﻠﻋ ﻂﻐﻀﻳ ﻪﻧﺃ ﻭﺪﺒﻴﺴﻓ ،ﺯﺎﻬﺠﻟﺍ ﻰﻠﻋ ﺓﺩﻮﺟﻮﻣ ﺭﺍﺭﺯﻷﺍ ﺖﻧﺎﻛ ﺍﺫﺇ .ﻕﺪﺼﺗ ﻻ ﺔﻟﻮﻬﺴﺑ ﺔﻨﻴﻛﺎﻤﻟﺍ ﺢﻄﺳ ﻝﻮﻃ ﻰﻠﻋ ﻖﻓﺪﺘﻳﻭ ﺺﻗﺮﻳ ﻮﻬﻓ .ﻞﺼﻔﻨﻣ ﻥﺎﻴﻛ ﻪﻧﺃ ﺢﺿﺍﻮﻟﺍ ﻦﻣ\n\n.ﺯﺎﻬﺠﻟﺎﺑ ﺐﻋﻼﺘﻳ ﺀﻲﺷ ﻙﺎﻨﻫ\n\n.ﻲﻧﺎﺜﻟﺍ ﻦﺋﺎﻜﻟﺍ ﺭﻭﺩ ﻲﺗﺄﻳ ﺎﻨﻫﻭ .ﺔﻴﺣ ﺖﺴﻴﻟﻭ ﺔﻟﺁ ﺎﻬﻧﺃ ﺪﻘﺘﻌﻧ ﻦﺤﻧ .ﺀﻲﺸﻠﻟ ﺔﻘﻴﻗﺪﻟﺍ ﺔﻴﻨﺒﻟﺍ ﻒﺻﻭ ﺍﺪﺟ ﺐﻌﺼﻟﺍ ﻦﻣ ﻞﻌﺠﻳ ﺎﻤﻣ ،ﺓﺪﺣﺍﻭ ﺔﻄﻘﻧ ﻲﻓ ﻲﻔﺘﺨﺗ ﺔﻴﻟﺎﺘﻛﺮﻓ ﻁﺎﻤﻧﺃ ﻰﻟﺇ ﺔﻴﺳﺪﻨﻬﻟﺍ ﺎﻬﻟﺎﻜﺷﺃ ﻦﻣ ﺪﻳﺪﻌﻟﺍ ﻢﺴﻘﻨﺗ .ﻦﺋﺎﻜﻟﺍ ﺍﺬﻫ ﺩﺎﻌﺑﺃ ﻊﻴﻤﺟ ﺔﺒﻗﺍﺮﻣ ﻰﻠﻋ ﻥﻭﺭﺩﺎﻗ ﺎﻨﻧﺃ ﻦﻣ ﺎﻣﺎﻤﺗ ﻦﻳﺪﻛﺄﺘﻣ ﺎﻨﺴﻟ ﻦﺤﻧ"
+ astral_rift.925.desc.default: "astra_rift.925.desc.2$$ .ﻪﺘﻌﻴﺒﻄﺑ ﻡﻮﻬﻔﻣ ﺮﻴﻏ ﺮﻣﺃ ﻪﻧﺇ\n\n$astral_rift.925.desc.1$"
+ astral_rift.925.desc.gestalt: "astra_rift.925.desc.2$$ .ﺎﻬﺘﻌﻴﺒﻄﺑ ﺔﻣﻮﻬﻔﻣ ﺮﻴﻏ ﻲﻬﻓ ،ﺎﻨﻤﻗﺎﻄﻟ ﺔﻌﻤﺠﻤﻟﺍ ﺔﻓﺮﻌﻤﻟﺍ ﻞﻛ ﻰﻟﺇ ﺔﺒﺴﻨﻟﺎﺑ\n\n$astral_rift.925.desc.1$"
+ astral_rift.925.a: ".ﺵﻼﻓ ﺀﺍﻮﺿﺃ"
+ astral_rift.925.b: ".ﺐﻗﺍﺮﻳ"
+
+ astral_rift.930.name: "ﺵﻼﻓ ﺀﺍﻮﺿﺃ"
+ astral_rift.930.desc: ".ﺔﻈﺤﻟ ﻱﺃ ﻲﻓ ﺓﺎﺳﺮﻤﻟﺍ ﺐﺤﺴﻟ ﺪﻌﺘﺴﻧ ﻦﺤﻧ\n\n .ﻞﺧﺍﺪﻟﺍ ﻰﻟﺇ ﻚﻟﺫ ﺪﻌﺑ ﺭﺎﻬﻨﻳ ﻥﺃ ﻦﻜﻤﻤﻟﺍ ﻦﻣﻭ .ﻂﻘﻓ ﺔﻠﻴﻠﻗ ﻡﺎﻳﺃ ﻝﻼﺧ ﻢﺧﺰﻟﺍ ﻲﻓ ﻞﻣﺎﻛ ﻒﻗﻮﺗ ﻰﻟﺇ ﻞﺼﻳ ﻥﺃ ﻊﻗﻮﺘﻧﻭ .ﺓﺪﺷ .ﺎﻨﺑ ﺔﻄﻴﺤﻤﻟﺍ ﺔﻔﺻﺎﻌﻟﺍ ﺖﻟﺀﺎﻀﺗ ،ﻪﻌﻓﺩﻭ ﺯﺎﻬﺠﻟﺍ ﺐﺤﺳ ﻦﻋ ﻪﻴﻓ ﻒﻗﻮﺗ ﻱﺬﻟﺍ ﺖﻗﻮﻟﺍ ﻲﻓ ﻪﻧﺃ ﺎﻨﻈﺣﻻ ﺪﻘﻟ \n\n .ﺎﻧﺪﻠﻘﻳ ﺎﻤﺑﺭ ﻪﻧﺃ ﻲﻫ ﺎﻨﺗﺎﻨﻬﻜﺗ ﻝﻭﺃ \n\n .ﺲﻣﺍﺪﻟﺍ ﻡﻼﻈﻟﺍ ﻦﻣ ﺎﻣﺎﻤﺗ ﻱﺮﺋﺍﺩ ﻝﺎﺠﻣ ﻰﻟﺇ ﺐﺤﺴﻧﺍﻭ ،ﺯﺎﻬﺠﻟﺍ ﻊﻣ ﻞﻣﺎﻌﺘﻟﺍ ﻦﻋ ﻦﺋﺎﻜﻟﺍ ﻒﻗﻮﺗ ﺪﻘﻟ \n\n .ﺎﻳﺍﻮﻨﻟﺍ ﻝﺎﻜﺷﺃ ﻦﻣ ﻞﻜﺷ ﻞﻴﺻﻮﺘﻟ ﻂﻴﺴﺑ ﻲﺋﺎﻨﺛ ﻂﻤﻧ ﻲﻓ ﺎﻬﻀﺒﻨﺑ ﺎﻨﻤﻗ ﺪﻘﻟ .ﺔﺣﺎﺘﻤﻟﺍ ﻑﺎﻴﻃﻷﺍ ﻊﻴﻤﺠﺑ ﺀﺍﻮﺿﻷﺍ ﻦﻣ ﺔﻠﺴﻠﺳ ﺎﻨﻘﻠﻃﺃ ﺪﻘﻟ\n\n.ﻞﻣﺎﻛ ﺐﻫﺄﺗ ﺔﻟﺎﺣ ﻲﻓ ﺎﻨﻴﻘﺑﻭ ،ﺎﻬﻫﺎﺒﺘﻧﺍ ﺎﻨﺑﺬﺟ ﺪﻘﻟ"
+ astral_rift.930.a: "..ﺮﻄﺧ ﺔﻣﻼﻋ ﻱﺃ ﺪﻨﻋ ﻊﺟﺍﺮﺗ"
+
+ astral_rift.935.name: "ﺐﻗﺍﺮﻳ"
+ astral_rift.935.desc.1: "ﺪﻴﻛﺄﺘﻟﺎﺑ ﺎﻨﻟ ﻒﺸﻜﺘﺳ ﻲﺘﻟﺍ ﺔﻤﻬﻤﻟﺍ ﺔﻴﻤﻠﻌﻟﺍ ﺔﻠﺌﺳﻷﺍ ﺾﻌﺒﺑ ﺔﻴﺒﻠﺴﻟﺍ ﺎﻨﺗﺎﻈﺣﻼﻣ ﺎﻨﺗﺩﻭﺯ ﺪﻘﻟ\n\n.ﺀﺎﻤﻟﺍ ﻦﻣ ﺔﻛﺮﺑ ﻲﻓ ﺎﺳﻮﻤﻐﻣ [explorer.GetSpeciesHandName] ﻞﺜﻣ ﺎﻤﺑﺭ .ﻖﺤﻠﻣ ﺩﺮﺠﻣ ﺪﻬﺸﻧ ﻦﺤﻧﻭ ،ﺪﻌﺒﻟﺍ ﺍﺬﻫ ﻲﻓ ﻂﻘﻓ ﺎﻴﺋﺰﺟ ﺩﻮﺟﻮﻣ ﻦﺋﺎﻜﻟﺍ ﻥﺃ ﺪﻘﺘﻌﻧ ﺎﻧﺃﺪﺑ ﺪﻘﻟ \n\n .ﺔﻴﺑﺫﺎﺟ ﺓﻮﻗ ﻥﻭﺪﺑ ﺎﻨﺑﺬﺠﻳ ﻪﻧﺃ ﺐﻳﺮﻐﻟﺍﻭ .ﺎﻬﻠﻤﻛﺄﺑ ﺔﻓﻭﺮﻌﻤﻟﺍ ﺎﻨﺗﺮﺠﻣ ﻢﺠﺣ ﺔﻟﻮﻬﺴﺑ ﻝﺩﺎﻌﺗ ﺎﻬﻨﻣ ﺀﺍﺰﺟﺃ ﻥﺃ ﻦﻣ ﻦﻴﻘﻳ ﻰﻠﻋ ﺎﻨﻧﺃ ﻻﺇ ،ﺏﺎﺴﺤﻟﺍ ﺔﺒﻌﺻ ﻝﺍﺰﺗ ﻻ ﺩﺎﻌﺑﻷﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ\n\n.ﺎﻨﻟ ﺔﺒﺴﻨﻟﺎﺑ ﺎﻫﺭﻮﺼﺗ ﻦﻜﻤﻳ ﻻ ﺔﻟﻵﺍ ﻩﺬﻫ ﻊﻣ ﻞﻣﺎﻌﺘﻠﻟ ﺎﻬﻣﺪﺨﺘﺴﻳ ﻥﺃ ﺐﺠﻳ ﻲﺘﻟﺍ ﺓﻮﻘﻟﺍ ﻥﺇ\n\n.ﻥﺎﻴﻜﻟﺍ ﺍﺬﻫ ﻩﺎﺒﺘﻧﺍ ﺏﺬﺟ ﻡﺪﻋ ﺔﻤﻜﺤﻟﺍ ﻦﻣ ﻪﻧﺃ ﻰﻠﻋ ﻖﻔﺘﻧ ﻦﺤﻧ"
+ astral_rift.935.desc.2: ".ﻪﻘﻳﺮﻃ ﺮﻳﺮﻘﺘﻟﺍ ﺍﺬﻫ ﻖﺸﻳ ﻥﺃ ﺔﻄﻳﺮﺷ"
+ astral_rift.935.desc.default: "$astral_rift.935.desc.1$ ﺖﻗﻮﻟﺍ ﺾﻌﺒﻟ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﻲﻓ ﻝﻮﻘﻌﻟﺍ ﻢﻈﻋﺃ ﺩﺭﺎﻄﻳ، $astral_rift.935.desc.2$"
+ astral_rift.935.desc.gestalt: "$astra_rift.935.desc.1$ ﺮﻴﺒﻛ ﻞﻜﺸﺑ ﺎﻨﺘﻳﺭﻮﻃﺍﺮﺒﻣﺇ ﺪﻴﻔﻳ، $astra_rift.935.desc.2$"
+ astral_rift.935.a: ".ﺭﺬﺤﺑ ﻆﺣﻻ"
+
+ astral_rift.940.name: "ﻙﺮﺘﻳ"
+ astral_rift.940.desc.1: ".ﻞﻫﺬﻣ ﺎﻧﺀﺍﺭﻭ ﻪﻔﻠﺧ ﻱﺬﻟﺍ ﻲﻧﻮﻜﻟﺍ ﺭﺎﻣﺪﻠﻟ ﻞﺋﺎﻬﻟﺍ ﻢﺠﺤﻟﺍ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋ ،ﻥﺎﻣﺄﺑ ﺎﻬﻴﻓ ﺭﺎﺤﺑﻹﺍ ﻦﻜﻤﻳ ﻲﺘﻟﺍ ﺔﻄﻘﻨﻟﺍ ﻰﻟﺇ ﺎﻨﻟﻮﺣ ﻦﻣ ﺔﻔﺻﺎﻌﻟﺍ ﺖﻟﺀﺎﻀﺗ\n\n.ﻪﻔﻠﺧ ﺯﺎﻬﺠﻟﺍ ﻯﻮﺳ ﻖﺒﺘﻳ ﻢﻟﻭ ،ﺎﻣﺎﻤﺗ ﻦﺋﺎﻜﻟﺍ ﻰﻔﺘﺧﺍ ﺪﻘﻟ\n\n.ﻰﻔﺘﺧﺍ ،ﺓﺄﺠﻓﻭ"
+ astral_rift.940.desc.2: ".ﺔﻴﻘﻴﻘﺤﻟﺍ ﺔﻤﺋﺍﺪﻟﺍ ﺔﻛﺮﺤﻠﻟ ﻼﻫﺬﻣ ﻻﺎﺜﻣ ﻥﻮﻜﻳ ﺪﻗ ﺍﺬﻫ ﻥﺃ ﺪﻘﺘﻌﻧﻭ ،ﻲﻠﺧﺍﺩ ﺔﻗﺎﻃ ﺭﺪﺼﻣ ﻱﺃ ﻑﺎﺸﺘﻛﺍ ﺎﻨﻨﻜﻤﻳ ﻻ .ﺔﻟﻮﻬﺴﺑ ﻢﻴﻘﺘﺴﻣ ﻊﺿﻭ ﻲﻓ ﻪﻴﻘﺒﻳ ﻪﻤﺧﺯﻭ ﻪﻠﻘﺛ ﺰﻛﺮﻣ ﻞﻌﺠﻳ ﻲﺘﻟﺍ ﺔﻄﻘﻨﻟﺍ ﻰﻟﺇ ﺓﺮﻴﺒﻛ ﺔﻋﺮﺴﺑ ﺭﻭﺪﻳ ﻑﻮﺳ ﺯﺎﻬﺠﻟﺍ ﺍﺬﻫ ﻥﺈﻓ ،ﻪﻴﻠﻋ ﺮﻘﺘﺴﻳ ﻱﺬﻟﺍ ﺢﻄﺴﻟﺍ ﻦﻋ ﺮﻈﻨﻟﺍ ﺾﻐﺑ \n\n .ﺔﺳﺍﺭﺪﻟﺍ ﻦﻣ ﺪﻳﺰﻤﻟ ﺎﻨﺘﻨﻴﻔﺳ ﻞﺧﺍﺩ ﻪﻠﻴﻤﺤﺗ ﻦﻣ ﺎﻨﻜﻤﺗ ﺪﻘﻓ ،ﺔﻘﻴﺿ ﻥﻮﻜﺗ ﻥﺃ ﻞﻤﺘﺤﻤﻟﺍ ﻦﻣ ﺓﺩﻮﻌﻟﺍ ﻑﻭﺮﻇ ﻥﺃ ﻦﻣ ﻢﻏﺮﻟﺍ ﻰﻠﻋﻭ ،ﺎﻛﻮﻜﻔﻣ ﺹﻮﺼﺨﻟﺍ ﻪﺟﻭ ﻰﻠﻋ ﺎﻤﻫﺪﺣﺃ ﻥﺎﻛ .ﺔﻳﺎﻐﻠﻟ ﺔﻴﻟﺎﻋ ﺔﻋﺮﺴﺑ ﺭﻭﺪﻳ ﺎﻬﻨﻣ ﻞﻛ ،ﻲﺟﺭﺎﺨﻟﺍ ﺎﻬﻓﻼﻐﺑ ﺎﻴﺴﻴﻃﺎﻨﻐﻣ ﺔﻄﺒﺗﺮﻤﻟﺍ ﺔﻴﺟﺭﺎﺨﻟﺍ ﺓﺰﻬﺟﻷﺍ ﻦﻣ ﻞﻴﻠﻗ ﺩﺪﻋ ﻙﺎﻨﻫ ،ﻚﻟﺫ ﻊﻣﻭ .ﻑﻭﺮﻌﻣ ﺯﺎﻬﺟ ﻱﺃ ﻡﺍﺪﺨﺘﺳﺎﺑ ﺎﻫﺮﺴﻛ ﻭﺃ ﺎﻬﻨﻣ ﺔﻋﻮﻨﺼﻤﻟﺍ ﺓﺩﺎﻤﻟﺍ ﻢﻴﺴﻘﺗ ﻦﻜﻤﻳ ﻻ\n\n.ﺯﺎﻬﺠﻟﺍ ﻦﻣ ﺏﺍﺮﺘﻗﻼﻟ ﺔﻴﻓﺎﻜﻟﺍ ﺔﻘﺜﻟﺎﺑ ﺎﻧﺮﻌﺷ ،ﻥﺎﻴﻜﻟﺍ ﺀﺎﻔﺘﺧﺍ ﻊﻣ"
+ astral_rift.940.desc.spiritualist: "$astral_rift.940.desc.2$\n\n.ﻲﺋﺎﻬﻨﻟﺍ ﻡﻼﺴﻟﺍ ﻰﻟﺇ ﻢﻬﻘﻳﺮﻃ ﺍﻭﺪﺠﻳ ﻥﺃ ﷲ ﻮﻋﺪﻧ\n\n$astral_rift.940.desc.1$"
+ astral_rift.940.desc.default: "$astral_rift.940.desc.2$\n\n$astra_rift.940.desc.1$"

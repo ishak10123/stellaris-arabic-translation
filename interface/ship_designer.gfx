@@ -1,0 +1,455 @@
+spriteTypes = {
+
+	corneredTileSpriteType = {
+		name = "GFX_black_box_designer"
+		texturefile = "gfx/interface/tiles/black_bg_tile.dds"
+		borderSize = { x=5 y=5 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	spriteType = {
+		name = "GFX_ship_designer_grid_3_2"
+		texturefile = "gfx/interface/ship_designer/ship_designer_grid_3_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_designer_grid_4_2"
+		texturefile = "gfx/interface/ship_designer/ship_designer_grid_4_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_designer_black_fade_upper"
+		texturefile = "gfx/interface/ship_designer/ship_designer_black_fade_upper.tga"
+	}
+
+	spriteType = {
+		name = "GFX_ship_designer_black_fade_lower"
+		texturefile = "gfx/interface/ship_designer/ship_designer_black_fade_lower.tga"
+	}
+
+	spriteType = {
+		name = "GFX_ship_designer_special_slot"
+		texturefile = "gfx/interface/ship_designer/ship_designer_special_slots.tga"
+	}
+
+	spriteType = {
+		name = "GFX_ship_designer_values_bg"
+		texturefile = "gfx/interface/ship_designer/ship_designer_values_bg.tga"
+	}
+
+	spriteType = {
+		name = "GFX_ship_designer_rename_box"
+		texturefile = "gfx/interface/ship_designer/ship_designer_rename_box.tga"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_ship_designer_rename_box_resize"
+		texturefile = "gfx/interface/ship_designer/ship_designer_rename_box.tga"
+		borderSize = { x=5 y=5 }
+	}
+
+	spriteType = {
+		name = "GFX_ship_designer_slot"
+		texturefile = "gfx/interface/ship_designer/ship_designer_slot.dds"
+		noOfFrames = 16
+	}
+
+	spriteType = {
+		name = "GFX_ship_designer_slot_allowed"
+		texturefile = "gfx/interface/ship_designer/ship_designer_slot_allowed.dds"
+		noOfFrames = 2
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ship_designer_item_bg"
+		texturefile = "gfx/interface/removed.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_designer_item_selected"
+		texturefile = "gfx/interface/ship_designer/ship_designer_item_selected.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_design_entry_button"
+		texturefile = "gfx/interface/buttons/ship_design_entry_button.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_ship_design_entry_bg"
+		texturefile = "gfx/interface/ship_designer/ship_design_entry_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_bg"
+		texturefile = "gfx/interface/ship_designer/ship_part_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_ship_designer_slot_indicator"
+		texturefile = "gfx/interface/ship_designer/ship_designer_slot_indicator.dds"
+		noOfFrames = 10
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_ship_designer_blocker"
+		size= {x=30 y=30 }
+		texturefile = "gfx/interface/tiles/black_bg_tile.dds"
+		borderSize = { x=14 y=14 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	spriteType = {
+		name = "GFX_ship_designer_selector_item_bg"
+		texturefile = "gfx/interface/ship_designer/ship_designer_selector_item_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_button_ship_designer_slot_48_48"
+		texturefile = "gfx/interface/buttons/button_ship_designer_slot_48_48.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_ship_designer_slot_48_48_mask.dds"
+			animationtexturefile = "gfx/interface/buttons/button_48_animated_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 25.0
+			animationdelay = 0.0
+			animationblendmode = "overlay"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+
+	spriteType = {
+		name = "GFX_dummy_3d_ship_view"
+		texturefile = "gfx/interface/transp_white.dds"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		alwaystransparent = no
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "GFX_dummy_3d_creature_designer_view"
+		texturefile = "gfx/interface/transp_white.dds"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		alwaystransparent = no
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "GFX_dummy_ingame_3d_ship_view"
+		texturefile = "gfx/interface/transp_white.dds"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		alwaystransparent = no
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "GFX_dummy_3d_design_entry"
+		texturefile = "gfx/interface/ship_designer/ship_design_entry_bg.dds"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		alwaystransparent = yes
+		transparencecheck = no
+	}
+	spriteType = {
+		name = "GFX_dummy_3d_section_entry"
+		texturefile = "gfx/interface/ship_designer/ship_design_entry_bg.dds"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		alwaystransparent = yes
+		transparencecheck = no
+	}
+	spriteType = {
+		name = "GFX_dummy_3d_size_entry"
+		texturefile = "gfx/interface/ship_designer/ship_design_entry_bg.dds"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		alwaystransparent = no
+		transparencecheck = no
+	}
+	spriteType = {
+		name = "GFX_dummy_3d_ship_details"
+		texturefile = "gfx/interface/ship_designer/ship_design_entry_bg.dds"
+		effectFile = "gfx/FX/buttonstate_rendertarget.shader"
+		alwaystransparent = yes
+		transparencecheck = no
+	}
+
+	spriteType = {
+		name = "GFX_select_icon"
+		texturefile = "gfx/interface/ship_designer/ship_designer_slot_allowed.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_background"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_background.dds"
+	}
+
+	spriteType = {
+		name = "GFX_slot_bg"
+		texturefile = "gfx/interface/ship_designer/slot_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_armor"
+		texturefile = "gfx/interface/icons/ship_stats/armor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_build_cost"
+		texturefile = "gfx/interface/icons/ship_stats/build_cost.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_build_time"
+		texturefile = "gfx/interface/icons/ship_stats/build_time.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_damage"
+		texturefile = "gfx/interface/icons/ship_stats/damage.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_evasion"
+		texturefile = "gfx/interface/icons/ship_stats/evasion.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_hit_points"
+		texturefile = "gfx/interface/icons/ship_stats/hit_points.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_mineral_maintenance"
+		texturefile = "gfx/interface/icons/ship_stats/maintenance.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_energy_maintenance"
+		texturefile = "gfx/interface/icons/ship_stats/maintenance.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_power"
+		texturefile = "gfx/interface/icons/ship_stats/power.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_shield"
+		texturefile = "gfx/interface/icons/ship_stats/shield.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_special"
+		texturefile = "gfx/interface/icons/ship_stats/special.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_stats_speed"
+		texturefile = "gfx/interface/icons/ship_stats/speed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_creature_designer_mutation_slot"
+		noOfFrames = 2
+		texturefile = "gfx/interface/ship_designer/creature_designer_mutation_slot.dds"
+	}
+
+	spriteType = {
+		name = "GFX_creature_designer_mutation_slot_locked"
+		texturefile = "gfx/interface/ship_designer/creature_designer_mutation_slot_locked.dds"
+	}
+
+	spriteType = {
+		name = "GFX_creature_designer_unique_mutation_icon"
+		texturefile = "gfx/interface/ship_designer/creature_designer_unique_mutation_icon.dds"
+	}
+
+	corneredTileSpriteType =  {
+		name = "GFX_section_mask"
+		texturefile = "gfx/interface/ship_designer/mask.dds"
+		borderSize = { x= 1 y= 1 }
+		#tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	corneredTileSpriteType =  {
+		name = "GFX_section_pattern"
+		texturefile = "gfx/interface/ship_designer/pattern.dds"
+		borderSize = { x= 1 y= 1 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	spriteType = {
+		name = "GFX_role_selection_background"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/default.dds"
+	}
+
+	spriteType = {
+		name = "GFX_role_selection_battleship"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/battleship.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_colossus"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/colossus.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_corvette"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/corvette.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_cruiser"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/cruiser.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_defense_platform"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/defense_platform.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_destroyer"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/destroyer.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_frigate"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/frigate.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_harbinger"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/harbinger.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_ion_cannon"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/ion_cannon.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_juggernaut"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/juggernaut.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_mauler"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/mauler.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_stinger"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/stinger.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_bio_titan"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/bio_titan.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_titan"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/titan.dds"
+	}
+	spriteType = {
+		name = "GFX_role_selection_weaver"
+		texturefile = "gfx/interface/ship_designer/role_selection_background/weaver.dds"
+	}
+
+	spriteType = {
+		name = "GFX_role_role_none"
+		texturefile = "gfx/interface/ship_designer/role_selection/custom.dds"
+	}
+	spriteType = {
+		name = "GFX_role_artillery"
+		texturefile = "gfx/interface/ship_designer/role_selection/artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_role_artillery_stealth"
+		texturefile = "gfx/interface/ship_designer/role_selection/artillery_stealth.dds"
+	}
+	spriteType = {
+		name = "GFX_role_brawler"
+		texturefile = "gfx/interface/ship_designer/role_selection/brawler.dds"
+	}
+	spriteType = {
+		name = "GFX_role_brawler_stealth"
+		texturefile = "gfx/interface/ship_designer/role_selection/brawler_stealth.dds"
+	}
+	spriteType = {
+		name = "GFX_role_buffer_role"
+		texturefile = "gfx/interface/ship_designer/role_selection/buffer_role.dds"
+	}
+	spriteType = {
+		name = "GFX_role_buffer_role_stealth"
+		texturefile = "gfx/interface/ship_designer/role_selection/buffer_role_stealth.dds"
+	}
+	spriteType = {
+		name = "GFX_role_carrier"
+		texturefile = "gfx/interface/ship_designer/role_selection/carrier.dds"
+	}
+	spriteType = {
+		name = "GFX_role_carrier_stealth"
+		texturefile = "gfx/interface/ship_designer/role_selection/carrier_stealth.dds"
+	}
+	spriteType = {
+		name = "GFX_role_citadel"
+		texturefile = "gfx/interface/ship_designer/role_selection/artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_role_debuffer_role"
+		texturefile = "gfx/interface/ship_designer/role_selection/debuffer_role.dds"
+	}
+	spriteType = {
+		name = "GFX_role_debuffer_role_stealth"
+		texturefile = "gfx/interface/ship_designer/role_selection/debuffer_role_stealth.dds"
+	}
+	spriteType = {
+		name = "GFX_role_energy_torpedoes"
+		texturefile = "gfx/interface/ship_designer/role_selection/energy_torpedoes.dds"
+	}
+	spriteType = {
+		name = "GFX_role_energy_torpedoes_stealth"
+		texturefile = "gfx/interface/ship_designer/role_selection/energy_torpedoes_stealth.dds"
+	}
+	spriteType = {
+		name = "GFX_role_explosive"
+		texturefile = "gfx/interface/ship_designer/role_selection/explosive.dds"
+	}
+	spriteType = {
+		name = "GFX_role_explosive_stealth"
+		texturefile = "gfx/interface/ship_designer/role_selection/explosive_stealth.dds"
+	}
+	spriteType = {
+		name = "GFX_role_gunship"
+		texturefile = "gfx/interface/ship_designer/role_selection/gunship.dds"
+	}
+	spriteType = {
+		name = "GFX_role_gunship_stealth"
+		texturefile = "gfx/interface/ship_designer/role_selection/gunship_stealth.dds"
+	}
+	spriteType = {
+		name = "GFX_role_screen"
+		texturefile = "gfx/interface/ship_designer/role_selection/screen.dds"
+	}
+	spriteType = {
+		name = "GFX_role_screen_stealth"
+		texturefile = "gfx/interface/ship_designer/role_selection/screen_stealth.dds"
+	}
+
+	spriteType = {
+		name = "GFX_button_clear_designs"
+		texturefile = "gfx/interface/ship_designer/button_clear_designs.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_button_complete_designs"
+		texturefile = "gfx/interface/ship_designer/button_complete_designs.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_button_save_designs"
+		texturefile = "gfx/interface/ship_designer/button_save_designs.dds"
+		noOfFrames = 3
+	}
+}

@@ -1,0 +1,9 @@
+﻿l_spanish:
+ ENTERING_GAME_LOBBY:0 "ﺔﺒﻌﻠﻟﺍ ﺕﺍﺩﺍﺪﻋﺇ ﻰﻟﺇ ﻝﻮﺧﺪﻟﺍ"
+ SERVER_LAUNCHING_MP:0 "ﻦﻴﺒﻋﻼﻟﺍ ﺓﺩﺪﻌﺘﻣ ﺔﺒﻌﻟ ﻕﻼﻃﺇ"
+ SERVER_NAME:0 "$NAME$ :ﻡﺩﺎﺨﻟﺍ ﻢﺳﺍ"
+ SERVER_PASSWORD:0 "$PASSWORD$ :ﻡﺩﺎﺨﻟﺍ ﺭﻭﺮﻣ ﺔﻤﻠﻛ"
+ LAUNCHING_GAME:0 "ﺔﺒﻌﻟ ﻕﻼﻃﺇ"
+ STANDALONE_WAITING_FOR_PLAYERS:0 "ﻦﻴﺒﻋﻼﻟﺍ ﻦﻣ $NUM$ ﺭﺎﻈﺘﻧﺍ ﻲﻓ"
+ RECEIVED_GAMESERVER_ID:0 "$SERVERID$ :ﻢﻠﺘﺴﻤﻟﺍ ﻡﺩﺎﺨﻟﺍ ﻑﺮﻌﻣ"
+ RECEIVED_LOBBY_SERVER:0 "ﻲﺑﻮﻠﻟﺍ ﻡﺩﺎﺧ ﻡﻼﺘﺳﺍ ﻢﺗ"
